@@ -3,7 +3,8 @@ import requests
 from bs4 import BeautifulSoup
 import base64
 from playwright.sync_api import TimeoutError
-from typeChecker import check_fill_in_the_blank, check_multiple_choices
+from typeChecker import check_fill_in_the_blank, check_multiple_choices, check_ordering_items, check_drag_and_drop
+
 
 def screenshot_question_section(url, output_path="question.png"):
     with sync_playwright() as p:
@@ -32,6 +33,47 @@ def screenshot_question_section(url, output_path="question.png"):
         print(f"Screenshots saved to {output_path}")
 
         browser.close()
+
+def extract_answer_explanation(page, json):
+    try:
+        print("Extracting answer explanation...")
+        res = page.wait_for_selector("section.solve-box section.ixl-practice-crate", timeout=5000)
+        explanation = res.inner_text().replace("\xa0", "")
+        json["explanation"] = explanation
+        print("Explanation extracted.")
+        return
+    except Exception as e:
+        print("An error occurred while extracting the explanation:", e)
+        return
+
+def extract_answer_explanation_with_images(page, json):
+    try:
+        print("Extracting answer explanation with graphics as image...")
+        print("Extracting graphics first...")
+        res = page.query_selector_all("section.solve-box section.ixl-practice-crate div.fractionBarContainer")
+        for i, option in enumerate(res):
+            image_bytes = option.screenshot()
+            option.screenshot(path=f"option{i}.png")
+            image_b64 = base64.b64encode(image_bytes).decode("utf-8")
+            json["explanation_image_tag"].append(image_b64)
+        image_bytes = res.screenshot(path=f"answer_explanation_image_tag.png")
+        image_b64 = base64.b64encode(image_bytes).decode("utf-8")
+        json["explanation_image_tag"] = image_b64
+        print("explanation images extracted.")
+    except Exception as e:
+        print("An error occurred while extracting the graphics from the explanation:", e)
+        return
+
+    try:
+        print("Extracting answer explanation text...")
+        res = page.wait_for_selector("section.solve-box section.ixl-practice-crate", timeout=5000)
+        explanation = res.inner_text().replace("\xa0", "")
+        json["explanation"] = explanation
+        print("Explanation text extracted.")
+        return
+    except Exception as e:
+        print("An error occurred while extracting the explanation text:", e)
+        return
 
 def extract_question_text2(url):
     with sync_playwright() as p:
@@ -175,6 +217,152 @@ def extract_answer_multiple_choices(page, json):
         print("Saved the index of the answer in options")
         return
 
+def extract_answer_ordering_items(page, json):
+    try:
+        print("Collecting all items...")
+        options = page.query_selector_all(
+            "section.ixl-practice-crate div.order-items-item.order-items-numbers")
+
+    except TimeoutError:
+        print("Error occurred while collecting ordering items")
+        return
+
+    try:
+        print("Taking screenshots of all ordering items...")
+        json["order_items"] = []
+        for i, option in enumerate(options):
+            image_bytes = option.screenshot()
+            option.screenshot(path=f"order_item{i}.png")
+            image_b64 = base64.b64encode(image_bytes).decode("utf-8")
+            json["order_items"].append(image_b64)
+    except Exception as e:
+        print("Error while taking screenshots of ordering items:", e)
+        return
+
+    try:
+        print("Clicking submit button right away...")
+        submit_button = page.get_by_role("button", name="Submit")
+        submit_button.click()
+        print("Submit button clicked.")
+    except Exception as e:
+        print(f"Error clicking the Submit button: {e}")
+        return
+
+    # There exists a pop up so need to confirm submission
+    try:
+        res = page.wait_for_selector("div.ixl-modal-inside div.ixl-modal-content h3.hd", timeout=8000)
+        text = res.inner_text()
+        if "Incomplete" in text:
+            print("Confirming submission of ordering items...")
+            confirm_button = page.get_by_label("Incomplete Answer").get_by_role("button", name="Submit")
+            confirm_button.click()
+            print("Submission confirmed.")
+    except TimeoutError:
+        print("No pop up confirmation found, something went wrong")
+        return
+
+    try:
+        print("Waiting for the correct answer section to appear...")
+        page.wait_for_selector("div.correct-answer.ixl-practice-crate", timeout=7000)
+        print("Correct answer section appeared.")
+        extract_answer_explanation(page, json)
+        print("Extracting correct number order...")
+        answer = page.query_selector("section.solve-box section.ixl-practice-crate div.order-items-container.interactive")
+        if answer:
+            print("Taking a screenshot of the correct order...")
+            image_bytes = answer.screenshot()
+            answer.screenshot(path="correct_order.png")
+            image_b64 = base64.b64encode(image_bytes).decode("utf-8")
+            json["answer"] = image_b64
+            print("Correct order extracted and saved.")
+            return
+    except TimeoutError:
+        print("Correct answer section did not appear.")
+        return
+
+# AKA sorting items
+def extract_answer_drag_and_drop(page, json):
+    try:
+        print("Collecting all drag and drop items...")
+        options = page.query_selector_all(
+            "section.ixl-practice-crate div.ddItemBankDropSlot.dropArea")
+
+    except TimeoutError:
+        print("Error occurred while collecting drag and drop items")
+        return
+
+    try:
+        print("Collecting all drag and drop categories...")
+        categories = page.query_selector_all(
+            "section.ixl-practice-crate div.binsContainer div.bin.dropArea")
+    except TimeoutError:
+        print("Error occurred while collecting drag and drop categories")
+        return
+
+    try:
+        print("Taking screenshots of all drag and drop items...")
+        json["drag_and_drop_items"] = []
+        for i, option in enumerate(options):
+            image_bytes = option.screenshot()
+            option.screenshot(path=f"drag_and_drop_item{i}.png")
+            image_b64 = base64.b64encode(image_bytes).decode("utf-8")
+            json["drag_and_drop_items"].append(image_b64)
+    except Exception as e:
+        print("Error while taking screenshots of drag and drop items:", e)
+        return
+
+    try:
+        print("Taking screenshots of all drag and drop categories...")
+        json["categories"] = []
+        for i, option in enumerate(categories):
+            image_bytes = option.screenshot()
+            option.screenshot(path=f"drag_and_drop_categories{i}.png")
+            image_b64 = base64.b64encode(image_bytes).decode("utf-8")
+            json["categories"].append(image_b64)
+    except Exception as e:
+        print("Error while taking screenshots of drag and drop items:", e)
+        return
+
+    try:
+        print("Clicking submit button right away...")
+        submit_button = page.get_by_role("button", name="Submit")
+        submit_button.click()
+        print("Submit button clicked.")
+    except Exception as e:
+        print(f"Error clicking the Submit button: {e}")
+        return
+
+    # There exists a pop up so need to confirm submission
+    try:
+        res = page.wait_for_selector("div.ixl-modal-inside div.ixl-modal-content h3.hd", timeout=8000)
+        text = res.inner_text()
+        if "Incomplete" in text:
+            print("Confirming submission of ordering items...")
+            confirm_button = page.get_by_label("Incomplete Answer").get_by_role("button", name="Submit")
+            confirm_button.click()
+            print("Submission confirmed.")
+    except TimeoutError:
+        print("No pop up confirmation found, something went wrong")
+        return
+
+    try:
+        print("Waiting for the correct answer section to appear...")
+        page.wait_for_selector("div.correct-answer.ixl-practice-crate", timeout=7000)
+        print("Correct answer section appeared.")
+        extract_answer_explanation_with_images(page, json)
+        print("Extracting correct sorting...")
+        answer = page.query_selector("div.correct-answer.ixl-practice-crate div.dragAndDropContainer")
+        if answer:
+            print("Taking a screenshot of the correct sorting...")
+            image_bytes = answer.screenshot()
+            answer.screenshot(path="correct_sorting.png")
+            image_b64 = base64.b64encode(image_bytes).decode("utf-8")
+            json["answer"] = image_b64
+            print("Correct order extracted and saved.")
+            return
+    except TimeoutError:
+        print("Correct answer section did not appear.")
+        return
 
 def scrape_question(url, json):
     with sync_playwright() as p:
@@ -194,6 +382,12 @@ def scrape_question(url, json):
         elif check_multiple_choices(page):
             json["type"] = "multiple choices"
             extract_answer_multiple_choices(page, json)
+        elif check_ordering_items(page):
+            json["type"] = "ordering items"
+            extract_answer_ordering_items(page, json)
+        elif check_drag_and_drop(page):
+            json["type"] = "drag and drop"
+            extract_answer_drag_and_drop(page, json)
         browser.close()
 
 def getTopicUrls(url):
@@ -228,7 +422,7 @@ def getTopicUrls(url):
         print(f"❌ Error occurred: {e}")
         return []
 
-question_url = "https://ca.ixl.com/math/grade-5/describe-the-coordinate-plane"
+question_url = "https://ca.ixl.com/math/grade-5/multiply-fractions-and-whole-numbers-sorting"
 json = {}
 scrape_question(question_url, json)
 print(json)
