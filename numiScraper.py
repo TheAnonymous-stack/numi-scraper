@@ -6,8 +6,8 @@ import base64
 from playwright.sync_api import TimeoutError
 from typeChecker import check_fill_in_the_blank, check_multiple_choices
 from jsonHandler import write_to_json
-from typeChecker import check_fill_in_the_blank, check_multiple_choices, check_fill_in_the_blank_and_multiple_choices
-from extractors import extract_question_text, extract_answer_fill_in_the_blank, extract_answer_multiple_choices, extract_answer_fill_in_the_blank_and_multiple_choices
+from typeChecker import check_fill_in_the_blank, check_multiple_choices, check_drag_and_drop, check_ordering_items
+from extractors import extract_question_text, extract_answer_fill_in_the_blank, extract_answer_multiple_choices, extract_answer_fill_in_the_blank_and_multiple_choices, extract_answer_drag_and_drop, extract_answer_ordering_items
 def screenshot_question_section(url, output_path="question.png"):
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -101,10 +101,18 @@ def scrape_question(url, json, scraped_questions):
             json["question_type"] = "Fill in the blank"
             extract_answer_fill_in_the_blank(page, json)
             scraped_questions.append(json)
-        if check_multiple_choices(page):
+        elif check_multiple_choices(page):
             json["question_type"] = "Multiple Choice Question with Single Answer"
             extract_answer_multiple_choices(page, json)
             scraped_questions.append(json)
+        # elif check_ordering_items(page):
+        #     json["question_type"] = "Ordering Items"
+        #     extract_answer_ordering_items
+        #     scraped_questions.append(json)
+        # elif check_drag_and_drop(page):
+        #     json["question_type"] = "Drag and Drop"
+        #     extract_answer_drag_and_drop(page)
+        #     scraped_questions.append(json)
         
         browser.close()
 
@@ -141,7 +149,7 @@ def getTopicUrls(url):
 
 url = "https://ca.ixl.com/standards/ontario/math/grade-5"
 urls = getTopicUrls(url)
-urls = urls[50:80]
+urls = urls[100:120]
 
 
 
