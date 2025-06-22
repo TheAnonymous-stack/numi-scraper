@@ -1,13 +1,14 @@
 def check_fill_in_the_blank(page):
-    try:
-        res = page.wait_for_selector("section.ixl-practice-crate input.fillIn", timeout=10000)
-        return True if res else False
-    except TimeoutError:
-        return False
-
+    hasFITB = len(page.query_selector_all("div.question-component section.ixl-practice-crate input.fillIn"))
+    hasMCQ = len(page.query_selector_all("div.question-component section.ixl-practice-crate div.LaidOutTiles"))
+    return hasFITB and (not hasMCQ)
+    
 def check_multiple_choices(page):
-    try:
-        res = page.wait_for_selector("section.ixl-practice-crate div.LaidOutTiles", timeout=10000)
-        return True if res else False
-    except TimeoutError:
-        return False
+    hasFITB = len(page.query_selector_all("div.question-component section.ixl-practice-crate input.fillIn"))
+    hasMCQ = len(page.query_selector_all("div.question-component section.ixl-practice-crate div.LaidOutTiles"))
+    return hasMCQ and (not hasFITB)
+
+def check_fill_in_the_blank_and_multiple_choices(page):
+    hasFITB = len(page.query_selector_all("div.question-component section.ixl-practice-crate input.fillIn"))
+    hasMCQ = len(page.query_selector_all("div.question-component section.ixl-practice-crate div.LaidOutTiles"))
+    return hasMCQ and hasFITB

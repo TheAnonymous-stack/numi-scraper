@@ -2,36 +2,35 @@ from playwright.sync_api import sync_playwright
 import requests
 from bs4 import BeautifulSoup
 import base64
-from playwright.sync_api import TimeoutError
-from typeChecker import check_fill_in_the_blank, check_multiple_choices
 
+from jsonHandler import write_to_json
+from typeChecker import check_fill_in_the_blank, check_multiple_choices, check_fill_in_the_blank_and_multiple_choices
+from extractors import extract_question_text, extract_answer_fill_in_the_blank, extract_answer_multiple_choices, extract_answer_fill_in_the_blank_and_multiple_choices
 def screenshot_question_section(url, output_path="question.png"):
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         counter = 1
-        page = browser.new_page()
-        for _ in range(50):
-            output_path=f"question{str(counter)}.png"
-            counter+=1
+        page = browser.new_page()    
+        try:
+            page.goto(url, wait_until="networkidle", timeout=30000)
+
+            # Attempt to close the ad using the 'explore-btn' button
             try:
-                page.goto(url, wait_until="networkidle", timeout=30000)
-
-                # Attempt to close the ad using the 'explore-btn' button
-                try:
-                    page.wait_for_selector("button.explore-btn", timeout=3000)
-                    page.click("button.explore-btn")
-                    print("Ad closed via 'explore-btn'")
-                except:
-                    print("No ad found or already dismissed.")
-
-                # Screenshot the question section
-                section = page.wait_for_selector("section.ixl-practice-crate", timeout=5000)
-                section.screenshot(path=output_path)
+                page.wait_for_selector("button.explore-btn", timeout=3000)
+                page.click("button.explore-btn")
+                print("Ad closed via 'explore-btn'")
             except:
-                print(f"question{counter-1} failed")
+                print("No ad found or already dismissed.")
+
+            # Screenshot the question section
+            section = page.wait_for_selector("section.ixl-practice-crate", timeout=5000)
+            section.screenshot(path=output_path)
+        except:
+            print(f"question{counter-1} failed")
         print(f"Screenshots saved to {output_path}")
 
         browser.close()
+
 
 def extract_question_text2(url):
     with sync_playwright() as p:
@@ -47,8 +46,6 @@ def extract_question_text2(url):
 
         # Wait for question section
         section = page.wait_for_selector("section.ixl-practice-crate", timeout=5000)
-        # spans = section.query_selector_all("span")
-        # text = " ".join([span.inner_text().replace("\xa0", "") for span in spans])
         text = section.inner_text().replace("\xa0", "")
         
         # Extract text
@@ -58,125 +55,35 @@ def extract_question_text2(url):
         print(text)
         browser.close()
         return text
-
-def extract_question_text(page, json):
-    # Wait for question section
-    section = page.wait_for_selector("section.ixl-practice-crate", timeout=5000)
-
-    # Extract text
-    text = section.inner_text().replace("\xa0", "")  # gets all rendered (visible) text
-    
-    json["question"] = text
-
-def extract_answer_fill_in_the_blank(page, json):
-    
+def process_visual_components(page, json):
     try:
-        # Fill wrong answer into input inside .math.section
-        print("Locating the input field...")
-        fill_in = page.wait_for_selector("section.ixl-practice-crate input.fillIn", timeout=20000)
-        fill_in.fill("m")
-        print("Wrong answer 'm' entered.")
-    except TimeoutError:
-        print("Could not find the input field")
-        return
-
-    try:
-        # Click the Submit button
-        print("Clicking the Submit button...")
-        submit_button = page.get_by_role("button", name="Submit")
-        submit_button.click()
-        print("Submit button clicked.")
+        section = page.query_selector("div.question-component section.ixl-practice-crate")
+        canvas = section.query_selector("canvas")
+        svg = section.query_selector("svg")
+        table = section.query_selector("table")
+        if canvas:
+            visual = canvas
+        elif svg:
+            visual = svg
+        elif table:
+            visual = table
+        else:
+            print("No visual component or visual component is neither canvas nor svg")
+            return
+        code = page.query_selector("nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace("\xa0", "").split(" ")[0]
+        visual.screenshot(path=f"Grade5_Images/Grade5_{code.split('.')[0]}/Grade5_{code}.png")
+        json["image_tag"] = f"Grade5_{code}"
     except Exception as e:
-        print(f"Error clicking the Submit button: {e}")
+        print(f"Error occured: {e}")
         return
 
-    try:
-        print("Waiting for the correct answer section to appear...")
-        page.wait_for_selector("div.correct-answer.ixl-practice-crate", timeout=7000)
-        print("Correct answer section appeared.")
-    except TimeoutError:
-        print("Correct answer section did not appear.")
-        return
 
-    try:
-        print("Extracting correct answer...")
-        value = page.eval_on_selector("div.correct-answer.ixl-practice-crate input.fillIn", "el => el.value")
-        # print("Correct answer extracted:", value)
-        json['answer'] = value
-    except Exception as e:
-        print(f"Failed to extract correct answer: {e}")
 
-def extract_answer_multiple_choices(page, json):
-    # Get all choices first
-    try:
-        print("Collecting all options...")
-        options = page.query_selector_all("section.ixl-practice-crate div.responsive-info-higher-order-component div.LaidOutTiles div.SelectableTile.MULTIPLE_CHOICE")
-
-    except TimeoutError:
-        print("Error occurred while collecting options")
-        return
+def scrape_question(url, json, scraped_questions):
+    print(f"Scraping {url}...")
+    skill = url.split("/")[-1]
+    json["skills"] = skill
     
-    try:
-        print("Taking screenshots of all options...")
-        json["choices"] = []
-        for i, option in enumerate(options):
-            class_attr = option.get_attribute("class")
-            if "nonInteractive" not in class_attr.split():
-                image_bytes = option.screenshot()
-                option.screenshot(path=f"option{i}.png")
-                image_b64 = base64.b64encode(image_bytes).decode("utf-8")
-                json["choices"].append(image_b64)
-    except Exception as e:
-        print("Error while taking screenshots of options:", e)
-        return
-    
-    try:
-        print("Clicking first option")
-        selected_option = options[0]
-        selected_option.click()
-    except Exception as e:
-        print("Error occurred while clicking first option:", e)
-        return
-    
-    try:
-        # Click the Submit button
-        print("Clicking the Submit button...")
-        submit_button = page.get_by_role("button", name="Submit")
-        submit_button.click()
-        print("Submit button clicked.")
-    except Exception as e:
-        print(f"Error clicking the Submit button: {e}")
-        return
-    
-    try:
-        print("Checking if selected option is false...")
-        res = page.wait_for_selector("div.answer-box h2.feedback-header.correct", timeout=8000)
-        text = res.inner_text()
-        if "Sorry" in text:
-            print("Selected option is confirmed to be false")
-            try:
-                options = page.query_selector_all("div.answer-box div.LaidOutTiles div.SelectableTile.MULTIPLE_CHOICE")
-                answerFound = False
-                i = 1
-                while not answerFound:
-                    class_attr = options[i].get_attribute("class")
-                    if "selected" in class_attr.split():
-                        json["answer"] = i
-                        print("Saved the index of the answer in options")
-                        answerFound = True
-                    i += 1
-                return
-            except Exception as e:
-                print("Error while searching for answer:", e)
-                return
-    except TimeoutError:
-        print("Selected the right option")
-        json["answer"] = 0 
-        print("Saved the index of the answer in options")
-        return
-
-
-def scrape_question(url, json):
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)  # Set to True if you don't need to see the browser
         page = browser.new_page()
@@ -187,13 +94,18 @@ def scrape_question(url, json):
             print("Ad closed via 'explore-btn'")
         except:
             print("No ad found or already dismissed.")
+
         extract_question_text(page, json)
+        process_visual_components(page, json)
         if check_fill_in_the_blank(page):
-            json["type"] = "fill in the blank"
+            json["question_type"] = "Fill in the blank"
             extract_answer_fill_in_the_blank(page, json)
-        elif check_multiple_choices(page):
-            json["type"] = "multiple choices"
+            scraped_questions.append(json)
+        if check_multiple_choices(page):
+            json["question_type"] = "Multiple Choice Question with Single Answer"
             extract_answer_multiple_choices(page, json)
+            scraped_questions.append(json)
+        
         browser.close()
 
 def getTopicUrls(url):
@@ -211,24 +123,31 @@ def getTopicUrls(url):
         soup = BeautifulSoup(response.text, "lxml")
 
         # Find the main section with class="skill-tree-body"
-        skill_tree_body = soup.find("section", class_="skill-tree-body")
+        skill_tree_body = soup.find("div", id="dv-listing-standards-alignment")
         if not skill_tree_body:
             print("❌ 'skill-tree-body' section not found.")
             return []
-
-        # Get all divs with class="skill-tree-category" inside that section
-        skills = skill_tree_body.find_all("a", class_="skill-tree-skill-link")
-
-        # Optional: Return the text of each category, cleaned
+        results = []
+        categories = skill_tree_body.find_all("li", class_="each-alignment")
         base_url = "https://ca.ixl.com"
-        results = [base_url+skill.get("href") for skill in skills]
+        for category in categories:
+            link = base_url+category.find("a", class_="skillLink").get("href")
+            results.append(link)
         return results
 
     except Exception as e:
         print(f"❌ Error occurred: {e}")
-        return []
+        return {}
 
-question_url = "https://ca.ixl.com/math/grade-5/describe-the-coordinate-plane"
-json = {}
-scrape_question(question_url, json)
-print(json)
+url = "https://ca.ixl.com/standards/ontario/math/grade-5"
+urls = getTopicUrls(url)
+urls = urls[50:80]
+
+
+
+scraped_questions = []
+
+for link in urls:
+    json = {}
+    scrape_question(link, json, scraped_questions)
+write_to_json(scraped_questions, "gr5Draft.json")
