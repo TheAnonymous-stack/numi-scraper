@@ -238,7 +238,7 @@ def extract_answer_fill_in_the_blank_and_multiple_choices(page, json):
         page.reload()
         gotWrongOption = fill_in_the_blank_and_multiple_choices_loop(page, json)
     
-def extract_answer_drag_and_drop(page, json):
+def extract_answer_drag_and_drop(page, json, code):
     try:
         print("Collecting all drag and drop items...")
         options = page.query_selector_all(
@@ -260,22 +260,26 @@ def extract_answer_drag_and_drop(page, json):
         print("Taking screenshots of all drag and drop items...")
         json["drag_and_drop_items"] = []
         for i, option in enumerate(options):
-            image_bytes = option.screenshot()
-            option.screenshot(path=f"drag_and_drop_item{i}.png")
-            image_b64 = base64.b64encode(image_bytes).decode("utf-8")
-            json["drag_and_drop_items"].append(image_b64)
+            json["drag_and_drop_items"].append(
+                option.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape'))
+            # image_bytes = option.screenshot()
+            # option.screenshot(path=f"drag_and_drop_item{i}.png")
+            # image_b64 = base64.b64encode(image_bytes).decode("utf-8")
+            # json["drag_and_drop_items"].append(image_b64)
     except Exception as e:
-        print("Error while taking screenshots of drag and drop items:", e)
+        print("Error while saving drag and drop items: ", e)
         return
 
     try:
         print("Taking screenshots of all drag and drop categories...")
         json["categories"] = []
         for i, option in enumerate(categories):
-            image_bytes = option.screenshot()
-            option.screenshot(path=f"drag_and_drop_categories{i}.png")
-            image_b64 = base64.b64encode(image_bytes).decode("utf-8")
-            json["categories"].append(image_b64)
+            json["categories"].append(
+                option.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape'))
+            # image_bytes = option.screenshot()
+            # option.screenshot(path=f"drag_and_drop_categories{i}.png")
+            # image_b64 = base64.b64encode(image_bytes).decode("utf-8")
+            # json["categories"].append(image_b64)
     except Exception as e:
         print("Error while taking screenshots of drag and drop items:", e)
         return
@@ -306,15 +310,16 @@ def extract_answer_drag_and_drop(page, json):
         print("Waiting for the correct answer section to appear...")
         page.wait_for_selector("div.correct-answer.ixl-practice-crate", timeout=7000)
         print("Correct answer section appeared.")
-        extract_answer_explanation_with_images(page, json)
+        extract_answer_explanation_with_images(page, json, code)
         print("Extracting correct sorting...")
         answer = page.query_selector("div.correct-answer.ixl-practice-crate div.dragAndDropContainer")
         if answer:
             print("Taking a screenshot of the correct sorting...")
-            image_bytes = answer.screenshot()
-            answer.screenshot(path="correct_sorting.png")
-            image_b64 = base64.b64encode(image_bytes).decode("utf-8")
-            json["answer"] = image_b64
+            # image_bytes = answer.screenshot()
+            answer.screenshot(path=f"Grade5_Images/Grade5_{code.split('.')[0]}/Grade5_{code}_answer.png")
+            json["correct_answers_image_tag"] = f"Grade5_{code}_answer"
+            # image_b64 = base64.b64encode(image_bytes).decode("utf-8")
+            # json["answer"] = image_b64
             print("Correct order extracted and saved.")
             return
     except TimeoutError:
@@ -335,12 +340,14 @@ def extract_answer_ordering_items(page, json):
         print("Taking screenshots of all ordering items...")
         json["order_items"] = []
         for i, option in enumerate(options):
-            image_bytes = option.screenshot()
-            option.screenshot(path=f"order_item{i}.png")
-            image_b64 = base64.b64encode(image_bytes).decode("utf-8")
-            json["order_items"].append(image_b64)
+            json["order_items"].append(
+                option.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape'))
+            # image_bytes = option.screenshot()
+            # option.screenshot(path=f"order_item{i}.png")
+            # image_b64 = base64.b64encode(image_bytes).decode("utf-8")
+            # json["order_items"].append(image_b64)
     except Exception as e:
-        print("Error while taking screenshots of ordering items:", e)
+        print("Error while saving ordering items:", e)
         return
 
     try:
@@ -373,11 +380,13 @@ def extract_answer_ordering_items(page, json):
         print("Extracting correct number order...")
         answer = page.query_selector("section.solve-box section.ixl-practice-crate div.order-items-container.interactive")
         if answer:
-            print("Taking a screenshot of the correct order...")
-            image_bytes = answer.screenshot()
-            answer.screenshot(path="correct_order.png")
-            image_b64 = base64.b64encode(image_bytes).decode("utf-8")
-            json["answer"] = image_b64
+            print("Taking saving the correct order...")
+            json["correct_answers"].append(
+                answer.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape'))
+            # image_bytes = answer.screenshot()
+            # answer.screenshot(path="correct_order.png")
+            # image_b64 = base64.b64encode(image_bytes).decode("utf-8")
+            # json["answer"] = image_b64
             print("Correct order extracted and saved.")
             return
     except TimeoutError:
@@ -389,26 +398,28 @@ def extract_answer_explanation(page, json):
         print("Extracting answer explanation...")
         res = page.wait_for_selector("section.solve-box section.ixl-practice-crate", timeout=5000)
         explanation = res.inner_text().replace("\xa0", "")
-        json["explanation"] = explanation
+        json["solution"] = explanation
         print("Explanation extracted.")
         return
     except Exception as e:
         print("An error occurred while extracting the explanation:", e)
         return
 
-def extract_answer_explanation_with_images(page, json):
+def extract_answer_explanation_with_images(page, json, code):
     try:
         print("Extracting answer explanation with graphics as image...")
         print("Extracting graphics first...")
         res = page.query_selector_all("section.solve-box section.ixl-practice-crate div.fractionBarContainer")
         for i, option in enumerate(res):
-            image_bytes = option.screenshot()
-            option.screenshot(path=f"option{i}.png")
-            image_b64 = base64.b64encode(image_bytes).decode("utf-8")
-            json["explanation_image_tag"].append(image_b64)
-        image_bytes = res.screenshot(path=f"answer_explanation_image_tag.png")
-        image_b64 = base64.b64encode(image_bytes).decode("utf-8")
-        json["explanation_image_tag"] = image_b64
+            res.screenshot(path=f"Grade5_Images/Grade5_{code.split('.')[0]}/Grade5_{code}_solution_{i}.png")
+            json["solution_image_tag"] = f"Grade5_{code}_solution_{i}"
+            # image_bytes = option.screenshot()
+            # option.screenshot(path=f"option{i}.png")
+            # image_b64 = base64.b64encode(image_bytes).decode("utf-8")
+            # json["explanation_image_tag"].append(image_b64)
+        # image_bytes = res.screenshot(path=f"answer_explanation_image_tag.png")
+        # image_b64 = base64.b64encode(image_bytes).decode("utf-8")
+        # json["explanation_image_tag"] = image_b64
         print("explanation images extracted.")
     except Exception as e:
         print("An error occurred while extracting the graphics from the explanation:", e)
@@ -418,7 +429,7 @@ def extract_answer_explanation_with_images(page, json):
         print("Extracting answer explanation text...")
         res = page.wait_for_selector("section.solve-box section.ixl-practice-crate", timeout=5000)
         explanation = res.inner_text().replace("\xa0", "")
-        json["explanation"] = explanation
+        json["solution"] = explanation
         print("Explanation text extracted.")
         return
     except Exception as e:

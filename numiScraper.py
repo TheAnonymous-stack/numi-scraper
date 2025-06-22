@@ -8,6 +8,7 @@ from typeChecker import check_fill_in_the_blank, check_multiple_choices
 from jsonHandler import write_to_json
 from typeChecker import check_fill_in_the_blank, check_multiple_choices, check_drag_and_drop, check_ordering_items
 from extractors import extract_question_text, extract_answer_fill_in_the_blank, extract_answer_multiple_choices, extract_answer_fill_in_the_blank_and_multiple_choices, extract_answer_drag_and_drop, extract_answer_ordering_items
+
 def screenshot_question_section(url, output_path="question.png"):
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -56,6 +57,7 @@ def extract_question_text2(url):
         print(text)
         browser.close()
         return text
+
 def process_visual_components(page, json):
     try:
         section = page.query_selector("div.question-component section.ixl-practice-crate")
@@ -107,11 +109,14 @@ def scrape_question(url, json, scraped_questions):
             scraped_questions.append(json)
         # elif check_ordering_items(page):
         #     json["question_type"] = "Ordering Items"
-        #     extract_answer_ordering_items
+        #     extract_answer_ordering_items(page, json)
         #     scraped_questions.append(json)
         # elif check_drag_and_drop(page):
         #     json["question_type"] = "Drag and Drop"
-        #     extract_answer_drag_and_drop(page)
+        #     code = page.query_selector(
+        #         "nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace(
+        #         "\xa0", "").split(" ")[0]
+        #     extract_answer_drag_and_drop(page, json, code)
         #     scraped_questions.append(json)
         
         browser.close()
@@ -149,7 +154,7 @@ def getTopicUrls(url):
 
 url = "https://ca.ixl.com/standards/ontario/math/grade-5"
 urls = getTopicUrls(url)
-urls = urls[100:120]
+urls = urls[180:200]
 
 
 
