@@ -3,6 +3,8 @@ import requests
 from bs4 import BeautifulSoup
 import base64
 
+from playwright.sync_api import TimeoutError
+from typeChecker import check_fill_in_the_blank, check_multiple_choices
 from jsonHandler import write_to_json
 from typeChecker import check_fill_in_the_blank, check_multiple_choices, check_fill_in_the_blank_and_multiple_choices
 from extractors import extract_question_text, extract_answer_fill_in_the_blank, extract_answer_multiple_choices, extract_answer_fill_in_the_blank_and_multiple_choices
@@ -30,7 +32,6 @@ def screenshot_question_section(url, output_path="question.png"):
         print(f"Screenshots saved to {output_path}")
 
         browser.close()
-
 
 def extract_question_text2(url):
     with sync_playwright() as p:
@@ -76,7 +77,6 @@ def process_visual_components(page, json):
     except Exception as e:
         print(f"Error occured: {e}")
         return
-
 
 
 def scrape_question(url, json, scraped_questions):
@@ -137,7 +137,7 @@ def getTopicUrls(url):
 
     except Exception as e:
         print(f"❌ Error occurred: {e}")
-        return {}
+        return []
 
 url = "https://ca.ixl.com/standards/ontario/math/grade-5"
 urls = getTopicUrls(url)
