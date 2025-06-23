@@ -913,5 +913,802 @@
       "4"
     ],
     "solution": "solve\nComplete the ratio 8: so that it is equivalent to 2:1.\nThe second number is missing from 8:. So, compare the first numbers of the two ratios.\n2:1\n8:\nTo get 8 from 2, multiply by 4.\nSo, to get the missing value from the second number in 2:1, multiply by 4. 1 x 4 = 4\nThis means 8:4 and 2:1 are equivalent ratios."
+  },
+  {
+    "skills": "ratio-tables",
+    "question_text": "Complete the ratio table.",
+    "image_tag": "Grade5_X.7",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "21"
+    ],
+    "solution": "solve\nStart with 7:5. Write the ratio as a fraction. Multiply the numerator and denominator by the same number to find an equivalent ratio.\n\n\n\nWrite the answer in the table: 21"
+  },
+  {
+    "skills": "equivalent-rates",
+    "question_text": "Type the missing number to complete the proportion.\n\n\n4 cupcakes in 1 box = ? cupcakes in 5 boxes",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "20"
+    ],
+    "solution": "solve\nWrite 4 cupcakes in 1 box as a fraction. Then write an equivalent fraction with 5 as the denominator.\n\n\n4\n1\n=\n4 \u00c3\u0097 5\n1 \u00c3\u0097 5\n=\n20\n5\n\n20 cupcakes in 5 boxes"
+  },
+  {
+    "skills": "complete-an-increasing-number-sequence",
+    "question_text": "Type the next number in this sequence:\n\n\n 1, 3, 6, 10, 15, 21, ?",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "1, 3, 6, 10, 15, 21, 28"
+    ],
+    "solution": "solve\nFind the pattern. Look at how much you add to each number to get the next number:\n\n\n 1, 3, 6, 10, 15, 21, ? \n\n + 2 + 3 + 4 + 5 + 6\n\n\nThe amount you add increases by 1 each time. You should add 7 the next time. Add 7 to 21 to find the next number:\n\n\n1,3,6,10,15,21,28\n\n+ 2+ 3+ 4+ 5+ 6+ 7\n\n\nThe next number is 28."
+  },
+  {
+    "skills": "complete-a-geometric-number-sequence",
+    "question_text": "Type the missing number in this sequence:\n\n\n2,4,8,16,32,",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "2,4,8,16,32,64"
+    ],
+    "solution": "solve\nFirst, look for a pattern. Notice how each number is 2 times the previous number:\n\n\n2,4,8,16,32,__\n\n\nMultiply 32 by 2 to find the missing number:\n\n\n32 \u00c3\u0097 2 = 64\n\n\nTo make the pattern complete, the number 64 must go in the blank space."
+  },
+  {
+    "skills": "number-sequences-word-problems",
+    "question_text": "Tony owns a hardware store and is looking over his past orders. Tony's hardware store ordered 2 power drills in December, 3 power drills in January, 5 power drills in February, 8 power drills in March, and 12 power drills in April. If this pattern continues, how many power drills will the store order in May?\n\n\n ? power drills",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "17"
+    ],
+    "solution": "solve\nFirst, look for a pattern. Notice how the amount increases by 1 each time.\n\n\n2,3,5,8,12,?\n\n+ 1, + 2, + 3, + 4\n\n\nAdd 5 to find the next number:\n\n\n2,3,5,8,12,17\n\n+ 1+ 2+ 3+ 4+ 5\n\n\nTony's Hardware Store will order 17 power drills in May."
+  },
+  {
+    "skills": "number-sequences-mixed-review",
+    "question_text": "Type the missing number in this sequence:\n\n\n 2, ?, 8, 16, 32, 64",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "2, 4, 8, 16, 32, 64"
+    ],
+    "solution": "solve\nFirst, look for a pattern. Notice how each number is 2 times the previous number:\n\n\n 2, __, 8, 16, 32, 64 \n\n\nMultiply 2 by 2 to find the missing number:\n\n\n2 \u00c3\u0097 2 = 4\n\n\nTo make the pattern complete, the number 4 must go in the blank space."
+  },
+  {
+    "skills": "addition-patterns-over-increasing-place-values",
+    "question_text": "Complete the pattern:\n\n\n 9 + 1 = ? \n90 + 10 = ? \n900 + 100 = ? \n9000 + 1000 = ? ",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "10\n100\n1000\n10000"
+    ],
+    "solution": "solve\nFirst, add:\n\n\n9 ones + 1 one = 10 ones\n9 + 1 = 10\n\n\nNow complete the pattern:\n\n\n9 tens + 1 ten = 10 tens\n90 + 10 = 100\n\n9 hundreds + 1 hundred = 10 hundreds\n900 + 100 = 1000\n\n9 thousands + 1 thousand = 10 thousands\n9000 + 1000 = 10000\n\n"
+  },
+  {
+    "skills": "subtraction-patterns-over-increasing-place-values",
+    "question_text": "Complete the pattern:\n\n\n2 \u00e2\u0088\u0092  = ?, 1\n20 \u00e2\u0088\u0092  = ? 10\n200 \u00e2\u0088\u0092  = ? 100\n2000 \u00e2\u0088\u0092  = 1000",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "1\n10\n100\n1000"
+    ],
+    "solution": "solve\nFind the first missing number:\n\n\n2 ones \u00e2\u0088\u0092 1 one = 1 one\n2 \u00e2\u0088\u0092 1 = 1\n\n\nNow complete the pattern:\n\n\n2 tens \u00e2\u0088\u0092 1 ten = 1 ten\n20 \u00e2\u0088\u0092 10 = 10\n\n2 hundreds \u00e2\u0088\u0092 1 hundred = 1 hundred\n200 \u00e2\u0088\u0092 100 = 100\n\n2 thousands \u00e2\u0088\u0092 1 thousand = 1 thousand\n2000 \u00e2\u0088\u0092 1000 = 1000\n\n"
+  },
+  {
+    "skills": "multiplication-patterns-over-increasing-place-values",
+    "question_text": "Complete the pattern:\n\n\n9 \u00c3\u0097 ? = 27\n9 \u00c3\u0097 ? = 270\n9 \u00c3\u0097 ? = 2700\n9 \u00c3\u0097 ? = 27000\n9 \u00c3\u0097 ? = 270000\n9 \u00c3\u0097 ? = 2700000\n9 \u00c3\u0097 ? = 27000000",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "3\n30\n300\n3000\n30000\n300000\n3000000"
+    ],
+    "solution": "solve\nFind the first missing number:\n\n\n9 \u00c3\u0097 3 ones = 27 ones\n9 \u00c3\u0097 3 = 27\n\n\nNow complete the pattern:\n\n\n9 \u00c3\u0097 3 tens = 27 tens\n9 \u00c3\u0097 30 = 270\n\n9 \u00c3\u0097 3 hundreds = 27 hundreds\n9 \u00c3\u0097 300 = 2700\n\n9 \u00c3\u0097 3 thousands = 27 thousands\n9 \u00c3\u0097 3000 = 27000\n\n9 \u00c3\u0097 3 ten thousands = 27 ten thousands\n9 \u00c3\u0097 30000 = 270000\n\n9 \u00c3\u0097 3 hundred thousands = 27 hundred thousands\n9 \u00c3\u0097 300000 = 2700000\n\n9 \u00c3\u0097 3 millions = 27 millions\n9 \u00c3\u0097 3000000 = 27000000\n\n"
+  },
+  {
+    "skills": "division-patterns-over-increasing-place-values",
+    "question_text": "Complete the pattern:\n\n\n54 \u00c3\u00b7  = 9\n54000 \u00c3\u00b7  = 9000\n5400000 \u00c3\u00b7  = 900000",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "6\n6\n6"
+    ],
+    "solution": "solve\nFind the first missing number:\n\n\n54 ones \u00c3\u00b7 6 = 9 ones\n54 \u00c3\u00b7 6 = 9\n\n\nNow complete the pattern:\n\n\n54 thousands \u00c3\u00b7 6 = 9 thousands\n54000 \u00c3\u00b7 6 = 9000\n\n54 hundred thousands \u00c3\u00b7 6 = 9 hundred thousands\n5400000 \u00c3\u00b7 6 = 900000\n\n"
+  },
+  {
+    "skills": "decimal-division-patterns-over-increasing-place-values",
+    "question_text": "Complete the pattern:\n\n\n0.009988 \u00c3\u00b7 10 = \n0.09988 \u00c3\u00b7 100 = \n0.9988 \u00c3\u00b7 1000 = \n9.988 \u00c3\u00b7 10000 = \n",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "0.000 998 80.000 998 80.000 998 80.000 998 8"
+    ],
+    "solution": "solve\nFind the first missing number by dividing by 10. Since 10 has 1 zero, move the decimal point 1 place to the left.\n\n\n0.9988\u00e2\u0086\u00920.9988\n\n\n0.009988 \u00c3\u00b7 10 = 0.0009988\n\n\nNow find the other missing numbers. The decimal point moves to the right the same amount in the first number and the power of ten, so the quotient is always the same.\n\n\n0.09988 \u00c3\u00b7 100 = 0.0009988\n\n0.9988 \u00c3\u00b7 1000 = 0.0009988\n\n9.988 \u00c3\u00b7 10000 = 0.0009988\n\n"
+  },
+  {
+    "skills": "identify-mistakes-in-number-patterns",
+    "question_text": "",
+    "image_tag": "Grade5_Z.7",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "No, the number after 15 should be 45 because 15 times 3 is 45.",
+      "No, the number after 15 should be 65 because 15 times 5 is 65.",
+      "Yes, Angie's pattern is correct."
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": "solve\nAngie tried to write a pattern that starts with the number 3 and has the rule multiply by 5.\nThe first number in the pattern is 3.\nUse the rule to find the next number after 3. Multiply 3 by 5.\n3\u00c3\u00975=15\nThe number after 3 is 15.\nUse the rule again to find the next number after 15. Multiply 15 by 5.\n15\u00c3\u00975=75\nThe number after 15 is 75.\nHere is the correct pattern:\n3, 15, 75, ...\nHere is Angie's pattern:\n3, 15, 75, ...\nSo, Angie's pattern is correct."
+  },
+  {
+    "skills": "write-variable-expressions",
+    "question_text": "Write an expression for n reduced by 66.\n\n",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "n \u00e2\u0088\u0092 66"
+    ],
+    "solution": "solve\n\"n reduced by 66\" means you should subtract 66 from n.\n\n\nn \u00e2\u0088\u0092 66"
+  },
+  {
+    "skills": "write-variable-expressions-word-problems",
+    "question_text": "",
+    "image_tag": "Grade5_BB.2",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "",
+      "",
+      "b",
+      "63 \u00e2\u0088\u0092 b"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": "solve\nLook for a pattern.\n\nTry b = 2:\n\n\nBarry has 63 small spoons and 2 big spoons. Choose the expression that shows how many spoons Barry has.\n\n\n\n63 + 2, which is 65\n\n\nTry b = 3:\n\n\nBarry has 63 small spoons and 3 big spoons. Choose the expression that shows how many spoons Barry has.\n\n\n\n63 + 3, which is 66\n\n\nTry b = 4:\n\n\nBarry has 63 small spoons and 4 big spoons. Choose the expression that shows how many spoons Barry has.\n\n\n\n63 + 4, which is 67\n\n\nThe pattern shows that in order to find how many spoons Barry has, you always add b to 63. This is the correct expression:\n\n\n63 + b"
+  },
+  {
+    "skills": "evaluate-variable-expressions",
+    "question_text": "Find the value of the expression\n\n\nt \u00e2\u0088\u0092 2\n\nfor t = 5.\n\n",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "3"
+    ],
+    "solution": "solve\nReplace the variable t with the number 5.\n\n\nt \u00e2\u0088\u0092 2\n\n5 \u00e2\u0088\u0092 2\n\n\nNow simplify:\n\n\n5 \u00e2\u0088\u0092 2 = 3"
+  },
+  {
+    "skills": "does-x-satisfy-an-equation",
+    "question_text": "Is u = 7 a solution to this question?\n\n u/1=7",
+    "image_tag": "Grade5_CC.1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "yes",
+      "no"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": "solve\nPlug u = 7 into the equation.\n\n u/1=7\n\n7/1=7\n\nIt is true that 7/1=7. So, u = 7 is a solution."
+  },
+  {
+    "skills": "which-value-makes-the-equation-true",
+    "question_text": "Which value of z makes the equation true?\n\nq+9=7+7+2\nq+9=16",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": "First, add the numbers on the right side of the equation.\nq+9=7+7+2\nq+9=16\nNow, find the value of q that makes the equation true.\n7+9=16\nThe equation is true when q=7."
+  },
+  {
+    "skills": "model-and-solve-equations-using-algebra-tiles",
+    "question_text": "\nor\nWhich equation does this set of algebra tiles represent?",
+    "image_tag": "Grade5_CC.4",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "x+7=13",
+      "x+7=1",
+      "x+7=10",
+      "x+7=5"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": "Look at the tiles on the left side of the set.\nx\n1\n1\n1\n1\n1\n1\n1\nThe left side has 1 \nx\n tile and 7 \n1\n tiles. So, the left side of the equation should be x+7.\nNow look at the tiles on the right side of the set.\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\nThe right side has 10 \n1\n tiles. So, the right side of the equation should be 10.\nThis set of algebra tiles represents the equation x+7=10."
+  },
+  {
+    "skills": "write-and-solve-equations-that-represent-diagrams",
+    "question_text": "Write an equation that says that the length of the green line is equal to the length of the black line.\n25\ns\n14\n\n\n\nEquation: ",
+    "image_tag": "Grade5_CC.5",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "Equation: 25 = s + 14"
+    ],
+    "solution": "solve\nWe want to replace both sides of the equation below with numbers and variable expressions:\n\n\nlength of green line=length of black line\n\nThe length of the green line is 25.\n\nThe black line is the sum of its segments, so:\n\n\nlength of black line=s + 14\n\nPutting these together gives:\n\n\n25=s + 14\n\n"
+  },
+  {
+    "skills": "solve-addition-and-subtraction-equations-with-whole-numbers",
+    "question_text": "Solve for r.\n\n\nr + 7 = 15\n\nr = ",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "8"
+    ],
+    "solution": "\n\n\nr + 7=15\n\nr + 7 \u00e2\u0088\u0092 7=15 \u00e2\u0088\u0092 7Subtract 7 from both sides\n\nr=8Simplify"
+  },
+  {
+    "skills": "solve-multiplication-and-division-equations-with-whole-numbers",
+    "question_text": "Solve for n.\n\n\nn\n4\n=3\n\n\nn = ",
+    "image_tag": "Grade5_CC.7",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "12"
+    ],
+    "solution": "\n\n\nn\n4\n=3\n\n\nn\n4\n\u00c2\u00b74\n=3 \u00c2\u00b7 4Multiply both sides by 4\n\nn=12Simplify"
+  },
+  {
+    "skills": "solve-equations-with-whole-numbers",
+    "question_text": "Solve for v.\n\n\nv + 48 = 67\n\nv = ",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "19"
+    ],
+    "solution": "\n\n\nv + 48=67\n\nv + 48 \u00e2\u0088\u0092 48=67 \u00e2\u0088\u0092 48Subtract 48 from both sides\n\nv=19Simplify"
+  },
+  {
+    "skills": "which-word-problem-matches-the-one-step-equation",
+    "question_text": "Pick the story that can be modelled by the equation \nx\n5\n=20.\n",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "Lambert's Library is selling a total of 20 books at its annual used-book sale. The librarians divided the books evenly among 5 shelves in the library lobby. They put x books on each shelf.",
+      "Lambert's Library is selling a total of x books at its annual used-book sale. The librarians divided the books evenly among 5 shelves in the library lobby. They put 20 books on each shelf."
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": "Look for words and phrases in the first story that tell you what equation will model it.\nLambert's Library is selling a total of 20 books at its annual used-book sale. The librarians divided the books evenly among 5 shelves in the library lobby. They put x books on each shelf.\nThe librarians divided a total of 20 books evenly among 5 shelves. They put x books on each shelf.\nThis story can be modelled by the division equation \n20\n5\n=x.\nLook for words and phrases in the second story that tell you what equation will model it.\nLambert's Library is selling a total of x books at its annual used-book sale. The librarians divided the books evenly among 5 shelves in the library lobby. They put 20 books on each shelf.\nThe librarians divided a total of x books evenly among 5 shelves. They put 20 books on each shelf.\nThis story can be modelled by the division equation \nx\n5\n=20."
+  },
+  {
+    "skills": "solutions-to-inequalities",
+    "question_text": "Is j = 6 a solution to the inequality below?\n\n\nj\n\u00e2\u0089\u00a42\n\n",
+    "image_tag": "Grade5_DD.1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "yes",
+      "no"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": "Plug j = 6 into the inequality.\n\n\nj\n\u00e2\u0089\u00a42\n\n\n\n6\n\u00e2\u0089\u00a42Plug in j=6\n\nIt is false that 6 \u00e2\u0089\u00a4 2. So, j = 6 is not a solution."
+  },
+  {
+    "skills": "identify-biased-samples",
+    "question_text": "Eva polled 632 people throughout each city in her county. Each city is the same size.\n\nIs this sample of the residents of cities in the county likely to be biased?\n\n",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "yes",
+      "no"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": "Since Eva divided the residents into equal-sized groups by city and then chose an equal number of residents from each city, it is a representative sample. It is not likely to be a biased sample."
+  },
+  {
+    "skills": "create-relative-frequency-tables",
+    "question_text": "During Ed's last shift at the Paint and Take Art Studio, he recorded the items customers purchased to paint. His record showed that 10 customers bought canvases, 15 customers bought frames, 5 customers bought vases and 20 customers bought signs.\nComplete the relative frequency table for the data.\nArt studio\nItem paintedCanvasesFramesVasesSigns\nRelative frequency%%%%",
+    "image_tag": "Grade5_FF.16",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "20",
+      "30",
+      "10",
+      "40"
+    ],
+    "solution": "solve\nTo find the relative frequency of each item, first find the total number of customers.\n10+15+5+20=50\nThere were a total of 50 customers. Write the relative frequency of each item as a fraction with a denominator of 50.\nArt studio\nItem paintedCanvasesFramesVasesSigns\nFrequency1015520\nRelative frequency\n10\n50\n\n15\n50\n\n5\n50\n\n20\n50\nNow write each relative frequency as a percent. Start with the relative frequency of canvases, \n10\n50\n.\nSince a percent tells you a part out of 100, write an equivalent fraction with a denominator of 100.\n10\n50\n=\n10\u00c3\u00972\n50\u00c3\u00972\n=\n20\n100\nThe relative frequency of canvases is 20%. You can write the other relative frequencies as percents the same way.\nArt studio\nItem paintedCanvasesFramesVasesSigns\nRelative frequency20%30%10%40%"
+  },
+  {
+    "skills": "choose-the-best-type-of-graph",
+    "question_text": "Which type of graph would best show the number of students in each grade?",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "line graph",
+      "bar graph"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": "solve\nThe best type of graph to show the number of students in each grade is a bar graph. It compares two or more values. Example:\n\n\n\n\n0\n100\n200\n300\n400\n500\n600\n700\n800\n900\n1000\nCedar High\nOak High\nRiverside High\nSchool\nNumber of students\nHigh school attendance\n\n\nThe other types of graphs are not as good.\n\nA line graph shows a value that changes over time. Example:\n\nWednesday\nThursday\nFriday\nSaturday\nSunday\nMonday\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\nNumber of hammers\nDay\nHammers sold\n"
+  },
+  {
+    "skills": "find-the-mean",
+    "question_text": "What is the mean?\n78, 72, 71, 75, 79\n",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "75"
+    ],
+    "solution": "solve\nFirst, count how many numbers are in the group.\n\n\nThere are 5 numbers.\n\nNow add all the numbers together:\n\n\n78 +72 +71 +75 +79 =375\n\nNow divide the sum by the number of numbers:\n\n\n375 \u00c3\u00b7 5 = 75\n\nThe mean is 75."
+  },
+  {
+    "skills": "mean-find-the-missing-number",
+    "question_text": "n, 12, 16, 12, the mean is 13\nWhat is the value of n?\n",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "8",
+      "12"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": "solve\nThere are 4 numbers in the group.\n\nTry n = 8.\n\n\nFind the sum of the numbers.\n\n\n8 +12 +16 +12 =48\n\n\nDivide by 4.\n\n\n48 \u00c3\u00b7 4 = 12\n\n\nWhen n = 8, the mean is 12.\n\n\nTry n = 12.\n\n\nFind the sum of the numbers.\n\n\n12 +12 +16 +12 =52\n\n\nDivide by 4.\n\n\n52 \u00c3\u00b7 4 = 13\n\n\nWhen n = 12, the mean is 13.\n\n\nThe mean is 13, so n = 12."
+  },
+  {
+    "skills": "interpret-charts-and-graphs-to-find-the-mean",
+    "question_text": "Some students compared how many clubs they belong to.\n\n\nClubs\nNameNumber of clubs\nLayla4\nHanson5\nSpencer6\nErica9\nAddison1\n\n\nWhat is the mean of the numbers?\n\n",
+    "image_tag": "Grade5_GG.8",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "5"
+    ],
+    "solution": "solve\nRead the numbers from the table.\n\n\nFirst, count how many numbers are in the group.\n\n\nThere are 5 numbers.\n\nNow add all the numbers together:\n\n\n4 +5 +6 +9 +1 =25\n\nNow divide the sum by the number of numbers:\n\n\n25 \u00c3\u00b7 5 = 5\n\nThe mean is 5."
+  },
+  {
+    "skills": "calculate-mean-median-and-mode",
+    "question_text": "What is the median?\n939998989598100\n",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "98"
+    ],
+    "solution": "solve\nFirst, arrange the numbers from least to greatest:\n\nNow find the number in the middle.\n\nThe number in the middle is 98.\n\nThe median is 98."
+  },
+  {
+    "skills": "mean-median-and-mode-find-the-missing-number",
+    "question_text": "11, 9, 7, p, 8",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "7",
+      "20"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": "solve\nTry p = 7.\n\nArrange the numbers from least to greatest.\n778911\nThe number in the middle is 8. When p = 7, the median is 8.\n\n\nTry p = 20.\n\nArrange the numbers from least to greatest.\n7891120\nThe number in the middle is 9. When p = 20, the median is 9.\n\n\nThe median is 8, so p = 7."
+  },
+  {
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "question_text": "Several students participated in a race.\n\n\nRace results\nRunnerTime (minutes)\nGavin23\nMonica25\nAlexa24\nJuan29\nCameron20\n\n\nWhat is the median of the numbers?\n\n",
+    "image_tag": "Grade5_GG.11",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "24"
+    ],
+    "solution": "solve\nRead the numbers from the table.\n\n\nFirst, arrange the numbers from least to greatest:\n\nNow find the number in the middle.\n\nThe number in the middle is 24.\n\nThe median is 24."
+  },
+  {
+    "skills": "interpret-bar-graphs",
+    "question_text": "Abby's classmates revealed how many science articles they read.\nAbby\nBilly\nBarry\nZack\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\nName\nNumber of science articles\nScience articles read\nHow many science articles did Zack read?\n science articles",
+    "image_tag": "Grade5_FF.4",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "30 science articles"
+    ],
+    "solution": "solve\nFind the Zack bar in the graph.\nAbby\nBilly\nBarry\nZack\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\nName\nNumber of science articles\nScience articles read\nUse the scale on the left side of the graph to read the value of the Zack bar.\nZack:30\nZack read 30 science articles."
+  },
+  {
+    "skills": "interpret-bar-graphs-multi-step-problems",
+    "question_text": "Stephanie sells clothing online. She made a bar graph of the clothing she sold in September.\nskirts\ndresses\nsweaters\nleggings\n0\n5\n10\n15\n20\n25\nType of clothing\nNumber of items\nClothing sold in September\nStephanie sells skirts for $22 and dresses for $37. How much did Stephanie make on the skirts and dresses she sold in September?\n$",
+    "image_tag": "Grade5_FF.5",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "$775"
+    ],
+    "solution": "solve\nStep 1: Find how much Stephanie made from skirts.\nStephanie sold 10 skirts for $22 each. Multiply.\n10\u00c3\u0097$22=$220\nStephanie made $220 from skirts.\nStep 2: Find how much Stephanie made from dresses.\nShe also sold 15 dresses for $37 each. Multiply.\n15\u00c3\u0097$37=$555\nStephanie made $555 from dresses.\nStep 3: Find how much Stephanie made in all.\nStephanie made $220 on skirts and $555 on dresses. Add.\n$220+$555=$775\nStephanie made $775 on the skirts and dresses she sold in September."
+  },
+  {
+    "skills": "interpret-double-bar-graphs",
+    "question_text": "Centerville Elementary School polled its students about their favourite vegetables in order to decide which ones to plant in the new school garden.\n\n\nCabbage\nCauliflower\nPeas\nCelery\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\nNumber of students\nVegetables\nFavourite vegetables\n\nLower elementary students\n\n\nUpper elementary students\n\n\n\n\nHow many students voted for peas?\n\n\n students",
+    "image_tag": "Grade5_FF.7",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "180"
+    ],
+    "solution": "solve\nFind the two bars for peas. One bar represents lower elementary students and the other bar represents upper elementary students. Read the numbers for both bars, then add the numbers together.\n\nAdd:\n\n\n90 + 90 = 180\n\n\n180 students voted for peas."
+  },
+  {
+    "skills": "interpret-frequency-charts-one-step-problems",
+    "question_text": "Mr. Finley's students picked topics for their science fair projects. Mr. Finley used a frequency chart to keep track of their projects.\nScience fair projects\nTopicsFrequency\nbiology10\nchemistry7\nelectricity3\nforce and motion4\nlight3\nspace2\nHow many more students picked chemistry than space?\n more students",
+    "image_tag": "Grade5_FF.13",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "5 more students"
+    ],
+    "solution": "solve\nThe frequencies tell you how many students picked each topic. Start by finding how many students picked chemistry and how many students picked space.\nScience fair projects\nTopicsFrequency\nbiology10\nchemistry7\nelectricity3\nforce and motion4\nlight3\nspace2\n7 students picked chemistry, and 2 students picked space. Subtract to find the difference.\n7\n\n\u00e2\u0088\u0092\n\n2\n\n=\n\n5\n\n\n\n\n\n\nStudentswhopickedchemistry\n\nStudentswhopickedspace\n\nHowmanymorestudentspickedchemistry\nSo, 5 more students picked chemistry than space."
+  },
+  {
+    "skills": "interpret-frequency-charts-multi-step-problems",
+    "question_text": "Action Arcade is getting a new game machine, but first they need to decide what type to get. They asked people to vote and recorded the results in a frequency chart.\nVotes for the new game machine\nTypeFrequency\npinball14\nracing game52\nsports game34\nclaw15\nOne type of game machine got the most votes, and one type got the fewest votes. How many more votes did the most popular type get?\n more votes",
+    "image_tag": "Grade5_FF.14",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "38 more votes"
+    ],
+    "solution": "solve\nStep 1: Find the most popular type and the least popular type of game machines.\nThe greatest number in the frequency chart is 52. The smallest number in the frequency chart is 14.\nVotes for the new game machine\nTypeFrequency\npinball14\nracing game52\nsports game34\nclaw15\nSo, the most popular machine is a racing game and the least popular machine is a pinball machine.\nStep 2: Find how many more people voted for the most popular type of game machine.\n52 people voted for a racing game, and 14 people voted for a pinball machine. Subtract to find the difference.\n52\u00e2\u0080\u009314=38\nThere were 38 more votes for a racing game than for a pinball machine."
+  },
+  {
+    "skills": "understanding-probability",
+    "question_text": "On which colour is the spinner less likely to land?\n\n",
+    "image_tag": "Grade5_GG.1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "white",
+      "pink"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": "solve\nLook at the spinner. The pink part is smaller than the white part.\n\nLess of the spinner is pink than is white. The spinner is less likely to land on pink."
+  },
+  {
+    "skills": "find-the-probability",
+    "question_text": "If you roll a 6-sided die, what is the probability of rolling a one?\n\nWrite your answer as a fraction or a whole number. With fractions, use a slash ( / ) to separate the numerator and denominator.\n\n",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "1/6"
+    ],
+    "solution": "solve\nThere are 6 possible outcomes: 1, 2, 3, 4, 5, 6.\n\nThere is 1 favourable outcome: 1.\n\nThe probability is 1 out of 6, or 1/6."
+  },
+  {
+    "skills": "make-predictions",
+    "question_text": "You select a marble without looking and then put it back. If you do this 7 times, what is the best prediction possible for the number of times you will pick an orange marble?\n\n\n\n\n\n times",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "0"
+    ],
+    "solution": "solve\nThere are 7 marbles. There are 7 possible outcomes.\n\n\n\n\n0 of the marbles are orange. There are 0 favourable outcomes.\n\n\nThe probability is 0 out of 7, or0\n7.\n\n\n\nNow find0\n7of 7.\n\n\n\n0\n7\u00c3\u0097 7 = 0\n\n\nThe best prediction possible is 0 out of 7 times."
+  },
+  {
+    "skills": "experimental-probability",
+    "question_text": "Of the 8 people who have taken their seats at a seminar, 1 has grey hair. What is the experimental probability that the next person to take a seat will have grey hair?\n\nWrite your answer as a fraction or whole number.\n\n\nP(grey) = ",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "1/8"
+    ],
+    "solution": "solve\nWrite the experimental probability as a fraction in simplest form.\n\n\nP(grey)=\ngrey\ntotal\n\n=\n1\n8\n\n\nSo,\nP(grey)=\n1\n8"
+  },
+  {
+    "skills": "acute-obtuse-and-right-triangles",
+    "question_text": "What kind of triangle is this?\n\n",
+    "image_tag": "Grade5_KK.1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "acute",
+      "right",
+      "obtuse"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": "solve\nNow look at this triangle:\n\n\n\nThe marked angle is greater than a right angle. This is an obtuse triangle."
+  },
+  {
+    "skills": "scalene-isosceles-and-equilateral-triangles",
+    "question_text": "What kind of triangle is this?",
+    "image_tag": "Grade5_KK.2",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "equilateral",
+      "isosceles but not equilateral",
+      "scalene"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": "solve\nLook at this triangle:\n\n\n\nAll three sides are different lengths. This is a scalene triangle."
+  },
+  {
+    "skills": "classify-triangles",
+    "question_text": "",
+    "image_tag": "Grade5_KK.3",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "acute",
+      "right",
+      "obtuse"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": "solve\nThis triangle is an acute triangle. \n None of the angles exceed 90 degrees."
+  },
+  {
+    "skills": "objects-on-a-coordinate-plane",
+    "question_text": "What is the x-coordinate of point T?\n\nx-coordinate: ",
+    "image_tag": "Grade5_AA.2",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "x-coordinate: 6"
+    ],
+    "solution": "solve\nStart at point T and move down until you reach the x-axis.\n\nThis position on the x-axis is 6 units to the right of the origin.\nSo, the x-coordinate of point T is 6."
+  },
+  {
+    "skills": "follow-directions-on-a-coordinate-plane",
+    "question_text": "You start at (0, 7). You move up 1 unit. Where do you end?\n\n\n",
+    "image_tag": "Grade5_AA.8",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "(0, 8)"
+    ],
+    "solution": "solve\nFirst find the starting point, (0, 7).\n\nNow follow the path. You move up 1 unit to (0, 8).\n\nYou end at (0, 8)."
+  },
+  {
+    "skills": "combinations-of-reflections-rotations-and-translations",
+    "question_text": "What combination of transformations is shown below?",
+    "image_tag": "Grade5_LL.4",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "reflection, then rotation",
+      "reflection, then translation",
+      "rotation, then translation",
+      "rotation, then reflection"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": "solve\nLook at the second shape. The shape is reflected across the x-axis.\n\nNow look at the third shape. The shape is rotated 90\u00c2\u00b0.\n\nSo, the combination of transformations is reflection, then rotation."
+  },
+  {
+    "skills": "which-metric-unit-of-length-is-appropriate",
+    "question_text": "Which is a better estimate for the length of a peanut?",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "13 centimetres",
+      "13 millimetres"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": "solve\n13 millimetres is a better estimate. 13 centimetres is too long."
+  },
+  {
+    "skills": "which-metric-unit-of-mass-is-appropriate",
+    "question_text": "Which is a better estimate for the mass of a lime?\n\n\n",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "44 kilograms",
+      "44 grams"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": "solve\n44 grams is a better estimate. 44 kilograms is too high."
+  },
+  {
+    "skills": "which-metric-unit-of-capacity-is-appropriate",
+    "question_text": "Which is a better estimate for the volume of a pitcher of lemonade?",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "4 millilitres",
+      "4 litres"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": "solve\n4 litres is a better estimate. 4 millilitres is too little."
+  },
+  {
+    "skills": "compare-and-convert-metric-units-of-length",
+    "question_text": "Which is more, 1999999 millimetres or 2 kilometres?",
+    "image_tag": "Grade5_II.2",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "1999999 millimetres",
+      "2 kilometres",
+      "neither; they are equal"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": "solve\nFind out how many millimetres are in 1 kilometre.\n\nMultiply:\n\n\n1000\u00c3\u00971000=1000000\n\n\n\nThere are 1000000 millimetres in 1 kilometre.\n\n\nNow find out how many millimetres are in 2 kilometres.\n\nMultiply:\n\n\n2\u00c3\u00971000000=2000000\n\n\n\nThere are 2000000 millimetres in 2 kilometres.\n\n\n2000000 is more than 1999999.\n\n\n2 kilometres is more than 1999999 millimetres."
+  },
+  {
+    "skills": "compare-and-convert-metric-units-of-mass",
+    "question_text": "Convert:\n\n\n\u00e2\u0080\u008bgrams=4 kilograms",
+    "image_tag": "Grade5_II.4",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      " grams4000"
+    ],
+    "solution": "solve\nFind out how many grams are in 4 kilograms.\n\nMultiply:\n\n\n4\u00c3\u00971000=4000\n\n\n\nThere are 4000 grams in 4 kilograms.\n\n\n4000 grams=4 kilograms"
+  },
+  {
+    "skills": "compare-and-convert-metric-units-of-capacity",
+    "question_text": "Which is more, 3998 millilitres or 4 litres?",
+    "image_tag": "Grade5_II.6",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "3998 millilitres",
+      "4 litres",
+      "neither; they are equal"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": "solve\nFind out how many millilitres are in 4 litres.\n\nMultiply:\n\n\n4\u00c3\u00971000=4000\n\n\n\nThere are 4000 millilitres in 4 litres.\n\n\n4000 is more than 3998.\n\n\n4 litres is more than 3998 millilitres."
+  },
+  {
+    "skills": "types-of-angles",
+    "question_text": "Is this angle greater than, equal to, or less than a right angle?",
+    "image_tag": "Grade5_JJ.6",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "greater than a right angle",
+      "equal to a right angle",
+      "less than a right angle"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": "solve\nLook at this angle:\n\n\n\nThis angle is equal to a right angle. Notice the right angle symbol in the corner."
+  },
+  {
+    "skills": "angles-of-90-180-270-and-360-degrees",
+    "question_text": "What is the measurement of this angle?",
+    "image_tag": "Grade5_JJ.7",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "180",
+      "270",
+      "90"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": "solve\nLook at this angle:\n\n\n\n\nThis is a right angle. It is 90 turn."
+  },
+  {
+    "skills": "measure-angles-with-a-protractor",
+    "question_text": "What is the measurement of this angle?\n\n\n\n\n\n\u00c2\u00b0",
+    "image_tag": "Grade5_JJ.8",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "160"
+    ],
+    "solution": "solve\nOne ray is lined up with 0\u00c2\u00b0. Follow the other ray to find the angle measurement.\n\nThis angle measures 160\u00c2\u00b0."
+  },
+  {
+    "skills": "area-of-parallelograms",
+    "question_text": "What is the area?",
+    "image_tag": "Grade5_NN.6",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "63 square kilometres"
+    ],
+    "solution": "solve\nFind the base and height of the parallelogram.\n\n\nbase:9 km\nheight:7 km\n\nUse these numbers in the formula.\n\n\nArea=base \u00c3\u0097 height\n=9 \u00c3\u0097 7\n= 63\n\n\nNow find the units. The lengths are measured in kilometres, so the area is measured in square kilometres.\n\n\nThe area is63square kilometres."
+  },
+  {
+    "skills": "area-of-triangles",
+    "question_text": "What is the area?",
+    "image_tag": "Grade5_NN.8",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "171 square kilometres"
+    ],
+    "solution": "solve\nFind the base and height of the triangle.\n\n\nbase:18 km\nheight:19 km\n\nUse these numbers in the formula.\n\n\nArea=\n1\n2\n\u00c3\u0097base \u00c3\u0097 height\n=\n1\n2\n\u00c3\u009718 \u00c3\u0097 19\n= 171\n\n\nNow find the units. The lengths are measured in kilometres, so the area is measured in square kilometres.\n\n\nThe area is171square kilometres."
+  },
+  {
+    "skills": "rectangles-relationship-between-perimeter-and-area",
+    "question_text": "The rectangles below have the same perimeter.\n\n\n6 mm\n6 mm\n3 mm\n\nWhat is the area of the green rectangle?",
+    "image_tag": "Grade5_NN.12",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "27 square millimetres"
+    ],
+    "solution": "solve\nFind the perimeter of the grey rectangle.\n\n\n6 + 6 + 6 + 6 = 24\n\n\nBoth rectangles have a perimeter of 24 millimetres. Find the missing side length of the green rectangle.\n\nYou know that two sides of the green rectangle are 3 millimetres long. Subtract from the perimeter to find the combined length of the other two sides.\n\n\n24 \u00e2\u0088\u0092 3 \u00e2\u0088\u0092 3 = 18\n\n\nSo, the combined length of the two other sides is 18. Divide by 2 to find the length of each of those sides.\n\n\n18 \u00c3\u00b7 2 = 9\n\n\nThe green rectangle is 9 millimetres by 3 millimetres. Find its area.\n\n\n9 \u00c3\u0097 3 = 27\n\n\nThe area of the green rectangle is 27 square millimetres."
+  },
+  {
+    "skills": "identify-advantages-and-disadvantages-of-payment-methods",
+    "question_text": "Which of the following is an advantage of using a credit card?\n\n",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "Using a credit card means you will not have to pay interest on your purchases.",
+      "If your credit card is lost or stolen, you automatically lose your money.",
+      "Using credit cards can help you pay for emergencies when you don't have enough cash."
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": "solve\nRead each statement to see if it describes an advantage of using a credit card.\nIf you can't pay your monthly balance, you must pay interest.\nIf the repair is expensive enough that you will need to pay it off over time,you will owe interest.That will make the purchase more costly. This is a disadvantage,not an advantage of paying with a credit card.\nIf your credit card is lost or stolen,you automatically lose your money.\nIf your credit card is lost or stolen,you can report it to your financial institution. They will cancel the card so no one uses it to spend your money.You will not automatically lose your money.So,thisstatementisnottrue.\nYou can pay for emergencies with a credit card when you don't have enough cash.\nCredit cards are convenient for emergencies. You may not have enough cash when an emergency happens, but you can pay quickly using a credit card. This is an advantage of paying with a credit card."
+  },
+  {
+    "skills": "evaluate-payment-methods",
+    "question_text": "Brandon wants to raise a pig for next year's fall fair. He can use a cheque to buy a pig from the farm supply store. The pig costs $105, and there is a $1.49 processing fee to pay with a cheque.\nWhat is the total cost of buying the pig with a cheque?\n$",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "$106.49"
+    ],
+    "solution": "solve\nThe pig costs $105. If Brandon uses a cheque, he will also pay a fee of $1.49. Add to find the total cost.\n$105+$1.49=$106.49\nThe total cost of buying the pig with a cheque is $106.49."
+  },
+  {
+    "skills": "debit-cards-and-credit-cards",
+    "question_text": "Sebastian reads his credit card statement at the end of the month. He has a balance of $218, and his interest rate is 17%. Sebastian decides to make the minimum payment of $70.\nWhich statement is true?",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "Sebastian will not be charged interest",
+      "Sebastian will be charged interest on the remaining balance of $148.",
+      "Sebastian will be charged interest on the $70 he paid."
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": "solve\nSebastian's credit card balance was $218. He paid $70. So, he will be charged interest on his remaining balance of $148."
+  },
+  {
+    "skills": "price-lists-with-addition-and-subtraction",
+    "question_text": "How much more does a stove cost than a water heater?",
+    "image_tag": "Grade5_M.3",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "$387"
+    ],
+    "solution": "solve\nSubtract the price of a water heater from the price of a stove.\n\n\n\n\n5\n\n15\n\n12\n\n\n$\n6\n\n6\n\n2\n.\n0\n\n0\n\n\n\u00e2\u0080\u0093$275.00\n\n$387.00\n\n\nA stove costs $387.00 more than a water heater."
+  },
+  {
+    "skills": "debit-cards-and-credit-cards",
+    "question_text": "At the gym, Audrey used her debit card to pay for a membership. The manicure cost $25.99.\nWill $25.99 come out of Audrey's bank account immediately? ",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "yes",
+      "no"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": "solve\nSince Audrey used her credit card to pay for the gym membership, the money will not be removed from her bank account on the same day."
+  },
+  {
+    "skills": "balance-a-budget",
+    "question_text": "This table shows Jack's September budget. How much money can Jack spend on clothes to keep his budget balanced? Complete the table.",
+    "image_tag": "Grade5_OO.6",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "Jack's September budget\nIncomeExpenses\nMoney left over from summer: $120\nTickets to a professional soccer game: $60\nBirthday money: $95\nNew cleats: $135\nWorking at a soccer clinic: $65Clothes: $85\nTotal: $Total: $280"
+    ],
+    "solution": "solve\nFirst, add to find Jack's total income.\n$120+$95+$65=$280\nThe total income is $280. Put this number in the table.\nJack's September budget\nIncomeExpenses\nMoney left over from summer: $120Tickets to a professional soccer game: $60\nBirthday money: $95New cleats: $135\nWorking at a soccer clinic: $65Clothes: ?\nTotal: $280Total: ?\nNext, find the total expenses. In a balanced budget, the total income equals the total expenses. So, put $280 for the total expenses.\nJack's September budget\nIncomeExpenses\nMoney left over from summer: $120Tickets to a professional soccer game: $60\nBirthday money: $95New cleats: $135\nWorking at a soccer clinic: $65Clothes: ?\nTotal: $280Total: $280\nFinally, find how much money Jack can spend on new clothes. His expenses need to add up to $280.\nStart by adding how much he spends on tickets to a professional soccer game and new cleats.\n$60+$135=$195\nNow, find how much more money he can spend on new clothes. Subtract.\n$280\u00e2\u0080\u0093$195=$85\nJack can spend $85 on new clothes to keep his budget balanced.\nJack's September budget\nIncomeExpenses\nMoney left over from summer: $120Tickets to a professional soccer game: $60\nBirthday money: $95New cleats: $135\nWorking at a soccer clinic: $65Clothes: $85\nTotal: $280Total: $280"
+  },
+  {
+    "skills": "adjust-a-budget",
+    "question_text": "This table shows Owen's March budget.\n\nWhat could Owen do to balance his budget?",
+    "image_tag": "Grade5_OO.7",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "decrease spending at the book fair to $30",
+      "wash his dad's car to earn an extra $5",
+      "increase his donation to the animal shelter to $50",
+      "give a guitar lesson to earn an extra $25"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": "solve\nStep 1: Find how much money Owen needs to balance his budget.\nFirst, add Owen's sources of income to find his total income.\n$15\n\n+\n\n$20\n\n+\n\n$50\n\n=\n\n$85\n\n\n\n\n\n\n\nCleaninggutters\n\nAllowance\n\nPetsitting\n\nTotalincome\nNext, add Owen's expenses to find his total expenses.\n$40\n\n+\n\n$30\n\n+\n\n$40\n\n=\n\n$110\n\n\n\n\n\n\n\nBookFair\n\nDinnerwithfriends\n\nDonationtotheanimalshelter\n\nTotalexpenses\nOwen's expenses are more than his income. Subtract to find the difference.\n$110\u00e2\u0080\u0093$85=$25\nThe difference is $25, so Owen needs an extra $25 to balance his budget.\nStep 2: Find the answer choice that gives Owen an extra $25.\nIncreasing his income by $25 will give Owen the extra money he needs.\nSo, Owen can balance his budget by giving a guitar lesson to earn $25."
+  },
+  {
+    "skills": "reading-financial-records",
+    "question_text": "This is Devin's complete financial record for March:\nDateDescriptionReceivedExpensesAvailable Funds\nBalance: end of February$402.60\n3/5bag of chips$1.15$401.45\n3/18cleaning garage for Dad$25.00$426.45\n3/22reusable water bottle$9.20$417.25\nHow much money did Devin get on March 18?\n$",
+    "image_tag": "Grade5_OO.4",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "$25"
+    ],
+    "solution": "solve\nLook at the 3/18 row. The amount received was $25.00. So, Devin got $25.00 on March 18.\nDateDescriptionReceivedExpensesAvailable Funds\nBalance: end of February$402.60\n3/5bag of chips$1.15$401.45\n3/18cleaning garage for Dad$25.00$426.45\n3/22reusable water bottle$9.20$417.25"
+  },
+  {
+    "skills": "keeping-financial-records",
+    "question_text": "Xia keeps this financial record:\nDateDescriptionReceivedExpensesAvailable Funds\nBalance: end of December$373.65\n1/2calendar$11.90$361.75\n1/18dance competition judge$48.00$409.75\n1/23party decorations$$$\nOn January 23, Xia spent $21.90 on party decorations. Complete that row in the record.",
+    "image_tag": "Grade5_OO.5",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "Received: $0, Expenses: $21.90, Available Funds: $387.85"
+    ],
+    "solution": "solve\nOn January 23, Xia spent $21.90 on party decorations. That is an expense. So, find the row for 1/23 and enter $21.90 in the Expenses column.\nDateDescriptionReceivedExpensesAvailable Funds\nBalance: end of December$373.65\n1/2calendar$11.90$361.75\n1/18dance competition judge$48.00$409.75\n1/23party decorations$21.90\nBefore buying party decorations, Xia had $409.75 in available funds. Subtract $21.90 to find the available funds afterward.\n$409.75\u00e2\u0080\u0093$21.90=$387.85\nNow, complete the Available Funds column:\nDateDescriptionReceivedExpensesAvailable Funds\nBalance: end of December$373.65\n1/2calendar$11.90$361.75\n1/18dance competition judge$48.00$409.75\n1/23party decorations$21.90$387.85"
+  },
+  {
+    "skills": "unit-rates",
+    "question_text": "Find the unit rate.\n\n\n18 houses on 3 blocks = ? houses per block",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "6"
+    ],
+    "solution": "solve\nDivide:\n\n\n18 \u00c3\u00b7 3 = 6\n\n6 houses per block"
   }
 ]
