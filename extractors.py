@@ -239,6 +239,7 @@ def extract_answer_fill_in_the_blank_and_multiple_choices(page, json):
         gotWrongOption = fill_in_the_blank_and_multiple_choices_loop(page, json)
     
 def extract_answer_drag_and_drop(page, json):
+
     try:
         print("Collecting all drag and drop items...")
         options = page.query_selector_all(
@@ -258,26 +259,28 @@ def extract_answer_drag_and_drop(page, json):
 
     try:
         print("Taking screenshots of all drag and drop items...")
-        json["drag_and_drop_items"] = []
+        code = page.query_selector("nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace("\xa0", "").split(" ")[0]
+        folder_name = f"Grade5_Images/Grade5_{code.split('.')[0]}/Grade5_{code}"
+        json["items_image_folder"] = folder_name
         for i, option in enumerate(options):
             image_bytes = option.screenshot()
-            option.screenshot(path=f"drag_and_drop_item{i}.png")
-            image_b64 = base64.b64encode(image_bytes).decode("utf-8")
-            json["drag_and_drop_items"].append(image_b64)
+            option.screenshot(path=f"{folder_name}/item-{i + 1}.png")
     except Exception as e:
         print("Error while taking screenshots of drag and drop items:", e)
         return
 
     try:
-        print("Taking screenshots of all drag and drop categories...")
+        print("Taking all drag and drop categories...")
         json["categories"] = []
         for i, option in enumerate(categories):
-            image_bytes = option.screenshot()
-            option.screenshot(path=f"drag_and_drop_categories{i}.png")
-            image_b64 = base64.b64encode(image_bytes).decode("utf-8")
-            json["categories"].append(image_b64)
+            category = option.inner_text().replace("\xa0", "").replace("\t", "").encode("uft-8").decode("unicode_escape")
+            categories.append(category)
+            # image_bytes = option.screenshot()
+            # option.screenshot(path=f"drag_and_drop_categories{i}.png")
+            # image_b64 = base64.b64encode(image_bytes).decode("utf-8")
+            # json["categories"].append(image_b64)
     except Exception as e:
-        print("Error while taking screenshots of drag and drop items:", e)
+        print("Error while taking drag and drop items:", e)
         return
 
     try:
