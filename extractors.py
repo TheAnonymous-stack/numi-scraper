@@ -54,7 +54,7 @@ def extract_answer_fill_in_the_blank(page, json):
         print(f"Failed to extract correct answer: {e}")
         return False
 
-def multiple_choices_loop(page, json):
+def multiple_choices_loop(page, json, code):
     """
     Return True if selected the wrong option because wrong option will lead to answer with full explanation
     Return False if selected the right option
@@ -62,20 +62,34 @@ def multiple_choices_loop(page, json):
     extract_question_text(page, json)
     try:
         print("Collecting all options...")
+        crate = page.query_selector("section.ixl-practice-crate")
+        image_options = crate.wait_for_selector(
+            "div.math div.responsive-info-higher-order-component div.LaidOutTiles div.GeneticallyModified",
+            timeout=5000)
+        if image_options:
+            image_options = crate.query_selector_all(
+                "div.math div.responsive-info-higher-order-component div.LaidOutTiles div.GeneticallyModified")
         options = page.query_selector_all("section.ixl-practice-crate div.responsive-info-higher-order-component div.LaidOutTiles div.SelectableTile.MULTIPLE_CHOICE")
-
-    except TimeoutError:
-        print("Error occurred while collecting options")
+        if not options:
+            options = page.query_selector_all("section.ixl-practice-crate div.responsive-info-higher-order-component div.LaidOutTiles div.SelectableTile.MULTIPLE_SELECT")
+    except TimeoutError as e:
+        print("Error occurred while collecting options", e)
         return
     
     try:
         print("Extracting all options...")
-        json["choices"] = []
-        for i, option in enumerate(options):
-            class_attr = option.get_attribute("class")
-            if "nonInteractive" not in class_attr.split():
-                json["choices"].append(option.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape'))
-                # image_bytes = option.screenshot()
+        if image_options:
+            json["image_choice_tags"] = []
+            for i, option in enumerate(image_options):
+                option.screenshot(path=f'Grade5_Images/Grade5_{code.split('.')[0]}/Grade5_{code}_{chr(i+65)}.png')
+                json["image_choice_tags"].append(f'Grade5_{code}_{chr(i+65)}')
+        else:
+            json["choices"] = []
+            for i, option in enumerate(options):
+                class_attr = option.get_attribute("class")
+                if "nonInteractive" not in class_attr.split():
+                    json["choices"].append(option.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape'))
+                    # image_bytes = option.screenshot()
                 # option.screenshot(path=f"option{i}.png")
                 # image_b64 = base64.b64encode(image_bytes).decode("utf-8")
                 # json["choices"].append(image_b64)
@@ -108,15 +122,22 @@ def multiple_choices_loop(page, json):
             print("Selected option is confirmed to be false")
             try:
                 options = page.query_selector_all("div.answer-box div.LaidOutTiles div.SelectableTile.MULTIPLE_CHOICE")
-                answerFound = False
+                if not options:
+                    options = page.query_selector_all(
+                        "div.answer-box div.LaidOutTiles div.SelectableTile.MULTIPLE_SELECT")
                 i = 1
-                while not answerFound:
+                num_answer = 0
+                json["correct_answers"] = []
+                while i < len(options):
                     class_attr = options[i].get_attribute("class")
                     if "selected" in class_attr.split():
-                        json["correct_answers"] = [chr(i+65)]
+                        num_answer += 1
+                        json["correct_answers"].append(chr(i+65))
                         print("Saved the index of the answer in options")
-                        answerFound = True
                     i += 1
+
+                if num_answer > 1:
+                    json["question_type"] = "Multiple Choice with Multiple Answers"
                 section = page.query_selector("div.explanation-box section.tab-box.web.optional-tab-box.solve-box")
                 explanation = section.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
                 json['solution'] = explanation
@@ -133,11 +154,11 @@ def multiple_choices_loop(page, json):
         print("Selected the right option. Reloading for a different question...")
         return False
 
-def extract_answer_multiple_choices(page, json):
-    gotWrongOption = multiple_choices_loop(page, json)
+def extract_answer_multiple_choices(page, json, code):
+    gotWrongOption = multiple_choices_loop(page, json, code)
     while not gotWrongOption:
         page.reload()
-        gotWrongOption = multiple_choices_loop(page, json)
+        gotWrongOption = multiple_choices_loop(page, json, code)
         if gotWrongOption is None: # this means an error occured => move on to the next question
             break
 
