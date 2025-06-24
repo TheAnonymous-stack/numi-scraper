@@ -155,10 +155,10 @@ def getTopicUrls(url):
         print(f"❌ Error occurred: {e}")
         return []
 
-# url = "https://ca.ixl.com/math/grade-5/identify-congruent-figures"
-urls = ["https://ca.ixl.com/math/grade-5/write-a-one-step-equation-word-problems"]
-# urls = getTopicUrls(url)
-# urls = [url]
+url = "https://ca.ixl.com/math/grade-5"
+# urls = ["https://ca.ixl.com/math/grade-5/identify-congruent-figures"]
+urls = getTopicUrls(url)
+urls = urls[100:120]
 
 
 

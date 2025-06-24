@@ -78,7 +78,13 @@ def multiple_choices_loop(page, json, code):
     
     try:
         print("Extracting all options...")
-        if image_options:
+        image_exists = page.locator("section.ixl-practice-crate "
+    "div.math "
+    "div.responsive-info-higher-order-component "
+    "div.LaidOutTiles "
+    "div.GeneticallyModified "
+    "div.canvas-container-div")
+        if image_options and image_exists.count() > 0:
             json["image_choice_tags"] = []
             for i, option in enumerate(image_options):
                 option.screenshot(path=f'Grade5_Images/Grade5_{code.split('.')[0]}/Grade5_{code}_{chr(i+65)}.png')
