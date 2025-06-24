@@ -64,11 +64,11 @@ def multiple_choices_loop(page, json, code):
         print("Collecting all options...")
         crate = page.query_selector("section.ixl-practice-crate")
         image_options = crate.wait_for_selector(
-            "div.math div.responsive-info-higher-order-component div.LaidOutTiles div.GeneticallyModified",
+            "div.math div.responsive-info-higher-order-component div.LaidOutTiles div.TileSkinClassic.FLOAT",
             timeout=5000)
         if image_options:
             image_options = crate.query_selector_all(
-                "div.math div.responsive-info-higher-order-component div.LaidOutTiles div.GeneticallyModified")
+                "div.math div.responsive-info-higher-order-component div.LaidOutTiles div.TileSkinClassic.FLOAT")
         options = page.query_selector_all("section.ixl-practice-crate div.responsive-info-higher-order-component div.LaidOutTiles div.SelectableTile.MULTIPLE_CHOICE")
         if not options:
             options = page.query_selector_all("section.ixl-practice-crate div.responsive-info-higher-order-component div.LaidOutTiles div.SelectableTile.MULTIPLE_SELECT")
@@ -82,8 +82,7 @@ def multiple_choices_loop(page, json, code):
     "div.math "
     "div.responsive-info-higher-order-component "
     "div.LaidOutTiles "
-    "div.GeneticallyModified "
-    "div.canvas-container-div")
+    "div.TileSkinClassic.FLOAT")
         if image_options and image_exists.count() > 0:
             json["image_choice_tags"] = []
             for i, option in enumerate(image_options):

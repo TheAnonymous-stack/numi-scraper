@@ -156,9 +156,9 @@ def getTopicUrls(url):
         return []
 
 url = "https://ca.ixl.com/math/grade-5"
-# urls = ["https://ca.ixl.com/math/grade-5/identify-congruent-figures"]
-urls = getTopicUrls(url)
-urls = urls[100:120]
+urls = ["https://ca.ixl.com/math/grade-5/multiply-2-digit-numbers-by-2-digit-numbers-using-area-models"]
+# urls = getTopicUrls(url)
+# urls = urls[100:120]
 
 
 
