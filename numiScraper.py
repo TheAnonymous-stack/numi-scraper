@@ -105,7 +105,10 @@ def scrape_question(url, json, scraped_questions):
             scraped_questions.append(json)
         elif check_multiple_choices(page):
             json["question_type"] = "Multiple Choice Question with Single Answer"
-            extract_answer_multiple_choices(page, json)
+            code = page.query_selector(
+                        "nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace(
+                        "\xa0", "").split(" ")[0]
+            extract_answer_multiple_choices(page, json, code)
             scraped_questions.append(json)
         # elif check_ordering_items(page):
         #     json["question_type"] = "Ordering Items"
@@ -152,9 +155,10 @@ def getTopicUrls(url):
         print(f"❌ Error occurred: {e}")
         return []
 
-url = "https://ca.ixl.com/standards/ontario/math/grade-5"
-urls = getTopicUrls(url)
-urls = urls[180:200]
+url = "https://ca.ixl.com/math/grade-5"
+urls = ["https://ca.ixl.com/math/grade-5/write-inequalities-from-number-lines", "https://ca.ixl.com/math/grade-5/solve-one-step-inequalities"]
+# urls = getTopicUrls(url)
+# urls = urls[100:120]
 
 
 
