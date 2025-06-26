@@ -473,6 +473,7 @@ def extract_answer_ordering_items(page, json):
         return
 
 def format_explanation(explanation):
+    explanation = explanation.replace("solve\n", "")
     list = explanation.split(".")
     total = len(list)
     res = []
