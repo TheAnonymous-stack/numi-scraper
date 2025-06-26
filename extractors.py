@@ -9,7 +9,7 @@ def extract_question_text(page, json):
     
     json["question_text"] = text
 
-def extract_answer_fill_in_the_blank(page, json):
+def extract_answer_fill_in_the_blank(page, json, code):
     
     
     # Fill wrong answer into input inside .math.section
@@ -46,9 +46,10 @@ def extract_answer_fill_in_the_blank(page, json):
             for box in input_boxes:
                 value += box.evaluate("e => e.value").replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
         json['correct_answers'] = [value]
-        section = page.query_selector("div.explanation-box section.tab-box.web.optional-tab-box.solve-box")
-        explanation = section.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
-        json['solution'] = format_explanation(explanation)
+        extract_answer_explanation(page, json, code)
+        # section = page.query_selector("div.explanation-box section.tab-box.web.optional-tab-box.solve-box")
+        # explanation = section.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
+        # json['solution'] = format_explanation(explanation)
         return True
     except Exception as e:
         print(f"Failed to extract correct answer: {e}")
@@ -136,9 +137,10 @@ def extract_answer_multiple_choices(page, json, code):
 
                 if num_answer > 1:
                     json["question_type"] = "Multiple Choice with Multiple Answers"
-                section = page.query_selector("div.explanation-box section.tab-box.web.optional-tab-box.solve-box")
-                explanation = section.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
-                json['solution'] = format_explanation(explanation)
+                extract_answer_explanation(page, json, code)
+                # section = page.query_selector("div.explanation-box section.tab-box.web.optional-tab-box.solve-box")
+                # explanation = section.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
+                # json['solution'] = format_explanation(explanation)
                 
             
         except Exception as e:
@@ -246,11 +248,12 @@ def extract_answer_fill_in_the_blank_and_multiple_choices(page, json):
         page.reload()
         gotWrongOption = fill_in_the_blank_and_multiple_choices_loop(page, json)
     
-def extract_answer_drag_and_drop(page, json, code):
+def extract_answer_sorting_drag_and_drop(page, json, code):
     try:
         print("Collecting all drag and drop items...")
-        options = page.query_selector_all(
-            "section.ixl-practice-crate div.ddItemBankDropSlot.dropArea")
+        crate = page.query_selector("section.ixl-practice-crate")
+        options = crate.query_selector_all(
+            "div.ddItemBankDropSlot.dropArea")
 
     except TimeoutError:
         print("Error occurred while collecting drag and drop items")
@@ -258,19 +261,20 @@ def extract_answer_drag_and_drop(page, json, code):
 
     try:
         print("Collecting all drag and drop categories...")
-        categories = page.query_selector_all(
-            "section.ixl-practice-crate div.binsContainer div.bin.dropArea")
+        categories = crate.query_selector_all(
+            "div.binsContainer div.bin.dropArea")
     except TimeoutError:
         print("Error occurred while collecting drag and drop categories")
         return
 
     try:
-        print("Taking screenshots of all drag and drop items...")
-        code = page.query_selector("nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace("\xa0", "").split(" ")[0]
-        folder_name = f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}"
-        json["items_image_folder"] = folder_name
+        print("Storing all drag and drop items...")
+        # code = page.query_selector("nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace("\xa0", "").split(" ")[0]
+        # folder_name = f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}"
+        # json["items_image_folder"] = folder_name
+        json["sorting_items"] = []
         for i, option in enumerate(options):
-            json["drag_and_drop_items"].append(
+            json["sorting_items"].append(
                 option.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape'))
             # image_bytes = option.screenshot()
             # option.screenshot(path=f"drag_and_drop_item{i}.png")
@@ -320,17 +324,24 @@ def extract_answer_drag_and_drop(page, json, code):
         print("Waiting for the correct answer section to appear...")
         page.wait_for_selector("div.correct-answer.ixl-practice-crate", timeout=7000)
         print("Correct answer section appeared.")
-        # extract_answer_explanation_with_images(page, json, code)
         print("Extracting correct sorting...")
-        answer = page.query_selector("div.correct-answer.ixl-practice-crate div.dragAndDropContainer")
-        if answer:
-            print("Taking a screenshot of the correct sorting...")
-            # image_bytes = answer.screenshot()
-            answer.screenshot(path=f"Grade5_Images/Grade5_{code.split('.')[0]}/Grade5_{code}_answer.png")
-            json["correct_answers_image_tag"] = f"Grade5_{code}_answer"
-            # image_b64 = base64.b64encode(image_bytes).decode("utf-8")
-            # json["answer"] = image_b64
+        answers = page.query_selector_all("div.correct-answer.ixl-practice-crate div.dragAndDropContainer div.bin.dropArea")
+        if answers:
+            print("saving of the correct sorting...")
+            sorted_values = {}
+            for answer in answers:
+                category = answer.query_selector("div.binHeader").inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
+                correct_items = answer.query_selector_all("div.binContentRow")
+                if category not in sorted_values:
+                    sorted_values[category] = []
+                for item in correct_items:
+                    item = item.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
+                    if item != "":
+                        sorted_values[category].append(item)
+            json["correct_answers"] = [sorted_values]
             print("Correct order extracted and saved.")
+            extract_answer_explanation(page, json, code)
+            print("Extracted answer explanation.")
             return
     except TimeoutError:
         print("Correct answer section did not appear.")
@@ -405,20 +416,22 @@ def extract_answer_pattern_drag_and_drop(page, json, code):
     json["solution"] = []
 
 
-def extract_answer_ordering_items(page, json):
+def extract_answer_ordering_items(page, json, code):
     try:
         print("Collecting all items...")
-        options = page.query_selector_all(
-            "section.ixl-practice-crate div.order-items-item.order-items-numbers")
+        crate = page.query_selector("section.ixl-practice-crate")
+        options = crate.query_selector_all(
+            "div.order-items-item.order-items-numbers")
 
     except TimeoutError:
         print("Error occurred while collecting ordering items")
         return
 
     try:
-        print("Taking screenshots of all ordering items...")
+        print("Saving all ordering items...")
         json["order_items"] = []
         for i, option in enumerate(options):
+            # option = option.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
             json["order_items"].append(
                 option.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape'))
     except Exception as e:
@@ -453,24 +466,27 @@ def extract_answer_ordering_items(page, json):
         print("Correct answer section appeared.")
         # extract_answer_explanation(page, json)
         print("Extracting correct number order...")
-        answer = page.query_selector("section.solve-box section.ixl-practice-crate div.order-items-container.interactive")
-        if answer:
+        answers = page.query_selector_all("section.solve-box section.ixl-practice-crate div.order-items-container.interactive div.order-items-item.order-items-numbers")
+        if answers:
             print("Taking saving the correct order...")
             json["correct_answers"] = []
-            json["correct_answers"].append(
-                answer.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape'))
+            for answer in answers:
+                json["correct_answers"].append(
+                    answer.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape'))
             print("Correct order extracted and saved.")
     except TimeoutError:
         print("Correct answer section did not appear.")
         return
-    
-    try:
-        section = page.query_selector("div.explanation-box section.tab-box.web.optional-tab-box.solve-box")
-        explanation = section.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
-        json['solution'] = format_explanation(explanation)
-    except Exception as e:
-        print(f"Error while extracting full solution: {e}")
-        return
+
+    extract_answer_explanation(page, json, code)
+    return
+    # try:
+    #     section = page.query_selector("div.explanation-box section.tab-box.web.optional-tab-box.solve-box")
+    #     explanation = section.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
+    #     json['solution'] = format_explanation(explanation)
+    # except Exception as e:
+    #     print(f"Error while extracting full solution: {e}")
+    #     return
 
 def format_explanation(explanation):
     list = explanation.split(".")
@@ -483,25 +499,41 @@ def format_explanation(explanation):
         res.append(sentence_list)
     return res
 
-def extract_answer_explanation(page, json):
+def extract_answer_explanation(page, json, code):
     try:
         print("Extracting answer explanation...")
         res = page.wait_for_selector("section.solve-box section.ixl-practice-crate", timeout=5000)
         explanation = res.inner_text().replace("\xa0", "")
-        json["solution"] = explanation
-        print("Explanation extracted.")
+        json["solution"] = format_explanation(explanation)
+        print("Explanation text extracted.")
+        canvas = res.query_selector_all("canvas")
+        svg = res.query_selector_all("svg")
+        table = res.query_selector_all("table")
+        fraction_bar = res.query_selector_all("div.fractionBarContainer")
+        math_list = res.query_selector_all("div.mathList")
+        selectable_grid = res.query_selector_all("div.selectableGridContainerWrapper")
+        if canvas:
+            extract_answer_explanation_images(page, json, canvas, code)
+        if svg:
+            extract_answer_explanation_images(page, json, svg, code)
+        if table:
+            extract_answer_explanation_images(page, json, table, code)
+        if fraction_bar:
+            extract_answer_explanation_images(page, json, fraction_bar, code)
+        if math_list:
+            extract_answer_explanation_images(page, json, math_list, code)
+        if selectable_grid:
+            extract_answer_explanation_images(page, json, selectable_grid, code)
         return
     except Exception as e:
         print("An error occurred while extracting the explanation:", e)
         return
 
-def extract_answer_explanation_with_images(page, json, code):
+def extract_answer_explanation_images(page, json, visuals, code):
     try:
         print("Extracting answer explanation with graphics as image...")
-        print("Extracting graphics first...")
-        res = page.query_selector_all("section.solve-box section.ixl-practice-crate div.fractionBarContainer")
-        for i, option in enumerate(res):
-            res.screenshot(path=f"Grade5_Images/Grade5_{code.split('.')[0]}/Grade5_{code}_solution_{i}.png")
+        for i, option in enumerate(visuals):
+            option.screenshot(path=f"Grade5_Images/Grade5_{code.split('.')[0]}/Grade5_{code}_solution_{i}.png")
             json["solution_image_tag"] = f"Grade5_{code}_solution_{i}"
             # image_bytes = option.screenshot()
             # option.screenshot(path=f"option{i}.png")
@@ -513,15 +545,4 @@ def extract_answer_explanation_with_images(page, json, code):
         print("explanation images extracted.")
     except Exception as e:
         print("An error occurred while extracting the graphics from the explanation:", e)
-        return
-
-    try:
-        print("Extracting answer explanation text...")
-        res = page.wait_for_selector("section.solve-box section.ixl-practice-crate", timeout=5000)
-        explanation = res.inner_text().replace("\xa0", "")
-        json["solution"] = format_explanation(explanation)
-        print("Explanation text extracted.")
-        return
-    except Exception as e:
-        print("An error occurred while extracting the explanation text:", e)
         return

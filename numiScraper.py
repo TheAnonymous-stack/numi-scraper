@@ -6,8 +6,11 @@ import base64
 from playwright.sync_api import TimeoutError
 from typeChecker import check_fill_in_the_blank, check_multiple_choices
 from jsonHandler import write_to_json
-from typeChecker import check_fill_in_the_blank, check_multiple_choices, check_drag_and_drop, check_ordering_items, check_pattern_drag_and_drop
-from extractors import extract_question_text, extract_answer_fill_in_the_blank, extract_answer_multiple_choices, extract_answer_fill_in_the_blank_and_multiple_choices, extract_answer_drag_and_drop, extract_answer_ordering_items, extract_answer_pattern_drag_and_drop
+from typeChecker import check_fill_in_the_blank, check_multiple_choices, check_sorting_drag_and_drop, check_ordering_items, check_pattern_drag_and_drop
+from extractors import extract_question_text, extract_answer_fill_in_the_blank, extract_answer_multiple_choices, \
+    extract_answer_fill_in_the_blank_and_multiple_choices, extract_answer_ordering_items, \
+    extract_answer_pattern_drag_and_drop, extract_answer_sorting_drag_and_drop
+
 
 def screenshot_question_section(url, output_path="question.png"):
     with sync_playwright() as p:
@@ -99,38 +102,35 @@ def scrape_question(url, json, scraped_questions):
 
         extract_question_text(page, json)
         process_visual_components(page, json)
+        code = page.query_selector(
+            "nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace(
+            "\xa0", "").split(" ")[0]
         if check_fill_in_the_blank(page):
             json["question_type"] = "Fill in the blank"
-            extract_answer_fill_in_the_blank(page, json)
+            extract_answer_fill_in_the_blank(page, json, code)
             scraped_questions.append(json)
 
         elif check_multiple_choices(page):
             json["question_type"] = "Multiple Choice Question with Single Answer"
-            code = page.query_selector(
-                        "nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace(
-                        "\xa0", "").split(" ")[0]
             extract_answer_multiple_choices(page, json, code)
             scraped_questions.append(json)
 
         elif check_ordering_items(page):
             json["question_type"] = "Ordering Items"
-            extract_answer_ordering_items(page, json)
+            extract_answer_ordering_items(page, json, code)
             scraped_questions.append(json)
 
         elif check_pattern_drag_and_drop(page):
             json["question_type"] = "Pattern Drag and Drop"
-            code = page.query_selector(
-                        "nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace(
-                        "\xa0", "").split(" ")[0]
             extract_answer_pattern_drag_and_drop(page, json, code)
             scraped_questions.append(json)
-        # elif check_drag_and_drop(page):
-        #     json["question_type"] = "Drag and Drop"
-        #     code = page.query_selector(
-        #         "nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace(
-        #         "\xa0", "").split(" ")[0]
-        #     extract_answer_drag_and_drop(page, json, code)
-        #     scraped_questions.append(json)
+        elif check_sorting_drag_and_drop(page):
+            json["question_type"] = "Sorting Items"
+            code = page.query_selector(
+                "nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace(
+                "\xa0", "").split(" ")[0]
+            extract_answer_sorting_drag_and_drop(page, json, code)
+            scraped_questions.append(json)
         
         browser.close()
 
@@ -165,13 +165,14 @@ def getTopicUrls(url):
         print(f"❌ Error occurred: {e}")
         return []
 
-url = "https://ca.ixl.com/standards/ontario/math/grade-4"
-urls = getTopicUrls(url)
-urls = urls[:50]
+# url = "https://ca.ixl.com/standards/ontario/math/grade-4"
+# urls = getTopicUrls(url)
+# urls = urls[:50]
+urls = ["https://ca.ixl.com/math/grade-5/show-fractions-area-models"]
 
 scraped_questions = []
 
 for link in urls:
     json = {}
     scrape_question(link, json, scraped_questions)
-write_to_json(scraped_questions, "gr4Draft.json")
+write_to_json(scraped_questions, "gr5Draft.json")
