@@ -74,8 +74,8 @@ def process_visual_components(page, json):
             print("No visual component or visual component is neither canvas nor svg")
             return
         code = page.query_selector("nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace("\xa0", "").split(" ")[0]
-        visual.screenshot(path=f"Grade5_Images/Grade5_{code.split('.')[0]}/Grade5_{code}.png")
-        json["image_tag"] = f"Grade5_{code}"
+        visual.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}.png")
+        json["image_tag"] = f"Grade4_{code}"
     except Exception as e:
         print(f"Error occured: {e}")
         return
@@ -110,10 +110,10 @@ def scrape_question(url, json, scraped_questions):
                         "\xa0", "").split(" ")[0]
             extract_answer_multiple_choices(page, json, code)
             scraped_questions.append(json)
-        # elif check_ordering_items(page):
-        #     json["question_type"] = "Ordering Items"
-        #     extract_answer_ordering_items(page, json)
-        #     scraped_questions.append(json)
+        elif check_ordering_items(page):
+            json["question_type"] = "Ordering Items"
+            extract_answer_ordering_items(page, json)
+            scraped_questions.append(json)
         # elif check_drag_and_drop(page):
         #     json["question_type"] = "Drag and Drop"
         #     code = page.query_selector(
@@ -155,16 +155,14 @@ def getTopicUrls(url):
         print(f"❌ Error occurred: {e}")
         return []
 
-url = "https://ca.ixl.com/math/grade-5"
-urls = ["https://ca.ixl.com/math/grade-5/write-inequalities-from-number-lines", "https://ca.ixl.com/math/grade-5/solve-one-step-inequalities"]
-# urls = getTopicUrls(url)
-# urls = urls[100:120]
-
-
-
+url = "https://ca.ixl.com/standards/ontario/math/grade-4"
+# urls = ["https://ca.ixl.com/math/grade-4/write-inequalities-from-number-lines", "https://ca.ixl.com/math/grade-5/solve-one-step-inequalities"]
+urls = getTopicUrls(url)
+print(f"There are {len(urls)} many questions")
+urls = urls[:50]
 scraped_questions = []
 
 for link in urls:
     json = {}
     scrape_question(link, json, scraped_questions)
-write_to_json(scraped_questions, "gr5Draft.json")
+write_to_json(scraped_questions, "gr4Draft.json")

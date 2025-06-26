@@ -86,18 +86,15 @@ def multiple_choices_loop(page, json, code):
         if image_options and image_exists.count() > 0:
             json["image_choice_tags"] = []
             for i, option in enumerate(image_options):
-                option.screenshot(path=f'Grade5_Images/Grade5_{code.split('.')[0]}/Grade5_{code}_{chr(i+65)}.png')
-                json["image_choice_tags"].append(f'Grade5_{code}_{chr(i+65)}')
+                option.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}_{chr(i+65)}.png")
+                json["image_choice_tags"].append(f'Grade4_{code}_{chr(i+65)}')
         else:
             json["choices"] = []
             for i, option in enumerate(options):
                 class_attr = option.get_attribute("class")
                 if "nonInteractive" not in class_attr.split():
                     json["choices"].append(option.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape'))
-                    # image_bytes = option.screenshot()
-                # option.screenshot(path=f"option{i}.png")
-                # image_b64 = base64.b64encode(image_bytes).decode("utf-8")
-                # json["choices"].append(image_b64)
+                
     except Exception as e:
         print("Error while extracting options:", e)
         return
@@ -370,10 +367,6 @@ def extract_answer_ordering_items(page, json):
         for i, option in enumerate(options):
             json["order_items"].append(
                 option.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape'))
-            # image_bytes = option.screenshot()
-            # option.screenshot(path=f"order_item{i}.png")
-            # image_b64 = base64.b64encode(image_bytes).decode("utf-8")
-            # json["order_items"].append(image_b64)
     except Exception as e:
         print("Error while saving ordering items:", e)
         return
@@ -404,21 +397,25 @@ def extract_answer_ordering_items(page, json):
         print("Waiting for the correct answer section to appear...")
         page.wait_for_selector("div.correct-answer.ixl-practice-crate", timeout=7000)
         print("Correct answer section appeared.")
-        extract_answer_explanation(page, json)
+        # extract_answer_explanation(page, json)
         print("Extracting correct number order...")
         answer = page.query_selector("section.solve-box section.ixl-practice-crate div.order-items-container.interactive")
         if answer:
             print("Taking saving the correct order...")
+            json["correct_answers"] = []
             json["correct_answers"].append(
                 answer.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape'))
-            # image_bytes = answer.screenshot()
-            # answer.screenshot(path="correct_order.png")
-            # image_b64 = base64.b64encode(image_bytes).decode("utf-8")
-            # json["answer"] = image_b64
             print("Correct order extracted and saved.")
-            return
     except TimeoutError:
         print("Correct answer section did not appear.")
+        return
+    
+    try:
+        section = page.query_selector("div.explanation-box section.tab-box.web.optional-tab-box.solve-box")
+        explanation = section.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
+        json['solution'] = explanation
+    except Exception as e:
+        print(f"Error while extracting full solution: {e}")
         return
 
 def extract_answer_explanation(page, json):
