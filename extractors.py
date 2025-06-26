@@ -346,7 +346,7 @@ def extract_answer_pattern_drag_and_drop(page, json, code):
     options = {}
     for i, stack in enumerate(stacks):
         card = stack.query_selector("div.gc-card-stack-top.interactive")
-        pathName = f"Grade4_Images/Grade4_{code.split(".")[0]}/Grade4_{code}_{chr(i + 65)}.png"
+        pathName = f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}_{chr(i + 65)}.png"
         card.screenshot(path=pathName)
         json["shape_image_tags"].append(pathName)
         label = card.query_locator("svg").get_attribute("aria-label")
