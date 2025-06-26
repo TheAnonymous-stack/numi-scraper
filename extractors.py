@@ -48,18 +48,13 @@ def extract_answer_fill_in_the_blank(page, json):
         json['correct_answers'] = [value]
         section = page.query_selector("div.explanation-box section.tab-box.web.optional-tab-box.solve-box")
         explanation = section.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
-        json['solution'] = explanation
+        json['solution'] = format_explanation(explanation)
         return True
     except Exception as e:
         print(f"Failed to extract correct answer: {e}")
         return False
 
-def multiple_choices_loop(page, json, code):
-    """
-    Return True if selected the wrong option because wrong option will lead to answer with full explanation
-    Return False if selected the right option
-    """
-    extract_question_text(page, json)
+def extract_answer_multiple_choices(page, json, code):
     try:
         print("Collecting all options...")
         crate = page.query_selector("section.ixl-practice-crate")
@@ -100,14 +95,6 @@ def multiple_choices_loop(page, json, code):
         return
     
     try:
-        print("Clicking first option")
-        selected_option = options[0]
-        selected_option.click()
-    except Exception as e:
-        print("Error occurred while clicking first option:", e)
-        return
-    
-    try:
         # Click the Submit button
         print("Clicking the Submit button...")
         submit_button = page.get_by_role("button", name="Submit")
@@ -117,17 +104,26 @@ def multiple_choices_loop(page, json, code):
         print(f"Error clicking the Submit button: {e}")
         return
     try:
-        print("Checking if selected option is false...")
-        res = page.wait_for_selector("div.answer-box h2.feedback-header.correct", timeout=8000)
+        res = page.wait_for_selector("div.ixl-modal-inside div.ixl-modal-content h3.hd", timeout=8000)
         text = res.inner_text()
-        if "Sorry" in text:
-            print("Selected option is confirmed to be false")
-            try:
+        if "Incomplete" in text:
+            print("Confirming submission of ordering items...")
+            confirm_button = page.get_by_label("Incomplete Answer").get_by_role("button", name="Submit")
+            confirm_button.click()
+            print("Submission confirmed.")
+    except TimeoutError:
+        print("No pop up confirmation found, something went wrong")
+        return
+    
+    try:
+        print("Extracting correct answer...")
+        res = page.wait_for_selector("div.answer-box h2.feedback-header.correct", timeout=8000)
+        try:
                 options = page.query_selector_all("div.answer-box div.LaidOutTiles div.SelectableTile.MULTIPLE_CHOICE")
                 if not options:
                     options = page.query_selector_all(
                         "div.answer-box div.LaidOutTiles div.SelectableTile.MULTIPLE_SELECT")
-                i = 1
+                i = 0
                 num_answer = 0
                 json["correct_answers"] = []
                 while i < len(options):
@@ -142,27 +138,16 @@ def multiple_choices_loop(page, json, code):
                     json["question_type"] = "Multiple Choice with Multiple Answers"
                 section = page.query_selector("div.explanation-box section.tab-box.web.optional-tab-box.solve-box")
                 explanation = section.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
-                json['solution'] = explanation
-                return True # Selected wrong option and extracted answer with full explanation
+                json['solution'] = format_explanation(explanation)
+                
             
-            except Exception as e:
+        except Exception as e:
                 print("Error while searching for answer:", e)
                 return
 
-    except TimeoutError:
-        incomplete_answer = page.query_selector("div.incomplete-answer-popover-content")
-        if incomplete_answer:
-            return
-        print("Selected the right option. Reloading for a different question...")
-        return False
-
-def extract_answer_multiple_choices(page, json, code):
-    gotWrongOption = multiple_choices_loop(page, json, code)
-    while not gotWrongOption:
-        page.reload()
-        gotWrongOption = multiple_choices_loop(page, json, code)
-        if gotWrongOption is None: # this means an error occured => move on to the next question
-            break
+    except Exception as e:
+        print(f"Error while extracting correct answer: {e}")
+        return
 
 def fill_in_the_blank_and_multiple_choices_loop(page, json):
     extract_question_text(page, json)
@@ -282,7 +267,7 @@ def extract_answer_drag_and_drop(page, json, code):
     try:
         print("Taking screenshots of all drag and drop items...")
         code = page.query_selector("nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace("\xa0", "").split(" ")[0]
-        folder_name = f"Grade5_Images/Grade5_{code.split('.')[0]}/Grade5_{code}"
+        folder_name = f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}"
         json["items_image_folder"] = folder_name
         for i, option in enumerate(options):
             json["drag_and_drop_items"].append(
@@ -335,7 +320,7 @@ def extract_answer_drag_and_drop(page, json, code):
         print("Waiting for the correct answer section to appear...")
         page.wait_for_selector("div.correct-answer.ixl-practice-crate", timeout=7000)
         print("Correct answer section appeared.")
-        extract_answer_explanation_with_images(page, json, code)
+        # extract_answer_explanation_with_images(page, json, code)
         print("Extracting correct sorting...")
         answer = page.query_selector("div.correct-answer.ixl-practice-crate div.dragAndDropContainer")
         if answer:
@@ -350,7 +335,76 @@ def extract_answer_drag_and_drop(page, json, code):
     except TimeoutError:
         print("Correct answer section did not appear.")
         return
+
+def extract_answer_pattern_drag_and_drop(page, json, code):
+    crate = page.query_selector("section.ixl-practice-crate")
+    # find shape options first
+    stacks = crate.query_selector("div.gc-card-stacks")
+    # take screenshot of each stack
+    print("Taking screenshot of each stack...")
+    json["shape_image_tags"] = []
+    options = {}
+    for i, stack in enumerate(stacks):
+        card = stack.query_selector("div.gc-card-stack-top.interactive")
+        pathName = f"Grade4_Images/Grade4_{code.split(".")[0]}/Grade4_{code}_{chr(i + 65)}.png"
+        card.screenshot(path=pathName)
+        json["shape_image_tags"].append(pathName)
+        label = card.query_locator("svg").get_attribute("aria-label")
+        options[label] = chr(i + 65)
+    print("Finish taking screenshot of each stack")
     
+    print("Getting setup sequence...")
+    row = crate.query_selector("div.gc-card-row")
+    json["sequence"] = []
+    for card in row:
+        value = card.get_attribute("aria-label")
+        if "blank" in value:
+            json["sequence"].append("empty")
+        else:
+            json["sequence"].append(options[value])
+    print("Finish getting setup sequence")
+
+    # click "Submit" button
+    print("Clicking submit button...")
+    submit_button = page.get_by_role("button", name="Submit")
+    submit_button.click()
+    print("Submit button clicked.")
+    try:
+        res = page.wait_for_selector("div.ixl-modal-inside div.ixl-modal-content h3.hd", timeout=8000)
+        text = res.inner_text()
+        if "Incomplete" in text:
+            print("Confirming submission of ordering items...")
+            confirm_button = page.get_by_label("Incomplete Answer").get_by_role("button", name="Submit")
+            confirm_button.click()
+            print("Submission confirmed.")
+    except TimeoutError:
+        print("No pop up confirmation found, something went wrong")
+        return
+    
+    try:
+        print("Waiting for the correct answer section to appear...")
+        page.wait_for_selector("div.correct-answer.ixl-practice-crate", timeout=7000)
+        print("Correct answer section appeared.")
+    except Exception as e:
+        print(f"Error occurred while waiting for the correct answer to appear: {e}")
+    
+    try:
+        print("Extracting correct answer...")
+        row = page.query_selector("div.correct-answer.ixl-practice-crate div.gc-card-row")
+        json["correct_answers"] = [[]]
+        res = json["correct_answers"][0]
+        for card in row:
+            value = card.get_attribute("aria-label")
+            res.append(options[value])
+        print("Finish extracting correct answer")
+
+    except Exception as e:
+        print(f"Error occurred while extracting the correct answer to appear: {e}")
+
+
+    json["solution"] = []
+
+
 def extract_answer_ordering_items(page, json):
     try:
         print("Collecting all items...")
@@ -413,10 +467,21 @@ def extract_answer_ordering_items(page, json):
     try:
         section = page.query_selector("div.explanation-box section.tab-box.web.optional-tab-box.solve-box")
         explanation = section.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
-        json['solution'] = explanation
+        json['solution'] = format_explanation(explanation)
     except Exception as e:
         print(f"Error while extracting full solution: {e}")
         return
+
+def format_explanation(explanation):
+    list = explanation.split(".")
+    total = len(list)
+    res = []
+    for i, sentence in enumerate(list):
+        sentence_list = []
+        sentence_list.append(f"{i + 1}/{total}")
+        sentence_list.append(sentence)
+        res.append(sentence_list)
+    return res
 
 def extract_answer_explanation(page, json):
     try:
@@ -454,7 +519,7 @@ def extract_answer_explanation_with_images(page, json, code):
         print("Extracting answer explanation text...")
         res = page.wait_for_selector("section.solve-box section.ixl-practice-crate", timeout=5000)
         explanation = res.inner_text().replace("\xa0", "")
-        json["solution"] = explanation
+        json["solution"] = format_explanation(explanation)
         print("Explanation text extracted.")
         return
     except Exception as e:

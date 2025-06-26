@@ -19,3 +19,7 @@ def check_drag_and_drop(page):
         "section.ixl-practice-crate div.dragAndDropContainer.dragAndDropSortingContainer",
         timeout=10_000
     )
+
+def check_pattern_drag_and_drop(page):
+    component = page.query_selector("section.ixl-practice-crate div.gc-card-row")
+    return component is not None
