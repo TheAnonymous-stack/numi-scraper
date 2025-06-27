@@ -1,0 +1,2 @@
+def decode_text(text):
+    return text.replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape').replace("\u00c3\u00b7", "÷").replace("\u00e2\u0080\u0093", "-").replace("\u00c3\u0097", "x")

@@ -1,11 +1,12 @@
 import base64
 from playwright.sync_api import TimeoutError
+from textFormat import decode_text
 def extract_question_text(page, json):
     # Wait for question section
     section = page.query_selector("div.question-component section.ixl-practice-crate")
 
     # Extract text
-    text = section.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')  # gets all rendered (visible) text
+    text = decode_text(section.inner_text()) # gets all rendered (visible) text
     
     json["question_text"] = text
 
@@ -40,11 +41,11 @@ def extract_answer_fill_in_the_blank(page, json, code):
     try:
         print("Extracting correct answer...")
         section = page.query_selector("div.correct-answer.ixl-practice-crate")
-        value = section.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
+        value = decode_text(section.inner_text())
         input_boxes = page.query_selector_all("div.correct-answer.ixl-practice-crate input.fillIn")
         if input_boxes:
             for box in input_boxes:
-                value += box.evaluate("e => e.value").replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
+                value += decode_text(box.evaluate("e => e.value"))
         json['correct_answers'] = [value]
         extract_answer_explanation(page, json, code)
         # section = page.query_selector("div.explanation-box section.tab-box.web.optional-tab-box.solve-box")
@@ -89,7 +90,7 @@ def extract_answer_multiple_choices(page, json, code):
             for i, option in enumerate(options):
                 class_attr = option.get_attribute("class")
                 if "nonInteractive" not in class_attr.split():
-                    json["choices"].append(option.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape'))
+                    json["choices"].append(decode_text(option.inner_text()))
                 
     except Exception as e:
         print("Error while extracting options:", e)
@@ -106,7 +107,7 @@ def extract_answer_multiple_choices(page, json, code):
         return
     try:
         res = page.wait_for_selector("div.ixl-modal-inside div.ixl-modal-content h3.hd", timeout=8000)
-        text = res.inner_text()
+        text = decode_text(res.inner_text())
         if "Incomplete" in text:
             print("Confirming submission of ordering items...")
             confirm_button = page.get_by_label("Incomplete Answer").get_by_role("button", name="Submit")
@@ -167,7 +168,7 @@ def fill_in_the_blank_and_multiple_choices_loop(page, json):
         for i, option in enumerate(options):
             class_attr = option.get_attribute("class")
             if "nonInteractive" not in class_attr.split():
-                json["choices"].append(option.inner_text())
+                json["choices"].append(decode_text(option.inner_text()))
                 # image_bytes = option.screenshot()
                 # option.screenshot(path=f"option{i}.png")
                 # image_b64 = base64.b64encode(image_bytes).decode("utf-8")
@@ -202,7 +203,7 @@ def fill_in_the_blank_and_multiple_choices_loop(page, json):
     try:
         print("Checking if selected option is false...")
         res = page.wait_for_selector("div.answer-box h2.feedback-header.correct", timeout=8000)
-        text = res.inner_text()
+        text = decode_text(res.inner_text())
         if "Sorry" in text:
             print("Selected option is confirmed to be false")
             try:
@@ -219,7 +220,7 @@ def fill_in_the_blank_and_multiple_choices_loop(page, json):
                         answerFound = True
                     i += 1
                 section = page.query_selector("div.correct-answer.ixl-practice-crate")
-                value = section.inner_text()
+                value = decode_text(section.inner_text())
                 input_boxes = page.query_selector_all("div.correct-answer.ixl-practice-crate input.fillIn")
                 if input_boxes:
                     for box in input_boxes:
@@ -227,7 +228,7 @@ def fill_in_the_blank_and_multiple_choices_loop(page, json):
                 json['correct_answers'].append(value)
 
                 section = page.query_selector("div.explanation-box section.tab-box.web.optional-tab-box.solve-box")
-                explanation = section.inner_text().replace("\xa0", "")
+                explanation = decode_text(section.inner_text())
                 json['solution'] = explanation
 
                 return True # Selected wrong option and extracted answer with full explanation
@@ -275,7 +276,7 @@ def extract_answer_sorting_drag_and_drop(page, json, code):
         json["sorting_items"] = []
         for i, option in enumerate(options):
             json["sorting_items"].append(
-                option.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape'))
+                decode_text(option.inner_text()))
             # image_bytes = option.screenshot()
             # option.screenshot(path=f"drag_and_drop_item{i}.png")
             # image_b64 = base64.b64encode(image_bytes).decode("utf-8")
@@ -289,7 +290,7 @@ def extract_answer_sorting_drag_and_drop(page, json, code):
         json["categories"] = []
         for i, option in enumerate(categories):
             json["categories"].append(
-                option.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape'))
+                decode_text(option.inner_text()))
             # image_bytes = option.screenshot()
             # option.screenshot(path=f"drag_and_drop_categories{i}.png")
             # image_b64 = base64.b64encode(image_bytes).decode("utf-8")
@@ -310,7 +311,7 @@ def extract_answer_sorting_drag_and_drop(page, json, code):
     # There exists a pop up so need to confirm submission
     try:
         res = page.wait_for_selector("div.ixl-modal-inside div.ixl-modal-content h3.hd", timeout=8000)
-        text = res.inner_text()
+        text = decode_text(res.inner_text())
         if "Incomplete" in text:
             print("Confirming submission of ordering items...")
             confirm_button = page.get_by_label("Incomplete Answer").get_by_role("button", name="Submit")
@@ -335,7 +336,7 @@ def extract_answer_sorting_drag_and_drop(page, json, code):
                 if category not in sorted_values:
                     sorted_values[category] = []
                 for item in correct_items:
-                    item = item.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
+                    item = decode_text(item.inner_text())
                     if item != "":
                         sorted_values[category].append(item)
             json["correct_answers"] = [sorted_values]
@@ -382,7 +383,7 @@ def extract_answer_pattern_drag_and_drop(page, json, code):
     print("Submit button clicked.")
     try:
         res = page.wait_for_selector("div.ixl-modal-inside div.ixl-modal-content h3.hd", timeout=8000)
-        text = res.inner_text()
+        text = decode_text(res.inner_text())
         if "Incomplete" in text:
             print("Confirming submission of ordering items...")
             confirm_button = page.get_by_label("Incomplete Answer").get_by_role("button", name="Submit")
@@ -433,7 +434,7 @@ def extract_answer_ordering_items(page, json, code):
         for i, option in enumerate(options):
             # option = option.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
             json["order_items"].append(
-                option.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape'))
+                decode_text(option.inner_text()))
     except Exception as e:
         print("Error while saving ordering items:", e)
         return
@@ -450,7 +451,7 @@ def extract_answer_ordering_items(page, json, code):
     # There exists a pop up so need to confirm submission
     try:
         res = page.wait_for_selector("div.ixl-modal-inside div.ixl-modal-content h3.hd", timeout=8000)
-        text = res.inner_text()
+        text = decode_text(res.inner_text())
         if "Incomplete" in text:
             print("Confirming submission of ordering items...")
             confirm_button = page.get_by_label("Incomplete Answer").get_by_role("button", name="Submit")
@@ -472,7 +473,7 @@ def extract_answer_ordering_items(page, json, code):
             json["correct_answers"] = []
             for answer in answers:
                 json["correct_answers"].append(
-                    answer.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape'))
+                    decode_text(answer.inner_text()))
             print("Correct order extracted and saved.")
     except TimeoutError:
         print("Correct answer section did not appear.")
@@ -495,7 +496,7 @@ def format_explanation(explanation):
     for i, sentence in enumerate(list):
         sentence_list = []
         sentence_list.append(f"{i + 1}/{total}")
-        sentence_list.append(sentence)
+        sentence_list.append(sentence+".")
         res.append(sentence_list)
     return res
 
@@ -503,7 +504,7 @@ def extract_answer_explanation(page, json, code):
     try:
         print("Extracting answer explanation...")
         res = page.wait_for_selector("section.solve-box section.ixl-practice-crate", timeout=5000)
-        explanation = res.inner_text().replace("\xa0", "")
+        explanation = decode_text(res.inner_text())
         json["solution"] = format_explanation(explanation)
         print("Explanation text extracted.")
         canvas = res.query_selector_all("canvas")
