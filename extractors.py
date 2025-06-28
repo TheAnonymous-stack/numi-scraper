@@ -1,4 +1,6 @@
 import base64
+import re
+
 from playwright.sync_api import TimeoutError
 from textFormat import decode_text
 def extract_question_text(page, json):
@@ -60,9 +62,13 @@ def extract_answer_multiple_choices(page, json, code):
     try:
         print("Collecting all options...")
         crate = page.query_selector("section.ixl-practice-crate")
-        image_options = crate.wait_for_selector(
-            "div.math div.responsive-info-higher-order-component div.LaidOutTiles div.TileSkinClassic.FLOAT",
-            timeout=5000)
+        try:
+            image_options = crate.wait_for_selector(
+                "div.math div.responsive-info-higher-order-component div.LaidOutTiles div.TileSkinClassic.FLOAT",
+                timeout=5000)
+        except TimeoutError:
+            image_options = None
+
         if image_options:
             image_options = crate.query_selector_all(
                 "div.math div.responsive-info-higher-order-component div.LaidOutTiles div.TileSkinClassic.FLOAT")
@@ -83,8 +89,8 @@ def extract_answer_multiple_choices(page, json, code):
         if image_options and image_exists.count() > 0:
             json["image_choice_tags"] = []
             for i, option in enumerate(image_options):
-                option.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}_{chr(i+65)}.png")
-                json["image_choice_tags"].append(f'Grade4_{code}_{chr(i+65)}')
+                option.screenshot(path=f"Grade7_Images/Grade7_{code.split('.')[0]}/Grade7_{code}_{chr(i+65)}.png")
+                json["image_choice_tags"].append(f'Grade7_{code}_{chr(i+65)}')
         else:
             json["choices"] = []
             for i, option in enumerate(options):
@@ -358,7 +364,7 @@ def extract_answer_pattern_drag_and_drop(page, json, code):
     options = {}
     for i, stack in enumerate(stacks):
         card = stack.query_selector("div.gc-card-stack-top.interactive")
-        pathName = f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}_{chr(i + 65)}.png"
+        pathName = f"Grade7_Images/Grade7_{code.split('.')[0]}/Grade7_{code}_{chr(i + 65)}.png"
         card.screenshot(path=pathName)
         json["shape_image_tags"].append(pathName)
         label = card.query_locator("svg").get_attribute("aria-label")
@@ -489,14 +495,19 @@ def extract_answer_ordering_items(page, json, code):
     #     print(f"Error while extracting full solution: {e}")
     #     return
 
-def format_explanation(explanation):
-    list = explanation.split(".")
+def format_explanation(explanation, json):
+    if "fraction" in json["skills"] or "rational" in json["skills"]:
+        list = re.split(r'\n\n+', explanation)
+    else:
+        list = re.split(r'\n+', explanation)
+    if list[-1] == "":
+        list.pop()
     total = len(list)
     res = []
     for i, sentence in enumerate(list):
         sentence_list = []
         sentence_list.append(f"{i + 1}/{total}")
-        sentence_list.append(sentence+".")
+        sentence_list.append(sentence)
         res.append(sentence_list)
     return res
 
@@ -504,27 +515,39 @@ def extract_answer_explanation(page, json, code):
     try:
         print("Extracting answer explanation...")
         res = page.wait_for_selector("section.solve-box section.ixl-practice-crate", timeout=5000)
-        explanation = decode_text(res.inner_text())
-        json["solution"] = format_explanation(explanation)
-        print("Explanation text extracted.")
         canvas = res.query_selector_all("canvas")
         svg = res.query_selector_all("svg")
         table = res.query_selector_all("table")
-        fraction_bar = res.query_selector_all("div.fractionBarContainer")
-        math_list = res.query_selector_all("div.mathList")
-        selectable_grid = res.query_selector_all("div.selectableGridContainerWrapper")
+        vert_arth = res.query_selector_all("div.vertArith")
+        # fraction_bar = res.query_selector_all("div.fractionBarContainer")
+        # math_list = res.query_selector_all("div.mathList")
+        # selectable_grid = res.query_selector_all("div.selectableGridContainerWrapper")
+        # diagram_wrapper = res.query_selector_all("div.diagramWrapper")
         if canvas:
             extract_answer_explanation_images(page, json, canvas, code)
         if svg:
             extract_answer_explanation_images(page, json, svg, code)
         if table:
-            extract_answer_explanation_images(page, json, table, code)
-        if fraction_bar:
-            extract_answer_explanation_images(page, json, fraction_bar, code)
-        if math_list:
-            extract_answer_explanation_images(page, json, math_list, code)
-        if selectable_grid:
-            extract_answer_explanation_images(page, json, selectable_grid, code)
+            if canvas and "number-line" in json["skills"]:
+                pass
+            else:
+                extract_answer_explanation_images(page, json, table, code)
+        if vert_arth:
+            extract_answer_explanation_images(page, json, vert_arth, code)
+        # if fraction_bar:
+        #     extract_answer_explanation_images(page, json, fraction_bar, code)
+        # if math_list:
+        #     extract_answer_explanation_images(page, json, math_list, code)
+        # if selectable_grid:
+        #     extract_answer_explanation_images(page, json, selectable_grid, code)
+        # if diagram_wrapper:
+        #     extract_answer_explanation_images(page, json, diagram_wrapper, code)
+        res.eval_on_selector_all("canvas, svg, table, div.fractionBarContainer, div.mathList, div.vertArith\
+                                           div.selectableGridContainerWrapper, div.diagramWrapper, div.qPVTable",
+                                 "(els) => els.forEach(el => el.remove())")
+        explanation = decode_text(res.inner_text())
+        json["solution"] = format_explanation(explanation, json)
+        print("Explanation text extracted.")
         return
     except Exception as e:
         print("An error occurred while extracting the explanation:", e)
@@ -533,9 +556,10 @@ def extract_answer_explanation(page, json, code):
 def extract_answer_explanation_images(page, json, visuals, code):
     try:
         print("Extracting answer explanation with graphics as image...")
+        json["solution_image_tag"] = []
         for i, option in enumerate(visuals):
-            option.screenshot(path=f"Grade5_Images/Grade5_{code.split('.')[0]}/Grade5_{code}_solution_{i}.png")
-            json["solution_image_tag"] = f"Grade5_{code}_solution_{i}"
+            option.screenshot(path=f"Grade7_Images/Grade7_{code.split('.')[0]}/Grade7_{code}_solution_{i}.png")
+            json["solution_image_tag"].append(f"Grade7_{code}_solution_{i}")
             # image_bytes = option.screenshot()
             # option.screenshot(path=f"option{i}.png")
             # image_b64 = base64.b64encode(image_bytes).decode("utf-8")

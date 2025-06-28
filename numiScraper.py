@@ -77,8 +77,8 @@ def process_visual_components(page, json):
             print("No visual component or visual component is neither canvas nor svg")
             return
         code = page.query_selector("nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace("\xa0", "").split(" ")[0]
-        visual.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}.png")
-        json["image_tag"] = f"Grade4_{code}"
+        visual.screenshot(path=f"Grade7_Images/Grade7_{code.split('.')[0]}/Grade7_{code}.png")
+        json["image_tag"] = f"Grade7_{code}"
     except Exception as e:
         print(f"Error occured: {e}")
         return
@@ -165,14 +165,14 @@ def getTopicUrls(url):
         print(f"❌ Error occurred: {e}")
         return []
 
-# url = "https://ca.ixl.com/standards/ontario/math/grade-4"
-# urls = getTopicUrls(url)
-# urls = urls[:50]
-urls = ["https://ca.ixl.com/math/grade-5/show-fractions-area-models"]
+url = "https://ca.ixl.com/standards/ontario/math/grade-7"
+urls = getTopicUrls(url)
+urls = urls[:20]
+# urls = ["https://ca.ixl.com/math/grade-7/write-equations-for-proportional-relationships-from-tables"]
 
 scraped_questions = []
 
 for link in urls:
     json = {}
     scrape_question(link, json, scraped_questions)
-write_to_json(scraped_questions, "gr5Draft.json")
+write_to_json(scraped_questions, "gr7Draft.json")
