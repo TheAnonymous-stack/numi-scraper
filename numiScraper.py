@@ -7,7 +7,7 @@ from playwright.sync_api import TimeoutError
 from typeChecker import check_fill_in_the_blank, check_multiple_choices
 from jsonHandler import write_to_json
 from typeChecker import check_fill_in_the_blank, check_multiple_choices, check_drag_and_drop, check_ordering_items, check_pattern_drag_and_drop
-from extractors import extract_question_text, extract_answer_fill_in_the_blank, extract_answer_multiple_choices, extract_answer_fill_in_the_blank_and_multiple_choices, extract_answer_drag_and_drop, extract_answer_ordering_items, extract_answer_pattern_drag_and_drop
+from extractors import extract_question_text, extract_answer_fill_in_the_blank, extract_answer_multiple_choices, extract_answer_drag_and_drop, extract_answer_ordering_items, extract_answer_pattern_drag_and_drop
 
 def screenshot_question_section(url, output_path="question.png"):
     with sync_playwright() as p:
@@ -59,23 +59,58 @@ def extract_question_text2(url):
         return text
 
 def process_visual_components(page, json):
+    code = page.query_selector("nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace("\xa0", "").split(" ")[0]
+    section = page.query_selector("section.ixl-practice-crate")
     try:
-        section = page.query_selector("div.question-component section.ixl-practice-crate")
-        canvas = section.query_selector("canvas")
-        svg = section.query_selector("svg")
+        
         table = section.query_selector("table")
+        if table:
+            table.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}.png")
+            
+            json["image_tag"] = f"Grade4_{code}"
+
+        canvas = section.query_selector_all("canvas")
         if canvas:
-            visual = canvas
-        elif svg:
-            visual = svg
-        elif table:
-            visual = table
-        else:
-            print("No visual component or visual component is neither canvas nor svg")
-            return
-        code = page.query_selector("nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace("\xa0", "").split(" ")[0]
-        visual.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}.png")
-        json["image_tag"] = f"Grade4_{code}"
+            
+                canvas.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}.png")
+                
+                json["image_tag"] = f"Grade4_{code}"
+        
+        # svgs = section.query_selector_all("svg")
+        # if len(svgs) > 0:
+        #     for svg in enumerate(svgs):
+        #         svg.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}_{i}")
+        #         i += 1
+        diagramWrapper = section.query_selector("div.diagramWrapper")
+        if diagramWrapper:
+                diagramWrapper.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}.png")
+                json["image_tag"] = f"Grade4_{code}"
+
+        fractionBar = section.query_selector("div.fractionBarBlockTable")
+        if fractionBar:
+                fractionBar.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}.png")
+                json["image_tag"] = f"Grade4_{code}"
+
+        selectableGridContainer = section.query_selector("div.selectableGridContainer")
+        if selectableGridContainer:
+                selectableGridContainer.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}.png")
+                json["image_tag"] = f"Grade4_{code}"
+
+        stripContainer = section.query_selector("div.has-two-bars")
+        if stripContainer:
+            
+                stripContainer.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}.png")
+                
+                json["image_tag"]=f"Grade4_{code}"
+        
+        multiplicationModelContainer = section.query_selector("div.multiplication-model-container")
+        if multiplicationModelContainer:
+            
+                multiplicationModelContainer.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}.png")
+                
+                json["image_tag"]=f"Grade4_{code}"
+            
+            
     except Exception as e:
         print(f"Error occured: {e}")
         return
@@ -96,34 +131,36 @@ def scrape_question(url, json, scraped_questions):
             print("Ad closed via 'explore-btn'")
         except:
             print("No ad found or already dismissed.")
-
+        code = page.query_selector(
+                        "nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace(
+                        "\xa0", "").split(" ")[0]
+        section = page.query_selector("section.ixl-practice-crate")
+        section.screenshot(path=f"Grade4_Questions/Grade4_{code}.png")
         extract_question_text(page, json)
         process_visual_components(page, json)
         if check_fill_in_the_blank(page):
             json["question_type"] = "Fill in the blank"
-            extract_answer_fill_in_the_blank(page, json)
+            json["tag"] = code
+            extract_answer_fill_in_the_blank(page, json, code)
             scraped_questions.append(json)
 
         elif check_multiple_choices(page):
             json["question_type"] = "Multiple Choice Question with Single Answer"
-            code = page.query_selector(
-                        "nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace(
-                        "\xa0", "").split(" ")[0]
+            json["tag"] = code
             extract_answer_multiple_choices(page, json, code)
             scraped_questions.append(json)
 
         elif check_ordering_items(page):
+            json["tag"] = code
             json["question_type"] = "Ordering Items"
-            extract_answer_ordering_items(page, json)
+            extract_answer_ordering_items(page, json, code)
             scraped_questions.append(json)
 
-        elif check_pattern_drag_and_drop(page):
-            json["question_type"] = "Pattern Drag and Drop"
-            code = page.query_selector(
-                        "nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace(
-                        "\xa0", "").split(" ")[0]
-            extract_answer_pattern_drag_and_drop(page, json, code)
-            scraped_questions.append(json)
+        # elif check_pattern_drag_and_drop(page):
+        #     json["question_type"] = "Pattern Drag and Drop"
+        #     json["tag"] = code
+        #     extract_answer_pattern_drag_and_drop(page, json, code)
+        #     scraped_questions.append(json)
         # elif check_drag_and_drop(page):
         #     json["question_type"] = "Drag and Drop"
         #     code = page.query_selector(
@@ -166,8 +203,7 @@ def getTopicUrls(url):
         return []
 
 url = "https://ca.ixl.com/standards/ontario/math/grade-4"
-urls = getTopicUrls(url)
-urls = urls[:50]
+urls = getTopicUrls(url)[100:200]
 
 scraped_questions = []
 
