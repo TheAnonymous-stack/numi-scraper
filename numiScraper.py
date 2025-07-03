@@ -105,6 +105,7 @@ def scrape_question(url, json, scraped_questions):
         code = page.query_selector(
             "nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace(
             "\xa0", "").split(" ")[0]
+        json["tag"] = f'Gr7_{code}'
         if check_fill_in_the_blank(page):
             json["question_type"] = "Fill in the blank"
             extract_answer_fill_in_the_blank(page, json, code)
@@ -167,8 +168,8 @@ def getTopicUrls(url):
 
 url = "https://ca.ixl.com/standards/ontario/math/grade-7"
 urls = getTopicUrls(url)
-urls = urls[:20]
-# urls = ["https://ca.ixl.com/math/grade-7/write-equations-for-proportional-relationships-from-tables"]
+urls = urls[160:]
+urls = ["https://ca.ixl.com/math/grade-7/subtract-integers-using-counters"]
 
 scraped_questions = []
 

@@ -511,6 +511,24 @@ def format_explanation(explanation, json):
         res.append(sentence_list)
     return res
 
+def convert_newline_fractions(text: str) -> str:
+    """
+    Finds any occurrence of
+        \n<digits>\n<digits>\n
+    and replaces it with
+        $\\frac{numerator}{denominator}$
+    """
+    # this pattern looks for:
+    #   \n      – a newline
+    #   (\d+)   – one or more digits (captured as group 1)
+    #   \n      – another newline
+    #   (\d+)   – one or more digits (captured as group 2)
+    #   \n      – a final newline
+    frac_re = re.compile(r'\n(\d+)\n(\d+)\n')
+
+    # use a lambda so we can interpolate the capture groups
+    return frac_re.sub(lambda m: f"$\\frac{{{m.group(1)}}}{{{m.group(2)}}}$", text)
+
 def extract_answer_explanation(page, json, code):
     try:
         print("Extracting answer explanation...")
@@ -546,6 +564,7 @@ def extract_answer_explanation(page, json, code):
                                            div.selectableGridContainerWrapper, div.diagramWrapper, div.qPVTable",
                                  "(els) => els.forEach(el => el.remove())")
         explanation = decode_text(res.inner_text())
+        explanation = convert_newline_fractions(explanation)
         json["solution"] = format_explanation(explanation, json)
         print("Explanation text extracted.")
         return
