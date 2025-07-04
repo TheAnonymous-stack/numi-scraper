@@ -7627,7 +7627,7 @@
       ],
       [
         "3/6",
-        "Input1234\nOutput2345\nWrite each input/output pair as an (x, y) ordered pair."
+        "Write each input/output pair as an (x, y) ordered pair."
       ],
       [
         "4/6",
@@ -7657,8 +7657,12 @@
     ],
     "solution": [
       [
-        "1/1",
+        "1/2",
         "Find the pattern. Look at how much you add to each number to get the next number:\n\n\n1,2,4,7,11,?\n\n+ 1+ 2+ 3+ 4\n\n\nThe amount you add increases by 1 each time. You should add 5 the next time. Add 5 to 11 to find the next number:\n\n\n1,2,4,7,11,16\n\n+ 1+ 2+ 3+ 4+ 5\n\n\nThe next number is 16.."
+      ],
+      [
+        "2/2",
+        "Look at how much you add to each number to get the next number:\n\n\n1,2,4,7,11,?\n\n+ 1+ 2+ 3+ 4\n\n\nThe amount you add increases by 1 each time. You should add 5 the next time. Add 5 to 11 to find the next number:\n\n\n1,2,4,7,11,16\n\n+ 1+ 2+ 3+ 4+ 5\n\n\nThe next number is 16.."
       ]
     ],
     "solution_image_tag": [
@@ -7671,18 +7675,22 @@
     "question_type": "Fill in the blank",
     "tag": "Z.9.1",
     "correct_answers": [
-      "1,2,4,,16,328"
+      "1,2,4,8,16,32"
     ],
     "solution": [
       [
-        "1/1",
-        "First, look for a pattern. Notice how each number is 2 times the previous number:\n\n\n1,2,4,__,16,32\n\n\nMultiply 4 by 2 to find the missing number:\n\n\n4 × 2 = 8\n\n\nTo make the pattern complete, the number 8 must go in the blank space.."
+        "1/2",
+        "First, look for a pattern."
+      ],
+      [
+        "2/2",
+        "Notice how each number is 2 times the previous number:\n1,2,4,__,16,32\nMultiply 4 by 2 to find the missing number:\n4 × 2 = 8\nTo make the pattern complete, the number 8 must go in the blank space.."
       ]
     ],
     "solution_image_tag": []
   },
   {
-    "question_text": "Brandon owns a hardware store and is looking over his past orders. Brandon's hardware store ordered 3 power drills in February, 6 power drills in March, 12 power drills in April, 24 power drills in May, and 48 power drills in June. If this pattern continues, how many power drills will the store order in July?\n\n\n power drills",
+    "question_text": "Brandon owns a hardware store and is looking over his past orders. Brandon's hardware store ordered 3 power drills in February, 6 power drills in March, 12 power drills in April, 24 power drills in May, and 48 power drills in June. If this pattern continues, how many power drills will the store order in July?\n\n power drills",
     "skills": "number-sequences-word-problems",
     "question_type": "Fill in the blank",
     "tag": "Z.10.1",
@@ -7696,7 +7704,7 @@
       ],
       [
         "2/2",
-        "3,6,12,24,48,?\n\n× 2× 2× 2× 2\n\n\nMultiply by 2 to find the next number:\n\n\n3,6,12,24,48,96\n\n× 2× 2× 2× 2× 2\n\n\nBrandon's Hardware Store will order 96 power drills in July.."
+        "3,6,12,24,48,?\n× 2× 2× 2× 2\nMultiply by 2 to find the next number:\n3,6,12,24,48,96\n\n× 2× 2× 2× 2× 2\nBrandon's Hardware Store will order 96 power drills in July.."
       ]
     ],
     "solution_image_tag": [
@@ -7718,7 +7726,7 @@
       ],
       [
         "2/2",
-        "4,12,36,108,?\n\n× 3× 3× 3\n\n\nMultiply by 3 to find the next number:\n\n\n4,12,36,108,324\n\n× 3× 3× 3× 3\n\n\nIvan will draw 324 stars on the fifth page.."
+        "4,12,36,108,?\n\n× 3× 3× 3\nMultiply by 3 to find the next number:\n4,12,36,108,324\n\n× 3× 3× 3× 3\nIvan will draw 324 stars on the fifth page.."
       ]
     ],
     "solution_image_tag": [
@@ -7740,7 +7748,7 @@
       ],
       [
         "2/2",
-        "7,9,11,13,?\n\n+ 2+ 2+ 2\n\n\nAdd 2 to find the next number:\n\n\n7,9,11,13,15\n\n+ 2+ 2+ 2+ 2\n\n\nRaymond will put 15 DVDs on the fifth rack.."
+        "7,9,11,13,?\n\n+ 2+ 2+ 2\nAdd 2 to find the next number:\n7,9,11,13,15\n\n+ 2+ 2+ 2+ 2\nRaymond will put 15 DVDs on the fifth rack.."
       ]
     ],
     "solution_image_tag": [
@@ -7762,7 +7770,7 @@
       ],
       [
         "2/2",
-        "1,2,4,8,?\n\n× 2× 2× 2\n\n\nMultiply by 2 to find the next number:\n\n\n1,2,4,8,16\n\n× 2× 2× 2× 2\n\n\nThe bookstore will order 16 copies in May.."
+        "1,2,4,8,?\n× 2× 2× 2\n\nMultiply by 2 to find the next number:\n1,2,4,8,16\n× 2× 2× 2× 2\nThe bookstore will order 16 copies in May.."
       ]
     ],
     "solution_image_tag": [
@@ -7784,7 +7792,7 @@
       ],
       [
         "2/2",
-        "41,46,51,56,?\n\n+ 5+ 5+ 5\n\n\nAdd 5 to find the next number:\n\n\n41,46,51,56,61\n\n+ 5+ 5+ 5+ 5\n\n\nGrayson will pick 61 flowers from the fifth bush.."
+        "41,46,51,56,?\n+ 5+ 5+ 5\nAdd 5 to find the next number:\n41,46,51,56,61\n+ 5+ 5+ 5+ 5\nGrayson will pick 61 flowers from the fifth bush.."
       ]
     ],
     "solution_image_tag": [
@@ -7806,7 +7814,7 @@
       ],
       [
         "2/2",
-        "48,54,60,66,?\n\n+ 6+ 6+ 6\n\n\nAdd 6 to find the next number:\n\n\n48,54,60,66,72\n\n+ 6+ 6+ 6+ 6\n\n\nThere will be 72 green dots in the fifth row.."
+        "48,54,60,66,?\n+ 6+ 6+ 6\nAdd 6 to find the next number:\n8,54,60,66,72\n+ 6+ 6+ 6+ 6\nThere will be 72 green dots in the fifth row.."
       ]
     ],
     "solution_image_tag": [
@@ -7828,7 +7836,7 @@
       ],
       [
         "2/2",
-        "3,6,12,24,48,?\n\n× 2× 2× 2× 2\n\n\nMultiply by 2 to find the next number:\n\n\n3,6,12,24,48,96\n\n× 2× 2× 2× 2× 2\n\n\nRuben will put 96 books on the sixth shelf.."
+        "3,6,12,24,48,?\n× 2× 2× 2× 2\nMultiply by 2 to find the next number:\n3,6,12,24,48,96\n× 2× 2× 2× 2× 2\n\nRuben will put 96 books on the sixth shelf.."
       ]
     ],
     "solution_image_tag": [
@@ -7850,7 +7858,7 @@
       ],
       [
         "2/2",
-        "30,40,50,60,70,?\n\n+ 10+ 10+ 10+ 10\n\n\nAdd 10 to find the next number:\n\n\n30,40,50,60,70,80\n\n+ 10+ 10+ 10+ 10+ 10\n\n\nJennifer will draw 80 stars on the sixth page.."
+        "30,40,50,60,70,?\n+ 10+ 10+ 10+ 10\nAdd 10 to find the next number:\n30,40,50,60,70,80\n+ 10+ 10+ 10+ 10+ 10\nJennifer will draw 80 stars on the sixth page.."
       ]
     ],
     "solution_image_tag": [
@@ -7872,7 +7880,7 @@
       ],
       [
         "2/2",
-        "4,12,36,108,324,?\n\n× 3× 3× 3× 3\n\n\nMultiply by 3 to find the next number:\n\n\n4,12,36,108,324,972\n\n× 3× 3× 3× 3× 3\n\n\nJosh will send 972 text messages in September.."
+        "4,12,36,108,324,?\n× 3× 3× 3× 3\n\nMultiply by 3 to find the next number:\n\n4,12,36,108,324,972\n× 3× 3× 3× 3× 3\n\nJosh will send 972 text messages in September.."
       ]
     ],
     "solution_image_tag": [
@@ -7894,7 +7902,7 @@
       ],
       [
         "2/2",
-        "3,6,12,24,48,?\n\n× 2× 2× 2× 2\n\n\nMultiply by 2 to find the next number:\n\n\n3,6,12,24,48,96\n\n× 2× 2× 2× 2× 2\n\n\nThe sixth child will receive 96 smiley stickers.."
+        "3,6,12,24,48,?\n× 2× 2× 2× 2\nMultiply by 2 to find the next number:\n\n3,6,12,24,48,96\n× 2× 2× 2× 2× 2\n\nThe sixth child will receive 96 smiley stickers.."
       ]
     ],
     "solution_image_tag": [
@@ -7915,8 +7923,12 @@
     "correct_answers": [],
     "solution": [
       [
-        "1/1",
-        "First, look for a pattern. Notice how each number is 100 less than the previous number:\n\n\n845,745,645,545,__,345,245\n\n\nTo make the pattern complete, the number 445 must go in the blank space.."
+        "1/2",
+        "First, look for a pattern."
+      ],
+      [
+        "2/2",
+        "Notice how each number is 100 less than the previous number:\n845,745,645,545,__,345,245\nTo make the pattern complete, the number 445 must go in the blank space.."
       ]
     ],
     "solution_image_tag": []
@@ -7927,12 +7939,16 @@
     "question_type": "Fill in the blank",
     "tag": "Z.11.2",
     "correct_answers": [
-      "1,4,,64,256,102416"
+      "1,4,16,64,256,1024"
     ],
     "solution": [
       [
-        "1/1",
-        "First, look for a pattern. Notice how each number is 4 times the previous number:\n\n\n1,4,__,64,256,1024\n\n\nMultiply 4 by 4 to find the missing number:\n\n\n4 × 4 = 16\n\n\nTo make the pattern complete, the number 16 must go in the blank space.."
+        "1/2",
+        "First, look for a pattern."
+      ],
+      [
+        "2/2",
+        "Notice how each number is 4 times the previous number:\n\n\n1,4,__,64,256,1024\n\n\nMultiply 4 by 4 to find the missing number:\n\n\n4 × 4 = 16\n\n\nTo make the pattern complete, the number 16 must go in the blank space.."
       ]
     ],
     "solution_image_tag": []
@@ -7948,7 +7964,7 @@
     "solution": [
       [
         "1/1",
-        "Find the first missing number:\n\n\n9 ones + 1 one = 10 ones\n9 + 1 = 10\n\n\nNow complete the pattern:\n\n\n9 tens + 1 ten = 10 tens\n90 + 10 = 100\n\n9 hundreds + 1 hundred = 10 hundreds\n900 + 100 = 1000\n\n9 thousands + 1 thousand = 10 thousands\n9000 + 1000 = 10000\n\n."
+        "Find the first missing number:\n\n\n9 ones + 1 one = 10 ones\n9 + 1 = 10\n\n\nNow complete the pattern:\n\n\n9 tens + 1 ten = 10 tens\n90 + 10 = 100\n\n9 hundreds + 1 hundred = 10 hundreds\n900 + 100 = 1000\n\n9 thousands + 1 thousand = 10 thousands\n9000 + 1000 = 10000."
       ]
     ],
     "solution_image_tag": []
@@ -7959,7 +7975,7 @@
     "question_type": "Fill in the blank",
     "tag": "B.12.1",
     "correct_answers": [
-      "2$\\frac{20}{200}$2000"
+      "2, 20, 200, 2000"
     ],
     "solution": [
       [
@@ -7975,7 +7991,7 @@
     "question_type": "Fill in the blank",
     "tag": "C.5.1",
     "correct_answers": [
-      "7$\\frac{7}{7}$7$\\frac{7}{7}$7"
+      "7, 7, 7, 7, 7, 7, 7"
     ],
     "solution": [
       [
@@ -8002,12 +8018,12 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Complete the pattern:\n\n\n ÷ 1000 = 1.8165\n ÷ 1000 = 18.165\n ÷ 1000 = 181.65\n ÷ 1000 = 1816.5\n",
+    "question_text": "Complete the pattern:\n\n\n ÷ 1000 = 1.8165\n ÷ 1000 = 18.165\n ÷ 1000 = 181.65\n ÷ 1000 = 1816.5",
     "skills": "decimal-division-patterns-over-increasing-place-values",
     "question_type": "Fill in the blank",
     "tag": "L.2.1",
     "correct_answers": [
-      "1816.518 165181 6501 816 500"
+      "1816.5, 18165, 181650, 1816500"
     ],
     "solution": [
       [
@@ -8020,7 +8036,7 @@
       ],
       [
         "3/3",
-        "18165 ÷ 1000 = 18.165\n\n181650 ÷ 1000 = 181.65\n\n1816500 ÷ 1000 = 1816.5\n\n."
+        "18165 ÷ 1000 = 18.165\n\n181650 ÷ 1000 = 181.65\n\n1816500 ÷ 1000 = 1816.5."
       ]
     ],
     "solution_image_tag": []
@@ -8054,7 +8070,7 @@
       ],
       [
         "4/4",
-        "Input (n)2468\nOutput (p)1234\nGina says the missing number is 6. Gina is not correct because 8 divided by 2 is 4.."
+        "Gina says the missing number is 6. Gina is not correct because 8 divided by 2 is 4.."
       ]
     ],
     "solution_image_tag": [
@@ -8119,7 +8135,7 @@
     "solution": [
       [
         "1/10",
-        "This is the table that Bert has:\nInput (n)7121723\nOutput (p)14192430\nBert says that the output is n×2. In the table, n is the input. So, Bert says that multiplying the input by 2 gets you the output."
+        "This is the table that Bert has: \n\n Bert says that the output is n×2. In the table, n is the input. So, Bert says that multiplying the input by 2 gets you the output."
       ],
       [
         "2/10",
@@ -8131,7 +8147,7 @@
       ],
       [
         "4/10",
-        "7×2=14\n12×2=24\n17×2=34\n23×2=46\nThese are not the same as the outputs in the table:\nInput (n)7121723\nOutput (p)14192430\nSo, Bert's rule does not work for every input and output in the table. Bert's rule is not correct."
+        "7×2=14\n12×2=24\n17×2=34\n23×2=46\nThese are not the same as the outputs in the table:\n\nSo, Bert's rule does not work for every input and output in the table. Bert's rule is not correct."
       ],
       [
         "5/10",
@@ -8179,7 +8195,7 @@
     "solution": [
       [
         "1/10",
-        "This is the table that Mia has:\nInput (c)9131721\nOutput (d)18263442\nMia says that the output is c+9. In the table, c is the input. So, Mia says that adding 9 to the input gets you the output."
+        "This is the table that Mia has:\n\nMia says that the output is c+9. In the table, c is the input. So, Mia says that adding 9 to the input gets you the output."
       ],
       [
         "2/10",
@@ -8191,7 +8207,7 @@
       ],
       [
         "4/10",
-        "9+9=18\n13+9=22\n17+9=26\n21+9=30\nThese are not the same as the outputs in the table:\nInput (c)9131721\nOutput (d)18263442\nSo, Mia's rule does not work for every input and output in the table. Mia's rule is not correct."
+        "9+9=18\n13+9=22\n17+9=26\n21+9=30\nThese are not the same as the outputs in the table:\n\nSo, Mia's rule does not work for every input and output in the table. Mia's rule is not correct."
       ],
       [
         "5/10",
@@ -8239,7 +8255,7 @@
     "solution": [
       [
         "1/10",
-        "This is the table that Melissa has:\nInput (g)1112131\nOutput (h)10203040\nMelissa says that the output is g+10. In the table, g is the input. So, Melissa says that adding 10 to the input gets you the output."
+        "This is the table that Melissa has:\n\nMelissa says that the output is g+10. In the table, g is the input. So, Melissa says that adding 10 to the input gets you the output."
       ],
       [
         "2/10",
@@ -8251,7 +8267,7 @@
       ],
       [
         "4/10",
-        "1+10=11\n11+10=21\n21+10=31\n31+10=41\nThese are not the same as the outputs in the table:\nInput (g)1112131\nOutput (h)10203040\nSo, Melissa's rule does not work for every input and output in the table. Melissa's rule is not correct."
+        "1+10=11\n11+10=21\n21+10=31\n31+10=41\nThese are not the same as the outputs in the table:\n\nSo, Melissa's rule does not work for every input and output in the table. Melissa's rule is not correct."
       ],
       [
         "5/10",
@@ -8303,16 +8319,16 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Emilio planed  fewer rees han Suzie. Suzie planed 67 rees. Choose he expression ha shows how many rees Emilio planed.\n\n67\n\n\n",
+    "question_text": "Carter had c CDs until he won 72 more in a contest. Choose the expression that shows how many CDs Carter has now.",
     "skills": "write-variable-expressions-word-problems",
     "image_tag": "Grade5_BB.2.1",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "BB.2.1",
     "choices": [
-      "67",
-      "",
-      "",
-      ""
+      "72",
+      "c+72",
+      "72-c",
+      "c"
     ],
     "correct_answers": [
       "B"
@@ -8324,112 +8340,34 @@
       ],
       [
         "2/5",
-        "Try t = 2:\n\n\nEmilio planted 2 fewer trees than Suzie. Suzie planted 67 trees. Choose the expression that shows how many trees Emilio planted."
+        "Try c = 2:\n\nCarter had 2 CDs until he won 72 more in a contest. Choose the expression that shows how many CDs Carter has now.\n\n2 + 72, which is 74"
       ],
       [
         "3/5",
-        "67 − 2, which is 65\n\n\nTry t = 3:\n\n\nEmilio planted 3 fewer trees than Suzie. Suzie planted 67 trees. Choose the expression that shows how many trees Emilio planted."
+        "Try c = 3:\n\nCarter had 3 CDs until he won 72 more in a contest. Choose the expression that shows how many CDs Carter has now.\n\n3 + 72, which is 75"
       ],
       [
         "4/5",
-        "67 − 3, which is 64\n\n\nTry t = 4:\n\n\nEmilio planted 4 fewer trees than Suzie. Suzie planted 67 trees. Choose the expression that shows how many trees Emilio planted."
+        "Try c = 4:\n\nCarter had 4 CDs until he won 72 more in a contest. Choose the expression that shows how many CDs Carter has now.\n\n4 + 72, which is 76"
       ],
       [
         "5/5",
-        "67 − 4, which is 63\n\n\nThe pattern shows that in order to find how many trees Emilio planted, you always subtract t from 67. This is the correct expression:\n\n\n67 − t."
+        "The pattern shows that in order to find how many CDs Carter has now, you always add 72 to c. This is the correct expression:\n\nc + 72"
       ]
     ],
     "solution_image_tag": []
   },
   {
-    "question_text": "Destiny has 25 buttons. She gives away b buttons. Choose the expression that shows the number of buttons Destiny has left.\n\n\n25\n\n",
+    "question_text": "Malia had 21 caramels. Then, Malia's sister took c of the caramels. Choose the expression that shows the number of caramels Malia has left.",
     "skills": "write-variable-expressions-word-problems",
     "image_tag": "Grade5_BB.2.2",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "BB.2.2",
     "choices": [
-      "",
-      "25",
-      "",
-      ""
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Look for a pattern."
-      ],
-      [
-        "2/5",
-        "Try b = 2:\n\n\nDestiny has 25 buttons. She gives away 2 buttons. Choose the expression that shows the number of buttons Destiny has left."
-      ],
-      [
-        "3/5",
-        "25 − 2, which is 23\n\n\nTry b = 3:\n\n\nDestiny has 25 buttons. She gives away 3 buttons. Choose the expression that shows the number of buttons Destiny has left."
-      ],
-      [
-        "4/5",
-        "25 − 3, which is 22\n\n\nTry b = 4:\n\n\nDestiny has 25 buttons. She gives away 4 buttons. Choose the expression that shows the number of buttons Destiny has left."
-      ],
-      [
-        "5/5",
-        "25 − 4, which is 21\n\n\nThe pattern shows that in order to find the number of buttons Destiny has left, you always subtract b from 25. This is the correct expression:\n\n\n25 − b."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Sophie has p peppermints. Doug has 9 fewer peppermints than Sophie. Choose the expression that shows how many peppermints Doug has.\n\n\n\n\n9",
-    "skills": "write-variable-expressions-word-problems",
-    "image_tag": "Grade5_BB.2.3",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "BB.2.3",
-    "choices": [
-      "",
-      "",
-      "",
-      "9"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Look for a pattern."
-      ],
-      [
-        "2/5",
-        "Try p = 10:\n\n\nSophie has 10 peppermints. Doug has 9 fewer peppermints than Sophie. Choose the expression that shows how many peppermints Doug has."
-      ],
-      [
-        "3/5",
-        "10 − 9, which is 1\n\n\nTry p = 11:\n\n\nSophie has 11 peppermints. Doug has 9 fewer peppermints than Sophie. Choose the expression that shows how many peppermints Doug has."
-      ],
-      [
-        "4/5",
-        "11 − 9, which is 2\n\n\nTry p = 12:\n\n\nSophie has 12 peppermints. Doug has 9 fewer peppermints than Sophie. Choose the expression that shows how many peppermints Doug has."
-      ],
-      [
-        "5/5",
-        "12 − 9, which is 3\n\n\nThe pattern shows that in order to find how many peppermints Doug has, you always subtract 9 from p. This is the correct expression:\n\n\np − 9."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "There were 65 frogs in a pond. f of the frogs hopped away. Choose the expression that shows how many frogs are in the pond now.\n\n\n65\n\n",
-    "skills": "write-variable-expressions-word-problems",
-    "image_tag": "Grade5_BB.2.4",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "BB.2.4",
-    "choices": [
-      "",
-      "65",
-      "",
-      ""
+      "c",
+      "21",
+      "21-c",
+      "c+21"
     ],
     "correct_answers": [
       "D"
@@ -8441,253 +8379,19 @@
       ],
       [
         "2/5",
-        "Try f = 2:\n\n\nThere were 65 frogs in a pond. 2 of the frogs hopped away. Choose the expression that shows how many frogs are in the pond now."
+        "Try c = 2:\n\nMalia had 21 caramels. Then, Malia's sister took 2 of the caramels. Choose the expression that shows the number of caramels Malia has left.\n\n21 − 2, which is 19"
       ],
       [
         "3/5",
-        "65 − 2, which is 63\n\n\nTry f = 3:\n\n\nThere were 65 frogs in a pond. 3 of the frogs hopped away. Choose the expression that shows how many frogs are in the pond now."
+        "Try c = 3:\n\nMalia had 21 caramels. Then, Malia's sister took 3 of the caramels. Choose the expression that shows the number of caramels Malia has left.\n\n21 − 3, which is 18"
       ],
       [
         "4/5",
-        "65 − 3, which is 62\n\n\nTry f = 4:\n\n\nThere were 65 frogs in a pond. 4 of the frogs hopped away. Choose the expression that shows how many frogs are in the pond now."
+        "Try c = 4:\n\nMalia had 21 caramels. Then, Malia's sister took 4 of the caramels. Choose the expression that shows the number of caramels Malia has left.\n\n21 − 4, which is 17"
       ],
       [
         "5/5",
-        "65 − 4, which is 61\n\n\nThe pattern shows that in order to find how many frogs are in the pond now, you always subtract f from 65. This is the correct expression:\n\n\n65 − f."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Jennifer had  coins. Then she found 85 more coins in a drawer. Choose the exression that shows how many coins Jennifer has now.\n\n\n85\n + 85\n85 − ",
-    "skills": "write-variable-expressions-word-problems",
-    "image_tag": "Grade5_BB.2.5",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "BB.2.5",
-    "choices": [
-      "",
-      "85",
-      " + 85",
-      "85 − "
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Look for a pattern."
-      ],
-      [
-        "2/5",
-        "Try p = 2:\n\n\nJennifer had 2 coins. Then she found 85 more coins in a drawer. Choose the expression that shows how many coins Jennifer has now."
-      ],
-      [
-        "3/5",
-        "2 + 85, which is 87\n\n\nTry p = 3:\n\n\nJennifer had 3 coins. Then she found 85 more coins in a drawer. Choose the expression that shows how many coins Jennifer has now."
-      ],
-      [
-        "4/5",
-        "3 + 85, which is 88\n\n\nTry p = 4:\n\n\nJennifer had 4 coins. Then she found 85 more coins in a drawer. Choose the expression that shows how many coins Jennifer has now."
-      ],
-      [
-        "5/5",
-        "4 + 85, which is 89\n\n\nThe pattern shows that in order to find how many coins Jennifer has now, you always add 85 to p. This is the correct expression:\n\n\np + 85."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Aubrey drew 6 pictures. Steven drew p fewer pictures than Aubrey. Choose the expression that shows how many pictures Steven drew.\n\n\n\n\n6",
-    "skills": "write-variable-expressions-word-problems",
-    "image_tag": "Grade5_BB.2.6",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "BB.2.6",
-    "choices": [
-      "",
-      "",
-      "",
-      "6"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Look for a pattern."
-      ],
-      [
-        "2/5",
-        "Try p = 2:\n\n\nAubrey drew 6 pictures. Steven drew 2 fewer pictures than Aubrey. Choose the expression that shows how many pictures Steven drew."
-      ],
-      [
-        "3/5",
-        "6 − 2, which is 4\n\n\nTry p = 3:\n\n\nAubrey drew 6 pictures. Steven drew 3 fewer pictures than Aubrey. Choose the expression that shows how many pictures Steven drew."
-      ],
-      [
-        "4/5",
-        "6 − 3, which is 3\n\n\nTry p = 4:\n\n\nAubrey drew 6 pictures. Steven drew 4 fewer pictures than Aubrey. Choose the expression that shows how many pictures Steven drew."
-      ],
-      [
-        "5/5",
-        "6 − 4, which is 2\n\n\nThe pattern shows that in order to find how many pictures Steven drew, you always subtract p from 6. This is the correct expression:\n\n\n6 − p."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Julian ha 9 DVDs. His mother bought him  more DVDs. Choose the expression that shows how many DVDs Julian has now.\n\n\n\n9 + \n9",
-    "skills": "write-variable-expressions-word-problems",
-    "image_tag": "Grade5_BB.2.7",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "BB.2.7",
-    "choices": [
-      "",
-      "",
-      "9 + ",
-      "9"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Look for a pattern."
-      ],
-      [
-        "2/5",
-        "Try d = 2:\n\n\nJulian had 9 DVDs. His mother bought him 2 more DVDs. Choose the expression that shows how many DVDs Julian has now."
-      ],
-      [
-        "3/5",
-        "9 + 2, which is 11\n\n\nTry d = 3:\n\n\nJulian had 9 DVDs. His mother bought him 3 more DVDs. Choose the expression that shows how many DVDs Julian has now."
-      ],
-      [
-        "4/5",
-        "9 + 3, which is 12\n\n\nTry d = 4:\n\n\nJulian had 9 DVDs. His mother bought him 4 more DVDs. Choose the expression that shows how many DVDs Julian has now."
-      ],
-      [
-        "5/5",
-        "9 + 4, which is 13\n\n\nThe pattern shows that in order to find how many DVDs Julian has now, you always add d to 9. This is the correct expression:\n\n\n9 + d."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Emir has 96 rading cards. Wesley has  more rading cards han Emir. Choose he expression ha shows how many rading cards Wesley has.\n\n96\n\n\n96 + ",
-    "skills": "write-variable-expressions-word-problems",
-    "image_tag": "Grade5_BB.2.8",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "BB.2.8",
-    "choices": [
-      "96",
-      "",
-      "",
-      "96 + "
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Look for a pattern."
-      ],
-      [
-        "2/5",
-        "Try t = 2:\n\n\nEmir has 96 trading cards. Wesley has 2 more trading cards than Emir. Choose the expression that shows how many trading cards Wesley has."
-      ],
-      [
-        "3/5",
-        "96 + 2, which is 98\n\n\nTry t = 3:\n\n\nEmir has 96 trading cards. Wesley has 3 more trading cards than Emir. Choose the expression that shows how many trading cards Wesley has."
-      ],
-      [
-        "4/5",
-        "96 + 3, which is 99\n\n\nTry t = 4:\n\n\nEmir has 96 trading cards. Wesley has 4 more trading cards than Emir. Choose the expression that shows how many trading cards Wesley has."
-      ],
-      [
-        "5/5",
-        "96 + 4, which is 100\n\n\nThe pattern shows that in order to find how many trading cards Wesley has, you always add t to 96. This is the correct expression:\n\n\n96 + t."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Mitchell had  coins. Then he found 69 more coins in a drawer. Choose the exression that shows how many coins Mitchell has now.\n\n\n69\n69 − \n + 69",
-    "skills": "write-variable-expressions-word-problems",
-    "image_tag": "Grade5_BB.2.9",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "BB.2.9",
-    "choices": [
-      "",
-      "69",
-      "69 − ",
-      " + 69"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Look for a pattern."
-      ],
-      [
-        "2/5",
-        "Try p = 2:\n\n\nMitchell had 2 coins. Then he found 69 more coins in a drawer. Choose the expression that shows how many coins Mitchell has now."
-      ],
-      [
-        "3/5",
-        "2 + 69, which is 71\n\n\nTry p = 3:\n\n\nMitchell had 3 coins. Then he found 69 more coins in a drawer. Choose the expression that shows how many coins Mitchell has now."
-      ],
-      [
-        "4/5",
-        "3 + 69, which is 72\n\n\nTry p = 4:\n\n\nMitchell had 4 coins. Then he found 69 more coins in a drawer. Choose the expression that shows how many coins Mitchell has now."
-      ],
-      [
-        "5/5",
-        "4 + 69, which is 73\n\n\nThe pattern shows that in order to find how many coins Mitchell has now, you always add 69 to p. This is the correct expression:\n\n\np + 69."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Jamal has 46 rading cards. Sophia has  more rading cards han Jamal. Choose he expression ha shows how many rading cards Sophia has.\n\n\n\n\n",
-    "skills": "write-variable-expressions-word-problems",
-    "image_tag": "Grade5_BB.2.10",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "BB.2.10",
-    "choices": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Look for a pattern."
-      ],
-      [
-        "2/5",
-        "Try t = 2:\n\n\nJamal has 46 trading cards. Sophia has 2 more trading cards than Jamal. Choose the expression that shows how many trading cards Sophia has."
-      ],
-      [
-        "3/5",
-        "46 + 2, which is 48\n\n\nTry t = 3:\n\n\nJamal has 46 trading cards. Sophia has 3 more trading cards than Jamal. Choose the expression that shows how many trading cards Sophia has."
-      ],
-      [
-        "4/5",
-        "46 + 3, which is 49\n\n\nTry t = 4:\n\n\nJamal has 46 trading cards. Sophia has 4 more trading cards than Jamal. Choose the expression that shows how many trading cards Sophia has."
-      ],
-      [
-        "5/5",
-        "46 + 4, which is 50\n\n\nThe pattern shows that in order to find how many trading cards Sophia has, you always add t to 46. This is the correct expression:\n\n\n46 + t."
+        "The pattern shows that in order to find the number of caramels Malia has left, you always subtract c from 21. This is the correct expression:\n\n21 − c"
       ]
     ],
     "solution_image_tag": []
@@ -8713,7 +8417,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Which equation does this set of algebra tiles represent?\nx$\\frac{1}{1}$1\n1\n=$\\frac{1}{1}$1$\\frac{1}{1}$x+9=5\nx+8=5\nx+4=5\nx+2=5",
+    "question_text": "Which equation does this set of algebra tiles represent?",
     "skills": "model-and-solve-equations-using-algebra-tiles",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "CC.4.1",
@@ -8733,11 +8437,11 @@
       ],
       [
         "2/4",
-        "x$\\frac{1}{1}$1\n1\nThe left side has 1 \nx\n tile and 4 \n1\n tiles. So, the left side of the equation should be x+4."
+        "The left side has 1 \nx\n tile and 4 \n1\n tiles. So, the left side of the equation should be x+4."
       ],
       [
         "3/4",
-        "Now look at the tiles on the right side of the set.$\\frac{1}{1}$1$\\frac{1}{1}$The right side has 5 \n1\n tiles. So, the right side of the equation should be 5."
+        "Now look at the tiles on the right side of the set.\n\nThe right side has 5 \n1\n tiles. So, the right side of the equation should be 5."
       ],
       [
         "4/4",
@@ -8747,7 +8451,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Which set of algebra tiles represents the equation x+2=4?\nx$\\frac{1}{1}$=$\\frac{1}{1}$1\n1\nx$\\frac{1}{1}$1$\\frac{1}{1}$1$\\frac{1}{1}$1\n=$\\frac{1}{1}$1\n1\nx$\\frac{1}{1}$1$\\frac{1}{1}$1\n=$\\frac{1}{1}$1\n1\nx$\\frac{1}{1}$1$\\frac{1}{1}$1$\\frac{1}{1}$=$\\frac{1}{1}$1\n1",
+    "question_text": "Which set of algebra tiles represents the equation x+2=4?",
     "skills": "model-and-solve-equations-using-algebra-tiles",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "CC.4.2",
@@ -8779,17 +8483,17 @@
       ],
       [
         "5/6",
-        "x$\\frac{1}{1}$=$\\frac{1}{1}$1\n1\nThe other sets of algebra tiles represent different equations."
+        "The other sets of algebra tiles represent different equations."
       ],
       [
         "6/6",
-        "This set represents x+9=4:\nx$\\frac{1}{1}$1$\\frac{1}{1}$1$\\frac{1}{1}$1\n=$\\frac{1}{1}$1\n1\nThis set represents x+6=4:\nx$\\frac{1}{1}$1$\\frac{1}{1}$1\n=$\\frac{1}{1}$1\n1\nThis set represents x+8=4:\nx$\\frac{1}{1}$1$\\frac{1}{1}$1$\\frac{1}{1}$=$\\frac{1}{1}$1\n1."
+        "This set represents x+9=4:\n\nThis set represents x+6=4:\n\nThis set represents x+8=4:\n\n."
       ]
     ],
     "solution_image_tag": []
   },
   {
-    "question_text": "Write an equation that ay that the length of the green line i equal to the length of the black line.\n\n\n\n\n\n\nEquation: ",
+    "question_text": "Write an equation that ay that the length of the green line i equal to the length of the black line.\n\n\nEquation: ",
     "skills": "write-and-solve-equations-that-represent-diagrams",
     "image_tag": "Grade5_CC.5.1",
     "question_type": "Fill in the blank",
@@ -8807,12 +8511,10 @@
         "The black line is the sum of its segments, so:\n\n\nlength of black line=s + 3\n\nPutting these together gives:\n\n\n9=s + 3\n\n."
       ]
     ],
-    "solution_image_tag": [
-      "Grade5_CC.5.1_solution_step_1"
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Write an euation that says that the length of the green line is eual to the length of the black line.\n\n\n\n\n\n\nEuation: ",
+    "question_text": "Write an equation that says that the length of the green line is equal to the length of the black line.\n\n\nEquation: ",
     "skills": "write-and-solve-equations-that-represent-diagrams",
     "image_tag": "Grade5_CC.5.2",
     "question_type": "Fill in the blank",
@@ -8830,12 +8532,10 @@
         "The black line is the sum of its segments, so:\n\n\nlength of black line=q + 1\n\nPutting these together gives:\n\n\n8=q + 1\n\n."
       ]
     ],
-    "solution_image_tag": [
-      "Grade5_CC.5.2_solution_step_1"
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Write an equation that says that the length of the green line is equal to the length of the black line.\n\n\n\n\n\n\nEquation: ",
+    "question_text": "Write an equation that says that the length of the green line is equal to the length of the black line.\n\nEquation: ",
     "skills": "write-and-solve-equations-that-represent-diagrams",
     "image_tag": "Grade5_CC.5.3",
     "question_type": "Fill in the blank",
@@ -8853,12 +8553,10 @@
         "The black line is the sum of its segments, so:\n\n\nlength of black line=d + 14\n\nPutting these together gives:\n\n\n25=d + 14\n\n."
       ]
     ],
-    "solution_image_tag": [
-      "Grade5_CC.5.3_solution_step_1"
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Write an equation that sas that the length of the green line is equal to the length of the black line.\n\n\n\n\n\n\nEquation: ",
+    "question_text": "Write an equation that sas that the length of the green line is equal to the length of the black line.\n\n\nEquation: ",
     "skills": "write-and-solve-equations-that-represent-diagrams",
     "image_tag": "Grade5_CC.5.4",
     "question_type": "Fill in the blank",
@@ -8876,9 +8574,7 @@
         "The black line is the sum of its segments, so:\n\n\nlength of black line=y + 9\n\nPutting these together gives:\n\n\n13=y + 9\n\n."
       ]
     ],
-    "solution_image_tag": [
-      "Grade5_CC.5.4_solution_step_1"
-    ]
+    "solution_image_tag": []
   },
   {
     "question_text": "Solve for u.\n\n\nu + 12 = 16\n\nu = ",
@@ -8890,18 +8586,14 @@
     ],
     "solution": [
       [
-        "1/2",
-        "Solve."
-      ],
-      [
-        "2/2",
-        "u + 12=16\n\nu + 12 − 12=16 − 12Subtract 12 from both sides\n\nu=4Simplify."
+        "1/1",
+        "u + 12=16\n\nu + 12 − 12=16 − 12Subtract 12 from both sides\n\nu=4 \n\n Simplify."
       ]
     ],
     "solution_image_tag": []
   },
   {
-    "question_text": "Solve for q.\n\n\n\n\n\nq = ",
+    "question_text": "Solve for q.\n\n\n\n\n\nq/3 = 4",
     "skills": "solve-multiplication-and-division-equations-with-whole-numbers",
     "image_tag": "Grade5_CC.7.1",
     "question_type": "Fill in the blank",
@@ -8911,12 +8603,8 @@
     ],
     "solution": [
       [
-        "1/2",
-        "Solve."
-      ],
-      [
-        "2/2",
-        "q\n3\n=4\n\n\nq\n3\n·3\n=4 · 3Multiply both sides by 3\n\nq=12Simplify."
+        "1/1",
+        "q/3=4 \n\n Multiply both sides by 3\n\nq=12 \n\n Simplify."
       ]
     ],
     "solution_image_tag": [
@@ -8933,24 +8621,22 @@
     ],
     "solution": [
       [
-        "1/2",
-        "Solve."
-      ],
-      [
-        "2/2",
+        "1/1",
         "6=q − 56\n\n6 + 56=q − 56 + 56Add 56 to both sides\n\n62=qSimplify."
       ]
     ],
     "solution_image_tag": []
   },
   {
-    "question_text": "The Wrap & Roll food truck is the most popular lunch spot in the city. They have v vegetarian wraps and 8 wraps containing meat on today's menu. There are 12 wraps on the menu in total.\nWhich diagram models the story?\nv$\\frac{12}{8}$12\nv\n8\nWhich equation models the story?\nv+8=12\nv–8=12",
+    "question_text": "The Wrap & Roll food truck is the most popular lunch spot in the city. They have v vegetarian wraps and 8 wraps containing meat on today's menu. There are 12 wraps on the menu in total.\nWhich diagram models the story?\nv$\\frac{12}{8}$12\nv\n8\nWhich equation models the story?",
     "skills": "write-a-one-step-equation-word-problems",
     "question_type": "Multiple Choice with Multiple Answers",
     "tag": "CC.9.1",
     "image_choice_tags": [
       "Grade5_CC.9.1_A",
-      "Grade5_CC.9.1_B"
+      "Grade5_CC.9.1_B",
+      "Grade5_CC.9.1_C",
+      "Grade5_CC.9.1_D"
     ],
     "correct_answers": [
       "B",
@@ -8975,11 +8661,11 @@
       ],
       [
         "5/6",
-        "wrapsonthemenuintotal\n12\nv\nvegetarianwraps\n8\nwrapscontainingmeat\nThe story can be represented by an addition equation."
+        "The story can be represented by an addition equation."
       ],
       [
         "6/6",
-        "v\n+\n8\n=\n\n12\n\n\n\n\n\n\nvegetarianwraps\n\nwrapscontainingmeat\n\nwrapsonmenuintotal\nThe equation v+8=12 models the story.."
+        "The equation v+8=12 models the story."
       ]
     ],
     "solution_image_tag": [
@@ -8993,7 +8679,9 @@
     "tag": "CC.9.2",
     "image_choice_tags": [
       "Grade5_CC.9.2_A",
-      "Grade5_CC.9.2_B"
+      "Grade5_CC.9.2_B",
+      "Grade5_CC.9.2_C",
+      "Grade5_CC.9.2_D"
     ],
     "correct_answers": [
       "A",
@@ -9018,273 +8706,15 @@
       ],
       [
         "5/6",
-        "totalnumberofballoons\n32\nb\nb\nb\nb\nb\nb\nb\nb\nbballoonsforeachofthe8unicorns\nThe story can be represented by a multiplication equation."
+        "The story can be represented by a multiplication equation."
       ],
       [
         "6/6",
-        "8\n⋅\nb\n=\n\n32\n\n\n\n\n\n\nnumberofunicorns\n\nballoonsforeachunicorn\n\ntotalnumberofballoons\nThe product 8×b can also be written as 8b. So, the equation 8b=32 models the story.."
+        "The product 8×b can also be written as 8b. So, the equation 8b=32 models the story.."
       ]
     ],
     "solution_image_tag": [
       "Grade5_CC.9.2_solution_step_1"
-    ]
-  },
-  {
-    "question_text": "Alice signed up to bake chocolate chip and oatmeal raisin cookies for a bake sale. After she made c chocolate chip cookies, Alice decided to make 12 fewer oatmeal raisin cookies, since they are less popular. She only made 24 oatmeal raisin cookies.\nWhich diagram models the story?\n24\nc\n12\nc$\\frac{24}{12}$Which equation models the story?\nc–12=24\nc+12=24",
-    "skills": "write-a-one-step-equation-word-problems",
-    "question_type": "Multiple Choice with Multiple Answers",
-    "tag": "CC.9.3",
-    "image_choice_tags": [
-      "Grade5_CC.9.3_A",
-      "Grade5_CC.9.3_B"
-    ],
-    "correct_answers": [
-      "B",
-      "C"
-    ],
-    "solution": [
-      [
-        "1/6",
-        "First, look for numbers and words in the story that talk about cookies."
-      ],
-      [
-        "2/6",
-        "Alice signed up to bake chocolate chip and oatmeal raisin cookies for a bake sale. After she made c chocolate chip cookies, Alice decided to make 12 fewer oatmeal raisin cookies, since they are less popular. She only made 24 oatmeal raisin cookies."
-      ],
-      [
-        "3/6",
-        "Alice made c chocolate chip cookies. She made 12 fewer oatmeal raisin cookies than chocolate chip cookies. Alice made 24 oatmeal raisin cookies."
-      ],
-      [
-        "4/6",
-        "This diagram models the story."
-      ],
-      [
-        "5/6",
-        "chocolatechipcookies\nc\n24\noatmealraisincookies\n12\nhowmanyfewer\nThe story can be represented by a subtraction equation."
-      ],
-      [
-        "6/6",
-        "c\n−\n12\n=\n\n24\n\n\n\n\n\n\nchocolatechipcookies\n\nhowmanyfewer\n\noatmealraisincookies\nThe equation c–12=24 models the story.."
-      ]
-    ],
-    "solution_image_tag": [
-      "Grade5_CC.9.3_solution_step_1"
-    ]
-  },
-  {
-    "question_text": "Katy's class visited the book fair this afternoon. She bought a set of m books from her favourite mystery series and a set of 4 books from her favourite science fiction series. Katy bought 9 books in total.\nWhich diagram models the story?\n9\nm\n4\nm$\\frac{9}{4}$Which equation models the story?\nm–4=9\nm+4=9",
-    "skills": "write-a-one-step-equation-word-problems",
-    "question_type": "Multiple Choice with Multiple Answers",
-    "tag": "CC.9.4",
-    "image_choice_tags": [
-      "Grade5_CC.9.4_A",
-      "Grade5_CC.9.4_B"
-    ],
-    "correct_answers": [
-      "A",
-      "D"
-    ],
-    "solution": [
-      [
-        "1/6",
-        "First, look for numbers and words in the story that talk about books."
-      ],
-      [
-        "2/6",
-        "Katy's class visited the book fair this afternoon. She bought a set of m books from her favourite mystery series and a set of 4 books from her favourite science fiction series. Katy bought 9 books in total."
-      ],
-      [
-        "3/6",
-        "Katy bought m books from the mystery series and 4 books from the science fiction series. Katy bought 9 books in total."
-      ],
-      [
-        "4/6",
-        "This diagram models the story."
-      ],
-      [
-        "5/6",
-        "booksintotal\n9\nm\nbooksinthemysteryseries\n4\nbooksinthesciencefictionseries\nThe story can be represented by an addition equation."
-      ],
-      [
-        "6/6",
-        "m\n+\n4\n=\n\n9\n\n\n\n\n\n\nbooksinthemysteryseries\n\nbooksinthesciencefictionseries\n\nbooksintotal\nThe equation m+4=9 models the story.."
-      ]
-    ],
-    "solution_image_tag": [
-      "Grade5_CC.9.4_solution_step_1"
-    ]
-  },
-  {
-    "question_text": "The Cosmic Coaster is the most popular ride at Space World Theme Park. The coaster has 5 small cars that look like rocket ships, and each car fits p people. The Cosmic Coaster can fit 30 people in total.\nWhich diagram models the story?\np$\\frac{30}{30}$30$\\frac{30}{30}$30\np\np\np\np\np\nWhich equation models the story?\np\n5\n=30\n5p=30",
-    "skills": "write-a-one-step-equation-word-problems",
-    "question_type": "Multiple Choice with Multiple Answers",
-    "tag": "CC.9.5",
-    "image_choice_tags": [
-      "Grade5_CC.9.5_A",
-      "Grade5_CC.9.5_B"
-    ],
-    "correct_answers": [
-      "B",
-      "D"
-    ],
-    "solution": [
-      [
-        "1/6",
-        "First, look for numbers and words in the story that talk about the number of people and cars."
-      ],
-      [
-        "2/6",
-        "The Cosmic Coaster is the most popular ride at Space World Theme Park. The coaster has 5 small cars that look like a rocket ship, and each car fits p people. The Cosmic Coaster can fit 30 people in total."
-      ],
-      [
-        "3/6",
-        "Each of the 5 cars can fit p people. The Cosmic Coaster can fit 30 people in total."
-      ],
-      [
-        "4/6",
-        "This diagram models the story."
-      ],
-      [
-        "5/6",
-        "peopleintotal\n30\np\np\np\np\np\nppeopleineachofthe5cars\nThe story can be represented by a multiplication equation."
-      ],
-      [
-        "6/6",
-        "5\n⋅\np\n=\n\n30\n\n\n\n\n\n\nnumberofcars\n\nnumberofpeopleineachcar\n\npeopleintotal\nThe product 5×p can also be written as 5p. So, the equation 5p=30 models the story.."
-      ]
-    ],
-    "solution_image_tag": [
-      "Grade5_CC.9.5_solution_step_1"
-    ]
-  },
-  {
-    "question_text": "Martin bought his mom chocolate truffles for Mother's Day. She likes a mix of chocolates, but dark chocolate is her favourite. Martin decided to get 12 fewer milk chocolate truffles than dark chocolate truffles. Martin got d dark chocolate truffles and 6 milk chocolate truffles.\nWhich diagram models the story?\n12\nd\n6\nd$\\frac{6}{12}$Which equation models the story?\nd–12=6\nd+6=12",
-    "skills": "write-a-one-step-equation-word-problems",
-    "question_type": "Multiple Choice with Multiple Answers",
-    "tag": "CC.9.6",
-    "image_choice_tags": [
-      "Grade5_CC.9.6_A",
-      "Grade5_CC.9.6_B"
-    ],
-    "correct_answers": [
-      "B",
-      "C"
-    ],
-    "solution": [
-      [
-        "1/6",
-        "First, look for numbers and words in the story that talk about chocolate truffles."
-      ],
-      [
-        "2/6",
-        "Martin bought his mom chocolate truffles for Mother's Day. She likes a mix of chocolates, but dark chocolate is her favourite. Martin decided to get 12 fewer milk chocolate truffles than dark chocolate truffles. Martin got d dark chocolate truffles and 6 milk chocolate truffles."
-      ],
-      [
-        "3/6",
-        "Martin got 12 fewer milk chocolate truffles than dark chocolate truffles. He got d dark chocolate truffles and 6 milk chocolate truffles."
-      ],
-      [
-        "4/6",
-        "This diagram models the story."
-      ],
-      [
-        "5/6",
-        "darkchocolatetruffles\nd\n6\nmilkchocolatetruffles\n12\nhowmanyfewer\nThe story can be represented by a subtraction equation."
-      ],
-      [
-        "6/6",
-        "d\n−\n12\n=\n\n6\n\n\n\n\n\n\ndarkchocolatetruffles\n\nhowmanyfewer\n\nmilkchocolatetruffles\nThe equation d–12=6 models the story.."
-      ]
-    ],
-    "solution_image_tag": [
-      "Grade5_CC.9.6_solution_step_1"
-    ]
-  },
-  {
-    "question_text": "Ms. Maynard brought q math quizzes home to grade over the weekend. She could only grade 31 of the quizzes on Saturday. So, she had 56 quizzes left to grade on Sunday.\nWhich diagram models the story?\n56\nq\n31\nq$\\frac{56}{31}$Which equation models the story?\nq+31=56\nq–31=56",
-    "skills": "write-a-one-step-equation-word-problems",
-    "question_type": "Multiple Choice with Multiple Answers",
-    "tag": "CC.9.7",
-    "image_choice_tags": [
-      "Grade5_CC.9.7_A",
-      "Grade5_CC.9.7_B"
-    ],
-    "correct_answers": [
-      "B",
-      "D"
-    ],
-    "solution": [
-      [
-        "1/6",
-        "First, look for numbers and words in the story that talk about quizzes."
-      ],
-      [
-        "2/6",
-        "Ms. Maynard brought q math quizzes home to grade over the weekend. She could only grade 31 of the quizzes on Saturday. So, she had 56 quizzes left to grade on Sunday."
-      ],
-      [
-        "3/6",
-        "Ms. Maynard had q math quizzes to grade. She graded 31 of the quizzes on Saturday. She had 56 quizzes left to grade on Sunday."
-      ],
-      [
-        "4/6",
-        "This diagram models the story."
-      ],
-      [
-        "5/6",
-        "quizzesintotal\nq\n56\nquizzesonSaturday\n31\nquizzesonSunday\nThe story can be represented by a subtraction equation."
-      ],
-      [
-        "6/6",
-        "q\n−\n31\n=\n\n56\n\n\n\n\n\n\nquizzesintotal\n\nquizzesonSaturday\n\nquizzesonSunday\nThe equation q–31=56 models the story.."
-      ]
-    ],
-    "solution_image_tag": [
-      "Grade5_CC.9.7_solution_step_1"
-    ]
-  },
-  {
-    "question_text": "At The Chilled Spoon, customers choose which fruit and candy toppings they want for their frozen yogurt. There are 20 toppings, of which f are fruit and 12 are candy.\nWhich diagram models the story?\nf$\\frac{20}{12}$20\nf\n12\nWhich equation models the story?\nf–12=20\nf+12=20",
-    "skills": "write-a-one-step-equation-word-problems",
-    "question_type": "Multiple Choice with Multiple Answers",
-    "tag": "CC.9.8",
-    "image_choice_tags": [
-      "Grade5_CC.9.8_A",
-      "Grade5_CC.9.8_B"
-    ],
-    "correct_answers": [
-      "B",
-      "D"
-    ],
-    "solution": [
-      [
-        "1/6",
-        "First, look for numbers and words in the story that talk about toppings."
-      ],
-      [
-        "2/6",
-        "At The Chilled Spoon, customers choose which fruit and candy toppings they want for their frozen yogurt. There are 20 toppings, of which f are fruit and 12 are candy."
-      ],
-      [
-        "3/6",
-        "There are f fruit toppings and 12 candy toppings. There are 20 toppings in total."
-      ],
-      [
-        "4/6",
-        "This diagram models the story."
-      ],
-      [
-        "5/6",
-        "totalnumberoftoppings\n20\nf\nnumberoffruittoppings\n12\nnumberofcandytoppings\nThe story can be represented by an addition equation."
-      ],
-      [
-        "6/6",
-        "f\n+\n12\n=\n\n20\n\n\n\n\n\n\nnumberoffruittoppings\n\nnumberofcandytoppings\n\ntotalnumberoftoppings\nThe equation f+12=20 models the story.."
-      ]
-    ],
-    "solution_image_tag": [
-      "Grade5_CC.9.8_solution_step_1"
     ]
   },
   {
@@ -9336,7 +8766,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Is  = 3 a solution to the inequality below?\n\n\n\n\n\nyes\nno",
+    "question_text": "Is v = 3 a solution to the inequality below?",
     "skills": "solutions-to-inequalities",
     "image_tag": "Grade5_DD.1.1",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -9355,7 +8785,7 @@
       ],
       [
         "2/2",
-        "2≥\nv\n\n\n\n2≥\n3\nPlug in v=3\n\nIt is false that 2 ≥ 3. So, v = 3 is not a solution.."
+        "2≥\nv\n\n\n\n2≥\n3\nPlug in v=3\n\nIt is false that 2 ≥ 3. So, v = 3 is not a solution."
       ]
     ],
     "solution_image_tag": [
@@ -9363,13 +8793,13 @@
     ]
   },
   {
-    "question_text": "Is  = 10 a solution to the inequalit below?\n\n\n\n\n\nes\nno",
+    "question_text": "Is y = 10 a solution to the inequality below?",
     "skills": "solutions-to-inequalities",
     "image_tag": "Grade5_DD.1.2",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "DD.1.2",
     "choices": [
-      "es",
+      "yes",
       "no"
     ],
     "correct_answers": [
@@ -9390,7 +8820,7 @@
     ]
   },
   {
-    "question_text": "Is  = 4 a soluion o he inequaliy below?\n\n\n\n\n\nyes\nno",
+    "question_text": "Is  = 4 a solution to the inequality below?",
     "skills": "solutions-to-inequalities",
     "image_tag": "Grade5_DD.1.3",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -9417,7 +8847,7 @@
     ]
   },
   {
-    "question_text": "Shelley read 12 papers from each of the small folders sitting in a pile. Each of the folders has an equal number of papers.\n\nIs this sample of the papers in the small folders likely to be biased?\n\nyes\nno",
+    "question_text": "Shelley read 12 papers from each of the small folders sitting in a pile. Each of the folders has an equal number of papers.\n\nIs this sample of the papers in the small folders likely to be biased?",
     "skills": "identify-biased-samples",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "GG.12.1",
@@ -10019,7 +9449,7 @@
     "question_type": "Fill in the blank",
     "tag": "FF.16.1",
     "correct_answers": [
-      "Jim's model vehicles\nVehicleCarMotorcycleTruck\nRelative frequency%%%603010"
+      "60%, 30%, 10%"
     ],
     "solution": [
       [
@@ -10040,7 +9470,7 @@
       ],
       [
         "5/5",
-        "Jim's model vehicles\nVehicleCarMotorcycleTruck\nRelative frequency60%30%10%."
+        "60% car, 30% motorcycle, 10% truck."
       ]
     ],
     "solution_image_tag": [
@@ -10054,7 +9484,7 @@
     "question_type": "Fill in the blank",
     "tag": "FF.16.2",
     "correct_answers": [
-      "Smoothies sold\nFlavourStrawberryPineappleBlueberry\nRelative frequency%%%285418"
+      "28%, 54%, 18%"
     ],
     "solution": [
       [
@@ -10075,7 +9505,7 @@
       ],
       [
         "5/5",
-        "Smoothies sold\nFlavourStrawberryPineappleBlueberry\nRelative frequency28%54%18%."
+        "28% strawberry, 54% pineapple, 18% blueberry."
       ]
     ],
     "solution_image_tag": [
@@ -10089,7 +9519,7 @@
     "question_type": "Fill in the blank",
     "tag": "FF.16.3",
     "correct_answers": [
-      "Daily weather\nWeatherSunnyCloudyRainy\nRelative frequency%%%305020"
+      "30%, 50%, 20%"
     ],
     "solution": [
       [
@@ -10110,7 +9540,7 @@
       ],
       [
         "5/5",
-        "Daily weather\nWeatherSunnyCloudyRainy\nRelative frequency30%50%20%."
+        "30% sunny, 50% cloudy, 20% rainy"
       ]
     ],
     "solution_image_tag": [
@@ -10124,7 +9554,7 @@
     "question_type": "Fill in the blank",
     "tag": "FF.16.4",
     "correct_answers": [
-      "Volleyball tournament\nTeam nameWarriorsDestroyersTop Dogs\nRelative frequency%%%301060"
+      "30%, 10%, 60%"
     ],
     "solution": [
       [
@@ -10145,7 +9575,7 @@
       ],
       [
         "5/5",
-        "Volleyball tournament\nTeam nameWarriorsDestroyersTop Dogs\nRelative frequency30%10%60%."
+        "30% Warriors, 10% Destroyer, 60% Top Dogs"
       ]
     ],
     "solution_image_tag": [
@@ -10159,7 +9589,7 @@
     "question_type": "Fill in the blank",
     "tag": "FF.16.5",
     "correct_answers": [
-      "Sales at Furry Friends Pet Store\nPetDogsCatsFishHamsters\nRelative frequency%%%%30401020"
+      "30%, 40%, 10%, 20%"
     ],
     "solution": [
       [
@@ -10180,7 +9610,7 @@
       ],
       [
         "5/5",
-        "Sales at Furry Friends Pet Store\nPetDogsCatsFishHamsters\nRelative frequency30%40%10%20%."
+        "30% dogs, 40% cats, 10% fish, 20% hamsters"
       ]
     ],
     "solution_image_tag": [
@@ -10194,7 +9624,7 @@
     "question_type": "Fill in the blank",
     "tag": "FF.16.6",
     "correct_answers": [
-      "Classes at Fun Flips Gymnastics\nClassTumblingRhythmTrampolineBeam\nRelative frequency%%%%24282028"
+      "24%, 28%, 20%, 28%"
     ],
     "solution": [
       [
@@ -10215,7 +9645,7 @@
       ],
       [
         "5/5",
-        "Classes at Fun Flips Gymnastics\nClassTumblingRhythmTrampolineBeam\nRelative frequency24%28%20%28%."
+        "24% tumbling, 28% rhythm, 20% trampoline, 28% beam"
       ]
     ],
     "solution_image_tag": [
@@ -10229,7 +9659,7 @@
     "question_type": "Fill in the blank",
     "tag": "FF.16.7",
     "correct_answers": [
-      "Woodshop projects\nProjectShelvesSignsBenchesTablet holders\nRelative frequency%%%%15103045"
+      "15%, 10%, 30%, 45%"
     ],
     "solution": [
       [
@@ -10250,7 +9680,7 @@
       ],
       [
         "5/5",
-        "Woodshop projects\nProjectShelvesSignsBenchesTablet holders\nRelative frequency15%10%30%45%."
+        "15% shelves, 10% signs, 30% benches, 45% tablet holders"
       ]
     ],
     "solution_image_tag": [
@@ -10264,7 +9694,7 @@
     "question_type": "Fill in the blank",
     "tag": "FF.16.8",
     "correct_answers": [
-      "Birds seen\nBirdBlue JaysSparrowsCardinals\nRelative frequency%%%302050"
+      "30%, 20%, 50%"
     ],
     "solution": [
       [
@@ -10285,7 +9715,7 @@
       ],
       [
         "5/5",
-        "Birds seen\nBirdBlue JaysSparrowsCardinals\nRelative frequency30%20%50%."
+        "30% Blue Jays, 20% Sparrows, 50% Cardinals"
       ]
     ],
     "solution_image_tag": [
@@ -10299,7 +9729,7 @@
     "question_type": "Fill in the blank",
     "tag": "FF.16.9",
     "correct_answers": [
-      "Tom's baseball cards\nPositionPitcherCatcherInfielderOutfielder\nRelative frequency%%%%20123632"
+      "20%, 12%, 36%, 32%"
     ],
     "solution": [
       [
@@ -10320,7 +9750,7 @@
       ],
       [
         "5/5",
-        "Tom's baseball cards\nPositionPitcherCatcherInfielderOutfielder\nRelative frequency20%12%36%32%."
+        "20% pitcher, 12% catcher, 36% infielder, 32% outfielder"
       ]
     ],
     "solution_image_tag": [
@@ -10328,7 +9758,7 @@
     ]
   },
   {
-    "question_text": "What is the mean?\n7414414119927\n",
+    "question_text": "What is the mean?\n7,4,14,4,14,11,9,9,27\n",
     "skills": "find-the-mean",
     "question_type": "Fill in the blank",
     "tag": "GG.6.1",
@@ -10352,7 +9782,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Craig has the following data:\n\n15a131215\n\nIf the mean is 13, which number could a be?\n\n10\n20",
+    "question_text": "Craig has the following data:\n\n15,a,13,12,15\n\nIf the mean is 13, which number could a be?",
     "skills": "mean-find-the-missing-number",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "GG.7.1",
@@ -10408,7 +9838,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Rick has the following data:\n\n8j8201712\n\nIf the mean is 12, which number could j be?\n\n25\n7",
+    "question_text": "Rick has the following data:\n\n8,j,8,20,17,12\n\nIf the mean is 12, which number could j be?",
     "skills": "mean-find-the-missing-number",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "GG.7.2",
@@ -10464,7 +9894,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Pam has the following data:\n\na1191\n\nIf the mean is 10, which number could a be?\n\n11\n19",
+    "question_text": "Pam has the following data:\n\na,1,19,1\n\nIf the mean is 10, which number could a be?",
     "skills": "mean-find-the-missing-number",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "GG.7.3",
@@ -10520,7 +9950,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "19q191914",
+    "question_text": "19,q,19,19,14",
     "skills": "mean-find-the-missing-number",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "GG.7.4",
@@ -10576,7 +10006,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "k12166",
+    "question_text": "k,12,16,6",
     "skills": "mean-find-the-missing-number",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "GG.7.5",
@@ -10632,7 +10062,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "k8191618",
+    "question_text": "k,8,19,16,18",
     "skills": "mean-find-the-missing-number",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "GG.7.6",
@@ -10703,7 +10133,7 @@
       ],
       [
         "2/4",
-        "336610354\n\nFirst, count how many numbers are in the group."
+        "3,3,6,6,10,3,5,4\n\nFirst, count how many numbers are in the group."
       ],
       [
         "3/4",
@@ -10732,7 +10162,7 @@
       ],
       [
         "2/4",
-        "11111211191413\n\nFirst, count how many numbers are in the group."
+        "11,11,12,11,19,14,13\n\nFirst, count how many numbers are in the group."
       ],
       [
         "3/4",
@@ -10761,7 +10191,7 @@
       ],
       [
         "2/4",
-        "27371\n\nFirst, count how many numbers are in the group."
+        "2,7,3,7,1\n\nFirst, count how many numbers are in the group."
       ],
       [
         "3/4",
@@ -10790,7 +10220,7 @@
       ],
       [
         "2/4",
-        "1298191410\n\nFirst, count how many numbers are in the group."
+        "12,9,8,19,14,10\n\nFirst, count how many numbers are in the group."
       ],
       [
         "3/4",
@@ -10819,7 +10249,7 @@
       ],
       [
         "2/4",
-        "1517131418141118\n\nFirst, count how many numbers are in the group."
+        "15,17,13,14,18,14,11,18\n\nFirst, count how many numbers are in the group."
       ],
       [
         "3/4",
@@ -10848,7 +10278,7 @@
       ],
       [
         "2/4",
-        "211717723\n\nFirst, count how many numbers are in the group."
+        "21,17,17,7,23\n\nFirst, count how many numbers are in the group."
       ],
       [
         "3/4",
@@ -10877,7 +10307,7 @@
       ],
       [
         "2/4",
-        "1819131015\n\nFirst, count how many numbers are in the group."
+        "18,19,13,10,15\n\nFirst, count how many numbers are in the group."
       ],
       [
         "3/4",
@@ -10906,7 +10336,7 @@
       ],
       [
         "2/4",
-        "71020171410\n\nFirst, count how many numbers are in the group."
+        "7,10,20,17,14,10\n\nFirst, count how many numbers are in the group."
       ],
       [
         "3/4",
@@ -10935,7 +10365,7 @@
       ],
       [
         "2/4",
-        "106856\n\nFirst, count how many numbers are in the group."
+        "10,6,8,5,6\n\nFirst, count how many numbers are in the group."
       ],
       [
         "3/4",
@@ -10978,7 +10408,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the mode?\n5763576363\n",
+    "question_text": "What is the mode?\n57,63,57,63,63\n",
     "skills": "calculate-mean-median-and-mode",
     "question_type": "Fill in the blank",
     "tag": "GG.9.1",
@@ -11010,7 +10440,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Marvin has the following data:\n\nu161620\n\nIf the mean is 18, which number could u be?\n\n8\n20",
+    "question_text": "Marvin has the following data:\n\nu161620\n\nIf the mean is 18, which number could u be?",
     "skills": "mean-median-and-mode-find-the-missing-number",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "GG.10.1",
@@ -11066,7 +10496,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "w16915",
+    "question_text": "w,1,6,9,15",
     "skills": "mean-median-and-mode-find-the-missing-number",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "GG.10.2",
@@ -11088,7 +10518,7 @@
       ],
       [
         "3/7",
-        "1691516\nThe number in the middle is 9. When w = 16, the median is 9."
+        "1,6,9,15,16\nThe number in the middle is 9. When w = 16, the median is 9."
       ],
       [
         "4/7",
@@ -11110,7 +10540,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "179139x",
+    "question_text": "17,9,13,9,x",
     "skills": "mean-median-and-mode-find-the-missing-number",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "GG.10.3",
@@ -11132,7 +10562,7 @@
       ],
       [
         "3/7",
-        "99131718\nThe number in the middle is 13. When x = 18, the median is 13."
+        "9,9,13,17,18\nThe number in the middle is 13. When x = 18, the median is 13."
       ],
       [
         "4/7",
@@ -11154,7 +10584,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "14x1417",
+    "question_text": "14,x,14,17",
     "skills": "mean-median-and-mode-find-the-missing-number",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "GG.10.4",
@@ -11210,7 +10640,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "6610u",
+    "question_text": "6,6,10,u",
     "skills": "mean-median-and-mode-find-the-missing-number",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "GG.10.5",
@@ -11266,7 +10696,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "181719u16",
+    "question_text": "18,17,19,u,16",
     "skills": "mean-median-and-mode-find-the-missing-number",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "GG.10.6",
@@ -11288,7 +10718,7 @@
       ],
       [
         "3/7",
-        "1617181919\nThe number that appears most often is 19. When u = 19, the mode is 19."
+        "16,17,18,19,19\nThe number that appears most often is 19. When u = 19, the mode is 19."
       ],
       [
         "4/7",
@@ -11300,7 +10730,7 @@
       ],
       [
         "6/7",
-        "1616171819\nThe number that appears most often is 16. When u = 16, the mode is 16."
+        "16,16,17,18,19\nThe number that appears most often is 16. When u = 16, the mode is 16."
       ],
       [
         "7/7",
@@ -11310,7 +10740,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Gary has the following data:\n\n19151816s19\n\nIf the mean is 17, which number could s be?\n\n15\n9",
+    "question_text": "Gary has the following data:\n\n19,15,18,16,s,19\n\nIf the mean is 17, which number could s be?",
     "skills": "mean-median-and-mode-find-the-missing-number",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "GG.10.7",
@@ -11366,7 +10796,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "171818k19",
+    "question_text": "17,18,18,k,19",
     "skills": "mean-median-and-mode-find-the-missing-number",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "GG.10.8",
@@ -11422,7 +10852,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "121314s1417",
+    "question_text": "12,13,14,s,14,17",
     "skills": "mean-median-and-mode-find-the-missing-number",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "GG.10.9",
@@ -11478,7 +10908,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Devin has the following data:\n\n514t18\n\nIf the mode is 18, which number could t be?\n\n14\n18",
+    "question_text": "Devin has the following data:\n\n5,14,t,18\n\nIf the mode is 18, which number could t be?",
     "skills": "mean-median-and-mode-find-the-missing-number",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "GG.10.10",
@@ -11500,7 +10930,7 @@
       ],
       [
         "3/7",
-        "5141418\nThe number that appears most often is 14. When t = 14, the mode is 14."
+        "5,14,14,18\nThe number that appears most often is 14. When t = 14, the mode is 14."
       ],
       [
         "4/7",
@@ -11512,7 +10942,7 @@
       ],
       [
         "6/7",
-        "5141818\nThe number that appears most often is 18. When t = 18, the mode is 18."
+        "5,14,18,18\nThe number that appears most often is 18. When t = 18, the mode is 18."
       ],
       [
         "7/7",
@@ -11522,7 +10952,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Some farmers compared how many sheep were in their flocks.\n\n\n\n\n\n\n\n\n\n\n$\\frac{1}{2}$3$\\frac{4}{5}$6$\\frac{7}{8}$9\n1\n\n\n\n\n\nWhat is the mean of the numbers?\n\n",
+    "question_text": "Some farmers compared how many sheep were in their flocks. What is the mean of the numbers?\n\n",
     "skills": "interpret-charts-to-find-mean-median-and-mode",
     "image_tag": "Grade5_GG.11.1",
     "question_type": "Fill in the blank",
@@ -11537,7 +10967,7 @@
       ],
       [
         "2/4",
-        "5010504040101030\n\nFirst, count how many numbers are in the group."
+        "50,10,50,40,40,10,10,30\n\nFirst, count how many numbers are in the group."
       ],
       [
         "3/4",
@@ -11566,7 +10996,7 @@
       ],
       [
         "2/8",
-        "5153537856785351\n\nFirst, arrange the numbers from least to greatest:\n5151535353567878\nNow count how many times each number appears."
+        "51,53,53,78,56,78,53,51\n\nFirst, arrange the numbers from least to greatest:\n5151535353567878\nNow count how many times each number appears."
       ],
       [
         "3/8",
@@ -11611,7 +11041,7 @@
       ],
       [
         "2/4",
-        "1817141115131616\n\nFirst, count how many numbers are in the group."
+        "18,17,14,11,15,13,16,16\n\nFirst, count how many numbers are in the group."
       ],
       [
         "3/4",
@@ -11640,7 +11070,7 @@
       ],
       [
         "2/8",
-        "46535353536060607171\n\nFirst, arrange the numbers from least to greatest:\n46535353536060607171\nNow count how many times each number appears."
+        "First, arrange the numbers from least to greatest:\n46,53,53,53,53,60,60,60,71,71\nNow count how many times each number appears."
       ],
       [
         "3/8",
@@ -11670,7 +11100,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "A concession stand worker at the movie theatre looked up how many bags of popcorn were sold in the past 6 days.\n\n\n\n\n\n\n\n\n$\\frac{1}{2}$3$\\frac{4}{5}$6$\\frac{7}{8}$9\n1\n\n\n\n\n\nWhat is the mean of the numbers?\n\n",
+    "question_text": "A concession stand worker at the movie theatre looked up how many bags of popcorn were sold in the past 6 days.\n\n\nWhat is the mean of the numbers?\n\n",
     "skills": "interpret-charts-to-find-mean-median-and-mode",
     "image_tag": "Grade5_GG.11.5",
     "question_type": "Fill in the blank",
@@ -11685,7 +11115,7 @@
       ],
       [
         "2/4",
-        "40401020010\n\nFirst, count how many numbers are in the group."
+        "40,40,10,20,0,10\n\nFirst, count how many numbers are in the group."
       ],
       [
         "3/4",
@@ -11699,7 +11129,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "A race car driver kept track of how many laps he drove in the past 7 days.\n\n\n\n\n\n\n\n\n\n$\\frac{1}{2}$3$\\frac{4}{5}$6$\\frac{7}{8}$9\n1\n\n\n\n\n\nWhat is the mode of the numbers?\n\n",
+    "question_text": "A race car driver kept track of how many laps he drove in the past 7 days.\n\nWhat is the mode of the numbers?\n\n",
     "skills": "interpret-charts-to-find-mean-median-and-mode",
     "image_tag": "Grade5_GG.11.6",
     "question_type": "Fill in the blank",
@@ -11714,7 +11144,7 @@
       ],
       [
         "2/7",
-        "10102030203020\n\nFirst, arrange the numbers from least to greatest:\n10102020203030\nNow count how many times each number appears."
+        "First, arrange the numbers from least to greatest:\n10,10,20,20,20,30,30\nNow count how many times each number appears."
       ],
       [
         "3/7",
@@ -11740,7 +11170,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Hanson tracked the attendance at the school play.\n\n\n\n\n\n\n\n\n\n$\\frac{1}{2}$3$\\frac{4}{5}$6$\\frac{7}{8}$9\n1\n\n\n\n\n\nWhat is the median of the numbers?\n\n",
+    "question_text": "Hanson tracked the attendance at the school play.\n\n\nWhat is the median of the numbers?\n\n",
     "skills": "interpret-charts-to-find-mean-median-and-mode",
     "image_tag": "Grade5_GG.11.7",
     "question_type": "Fill in the blank",
@@ -11755,11 +11185,11 @@
       ],
       [
         "2/4",
-        "604010020305020\n\nFirst, arrange the numbers from least to greatest:\n202030405060100\nNow find the number in the middle."
+        "First, arrange the numbers from least to greatest:\n20,20,30,40,50,60,100\nNow find the number in the middle."
       ],
       [
         "3/4",
-        "202030405060100\nThe number in the middle is 40."
+        "The number in the middle is 40."
       ],
       [
         "4/4",
@@ -11784,7 +11214,7 @@
       ],
       [
         "2/8",
-        "66668989919192929292\n\nFirst, arrange the numbers from least to greatest:\n66668989919192929292\nNow count how many times each number appears."
+        "First, arrange the numbers from least to greatest:\n66,66,89,89,91,91,92,92,92,92\nNow count how many times each number appears."
       ],
       [
         "3/8",
@@ -11814,7 +11244,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "A waitress kept track of how many hours she worked each day.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n worked\n\n\nWhat is the mean of the numbers?\n\n",
+    "question_text": "A waitress kept track of how many hours she worked each day.\n\nWhat is the mean of the numbers?\n\n",
     "skills": "interpret-charts-to-find-mean-median-and-mode",
     "image_tag": "Grade5_GG.11.9",
     "question_type": "Fill in the blank",
@@ -11829,7 +11259,7 @@
       ],
       [
         "2/4",
-        "867597\n\nFirst, count how many numbers are in the group."
+        "8,6,7,5,9,7\n\nFirst, count how many numbers are in the group."
       ],
       [
         "3/4",
@@ -11858,11 +11288,11 @@
       ],
       [
         "2/4",
-        "161617181921232828323434383840\n\nFirst, arrange the numbers from least to greatest:\n161617181921232828323434383840\nNow find the number in the middle."
+        "First, arrange the numbers from least to greatest:\n16,16,17,18,19,21,23,28,28,32,34,34,38,38,40\nNow find the number in the middle."
       ],
       [
         "3/4",
-        "161617181921232828323434383840\nThe number in the middle is 28."
+        "The number in the middle is 28."
       ],
       [
         "4/4",
