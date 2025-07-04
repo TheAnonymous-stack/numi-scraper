@@ -1,3 +1,3 @@
-This branch is a sandbox for incoming RAs assessment. 
+This branch is a sandbox for RA assessment. 
 
 Please isolate this from the current QA efforts. 
