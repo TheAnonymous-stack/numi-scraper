@@ -1,14 +1,12 @@
 def check_fill_in_the_blank(page):
-    return page.is_visible(
-        "section.ixl-practice-crate input.fillIn",
-        timeout=10_000
-    )
-
+    hasFITB = len(page.query_selector_all("div.question-component section.ixl-practice-crate input.fillIn"))
+    hasMCQ = len(page.query_selector_all("div.question-component section.ixl-practice-crate div.LaidOutTiles"))
+    return hasFITB and (not hasMCQ)
+    
 def check_multiple_choices(page):
-    return page.is_visible(
-        "section.ixl-practice-crate div.LaidOutTiles",
-        timeout=10_000
-    )
+    hasFITB = len(page.query_selector_all("div.question-component section.ixl-practice-crate input.fillIn"))
+    hasMCQ = len(page.query_selector_all("div.question-component section.ixl-practice-crate div.LaidOutTiles"))
+    return hasMCQ and (not hasFITB)
 
 def check_ordering_items(page):
     return page.is_visible(
@@ -16,8 +14,12 @@ def check_ordering_items(page):
         timeout=10_000
     )
 
-def check_drag_and_drop(page):
+def check_sorting_drag_and_drop(page):
     return page.is_visible(
         "section.ixl-practice-crate div.dragAndDropContainer.dragAndDropSortingContainer",
         timeout=10_000
     )
+
+def check_pattern_drag_and_drop(page):
+    component = page.query_selector("section.ixl-practice-crate div.gc-card-row")
+    return component is not None
