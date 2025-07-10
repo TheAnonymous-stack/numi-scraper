@@ -113,7 +113,7 @@
       "A"
     ],
     "solution_image_tag": [
-      "Grade7_D.2_solution_0"
+      "Grade7_D.2.1_solution_0"
     ],
     "solution": [
       [
@@ -137,7 +137,55 @@
         "2.5 > 1.3"
       ]
     ],
-    "tag": "Gr7_D.2"
+    "tag": "Gr7_D.2.1"
+  },
+    {
+    "question_text": "Put these numbers in order from least to greatest.\n0.420.691.860.78",
+    "skills": "compare-and-order-decimals",
+    "tag": "Gr7_D.2.2",
+    "question_type": "Ordering Items",
+    "order_items": [
+      "0.42",
+      "0.69",
+      "1.86",
+      "0.78"
+    ],
+    "correct_answers": [
+      "0.42",
+      "0.69",
+      "0.78",
+      "1.86"
+    ],
+    "solution": [
+      [
+        "1/7",
+        "Use a place value chart. Be sure to line up the decimal points."
+      ],
+      [
+        "2/7",
+        "Compare the numbers by following these steps:"
+      ],
+      [
+        "3/7",
+        "1. Compare the whole-number parts, to the left of the decimal point."
+      ],
+      [
+        "4/7",
+        "2. If the whole-number parts are equal, compare the tenths digits."
+      ],
+      [
+        "5/7",
+        "3. If the tenths digits are equal, compare the hundredths digits."
+      ],
+      [
+        "6/7",
+        "The numbers in order from least to greatest are:"
+      ],
+      [
+        "7/7",
+        "0.420.690.781.86"
+      ]
+    ]
   },
   {
     "skills": "decimal-number-lines",
@@ -730,7 +778,7 @@
   {
     "skills": "price-lists",
     "question_text": "Isabelle has $1.00. Does she have enough to buy a package of purple streamers and a party hat?\n\nDo not round.\n\n\nbouncy ball$0.71\ngreeting card$0.97\nparty hat$0.57\nnoisemaker$0.52\npackage of purple streamers$0.41\nyes\nno",
-    "image_tag": "Grade7_O.2",
+    "image_tag": "Grade7_O.2.1",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
       "yes",
@@ -740,7 +788,7 @@
       "A"
     ],
     "solution_image_tag": [
-      "Grade7_O.2_solution_0"
+      "Grade7_O.2.1_solution_0"
     ],
     "solution": [
       [
@@ -753,6 +801,54 @@
       ]
     ],
     "tag": "Gr7_O.2"
+  },
+  {
+    "question_text": "How much more does a ticket for a Hawaiian cruise cost than a ticket for a Mexican cruise?\n\n\n\n\n\n$",
+    "skills": "price-lists",
+    "image_tag": "Grade7_O.2.2",
+    "tag": "Gr7_O.2",
+    "question_type": "Fill in the blank",
+    "question_number": "O.2.2",
+    "correct_answers": [
+      "$1487"
+    ],
+    "solution_image_tag": [
+      "Grade7_O.2.2_solution_0"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Subtract the price of a ticket for a Mexican cruise from the price of a ticket for a Hawaiian cruise."
+      ],
+      [
+        "2/2",
+        "A ticket for a Hawaiian cruise costs $1487 more than a ticket for a Mexican cruise."
+      ]
+    ]
+  },
+  {
+    "question_text": "How much money does Wanda need to buy a small metal hook and a short steel screw?\n\nDo not round.\n\n\n\n\n\n$",
+    "skills": "price-lists",
+    "image_tag": "Grade7_O.2.3",
+    "tag": "Gr7_O.2",
+    "question_type": "Fill in the blank",
+    "question_number": "O.2.2",
+    "correct_answers": [
+      "$0.74"
+    ],
+    "solution_image_tag": [
+      "Grade7_O.2.2_solution_0"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Add the price of a small metal hook and the price of a short steel screw:"
+      ],
+      [
+        "2/2",
+        "Wanda needs $0.74."
+      ]
+    ]
   },
   {
     "skills": "unit-prices-find-the-total-price",
@@ -1185,15 +1281,62 @@
     "tag": "Gr7_C.9"
   },
   {
+    "question_text": "Use counters to subtract \u20132 \u2212 2.\n\nYou start with:\n\n\n\nYou subtract:\n\n\n\nWhich picture shows the difference?\n\n\n\n",
+    "skills": "add-and-subtract-integers-using-counters",
+    "image_tag": "Grade7_C.11.1",
+    "tag": "Gr7_C.11",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "C.11.1",
+    "image_choice_tags": [
+      "Grade7_C.11.1_A",
+      "Grade7_C.11.1_B",
+      "Grade7_C.11.1_C",
+      "Grade7_C.11.1_D"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/7",
+        "You are trying to calculate \u20132 \u2212 2."
+      ],
+      [
+        "2/7",
+        "Start out with 2 negative counters, which represent \u20132:"
+      ],
+      [
+        "3/7",
+        "You would like to take away 2 positive counters. However, it's not possible to take away 2 positive counters, because there aren't any positive counters in the first group. You can fix this problem by adding 2 pairs of positive and negative counters to the first group, so that you have the 2 positive counters that are needed:"
+      ],
+      [
+        "4/7",
+        " "
+      ],
+      [
+        "5/7",
+        "Now take away 2 positive counters:"
+      ],
+      [
+        "6/7",
+        " "
+      ],
+      [
+        "7/7",
+        "4 negative counters remain. So \u20132 \u2212 2 = \u20134."
+      ]
+    ]
+  },
+  {
     "skills": "add-and-subtract-integers-using-counters",
     "question_text": "Use counters to add -1 + 4.\n\nYou start with:\n\n\n\nYou add:\n\n\n\nWhich picture shows the sum?\n\n\n\n\n",
-    "image_tag": "Grade7_C.11",
+    "image_tag": "Grade7_C.11.2",
     "question_type": "Multiple Choice Question with Single Answer",
     "image_choice_tags": [
-      "Grade7_C.11_A",
-      "Grade7_C.11_B",
-      "Grade7_C.11_C",
-      "Grade7_C.11_D"
+      "Grade7_C.11.2_A",
+      "Grade7_C.11.2_B",
+      "Grade7_C.11.2_C",
+      "Grade7_C.11.2_D"
     ],
     "correct_answers": [
       "C"
@@ -1254,6 +1397,92 @@
     "tag": "Gr7_C.12"
   },
   {
+    "question_text": "Add:-4 + 3 = ",
+    "skills": "add-and-subtract-integers",
+    "tag": "Gr7_C.12",
+    "question_type": "Fill in the blank",
+    "question_number": "C.12.1",
+    "correct_answers": [
+      "-1"
+    ],
+    "solution": [
+      [
+        "1/11",
+        "Switch the order of the numbers:"
+      ],
+      [
+        "2/11",
+        "-4 + 3 = 3 + -4"
+      ],
+      [
+        "3/11",
+        "Now change the negative sign to a subtraction sign:"
+      ],
+      [
+        "4/11",
+        "3 + -4 = 3 - 4"
+      ],
+      [
+        "5/11",
+        "Since 4 is bigger than 3, the answer will be negative."
+      ],
+      [
+        "6/11",
+        "First solve an easier problem:"
+      ],
+      [
+        "7/11",
+        "4 - 3 = 1"
+      ],
+      [
+        "8/11",
+        "Remember that the answer to the problem you're solving will be negative:"
+      ],
+      [
+        "9/11",
+        "3 - 4 = -1"
+      ],
+      [
+        "10/11",
+        "So:"
+      ],
+      [
+        "11/11",
+        "-4 + 3 = -1"
+      ]
+    ]
+  },
+  {
+    "question_text": "Dominic deposited $300 he made from helping out with chores. If Dominic's bank account started out with a balance of $300, which integer represents the final balance?",
+    "skills": "add-and-subtract-integers-word-problems",
+    "tag": "C.14",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "C.14.1",
+    "choices": [
+      "500",
+      "700",
+      "600",
+      "0"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Add:"
+      ],
+      [
+        "2/3",
+        "300 + 300 = 600"
+      ],
+      [
+        "3/3",
+        "The final balance was $600. The integer 600 represents this situation."
+      ]
+    ]
+  },
+  {
     "skills": "add-and-subtract-integers-word-problems",
     "question_text": "According to his bank statement, Emilio spent $10000 on a fancy watch. If Emilio's bank account started out with a balance of $10000, which integer represents the final balance?\n\n0\n1\n10000\n20000",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -1287,6 +1516,7 @@
     "question_text": "Add.\n\n\n1\n3\n+\n1\n3\n = ",
     "image_tag": "Grade7_G.1",
     "question_type": "Fill in the blank",
+    "question_number": "G.1.1",
     "correct_answers": [
       "2/3"
     ],
@@ -1296,10 +1526,27 @@
     "solution": [
       [
         "1/1",
-        "Add the numerators:"
+        "Add the numerators: 1+1 = 2 so 1/3 + 1/3 = 2/3."
       ]
     ],
     "tag": "Gr7_G.1"
+  },
+  {
+    "question_text": "Subtract. 7/9 - 3/9\n\n\n",
+    "skills": "add-and-subtract-fractions-with-like-denominators",
+    "image_tag": "Grade7_G.1.2",
+    "tag": "Gr7_G.1",
+    "question_type": "Fill in the blank",
+    "question_number": "G.1.2",
+    "correct_answers": [
+      "4/9"
+    ],
+    "solution": [
+      [
+        "1/1",
+        "Subtract the numerators: 7-3 = 4 so the answer is 4/9."
+      ]
+    ]
   },
   {
     "skills": "add-and-subtract-fractions-with-like-denominators-word-problems",
@@ -1308,9 +1555,6 @@
     "correct_answers": [
       "4/5"
     ],
-    "solution_image_tag": [
-      "Grade7_G.2_solution_0"
-    ],
     "solution": [
       [
         "1/3",
@@ -1318,7 +1562,7 @@
       ],
       [
         "2/3",
-        "Add the numerators:"
+        "Add the numerators: 1+3 = 4 so 1/5 + 3/5 = 4/5."
       ],
       [
         "3/3",
@@ -1326,6 +1570,30 @@
       ]
     ],
     "tag": "Gr7_G.2"
+  },
+  {
+    "question_text": "At a pie-eating contest, Amelia got through 3/5 of a pie before time was called; Dalton finished just 2/5 of a pie. How much more pie did Amelia eat than Dalton?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\nof a pie",
+    "skills": "add-and-subtract-fractions-with-like-denominators-word-problems",
+    "tag": "Gr7_G.2",
+    "question_type": "Fill in the blank",
+    "question_number": "G.2.2",
+    "correct_answers": [
+      "1/5"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find how much more pie Amelia ate by subtracting 2/5 from 3/5."
+      ],
+      [
+        "2/3",
+        "Subtract the numerators: 3-2 = 1 so 3/5 - 2/5 = 1/5."
+      ],
+      [
+        "3/3",
+        "Amelia ate 1/5 of a pie more than Dalton."
+      ]
+    ]
   },
   {
     "skills": "add-fractions-with-unlike-denominators-using-models",
@@ -1430,16 +1698,42 @@
     "tag": "Gr7_G.6"
   },
   {
+    "question_text": "Subtract.5/6-1/12\n\n\n",
+    "skills": "add-and-subtract-fractions-with-unlike-denominators",
+    "image_tag": "Grade7_G.8.1",
+    "tag": "Gr7_G.8",
+    "question_type": "Fill in the blank",
+    "question_number": "G.8.1",
+    "correct_answers": [
+      "9/12"
+    ],
+    "solution_image_tag": [
+      "Grade7_G.8.1_solution_0",
+      "Grade7_G.8.1_solution_1"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "You can use 12 as the common denominator.\nMultiply the numerator and the denominator of by 2 to find an equivalent fraction."
+      ],
+      [
+        "2/2",
+        "Now subtract the fractions. Subtract the numerators and keep the denominators the same."
+      ]
+    ]
+  },
+  {
     "skills": "add-and-subtract-fractions-with-unlike-denominators",
     "question_text": "Add.\n\n\n5\n9\n+\n1\n3\n = ",
-    "image_tag": "Grade7_G.8",
+    "image_tag": "Grade7_G.8.2",
     "question_type": "Fill in the blank",
+    "question_number": "G.8.2",
     "correct_answers": [
       "8/9"
     ],
     "solution_image_tag": [
-      "Grade7_G.8_solution_0",
-      "Grade7_G.8_solution_1"
+      "Grade7_G.8.2_solution_0",
+      "Grade7_G.8.2_solution_1"
     ],
     "solution": [
       [
@@ -1487,15 +1781,14 @@
   {
     "skills": "add-and-subtract-mixed-numbers",
     "question_text": "Add. Write your answer as a fraction or as a whole or mixed number.\n\n\n\n2\n8\n11\n+\n8\n8\n11\n\n=",
-    "image_tag": "Grade7_G.13",
+    "image_tag": "Grade7_G.13.1",
     "question_type": "Fill in the blank",
+    "question_number": "G.13.1",
     "correct_answers": [
       "11 5/11"
     ],
     "solution_image_tag": [
-      "Grade7_G.13_solution_0",
-      "Grade7_G.13_solution_1",
-      "Grade7_G.13_solution_2"
+      "Grade7_G.13.1_solution_0"
     ],
     "solution": [
       [
@@ -1504,7 +1797,7 @@
       ],
       [
         "2/3",
-        "Now simplify."
+        "Now simplify, 10 16/11 = 11 5/11."
       ],
       [
         "3/3",
@@ -1513,17 +1806,91 @@
     ],
     "tag": "Gr7_G.13"
   },
+    {
+    "question_text": "Subtract. Write your answer as a fraction or as a whole or mixed number.\n\n\n",
+    "skills": "add-and-subtract-mixed-numbers",
+    "image_tag": "Grade7_G.13.2",
+    "tag": "Gr7_G.13",
+    "question_type": "Fill in the blank",
+    "question_number": "G.13.2",
+    "correct_answers": [
+      "10 10/11"
+    ],
+    "solution_image_tag": [
+      "Grade7_G.13.2_solution_0",
+      "Grade7_G.13.2_solution_1",
+      "Grade7_G.13.2_solution_2"
+    ],
+    "solution": [
+      [
+        "1/5",
+        "Subtract whole numbers from whole numbers and fractions from fractions."
+      ],
+      [
+        "2/5",
+        "You can't subtract yet, because the fraction part of is larger than the fraction part of."
+      ],
+      [
+        "3/5",
+        "Rewrite so that you can subtract."
+      ],
+      [
+        "4/5",
+        "Now subtract. Remember to subtract whole numbers from whole numbers and fractions from fractions."
+      ],
+      [
+        "5/5",
+        "This answer is in simplest form."
+      ]
+    ]
+  },
+  {
+    "question_text": "Yesterday, The Sweet Slice Cafe sold 61/4 carafes of caffeinated coffee and 21/4 carafes of decaffeinated coffee. How many carafes of coffee did they sell in all?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\ncarafes",
+    "skills": "add-and-subtract-mixed-numbers-word-problems",
+    "tag": "Gr7_G.14",
+    "question_type": "Fill in the blank",
+    "question_number": "G.14.1",
+    "correct_answers": [
+      "8 1/2"
+    ],
+    "solution_image_tag": [
+      "Grade7_G.14.1_solution_0",
+      "Grade7_G.14.1_solution_1"
+    ],
+    "solution": [
+      [
+        "1/5",
+        "Find total number of carafes of coffee by adding 61/4 and 21/4."
+      ],
+      [
+        "2/5",
+        "Add. Remember to add whole numbers to whole numbers and fractions to fractions."
+      ],
+      [
+        "3/5",
+        "Now simplify."
+      ],
+      [
+        "4/5",
+        "Write the answer."
+      ],
+      [
+        "5/5",
+        "The Sweet Slice Cafe sold 8 1/2 carafes of coffee in all."
+      ]
+    ]
+  },
   {
     "skills": "add-and-subtract-mixed-numbers-word-problems",
     "question_text": "Leo's drive to work is 123/4 hours, whereas Mitch's is 101/4 hours. How much longer is Leo's drive than Mitch's?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\nhours",
     "question_type": "Fill in the blank",
+    "question_number": "G.14.2",
     "correct_answers": [
       "2 1/2"
     ],
     "solution_image_tag": [
-      "Grade7_G.14_solution_0",
-      "Grade7_G.14_solution_1",
-      "Grade7_G.14_solution_2"
+      "Grade7_G.14.2_solution_0",
+      "Grade7_G.14.2_solution_1"
     ],
     "solution": [
       [
@@ -2677,9 +3044,39 @@
     "tag": "Gr7_W.4"
   },
   {
+    "skills": "identify-the-graph-of-an-equation",
+    "question_text": "This equation describes a relationship between x and y.\ny=x+2\nComplete the table and select the graph that shows this relationship.",
+    "image_tag": "Grade7_W.6",
+    "question_type": "Multiple Choice Question with Single Answer and fill in the blank",
+    "image_choice_tags": [
+      "Grade7_W.6_A",
+      "Grade7_W.6_B"
+    ],
+    "correct_answers": [
+      "4, 7",
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "There are two missing y-values in the table. To find the missing y-values, plug the x-values from the table into the equation.\nPlug in x = 2.\ny\n=\tx+2\n=\t2+2\n=\t4"
+      ],
+      [
+        "2/3",
+        "Plug in x = 5.\ny\n=\tx+2\n=\t5+2\n=\t7"
+      ],
+      [
+        "3/3",
+        "The graph that shows this relationship must have ordered pairs that satisfy the equation:\ny=x+2\nEach row in the table of x- and y-values represents one of these ordered pairs. Write the ordered pairs in a new column."
+      ]
+    ],
+    "tag": "Gr7_W.6"
+  },
+  {
     "skills": "interpret-a-graph-word-problems",
-    "question_text": "This graph shows how the number of plants Evelyn can have in her backyard is related to the number of seed packets she purchases.\n\n\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\n100\n200\n300\n400\n500\n600\n700\n800\n900\n1000\n0\nTotal number of plants\nNumber of seed packets\nPlants in Evelyn's backyard\n\nHow many seed packets does Evelyn need to have a total of 400 plants in her backyard?\n\n\n10 seed packets\n40 seed packets\n30 seed packets\n50 seed packets",
-    "image_tag": "Grade7_W.8",
+    "question_text": "This graph shows how the number of plants Evelyn can have in her backyard is related to the number of seed packets she purchases.\n\nHow many seed packets does Evelyn need to have a total of 400 plants in her backyard?",
+    "image_tag": "Grade7_W.8.1",
+    "question_number": "W.8.1",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
       "10 seed packets",
@@ -2705,6 +3102,37 @@
       ]
     ],
     "tag": "Gr7_W.8"
+  },
+    {
+    "question_text": "This graph shows how the total number of stamps Dakota has in her collection is related to the amount of money she spends on additional stamps.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWith $500 to spend on new stamps, how many total stamps can Dakota have in her collection?\n\n\n stamps\n stamps\n3 stamps\n1 stamps",
+    "skills": "interpret-a-graph-word-problems",
+    "image_tag": "Grade7_W.8.2",
+    "tag": "Gr7_W.8",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "W.8.5",
+    "choices": [
+      "200 stamps",
+      "400 stamps",
+      "300 stamps",
+      "100 stamps"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find $500 on the x-axis. Move up until you intersect the graph."
+      ],
+      [
+        "2/3",
+        "Now move left until you intersect the y-axis."
+      ],
+      [
+        "3/3",
+        "You intersect the y-axis at 300 stamps. With $500 to spend on new stamps, Dakota can have a total of 300 stamps in her collection."
+      ]
+    ]
   },
   {
     "skills": "write-equations-for-proportional-relationships-from-tables",
@@ -3003,9 +3431,50 @@
     "tag": "Gr7_C.18"
   },
   {
+    "question_text": "Is \u2013 8 \u00d7 6 positive or negative?",
     "skills": "integer-multiplication-and-division-rules",
-    "question_text": "Is 80 \u00f7 10 positive or negative?\n\npositive\nnegative",
+    "tag": "Gr7_C.21",
     "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "C.21.1",
+    "choices": [
+      "positive",
+      "negative"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/6",
+        "\u2013 8 is negative. 6 is positive. Use the rule:"
+      ],
+      [
+        "2/6",
+        "negative \u00d7 positive = negative"
+      ],
+      [
+        "3/6",
+        "So, \u2013 8 \u00d7 6 is negative."
+      ],
+      [
+        "4/6",
+        "Now check your answer by doing the math."
+      ],
+      [
+        "5/6",
+        "\u2013 8 \u00d7 6 = \u201348"
+      ],
+      [
+        "6/6",
+        "Yes, the answer is negative."
+      ]
+    ]
+  },
+  {
+    "skills": "integer-multiplication-and-division-rules",
+    "question_text": "Is 80 \u00f7 10 positive or negative?",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "C.21.2",
     "choices": [
       "positive",
       "negative"
@@ -3087,9 +3556,38 @@
     "tag": "Gr7_T.3"
   },
   {
+    "question_text": "Evaluate the expression for x = 12 and y = 11.\n\n\nx - y = ",
+    "skills": "evaluate-multi-variable-expressions",
+    "tag": "Gr7_T.4",
+    "question_type": "Fill in the blank",
+    "question_number": "T.4.1",
+    "correct_answers": [
+      "1"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "Plug in x = 12 and y = 11, then simplify."
+      ],
+      [
+        "2/4",
+        "x \u2212 y"
+      ],
+      [
+        "3/4",
+        "12 \u2212 11"
+      ],
+      [
+        "4/4",
+        "1"
+      ]
+    ]
+  },
+  {
     "skills": "evaluate-multi-variable-expressions",
     "question_text": "Evaluate the expression for f = 5 and g = 3.\n\n\nfg = ",
     "question_type": "Fill in the blank",
+    "question_number": "T.4.2",
     "correct_answers": [
       "15"
     ],
@@ -3104,6 +3602,34 @@
       ]
     ],
     "tag": "Gr7_T.4"
+  },
+  {
+    "question_text": "Evaluate the expression for u = 7 and v = 5.\n\n\nu + v = ",
+    "skills": "evaluate-multi-variable-expressions",
+    "tag": "Gr7_T.4",
+    "question_type": "Fill in the blank",
+    "question_number": "T.4.3",
+    "correct_answers": [
+      "12"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "Plug in u = 7 and v = 5, then simplify."
+      ],
+      [
+        "2/4",
+        "u + v"
+      ],
+      [
+        "3/4",
+        "7 + 5"
+      ],
+      [
+        "4/4",
+        "12"
+      ]
+    ]
   },
   {
     "skills": "which-x-satisfies-an-equation",
@@ -3315,32 +3841,64 @@
     ],
     "tag": "Gr7_U.9"
   },
+
   {
-    "skills": "solutions-to-inequalities",
-    "question_text": "Is v = 3 a solution to the inequality below?\n\n\n1<\nv\n\n\nyes\nno",
-    "image_tag": "Grade7_V.1",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "yes",
-      "no"
-    ],
+    "skills": "solve-one-step-inequalities",
+    "question_text": "Solve for q.\nq+2≥6",
+    "question_type": "Fill in the blank",
     "correct_answers": [
-      "A"
-    ],
-    "solution_image_tag": [
-      "Grade7_V.1_solution_0"
+      "q≥4"
     ],
     "solution": [
       [
-        "1/2",
-        "Plug v = 3 into the inequality."
-      ],
-      [
-        "2/2",
-        "It is true that 1 < 3. So, v = 3 is a solution."
+        "1/1",
+        "q+2\n≥\t6\nq+2–2\n≥\t6–2\tSubtract 2 from both sides\nq\n≥\t4\tSimplify"
       ]
     ],
-    "tag": "Gr7_V.1"
+    "tag": "Gr7_V.4"
+  },
+  {
+    "skills": "one-step-inequalities-word-problems",
+    "question_text": "James bought 4 tubes of paint to use for an art project. He paid the same amount for each tube, and he spent less than $20 in all.\nLet x represent the cost of each tube of paint. Which inequality describes the problem?\n\nSolve the inequality. Then, complete the sentence to describe the solution.\nEach tube of paint cost less than ",
+    "question_type": "Fill in the blank and multiple choice question with single answer",
+    "choices": [
+      "4x > 20",
+      "4x < 20"
+    ],
+    "correct_answers": [
+      "B",
+      "5"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "The variable x represents the cost of each tube of paint. Since James bought 4 tubes of paint, the expression 4x represents the total cost of the paint.\nAnd, since he spent less than $20 in all, 4x must be less than 20."
+      ],
+      [
+          "2/3",
+          "So, the inequality is 4x < 20.\nNow, divide both sides by 4 to solve for x."
+      ],
+      [
+          "3/3",
+          "x < 5\nEach tube of paint cost less than $5."
+      ]
+    ],
+    "tag": "Gr7_V.6"
+  },
+  {
+    "skills": "solve-two-step-inequalities",
+    "question_text": "Solve for a.\n2+2a>10",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "a>4"
+    ],
+    "solution": [
+      [
+        "1/1",
+        "Solve.\n2+2a\n>\t10\n2+2a–2\n>\t10–2\tSubtract 2 from both sides\n2a\n>\t8\tSimplify\n2a\n2\n>\t\n8\n2\nDivide both sides by 2\na\n>\t4\tSimplify"
+      ]
+    ],
+    "tag": "Gr7_V.7"
   },
   {
     "skills": "identify-representative-random-and-biased-samples",

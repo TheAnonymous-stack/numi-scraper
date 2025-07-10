@@ -2,14 +2,14 @@ from playwright.sync_api import sync_playwright
 import requests
 from bs4 import BeautifulSoup
 import base64
+import re
 
 from playwright.sync_api import TimeoutError
 from typeChecker import check_fill_in_the_blank, check_multiple_choices
 from jsonHandler import write_to_json
 from typeChecker import check_fill_in_the_blank, check_multiple_choices, check_sorting_drag_and_drop, check_ordering_items, check_pattern_drag_and_drop
 from extractors import extract_question_text, extract_answer_fill_in_the_blank, extract_answer_multiple_choices, \
-    extract_answer_fill_in_the_blank_and_multiple_choices, extract_answer_ordering_items, \
-    extract_answer_pattern_drag_and_drop, extract_answer_sorting_drag_and_drop
+    extract_answer_ordering_items
 
 
 def screenshot_question_section(url, output_path="question.png"):
@@ -61,79 +61,164 @@ def extract_question_text2(url):
         browser.close()
         return text
 
-def process_visual_components(page, json):
+def process_visual_components(page, json, code):
+    section = page.query_selector("section.ixl-practice-crate")
+    lst = code.split(".")
+    base_code = lst[0] + "." + lst[1]
     try:
-        section = page.query_selector("div.question-component section.ixl-practice-crate")
-        canvas = section.query_selector("canvas")
-        svg = section.query_selector("svg")
         table = section.query_selector("table")
+        if table:
+            table.screenshot(
+                path=f"Grade7_Master_Images/Grade7_{code.split('.')[0]}/Grade7_{base_code}/Grade7_{code}.png")
+
+            json["image_tag"] = f"Grade7_{code}"
+
+        canvas = section.query_selector("canvas")
         if canvas:
-            visual = canvas
-        elif svg:
-            visual = svg
-        elif table:
-            visual = table
-        else:
-            print("No visual component or visual component is neither canvas nor svg")
-            return
-        code = page.query_selector("nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace("\xa0", "").split(" ")[0]
-        visual.screenshot(path=f"Grade7_Images/Grade7_{code.split('.')[0]}/Grade7_{code}.png")
-        json["image_tag"] = f"Grade7_{code}"
+            canvas.screenshot(
+                path=f"Grade7_Master_Images/Grade7_{code.split('.')[0]}/Grade7_{base_code}/Grade7_{code}.png")
+
+            json["image_tag"] = f"Grade7_{code}"
+
+            # svgs = section.query_selector_all("svg")
+            # if len(svgs) > 0:
+            #     for svg in enumerate(svgs):
+            #         svg.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}_{i}")
+            #         i += 1
+        diagramWrapper = section.query_selector("div.diagramWrapper")
+        if diagramWrapper:
+            diagramWrapper.screenshot(
+                path=f"Grade7_Master_Images/Grade7_{code.split('.')[0]}/Grade7_{base_code}/Grade7_{code}.png")
+
+            json["image_tag"] = f"Grade7_{code}"
+
+        fractionBar = section.query_selector("div.fractionBarBlockTable")
+        if fractionBar:
+            fractionBar.screenshot(
+                path=f"Grade7_Master_Images/Grade7_{code.split('.')[0]}/Grade7_{base_code}/Grade7_{code}.png")
+
+            json["image_tag"] = f"Grade7_{code}"
+
+        selectableGridContainer = section.query_selector("div.selectableGridContainer")
+        if selectableGridContainer:
+            selectableGridContainer.screenshot(
+                path=f"Grade7_Master_Images/Grade7_{code.split('.')[0]}/Grade7_{base_code}/Grade7_{code}.png")
+
+            json["image_tag"] = f"Grade7_{code}"
+
+        stripContainer = section.query_selector("div.has-two-bars")
+        if stripContainer:
+            stripContainer.screenshot(
+                path=f"Grade7_Master_Images/Grade7_{code.split('.')[0]}/Grade7_{base_code}/Grade7_{code}.png")
+
+            json["image_tag"] = f"Grade7_{code}"
+
+        multiplicationModelContainer = section.query_selector("div.multiplication-model-container")
+        if multiplicationModelContainer:
+            multiplicationModelContainer.screenshot(
+                path=f"Grade7_Master_Images/Grade7_{code.split('.')[0]}/Grade7_{base_code}/Grade7_{code}.png")
+
+            json["image_tag"] = f"Grade7_{code}"
     except Exception as e:
         print(f"Error occured: {e}")
         return
 
+def check_duplicate(questions, text):
+    for question in questions:
+        length = min(len(question), len(text))
+        difference_count = 0
+        for i in range(length):
+            if question[i] != text[i]:
+                difference_count += 1
+        if difference_count < int(0.5 * length):
+            return True
+    return False
 
 def scrape_question(url, json, scraped_questions):
     print(f"Scraping {url}...")
     skill = url.split("/")[-1]
-    json["skills"] = skill
-    
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)  # Set to True if you don't need to see the browser
-        page = browser.new_page()
-        page.goto(url)
-        try:
-            page.wait_for_selector("button.explore-btn", timeout=3000)
-            page.click("button.explore-btn")
-            print("Ad closed via 'explore-btn'")
-        except:
-            print("No ad found or already dismissed.")
+    tracker = {
+        "Fill in the blank": [],
+        "Multiple Choice": [],
+        "Ordering Items": []
+    }
 
-        extract_question_text(page, json)
-        process_visual_components(page, json)
-        code = page.query_selector(
-            "nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace(
-            "\xa0", "").split(" ")[0]
-        json["tag"] = f'Gr7_{code}'
-        if check_fill_in_the_blank(page):
-            json["question_type"] = "Fill in the blank"
-            extract_answer_fill_in_the_blank(page, json, code)
-            scraped_questions.append(json)
+    question_count = 0
+    for _ in range(10):
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)  # Set to True if you don't need to see the browser
+            page = browser.new_page()
+            page.goto(url)
+            try:
+                page.wait_for_selector("button.explore-btn", timeout=3000)
+                page.click("button.explore-btn")
+                print("Ad closed via 'explore-btn'")
+            except:
+                print("No ad found or already dismissed.")
+            base_code = page.query_selector(
+                "nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace(
+                "\xa0", "").split(" ")[0]
+            extract_question_text(page, json)
+            text = re.split(r"\n+", json["question_text"])[0]
+            if len(text) == 0:
+                json = {}
+                page.reload()
+                continue
 
-        elif check_multiple_choices(page):
-            json["question_type"] = "Multiple Choice Question with Single Answer"
-            extract_answer_multiple_choices(page, json, code)
-            scraped_questions.append(json)
-
-        elif check_ordering_items(page):
-            json["question_type"] = "Ordering Items"
-            extract_answer_ordering_items(page, json, code)
-            scraped_questions.append(json)
-
-        elif check_pattern_drag_and_drop(page):
-            json["question_type"] = "Pattern Drag and Drop"
-            extract_answer_pattern_drag_and_drop(page, json, code)
-            scraped_questions.append(json)
-        elif check_sorting_drag_and_drop(page):
-            json["question_type"] = "Sorting Items"
+            json["skills"] = skill
+            section = page.query_selector("section.ixl-practice-crate")
+            process_visual_components(page, json, base_code)
             code = page.query_selector(
                 "nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace(
                 "\xa0", "").split(" ")[0]
-            extract_answer_sorting_drag_and_drop(page, json, code)
-            scraped_questions.append(json)
-        
-        browser.close()
+            json["tag"] = f'Gr7_{code}'
+            if check_fill_in_the_blank(page):
+                if not check_duplicate(tracker["Fill in the blank"], text):
+                    question_count += 1
+                    code = base_code + "." + str(question_count)
+                    tracker["Fill in the blank"].append(text)
+                    process_visual_components(page, json, code)
+                    tracker["Fill in the blank"].append(text)
+                    json["question_type"] = "Fill in the blank"
+                    json["question_number"] = code
+                    json["tag"] = "Gr7_"+ base_code
+                    extract_answer_fill_in_the_blank(page, json, code)
+                    scraped_questions.append(json)
+
+            elif check_multiple_choices(page):
+                if not check_duplicate(tracker["Multiple Choice"], text):
+                    question_count += 1
+                    code = base_code + "." + str(question_count)
+                    tracker["Multiple Choice"].append(text)
+                    process_visual_components(page, json, code)
+                    json["question_type"] = "Multiple Choice Question with Single Answer"
+                    json["question_number"] = code
+                    json["tag"] = "Gr7_" + base_code
+                    extract_answer_multiple_choices(page, json, code)
+                    scraped_questions.append(json)
+
+            elif check_ordering_items(page):
+                json["question_type"] = "Ordering Items"
+                extract_answer_ordering_items(page, json, code)
+                scraped_questions.append(json)
+
+            # elif check_pattern_drag_and_drop(page):
+            #     json["question_type"] = "Pattern Drag and Drop"
+            #     extract_answer_pattern_drag_and_drop(page, json, code)
+            #     scraped_questions.append(json)
+            # elif check_sorting_drag_and_drop(page):
+            #     json["question_type"] = "Sorting Items"
+            #     code = page.query_selector(
+            #         "nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace(
+            #         "\xa0", "").split(" ")[0]
+            #     extract_answer_sorting_drag_and_drop(page, json, code)
+            #     scraped_questions.append(json)
+            else:
+                browser.close()
+                break
+
+            json = {}
+            browser.close()
 
 def getTopicUrls(url):
     headers = {
@@ -166,14 +251,11 @@ def getTopicUrls(url):
         print(f"❌ Error occurred: {e}")
         return []
 
-url = "https://ca.ixl.com/standards/ontario/math/grade-7"
-urls = getTopicUrls(url)
-urls = urls[160:]
-urls = ["https://ca.ixl.com/math/grade-7/subtract-integers-using-counters"]
+# urls = getTopicUrls("https://ca.ixl.com/standards/ontario/math/grade-7")[0:10]
+urls = ["https://ca.ixl.com/math/grade-7/compare-mixed-numbers-and-improper-fractions"]
 
 scraped_questions = []
 
-for link in urls:
-    json = {}
-    scrape_question(link, json, scraped_questions)
+for url in urls:
+    scrape_question(url, {}, scraped_questions)
 write_to_json(scraped_questions, "gr7Draft.json")
