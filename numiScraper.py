@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import base64
 import re
+import os
 
 from playwright.sync_api import TimeoutError
 from typeChecker import check_fill_in_the_blank, check_multiple_choices
@@ -67,16 +68,16 @@ def process_visual_components(page, json, code):
         
         table = section.query_selector("table")
         if table:
-            table.screenshot(path=f"Grade5_Master_Images/Grade5_{code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
+            table.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{base_code}/Grade8_{code}.png")
             
-            json["image_tag"] = f"Grade5_{code}"
+            json["image_tag"] = f"Grade8_{code}"
 
         canvas = section.query_selector("canvas")
         if canvas:
             
-            canvas.screenshot(path=f"Grade5_Master_Images/Grade5_{code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
+            canvas.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{base_code}/Grade8_{code}.png")
             
-            json["image_tag"] = f"Grade5_{code}"
+            json["image_tag"] = f"Grade8_{code}"
         
         # svgs = section.query_selector_all("svg")
         # if len(svgs) > 0:
@@ -85,35 +86,35 @@ def process_visual_components(page, json, code):
         #         i += 1
         diagramWrapper = section.query_selector("div.diagramWrapper")
         if diagramWrapper:
-            diagramWrapper.screenshot(path=f"Grade5_Master_Images/Grade5_{code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
+            diagramWrapper.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{base_code}/Grade8_{code}.png")
             
-            json["image_tag"] = f"Grade5_{code}"
+            json["image_tag"] = f"Grade8_{code}"
 
         fractionBar = section.query_selector("div.fractionBarBlockTable")
         if fractionBar:
-            fractionBar.screenshot(path=f"Grade5_Master_Images/Grade5_{code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
+            fractionBar.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{base_code}/Grade8_{code}.png")
             
-            json["image_tag"] = f"Grade5_{code}"
+            json["image_tag"] = f"Grade8_{code}"
 
         selectableGridContainer = section.query_selector("div.selectableGridContainer")
         if selectableGridContainer:
-            selectableGridContainer.screenshot(path=f"Grade5_Master_Images/Grade5_{code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
+            selectableGridContainer.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{base_code}/Grade8_{code}.png")
             
-            json["image_tag"] = f"Grade5_{code}"
+            json["image_tag"] = f"Grade8_{code}"
 
         stripContainer = section.query_selector("div.has-two-bars")
         if stripContainer:
             
-            stripContainer.screenshot(path=f"Grade5_Master_Images/Grade5_{code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
+            stripContainer.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{base_code}/Grade8_{code}.png")
             
-            json["image_tag"] = f"Grade5_{code}"
+            json["image_tag"] = f"Grade8_{code}"
         
         multiplicationModelContainer = section.query_selector("div.multiplication-model-container")
         if multiplicationModelContainer:
             
-            multiplicationModelContainer.screenshot(path=f"Grade5_Master_Images/Grade5_{code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
+            multiplicationModelContainer.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{base_code}/Grade8_{code}.png")
             
-            json["image_tag"] = f"Grade5_{code}"
+            json["image_tag"] = f"Grade8_{code}"
             
     except Exception as e:
         print(f"Error occured: {e}")
@@ -138,11 +139,21 @@ def scrape_question(url, json, scraped_questions):
             "Ordering Items": []
         }
         question_count = 0
+        consecutive_duplicates = 0  # Track consecutive duplicates to break early
+        
         for _ in range(10):
             with sync_playwright() as p:
                 browser = p.chromium.launch(headless=True)  # Set to True if you don't need to see the browser
                 page = browser.new_page()
-                page.goto(url)
+                try:
+                    print(f"Attempting to load page: {url}")
+                    page.goto(url, wait_until="networkidle", timeout=60000)  # Increased timeout to 60 seconds
+                    print("Page loaded successfully")
+                except Exception as e:
+                    print(f"Failed to load page: {e}")
+                    browser.close()
+                    continue
+                    
                 try:
                     page.wait_for_selector("button.explore-btn", timeout=3000)
                     page.click("button.explore-btn")
@@ -161,63 +172,56 @@ def scrape_question(url, json, scraped_questions):
                 
                 json["skills"] = skill
                 section = page.query_selector("section.ixl-practice-crate")
+                question_found = False
+                
                 if check_fill_in_the_blank(page):
                     if not check_duplicate(tracker["Fill in the blank"], text):
                         question_count += 1
                         code = base_code + "." + str(question_count)
                         tracker["Fill in the blank"].append(text)
-                        section.screenshot(path=f"Grade5_Questions/Grade5_{base_code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
+                        section.screenshot(path=f"Grade8_Questions/Grade8_{base_code.split('.')[0]}/Grade8_{base_code}/Grade8_{code}.png")
                         process_visual_components(page, json, code)
-                        tracker["Fill in the blank"].append(text)
                         json["question_type"] = "Fill in the blank"
                         json["question_number"] = code
-                        json["tag"] = base_code
+                        json["tag"] = f"Grade8_{base_code}"
                         extract_answer_fill_in_the_blank(page, json, code)
                         scraped_questions.append(json)
+                        question_found = True
+                        consecutive_duplicates = 0  # Reset duplicate counter
+                    else:
+                        print(f"Duplicate fill-in-the-blank question found: {text[:50]}...")
+                        consecutive_duplicates += 1
 
                 elif check_multiple_choices(page):
                     if not check_duplicate(tracker["Multiple Choice"], text):
                         question_count += 1
                         code = base_code + "." + str(question_count)
                         tracker["Multiple Choice"].append(text)
-                        section.screenshot(path=f"Grade5_Questions/Grade5_{base_code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
+                        section.screenshot(path=f"Grade8_Questions/Grade8_{base_code.split('.')[0]}/Grade8_{base_code}/Grade8_{code}.png")
                         process_visual_components(page, json, code)
                         json["question_type"] = "Multiple Choice Question with Single Answer"
                         json["question_number"] = code
-                        json["tag"] = base_code
+                        json["tag"] = f"Grade8_{base_code}"
                         extract_answer_multiple_choices(page, json, code)
                         scraped_questions.append(json)
+                        question_found = True
+                        consecutive_duplicates = 0  # Reset duplicate counter
+                    else:
+                        print(f"Duplicate multiple choice question found: {text[:50]}...")
+                        consecutive_duplicates += 1
                 else:
+                    print("No recognized question type found, breaking...")
                     browser.close()
                     break
                 
-
-                # elif check_ordering_items(page):
-                #     if not check_duplicate(tracker["Ordering Items"], text):
-                #         tracker["Ordering Items"].append(text)
-                #         section.screenshot(path=f"Grade5_Questions/Grade_{base_code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
-                #         process_visual_components(page, json, code)
-                #         json["tag"] = code
-                #         json["question_type"] = "Ordering Items"
-                #         extract_answer_ordering_items(page, json, code)
-                #         scraped_questions.append(json)
+                # Break if we've found too many consecutive duplicates (likely only one question type)
+                if consecutive_duplicates >= 3:
+                    print(f"Found {consecutive_duplicates} consecutive duplicates. Likely only one question type exists. Breaking...")
+                    browser.close()
+                    break
                     
                 json = {}
                 browser.close()
-
-        # elif check_pattern_drag_and_drop(page):
-        #     json["question_type"] = "Pattern Drag and Drop"
-        #     json["tag"] = code
-        #     extract_answer_pattern_drag_and_drop(page, json, code)
-        #     scraped_questions.append(json)
-        # elif check_drag_and_drop(page):
-        #     json["question_type"] = "Drag and Drop"
-        #     code = page.query_selector(
-        #         "nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace(
-        #         "\xa0", "").split(" ")[0]
-        #     extract_answer_drag_and_drop(page, json, code)
-        #     scraped_questions.append(json)
-        
 
 def getTopicUrls(url):
     headers = {
@@ -250,12 +254,13 @@ def getTopicUrls(url):
         print(f"❌ Error occurred: {e}")
         return []
 
-urls = getTopicUrls("https://ca.ixl.com/standards/ontario/math/grade-5")[175:]
+urls = getTopicUrls("https://ca.ixl.com/standards/ontario/math/grade-8")[175:180]
+#urls = ["https://ca.ixl.com/math/grade-8/solve-one-step-inequalities"]
 
 scraped_questions = []
 for url in urls:
     scrape_question(url, {}, scraped_questions)
-write_to_json(scraped_questions, "gr5Draft.json")
+write_to_json(scraped_questions, "gr8Draft.json")
 # urls = getTopicUrls(url)[100:200]
 
 # scraped_questions = []

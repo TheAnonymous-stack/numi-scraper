@@ -53,7 +53,7 @@ def extract_answer_fill_in_the_blank(page, json, code):
                 value += decode_text(box.evaluate("e => e.value"), section)
         json['correct_answers'] = [value]
         section = page.query_selector("section.tab-box.web.optional-tab-box.solve-box section.ixl-practice-crate")
-        section.screenshot(path=f"Grade4_Solutions/Grade4_{code}.png")
+        section.screenshot(path=f"Grade8_Solutions/Grade8_{code}.png")
         extract_answer_explanation(page, json, code)
         return True
     except Exception as e:
@@ -74,13 +74,16 @@ def extract_answer_multiple_choices(page, json, code):
         print("Error occurred while collecting options", e)
         return
     
+    # Store option texts for later matching
+    option_texts = []
+    
     try:
         print("Extracting all options...")
         if len(image_options) > 0:
             json["image_choice_tags"] = []
             for i, option in enumerate(image_options):
-                option.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}_{chr(i+65)}.png")
-                json["image_choice_tags"].append(f'Grade4_{code}_{chr(i+65)}')
+                option.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{code}_{chr(i+65)}.png")
+                json["image_choice_tags"].append(f'Grade8_{code}_{chr(i+65)}')
         else:
             json["choices"] = []
             for i, option in enumerate(options):
@@ -88,7 +91,9 @@ def extract_answer_multiple_choices(page, json, code):
                 if "nonInteractive" not in class_attr.split():
                     choice = option.inner_text()
                     json["question_text"].replace(choice, "") # clear option text in case got included in question text
-                    json["choices"].append(decode_text(choice, crate))
+                    decoded_choice = decode_text(choice, crate)
+                    json["choices"].append(decoded_choice)
+                    option_texts.append(decoded_choice)
                 
     except Exception as e:
         print("Error while extracting options:", e)
@@ -117,34 +122,73 @@ def extract_answer_multiple_choices(page, json, code):
     
     try:
         print("Extracting correct answer...")
-        res = page.wait_for_selector("div.answer-box h2.feedback-header.correct", timeout=8000)
+        # Wait for the answer box to appear
         try:
-                options = page.query_selector_all("div.answer-box div.LaidOutTiles div.SelectableTile.MULTIPLE_CHOICE")
-                if not options:
-                    options = page.query_selector_all(
-                        "div.answer-box div.LaidOutTiles div.SelectableTile.MULTIPLE_SELECT")
-                i = 0
-                num_answer = 0
-                json["correct_answers"] = []
-                while i < len(options):
-                    class_attr = options[i].get_attribute("class")
-                    if "selected" in class_attr.split():
-                        num_answer += 1
-                        json["correct_answers"].append(chr(i+65))
-                        print("Saved the index of the answer in options")
-                    i += 1
-
-                if num_answer > 1:
-                    json["question_type"] = "Multiple Choice with Multiple Answers"
-                section = page.query_selector("section.tab-box.web.optional-tab-box.solve-box section.ixl-practice-crate")
-                section.screenshot(path=f"Grade4_Solutions/Grade4_{code}.png")
-                extract_answer_explanation(page, json, code)
-                
+            page.wait_for_selector("div.answer-box", timeout=8000)
+            print("Answer box found, waiting for correct answer...")
+        except TimeoutError:
+            print("Answer box not found after submission")
+            return
             
-        except Exception as e:
-                print("Error while searching for answer:", e)
-                return
-
+        # Try to extract selected options first
+        answer_options = page.query_selector_all("div.answer-box div.LaidOutTiles div.SelectableTile.MULTIPLE_CHOICE")
+        if not answer_options:
+            answer_options = page.query_selector_all("div.answer-box div.LaidOutTiles div.SelectableTile.MULTIPLE_SELECT")
+            
+        selected_indices = []
+        for i, option in enumerate(answer_options):
+            class_attr = option.get_attribute("class")
+            if class_attr and "selected" in class_attr.split():
+                selected_indices.append(i)
+                
+        if selected_indices:
+            print(f"Selected indices found: {selected_indices}")
+            json["correct_answers"] = [chr(i+65) for i in selected_indices]
+            if len(selected_indices) > 1:
+                json["question_type"] = "Multiple Choice with Multiple Answers"
+            section = page.query_selector("section.tab-box.web.optional-tab-box.solve-box section.ixl-practice-crate")
+            section.screenshot(path=f"Grade8_Solutions/Grade8_{code}.png")
+            extract_answer_explanation(page, json, code)
+            return
+            
+        # If no selected, try to match text
+        print("No selected option found, trying to match correct answer text...")
+        correct_answer_section = page.query_selector("div.correct-answer")
+        print(f"correct_answer_section: {correct_answer_section}")
+        correct_text = None
+        if correct_answer_section:
+            visible_elements = correct_answer_section.query_selector_all("*")
+            for elem in visible_elements:
+                style = elem.get_attribute("style") or ""
+                text = decode_text(elem.inner_text(), elem).strip()
+                if "display: none" not in style and "visibility: hidden" not in style and text:
+                    correct_text = text
+                    print(f"Extracted correct answer text from child element: '{correct_text}'")
+                    break
+            if not correct_text:
+                correct_text = decode_text(correct_answer_section.inner_text(), correct_answer_section).strip()
+                print(f"Extracted correct answer text from correct-answer div: '{correct_text}'")
+        else:
+            print("Correct answer section not found!")
+            
+        if correct_text:
+            print(f"Original option texts: {option_texts}")
+            if correct_text in option_texts:
+                idx = option_texts.index(correct_text)
+                answer_letter = chr(idx + 65)
+                json["correct_answers"] = [answer_letter]
+                print(f"Correct answer is option {answer_letter} (index {idx})")
+            else:
+                print("Correct answer text not found in original options.")
+                json["correct_answers"] = [correct_text]  # fallback: just store the text
+        else:
+            print("Could not extract correct answer text.")
+            json["correct_answers"] = []
+            
+        section = page.query_selector("section.tab-box.web.optional-tab-box.solve-box section.ixl-practice-crate")
+        section.screenshot(path=f"Grade8_Solutions/Grade8_{code}.png")
+        extract_answer_explanation(page, json, code)
+                
     except Exception as e:
         print(f"Error while extracting correct answer: {e}")
         return
@@ -170,7 +214,7 @@ def extract_answer_drag_and_drop(page, json, code):
     try: 
         print("Taking screenshots of all drag and drop items...")
         code = page.query_selector("nav.breadcrumb-nav.site-nav-breadcrumb.unzoom.practice-breadcrumb.responsive div.breadcrumb-selected").inner_text().replace("\xa0", "").split(" ")[0]
-        folder_name = f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}"
+        folder_name = f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{code}"
         json["items_image_folder"] = folder_name
         section = page.query_selector("section.ixl-practice-crate")
         for i, option in enumerate(options):
@@ -224,8 +268,8 @@ def extract_answer_drag_and_drop(page, json, code):
         if answer:
             print("Taking a screenshot of the correct sorting...")
             # image_bytes = answer.screenshot()
-            answer.screenshot(path=f"Grade5_Images/Grade5_{code.split('.')[0]}/Grade5_{code}_answer.png")
-            json["correct_answers_image_tag"] = f"Grade5_{code}_answer"
+            answer.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{code}_answer.png")
+            json["correct_answers_image_tag"] = f"Grade8_{code}_answer"
             # image_b64 = base64.b64encode(image_bytes).decode("utf-8")
             # json["answer"] = image_b64
             print("Correct order extracted and saved.")
@@ -245,7 +289,7 @@ def extract_answer_pattern_drag_and_drop(page, json, code):
     options = {}
     for i, stack in enumerate(stacks):
         card = stack.query_selector("div.gc-card-stack-top.interactive")
-        pathName = f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}_{chr(i + 65)}.png"
+        pathName = f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{code}_{chr(i + 65)}.png"
         card.screenshot(path=pathName)
         json["shape_image_tags"].append(pathName)
         label = card.query_locator("svg").get_attribute("aria-label")
@@ -297,7 +341,7 @@ def extract_answer_pattern_drag_and_drop(page, json, code):
             res.append(options[value])
 
         section = page.query_selector("section.tab-box.web.optional-tab-box.solve-box section.ixl-practice-crate")
-        section.screenshot(path=f"Grade4_Solutions/Grade4_{code}.png")
+        section.screenshot(path=f"Grade8_Solutions/Grade8_{code}.png")
         print("Finish extracting correct answer")
 
     except Exception as e:
@@ -356,7 +400,7 @@ def extract_answer_ordering_items(page, json, code):
         page.wait_for_selector("div.correct-answer.ixl-practice-crate", timeout=7000)
         print("Correct answer section appeared.")
         section = page.query_selector("section.tab-box.web.optional-tab-box.solve-box section.ixl-practice-crate")
-        section.screenshot(path=f"Grade4_Solutions/Grade4_{code}.png")
+        section.screenshot(path=f"Grade8_Solutions/Grade8_{code}.png")
         print("Extracting correct number order...")
         answer = page.query_selector("section.solve-box section.ixl-practice-crate div.order-items-container.interactive")
         if answer:
@@ -396,61 +440,61 @@ def process_visual_components(page, json, code):
         
         table = section.query_selector("table")
         if table:
-            table.screenshot(path=f"Grade5_Master_Images/Grade5_{code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
+            table.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{base_code}/Grade8_{code}.png")
             
-            json["image_tag"] = f"Grade5_{code}"
+            json["image_tag"] = f"Grade8_{code}"
 
         canvas = section.query_selector("canvas")
         if canvas:
             
-            canvas.screenshot(path=f"Grade5_Master_Images/Grade5_{code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
+            canvas.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{base_code}/Grade8_{code}.png")
             
-            json["image_tag"] = f"Grade5_{code}"
+            json["image_tag"] = f"Grade8_{code}"
         
         
         diagramWrapper = section.query_selector("div.diagramWrapper")
         if diagramWrapper:
-            diagramWrapper.screenshot(path=f"Grade5_Master_Images/Grade5_{code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
+            diagramWrapper.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{base_code}/Grade8_{code}.png")
             
-            json["image_tag"] = f"Grade5_{code}"
+            json["image_tag"] = f"Grade8_{code}"
         else:
             svgs = section.query_selector_all("svg")
             if len(svgs) > 0:
                 for svg in enumerate(svgs):
-                    svg.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}_{i}")
+                    svg.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{code}_{i}")
                     i += 1
         fractionBar = section.query_selector("div.fractionBarBlockTable")
         if fractionBar:
-            fractionBar.screenshot(path=f"Grade5_Master_Images/Grade5_{code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
+            fractionBar.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{base_code}/Grade8_{code}.png")
             
-            json["image_tag"] = f"Grade5_{code}"
+            json["image_tag"] = f"Grade8_{code}"
 
         selectableGridContainer = section.query_selector("div.selectableGridContainer")
         if selectableGridContainer:
-            selectableGridContainer.screenshot(path=f"Grade5_Master_Images/Grade5_{code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
+            selectableGridContainer.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{base_code}/Grade8_{code}.png")
             
-            json["image_tag"] = f"Grade5_{code}"
+            json["image_tag"] = f"Grade8_{code}"
 
         stripContainer = section.query_selector("div.has-two-bars")
         if stripContainer:
             
-            stripContainer.screenshot(path=f"Grade5_Master_Images/Grade5_{code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
+            stripContainer.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{base_code}/Grade8_{code}.png")
             
-            json["image_tag"] = f"Grade5_{code}"
+            json["image_tag"] = f"Grade8_{code}"
         
         multiplicationModelContainer = section.query_selector("div.multiplication-model-container")
         if multiplicationModelContainer:
             
-            multiplicationModelContainer.screenshot(path=f"Grade5_Master_Images/Grade5_{code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
+            multiplicationModelContainer.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{base_code}/Grade8_{code}.png")
             
-            json["image_tag"] = f"Grade5_{code}"
+            json["image_tag"] = f"Grade8_{code}"
 
         imageWrapper = section.query_selector("div.vector-image-wrapper")
         if imageWrapper:
             
-            imageWrapper.screenshot(path=f"Grade5_Master_Images/Grade5_{code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
+            imageWrapper.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{base_code}/Grade8_{code}.png")
             
-            json["image_tag"] = f"Grade5_{code}"
+            json["image_tag"] = f"Grade8_{code}"
             
     except Exception as e:
         print(f"Error occured: {e}")
@@ -462,8 +506,8 @@ def extract_answer_explanation_with_images(page, json, code):
         print("Extracting graphics first...")
         res = page.query_selector_all("section.solve-box section.ixl-practice-crate div.fractionBarContainer")
         for i, option in enumerate(res):
-            res.screenshot(path=f"Grade5_Images/Grade5_{code.split('.')[0]}/Grade5_{code}_solution_{i}.png")
-            json["solution_image_tag"] = f"Grade5_{code}_solution_{i}"
+            res.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{code}_solution_{i}.png")
+            json["solution_image_tag"] = f"Grade8_{code}_solution_{i}"
             # image_bytes = option.screenshot()
             # option.screenshot(path=f"option{i}.png")
             # image_b64 = base64.b64encode(image_bytes).decode("utf-8")
@@ -495,46 +539,46 @@ def extract_answer_explanation(page, json, code):
     i = 1
     table = section.query_selector("table")
     if table:
-        table.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}_solution_step_{i}.png")
-        json["solution_image_tag"].append(f"Grade4_{code}_solution_step_{i}")
+        table.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{code}_solution_step_{i}.png")
+        json["solution_image_tag"].append(f"Grade8_{code}_solution_step_{i}")
         i += 1
 
     canvases = section.query_selector_all("canvas")
     if len(canvases) > 0:
         for canvas in enumerate(canvases):
-            canvas.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}_solution_step_{i}.png")
-            json["solution_image_tag"].append(f"Grade4_{code}_solution_step_{i}")
+            canvas.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{code}_solution_step_{i}.png")
+            json["solution_image_tag"].append(f"Grade8_{code}_solution_step_{i}")
             i += 1
     
     # svgs = section.query_selector_all("svg")
     # if len(svgs) > 0:
     #     for svg in enumerate(svgs):
-    #         svg.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}_{i}")
+    #         svg.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{code}_{i}")
     #         i += 1
     diagramWrappers = section.query_selector_all("div.diagramWrapper")
     if len(diagramWrappers) > 0:
         for wrapper in diagramWrappers:
-            wrapper.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}_solution_step_{i}.png")
-            json["solution_image_tag"].append(f"Grade4_{code}_solution_step_{i}")
+            wrapper.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{code}_solution_step_{i}.png")
+            json["solution_image_tag"].append(f"Grade8_{code}_solution_step_{i}")
             i += 1
 
     fractionBars = section.query_selector_all("div.fractionBarBlockTable")
     if len(fractionBars) > 0:
         for bar in fractionBars:
-            bar.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}_solution_step_{i}.png")
-            json["solution_image_tag"].append(f"Grade4_{code}_solution_step_{i}")
+            bar.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{code}_solution_step_{i}.png")
+            json["solution_image_tag"].append(f"Grade8_{code}_solution_step_{i}")
             i += 1
 
     selectableGridContainers = section.query_selector_all("div.selectableGridContainer")
     if len(selectableGridContainers) > 0:
         for container in selectableGridContainers:
-            container.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}_solution_step_{i}.png")
-            json["solution_image_tag"].append(f"Grade4_{code}_solution_step_{i}")
+            container.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{code}_solution_step_{i}.png")
+            json["solution_image_tag"].append(f"Grade8_{code}_solution_step_{i}")
             i += 1
 
     stripContainers = section.query_selector_all("div.has-two-bars")
     if len(stripContainers) > 0:
         for container in stripContainers:
-            container.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}_solution_step_{i}.png")
-            json["solution_image_tag"].append(f"Grade4_{code}_solution_step_{i}")
-            i += 1
+            container.screenshot(path=f"Grade8_Master_Images/Grade8_{code.split('.')[0]}/Grade8_{code}_solution_step_{i}.png")
+            json["solution_image_tag"].append(f"Grade8_{code}_solution_step_{i}")
+            i += 1          
