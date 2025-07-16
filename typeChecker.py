@@ -14,7 +14,7 @@ def check_ordering_items(page):
         timeout=10_000
     )
 
-def check_drag_and_drop(page):
+def check_sorting_drag_and_drop(page):
     return page.is_visible(
         "section.ixl-practice-crate div.dragAndDropContainer.dragAndDropSortingContainer",
         timeout=10_000
