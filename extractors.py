@@ -1,6 +1,8 @@
 import base64
-from playwright.sync_api import TimeoutError
 import re
+
+from playwright.sync_api import TimeoutError
+
 from textFormat import decode_text
 def extract_question_text(page, json):
     # Wait for question section
@@ -55,6 +57,7 @@ def extract_answer_fill_in_the_blank(page, json, code):
         section = page.query_selector("section.tab-box.web.optional-tab-box.solve-box section.ixl-practice-crate")
         section.screenshot(path=f"Grade4_Solutions/Grade4_{code}.png")
         extract_answer_explanation(page, json, code)
+
         return True
     except Exception as e:
         print(f"Failed to extract correct answer: {e}")
@@ -66,7 +69,6 @@ def extract_answer_multiple_choices(page, json, code):
         crate = page.query_selector("section.ixl-practice-crate")
         image_options = crate.query_selector_all(
             "div.responsive-info-higher-order-component div.LaidOutTiles div.TileSkinClassic.FLOAT")
-        
         options = page.query_selector_all("section.ixl-practice-crate div.responsive-info-higher-order-component div.LaidOutTiles div.SelectableTile.MULTIPLE_CHOICE")
         if not options:
             options = page.query_selector_all("section.ixl-practice-crate div.responsive-info-higher-order-component div.LaidOutTiles div.SelectableTile.MULTIPLE_SELECT")
@@ -79,8 +81,8 @@ def extract_answer_multiple_choices(page, json, code):
         if len(image_options) > 0:
             json["image_choice_tags"] = []
             for i, option in enumerate(image_options):
-                option.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}_{chr(i+65)}.png")
-                json["image_choice_tags"].append(f'Grade4_{code}_{chr(i+65)}')
+                option.screenshot(path=f"Grade7_Images/Grade7_{code.split('.')[0]}/Grade7_{code}_{chr(i+65)}.png")
+                json["image_choice_tags"].append(f'Grade7_{code}_{chr(i+65)}')
         else:
             json["choices"] = []
             for i, option in enumerate(options):
@@ -106,6 +108,7 @@ def extract_answer_multiple_choices(page, json, code):
     try:
         res = page.wait_for_selector("div.ixl-modal-inside div.ixl-modal-content h3.hd", timeout=8000)
         text = res.inner_text()
+
         if "Incomplete" in text:
             print("Confirming submission of ordering items...")
             confirm_button = page.get_by_label("Incomplete Answer").get_by_role("button", name="Submit")
@@ -136,9 +139,11 @@ def extract_answer_multiple_choices(page, json, code):
 
                 if num_answer > 1:
                     json["question_type"] = "Multiple Choice with Multiple Answers"
+
                 section = page.query_selector("section.tab-box.web.optional-tab-box.solve-box section.ixl-practice-crate")
                 section.screenshot(path=f"Grade4_Solutions/Grade4_{code}.png")
                 extract_answer_explanation(page, json, code)
+
                 
             
         except Exception as e:
@@ -149,11 +154,14 @@ def extract_answer_multiple_choices(page, json, code):
         print(f"Error while extracting correct answer: {e}")
         return
     
+
 def extract_answer_drag_and_drop(page, json, code):
+
     try:
         print("Collecting all drag and drop items...")
-        options = page.query_selector_all(
-            "section.ixl-practice-crate div.ddItemBankDropSlot.dropArea")
+        crate = page.query_selector("section.ixl-practice-crate")
+        options = crate.query_selector_all(
+            "div.ddItemBankDropSlot.dropArea")
 
     except TimeoutError:
         print("Error occurred while collecting drag and drop items")
@@ -161,11 +169,12 @@ def extract_answer_drag_and_drop(page, json, code):
 
     try:
         print("Collecting all drag and drop categories...")
-        categories = page.query_selector_all(
-            "section.ixl-practice-crate div.binsContainer div.bin.dropArea")
+        categories = crate.query_selector_all(
+            "div.binsContainer div.bin.dropArea")
     except TimeoutError:
         print("Error occurred while collecting drag and drop categories")
         return
+
 
     try: 
         print("Taking screenshots of all drag and drop items...")
@@ -178,6 +187,7 @@ def extract_answer_drag_and_drop(page, json, code):
                 decode_text(option.inner_text(), section)
             )
     except TimeoutError:
+
         print("Error while saving drag and drop items: ", e)
         return
 
@@ -186,8 +196,10 @@ def extract_answer_drag_and_drop(page, json, code):
         json["categories"] = []
         for i, option in enumerate(categories):
             json["categories"].append(
+
                 decode_text(option.inner_text(), section)
             )
+
     except Exception as e:
         print("Error while taking drag and drop items:", e)
         return
@@ -204,7 +216,7 @@ def extract_answer_drag_and_drop(page, json, code):
     # There exists a pop up so need to confirm submission
     try:
         res = page.wait_for_selector("div.ixl-modal-inside div.ixl-modal-content h3.hd", timeout=8000)
-        text = res.inner_text()
+        text = decode_text(res.inner_text())
         if "Incomplete" in text:
             print("Confirming submission of ordering items...")
             confirm_button = page.get_by_label("Incomplete Answer").get_by_role("button", name="Submit")
@@ -218,17 +230,25 @@ def extract_answer_drag_and_drop(page, json, code):
         print("Waiting for the correct answer section to appear...")
         page.wait_for_selector("div.correct-answer.ixl-practice-crate", timeout=7000)
         print("Correct answer section appeared.")
-        # extract_answer_explanation_with_images(page, json, code)
+
         print("Extracting correct sorting...")
-        answer = page.query_selector("div.correct-answer.ixl-practice-crate div.dragAndDropContainer")
-        if answer:
-            print("Taking a screenshot of the correct sorting...")
-            # image_bytes = answer.screenshot()
-            answer.screenshot(path=f"Grade5_Images/Grade5_{code.split('.')[0]}/Grade5_{code}_answer.png")
-            json["correct_answers_image_tag"] = f"Grade5_{code}_answer"
-            # image_b64 = base64.b64encode(image_bytes).decode("utf-8")
-            # json["answer"] = image_b64
+        answers = page.query_selector_all("div.correct-answer.ixl-practice-crate div.dragAndDropContainer div.bin.dropArea")
+        if answers:
+            print("saving of the correct sorting...")
+            sorted_values = {}
+            for answer in answers:
+                category = answer.query_selector("div.binHeader").inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
+                correct_items = answer.query_selector_all("div.binContentRow")
+                if category not in sorted_values:
+                    sorted_values[category] = []
+                for item in correct_items:
+                    item = decode_text(item.inner_text())
+                    if item != "":
+                        sorted_values[category].append(item)
+            json["correct_answers"] = [sorted_values]
             print("Correct order extracted and saved.")
+            extract_answer_explanation(page, json, code)
+            print("Extracted answer explanation.")
             return
     except TimeoutError:
         print("Correct answer section did not appear.")
@@ -237,7 +257,7 @@ def extract_answer_drag_and_drop(page, json, code):
 def extract_answer_pattern_drag_and_drop(page, json, code):
     crate = page.query_selector("section.ixl-practice-crate")
     # find shape options first
-    
+
     stacks = crate.query_selector("div.gc-card-stacks")
     # take screenshot of each stack
     print("Taking screenshot of each stack...")
@@ -245,7 +265,9 @@ def extract_answer_pattern_drag_and_drop(page, json, code):
     options = {}
     for i, stack in enumerate(stacks):
         card = stack.query_selector("div.gc-card-stack-top.interactive")
+
         pathName = f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}_{chr(i + 65)}.png"
+
         card.screenshot(path=pathName)
         json["shape_image_tags"].append(pathName)
         label = card.query_locator("svg").get_attribute("aria-label")
@@ -270,7 +292,9 @@ def extract_answer_pattern_drag_and_drop(page, json, code):
     print("Submit button clicked.")
     try:
         res = page.wait_for_selector("div.ixl-modal-inside div.ixl-modal-content h3.hd", timeout=8000)
+
         text = res.inner_text()
+
         if "Incomplete" in text:
             print("Confirming submission of ordering items...")
             confirm_button = page.get_by_label("Incomplete Answer").get_by_role("button", name="Submit")
@@ -279,6 +303,7 @@ def extract_answer_pattern_drag_and_drop(page, json, code):
     except TimeoutError:
         print("No pop up confirmation found, something went wrong")
         return
+
     
     try:
         print("Waiting for the correct answer section to appear...")
@@ -288,6 +313,7 @@ def extract_answer_pattern_drag_and_drop(page, json, code):
         print(f"Error occurred while waiting for the correct answer to appear: {e}")
     
     try:
+
         print("Extracting correct answer...")
         row = page.query_selector("div.correct-answer.ixl-practice-crate div.gc-card-row")
         json["correct_answers"] = [[]]
@@ -296,35 +322,44 @@ def extract_answer_pattern_drag_and_drop(page, json, code):
             value = card.get_attribute("aria-label")
             res.append(options[value])
 
+
         section = page.query_selector("section.tab-box.web.optional-tab-box.solve-box section.ixl-practice-crate")
         section.screenshot(path=f"Grade4_Solutions/Grade4_{code}.png")
+
         print("Finish extracting correct answer")
 
     except Exception as e:
         print(f"Error occurred while extracting the correct answer to appear: {e}")
 
 
+
     extract_answer_explanation(page, json, code)
+
+
 
 
 def extract_answer_ordering_items(page, json, code):
     try:
         print("Collecting all items...")
-        options = page.query_selector_all(
-            "section.ixl-practice-crate div.order-items-item.order-items-numbers")
+        crate = page.query_selector("section.ixl-practice-crate")
+        options = crate.query_selector_all(
+            "div.order-items-item.order-items-numbers")
 
     except TimeoutError:
         print("Error occurred while collecting ordering items")
         return
 
     try:
-        print("Taking screenshots of all ordering items...")
+        print("Saving all ordering items...")
         json["order_items"] = []
         section = page.query_selector("section.ixl-practice-crate")
         for i, option in enumerate(options):
+            # option = option.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
             json["order_items"].append(
+
                 decode_text(option.inner_text(), section)
             )
+
     except Exception as e:
         print("Error while saving ordering items:", e)
         return
@@ -341,7 +376,7 @@ def extract_answer_ordering_items(page, json, code):
     # There exists a pop up so need to confirm submission
     try:
         res = page.wait_for_selector("div.ixl-modal-inside div.ixl-modal-content h3.hd", timeout=8000)
-        text = res.inner_text()
+        text = decode_text(res.inner_text())
         if "Incomplete" in text:
             print("Confirming submission of ordering items...")
             confirm_button = page.get_by_label("Incomplete Answer").get_by_role("button", name="Submit")
@@ -358,17 +393,20 @@ def extract_answer_ordering_items(page, json, code):
         section = page.query_selector("section.tab-box.web.optional-tab-box.solve-box section.ixl-practice-crate")
         section.screenshot(path=f"Grade4_Solutions/Grade4_{code}.png")
         print("Extracting correct number order...")
-        answer = page.query_selector("section.solve-box section.ixl-practice-crate div.order-items-container.interactive")
-        if answer:
+        answers = page.query_selector_all("section.solve-box section.ixl-practice-crate div.order-items-container.interactive div.order-items-item.order-items-numbers")
+        if answers:
             print("Taking saving the correct order...")
             json["correct_answers"] = []
+
             section = page.query_selector("section.ixl-practice-crate")
             json["correct_answers"].append(
                 decode_text(answer.inner_text(), section))
+
             print("Correct order extracted and saved.")
     except TimeoutError:
         print("Correct answer section did not appear.")
         return
+
     
     try:
         extract_answer_explanation(page, json, code)
@@ -384,7 +422,10 @@ def format_explanation(explanation):
     for i, sentence in enumerate(parts):
         sentence_list = []
         sentence_list.append(f"{i + 1}/{total}")
-        sentence_list.append(sentence+".")
+        if i < len(parts) - 1:
+          sentence_list.append(sentence+".")
+        else:
+          sentence_list.append(sentence)
         res.append(sentence_list)
     return res
 
@@ -456,14 +497,13 @@ def process_visual_components(page, json, code):
         print(f"Error occured: {e}")
         return
 
-def extract_answer_explanation_with_images(page, json, code):
+def extract_answer_explanation_images(page, json, visuals, code):
     try:
         print("Extracting answer explanation with graphics as image...")
-        print("Extracting graphics first...")
-        res = page.query_selector_all("section.solve-box section.ixl-practice-crate div.fractionBarContainer")
-        for i, option in enumerate(res):
-            res.screenshot(path=f"Grade5_Images/Grade5_{code.split('.')[0]}/Grade5_{code}_solution_{i}.png")
-            json["solution_image_tag"] = f"Grade5_{code}_solution_{i}"
+        json["solution_image_tag"] = []
+        for i, option in enumerate(visuals):
+            option.screenshot(path=f"Grade7_Images/Grade7_{code.split('.')[0]}/Grade7_{code}_solution_{i}.png")
+            json["solution_image_tag"].append(f"Grade7_{code}_solution_{i}")
             # image_bytes = option.screenshot()
             # option.screenshot(path=f"option{i}.png")
             # image_b64 = base64.b64encode(image_bytes).decode("utf-8")
@@ -538,3 +578,4 @@ def extract_answer_explanation(page, json, code):
             container.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}_solution_step_{i}.png")
             json["solution_image_tag"].append(f"Grade4_{code}_solution_step_{i}")
             i += 1
+

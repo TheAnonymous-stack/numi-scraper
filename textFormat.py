@@ -1,3 +1,4 @@
+
 import re
 def decode_text(text, section):
     text = clear_table_text(text, section)
@@ -66,3 +67,4 @@ def replacer(match):
     numerator = match.group(1)
     denominator = match.group(2)
     return f"$\\frac{{{numerator}}}{{{denominator}}}$"
+
