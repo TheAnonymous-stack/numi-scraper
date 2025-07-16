@@ -5,34 +5,39 @@
     "question_type": "Fill in the blank",
     "tag": "Gr4_1_E1",
     "correct_answers": [
-      "5429"
+      "5429",
+      "5,429"
     ],
     "solution": [
       [
-        "1/5",
-        "5000 is 5 thousands."
+        "1/6",
+        "Standard form means writing a number using only digits in their place value positions. First, let's identify what each part represents using place value."
       ],
       [
-        "2/5",
-        "400 is 4 hundreds."
+        "2/6", 
+        "5000 = 5 thousands (the 5 goes in the thousands place)."
       ],
       [
-        "3/5",
-        "20 is 2 tens."
+        "3/6",
+        "400 = 4 hundreds (the 4 goes in the hundreds place)."
       ],
       [
-        "4/5",
-        "9 is 9 ones."
+        "4/6", 
+        "20 = 2 tens (the 2 goes in the tens place)."
       ],
       [
-        "5/5",
-        "Use a place value chart"
+        "5/6",
+        "9 = 9 ones (the 9 goes in the ones place)."
+      ],
+      [
+        "6/6",
+        "Now arrange these digits by place value from left to right: thousands, hundreds, tens, ones. This gives us 5,429 in standard form."
       ]
     ],
     "solution_image_tag": [
-      "Gr4_1_1_1_solution_step_5"
+      "Gr4_1_1_1_solution_step_6"
     ],
-    "backend_description": "A place value chart showing the the thousands, hundreds, tens, ones of 5429.\nQuestion: What is 5000 + 400 + 20 + 9 in standard form?\nAnswer: 5429.",
+    "backend_description": "A place value chart showing the thousands, hundreds, tens, ones of 5429.\nQuestion: What is 5000 + 400 + 20 + 9 in standard form?\nAnswer: 5429."
     "question_number": "1_1"
   },
   {
@@ -51,12 +56,24 @@
     ],
     "solution": [
       [
-        "1/2",
-        "Use a place value chart"
+        "1/5",
+        "Converting word names to digits requires understanding place value. Break down the number by place: hundreds, tens, and ones."
       ],
       [
-        "2/2",
-        "You write eight hundred forty-two as 842."
+        "2/5", 
+        "Eight hundred = 8 in the hundreds place = 800."
+      ],
+      [
+        "3/5",
+        "Forty = 4 in the tens place = 40."
+      ],
+      [
+        "4/5",
+        "Two = 2 in the ones place = 2."
+      ],
+      [
+        "5/5",
+        "Combine: 800 + 40 + 2 = 842. So 'eight hundred forty-two' is written as 842."
       ]
     ],
     "solution_image_tag": [
@@ -79,18 +96,22 @@
     ],
     "solution": [
       [
-        "1/2",
-        "First, count the number of digits in each number. Remember that a number with more digits is always larger."
+        "1/3",
+        "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
       ],
       [
-        "2/2",
-        "Then, compare the digits with the same place value, starting from the left. Find the smallest number. 1955 is the smallest number."
+        "2/3",
+        "All numbers have 4 digits. Look at the thousands place: 1955 and 1957 both start with 1, but 5951 starts with 5. Since 1 is smaller than 5, both 1955 and 1957 are smaller than 5951."
+      ],
+      [
+        "3/3",
+        "Now compare 1955 and 1957. The first three digits are the same (195), so look at the ones place: 5 vs 7. Since 5 is smaller than 7, the answer is 1955."
       ]
     ],
     "question_number": "3_1"
   },
   {
-    "question_text": "Which number is largest?\n$\\frac{7945}{7943}$7549",
+    "question_text": "Which number is largest?",
     "skills": "compare-numbers",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "4_2",
@@ -105,12 +126,20 @@
     ],
     "solution": [
       [
-        "1/2",
-        "First, count the number of digits in each number. Remember that a number with more digits is always larger."
+        "1/4",
+        "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
       ],
       [
-        "2/2",
-        "Then, compare the digits with the same place value, starting from the left. Find the largest number. 7945 is the largest number."
+        "2/4",
+        "All numbers have 4 digits. Look at the thousands place: all three numbers start with 7, so they're the same. Move to the hundreds place."
+      ],
+      [
+        "3/4",
+        "Compare hundreds place: 7945 has 9, 7943 has 9, and 7549 has 5. Since 9 is bigger than 5, both 7945 and 7943 are larger than 7549."
+      ],
+      [
+        "4/4",
+        "Now compare 7945 and 7943. The first three digits are the same (794), so look at the ones place: 5 vs 3. Since 5 is bigger than 3, 7945 is the largest number."
       ]
     ],
     "solution_image_tag": []
