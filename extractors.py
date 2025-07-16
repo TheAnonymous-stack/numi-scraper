@@ -3,6 +3,8 @@ import re
 
 from playwright.sync_api import TimeoutError
 
+import re
+
 from textFormat import decode_text
 def extract_question_text(page, json):
     # Wait for question section
@@ -11,7 +13,9 @@ def extract_question_text(page, json):
     # Extract text
     text = section.inner_text()
     
-    json["question_text"] = decode_text(text, section)
+
+    json["question_text"] = decode_text(text, page)
+
 
 def extract_answer_fill_in_the_blank(page, json, code):
     
@@ -48,16 +52,17 @@ def extract_answer_fill_in_the_blank(page, json, code):
     try:
         print("Extracting correct answer...")
         section = page.query_selector("div.correct-answer.ixl-practice-crate")
-        value = decode_text(section.inner_text(), section)
+
+        value = decode_text(section.inner_text(), page)
         input_boxes = page.query_selector_all("div.correct-answer.ixl-practice-crate input.fillIn")
         if input_boxes:
             for box in input_boxes:
-                value += decode_text(box.evaluate("e => e.value"), section)
+                value += decode_text(box.evaluate("e => e.value"), page)
+
         json['correct_answers'] = [value]
         section = page.query_selector("section.tab-box.web.optional-tab-box.solve-box section.ixl-practice-crate")
         section.screenshot(path=f"Grade4_Solutions/Grade4_{code}.png")
         extract_answer_explanation(page, json, code)
-
         return True
     except Exception as e:
         print(f"Failed to extract correct answer: {e}")
@@ -69,6 +74,7 @@ def extract_answer_multiple_choices(page, json, code):
         crate = page.query_selector("section.ixl-practice-crate")
         image_options = crate.query_selector_all(
             "div.responsive-info-higher-order-component div.LaidOutTiles div.TileSkinClassic.FLOAT")
+
         options = page.query_selector_all("section.ixl-practice-crate div.responsive-info-higher-order-component div.LaidOutTiles div.SelectableTile.MULTIPLE_CHOICE")
         if not options:
             options = page.query_selector_all("section.ixl-practice-crate div.responsive-info-higher-order-component div.LaidOutTiles div.SelectableTile.MULTIPLE_SELECT")
@@ -88,9 +94,8 @@ def extract_answer_multiple_choices(page, json, code):
             for i, option in enumerate(options):
                 class_attr = option.get_attribute("class")
                 if "nonInteractive" not in class_attr.split():
-                    choice = option.inner_text()
-                    json["question_text"].replace(choice, "") # clear option text in case got included in question text
-                    json["choices"].append(decode_text(choice, crate))
+                    json["choices"].append(decode_text(option.inner_text(), page))
+
                 
     except Exception as e:
         print("Error while extracting options:", e)
@@ -184,7 +189,7 @@ def extract_answer_drag_and_drop(page, json, code):
         section = page.query_selector("section.ixl-practice-crate")
         for i, option in enumerate(options):
             json["drag_and_drop_items"].append(
-                decode_text(option.inner_text(), section)
+                decode_text(option.inner_text(), page)
             )
     except TimeoutError:
 
@@ -197,8 +202,10 @@ def extract_answer_drag_and_drop(page, json, code):
         for i, option in enumerate(categories):
             json["categories"].append(
 
+
                 decode_text(option.inner_text(), section)
             )
+
 
     except Exception as e:
         print("Error while taking drag and drop items:", e)
@@ -323,13 +330,16 @@ def extract_answer_pattern_drag_and_drop(page, json, code):
             res.append(options[value])
 
 
+
         section = page.query_selector("section.tab-box.web.optional-tab-box.solve-box section.ixl-practice-crate")
         section.screenshot(path=f"Grade4_Solutions/Grade4_{code}.png")
+
 
         print("Finish extracting correct answer")
 
     except Exception as e:
         print(f"Error occurred while extracting the correct answer to appear: {e}")
+
 
 
 
@@ -356,6 +366,7 @@ def extract_answer_ordering_items(page, json, code):
         for i, option in enumerate(options):
             # option = option.inner_text().replace("\xa0", "").replace("\t", "").encode('utf-8').decode('unicode_escape')
             json["order_items"].append(
+
 
                 decode_text(option.inner_text(), section)
             )
@@ -400,6 +411,7 @@ def extract_answer_ordering_items(page, json, code):
 
             section = page.query_selector("section.ixl-practice-crate")
             json["correct_answers"].append(
+
                 decode_text(answer.inner_text(), section))
 
             print("Correct order extracted and saved.")
@@ -422,6 +434,7 @@ def format_explanation(explanation):
     for i, sentence in enumerate(parts):
         sentence_list = []
         sentence_list.append(f"{i + 1}/{total}")
+
         if i < len(parts) - 1:
           sentence_list.append(sentence+".")
         else:
@@ -497,6 +510,7 @@ def process_visual_components(page, json, code):
         print(f"Error occured: {e}")
         return
 
+
 def extract_answer_explanation_images(page, json, visuals, code):
     try:
         print("Extracting answer explanation with graphics as image...")
@@ -530,6 +544,7 @@ def extract_answer_explanation(page, json, code):
     section = page.query_selector("section.tab-box.web.optional-tab-box.solve-box section.tab-body section.ixl-practice-crate")
 
     explanation = decode_text(section.inner_text(), section)
+
     json["solution"] = format_explanation(explanation)
     json["solution_image_tag"] = []
     i = 1
@@ -577,5 +592,7 @@ def extract_answer_explanation(page, json, code):
         for container in stripContainers:
             container.screenshot(path=f"Grade4_Images/Grade4_{code.split('.')[0]}/Grade4_{code}_solution_step_{i}.png")
             json["solution_image_tag"].append(f"Grade4_{code}_solution_step_{i}")
+
             i += 1
+
 

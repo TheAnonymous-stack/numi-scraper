@@ -8,6 +8,7 @@ from playwright.sync_api import TimeoutError
 from typeChecker import check_fill_in_the_blank, check_multiple_choices
 from jsonHandler import write_to_json
 
+
 from typeChecker import check_fill_in_the_blank, check_multiple_choices, check_drag_and_drop, check_ordering_items
 from extractors import extract_question_text, extract_answer_fill_in_the_blank, extract_answer_multiple_choices, extract_answer_drag_and_drop, extract_answer_ordering_items, extract_answer_pattern_drag_and_drop
 
@@ -61,14 +62,17 @@ def extract_question_text2(url):
         browser.close()
         return text
 
+
 def process_visual_components(page, json, code):
     section = page.query_selector("section.ixl-practice-crate")
     lst = code.split(".")
     base_code = lst[0] + "." + lst[1]
+
     try:
         
         table = section.query_selector("table")
         if table:
+
             table.screenshot(path=f"Grade5_Master_Images/Grade5_{code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
             
             json["image_tag"] = f"Grade5_{code}"
@@ -80,6 +84,7 @@ def process_visual_components(page, json, code):
             canvas.screenshot(path=f"Grade5_Master_Images/Grade5_{code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
             
             json["image_tag"] = f"Grade5_{code}"
+
         
         # svgs = section.query_selector_all("svg")
         # if len(svgs) > 0:
@@ -88,6 +93,7 @@ def process_visual_components(page, json, code):
         #         i += 1
         diagramWrapper = section.query_selector("div.diagramWrapper")
         if diagramWrapper:
+
             diagramWrapper.screenshot(path=f"Grade5_Master_Images/Grade5_{code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
             
             json["image_tag"] = f"Grade5_{code}"
@@ -104,20 +110,23 @@ def process_visual_components(page, json, code):
             
             json["image_tag"] = f"Grade5_{code}"
 
+
         stripContainer = section.query_selector("div.has-two-bars")
         if stripContainer:
             
+
             stripContainer.screenshot(path=f"Grade5_Master_Images/Grade5_{code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
             
             json["image_tag"] = f"Grade5_{code}"
+
         
         multiplicationModelContainer = section.query_selector("div.multiplication-model-container")
         if multiplicationModelContainer:
             
+
             multiplicationModelContainer.screenshot(path=f"Grade5_Master_Images/Grade5_{code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
             
             json["image_tag"] = f"Grade5_{code}"
-            
 
     except Exception as e:
         print(f"Error occured: {e}")
@@ -134,6 +143,7 @@ def check_duplicate(questions, text):
             return True
     return False
 def scrape_question(url, json, scraped_questions):
+
 
         print(f"Scraping {url}...")
         skill = url.split("/")[-1]
@@ -210,6 +220,7 @@ def scrape_question(url, json, scraped_questions):
                 json = {}
                 browser.close()
 
+
         # elif check_pattern_drag_and_drop(page):
         #     json["question_type"] = "Pattern Drag and Drop"
         #     json["tag"] = code
@@ -257,7 +268,9 @@ def getTopicUrls(url):
         return []
 
 
+
 urls = getTopicUrls("https://ca.ixl.com/standards/ontario/math/grade-5")[175:]
+
 
 
 scraped_questions = []
