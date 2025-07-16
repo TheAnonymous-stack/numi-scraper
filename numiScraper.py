@@ -7,8 +7,10 @@ import re
 from playwright.sync_api import TimeoutError
 from typeChecker import check_fill_in_the_blank, check_multiple_choices
 from jsonHandler import write_to_json
+
 from typeChecker import check_fill_in_the_blank, check_multiple_choices, check_drag_and_drop, check_ordering_items
 from extractors import extract_question_text, extract_answer_fill_in_the_blank, extract_answer_multiple_choices, extract_answer_drag_and_drop, extract_answer_ordering_items, extract_answer_pattern_drag_and_drop
+
 
 def screenshot_question_section(url, output_path="question.png"):
     with sync_playwright() as p:
@@ -73,6 +75,7 @@ def process_visual_components(page, json, code):
 
         canvas = section.query_selector("canvas")
         if canvas:
+
             
             canvas.screenshot(path=f"Grade5_Master_Images/Grade5_{code.split('.')[0]}/Grade5_{base_code}/Grade5_{code}.png")
             
@@ -115,6 +118,7 @@ def process_visual_components(page, json, code):
             
             json["image_tag"] = f"Grade5_{code}"
             
+
     except Exception as e:
         print(f"Error occured: {e}")
         return
@@ -130,6 +134,7 @@ def check_duplicate(questions, text):
             return True
     return False
 def scrape_question(url, json, scraped_questions):
+
         print(f"Scraping {url}...")
         skill = url.split("/")[-1]
         tracker = {
@@ -217,6 +222,7 @@ def scrape_question(url, json, scraped_questions):
         #         "\xa0", "").split(" ")[0]
         #     extract_answer_drag_and_drop(page, json, code)
         #     scraped_questions.append(json)
+
         
 
 def getTopicUrls(url):
@@ -250,7 +256,9 @@ def getTopicUrls(url):
         print(f"❌ Error occurred: {e}")
         return []
 
+
 urls = getTopicUrls("https://ca.ixl.com/standards/ontario/math/grade-5")[175:]
+
 
 scraped_questions = []
 for url in urls:
@@ -260,7 +268,9 @@ write_to_json(scraped_questions, "gr5Draft.json")
 
 # scraped_questions = []
 
+
 # for link in urls:
 #     json = {}
 #     scrape_question(link, json, scraped_questions)
 # write_to_json(scraped_questions, "gr4Draft.json")
+
