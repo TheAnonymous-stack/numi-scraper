@@ -543,11 +543,11 @@
       ],
       [
         "3/4",
-        "When something is divided into 3 equal parts, each part is 1 of the 3. We call this one-third and write it as $\frac{1}{3}$."
+        "When something is divided into 3 equal parts, each part is 1 of the 3. We call this one-third and write it as $\\frac{1}{3}$."
       ],
       [
         "4/4",
-        "Therefore, the fraction bar has 3 equal parts and each part is $\frac{1}{3}$ of the whole."
+        "Therefore, the fraction bar has 3 equal parts and each part is $\\frac{1}{3}$ of the whole."
       ]
     ],
     "solution_image_tag": [
@@ -576,11 +576,11 @@
       ],
       [
         "3/4",
-        "When something is divided into 2 equal parts, each part is 1 of the 2. We call this one-half and write it as $\frac{1}{2}$."
+        "When something is divided into 2 equal parts, each part is 1 of the 2. We call this one-half and write it as $\\frac{1}{2}$."
       ],
       [
         "4/4",
-        "Therefore, the rectangle has 2 equal parts and each part is $\frac{1}{2}$ of the whole."
+        "Therefore, the rectangle has 2 equal parts and each part is $\\frac{1}{2}$ of the whole."
       ]
     ],
     "solution_image_tag": [
@@ -604,7 +604,7 @@
       ],
       [
         "2/4",
-        "The fraction bar has 2 equal parts. When something is divided into 2 equal parts, each part is 1 of the 2, which we write as $\frac{1}{2}$."
+        "The fraction bar has 2 equal parts. When something is divided into 2 equal parts, each part is 1 of the 2, which we write as $\\frac{1}{2}$."
       ],
       [
         "3/4",
@@ -612,7 +612,7 @@
       ],
       [
         "4/4",
-        "Therefore, when 1 part is shaded, the fraction $\frac{1}{2}$ is shaded."
+        "Therefore, when 1 part is shaded, the fraction $\\frac{1}{2}$ is shaded."
       ]
     ],
     "solution_image_tag": [
@@ -636,7 +636,7 @@
       ],
       [
         "2/4",
-        "The rectangle has 3 equal parts. When something is divided into 3 equal parts, each part is 1 of the 3, which we write as $\frac{1}{3}$."
+        "The rectangle has 3 equal parts. When something is divided into 3 equal parts, each part is 1 of the 3, which we write as $\\frac{1}{3}$."
       ],
       [
         "3/4",
@@ -644,7 +644,7 @@
       ],
       [
         "4/4",
-        "Therefore, when 1 part is shaded, the fraction $\frac{1}{3}$ is shaded."
+        "Therefore, when 1 part is shaded, the fraction $\\frac{1}{3}$ is shaded."
       ]
     ],
     "solution_image_tag": [
@@ -666,12 +666,20 @@
     ],
     "solution": [
       [
-        "1/2",
-        "Figure A shows 2 equal parts. It does not show fourths."
+        "1/4",
+        "To show fourths, a figure must be divided into 4 equal parts. When something is divided into 4 equal parts, each part is called a fourth."
       ],
       [
-        "2/2",
-        "Figure B shows 4 equal parts. It shows fourths."
+        "2/4",
+        "Look at Figure A: The circle is divided into 2 equal parts. Since there are only 2 parts, this does not show fourths."
+      ],
+      [
+        "3/4",
+        "Look at Figure B: The circle is divided into 4 equal parts. Each part is the same size, so this shows fourths."
+      ],
+      [
+        "4/4",
+        "Therefore, Figure B shows fourths because it has 4 equal parts."
       ]
     ],
     "solution_image_tag": [],
@@ -679,7 +687,7 @@
   },
   {
     "skills": "match-unit-fractions-to-models",
-    "question_text": "Look at the coloured part of each shape. Which shape shows the fraction 1/6?",
+    "question_text": "Look at the coloured part of each shape. Which shape shows the fraction $\\frac{1}{6}$?",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_5_E4",
     "image_choice_tags": [
@@ -693,16 +701,24 @@
     ],
     "solution": [
       [
-        "1/3",
-        "Look at shape D: Count the equal parts. There are 6 equal parts."
+        "1/5",
+        "To find which shape shows $\\frac{1}{6}$, we need to find a shape that has 6 equal parts with 1 part colored."
       ],
       [
-        "2/3",
-        "Count the coloured parts. There is 1 coloured part. 1 out of the 6 parts is coloured. This shape shows the fraction$\\frac{1}{6}$."
+        "2/5",
+        "Look at each shape and count the total parts: Shape A has 8 parts, Shape B has 2 parts, Shape C has 3 parts, and Shape D has 6 parts."
       ],
       [
-        "3/3",
-        "Shape A shows $\\frac{1}{8}$. Shape B shows $\\frac{1}{2}$. Shape C shows $\\frac{1}{3}$."
+        "3/5",
+        "Since $\\frac{1}{6}$ means 1 out of 6 equal parts, we need the shape with 6 equal parts. Only Shape D has 6 equal parts."
+      ],
+      [
+        "4/5",
+        "Look at Shape D: It has 6 equal parts and 1 part is colored. This shows 1 out of 6 parts colored."
+      ],
+      [
+        "5/5",
+        "Therefore, Shape D shows the fraction $\\frac{1}{6}$."
       ]
     ],
     "solution_image_tag": [],
@@ -716,33 +732,37 @@
     "tag": "Gr4_6_E1",
     "image_tag": "Gr4_6_1_2",
     "choices": [
-      "$\\fract{1}{2}$",
-      "$\\fract{1}{4}$",
-      "$\\fract{1}{3}$",
-      "$\\fract{1}{6}$"
+      "$\\frac{1}{2}$",
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{1}{6}$"
     ],
     "correct_answers": [
       "D"
     ],
     "solution": [
       [
-        "1/3",
-        "Count the number of equal parts. There are 6 equal parts."
+        "1/4",
+        "To find what fraction of the shape is pink, first count the total number of equal parts in the circle."
       ],
       [
-        "2/3",
-        "Count the number of pink parts. There is 1 pink part."
+        "2/4",
+        "The circle has 6 equal parts."
       ],
       [
-        "3/3",
-        "1 out of 6 equal parts is pink. Write 1 out of 6 as a fraction: $\\frac{1}{6}$"
+        "3/4",
+        "Next, count how many parts are pink. There is 1 pink part."
+      ],
+      [
+        "4/4",
+        "Since 1 out of 6 equal parts is pink, the fraction is $\\frac{1}{6}$."
       ]
     ],
     "solution_image_tag": []
   },
   {
     "skills": "match-fractions-to-models",
-    "question_text": "Look at the coloured part of each shape. Which shape shows the fraction 2/3?",
+    "question_text": "Look at the coloured part of each shape. Which shape shows the fraction $\\frac{2}{3}$?",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_6_E2",
     "image_choice_tags": [
@@ -756,20 +776,24 @@
     ],
     "solution": [
       [
-        "1/4",
-        "Look at shape D: Count the equal parts. There are 3 equal parts."
+        "1/5",
+        "To find which shape shows $\\frac{2}{3}$, we need to find a shape that has 3 equal parts with 2 parts colored."
       ],
       [
-        "2/4",
-        "Count the coloured parts. There are 2 coloured parts."
+        "2/5",
+        "Look at each shape and count the total parts: Shape A has 4 parts, Shape B has 8 parts, Shape C has 6 parts, and Shape D has 3 parts."
       ],
       [
-        "3/4",
-        "2 out of the 3 parts are coloured. This shape shows the fraction$\\frac{2}{3}$."
+        "3/5",
+        "Since $\\frac{2}{3}$ means 2 out of 3 equal parts, we need the shape with 3 equal parts. Only Shape D has 3 equal parts."
       ],
       [
-        "4/4",
-        "Shape A shows $\\frac{3}{4}$. Shape B shows $\\frac{7}{8}$. Shape C shows $\\frac{2}{6}$."
+        "4/5",
+        "Look at Shape D: It has 3 equal parts and 2 parts are colored. This shows 2 out of 3 parts colored."
+      ],
+      [
+        "5/5",
+        "Therefore, Shape D shows the fraction $\\frac{2}{3}$."
       ]
     ],
     "solution_image_tag": [],
@@ -777,7 +801,7 @@
   },
   {
     "skills": "fractions-of-number-lines-unit-fractions",
-    "question_text": "Which number line shows a coloured segment with a length of 1/4?",
+    "question_text": "Which number line shows a coloured segment with a length of $\\frac{1}{4}$?",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_6_E3",
     "image_choice_tags": [
@@ -790,20 +814,24 @@
     ],
     "solution": [
       [
-        "1/4",
+        "1/5",
         "Count the number of equal parts between 0 and 1. Then, count how many are coloured."
       ],
       [
-        "2/4",
+        "2/5",
         "First number line: There are 3 equal parts between 0 and 1. There is 1 coloured part. So the segment has a length of $\\frac{1}{3}$."
       ],
       [
-        "3/4",
+        "3/5",
         "Second number line: There are 4 equal parts between 0 and 1. There is 1 coloured part. So the segment has a length of $\\frac{1}{4}$."
       ],
       [
-        "4/4",
+        "4/5",
         "Third number line: There are 5 equal parts between 0 and 1. There is 1 coloured part. So the segment has a length of $\\frac{1}{5}$."
+      ],
+      [
+        "5/5",
+        "Therefore, the second number line is the one which shows a coloured segment with a length of $\\frac{1}{4}$."
       ]
     ],
     "solution_image_tag": [
@@ -828,20 +856,24 @@
     ],
     "solution": [
       [
-        "1/4",
+        "1/5",
         "Count the number of equal parts between 0 and 1. Then, count how many are coloured."
       ],
       [
-        "2/4",
-        "First number line: There are 9 equal parts between 0 and 1. There is 1 coloured part. So the segment has a length of $\\frac{1}{9}$."
+        "2/5",
+        "First number line: There are 7 equal parts between 0 and 1. There is 1 coloured part. So the segment has a length of $\\frac{1}{7}$."
       ],
       [
-        "3/4",
-        "Second number line: There are 8 equal parts between 0 and 1. There is 1 coloured part. So the segment has a length of $\\frac{1}{8}$."
+        "3/5",
+        "Second number line: There are 9 equal parts between 0 and 1. There is 1 coloured part. So the segment has a length of $\\frac{1}{9}$."
       ],
       [
-        "4/4",
-        "Third number line: There are 7 equal parts between 0 and 1. There is 1 coloured part. So the segment has a length of $\\frac{1}{7}$."
+        "4/5",
+        "Third number line: There are 8 equal parts between 0 and 1. There is 1 coloured part. So the segment has a length of $\\frac{1}{8}$."
+      ],
+      [
+        "5/5",
+        "Therefore, the third number line is the one which shows a coloured segment with a length of $\\frac{1}{8}$."
       ]
     ],
     "solution_image_tag": [
