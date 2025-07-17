@@ -255,7 +255,7 @@
   },
   {
     "skills": "compare-fractions-using-benchmarks",
-    "question_text": "Compare each fraction to the benchmark. 2/3 ? 1, 9/6 ? 1, 2/3 ? 9/6",
+    "question_text": "Compare each fraction to the benchmark. 2/3 ? 1, 9/6 ? 1 \nNow, use this information to compare the two fractions. \n2/3 ? 9/6",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "2/3<1,9/6>1,2/3<9/6"
@@ -339,16 +339,28 @@
     ],
     "solution": [
       [
-        "1/3",
+        "1/6",
         "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
       ],
       [
-        "2/3",
-        "To compare the fraction parts, first write the fractions with a common denominator."
+        "2/6",
+        "To compare the fraction parts, first write the fractions with a common denominator.\nTo find a common denominator, multiply the denominators of the two fractions together."
       ],
       [
-        "3/3",
-        "Now compare the numerators."
+        "3/6",
+        "For 2/9, we must multiply it's numerator (2) and denominator (9) by the denominator of 1/2 (2)."
+       ],
+      [
+        "4/6",
+        "For 1/2, we must multiply it's numerator (1) and denominator (2) by the denominator of 2/9 (9)."
+      ],
+      [
+        "5/6",
+        "Now compare the numerators.\n4 < 9"
+      ],
+      [
+        "6/6",
+        "Therefore, 1\frac{2}{9} < 1\frac{1}{2}"
       ]
     ],
     "tag": "Gr7_3_E2",
@@ -373,7 +385,19 @@
     "solution": [
       [
         "1/1",
-        "Convert all of the numbers to decimal form.\n1\n4\n=0.25\n7\n8\n=0.875\n2\n5\n=0.4\nThe numbers, written as decimals, in order from least to greatest are:\n0.25<0.4<0.5<0.875\nSo, the correct answer is:\n1\n4\n2\n5\n0.5\n7\n8"
+        "Convert all of the numbers to decimal form."
+       ],
+      [
+        "2/4",
+        "\n1\n4\n=0.25\n7\n8\n=0.875\n2\n5\n=0.4"
+       ],
+      [
+        "3/4",
+        "Now order the decimals from least to greatest: \n0.25<0.4<0.5<0.875"
+      ],
+      [
+        "4/4",
+        "The correct answer is:\n1\n4\n2\n5\n0.5\n7\n8"
       ]
     ],
     "tag": "Gr7_3_E3",
@@ -381,7 +405,7 @@
   },
   {
     "skills": "identify-rational-numbers",
-    "question_text": "Is\n1\n8\narationalnumber?\n\n\nyes\nno",
+    "question_text": "Is \n1\n8\n a rational number?\n\n\nyes\nno",
     "image_tag": "Grade7_3_4_1",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -396,8 +420,12 @@
     ],
     "solution": [
       [
-        "1/1",
-        "isafraction.So,isarationalnumber.\n"
+        "1/2",
+        "A rational number is any number that can be written as a fraction, where the numerator and denominator are integers and the denominator is not zero."
+      ],
+      [
+        "2/2",
+        "The numerator (1) is an integer, and the denominator (8) is an integer.\nTherefore, 1/8 is a rational number.\nThe correct answer is yes."
       ]
     ],
     "tag": "Gr7_3_E4",
@@ -447,11 +475,11 @@
     "solution": [
       [
         "1/2",
-        "Compare the whole-number parts."
+        "Compare the whole-number parts.\nRemember that when comparing negative numbers, larger numbers like 9 (if you ignore the minus sign) are less than smaller numbers."
       ],
       [
         "2/2",
-        "Remember that when comparing negative numbers, larger numbers like 9 (if you ignore the minus sign) are less than smaller numbers. So:"
+        "-9 is less than -7. So, -9 1/2 is less than -7 3/4.\nTherefore, -9 1/2 < -7 3/4."
       ]
     ],
     "tag": "Gr7_4_E2",
