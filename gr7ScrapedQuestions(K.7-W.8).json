@@ -332,10 +332,10 @@
       "B"
     ],
     "solution_image_tag": [
-      "Gr7_3_2_1_step_0",
-      "Gr7_3_2_1_step_1",
-      "Gr7_3_2_1_step_2",
-      "Gr7_3_2_1_step_3"
+      "Gr7_3_2_1_step_3",
+      "Gr7_3_2_1_step_4",
+      "Gr7_3_2_1_step_5",
+      "Gr7_3_2_1_step_6"
     ],
     "solution": [
       [
@@ -425,7 +425,7 @@
       ],
       [
         "2/2",
-        "The numerator (1) is an integer, and the denominator (8) is an integer.\nTherefore, 1/8 is a rational number.\nThe correct answer is yes."
+        "The numerator (1) is an integer, and the denominator (8) is an integer.\nTherefore, the fraction 1/8 is a rational number.\nThe correct answer is yes."
       ]
     ],
     "tag": "Gr7_3_E4",
@@ -502,7 +502,19 @@
     "solution": [
       [
         "1/1",
-        "First, write all the numbers as decimals.\n19\n38\n=0.5\n20\n25\n=0.8\n-\n6\n17\n34\n=\n-\n6.5\nYou want to order the numbers from greatest to least. Since positive numbers are greater than negative numbers, start with them first.\nThe positive numbers, from greatest to least, are 0.8 and 0.5.\nNext come the negative numbers. \n-\n6.5 is the only negative number in the list. It is worth the least.\nThe numbers, written as decimals, in order from greatest to least are:\n0.8>0.5>\n-\n6.5\nSo, the correct answer is:\n20\n25\n19\n38\n-\n6\n17\n34"
+        "First, write all the numbers as decimals.\n19\n38\n=0.5\n20\n25\n=0.8\n and -\n6\n17\n34\n=\n-\n6.5."
+      ],
+      [
+        "2/2",
+        "You want to order the numbers from greatest to least. Since positive numbers are greater than negative numbers, start with them first.\nThe positive numbers, from greatest to least, are 0.8 and 0.5."
+      ],
+      [
+        "2/2",
+        "Next come the negative numbers. \n-\n6.5 is the only negative number in the list. It is worth the least."
+      ],
+      [
+        "2/2",
+        "The numbers, written as decimals, in order from greatest to least are:\n0.8>0.5>\n-\n6.5.\nSo, the correct answer is:\n20\n25\n19\n38\n-\n6\n17\n34."
       ]
     ],
     "tag": "Gr7_4_E3",
@@ -514,24 +526,22 @@
     "image_tag": "Grade7_4_4_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "3\n9\n=\n\n31"
-    ],
-    "solution_image_tag": [
-      "Gr7_4_4_1_step_0",
-      "Gr7_4_4_1_step_1"
+      "1",
+      "1.0",
+      "1.00"
     ],
     "solution": [
       [
         "1/3",
-        "These number lines show equivalent fractions.\nThe first number line shows .\nFind the fraction shown on the second number line."
+        "We are given the fraction 3/9 and asked to find an equivalent fraction with a denominator of 3."
       ],
       [
         "2/3",
-        "The second number line shows ."
+        "To find the missing numerator, divide both the numerator and denominator of 3/9 by the same number. Since 9 ÷ 3 = 3, divide the numerator by 3 as well: 3 ÷ 3 = 1."
       ],
       [
         "3/3",
-        "="
+        "So, 3/9 is equivalent to 1/3."
       ]
     ],
     "tag": "Gr7_4_E4",
@@ -543,28 +553,20 @@
     "image_tag": "Grade7_5_1_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "\n23"
-    ],
-    "solution_image_tag": [
-      "Gr7_5_1_1_step_0",
-      "Gr7_5_1_1_step_1"
+      "2/3"
     ],
     "solution": [
       [
-        "1/4",
-        "Find the largest number that divides both the numerator and the denominator. The largest number that divides both 6 and 9 is 3. Divide the numerator and denominator by 3."
+        "1/3",
+        "Find the largest number that divides both the numerator and the denominator. The largest number that divides both 6 and 9 is 3."
       ],
       [
-        "2/4",
-        "6 ÷ 3 = 2"
+        "2/3",
+        "Divide the numerator and denominator by 3.\n6 ÷ 3 = 2\n9 ÷ 3 = 3"
       ],
       [
-        "3/4",
-        "9 ÷ 3 = 3"
-      ],
-      [
-        "4/4",
-        " written in lowest terms is ."
+        "2/3",
+        "6/9 written in lowest terms is 2/3."
       ]
     ],
     "tag": "Gr7_5_E1",
@@ -575,32 +577,26 @@
     "question_text": "What is 54.3 rounded to the nearest whole number?\n\n",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "54"
+      "54",
+      "54.0",
+      "54.00"
     ],
     "solution": [
       [
-        "1/6",
-        "First, find the digit in the ones place. This is the place you want to round:"
+        "1/4",
+        "First, find the digit in the ones place. This is the digit you want to round. \nIn this case it is the 4 in 54.3."
       ],
       [
-        "2/6",
-        "54.3"
+        "2/4",
+        "When rounding, we will either round down to 54 or round up to 55. This decision will depend on the number in the tenths place (3)."
       ],
       [
-        "3/6",
-        "Now look one place to the right:"
+        "3/4",
+        "Since 3 is less than 5 we must round down. Remove all digits right of the ones place."
       ],
       [
-        "4/6",
-        "54.3"
-      ],
-      [
-        "5/6",
-        "3 is less than 5, so you will round down. Remove all the digits to the right of the ones place:"
-      ],
-      [
-        "6/6",
-        "54.3â54"
+        "4/4",
+        "The final answer is 54."
       ]
     ],
     "tag": "Gr7_5_E2",
@@ -608,27 +604,24 @@
   },
   {
     "skills": "convert-between-mixed-numbers-and-improper-fractions",
-    "question_text": "Write26\n9as a mixed number.\n\n",
+    "question_text": "Write 26\n9 as a mixed number.\n\n",
     "image_tag": "Grade7_5_3_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "2 8/9"
     ],
-    "solution_image_tag": [
-      "Gr7_5_3_1_step_0"
-    ],
     "solution": [
       [
         "1/3",
-        "Divide 26 by 9."
+        "To convert 26/9 to a mixed number, you need a whole number and a fraction."
       ],
       [
         "2/3",
-        "26 ÷ 9 = 2R8"
+        "Consider the remainder when dividing 26/9.\26/9 = 2 with a remainder of 8. That means 26/9 is 2 whole parts and 8 left over."
       ],
       [
         "3/3",
-        "Write the mixed number:"
+        "Write the remainder as a fraction over the original denominator: 8/9. So, 26/9 = 2 8/9."
       ]
     ],
     "tag": "Gr7_5_E3",
@@ -636,7 +629,7 @@
   },
   {
     "skills": "convert-between-decimals-and-fractions-or-mixed-numbers",
-    "question_text": "Write\n1\n4\nas a decimal number.\n\n",
+    "question_text": "Write \n1\n4\n as a decimal number.\n\n",
     "image_tag": "Grade7_5_4_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -647,8 +640,12 @@
     ],
     "solution": [
       [
-        "1/1",
-        "Write an equivalent fraction with 100 as the denominator. Then write the decimal number."
+        "1/2",
+        "Write an equivalent fraction with 100 as the denominator. Since 25 x 4 = 100, multiply the numerator (1) and denominator (4) by 25."
+      ],
+      [
+        "2/2",
+        "1/4 = 25/100 = 0.25. So, 1/4 in decimal form is 0.25"
       ]
     ],
     "tag": "Gr7_5_E4",
@@ -660,7 +657,7 @@
     "image_tag": "Grade7_6_1_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "35%"
+      "35"
     ],
     "solution_image_tag": [
       "Gr7_6_1_1_step_0",
@@ -669,11 +666,11 @@
     "solution": [
       [
         "1/2",
-        "Write an equivalent fraction with 100 as the denominator."
+        "Write an equivalent fraction with 100 as the denominator.\nSince 20 x 5 = 100, multiply the numerator (7) and denominator (20) by 5."
       ],
       [
         "2/2",
-        "Write the fraction as a percentage."
+        "7 x 5 = 35 and 20 x 5 = 100.\n7/20 = 35/100 = 35%\n So, 7/20 as a percentage is 35%."
       ]
     ],
     "tag": "Gr7_6_E1",
@@ -692,11 +689,11 @@
     "solution": [
       [
         "1/2",
-        "Subtract the numbers of grams. Remember to line up the decimal points. You can write extra zeros to make equivalent decimals."
+        "To find out how much pepper Cody has left, subtract the amount he used from the total amount: 1.70 - 0.01 = 1.69."
       ],
       [
         "2/2",
-        "Cody has 1.69 grams of pepper left."
+        "So, Cody has 1.69 grams of pepper left."
       ]
     ],
     "tag": "Gr7_6_E2",
@@ -707,52 +704,29 @@
     "question_text": "Evaluate the expression.\n0.1+0.6÷3\nWrite your answer as an integer or a decimal. Do not round.",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "0.3"
+      "0.3",
+      "0.30"
     ],
     "solution": [
       [
-        "1/11",
-        "First, identify the operations in the expression."
+        "1/5",
+        "Start by identifying the operations in the expression: 0.1 + 0.6 ÷ 3. According to the order of operations, divide before adding."
       ],
       [
-        "2/11",
-        "0.1+0.6÷3"
+        "2/5",
+        "Divide first: 0.6 ÷ 3 = 0.2."
       ],
       [
-        "3/11",
-        "This expression has addition and division. The order of operations says to divide before adding."
+        "3/5",
+        "Now add: 0.1 + 0.2 = 0.3."
       ],
       [
-        "4/11",
-        "0.1+0.6÷3"
+        "4/5",
+        "So, 0.1 + 0.6 ÷ 3 = 0.3."
       ],
       [
-        "5/11",
-        "="
-      ],
-      [
-        "6/11",
-        "0.1+0.2"
-      ],
-      [
-        "7/11",
-        "Now, add."
-      ],
-      [
-        "8/11",
-        "0.1+0.2"
-      ],
-      [
-        "9/11",
-        "="
-      ],
-      [
-        "10/11",
-        "0.3"
-      ],
-      [
-        "11/11",
-        "The value of the expression is 0.3."
+        "5/5",
+        "The final value of the expression is 0.3."
       ]
     ],
     "tag": "Gr7_6_E3",
@@ -766,63 +740,50 @@
       "26/30"
     ],
     "solution_image_tag": [
-      "Gr7_6_4_1_step_0",
-      "Gr7_6_4_1_step_1",
-      "Gr7_6_4_1_step_2",
-      "Gr7_6_4_1_step_3"
+      "Gr7_6_4_1_step_6",
+      "Gr7_6_4_1_step_7",
+      "Gr7_6_4_1_step_8",
     ],
     "solution": [
       [
-        "1/13",
-        "Find the fraction of the pies that were either blueberry or blackberry by adding 7/10 and 1/6."
+        "1/10",
+        "To find the fraction of pies that were either blueberry or blackberry, add 7/10 and 1/6."
       ],
       [
-        "2/13",
-        "To add the fractions, you can use the least common denominator. The least common denominator is the smallest whole number that is a multiple of both 10 and 6."
+        "2/10",
+        "To add these fractions, find the least common denominator (LCD) of 10 and 6."
       ],
       [
-        "3/13",
-        "Write the prime factorization for each denominator."
+        "3/10",
+        "The prime factorization of 10 is 2 × 5, and for 6 it is 2 × 3."
       ],
       [
-        "4/13",
-        "10 = 2 x 5\n6 = 2 x 3"
+        "4/10",
+        "Use each factor the greatest number of times it appears: 2, 3, and 5. Multiply them to get the LCD: 2 × 3 × 5 = 30."
       ],
       [
-        "5/13",
-        "Repeat each prime factor the most number of times it appears in any of the prime factorizations above."
+        "5/10",
+        "Convert each fraction to have a denominator of 30."
       ],
       [
-        "6/13",
-        "The most the factor 2 appears is once."
+        "6/10",
+        "7/10 = 21/30"
       ],
       [
-        "7/13",
-        "The most the factor 3 appears is once."
+        "7/10",
+        "1/6 = 5/30"
       ],
       [
-        "8/13",
-        "The most the factor 5 appears is once."
+        "8/10",
+        "Now add the fractions: 21/30 + 5/30.\nAdd the numerators: 21 + 5 = 26. The denominator stays the same."
       ],
       [
-        "9/13",
-        "So, multiply:"
+        "9/10",
+        "So, 21/30 + 5/30 = 26/30."
       ],
       [
-        "10/13",
-        "2 x 3 x 5 = 30"
-      ],
-      [
-        "11/13",
-        "The least common denominator is 30. Find equivalent fractions with 30 as the denominator."
-      ],
-      [
-        "12/13",
-        "Now add the fractions. Add the numerators and keep the denominators the same."
-      ],
-      [
-        "13/13",
-        "The fraction of the pies that were either blueberry or blackberry is 26/30."
+        "10/10",
+        "Therefore, 26/30 of the pies were either blueberry or blackberry."
       ]
     ],
     "tag": "Gr7_6_E4",
@@ -846,11 +807,11 @@
     "solution": [
       [
         "1/2",
-        "Add the price of a package of purple streamers and the price of a party hat:"
+        "Add the price of a package of purple streamers and the price of a party hat: $0.41 + $0.57 = $0.98"
       ],
       [
         "2/2",
-        "$0.98 is less than $1.00. Isabelle does have enough money."
+        "$0.98 is less than $1.00. So, yes Isabelle does have enough money."
       ]
     ],
     "tag": "Gr7_7_E1",
@@ -864,7 +825,8 @@
     "question_type": "Fill in the blank",
     "question_number": "1_2",
     "correct_answers": [
-      "$1487"
+      "1487",
+      "1,487"
     ],
     "solution_image_tag": [
       "Gr7_7_1_2_step_0"
@@ -872,7 +834,7 @@
     "solution": [
       [
         "1/2",
-        "Subtract the price of a ticket for a Mexican cruise from the price of a ticket for a Hawaiian cruise."
+        "Subtract the price of a ticket for a Mexican cruise ($7119)from the price of a ticket for a Hawaiian cruise ($8606).\n$8606 - $7119 = $1487"
       ],
       [
         "2/2",
@@ -888,7 +850,7 @@
     "question_type": "Fill in the blank",
     "question_number": "2_1",
     "correct_answers": [
-      "$0.74"
+      "0.74"
     ],
     "solution_image_tag": [
       "Gr7_7_2_1_step_0"
@@ -896,26 +858,26 @@
     "solution": [
       [
         "1/2",
-        "Add the price of a small metal hook and the price of a short steel screw:"
+        "Add the price of a small metal hook ($0.60) and the price of a short steel screw ($0.14).\n$0.60 + $0.14 = $0.74"
       ],
       [
         "2/2",
-        "Wanda needs $0.74."
+        "Wanda needs $0.74 to buy a small metal hook and a short steel screw."
       ]
     ]
   },
   {
     "skills": "unit-prices-find-the-total-price",
-    "question_text": "Whatisthetotalcostfor1kilogramofchickenchili?\n\nDo not round your answer.\n\nvegetable soup$0.63/kgâ\ntortilla soup$0.63/kgâ\nchicken chili$0.72/kgâ\nlobster bisque$1.04/kgâ\n\n\n$",
+    "question_text": "What is the total cost for 1 kilogram of chicken chili?\n\n Do not round your answer.\n\n vegetable soup $0.63/kgâ\ntortilla soup$0.63/kgâ\nchicken chili$0.72/kgâ\nlobster bisque$1.04/kgâ\n\n\n$",
     "image_tag": "Grade7_7_3_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "$0.72"
+      "0.72"
     ],
     "solution": [
       [
         "1/3",
-        "Find the cost of the chicken chili. Multiply the price per kilogram by the number of kilograms."
+        "Find the cost for 1kg of chicken chili. Multiply the price per kilogram by the number of kilograms."
       ],
       [
         "2/3",
@@ -923,7 +885,7 @@
       ],
       [
         "3/3",
-        "The total cost is $0.72."
+        "The total cost for 1kg of chicken chili is $0.72."
       ]
     ],
     "tag": "Gr7_7_E3",
@@ -934,7 +896,7 @@
     "question_text": "A beach umbrella was originally priced at $50 but went on sale for 50% off. If Nathan bought the beach umbrella and paid 12% sales tax, how much did he pay in total?\n\n\n$",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "$28"
+      "28"
     ],
     "solution_image_tag": [
       "Gr7_7_4_1_step_0",
@@ -943,28 +905,20 @@
     ],
     "solution": [
       [
-        "1/6",
+        "1/4",
         "First find the discount price. Write 50% as the decimal 0.50 before using it in the equation."
       ],
       [
-        "2/6",
-        "The discount price was $25."
-      ],
-      [
-        "3/6",
+        "2/4",
         "Now find the tax. Write 12% as the decimal 0.12 before using it in the equation."
       ],
       [
-        "4/6",
-        "The tax was $3."
-      ],
-      [
-        "5/6",
+        "3/4",
         "Finally, find the total cost."
       ],
       [
-        "6/6",
-        "The total cost was $28."
+        "4/4",
+        "The total for the umbrella cost was $28."
       ]
     ],
     "tag": "Gr7_7_E4",
@@ -975,7 +929,9 @@
     "question_text": "Rob and Joey went to lunch at a cafe. They ordered a spinach salad for $6.60, a tuna sandwich for $6.55, and 2 glasses of lemonade for $1.60 each. The tax was $1.65. They gave the waiter $20.00. How much change should they have received?\n\n\n$",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "$2"
+      "2",
+      "2.0",
+      "2.00"
     ],
     "solution_image_tag": [
       "Gr7_8_1_1_step_0"
@@ -983,7 +939,15 @@
     "solution": [
       [
         "1/1",
-        "They should have received $2.00 in change."
+        "First, find the cost of the food.\n$6.60 + $6.55 + $1.60 + $1.60 = $16.35."
+      ],
+      [
+        "2/3",
+        "Now find the total cost including the tax.\n$16.35 + $1.65 = $18.00"
+      ],
+      [
+        "3/3",
+        "Subtract the total cost including the tax from the amount they paid to find the change:\n$20.00 − $18.00 = $2.00."
       ]
     ],
     "tag": "Gr7_8_E1",
@@ -1003,11 +967,11 @@
     "solution": [
       [
         "1/2",
-        "2 x (7 x 9) = (2 x 7) x 9"
+        "The equation 2 × (7 × 9) = (2 × 7) × 9 shows a change in grouping."
       ],
       [
         "2/2",
-        "This equation shows the associative property. The grouping of the factors is changed."
+        "This is the associative property of multiplication, which states that the way factors are grouped does not change the product."
       ]
     ],
     "tag": "Gr7_8_E2",
@@ -1018,20 +982,23 @@
     "question_text": "Simplify the expression:\n\n\n3(5t + 2) = ",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "15t+6"
+      "15t+6",
+      "6+15t",
+      "t15+6",
+      "6+t15"
     ],
     "solution": [
       [
         "1/3",
-        "Simplify."
+        "To simplify the expression 3(5t + 2), apply the distributive property."
       ],
       [
         "2/3",
-        "3(5t + 2)=3(5t) + 3(2)Apply the distributive property"
+        "Multiply 3 by each term inside the parentheses:\n3 × 5t = 15t\n3 × 2 = 6"
       ],
       [
         "3/3",
-        "=15t + 6Simplify"
+        "So, 3(5t + 2) = 15t + 6."
       ]
     ],
     "tag": "Gr7_8_E3",
@@ -1046,32 +1013,24 @@
     ],
     "solution": [
       [
-        "1/7",
-        "To find q, use properties of addition to make both sides of the equation look the same."
+        "1/5",
+        "We are given the equation: q + 60 = 60 + 76."
       ],
       [
-        "2/7",
-        "The commutative property says you can add numbers in any order and get the same sum."
+        "2/5",
+        "Use the commutative property of addition, which tells us that numbers can be added in any order: a + b = b + a."
       ],
       [
-        "3/7",
-        "q + 60=60 + 76"
+        "3/5",
+        "Since q + 60 must equal 60 + 76, and 60 is already matched on both sides, q must be equal to 76"
       ],
       [
-        "4/7",
-        "q + 60=76 + 60Apply the commutative property"
+        "4/5",
+        "So, q + 60 = 60 + 76 becomes 76 + 60 = 60 + 76, which is true."
       ],
       [
-        "5/7",
-        "Now match up the two sides of the equation."
-      ],
-      [
-        "6/7",
-        "q + 60=76 + 60"
-      ],
-      [
-        "7/7",
-        "So, q = 76."
+        "5/5",
+        "Therefore, q = 76."
       ]
     ],
     "tag": "Gr7_8_E4",
@@ -1079,75 +1038,38 @@
   },
   {
     "skills": "write-equivalent-expressions-using-properties",
-    "question_text": "Complete the expressions.\nWrite each answer as a number, a variable, or the product of a number and a variable.\n=1+8s+3\n=+1+3\nCommutativepropertyofaddition\n\n=8s+\nAdd",
+    "question_text": "Complete the expressions.\nWrite each answer as a number, a variable, or the product of a number and a variable.\n=1+8s+3\n=+1+3\nCommutative property of addition\n\n=8s+\nAdd",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "=1+8s+3\n=+1+3\n\n\n=8s+\nAdd8s4"
+      "8s + 4",
+      "4 + 8s",
+      "s8 + 4",
+      "4 + s8"
     ],
     "solution": [
       [
-        "1/16",
-        "Look at the first two expressions."
+        "1/6",
+        "We are given the expression: 1 + 8s + 3."
       ],
       [
-        "2/16",
-        "=1+8s+3"
+        "2/6",
+        "Use the commutative property of addition to change the order of the terms. This property says that numbers can be added in any order."
       ],
       [
-        "3/16",
-        "=?+1+3"
+        "3/6",
+        "So, 1 + 8s + 3 = 8s + 1 + 3."
       ],
       [
-        "4/16",
-        "Commutative property of addition"
+        "4/6",
+        "Now simplify the constants 1 + 3. \n1 + 3 = 4"
       ],
       [
-        "5/16",
-        "Changing the order of addends does not change the sum. These expressions are equivalent if the missing term is 8s."
+        "5/6",
+        "Replace 1 + 3 with 4 in the expression: 8s + 4."
       ],
       [
-        "6/16",
-        "=1+8s+3"
-      ],
-      [
-        "7/16",
-        "=8s+1+3"
-      ],
-      [
-        "8/16",
-        "Commutativepropertyofaddition"
-      ],
-      [
-        "9/16",
-        "Look at the last two expressions."
-      ],
-      [
-        "10/16",
-        "=8s+1+3"
-      ],
-      [
-        "11/16",
-        "=8s+?"
-      ],
-      [
-        "12/16",
-        "Add"
-      ],
-      [
-        "13/16",
-        "These expressions are equivalent if the missing term is 4."
-      ],
-      [
-        "14/16",
-        "=8s+1+3"
-      ],
-      [
-        "15/16",
-        "=8s+4"
-      ],
-      [
-        "16/16",
-        "Add"
+        "6/6",
+        "So, 1 + 8s + 3 = 8s + 4."
       ]
     ],
     "tag": "Gr7_9_E1",
