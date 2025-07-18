@@ -300,34 +300,31 @@
     ]
   },
   {
-    "question_text": "Which number's underlined digit is worth 20?\n$\\frac{2710}{9216}$8192\n8125",
-    "skills": "place-value-up-to-100-000",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "2_10",
-    "tag":"Gr5_1_E2",
-    "choices": [
-      "2710",
-      "9216",
-      "8192",
-      "8125"
+    "question_text": "Which number's underlined digit is worth **20**?",
+  "skills": "place-value-up-to-100-000",
+  "question_type": "Multiple Choice Question with Single Answer",
+  "question_number": "2_10",
+  "tag": "Gr5_1_E2",
+  "choices": [
+    "27\\underline{1}0",
+    "92\\underline{1}6",
+    "81\\underline{9}2",
+    "81\\underline{2}5"
+  ],
+  "correct_answers": [
+    "D"
+  ],
+  "solution": [
+    [
+      "1/2",
+      "Remember the place values:\nLook for a 2 in the tens place. A 2 in the tens place is worth 20."
     ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Remember the place values:\nLook for a 2 in the tens place. A 2 in the tens place is worth 20."
-      ],
-      [
-        "2/2",
-        "The underlined digit in this number is a 2 in the tens place:\nThe underlined digit in 8125is worth 20."
-      ]
-    ],
-    "solution_image_tag": [
-      "Grade5_A.3.10_solution_step_1"
+    [
+      "2/2",
+      "The underlined digit in this number is a 2 in the tens place:\nThe underlined digit in 8125 is worth 20."
     ]
-  },
+  ]
+},
   {
     "question_text": "How do you write this number using digits?\n\n\nnine thousand three hundred eleven\n\n",
     "skills": "word-names-for-numbers-up-to-100-000",
@@ -428,35 +425,15 @@
       "A"
     ],
     "solution": [
-      [
-        "1/7",
-        "First, count the number of digits in each number. There are 4 digits in each number. They have the same number of digits."
-      ],
-      [
-        "2/7",
-        "Compare the thousands digits. The thousands digit in 9414 is 9. The thousands digit in 9413 is 9. They have the same thousands digit."
-      ],
-      [
-        "3/7",
-        "Now compare the hundreds digits. The hundreds digit in 9414 is 4. The hundreds digit in 9413 is 4. They have the same hundreds digit."
-      ],
-      [
-        "4/7",
-        "Now compare the tens digits. The tens digit in 9414 is 1. The tens digit in 9413 is 1. They have the same tens digit."
-      ],
-      [
-        "5/7",
-        "Now compare the ones digits. The ones digit in 9414 is 4. The ones digit in 9413 is 3. 4 is greater than 3."
-      ],
-      [
-        "6/7",
-        "9414 is greater than 9413."
-      ],
-      [
-        "7/7",
-        "Use the greater-than sign:\n\n$9414 > 9413$."
-      ]
+    [
+      "1/2",
+      "Compare the numbers from left to right. The digits are the same until the last one: 4 is greater than 3."
     ],
+    [
+      "2/2",
+      "9414 is greater than 9413, so the correct sign is $>$."
+    ]
+  ],
     "solution_image_tag": []
   },
   {
@@ -492,27 +469,27 @@
     "skills": "order-numbers-up-to-100-000",
     "question_type": "Ordering Items",
     "question_number": "2_1",
-    "tag":"Gr5_2_E2",
+    "tag": "Gr5_2_E2",
     "order_items": [
       "9280",
       "7276",
       "7683"
+  ],
+  "correct_answers": [
+    "9280",
+    "7683",
+    "7276"
+  ],
+  "solution": [
+    [
+      "1/2",
+      "Look at the numbers: 9280, 7276, and 7683. Start by comparing the first digit in each number."
     ],
-    "correct_answers": [
-      "9280", "7683", "7276"
-    ],
-    "solution": [
-      [
-        "1/1",
-        "First, find the greatest number. To compare the numbers, start by counting the number of digits in each number. When two numbers have the same number of digits, compare the digits in each place, starting at the highest place value."
-      ],[
-        "2/2",
-        "The greatest number is 9280. The numbers 7276 and 7683 are left. Find the greater number."
-      ],[
-        "3/3",
-        "The greater number is 7683. 7683 comes next in the answer. 7276 comes last in the answer"
-      ]
+    [
+      "2/2",
+      "9280 is the greatest, then 7683, and then 7276. So the correct order is: 9280, 7683, 7276."
     ]
+  ]
   },
   {
     "question_text": "Use the models to complete the equivalent fraction sentence. The coloured pieces in each model show parts of the whole.\n$\\frac{2}{4} = \\frac{?}{2}$",
@@ -525,43 +502,19 @@
       "1"
     ],
     "solution": [
-      [
-        "1/9",
-        "Find the fractions"
-      ],
-      [
-        "2/9",
-        "The first model has 2 coloured pieces out of 4 total pieces"
-      ],
-      [
-        "3/9",
-        "It shows 2/4"
-      ],
-      [
-        "4/9",
-        "The second model has 1 coloured piece out of 2 total pieces"
-      ],
-      [
-        "5/9",
-        " It shows 1/2"
-      ],
-      [
-        "6/9",
-        "Check that 2/4 and 1/2 are equivalent"
-      ],
-      [
-        "7/9",
-        "The 2 coloured pieces in the first model have the same area as the 1 coloured piece in the second model"
-      ],
-      [
-        "8/9",
-        "This means 2/4 and 1/2 are equivalent fractions"
-      ],
-      [
-        "9/9",
-        "This is the completed equivalent fraction sentence: 2/4=1/2"
-      ]
+    [
+      "1/3",
+      "The first model shows $\\frac{2}{4}$ — 2 out of 4 parts are coloured."
+    ],
+    [
+      "2/3",
+      "The second model shows $\\frac{1}{2}$ — 1 out of 2 parts is coloured."
+    ],
+    [
+      "3/3",
+      "$\\frac{2}{4}$ and $\\frac{1}{2}$ show the same amount, so they are equivalent."
     ]
+  ]
   },
   {
     "question_text": "Which fractions are equivalent to $\\frac{2}{10}$?\nHint: There may be more than one.",
@@ -695,24 +648,16 @@
     "correct_answers": [
       "49/9"
     ],
-    "solution": [
-      [
-        "1/4",
-        "Rewrite 5 as a fraction with 9 as the denominator"
-      ],
-      [
-        "2/4",
-        "$5= \\frac{5 \\times 9}{1 \\times 9} = \\frac{45}{9}$"
-      ],
-      [
-        "3/4",
-        "Now add the fractions"
-      ],
-      [
-        "4/4",
-        "45/9 + 4/9 = (45 + 4)/9 = 49/9"
-      ]
+   "solution": [
+    [
+      "1/2",
+      "Multiply the whole number by the denominator: $5 \\times 9 = 45$, then add the numerator: $45 + 4 = 49$."
+    ],
+    [
+      "2/2",
+      "So, $5\\ \\frac{4}{9} = \\frac{49}{9}$."
     ]
+  ]
   },
   {
     "question_text": "Graph $\\frac{5}{6}$ and $\\frac{5}{12}$ on the number line. \nWhich number is greater?",
@@ -1023,14 +968,15 @@
       "7/9"
     ],
     "solution": [
-      [
-        "1/2",
-        "The denominators are the same, so we can simply compare the numerators."
-      ], [
-        "2/2",
-        "Since 5 < 6 < 7, 5/9 < 6/9 < 7/9"
-      ]
+    [
+      "1/2",
+      "The denominators are the same, so we can simply compare the numerators."
+    ],
+    [
+      "2/2",
+      "Since $5 < 6 < 7$, we get $\\frac{5}{9} < \\frac{6}{9} < \\frac{7}{9}$."
     ]
+  ]
   },
   {
     "skills": "order-fractions-with-like-numerators",
@@ -1047,29 +993,15 @@
       "1/8","1/4","1/2"
     ],
     "solution": [
-      [
-        [
-          "1/5",
-          "We need to convert all fractions to same denominator to compare them."
-        ],
-        [
-          "2/5",
-          "8 is the lowest common denominator of 2, 4, 8."
-        ],
-        [
-          "3/5",
-          "1/8 = 1/8. 1/4 = (1 x 2)/(4 x 2) = 2/8. 1/2 = (1 x 4)/(2 x 4) = 4/8."
-        ],
-        [
-          "4/5",
-          "Now that the denominators are the same, we can rank the fractios by their numerators. We have 1/8 < 2/8 < 4/8"
-        ],
-        [
-          "5/5",
-          "Replacing fractions with their original forms, we have 1/8 $<$ 1/4 $<$1/2."
-        ]
-      ]
+    [
+      "1/2",
+      "The numerators are all the same, so we compare the denominators. A bigger denominator means smaller pieces."
+    ],
+    [
+      "2/2",
+      "Since $\\frac{1}{8} < \\frac{1}{4} < \\frac{1}{2}$, the correct order is: $\\frac{1}{8}$, $\\frac{1}{4}$, $\\frac{1}{2}$."
     ]
+  ]
   },
   {
     "skills": "order-fractions-with-unlike-denominators",
@@ -1086,29 +1018,15 @@
       "1/6", "2/4", "11/12"
     ],
     "solution": [
-      [
-        [
-          "1/5",
-          "We need to convert all fractions to same denominator to compare them."
-        ],
-        [
-          "2/5",
-          "12 is the lowest common denominator of 4, 6, 12."
-        ],
-        [
-          "3/5",
-          "1/6 = (1 x 2)/(6 x 2) = 2/12. 2/4 = (2 x 3)/(4 x 3) = 6/12. 11/12 = 11/12."
-        ],
-        [
-          "4/5",
-          "Now that the denominators are the same, we can rank the fractios by their numerators. We have 2/12 < 6/12 < 11/12"
-        ],
-        [
-          "5/5",
-          "Replacing fractions with their original forms, we have 1/6 $<$ 2/4 $<$ 11/12."
-        ]
-      ]
+    [
+      "1/2",
+      "Convert all fractions to have a common denominator. Use 12: $\\frac{1}{6} = \\frac{2}{12}$, $\\frac{2}{4} = \\frac{6}{12}$, $\\frac{11}{12} = \\frac{11}{12}$."
+    ],
+    [
+      "2/2",
+      "Now compare: $\\frac{2}{12} < \\frac{6}{12} < \\frac{11}{12}$, so the order is $\\frac{1}{6}$, $\\frac{2}{4}$, $\\frac{11}{12}$."
     ]
+  ]
   },
   {
     "skills": "order-fractions-review",
@@ -1124,30 +1042,16 @@
     "correct_answers": [
       "3/4", "3/6", "3/12"
     ],
-    "solution": [
-      [
-        [
-          "1/5",
-          "We need to convert all fractions to same denominator to compare them."
-        ],
-        [
-          "2/5",
-          "12 is the lowest common denominator of 4, 6, 12."
-        ],
-        [
-          "3/5",
-          "3/6 = (3 x 2)/(6 x 2) = 6/12. 3/12 = 3/12. 3/4 = (3 x 3)/(4 x 3) = 9/12."
-        ],
-        [
-          "4/5",
-          "Now that the denominators are the same, we can rank the fractios by their numerators. We have 9/12 $>$ 6/12 $>$ 3/12"
-        ],
-        [
-          "5/5",
-          "Replacing fractions with their original forms, we have 3/4 $>$ 3/6 $>$ 3/12."
-        ]
-      ]
+     "solution": [
+    [
+      "1/2",
+      "Convert the fractions to have the same denominator: $\\frac{3}{6} = \\frac{6}{12}$, $\\frac{3}{4} = \\frac{9}{12}$, and $\\frac{3}{12} = \\frac{3}{12}$."
+    ],
+    [
+      "2/2",
+      "Now compare: $\\frac{9}{12} > \\frac{6}{12} > \\frac{3}{12}$, so the correct order is $\\frac{3}{4}$, $\\frac{3}{6}$, $\\frac{3}{12}$."
     ]
+  ]
   },
   {
     "question_text": "What decimal number does the model represent?\nThe large square represents 1 whole.",
@@ -1184,24 +1088,16 @@
     "correct_answers": [
       "3.6"
     ],
-    "solution": [
-      [
-        "1/4",
-        "Use a place value chart."
-      ],
-      [
-        "2/4",
-        "First write the whole-number part, which is 3."
-      ],
-      [
-        "3/4",
-        "Now write the fraction part, which is 6"
-      ],
-      [
-        "4/4",
-        "Three and six tenths is 3.6."
-      ]
+     "solution": [
+    [
+      "1/2",
+      "The word 'three' means 3 whole ones, and 'six tenths' means 0.6."
     ],
+    [
+      "2/2",
+      "So, three and six tenths is written as 3.6."
+    ]
+  ],
     "solution_image_tag": [
       "Grade5_G.3.1_solution_step_1",
       "Grade5_G.3.1_solution_step_2"
@@ -1223,39 +1119,19 @@
       "A"
     ],
     "solution": [
-      [
-        "1/8",
-        "Look at the expression.\n$4 \\times 1+3 \\times 0.1+7 \\times0.01$"
-      ],
-      [
-        "2/8",
-        "Each term is the product of two numbers. The first number is the digit. The second number is the place value."
-      ],
-      [
-        "3/8",
-        "In this expression, the largest place value is 1 and the smallest is 0.01. Use a place value chart with a column for each place value between the largest and the smallest: Ones, Tenths and Hundredths."
-      ],
-      [
-        "4/8",
-        "Write 4×1 in the first row of the Ones column."
-      ],
-      [
-        "5/8",
-        "The ones digit is 4. Write this digit in the second row."
-      ],
-      [
-        "6/8",
-        "Complete the rest of the chart in the same way."
-      ],
-      [
-        "7/8",
-        "To write the expression as a decimal number, read the bottom row from left to right."
-      ],
-      [
-        "8/8",
-        "$4 \\times 1+3 \\times 0.1+7 \\times0.01=4.37$"
-      ]
+    [
+      "1/3",
+      "Multiply each part: $4 \\times 1 = 4$, $3 \\times 0.1 = 0.3$, and $7 \\times 0.01 = 0.07$."
     ],
+    [
+      "2/3",
+      "Now add them together: $4 + 0.3 + 0.07 = 4.37$."
+    ],
+    [
+      "3/3",
+      "So, the standard decimal form is $4.37$."
+    ]
+  ],
     "solution_image_tag": [
       "Grade5_G.5.1_solution_step_1",
       "Grade5_G.5.1_solution_step_2",
@@ -1381,28 +1257,20 @@
     "correct_answers": [
       "B"
     ],
-    "solution": [
-      [
-        "1/5",
-        "Graph 0.3."
-      ],
-      [
-        "2/5",
-        "Find 0.3 on the number line and graph the point."
-      ],
-      [
-        "3/5",
-        "Find 0.2 on the number line and graph the point."
-      ],
-      [
-        "4/5",
-        "Compare 0.3 and 0.2."
-      ],
-      [
-        "5/5",
-        "0.2 is closer to 0.0."
-      ]
+     "solution": [
+    [
+      "1/3",
+      "On a number line from 0 to 1, 0.2 and 0.3 are both marked between 0 and 0.5."
     ],
+    [
+      "2/3",
+      "0.2 is to the left of 0.3, so it is closer to 0."
+    ],
+    [
+      "3/3",
+      "Therefore, 0.2 is less than 0.3."
+    ]
+  ],
     "solution_image_tag": [
       "Grade5_G.10.1_solution_step_1",
       "Grade5_G.10.1_solution_step_2"
@@ -1422,27 +1290,19 @@
       "A"
     ],
     "solution": [
-      [
-        "1/5",
-        "Use a place value chart. Be sure to line up the decimal points."
-      ],
-      [
-        "2/5",
-        "Compare the digits, starting with the highest place value. The ones digits are the same. The ones digits are both 0."
-      ],
-      [
-        "3/5",
-        "The tenths digits are different. Compare the tenths digits. The tenths digit in 0.9 is greater than the tenths digit in 0.2."
-      ],
-      [
-        "4/5",
-        "0.9 is greater than 0.2."
-      ],
-      [
-        "5/5",
-        "Use the greater-than sign. \n$0.9 > 0.2$."
-      ]
-    ],
+  [
+    "1/3",
+    "Line up the decimals: 0.9 and 0.2. Start by comparing the digits in the tenths place."
+  ],
+  [
+    "2/3",
+    "0.9 has a 9 in the tenths place, and 0.2 has a 2. Since 9 is greater than 2, 0.9 is greater."
+  ],
+  [
+    "3/3",
+    "So the correct sign is greater than: $0.9 > 0.2$."
+  ]
+],
     "solution_image_tag": [
       "Grade5_G.11.1_solution_step_1"
     ]
@@ -1464,27 +1324,19 @@
       "A"
     ],
     "solution": [
-      [
-        "1/5",
-        "Write the decimal shown."
-      ],
-      [
-        "2/5",
-        "There are 100 squares. There are 77 coloured squares. The decimal part is seventy-seven hundredths."
-      ],
-      [
-        "3/5",
-        "Write seventy-seven hundredths as a decimal: 0.77."
-      ],
-      [
-        "4/5",
-        "The decimal shown is 0.77. Look for the decimal that is greater than 0.77."
-      ],
-      [
-        "5/5",
-        "0.78 is greater than 0.77. The hundredths digit in 0.78 is greater than the hundredths digit in 0.77."
-      ]
-    ],
+  [
+    "1/3",
+    "There are 100 squares, and 77 are shaded. That means the diagram shows 0.77."
+  ],
+  [
+    "2/3",
+    "Compare the choices to 0.77. Only 0.78 is greater than 0.77."
+  ],
+  [
+    "3/3",
+    "The hundredths digit in 0.78 is greater than in 0.77, so 0.78 is the correct answer."
+  ]
+],
     "solution_image_tag": [
       "Grade5_G.11.2_solution_step_1"
     ]
@@ -1506,27 +1358,23 @@
       "D"
     ],
     "solution": [
-      [
-        "1/5",
-        "Write the decimal shown."
-      ],
-      [
-        "2/5",
-        "There are 100 squares. There are 18 coloured squares. The decimal part is eighteen hundredths."
-      ],
-      [
-        "3/5",
-        "Write eighteen hundredths as a decimal: 0.18."
-      ],
-      [
-        "4/5",
-        "The decimal shown is 0.18. Look for the decimal that is less than 0.18."
-      ],
-      [
-        "5/5",
-        "0.1 is less than 0.18. Remember that 0.1 is equivalent to 0.10. The hundredths digit in 0.10 is less than the hundredths digit in 0.18."
-      ]
-    ],
+  [
+    "1/4",
+    "Look at the diagram. 18 squares out of 100 are colored, so the decimal is 0.18."
+  ],
+  [
+    "2/4",
+    "Check the choices to find a decimal smaller than 0.18."
+  ],
+  [
+    "3/4",
+    "0.2, 0.19, and 0.20 are all bigger than 0.18."
+  ],
+  [
+    "4/4",
+    "0.1 is less than 0.18, so the answer is 0.1."
+  ]
+],
     "solution_image_tag": [
       "Grade5_G.11.3_solution_step_1"
     ]
@@ -1661,66 +1509,46 @@
     ]
   },
   {
-    "skills": "convert-decimals-between-standard-and-expanded-form-using-fractions-up-to-hundredths",
-    "question_text": "Find the standard decimal form of: 4 x 1 + 5 x 1/10 + 5 x 1/100",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "1_1",
-    "tag":"Gr5_9_E1",
-    "choices": [
-      "0.455",
-      "4.055",
-      "554",
-      "4.55"
+  "skills": "convert-decimals-between-standard-and-expanded-form-using-fractions-up-to-hundredths",
+  "question_text": "Find the standard decimal form of: $4 \\times 1 + 5 \\times \\frac{1}{10} + 5 \\times \\frac{1}{100}$",
+  "question_type": "Multiple Choice Question with Single Answer",
+  "question_number": "1_1",
+  "tag": "Gr5_9_E1",
+  "choices": [
+    "0.455",
+    "4.055",
+    "554",
+    "4.55"
+  ],
+  "correct_answers": [
+    "D"
+  ],
+  "solution": [
+    [
+      "1/6",
+      "Start with: $4 \\times 1 + 5 \\times \\frac{1}{10} + 5 \\times \\frac{1}{100}$"
     ],
-    "correct_answers": [
-      "D"
+    [
+      "2/6",
+      "$4 \\times 1 = 4$"
     ],
-    "solution": [
-      [
-        "1/11",
-        "Start with the expression: 4 × 1 + 5 × 1/10 + 5 × 1/100"
-      ],
-      [
-        "2/11",
-        "Calculate 4 × 1 = 4"
-      ],
-      [
-        "3/11",
-        "Calculate 5 × 1/10 = 0.5"
-      ],
-      [
-        "4/11",
-        "Calculate 5 × 1/100 = 0.05"
-      ],
-      [
-        "5/11",
-        "Now add the values together"
-      ],
-      [
-        "6/11",
-        "4 + 0.5 = 4.5"
-      ],
-      [
-        "7/11",
-        "4.5 + 0.05 = 4.55"
-      ],
-      [
-        "8/11",
-        "So, 4 × 1 + 5 × 1/10 + 5 × 1/100 = 4.55"
-      ],
-      [
-        "9/11",
-        "The standard decimal form is 4.55"
-      ],
-      [
-        "10/11",
-        "Now check the answer choices"
-      ],
-      [
-        "11/11",
-        "Correct answer: D. 4.55"
-      ]
+    [
+      "3/6",
+      "$5 \\times \\frac{1}{10} = 0.5$"
+    ],
+    [
+      "4/6",
+      "$5 \\times \\frac{1}{100} = 0.05$"
+    ],
+    [
+      "5/6",
+      "$4 + 0.5 + 0.05 = 4.55$"
+    ],
+    [
+      "6/6",
+      "Final answer: D. 4.55"
     ]
+  ]
   },
   {
     "question_text": "Graph 0.1 and $\\frac{8}{10}$ on the number line.\nWhich number is closer to 1.0?",
@@ -1778,39 +1606,23 @@
       "B"
     ],
     "solution": [
-      [
-        "1/8",
-        "Start by converting 34/100 to a decimal"
-      ],
-      [
-        "2/8",
-        "34/100 = 0.34"
-      ],
-      [
-        "3/8",
-        "Now compare 0.14 and 0.34"
-      ],
-      [
-        "4/8",
-        "The ones digits are both 0"
-      ],
-      [
-        "5/8",
-        "Compare the tenths digits: 1 $<$ 3"
-      ],
-      [
-        "6/8",
-        "So, 0.14 is less than 0.34"
-      ],
-      [
-        "7/8",
-        "Use the less-than sign: 0.14 $<$ 0.34"
-      ],
-      [
-        "8/8",
-        "Correct answer: B. $<$"
-      ]
+    [
+      "1/4",
+      "Convert $\\frac{34}{100}$ to a decimal: 0.34"
+    ],
+    [
+      "2/4",
+      "Compare 0.14 and 0.34"
+    ],
+    [
+      "3/4",
+      "Since 0.14 < 0.34, use the less-than sign"
+    ],
+    [
+      "4/4",
+      "Correct answer: B. $<$"
     ]
+  ]
   },
   {
     "question_text": "Shade $\\frac{8}{10}$ of the grid.\nClick and drag to shade.\nWhat percent is equivalent to $\\frac{8}{10}$?\n ___%",
@@ -1973,15 +1785,15 @@
       "60%"
     ],
     "solution": [
-      [
-        "1/2",
-        "Multiply the decimal by 100. Move the decimal point two places to the right."
-      ],
-      [
-        "2/2",
-        "0.6 × 100 = 60\n\nWrite the result as a percentage:\n\n\n60%."
-      ]
+    [
+      "1/2",
+      "Multiply the decimal by 100: \\(0.6 \\times 100\\). Move the decimal point two places to the right."
     ],
+    [
+      "2/2",
+      "Calculate: \\(0.6 \\times 100 = 60\\).\n\nWrite the result as a percentage: \\(60\\%\\)."
+    ]
+  ],
     "solution_image_tag": []
   },
   {
@@ -2073,31 +1885,19 @@
       "A"
     ],
     "solution": [
-      [
-        "1/6",
-        "Convert 0.49 to a percent by multiplying by 100%"
-      ],
-      [
-        "2/6",
-        "0.49 × 100% = 49%"
-      ],
-      [
-        "3/6",
-        "Now compare 49% to 40%"
-      ],
-      [
-        "4/6",
-        "49% is greater than 40%"
-      ],
-      [
-        "5/6",
-        "So, 0.49 is greater than 40%"
-      ],
-      [
-        "6/6",
-        "Correct answer: $>$"
-      ]
+    [
+      "1/3",
+      "Convert 0.49 to a percent: $0.49 \\times 100\\% = 49\\%$"
+    ],
+    [
+      "2/3",
+      "Compare 49% and 40%; since 49% > 40%,"
+    ],
+    [
+      "3/3",
+      "the correct answer is: $>$"
     ]
+  ]
   },
   {
     "skills": "compare-percents-to-each-other-and-to-fractions-and-decimals",
@@ -2233,11 +2033,11 @@
           "B"
         ],
         "solution": [
-          [
-            "1/1",
-            "3 + 4 = 4 + 3\nThis equation shows the commutative property. The order of the addends is changed."
-          ]
-        ],
+    [
+      "1/1",
+      "The equation $3 + 4 = 4 + 3$ shows the commutative property because the order of the numbers being added is switched."
+    ]
+  ],
         "solution_image_tag": []
       },
       {
@@ -2255,11 +2055,11 @@
           "A"
         ],
         "solution": [
-          [
-            "1/1",
-            "5 + (3 + 9) = (5 + 3) + 9\nThis equation shows the associative property. The grouping of the addends is changed."
-          ]
-        ],
+    [
+      "1/1",
+      "The equation $5 + (3 + 9) = (5 + 3) + 9$ shows the associative property because the grouping of numbers being added changes."
+    ]
+  ],
         "solution_image_tag": []
       },
       {
@@ -2428,36 +2228,38 @@
         "solution_image_tag": []
       },
       {
-        "question_text": "Use properties to find the product.\n53×20×5\n=53×(__×5)\n=53×__\n=",
-        "skills": "multiply-using-properties",
-        "question_type": "Fill in the blank",
-        "question_number": "3_1",
-        "tag":"Gr5_12_E3",
-        "correct_answers": [
-          "20","100","5300"
-        ],
-        "solution": [
-  [
-    "1/5",
-    "You can use the associative property to find the product of 53 × 20 × 5."
+  "question_text": "Use properties to find the product.\n53 \\times 20 \\times 5\n= 53 \\times (\\_\\_ \\times 5)\n= 53 \\times \\_\\_\n=",
+  "skills": "multiply-using-properties",
+  "question_type": "Fill in the blank",
+  "question_number": "3_1",
+  "tag": "Gr5_12_E3",
+  "correct_answers": [
+    "20",
+    "100",
+    "5300"
   ],
-  [
-    "2/5",
-    "First, group the factors 20 and 5 using parentheses: \n53 × (20 × 5)"
+  "solution": [
+    [
+      "1/5",
+      "Use the associative property to group: $53 \\times (20 \\times 5)$"
+    ],
+    [
+      "2/5",
+      "Multiply inside parentheses: $20 \\times 5 = 100$"
+    ],
+    [
+      "3/5",
+      "Rewrite as: $53 \\times 100$"
+    ],
+    [
+      "4/5",
+      "Multiply: $53 \\times 100 = 5300$"
+    ],
+    [
+      "5/5",
+      "Final answer: $53 \\times 20 \\times 5 = 5300$"
+    ]
   ],
-  [
-    "3/5",
-    "Multiply 20 by 5: \n20 × 5 = 100"
-  ],
-  [
-    "4/5",
-    "Next, multiply 53 by 100: \n53 × 100 = 5300"
-  ],
-  [
-    "5/5",
-    "So, the answer is 5300. \nTherefore, 53 × 20 × 5 = 5300."
-  ]
-],
         "solution_image_tag": []
       },
       {
@@ -2520,45 +2322,45 @@
         "solution_image_tag": ["Grade5_D.22.1_solution_step_1","Grade5_D.22.1_solution_step_2"]
       },
       {
-        "question_text": "If 70 ÷ 7 = 10, then...\n10 × 7 = ___",
-        "skills": "relate-multiplication-and-division",
-        "question_type": "Fill in the blank",
-        "question_number": "1_1",
-        "tag":"Gr5_13_E1",
-        "correct_answers": [
-          "70"
-        ],
-        "solution": [
-          [
-            "1/2",
-            "If 70 ÷ 7 = 10, then..."
-          ],
-          [
-            "2/2",
-            "10 × 7 = 70\n7 × 10 = 70\nUse the first equation. The number 70 must go in the blank space."
-          ]
-        ],
+  "question_text": "If $70 \\div 7 = 10$, then...\n$10 \\times 7 = \\_\\_$",
+  "skills": "relate-multiplication-and-division",
+  "question_type": "Fill in the blank",
+  "question_number": "1_1",
+  "tag": "Gr5_13_E1",
+  "correct_answers": [
+    "70"
+  ],
+  "solution": [
+    [
+      "1/2",
+      "If $70 \\div 7 = 10$, then..."
+    ],
+    [
+      "2/2",
+      "$10 \\times 7 = 70$ \n\n$7 \\times 10 = 70$ \n\nUsing the first equation, the number 70 fills the blank."
+    ]
+  ],
         "solution_image_tag": []
       },
       {
-        "question_text": "If 9 × 6 = 54, then...\n54 ÷ 9 = ___",
-        "skills": "relate-multiplication-and-division",
-        "question_type": "Fill in the blank",
-        "question_number": "1_2",
-        "tag":"Gr5_13_E1",
-        "correct_answers": [
-          "6"
-        ],
-        "solution": [
-          [
-            "1/2",
-            "If 9 × 6 = 54, then..."
-          ],
-          [
-            "2/2",
-            "54 ÷ 6 = 9\n54 ÷ 9 = 6\nUse the second equation. The number 6 must go in the blank space."
-          ]
-        ],
+  "question_text": "If $9 \\times 6 = 54$, then...\n$54 \\div 9 = \\_\\_$",
+  "skills": "relate-multiplication-and-division",
+  "question_type": "Fill in the blank",
+  "question_number": "1_2",
+  "tag": "Gr5_13_E1",
+  "correct_answers": [
+    "6"
+  ],
+  "solution": [
+    [
+      "1/2",
+      "If $9 \\times 6 = 54$, then..."
+    ],
+    [
+      "2/2",
+      "$54 \\div 9 = 6$ \n\nUsing the multiplication fact, the missing number is 6."
+    ]
+  ],
         "solution_image_tag": []
       },
       {
@@ -2608,685 +2410,685 @@
         "solution_image_tag": []
       },
       {
-        "question_text": "Mona tried to evaluate the expression 12+18÷3×2. Here is her work:\n12+18÷3×2\n=12+18÷6 (Step 1)\n=12+3 (Step 2)\n=15 (Step 3)\nIs Mona's work correct?",
-        "skills": "identify-mistakes-involving-the-order-of-operations",
-        "question_type": "Multiple Choice Question with Single Answer",
-        "question_number": "4_1",
-        "tag":"Gr5_13_E4",
-        "choices": [
-          "No, Mona made a mistake in Step 1. Mona should have divided before multiplying. The order of operations says to multiply and divide from left to right.",
-          "No, Mona made a mistake in Step 1. Mona should have added before multiplying. The order of operations says to work from left to right.",
-          "Yes, Mona's work is correct."
-        ],
-        "correct_answers": [
-          "A"
-        ],
-        "solution": [
-          [
-            "1/2",
-            "Mona made a mistake in Step 1. Mona multiplied before she divided. \n12+18÷3×2\n=12+18÷6 \n=12+3 \n=15"
-          ],
-          [
-            "2/2",
-            "The order of operations says to multiply and divide from left to right. So, Mona should have divided before she multiplied. This shows the work Mona should have done:\n12+18÷3×2\n=12+6×2 (Divide)\n=12+12 (Multiply)\n=24 (Add)."
-          ]
-        ],
-        "solution_image_tag": []
-      },
-      {
-        "question_text": "Santiago tried to evaluate the expression 18÷6+3×4. Here is his work:\n18÷6+3×4\n=3+3×4 (Step 1)\n=6×4 (Step 2)\n=24 (Step 3)\nIs Santiago's work correct?",
-        "skills": "identify-mistakes-involving-the-order-of-operations",
-        "question_type": "Multiple Choice Question with Single Answer",
-        "question_number": "4_2",
-        "tag":"Gr5_13_E4",
-        "choices": [
-          "No, Santiago made a mistake in Step 1. Santiago should have multiplied instead of dividing. The order of operations says to multiply before you divide.",
-          "No, Santiago made a mistake in Step 2. Santiago should have multiplied before he added. The order of operations says to multiply before you add.",
-          "Yes, Santiago's work is correct."
-        ],
-        "correct_answers": [
-          "B"
-        ],
-        "solution": [
-          [
-            "1/2",
-            "Santiago made a mistake in Step 2. Santiago added before he multiplied.\n18÷6+3×4\n=3+3×4\n=6×4\n=24"
-          ],
-          [
-            "2/2",
-            "The order of operations says to multiply before you add. This shows the work Santiago should have done:\n18÷6+3×4\n=3+3×4 (Divide)\n=3+12 (Multiply)\n=15 (Add)."
-          ]
-        ],
-        "solution_image_tag": []
-      },
-      {
-        "question_text": "Michael tried to evaluate the expression 12–8+10×4. Here is his work:\n12–8+10×4\n=12–8+40 (Step 1)\n=4+40 (Step 2)\n=44 (Step 3)\nIs Michael's work correct?",
-        "skills": "identify-mistakes-involving-the-order-of-operations",
-        "question_type": "Multiple Choice Question with Single Answer",
-        "question_number": "4_3",
-        "tag":"Gr5_13_E4",
-        "choices": [
-          "No, Michael made a mistake in Step 1. Michael should have subtracted first. The order of operations says to work from left to right.",
-          "No, Michael made a mistake in Step 2. Michael should have added before he subtracted. The order of operations says to add before you subtract.",
-          "Yes, Michael's work is correct."
-        ],
-        "correct_answers": [
-          "C"
-        ],
-        "solution": [
-          [
-            "1/5",
-            "Michael's work is correct. You can check his work by evaluating the expression yourself."
-          ],
-          [
-            "2/5",
-            "There are no parentheses or brackets. The expression just has subtraction, addition, and multiplication. The order of operations says to multiply before you add or subtract.\n12–8+10×4\n=12–8+40"
-          ],
-          [
-            "3/5",
-            "Now the expression has subtraction and addition left to do. The order of operations says to add and subtract from left to right. So, start on the left and subtract.\n12–8+40\n=4+40"
-          ],
-          [
-            "4/5",
-            "Now, add.\n4+40\n=44"
-          ],
-          [
-            "5/5",
-            "The other two answer choices are incorrect. \nIn Step 1, Michael multiplied before he subtracted. That is what the order of operations says to do.\nIn Step 2, Michael then added and subtracted from left to right."
-          ]
-        ],
-        "solution_image_tag": []
-      },
-      {
-        "question_text": "Which expression has a value of 55?\n5×(3+8)\n(5×3)+8",
-        "skills": "evaluate-numerical-expressions-with-parentheses-in-different-places",
-        "question_type": "Multiple Choice Question with Single Answer",
-        "question_number": "1_1",
-        "tag":"Gr5_14_E1",
-        "choices": [
-          "5×(3+8)",
-          "(5×3)+8"
-        ],
-        "correct_answers": [
-          "A"
-        ],
-        "solution": [
-  [
-    "1/4",
-    "Find the value of 5 × (3 + 8). First add inside the parentheses: 3 + 8 = 11."
+  "question_text": "Mona tried to evaluate the expression $12 + 18 \\div 3 \\times 2$. Here is her work:\n\n$12 + 18 \\div 3 \\times 2$\n= $12 + 18 \\div 6$ (Step 1)\n= $12 + 3$ (Step 2)\n= $15$ (Step 3)\n\nIs Mona's work correct?",
+  "skills": "identify-mistakes-involving-the-order-of-operations",
+  "question_type": "Multiple Choice Question with Single Answer",
+  "question_number": "4_1",
+  "tag": "Gr5_13_E4",
+  "choices": [
+    "No, Mona made a mistake in Step 1. Mona should have divided before multiplying. The order of operations says to multiply and divide from left to right.",
+    "No, Mona made a mistake in Step 1. Mona should have added before multiplying. The order of operations says to work from left to right.",
+    "Yes, Mona's work is correct."
   ],
-  [
-    "2/4",
-    "Multiply 5 × 11 = 55. So, 5 × (3 + 8) = 55."
+  "correct_answers": [
+    "A"
   ],
-  [
-    "3/4",
-    "Now find the value of (5 × 3) + 8. Multiply inside the parentheses: 5 × 3 = 15."
+  "solution": [
+    [
+      "1/2",
+      "Mona made a mistake in Step 1. She multiplied before dividing:\n\n$12 + 18 \\div 3 \\times 2 = 12 + 18 \\div 6 = 12 + 3 = 15$"
+    ],
+    [
+      "2/2",
+      "According to order of operations, multiply and divide from left to right.\n\nCorrect work:\n\n$12 + 18 \\div 3 \\times 2 = 12 + 6 \\times 2 = 12 + 12 = 24$"
+    ]
   ],
-  [
-    "4/4",
-    "Add 15 + 8 = 23. So, (5 × 3) + 8 = 23, which is not 55."
-  ]
-],
         "solution_image_tag": []
       },
       {
-        "question_text": "Mike bought 5 packs of white T-shirts and 4 packs of blue T-shirts for his basketball team. The white T-shirts come in packs of 4, and the blue T-shirts come in packs of 9. How many T-shirts did Mike buy in all?\n___ T-shirts",
-        "skills": "multi-step-word-problems",
-        "question_type": "Fill in the blank",
-        "question_number": "2_1",
-        "tag":"Gr5_14_E2",
-        "correct_answers": [
-          "56"
-        ],
-        "solution": [
-          [
-            "1/4",
-            "Find the number of white T-shirts.\n5 × 4 = 20"
-          ],
-          [
-            "2/4",
-            "Find the number of blue T-shirts.\n4 × 9 = 36"
-          ],
-          [
-            "3/4",
-            "Find the total number of T-shirts.\n20 + 36 = 56"
-          ],
-          [
-            "4/4",
-            "Mike bought 56 T-shirts."
-          ]
-        ],
+  "question_text": "Santiago tried to evaluate the expression $18 \\div 6 + 3 \\times 4$. Here is his work:\n\n$18 \\div 6 + 3 \\times 4$\n= $3 + 3 \\times 4$ (Step 1)\n= $6 \\times 4$ (Step 2)\n= $24$ (Step 3)\n\nIs Santiago's work correct?",
+  "skills": "identify-mistakes-involving-the-order-of-operations",
+  "question_type": "Multiple Choice Question with Single Answer",
+  "question_number": "4_2",
+  "tag": "Gr5_13_E4",
+  "choices": [
+    "No, Santiago made a mistake in Step 1. Santiago should have multiplied instead of dividing. The order of operations says to multiply before you divide.",
+    "No, Santiago made a mistake in Step 2. Santiago should have multiplied before he added. The order of operations says to multiply before you add.",
+    "Yes, Santiago's work is correct."
+  ],
+  "correct_answers": [
+    "B"
+  ],
+  "solution": [
+    [
+      "1/2",
+      "Santiago made a mistake in Step 2 by adding before multiplying:\n\n$18 \\div 6 + 3 \\times 4 = 3 + 3 \\times 4 = 6 \\times 4 = 24$"
+    ],
+    [
+      "2/2",
+      "The correct order is to multiply before adding:\n\n$18 \\div 6 + 3 \\times 4 = 3 + 12 = 15$"
+    ]
+  ],
+        "solution_image_tag": []
+      },
+      {
+  "question_text": "Michael tried to evaluate the expression $12 - 8 + 10 \\times 4$. Here is his work:\n\n$12 - 8 + 10 \\times 4$\n= $12 - 8 + 40$ (Step 1)\n= $4 + 40$ (Step 2)\n= $44$ (Step 3)\n\nIs Michael's work correct?",
+  "skills": "identify-mistakes-involving-the-order-of-operations",
+  "question_type": "Multiple Choice Question with Single Answer",
+  "question_number": "4_3",
+  "tag": "Gr5_13_E4",
+  "choices": [
+    "No, Michael made a mistake in Step 1. Michael should have subtracted first. The order of operations says to work from left to right.",
+    "No, Michael made a mistake in Step 2. Michael should have added before he subtracted. The order of operations says to add before you subtract.",
+    "Yes, Michael's work is correct."
+  ],
+  "correct_answers": [
+    "C"
+  ],
+  "solution": [
+    [
+      "1/5",
+      "Michael's work is correct. Let's check it step-by-step."
+    ],
+    [
+      "2/5",
+      "Multiply first: $12 - 8 + 10 \\times 4 = 12 - 8 + 40$"
+    ],
+    [
+      "3/5",
+      "Then subtract and add from left to right: $12 - 8 + 40 = 4 + 40$"
+    ],
+    [
+      "4/5",
+      "Finally, add: $4 + 40 = 44$"
+    ],
+    [
+      "5/5",
+      "So, Michael followed the order of operations correctly."
+    ]
+  ],
+        "solution_image_tag": []
+      },
+      {
+  "question_text": "Which expression has a value of 55?\n$5 \\times (3 + 8)$\n$(5 \\times 3) + 8$",
+  "skills": "evaluate-numerical-expressions-with-parentheses-in-different-places",
+  "question_type": "Multiple Choice Question with Single Answer",
+  "question_number": "1_1",
+  "tag": "Gr5_14_E1",
+  "choices": [
+    "$5 \\times (3 + 8)$",
+    "$(5 \\times 3) + 8$"
+  ],
+  "correct_answers": [
+    "A"
+  ],
+  "solution": [
+    [
+      "1/4",
+      "Calculate $5 \\times (3 + 8)$: First, add inside parentheses: $3 + 8 = 11$."
+    ],
+    [
+      "2/4",
+      "Multiply: $5 \\times 11 = 55$. So, $5 \\times (3 + 8) = 55$."
+    ],
+    [
+      "3/4",
+      "Calculate $(5 \\times 3) + 8$: Multiply inside parentheses: $5 \\times 3 = 15$."
+    ],
+    [
+      "4/4",
+      "Add: $15 + 8 = 23$. So, $(5 \\times 3) + 8 = 23$, which is not 55."
+    ]
+  ],
+        "solution_image_tag": []
+      },
+      {
+  "question_text": "Mike bought 5 packs of white T-shirts and 4 packs of blue T-shirts for his basketball team. The white T-shirts come in packs of 4, and the blue T-shirts come in packs of 9. How many T-shirts did Mike buy in all?\n\n___ T-shirts",
+  "skills": "multi-step-word-problems",
+  "question_type": "Fill in the blank",
+  "question_number": "2_1",
+  "tag": "Gr5_14_E2",
+  "correct_answers": [
+    "56"
+  ],
+  "solution": [
+    [
+      "1/4",
+      "Find the number of white T-shirts:\n$5 \\times 4 = 20$"
+    ],
+    [
+      "2/4",
+      "Find the number of blue T-shirts:\n$4 \\times 9 = 36$"
+    ],
+    [
+      "3/4",
+      "Find the total number of T-shirts:\n$20 + 36 = 56$"
+    ],
+    [
+      "4/4",
+      "Mike bought 56 T-shirts."
+    ]
+  ],
         "solution_image_tag": [
         ]
       },
       {
-        "question_text": "Sidney had 19 stickers. She bought 16 stickers from a store in the mall and got 17 stickers for her birthday. Then Sidney gave 3 of the stickers to her sister and used 37 to decorate a greeting card. How many stickers does Sidney have left?\n___​ stickers",
-        "skills": "multi-step-word-problems",
-        "question_type": "Fill in the blank",
-        "question_number": "2_2",
-        "tag":"Gr5_14_E2",
-        "correct_answers": [
-          "12"
-        ],
-        "solution": [
-          [
-            "1/4",
-            "Find the total number of stickers.\n19 + 16 + 17 = 52"
-          ],
-          [
-            "2/4",
-            "Find the number of stickers given away and used on the greeting card.\n3 + 37 = 40"
-          ],
-          [
-            "3/4",
-            "Find the number of stickers left.\n52 − 40 = 12"
-          ],
-          [
-            "4/4",
-            "Sidney has 12 stickers left."
-          ]
-        ],
+  "question_text": "Sidney had 19 stickers. She bought 16 stickers from a store in the mall and got 17 stickers for her birthday. Then Sidney gave 3 of the stickers to her sister and used 37 to decorate a greeting card. How many stickers does Sidney have left?\n\n___ stickers",
+  "skills": "multi-step-word-problems",
+  "question_type": "Fill in the blank",
+  "question_number": "2_2",
+  "tag": "Gr5_14_E2",
+  "correct_answers": [
+    "12"
+  ],
+  "solution": [
+    [
+      "1/4",
+      "Find the total number of stickers: \n$19 + 16 + 17 = 52$"
+    ],
+    [
+      "2/4",
+      "Find the number of stickers given away and used: \n$3 + 37 = 40$"
+    ],
+    [
+      "3/4",
+      "Find the number of stickers left: \n$52 - 40 = 12$"
+    ],
+    [
+      "4/4",
+      "Sidney has 12 stickers left."
+    ]
+  ],
         "solution_image_tag": [
         ]
       },
       {
-        "question_text": "Dominic's father gave him $209. Dominic bought 7 books, each of which cost $3. How much money does Dominic have left?\n$___",
-        "skills": "multi-step-word-problems",
-        "question_type": "Fill in the blank",
-        "question_number": "2_3",
-        "tag":"Gr5_14_E2",
-        "correct_answers": [
-          "188"
-        ],
-        "solution": [
-          [
-            "1/3",
-            "Find the cost of the books.\n7 × 3 = $21"
-          ],
-          [
-            "2/3",
-            "Find the amount of money left.\n209 − 21 = $188"
-          ],
-          [
-            "3/3",
-            "$Dominic has $188 left."
-          ]
-        ],
+  "question_text": "Dominic's father gave him $209. Dominic bought 7 books, each of which cost $3. How much money does Dominic have left?\n\n$___",
+  "skills": "multi-step-word-problems",
+  "question_type": "Fill in the blank",
+  "question_number": "2_3",
+  "tag": "Gr5_14_E2",
+  "correct_answers": [
+    "188"
+  ],
+  "solution": [
+    [
+      "1/3",
+      "Find the cost of the books:\n$7 \\times 3 = 21$"
+    ],
+    [
+      "2/3",
+      "Find the amount of money left:\n$209 - 21 = 188$"
+    ],
+    [
+      "3/3",
+      "Dominic has $188 left."
+    ]
+  ],
         "solution_image_tag": [
         ]
       },
       {
-        "question_text": "Rita just got a babysitting job. She will work about 10 hours each week and make $9 an hour. Her parents say she needs to save half, but she can spend the other half.\nRita estimates she'll have around $50 of spending money each week. Is that a good estimate?",
-        "skills": "multi-step-word-problems-identify-reasonable-answers",
-        "question_type": "Multiple Choice Question with Single Answer",
-        "question_number": "3_1",
-        "tag":"Gr5_14_E3",
-        "choices": [
-          "Yes.",
-          "No, it is much too high.",
-          "No, it is much too low."
-        ],
-        "correct_answers": [
-          "A"
-        ],
-        "solution": [
-          [
-            "1/5",
-            "To check the estimate, find about how much spending money Rita will have each week. Use numbers that are easy to work with and that are close to the numbers in the problem."
-          ],
-          [
-            "2/5",
-            "Rita will make $9 an hour. That is about $10 an hour."
-          ],
-          [
-            "3/5",
-            "She will work 10 hours each week. Multiply by 10 to estimate what Rita earns in a week.\n10 × 10 = $100"
-          ],
-          [
-            "4/5",
-            "Rita can spend half of this. Divide by 2 to estimate Rita's weekly spending money.\n$100÷2=$50"
-          ],
-          [
-            "5/5",
-            "So, $50 is a good estimate.."
-          ]
-        ],
+  "question_text": "Rita just got a babysitting job. She will work about 10 hours each week and make $9 an hour. Her parents say she needs to save half, but she can spend the other half.\n\nRita estimates she'll have around $50 of spending money each week. Is that a good estimate?",
+  "skills": "multi-step-word-problems-identify-reasonable-answers",
+  "question_type": "Multiple Choice Question with Single Answer",
+  "question_number": "3_1",
+  "tag": "Gr5_14_E3",
+  "choices": [
+    "Yes.",
+    "No, it is much too high.",
+    "No, it is much too low."
+  ],
+  "correct_answers": [
+    "A"
+  ],
+  "solution": [
+    [
+      "1/5",
+      "Estimate Rita’s earnings: $9 \\approx 10$ dollars per hour."
+    ],
+    [
+      "2/5",
+      "She works about 10 hours per week. Estimate total earnings:\n$10 \\times 10 = 100$ dollars."
+    ],
+    [
+      "3/5",
+      "She can spend half, so divide by 2:\n$100 \\div 2 = 50$ dollars."
+    ],
+    [
+      "4/5",
+      "Rita’s estimate of $50 spending money is reasonable."
+    ],
+    [
+      "5/5",
+      "Therefore, the correct answer is: Yes."
+    ]
+  ],
         "solution_image_tag": []
       },
       {
-        "question_text": "Multiply.\n2×9=",
-        "skills": "multiplication-facts-to-10",
-        "question_type": "Fill in the blank",
-        "question_number": "4_1",
-        "tag":"Gr5_14_E4",
-        "correct_answers": [
-          "18"
-        ],
-        "solution": [
-  [
-    "1/2",
-    "To solve 2 × 9, think of 2 groups of 9."
+        "question_text": "Multiply.\n$2 \\times 9 =$",
+  "skills": "multiplication-facts-to-10",
+  "question_type": "Fill in the blank",
+  "question_number": "4_1",
+  "tag": "Gr5_14_E4",
+  "correct_answers": [
+    "18"
   ],
-  [
-    "2/2",
-    "2 × 9 = 18\nSo, the answer is 18."
-  ]
-],
+  "solution": [
+    [
+      "1/2",
+      "To solve $2 \\times 9$, think of 2 groups of 9."
+    ],
+    [
+      "2/2",
+      "$2 \\times 9 = 18$\nSo, the answer is 18."
+    ]
+  ],
         "solution_image_tag": [
           "Grade5_C.1.1_solution_step_1",
           "Grade5_C.1.1_solution_step_2"
         ]
       },
       {
-        "question_text": "Multiply.\n0×2=",
-        "skills": "multiplication-facts-to-12",
-        "question_type": "Fill in the blank",
-        "question_number": "1_1",
-        "tag":"Gr5_15_E1",
-        "correct_answers": [
-          "0×2=0"
-        ],
-        "solution": [
-          [
-            "1/2",
-            "The zero property of multiplication says that the product of any number and 0 is 0. This means that 0 times any number is 0."
-          ],
-          [
-            "2/2",
-            "So, the product of 0 and 2 is 0."
-          ]
-        ],
+  "question_text": "Multiply.\n$0 \\times 2 =$",
+  "skills": "multiplication-facts-to-12",
+  "question_type": "Fill in the blank",
+  "question_number": "1_1",
+  "tag": "Gr5_15_E1",
+  "correct_answers": [
+    "0"
+  ],
+  "solution": [
+    [
+      "1/2",
+      "The zero property of multiplication says the product of any number and 0 is 0."
+    ],
+    [
+      "2/2",
+      "So, $0 \\times 2 = 0$."
+    ]
+  ],
         "solution_image_tag": []
       },
       {
-        "question_text": "Divide:\n$14\\div 7=$",
-        "skills": "division-facts-to-10",
-        "image_tag": "Grade5_15_2_1",
-        "question_type": "Fill in the blank",
-        "question_number": "2_1",
-        "tag":"Gr5_15_E2",
-        "correct_answers": [
-          "2"
-        ],
-        "solution": [
-  [
-    "1/2",
-    "To solve 14 ÷ 7, think: how many groups of 7 are in 14?"
+  "question_text": "Divide:\n$14 \\div 7 = $",
+  "skills": "division-facts-to-10",
+  "image_tag": "Grade5_15_2_1",
+  "question_type": "Fill in the blank",
+  "question_number": "2_1",
+  "tag": "Gr5_15_E2",
+  "correct_answers": [
+    "2"
   ],
-  [
-    "2/2",
-    "There are 2 groups of 7 in 14, because 7 × 2 = 14.\nSo, 14 ÷ 7 = 2."
-  ]
-],
+  "solution": [
+    [
+      "1/2",
+      "To solve $14 \\div 7$, think: how many groups of 7 are in 14?"
+    ],
+    [
+      "2/2",
+      "There are 2 groups of 7 in 14 because $7 \\times 2 = 14$.\nSo, $14 \\div 7 = 2$."
+    ]
+  ],
         "solution_image_tag": [
           "Grade5_D.1.1_solution_step_1"
         ]
       },
       {
-        "question_text": "Divide:\n$77 \\div 7=$",
-        "skills": "division-facts-to-12",
-        "image_tag": "Grade5_15_3_1",
-        "question_type": "Fill in the blank",
-        "question_number": "3_1",
-        "tag":"Gr5_15_E3",
-        "correct_answers": [
-          "11"
-        ],
-        "solution": [
-  [
-    "1/2",
-    "To solve 77 ÷ 7, think: how many groups of 7 make 77?"
+  "question_text": "Divide:\n$77 \\div 7 = $",
+  "skills": "division-facts-to-12",
+  "image_tag": "Grade5_15_3_1",
+  "question_type": "Fill in the blank",
+  "question_number": "3_1",
+  "tag": "Gr5_15_E3",
+  "correct_answers": [
+    "11"
   ],
-  [
-    "2/2",
-    "Since 7 × 11 = 77, there are 11 groups.\nSo, 77 ÷ 7 = 11."
-  ]
-],
+  "solution": [
+    [
+      "1/2",
+      "To solve $77 \\div 7$, think: how many groups of 7 make 77?"
+    ],
+    [
+      "2/2",
+      "Since $7 \\times 11 = 77$, there are 11 groups.\nSo, $77 \\div 7 = 11$."
+    ]
+  ],
         "solution_image_tag": [
           "Grade5_D.3.1_solution_step_1"
         ]
       },
       {
-        "question_text": "Estimate the sum by rounding each number to the nearest whole number and then adding.\n1.2 + 3.4\nThe sum is approximately ___.",
-        "skills": "estimate-sums-and-differences-of-decimals-using-rounding-up-to-hundredths",
-        "question_type": "Fill in the blank",
-        "question_number": "4_1",
-        "tag":"Gr5_15_E4",
-        "correct_answers": [
-          "4"
-        ],
-        "solution": [
-          [
-            "1/3",
-            "Round each number to the nearest whole number."
-          ],
-          [
-            "2/3",
-            "Now add:\n1+3=4"
-          ],
-          [
-            "3/3",
-            "The sum is about 4."
-          ]
-        ],
+  "question_text": "Estimate the sum by rounding each number to the nearest whole number and then adding.\n$1.2 + 3.4$\nThe sum is approximately ___.",
+  "skills": "estimate-sums-and-differences-of-decimals-using-rounding-up-to-hundredths",
+  "question_type": "Fill in the blank",
+  "question_number": "4_1",
+  "tag": "Gr5_15_E4",
+  "correct_answers": [
+    "4"
+  ],
+  "solution": [
+    [
+      "1/3",
+      "Round each number to the nearest whole number."
+    ],
+    [
+      "2/3",
+      "Now add:\n$1 + 3 = 4$"
+    ],
+    [
+      "3/3",
+      "The sum is about 4."
+    ]
+  ],
         "solution_image_tag": [
           "Grade5_I.9.1_solution_step_1"
         ]
       },
       {
-        "question_text": "Estimate the difference. Use benchmarks with decimal parts of 0, 0.25, 0.50, or 0.75.\n9.55–7.26",
-        "skills": "estimate-sums-and-differences-of-decimals-using-benchmarks",
-        "question_type": "Multiple Choice Question with Single Answer",
-        "question_number": "1_1",
-        "tag":"Gr5_16_E1",
-        "choices": [
-          "2",
-          "2.25",
-          "2.50"
-        ],
-        "correct_answers": [
-          "B"
-        ],
-        "solution": [
-  [
-    "1/3",
-    "Round 9.55 to the nearest benchmark. It’s closer to 9.50."
+  "question_text": "Estimate the difference. Use benchmarks with decimal parts of 0, 0.25, 0.50, or 0.75.\n$9.55 - 7.26$",
+  "skills": "estimate-sums-and-differences-of-decimals-using-benchmarks",
+  "question_type": "Multiple Choice Question with Single Answer",
+  "question_number": "1_1",
+  "tag": "Gr5_16_E1",
+  "choices": [
+    "2",
+    "2.25",
+    "2.50"
   ],
-  [
-    "2/3",
-    "Round 7.26 to the nearest benchmark. It’s closer to 7.25."
+  "correct_answers": [
+    "B"
   ],
-  [
-    "3/3",
-    "Subtract the benchmarks: 9.50 − 7.25 = 2.25.\nSo, the estimated difference is 2.25."
-  ]
-],
+  "solution": [
+    [
+      "1/3",
+      "Round $9.55$ to the nearest benchmark: $9.50$."
+    ],
+    [
+      "2/3",
+      "Round $7.26$ to the nearest benchmark: $7.25$."
+    ],
+    [
+      "3/3",
+      "Subtract the benchmarks: $9.50 - 7.25 = 2.25$.\nSo, the estimated difference is $2.25$."
+    ]
+  ],
         "solution_image_tag": []
       },
       {
-        "question_text": "Estimate the sum. Use benchmarks with decimal parts of 0, 0.25, 0.50, or 0.75.\n3.96+4.76",
-        "skills": "estimate-sums-and-differences-of-decimals-using-benchmarks",
-        "question_type": "Multiple Choice Question with Single Answer",
-        "question_number": "1_2",
-        "tag":"Gr5_16_E1",
-        "choices": [
-          "8.50",
-          "8.75",
-          "9"
-        ],
-        "correct_answers": [
-          "B"
-        ],
-        "solution": [
-  [
-    "1/3",
-    "Round 3.96 to the nearest benchmark. It's closer to 4."
+  "question_text": "Estimate the sum. Use benchmarks with decimal parts of 0, 0.25, 0.50, or 0.75.\n$3.96 + 4.76$",
+  "skills": "estimate-sums-and-differences-of-decimals-using-benchmarks",
+  "question_type": "Multiple Choice Question with Single Answer",
+  "question_number": "1_2",
+  "tag": "Gr5_16_E1",
+  "choices": [
+    "8.50",
+    "8.75",
+    "9"
   ],
-  [
-    "2/3",
-    "Round 4.76 to the nearest benchmark. It's closer to 4.75."
+  "correct_answers": [
+    "B"
   ],
-  [
-    "3/3",
-    "Add the benchmarks: 4 + 4.75 = 8.75.\nSo, the estimated sum is 8.75."
-  ]
-],
+  "solution": [
+    [
+      "1/3",
+      "Round $3.96$ to the nearest benchmark: $4$."
+    ],
+    [
+      "2/3",
+      "Round $4.76$ to the nearest benchmark: $4.75$."
+    ],
+    [
+      "3/3",
+      "Add the benchmarks: $4 + 4.75 = 8.75$.\nSo, the estimated sum is $8.75$."
+    ]
+  ],
         "solution_image_tag": []
       },
       {
-        "question_text": "Multiply. Write your answer as a whole number or decimal.\n15402×0.01=",
-        "skills": "multiply-a-whole-number-by-0-1-or-0-01",
-        "question_type": "Fill in the blank",
-        "question_number": "2_1",
-        "tag":"Gr5_16_E2",
-        "correct_answers": [
-          "154.02"
-        ],
-        "solution": [
-  [
-    "1/2",
-    "To multiply 15402 × 0.01, think of 0.01 as one hundredth.\nSo: 15402 × 0.01 = 15402 ÷ 100 = 154.02"
+  "question_text": "Multiply. Write your answer as a whole number or decimal.\n$15402 \\times 0.01 =$",
+  "skills": "multiply-a-whole-number-by-0-1-or-0-01",
+  "question_type": "Fill in the blank",
+  "question_number": "2_1",
+  "tag": "Gr5_16_E2",
+  "correct_answers": [
+    "154.02"
   ],
-  [
-    "2/2",
-    "You can also move the decimal two places left: 15402 → 154.02.\nSo, the answer is 154.02."
-  ]
-],
+  "solution": [
+    [
+      "1/2",
+      "To multiply $15402 \\times 0.01$, think of $0.01$ as one hundredth.\nSo, $15402 \\times 0.01 = \\frac{15402}{100} = 154.02$."
+    ],
+    [
+      "2/2",
+      "You can also move the decimal two places left: $15402 \\rightarrow 154.02$.\nSo, the answer is $154.02$."
+    ]
+  ],
         "solution_image_tag": []
       },
       {
-        "question_text": "Add.\n516+7036=___",
-        "skills": "add-and-subtract-whole-numbers-up-to-100-000",
-        "question_type": "Fill in the blank",
-        "question_number": "3_1",
-        "tag":"Gr5_16_E3",
-        "correct_answers": [
-          "7552"
-        ],
-        "solution": [
-          [
-            "1/5",
-            "Add the ones. Add 6+6. Remember to regroup.\n6+6=12"
-          ],
-          [
-            "2/5",
-            "Add the tens. Add 1+1+3.\n1+1+3=5"
-          ],
-          [
-            "3/5",
-            "Add the hundreds. Add 5+0.\n5+0=5"
-          ],
-          [
-            "4/5",
-            "Add the thousands. Bring down the 7."
-          ],
-          [
-            "5/5",
-            "The sum is 7552."
-          ]
-        ],
+  "question_text": "Add.\n$516 + 7036 = \\_\\_\\_$",
+  "skills": "add-and-subtract-whole-numbers-up-to-100-000",
+  "question_type": "Fill in the blank",
+  "question_number": "3_1",
+  "tag": "Gr5_16_E3",
+  "correct_answers": [
+    "7552"
+  ],
+  "solution": [
+    [
+      "1/5",
+      "Start with the ones: $6 + 6 = 12$. Write down 2 and carry over 1."
+    ],
+    [
+      "2/5",
+      "Now the tens: $1 + 1 + 3 = 5$."
+    ],
+    [
+      "3/5",
+      "Next, the hundreds: $5 + 0 = 5$."
+    ],
+    [
+      "4/5",
+      "Then the thousands: bring down the 7."
+    ],
+    [
+      "5/5",
+      "So, $516 + 7036 = 7552$."
+    ]
+  ],
         "solution_image_tag": []
       },
       {
-        "question_text": "Subtract.\n97176–44173=___",
-        "skills": "add-and-subtract-whole-numbers-up-to-100-000",
-        "question_type": "Fill in the blank",
-        "question_number": "3_2",
-        "tag":"Gr5_16_E3",
-        "correct_answers": [
-          "53003"
-        ],
-        "solution": [
-          [
-            "1/6",
-            "Subtract the ones. Subtract 6–3."
-          ],
-          [
-            "2/6",
-            "Subtract the tens. Subtract 7–7.\n7–7=0"
-          ],
-          [
-            "3/6",
-            "Subtract the hundreds. Subtract 1–1.\n1–1=0"
-          ],
-          [
-            "4/6",
-            "Subtract the thousands. Subtract 7–4.\n7–4=3"
-          ],
-          [
-            "5/6",
-            "Subtract the ten thousands. Subtract 9–4."
-          ],
-          [
-            "6/6",
-            "The difference is 53003."
-          ]
-        ],
+  "question_text": "Subtract.\n$97176 - 44173 = \\_\\_\\_$",
+  "skills": "add-and-subtract-whole-numbers-up-to-100-000",
+  "question_type": "Fill in the blank",
+  "question_number": "3_2",
+  "tag": "Gr5_16_E3",
+  "correct_answers": [
+    "53003"
+  ],
+  "solution": [
+    [
+      "1/6",
+      "Start with the ones: $6 - 3 = 3$."
+    ],
+    [
+      "2/6",
+      "Tens: $7 - 7 = 0$."
+    ],
+    [
+      "3/6",
+      "Hundreds: $1 - 1 = 0$."
+    ],
+    [
+      "4/6",
+      "Thousands: $7 - 4 = 3$."
+    ],
+    [
+      "5/6",
+      "Ten-thousands: $9 - 4 = 5$."
+    ],
+    [
+      "6/6",
+      "So, $97176 - 44173 = 53003$."
+    ]
+  ],
         "solution_image_tag": []
       },
       {
-        "question_text": "Last year at Oakland's airport, 2030 passengers landed on time. Unfortunately, 654 passengers landed late. In all, how many passengers landed in Oakland last year?\n\n\n​ passengers",
-        "skills": "add-and-subtract-whole-numbers-up-to-100-000-word-problems",
-        "question_type": "Fill in the blank",
-        "question_number": "4_1",
-        "tag":"Gr5_16_E4",
-        "correct_answers": [
-          "2684"
-        ],
-        "solution": [
-  [
-    "1/4",
-    "We are adding 2030 and 654 to find the total number of passengers."
+  "question_text": "Last year at Oakland's airport, 2030 passengers landed on time. Unfortunately, 654 passengers landed late. In all, how many passengers landed in Oakland last year?\n\n\\_\\_\\_ passengers",
+  "skills": "add-and-subtract-whole-numbers-up-to-100-000-word-problems",
+  "question_type": "Fill in the blank",
+  "question_number": "4_1",
+  "tag": "Gr5_16_E4",
+  "correct_answers": [
+    "2684"
   ],
-  [
-    "2/4",
-    "Start by lining up the numbers by place value:\n  2030\n+  654"
+  "solution": [
+    [
+      "1/4",
+      "To find the total number of passengers, add $2030 + 654$."
+    ],
+    [
+      "2/4",
+      "Line up the numbers by place value:\n\\begin{align*}\n  &2030 \\\\ \n+ &\\phantom{0}654\n\\end{align*}"
+    ],
+    [
+      "3/4",
+      "Add from right to left:\n$0 + 4 = 4$ (ones)\n\n$3 + 5 = 8$ (tens)\n\n$0 + 6 = 6$ (hundreds)\n\n$2 + 0 = 2$ (thousands)"
+    ],
+    [
+      "4/4",
+      "The total is $2684$. So, 2684 passengers landed in Oakland last year."
+    ]
   ],
-  [
-    "3/4",
-    "Add from right to left:\n0 + 4 = 4 (ones)\n3 + 5 = 8 (tens)\n0 + 6 = 6 (hundreds)\n2 + 0 = 2 (thousands)"
-  ],
-  [
-    "4/4",
-    "The sum is 2684. So, 2684 passengers landed in Oakland last year."
-  ]
-],
         "solution_image_tag": [
           "Grade5_B.3.1_solution_step_1"
         ]
       },
       {
-        "question_text": "While playing a video game, Gavin scored 55215 points. He and his cousin together have a total of 69581 points. How many points does Gavin's cousin have?\n\n\n​ points",
-        "skills": "add-and-subtract-whole-numbers-up-to-100-000-word-problems",
-        "question_type": "Fill in the blank",
-        "question_number": "4_2",
-        "tag":"Gr5_16_E4",
-        "correct_answers": [
-          "14366"
-        ],
-        "solution": [
-  [
-    "1/4",
-    "We are finding how many points Gavin's cousin has. Subtract Gavin's score from the total."
+  "question_text": "While playing a video game, Gavin scored 55215 points. He and his cousin together have a total of 69581 points. How many points does Gavin's cousin have?\n\n\\_\\_\\_ points",
+  "skills": "add-and-subtract-whole-numbers-up-to-100-000-word-problems",
+  "question_type": "Fill in the blank",
+  "question_number": "4_2",
+  "tag": "Gr5_16_E4",
+  "correct_answers": [
+    "14366"
   ],
-  [
-    "2/4",
-    "Set up the subtraction:\n69581 − 55215"
+  "solution": [
+    [
+      "1/4",
+      "We are trying to find how many points Gavin's cousin has. Subtract Gavin’s score from the total:\n$69581 - 55215$"
+    ],
+    [
+      "2/4",
+      "Line up the numbers by place value:\n\\begin{align*}\n  &69581 \\\\ \n- &55215\n\\end{align*}"
+    ],
+    [
+      "3/4",
+      "Subtract from right to left:\n$1 - 5$ → regroup → $11 - 5 = 6$\n\n$7 - 1 = 6$\n\n$5 - 2 = 3$\n\n$9 - 5 = 4$\n\n$6 - 5 = 1$"
+    ],
+    [
+      "4/4",
+      "The difference is $14366$. So, Gavin’s cousin has **14366** points."
+    ]
   ],
-  [
-    "3/4",
-    "Subtract each place value from right to left. Regroup when needed:\n1 − 5 = 6 (after regrouping)\n7 − 1 = 6\n5 − 2 = 3\n9 − 5 = 4\n6 − 5 = 1"
-  ],
-  [
-    "4/4",
-    "The final answer is 14366. Gavin’s cousin has 14366 points."
-  ]
-],
         "solution_image_tag": [
           "Grade5_B.3.2_solution_step_1"
         ]
       },
       {
-        "question_text": "Add.\n843.41+225.97=___",
-        "skills": "add-decimal-numbers-up-to-hundredths",
-        "question_type": "Fill in the blank",
-        "question_number": "1_1",
-        "tag":"Gr5_17_E1",
-        "correct_answers": [
-          "1069.38"
-        ],
-        "solution": [
+"question_text": "Add.\n843.41 + 225.97 = \\_\\_\\_",
+"skills": "add-decimal-numbers-up-to-hundredths",
+"question_type": "Fill in the blank",
+"question_number": "1_1",
+"tag": "Gr5_17_E1",
+"correct_answers": [
+  "1069.38"
+],
+"solution": [
   [
     "1/5",
-    "Write the numbers one under the other, making sure the decimal points line up:"
+    "Line up the numbers by place value:\n\\begin{align*}\n  &843.41 \\\\ \n+ &225.97\n\\end{align*}"
   ],
   [
     "2/5",
-    "Add the hundredths place: 1 + 7 = 8"
+    "Add the hundredths place: $1 + 7 = 8$"
   ],
   [
     "3/5",
-    "Add the tenths place: 4 + 9 = 13. Write 3 and carry over 1 to the ones place."
+    "Add the tenths place: $4 + 9 = 13$. Write 3 and regroup 1 to the ones."
   ],
   [
     "4/5",
-    "Add the ones place with the carryover: 3 + 5 + 1 = 9"
+    "Add the ones place: $3 + 5 + 1 = 9$ (including the regrouped 1)"
   ],
   [
     "5/5",
-    "Continue adding the remaining digits and place the decimal point directly below the others:\n843.41 + 225.97 = 1069.38"
+    "Continue adding: $4 + 2 = 6$ (tens), $8 + 2 = 10$ (hundreds).\nThe sum is $1069.38$."
   ]
 ],
         "solution_image_tag": []
       },
       {
-        "question_text": "Use properties to find the sum. Fill in the missing numbers.\n4.1+7.7+9.3\n=4.1+(__+9.3)=4.1+__=__",
-        "skills": "use-properties-to-add-three-decimals-up-to-hundredths",
-        "question_type": "Fill in the blank",
-        "question_number": "2_1",
-        "tag":"Gr5_17_E2",
-        "correct_answers": [
-          "7.7", "17", "21.1"
-        ],
-        "solution": [
-          [
-            "1/3",
-            "Find the sum. You can use properties of addition to make the problem easier.\n4.1+7.7+9.3"
-          ],
-          [
-            "2/3",
-            "7.7 and 9.3 are easier to add. So, use the associative property to group those numbers together. \n4.1+7.7+9.3 = 4.1+(7.7+9.3)"
-          ],
-          [
-            "3/3",
-            "Now, add the numbers. Start with the numbers you grouped together. \n4.1+7.7+9.3=4.1+(7.7+9.3)=4.1+17=21.1"
-          ]
-        ],
+"question_text": "Use properties to find the sum. Fill in the missing numbers.\n$4.1 + 7.7 + 9.3$\n$= 4.1 + (\\_\\_ + 9.3) = 4.1 + \\_\\_ = \\_\\_$",
+"skills": "use-properties-to-add-three-decimals-up-to-hundredths",
+"question_type": "Fill in the blank",
+"question_number": "2_1",
+"tag": "Gr5_17_E2",
+"correct_answers": [
+  "7.7", "17", "21.1"
+],
+"solution": [
+  [
+    "1/3",
+    "We want to add $4.1 + 7.7 + 9.3$. Use the **associative property** to group numbers in a helpful way."
+  ],
+  [
+    "2/3",
+    "Group $7.7$ and $9.3$:\n\\begin{align*}\n4.1 + 7.7 + 9.3 &= 4.1 + (7.7 + 9.3)\n\\end{align*}"
+  ],
+  [
+    "3/3",
+    "Add:\n\\begin{align*}\n7.7 + 9.3 &= 17 \\\\\n4.1 + 17 &= 21.1\n\\end{align*}\nSo the full expression becomes:\n$4.1 + (7.7 + 9.3) = 4.1 + 17 = 21.1$"
+  ]
+],
         "solution_image_tag": []
       },
       {
-        "question_text": "Use properties to find the sum. Fill in the missing numbers.\n6.6+14.6+13.4\n=6.6+__+14.6=__+14.6=__",
-        "skills": "use-properties-to-add-three-decimals-up-to-hundredths",
-        "question_type": "Fill in the blank",
-        "question_number": "2_2",
-        "tag":"Gr5_17_E2",
-        "correct_answers": [
-          "13.4", "20", "34.6"
-        ],
-        "solution": [
+"question_text": "Use properties to find the sum. Fill in the missing numbers.\n$6.6 + 14.6 + 13.4$\n$= 6.6 + \\_\\_ + 14.6 = \\_\\_ + 14.6 = \\_\\_$",
+"skills": "use-properties-to-add-three-decimals-up-to-hundredths",
+"question_type": "Fill in the blank",
+"question_number": "2_2",
+"tag": "Gr5_17_E2",
+"correct_answers": [
+  "13.4", "20", "34.6"
+],
+"solution": [
   [
     "1/4",
-    "We want to find the sum: 6.6 + 14.6 + 13.4"
+    "We want to find the sum: $6.6 + 14.6 + 13.4$"
   ],
   [
     "2/4",
-    "Start by adding the numbers that are easier to work with. 6.6 and 13.4 are easy to add first."
+    "Use the associative property. Group $6.6$ and $13.4$:\n\\begin{align*}\n6.6 + 14.6 + 13.4 &= (6.6 + 13.4) + 14.6\n\\end{align*}"
   ],
   [
     "3/4",
-    "Add 6.6 + 13.4 = 20"
+    "Add the grouped numbers:\n\\begin{align*}\n6.6 + 13.4 &= 20\n\\end{align*}"
   ],
   [
     "4/4",
-    "Now add 20 + 14.6 = 34.6\nSo, the missing numbers are 13.4, 20, and 34.6."
+    "Now add $20 + 14.6 = 34.6$\nSo the complete expression is:\n$6.6 + 13.4 + 14.6 = 20 + 14.6 = 34.6$"
   ]
 ],
         "solution_image_tag": []
       },
       {
-        "question_text": "Subtract.\n807.7–392.1",
-        "skills": "subtract-decimal-numbers-up-to-hundredths",
-        "question_type": "Fill in the blank",
-        "question_number": "3_1",
-        "tag":"Gr5_17_E3",
-        "correct_answers": [
-          "415.6"
-        ],
-        "solution": [
+"question_text": "Subtract.\n$807.7 - 392.1$",
+"skills": "subtract-decimal-numbers-up-to-hundredths",
+"question_type": "Fill in the blank",
+"question_number": "3_1",
+"tag": "Gr5_17_E3",
+"correct_answers": [
+  "415.6"
+],
+"solution": [
   [
     "1/4",
-    "Write the numbers one under the other, making sure the decimal points line up:\n807.7\n−392.1"
+    "Write the numbers one under the other, making sure the decimal points line up:\n\\begin{align*}\n  &807.7 \\\\ \n- &392.1\n\\end{align*}"
   ],
   [
     "2/4",
@@ -3294,200 +3096,204 @@
   ],
   [
     "3/4",
-    "Subtract each place:\n7 − 1 = 6 (tenths)\n0 − 2 → regroup to make it 10 − 2 = 8 (ones)\n7 − 9 → regroup to make it 17 − 9 = 8 (tens)\n7 − 3 = 4 (hundreds)"
+    "Subtract each place value:\n\\begin{align*}\n7 - 1 &= 6 \\text{ (tenths)} \\\\ \n0 - 2 &\\to \\text{regroup, so } 10 - 2 = 8 \\text{ (ones)} \\\\ \n7 - 9 &\\to \\text{regroup, so } 17 - 9 = 8 \\text{ (tens)} \\\\ \n7 - 3 &= 4 \\text{ (hundreds)}\n\\end{align*}"
   ],
   [
     "4/4",
-    "So, 807.7 − 392.1 = 415.6.\nThe difference is 415.6."
+    "So, $807.7 - 392.1 = 415.6$. The difference is $415.6$."
   ]
 ],
         "solution_image_tag": []
       },
       {
-        "question_text": "Add.\n51.3+25.9",
-        "skills": "add-and-subtract-decimal-numbers-up-to-hundredths",
-        "question_type": "Fill in the blank",
-        "question_number": "4_1",
-        "tag":"Gr5_17_E4",
-        "correct_answers": [
-          "77.2"
-        ],
-        "solution": [
+"question_text": "Add.\n$51.3 + 25.9$",
+"skills": "add-and-subtract-decimal-numbers-up-to-hundredths",
+"question_type": "Fill in the blank",
+"question_number": "4_1",
+"tag": "Gr5_17_E4",
+"correct_answers": [
+  "77.2"
+],
+"solution": [
   [
     "1/4",
-    "Write the numbers one under the other, lining up the decimal points:\n51.3\n+25.9"
+    "Write the numbers one under the other, lining up the decimal points:\n\\begin{align*}\n  &51.3 \\\\ \n+ &25.9\n\\end{align*}"
   ],
   [
     "2/4",
-    "Start by adding the tenths: 3 + 9 = 12. Write down 2 and carry over 1."
+    "Add the tenths: $3 + 9 = 12$. Write 2 and carry 1."
   ],
   [
     "3/4",
-    "Now add the ones: 1 + 5 + 1 (carryover) = 7. Then add the tens: 5 + 2 = 7"
+    "Add the ones and carry: $1 + 5 + 1 = 7$. Then add the tens: $5 + 2 = 7$."
   ],
   [
     "4/4",
-    "So, 51.3 + 25.9 = 77.2.\nThe sum is 77.2."
+    "So, $51.3 + 25.9 = 77.2$. The sum is $77.2$."
   ]
 ],
         "solution_image_tag": []
       },
       {
-        "question_text": "Subtract.\n0.8–0.3",
-        "skills": "add-and-subtract-decimal-numbers-up-to-hundredths",
-        "question_type": "Fill in the blank",
-        "question_number": "4_2",
-        "tag":"Gr5_17_E4",
-        "correct_answers": [
-          "0.5"
-        ],
-        "solution": [
-          [
-            "1/3",
-            "Remember to line up the decimal points."
-          ],
-          [
-            "2/3",
-            "Subtract as you would subtract whole numbers. Remember to write the decimal point in the answer."
-          ],
-          [
-            "3/3",
-            "0.8–0.3=0.5.\nThe difference is 0.5."
-          ]
-        ],
-        "solution_image_tag": []
-      },
-      {
-        "question_text": "Use compensation to find 32.46–7.9. Fill in the missing numbers.\n32.46–7.9=32.46–8+__=__",
-        "skills": "use-compensation-to-add-and-subtract-decimals-up-to-hundredths",
-        "question_type": "Fill in the blank",
-        "question_number": "1_1",
-        "tag":"Gr5_18_E1",
-        "correct_answers": [
-          "0.1", "24.56"
-        ],
-        "solution": [
-  [
-    "1/4",
-    "We want to find 32.46 − 7.9."
-  ],
-  [
-    "2/4",
-    "Instead of subtracting 7.9, it's easier to subtract 8. But 8 is 0.1 more than 7.9."
-  ],
-  [
-    "3/4",
-    "So subtract 8 first: 32.46 − 8 = 24.46"
-  ],
-  [
-    "4/4",
-    "Now add back the 0.1 that we over-subtracted:\n24.46 + 0.1 = 24.56\nSo, 32.46 − 7.9 = 24.56"
-  ]
+"question_text": "Subtract.\n$0.8 - 0.3$",
+"skills": "add-and-subtract-decimal-numbers-up-to-hundredths",
+"question_type": "Fill in the blank",
+"question_number": "4_2",
+"tag": "Gr5_17_E4",
+"correct_answers": [
+  "0.5"
 ],
-        "solution_image_tag": []
-      },
-      {
-        "question_text": "Use compensation to find 4.42+5.9. Fill in the missing numbers.\n4.42+5.9=4.42+6–__=__",
-        "skills": "use-compensation-to-add-and-subtract-decimals-up-to-hundredths",
-        "question_type": "Fill in the blank",
-        "question_number": "1_2",
-        "tag":"Gr5_18_E1",
-        "correct_answers": [
-          "0.1", "10.32"
-        ],
-        "solution": [
-  [
-    "1/4",
-    "We want to find 4.42 + 5.9."
-  ],
-  [
-    "2/4",
-    "Instead of adding 5.9, it’s easier to add 6. But 6 is 0.1 more than 5.9."
-  ],
-  [
-    "3/4",
-    "So add 6 first: 4.42 + 6 = 10.42"
-  ],
-  [
-    "4/4",
-    "Now subtract the 0.1 we added extra:\n10.42 − 0.1 = 10.32\nSo, 4.42 + 5.9 = 10.32"
-  ]
-],
-        "solution_image_tag": []
-      },
-      {
-        "question_text": "Use compensation to find 18.31–12.9. Fill in the missing numbers.\n18.31–12.9=18.31–__+0.1=",
-        "skills": "use-compensation-to-add-and-subtract-decimals-up-to-hundredths",
-        "question_type": "Fill in the blank",
-        "question_number": "1_3",
-        "tag":"Gr5_18_E1",
-        "correct_answers": [
-          "13", "5.41"
-        ],
-        "solution": [
-  [
-    "1/4",
-    "We want to find 18.31 − 12.9."
-  ],
-  [
-    "2/4",
-    "Instead of subtracting 12.9, it’s easier to subtract 13. But 13 is 0.1 more than 12.9."
-  ],
-  [
-    "3/4",
-    "So subtract 13 first: 18.31 − 13 = 5.31"
-  ],
-  [
-    "4/4",
-    "Now add back the 0.1 we took too much:\n5.31 + 0.1 = 5.41\nSo, 18.31 − 12.9 = 5.41"
-  ]
-],
-        "solution_image_tag": []
-      },
-      {
-        "question_text": "Shannon entered a surfing competition. In the first round, she scored 7.12 points. Later in the day, she scored 8.44 points in the second round. How many total points did Shannon score?\n___ points",
-        "skills": "add-and-subtract-decimals-up-to-hundredths-word-problems",
-        "question_type": "Fill in the blank",
-        "question_number": "2_1",
-        "tag":"Gr5_18_E2",
-        "correct_answers": [
-          "15.56"
-        ],
-        "solution": [
+"solution": [
   [
     "1/3",
-    "Shannon scored 7.12 points in the first round and 8.44 points in the second round."
+    "Line up the decimal points:"
   ],
   [
     "2/3",
-    "Line up the decimal points and add:\n7.12 + 8.44 = 15.56"
+    "Subtract like whole numbers, keeping the decimal point aligned."
   ],
   [
     "3/3",
-    "Shannon scored 15.56 points in total."
+    "Calculate: $0.8 - 0.3 = 0.5$. The difference is $0.5$."
   ]
 ],
+        "solution_image_tag": []
+      },
+      {
+"question_text": "Use compensation to find $32.46 - 7.9$. Fill in the missing numbers.\n$32.46 - 7.9 = 32.46 - 8 + \\underline{\\hspace{1cm}} = \\underline{\\hspace{1cm}}$",
+"skills": "use-compensation-to-add-and-subtract-decimals-up-to-hundredths",
+"question_type": "Fill in the blank",
+"question_number": "1_1",
+"tag": "Gr5_18_E1",
+"correct_answers": [
+  "0.1",
+  "24.56"
+],
+"solution": [
+  [
+    "1/4",
+    "We want to find $32.46 - 7.9$."
+  ],
+  [
+    "2/4",
+    "Instead of subtracting $7.9$, subtract $8$ because it’s easier. But $8$ is $0.1$ more than $7.9$."
+  ],
+  [
+    "3/4",
+    "Subtract $8$ first: $32.46 - 8 = 24.46$."
+  ],
+  [
+    "4/4",
+    "Add back the $0.1$ we subtracted too much:\n$24.46 + 0.1 = 24.56$.\nSo, $32.46 - 7.9 = 24.56$."
+  ]
+],
+        "solution_image_tag": []
+      },
+      {
+"question_text": "Use compensation to find $4.42 + 5.9$. Fill in the missing numbers.\n$4.42 + 5.9 = 4.42 + 6 - \\underline{\\hspace{1cm}} = \\underline{\\hspace{1cm}}$",
+"skills": "use-compensation-to-add-and-subtract-decimals-up-to-hundredths",
+"question_type": "Fill in the blank",
+"question_number": "1_2",
+"tag": "Gr5_18_E1",
+"correct_answers": [
+  "0.1",
+  "10.32"
+],
+"solution": [
+  [
+    "1/4",
+    "We want to find $4.42 + 5.9$."
+  ],
+  [
+    "2/4",
+    "Instead of adding $5.9$, add $6$ because it’s easier. But $6$ is $0.1$ more than $5.9$."
+  ],
+  [
+    "3/4",
+    "Add $6$ first: $4.42 + 6 = 10.42$."
+  ],
+  [
+    "4/4",
+    "Subtract the extra $0.1$ we added:\n$10.42 - 0.1 = 10.32$.\nSo, $4.42 + 5.9 = 10.32$."
+  ]
+],
+        "solution_image_tag": []
+      },
+      {
+"question_text": "Use compensation to find $18.31 - 12.9$. Fill in the missing numbers.\n$18.31 - 12.9 = 18.31 - \\underline{\\hspace{1cm}} + 0.1 = \\underline{\\hspace{1cm}}$",
+"skills": "use-compensation-to-add-and-subtract-decimals-up-to-hundredths",
+"question_type": "Fill in the blank",
+"question_number": "1_3",
+"tag": "Gr5_18_E1",
+"correct_answers": [
+  "13",
+  "5.41"
+],
+"solution": [
+  [
+    "1/4",
+    "We want to find $18.31 - 12.9$."
+  ],
+  [
+    "2/4",
+    "Instead of subtracting $12.9$, subtract $13$ because it’s easier. But $13$ is $0.1$ more than $12.9$."
+  ],
+  [
+    "3/4",
+    "Subtract $13$ first: $18.31 - 13 = 5.31$."
+  ],
+  [
+    "4/4",
+    "Now add back the $0.1$ that was subtracted too much:\n$5.31 + 0.1 = 5.41$.\nSo, $18.31 - 12.9 = 5.41$."
+  ]
+],
+        "solution_image_tag": []
+      },
+      {
+  "question_text": "Shannon entered a surfing competition. In the first round, she scored 7.12 points. Later in the day, she scored 8.44 points in the second round. How many total points did Shannon score?\n___ points",
+  "skills": "add-and-subtract-decimals-up-to-hundredths-word-problems",
+  "question_type": "Fill in the blank",
+  "question_number": "2_1",
+  "tag": "Gr5_18_E2",
+  "correct_answers": [
+    "15.56"
+  ],
+  "solution": [
+    [
+      "1/3",
+      "Shannon scored 7.12 points in the first round and 8.44 points in the second round."
+    ],
+    [
+      "2/3",
+      "Line up the decimal points and add:\n\\begin{align*}\n  &7.12 \\\\ \n+ &8.44\n\\end{align*}"
+    ],
+    [
+      "3/3",
+      "Add the numbers: \\(7.12 + 8.44 = 15.56\\).\nShannon scored 15.56 points in total."
+    ]
+  ],
         "solution_image_tag": [
           "Grade5_I.5.1_solution_step_1"
         ]
       },
       {
-        "question_text": "Brad had 8.97 grams of pepper. Then he used 7.57 grams of the pepper to make some scrambled eggs. How much pepper does Brad have left?\n___​ grams",
-        "skills": "add-and-subtract-decimals-up-to-hundredths-word-problems",
-        "question_type": "Fill in the blank",
-        "question_number": "2_2",
-        "tag":"Gr5_18_E2",
-        "correct_answers": [
-          "1.40","1.4"
-        ],
-        "solution": [
+"question_text": "Brad had 8.97 grams of pepper. Then he used 7.57 grams of the pepper to make some scrambled eggs. How much pepper does Brad have left?\n\\_\\_\\_ grams",
+"skills": "add-and-subtract-decimals-up-to-hundredths-word-problems",
+"question_type": "Fill in the blank",
+"question_number": "2_2",
+"tag": "Gr5_18_E2",
+"correct_answers": [
+  "1.40",
+  "1.4"
+],
+"solution": [
   [
     "1/3",
     "Brad started with 8.97 grams of pepper and used 7.57 grams."
   ],
   [
     "2/3",
-    "To find how much is left, subtract:\n8.97 − 7.57 = 1.40"
+    "To find how much is left, subtract:\n\\begin{align*}\n8.97 - 7.57 = 1.40\n\\end{align*}"
   ],
   [
     "3/3",
@@ -3499,225 +3305,224 @@
         ]
       },
       {
-        "question_text": "Add.\n0.77+0.23",
-        "skills": "add-and-subtract-money-amounts",
-        "question_type": "Fill in the blank",
-        "question_number": "3_1",
-        "tag":"Gr5_18_E3",
-        "correct_answers": [
-          "1.00","1.0","1"
-        ],
-        "solution": [
-  [
-    "1/3",
-    "We want to add 0.77 + 0.23."
+  "question_text": "Add.\n0.77+0.23",
+  "skills": "add-and-subtract-money-amounts",
+  "question_type": "Fill in the blank",
+  "question_number": "3_1",
+  "tag": "Gr5_18_E3",
+  "correct_answers": [
+    "1.00",
+    "1.0",
+    "1"
   ],
-  [
-    "2/3",
-    "Line up the decimal points and add:\n7 + 3 = 10 (write 0, carry 1)\n7 + 2 + 1 = 10 (write 0, carry 1)\n0 + 0 + 1 = 1"
+  "solution": [
+    [
+      "1/3",
+      "We want to add 0.77 + 0.23."
+    ],
+    [
+      "2/3",
+      "Line up the decimal points and add:\n\\begin{align*}\n  &0.77 \\\\ \n+ &0.23\n\\end{align*}\nStart adding from the right:\n7 + 3 = 10 (write 0, carry 1)\n7 + 2 + 1 = 10 (write 0, carry 1)\n0 + 0 + 1 = 1"
+    ],
+    [
+      "3/3",
+      "So, 0.77 + 0.23 = 1.00.\nThe sum is 1 dollar."
+    ]
   ],
-  [
-    "3/3",
-    "So, 0.77 + 0.23 = 1.00\nThe sum is 1 dollar."
-  ]
-],
         "solution_image_tag": []
       },
       {
-        "question_text": "Subtract.\n86–51",
-        "skills": "add-and-subtract-money-amounts",
-        "question_type": "Fill in the blank",
-        "question_number": "3_2",
-        "tag":"Gr5_18_E3",
-        "correct_answers": [
-          "35"
-        ],
-        "solution": [
-  [
-    "1/3",
-    "We want to subtract 51 from 86."
+  "question_text": "Subtract.\n86–51",
+  "skills": "add-and-subtract-money-amounts",
+  "question_type": "Fill in the blank",
+  "question_number": "3_2",
+  "tag": "Gr5_18_E3",
+  "correct_answers": [
+    "35"
   ],
-  [
-    "2/3",
-    "Line up the digits by place value and subtract:\n6 − 1 = 5 (ones)\n8 − 5 = 3 (tens)"
+  "solution": [
+    [
+      "1/3",
+      "We want to subtract 51 from 86."
+    ],
+    [
+      "2/3",
+      "Line up the digits by place value and subtract:\n\\begin{align*}\n  &86 \\\\ \n- &51\n\\end{align*}\n\nSubtract the ones: $6 - 1 = 5$\n\nSubtract the tens: $8 - 5 = 3$"
+    ],
+    [
+      "3/3",
+      "So, $86 - 51 = 35$.\nThe difference is 35."
+    ]
   ],
-  [
-    "3/3",
-    "So, 86 − 51 = 35.\nThe difference is 35."
-  ]
-],
         "solution_image_tag": []
       },
       {
-        "question_text": "Jaden picks out a chess set for $14 and a trivia game for $25. When he checks out, how much will the total bill be?\n$__",
-        "skills": "add-and-subtract-money-word-problems",
-        "question_type": "Fill in the blank",
-        "question_number": "4_1",
-        "tag":"Gr5_18_E4",
-        "correct_answers": [
-          "39"
-        ],
-        "solution": [
-          [
-            "1/2",
-            "Find the amounts of money to add.\n14+25=39."
-          ],
-          [
-            "2/2",
-            "The total bill will be 39."
-          ]
-        ],
+  "question_text": "Jaden picks out a chess set for $14 and a trivia game for $25. When he checks out, how much will the total bill be?\n$__",
+  "skills": "add-and-subtract-money-word-problems",
+  "question_type": "Fill in the blank",
+  "question_number": "4_1",
+  "tag": "Gr5_18_E4",
+  "correct_answers": [
+    "39"
+  ],
+  "solution": [
+    [
+      "1/2",
+      "Find the amounts of money to add:\n$14 + 25 = 39$."
+    ],
+    [
+      "2/2",
+      "The total bill will be $39$."
+    ]
+  ],
         "solution_image_tag": [
           "Grade5_M.2.1_solution_step_1"
         ]
       },
       {
-        "question_text": "The regular price of a box of granola is $7.15. Today there is a special deal for $6.25 off each box. How much does a box of granola cost with the special deal?\n$__",
-        "skills": "add-and-subtract-money-word-problems",
-        "question_type": "Fill in the blank",
-        "question_number": "4_2",
-        "tag":"Gr5_18_E4",
-        "correct_answers": [
-          "0.90"
-        ],
-        "solution": [
-  [
-    "1/3",
-    "The regular price is $7.15, and the discount is $6.25."
+  "question_text": "The regular price of a box of granola is $7.15. Today there is a special deal for $6.25 off each box. How much does a box of granola cost with the special deal?\n$__",
+  "skills": "add-and-subtract-money-word-problems",
+  "question_type": "Fill in the blank",
+  "question_number": "4_2",
+  "tag": "Gr5_18_E4",
+  "correct_answers": [
+    "0.90"
   ],
-  [
-    "2/3",
-    "Subtract to find the new price:\n$7.15 − $6.25 = $0.90"
+  "solution": [
+    [
+      "1/3",
+      "The regular price is $7.15, and the discount is $6.25."
+    ],
+    [
+      "2/3",
+      "Subtract to find the new price:\n$7.15 − 6.25 = 0.90$"
+    ],
+    [
+      "3/3",
+      "So, a box of granola costs $0.90 with the special deal."
+    ]
   ],
-  [
-    "3/3",
-    "So, a box of granola costs $0.90 with the special deal."
-  ]
-],
         "solution_image_tag": [
           "Grade5_M.2.2_solution_step_1"
         ]
       },
       {
         "question_text": "How much money does Wesley need to buy a cookbook, a baking dish, and a large plate?",
-        "skills": "price-lists-with-addition-and-subtraction",
-        "image_tag": "Grade5_19_1_1",
-        "question_type": "Fill in the blank",
-        "question_number": "1_1",
-        "tag": "Gr5_19_E1",
-        "correct_answers": [
-          "18.00",
-          "18.0",
-          "18"
-        ],
-        "solution": [
-          [
-            "1/3",
-            "Solution: Find the total cost of a cookbook, a baking dish, and a large plate."
-          ],
-          [
-            "2/3",
-            "9.00+5.00+4.00=18.00"
-          ],
-          [
-            "3/3",
-            "Wesley needs $18.00."
-          ]
-        ],
+  "skills": "price-lists-with-addition-and-subtraction",
+  "image_tag": "Grade5_19_1_1",
+  "question_type": "Fill in the blank",
+  "question_number": "1_1",
+  "tag": "Gr5_19_E1",
+  "correct_answers": [
+    "18.00",
+    "18.0",
+    "18"
+  ],
+  "solution": [
+    [
+      "1/3",
+      "Find the total cost of a cookbook, a baking dish, and a large plate."
+    ],
+    [
+      "2/3",
+      "Add the prices: $9.00 + $5.00 + $4.00 = $18.00"
+    ],
+    [
+      "3/3",
+      "Wesley needs $18.00 to buy all three items."
+    ]
+  ],
         "solution_image_tag": [
           "Grade5_M.3.1_solution_step_1"
         ]
       },
       {
-        "question_text": "How much more does a large plate cost than an ice cream scoop?",
-        "skills": "price-lists-with-addition-and-subtraction",
-        "image_tag": "Grade5_19_1_2",
-        "question_type": "Fill in the blank",
-        "question_number": "1_2",
-        "tag": "Gr5_19_E1",
-        "correct_answers": [
-          "5.00",
-          "5.0",
-          "5"
-        ],
-        "solution": [
-          [
-            "1/3",
-            "Subtract the price of an ice cream scoop from the price of a large plate."
-          ],
-          [
-            "2/3",
-            "8.00−3.00=5.00"
-          ],
-          [
-            "3/3",
-            "A large plate costs $5.00 more than an ice cream scoop."
-          ]
-        ],
+  "question_text": "How much more does a large plate cost than an ice cream scoop?",
+  "skills": "price-lists-with-addition-and-subtraction",
+  "image_tag": "Grade5_19_1_2",
+  "question_type": "Fill in the blank",
+  "question_number": "1_2",
+  "tag": "Gr5_19_E1",
+  "correct_answers": [
+    "5.00",
+    "5.0",
+    "5"
+  ],
+  "solution": [
+    [
+      "1/3",
+      "Subtract the price of an ice cream scoop from the price of a large plate."
+    ],
+    [
+      "2/3",
+      "Calculate: $8.00 − $3.00 = $5.00"
+    ],
+    [
+      "3/3",
+      "So, a large plate costs $5.00 more than an ice cream scoop."
+    ]
+  ],
         "solution_image_tag": [
           "Grade5_M.3.2_solution_step_1"
         ]
       },
       {
-        "question_text": "How much money does Chandler need to buy a book about baseball and a book about trains?",
-        "skills": "price-lists-with-addition-and-subtraction",
-        "image_tag": "Grade5_19_1_4",
-        "question_type": "Fill in the blank",
-        "question_number": "1_4",
-        "tag": "Gr5_19_E1",
-        "correct_answers": [
-          "44.00",
-          "44.0",
-          "44"
-        ],
-        "solution": [
-          [
-            "1/3",
-            "Add the price of a book about baseball and the price of a book about trains."
-          ],
-          [
-            "2/3",
-            "24.00+20.00=44.00"
-          ],
-          [
-            "3/3",
-            "Chandler needs $44.00."
-          ]
-        ],
+  "question_text": "How much money does Chandler need to buy a book about baseball and a book about trains?",
+  "skills": "price-lists-with-addition-and-subtraction",
+  "image_tag": "Grade5_19_1_4",
+  "question_type": "Fill in the blank",
+  "question_number": "1_4",
+  "tag": "Gr5_19_E1",
+  "correct_answers": [
+    "44.00",
+    "44.0",
+    "44"
+  ],
+  "solution": [
+    [
+      "1/3",
+      "Add the price of the book about baseball and the book about trains."
+    ],
+    [
+      "2/3",
+      "Calculate: $24.00 + $20.00 = $44.00"
+    ],
+    [
+      "3/3",
+      "Chandler needs $44.00."
+    ]
+  ],
         "solution_image_tag": [
           "Grade5_M.3.4_solution_step_1"
         ]
       },
       {
-        "question_text": "Lucy has $928.00. How much money will Lucy have left if she buys an incubator and a microscope?\n\n\n\n\n\n$",
-        "skills": "price-lists-with-addition-and-subtraction",
-        "image_tag": "Grade5_19_1_5",
-        "question_type": "Fill in the blank",
-        "question_number": "1_5",
-        "tag":"Gr5_19_E1",
-        "correct_answers": [
-          "$103"
-        ],
-        "solution": [
-          [
-            "1/4",
-            "Solution: Find the total cost of an incubator and a microscope."
-          ],
-          [
-            "2/4",
-            "386.00+439.00=825.00"
-          ],
-          [
-            "3/4",
-            "Now subtract the total cost from the starting amount: 928.00−825.00=103.00"
-          ],
-          [
-            "4/4",
-            "Lucy will have $103.00 left."
-          ]
-        ],
-        "solution_image_tag": [
-          "Grade5_M.3.9_solution_step_1"
-        ]
+  "question_text": "Lucy has $928.00. How much money will Lucy have left if she buys an incubator and a microscope?\n\n\n\n\n\n$",
+  "skills": "price-lists-with-addition-and-subtraction",
+  "image_tag": "Grade5_19_1_5",
+  "question_type": "Fill in the blank",
+  "question_number": "1_5",
+  "tag": "Gr5_19_E1",
+  "correct_answers": [
+    "$103"
+  ],
+  "solution": [
+    [
+      "1/4",
+      "Find the total cost of the incubator and microscope."
+    ],
+    [
+      "2/4",
+      "Add the prices: $386.00 + $439.00 = $825.00"
+    ],
+    [
+      "3/4",
+      "Subtract the total cost from Lucy's money: $928.00 − $825.00 = $103.00"
+    ],
+    [
+      "4/4",
+      "Lucy will have $103.00 left."
+    ]
+  ]
       }
 ]
