@@ -2549,11 +2549,11 @@
       ],
       [
         "3/4",
-        "Write 4/1 as a fraction with a denominator of 4. 4/1 = 4 x (4/1) = 16 /4."
+        "Write 4/1 as a fraction with a denominator of 4 by multiplying the numerator and denominator by 4.\n4/1 = (4 x 4)/(4 x 1) = 16 /4."
       ],
       [
         "4/4",
-        "So, 4/1 and 6/4 are not equal. This means that the ratios 4/1 and 6/4 do not form a proportion."
+        "Since 16/4 and 6/4 are not equal. This means that the ratios 4/1 and 6/4 do not form a proportion.\nTherefore, the correct answer is no."
       ]
     ],
     "tag": "Gr7_19_E1",
@@ -2594,41 +2594,30 @@
   {
     "skills": "solve-proportions",
     "question_text": "Solve for s in the proportion.\n\n\n22\ns\n=\n11\n8\n\n\n\ns = ",
-    "image_tag": "Grade7_19_3_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "s=16"
-    ],
-    "solution_image_tag": [
-      "Gr7_19_3_1_step_0",
-      "Gr7_19_3_1_step_1",
-      "Gr7_19_3_1_step_2",
-      "Gr7_19_3_1_step_3"
+      "16"
     ],
     "solution": [
       [
-        "1/6",
-        "Solve for s in the proportion."
+        "1/5",
+        "Start with the proportion.\n22/s = 11/8"
       ],
       [
-        "2/6",
-        "="
+        "2/5",
+        "Use cross multiplication.\n22 x 8 = 11 x s"
       ],
       [
-        "3/6",
-        "=Multiply both sides by 8s"
+        "3/5",
+        "Simplify both sides.\n176 = 11s"
       ],
       [
-        "4/6",
-        "8 Â· 22=11sSimplify"
+        "4/5",
+        "Solve for s by dividing both sides by 11.\ns = 176 ÷ 11 = 16"
       ],
       [
-        "5/6",
-        "176=11sSimplify"
-      ],
-      [
-        "6/6",
-        "16=sDivide both sides by 11"
+        "5/5",
+        "Therefore s = 16"
       ]
     ],
     "tag": "Gr7_19_E3",
@@ -2639,42 +2628,28 @@
     "question_text": "Dirk took a total of 18 pages of notes during 9 hours of class. In all, how many hours will Dirk have to spend in class before he will have a total of 20 pages of notes in his notebook? Assume the relationship is directly proportional.\n\n\n hours",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "10hours"
-    ],
-    "solution_image_tag": [
-      "Gr7_19_4_1_step_0",
-      "Gr7_19_4_1_step_1",
-      "Gr7_19_4_1_step_2",
-      "Gr7_19_4_1_step_3"
+      "10"
     ],
     "solution": [
       [
-        "1/7",
-        "Set up a proportion and solve for n."
+        "1/5",
+        "Write the proportion using pages/hours.\n18/9 = 10/n"
       ],
       [
-        "2/7",
-        "="
+        "2/5",
+        "Use cross multiplication.\n18 × n = 9 × 20"
       ],
       [
-        "3/7",
-        "=Multiply both sides by 9n"
+        "3/5",
+        "Simplify the multiplication.\n18n = 180"
       ],
       [
-        "4/7",
-        "18n=20 Â· 9Simplify"
+        "4/5",
+        "Solve for n by dividing both sides by 18.\nn = 180 ÷ 18 = 10"
       ],
       [
-        "5/7",
-        "18n=180Multiply"
-      ],
-      [
-        "6/7",
-        "n=10Divide both sides by 18"
-      ],
-      [
-        "7/7",
-        "Dirk will have to spend 10 hours in class before he will have a total of 20 pages of notes in his notebook."
+        "5/5",
+        "n = 10. Therefore, Dirk will need to spend 10 hours in class to have 20 pages of notes."
       ]
     ],
     "tag": "Gr7_19_E4",
@@ -2685,28 +2660,25 @@
     "question_text": "Multiply:\n6.6\nx54\n\n",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "356.4"
+      "356.4",
+      "356.40"
     ],
     "solution_image_tag": [
-      "Gr7_20_1_1_step_0",
-      "Gr7_20_1_1_step_1"
+      "Gr7_20_1_1_step_1",
+      "Gr7_20_1_1_step_2"
     ],
     "solution": [
       [
-        "1/4",
-        "Multiply as you would multiply whole numbers."
+        "1/3",
+        "Ignore the decimal for now and multiply 66 x 54 as if they were whole numbers."
       ],
       [
-        "2/4",
+        "2/3",
         "Count the number of decimal places in the factors. There is 1 decimal place in 6.6. Move the decimal point 1 place to the left in the answer."
       ],
       [
-        "3/4",
-        "3564. â 356.4"
-      ],
-      [
-        "4/4",
-        "Write the answer:"
+        "3/3",
+        "The final answer is 356.4"
       ]
     ],
     "tag": "Gr7_20_E1",
@@ -2720,8 +2692,8 @@
       "740"
     ],
     "solution_image_tag": [
-      "Gr7_20_2_1_step_0",
-      "Gr7_20_2_1_step_1"
+      "Gr7_20_2_1_step_1",
+      "Gr7_20_2_1_step_3"
     ],
     "solution": [
       [
@@ -2734,7 +2706,7 @@
       ],
       [
         "3/4",
-        "Plug in the numbers you know and solve for the squirrel population, p."
+        "Plug in the numbers you know and solve for the squirrel population using cross multiplication and division."
       ],
       [
         "4/4",
@@ -2746,7 +2718,7 @@
   },
   {
     "skills": "constant-rate-of-change",
-    "question_text": "This graph shows how the amount of time that a receptionist named Brody spends on the phone is related to the number of phone calls he routes to employees.\n\n\ny\nx\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\n0\nMinutes on the phone\nPhone calls routed\nTime spent routing calls\n\n\nWhat is the rate of change?\n\nWrite your answer as a decimal or integer.\n\n\nminutes per phone call",
+    "question_text": "This graph shows how the amount of time that a receptionist named Brody spends on the phone is related to the number of phone calls he routes to employees.\nWhat is the rate of change?\n\nWrite your answer as a decimal or integer.\n\n\nminutes per phone call",
     "image_tag": "Grade7_20_3_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -2754,36 +2726,28 @@
     ],
     "solution": [
       [
-        "1/8",
-        "Find any two points on the line."
+        "1/6",
+        "Pick two points from the line. Let's use (10, 30) and (50, 60)."
       ],
       [
-        "2/8",
-        "Two points on the line are (10, 30) and (50, 60). Put those points into the slope formula."
+        "2/6",
+        "Use the slope formula.\n(change in y) ÷ (change in x)"
       ],
       [
-        "3/8",
-        "slope="
+        "3/6",
+        "The y-values are 60 and 30, 60 - 30 = 30\nThe x-values are 50 and 10, 50 - 10 = 40"
       ],
       [
-        "4/8",
-        "=Plug in (10, 30) and (50, 60)"
+        "4/6",
+        "So, slope = 30 ÷ 40 = 0.75"
       ],
       [
-        "5/8",
-        "=Subtract"
+        "5/6",
+        "This means Brody spends 0.75 minutes on the phone for each call he routes."
       ],
       [
-        "6/8",
-        "=Simplify"
-      ],
-      [
-        "7/8",
-        "=0.75Write as a decimal"
-      ],
-      [
-        "8/8",
-        "The slope is 0.75. The rate of change is 0.75 minutes per phone call."
+        "6/6",
+        "So the rate of change is 0.75 minutes per phone call."
       ]
     ],
     "tag": "Gr7_20_E3",
@@ -2791,27 +2755,27 @@
   },
   {
     "skills": "find-the-constant-of-proportionality-from-a-table",
-    "question_text": "Juliette is making her special punch for the Starry Night homecoming dance.\nThere is a proportional relationship between the number of cans of peach juice concentrate in a punch bowl, x, and the corresponding number of bottles of lemon-lime soda, y.\nx (cans of peach juice concentrate)y (bottles of lemon-lime soda)\n14\n28\n312\n416\nWhat is the constant of proportionality? Write your answer as a whole number or decimal.\n bottles of lemon-lime soda per can of peach juice concentrate",
+    "question_text": "Juliette is making her special punch for the Starry Night homecoming dance.\nThere is a proportional relationship between the number of cans of peach juice concentrate in a punch bowl, x, and the corresponding number of bottles of lemon-lime soda, y.\nWhat is the constant of proportionality? Write your answer as a whole number or decimal.\n bottles of lemon-lime soda per can of peach juice concentrate",
     "image_tag": "Grade7_20_4_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "4"
     ],
     "solution_image_tag": [
-      "Gr7_20_4_1_step_0"
+      "Gr7_20_4_1_step_1"
     ],
     "solution": [
       [
         "1/3",
-        "To find the constant of proportionality, calculate the ratio of y to x."
+        "To find the constant of proportionality, divide y by x for any row in the table."
       ],
       [
         "2/3",
-        "The ratio for each pair of x- and y-values is 4. So, the variables have a proportional relationship."
+        "For example, if x = 2 and y = 8, then 8 ÷ 2 = 4. All rows in the table produce the same value when you divide y by x."
       ],
       [
         "3/3",
-        "So, the constant of proportionality is 4 bottles of lemon-lime soda per can of peach juice concentrate."
+        "So, the constant of proportionality is 4. That means for every can of peach juice concentrate, Juliette adds 4 bottles of lemon-lime soda."
       ]
     ],
     "tag": "Gr7_20_E4",
@@ -2819,7 +2783,7 @@
   },
   {
     "skills": "identify-proportional-relationships-by-graphing",
-    "question_text": "Every Sunday, Rachel and her friends get together to play their favourite board game, The Gems of Rawumba. Whoever collects the most gems wins! Players can earn gems by building mines. If Rachel builds 1 mine, she earns 3 gems. If she builds 2 mines, she earns 6 gems.\nIn this relationship, x represents the number of mines Rachel builds, and y represents the number of gems she earns.\nGraph two points for this relationship and the line passing through them.\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n0\nx\ny\nMines\nGems\nAccording to the graph, do x and y have a proportional relationship?\nyes\nno",
+    "question_text": "Every Sunday, Rachel and her friends get together to play their favourite board game, The Gems of Rawumba. Whoever collects the most gems wins! Players can earn gems by building mines. If Rachel builds 1 mine, she earns 3 gems. If she builds 2 mines, she earns 6 gems.\nIn this relationship, x represents the number of mines Rachel builds, and y represents the number of gems she earns.\nGraph two points for this relationship and the line passing through them.\nAccording to the graph, do x and y have a proportional relationship?",
     "image_tag": "Grade7_21_1_1",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -2830,33 +2794,33 @@
       "A"
     ],
     "solution_image_tag": [
-      "Gr7_21_1_1_step_0",
-      "Gr7_21_1_1_step_1"
+      "Gr7_21_1_1_step_2",
+      "Gr7_21_1_1_step_3"
     ],
     "solution": [
       [
         "1/6",
-        "To find two points for this relationship, look for clues in the problem related to x- and y-values."
+        "Start by finding two points from the problem. If Rachel builds 1 mine, she earns 3 gems. That’s the point (1, 3). If she builds 2 mines, she earns 6 gems. That’s the point (2, 6)."
       ],
       [
         "2/6",
-        "Every Sunday, Rachel and her friends get together to play their favourite board game, The Gems of Rawumba. Whoever collects the most gems wins! Players can earn gems by building mines. If Rachel builds 1 mine, she earns 3 gems. If she builds 2 mines, she earns 6 gems."
+        "Plot both points on the graph: (1, 3) and (2, 6)."
       ],
       [
         "3/6",
-        "In this relationship, x represents the number of mines Rachel builds, and y represents the number of gems she earns."
+        "Now draw a line through the two points."
       ],
       [
         "4/6",
-        "The problem describes the points (1, 3) and (2, 6). Plot these points on the graph."
+        "Check if the line goes through the origin, which is the point (0, 0)."
       ],
       [
         "5/6",
-        "To determine whether x and y have a proportional relationship, see if the line through these points passes through the origin, (0, 0)."
+        "Since the line crosses through the origin, x and y have a proportional relationship."
       ],
       [
         "6/6",
-        "The points are on a line that passes through the origin. So, x and y have a proportional relationship."
+        "Therefore, x and y have a proportional relationship."
       ]
     ],
     "tag": "Gr7_21_E1",
@@ -2864,7 +2828,7 @@
   },
   {
     "skills": "find-the-constant-of-proportionality-from-a-graph",
-    "question_text": "Philippe is participating in a fun run to raise money for the West Side Children's Hospital. The run is held at Philippe's high school track. The more laps Philippe runs around the track, the more money he raises for the hospital.\nThere is a proportional relationship between the number of laps Philippe runs, x, and the amount of money he raises for the hospital (in dollars), y.\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n0\nx\ny\nLaps\nDollars\nWhat is the constant of proportionality? Write your answer as a whole number or decimal.\n dollars per lap",
+    "question_text": "Philippe is participating in a fun run to raise money for the West Side Children's Hospital. The run is held at Philippe's high school track. The more laps Philippe runs around the track, the more money he raises for the hospital.\nThere is a proportional relationship between the number of laps Philippe runs, x, and the amount of money he raises for the hospital (in dollars), y.\nWhat is the constant of proportionality? Write your answer as a whole number or decimal.\n dollars per lap",
     "image_tag": "Grade7_21_2_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -2876,15 +2840,15 @@
     "solution": [
       [
         "1/4",
-        "To find the constant of proportionality, first identify the coordinates of one of the points on the line."
+        "Look at one point on the graph. For example, Philippe runs 1 lap and raises 7 dollars. That gives the point (1, 7).\nAnother point on the graph is the origin (0,0)."
       ],
       [
         "2/4",
-        "Calculate the ratio of the y-coordinate to the x-coordinate."
+        "To find the constant of proportionality, first subtract the y-values of the points, 7 - 0 = 7. Now do the same for the x-values, 1 - 0 = 1."
       ],
       [
         "3/4",
-        "y/x = 7/1 = 7"
+        "Now divide the change in y-value's (money) by the change in x-values (laps).\ny/x = 7/1 = 7"
       ],
       [
         "4/4",
@@ -2896,8 +2860,7 @@
   },
   {
     "skills": "identify-proportional-relationships",
-    "question_text": "Select the graphs that show a proportional relationship between x and y.\n2\n4\n6\n8\n10\n2\n4\n6\n8\n10\n0\nx\ny\n2\n4\n6\n8\n10\n2\n4\n6\n8\n10\n0\nx\ny",
-    "image_tag": "Grade7_21_3_1",
+    "question_text": "Select the graphs that show a proportional relationship between x and y.",
     "question_type": "Multiple Choice with Multiple Answers",
     "image_choice_tags": [
       "Gr7_21_3_1_A",
@@ -2908,29 +2871,33 @@
       "B"
     ],
     "solution_image_tag": [
-      "Gr7_21_3_1_step_0",
-      "Gr7_21_3_1_step_1"
+      "Gr7_21_3_1_step_1",
+      "Gr7_21_3_1_step_3"
     ],
     "solution": [
       [
-        "1/5",
+        "1/6",
         "To determine whether a graph shows a proportional relationship between x and y, see if it is a straight line passing through the origin."
       ],
       [
-        "2/5",
-        "This graph is a straight line passing through the origin."
+        "2/6",
+        "Graph A is a straight line that passes through the origin."
       ],
       [
-        "3/5",
-        "So, this graph represents a proportional relationship between x and y."
+        "3/6",
+        "So, graph A represents a proportional relationship between x and y."
       ],
       [
-        "4/5",
-        "This graph is also a straight line passing through the origin."
+        "4/6",
+        "Graph B is also a straight line that passes through the origin."
       ],
       [
-        "5/5",
-        "So, this graph also represents a proportional relationship between x and y."
+        "5/6",
+        "So, graph B also represents a proportional relationship between x and y."
+      ],
+      [
+        "6/6",
+        "Therefore, both graphs A and B show a proportional relationship."
       ]
     ],
     "tag": "Gr7_21_E3",
@@ -2950,23 +2917,35 @@
       "B"
     ],
     "solution_image_tag": [
-      "Gr7_21_4_1_step_0",
       "Gr7_21_4_1_step_1",
       "Gr7_21_4_1_step_2",
-      "Gr7_21_4_1_step_3"
+      "Gr7_21_4_1_step_3",
+      "Gr7_21_4_1_step_4"
     ],
     "solution": [
       [
-        "1/3",
-        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+        "1/6",
+        "An arithmetic sequence is a list of numbers where you add or subtract the same number each time. A geometric sequence is a list of numbers where you multiply or divide by the same number each time."
       ],
       [
-        "2/3",
-        "Next check if the sequence is geometric. There is a constant multiplier of 4 between consecutive terms. So, the sequence is geometric."
+        "2/6",
+        "First check if it's a arithmetic sequence."
       ],
       [
-        "3/3",
-        "So, the sequence is only geometric."
+        "3/6",
+        "The numbers are not going up by the same amount, so it's not arithmetic."
+      ],
+      [
+        "4/6",
+        "Now check if it's a geometric sequence."
+      ],
+      [
+        "5/6",
+        "Since each number is multiplied by 4, it follows a geometric pattern."
+      ],
+      [
+        "6/6",
+        "Therefore, this sequence is geometric because we are multiplying by the same number each time."
       ]
     ],
     "tag": "Gr7_21_E4",
@@ -2991,11 +2970,11 @@
       ],
       [
         "2/3",
-        "In this relationship, x represents the amount of potion the witch drinks (in millilitres), and y represents the amount of time she is invisible (in minutes). So, (1,5) represents this statement:"
+        "In this graph, x is the amount of potion (in millilitres) and y is the number of minutes the witch is invisible."
       ],
       [
         "3/3",
-        "After drinking 1 millilitre of potion, the witch is invisible for 5 minutes."
+        "So, the point (1,5) tells us that after drinking 1 millilitre of potion, the witch is invisible for 5 minutes.\So, option A is correct"
       ]
     ],
     "tag": "Gr7_22_E1",
@@ -3003,23 +2982,23 @@
   },
   {
     "skills": "arithmetic-sequences",
-    "question_text": "Type the missing number in this sequence:\n\n\n85,,69,61,53",
+    "question_text": "Type the missing number in this sequence:\n\n\n85, ,69,61,53",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "85,77,69,61,53"
+      "77"
     ],
     "solution": [
       [
         "1/3",
-        "First, look for a pattern. Notice how each number is 8 less than the previous number:"
+        "First, look for a pattern. Notice how 69 - 61 = 8, and 61 - 53 = 8. The numbers are decreasing by 8."
       ],
       [
         "2/3",
-        "85,__,69,61,53"
+        "If we subtract 8 from 85, we get 85 - 8 = 77. Also, 77 - 8 = 69, so the pattern is consistent. This is an arithmetic sequence decreasing by 8 each time."
       ],
       [
         "3/3",
-        "To make the pattern complete, the number 77 must go in the blank space."
+        "To complete the pattern, the missing number is 77."
       ]
     ],
     "tag": "Gr7_22_E2",
@@ -3027,23 +3006,23 @@
   },
   {
     "skills": "geometric-sequences",
-    "question_text": "Type the missing number in this sequence:\n\n\n1,,25,125,625,3125",
+    "question_text": "Type the missing number in this sequence:\n\n\n1, ,25,125,625,3125",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "1,5,25,125,625,3125"
+      "5"
     ],
     "solution": [
       [
         "1/5",
-        "First, look for a pattern. Notice how each number is 5 times the previous number:"
+        "First, look for a pattern. Notice how each number is 5 times the previous number: 25 ÷ 5 = 5, 125 ÷ 5 = 25, and so on."
       ],
       [
         "2/5",
-        "1,__,25,125,625,3125"
+        "So the sequence is geometric, and it multiplies by 5 each time."
       ],
       [
         "3/5",
-        "Multiply 1 by 5 to find the missing number:"
+        "To find the missing number between 1 and 25, multiply 1 by 5.\n1 x 5 = 5"
       ],
       [
         "4/5",
@@ -3059,15 +3038,15 @@
   },
   {
     "skills": "evaluate-variable-expressions-for-number-sequences",
-    "question_text": "Find the first three terms of the sequence defined below, where n represents the position of a term in the sequence. Start with n = 1.\n\n\n2n\n\n, , ",
+    "question_text": "Find the first three terms of the sequence defined below, where n represents the position of a term in the sequence. Start with n = 1.\n\n\n2^n\n\n, , ",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "2,4,8"
     ],
     "solution_image_tag": [
-      "Gr7_22_4_1_step_0",
       "Gr7_22_4_1_step_1",
-      "Gr7_22_4_1_step_2"
+      "Gr7_22_4_1_step_2",
+      "Gr7_22_4_1_step_3"
     ],
     "solution": [
       [
@@ -3092,47 +3071,35 @@
   },
   {
     "skills": "complete-a-table-for-a-two-variable-relationship",
-    "question_text": "Read the following description of a relationship:\nA farmer has 5 employees who work all year round, and he hires some temporary employees at harvest time.\nLet b represent the number of temporary employees and c represent the total number of employees.\nComplete the table using the equation c=b+5.\nbc\n16\n27\n38\n4",
+    "question_text": "Read the following description of a relationship:\nA farmer has 5 employees who work all year round, and he hires some temporary employees at harvest time.\nLet b represent the number of temporary employees and c represent the total number of employees.\nComplete the table using the equation c = b + 5.",
     "image_tag": "Grade7_23_1_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "bc\n16\n27\n38\n49"
+      "9"
     ],
     "solution_image_tag": [
-      "Gr7_23_1_1_step_0"
+      "Gr7_23_1_1_step_4"
     ],
     "solution": [
       [
-        "1/8",
-        "The equation shows the relationship between the number of temporary employees, b, and the total number of employees, c."
+        "1/5",
+        "The equation c = b + 5 shows the relationship between the number of temporary employees, b, and the total number of employees, c."
       ],
       [
-        "2/8",
-        "c=b+5"
+        "2/5",
+        "In this relationship, b is the input, and c is the output. Plug the value b = 4 from the table into the equation to find the missing value of c."
       ],
       [
-        "3/8",
-        "In this relationship, b is the input, and c is the output. Plug the value b=4 from the table into the equation to find the missing value of c."
+        "3/5",
+        "c = b + 5 = 4 + 5 = 9"
       ],
       [
-        "4/8",
-        "c"
-      ],
-      [
-        "5/8",
-        "=b+5"
-      ],
-      [
-        "6/8",
-        "=4+5"
-      ],
-      [
-        "7/8",
-        "=9"
-      ],
-      [
-        "8/8",
+        "4/5",
         "Complete the table."
+      ],
+      [
+        "5/5",
+        "Therefore, c = 9 when b is 4."
       ]
     ],
     "tag": "Gr7_23_E1",
@@ -3140,7 +3107,7 @@
   },
   {
     "skills": "identify-the-graph-of-an-equation",
-    "question_text": "This equation describes a relationship between x and y.\ny=x+2\nComplete the table and select the graph that shows this relationship.",
+    "question_text": "This equation describes a relationship between x and y.\ny = x + 2\nComplete the table and select the graph that shows this relationship.",
     "image_tag": "Grade7_23_2_1",
     "question_type": "Multiple Choice Question with Single Answer and fill in the blank",
     "image_choice_tags": [
@@ -3154,15 +3121,15 @@
     "solution": [
       [
         "1/3",
-        "There are two missing y-values in the table. To find the missing y-values, plug the x-values from the table into the equation.\nPlug in x = 2.\ny\n=\tx+2\n=\t2+2\n=\t4"
+        "There are two missing y-values in the table. To find the missing y-values, plug the x-values from the table into the equation.\nPlug in x = 2.\ny = x + 2 = 2 + 2 = 4"
       ],
       [
         "2/3",
-        "Plug in x = 5.\ny\n=\tx+2\n=\t5+2\n=\t7"
+        "Plug in x = 5.\ny = x + 2 = 5 + 2 = 7"
       ],
       [
         "3/3",
-        "The graph that shows this relationship must have ordered pairs that satisfy the equation:\ny=x+2\nEach row in the table of x- and y-values represents one of these ordered pairs. Write the ordered pairs in a new column."
+        "The completed table includes the points (2, 4) and (5, 7). Graph A correctly shows all points that satisfy the equation y = x + 2. So, the correct graph is A."
       ]
     ],
     "tag": "Gr7_23_E2",
@@ -3186,15 +3153,15 @@
     "solution": [
       [
         "1/3",
-        "Find 400 plants on the y-axis. Move right until you intersect the graph."
+        "Look at the y-axis to find where 400 plants is marked. From there, move horizontally to the right until you meet the line on the graph."
       ],
       [
         "2/3",
-        "Now move down until you intersect the x-axis."
+        "From the point where you hit the line, move straight down to the x-axis. This tells you the number of seed packets."
       ],
       [
         "3/3",
-        "You intersect the x-axis at 40 seed packets. To have a total of 400 plants in her backyard, Evelyn needs 40 seed packets."
+        "You land at 40 seed packets. So, Evelyn needs 40 seed packets to have 400 plants."
       ]
     ],
     "tag": "Gr7_23_E3"
