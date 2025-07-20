@@ -1681,21 +1681,21 @@
       ],
       [
         "2/4",
-        "Find a common denominator for 6 and 12. The least common denominator is 12."
+        "Find a common denominator for 6 and 12. The least common denominator is 12. Rewrite 5/6 as 10/12"
       ],
       [
         "3/4",
-        "Now subtract the fractions: 4/8 − 2/8 = 2/8."
+        "Now subtract the fractions: 10/12 − 1/12 = 9/12."
       ],
       [
         "4/4",
-        "We are subtracting 2/4 − 2/8. The denominators are different, so we need a common denominator."
+        "So, 5/6 − 1/12 = 9/12.\nThis can be simplified to 3/4."
       ]
     ]
   },
   {
     "skills": "add-and-subtract-fractions-with-unlike-denominators",
-    "question_text": "Add.\n\n\n5\n9\n+\n1\n3\n = ",
+    "question_text": "Add.\n\n\n5/9 + 1/3 = ",
     "image_tag": "Grade7_13_1_2",
     "question_type": "Fill in the blank",
     "question_number": "1_2",
@@ -1728,7 +1728,7 @@
   },
   {
     "skills": "add-and-subtract-fractions-with-unlike-denominators-word-problems",
-    "question_text": "Rita began her pizza delivery route with 1/2 of a tank of gas in her car. When she made it back to the pizzeria, 1/6 of a tank of gas was left. How much gas did Rita use?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\ntanks",
+    "question_text": "Rita began her pizza delivery route with 1/2 of a tank of gas in her car. When she made it back to the pizzeria, 1/6 of a tank of gas was left. How much gas did Rita use?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\n____ tanks",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "2/6",
@@ -1762,12 +1762,13 @@
   },
   {
     "skills": "add-and-subtract-mixed-numbers",
-    "question_text": "Add. Write your answer as a fraction or as a whole or mixed number.\n\n\n\n2\n8\n11\n+\n8\n8\n11\n\n=",
+    "question_text": "Add. Write your answer as a fraction or as a whole or mixed number.\n\n\n2 8/11 + 8 8/11 = ",
     "image_tag": "Grade7_13_3_1",
     "question_type": "Fill in the blank",
     "question_number": "3_1",
     "correct_answers": [
-      "11 5/11"
+      "11 5/11",
+      "126/11"
     ],
     "solution_image_tag": [
       "Gr7_13_3_1_step_4"
@@ -1839,7 +1840,7 @@
     ]
   },
   {
-    "question_text": "Yesterday, The Sweet Slice Cafe sold 6 1/4 carafes of caffeinated coffee and 2 1/4 carafes of decaffeinated coffee. How many carafes of coffee did they sell in all?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\ncarafes",
+    "question_text": "Yesterday, The Sweet Slice Cafe sold 6 1/4 carafes of caffeinated coffee and 2 1/4 carafes of decaffeinated coffee. How many carafes of coffee did they sell in all?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\n____ carafes",
     "skills": "add-and-subtract-mixed-numbers-word-problems",
     "tag": "Gr7_13_E4",
     "question_type": "Fill in the blank",
@@ -1879,11 +1880,12 @@
   },
   {
     "skills": "add-and-subtract-mixed-numbers-word-problems",
-    "question_text": "Leo's drive to work is 12 3/4 hours, whereas Mitch's is 10 1/4 hours. How much longer is Leo's drive than Mitch's?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\nhours",
+    "question_text": "Leo's drive to work is 12 3/4 hours, whereas Mitch's is 10 1/4 hours. How much longer is Leo's drive than Mitch's?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\n____ hours",
     "question_type": "Fill in the blank",
     "question_number": "4_2",
     "correct_answers": [
-      "2 1/2"
+      "2 1/2",
+      "5/2"
     ],
     "solution_image_tag": [
       "Gr7_13_4_2_step_3",
@@ -1979,7 +1981,7 @@
   },
   {
     "skills": "gcf-and-lcm-word-problems",
-    "question_text": "In preparation for a conference, Karen is setting up some stations where people can create their own name tags. She has 18 name tags and 9 pens, which she wants to distribute evenly among the name tag stations with none left over. What is the greatest number of name tag stations that Karen can set up?\n\n\n name tag stations",
+    "question_text": "In preparation for a conference, Karen is setting up some stations where people can create their own name tags. She has 18 name tags and 9 pens, which she wants to distribute evenly among the name tag stations with none left over. What is the greatest number of name tag stations that Karen can set up?\n\n\n____ name tag stations",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "9"
@@ -2015,7 +2017,7 @@
   },
   {
     "skills": "understanding-exponents",
-    "question_text": "Write the expression using an exponent.2 x 2",
+    "question_text": "Write the expression using an exponent. 2 x 2",
     "image_tag": "Grade7_14_4_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -2079,10 +2081,10 @@
   },
   {
     "skills": "solve-equations-with-variable-exponents",
-    "question_text": "Solve for s.\n2^s=8\ns=",
+    "question_text": "Solve for s.\n2^s = 8\ns = ",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "s=3"
+      "3"
     ],
     "solution_image_tag": [
       "Gr7_15_3_1_step_4"
@@ -2114,7 +2116,7 @@
   },
   {
     "skills": "multiply-fractions",
-    "question_text": "Multiply.\n\n\n1\n5\nx\n1\n4\n=",
+    "question_text": "Multiply.\n\n\n1/5 × 1/4 = ",
     "image_tag": "Grade7_15_4_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -2146,7 +2148,7 @@
   },
   {
     "skills": "multiply-fractions-word-problems",
-    "question_text": "At Putnam High School, 1/4 of the students play a sport. Of the students who play a sport, 1/3 play football. What fraction of the students at Putnam High School play football?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\n of the students",
+    "question_text": "At Putnam High School, 1/4 of the students play a sport. Of the students who play a sport, 1/3 play football. What fraction of the students at Putnam High School play football?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\n____ of the students",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "1/12"
@@ -2182,11 +2184,12 @@
   },
   {
     "skills": "multiply-mixed-numbers",
-    "question_text": "Multiply. Write your answer as a fraction or as a whole or mixed number.\n\n\n4\n1\n3\nx\n2\n1\n4\n=",
+    "question_text": "Multiply. Write your answer as a fraction or as a whole or mixed number.\n\n\n4 1/3 × 2 1/4 = ",
     "image_tag": "Grade7_16_2_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "9 3/4"
+      "9 3/4",
+      "39/4"
     ],
     "solution_image_tag": [
       "Gr7_16_2_1_step_3",
@@ -2229,7 +2232,7 @@
   },
   {
     "skills": "multiply-mixed-numbers-word-problems",
-    "question_text": "Gabe's lemon cookie recipe calls for 3 cups of sugar. How much sugar would Gabe use to make 4/5 of a batch of cookies?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\n cups",
+    "question_text": "Gabe's lemon cookie recipe calls for 3 cups of sugar. How much sugar would Gabe use to make 4/5 of a batch of cookies?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\n____ cups",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "2 2/5",
@@ -2268,10 +2271,12 @@
   },
   {
     "skills": "divide-fractions",
-    "question_text": "Divide.\n2÷\n1\n2\n=",
+    "question_text": "Divide.\n\n\n2 ÷ 1/2 =",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "4"
+      "4",
+      "4/1",
+      "4.0"
     ],
     "solution": [
       [
@@ -2296,7 +2301,7 @@
   },
   {
     "skills": "divide-fractions-word-problems",
-    "question_text": "A gardener spread 1/2 of a bag of mulch evenly over her 4 equal-sized vegetable beds. How much mulch did she put on each vegetable bed?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\n bags",
+    "question_text": "A gardener spread 1/2 of a bag of mulch evenly over her 4 equal-sized vegetable beds. How much mulch did she put on each vegetable bed?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\n____ bags",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "1/8"
@@ -2330,7 +2335,7 @@
   },
   {
     "skills": "divide-fractions-and-mixed-numbers",
-    "question_text": "Divide.\n\n\n1\n1\n3\n÷\n5\n6\n=",
+    "question_text": "Divide.\n\n\n1 1/3 ÷ 5/6 = ",
     "image_tag": "Grade7_17_2_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -2367,7 +2372,7 @@
   },
   {
     "skills": "divide-fractions-and-mixed-numbers-word-problems",
-    "question_text": "A veterinarian divided 3/5 of a bottle of medicine equally among 3 sick cats. How much did she give each sick cat?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\n bottles",
+    "question_text": "A veterinarian divided 3/5 of a bottle of medicine equally among 3 sick cats. How much did she give each sick cat?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\n____ bottles",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "1/5"
@@ -2401,7 +2406,7 @@
   },
   {
     "skills": "multiply-decimals-and-whole-numbers-word-problems",
-    "question_text": "Each metal ball weighs 0.6 grams. How much do 2 metal balls weigh in all?\n\n\n grams",
+    "question_text": "Each metal ball weighs 0.6 grams. How much do 2 metal balls weigh in all?\n\n\n____ grams",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "1.2"
@@ -2436,11 +2441,11 @@
   },
   {
     "skills": "multiply-decimals",
-    "question_text": "The model shows 0.4x0.2.\nMultiply.\n0.4x0.2=",
+    "question_text": "The model shows 0.4 x 0.2.\nMultiply.\n0.4 x 0.2 = ",
     "image_tag": "Grade7_18_1_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "0.4x0.2=0.08"
+      "0.08"
     ],
     "solution_image_tag": [
       "Gr7_18_1_1_step_0"
@@ -2495,7 +2500,7 @@
   },
   {
     "skills": "divide-decimals-by-whole-numbers-word-problems",
-    "question_text": "A cafeteria used 360.82 kilograms of beans to make 8 batches of chili. What quantity of beans went into each one?\n\n\n kilograms",
+    "question_text": "A cafeteria used 360.82 kilograms of beans to make 8 batches of chili. What quantity of beans went into each one?\n\n\n____ kilograms",
     "question_type": "Fill in the blank",
     "image_tag": "Grade7_18_3_1",
     "correct_answers": [
@@ -2519,7 +2524,7 @@
   },
   {
     "skills": "divide-decimals",
-    "question_text": "Divide. Give the exact answer, written as a decimal.\n\n\n\n4\n45.6",
+    "question_text": "Divide. Give the exact answer, written as a decimal.\n\n\n45.6 ÷ 4 = ",
     "image_tag": "Grade7_18_4_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -2543,7 +2548,7 @@
   },
   {
     "skills": "do-the-ratios-form-a-proportion",
-    "question_text": "Do the ratios \n4\n1\n and \n6\n4\n form a proportion?\nyes\nno",
+    "question_text": "Do the ratios 4/1 and 6/4 form a proportion?\nyes\nno",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
       "yes",
@@ -2575,7 +2580,7 @@
   },
   {
     "skills": "do-the-ratios-form-a-proportion-word-problems",
-    "question_text": "Do these ratios form a proportion?\n\n\n9 rakes to 6 lawnmowers\n\n6 rakes to 4 lawnmowers\nyes\nno",
+    "question_text": "Do these ratios form a proportion?\n\n9 rakes to 6 lawnmowers\n6 rakes to 4 lawnmowers",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
       "yes",
@@ -2607,7 +2612,7 @@
   },
   {
     "skills": "solve-proportions",
-    "question_text": "Solve for s in the proportion.\n\n\n22\ns\n=\n11\n8\n\n\n\ns = ",
+    "question_text": "Solve for s in the proportion:\n\n22/s = 11/8\n\ns = ",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "16"
@@ -2639,7 +2644,7 @@
   },
   {
     "skills": "solve-proportions-word-problems",
-    "question_text": "Dirk took a total of 18 pages of notes during 9 hours of class. In all, how many hours will Dirk have to spend in class before he will have a total of 20 pages of notes in his notebook? Assume the relationship is directly proportional.\n\n\n hours",
+    "question_text": "Dirk took a total of 18 pages of notes during 9 hours of class. In all, how many hours will Dirk have to spend in class before he will have a total of 20 pages of notes in his notebook? Assume the relationship is directly proportional.\n\n\n____ hours",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "10"
@@ -2671,7 +2676,7 @@
   },
   {
     "skills": "multiply-a-decimal-by-a-multi-digit-whole-number",
-    "question_text": "Multiply:\n6.6\nx54\n\n",
+    "question_text": "Multiply:\n\n6.6 × 54 = ",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "356.4",
@@ -2769,7 +2774,7 @@
   },
   {
     "skills": "find-the-constant-of-proportionality-from-a-table",
-    "question_text": "Juliette is making her special punch for the Starry Night homecoming dance.\nThere is a proportional relationship between the number of cans of peach juice concentrate in a punch bowl, x, and the corresponding number of bottles of lemon-lime soda, y.\nWhat is the constant of proportionality? Write your answer as a whole number or decimal.\n bottles of lemon-lime soda per can of peach juice concentrate",
+    "question_text": "Juliette is making her special punch for the Starry Night homecoming dance.\nThere is a proportional relationship between the number of cans of peach juice concentrate in a punch bowl, x, and the corresponding number of bottles of lemon-lime soda, y.\nWhat is the constant of proportionality? Write your answer as a whole number or decimal.\n____ bottles of lemon-lime soda per can of peach juice concentrate",
     "image_tag": "Grade7_20_4_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -2842,7 +2847,7 @@
   },
   {
     "skills": "find-the-constant-of-proportionality-from-a-graph",
-    "question_text": "Philippe is participating in a fun run to raise money for the West Side Children's Hospital. The run is held at Philippe's high school track. The more laps Philippe runs around the track, the more money he raises for the hospital.\nThere is a proportional relationship between the number of laps Philippe runs, x, and the amount of money he raises for the hospital (in dollars), y.\nWhat is the constant of proportionality? Write your answer as a whole number or decimal.\n dollars per lap",
+    "question_text": "Philippe is participating in a fun run to raise money for the West Side Children's Hospital. The run is held at Philippe's high school track. The more laps Philippe runs around the track, the more money he raises for the hospital.\nThere is a proportional relationship between the number of laps Philippe runs, x, and the amount of money he raises for the hospital (in dollars), y.\nWhat is the constant of proportionality? Write your answer as a whole number or decimal.\n____ dollars per lap",
     "image_tag": "Grade7_21_2_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -2919,7 +2924,7 @@
   },
   {
     "skills": "identify-arithmetic-and-geometric-sequences",
-    "question_text": "What kind of sequence is this?\n\n\n8, 32, 128, 512, ...\n\n\narithmetic\ngeometric\nboth\nneither",
+    "question_text": "What kind of sequence is this?\n\n\n8, 32, 128, 512, ...",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
       "arithmetic",
@@ -2967,7 +2972,7 @@
   },
   {
     "skills": "interpret-graphs-of-proportional-relationships",
-    "question_text": "In The Tall Tales of Timothy Toad, a witch brews a magical invisibility potion.\nThe graph shows the proportional relationship between the amount of potion the witch drinks (in millilitres), x, and the amount of time she is invisible (in minutes), y.\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n0\nx\ny\nMillilitres\nMinutes\n(1,5)\nWhat does the point (1,5) represent?\nAfter drinking 1 millilitre of potion, the witch is invisible for 5 minutes.\nAfter drinking 5 millilitres of potion, the witch is invisible for 1 minute.",
+    "question_text": "In The Tall Tales of Timothy Toad, a witch brews a magical invisibility potion.\nThe graph shows the proportional relationship between the amount of potion the witch drinks (in millilitres), x, and the amount of time she is invisible (in minutes), y.\nWhat does the point (1,5) represent?\nAfter drinking 1 millilitre of potion, the witch is invisible for 5 minutes.\nAfter drinking 5 millilitres of potion, the witch is invisible for 1 minute.",
     "image_tag": "Grade7_22_1_1",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -2996,7 +3001,7 @@
   },
   {
     "skills": "arithmetic-sequences",
-    "question_text": "Type the missing number in this sequence:\n\n\n85, ,69,61,53",
+    "question_text": "Type the missing number in this sequence:\n\n\n85, ____,69,61,53",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "77"
@@ -3020,7 +3025,7 @@
   },
   {
     "skills": "geometric-sequences",
-    "question_text": "Type the missing number in this sequence:\n\n\n1, ,25,125,625,3125",
+    "question_text": "Type the missing number in this sequence:\n\n\n1, ____,25,125,625,3125",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "5"
@@ -3052,7 +3057,7 @@
   },
   {
     "skills": "evaluate-variable-expressions-for-number-sequences",
-    "question_text": "Find the first three terms of the sequence defined below, where n represents the position of a term in the sequence. Start with n = 1.\n\n\n2^n\n\n, , ",
+    "question_text": "Find the first three terms of the sequence defined below, where n represents the position of a term in the sequence. Start with n = 1.\n\n2^n\n\n___, ___, ___",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "2,4,8"
