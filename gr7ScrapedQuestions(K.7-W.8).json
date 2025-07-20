@@ -33,11 +33,11 @@
   },
   {
     "skills": "integers-on-number-lines",
-    "question_text": "Type the missing number.\n\n-1, 0, 1, 2, 3, ,5 ,6",
+    "question_text": "Type the missing number.",
     "image_tag": "Grade7_1_2_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "-1,0,1,2,3,4,5,6"
+      "4"
     ],
     "solution_image_tag": [
       "Gr7_1_2_1_step_0"
@@ -102,7 +102,7 @@
   },
   {
     "skills": "compare-and-order-decimals",
-    "question_text": "Which sign makes the statement true?\n\n\n2.5  1.3",
+    "question_text": "Which sign makes the statement true?\n\n\n2.5 ____ 1.3",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
       ">",
@@ -255,10 +255,10 @@
   },
   {
     "skills": "compare-fractions-using-benchmarks",
-    "question_text": "Compare each fraction to the benchmark. 2/3 ? 1, 9/6 ? 1 \nNow, use this information to compare the two fractions. \n2/3 ? 9/6",
+    "question_text": "Compare each fraction to the benchmark.\n2/3 ____ 1, 9/6 ____ 1 \n\nNow, use this information to compare the two fractions.\n2/3 ____ 9/6",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "2/3<1,9/6>1,2/3<9/6"
+      "<,>,<"
     ],
     "solution": [
       [
@@ -320,7 +320,7 @@
   },
   {
     "skills": "compare-mixed-numbers-and-improper-fractions",
-    "question_text": "Which sign makes the statement true?\n1\frac{2}{9} ? 1\frac{1}{2}",
+    "question_text": "Which sign makes the statement true?",
     "image_tag": "Grade7_3_2_1",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -385,7 +385,7 @@
     "solution": [
       [
         "1/1",
-        "Convert all of the numbers to decimal form."
+        "Convert all of the fractions to decimal form."
        ],
       [
         "2/4",
@@ -457,7 +457,7 @@
   },
   {
     "skills": "compare-rational-numbers",
-    "question_text": "Which sign makes the statement true?\n\n\n-9\n1\n2\n\n-7\n3\n4\n>\n<\n=",
+    "question_text": "Which sign makes the statement true?",
     "image_tag": "Grade7_4_2_1",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -487,7 +487,7 @@
   },
   {
     "skills": "put-rational-numbers-in-order",
-    "question_text": "Put these numbers in order from greatest to least.\n19\n38\n20\n25\n-\n6\n17\n34",
+    "question_text": "Put these numbers in order from greatest to least.",
     "question_type": "Ordering Items",
     "order_items": [
       "19\n38",
@@ -549,7 +549,7 @@
   },
   {
     "skills": "write-fractions-in-lowest-terms",
-    "question_text": "Write \n6\n9\n in lowest terms.\n\n\n\n",
+    "question_text": "Write 6/9 in lowest terms.\n\n\n\n",
     "image_tag": "Grade7_5_1_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -604,7 +604,7 @@
   },
   {
     "skills": "convert-between-mixed-numbers-and-improper-fractions",
-    "question_text": "Write 26\n9 as a mixed number.\n\n",
+    "question_text": "Write 26/9 as a mixed number.\n\n",
     "image_tag": "Grade7_5_3_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -629,7 +629,7 @@
   },
   {
     "skills": "convert-between-decimals-and-fractions-or-mixed-numbers",
-    "question_text": "Write \n1\n4\n as a decimal number.\n\n",
+    "question_text": "Write 1/4 as a decimal number.\n\n",
     "image_tag": "Grade7_5_4_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -653,11 +653,11 @@
   },
   {
     "skills": "convert-between-percents-fractions-and-decimals",
-    "question_text": "How do you write 7\n20 as a percentage?\n\nWrite your answer using a percent sign (%).\n\n",
+    "question_text": "How do you write 7/20 as a percentage?\n\nWrite your answer using a percent sign (%).\n\n",
     "image_tag": "Grade7_6_1_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "35"
+      "35%"
     ],
     "solution_image_tag": [
       "Gr7_6_1_1_step_0",
@@ -678,7 +678,7 @@
   },
   {
     "skills": "add-subtract-multiply-and-divide-decimals-word-problems",
-    "question_text": "Cody had 1.7 grams of pepper. Then he used 0.01 grams of the pepper to make some scrambled eggs. How much pepper does Cody have left?\n\n\nâ grams",
+    "question_text": "Cody had 1.7 grams of pepper. Then he used 0.01 grams of the pepper to make some scrambled eggs. How much pepper does Cody have left?\n\n\n____ grams",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "1.69"
@@ -701,7 +701,7 @@
   },
   {
     "skills": "evaluate-numerical-expressions-involving-decimals",
-    "question_text": "Evaluate the expression.\n0.1+0.6÷3\nWrite your answer as an integer or a decimal. Do not round.",
+    "question_text": "Evaluate the expression.\n0.1 + 0.6 ÷ 3\nWrite your answer as an integer or a decimal. Do not round.",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "0.3",
@@ -734,10 +734,11 @@
   },
   {
     "skills": "add-subtract-multiply-and-divide-fractions-and-mixed-numbers-word-problems",
-    "question_text": "Of the pies that Zach's Pie Shop sold last month, 7/10 were blueberry pies and 1/6 were blackberry pies. What fraction of the pies sold were either blueberry or blackberry?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\nof the pies",
+    "question_text": "Of the pies that Zach's Pie Shop sold last month, 7/10 were blueberry pies and 1/6 were blackberry pies. What fraction of the pies sold were either blueberry or blackberry?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\n____ of the pies",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "26/30"
+      "26/30",
+      "13/15"
     ],
     "solution_image_tag": [
       "Gr7_6_4_1_step_6",
@@ -779,11 +780,11 @@
       ],
       [
         "9/10",
-        "So, 21/30 + 5/30 = 26/30."
+        "So, 21/30 + 5/30 = 26/30.\nThis can be simplified to 13/15."
       ],
       [
         "10/10",
-        "Therefore, 26/30 of the pies were either blueberry or blackberry."
+        "Therefore, 13/15 of the pies were either blueberry or blackberry."
       ]
     ],
     "tag": "Gr7_6_E4",
@@ -791,7 +792,7 @@
   },
   {
     "skills": "price-lists",
-    "question_text": "Isabelle has $1.00. Does she have enough to buy a package of purple streamers and a party hat?\n\nDo not round.\n\n\nbouncy ball$0.71\ngreeting card$0.97\nparty hat$0.57\nnoisemaker$0.52\npackage of purple streamers$0.41\nyes\nno",
+    "question_text": "Isabelle has $1.00. Does she have enough to buy a package of purple streamers and a party hat?\n\nDo not round.\n\n\n",
     "image_tag": "Grade7_7_1_1",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -818,7 +819,7 @@
     "question_number": "1_1"
   },
   {
-    "question_text": "How much more does a ticket for a Hawaiian cruise cost than a ticket for a Mexican cruise?\n\n\n\n\n\n$",
+    "question_text": "How much more does a ticket for a Hawaiian cruise cost than a ticket for a Mexican cruise?\n\n\n\n\n\n$ ____",
     "skills": "price-lists",
     "image_tag": "Grade7_7_1_2",
     "tag": "Gr7_7_E1",
@@ -843,7 +844,7 @@
     ]
   },
   {
-    "question_text": "How much money does Wanda need to buy a small metal hook and a short steel screw?\n\nDo not round.\n\n\n\n\n\n$",
+    "question_text": "How much money does Wanda need to buy a small metal hook and a short steel screw?\n\nDo not round.\n\n\n\n\n\n$ ____",
     "skills": "price-lists",
     "image_tag": "Grade7_7_2_1",
     "tag": "Gr7_7_E2",
@@ -868,7 +869,7 @@
   },
   {
     "skills": "unit-prices-find-the-total-price",
-    "question_text": "What is the total cost for 1 kilogram of chicken chili?\n\n Do not round your answer.\n\n vegetable soup $0.63/kgâ\ntortilla soup$0.63/kgâ\nchicken chili$0.72/kgâ\nlobster bisque$1.04/kgâ\n\n\n$",
+    "question_text": "What is the total cost for 1 kilogram of chicken chili?\n\n Do not round your answer.\n\n\n$ ____",
     "image_tag": "Grade7_7_3_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -893,7 +894,7 @@
   },
   {
     "skills": "multi-step-problems-with-percents",
-    "question_text": "A beach umbrella was originally priced at $50 but went on sale for 50% off. If Nathan bought the beach umbrella and paid 12% sales tax, how much did he pay in total?\n\n\n$",
+    "question_text": "A beach umbrella was originally priced at $50 but went on sale for 50% off. If Nathan bought the beach umbrella and paid 12% sales tax, how much did he pay in total?\n\n\n$ ____",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "28"
@@ -926,7 +927,7 @@
   },
   {
     "skills": "multi-step-word-problems",
-    "question_text": "Rob and Joey went to lunch at a cafe. They ordered a spinach salad for $6.60, a tuna sandwich for $6.55, and 2 glasses of lemonade for $1.60 each. The tax was $1.65. They gave the waiter $20.00. How much change should they have received?\n\n\n$",
+    "question_text": "Rob and Joey went to lunch at a cafe. They ordered a spinach salad for $6.60, a tuna sandwich for $6.55, and 2 glasses of lemonade for $1.60 each. The tax was $1.65. They gave the waiter $20.00. How much change should they have received?\n\n\n$ ____",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "2",
@@ -955,7 +956,7 @@
   },
   {
     "skills": "properties-of-addition-and-multiplication",
-    "question_text": "Which property of multiplication is shown?\n\n\n2 x (7 x 9) = (2 x 7) x 9\nassociative\ncommutative",
+    "question_text": "Which property of multiplication is shown?\n\n\n2 x (7 x 9) = (2 x 7) x 9",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
       "associative",
@@ -1006,7 +1007,7 @@
   },
   {
     "skills": "solve-equations-using-properties",
-    "question_text": "What value of q makes this addition sentence true?\n\nHint: Use properties of addition.\n\n\nq + 60=60 + 76\n\n\n\nq = ",
+    "question_text": "What value of q makes this addition sentence true?\n\nHint: Use properties of addition.\n\n\nq + 60 = 60 + 76\n\n\n\nq = ",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "76"
@@ -1038,13 +1039,11 @@
   },
   {
     "skills": "write-equivalent-expressions-using-properties",
-    "question_text": "Complete the expressions.\nWrite each answer as a number, a variable, or the product of a number and a variable.\n=1+8s+3\n=+1+3\nCommutative property of addition\n\n=8s+\nAdd",
+    "question_text": "Complete the expressions below. \n\nWrite each answer as a number, a variable, or the product of a number and a variable.\n\nExpression: 1 + 8s + 3\n\nStep 1: Rearrange using the commutative property of addition\n= ____ + 1 + 3\n\nStep 2: Add the constants\n= 8s + ____",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "8s + 4",
-      "4 + 8s",
-      "s8 + 4",
-      "4 + s8"
+      "8s",
+      "4",
     ],
     "solution": [
       [
@@ -1120,7 +1119,7 @@
   },
   {
     "skills": "add-integers-using-number-lines",
-    "question_text": "Which number line models \n–\n6+(\n–\n2)?",
+    "question_text": "Which number line models –6 +(–2)?\nChoose the correct number line, then write the result of the expression.\n\nAdd.\n–6 +(–2) = ____",
     "question_type": "Fill in the blank and Multiple Choice Question with Single Answer",
     "image_choice_tags": [
       "Gr7_9_3_1_A",
@@ -1336,7 +1335,7 @@
   },
   {
     "skills": "add-and-subtract-integers",
-    "question_text": "Subtract:\n\n\n2 - -3 = ",
+    "question_text": "Subtract:\n\n\n2 - (-3) = ",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "5"
@@ -1363,7 +1362,7 @@
     "question_number": "4_1"
   },
   {
-    "question_text": "Add:-4 + 3 = ",
+    "question_text": "Add:\n\n\n-4 + 3 = ",
     "skills": "add-and-subtract-integers",
     "tag": "Gr7_10_E4",
     "question_type": "Fill in the blank",
@@ -1422,7 +1421,7 @@
   },
   {
     "skills": "add-and-subtract-integers-word-problems",
-    "question_text": "According to his bank statement, Emilio spent $10000 on a fancy watch. If Emilio's bank account started out with a balance of $10000, which integer represents the final balance?\n\n0\n1\n10000\n20000",
+    "question_text": "According to his bank statement, Emilio spent $10000 on a fancy watch. If Emilio's bank account started out with a balance of $10000, which integer represents the final balance?",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
       "0",
@@ -1452,7 +1451,7 @@
   },
   {
     "skills": "add-and-subtract-fractions-with-like-denominators",
-    "question_text": "Add.\n\n\n1\n3\n+\n1\n3\n = ",
+    "question_text": "Add.\n\n\n1/3 + 1/3 = ",
     "image_tag": "Grade7_11_3_1",
     "question_type": "Fill in the blank",
     "question_number": "3_1",
@@ -1461,14 +1460,18 @@
     ],
     "solution": [
       [
-        "1/1",
-        "Since the denominators are the same, just add the numerators: 1 + 1 = 2. So, 1/3 + 1/3 = 2/3."
+        "1/2",
+        "Since the denominators are the same, just add the numerators: 1 + 1 = 2."
+      ],
+      [
+        "2/2",
+        "So, 1/3 + 1/3 = 2/3."
       ]
     ],
     "tag": "Gr7_11_E3"
   },
   {
-    "question_text": "Subtract. 7/9 - 3/9\n\n\n",
+    "question_text": "Subtract. 7/9 - 3/9 = ",
     "skills": "add-and-subtract-fractions-with-like-denominators",
     "image_tag": "Grade7_11_3_2",
     "tag": "Gr7_11_E3",
@@ -1486,7 +1489,7 @@
   },
   {
     "skills": "add-and-subtract-fractions-with-like-denominators-word-problems",
-    "question_text": "In Mr. McKenzie's mathematics class, 1/5 of the students received A's and 3/5 received B's. What fraction of the students received either A's or B's?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\nof the students",
+    "question_text": "In Mr. McKenzie's mathematics class, 1/5 of the students received A's and 3/5 received B's. What fraction of the students received either A's or B's?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\n____ of the students",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "4/5"
@@ -1509,7 +1512,7 @@
     "question_number": "4_1"
   },
   {
-    "question_text": "At a pie-eating contest, Amelia got through 3/5 of a pie before time was called; Dalton finished just 2/5 of a pie. How much more pie did Amelia eat than Dalton?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\nof a pie",
+    "question_text": "At a pie-eating contest, Amelia got through 3/5 of a pie before time was called; Dalton finished just 2/5 of a pie. How much more pie did Amelia eat than Dalton?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n\n____ of a pie",
     "skills": "add-and-subtract-fractions-with-like-denominators-word-problems",
     "tag": "Gr7_11_E4",
     "question_type": "Fill in the blank",
@@ -1562,11 +1565,12 @@
   },
   {
     "skills": "add-fractions-with-unlike-denominators",
-    "question_text": "Add.\n\n\n1\n6\n+\n1\n2\n = ",
+    "question_text": "Add.\n\n\n1/6 + 1/2 = ",
     "image_tag": "Grade7_12_2_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "4/6"
+      "4/6",
+      "2/3"
     ],
     "solution_image_tag": [
       "Gr7_12_2_1_step_2",
@@ -1587,7 +1591,7 @@
       ],
       [
         "4/4",
-        "So, 1/6 + 1/2 = 4/6."
+        "So, 1/6 + 1/2 = 4/6.\n This can be simplified to 2/3."
       ]
     ],
     "tag": "Gr7_12_E2",
@@ -1623,11 +1627,12 @@
   },
   {
     "skills": "subtract-fractions-with-unlike-denominators",
-    "question_text": "Subtract.\n\n\n2\n4\n-\n2\n8\n = ",
+    "question_text": "Subtract.\n\n\n2/4 - 2/8 = ",
     "image_tag": "Grade7_12_4_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "2/8"
+      "2/8",
+      "1/4"
     ],
     "solution_image_tag": [
       "Gr7_12_4_1_step_0",
@@ -1640,7 +1645,7 @@
       ],
       [
         "2/4",
-        "The least common denominator of 4 and 8 is 8. Rewrite 2/4 with a denominator of 8 by multiplying the numerator and denominator by 2: 2/4 = 4/8."
+        "Rewrite 2/4 with a denominator of 8 by multiplying the numerator and denominator by 2: 2/4 = 4/8."
       ],
       [
         "3/4",
@@ -1648,21 +1653,22 @@
       ],
       [
         "4/4",
-        "So, 2/4 − 2/8 = 2/8."
+        "So, 2/4 − 2/8 = 2/8.\nThis can be simplified to 1/4."
       ]
     ],
     "tag": "Gr7_12_E4",
     "question_number": "4_1"
   },
   {
-    "question_text": "Subtract.5/6-1/12\n\n\n",
+    "question_text": "Subtract\n\n\n5/6 - 1/12 = ",
     "skills": "add-and-subtract-fractions-with-unlike-denominators",
     "image_tag": "Grade7_13_1_1",
     "tag": "Gr7_13_E1",
     "question_type": "Fill in the blank",
     "question_number": "1_1",
     "correct_answers": [
-      "9/12"
+      "9/12",
+      "3/4"
     ],
     "solution_image_tag": [
       "Gr7_13_1_1_step_0",
@@ -1670,12 +1676,20 @@
     ],
     "solution": [
       [
-        "1/2",
-        "You can use 12 as the common denominator.\nMultiply the numerator and the denominator of by 2 to find an equivalent fraction."
+        "1/4",
+        "We are subtracting 5/6 − 1/12. The denominators are different, so we need a common denominator."
       ],
       [
-        "2/2",
-        "Now subtract the fractions. Subtract the numerators and keep the denominators the same."
+        "2/4",
+        "Find a common denominator for 6 and 12. The least common denominator is 12."
+      ],
+      [
+        "3/4",
+        "Now subtract the fractions: 4/8 − 2/8 = 2/8."
+      ],
+      [
+        "4/4",
+        "We are subtracting 2/4 − 2/8. The denominators are different, so we need a common denominator."
       ]
     ]
   },
