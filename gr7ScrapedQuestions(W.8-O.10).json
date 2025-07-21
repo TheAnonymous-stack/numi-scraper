@@ -827,7 +827,7 @@
   },
   {
     "skills": "solutions-to-inequalities",
-    "question_text": "Is j = 4 a solution to the inequality below?\n\nj\n ≥ 9\n",
+    "question_text": "Is j = 4 a solution to the inequality below?\n\nj ≥ 9\n",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
       "yes",
@@ -861,8 +861,12 @@
     ],
     "solution": [
       [
-        "1/1",
-        "q+2\n≥\t6\nq+2–2\n≥\t6–2\tSubtract 2 from both sides\nq\n≥\t4\tSimplify"
+        "1/2",
+        "q+2≥6\nq+2–2≥6–2\tSubtract 2 from both sides"
+      ],
+      [
+        "2/2",
+        "Simplify to get q≥4."
       ]
     ],
     "tag": "Gr7_29_E4",
@@ -906,8 +910,12 @@
     ],
     "solution": [
       [
-        "1/1",
-        "Solve.\n2+2a\n>\t10\n2+2a–2\n>\t10–2\tSubtract 2 from both sides\n2a\n>\t8\tSimplify\n2a\n2\n>\t\n8\n2\nDivide both sides by 2\na\n>\t4\tSimplify"
+        "1/2",
+        "Solve for a.\n2+2a>10\n2+2a–2>10–2\tSubtract 2 from both sides\n2a>8\tSimplify"
+      ],
+      [
+        "2/2",
+        "2a/2>8/2\tDivide both sides by 2\na>4\tSimplify"
       ]
     ],
     "tag": "Gr7_30_E2",
@@ -915,7 +923,7 @@
   },
   {
     "skills": "identify-representative-random-and-biased-samples",
-    "question_text": "Akira questioned 2 violinists in the national orchestra.\n\nIs this sample of violinists in general likely to be biased?\n\nyes\nno",
+    "question_text": "Akira questioned 2 violinists in the national orchestra.\n\nIs this sample of violinists in general likely to be biased?",
     "tag": "Gr7_30_E3",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -928,14 +936,14 @@
     "solution": [
       [
         "1/1",
-        "Since the national orchestra's violinists might not be similar to violinists in general, it is likely to be a biased sample."
+        "Since the national orchestra's violinists might not be similar to violinists in general, it is likely to be a biased sample. These violinists are not randomly chosen to be part of the national orchestra, but are likely to be chosen based on some characteristics like talent."
       ]
     ],
     "question_number": "3_1"
   },
   {
     "skills": "choose-the-best-type-of-graph",
-    "question_text": "Which type of graph would you use to show the average rainfall in a city every year for ten years?\n\nbar graph\ncircle graph\npictograph\nline graph",
+    "question_text": "Which type of graph would you use to show the average rainfall in a city every year for ten years?",
     "tag": "Gr7_30_E4",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -954,7 +962,7 @@
     "solution": [
       [
         "1/5",
-        "The best type of graph to show the average rainfall in a city every year for ten years is a line graph. It shows a value that changes over time. Example:"
+        "The best type of graph to show the average rainfall in a city every year for ten years is a line graph. It shows a value that changes over time."
       ],
       [
         "2/5",
@@ -962,18 +970,18 @@
       ],
       [
         "4/5",
-        "A circle graph shows percents, fractions, or parts of a whole. Example:"
+        "A circle graph shows percents, fractions, or parts of a whole."
       ],
       [
         "5/5",
-        "A pictograph compares two or more values that are multiples of a number. Example:"
+        "A pictograph compares two or more values that are multiples of a number."
       ]
     ],
     "question_number": "4_1"
   },
   {
     "skills": "circle-graphs-and-central-angles",
-    "question_text": "A survey was conducted to learn people's chocolate preferences.\n\n\nMilk chocolate\n50%\nDark chocolate\n50%\nChocolate preferences\n\n\nWhat is the measure of the central angle in the \"Milk chocolate\" section?\n\n\nÂ°",
+    "question_text": "A survey was conducted to learn people's chocolate preferences.\n\nWhat is the measure of the central angle in the \"Milk chocolate\" section?\n\n\n°",
     "image_tag": "Grade7_31_1_1",
     "tag": "Gr7_31_E1",
     "question_type": "Fill in the blank",
@@ -990,11 +998,11 @@
       ],
       [
         "2/3",
-        "Find 50% of 360Â°."
+        "Find 50% of 360°."
       ],
       [
         "3/3",
-        "In the \"Milk chocolate\" section, the measure of the central angle is 180Â°."
+        "In the \"Milk chocolate\" section, the measure of the central angle is 180°."
       ]
     ],
     "question_number": "1_1"
@@ -1009,31 +1017,19 @@
     ],
     "solution": [
       [
-        "1/7",
-        "First, count how many numbers are in the group."
+        "1/4",
+        "First, count how many numbers are in the group. There are 5 numbers."
       ],
       [
-        "2/7",
-        "There are 5 numbers."
+        "2/4",
+        "Now add all the numbers together: 7 +4 +4 +0 +0 = 15"
       ],
       [
-        "3/7",
-        "Now add all the numbers together:"
+        "3/4",
+        "Now divide the sum by the number of numbers: 15 ÷ 5 = 3"
       ],
       [
-        "4/7",
-        "7 +4 +4 +0 +0 =15"
-      ],
-      [
-        "5/7",
-        "Now divide the sum by the number of numbers:"
-      ],
-      [
-        "6/7",
-        "15 ÷ 5 = 3"
-      ],
-      [
-        "7/7",
+        "4/4",
         "The mean is 3."
       ]
     ],
@@ -1041,35 +1037,31 @@
   },
   {
     "skills": "calculate-mean-median-mode-and-range",
-    "question_text": "Whitney wanted to buy a snack from the vending machine. She had 7 choices, which cost:\n$1.00$5.00$1.00$3.00$5.00$2.00$3.00\nWhat was the median price of the snacks?\n\n\n$",
+    "question_text": "Whitney wanted to buy a snack from the vending machine. She had 7 choices, which cost:\n$1.00, $5.00, $1.00, $3.00, $5.00, $2.00, $3.00\n\nWhat was the median price of the snacks?\n\n\n$",
     "tag": "Gr7_31_E3",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "$3.00"
+      "$3.00","$3","3.00","3"
     ],
     "solution": [
       [
-        "1/6",
+        "1/5",
         "First, arrange the numbers from least to greatest:"
       ],
       [
-        "2/6",
-        "$1.00$1.00$2.00$3.00$3.00$5.00$5.00"
+        "2/5",
+        "$1.00, $1.00, $2.00, $3.00, $3.00, $5.00, $5.00"
       ],
       [
-        "3/6",
+        "3/5",
         "Now find the number in the middle."
       ],
       [
-        "4/6",
-        "$1.00$1.00$2.00$3.00$3.00$5.00$5.00"
-      ],
-      [
-        "5/6",
+        "4/5",
         "The number in the middle is $3.00."
       ],
       [
-        "6/6",
+        "5/5",
         "The median price of the snacks was $3.00."
       ]
     ],
@@ -1086,31 +1078,23 @@
     ],
     "solution": [
       [
-        "1/7",
-        "Read the numbers from the line plot. Each X represents one number."
+        "1/5",
+        "Read the numbers from the line plot. Each X represents one number.\n01124445556"
       ],
       [
-        "2/7",
-        "01124445556"
-      ],
-      [
-        "3/7",
+        "2/5",
         "First, find the greatest number. The greatest number is 6."
       ],
       [
-        "4/7",
+        "3/5",
         "Next, find the least number. The least number is 0."
       ],
       [
-        "5/7",
-        "Subtract the least number from the greatest number:"
+        "4/5",
+        "Subtract the least number from the greatest number: 6 - 0 = 6""
       ],
       [
-        "6/7",
-        "6 â 0 = 6"
-      ],
-      [
-        "7/7",
+        "5/5",
         "The range is 6."
       ]
     ],
@@ -1118,7 +1102,7 @@
   },
   {
     "skills": "interpret-charts-to-find-mean-median-mode-and-range",
-    "question_text": "The manager of a party supply store researched how many balloons it sold in the past 7 days.\n\n\nThursday\nFriday\nSaturday\nSunday\nMonday\nTuesday\nWednesday\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\nNumber of balloons\nDay\nBalloons sold\n\n\nWhat is the mode of the numbers?\n\n",
+    "question_text": "The manager of a party supply store researched how many balloons it sold in the past 7 days.\n\n\nWhat is the mode of the numbers?\n\n",
     "image_tag": "Grade7_32_1_1",
     "tag": "Gr7_32_E1",
     "question_type": "Fill in the blank",
@@ -1128,11 +1112,11 @@
     "solution": [
       [
         "1/4",
-        "Read the numbers from the line graph. Read the line graph by finding the number of balloons for each dot."
+        "Read the numbers from the line graph. Read the line graph by finding the number of balloons corresponding to each dot:\n3,5,2,2,3,5,3"
       ],
       [
         "2/4",
-        "First, arrange the numbers from least to greatest: 2,2,3,3,3,5,5"
+        "Arrange the numbers from least to greatest: 2,2,3,3,3,5,5"
       ],
       [
         "3/4",
@@ -1147,7 +1131,7 @@
   },
   {
     "skills": "mean-and-range-find-the-missing-number",
-    "question_text": "Charlie has the following data:\n\n1515p151515\n\nIf the mean is 15, which number could p be?\n\n27\n15",
+    "question_text": "Charlie has the following data:\n\n15,15,p,15,15,15\n\nIf the mean is 15, which number could p be?",
     "tag": "Gr7_32_E2",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -1159,23 +1143,19 @@
     ],
     "solution": [
       [
-        "1/5",
-        "There are 6 numbers in the group. Try p = 27."
+        "1/4",
+        "There are 6 numbers in the group."
       ],
       [
-        "2/5",
-        "Find the sum of the numbers. 15 +15 +27 +15 +15 +15 =102. Divide by 6. 102 ÷ 6 = 17. When p = 27, the mean is 17."
+        "2/4",
+        "Try p = 27. Find the sum of the numbers. 15 +15 +27 +15 +15 +15 =102.\nDivide by 6. 102 ÷ 6 = 17.\nWhen p = 27, the mean is 17."
       ],
       [
-        "3/5",
-        "Try p = 15."
+        "3/4",
+        "Try p = 15. Find the sum of the numbers. 15 +15 +15 +15 +15 +15 =90.\nDivide by 6. 90 ÷ 6 = 15.\nWhen p = 15, the mean is 15."
       ],
       [
-        "4/5",
-        "Find the sum of the numbers. 15 +15 +15 +15 +15 +15 =90. Divide by 6. 90 ÷ 6 = 15. When p = 15, the mean is 15."
-      ],
-      [
-        "5/5",
+        "4/4",
         "The mean is 15, so p = 15."
       ]
     ],
@@ -1183,7 +1163,7 @@
   },
   {
     "skills": "mean-median-mode-and-range-find-the-missing-number",
-    "question_text": "Shelby has the following data:\n\n7612a12\n\nIf the range is 9, which number could a be?\n\n15\n1",
+    "question_text": "Shelby has the following data:\n\n7,6,12,a,12\n\nIf the range is 9, which number could \"a\" be?",
     "tag": "Gr7_32_E3",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -1195,63 +1175,39 @@
     ],
     "solution": [
       [
-        "1/13",
-        "Try a = 15."
+        "1/7",
+        "Try to find the range with a = 15. Arrange the numbers from least to greatest: 6,7,12,12,15"
       ],
       [
-        "2/13",
-        "Arrange the numbers from least to greatest."
+        "2/7",
+        "Subtract the least number from the greatest number: 15 - 6 = 9"
       ],
       [
-        "3/13",
-        "6,7,12,12,15"
-      ],
-      [
-        "4/13",
-        "Subtract the least number from the greatest number."
-      ],
-      [
-        "5/13",
-        "15 â 6 = 9"
-      ],
-      [
-        "6/13",
+        "3/7",
         "When a = 15, the range is 9."
       ],
       [
-        "7/13",
-        "Try a = 1."
+        "4/7",
+        "Try to find the range with a = 1. Arrange the numbers from least to greatest: 1,6,7,12,12"
       ],
       [
-        "8/13",
-        "Arrange the numbers from least to greatest."
+        "5/7",
+        "Subtract the least number from the greatest number: 12 - 1 = 11"
       ],
       [
-        "9/13",
-        "1,6,7,12,12"
-      ],
-      [
-        "10/13",
-        "Subtract the least number from the greatest number."
-      ],
-      [
-        "11/13",
-        "12 â 1 = 11"
-      ],
-      [
-        "12/13",
+        "6/7",
         "When a = 1, the range is 11."
       ],
       [
-        "13/13",
-        "The range is 9, so a = 15."
+        "7/7",
+        "Since the true range is 9, a = 15."
       ]
     ],
     "question_number": "3_1"
   },
   {
     "skills": "changes-in-mean-and-range",
-    "question_text": "Look at this set of 5 numbers:\n8673826975\nHow would the mean change if the number 71 were added to the set?\n\nincrease\ndecrease\nno change",
+    "question_text": "Look at this set of 5 numbers:\n86,73,82,69,75\nHow would the mean change if the number 71 were added to the set?",
     "tag": "Gr7_32_E4",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -1264,31 +1220,23 @@
     ],
     "solution": [
       [
-        "1/7",
+        "1/5,
         "Find the original mean. There are 5 numbers. Add up the numbers and divide by 5."
       ],
       [
-        "2/7",
-        "(86 + 73 + 82 + 69 + 75) ÷ 5 = 77"
+        "2/5",
+        "(86 + 73 + 82 + 69 + 75) ÷ 5 = 77\nThe original mean is 77."
       ],
       [
-        "3/7",
-        "The original mean is 77."
-      ],
-      [
-        "4/7",
+        "3/5",
         "Now include the 6th number (71) and find the new mean. Add up the numbers and divide by 6."
       ],
       [
-        "5/7",
-        "(86 + 73 + 82 + 69 + 75 + 71) ÷ 6 = 76"
+        "4/5",
+        "(86 + 73 + 82 + 69 + 75 + 71) ÷ 6 = 76\nThe new mean would be 76."
       ],
       [
-        "6/7",
-        "The new mean would be 76."
-      ],
-      [
-        "7/7",
+        "5/5",
         "The mean would decrease from 77 to 76."
       ]
     ],
@@ -1296,7 +1244,7 @@
   },
   {
     "skills": "changes-in-mean-median-mode-and-range",
-    "question_text": "Look at this set of 10 numbers:\n29818262628241238226\nHow would the mode change if the number 62 replaced one of the 82's in the set?\n\nincrease\ndecrease\nno change",
+    "question_text": "Look at this set of 10 numbers:\n29,81,82,62,62,82,41,23,82,26\nHow would the mode change if the number 62 replaced one of the 82's in the set?",
     "tag": "Gr7_33_E1",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -1318,7 +1266,7 @@
       ],
       [
         "3/5",
-        "29816262628241238226"
+        "New set of numbers: 29,81,62,62,62,82,41,23,82,26"
       ],
       [
         "4/5",
@@ -1333,7 +1281,7 @@
   },
   {
     "skills": "interpret-tables",
-    "question_text": "A statistician analyzed the number of runs scored by players last season.\n\n\nBaseball runs scored last season\nRuns scoredFrequency\n013\n118\n212\n316\n48\n\n\nHow many players are there in all?\n\n",
+    "question_text": "A statistician analyzed the number of runs scored by players last season.\n\nHow many players are there in all?\n\n",
     "image_tag": "Grade7_33_2_1",
     "tag": "Gr7_33_E2",
     "question_type": "Fill in the blank",
@@ -1342,19 +1290,15 @@
     ],
     "solution": [
       [
-        "1/4",
+        "1/3",
         "Add the frequencies for each row."
       ],
       [
-        "2/4",
-        "Add:"
-      ],
-      [
-        "3/4",
+        "2/3",
         "13 + 18 + 12 + 16 + 8 = 67"
       ],
       [
-        "4/4",
+        "3/3",
         "There are 67 players in all."
       ]
     ],
@@ -1362,7 +1306,7 @@
   },
   {
     "skills": "interpret-circle-graphs",
-    "question_text": "Five of the sports teams from Manchester High School decided to raise funds to buy new sports equipment.\n\n\nBasketball\n\n\n3\n11\nFootball\n\n\n1\n11\nTennis\n\n\n3\n11\nBaseball\n\n\n2\n11\nSoccer\n\n\n2\n11\nSports equipment fundraising\n\n\nWhich team raised the least?\n\nfootball\nbaseball\ntennis\nbasketball",
+    "question_text": "Five of the sports teams from Manchester High School decided to raise funds to buy new sports equipment.\n\nWhich team raised the least?",
     "image_tag": "Grade7_33_3_1",
     "tag": "Gr7_33_E3",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -1378,14 +1322,14 @@
     "solution": [
       [
         "1/1",
-        "Look for the smallest section in the graph. The smallest section is for football. The football team raised the least."
+        "Look for the smallest section in the graph. The smallest section is for football (1/11). The football team raised the least."
       ]
     ],
     "question_number": "3_1"
   },
   {
     "skills": "identify-independent-and-dependent-events",
-    "question_text": "Jason picks a card at random. Without putting the first card back, he picks a second card at random.\n\n\n\n\n\n\n\n\n\n\nAre these two events dependent or independent?\n\n\ndependent\nindependent",
+    "question_text": "Jason picks a card at random. Without putting the first card back, he picks a second card at random.\nAre these two events dependent or independent?",
     "image_tag": "Grade7_33_4_1",
     "tag": "Gr7_33_E4",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -1406,7 +1350,7 @@
   },
   {
     "skills": "compound-events-find-the-number-of-outcomes",
-    "question_text": "You pick a marble and roll a die. How many outcomes are possible?\n\n\n\n\n",
+    "question_text": "You pick a marble and roll a die. How many outcomes are possible?",
     "tag": "Gr7_34_E1",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -1417,31 +1361,27 @@
     ],
     "solution": [
       [
-        "1/5",
+        "1/4",
         "Make a tree diagram, then count the branches."
       ],
       [
-        "2/5",
+        "2/4",
         "The first event has 3 outcomes: orange (O), pink (Pi) and purple (Pu)."
       ],
       [
-        "3/5",
+        "3/4",
         "The second event has 6 outcomes: 1, 2, 3, 4, 5 and 6."
       ],
       [
-        "4/5",
-        "Make a tree diagram:"
+        "4/4",
+        "There are 18 (or 6x3) branches, so there are 18 possible outcomes."
       ],
-      [
-        "5/5",
-        "Count the number of branches. There are 18 branches, so there are 18 possible outcomes."
-      ]
     ],
     "question_number": "1_1"
   },
   {
     "skills": "bases-of-three-dimensional-figures",
-    "question_text": "Look at this figure:\n\n\n\n\n\nWhat is the shape of its base?\n\ntriangle\nrectangle\nsquare\ncircle",
+    "question_text": "Look at this figure:\n\n\n\n\n\nWhat is the shape of its base?",
     "image_tag": "Grade7_34_2_1",
     "tag": "Gr7_34_E2",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -1500,7 +1440,7 @@
   },
   {
     "skills": "identify-similar-figures",
-    "question_text": "Are these shapes similar?\n\n\nJ\nM\nL\nK\nS\nP\nQ\nR\n48cm\n48cm\n48cm\n48cm\n38cm\n48cm\n38cm\n48cm\n\n\n\nyes\nno",
+    "question_text": "Are these shapes similar?",
     "image_tag": "Grade7_34_4_1",
     "tag": "Gr7_34_E4",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -1548,12 +1488,12 @@
   },
   {
     "skills": "dilations-find-the-coordinates",
-    "question_text": "Write the coordinates of the vertices after a dilation with a scale factor of 3, centred at the origin.\ny\nx\n-10\n10\n-10\n10\n0\nD\nE\nF\n\n\n\nD(-3, 0)\nâ\nDâ²(, )\nE(3, 0)\nâ\nEâ²(, )\nF(-3, 3)\nâ\nFâ²(, )",
+    "question_text": "Write the coordinates of the vertices after a dilation with a scale factor of 3, centred at the origin.",
     "image_tag": "Grade7_35_1_1",
     "tag": "Gr7_35_E1",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "D(-3, 0)\nâ\nDâ²(, )\nE(3, 0)\nâ\nEâ²(, )\nF(-3, 3)\nâ\nFâ²(, )-9090-99"
+      "9","0","-9"
     ],
     "solution_image_tag": [
       "Gr7_35_1_1_step_0",
@@ -1571,15 +1511,15 @@
       ],
       [
         "3/7",
-        "Multiply the coordinates of point D(-3, 0) by 3. The image is Dâ²(-9, 0)."
+        "Multiply the coordinates of point D(-3, 0) by 3. The image is D'(-9, 0)."
       ],
       [
         "4/7",
-        "Now multiply the coordinates of point E(3, 0) by 3. The image is Eâ²(9, 0)."
+        "Now multiply the coordinates of point E(3, 0) by 3. The image is E'(9, 0)."
       ],
       [
         "5/7",
-        "Now multiply the coordinates of point F(-3, 3) by 3. The image is Fâ²(-9, 9)."
+        "Now multiply the coordinates of point F(-3, 3) by 3. The image is F'(-9, 9)."
       ],
       [
         "6/7",
@@ -1587,14 +1527,14 @@
       ],
       [
         "7/7",
-        "Write the coordinates of the vertices using arrow notation:"
+        "Write the coordinates of the vertices using arrow notation."
       ]
     ],
     "question_number": "1_1"
   },
   {
     "skills": "dilations-scale-factor-and-classification",
-    "question_text": "The purple shape is a dilation of the black shape. Is it an enlargement or a reduction?\ny\nx\n-10\n10\n-10\n10\n0\nenlargement\nreduction",
+    "question_text": "The purple shape is a dilation of the black shape. Is it an enlargement or a reduction?",
     "image_tag": "Grade7_35_2_1",
     "tag": "Gr7_35_E2",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -1610,35 +1550,31 @@
     ],
     "solution": [
       [
-        "1/8",
+        "1/7",
         "The purple shape is larger than the black shape. So, the dilation is an enlargement."
       ],
       [
-        "2/8",
+        "2/7",
         "You can check your answer by finding the scale factor. Find the length of one side in the original shape."
       ],
       [
-        "3/8",
+        "3/7",
         "The side connects (-5, -4) and (5, -4). It is 10 units long."
       ],
       [
-        "4/8",
+        "4/7",
         "Find the length of the corresponding side in the image."
       ],
       [
-        "5/8",
+        "5/7",
         "The side connects (-10, -8) and (10, -8). It is 20 units long."
       ],
       [
-        "6/8",
-        "Write the ratio of the length in the image to the length in the original figure."
+        "6/7",
+        "Write the ratio of the length in the image to the length in the original figure and simplify the fraction."
       ],
       [
-        "7/8",
-        "Simplify the fraction."
-      ],
-      [
-        "8/8",
+        "7/7",
         "The scale factor is 2. Since the scale factor is greater than 1, the dilation is an enlargement."
       ]
     ],
@@ -1646,7 +1582,7 @@
   },
   {
     "skills": "determine-if-two-figures-are-similar-justify-your-answer",
-    "question_text": "The graph shows quadrilaterals STUV and CDEF.\n-\n10\n-\n9\n-\n8\n-\n7\n-\n6\n-\n5\n-\n4\n-\n3\n-\n2\n-\n1\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n-\n10\n-\n9\n-\n8\n-\n7\n-\n6\n-\n5\n-\n4\n-\n3\n-\n2\n-\n1\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\nx\ny\nC\nD\nE\nF\nS\nT\nU\nV\nIs STUV similar to CDEF? Justify your answer.\nYes, because a dilation by a scale factor of 3 centred at the origin maps STUV onto CDEF.\nYes, because a dilation by a scale factor of 2 centred at the origin maps STUV onto CDEF.\nNo, because \nDE\nTU\n is not equal to \nCF\nSV\n.",
+    "question_text": "The graph shows quadrilaterals STUV and CDEF. Is STUV similar to CDEF? Justify your answer.",
     "image_tag": "Grade7_35_3_1",
     "tag": "Gr7_35_E3",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -1664,43 +1600,31 @@
     ],
     "solution": [
       [
-        "1/8",
-        "This sentence correctly states and justifies that STUV and CDEF are similar."
+        "1/5",
+        "This sentence correctly states and justifies that STUV and CDEF are similar:\nYes,because a dilation by a scale factor of 3 centred at the origin maps STUV onto CDEF."
       ],
       [
-        "2/8",
-        "Yes,because a dilation by a scale factor of 3 centred at the origin maps STUV onto CDEF."
-      ],
-      [
-        "3/8",
+        "2/5",
         "Dilate STUV by a scale factor of 3 centred at the origin to get S'T'U'V'. Notice that S'T'U'V' coincides with CDEF."
       ],
       [
-        "4/8",
-        "A dilation by a scale factor of 2 centred at the origin does not map STUV onto CDEF, so this sentence is incorrect."
+        "3/5",
+        "A dilation by a scale factor of 2 centred at the origin does not map STUV onto CDEF, so this sentence is incorrect.\nYes,because a dilation by a scale factor of 2 centred at the origin maps STUV onto CDEF."
       ],
       [
-        "5/8",
-        "Yes,because a dilation by a scale factor of 2 centred at the origin maps STUV onto CDEF."
-      ],
-      [
-        "6/8",
+        "4/5",
         "Dilate STUV by a scale factor of 2 centred at the origin to get S'T'U'V'. Notice that S'T'U'V' does not coincide with CDEF."
       ],
       [
-        "7/8",
-        "STUV and CDEF are similar, so this sentence is incorrect."
-      ],
-      [
-        "8/8",
-        "No,because DE/TU is not equal to CF/SV."
+        "5/5",
+        "STUV and CDEF are similar, so this sentence is incorrect:\nNo,because DE/TU is not equal to CF/SV."
       ]
     ],
     "question_number": "3_1"
   },
   {
     "skills": "side-lengths-and-angle-measures-of-similar-figures",
-    "question_text": "If these two shapes are similar, what is the measure of the missing length q?\n\n\n5 m\nq\n1 m\n2 m\n\n\nq =  metres",
+    "question_text": "If these two shapes are similar, what is the measure of the missing length q?\nq =  metres",
     "image_tag": "Grade7_35_4_1",
     "tag": "Gr7_35_E4",
     "question_type": "Fill in the blank",
@@ -1718,30 +1642,30 @@
       ],
       [
         "2/6",
-        "The parallelograms' shorter sides have a ratio of ."
+        "The parallelograms' shorter sides have a ratio of 5/1."
       ],
       [
         "3/6",
-        "The parallelograms' longer sides have a ratio of ."
+        "The parallelograms' longer sides have a ratio of q/2."
       ],
       [
         "4/6",
-        "Write a proportion:"
+        "Write a proportion."
       ],
       [
         "5/6",
-        "Multiply both sides by 2 and solve:"
+        "Multiply both sides by 2 and solve."
       ],
       [
         "6/6",
-        "The missing length is 10metres."
+        "The missing length is 10 metres."
       ]
     ],
     "question_number": "4_1"
   },
   {
     "skills": "identify-reflections-rotations-and-translations",
-    "question_text": "Look at this shape:\n\n\n\nWhich image shows a translation?\n\n\n\n\n\n\n\n\nABC\nA\nB\nC",
+    "question_text": "Look at this shape:\n\n\n\nWhich image shows a translation?\n\n",
     "image_tag": "Grade7_36_1_1",
     "tag": "Gr7_36_E1",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -1761,31 +1685,27 @@
     ],
     "solution": [
       [
-        "1/5",
-        "Look at the first shape:"
+        "1/4",
+        "Look at the first shape. Now find the image that shows a translation."
       ],
       [
-        "2/5",
-        "Now find the image that shows a translation."
-      ],
-      [
-        "3/5",
-        "Image A shows a translation. Translate the shape up 3 and right 1. Image A is the correct image."
-      ],
-      [
-        "4/5",
+        "2/4",
         "Image B shows a reflection. Reflect the shape across a horizontal line."
       ],
       [
-        "5/5",
-        "Image C shows a rotation. Rotate the shape 180Â°."
-      ]
+        "3/4",
+        "Image C shows a rotation. Rotate the shape 180°."
+      ],
+      [
+        "4/4",
+        "Image A shows a translation. Translate the shape up 3 and right 1. Image A is the correct image."
+      ],
     ],
     "question_number": "1_1"
   },
   {
     "skills": "translations-find-the-coordinates",
-    "question_text": "The point V(3,-5) is translated 5 units up. What are the coordinates of the resulting point, Vâ²?\ny\nx\n-6\n6\n-6\n6\n0\nV\n\n\nVâ² = (, )",
+    "question_text": "The point V(3,-5) is translated 5 units up. What are the coordinates of the resulting point, V'",
     "image_tag": "Grade7_36_2_1",
     "tag": "Gr7_36_E2",
     "question_type": "Fill in the blank",
@@ -1803,19 +1723,19 @@
       ],
       [
         "3/3",
-        "Vâ² has coordinates (3,0)."
+        "V' has coordinates (3,0)."
       ]
     ],
     "question_number": "2_1"
   },
   {
     "skills": "reflections-find-the-coordinates",
-    "question_text": "The point S(-4,-5) is reflected over the x-axis. What are the coordinates of the resulting point, Sâ²?\ny\nx\n-6\n6\n-6\n6\n0\nS\n\n\nSâ² = (, )",
+    "question_text": "The point S(-4,-5) is reflected over the x-axis. What are the coordinates of the resulting point, S'",
     "image_tag": "Grade7_36_3_1",
     "tag": "Gr7_36_E3",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "(-4,5)"
+      "-4","5"
     ],
     "solution": [
       [
@@ -1828,24 +1748,24 @@
       ],
       [
         "3/3",
-        "Since S is 5 units below the x-axis, Sâ² is 5 units above the x-axis. Sâ² has coordinates (-4,5)."
+        "Since S is 5 units below the x-axis, S' is 5 units above the x-axis. S' has coordinates (-4,5)."
       ]
     ],
     "question_number": "3_1"
   },
   {
     "skills": "rotations-find-the-coordinates",
-    "question_text": "The point B(-3,-5) is rotated 90Â° counterclockwise around the origin. What are the coordinates of the resulting point, Bâ²?\ny\nx\n-6\n6\n-6\n6\n0\nB\n\n\nBâ² = (, )",
+    "question_text": "The point B(-3,-5) is rotated 90° counterclockwise around the origin. What are the coordinates of the resulting point, B'?",
     "image_tag": "Grade7_36_4_1",
     "tag": "Gr7_36_E4",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "(5,-3)"
+      "5","-3"
     ],
     "solution": [
       [
         "1/4",
-        "90Â°isofafullturn.Therotationwillturnthepointofafullturninthecounterclockwisedirection."
+        "90° is a full turn. The rotation will turn the point of a full turn in the counterclockwise direction."
       ],
       [
         "2/4",
@@ -1853,18 +1773,18 @@
       ],
       [
         "3/4",
-        "Rotate the point 90Â° counterclockwise around the origin. The point will move from Quadrant III to Quadrant IV. To find the exact location, imagine (0, 0) and B forming opposite corners of a box. Rotate the box, keeping the (0, 0) corner fixed."
+        "Rotate the point 90° counterclockwise around the origin. The point will move from Quadrant III to Quadrant IV. To find the exact location, imagine (0, 0) and B forming opposite corners of a box. Rotate the box, keeping the (0, 0) corner fixed."
       ],
       [
         "4/4",
-        "Bâ² has coordinates (5,-3)."
+        "B' has coordinates (5,-3)."
       ]
     ],
     "question_number": "4_1"
   },
   {
     "skills": "convert-between-cubic-centimetres-and-millilitres",
-    "question_text": "Convert:\n\n\n1millilitre =  cubic centimetres",
+    "question_text": "Convert:\n\n1 millilitre =  cubic centimetres",
     "tag": "Gr7_37_E1",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -1880,12 +1800,12 @@
   },
   {
     "skills": "perimeter-area-and-volume-changes-in-scale",
-    "question_text": "Look at this rectangular prism:\n\n\n5 cm\n6 cm\n2 cm\n\n\nIf all three dimensions are tripled, then which of the following statements about its surface area will be true?\n\n\nThe new surface area will be \n1\n4\n of the old surface area.\nThe new surface area will be 16 times the old surface area.\nThe new surface area will be 3 times the old surface area.\nThe new surface area will be 9 times the old surface area.",
+    "question_text": "Look at this rectangular prism. If all three dimensions are tripled, then which of the following statements about its surface area will be true?",
     "image_tag": "Grade7_37_2_1",
     "tag": "Gr7_37_E2",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
-      "The new surface area will be \n1\n4\n of the old surface area.",
+      "The new surface area will be 1/4 of the old surface area.",
       "The new surface area will be 16 times the old surface area.",
       "The new surface area will be 3 times the old surface area.",
       "The new surface area will be 9 times the old surface area."
@@ -1904,15 +1824,11 @@
       ],
       [
         "2/6",
-        "The original rectangular prism had this surface area:"
-      ],
-      [
-        "3/6",
-        "S = 2(lw + lh + wh)"
+        "The original rectangular prism had this surface area:\nS = 2(lw + lh + wh)"
       ],
       [
         "4/6",
-        "The new rectangular prism will have 3 times the length, 3 times the width, and 3 times the height. Since the original dimensions were l, w, and h, the new dimensions will be 3l, 3w, and 3h. Calculate the surface area:"
+        "The new rectangular prism will have 3 times the length, 3 times the width, and 3 times the height. Since the original dimensions were l, w, and h, the new dimensions will be 3l, 3w, and 3h. Calculate the surface area."
       ],
       [
         "5/6",
@@ -1927,7 +1843,7 @@
   },
   {
     "skills": "circumference-of-circles",
-    "question_text": "The radius of a circle is 2 kilometres. What is the circle's circumference?\nr=2 km\nUse âð â 3.14 and round your answer to the nearest hundredth.\n kilometres",
+    "question_text": "The radius of a circle is 2 kilometres. What is the circle's circumference?\nUse ​𝜋 ≈ 3.14 and round your answer to the nearest hundredth.\n kilometres",
     "image_tag": "Grade7_37_3_1",
     "tag": "Gr7_37_E3",
     "question_type": "Fill in the blank",
@@ -1936,35 +1852,15 @@
     ],
     "solution": [
       [
-        "1/8",
+        "1/3",
         "The radius is 2 kilometres. Replace r by 2 in the formula."
       ],
       [
-        "2/8",
-        "C"
+        "2/3",
+        "2​𝜋r ≈ 2x3.14x2 ≈ 12.56"
       ],
       [
-        "3/8",
-        "=2âðr"
-      ],
-      [
-        "4/8",
-        "â2"
-      ],
-      [
-        "5/8",
-        "3.14"
-      ],
-      [
-        "6/8",
-        "2"
-      ],
-      [
-        "7/8",
-        "â12.56"
-      ],
-      [
-        "8/8",
+        "3/3",
         "The circumference is about 12.56 kilometres."
       ]
     ],
@@ -1972,7 +1868,7 @@
   },
   {
     "skills": "area-of-circles",
-    "question_text": "The radius of a circle is 1 centimetre. What is the circle's area?\nr=1 cm\nUse âð â 3.14 and round your answer to the nearest hundredth.\n square centimetres",
+    "question_text": "The radius of a circle is 1 centimetre. What is the circle's area?\nUse ​𝜋 ≈ 3.14 and round your answer to the nearest hundredth.\n square centimetres",
     "image_tag": "Grade7_37_4_1",
     "tag": "Gr7_37_E4",
     "question_type": "Fill in the blank",
@@ -1981,19 +1877,15 @@
     ],
     "solution": [
       [
-        "1/4",
+        "1/3",
         "The radius is 1 centimetre. Replace r by 1 in the formula."
       ],
       [
-        "2/4",
-        "A=âðr2â3.14"
+        "2/3,
+        "𝜋r^2 = 3.14x1x1 = 3.14"
       ],
       [
-        "3/4",
-        "12â3.14$\\frac{1}{1}$â3.14"
-      ],
-      [
-        "4/4",
+        "3/3",
         "The area is about 3.14 square centimetres."
       ]
     ],
@@ -2001,7 +1893,7 @@
   },
   {
     "skills": "circles-word-problems",
-    "question_text": "The saucer for Laura's teacup has a diameter of 8 centimetres. What is the saucer's circumference?\n\nUse 3.14 for âð. If necessary, round your answer to the nearest hundredth.\n\n\n centimetres",
+    "question_text": "The saucer for Laura's teacup has a diameter of 8 centimetres. What is the saucer's circumference?\n\nUse 3.14 for 𝜋. If necessary, round your answer to the nearest hundredth.\n\n\n centimetres",
     "tag": "Gr7_38_E1",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -2024,7 +1916,7 @@
   },
   {
     "skills": "nets-of-three-dimensional-figures",
-    "question_text": "Which figure will this net make?\n\n\n\n",
+    "question_text": "Which figure will this net make?",
     "image_tag": "Grade7_38_2_1",
     "tag": "Gr7_38_E2",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -2049,7 +1941,7 @@
   },
   {
     "skills": "surface-area-of-cylinders",
-    "question_text": "What is the surface area of this cylinder?\n\nUse âð â 3.14 and round your answer to the nearest hundredth.\n\n\n7 cm\n6 cm\n\n\n square centimetres",
+    "question_text": "What is the surface area of this cylinder?\n\nUse 𝜋=3.14 and round your answer to the nearest hundredth.",
     "image_tag": "Grade7_38_3_1",
     "tag": "Gr7_38_E3",
     "question_type": "Fill in the blank",
@@ -2067,15 +1959,15 @@
       ],
       [
         "2/10",
-        "Find the area of the circle on the top of the cylinder. Use 3.14 for âð."
+        "Find the area of the circle on the top of the cylinder. Use 3.14 for 𝜋."
       ],
       [
         "3/10",
-        "Atop=âðrÂ²â3.14 x 7 x 7â153.86"
+        "3.14 x 7 x 7 = 153.86"
       ],
       [
         "4/10",
-        "The circle on the bottom of the cylinder is the same, so: Abottom=Atop â 153.86"
+        "The circle on the bottom of the cylinder is the same."
       ],
       [
         "5/10",
@@ -2083,7 +1975,7 @@
       ],
       [
         "6/10",
-        "C=2âðrâ2 x 3.14 x 7â43.96"
+        "C=2𝜋r=2x3.14x7=43.96"
       ],
       [
         "7/10",
@@ -2091,11 +1983,11 @@
       ],
       [
         "8/10",
-        "Now add the areas to find the surface area of the cylinder. Surface area = Atop + Abottom + Aside. "
+        "Now add the areas to find the surface area of the cylinder. Surface area = A_top + A_bottom + A_side."
       ],
       [
         "9/10",
-        "â153.86 + 153.86 + 263.76 â571.48"
+        "153.86 + 153.86 + 263.76 = 571.48"
       ],
       [
         "10/10",
@@ -2110,7 +2002,7 @@
     "tag": "Gr7_38_E4",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "360"
+      "360","360.0","360.00"
     ],
     "solution": [
       [
@@ -2134,7 +2026,7 @@
   },
   {
     "skills": "volume-of-prisms-and-cylinders",
-    "question_text": "What is the volume?\n\n\n9 mm\n8 mm\n10 mm\n\n\n cubic millimetres",
+    "question_text": "What is the volume?\n cubic millimetres",
     "image_tag": "Grade7_39_1_1",
     "tag": "Gr7_39_E1",
     "question_type": "Fill in the blank",
@@ -2151,7 +2043,7 @@
       ],
       [
         "2/3",
-        "Use these numbers in the formula."
+        "Use these numbers in the formula for area of a rectangular prism: length x breadth x height"
       ],
       [
         "3/3",
@@ -2162,7 +2054,7 @@
   },
   {
     "skills": "adjust-a-budget",
-    "question_text": "This table shows Naomi's October budget.\nNaomi's October budget\nIncomeExpenses\nMowing lawns: $35School supplies: $20\nYard work: $20Book fair: $45\nAllowance: $25Movies: $30\nWhat could Naomi do to balance her budget?\nspend only $20 at the movies\nspend only $30 at the book fair\nincrease income from yard work to $25\nspend $10 less on school supplies",
+    "question_text": "This table shows Naomi's October budget.\nNaomi's October budget\nIncomeExpenses\nMowing lawns: $35School supplies: $20\nYard work: $20Book fair: $45\nAllowance: $25Movies: $30\nWhat could Naomi do to balance her budget?",
     "image_tag": "Grade7_39_2_1",
     "tag": "Gr7_39_E2",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -2221,7 +2113,7 @@
   },
   {
     "skills": "simple-interest",
-    "question_text": "Brad has $40 in a savings account that earns 10% annually. The interest is not compounded.How much will he have in total in 1 year?\n\n\nUse the formula i = prt, where i is the interest earned, p is the principal (starting amount), r is the interest rate expressed as a decimal, and t is the time in years.\n\n\n$",
+    "question_text": "Brad has $40 in a savings account that earns 10% annually. The interest is not compounded. How much will he have in total in 1 year?\n\n\nUse the formula i = prt, where i is the interest earned, p is the principal (starting amount), r is the interest rate expressed as a decimal, and t is the time in years.\n\n\n$",
     "tag": "Gr7_39_E3",
     "question_type": "Fill in the blank",
     "correct_answers": [
