@@ -32,14 +32,15 @@
         "Gr4_14_1_1_solution_step_1"
       ]
     ],
-    "question_number": "1_1"
+    "question_number": "1_1",
+    "backend_description": "A place value chart containing 2 columns of ones and tenths for 0.4 and 0.3.\nQuestion: Compare 0.4 and 0.3\nAnswer: 0.4 > 0.3"
   },
   {
     "skills": "put-decimal-numbers-in-order-up-to-tenths",
     "question_text": "Put these numbers in order from least to greatest.",
     "tag": "Gr4_14_E2",
     "question_type": "Ordering Items",
-    "order_items": [
+    "choices": [
       "3.6",
       "2.7",
       "2.8",
@@ -75,7 +76,8 @@
         "Gr4_14_2_1_solution_step_1"
       ]
     ],
-    "question_number": "2_1"
+    "question_number": "2_1",
+    "backend_description": "A place value chart containing 2 columns of ones and tenths for 3.6, 2.7, 2.8, 2.2.\nQuestion: Order 3.6, 2.7, 2.8, 2.2 from least to greatest.\nAnswer: 2.2, 2.7, 2.8, 3.6"
   },
   {
     "skills": "number-sequences-involving-decimals-up-to-tenths",
@@ -101,7 +103,7 @@
   },
   {
     "skills": "find-equivalent-fractions-using-area-models",
-    "question_text": "Use the models to complete the equivalent fraction sentence. The coloured pieces in each model show parts of the whole.\n $\\frac{?}{8}$ = $\\frac{1}{2}$",
+    "question_text": "Use the models to complete the equivalent fraction sentence. The coloured pieces in each model show parts of the whole.\n $\\frac{_}{8}$ = $\\frac{1}{2}$",
     "question_type": "Fill in the blank",
     "image_tag": "Gr4_14_4_1",
     "tag": "Gr4_14_E4",
@@ -136,7 +138,8 @@
         "Gr4_14_4_1_solution_step_2"
       ]
     ],
-    "question_number": "4_1"
+    "question_number": "4_1",
+    "backend_description": "1 pie with 8 equal parts of which 4 are shaded and another pie with 2 equal parts of which 1 is shaded.\nQuestion: $\\frac{?}{8}$ = $\\frac{1}{2}$\nAnswer: 4"
   },
   {
     "skills": "identify-equivalent-fractions-on-number-lines",
@@ -166,7 +169,7 @@
   },
   {
     "skills": "find-equivalent-fractions-using-number-lines",
-    "question_text": "Use the number lines to find a pair of equivalent fractions between 0 and 1. $\\frac{?}{6}$ and $\\frac{2}{3}$ are equivalent fractions.",
+    "question_text": "Use the number lines to find a pair of equivalent fractions between 0 and 1. $\\frac{_}{6}$ and $\\frac{2}{3}$ are equivalent fractions.",
     "image_tag": "Gr4_15_2_1",
     "question_type": "Fill in the blank",
     "tag": "Gr4_15_E2",
@@ -192,10 +195,10 @@
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_15_E3",
     "choices": [
-      "6/7",
-      "5/8",
-      "1/2",
-      "3/5"
+      "$\\frac{6}{7}$",
+      "$\\frac{5}{8}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{3}{5}$"
     ],
     "correct_answers": [
       "C"
@@ -211,7 +214,7 @@
       ],
       [
         "3/3",
-        "1/2 is equivalent to 2/4. Because they are the only pair of fractions at the same place between 0 and 1 on the number line."
+        "$\\frac{1}{2}$ is equivalent to $\\frac{2}{4}$. Because they are the only pair of fractions at the same place between 0 and 1 on the number line."
       ]
     ],
     "solution_image_tag": [
@@ -224,10 +227,11 @@
         "Gr4_15_3_1_solution_step_2"
       ]
     ],
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "backend_description": "Number lines showing $\\frac{2}{4}$, $\\frac{6}{7}$, $\\frac{5}{8}$, $\\frac{1}{2}$, $\\frac{3}{5}$.\nQuestion: Among $\\frac{6}{7}$, $\\frac{5}{8}$, $\\frac{1}{2}$, $\\frac{3}{5}$, which is equivalent to $\\frac{2}{4}$?\nAnswer: $\\frac{1}{2}$"
   },
   {
-    "question_text": "Which missing value makes these fractions equal?\n$\\frac{?}{12}$ = $\\frac{2}{6}$",
+    "question_text": "Which missing value makes these fractions equal?\n$\\frac{_}{12}$ = $\\frac{2}{6}$",
     "skills": "equivalent-fractions",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "4_2",
@@ -265,8 +269,8 @@
     ],
     "solution_image_tag": [
       [
-        "3/5",
-        "Gr4_15_4_2_solution_step_3"
+        "1/5",
+        "Gr4_15_4_2_solution_step_1"
       ]
     ],
     "backend_description": "2 number lines demonstrating how 4/12 and 2/6 are equivalent.\nQuestion: Find ? such that $\\frac{?}{12}$ = $\\frac{2}{6}$.\nAnswer: 4"
@@ -313,7 +317,6 @@
   {
     "skills": "convert-fractions-to-decimals-up-to-tenths",
     "question_text": "Write $\\frac{1}{10}$ as a decimal number with 1 decimal place.\n_",
-    "image_tag": "Gr4_16_3_1",
     "question_type": "Fill in the blank",
     "tag": "Gr4_16_E3",
     "correct_answers": [
@@ -334,13 +337,11 @@
   },
   {
     "skills": "convert-decimals-to-fractions-up-to-tenths",
-    "question_text": "Write 0.8 as a fraction. You can use '/' to show a fraction, like 1/2.\n_",
+    "question_text": "Write 0.8 as a fraction in the most simplified form. You can use '/' to show a fraction, like 1/2.\n_",
     "question_type": "Fill in the blank",
     "tag": "Gr4_16_E4",
     "correct_answers": [
-      "8/10",
-      "80/100",
-      "4/5"
+      "$\\frac{8}{10}$"
     ],
     "solution": [
       [
@@ -362,7 +363,8 @@
         "Gr4_16_4_1_solution_step_1"
       ]
     ],
-    "question_number": "4_1"
+    "question_number": "4_1",
+    "backend_description": "A place value chart containing 2 columns of ones and tenths for 0.8.\nQuestion: Write 0.8 as a fraction.\nAnswer: $\\frac{8}{10}$"
   },
   {
     "skills": "compare-decimals-and-fractions-on-number-lines-up-to-tenths",
@@ -401,7 +403,8 @@
         "Gr4_17_1_1_solution_step_2"
       ]
     ],
-    "question_number": "1_1"
+    "question_number": "1_1",
+    "backend_description": "Number lines plotting 0.7 and 0.8.\nQuestion: Between 0.8 and $\\frac{7}{10}$, which is closer to 0.0?\nAnswer: $\\frac{7}{10}$"
   },
   {
     "skills": "compare-decimals-and-fractions-up-to-tenths",
@@ -483,6 +486,7 @@
     "skills": "complete-the-addition-sentence-up-to-three-digits",
     "question_text": "Fill in the missing number.\n_ + 120 = 920",
     "question_type": "Fill in the blank",
+    "image_tag": "Gr4_18_1_1",
     "tag": "Gr4_18_E1",
     "correct_answers": [
       "800"
@@ -504,6 +508,7 @@
     "skills": "complete-the-addition-sentence-up-to-four-digits",
     "question_text": "Fill in the missing number.\n_ + 5819 = 15331",
     "question_type": "Fill in the blank",
+    "image_tag": "Gr4_18_2_1",
     "tag": "Gr4_18_E2",
     "correct_answers": [
       "9512"
@@ -668,6 +673,7 @@
     "skills": "complete-the-subtraction-sentence-up-to-four-digits",
     "question_text": "Fill in the missing number.\n\n4581 - _ = 1960",
     "question_type": "Fill in the blank",
+    "image_tag": "Gr4_20_1_1",
     "tag": "Gr4_20_E1",
     "correct_answers": [
       "2621"
@@ -693,6 +699,7 @@
     "skills": "relate-addition-and-multiplication-for-equal-groups",
     "question_text": "Here are three ways to describe the model. Fill in the blanks.\nThere are _ groups of 3 dots.\n3+3+3=9\n_ x 3 = 9",
     "question_type": "Fill in the blank",
+    "image_tag": "Gr4_20_2_1",
     "tag": "Gr4_20_E2",
     "correct_answers": [
       "3",
@@ -800,7 +807,7 @@
   },
   {
     "skills": "relate-multiplication-and-division-for-arrays",
-    "question_text": "Fill in the blank so that the multiplication and division sentences both describe the array.\n\n\n\n\n\n\n\n\n\n\n3\u00d73=9\n9\u00f73=_",
+    "question_text": "Fill in the blank so that the multiplication and division sentences both describe the array.\n3x3=9\n9÷3=_",
     "question_type": "Fill in the blank",
     "tag": "Gr4_21_E3",
     "image_tag": "Gr4_21_3_1",
@@ -826,7 +833,7 @@
   },
   {
     "skills": "relate-multiplication-and-division",
-    "question_text": "Divide: 0\u00f713=_",
+    "question_text": "Divide: 0÷13=_",
     "question_type": "Fill in the blank",
     "tag": "Gr4_21_E4",
     "correct_answers": [
@@ -843,20 +850,20 @@
   },
   {
     "skills": "relate-multiplication-and-division",
-    "question_text": "If 10x7=70, then...\n_\u00f77=10",
+    "question_text": "If 30÷3=10, then...\n3x_=30",
     "question_type": "Fill in the blank",
     "tag": "Gr4_22_E1",
     "correct_answers": [
-      "70"
+      "10"
     ],
     "solution": [
       [
         "1/2",
-        "If 10x7=70, then...\n70\u00f77=10 and 70\u00f710=7"
+        "If 30÷3=10, then...\n3x10=30 and 10x3=30"
       ],
       [
         "2/2",
-        "Use the first equation. The number 70 must go in the blank space."
+        "Use the first equation. The number 10 must go in the blank space."
       ]
     ],
     "solution_image_tag": [],
@@ -864,7 +871,7 @@
   },
   {
     "skills": "complete-the-addition-subtraction-multiplication-or-division-sentence",
-    "question_text": "Fill in the missing number.\n14\u00f7_=7",
+    "question_text": "Fill in the missing number.\n14÷_=7",
     "question_type": "Fill in the blank",
     "tag": "Gr4_22_E2",
     "correct_answers": [
@@ -956,7 +963,7 @@
       ],
       [
         "3/3",
-        "Divide:\n66\u00f711=6. The missing number is 6."
+        "Divide:\n66÷11=6. The missing number is 6."
       ]
     ],
     "solution_image_tag": [],
@@ -964,7 +971,7 @@
   },
   {
     "skills": "multiplication-facts-up-to-10",
-    "question_text": "Multiply.\n 8 x 7 = _",
+    "question_text": "Multiply.\n 8x7=_",
     "question_type": "Fill in the blank",
     "tag": "Gr4_23_E2",
     "correct_answers": [
@@ -998,11 +1005,12 @@
         "Gr4_23_2_1_solution_step_3"
       ]
     ],
-    "question_number": "2_1"
+    "question_number": "2_1",
+    "backend_description": "Image 1 shows a 8x7 grid, and image 2 shows a number line incremented by 7.\nQuestion: What is 8x7?\nAnswer: 56"
   },
   {
     "skills": "division-facts-up-to-10",
-    "question_text": "Divide:\n3 \u00f7 3 = _",
+    "question_text": "Divide:\n3÷3=_",
     "question_type": "Fill in the blank",
     "tag": "Gr4_23_E3",
     "correct_answers": [
@@ -1040,24 +1048,29 @@
   },
   {
     "skills": "add-decimal-numbers-up-to-tenths",
-    "question_text": "Add.\n9.7 + 7.7 = _",
+    "question_text": "Add.\n90.7+55.4 = _",
     "question_type": "Fill in the blank",
+    "image_tag": "Gr4_24_1_1",
     "tag": "Gr4_24_E1",
     "correct_answers": [
-      "17.4"
+      "146.1"
     ],
     "solution": [
       [
-        "1/3",
+        "1/4",
         "Remember to line up the decimal points. Add as you would add whole numbers. Remember to write the decimal point in the answer!"
       ],
       [
-        "2/3",
-        "Add the tenths: 7 tenths + 7 tenths = 14 tenths. That\u2019s more than 1 whole, so regroup. 14 tenths = 1 whole and 4 tenths \u2014 carry over the 1 to the ones place."
+        "2/4",
+        "Add the tenths: 7 tenths + 4 tenths = 11 tenths. Note that 11 tenths are more than 1 whole, so regroup. 11 tenths = 1 whole and 1 tenth, so carry over the 1 to the ones place."
       ],
       [
-        "3/3",
-        "Now add the ones: 9 + 7 = 16, plus the 1 you carried = 17. So the total is 17.4."
+        "3/4",
+        "Now add the ones: 0 + 5 = 5, plus the 1 you carried = 6."
+      ],
+      [
+        "4/4",
+        "Now add the tens: 9 + 5 = 14. So, the total is 146.1"
       ]
     ],
     "solution_image_tag": [],
@@ -1065,50 +1078,62 @@
   },
   {
     "skills": "subtract-decimal-numbers-up-to-tenths",
-    "question_text": "Subtract.\n7.6 - 5.8 = _",
+    "question_text": "Subtract.\n930.3-497.5=_",
     "question_type": "Fill in the blank",
+    "image_tag": "Gr4_24_2_1",
     "tag": "Gr4_24_E2",
     "correct_answers": [
-      "1.8"
+      "432.8"
     ],
     "solution": [
       [
-        "1/3",
+        "1/4",
         "Remember to line up the decimal points. Subtract as you would subtract whole numbers. Remember to write the decimal point in the answer!"
       ],
       [
-        "2/3",
-        "Look at the tenths place: 6 \u2212 8. You can\u2019t do that without regrouping. Borrow 1 from the 7 in the ones place (it becomes 6), and turn the 6 tenths into 16 tenths."
+        "2/4",
+        "Look at the tenths place: 0.3-0.5. Borrow 1 from the ones digit to have 1.3-0.5=0.8."
       ],
       [
-        "3/3",
-        "Now subtract: 16 \u2212 8 = 8 (tenths), and 6 \u2212 5 = 1 (ones). So the answer is 1.8."
+        "3/4",
+        "From borrowing, the whole part of 930 becomes 929. Subtract: 929-497=432"
+      ],
+      [
+        "4/4",
+        "Combining the whole and decimal parts, we have: 432+0.8=432.8"
       ]
     ],
-    "solution_image_tag": [],
-    "question_number": "2_1"
+    "solution_image_tag": [
+      [
+        "3/4",
+        "Gr4_24_2_1_solution_step_3"
+      ]
+    ],
+    "question_number": "2_1",
+    "backend_description": "Vertical subtraction of 930.3-497.5 to illustrate the borrowings involved to calculate the answer.\nQuestion: Subtract 930.3-497.5\nAnswer: 432.8"
   },
   {
     "skills": "choose-decimals-with-a-particular-sum-or-difference-up-to-tenths",
-    "question_text": "Choose two numbers from the box to complete the subtraction sentence.\n_ - _ = 0.7",
+    "question_text": "Choose two numbers from the box to complete the subtraction sentence.\n_ - _ = 0.4",
     "question_type": "Fill in the blank",
+    "image_tag": "Gr4_24_3_1",
     "tag": "Gr4_24_E3",
     "correct_answers": [
-      "0.8",
-      "0.1"
+      "0.7",
+      "0.3"
     ],
     "solution": [
       [
         "1/3",
-        "Look for numbers in the box that are greater than 0.7."
+        "Look for numbers in the box that are greater than 0.4."
       ],
       [
         "2/3",
-        "Try 0.8. What number can you subtract from 0.8 to get 0.7?\n0.8 - 0.1 = 0.7\n0.1 is in the box."
+        "Try 0.7. What number can you subtract from 0.7 to get 0.4?\n0.7 - 0.3 = 0.4\n0.4 is in the box."
       ],
       [
         "3/3",
-        "The subtraction sentence is 0.8 - 0.1 = 0.7."
+        "The subtraction sentence is 0.7 - 0.3 = 0.4."
       ]
     ],
     "solution_image_tag": [],
@@ -1229,6 +1254,7 @@
     "question_text": "Add.\n\n609 + 179 = _",
     "question_type": "Fill in the blank",
     "tag": "Gr4_26_E1",
+    "image_tag": "Gr4_26_1_1",
     "correct_answers": [
       "788"
     ],
@@ -1250,8 +1276,22 @@
         "609 + 179 = 788\nThe sum is 788."
       ]
     ],
-    "solution_image_tag": [],
-    "question_number": "1_1"
+    "solution_image_tag": [
+      [
+        "1/4",
+        "Gr4_26_1_1_solution_step_1"
+      ],
+      [
+        "2/4",
+        "Gr4_26_1_1_solution_step_2"
+      ],
+      [
+        "3/4",
+        "Gr4_26_1_1_solution_step_3"
+      ]
+    ],
+    "question_number": "1_1",
+    "backend_description": "Vertical addition of 609 + 179 to illustrate the regroupings involved to calculate the answer.\nQuestion: Add 609 + 179\nAnswer: 788"
   },
   {
     "skills": "add-numbers-up-to-three-digits-word-problems",
@@ -1283,14 +1323,29 @@
         "348 + 455 = 803\n\n\nThe sum is 803. Florence harvested 803 kilograms this year."
       ]
     ],
-    "solution_image_tag": [],
-    "question_number": "2_1"
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr4_26_2_1_solution_step_2"
+      ],
+      [
+        "3/5",
+        "Gr4_26_2_1_solution_step_3"
+      ],
+      [
+        "4/5",
+        "Gr4_26_2_1_solution_step_4"
+      ]
+    ],
+    "question_number": "2_1",
+    "backend_description": "Vertical addition of 348 + 455 to illustrate the regroupings involved to calculate the answer.\nQuestion: Florence is a beekeeper. Last year, she harvested 348 kilograms of honey. This year, she bought some new hives and increased her honey harvest by 455 kilograms. How many kilograms of honey did Florence harvest this year?\nAnswer: 803"
   },
   {
     "skills": "add-numbers-up-to-four-digits",
     "question_text": "Add.\n\n626 + 372",
     "question_type": "Fill in the blank",
     "tag": "Gr4_26_E3",
+    "image_tag": "Gr4_26_3_1",
     "correct_answers": [
       "998"
     ],
@@ -1312,8 +1367,22 @@
         "626 + 372 = 998\nThe sum is 998."
       ]
     ],
-    "solution_image_tag": [],
-    "question_number": "3_1"
+    "solution_image_tag": [
+      [
+        "1/4",
+        "Gr4_26_3_1_solution_step_1"
+      ],
+      [
+        "2/4",
+        "Gr4_26_3_1_solution_step_2"
+      ],
+      [
+        "3/4",
+        "Gr4_26_3_1_solution_step_3"
+      ]
+    ],
+    "question_number": "3_1",
+    "backend_description": "Vertical addition of 626 + 372 to illustrate the regroupings involved to calculate the answer\nQuestion: Add 626 = 372.\nAnswer: 998"
   },
   {
     "skills": "add-numbers-up-to-four-digits-word-problems",
@@ -1349,7 +1418,21 @@
         "830 + 599 = 1429\n\nThe sum is 1429. The prairie covers 1429 acres."
       ]
     ],
-    "solution_image_tag": [],
-    "question_number": "4_1"
+    "solution_image_tag": [
+      [
+        "2/6",
+        "Gr4_26_4_1_solution_step_2"
+      ],
+      [
+        "3/6",
+        "Gr4_26_4_1_solution_step_2"
+      ],
+      [
+        "4/6",
+        "Gr4_26_4_1_solution_step_2"
+      ]
+    ],
+    "question_number": "4_1",
+    "backend_description": "Vertical addition of 830 + 599 to illustrate the regroupings involved to calculate the answer.\nQuestion: A dust storm sweeps across the prairie. It covers 830 acres of the prairie in dust, but leaves 599 acres untouched. How many acres does the prairie cover?\nAnswer: 1429"
   }
 ]
