@@ -302,6 +302,38 @@
     "question_number": "3_1"
   },
   {
+    "question_text": "Is -68 - 89 positive or negative?",
+    "skills": "integer-addition-and-subtraction-rules",
+    "tag": "Gr7_25_E3",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "3_2",
+    "choices": [
+      "positive",
+      "negative"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "You are starting with a negative number, -68. When you subtract 89, the result is even less than -68. So, the result is negative."
+      ],
+      [
+        "2/4",
+        "You can check your answer by doing the math."
+      ],
+      [
+        "3/4",
+        "-68 - 89 = -157"
+      ],
+      [
+        "4/4",
+        "As you can see, the result is negative."
+      ]
+    ]
+  },
+  {
     "skills": "integer-multiplication-rules",
     "question_text": "Is 3 x -1 positive or negative?\n\npositive\nnegative",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -1080,6 +1112,38 @@
     ],
     "question_number": "2_1"
   },
+    {
+    "question_text": "What is the range?\n1,2,9,4,1,10,4\n",
+    "skills": "calculate-mean-and-range",
+    "tag": "Gr7_31_E2",
+    "question_type": "Fill in the blank",
+    "question_number": "2_2",
+    "correct_answers": [
+      "9"
+    ],
+    "solution": [
+      [
+        "1/5",
+        "First, find the greatest number. The greatest number is 10."
+      ],
+      [
+        "2/5",
+        "Next, find the least number. The least number is 1."
+      ],
+      [
+        "3/5",
+        "Subtract the least number from the greatest number:"
+      ],
+      [
+        "4/5",
+        "10 - 1 = 9"
+      ],
+      [
+        "5/5",
+        "The range is 9."
+      ]
+    ]
+  },
   {
     "skills": "calculate-mean-median-mode-and-range",
     "question_text": "Whitney wanted to buy a snack from the vending machine. She had 7 choices, which cost:\n$1.00, $5.00, $1.00, $3.00, $5.00, $2.00, $3.00\n\nWhat was the median price of the snacks?\n\n\n$",
@@ -1116,6 +1180,122 @@
     "question_number": "3_1"
   },
   {
+    "question_text": "Jamal volunteered at the city park. He planted 8 flower beds with:\n9plants 6plants 6plants 8plants 5plants 8plants 6plants 6plants\nWhat was the mode of the numbers of plants?\n\n\nplants",
+    "skills": "calculate-mean-median-mode-and-range",
+    "tag": "Gr7_31_E3",
+    "question_type": "Fill in the blank",
+    "question_number": "3_2",
+    "correct_answers": [
+      "6"
+    ],
+    "solution": [
+      [
+        "1/8",
+        "First, arrange the numbers from least to greatest: 5,6,6,6,6,8,8,9"
+      ],
+      [
+        "2/8",
+        "Now count how many times each number appears."
+      ],
+      [
+        "3/8",
+        "5 appears 1 time."
+      ],
+      [
+        "4/8",
+        "6 appears 4 times."
+      ],
+      [
+        "5/8",
+        "8 appears 2 times."
+      ],
+      [
+        "6/8",
+        "9 appears 1 time."
+      ],
+      [
+        "7/8",
+        "The number that appears most often is 6."
+      ],
+      [
+        "8/8",
+        "The mode of the numbers of plants was 6."
+      ]
+    ]
+  },
+    {
+    "question_text": "Kayla, a forward on her school basketball team, has played in 8 games since starting high school. The number of points she scored at those games was:\n8points 7points 6points 5points 8points 6points 7points 9points\nWhat was the mean number of points scored?\n\n\npoints",
+    "skills": "calculate-mean-median-mode-and-range",
+    "tag": "Gr7_31_E3",
+    "question_type": "Fill in the blank",
+    "question_number": "3_3",
+    "correct_answers": [
+      "7"
+    ],
+    "solution": [
+      [
+        "1/7",
+        "First, count how many numbers are in the group. 87658679"
+      ],
+      [
+        "2/7",
+        "There are 8 numbers."
+      ],
+      [
+        "3/7",
+        "Now add all the numbers together:"
+      ],
+      [
+        "4/7",
+        "5 +6 +8 +9 +6 +7 +8 +7 =56"
+      ],
+      [
+        "5/7",
+        "Now divide the sum by the number of numbers:"
+      ],
+      [
+        "6/7",
+        "56 / 8 = 7"
+      ],
+      [
+        "7/7",
+        "The mean number of points scored was 7."
+      ]
+    ]
+  },
+    {
+    "question_text": "Braden is e-mailing some photographs from his computer. The 5 pictures have file sizes of:\n1MB 2MB 3MB 1MB 3MB\nWhat is the range of the file sizes?\n\n\nMB",
+    "skills": "calculate-mean-median-mode-and-range",
+    "tag": "Gr7_31_E3",
+    "question_type": "Fill in the blank",
+    "question_number": "3_4",
+    "correct_answers": [
+      "2"
+    ],
+    "solution": [
+      [
+        "1/5",
+        "First, find the greatest number. The greatest number is 3."
+      ],
+      [
+        "2/5",
+        "Next, find the least number. The least number is 1."
+      ],
+      [
+        "3/5",
+        "Subtract the least number from the greatest number:"
+      ],
+      [
+        "4/5",
+        "3 - 1 = 2"
+      ],
+      [
+        "5/5",
+        "The range of the file sizes is 2 MB."
+      ]
+    ]
+  },
+  {
     "skills": "interpret-charts-to-find-mean-and-range",
     "question_text": "People on a whale-watching trip compared the number of whales they saw.\n\nWhat is the mean of the numbers?",
     "image_tag": "Grade7_31_4_1",
@@ -1149,6 +1329,43 @@
     "question_number": "4_1"
   },
   {
+    "question_text": "Some friends compared the sizes of their stuffed animal collections.\n\n\nStuffed animal collections\nWhat is the range of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-and-range",
+    "image_tag": "Grade7_31_4_2",
+    "tag": "Gr7_32_E4",
+    "question_type": "Fill in the blank",
+    "question_number": "4_2",
+    "correct_answers": [
+      "4"
+    ],
+    "solution": [
+      [
+        "1/6",
+        "Read the numbers from the table."
+      ],
+      [
+        "2/6",
+        "First, find the greatest number. The greatest number is 10."
+      ],
+      [
+        "3/6",
+        "Next, find the least number. The least number is 6."
+      ],
+      [
+        "4/6",
+        "Subtract the least number from the greatest number:"
+      ],
+      [
+        "5/6",
+        "10 \u00e2\u0088\u0092 6 = 4"
+      ],
+      [
+        "6/6",
+        "The range is 4."
+      ]
+    ]
+  },
+  {
     "skills": "interpret-charts-to-find-mean-median-mode-and-range",
     "question_text": "The manager of a party supply store researched how many balloons it sold in the past 7 days.\n\n\nWhat is the mode of the numbers?\n\n",
     "image_tag": "Grade7_32_1_1",
@@ -1176,6 +1393,129 @@
       ]
     ],
     "question_number": "1_1"
+  },
+    {
+    "question_text": "Ava's classmates revealed how many science articles they read.\n\n\n\n\nWhat is the mean of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-mode-and-range",
+    "image_tag": "Grade7_32_1_1",
+    "tag": "Gr7_32_E1",
+    "question_type": "Fill in the blank",
+    "question_number": "1_2",
+    "correct_answers": [
+      "6"
+    ],
+    "solution": [
+      [
+        "1/8",
+        "Read the numbers from the table."
+      ],
+      [
+        "2/8",
+        "First, count how many numbers are in the group."
+      ],
+      [
+        "3/8",
+        "There are 8 numbers."
+      ],
+      [
+        "4/8",
+        "Now add all the numbers together:"
+      ],
+      [
+        "5/8",
+        "2 +10 +10 +7 +4 +2 +4 +9 =48"
+      ],
+      [
+        "6/8",
+        "Now divide the sum by the number of numbers:"
+      ],
+      [
+        "7/8",
+        "48 / 8 = 6"
+      ],
+      [
+        "8/8",
+        "The mean is 6."
+      ]
+    ]
+  },
+  {
+    "question_text": "The week of his birthday, Clarence paid attention to how many pieces of mail he received each day.\n\n\nPieces of mail received\nDayNumber of pieces of mail\nTuesday7\nWednesday9\nThursday9\nFriday7\nSaturday7\n\n\nWhat is the mode of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-mode-and-range",
+    "image_tag": "Grade7_32_1_3",
+    "tag": "Gr7_32_E1",
+    "question_type": "Fill in the blank",
+    "question_number": "1_3",
+    "correct_answers": [
+      "7"
+    ],
+    "solution": [
+      [
+        "1/7",
+        "Read the numbers from the table."
+      ],
+      [
+        "2/7",
+        "First, arrange the numbers from least to greatest:"
+      ],
+      [
+        "3/7",
+        "Now count how many times each number appears."
+      ],
+      [
+        "4/7",
+        "7 appears 3 times."
+      ],
+      [
+        "5/7",
+        "9 appears 2 times."
+      ],
+      [
+        "6/7",
+        "The number that appears most often is 7."
+      ],
+      [
+        "7/7",
+        "The mode is 7."
+      ]
+    ]
+  },
+    {
+    "question_text": "The week of his birthday, Hunter paid attention to how many pieces of mail he received each day.\n\n\nPieces of mail received\nDayNumber of pieces of mail\nSaturday3\nMonday6\nTuesday5\nWednesday2\nThursday3\n\n\nWhat is the range of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-mode-and-range",
+    "image_tag": "Grade7_32_1_4",
+    "tag": "Gr7_32_E1",
+    "question_type": "Fill in the blank",
+    "question_number": "1_4",
+    "correct_answers": [
+      "4"
+    ],
+    "solution": [
+      [
+        "1/6",
+        "Read the numbers from the table."
+      ],
+      [
+        "2/6",
+        "First, find the greatest number. The greatest number is 6."
+      ],
+      [
+        "3/6",
+        "Next, find the least number. The least number is 2."
+      ],
+      [
+        "4/6",
+        "Subtract the least number from the greatest number:"
+      ],
+      [
+        "5/6",
+        "6 - 2 = 4"
+      ],
+      [
+        "6/6",
+        "The range is 4."
+      ]
+    ]
   },
   {
     "skills": "mean-and-range-find-the-missing-number",
@@ -1208,6 +1548,74 @@
       ]
     ],
     "question_number": "2_1"
+  },
+    {
+    "question_text": "14,14,t,14,6,17. The range is 11, what could t be?",
+    "skills": "mean-and-range-find-the-missing-number",
+    "tag": "Gr7_32_E2",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_2",
+    "choices": [
+      "2",
+      "14"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/13",
+        "Try t = 2."
+      ],
+      [
+        "2/13",
+        "Arrange the numbers from least to greatest."
+      ],
+      [
+        "3/13",
+        "2,6,14,14,14,17"
+      ],
+      [
+        "4/13",
+        "Subtract the least number from the greatest number."
+      ],
+      [
+        "5/13",
+        "17 - 2 = 15"
+      ],
+      [
+        "6/13",
+        "When t = 2, the range is 15."
+      ],
+      [
+        "7/13",
+        "Try t = 14."
+      ],
+      [
+        "8/13",
+        "Arrange the numbers from least to greatest."
+      ],
+      [
+        "9/13",
+        "6,14,14,14,14,17"
+      ],
+      [
+        "10/13",
+        "Subtract the least number from the greatest number."
+      ],
+      [
+        "11/13",
+        "17 - 6 = 11"
+      ],
+      [
+        "12/13",
+        "When t = 14, the range is 11."
+      ],
+      [
+        "13/13",
+        "The range is 11, so t = 14."
+      ]
+    ]
   },
   {
     "skills": "mean-median-mode-and-range-find-the-missing-number",
@@ -1253,6 +1661,182 @@
     ],
     "question_number": "3_1"
   },
+    {
+    "question_text": "5,n,4,4,4. The mean is 5, what could n be?",
+    "skills": "mean-median-mode-and-range-find-the-missing-number",
+    "tag": "Gr7_32_E3",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "3_2",
+    "choices": [
+      "13",
+      "8"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/14",
+        "There are 5 numbers in the group."
+      ],
+      [
+        "2/14",
+        "Try n = 13."
+      ],
+      [
+        "3/14",
+        "Find the sum of the numbers."
+      ],
+      [
+        "4/14",
+        "5 +13 +4 +4 +4 =30"
+      ],
+      [
+        "5/14",
+        "Divide by 5."
+      ],
+      [
+        "6/14",
+        "30 \u00f7 5 = 6"
+      ],
+      [
+        "7/14",
+        "When n = 13, the mean is 6."
+      ],
+      [
+        "8/14",
+        "Try n = 8."
+      ],
+      [
+        "9/14",
+        "Find the sum of the numbers."
+      ],
+      [
+        "10/14",
+        "5 +8 +4 +4 +4 =25"
+      ],
+      [
+        "11/14",
+        "Divide by 5."
+      ],
+      [
+        "12/14",
+        "25 / 5 = 5"
+      ],
+      [
+        "13/14",
+        "When n = 8, the mean is 5."
+      ],
+      [
+        "14/14",
+        "The mean is 5, so n = 8."
+      ]
+    ]
+  },
+  {
+    "question_text": "14,12,12,4,n,14. The mode is 12, what could n be?",
+    "skills": "mean-median-mode-and-range-find-the-missing-number",
+    "tag": "Gr7_32_E3",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "3_3",
+    "choices": [
+      "14",
+      "12"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/9",
+        "Try n = 14."
+      ],
+      [
+        "2/9",
+        "Arrange the numbers from least to greatest."
+      ],
+      [
+        "3/9",
+        "4,12,12,14,14,14"
+      ],
+      [
+        "4/9",
+        "The number that appears most often is 14. When n = 14, the mode is 14."
+      ],
+      [
+        "5/9",
+        "Try n = 12."
+      ],
+      [
+        "6/9",
+        "Arrange the numbers from least to greatest."
+      ],
+      [
+        "7/9",
+        "4,12,12,12,14,14"
+      ],
+      [
+        "8/9",
+        "The number that appears most often is 12. When n = 12, the mode is 12."
+      ],
+      [
+        "9/9",
+        "The mode is 12, so n = 12."
+      ]
+    ]
+  },
+  {
+    "question_text": "16,15,h,14,12. The median is 14, what could h be?",
+    "skills": "mean-median-mode-and-range-find-the-missing-number",
+    "tag": "Gr7_32_E3",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "3_4",
+    "choices": [
+      "13",
+      "20"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/9",
+        "Try h = 13."
+      ],
+      [
+        "2/9",
+        "Arrange the numbers from least to greatest."
+      ],
+      [
+        "3/9",
+        "12,13,14,15,16"
+      ],
+      [
+        "4/9",
+        "The number in the middle is 14. When h = 13, the median is 14."
+      ],
+      [
+        "5/9",
+        "Try h = 20."
+      ],
+      [
+        "6/9",
+        "Arrange the numbers from least to greatest."
+      ],
+      [
+        "7/9",
+        "12,14,15,16,20"
+      ],
+      [
+        "8/9",
+        "The number in the middle is 15. When h = 20, the median is 15."
+      ],
+      [
+        "9/9",
+        "The median is 14, so h = 13."
+      ]
+    ]
+  },
   {
     "skills": "changes-in-mean-and-range",
     "question_text": "Look at this set of 5 numbers:\n86,73,82,69,75\nHow would the mean change if the number 71 were added to the set?",
@@ -1290,6 +1874,51 @@
     ],
     "question_number": "4_1"
   },
+    {
+    "question_text": "Look at this set of 8 numbers: \n 6,5,4,8,6,4,5,4 \n How would the range change if the number 1 replaced one of the 4's in the set?",
+    "skills": "changes-in-mean-and-range",
+    "tag": "Gr7_DD.7",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "DD.7.5",
+    "choices": [
+      "increase",
+      "decrease",
+      "no change"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/7",
+        "Find the original range. Subtract the least number from the greatest number. 8-4 = 4"
+      ],
+      [
+        "2/7",
+        "The original range is 4."
+      ],
+      [
+        "3/7",
+        "Now replace one of the 4's with 1."
+      ],
+      [
+        "4/7",
+        "6,5,1,8,6,4,5,4"
+      ],
+      [
+        "5/7",
+        "Find the new range. Subtract the least number from the greatest number. 8-1 = 7"
+      ],
+      [
+        "6/7",
+        "The new range would be 7."
+      ],
+      [
+        "7/7",
+        "The range would increase from 4 to 7."
+      ]
+    ]
+  },
   {
     "skills": "changes-in-mean-median-mode-and-range",
     "question_text": "Look at this set of 10 numbers:\n29,81,82,62,62,82,41,23,82,26\nHow would the mode change if the number 62 replaced one of the 82's in the set?",
@@ -1326,6 +1955,157 @@
       ]
     ],
     "question_number": "1_1"
+  },
+  {
+    "question_text": "Look at this set of 6 numbers: \n 29,74,84,62,73,82,63\n How would the range change if the number 31 replaced 29 in the set?",
+    "skills": "changes-in-mean-median-mode-and-range",
+    "tag": "Gr7_33_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_2",
+    "choices": [
+      "increase",
+      "decrease",
+      "no change"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/7",
+        "Find the original range. Subtract the least number from the greatest number. 84-29 = 55"
+      ],
+      [
+        "2/7",
+        "The original range is 55."
+      ],
+      [
+        "3/7",
+        "Now replace 29 with 31."
+      ],
+      [
+        "4/7",
+        "31,74,84,62,73,82,63"
+      ],
+      [
+        "5/7",
+        "Find the new range. Subtract the least number from the greatest number. 84-31 = 53"
+      ],
+      [
+        "6/7",
+        "The new range would be 53."
+      ],
+      [
+        "7/7",
+        "The range would decrease from 55 to 53."
+      ]
+    ]
+  },
+    {
+    "question_text": "Look at this set of 8 numbers: \n 56,21,55,52,12,24,60,26\n How would the median change if the number 60 were replaced with 86 in the set?",
+    "skills": "changes-in-mean-median-mode-and-range",
+    "tag": "Gr7_33_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_3",
+    "choices": [
+      "increase",
+      "decrease",
+      "no change"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/9",
+        "Find the original median. Arrange the numbers from least to greatest and find the number in the middle."
+      ],
+      [
+        "2/9",
+        "12,21,24,26,52,55,56,60"
+      ],
+      [
+        "3/9",
+        "The median is the mean of the two middle numbers. Find the mean of 26 and 52. 26 + 52 = 78, 78 ÷ 2 = 39"
+      ],
+      [
+        "4/9",
+        "The original median is 39."
+      ],
+      [
+        "5/9",
+        "Now replace 60 with 86 and find the new median."
+      ],
+      [
+        "6/9",
+        "12,21,24,26,52,55,56,86"
+      ],
+      [
+        "7/9",
+        "The median is the mean of the two middle numbers. Find the mean of 26 and 52. 26 + 52 = 78, 78 ÷ 2 = 39"
+      ],
+      [
+        "8/9",
+        "The new median would also be 39."
+      ],
+      [
+        "9/9",
+        "The median would not change."
+      ]
+    ]
+  },
+    {
+    "question_text": "Look at this set of 8 numbers: \n 34,30,57,17,34,34,34,56\n How would the mean change if one of the 34's were replaced with 50 in the set?",
+    "skills": "changes-in-mean-median-mode-and-range",
+    "tag": "Gr7_33_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_4",
+    "choices": [
+      "increase",
+      "decrease",
+      "no change"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/9",
+        "You can solve this problem without doing any calculations. You are replacing the number 34 with the number 50. Since 50 is greater than 34, the mean will increase."
+      ],
+      [
+        "2/9",
+        "You can check your answer by doing the calculations."
+      ],
+      [
+        "3/9",
+        "Find the original mean. There are 8 numbers. Add up the numbers and divide by 8."
+      ],
+      [
+        "4/9",
+        "(34 + 30 + 57 + 17 + 34 + 34 + 34 + 56) / 8 = 37"
+      ],
+      [
+        "5/9",
+        "The original mean is 37."
+      ],
+      [
+        "6/9",
+        "Now replace one of the 34's with 50 and find the new mean. Add up the numbers and divide by 8"
+      ],
+      [
+        "7/9",
+        "(34 + 30 + 57 + 17 + 34 + 50 + 34 + 56) \u00f7 8 = 39"
+      ],
+      [
+        "8/9",
+        "The new mean would be 39."
+      ],
+      [
+        "9/9",
+        "The mean would increase from 37 to 39."
+      ]
+    ]
   },
   {
     "skills": "interpret-tables",
