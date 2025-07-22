@@ -51,7 +51,7 @@
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
       "10s",
-      "s11",
+      "$s^11$",
       "s+11",
       "11s"
     ],
@@ -61,11 +61,11 @@
     "solution": [
       [
         "1/3",
-        "Write 5s+6s in standard form."
+        "Two expressions are equivalent if they are the same when written in standard form."
       ],
       [
         "2/3",
-        "5s+6s=\n11s (Combine like terms)"
+        "Write 5s+6s in standard form.\n5s+6s=\n11s (Combine like terms)"
       ],
       [
         "3/3",
@@ -75,7 +75,7 @@
   },
   {
     "skills": "evaluate-variable-expressions-with-whole-numbers",
-    "question_text": "Find the value of the expression.\n12 + p\nfor p = 8.",
+    "question_text": "Find the value of the expression.\n12 + p\nfor p = 8.\n___",
     "tag": "Gr6_33_E2",
     "question_number": "2_1",
     "question_type": "Fill in the blank",
@@ -85,23 +85,23 @@
     "solution": [
       [
         "1/5",
-        "Replace the variable p with the number 8."
+        "A variable is a letter that represents an unknown number.\nAn expression is a group of numbers, symbols, and variables that represents another number."
       ],
       [
         "2/5",
-        "12 + p"
+        "Replace the variable p with the number 8."
       ],
       [
         "3/5",
+        "12 + p"
+      ],
+      [
+        "4/5",
         "12 + 8"
       ],
       [
         "4/5",
-        "Now simplify:"
-      ],
-      [
-        "5/5",
-        "12 + 8 = 20"
+        "Now simplify:\n12 + 8 = 20"
       ]
     ]
   },
@@ -117,23 +117,23 @@
     "solution": [
       [
         "1/5",
-        "Replace the variable b with the number 6.6."
+         "A variable is a letter that represents an unknown number.\nAn expression is a group of numbers, symbols, and variables that represents another number."
       ],
       [
         "2/5",
-        "3 + b"
+        "Replace the variable b with the number 6.6."
       ],
       [
         "3/5",
-        "3 + 6.6"
+        "3 + b"
       ],
       [
         "4/5",
-        "Now simplify:"
+        "3 + 6.6"
       ],
       [
         "5/5",
-        "3 + 6.6 = 9.6"
+        "Now simplify:\n3 + 6.6 = 9.6"
       ]
     ]
   },
@@ -153,15 +153,15 @@
     "solution": [
       [
         "1/5",
-        "Plug w = 8 into the equation and simplify."
+        "A number is a solution to an equation if plugging it in results in a true statement."
       ],
       [
         "2/5",
-        "2w=16"
+        "Plug w = 8 into the equation and simplify."
       ],
       [
         "3/5",
-        "2(8)=16 (Plug in w = 8)"
+        "2w=16\n2(8)=16 (Plug in w = 8)"
       ],
       [
         "4/5",
@@ -169,7 +169,7 @@
       ],
       [
         "5/5",
-        "So, w = 8 is a solution to the equation ."
+        "So, w = 8 is a solution to the equation."
       ]
     ]
   },
@@ -188,23 +188,27 @@
     ],
     "solution": [
       [
-        "1/5",
+        "1/6",
+        "A solution to an equation is a value of a variable that makes the equation true."
+      ],
+      [
+        "2/6",
         "To find the solution, substitute each value of a into the equation:\na+13=20"
       ],
       [
-        "2/5",
+        "3/6",
         "Substitute the value a=7 into the equation.\na+13=20\n7+13=20\n20=20"
       ],
       [
-        "3/5",
+        "4/6",
         "The value a=7 makes this equation true. So, a=7 is the solution."
       ],
       [
-        "4/5",
+        "5/6",
         "Substitute the value a=8 into the equation.\na+13=20\n8+13=21\n21 is not equal to 20"
       ],
       [
-        "5/5",
+        "6/6",
         "The value a=8 makes this equation false. So, a=8 is not a solution."
       ]
     ]
@@ -221,19 +225,19 @@
     "solution": [
       [
         "1/4",
-        "Solve."
+        "To solve for a variable, use inverse operations to undo the operations in the equation.\nBe sure to do the same operation to both sides of the equation."
       ],
       [
         "2/4",
-        "n + 28=67"
-      ],
+        "Solve.\nn + 28 = 67"
+      ], 
       [
         "3/4",
-        "n + 28 - 28=67 - 28 (Subtract 28 from both sides)"
+        "n + 28 - 28 = 67 - 28 (Subtract 28 from both sides)"
       ],
       [
         "4/4",
-        "n=39 (Simplify)"
+        "n = 39 (Simplify)"
       ]
     ]
   },
@@ -272,30 +276,34 @@
     ],
     "solution": [
       [
-        "1/5",
+        "1/6",
+        "To solve for a variable, use inverse operations to undo the operations in the equation.\nBe sure to do the same operation to both sides of the equation."
+      ],
+      [
+        "2/6",
         "Solve. \n6=2 + 2u"
       ],
       [
-        "2/5",
+        "3/6",
         "6 - 2=2 + 2u - 2 (Subtract 2 from both sides)"
       ],
       [
-        "3/5",
+        "4/6",
         "4=2u (Simplify)"
       ],
       [
-        "4/5",
+        "5/6",
         "2u=2 (Divide both sides by 2)"
       ],
       [
-        "5/5",
+        "6/6",
         "2=u (Simplify)"
       ]
     ]
   },
   {
     "skills": "solve-two-step-equations-word-problems",
-    "question_text": "This equation shows how the cost of a corporate team-building event depends on the number of attendees.\nd = a + 9\nThe variable a represents the number of attendees, and the variable d represents the cost in dollars. How many attendees can there be, at most, if the budget for the corporate team-building event is $18?\n ___ attendees",
+    "question_text": "This equation shows how the cost of a corporate team-building event depends on the number of attendees.\nd = a + 9\nThe variable a represents the number of attendees, and the variable d represents the cost in dollars. How many attendees can there be, at most, if the budget for the corporate team-building event is $18?\n___ attendees",
     "tag": "Gr6_35_E1",
     "question_number": "1_1",
     "question_type": "Fill in the blank",
@@ -304,23 +312,19 @@
     ],
     "solution": [
       [
-        "1/5",
+        "1/4",
         "The company has $18 to spend. Plug in d = 18."
       ],
       [
-        "2/5",
-        "d=a + 9"
+        "2/4",
+        "d=a + 9\n18=a + 9 (Plug in d = 18)"
       ],
       [
-        "3/5",
-        "18=a + 9 (Plug in d = 18)"
-      ],
-      [
-        "4/5",
+        "3/4",
         "9=a (Subtract 9 from both sides)"
       ],
       [
-        "5/5",
+        "4/4",
         "If the budget for the corporate team-building event is $18, there can be at most 9 attendees."
       ]
     ]
@@ -365,36 +369,44 @@
     ],
     "solution": [
       [
-        "1/2",
-        "Plug j = 10 into the inequality.\n$j<11$\n$10<11$"
+        "1/3",
+        "Plug j = 10 into the inequality.\n$j<11$"
       ],
       [
-        "2/2",
+        "2/3",
+        "$10<11$ (Plug in j = 10)"
+      ],
+      [
+        "3/3",
         "It is true that $10 < 11$. So, j = 10 is a solution."
       ]
     ]
   },
   {
     "skills": "write-inequalities-from-number-lines",
-    "question_text": "What inequality does this number line show?\nWrite your answer starting with $x$ without spaces (for example, $x<3$).",
+    "question_text": "What inequality does this number line show?\nWrite your answer starting with $x$ without spaces (for example, $x<3$).\n___",
     "image_tag": "Gr6_35_4_1",
     "tag": "Gr6_35_E4",
     "question_number": "4_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "x<36"
+      "x<6"
     ],
     "solution": [
       [
-        "1/3",
+        "1/4",
+        "A filled-in circle includes the number it is located on.\An open circle does not include the number it is located on."
+      ],
+      [
+        "2/4",
         "We want to write an inequality that says $x$ can be anything shown by the arrow and circle."
       ],
       [
-        "2/3",
+        "3/4",
         "The open circle located on 6 means that $x$ cannot be equal to 6. The arrow pointing to the left means that $x$ can be any number less than 6."
       ],
       [
-        "3/3",
+        "4/4",
         "Since $x$ can be any number less than 6, the inequality is $x<6$."
       ]
     ]
@@ -410,11 +422,15 @@
     ],
     "solution": [
       [
-        "1/2",
+        "1/3",
+        "To solve for a variable, use inverse operations to undo the operations in the inequality.\nBe sure to do the same operation to both sides of the inequality."
+      ],
+      [
+        "2/3",
         "The variable $r$ is already alone on the left side of the inequality. Simplify the right side of the inequality."
       ],
       [
-        "2/2",
+        "3/3",
         "$r<5+5$ \n$r<10$ (Simplify the right side of the inequality)"
       ]
     ]
@@ -430,23 +446,27 @@
     ],
     "solution": [
       [
-        "1/5",
+        "1/6",
+        "To solve for a variable, use inverse operations to undo the operations in the inequality.\nBe sure to do the same operation to both sides of the inequality."
+      ],
+      [
+        "2/6",
         "Solve. \n$2y + 4 > 10$"
       ],
       [
-        "2/5",
+        "3/6",
         "$2y + 4 - 4 > 10 - 4$ (Subtract 4 from both sides)"
       ],
       [
-        "3/5",
+        "4/6",
         "$2y > 6$ (Simplify)"
       ],
       [
-        "4/5",
+        "5/6",
         "$\\frac{2y}{2} > \\frac{6}{2}$ (Divide both sides by 2)"
       ],
       [
-        "5/5",
+        "6/6",
         "$y > 3$ (Simplify)"
       ]
     ]
@@ -466,7 +486,11 @@
     ],
     "solution": [
       [
-        "1/1",
+        "1/2",
+        "A random variable is discrete if the set of values it takes is finite, or can be organized as a list.\nA continuous random variable is not discrete and can vary continuously, or, in other words, can take any value in an interval."
+      ],
+      [
+        "2/2",
         "Z is a discrete random variable. The number of classes a student is taking is always a whole number."
       ]
     ]
