@@ -49,7 +49,7 @@
   },
   {
     "skills": "division-patterns-over-increasing-place-values",
-    "question_text": "Complete the pattern:\n\n\n8 \u00f7 4 = _\n80 \u00f7 4 = _\n800 \u00f7 4 = _\n8000 \u00f7 4 = _",
+    "question_text": "Complete the pattern:\n\n\n8 ÷ 4 = _\n80 ÷ 4 = _\n800 ÷ 4 = _\n8000 ÷ 4 = _",
     "question_type": "Fill in the blank",
     "tag": "Gr4_40_E3",
     "correct_answers": [
@@ -61,11 +61,11 @@
     "solution": [
       [
         "1/1",
-        "First, divide. What do we get when we divide 8 by 4? \n\n\n8 ones \u00f7 4 = 2 ones\n8 \u00f7 4 = 2"
+        "First, divide. What do we get when we divide 8 by 4? \n\n\n8 ones ÷ 4 = 2 ones\n8 ÷ 4 = 2"
       ],
       [
         "2/2",
-        "Now complete the pattern:\n\n\n8 tens \u00f7 4 = 2 tens\n80 \u00f7 4 = 20\n\n8 hundreds \u00f7 4 = 2 hundreds\n800 \u00f7 4 = 200\n\n8 thousands \u00f7 4 = 2 thousands\n8000 \u00f7 4 = 2000."
+        "Now complete the pattern:\n\n\n8 tens ÷ 4 = 2 tens\n80 ÷ 4 = 20\n\n8 hundreds ÷ 4 = 2 hundreds\n800 ÷ 4 = 200\n\n8 thousands ÷ 4 = 2 thousands\n8000 ÷ 4 = 2000."
       ]
     ],
     "solution_image_tag": [],
@@ -140,7 +140,10 @@
   {
     "skills": "compare-number-patterns",
     "question_text": "Compare pattern A to pattern B.\n\nWhich statement is true?",
-    "image_tag": "Gr4_41_2_1",
+    "image_tag": {
+      "tag": "Gr4_41_2_1",
+      "backend_description": "The image displays a mathematical comparison table with two horizontal patterns labeled Pattern A and Pattern B. The table has a clean, educational design with a bright cyan-blue header column on the left side. The top row shows 'Pattern A' with the rule 'add 4' written below it in white text. Pattern A contains the sequence: 8, 12, 16, 20 - each number increasing by 4. The bottom row shows 'Pattern B' with the rule 'add 1' written below it in white text. Pattern B contains the sequence: 2, 3, 4, 5 - each number increasing by 1. The numbers are arranged in a grid format with light gray borders separating each cell. The corresponding terms are vertically aligned, making it easy to compare the relationship between Pattern A and Pattern B (where each term in Pattern B equals the corresponding term in Pattern A divided by 4)."
+    },
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_41_E2",
     "choices": [
@@ -157,7 +160,7 @@
       ],
       [
         "2/3",
-        "Read the first statement. This statement is true for all of the corresponding terms.\n8 \u00f7 4 = 2\n12 \u00f7 4 = 3\n16 \u00f7 4 = 4\n20 \u00f7 4 = 5"
+        "Read the first statement. This statement is true for all of the corresponding terms.\n8 ÷ 4 = 2\n12 ÷ 4 = 3\n16 ÷ 4 = 4\n20 ÷ 4 = 5"
       ],
       [
         "3/3",
@@ -206,7 +209,7 @@
     "solution": [
       [
         "1/4",
-        "Let\u2019s look at each answer choice:\n9 - d\nThis means Jerry is losing DVDs, but the question says his mother bought him more, not less."
+        "Let’s look at each answer choice:\n9 - d\nThis means Jerry is losing DVDs, but the question says his mother bought him more, not less."
       ],
       [
         "2/4",
@@ -218,7 +221,7 @@
       ],
       [
         "4/4",
-        "9 \u00d7 d\nThis means Jerry\u2019s DVDs would multiply, which isn\u2019t what\u2019s happening. His mother isn\u2019t giving him double or triple the DVDs."
+        "9 × d\nThis means Jerry’s DVDs would multiply, which isn’t what’s happening. His mother isn’t giving him double or triple the DVDs."
       ]
     ],
     "solution_image_tag": [],
@@ -245,7 +248,7 @@
       ],
       [
         "2/2",
-        "So, if we multiply the number of boxes by the number of toys in each box, we should get the total number of toys.\nThat means: 7 \u00d7 t = 42.\nThis equation shows: 7 boxes, with t toys in each one, equals 42 toys in total."
+        "So, if we multiply the number of boxes by the number of toys in each box, we should get the total number of toys.\nThat means: 7 × t = 42.\nThis equation shows: 7 boxes, with t toys in each one, equals 42 toys in total."
       ]
     ],
     "solution_image_tag": [],
@@ -329,7 +332,7 @@
       ],
       [
         "2/2",
-        "j \u00f7 2 x 2 = 2 x 2\n\nj = 4 (Simplify)."
+        "j ÷ 2 x 2 = 2 x 2\n\nj = 4 (Simplify)."
       ]
     ],
     "solution_image_tag": [],
@@ -412,28 +415,34 @@
     "solution_image_tag": [
       [
         "1/4",
-        "Gr4_43_3_1_solution_step_1"
+        "Gr4_43_3_1_solution_step_1",
+        "A line graph titled 'Pizzas delivered' showing pizza delivery data over a week. The x-axis shows days from Sunday to Saturday, and the y-axis shows the number of pizzas from 5 to 10. The blue line connects data points showing: Sunday (8), Monday (7), Tuesday (10), Wednesday (5), Thursday (9), Friday (10), and Saturday (5)."
       ],
       [
         "2/4",
-        "Gr4_43_3_1_solution_step_2"
+        "Gr4_43_3_1_solution_step_2",
+        "A stem-and-leaf plot titled 'Pages per magazine'. The stem column shows values from 6 to 14, and the leaf column shows: Stem 9: leaves 2, 4, 4; Stem 12: leaf 1; Stem 13: leaf 8. This represents data values like 92, 94, 94, 121, and 138."
       ],
       [
         "3/4",
-        "Gr4_43_3_1_solution_step_3"
+        "Gr4_43_3_1_solution_step_3",
+        "A horizontal bar graph titled 'Candy production' showing candy production by different companies. The x-axis shows number of pieces of candy from 0 to 1000, and the y-axis lists four companies: Sugary Candies: approximately 200 pieces (green bar), Goodman Candies: approximately 200 pieces (blue bar), Candy by Katie: approximately 150 pieces (orange bar), Tasty Treats: approximately 700 pieces (purple bar)."
       ],
       [
         "4/4",
-        "Gr4_43_3_1_solution_step_4"
+        "Gr4_43_3_1_solution_step_4",
+        "A pictograph titled 'Patents filed' showing patent data for four companies. Each red pin/marker symbol represents 5 patents: Greenways: 2 symbols (10 patents), Upward Technologies: 5 symbols (25 patents), Moreland Research: 7 symbols (35 patents), Pharmacon Corporation: 2 symbols (10 patents). The key at the bottom indicates that each pin symbol equals 5 patents."
       ]
     ],
-    "question_number": "3_1",
-    "backend_description": "Image 1 shows a line graph. Image 2 shows a stem-and-leaf graph. Image 3 shows a bar graph. Image 4 shows a pictograph.\nQuestion: Which type of graph would best show the number of students who earned extra credit each day this week?\nAnswer: line graph"
+    "question_number": "3_1"
   },
   {
     "skills": "create-frequency-charts",
     "question_text": "It's Miranda's first time going to the East Coast! She is unsure of how she should travel and asks her friends for advice. She records their responses in the table.\nUse the data to answer the following\nCar's Frequency: _\nPlane's Frequency: _\nTrain's Frequency: _",
-    "image_tag": "Gr4_43_4_1",
+    "image_tag": {
+      "tag": "Gr4_43_4_1",
+      "backend_description": "A simple data table with a purple header titled 'Mode of transportation'. The table has 3 rows and 4 columns displaying different transportation modes (train, car, plane) in a grid pattern. The table has a clean, minimalist design with black text on a white background and clear cell borders."
+    },
     "question_type": "Fill in the blank",
     "tag": "Gr4_43_E4",
     "correct_answers": [
@@ -457,7 +466,10 @@
   {
     "skills": "create-stem-and-leaf-plots",
     "question_text": "The following sequence represents the number of floors per building in the downtown area:\n10, 18, 19, 20, 20, 31, 34, 36, 38, 41, 43, 45, 48, 49, 50, 50, 53, 57, 57, 58, 58.\nUse this sequence to complete the stem-and-leaf plot.",
-    "image_tag": "Gr4_44_1_1",
+    "image_tag": {
+      "tag": "Gr4_44_1_1",
+      "backend_description": "A stem-and-leaf plot with a magenta/pink header reading 'Floors per building'. The plot is organized with 'Stem' and 'Leaf' column headers, showing data for stems 1-5. The data shows building floor counts distributed across different stems, with stem 5 having the most values (0, 0, 3, 7, 7, 7, 8, 8)."
+    },
     "question_type": "Fill in the blank",
     "tag": "Gr4_44_E1",
     "correct_answers": [
@@ -476,7 +488,8 @@
     "solution_image_tag": [
       [
         "2/2",
-        "Gr4_44_1_1_solution_step_2"
+        "Gr4_44_1_1_solution_step_2",
+        "A stem-and-leaf plot showing 'Floors per building' data. The plot has two columns labeled 'Stem' and 'Leaf'. The data is organized with stems 1-5 on the left, and corresponding leaf values on the right: Stem 1: Leaves 0, 8, 9; Stem 2: Leaves 0, 0; Stem 3: Leaves 1, 4, 6, 8; Stem 4: Leaves 1, 3, 5, 8, 9; Stem 5: Leaves 0, 0, 3, 7, 7, 7, 8, 8."
       ]
     ],
     "question_number": "1_1"
@@ -525,7 +538,7 @@
       ],
       [
         "3/3",
-        "Now add all the numbers together:\n\n\n1 + 1 + 3 + 5 + 2 + 9 + 4 + 7 = 32\n\nNow divide the sum by the number of data points:\n\n\n32 \u00f7 8 = 4\n\nThe mean is 4."
+        "Now add all the numbers together:\n\n\n1 + 1 + 3 + 5 + 2 + 9 + 4 + 7 = 32\n\nNow divide the sum by the number of data points:\n\n\n32 ÷ 8 = 4\n\nThe mean is 4."
       ]
     ],
     "solution_image_tag": [],
@@ -559,7 +572,10 @@
   {
     "skills": "interpret-line-plots-to-find-the-mode",
     "question_text": "Some students spun a wheel that had numbers from 0 to 5 on it. What is the mode of the numbers?\n\n",
-    "image_tag": "Gr4_45_1_1",
+    "image_tag": {
+      "tag": "Gr4_45_1_1",
+      "backend_description": "A line plot titled 'Spinning a wheel numbered 0 through 5' in black text. It features a horizontal number line from 0 to 5 with arrows on both ends. Blue X marks are plotted above the line showing frequency of spins, with multiple X's stacked vertically at positions 1, 2, 3, and 4, and a single X at position 5."
+    },
     "question_type": "Fill in the blank",
     "tag": "Gr4_45_E1",
     "correct_answers": [
@@ -585,7 +601,10 @@
   {
     "skills": "interpret-line-plots-to-find-the-mean",
     "question_text": "The plot below represents the number of poems written in a conttest. What is the mean of the numbers?\n\n",
-    "image_tag": "Gr4_45_2_1",
+    "image_tag": {
+      "tag": "Gr4_45_2_1",
+      "backend_description": "A line plot titled 'Writing poems' showing the distribution of poems written from 1 to 6. Green X marks are stacked vertically above each number on the horizontal axis. The highest frequency appears at position 5 with 4 X marks, while positions 1 and 3 each have 1 X mark."
+    },
     "question_type": "Fill in the blank",
     "tag": "Gr4_45_E2",
     "correct_answers": [
@@ -602,7 +621,7 @@
       ],
       [
         "3/3",
-        "Now divide the sum by the number of numbers:\n\n\n56 \u00f7 14 = 4\n\nThe mean is 4."
+        "Now divide the sum by the number of numbers:\n\n\n56 ÷ 14 = 4\n\nThe mean is 4."
       ]
     ],
     "solution_image_tag": [],
@@ -611,7 +630,10 @@
   {
     "skills": "interpret-line-plots-to-find-the-median",
     "question_text": "The plot below represents the stories written among a group of authors. What is the median of the numbers?\n\n",
-    "image_tag": "Gr4_45_3_1",
+    "image_tag": {
+      "tag": "Gr4_45_3_1",
+      "backend_description": "A line plot titled 'Writing stories' showing data with blue X marks on a number line from 1 to 6. The X marks are distributed with 2 at position 1, 2 at position 2, 3 at position 3, 2 at position 4, and 2 at position 5."
+    },
     "question_type": "Fill in the blank",
     "tag": "Gr4_45_E3",
     "correct_answers": [
@@ -637,7 +659,10 @@
   {
     "skills": "interpret-charts-to-find-mean-and-mode",
     "question_text": "A crayon factory monitored the number of broken crayons per box during the past day. What is the mean of the numbers?\n_",
-    "image_tag": "Gr4_45_4_1",
+    "image_tag": {
+      "tag": "Gr4_45_4_1",
+      "backend_description": "A compact stem-and-leaf plot titled 'Broken crayons per box' showing data for stems 2-5. The leaf values show the distribution of broken crayons, with stem 3 having values 2, 3, 4, 7, 8 and stem 4 having values 0, 2, 3, 3, 5, 5."
+    },
     "question_type": "Fill in the blank",
     "tag": "Gr4_45_E4",
     "correct_answers": [
@@ -654,7 +679,7 @@
       ],
       [
         "3/3",
-        "Now add all the numbers together:\n\n24 + 32 + 33 + 34 + 37 + 38 + 40 + 42 + 43 + 43 + 45 + 45 + 51 = 507\n\nNow divide the sum by the number of numbers:\n\n\n507 \u00f7 13 = 39\n\nThe mean is 39."
+        "Now add all the numbers together:\n\n24 + 32 + 33 + 34 + 37 + 38 + 40 + 42 + 43 + 43 + 45 + 45 + 51 = 507\n\nNow divide the sum by the number of numbers:\n\n\n507 ÷ 13 = 39\n\nThe mean is 39."
       ]
     ],
     "solution_image_tag": [],
@@ -663,7 +688,10 @@
   {
     "skills": "interpret-charts-to-find-mean-and-mode",
     "question_text": "The parks department compared how many basketball hoops there are at each park. What is the mode of the numbers?\n_",
-    "image_tag": "Gr4_45_4_2",
+    "image_tag": {
+      "tag": "Gr4_45_4_2",
+      "backend_description": "A large table with a peach-colored header titled 'Basketball hoops'. The table lists 8 different parks with their basketball hoop counts shown using purple tally marks. Each group of 5 is shown with 4 vertical lines and 1 diagonal line crossing them. Crestview Park and Palm Park have 15 hoops each, while Otter Park and Linden Park have the least with 8 hoops each."
+    },
     "question_type": "Fill in the blank",
     "tag": "Gr4_45_E4",
     "correct_answers": [
@@ -697,7 +725,10 @@
   {
     "skills": "interpret-charts-to-find-mean-and-mode",
     "question_text": "Clara wrote down how many pages she read over the past 7 days. What is the mode of the numbers?\n_",
-    "image_tag": "Gr4_45_4_3",
+    "image_tag": {
+      "tag": "Gr4_45_4_3",
+      "backend_description": "A horizontal bar chart titled 'Pages read' showing reading data for each day of the week. Each day has a colored bar extending to show the number of pages read (scale 0-100). Wednesday (purple), Sunday (pink), and Monday (blue) show the longest bars reaching about 100 pages, while Thursday (yellow) and Friday (orange) show medium-length bars around 60 pages."
+    },
     "question_type": "Fill in the blank",
     "tag": "Gr4_45_E4",
     "correct_answers": [
@@ -727,7 +758,10 @@
   {
     "skills": "interpret-charts-to-find-mean-and-mode",
     "question_text": "A farm equipment company kept a record of the number of tractors made each month. What is the mean of the numbers?\n_",
-    "image_tag": "Gr4_45_4_4",
+    "image_tag": {
+      "tag": "Gr4_45_4_4",
+      "backend_description": "A data table with a purple header 'Tractors made' showing monthly tractor production from May to December. The table has two columns: 'Month' and 'Number of tractors'. December shows the highest production (54 tractors) while November shows the lowest (34 tractors)."
+    },
     "question_type": "Fill in the blank",
     "tag": "Gr4_45_E4",
     "correct_answers": [
@@ -761,7 +795,10 @@
   {
     "skills": "interpret-charts-to-find-mean-and-mode",
     "question_text": "Mr. McLean's art class counted the number of finger puppets they had made. What is the mean of the numbers?\n_",
-    "image_tag": "Gr4_45_4_5",
+    "image_tag": {
+      "tag": "Gr4_45_4_5",
+      "backend_description": "A line plot titled 'Making finger puppets' with a horizontal number line from 0 to 6. Green X marks show the frequency distribution, with 1 X at position 0, 2 X's at position 1, 3 X's at position 2, 2 X's at position 3, 3 X's at position 4, and 2 X's at position 5."
+    },
     "question_type": "Fill in the blank",
     "tag": "Gr4_45_E4",
     "correct_answers": [
@@ -795,7 +832,10 @@
   {
     "skills": "interpret-charts-to-find-mean-and-mode",
     "question_text": "Abigail recalled how many minutes she had spent at choir rehearsal in the past 7 days. What is the mode of the numbers?\n_",
-    "image_tag": "Gr4_45_4_6",
+    "image_tag": {
+      "tag": "Gr4_45_4_6",
+      "backend_description": "A line graph showing rehearsal time across a week. The graph has a light gray grid background with the y-axis labeled 'Minutes' (ranging from 0 to 100 in increments of 10) and the x-axis labeled 'Day' (showing Wednesday through Tuesday). The data is plotted with purple dots connected by purple lines. The pattern shows: Wednesday: 50 minutes, Thursday: 100 minutes (peak), Friday: 50 minutes, Saturday: 100 minutes (second peak), Sunday: 20 minutes (sharp drop), Monday: 20 minutes (remains low), Tuesday: 20 minutes (stays constant)."
+    },
     "question_type": "Fill in the blank",
     "tag": "Gr4_45_E4",
     "correct_answers": [
@@ -829,7 +869,10 @@
   {
     "skills": "read-a-table",
     "question_text": "The table shows the result of a poll asking students about their favourite vegetables in order to decide which ones to plant in the new school garden.\nHow many more students voted for celery than carrots?\n\n\n _ students",
-    "image_tag": "Gr4_46_1_1",
+    "image_tag": {
+      "tag": "Gr4_46_1_1",
+      "backend_description": "A table with a pale yellow background showing vegetable preferences among students. The table has three columns: 'Vegetable' (listing Spinach, Carrots, Onions, Celery), 'Lower elementary students', and 'Upper elementary students'. The data shows: Spinach: 17 (lower), 18 (upper); Carrots: 13 (lower), 4 (upper); Onions: 14 (lower), 6 (upper); Celery: 11 (lower), 10 (upper)."
+    },
     "question_type": "Fill in the blank",
     "tag": "Gr4_46_E1",
     "correct_answers": [
@@ -851,7 +894,10 @@
   {
     "skills": "interpret-bar-graphs",
     "question_text": "Lance graphed the amount of snow that fell in the last 4 days. What was the snowfall on Thursday?\n _ inches",
-    "image_tag": "Gr4_46_2_1",
+    "image_tag": {
+      "tag": "Gr4_46_2_1",
+      "backend_description": "A bar graph showing snowfall measurements over four days. The y-axis shows 'Snowfall (inches)' from 0 to 10 with an upward arrow at 10. The x-axis shows days from Wednesday to Saturday. Each bar is a different color: Wednesday: Orange bar at 8 inches, Thursday: Light green bar at 4 inches, Friday: Pink/magenta bar at 10 inches, Saturday: Coral/salmon bar at 9 inches."
+    },
     "question_type": "Fill in the blank",
     "tag": "Gr4_46_E2",
     "correct_answers": [
@@ -874,7 +920,8 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr4_46_2_1_solution_step_1"
+        "Gr4_46_2_1_solution_step_1",
+        "A bar graph titled 'Daily snowfall' showing snowfall amounts in inches across four days. The y-axis shows snowfall from 0-10 inches, and the x-axis shows days of the week. The bars show: Wednesday: ~8 inches (salmon/orange colored bar), Thursday: ~4 inches (green colored bar), Friday: ~10 inches (purple/pink colored bar), Saturday: ~9 inches (salmon/orange colored bar)."
       ]
     ],
     "question_number": "2_1"
@@ -882,7 +929,10 @@
   {
     "skills": "interpret-double-bar-graphs",
     "question_text": "A real estate agent tracked the number of homes recently sold in each of the nearby cities she served.\n\nWhich bar graph shows the same data?",
-    "image_tag": "Gr4_46_3_1",
+    "image_tag": {
+      "tag": "Gr4_46_3_1",
+      "backend_description": "A table with a green header showing real estate data. The table compares homes sold in different cities across two years with columns for City, 2006, and 2007. Data shows: New Hamburg: 80 (2006), 70 (2007); Briggs Corner: 100 (2006), 90 (2007); Fremont: 80 (2006), 30 (2007)."
+    },
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_46_E3",
     "image_choice_tags": [
@@ -909,15 +959,18 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr4_46_3_1_solution_step_1"
+        "Gr4_46_3_1_solution_step_1",
+        "A green-themed data table titled 'Homes sold' showing real estate data for three cities across two years: New Hamburg: 80 homes (2006), 70 homes (2007); Briggs Corner: 100 homes (2006), 90 homes (2007); Fremont: 80 homes (2006), 30 homes (2007)."
       ],
       [
         "2/3",
-        "Gr4_46_3_1_solution_step_2"
+        "Gr4_46_3_1_solution_step_2",
+        "A grouped bar chart titled 'Homes sold' displaying the same data from the table above. Each city has two bars - orange for one year and green for another. The y-axis shows number of homes from 0-100, and the x-axis shows the three cities."
       ],
       [
         "3/3",
-        "Gr4_46_3_1_solution_step_3"
+        "Gr4_46_3_1_solution_step_3",
+        "The same grouped bar chart as step 2, with slightly adjusted bar heights, particularly noticeable in the Briggs Corner orange bar which now reaches 100."
       ]
     ],
     "question_number": "3_1"
@@ -925,7 +978,10 @@
   {
     "skills": "interpret-double-bar-graphs",
     "question_text": "A real estate agent tracked the number of homes recently sold in each of the nearby cities she served.\n\nWhich bar graph shows the same data?",
-    "image_tag": "Gr4_46_3_2",
+    "image_tag": {
+      "tag": "Gr4_46_3_2",
+      "backend_description": "A grouped bar chart showing batting performance for three players. The y-axis shows 'Pitch' count from 0 to 100, and the x-axis shows 'Players' (First baseman, Right fielder, Third baseman). Each player has two bars: Green bars represent 'hit' and Blue bars represent 'miss'. Data shows: First baseman: 60 hits, 30 misses; Right fielder: 80 hits, 40 misses; Third baseman: 40 hits, 70 misses."
+    },
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_46_E3",
     "image_choice_tags": [
@@ -952,15 +1008,18 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr4_46_3_2_solution_step_1"
+        "Gr4_46_3_2_solution_step_1",
+        "A grouped bar chart titled 'Baseball batting practice' showing hits (green) and misses (blue) for three players: First baseman: 60 hits, 30 misses; Right fielder: 80 hits, 40 misses; Third baseman: 40 hits, 70 misses. The y-axis shows pitch count from 0-100."
       ],
       [
         "2/3",
-        "Gr4_46_3_2_solution_step_2"
+        "Gr4_46_3_2_solution_step_2",
+        "A purple-themed data table showing the same baseball batting practice data: First baseman: 60 hits, 50 misses (note: different from the graph); Right fielder: 80 hits, 40 misses; Third baseman: 40 hits, 70 misses."
       ],
       [
         "3/3",
-        "Gr4_46_3_2_solution_step_3"
+        "Gr4_46_3_2_solution_step_3",
+        "An orange-themed data table showing corrected baseball batting practice data: First baseman: 60 hits, 30 misses; Right fielder: 80 hits, 40 misses; Third baseman: 40 hits, 70 misses."
       ]
     ],
     "question_number": "3_2"
@@ -968,7 +1027,10 @@
   {
     "skills": "interpret-frequency-charts",
     "question_text": "For a math assignment, students noted the number of times a wheel landed on the numbers 0 through 5.\nHow many students spun a number less than 2?\n\n",
-    "image_tag": "Gr4_46_4_1",
+    "image_tag": {
+      "tag": "Gr4_46_4_1",
+      "backend_description": "A frequency table with a light purple header. The table shows the results of spinning a numbered wheel with columns 'Number spun' (0 through 5) and 'Frequency'. Results: 0→9, 1→11, 2→17, 3→8, 4→12, 5→5."
+    },
     "question_type": "Fill in the blank",
     "tag": "Gr4_46_E4",
     "correct_answers": [
@@ -990,7 +1052,10 @@
   {
     "skills": "interpret-stem-and-leaf-plots",
     "question_text": "The employees at Linda's Construction monitored the number of cracked window panes in each shipment they received.\nHow many shipments had at least 50 cracked window panes but less than 90 cracked window panes?",
-    "image_tag": "Gr4_47_1_1",
+    "image_tag": {
+      "tag": "Gr4_47_1_1",
+      "backend_description": "A stem-and-leaf plot showing the distribution of cracked window panes. The stem column shows values 3-8, and the leaf column shows: 3|6, 4|6, 5|1 2 4 4 5 7, 6|5 5 7 8, 7|7, 8|1 3 6."
+    },
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_47_E1",
     "choices": [
@@ -1019,7 +1084,8 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr4_47_1_1_solution_step_1"
+        "Gr4_47_1_1_solution_step_1",
+        "A stem-and-leaf plot titled 'Cracked window panes per shipment' with stems 3-8 and their corresponding leaves. Blue numbers indicate specific data points: Stem 3: Leaf 6; Stem 4: Leaf 6; Stem 5: Leaves 1, 2, 4, 4, 5, 7; Stem 6: Leaves 5, 5, 7, 8; Stem 7: Leaf 7; Stem 8: Leaves 1, 3, 6."
       ]
     ],
     "question_number": "1_1"
@@ -1027,7 +1093,10 @@
   {
     "skills": "certain-probable-unlikely-and-impossible",
     "question_text": "If you select a marble without looking, how likely is it that you will pick a black one?",
-    "image_tag": "Gr4_47_2_1",
+    "image_tag": {
+      "tag": "Gr4_47_2_1",
+      "backend_description": "Four circles arranged in a cluster. Three circles are pink/rose colored, and one circle (positioned on the left) is black. All circles appear to be the same size."
+    },
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_47_E2",
     "choices": [
@@ -1064,7 +1133,10 @@
     "skills": "understanding-probability",
     "question_text": "On which colour is the spinner more likely to land?",
     "question_type": "Multiple Choice Question with Single Answer",
-    "image_tag": "Gr4_47_3_1",
+    "image_tag": {
+      "tag": "Gr4_47_3_1",
+      "backend_description": "A circular pie chart divided into two sections. The larger section (approximately 75% of the circle) is colored pink, while the smaller section (approximately 25%) is white. There's a small arrow or pointer indicating the division between the two sections."
+    },
     "tag": "Gr4_47_E3",
     "choices": [
       "white",
@@ -1089,7 +1161,10 @@
   {
     "skills": "identify-rectangles",
     "question_text": "How many right angles does this quadrilateral have?\nIs the quadrilateral a rectangle?",
-    "image_tag": "Gr4_47_4_1",
+    "image_tag": {
+      "tag": "Gr4_47_4_1",
+      "backend_description": "An orange/red outlined rectangle with small squares positioned at each of its four corners. The rectangle itself is empty (white interior), and the corner squares are also outlined in the same orange/red color."
+    },
     "question_type": "Multiplce Choice and Fill in the blank",
     "tag": "Gr4_47_E4",
     "choices": [
@@ -1116,7 +1191,10 @@
   {
     "skills": "objects-on-a-coordinate-plane",
     "question_text": "What is the x-coordinate of the yellow pentagon?\n\nx-coordinate: _",
-    "image_tag": "Gr4_48_1_1",
+    "image_tag": {
+      "tag": "Gr4_48_1_1",
+      "backend_description": "A coordinate grid with x-axis ranging from 0 to 10 and y-axis ranging from 0 to 10. Two shapes are plotted on the grid: A pink/magenta square positioned at coordinates (4, 1) and a yellow pentagon positioned at coordinates (10, 2). The grid has gray lines forming squares, making it easy to identify exact coordinates."
+    },
     "question_type": "Fill in the blank",
     "tag": "Gr4_48_E1",
     "correct_answers": [
@@ -1135,7 +1213,8 @@
     "solution_image_tag": [
       [
         "1/2",
-        "Gr4_48_1_1_solution_step_1"
+        "Gr4_48_1_1_solution_step_1",
+        "A coordinate plane showing two shapes connected by a dashed orange line: A gray square positioned at approximately (4, 1) and a yellow pentagon positioned at approximately (10, 2). The dashed line indicates a transformation or movement between the shapes."
       ]
     ],
     "question_number": "1_1"
@@ -1143,7 +1222,10 @@
   {
     "skills": "follow-directions-on-a-coordinate-plane",
     "question_text": "You start at (1, 2). You move left 1 unit. Where do you end?\n\n(_,_)",
-    "image_tag": "Gr4_48_2_1",
+    "image_tag": {
+      "tag": "Gr4_48_2_1",
+      "backend_description": "A blank coordinate grid with x-axis ranging from 0 to 10 and y-axis ranging from 0 to 10. The grid is empty with no shapes or points plotted on it. It appears to be a template for students to plot their own points or shapes."
+    },
     "question_type": "Fill in the blank",
     "tag": "Gr4_48_E2",
     "correct_answers": [
@@ -1167,11 +1249,13 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr4_48_2_1_solution_step_1"
+        "Gr4_48_2_1_solution_step_1",
+        "A coordinate plane (10x10 grid) with a single red dot plotted at position (1, 2)."
       ],
       [
         "2/3",
-        "Gr4_48_2_1_solution_step_2"
+        "Gr4_48_2_1_solution_step_2",
+        "A coordinate plane (10x10 grid) showing a horizontal line segment with two red dots at positions (0, 2) and (1, 2), connected by a red line."
       ]
     ],
     "question_number": "2_1"
@@ -1179,7 +1263,10 @@
   {
     "skills": "reflection-rotation-and-translation",
     "question_text": "How has this figure been transformed?\n\n\n\n\nIt has been...",
-    "image_tag": "Gr4_48_3_1",
+    "image_tag": {
+      "tag": "Gr4_48_3_1",
+      "backend_description": "A transformation of the letter 'J' on two small grids side by side, connected by a right-pointing arrow. On the left grid, there's a pink/magenta letter 'J' in one position, and on the right grid, the same 'J' has been translated (moved) to a different position on the grid, demonstrating a slide transformation."
+    },
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_48_E3",
     "choices": [
@@ -1193,7 +1280,7 @@
     "solution": [
       [
         "1/1",
-        "This is a translation. The letter didn\u2019t flip or turn, it stayed facing the same way. The letter has been translated down and left."
+        "This is a translation. The letter didn’t flip or turn, it stayed facing the same way. The letter has been translated down and left."
       ]
     ],
     "solution_image_tag": [],
@@ -1202,7 +1289,10 @@
   {
     "skills": "reflection-rotation-and-translation",
     "question_text": "How has this figure been transformed?\n\n\n\n\nIt has been...",
-    "image_tag": "Gr4_48_4_2",
+    "image_tag": {
+      "tag": "Gr4_48_4_2",
+      "backend_description": "A transformation of the letter 'Q' on two grids side by side, connected by a right-pointing arrow. The left grid shows a blue letter 'Q' in one position, and the right grid shows the same 'Q' rotated 90 degrees clockwise, demonstrating a rotation transformation."
+    },
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_48_E4",
     "choices": [
@@ -1225,7 +1315,10 @@
   {
     "skills": "reflection-rotation-and-translation",
     "question_text": "How has this figure been transformed?\n\n\n\n\nIt has been...",
-    "image_tag": "Gr4_49_1_3",
+    "image_tag": {
+      "tag": "Gr4_49_1_3",
+      "backend_description": "A transformation of the letter 'F' on two grids side by side, connected by a right-pointing arrow. The left grid shows a purple letter 'F' in one position, and the right grid shows the same 'F' flipped horizontally (reflected), creating a mirror image of the original letter."
+    },
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_49_E1",
     "choices": [
@@ -1239,7 +1332,7 @@
     "solution": [
       [
         "1/1",
-        "This is a reflection. The letter didn\u2019t slide or turn, it flipped. The letter has been reflected horizontally."
+        "This is a reflection. The letter didn’t slide or turn, it flipped. The letter has been reflected horizontally."
       ]
     ],
     "solution_image_tag": [],
@@ -1324,7 +1417,10 @@
   {
     "skills": "compare-units-of-volume",
     "question_text": "Which is more, 1085 mililitres or 1 litre?",
-    "image_tag": "Gr4_49_4_1",
+    "image_tag": {
+      "tag": "Gr4_49_4_1",
+      "backend_description": "A simple text display showing '1085 millilitres' - this appears to be an answer or measurement value."
+    },
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_49_E4",
     "choices": [
@@ -1439,7 +1535,10 @@
   {
     "skills": "elapsed-time",
     "question_text": "Look at this clock. What time will it be in eleven hours and forty-five minutes?",
-    "image_tag": "Gr4_51_1_1",
+    "image_tag": {
+      "tag": "Gr4_51_1_1",
+      "backend_description": "An analog clock face with a blue rim. The clock shows 12:00 (noon or midnight), with both the hour hand and minute hand pointing straight up at the 12. The clock has all numbers from 1-12 clearly marked around the face."
+    },
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_51_E1",
     "image_choice_tags": [
@@ -1470,7 +1569,8 @@
     "solution_image_tag": [
       [
         "4/4",
-        "Gr4_51_1_1_solution_step_4"
+        "Gr4_51_1_1_solution_step_4",
+        "An analog clock face with blue rim showing the time 11:45. The hour hand points between 11 and 12, and the minute hand points to 9. Black arrows on the clock hands emphasize their positions."
       ]
     ],
     "question_number": "1_1"
@@ -1511,7 +1611,10 @@
     "question_text": "Is this angle acute, right, obtuse, or straight?",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_51_E3",
-    "image_tag": "Gr4_51_3_1",
+    "image_tag": {
+      "tag": "Gr4_51_3_1",
+      "backend_description": "A green angle drawn with two rays extending from a common vertex. One ray points diagonally upward to the right, and the other ray points straight down, forming an acute angle. The angle appears to be less than 90 degrees."
+    },
     "choices": [
       "acute",
       "right",
@@ -1524,7 +1627,7 @@
     "solution": [
       [
         "1/1",
-        "The angle measures less than 90\u00b0. This angle is an acute angle by definition."
+        "The angle measures less than 90°. This angle is an acute angle by definition."
       ]
     ],
     "solution_image_tag": [],
@@ -1533,7 +1636,10 @@
   {
     "skills": "find-the-area-or-missing-side-length-of-a-rectangle",
     "question_text": "What is the area of the rectangle?\n_ square units",
-    "image_tag": "Gr4_51_4_1",
+    "image_tag": {
+      "tag": "Gr4_51_4_1",
+      "backend_description": "An orange/peach colored rectangle with dimensions labeled. The rectangle is 3 units wide and 5 units tall, with these measurements clearly marked on the sides of the rectangle."
+    },
     "question_type": "Fill in the blank",
     "tag": "Gr4_51_E4",
     "correct_answers": [
