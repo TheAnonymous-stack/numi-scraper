@@ -4,7 +4,10 @@
     "question_text": "Choose two numbers from the box to complete the addition sentence.\n_ + _ = 101",
     "question_type": "Fill in the blank",
     "tag": "Gr4_27_E1",
-    "image_tag": "Gr4_27_1_1",
+    "image_tag": {
+      "tag": "Gr4_27_1_1",
+      "backend_description": "A rounded rectangle box with light purple background containing four numbers in purple text: 8, 44, 72, and 93. These are the available numbers to choose from for the addition problem."
+    },
     "correct_answers": [
       "8",
       "93"
@@ -247,7 +250,10 @@
     "question_text": "Choose two numbers from the box to complete the subtraction sentence.\n_ - _ = 17",
     "question_type": "Fill in the blank",
     "tag": "Gr4_29_E2",
-    "image_tag": "Gr4_29_2_1",
+    "image_tag": {
+      "tag": "Gr4_29_2_1",
+      "backend_description": "A rounded rectangle box with light purple background containing four numbers in blue text: 6, 23, 42, and 74. These are the available numbers to choose from for the subtraction problem."
+    },
     "correct_answers": [
       "23",
       "6"
@@ -259,7 +265,7 @@
       ],
       [
         "2/3",
-        "Try 23. What number can you subtract from 23 to get 17?\n23 \u2212 6 = 17\n6 is in the box."
+        "Try 23. What number can you subtract from 23 to get 17?\n23 − 6 = 17\n6 is in the box."
       ],
       [
         "3/3",
@@ -376,7 +382,10 @@
     "question_text": "Choose two numbers from the box to complete the sentence.\n_ and _ have a difference of 0.4.",
     "question_type": "Fill in the blank",
     "tag": "Gr4_30_E2",
-    "image_tag": "Gr4_30_2_1",
+    "image_tag": {
+      "tag": "Gr4_30_2_1",
+      "backend_description": "A rounded rectangle box with light pink background containing four decimal numbers in purple text: 0.7, 0.3, 0.9, and 0.1. These are the available numbers to choose from for finding a difference of 0.4."
+    },
     "correct_answers": [
       "0.7",
       "0.3"
@@ -474,7 +483,10 @@
     "question_text": "Multiply. You can use the model to help.\n6 x 13 = (6 x _) + (6 x 3)\n=_ + 18\n=_",
     "question_type": "Fill in the blank",
     "tag": "Gr4_31_E2",
-    "image_tag": "Gr4_31_2_1",
+    "image_tag": {
+      "tag": "Gr4_31_2_1",
+      "backend_description": "A rectangular grid model showing 6 rows and 13 columns of squares. The grid is divided into two sections: the left section has 10 columns colored in light turquoise/teal, and the right section has 3 columns colored in light yellow/orange. This area model visually represents the multiplication 6 × 13 = 6 × (10 + 3)."
+    },
     "correct_answers": [
       "10",
       "60",
@@ -503,12 +515,18 @@
   },
   {
     "skills": "multiply-1-digit-numbers-by-2-digit-numbers-using-area-models",
-    "question_text": "Which model represents 5\u00d749?",
+    "question_text": "Which model represents 5×49?",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_31_E3",
     "image_choice_tags": [
-      "Gr4_31_3_1_A",
-      "Gr4_31_3_1_B"
+      {
+        "tag": "Gr4_31_3_1_A",
+        "backend_description": "A rectangular area model for multiplication showing a peach-colored rectangle on the left labeled '30' at the top and '5' on the left side, alongside a pink square labeled '9' at the top. This visual representation helps students understand multiplication as area, specifically showing 5 × 39 broken down into 5 × 30 and 5 × 9."
+      },
+      {
+        "tag": "Gr4_31_3_1_B",
+        "backend_description": "An area model showing a peach rectangle labeled '40' at the top and '5' on the side, next to a pink square labeled '9'. This represents the multiplication 5 × 49 using the area model method, breaking it into 5 × 40 and 5 × 9."
+      }
     ],
     "correct_answers": [
       "B"
@@ -578,12 +596,18 @@
   },
   {
     "skills": "multiply-1-digit-numbers-by-3-digit-numbers-using-area-models",
-    "question_text": "Which model represents 4\u00d7392?",
+    "question_text": "Which model represents 4×392?",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_32_E2",
     "image_choice_tags": [
-      "Gr4_32_2_1_A",
-      "Gr4_32_2_1_B"
+      {
+        "tag": "Gr4_32_2_1_A",
+        "backend_description": "A horizontal bar model with three sections from left to right: a turquoise rectangle labeled '300', a peach square labeled '90', and a small pink rectangle labeled '2'. The number '4' appears on the left side. This represents division using the partial quotients method, showing 392 ÷ 4."
+      },
+      {
+        "tag": "Gr4_32_2_1_B",
+        "backend_description": "A bar model showing a turquoise rectangle labeled '100', a peach square labeled '90', and a pink rectangle labeled '2', with '4' on the left side. This represents an alternative approach to the same division problem using partial quotients."
+      }
     ],
     "correct_answers": [
       "A"
@@ -672,10 +696,13 @@
   },
   {
     "skills": "divide-using-arrays",
-    "question_text": "Use the model to complete the division sentence.\n24 \u00f7 5 = 4 R _",
+    "question_text": "Use the model to complete the division sentence.\n24 ÷ 5 = 4 R _",
     "question_type": "Fill in the blank",
     "tag": "Gr4_33_E1",
-    "image_tag": "Gr4_33_1_1",
+    "image_tag": {
+      "tag": "Gr4_33_1_1",
+      "backend_description": "A division model showing 24 purple dots arranged to illustrate 24 ÷ 5. On the left side, there are 4 complete rows of 5 dots each (20 dots total). On the right side, separated by a gap, are 4 remaining dots that cannot form a complete row of 5, representing the remainder."
+    },
     "correct_answers": [
       "4"
     ],
@@ -686,7 +713,7 @@
       ],
       [
         "2/2",
-        "So, 24 \u00f7 5 = 4 with R 4."
+        "So, 24 ÷ 5 = 4 with R 4."
       ]
     ],
     "solution_image_tag": [],
@@ -694,10 +721,13 @@
   },
   {
     "skills": "divide-using-repeated-subtraction",
-    "question_text": "Find 88\u00f78. Use the repeated subtraction shown below. How many times do you need to subtract 8 from 88 to reach 0?\n _ times\nSo, 88 \u00f7 8 = _.",
+    "question_text": "Find 88÷8. Use the repeated subtraction shown below. How many times do you need to subtract 8 from 88 to reach 0?\n _ times\nSo, 88 ÷ 8 = _.",
     "question_type": "Fill in the blank",
     "tag": "Gr4_33_E2",
-    "image_tag": "Gr4_33_2_1",
+    "image_tag": {
+      "tag": "Gr4_33_2_1",
+      "backend_description": "A repeated subtraction model showing the division 88 ÷ 8. The calculation starts with 88 and shows successive subtractions of 8: 88, 80, 72, 64, 56, 48, 40, 32, 24, 16, 8, 0. Each step shows '-8' to the right, demonstrating that 8 is subtracted 11 times to reach 0."
+    },
     "correct_answers": [
       "11",
       "11"
@@ -713,7 +743,7 @@
       ],
       [
         "3/3",
-        "So, 88 \u00f7 8 = 11."
+        "So, 88 ÷ 8 = 11."
       ]
     ],
     "solution_image_tag": [],
@@ -721,7 +751,7 @@
   },
   {
     "skills": "divide-using-the-distributive-property",
-    "question_text": "Find 66\u00f73. Use the distributive property.\n66 \u00f7 3 = (60 \u00f7 3) + (_ \u00f7 3)\n= 20 + _\n= _",
+    "question_text": "Find 66÷3. Use the distributive property.\n66 ÷ 3 = (60 ÷ 3) + (_ ÷ 3)\n= 20 + _\n= _",
     "question_type": "Fill in the blank",
     "tag": "Gr4_33_E3",
     "correct_answers": [
@@ -732,19 +762,19 @@
     "solution": [
       [
         "1/4",
-        "Break apart the number to make it easier to divide. You can think of 66 as 60 + 6. Both 60 and 6 are easy to divide by 3.\n66 \u00f7 3 =\n(60+6)\u00f7 3"
+        "Break apart the number to make it easier to divide. You can think of 66 as 60 + 6. Both 60 and 6 are easy to divide by 3.\n66 ÷ 3 =\n(60+6)÷ 3"
       ],
       [
         "2/4",
-        "Now, you can use the distributive property to divide.\n(60 + 6) \u00f7 3\n= (60 \u00f7 3) + (6 \u00f7 3)"
+        "Now, you can use the distributive property to divide.\n(60 + 6) ÷ 3\n= (60 ÷ 3) + (6 ÷ 3)"
       ],
       [
         "3/4",
-        "Divide the numbers inside each pair of parentheses and then add. So,\n(60 \u00f7 3) + (6 \u00f7 3)\n=20 + 2\n= 22"
+        "Divide the numbers inside each pair of parentheses and then add. So,\n(60 ÷ 3) + (6 ÷ 3)\n=20 + 2\n= 22"
       ],
       [
         "4/4",
-        "So, 66 \u00f7 3 = 22."
+        "So, 66 ÷ 3 = 22."
       ]
     ],
     "solution_image_tag": [],
@@ -752,7 +782,7 @@
   },
   {
     "skills": "divide-2-digit-numbers",
-    "question_text": "Divide:\n72 \u00f7 6 = _",
+    "question_text": "Divide:\n72 ÷ 6 = _",
     "question_type": "Fill in the blank",
     "tag": "Gr4_33_E4",
     "correct_answers": [
@@ -773,17 +803,19 @@
       ],
       [
         "4/4",
-        "Finally, write the answer: 72 \u00f7 6 = 12."
+        "Finally, write the answer: 72 ÷ 6 = 12."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr4_33_4_1_solution_step_1"
+        "Gr4_33_4_1_solution_step_1",
+        "First step of long division showing 72 ÷ 6. The digit 1 is written above the 7 in the quotient position. Below shows the calculation: 7 ÷ 6 = 1, then multiply 1 × 6 = 6, and subtract 7 - 6 = 1. The remainder 1 is shown below."
       ],
       [
         "2/3",
-        "Gr4_33_4_1_solution_step_2"
+        "Gr4_33_4_1_solution_step_2",
+        "Complete long division showing 72 ÷ 6 = 12. The quotient 12 is written above. The calculation shows: bring down the 2 to make 12, then divide 12 ÷ 6 = 2, multiply 2 × 6 = 12, and subtract 12 - 12 = 0. The division is complete with no remainder."
       ]
     ],
     "question_number": "4_1"
@@ -799,11 +831,11 @@
     "solution": [
       [
         "1/2",
-        "Rafts needed = Total number of students \u00f7 Number of students each raft holds. So, divide the number of students by the number in each raft."
+        "Rafts needed = Total number of students ÷ Number of students each raft holds. So, divide the number of students by the number in each raft."
       ],
       [
         "2/2",
-        "Divide: 92 \u00f7 4 = 23."
+        "Divide: 92 ÷ 4 = 23."
       ],
       [
         "3/3",
@@ -813,14 +845,15 @@
     "solution_image_tag": [
       [
         "1/2",
-        "Gr4_34_1_1_solution_step_1"
+        "Gr4_34_1_1_solution_step_1",
+        "Long division showing 92 ÷ 4 = 23. The complete calculation displays the quotient 23 above the division bracket, with the work shown: 9 ÷ 4 = 2 remainder 1, bring down 2 to make 12, then 12 ÷ 4 = 3 with no remainder."
       ]
     ],
     "question_number": "1_1"
   },
   {
     "skills": "divide-2-digit-numbers-with-remainders",
-    "question_text": "Divide:\n98 \u00f7 9 = _ R _",
+    "question_text": "Divide:\n98 ÷ 9 = _ R _",
     "question_type": "Fill in the blank",
     "tag": "Gr4_34_E2",
     "correct_answers": [
@@ -842,17 +875,19 @@
       ],
       [
         "4/4",
-        "Write the answer:\n98 \u00f7 9 = 10 R 8."
+        "Write the answer:\n98 ÷ 9 = 10 R 8."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr4_34_2_1_solution_step_1"
+        "Gr4_34_2_1_solution_step_1",
+        "First step of long division showing 98 ÷ 9. The digit 1 is written above the 9 in the quotient position. The calculation shows: 9 ÷ 9 = 1, multiply 1 × 9 = 9, subtract 9 - 9 = 0."
       ],
       [
         "2/3",
-        "Gr4_34_2_1_solution_step_2"
+        "Gr4_34_2_1_solution_step_2",
+        "Complete long division showing 98 ÷ 9 = 10 R 8. The quotient 10 is written above. After bringing down the 8, the calculation shows: 8 ÷ 9 = 0, multiply 0 × 9 = 0, subtract 8 - 0 = 8. The remainder 8 is shown at the bottom."
       ]
     ],
     "question_number": "2_1"
@@ -878,14 +913,15 @@
     "solution_image_tag": [
       [
         "1/2",
-        "Gr4_34_3_1_solution_step_1"
+        "Gr4_34_3_1_solution_step_1",
+        "Long division showing 41 ÷ 6 = 6 R5. The quotient 6 is written above with 'R5' indicating the remainder. The calculation shows 41 - 36 = 5, demonstrating that 6 groups of 6 can be made with 5 remaining."
       ]
     ],
     "question_number": "3_1"
   },
   {
     "skills": "divide-3-digit-numbers",
-    "question_text": "Divide:\n360 \u00f7 8 = _",
+    "question_text": "Divide:\n360 ÷ 8 = _",
     "question_type": "Fill in the blank",
     "tag": "Gr4_34_E4",
     "correct_answers": [
@@ -905,17 +941,19 @@
         "Bring down the ones. Divide the ones."
       ],
       [
-        "Write the answer:\n360 \u00f7 8 = 45."
+        "Write the answer:\n360 ÷ 8 = 45."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr4_34_4_1_solution_step_1"
+        "Gr4_34_4_1_solution_step_1",
+        "First step of long division showing 360 ÷ 8. The digit 4 is written above the 6 in the tens position. The calculation shows: 36 ÷ 8 = 4, multiply 4 × 8 = 32, subtract 36 - 32 = 4."
       ],
       [
         "2/3",
-        "Gr4_34_4_1_solution_step_2"
+        "Gr4_34_4_1_solution_step_2",
+        "Complete long division showing 360 ÷ 8 = 45. The quotient 45 is written above. After bringing down the 0, the calculation shows: 40 ÷ 8 = 5, multiply 5 × 8 = 40, subtract 40 - 40 = 0. The division is complete with no remainder."
       ]
     ],
     "question_number": "4_1"
@@ -931,24 +969,25 @@
     "solution": [
       [
         "1/2",
-        "Rows needed = Total fans \u00f7 seats in each row. So, divide the number of fans by the number of seats in each row."
+        "Rows needed = Total fans ÷ seats in each row. So, divide the number of fans by the number of seats in each row."
       ],
       [
         "2/2",
-        "Divide: 801 \u00f7 9 = 89. This means 89 rows will be needed to seat all the fans."
+        "Divide: 801 ÷ 9 = 89. This means 89 rows will be needed to seat all the fans."
       ]
     ],
     "solution_image_tag": [
       [
         "1/2",
-        "Gr4_35_1_1_solution_step_1"
+        "Gr4_35_1_1_solution_step_1",
+        "Long division showing 801 ÷ 9 = 89. The complete calculation displays the quotient 89 above the division bracket. The work shows: 80 ÷ 9 = 8 remainder 8, bring down 1 to make 81, then 81 ÷ 9 = 9 with no remainder."
       ]
     ],
     "question_number": "1_1"
   },
   {
     "skills": "divide-3-digit-numbers-with-remainders",
-    "question_text": "Divide:\n633 \u00f7 9 = _ R _",
+    "question_text": "Divide:\n633 ÷ 9 = _ R _",
     "question_type": "Fill in the blank",
     "tag": "Gr4_35_E2",
     "correct_answers": [
@@ -966,17 +1005,19 @@
       ],
       [
         "3/3",
-        "The remainder is 3. Write the answer:\n633 \u00f7 9 = 70 R 3."
+        "The remainder is 3. Write the answer:\n633 ÷ 9 = 70 R 3."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr4_35_2_1_solution_step_1"
+        "Gr4_35_2_1_solution_step_1",
+        "First step of long division showing 633 ÷ 9. The digit 7 is written above the 3 in the tens position. The calculation shows: 63 ÷ 9 = 7, multiply 7 × 9 = 63, subtract 63 - 63 = 0."
       ],
       [
         "2/3",
-        "Gr4_35_2_1_solution_step_2"
+        "Gr4_35_2_1_solution_step_2",
+        "Complete long division showing 633 ÷ 9 = 70 R 3. The quotient 70 is written above. After bringing down the 3, the calculation shows: 3 ÷ 9 = 0, multiply 0 × 9 = 0, subtract 3 - 0 = 3. The remainder 3 is shown at the bottom."
       ]
     ],
     "question_number": "2_1"
@@ -992,7 +1033,7 @@
     "solution": [
       [
         "1/2",
-        "Divide the number of couches by the number each truck holds. Divide: 400 \u00f7 6 = 66 with R 4."
+        "Divide the number of couches by the number each truck holds. Divide: 400 ÷ 6 = 66 with R 4."
       ],
       [
         "2/2",
@@ -1002,7 +1043,8 @@
     "solution_image_tag": [
       [
         "1/2",
-        "Gr4_35_3_1_solution_step_1"
+        "Gr4_35_3_1_solution_step_1",
+        "Long division showing 400 ÷ 6 = 66 R4. The quotient 66 is written above with 'R4' indicating the remainder. The calculation shows the division process with a remainder of 4, meaning 66 trucks can be filled completely with 4 couches remaining."
       ]
     ],
     "question_number": "3_1"
@@ -1010,7 +1052,10 @@
   {
     "skills": "decompose-fractions-into-unit-fractions-using-models",
     "question_text": "How do you write $\\frac{10}{12}$ as a sum of unit fractions? Use the fraction strips to help.",
-    "image_tag": "Gr4_35_4_1",
+    "image_tag": {
+      "tag": "Gr4_35_4_1",
+      "backend_description": "A fraction strip model showing 1 whole at the top in a yellow/cream colored bar. Below it is a purple bar divided into 12 equal parts, with each part labeled as 1/12. This visual demonstrates how a whole can be divided into twelfths, with 10 of the 12 parts needed to represent 10/12."
+    },
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_35_E4",
     "choices": [
@@ -1117,8 +1162,14 @@
     "tag": "Gr4_36_E4",
     "question_number": "4_1",
     "shape_image_tags": [
-      "Grade4_L.3_A",
-      "Grade4_L.3_B"
+      {
+        "tag": "Grade4_L.3_A",
+        "backend_description": "A perfect circle filled with warm golden-yellow color (similar to marigold) on a white card-like background with subtle gray shadowing. The circle demonstrates the concept of a curved shape with no vertices or edges, helping Grade 4 students identify and distinguish circles from other geometric shapes."
+      },
+      {
+        "tag": "Grade4_L.3_B",
+        "backend_description": "A horizontally-oriented rectangle filled with vibrant royal blue color on a white card background. The clean presentation emphasizes the shape's geometric properties - four sides, four right angles, and opposite sides being equal in length. Paired with the circle, it creates a shape comparison between curved and angular forms."
+      }
     ],
     "sequence": [
       [
@@ -1172,8 +1223,14 @@
     "tag": "Gr4_37_E1",
     "question_number": "1_1",
     "shape_image_tags": [
-      "Grade4_L.2_A",
-      "Grade4_L.2_B"
+      {
+        "tag": "Grade4_L.2_A",
+        "backend_description": "A perfectly proportioned square filled with royal blue color on a white card background. This represents a special type of rectangle where all four sides are equal in length, helping Grade 4 students explore properties like equal sides, four right angles, and both horizontal and vertical symmetry."
+      },
+      {
+        "tag": "Grade4_L.2_B",
+        "backend_description": "An equilateral triangle with warm golden-yellow color, positioned with its base parallel to the bottom edge. The triangle demonstrates a three-sided polygon with all sides of equal length, helping students learn about triangles as the simplest polygon with three vertices, three sides, and three angles."
+      }
     ],
     "sequence": [
       [
@@ -1222,8 +1279,14 @@
     "tag": "Gr4_37_E2",
     "question_number": "2_1",
     "shape_image_tags": [
-      "Grade4_L.1_A",
-      "Grade4_L.1_B"
+      {
+        "tag": "Grade4_L.1_A",
+        "backend_description": "A square filled with vibrant green color (like fresh grass) on a white card background. This reinforces the concept of regular quadrilaterals while introducing color variety, helping students understand that color is not a defining property of geometric shapes."
+      },
+      {
+        "tag": "Grade4_L.1_B",
+        "backend_description": "A circle filled with golden-yellow color on a white card background. When paired with the green square, this creates a clear shape contrast between angular (square) and curved (circle) forms, reinforcing circle recognition and helping students practice categorizing shapes based on their fundamental properties rather than color or size."
+      }
     ],
     "sequence": [
       [
@@ -1419,7 +1482,10 @@
   {
     "skills": "input-output-tables-with-addition-subtraction-multiplication-and-division",
     "question_text": "Find the rule and complete the table.\n",
-    "image_tag": "Gr4_39_1_1",
+    "image_tag": {
+      "tag": "Gr4_39_1_1",
+      "backend_description": "An input-output table with two columns labeled 'In' and 'Out' with blue headers. The table shows pairs of numbers: (10,9), (11,10), (15,14), (16,15), with two incomplete rows - one showing 19 in the In column with blank Out, and another showing 19 in the Out column with blank In. Students need to find the rule and complete the missing values."
+    },
     "question_type": "Fill in the blank",
     "tag": "Gr4_39_E1",
     "correct_answers": [
@@ -1447,7 +1513,8 @@
     "solution_image_tag": [
       [
         "4/4",
-        "Gr4_39_1_1_solution_step_4"
+        "Gr4_39_1_1_solution_step_4",
+        "Completed input-output table showing the rule 'subtract 1'. The missing values are filled in green: when In is 19, Out is 18; when Out is 19, In is 20. The table demonstrates the pattern where each output value is one less than its corresponding input value."
       ]
     ],
     "question_number": "1_1"
@@ -1495,8 +1562,14 @@
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_39_E3",
     "image_choice_tags": [
-      "Gr4_39_3_1_A",
-      "Gr4_39_3_1_B"
+      {
+        "tag": "Gr4_39_3_1_A",
+        "backend_description": "A simple geometric shape showing a turquoise square centered inside a light blue rounded border. The square is a solid color with clean, straight edges, useful for teaching shape recognition and properties of quadrilaterals."
+      },
+      {
+        "tag": "Gr4_39_3_1_B",
+        "backend_description": "An orange five-pointed star centered inside a light blue rounded border. The star has a subtle gradient effect giving it dimension, contrasting with the square option to help students distinguish between different geometric shapes."
+      }
     ],
     "correct_answers": [
       "A"
