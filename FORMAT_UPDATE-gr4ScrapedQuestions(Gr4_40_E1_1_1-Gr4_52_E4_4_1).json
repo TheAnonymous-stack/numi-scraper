@@ -936,8 +936,14 @@
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_46_E3",
     "image_choice_tags": [
-      "Gr4_46_3_1_A",
-      "Gr4_46_3_1_B"
+      {
+        "tag": "Gr4_46_3_1_A",
+        "backend_description": "A grouped bar chart displaying 'Homes sold' data comparing 2006 (orange/peach bars) and 2007 (light green bars) across three cities. The chart shows: New Hamburg (~80 homes in 2006, ~70 in 2007), Briggs Corner (~80 homes in 2006, ~90 in 2007), and Fremont (~80 homes in 2006, ~30 in 2007). Features clean white background with gray gridlines, Y-axis labeled 'Home' (0-100), X-axis labeled 'Cities', and a color legend."
+      },
+      {
+        "tag": "Gr4_46_3_1_B",
+        "backend_description": "A grouped bar chart identical to option A except for one key difference: Briggs Corner shows ~100 homes sold in 2006 (taller orange bar) compared to ~80 in option A. Other data remains the same: New Hamburg (~80/~70), Fremont (~80/~30). Same visual style with orange/peach bars for 2006 and light green for 2007."
+      }
     ],
     "correct_answers": [
       "B"
@@ -985,8 +991,14 @@
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_46_E3",
     "image_choice_tags": [
-      "Gr4_46_3_2_A",
-      "Gr4_46_3_2_B"
+      {
+        "tag": "Gr4_46_3_2_A",
+        "backend_description": "A data table showing 'Baseball batting practice' statistics with purple/magenta header and yellow/gold subheader. Three columns: Player, Hits, and Misses. Data shows: First baseman (60 hits, 50 misses), Right fielder (80 hits, 40 misses), Third baseman (40 hits, 70 misses). Clean table structure with visible grid lines and black text on white cells."
+      },
+      {
+        "tag": "Gr4_46_3_2_B",
+        "backend_description": "A baseball batting practice table with orange header (instead of purple) and same yellow/gold subheader. Key difference from option A: First baseman has only 30 misses (vs 50). Other data unchanged: Right fielder (80 hits, 40 misses), Third baseman (40 hits, 70 misses). Same clean table layout with grid lines."
+      }
     ],
     "correct_answers": [
       "B"
@@ -1542,8 +1554,14 @@
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_51_E1",
     "image_choice_tags": [
-      "Gr4_51_1_1_A",
-      "Gr4_51_1_1_B"
+      {
+        "tag": "Gr4_51_1_1_A",
+        "backend_description": "An analog clock with bright blue rim showing 9:15 (quarter past nine). The hour hand points between 9 and 10, while the minute hand points to 3. Features clear black numbers 1-12, small dots marking minutes between numbers, and black hour and minute hands on a white face."
+      },
+      {
+        "tag": "Gr4_51_1_1_B",
+        "backend_description": "An analog clock with bright blue rim showing 9:00 exactly. The hour hand points directly at 9, while the minute hand points straight up to 12. Identical design to option A with clear black numbers, minute markers, and black hands on a white face."
+      }
     ],
     "correct_answers": [
       "B"

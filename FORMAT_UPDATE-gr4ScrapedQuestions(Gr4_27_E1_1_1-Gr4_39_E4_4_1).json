@@ -519,8 +519,14 @@
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_31_E3",
     "image_choice_tags": [
-      "Gr4_31_3_1_A",
-      "Gr4_31_3_1_B"
+      {
+        "tag": "Gr4_31_3_1_A",
+        "backend_description": "A rectangular area model for multiplication showing a peach-colored rectangle on the left labeled '30' at the top and '5' on the left side, alongside a pink square labeled '9' at the top. This visual representation helps students understand multiplication as area, specifically showing 5 × 39 broken down into 5 × 30 and 5 × 9."
+      },
+      {
+        "tag": "Gr4_31_3_1_B",
+        "backend_description": "An area model showing a peach rectangle labeled '40' at the top and '5' on the side, next to a pink square labeled '9'. This represents the multiplication 5 × 49 using the area model method, breaking it into 5 × 40 and 5 × 9."
+      }
     ],
     "correct_answers": [
       "B"
@@ -594,8 +600,14 @@
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_32_E2",
     "image_choice_tags": [
-      "Gr4_32_2_1_A",
-      "Gr4_32_2_1_B"
+      {
+        "tag": "Gr4_32_2_1_A",
+        "backend_description": "A horizontal bar model with three sections from left to right: a turquoise rectangle labeled '300', a peach square labeled '90', and a small pink rectangle labeled '2'. The number '4' appears on the left side. This represents division using the partial quotients method, showing 392 ÷ 4."
+      },
+      {
+        "tag": "Gr4_32_2_1_B",
+        "backend_description": "A bar model showing a turquoise rectangle labeled '100', a peach square labeled '90', and a pink rectangle labeled '2', with '4' on the left side. This represents an alternative approach to the same division problem using partial quotients."
+      }
     ],
     "correct_answers": [
       "A"
@@ -1150,8 +1162,14 @@
     "tag": "Gr4_36_E4",
     "question_number": "4_1",
     "shape_image_tags": [
-      "Grade4_L.3_A",
-      "Grade4_L.3_B"
+      {
+        "tag": "Grade4_L.3_A",
+        "backend_description": "A perfect circle filled with warm golden-yellow color (similar to marigold) on a white card-like background with subtle gray shadowing. The circle demonstrates the concept of a curved shape with no vertices or edges, helping Grade 4 students identify and distinguish circles from other geometric shapes."
+      },
+      {
+        "tag": "Grade4_L.3_B",
+        "backend_description": "A horizontally-oriented rectangle filled with vibrant royal blue color on a white card background. The clean presentation emphasizes the shape's geometric properties - four sides, four right angles, and opposite sides being equal in length. Paired with the circle, it creates a shape comparison between curved and angular forms."
+      }
     ],
     "sequence": [
       [
@@ -1205,8 +1223,14 @@
     "tag": "Gr4_37_E1",
     "question_number": "1_1",
     "shape_image_tags": [
-      "Grade4_L.2_A",
-      "Grade4_L.2_B"
+      {
+        "tag": "Grade4_L.2_A",
+        "backend_description": "A perfectly proportioned square filled with royal blue color on a white card background. This represents a special type of rectangle where all four sides are equal in length, helping Grade 4 students explore properties like equal sides, four right angles, and both horizontal and vertical symmetry."
+      },
+      {
+        "tag": "Grade4_L.2_B",
+        "backend_description": "An equilateral triangle with warm golden-yellow color, positioned with its base parallel to the bottom edge. The triangle demonstrates a three-sided polygon with all sides of equal length, helping students learn about triangles as the simplest polygon with three vertices, three sides, and three angles."
+      }
     ],
     "sequence": [
       [
@@ -1255,8 +1279,14 @@
     "tag": "Gr4_37_E2",
     "question_number": "2_1",
     "shape_image_tags": [
-      "Grade4_L.1_A",
-      "Grade4_L.1_B"
+      {
+        "tag": "Grade4_L.1_A",
+        "backend_description": "A square filled with vibrant green color (like fresh grass) on a white card background. This reinforces the concept of regular quadrilaterals while introducing color variety, helping students understand that color is not a defining property of geometric shapes."
+      },
+      {
+        "tag": "Grade4_L.1_B",
+        "backend_description": "A circle filled with golden-yellow color on a white card background. When paired with the green square, this creates a clear shape contrast between angular (square) and curved (circle) forms, reinforcing circle recognition and helping students practice categorizing shapes based on their fundamental properties rather than color or size."
+      }
     ],
     "sequence": [
       [
@@ -1532,8 +1562,14 @@
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr4_39_E3",
     "image_choice_tags": [
-      "Gr4_39_3_1_A",
-      "Gr4_39_3_1_B"
+      {
+        "tag": "Gr4_39_3_1_A",
+        "backend_description": "A simple geometric shape showing a turquoise square centered inside a light blue rounded border. The square is a solid color with clean, straight edges, useful for teaching shape recognition and properties of quadrilaterals."
+      },
+      {
+        "tag": "Gr4_39_3_1_B",
+        "backend_description": "An orange five-pointed star centered inside a light blue rounded border. The star has a subtle gradient effect giving it dimension, contrasting with the square option to help students distinguish between different geometric shapes."
+      }
     ],
     "correct_answers": [
       "A"
