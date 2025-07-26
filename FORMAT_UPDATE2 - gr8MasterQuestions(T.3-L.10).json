@@ -2656,6 +2656,57 @@
     "solution_image_tag": []
   },
   {
+    "question_text": "What is the perimeter?\n  ___ metres",
+    "skills": "pythagorean-theorem-find-the-perimeter",
+    "image_tag": "Gr8_42_2_3",
+    "back_end_description": "The image shows a right triangle with legs labeled as a and 16m. The hypotenuse is labeled as 20 m.",
+    "question_type": "Fill in the blank",
+    "question_number": "2_3",
+    "tag": "Gr8_42_E2",
+    "correct_answers": [
+      "48"
+    ],
+    "solution": [
+      [
+        "1/9",
+        "Use the Pythagorean theorem, with $b = 16$ and $c = 20$."
+      ],
+      [
+        "2/9",
+        "$a^2 + b^2 = c^2$  Pythagorean theorem"
+      ],
+      [
+        "3/9",
+        "$a^2 + 16^2 = 20^2$  Plug in $b = 16$ and $c = 20$"
+      ],
+      [
+        "4/9",
+        "$a^2 + 256 = 400$  Square"
+      ],
+      [
+        "5/9",
+        "$a^2 = 144$  Subtract"
+      ],
+      [
+        "6/9",
+        "$\\sqrt{a^2} = \\sqrt{144}$  Take the square root of both sides\n$a = 12$  Simplify"
+      ],
+      [
+        "7/9",
+        "The length of the missing leg is 12 metres."
+      ],
+      [
+        "8/9",
+        "Find the perimeter. Add the lengths of the two sides and the hypotenuse.\n$a+b+c=12+16+20=48$ metres."
+      ],
+      [
+        "9/9",
+        "The perimeter is 48 metres."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
     "question_text": "Mrs. Ballard is teaching a 5th grade class. She is standing 5 metres in front of Carla. Tyrone is sitting 12 metres to Carla's right. How far apart are Mrs. Ballard and Tyrone?\n___ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
