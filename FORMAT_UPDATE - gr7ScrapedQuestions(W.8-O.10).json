@@ -676,23 +676,23 @@
   },
   {
     "skills": "solve-one-step-equations",
-    "question_text": "Solve for d.\n\n\nd - 3 = 6\n\nd = ",
+    "question_text": "Solve for d.\n\nd - 3 = 6\n\nd = ",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "9"
+      "9","d=9"
     ],
     "solution": [
       [
         "1/3",
-        "Solve for d using d - 3 = 6"
+        "Solve for d using d - 3 = 6."
       ],
       [
         "2/3",
-        "Add 3 to both sides:\nd - 3 + 3=6 + 3."
+        "Add 3 to both sides:\nd - 3 + 3 = 6 + 3."
       ],
       [
         "3/3",
-        "Simplify, d = 9."
+        "Simplify: d = 9."
       ]
     ],
     "tag": "Gr7_28_E1",
@@ -700,10 +700,10 @@
   },
   {
     "skills": "solve-two-step-equations",
-    "question_text": "Solve for c.\n\n\n2c + 4 = 8\n\nc = ",
+    "question_text": "Solve for c.\n\n2c + 4 = 8\n\nc = ",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "2"
+      "2","c=2"
     ],
     "solution": [
       [
@@ -712,11 +712,11 @@
       ],
       [
         "2/4",
-        "Subtract 4 from both sides:\n2c + 4 - 4=8 - 4"
+        "Subtract 4 from both sides:\n2c + 4 - 4 = 8 - 4"
       ],
       [
         "3/4",
-        "2c=4\nNow, simplify."
+        "Simplify: 2c = 4"
       ],
       [
         "4/4",
@@ -728,23 +728,23 @@
   },
   {
     "skills": "solve-one-and-two-step-equations-with-decimals",
-    "question_text": "Solve for r.\n\n\nr + 13 = 88.9\n\nr = ",
+    "question_text": "Solve for r.\n\nr + 13 = 88.9\n\nr = ",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "75.9"
+      "75.9","r=75.9"
     ],
     "solution": [
       [
         "1/3",
-        "Solve for r using r + 13=88.9"
+        "Solve for r using r + 13 = 88.9"
       ],
       [
         "2/3",
-        "Subtract 13 from both sides\nr + 13 - 13=88.9 - 13"
+        "Subtract 13 from both sides:\nr + 13 - 13 = 88.9 - 13"
       ],
       [
         "3/3",
-        "Simplify:\nr=75.9"
+        "Simplify: r = 75.9"
       ]
     ],
     "tag": "Gr7_28_E3",
@@ -752,7 +752,7 @@
   },
   {
     "skills": "solve-one-and-two-step-equations-word-problems",
-    "question_text": "This equation shows how the amount of money Tucker makes from selling lemonade is related to the number of cups sold.\n\nd = c + 1\n\nThe variable c represents the number of cups sold, and the variable d represents earnings. How many cups of lemonade does Tucker need to sell in all to earn $9?\n\n\n cups",
+    "question_text": "The equation below shows how the amount of money Tucker makes from selling lemonade is related to the number of cups sold.\n\nd = c + 1\n\nThe variable c represents the number of cups sold, and the variable d represents earnings in dollars. How many cups of lemonade does Tucker need to sell in all to earn $9?",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "8"
@@ -764,11 +764,11 @@
       ],
       [
         "2/4",
-        "9=c + 1"
+        "This gives 9 = c + 1."
       ],
       [
         "3/4",
-        "Subtract 1 from both sides:\n8=c"
+        "Subtract 1 from both sides:\n8 = c"
       ],
       [
         "4/4",
@@ -780,7 +780,7 @@
   },
   {
     "skills": "solve-equations-involving-like-terms",
-    "question_text": "Solve for z.\n\n\n3z + 6z = 18\n\n\n\nz = ",
+    "question_text": "Solve for z.\n\n3z + 6z = 18\n\nz = ",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "2"
@@ -814,7 +814,7 @@
   },
   {
     "skills": "solve-equations-complete-the-solution",
-    "question_text": "Complete the process of solving the equation.\nFill in the missing term on each line. Simplify any fractions.",
+    "question_text": "Complete the process of solving the equation. Fill in the missing term on each line. Simplify any fractions.",
     "question_type": "Fill in the blank",
     "image_tag": "Grade7_29_2_1",
     "correct_answers": [
@@ -828,11 +828,11 @@
       ],
       [
         "2/3",
-        "To find the missing term, subtract 7 from both sides of the equation.\n5b+7 = 7\n5b+7–7 = 7–7\n5b = 0\nThe missing term is 0."
+        "To find the missing term, subtract 7 from both sides of the equation.\n5b + 7 = 7\n5b + 7 – 7 = 7 – 7\n5b = 0\nThe missing term in the second line is 0."
       ],
       [
         "3/3",
-        "Look at the second and third lines.\nTo find the missing term, divide both sides of the equation by 5.\n5b = 0\n5b/5 = 0/5\nb = 0\nThe missing term is 0."
+        "Look at the second and third lines.\nTo find the missing term, divide both sides of the equation by 5.\n5b = 0\n5b/5 = 0/5\nb = 0\nThe missing term in the third line is 0."
       ]
     ],
     "tag": "Gr7_29_E2",
@@ -840,11 +840,11 @@
   },
   {
     "skills": "solutions-to-inequalities",
-    "question_text": "Is j = 4 a solution to the inequality below?\n\nj ≥ 9\n",
+    "question_text": "Is j = 4 a solution to the inequality below?\n\nj ≥ 9",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
-      "yes",
-      "no"
+      "Yes",
+      "No"
     ],
     "correct_answers": [
       "B"
@@ -862,7 +862,7 @@
       ],
       [
         "2/2",
-        "It is false that 4 ≥ 9. So, j = 4 is not a solution."
+        "It is false that 4 ≥ 9. So, j = 4 is not a solution to the inequality."
       ]
     ],
     "tag": "Gr7_29_E3",
@@ -870,19 +870,19 @@
   },
   {
     "skills": "solve-one-step-inequalities",
-    "question_text": "Solve for q.\nq+2≥6",
+    "question_text": "Solve for q.\n\nq + 2 ≥ 6\n\nq ≥",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "q≥4"
+      "q≥4","4"
     ],
     "solution": [
       [
         "1/2",
-        "q+2≥6\nq+2–2≥6–2\tSubtract 2 from both sides"
+        "Subtract 2 from both sides:\nq + 2 – 2 ≥ 6 – 2"
       ],
       [
         "2/2",
-        "Simplify to get q≥4."
+        "Simplify: q ≥ 4."
       ]
     ],
     "tag": "Gr7_29_E4",
@@ -890,7 +890,7 @@
   },
   {
     "skills": "one-step-inequalities-word-problems",
-    "question_text": "James bought 4 tubes of paint to use for an art project. He paid the same amount for each tube, and he spent less than $20 in all.\nLet x represent the cost of each tube of paint. Which inequality describes the problem?\n\nSolve the inequality. Then, complete the sentence to describe the solution.\nEach tube of paint cost less than ",
+    "question_text": "James bought 4 tubes of paint to use for an art project. He paid the same amount for each tube, and he spent less than $20 in all.\n\nLet x represent the cost of each tube of paint in dollars. Which inequality describes the problem?\n\nSolve the inequality. Then, complete the sentence below to describe the solution.\n\nEach tube of paint cost less than ",
     "question_type": "Fill in the blank and multiple choice question with single answer",
     "choices": [
       "4x > 20",
@@ -898,12 +898,12 @@
     ],
     "correct_answers": [
       "B",
-      "5"
+      "5","$5"
     ],
     "solution": [
       [
         "1/3",
-        "The variable x represents the cost of each tube of paint. Since James bought 4 tubes of paint, the expression 4x represents the total cost of the paint.\nAnd, since he spent less than $20 in all, 4x must be less than 20."
+        "The variable x represents the cost of each tube of paint. Since James bought 4 tubes of paint, the expression 4x represents the total cost of the paint.\nSince he spent less than $20 in all, 4x must be less than 20."
       ],
       [
         "2/3",
@@ -911,7 +911,7 @@
       ],
       [
         "3/3",
-        "x < 5\nEach tube of paint cost less than $5."
+        "This gives x < 5. Therefore, each tube of paint cost less than $5."
       ]
     ],
     "tag": "Gr7_30_E1",
@@ -919,19 +919,19 @@
   },
   {
     "skills": "solve-two-step-inequalities",
-    "question_text": "Solve for a.\n2+2a>10",
+    "question_text": "Solve for a.\n\n2 + 2a > 10",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "a>4"
+      "a>4","4<a"
     ],
     "solution": [
       [
         "1/2",
-        "Solve for a.\n2+2a>10\n2+2a–2>10–2\tSubtract 2 from both sides\n2a>8\tSimplify"
+        "Solve for a by subtracting 2 from both sides:\n2 + 2a – 2 > 10 – 2\nSimplify: 2a > 8."
       ],
       [
         "2/2",
-        "2a/2>8/2\tDivide both sides by 2\na>4\tSimplify"
+        "Divide both sides by 2:\n2a/2 > 8/2\nSimplify: a>4."
       ]
     ],
     "tag": "Gr7_30_E2",
@@ -939,12 +939,12 @@
   },
   {
     "skills": "identify-representative-random-and-biased-samples",
-    "question_text": "Akira questioned 2 violinists in the national orchestra.\n\nIs this sample of violinists in general likely to be biased?",
+    "question_text": "Akira questioned 2 violinists in the national orchestra.\n\nIs this sample of violinists, in general, likely to be biased?",
     "tag": "Gr7_30_E3",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
-      "yes",
-      "no"
+      "Yes",
+      "No"
     ],
     "correct_answers": [
       "A"
@@ -963,10 +963,10 @@
     "tag": "Gr7_30_E4",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
-      "bar graph",
-      "circle graph",
-      "pictograph",
-      "line graph"
+      "Bar graph",
+      "Circle graph",
+      "Pictograph",
+      "Line graph"
     ],
     "correct_answers": [
       "D"
@@ -977,29 +977,29 @@
         "Gr7_30_4_1_step_1"
       ],
       [
-        "2/4",
+        "3/4",
         "Gr7_30_4_1_step_2"
       ],
       [
-        "3/4",
+        "4/4",
         "Gr7_30_4_1_step_3"
       ]
     ],
     "solution": [
       [
-        "1/5",
+        "1/4",
         "The best type of graph to show the average rainfall in a city every year for ten years is a line graph. It shows a value that changes over time. Example:"
       ],
       [
-        "2/5",
-        "The other types of graphs are not as good."
+        "2/4",
+        "The other types of graphs are not as suited to this situation."
       ],
       [
-        "4/5",
+        "3/4",
         "A circle graph shows percents, fractions, or parts of a whole. Example: "
       ],
       [
-        "5/5",
+        "4/4",
         "A pictograph compares two or more values that are multiples of a number. Example:"
       ]
     ],
@@ -1007,16 +1007,16 @@
   },
   {
     "skills": "circle-graphs-and-central-angles",
-    "question_text": "A survey was conducted to learn people's chocolate preferences.\n\nWhat is the measure of the central angle in the \"Milk chocolate\" section?\n\n\n°",
+    "question_text": "A survey was conducted to learn people's chocolate preferences.\n\nWhat is the measure of the central angle in the \"Milk chocolate\" section?",
     "image_tag": "Grade7_31_1_1",
     "tag": "Gr7_31_E1",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "180"
+      "180","180°"
     ],
     "solution_image_tag": [
       [
-        "1/3",
+        "2/3",
         "Gr7_31_1_1_step_1"
       ]
     ],
@@ -1038,7 +1038,7 @@
   },
   {
     "skills": "calculate-mean-and-range",
-    "question_text": "What is the mean?\n7,4,4,0,0\n",
+    "question_text": "What is the mean of the following numbers?\n\n7,4,4,0,0",
     "tag": "Gr7_31_E2",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -1051,21 +1051,21 @@
       ],
       [
         "2/4",
-        "Now add all the numbers together: 7 +4 +4 +0 +0 = 15"
+        "Now add all the numbers together: 7 + 4 + 4 + 0 + 0 = 15"
       ],
       [
         "3/4",
-        "Now divide the sum by the number of numbers: 15 ÷ 5 = 3"
+        "Now, divide the sum by the number of numbers: 15 ÷ 5 = 3"
       ],
       [
         "4/4",
-        "The mean is 3."
+        "Therefore, the mean is 3."
       ]
     ],
     "question_number": "2_1"
   },
     {
-    "question_text": "What is the range?\n1,2,9,4,1,10,4\n",
+    "question_text": "What is the range of the following numbers?\n\n1,2,9,4,1,10,4",
     "skills": "calculate-mean-and-range",
     "tag": "Gr7_31_E2",
     "question_type": "Fill in the blank",
@@ -1075,30 +1075,26 @@
     ],
     "solution": [
       [
-        "1/5",
+        "1/4",
         "First, find the greatest number. The greatest number is 10."
       ],
       [
-        "2/5",
+        "2/4",
         "Next, find the least number. The least number is 1."
       ],
       [
-        "3/5",
-        "Subtract the least number from the greatest number:"
+        "3/4",
+        "Subtract the least number from the greatest number:\n10 - 1 = 9"
       ],
       [
-        "4/5",
-        "10 - 1 = 9"
-      ],
-      [
-        "5/5",
-        "The range is 9."
+        "4/4",
+        "Therefore, the range is 9."
       ]
     ]
   },
   {
     "skills": "calculate-mean-median-mode-and-range",
-    "question_text": "Whitney wanted to buy a snack from the vending machine. She had 7 choices, which cost:\n$1.00, $5.00, $1.00, $3.00, $5.00, $2.00, $3.00\n\nWhat was the median price of the snacks?\n\n\n$",
+    "question_text": "Whitney wanted to buy a snack from the vending machine. She had 7 choices, which cost: $1.00, $5.00, $1.00, $3.00, $5.00, $2.00, $3.00\n\nWhat was the median price of the snacks?",
     "tag": "Gr7_31_E3",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -1110,11 +1106,11 @@
     "solution": [
       [
         "1/5",
-        "First, arrange the numbers from least to greatest:"
+        "First, arrange the numbers from least to greatest."
       ],
       [
         "2/5",
-        "$1.00, $1.00, $2.00, $3.00, $3.00, $5.00, $5.00"
+        "This gives $1.00, $1.00, $2.00, $3.00, $3.00, $5.00, $5.00"
       ],
       [
         "3/5",
@@ -1126,13 +1122,13 @@
       ],
       [
         "5/5",
-        "The median price of the snacks was $3.00."
+        "Therefore, the median price of the snacks is $3.00."
       ]
     ],
     "question_number": "3_1"
   },
   {
-    "question_text": "Jamal volunteered at the city park. He planted 8 flower beds with:\n9plants 6plants 6plants 8plants 5plants 8plants 6plants 6plants\nWhat was the mode of the numbers of plants?\n\n\nplants",
+    "question_text": "Jamal volunteered at the city park. He planted 8 flower beds with:\n9 plants, 6 plants, 6 plants, 8 plants, 5 plants, 8 plants, 6 plants, 6 plants.\n\nWhat was the mode of the numbers of plants?",
     "skills": "calculate-mean-median-mode-and-range",
     "tag": "Gr7_31_E3",
     "question_type": "Fill in the blank",
@@ -1142,41 +1138,29 @@
     ],
     "solution": [
       [
-        "1/8",
-        "First, arrange the numbers from least to greatest: 5,6,6,6,6,8,8,9"
+        "1/5",
+        "First, arrange the numbers from least to greatest: 5, 6, 6, 6, 6, 8, 8, 9."
       ],
       [
-        "2/8",
-        "Now count how many times each number appears."
+        "2/5",
+        "Now, count how many times each number appears."
       ],
       [
-        "3/8",
-        "5 appears 1 time."
+        "3/5",
+        "5 appears 1 time.\n6 appears 4 times.\n8 appears 2 times.\n9 appears 1 time."
       ],
       [
-        "4/8",
-        "6 appears 4 times."
-      ],
-      [
-        "5/8",
-        "8 appears 2 times."
-      ],
-      [
-        "6/8",
-        "9 appears 1 time."
-      ],
-      [
-        "7/8",
+        "4/5",
         "The number that appears most often is 6."
       ],
       [
-        "8/8",
-        "The mode of the numbers of plants was 6."
+        "5/5",
+        "Therefore, mode of the numbers of plants is 6."
       ]
     ]
   },
     {
-    "question_text": "Kayla, a forward on her school basketball team, has played in 8 games since starting high school. The number of points she scored at those games was:\n8points 7points 6points 5points 8points 6points 7points 9points\nWhat was the mean number of points scored?\n\n\npoints",
+    "question_text": "Kayla, a forward on her school basketball team, has played in 8 games since starting high school. The number of points she scored at those games was:\n8 points, 7 points, 6 points, 5 points, 8 points, 6 points, 7 points, 9 points.\n\nWhat was the mean number of points scored?",
     "skills": "calculate-mean-median-mode-and-range",
     "tag": "Gr7_31_E3",
     "question_type": "Fill in the blank",
@@ -1186,70 +1170,54 @@
     ],
     "solution": [
       [
-        "1/7",
-        "First, count how many numbers are in the group. 87658679"
+        "1/4",
+        "First, count how many numbers are in the group. There are 8 numbers."
       ],
       [
-        "2/7",
-        "There are 8 numbers."
+        "2/4",
+        "Now add all the numbers together:\n5 + 6 + 8 + 9 + 6 + 7 + 8 + 7 = 56."
       ],
       [
-        "3/7",
-        "Now add all the numbers together:"
+        "3/4",
+        "Now divide the sum by the number of numbers:\n56 / 8 = 7"
       ],
       [
-        "4/7",
-        "5 +6 +8 +9 +6 +7 +8 +7 =56"
-      ],
-      [
-        "5/7",
-        "Now divide the sum by the number of numbers:"
-      ],
-      [
-        "6/7",
-        "56 / 8 = 7"
-      ],
-      [
-        "7/7",
-        "The mean number of points scored was 7."
+        "4/4",
+        "The mean number of points scored is 7."
       ]
     ]
   },
     {
-    "question_text": "Braden is e-mailing some photographs from his computer. The 5 pictures have file sizes of:\n1MB 2MB 3MB 1MB 3MB\nWhat is the range of the file sizes?\n\n\nMB",
+    "question_text": "Braden is e-mailing some photographs from his computer. The 5 pictures have file sizes of:\n1MB, 2MB, 3MB, 1MB, 3MB.\n\nWhat is the range of the file sizes?",
     "skills": "calculate-mean-median-mode-and-range",
     "tag": "Gr7_31_E3",
     "question_type": "Fill in the blank",
     "question_number": "3_4",
     "correct_answers": [
-      "2"
+      "2","2MB"
     ],
     "solution": [
       [
-        "1/5",
+        "1/4",
         "First, find the greatest number. The greatest number is 3."
       ],
       [
-        "2/5",
+        "2/4",
         "Next, find the least number. The least number is 1."
       ],
       [
-        "3/5",
-        "Subtract the least number from the greatest number:"
+        "3/4",
+        "Subtract the least number from the greatest number:\n3 - 1 = 2"
       ],
       [
-        "4/5",
-        "3 - 1 = 2"
-      ],
-      [
-        "5/5",
+        "4/4",
         "The range of the file sizes is 2 MB."
       ]
     ]
   },
   {
     "skills": "interpret-charts-to-find-mean-and-range",
-    "question_text": "People on a whale-watching trip compared the number of whales they saw.\n\nWhat is the mean of the numbers?",
+    "question_text": "People on a whale-watching trip compared the number of whales they saw, represented below.\n\nWhat is the mean of the numbers?",
     "image_tag": "Grade7_31_4_1",
     "tag": "Gr7_31_E4",
     "question_type": "Fill in the blank",
@@ -1259,19 +1227,19 @@
     "solution": [
       [
         "1/5",
-        "Read the numbers from the line plot. Each X represents one number.\n0,0,1,1,1,2,2,2,3,3,4,5"
+        "Read the numbers from the line plot. Each X represents one number.\n0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 4, 5"
       ],
       [
         "2/5",
-        "First, count how many numbers are in the group.\n\nThere are 12 numbers."
+        "Count how many numbers are in the group. There are 12 numbers."
       ],
       [
         "3/5",
-        "Now add all the numbers together:\n\n0 + 0 + 1 + 1 + 1 + 2 + 2 + 2 + 3 + 3 + 4 + 5 = 24"
+        "Now add all the numbers together:\n0 + 0 + 1 + 1 + 1 + 2 + 2 + 2 + 3 + 3 + 4 + 5 = 24"
       ],
       [
         "4/5",
-        "Now divide the sum by the number of numbers:\n\n24 ÷ 12 = 2"
+        "Now divide the sum by the number of numbers:\n24 ÷ 12 = 2"
       ],
       [
         "5/5",
@@ -1281,7 +1249,7 @@
     "question_number": "4_1"
   },
   {
-    "question_text": "Some friends compared the sizes of their stuffed animal collections.\n\n\nStuffed animal collections\nWhat is the range of the numbers?\n\n",
+    "question_text": "Some friends compared the sizes of their stuffed animal collections.\n\nWhat is the range of the numbers?",
     "skills": "interpret-charts-to-find-mean-and-range",
     "image_tag": "Grade7_31_4_2",
     "tag": "Gr7_32_E4",
@@ -1292,34 +1260,30 @@
     ],
     "solution": [
       [
-        "1/6",
+        "1/5",
         "Read the numbers from the table."
       ],
       [
-        "2/6",
+        "2/5",
         "First, find the greatest number. The greatest number is 10."
       ],
       [
-        "3/6",
+        "3/5",
         "Next, find the least number. The least number is 6."
       ],
       [
-        "4/6",
-        "Subtract the least number from the greatest number:"
+        "4/5",
+        "Subtract the least number from the greatest number:\n10 - 6 = 4"
       ],
       [
-        "5/6",
-        "10 \u00e2\u0088\u0092 6 = 4"
-      ],
-      [
-        "6/6",
+        "5/5",
         "The range is 4."
       ]
     ]
   },
   {
     "skills": "interpret-charts-to-find-mean-median-mode-and-range",
-    "question_text": "The manager of a party supply store researched how many balloons it sold in the past 7 days.\n\n\nWhat is the mode of the numbers?\n\n",
+    "question_text": "The manager of a party supply store researched how many balloons it sold in the past 7 days.\n\nWhat is the mode of the numbers?",
     "image_tag": "Grade7_32_1_1",
     "tag": "Gr7_32_E1",
     "question_type": "Fill in the blank",
@@ -1329,15 +1293,15 @@
     "solution": [
       [
         "1/4",
-        "Read the numbers from the line graph. Read the line graph by finding the number of balloons corresponding to each dot:\n3,5,2,2,3,5,3"
+        "Read the numbers from the line graph. Read the line graph by finding the number of balloons corresponding to each dot:\n3, 5, 2, 2, 3, 5, 3"
       ],
       [
         "2/4",
-        "Arrange the numbers from least to greatest: 2,2,3,3,3,5,5"
+        "Arrange the numbers from least to greatest:\n2, 2, 3, 3, 3, 5, 5"
       ],
       [
         "3/4",
-        "Now count how many times each number appears. 2 appears 2 times, 3 appears 3 times, and 5 appears 2 times."
+        "Now count how many times each number appears: 2 appears 2 times, 3 appears 3 times, and 5 appears 2 times."
       ],
       [
         "4/4",
@@ -1347,9 +1311,9 @@
     "question_number": "1_1"
   },
     {
-    "question_text": "Ava's classmates revealed how many science articles they read.\n\n\n\n\nWhat is the mean of the numbers?\n\n",
+    "question_text": "Ava's classmates revealed how many science articles they read.\n\nWhat is the mean of the numbers?",
     "skills": "interpret-charts-to-find-mean-median-mode-and-range",
-    "image_tag": "Grade7_32_1_1",
+    "image_tag": "Grade7_32_1_2",
     "tag": "Gr7_32_E1",
     "question_type": "Fill in the blank",
     "question_number": "1_2",
@@ -1358,41 +1322,29 @@
     ],
     "solution": [
       [
-        "1/8",
+        "1/5",
         "Read the numbers from the table."
       ],
       [
-        "2/8",
-        "First, count how many numbers are in the group."
+        "2/5",
+        "Count how many numbers are in the group. There are 8 numbers."
       ],
       [
-        "3/8",
-        "There are 8 numbers."
+        "3/5",
+        "Now add all the numbers together:\n2 + 10 + 10 + 7 + 4 + 2 + 4 + 9 = 48"
       ],
       [
-        "4/8",
-        "Now add all the numbers together:"
+        "4/5",
+        "Now, divide the sum by the number of numbers: 48 / 8 = 6"
       ],
       [
-        "5/8",
-        "2 +10 +10 +7 +4 +2 +4 +9 =48"
-      ],
-      [
-        "6/8",
-        "Now divide the sum by the number of numbers:"
-      ],
-      [
-        "7/8",
-        "48 / 8 = 6"
-      ],
-      [
-        "8/8",
-        "The mean is 6."
+        "5/5",
+        "Therefore, the mean is 6."
       ]
     ]
   },
   {
-    "question_text": "The week of his birthday, Clarence paid attention to how many pieces of mail he received each day.\n\n\nPieces of mail received\nDayNumber of pieces of mail\nTuesday7\nWednesday9\nThursday9\nFriday7\nSaturday7\n\n\nWhat is the mode of the numbers?\n\n",
+    "question_text": "The week of his birthday, Clarence paid attention to how many pieces of mail he received each day.\n\nWhat is the mode of the numbers?",
     "skills": "interpret-charts-to-find-mean-median-mode-and-range",
     "image_tag": "Grade7_32_1_3",
     "tag": "Gr7_32_E1",
@@ -1403,37 +1355,25 @@
     ],
     "solution": [
       [
-        "1/7",
-        "Read the numbers from the table."
+        "1/4",
+        "Read the numbers from the table. Count how many times each number appears."
       ],
       [
-        "2/7",
-        "First, arrange the numbers from least to greatest:"
+        "2/4",
+        "7 appears 3 times, 9 appears 2 times."
       ],
       [
-        "3/7",
-        "Now count how many times each number appears."
-      ],
-      [
-        "4/7",
-        "7 appears 3 times."
-      ],
-      [
-        "5/7",
-        "9 appears 2 times."
-      ],
-      [
-        "6/7",
+        "3/4",
         "The number that appears most often is 7."
       ],
       [
-        "7/7",
-        "The mode is 7."
+        "4/4",
+        "Therefore, the mode is 7."
       ]
     ]
   },
     {
-    "question_text": "The week of his birthday, Hunter paid attention to how many pieces of mail he received each day.\n\n\nPieces of mail received\nDayNumber of pieces of mail\nSaturday3\nMonday6\nTuesday5\nWednesday2\nThursday3\n\n\nWhat is the range of the numbers?\n\n",
+    "question_text": "The week of his birthday, Hunter paid attention to how many pieces of mail he received each day.\n\nWhat is the range of the numbers?",
     "skills": "interpret-charts-to-find-mean-median-mode-and-range",
     "image_tag": "Grade7_32_1_4",
     "tag": "Gr7_32_E1",
@@ -1444,34 +1384,30 @@
     ],
     "solution": [
       [
-        "1/6",
+        "1/5",
         "Read the numbers from the table."
       ],
       [
-        "2/6",
+        "2/5",
         "First, find the greatest number. The greatest number is 6."
       ],
       [
-        "3/6",
+        "3/5",
         "Next, find the least number. The least number is 2."
       ],
       [
-        "4/6",
-        "Subtract the least number from the greatest number:"
+        "4/5",
+        "Subtract the least number from the greatest number: 6 - 2 = 4"
       ],
       [
-        "5/6",
-        "6 - 2 = 4"
-      ],
-      [
-        "6/6",
-        "The range is 4."
+        "5/5",
+        "Therefore, the range is 4."
       ]
     ]
   },
   {
     "skills": "mean-and-range-find-the-missing-number",
-    "question_text": "Charlie has the following data:\n\n15,15,p,15,15,15\n\nIf the mean is 15, which number could p be?",
+    "question_text": "Charlie has the following data:\n\n15, 15, p, 15, 15, 15\n\nIf the mean is 15, which number could p be?",
     "tag": "Gr7_32_E2",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -1488,21 +1424,21 @@
       ],
       [
         "2/4",
-        "Try p = 27. Find the sum of the numbers. 15 +15 +27 +15 +15 +15 =102.\nDivide by 6. 102 ÷ 6 = 17.\nWhen p = 27, the mean is 17."
+        "Try p = 27. Find the sum of the numbers:\n15 + 15 + 27 + 15 + 15 + 15 = 102.\nDivide by 6: 102 ÷ 6 = 17.\nWhen p = 27, the mean is 17."
       ],
       [
         "3/4",
-        "Try p = 15. Find the sum of the numbers. 15 +15 +15 +15 +15 +15 =90.\nDivide by 6. 90 ÷ 6 = 15.\nWhen p = 15, the mean is 15."
+        "Try p = 15. Find the sum of the numbers:\n15 + 15 + 15 + 15 + 15 + 15 = 90.\nDivide by 6: 90 ÷ 6 = 15.\nWhen p = 15, the mean is 15."
       ],
       [
         "4/4",
-        "The mean is 15, so p = 15."
+        "Since the true mean is 15, p = 15."
       ]
     ],
     "question_number": "2_1"
   },
     {
-    "question_text": "14,14,t,14,6,17. The range is 11, what could t be?",
+    "question_text": "14, 14, t, 14, 6, 17\n\nThe range of the numbers above is 11, what could t be?",
     "skills": "mean-and-range-find-the-missing-number",
     "tag": "Gr7_32_E2",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -1516,62 +1452,38 @@
     ],
     "solution": [
       [
-        "1/13",
-        "Try t = 2."
+        "1/7",
+        "Try t = 2.\nArrange the numbers from least to greatest: 2, 6, 14, 14, 14, 17"
       ],
       [
-        "2/13",
-        "Arrange the numbers from least to greatest."
+        "2/7",
+        "Subtract the least number from the greatest number: 17 - 2 = 15"
       ],
       [
-        "3/13",
-        "2,6,14,14,14,17"
-      ],
-      [
-        "4/13",
-        "Subtract the least number from the greatest number."
-      ],
-      [
-        "5/13",
-        "17 - 2 = 15"
-      ],
-      [
-        "6/13",
+        "3/7",
         "When t = 2, the range is 15."
       ],
       [
-        "7/13",
-        "Try t = 14."
+        "4/7",
+        "Try t = 14.\nArrange the numbers from least to greatest: 6, 14, 14, 14, 14, 17"
       ],
       [
-        "8/13",
-        "Arrange the numbers from least to greatest."
+        "5/7",
+        "Subtract the least number from the greatest number: 17 - 6 = 11"
       ],
       [
-        "9/13",
-        "6,14,14,14,14,17"
-      ],
-      [
-        "10/13",
-        "Subtract the least number from the greatest number."
-      ],
-      [
-        "11/13",
-        "17 - 6 = 11"
-      ],
-      [
-        "12/13",
+        "6/7",
         "When t = 14, the range is 11."
       ],
       [
-        "13/13",
-        "The range is 11, so t = 14."
+        "7/7",
+        "Since the true range is 11, t = 14."
       ]
     ]
   },
   {
     "skills": "mean-median-mode-and-range-find-the-missing-number",
-    "question_text": "Shelby has the following data:\n\n7,6,12,a,12\n\nIf the range is 9, which number could \"a\" be?",
+    "question_text": "Shelby has the following data:\n\n7, 6, 12, a, 12\n\nIf the range is 9, which number could \"a\" be?",
     "tag": "Gr7_32_E3",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -1584,7 +1496,7 @@
     "solution": [
       [
         "1/7",
-        "Try to find the range with a = 15. Arrange the numbers from least to greatest: 6,7,12,12,15"
+        "Try to find the range with a = 15. Arrange the numbers from least to greatest: 6, 7, 12, 12, 15"
       ],
       [
         "2/7",
@@ -1596,7 +1508,7 @@
       ],
       [
         "4/7",
-        "Try to find the range with a = 1. Arrange the numbers from least to greatest: 1,6,7,12,12"
+        "Try to find the range with a = 1. Arrange the numbers from least to greatest: 1, 6, 7, 12, 12"
       ],
       [
         "5/7",
@@ -1614,7 +1526,7 @@
     "question_number": "3_1"
   },
     {
-    "question_text": "5,n,4,4,4. The mean is 5, what could n be?",
+    "question_text": "5, n, 4, 4, 4.\n\nThe mean of the numbers above is 5, what could n be?",
     "skills": "mean-median-mode-and-range-find-the-missing-number",
     "tag": "Gr7_32_E3",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -1628,65 +1540,33 @@
     ],
     "solution": [
       [
-        "1/14",
+        "1/6",
         "There are 5 numbers in the group."
       ],
       [
-        "2/14",
-        "Try n = 13."
+        "2/6",
+        "Try n = 13.\nFind the sum of the numbers: 5 + 13 + 4 + 4 + 4 = 30"
       ],
       [
-        "3/14",
-        "Find the sum of the numbers."
+        "3/6",
+        "Divide by the number of numbers: 30 ÷ 5 = 6. When n = 13, the mean is 6."
       ],
       [
-        "4/14",
-        "5 +13 +4 +4 +4 =30"
+        "4/6",
+        "Try n = 8.\nFind the sum of the numbers: 5 + 8 + 4 + 4 + 4 = 25"
       ],
       [
-        "5/14",
-        "Divide by 5."
+        "5/6",
+        "Divide by the number of numbers: 25 ÷ 5 = 5. When n = 8, the mean is 5."
       ],
       [
-        "6/14",
-        "30 \u00f7 5 = 6"
-      ],
-      [
-        "7/14",
-        "When n = 13, the mean is 6."
-      ],
-      [
-        "8/14",
-        "Try n = 8."
-      ],
-      [
-        "9/14",
-        "Find the sum of the numbers."
-      ],
-      [
-        "10/14",
-        "5 +8 +4 +4 +4 =25"
-      ],
-      [
-        "11/14",
-        "Divide by 5."
-      ],
-      [
-        "12/14",
-        "25 / 5 = 5"
-      ],
-      [
-        "13/14",
-        "When n = 8, the mean is 5."
-      ],
-      [
-        "14/14",
-        "The mean is 5, so n = 8."
+        "6/6",
+        "Since the true mean is 5, n = 8."
       ]
     ]
   },
   {
-    "question_text": "14,12,12,4,n,14. The mode is 12, what could n be?",
+    "question_text": "14, 12, 12, 4, n, 14.\n\nThe mode of the numbers above is 12, what could n be?",
     "skills": "mean-median-mode-and-range-find-the-missing-number",
     "tag": "Gr7_32_E3",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -1700,45 +1580,29 @@
     ],
     "solution": [
       [
-        "1/9",
-        "Try n = 14."
+        "1/5",
+        "Try n = 14.\nArrange the numbers from least to greatest: 4, 12, 12, 14, 14, 14"
       ],
       [
-        "2/9",
-        "Arrange the numbers from least to greatest."
-      ],
-      [
-        "3/9",
-        "4,12,12,14,14,14"
-      ],
-      [
-        "4/9",
+        "2/5",
         "The number that appears most often is 14. When n = 14, the mode is 14."
       ],
       [
-        "5/9",
-        "Try n = 12."
+        "3/5",
+        "Try n = 12.\nArrange the numbers from least to greatest: 4, 12, 12, 12, 14, 14"
       ],
       [
-        "6/9",
-        "Arrange the numbers from least to greatest."
-      ],
-      [
-        "7/9",
-        "4,12,12,12,14,14"
-      ],
-      [
-        "8/9",
+        "4/5",
         "The number that appears most often is 12. When n = 12, the mode is 12."
       ],
       [
-        "9/9",
-        "The mode is 12, so n = 12."
+        "5/5",
+        "Since the true mode is 12, n = 12."
       ]
     ]
   },
   {
-    "question_text": "16,15,h,14,12. The median is 14, what could h be?",
+    "question_text": "16, 15, h, 14, 12.\n\nThe median is 14, what could h be?",
     "skills": "mean-median-mode-and-range-find-the-missing-number",
     "tag": "Gr7_32_E3",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -1752,52 +1616,37 @@
     ],
     "solution": [
       [
-        "1/9",
-        "Try h = 13."
+        "1/5",
+        "Try h = 13.\nArrange the numbers from least to greatest: 12, 13, 14, 15, 16"
       ],
       [
-        "2/9",
-        "Arrange the numbers from least to greatest."
-      ],
-      [
-        "3/9",
-        "12,13,14,15,16"
-      ],
-      [
-        "4/9",
+        "2/5",
         "The number in the middle is 14. When h = 13, the median is 14."
       ],
       [
-        "5/9",
-        "Try h = 20."
+        "3/5",
+        "Try h = 20.\nArrange the numbers from least to greatest: 12, 14, 15, 16, 20"
+      ],
       ],
       [
-        "6/9",
-        "Arrange the numbers from least to greatest."
-      ],
-      [
-        "7/9",
-        "12,14,15,16,20"
-      ],
-      [
-        "8/9",
+        "4/5",
         "The number in the middle is 15. When h = 20, the median is 15."
       ],
       [
-        "9/9",
-        "The median is 14, so h = 13."
+        "5/5",
+        "Since the true median is 14, h = 13."
       ]
     ]
   },
   {
     "skills": "changes-in-mean-and-range",
-    "question_text": "Look at this set of 5 numbers:\n86,73,82,69,75\nHow would the mean change if the number 71 were added to the set?",
+    "question_text": "Look at this set of 5 numbers:\n\n86, 73, 82, 69, 75\n\nHow would the mean change if the number 71 were added to the set?",
     "tag": "Gr7_32_E4",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
-      "increase",
-      "decrease",
-      "no change"
+      "Increase",
+      "Decrease",
+      "No change"
     ],
     "correct_answers": [
       "B"
@@ -1827,59 +1676,47 @@
     "question_number": "4_1"
   },
     {
-    "question_text": "Look at this set of 8 numbers: \n 6,5,4,8,6,4,5,4 \n How would the range change if the number 1 replaced one of the 4's in the set?",
+    "question_text": "Look at this set of 8 numbers:\n\n6, 5, 4, 8, 6, 4, 5, 4\n\nHow would the range change if the number 1 replaced one of the 4's in the set?",
     "skills": "changes-in-mean-and-range",
     "tag": "Gr7_DD.7",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "DD.7.5",
     "choices": [
-      "increase",
-      "decrease",
-      "no change"
+      "Increase",
+      "Decrease",
+      "No change"
     ],
     "correct_answers": [
       "A"
     ],
     "solution": [
       [
-        "1/7",
-        "Find the original range. Subtract the least number from the greatest number. 8-4 = 4"
+        "1/4",
+        "Find the original range. Subtract the least number from the greatest number: 8 - 4  = 4. The original range is 4."
       ],
       [
-        "2/7",
-        "The original range is 4."
+        "2/4",
+        "Now replace one of the 4's with 1: 6, 5, 1, 8, 6, 4, 5, 4"
       ],
       [
-        "3/7",
-        "Now replace one of the 4's with 1."
+        "3/4",
+        "Find the new range. Subtract the least number from the greatest number: 8 - 1 = 7. The new range would be 7."
       ],
       [
-        "4/7",
-        "6,5,1,8,6,4,5,4"
-      ],
-      [
-        "5/7",
-        "Find the new range. Subtract the least number from the greatest number. 8-1 = 7"
-      ],
-      [
-        "6/7",
-        "The new range would be 7."
-      ],
-      [
-        "7/7",
+        "4/4",
         "The range would increase from 4 to 7."
       ]
     ]
   },
   {
     "skills": "changes-in-mean-median-mode-and-range",
-    "question_text": "Look at this set of 10 numbers:\n29,81,82,62,62,82,41,23,82,26\nHow would the mode change if the number 62 replaced one of the 82's in the set?",
+    "question_text": "Look at this set of 10 numbers:\n\n29, 81, 82, 62, 62, 82, 41, 23, 82, 26\n\nHow would the mode change if the number 62 replaced one of the 82's in the set?",
     "tag": "Gr7_33_E1",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
-      "increase",
-      "decrease",
-      "no change"
+      "Increase",
+      "Decrease",
+      "No change"
     ],
     "correct_answers": [
       "B"
@@ -1895,7 +1732,7 @@
       ],
       [
         "3/5",
-        "New set of numbers: 29,81,62,62,62,82,41,23,82,26"
+        "New set of numbers: 29, 81, 62, 62, 62, 82, 41, 23, 82, 26"
       ],
       [
         "4/5",
@@ -1909,159 +1746,123 @@
     "question_number": "1_1"
   },
   {
-    "question_text": "Look at this set of 6 numbers: \n 29,74,84,62,73,82,63\n How would the range change if the number 31 replaced 29 in the set?",
+    "question_text": "Look at this set of 6 numbers:\n\n29, 74, 84, 62, 73, 82, 63\n\nHow would the range change if the number 31 replaced 29 in the set?",
     "skills": "changes-in-mean-median-mode-and-range",
     "tag": "Gr7_33_E1",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_2",
     "choices": [
-      "increase",
-      "decrease",
-      "no change"
+      "Increase",
+      "Decrease",
+      "No change"
     ],
     "correct_answers": [
       "B"
     ],
     "solution": [
       [
-        "1/7",
-        "Find the original range. Subtract the least number from the greatest number. 84-29 = 55"
+        "1/4",
+        "Find the original range. Subtract the least number from the greatest number: 84 - 29 = 55. The original range is 55."
       ],
       [
-        "2/7",
-        "The original range is 55."
+        "2/4",
+        "Now replace 29 with 31. The new set of numbers is 31, 74, 84, 62, 73, 82, 63."
       ],
       [
-        "3/7",
-        "Now replace 29 with 31."
+        "3/4",
+        "Find the new range. Subtract the least number from the greatest number: 84 - 31 = 53. The new range would be 53."
       ],
       [
-        "4/7",
-        "31,74,84,62,73,82,63"
-      ],
-      [
-        "5/7",
-        "Find the new range. Subtract the least number from the greatest number. 84-31 = 53"
-      ],
-      [
-        "6/7",
-        "The new range would be 53."
-      ],
-      [
-        "7/7",
+        "4/4",
         "The range would decrease from 55 to 53."
       ]
     ]
   },
     {
-    "question_text": "Look at this set of 8 numbers: \n 56,21,55,52,12,24,60,26\n How would the median change if the number 60 were replaced with 86 in the set?",
+    "question_text": "Look at this set of 8 numbers:\n\n56, 21, 55, 52, 12, 24, 60, 26\n\nHow would the median change if the number 60 was replaced by 86 in the set?",
     "skills": "changes-in-mean-median-mode-and-range",
     "tag": "Gr7_33_E1",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_3",
     "choices": [
-      "increase",
-      "decrease",
-      "no change"
+      "Increase",
+      "Decrease",
+      "No change"
     ],
     "correct_answers": [
       "C"
     ],
     "solution": [
       [
-        "1/9",
-        "Find the original median. Arrange the numbers from least to greatest and find the number in the middle."
+        "1/7",
+        "Find the original median. Arrange the numbers from least to greatest and find the number in the middle: 12, 21, 24, 26, 52, 55, 56, 60"
       ],
       [
-        "2/9",
-        "12,21,24,26,52,55,56,60"
+        "2/7",
+        "The median is the mean of the two middle numbers, 26 and 52.\n26 + 52 = 78 and 78 ÷ 2 = 39"
       ],
       [
-        "3/9",
-        "The median is the mean of the two middle numbers. Find the mean of 26 and 52. 26 + 52 = 78, 78 ÷ 2 = 39"
-      ],
-      [
-        "4/9",
+        "3/7",
         "The original median is 39."
       ],
       [
-        "5/9",
-        "Now replace 60 with 86 and find the new median."
+        "4/7",
+        "Now replace 60 with 86 and find the new median. Arrange the numbers from least to greatest and find the number in the middle: 12, 21, 24, 26, 52, 55, 56, 86"
       ],
       [
-        "6/9",
-        "12,21,24,26,52,55,56,86"
+        "5/7",
+        "The median is the mean of the two middle numbers, 26 and 52.\n26 + 52 = 78 and 78 ÷ 2 = 39"
       ],
       [
-        "7/9",
-        "The median is the mean of the two middle numbers. Find the mean of 26 and 52. 26 + 52 = 78, 78 ÷ 2 = 39"
-      ],
-      [
-        "8/9",
+        "6/7",
         "The new median would also be 39."
       ],
       [
-        "9/9",
+        "7/7",
         "The median would not change."
       ]
     ]
   },
     {
-    "question_text": "Look at this set of 8 numbers: \n 34,30,57,17,34,34,34,56\n How would the mean change if one of the 34's were replaced with 50 in the set?",
+    "question_text": "Look at this set of 8 numbers:\n\n34, 30, 57, 17, 34, 34, 34, 56\n\nHow would the mean change if one of the 34's was replaced by 50 in the set?",
     "skills": "changes-in-mean-median-mode-and-range",
     "tag": "Gr7_33_E1",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_4",
     "choices": [
-      "increase",
-      "decrease",
-      "no change"
+      "Increase",
+      "Decrease",
+      "No change"
     ],
     "correct_answers": [
       "A"
     ],
     "solution": [
       [
-        "1/9",
+        "1/5",
         "You can solve this problem without doing any calculations. You are replacing the number 34 with the number 50. Since 50 is greater than 34, the mean will increase."
       ],
       [
-        "2/9",
+        "2/5",
         "You can check your answer by doing the calculations."
       ],
       [
-        "3/9",
-        "Find the original mean. There are 8 numbers. Add up the numbers and divide by 8."
+        "3/5",
+        "Find the original mean. There are 8 numbers. Add up the numbers and divide by 8: (34 + 30 + 57 + 17 + 34 + 34 + 34 + 56) / 8 = 37.\nThe original mean is 37."
       ],
       [
-        "4/9",
-        "(34 + 30 + 57 + 17 + 34 + 34 + 34 + 56) / 8 = 37"
+        "4/5",
+        "Now, replace one of the 34's with 50 and find the new mean. Add up the numbers and divide by 8: (34 + 30 + 57 + 17 + 34 + 50 + 34 + 56) / 8 = 39.\nThe new mean would be 39."
       ],
       [
-        "5/9",
-        "The original mean is 37."
-      ],
-      [
-        "6/9",
-        "Now replace one of the 34's with 50 and find the new mean. Add up the numbers and divide by 8"
-      ],
-      [
-        "7/9",
-        "(34 + 30 + 57 + 17 + 34 + 50 + 34 + 56) \u00f7 8 = 39"
-      ],
-      [
-        "8/9",
-        "The new mean would be 39."
-      ],
-      [
-        "9/9",
+        "5/5",
         "The mean would increase from 37 to 39."
       ]
     ]
   },
   {
     "skills": "interpret-tables",
-    "question_text": "A statistician analyzed the number of runs scored by players last season.\n\nHow many players are there in all?\n\n",
+    "question_text": "A statistician analyzed the number of runs scored by players last season.\n\nHow many players are there in all?",
     "image_tag": "Grade7_33_2_1",
     "tag": "Gr7_33_E2",
     "question_type": "Fill in the blank",
@@ -2091,10 +1892,10 @@
     "tag": "Gr7_33_E3",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
-      "football",
-      "baseball",
-      "tennis",
-      "basketball"
+      "Football",
+      "Baseball",
+      "Tennis",
+      "Basketball"
     ],
     "correct_answers": [
       "A"
@@ -2102,19 +1903,19 @@
     "solution": [
       [
         "1/1",
-        "Look for the smallest section in the graph. The smallest section is for football (1/11). The football team raised the least."
+        "Look for the smallest section in the graph. The smallest section is for football (1/11). Therefore, the football team raised the least."
       ]
     ],
     "question_number": "3_1"
   },
   {
     "skills": "identify-independent-and-dependent-events",
-    "question_text": "Jason picks a card at random. Without putting the first card back, he picks a second card at random.\nAre these two events dependent or independent?",
+    "question_text": "Jason picks a card at random. Then, without putting the first card back, he picks a second card at random.\n\nAre these two events dependent or independent?",
     "tag": "Gr7_33_E4",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
-      "dependent",
-      "independent"
+      "Dependent",
+      "Independent"
     ],
     "correct_answers": [
       "A"
@@ -2144,12 +1945,12 @@
     ],
     "solution": [
       [
-        "1/4",
+        "3/4",
         "Make a tree diagram, then count the branches."
       ],
       [
         "2/4",
-        "The first event has 5 outcomes: pink (Pi), blue (Bl), orange (O), purple (Pu) and green (G).\n"
+        "The first event has 5 outcomes: pink (Pi), blue (Bl), orange (O), purple (Pu) and green (G)."
       ],
       [
         "3/4",
@@ -2164,15 +1965,15 @@
   },
   {
     "skills": "bases-of-three-dimensional-figures",
-    "question_text": "Look at this figure:\n\n\n\n\n\nWhat is the shape of its base?",
+    "question_text": "Look at the figure below. What is the shape of its base?",
     "image_tag": "Grade7_34_2_1",
     "tag": "Gr7_34_E2",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
-      "triangle",
-      "rectangle",
-      "square",
-      "circle"
+      "Triangle",
+      "Rectangle",
+      "Square",
+      "Circle"
     ],
     "correct_answers": [
       "D"
@@ -2197,7 +1998,7 @@
   },
   {
     "skills": "front-side-and-top-view",
-    "question_text": "If you look at this object from the top, what will you see?\n\n\n\n",
+    "question_text": "If you look at this object from the top, what will you see?",
     "image_tag": "Grade7_34_3_1",
     "tag": "Gr7_34_E3",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -2237,23 +2038,23 @@
     "tag": "Gr7_34_E4",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
-      "yes",
-      "no"
+      "Yes",
+      "No"
     ],
     "correct_answers": [
       "B"
     ],
     "solution_image_tag": [
       [
-        "1/6",
+        "3/6",
         "Gr7_34_4_1_step_1"
       ],
       [
-        "2/6",
+        "4/6",
         "Gr7_34_4_1_step_2"
       ],
       [
-        "3/6",
+        "4/6",
         "Gr7_34_4_1_step_3"
       ],
       [
@@ -2261,7 +2062,7 @@
         "Gr7_34_4_1_step_4"
       ],
       [
-        "5/6",
+        "4/6",
         "Gr7_34_4_1_step_5"
       ]
     ],
@@ -2272,7 +2073,7 @@
       ],
       [
         "2/6",
-        "First, see if the corresponding angles are all congruent."
+        "Now, see if the corresponding angles are all congruent."
       ],
       [
         "3/6",
