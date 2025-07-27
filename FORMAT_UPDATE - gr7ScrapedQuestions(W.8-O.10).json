@@ -1,6 +1,6 @@
 [
   {
-    "question_text": "This graph shows how the total number of stamps Dakota has in her collection is related to the amount of money she spends on additional stamps.\nWith $500 to spend on new stamps, how many total stamps will Dakota have in her collection?\n\n\n stamps\n stamps\n3 stamps\n1 stamps",
+    "question_text": "This graph shows how the total number of stamps Dakota has in her collection is related to the amount of money she spends on additional stamps.\n\nWith $500 to spend on new stamps, how many total stamps will Dakota have in her collection?",
     "skills": "interpret-a-graph-word-problems",
     "image_tag": "Grade7_23_3_2",
     "tag": "Gr7_23_E3",
@@ -32,34 +32,30 @@
   },
   {
     "skills": "write-equations-for-proportional-relationships-from-tables",
-    "question_text": "Emily and her dad share an intense love of baseball. Every weekend, they go to the batting cages to practice hitting. Emily's dad buys tokens for her to use in the batting cage.\nThere is a proportional relationship between the number of tokens Emily uses, x, and the number of pitches thrown by the pitching machine, y.\nx (tokens)y (pitches)\n15\n210\n315\n420\nWrite an equation for the relationship between x and y. Simplify any fractions.\ny=",
+    "question_text": "Emily and her dad share an intense love of baseball. Every weekend, they go to the batting cages to practice hitting. Emily's dad buys tokens for her to use in the batting cage.\n\nThere is a proportional relationship between the number of tokens Emily uses (x) and the number of pitches thrown by the pitching machine (y).\n\nWrite an equation for the relationship between x and y. Simplify any fractions.\ny=",
     "image_tag": "Grade7_23_4_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "5x"
+      "5x","y=5x"
     ],
     "solution_image_tag": [
       [
-        "1/4",
+        "2/3",
         "Gr7_23_4_1_step_1"
       ]
     ],
     "solution": [
       [
-        "1/4",
+        "1/3",
         "To write an equation for the relationship between x and y, first find the constant of proportionality. Calculate the ratio of y to x by dividing the number of pitches by the number of tokens for each pair of values."
       ],
       [
-        "2/4",
-        "The ratio for each pair of x- and y-values is 5. So, the variables have a proportional relationship."
+        "2/3",
+        "The ratio for each pair of x- and y-values is 5. So, the constant of proportionality is 5 pitches per token."
       ],
       [
-        "3/4",
-        "So, the constant of proportionality is 5 pitches per token."
-      ],
-      [
-        "4/4",
-        "The equation for the relationship is: y=5x"
+        "3/3",
+        "Therefore, the equation for the relationship is y=5x"
       ]
     ],
     "tag": "Gr7_23_E4",
@@ -67,11 +63,11 @@
   },
   {
     "skills": "write-equations-for-proportional-relationships-from-graphs",
-    "question_text": "During hockey season, Lili stays in excellent shape. To keep up her conditioning in the off-season, she swims every day.\nThere is a proportional relationship between the time (in seconds) Lili swims freestyle, x, and the number of feet she travels, y.\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n0\nx\ny\nSeconds\nFeet\nWrite an equation for the relationship between x and y. Simplify any fractions.\ny=",
+    "question_text": "During hockey season, Lili stays in excellent shape. To keep up her conditioning in the off-season, she swims every day.\n\nThere is a proportional relationship between the time (in seconds) Lili swims freestyle (x) and the number of feet she travels (y).\n\nWrite an equation for the relationship between x and y. Simplify any fractions.\ny=",
     "image_tag": "Grade7_24_1_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "3x"
+      "3x","y=3x"
     ],
     "solution_image_tag": [
       [
@@ -102,7 +98,7 @@
   },
   {
     "skills": "write-variable-expressions-for-arithmetic-sequences",
-    "question_text": "Write an expression to describe the sequence below. Use n to represent the position of a term in the sequence, where n = 1 for the first term.\n\n\n9, 18, 27, 36, ...\n\n\n",
+    "question_text": "Write an expression to describe the sequence below. Use n to represent the position of a term in the sequence, where n = 1 for the first term.\n\n9, 18, 27, 36, ...\n\n\n",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "9n"
@@ -110,15 +106,15 @@
     "solution": [
       [
         "1/3",
-        "The sequence 9, 18, 27, 36, ... looks like 1, 2, 3, 4, ... except each term is 9 times as large. So, the expression that describes the sequence is 9n, where n represents the position of a term in the sequence. Check the first four terms."
+        "The sequence 9, 18, 27, 36, ... looks like 1, 2, 3, 4, ... except each term is 9 times as large."
       ],
       [
         "2/3",
-        "To find the 1st term, plug in n = 1. 9n = 9(1) = 9.\nTo find the 2nd term, plug in n = 2. 9n = 9(2) = 18.\nTo find the 3rd term, plug in n = 3. 9n = 9(3) = 27.\nTo find the 4th term, plug in n = 4. 9n = 9(4) = 36."
+        "So, the expression that describes the sequence is 9n, where n represents the position of a term in the sequence. Check the first four terms.\nTo find the 1st term, plug in n = 1. 9n = 9(1) = 9.\nTo find the 2nd term, plug in n = 2. 9n = 9(2) = 18.\nTo find the 3rd term, plug in n = 3. 9n = 9(3) = 27.\nTo find the 4th term, plug in n = 4. 9n = 9(4) = 36."
       ],
       [
         "3/3",
-        "The sequence 9, 18, 27, 36, ... is described by the expression 9n."
+        "Therefore, the sequence 9, 18, 27, 36, ... is described by the expression 9n."
       ]
     ],
     "tag": "Gr7_24_E2",
@@ -126,46 +122,42 @@
   },
   {
     "skills": "write-a-two-variable-equation",
-    "question_text": "Read the following description of a relationship:\nA shipyard produces 7 new ships each month.\nLet m represent the number of months and s represent the total number of ships produced.\nComplete the equation that represents the relationship between m and s.\nms\n321\n428\n535\n642\ns=__m",
+    "question_text": "Read the following description of a relationship:\nA shipyard produces 7 new ships each month. Let m represent the number of months and s represent the total number of ships produced.\n\nComplete the equation that represents the relationship between m and s.\ns=__m",
     "image_tag": "Grade7_24_3_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "s=7m"
+      "s=7m","7"
     ],
     "solution_image_tag": [
       [
-        "1/6",
+        "1/5",
         "Gr7_24_3_1_step_1"
       ],
       [
-        "2/6",
+        "2/5",
         "Gr7_24_3_1_step_2"
       ]
     ],
     "solution": [
       [
-        "1/6",
+        "1/5",
         "Read the description of the relationship between the number of months, m, and the total number of ships produced, s."
       ],
       [
-        "2/6",
+        "2/5",
         "The shipyard produces 7 new ships each month. In this relationship, m is the input, and s is the output. So, you can find s by multiplying m by 7."
       ],
       [
-        "3/6",
+        "3/5",
         "Express this relationship as an equation. s=m(7)=7m"
       ],
       [
-        "4/6",
+        "4/5",
         "You can use the table to check your answer. In each row of the table, plug the value from the m column into the equation. See if you get the value in the s column."
       ],
       [
-        "5/6",
-        "The values in the 7m column are the same as the values in the s column."
-      ],
-      [
-        "6/6",
-        "The equation for this relationship is: s=7m"
+        "5/5",
+        "The values in the 7m column are the same as the values in the s column. Therefore, the equation for this relationship is s = 7m"
       ]
     ],
     "tag": "Gr7_24_E3",
@@ -178,12 +170,12 @@
     "question_type": "Fill in the blank",
     "correct_answers": [
       "12",
-      "y=x+3"
+      "y=x+3","y=3+x","x+3=y","3+x=y"
     ],
     "solution": [
       [
         "1/6",
-        "Step 1: Complete the table.\nEach row of the table represents a point on the line graph. Use the graph to find the missing value in the table."
+        "Part 1: Complete the table.\nEach row of the table represents a point on the line graph. Use the graph to find the missing value in the table."
       ],
       [
         "2/6",
@@ -195,15 +187,15 @@
       ],
       [
         "4/6",
-        "Step 2: Write the equation.\nFor each row of the table, the number in the y column is more than the number in the x column. Find out by how much."
+        "Part 2: Write the equation.\nFor each row of the table, the number in the y column is more than the number in the x column. Find out by how much."
       ],
       [
         "5/6",
-        "In each row of the table, the number in the y column is 3 more than the number in the x column. You can write the equation as:\ny=x+3"
+        "In each row of the table, the number in the y column is 3 more than the number in the x column."
       ],
       [
         "6/6",
-        "You can use the table to check your answer. In each row of the table, plug the value from the m column into the equation. See if you get the value in the s column."
+        "Therefore, the equation for this relationship is y = x + 3.\nYou can use the table to check your answer. In each row of the table, plug the value from the m column into the equation. See if you get the value in the s column."
       ]
     ],
     "tag": "Gr7_24_E4",
@@ -214,8 +206,8 @@
     "question_text": "Is -45 + 39 positive or negative?",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
-      "positive",
-      "negative"
+      "Positive",
+      "Negative"
     ],
     "correct_answers": [
       "B"
@@ -231,7 +223,7 @@
       ],
       [
         "3/3",
-        "You can check your answer by doing the math. -45 + 39 = -6. As you can see, the result is negative."
+        "You can check your answer by doing the math: -45 + 39 = -6. As you can see, the result is negative."
       ]
     ],
     "tag": "Gr7_25_E1",
@@ -239,31 +231,27 @@
   },
   {
     "skills": "integer-subtraction-rules",
-    "question_text": "Is -9 - 77 positive or negative?\n\npositive\nnegative",
+    "question_text": "Is -9 - 77 positive or negative?",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
-      "positive",
-      "negative"
+      "Positive",
+      "Negative"
     ],
     "correct_answers": [
       "B"
     ],
     "solution": [
       [
-        "1/4",
-        "You are starting with a negative number, -9. Then, when you subtract a positive number like 77, the result is even less than -9. So, the result is negative."
+        "1/3",
+        "You are starting with a negative number, -9. Then, when you subtract a positive number like 77, the result is even less than -9."
       ],
       [
-        "2/4",
-        "You can check your answer by doing the math."
+        "2/3",
+        "So, the result is negative. "
       ],
       [
-        "3/4",
-        "-9 - 77 = -86"
-      ],
-      [
-        "4/4",
-        "As you can see, the result is negative."
+        "3/3",
+        "You can check your answer by doing the math: -9 - 77 = -86. As you can see, the result is negative."
       ]
     ],
     "tag": "Gr7_25_E2",
@@ -271,31 +259,23 @@
   },
   {
     "skills": "integer-addition-and-subtraction-rules",
-    "question_text": "Is 16 + 9 positive or negative?\n\npositive\nnegative",
+    "question_text": "Is 16 + 9 positive or negative?",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
-      "positive",
-      "negative"
+      "Positive",
+      "Negative"
     ],
     "correct_answers": [
       "A"
     ],
     "solution": [
       [
-        "1/4",
+        "1/2",
         "When you add two positive numbers, like 16 and 9, the result is positive."
       ],
       [
-        "2/4",
-        "You can check your answer by doing the math."
-      ],
-      [
-        "3/4",
-        "16 + 9 = 25"
-      ],
-      [
-        "4/4",
-        "As you can see, the result is positive."
+        "2/2",
+        "You can check your answer by doing the math: 16 + 9 = 25. As you can see, the result is positive."
       ]
     ],
     "tag": "Gr7_25_E3",
@@ -316,54 +296,42 @@
     ],
     "solution": [
       [
-        "1/4",
+        "1/2",
         "You are starting with a negative number, -68. When you subtract 89, the result is even less than -68. So, the result is negative."
       ],
       [
-        "2/4",
-        "You can check your answer by doing the math."
-      ],
-      [
-        "3/4",
-        "-68 - 89 = -157"
-      ],
-      [
-        "4/4",
-        "As you can see, the result is negative."
+        "2/2",
+        "You can check your answer by doing the math: -68 - 89 = -157. As you can see, the result is negative."
       ]
     ]
   },
   {
     "skills": "integer-multiplication-rules",
-    "question_text": "Is 3 x -1 positive or negative?\n\npositive\nnegative",
+    "question_text": "Is 3 x -1 positive or negative?",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
-      "positive",
-      "negative"
+      "Positive",
+      "Negative"
     ],
     "correct_answers": [
       "B"
     ],
     "solution": [
       [
-        "1/5",
+        "1/4",
         "3 is positive. -1 is negative."
       ],
       [
-        "2/5",
-        "Use the rule: positive x negative = negative"
+        "2/4",
+        "Use the rule: positive x negative = negative."
       ],
       [
-        "3/5",
+        "3/4",
         "So, 3 x -1 is negative."
       ],
       [
-        "4/5",
-        "Now check your answer by doing the math."
-      ],
-      [
-        "5/5",
-        "3 x -1 = -3\nYes, the answer is negative."
+        "4/4",
+        "Now check your answer by doing the math: 3 x -1 = -3. Yes, the answer is negative."
       ]
     ],
     "tag": "Gr7_25_E4",
@@ -371,73 +339,65 @@
   },
   {
     "skills": "integer-division-rules",
-    "question_text": "Is 6 ÷ -1 positive or negative?\n\npositive\nnegative",
+    "question_text": "Is 6 ÷ -1 positive or negative?",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
-      "positive",
-      "negative"
+      "Positive",
+      "Negative"
     ],
     "correct_answers": [
       "B"
     ],
     "solution": [
       [
-        "1/5",
+        "1/4",
         "6 is positive. -1 is negative."
       ],
       [
-        "2/5",
-        "Use the rule: positive ÷ negative = negative"
+        "2/4",
+        "Use the rule: positive ÷ negative = negative."
       ],
       [
-        "3/5",
+        "3/4",
         "So, 6 ÷ -1 is negative."
       ],
       [
-        "4/5",
-        "Now check your answer by doing the math."
-      ],
-      [
-        "5/5",
-        "6 ÷ -1 = -6\nYes, the answer is negative."
+        "4/4",
+        "Now check your answer by doing the math: 6 ÷ -1 = -6. Yes, the answer is negative."
       ]
     ],
     "tag": "Gr7_26_E1",
     "question_number": "1_1"
   },
   {
-    "question_text": "Is – 8 × 6 positive or negative?",
+    "question_text": "Is –8 × 6 positive or negative?",
     "skills": "integer-multiplication-and-division-rules",
     "tag": "Gr7_26_E2",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_1",
     "choices": [
-      "positive",
-      "negative"
+      "Positive",
+      "Negative"
     ],
     "correct_answers": [
       "B"
     ],
     "solution": [
       [
-        "1/5",
-        "– 8 is negative. 6 is positive."
+        "1/4",
+        "–8 is negative. 6 is positive."
       ],
       [
-        "2/5",
-        " Use the rule: negative × positive = negative"
+        "2/4",
+        "Use the rule: negative × positive = negative."
       ],
       [
-        "3/5",
+        "3/4",
         "So, – 8 × 6 is negative."
       ],
       [
-        "4/5",
-        "Now check your answer by doing the math."
-      ],
-      [
-        "5/5",
-        "– 8 × 6 = –48\nYes, the answer is negative."
+        "4/4",
+        "Now check your answer by doing the math: –8 × 6 = –48. Yes, the answer is negative."
       ]
     ]
   },
@@ -447,33 +407,29 @@
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_2",
     "choices": [
-      "positive",
-      "negative"
+      "Positive",
+      "Negative"
     ],
     "correct_answers": [
       "A"
     ],
     "solution": [
       [
-        "1/5",
+        "1/4",
         "80 is positive. 10 is positive."
       ],
       [
-        "2/5",
-        "Use the rule: positive ÷ positive = positive"
+        "2/4",
+        "Use the rule: positive ÷ positive = positive."
       ],
       [
-        "3/5",
+        "3/4",
         "So, 80 ÷ 10 is positive."
       ],
       [
-        "4/5",
-        "Now check your answer by doing the math."
+        "4/4",
+        "Now check your answer by doing the math: 80 ÷ 10 = 8. Yes, the answer is positive."
       ],
-      [
-        "5/5",
-        "80 ÷ 10 = 8\nYes, the answer is positive."
-      ]
     ],
     "tag": "Gr7_26_E2"
   },
@@ -486,20 +442,16 @@
     ],
     "solution": [
       [
-        "1/4",
-        "Combine the m terms by adding and subtracting their coefficients:"
+        "1/3",
+        "Combine the m terms by adding and subtracting their coefficients."
       ],
       [
-        "2/4",
-        "The coefficients are 3, 3, -3; 3+3-3=3\nTherefore, 3m+3m-3m=3m"
+        "2/3",
+        "The coefficients are 3, 3, -3 and 3+3-3=3.\nSo, 3m+3m-3m=3m"
       ],
       [
-        "3/4",
-        "There are no other like terms to combine."
-      ],
-      [
-        "4/4",
-        "The answer is 3m."
+        "3/3",
+        "There are no other like terms to combine. Therefore, the answer is 3m."
       ]
     ],
     "tag": "Gr7_26_E3",
@@ -507,10 +459,10 @@
   },
   {
     "skills": "evaluate-linear-expressions",
-    "question_text": "Evaluate the expression for y = 8.\n\n\ny + 7 = ",
+    "question_text": "Evaluate the expression below for y = 8.\n\ny + 7 = ",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "15"
+      "15",
     ],
     "solution_image_tag": [
       [
@@ -528,7 +480,7 @@
     "question_number": "4_1"
   },
   {
-    "question_text": "Evaluate the expression for x = 12 and y = 11.\n\n\nx - y = ",
+    "question_text": "Evaluate the expression below for x = 12 and y = 11.\n\nx - y = ",
     "skills": "evaluate-multi-variable-expressions",
     "tag": "Gr7_27_E1",
     "question_type": "Fill in the blank",
@@ -549,7 +501,7 @@
   },
   {
     "skills": "evaluate-multi-variable-expressions",
-    "question_text": "Evaluate the expression for f = 5 and g = 3.\n\n\nfg = ",
+    "question_text": "Evaluate the expression below for f = 5 and g = 3.\n\nfg = ",
     "question_type": "Fill in the blank",
     "question_number": "1_2",
     "correct_answers": [
@@ -557,7 +509,7 @@
     ],
     "solution": [
       [
-        "1/4",
+        "1/2",
         "Plug in f = 5 and g = 3, then simplify."
       ],
       [
@@ -568,7 +520,7 @@
     "tag": "Gr7_27_E1"
   },
   {
-    "question_text": "Evaluate the expression for u = 7 and v = 5.\n\n\nu + v = ",
+    "question_text": "Evaluate the expression below for u = 7 and v = 5.\n\nu + v = ",
     "skills": "evaluate-multi-variable-expressions",
     "tag": "Gr7_27_E1",
     "question_type": "Fill in the blank",
@@ -589,11 +541,11 @@
   },
   {
     "skills": "which-x-satisfies-an-equation",
-    "question_text": "What value of c is a solution to this equation?\nc+5=7",
+    "question_text": "What value of c is a solution to the equation below?\n\nc + 5 = 7",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
-      "c=2",
-      "c=3"
+      "c = 2",
+      "c = 3"
     ],
     "correct_answers": [
       "A"
@@ -601,19 +553,19 @@
     "solution": [
       [
         "1/4",
-        "To find the solution, substitute each value of c into the equation: c+5=7."
+        "To find the solution, substitute each value of c into the equation: c + 5 = 7."
       ],
       [
         "2/4",
-        "Substitute the value c=2 into the equation. 2+5=7"
+        "Substitute the value c=2 into the equation: 2 + 5 = 7"
       ],
       [
         "3/4",
-        "The value c=2 makes this equation true. So, c=2 is the solution."
+        "The value c = 2 makes this equation true. So, c = 2 is the solution."
       ],
       [
         "4/4",
-        "Substitute the value c=3 into the equation. 3+5=8, not 7, so c=3 is not a solution."
+        "Substitute the value c = 3 into the equation: 3 + 5 = 8, not 7. So, c = 3 is not a solution."
       ]
     ],
     "tag": "Gr7_27_E2",
@@ -621,7 +573,7 @@
   },
   {
     "skills": "model-and-solve-equations-using-algebra-tiles",
-    "question_text": "Which set of algebra tiles represents the equation 3x=15?",
+    "question_text": "Which set of algebra tiles represents the equation 3x = 15?",
     "tag": "Gr7_27_E3",
     "question_number": "3_1",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -637,15 +589,15 @@
     "solution": [
       [
         "1/3",
-        "The equation is 3x=15.\nThe left side of the equation is 3x. So, the left side of the set should have 3 \"x\" tiles."
+        "The given equation is 3x=15.\nSince the left side of the equation is 3x, the left side of the set must have 3 \"x\" tiles."
       ],
       [
-        "1/3",
-        "The right side of the equation is 15. So, the right side of the set should have 15 \"1\" tiles."
+        "2/3",
+        "Since the right side of the equation is 15, the right side of the set must have 15 \"1\" tiles."
       ],
       [
         "3/3",
-        "C is the correct set of algebra tiles. It represents the equation 3x=15.\nThe other sets of algebra tiles represent different equations."
+        "C is the correct set of algebra tiles, representing the equation 3x = 15."
       ]
     ]
   },
@@ -656,10 +608,10 @@
     "question_number": "3_2",
     "image_tag": "Grade7_27_3_2",
     "choices": [
-      "x+5=21",
-      "x+8=15",
-      "x+5=15",
-      "x+8=21"
+      "x + 5 = 21",
+      "x + 8 = 15",
+      "x + 5 = 15",
+      "x + 8 = 21"
     ],
     "correct_answers": [
       "B"
@@ -671,7 +623,7 @@
       ],
       [
         "2/4",
-        "The left side has 1 \"x\" tile and 8 \"1\" tiles. So, the left side of the equation should be x+8.\nNow look at the tiles on the right side of the set."
+        "The left side has 1 \"x\" tile and 8 \"1\" tiles. So, the left side of the equation should be x + 8.\nNow look at the tiles on the right side of the set."
       ],
       [
         "3/4",
@@ -679,14 +631,14 @@
       ],
       [
         "4/4",
-        "This set of algebra tiles represents the equation x+8=15."
+        "This set of algebra tiles represents the equation x + 8 = 15."
       ]
     ],
     "tag": "Gr7_27_E3"
   },
   {
     "skills": "write-and-solve-equations-that-represent-diagrams",
-    "question_text": "Write an equation that says that the length of the green line is equal to the length of the black line. Equation: ",
+    "question_text": "Write an equation that says that the length of the green line is equal to the length of the black line.",
     "image_tag": "Grade7_27_4_1",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -716,7 +668,7 @@
       ],
       [
         "3/3",
-        "The black line is the sum of its segments, so putting these together gives:"
+        "Putting these together gives: c + 6 = 21."
       ]
     ],
     "tag": "Gr7_27_E4",
