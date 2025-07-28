@@ -2107,15 +2107,15 @@
     ],
     "solution_image_tag": [
       [
-        "1/7",
+        "3/7",
         "Gr7_35_1_1_step_1"
       ],
       [
-        "2/7",
+        "4/7",
         "Gr7_35_1_1_step_2"
       ],
       [
-        "3/7",
+        "5/7",
         "Gr7_35_1_1_step_3"
       ]
     ],
@@ -2158,15 +2158,15 @@
     "tag": "Gr7_35_E2",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
-      "enlargement",
-      "reduction"
+      "Enlargement",
+      "Reduction"
     ],
     "correct_answers": [
       "A"
     ],
     "solution_image_tag": [
       [
-        "1/7",
+        "6/7",
         "Gr7_35_2_1_step_1"
       ]
     ],
@@ -2181,7 +2181,7 @@
       ],
       [
         "3/7",
-        "The side connects (-5, -4) and (5, -4). It is 10 units long."
+        "In the original shape, the bottom side connects (-5, -4) and (5, -4). It is 10 units long."
       ],
       [
         "4/7",
@@ -2189,7 +2189,7 @@
       ],
       [
         "5/7",
-        "The side connects (-10, -8) and (10, -8). It is 20 units long."
+        "In the image, the bottom side connects (-10, -8) and (10, -8). It is 20 units long."
       ],
       [
         "6/7",
@@ -2204,21 +2204,21 @@
   },
   {
     "skills": "determine-if-two-figures-are-similar-justify-your-answer",
-    "question_text": "The graph shows quadrilaterals STUV and CDEF. Is STUV similar to CDEF? Justify your answer.",
+    "question_text": "The graph shows quadrilaterals STUV and CDEF. Is STUV similar to CDEF?",
     "image_tag": "Grade7_35_3_1",
     "tag": "Gr7_35_E3",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
       "Yes, because a dilation by a scale factor of 3 centred at the origin maps STUV onto CDEF.",
       "Yes, because a dilation by a scale factor of 2 centred at the origin maps STUV onto CDEF.",
-      "No, because \nDE\nTU\n is not equal to \nCF\nSV\n."
+      "No, because DE/TU is not equal to CF/SV."
     ],
     "correct_answers": [
       "A"
     ],
     "solution_image_tag": [
       [
-        "1/5",
+        "4/5",
         "Gr7_35_3_1_step_1"
       ],
       [
@@ -2229,7 +2229,7 @@
     "solution": [
       [
         "1/5",
-        "This sentence correctly states and justifies that STUV and CDEF are similar:\nYes,because a dilation by a scale factor of 3 centred at the origin maps STUV onto CDEF."
+        "The following sentence correctly states and justifies that STUV and CDEF are similar:\nYes, because a dilation by a scale factor of 3 centred at the origin maps STUV onto CDEF."
       ],
       [
         "2/5",
@@ -2237,7 +2237,7 @@
       ],
       [
         "3/5",
-        "A dilation by a scale factor of 2 centred at the origin does not map STUV onto CDEF, so this sentence is incorrect.\nYes,because a dilation by a scale factor of 2 centred at the origin maps STUV onto CDEF."
+        "A dilation by a scale factor of 2 centred at the origin does not map STUV onto CDEF, so option B is incorrect."
       ],
       [
         "4/5",
@@ -2252,7 +2252,7 @@
   },
   {
     "skills": "side-lengths-and-angle-measures-of-similar-figures",
-    "question_text": "If these two shapes are similar, what is the measure of the missing length q?\nq =  metres",
+    "question_text": "If these two shapes are similar, what is the measure of the missing length q?",
     "image_tag": "Grade7_35_4_1",
     "tag": "Gr7_35_E4",
     "question_type": "Fill in the blank",
@@ -2261,11 +2261,11 @@
     ],
     "solution_image_tag": [
       [
-        "1/6",
+        "4/6",
         "Gr7_35_4_1_step_1"
       ],
       [
-        "2/6",
+        "5/6",
         "Gr7_35_4_1_step_2"
       ]
     ],
@@ -2299,14 +2299,14 @@
   },
   {
     "skills": "identify-reflections-rotations-and-translations",
-    "question_text": "Look at this shape:\n\n\n\nWhich image shows a translation?\n\n",
+    "question_text": "Look at the shape below. Which image shows a translation?",
     "image_tag": "Grade7_36_1_1",
     "tag": "Gr7_36_E1",
     "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "A",
-      "B",
-      "C"
+    "image_choice_tags": [
+      "Gr7_36_1_1_A",
+      "Gr7_36_1_1_B",
+      "Gr7_36_1_1_C"
     ],
     "correct_answers": [
       "A"
@@ -2317,22 +2317,22 @@
         "Gr7_36_1_1_step_1"
       ],
       [
-        "2/4",
+        "4/4",
         "Gr7_36_1_1_step_2"
       ],
       [
-        "3/4",
+        "2/4",
         "Gr7_36_1_1_step_3"
       ],
       [
-        "4/4",
+        "3/4",
         "Gr7_36_1_1_step_4"
       ]
     ],
     "solution": [
       [
         "1/4",
-        "Look at the first shape. Now find the image that shows a translation."
+        "Look at the shape provided. Now find the image that shows a translation."
       ],
       [
         "2/4",
@@ -2381,8 +2381,7 @@
     "tag": "Gr7_36_E3",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "-4",
-      "5"
+      "(-4,5)"
     ],
     "solution": [
       [
@@ -2407,8 +2406,7 @@
     "tag": "Gr7_36_E4",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "5",
-      "-3"
+      "(5,-3)"
     ],
     "solution": [
       [
@@ -2417,11 +2415,11 @@
       ],
       [
         "2/4",
-        "Start with the point B(-3,-5)."
+        "Start with the point B(-3,-5). Rotate the point 90° counterclockwise around the origin. The point will move from Quadrant III to Quadrant IV."
       ],
       [
         "3/4",
-        "Rotate the point 90° counterclockwise around the origin. The point will move from Quadrant III to Quadrant IV. To find the exact location, imagine (0, 0) and B forming opposite corners of a box. Rotate the box, keeping the (0, 0) corner fixed."
+        "To find the exact location, imagine (0, 0) and B forming opposite corners of a box. Rotate the box, keeping the (0, 0) corner fixed."
       ],
       [
         "4/4",
@@ -2432,7 +2430,7 @@
   },
   {
     "skills": "convert-between-cubic-centimetres-and-millilitres",
-    "question_text": "Convert:\n\n1 millilitre =  cubic centimetres",
+    "question_text": "Convert: 1 millilitre =  ___ cubic centimetres",
     "tag": "Gr7_37_E1",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -2463,33 +2461,33 @@
     ],
     "solution_image_tag": [
       [
-        "1/5",
+        "3/5",
         "Gr7_37_2_1_step_1"
       ],
       [
-        "2/5",
+        "4/5",
         "Gr7_37_2_1_step_2"
       ]
     ],
     "solution": [
       [
-        "1/6",
+        "1/5",
         "You can solve this problem without using the measurements given in the diagram."
       ],
       [
-        "2/6",
-        "The original rectangular prism had this surface area:\nS = 2(lw + lh + wh)"
+        "2/5",
+        "The original rectangular prism had the following surface area:\nS = 2(lw + lh + wh)"
       ],
       [
-        "4/6",
-        "The new rectangular prism will have 3 times the length, 3 times the width, and 3 times the height. Since the original dimensions were l, w, and h, the new dimensions will be 3l, 3w, and 3h. Calculate the surface area."
+        "3/5",
+        "The new rectangular prism will have 3 times the length, 3 times the width, and 3 times the height. Since the original dimensions were l, w, and h, the new dimensions will be 3l, 3w, and 3h. Re-calculate the surface area."
       ],
       [
-        "5/6",
+        "4/5",
         "Divide the new surface area by the original surface area and simplify."
       ],
       [
-        "6/6",
+        "5/5",
         "The new surface area will be 9 times the old surface area."
       ]
     ],
@@ -2497,7 +2495,7 @@
   },
   {
     "skills": "circumference-of-circles",
-    "question_text": "The radius of a circle is 2 kilometres. What is the circle's circumference?\nUse ​𝜋 ≈ 3.14 and round your answer to the nearest hundredth.\n kilometres",
+    "question_text": "The radius of a circle is 2 kilometres. What is the circle's circumference in kilometres?\nUse ​𝜋 ≈ 3.14 and round your answer to the nearest hundredth.",
     "image_tag": "Grade7_37_3_1",
     "tag": "Gr7_37_E3",
     "question_type": "Fill in the blank",
@@ -2511,7 +2509,7 @@
       ],
       [
         "2/3",
-        "2​𝜋r ≈ 2x3.14x2 ≈ 12.56"
+        "2​𝜋r ≈ 2 x 3.14 x 2 ≈ 12.56"
       ],
       [
         "3/3",
@@ -2522,7 +2520,7 @@
   },
   {
     "skills": "area-of-circles",
-    "question_text": "The radius of a circle is 1 centimetre. What is the circle's area?\nUse ​𝜋 ≈ 3.14 and round your answer to the nearest hundredth.\n square centimetres",
+    "question_text": "The radius of a circle is 1 centimetre. What is the circle's area (in square centimetres)?\nUse ​𝜋 ≈ 3.14 and round your answer to the nearest hundredth.",
     "image_tag": "Grade7_37_4_1",
     "tag": "Gr7_37_E4",
     "question_type": "Fill in the blank",
@@ -2536,7 +2534,7 @@
       ],
       [
         "2/3",
-        "𝜋r^2 = 3.14x1x1 = 3.14"
+        "𝜋r^2 = 3.14 x 1 x 1 = 3.14"
       ],
       [
         "3/3",
@@ -2547,7 +2545,7 @@
   },
   {
     "skills": "circles-word-problems",
-    "question_text": "The saucer for Laura's teacup has a diameter of 8 centimetres. What is the saucer's circumference?\n\nUse 3.14 for 𝜋. If necessary, round your answer to the nearest hundredth.\n\n\n centimetres",
+    "question_text": "The saucer for Laura's teacup has a diameter of 8 centimetres. What is the saucer's circumference in centimetres?\nUse 3.14 for 𝜋. If necessary, round your answer to the nearest hundredth.",
     "tag": "Gr7_38_E1",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -2598,7 +2596,7 @@
   },
   {
     "skills": "surface-area-of-cylinders",
-    "question_text": "What is the surface area of this cylinder?\n\nUse 𝜋=3.14 and round your answer to the nearest hundredth.",
+    "question_text": "What is the surface area of this cylinder?\nUse 𝜋=3.14 and round your answer to the nearest hundredth.",
     "image_tag": "Grade7_38_3_1",
     "tag": "Gr7_38_E3",
     "question_type": "Fill in the blank",
@@ -2611,7 +2609,7 @@
         "Gr7_38_3_1_step_1"
       ],
       [
-        "2/10",
+        "7/10",
         "Gr7_38_3_1_step_2"
       ]
     ],
@@ -2638,7 +2636,7 @@
       ],
       [
         "6/10",
-        "C=2𝜋r=2x3.14x7=43.96"
+        "C = 2𝜋r = 2 x 3.14 x 7 = 43.96"
       ],
       [
         "7/10",
@@ -2661,7 +2659,7 @@
   },
   {
     "skills": "relationship-between-volume-and-the-area-of-the-base-word-problems",
-    "question_text": "Layla makes necklaces out of cube-shaped beads. Each bead has a volume of one cubic centimetre. She keeps the beads in a jewellery box that is shaped like a rectangular prism. The jewellery box has a height of 6 centimetres. The bottom of the jewellery box can be completely covered by a layer of 60 beads. What is the volume of the jewellery box?\n cubic centimetres",
+    "question_text": "Layla makes necklaces out of cube-shaped beads. Each bead has a volume of one cubic centimetre. She keeps the beads in a jewellery box that is shaped like a rectangular prism.\n\nThe jewellery box has a height of 6 centimetres. The bottom of the jewellery box can be completely covered by a layer of 60 beads. What is the volume of the jewellery box (in cubic centimetres)?",
     "tag": "Gr7_38_E4",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -2676,22 +2674,22 @@
       ],
       [
         "2/4",
-        "There are 60 one-centimetre beads in the bottom layer. Since the jewellery box is 6 centimetres tall, 6 layers would fill it."
+        "There are 60 one cubic centimetre beads in the bottom layer. Since the jewellery box is 6 centimetres tall, 6 layers would fill it."
       ],
       [
         "3/4",
-        "60x6=360"
+        "60 x 6 = 360"
       ],
       [
         "4/4",
-        "360 one-centimetre beads would fill the jewellery box. So, the volume of the jewellery box is 360 cubic centimetres."
+        "So, 360 one cubic centimetre beads would fill the jewellery box. So, the volume of the jewellery box is 360 cubic centimetres."
       ]
     ],
     "question_number": "4_1"
   },
   {
     "skills": "volume-of-prisms-and-cylinders",
-    "question_text": "What is the volume?\n cubic millimetres",
+    "question_text": "What is the volume (in cubic millimetres)?",
     "image_tag": "Grade7_39_1_1",
     "tag": "Gr7_39_E1",
     "question_type": "Fill in the blank",
@@ -2700,14 +2698,14 @@
     ],
     "solution_image_tag": [
       [
-        "1/3",
+        "2/3",
         "Gr7_39_1_1_step_1"
       ]
     ],
     "solution": [
       [
         "1/3",
-        "Find the length, width, and height of the rectangular prism. length = 9 mm, width = 8 mm, height = 10 mm."
+        "Find the length, width, and height of the rectangular prism.\nLength = 9 mm, width = 8 mm, height = 10 mm."
       ],
       [
         "2/3",
@@ -2722,64 +2720,56 @@
   },
   {
     "skills": "adjust-a-budget",
-    "question_text": "This table shows Naomi's October budget.\nNaomi's October budget\nIncomeExpenses\nMowing lawns: $35School supplies: $20\nYard work: $20Book fair: $45\nAllowance: $25Movies: $30\nWhat could Naomi do to balance her budget?",
+    "question_text": "This table shows Naomi's October budget.\n\nWhat could Naomi do to balance her budget?",
     "image_tag": "Grade7_39_2_1",
     "tag": "Gr7_39_E2",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
-      "spend only $20 at the movies",
-      "spend only $30 at the book fair",
-      "increase income from yard work to $25",
-      "spend $10 less on school supplies"
+      "Spend only $20 at the movies",
+      "Spend only $30 at the book fair",
+      "Increase income from yard work to $25",
+      "Spend $10 less on school supplies"
     ],
     "correct_answers": [
       "B"
     ],
     "solution_image_tag": [
       [
-        "1/9",
+        "2/7",
         "Gr7_39_2_1_step_1"
       ],
       [
-        "2/9",
+        "3/7",
         "Gr7_39_2_1_step_2"
       ]
     ],
     "solution": [
       [
-        "1/9",
-        "Step 1: Find how much money Naomi needs to balance her budget."
+        "1/7",
+        "Find how much money Naomi needs to balance her budget."
       ],
       [
-        "2/9",
+        "2/7",
         "First, add Naomi's sources of income to find her total income."
       ],
       [
-        "3/9",
+        "3/7",
         "Next, add Naomi's expenses to find her total expenses."
       ],
       [
-        "4/9",
-        "Naomi's expenses are more than her income. Subtract to find the difference."
+        "4/7",
+        "Naomi's expenses are more than her income. Subtract to find the difference: $95 - $80 = $15"
       ],
       [
-        "5/9",
-        "$95-$80=$15"
+        "5/7",
+        "So, Naomi needs an extra $15 to balance her budget. Find the answer choice that gives Naomi an extra $15."
       ],
       [
-        "6/9",
-        "The difference is $15, so Naomi needs an extra $15 to balance her budget."
-      ],
-      [
-        "7/9",
-        "Step 2: Find the answer choice that gives Naomi an extra $15."
-      ],
-      [
-        "8/9",
+        "6/7",
         "Naomi is planning to spend $45 at the book fair. Spending only $30 will give her an extra $15."
       ],
       [
-        "9/9",
+        "7/7",
         "So, Naomi can balance her budget by spending only $30 at the book fair."
       ]
     ],
@@ -2787,11 +2777,11 @@
   },
   {
     "skills": "simple-interest",
-    "question_text": "Brad has $40 in a savings account that earns 10% annually. The interest is not compounded. How much will he have in total in 1 year?\n\n\nUse the formula i = prt, where i is the interest earned, p is the principal (starting amount), r is the interest rate expressed as a decimal, and t is the time in years.\n\n\n$",
+    "question_text": "Brad has $40 in a savings account that earns 10% annually. The interest is not compounded. How much will he have in total after 1 year?\n\nUse the formula i = prt, where i is the interest earned, p is the principal (starting amount), r is the interest rate expressed as a decimal, and t is the time in years.",
     "tag": "Gr7_39_E3",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "$44"
+      "$44","44"
     ],
     "solution_image_tag": [
       [
