@@ -1,6 +1,7 @@
 [
   {
     "question_text": "A geography class recorded the number of neighbouring countries each country has. \nWhich bar graph shows the same data?",
+    "backend_description": "A data table with a green header row titled 'Neighbouring countries' showing columns for Country and Number of neighbouring countries. The table has alternating white and light gray row backgrounds listing: China (8), Brazil (7), Germany (9), Sudan (8), Austria (7). This provides the reference data that students must match against the bar graph options.",
     "skills": "interpret-bar-graphs",
     "image_tag": "Gr5_34_4_1",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -9,6 +10,10 @@
     "image_choice_tags": [
       "Gr5_34_4_1_A",
       "Gr5_34_4_1_B"
+    ],
+    "image_choice_tags_backend_description": [
+      "A vertical bar graph titled 'Neighbouring countries' with incorrect scale. The y-axis extends to 50 with grid lines, showing bars in different colors: China (light green, ~40), Brazil (teal, ~35), Germany (pink/purple, ~45), Sudan (green, ~40), and Austria (coral/orange, ~35). The scale misleadingly makes the data appear different from the table values, helping students understand how scale affects data interpretation.",
+      "A vertical bar graph titled 'Neighbouring countries' with correct scale. The y-axis extends to 10 with grid lines, showing bars in different colors: China (light green, 8), Brazil (teal, 7), Germany (pink/purple, 9), Sudan (green, 8), and Austria (coral/orange, 7). This accurately represents the table data and demonstrates proper scale selection for clear data visualization."
     ],
     "correct_answers": [
       "B"
@@ -38,16 +43,20 @@
     "solution_image_tag": [
       [
         "1/5",
-        "Gr5_34_4_1_step_1"
-      ],
+        "Gr5_34_4_1_step_1",
+        "Shows both bar graphs side by side for comparison. The left graph uses an orange header and has a y-axis scale up to 50, while the right graph uses a green header and has a y-axis scale up to 10. This visual comparison helps students understand how different scales can make identical data appear dramatically different, emphasizing the importance of reading scales carefully."
+
+    ],
       [
         "2/5",
-        "Gr5_34_4_1_step_2"
+        "Gr5_34_4_1_step_2",
+        "Highlights the correct bar graph with the green header and proper scale (0-10) that accurately represents the neighboring countries data from the table. The correct bars are clearly marked, reinforcing which visual representation matches the given data table."
       ]
     ]
   },
   {
     "question_text": "The teachers at a middle school counted how many computers they had in their classrooms.\nHow many computers are there in Mrs. Jansen's classroom?\n ___ computers",
+    "backend_description": "A horizontal bar graph titled 'Computers in classrooms' with a gray background and white grid lines. The y-axis lists three teachers, and the x-axis shows numbers from 0 to 20. Mrs. Jansen has a light green bar extending to 15 computers (the longest), Ms. Cohen has a purple bar extending to 10 computers (medium length), and Mrs. Rossi has a coral/red bar extending to 8 computers (shortest). The different colored bars help students distinguish between teachers and practice reading horizontal bar graphs.",
     "skills": "interpret-bar-graphs",
     "image_tag": "Gr5_34_4_2",
     "question_type": "Fill in the blank",
@@ -73,19 +82,21 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr5_34_4_2_step_1"
+        "Gr5_34_4_2_step_1",
+        "The same bar graph with Mrs. Jansen's light green bar highlighted with a bold black outline. A vertical line or pointer shows how to trace from the end of the bar down to the 15 mark on the x-axis scale, demonstrating the proper technique for reading values from horizontal bar graphs."
       ]
     ]
   },
   {
     "question_text": "A pretzel stand owner kept track of the number of pretzels sold during the past 4 days.\nHow many pretzels did the stand sell on Wednesday?\n ___ pretzels",
     "skills": "interpret-bar-graphs",
+    "backend_description": "A vertical bar graph titled 'Pretzels sold' with a white background and gray grid lines. The x-axis shows four days (Monday, Tuesday, Wednesday, Thursday) and the y-axis shows values from 0 to 100. The bars are colored differently: Monday (light green, ~20), Tuesday (light blue, ~90), Wednesday (purple, ~30), Thursday (light teal, ~10). The varying heights and colors help students practice reading different values and identifying specific days on the graph.",
     "image_tag": "Gr5_34_4_3",
     "question_type": "Fill in the blank",
     "question_number": "4_3",
     "tag": "Gr5_34_E4",
     "correct_answers": [
-      " 30"
+      "30"
     ],
     "solution": [
       [
@@ -104,12 +115,14 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr5_34_4_3_step_1"
+        "Gr5_34_4_3_step_1",
+        "The same bar graph with Wednesday's purple bar highlighted with a bold black outline. A horizontal line or pointer shows how to trace from the top of the bar to the 30 mark on the y-axis scale, demonstrating the proper technique for reading values from vertical bar graphs and emphasizing Wednesday's specific value."
       ]
     ]
   },
   {
     "question_text": "Eve wrote down how many pages she read over the past 2 days.\nWhich table shows the same data?",
+    "backend_description": "A horizontal bar graph titled 'Pages read' with a white background and gray grid lines. The y-axis lists two days (Sunday and Monday), and the x-axis shows values from 0 to 100. Sunday has a purple bar extending to 100 pages (full length), and Monday has a green bar extending to 60 pages (shorter). The contrasting colors and different lengths help students practice reading horizontal bars and comparing values between different categories.",
     "skills": "interpret-bar-graphs",
     "image_tag": "Gr5_34_4_4",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -118,6 +131,10 @@
     "image_choice_tags": [
       "Gr5_34_4_4_A",
       "Gr5_34_4_4_B"
+    ],
+    "image_choice_tags_backend_description": [
+      "A data table with a green header titled 'Pages read' showing columns for Day and Number of pages. The table shows Sunday: 100 and Monday: 60, with alternating white row backgrounds. This correctly matches the bar graph data, helping students verify their graph-reading skills.",
+      "A data table with a green header titled 'Pages read' showing columns for Day and Number of pages. The table shows Sunday: 60 and Monday: 100, with alternating white row backgrounds. This incorrectly reverses the values from the bar graph, helping students identify when table data doesn't match visual representations."
     ],
     "correct_answers": [
       "A"
@@ -139,19 +156,21 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr5_34_4_4_step_1"
+        "Gr5_34_4_4_step_1",
+        "Shows the horizontal bar graph with values clearly marked - Sunday's purple bar extending to 100 pages and Monday's green bar extending to 60 pages. The bars may be highlighted or have value labels to reinforce how to read the data correctly from the graph."
       ]
     ]
   },
   {
     "question_text": "Bella's class earned a pizza party by giving the most to the canned food drive. They get to choose the kind of pizza they'll get. The bar graph shows how the class voted.\nBella's teacher ordered pizzas with the two most popular toppings. How many kids voted for those two toppings?\n___ kids",
+    "backend_description": "A vertical bar graph titled 'Class pizza party' or 'Pizza toppings' with a light background and grid lines. The x-axis shows four pizza toppings and the y-axis shows votes from 0 to 12. The bars are distinctly colored: pepperoni (purple, 10 votes - tallest), sausage (teal, 7 votes), olives (green, 5 votes), and pineapple (light blue, 3 votes - shortest). ",
     "skills": "interpret-bar-graphs-multi-step-problems",
     "image_tag": "Gr5_35_1_1",
     "question_type": "Fill in the blank",
     "question_number": "1_1",
     "tag": "Gr5_35_E1",
     "correct_answers": [
-      " 17"
+      "17"
     ],
     "solution": [
       [
@@ -171,6 +190,7 @@
   },
   {
     "question_text": "Rachel and Julia decorated their lockers together. The bar graph shows the stickers Rachel used.\nJulia used half as many rainbow stickers as Rachel did. However, she used three times as many unicorn stickers as Rachel did. Together, how many unicorn stickers and rainbow stickers did Rachel and Julia use?\n ___ unicorn and rainbow stickers",
+    "backend_description": "A vertical bar graph titled 'Decorating lockers' showing sticker types used by Rachel. The graph has a white background with grid lines, x-axis showing four sticker types, and y-axis showing values from 0 to 10. The bars are color-coded: kitten (red, 3), puppy (orange, 6), unicorn (green, 3), and rainbow (purple, 4). The different colors help students distinguish between sticker types and identify the specific quantities needed for the multi-step calculation involving Julia's different usage patterns.",
     "skills": "interpret-bar-graphs-multi-step-problems",
     "image_tag": "Gr5_35_1_2",
     "question_type": "Fill in the blank",
@@ -222,6 +242,7 @@
   {
     "question_text": "A sports network displayed the number of olympic medals won by certain countries over time.\nHow many medals did britain won in 1980?\n___ medals",
     "skills": "interpret-double-bar-graphs",
+    "backend_description": "A double bar graph titled 'Olympic medals' with a light gray background and grid lines. The x-axis shows three countries (Britain, Sweden, France) and the y-axis shows medals from 0 to 60. Each country has two bars in different colors representing different years: orange bars for one year and blue bars for another year. For Britain, the orange bar shows ~15 medals and the blue bar shows ~20 medals. ",
     "image_tag": "Gr5_35_2_1",
     "question_type": "Fill in the blank",
     "question_number": "2_1",
@@ -243,6 +264,7 @@
   },
   {
     "question_text": "While looking through an almanac at the library, Baldwin noticed some data showing the population density of various states.\nHow many people per square mile lived in North Dakota in 2000?\n___ people per square mile",
+    "backend_description": "A double bar graph titled 'Population per square mile' with a light background and grid lines. The x-axis shows three states (Maine, North Dakota, New Mexico) and the y-axis shows people per square mile from 0 to 100. Each state has two bars in different colors representing 1990 and 2000: light green bars for 1990 and light blue bars for 2000. For North Dakota, the green bar (1990) shows ~9 people per square mile and the blue bar (2000) shows ~10 people per square mile.",
     "skills": "interpret-double-bar-graphs",
     "image_tag": "Gr5_35_2_2",
     "question_type": "Fill in the blank",
@@ -265,6 +287,7 @@
   },
   {
     "question_text": "Colin made cookies for a bake sale. He recorded the types of cookies he sold in a frequency chart.\nHow many cookies did Colin sell?\n___ cookies",
+    "backend_description": "A frequency chart table with an orange header titled 'Cookie sales' containing two columns: Cookie and Frequency. The table has a clean white background with clear borders. Three rows of data are shown: peanut butter (24), chocolate chip (29), and oatmeal raisin (3). The frequency numbers are clearly displayed, helping students identify which values need to be added together to find the total number of cookies sold.",
     "skills": "interpret-frequency-charts-one-step-problems",
     "image_tag": "Gr5_35_3_1",
     "question_type": "Fill in the blank",
@@ -286,19 +309,21 @@
     "solution_image_tag": [
       [
         "1/2",
-        "Gr5_35_3_1_step_1"
+        "Gr5_35_3_1_step_1",
+        "The frequency chart with the frequency column values (24, 29, and 3) highlighted in a different color or with bold formatting to draw students' attention to the specific numbers that need to be added together for the solution."
       ]
     ]
   },
   {
     "question_text": "Mr. Gonzalez asked his students what jobs they would like to have when they finish school. He recorded their answers in a frequency chart.\n\nHow many students want to be doctors or mechanics?\n students",
     "skills": "interpret-frequency-charts-one-step-problems",
+    "backend_description": "A frequency chart table with a green header titled 'Job interests' containing two columns: Job and Frequency. The table has a clean white background with alternating light gray row backgrounds for readability. Five rows of data are shown: doctor (5), police officer (5), mechanic (3), dentist (2), and teacher (8). The clear formatting and distinct frequency values help students locate and identify the specific job categories mentioned in the question.",
     "image_tag": "Gr5_35_3_2",
     "question_type": "Fill in the blank",
     "question_number": "3_2",
     "tag": "Gr5_35_E3",
     "correct_answers": [
-      " students8"
+      "8 students"
     ],
     "solution": [
       [
@@ -317,16 +342,19 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr5_35_3_2_step_1"
+        "Gr5_35_3_2_step_1",
+        "The frequency chart with the doctor and mechanic rows highlighted in a light color (such as yellow or light blue) to draw students' attention to the two specific job types mentioned in the question, with their frequencies (5 and 3) clearly visible."
       ],
       [
         "2/3",
-        "Gr5_35_3_2_step_2"
+        "Gr5_35_3_2_step_2",
+        "Shows the mathematical calculation 5 + 3 = 8 in large, clear text, possibly with arrows pointing from the highlighted values in the table to demonstrate how the frequency values are combined to reach the final answer."
       ]
     ]
   },
   {
     "question_text": "An online video game marketplace held a weekend sale. The games sold on Saturday are shown in the frequency chart.\nPlayers purchased another 310 games on Sunday. How many games were sold during the weekend sale?\n___ games",
+    "backend_description": "A frequency chart table with a purple header titled 'Video games sold on Saturday' containing two columns: Type and Frequency. The table has a clean white background with clear black borders. Five rows of data are shown with different game types: action (157), adventure (109), puzzle (66), racing (80), and strategy (134). The purple header color helps distinguish this as a frequency chart, and the large frequency numbers make it easy for students to identify which values need to be added together for multi-step problems involving total calculations.",
     "skills": "interpret-frequency-charts-multi-step-problems",
     "image_tag": "Gr5_35_4_1",
     "question_type": "Fill in the blank",
@@ -365,6 +393,7 @@
   },
   {
     "question_text": "On which colour is the spinner more likely to land?",
+    "backend_description": "A circular spinner divided into two unequal sections with a black outline and center point. The larger section is colored white/cream and takes up approximately 3/4 of the spinner's area. The smaller section is colored bright yellow and takes up approximately 1/4 of the spinner's area. A small gray arrow or pointer indicates the spinning mechanism. The stark size difference between the white and yellow sections makes it visually obvious which color has a higher probability, helping students understand likelihood concepts without complex calculations.",
     "skills": "understanding-probability",
     "image_tag": "Gr5_36_1_1",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -477,13 +506,15 @@
     "solution_image_tag": [
       [
         "1/5",
-        "Gr5_36_3_1_step_1"
+        "Gr5_36_3_1_step_1",
+        "Shows a realistic coin with both sides visible - one side showing heads (likely with a profile or emblem) and the other showing tails (likely with text or different design). The clear visual distinction between the two sides helps students understand that there are exactly two equally likely outcomes when flipping a coin, reinforcing the concept of 1/2 probability."
       ]
     ]
   },
   {
     "question_text": "If you spin the spinner 9 times, what is the best prediction possible for the number of times it will land on green or pink?\n___ times",
     "skills": "make-predictions",
+    "backend_description": "A circular spinner divided into 9 equal sections, all appearing to be colored in green and pink shades. The spinner has a black outline and center point with a small gray arrow. Since the question asks about landing on 'green or pink' and all 9 sections appear to be either green or pink (no other colors visible), this creates a scenario where the probability is certain (9 out of 9). The uniform section sizes and clear color distinction help students understand that when all possible outcomes are favorable, the probability equals 1.",
     "image_tag": "Gr5_36_3_2",
     "question_type": "Fill in the blank",
     "question_number": "3_2",
@@ -518,6 +549,7 @@
   {
     "question_text": "You select a marble without looking and then put it back. If you do this 8 times, what is the best prediction possible for the number of times you will pick an orange or a purple marble?\n___ times",
     "image_tag": "Gr5_36_3_3",
+    "backend_description": "A collection of 8 spherical marbles arranged in a scattered pattern on a white background. All 8 marbles appear to be colored in purple/violet shades with a glossy, realistic appearance and small white highlight spots to show their three-dimensional shape. Since the question asks about selecting 'orange or purple' marbles and all visible marbles appear to be purple (with no orange marbles visible), this creates a scenario where the probability is certain (8 out of 8). The clear purple coloring and realistic marble appearance help students visualize the concept of certain probability.",
     "skills": "make-predictions",
     "question_type": "Fill in the blank",
     "question_number": "3_3",
@@ -551,6 +583,7 @@
   },
   {
     "question_text": "Restaurants often slip takeout menus under Lucy's apartment door. So far, Lucy has collected 20 menus, including 8 for Korean food. What is the experimental probability that the next menu slipped under Lucy's door will be from a Korean restaurant?\n\nWrite your answer as a fraction or whole number.\n\n\nP(Korean) = ",
+    "backend_description": "A simple text display showing the mathematical fraction and probability statement: 'The probability is 1 out of 2, or 1/2' in clear, readable text. This text-based image reinforces the final answer format and helps students understand how to express probability both as a ratio (1 out of 2) and as a fraction (1/2), demonstrating multiple ways to represent the same probability concept.",
     "skills": "experimental-probability",
     "question_type": "Fill in the blank",
     "question_number": "4_1",
@@ -575,6 +608,7 @@
     "question_text": "What kind of triangle is this?",
     "skills": "acute-obtuse-and-right-triangles",
     "image_tag": "Gr5_37_1_1",
+    "backend_description": "A triangle filled with bright pink/magenta color and outlined in black. The triangle appears to be an acute triangle where all three angles are visibly less than 90 degrees, with no right angles or obtuse angles present. The solid pink fill makes the triangle's shape and angles clearly visible against the white background, helping students focus on identifying the angle types rather than being distracted by other visual elements. The clear geometric shape supports angle classification learning.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_1",
     "tag": "Gr5_37_E1",
@@ -598,6 +632,7 @@
     "question_text": "What kind of triangle is this?",
     "skills": "scalene-isosceles-and-equilateral-triangles",
     "image_tag": "Gr5_37_2_1",
+    "backend_description": "A triangle filled with bright green color and outlined in black. Two sides of the triangle are marked with small perpendicular tick marks (hash marks) indicating they are equal in length, while the third side has no marks, showing it is a different length. The solid green fill and clear black outline make the triangle's shape obvious, while the matching tick marks provide visual proof of the isosceles property.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_1",
     "tag": "Gr5_37_E2",
@@ -618,7 +653,8 @@
     "solution_image_tag": [
       [
         "1/1",
-        "Gr5_37_2_1_step_1"
+        "Gr5_37_2_1_step_1",
+        "The same green triangle with the two equal sides clearly highlighted or emphasized, possibly with bolder tick marks or arrows pointing to the matching sides. This enhanced visual helps students definitively identify which sides are equal, reinforcing the isosceles triangle classification and the importance of recognizing equal side markings in geometric figures."
       ]
     ]
   },
@@ -626,6 +662,7 @@
     "question_text": "Is this triangle equilateral?",
     "skills": "scalene-isosceles-and-equilateral-triangles",
     "image_tag": "Gr5_37_2_2",
+    "backend_description": "A triangle filled with bright green color and outlined in black. All three sides of the triangle are marked with identical small perpendicular tick marks (hash marks) indicating they are all equal in length. The solid green fill and clear black outline make the triangle's shape obvious, while the three matching tick marks provide visual proof of the equilateral property. This consistent marking system helps students identify that all sides are equal without measurement, clearly demonstrating the defining characteristic of equilateral triangles.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_2",
     "tag": "Gr5_37_E2",
@@ -645,7 +682,8 @@
     "solution_image_tag": [
       [
         "1/1",
-        "Gr5_37_2_2_step_1"
+        "Gr5_37_2_2_step_1",
+        "The same green triangle with all three equal sides clearly highlighted or emphasized, possibly with bolder tick marks or arrows pointing to each of the three matching sides. This enhanced visual helps students definitively confirm that all sides are equal, reinforcing the equilateral triangle classification and the importance of recognizing when all sides have matching marks."
       ]
     ]
   },
@@ -653,6 +691,7 @@
     "question_text": "Is this triangle equilateral?",
     "skills": "classify-triangles",
     "image_tag": "Gr5_37_3_1",
+    "backend_description": "A triangle filled with bright green color and outlined in black. All three sides of the triangle are marked with identical small perpendicular tick marks indicating they are all equal in length, making this an equilateral triangle. The solid green fill provides clear contrast against the white background, while the consistent tick marks on all three sides provide visual confirmation of equal side lengths. The clear geometric presentation helps students practice identifying equilateral triangles by recognizing the equal-side markings.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "3_1",
     "tag": "Gr5_37_E3",
@@ -672,7 +711,8 @@
     "solution_image_tag": [
       [
         "1/1",
-        "Gr5_37_3_1_step_1"
+        "Gr5_37_3_1_step_1",
+        "The same green triangle with all three equal sides clearly highlighted, possibly with enhanced tick marks or visual emphasis on each side. This reinforcement helps students confirm their identification of the equilateral triangle by clearly showing the three equal sides that define this triangle type."
       ]
     ]
   },
@@ -680,6 +720,7 @@
     "question_text": "What kind of triangle is this?",
     "skills": "classify-triangles",
     "image_tag": "Gr5_37_3_2",
+    "backend_description": "A triangle filled with bright green color and outlined in black. The triangle appears to have all three angles less than 90 degrees, making it an acute triangle. The solid green fill and clear black outline make the triangle's shape and angles clearly visible against the white background, allowing students to visually assess that none of the angles appear to be right angles (90°) or obtuse angles (greater than 90°). This clear presentation helps students practice angle classification by visual inspection.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "3_2",
     "tag": "Gr5_37_E3",
@@ -703,6 +744,7 @@
     "question_text": "Look at this shape:\nSelect all the shapes that are congruent to this one.",
     "skills": "identify-congruent-figures",
     "image_tag": "Gr5_37_4_1",
+    "backend_description": "A pentagon (five-sided polygon) filled with bright green color and outlined in black, positioned as the reference shape for the congruence identification exercise. The solid green fill and clear black outline make the pentagon's shape, size, and proportions clearly visible against the white background. This serves as the standard against which students must compare the answer choices to find shapes that are identical in both size and shape (congruent).",
     "question_type": "Multiple Choice with Multiple Answers",
     "question_number": "4_1",
     "tag": "Gr5_37_E4",
@@ -711,6 +753,12 @@
       "Gr5_37_4_1_B",
       "Gr5_37_4_1_C",
       "Gr5_37_4_1_D"
+    ],
+    "image_choice_tags_backend_description": [
+      "A pentagon filled with orange color and outlined in black. This pentagon appears to have different proportions or orientation compared to the green reference pentagon, making it not congruent to the original shape.",
+      "A pentagon filled with orange color and outlined in black. This pentagon appears to match the green reference pentagon exactly in both size and shape, just with a different color, making it congruent to the original.",
+      "A pentagon filled with orange color and outlined in black. This pentagon appears to have different dimensions or angles compared to the green reference pentagon, making it not congruent to the original shape.",
+      "A pentagon filled with orange color and outlined in black. This pentagon appears to match the green reference pentagon exactly in both size and shape, just with a different color, making it congruent to the original."
     ],
     "correct_answers": [
       "B",
@@ -732,12 +780,17 @@
     "question_text": "If you look at this object from the side, what will you see?",
     "skills": "three-dimensional-figures-viewed-from-different-perspectives",
     "image_tag": "Gr5_38_1_1",
+    "backend_description": "A three-dimensional object constructed from connected unit cubes, displayed in an isometric view with purple/magenta coloring and black outlines. The object appears to be arranged in an L-shaped configuration when viewed from this angle, consisting of 6 visible unit cubes stacked in a specific pattern. The purple coloring with darker shading on different faces helps students visualize the three-dimensional structure and understand depth, which is essential for determining what the side view would look like.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_1",
     "tag": "Gr5_38_E1",
     "image_choice_tags": [
       "Gr5_38_1_1_A",
       "Gr5_38_1_1_B"
+    ],
+    "image_choice_tags_backend_description": [
+      "A rectangular side view showing 3 unit squares arranged vertically in a single column, colored purple with black outlines. This represents one possible side profile of the 3D object.",
+      "A rectangular side view showing 2 unit squares arranged vertically in a single column, colored purple with black outlines. This represents a different possible side profile of the 3D object."
     ],
     "correct_answers": [
       "A"
@@ -751,7 +804,8 @@
     "solution_image_tag": [
       [
         "1/1",
-        "Gr5_38_1_1_step_1"
+        "Gr5_38_1_1_step_1",
+        "The 3D object with certain cube faces highlighted in a different shade or with bold outlines to show which specific cubes would be visible when viewing the object from the side. This visual highlighting helps students understand which parts of the 3D structure contribute to the side view profile."
       ]
     ]
   },
@@ -759,6 +813,7 @@
     "question_text": "What is the x-coordinate of point R?\nx-coordinate: ___",
     "skills": "objects-on-a-coordinate-plane",
     "image_tag": "Gr5_38_2_1",
+    "backend_description": "A coordinate plane with a white background and gray grid lines marked from 0 to 10 on both x and y axes. Point R is plotted as a blue dot at coordinates (5, 7), clearly visible against the grid background. Point S is plotted as a green dot at coordinates (9, 1). The contrasting colors (blue for R, green for S) help students distinguish between different points, while the clear grid lines facilitate accurate coordinate reading and reinforce the coordinate system concept.",
     "question_type": "Fill in the blank",
     "question_number": "2_1",
     "tag": "Gr5_38_E2",
@@ -778,7 +833,8 @@
     "solution_image_tag": [
       [
         "1/2",
-        "Gr5_38_2_1_step_1"
+        "Gr5_38_2_1_step_1",
+        "The coordinate plane with point R highlighted and a bright orange or red vertical dashed line drawn from point R straight down to the x-axis at position 5. This visual aid demonstrates the proper technique for finding the x-coordinate by showing the perpendicular projection to the x-axis, helping students understand how to read coordinates systematically."
       ]
     ]
   },
@@ -786,13 +842,15 @@
     "question_text": "You start at (7, 4). You move down 4 units. Where do ou end?\n(___,___)",
     "skills": "follow-directions-on-a-coordinate-plane",
     "image_tag": "Gr5_38_3_1",
-    "question_type": "Fill in the blank",
+    "backend_description": "A coordinate plane with a white background and gray grid lines marked from 0 to 10 on both x and y axes. The plane shows the starting point (7, 4) and illustrates the movement path for the coordinate transformation exercise. The clear grid structure helps students visualize movement directions (up, down, left, right) and count units accurately when following directional instructions.",
+    "question_type": "Multiple Fill in the blank",
     "question_number": "3_1",
     "tag": "Gr5_38_E3",
     "correct_answers": [
       "7",
       "0"
     ],
+    "orderMatter": "true",
     "solution": [
       [
         "1/3",
@@ -810,11 +868,13 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr5_38_3_1_step_1"
+        "Gr5_38_3_1_step_1",
+        "The coordinate plane with a red dot clearly marking the starting position at (7, 4). The point is prominently displayed to help students identify the beginning location before any movement occurs."
       ],
       [
         "2/3",
-        "Gr5_38_3_1_step_2"
+        "Gr5_38_3_1_step_2",
+        "The coordinate plane showing both the starting point (7, 4) as a red dot and the ending point (7, 0) as another red dot, connected by a bright red arrow pointing downward. The arrow clearly indicates the 4-unit downward movement, helping students visualize the transformation from start to finish."
       ]
     ]
   },
@@ -822,13 +882,15 @@
     "question_text": "You start at (1, 1). You move right 3 units. Where do ou end?\n(___,___)",
     "skills": "follow-directions-on-a-coordinate-plane",
     "image_tag": "Gr5_38_3_2",
-    "question_type": "Fill in the blank",
+    "backend_description": "A coordinate plane with a white background and gray grid lines marked from 0 to 6 on both x and y axes. The plane shows the starting point (1, 1) and illustrates the movement path for the coordinate transformation exercise. The smaller scale (0-6) makes it easier for students to focus on the specific movement without being overwhelmed by a larger grid, while still providing clear guidance for rightward movement.",
+    "question_type": "Multiple Fill in the blank",
     "question_number": "3_2",
     "tag": "Gr5_38_E3",
     "correct_answers": [
       "4",
       "1"
     ],
+    "orderMatter": "true",
     "solution": [
       [
         "1/3",
@@ -846,11 +908,13 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr5_38_3_2_step_1"
+        "Gr5_38_3_2_step_1",
+        "The coordinate plane with a red dot clearly marking the starting position at (1, 1). The point stands out against the grid background to help students identify the beginning location."
       ],
       [
         "2/3",
-        "Gr5_38_3_2_step_2"
+        "Gr5_38_3_2_step_2",
+        "The coordinate plane showing both the starting point (1, 1) as a red dot and the ending point (4, 1) as another red dot, connected by a bright red arrow pointing rightward. The horizontal arrow clearly indicates the 3-unit rightward movement, demonstrating how the x-coordinate changes while the y-coordinate remains constant."
       ]
     ]
   },
@@ -858,6 +922,7 @@
     "question_text": "Look at this shape:\nWhich image shows a translation?",
     "skills": "reflection-rotation-and-translation",
     "image_tag": "Gr5_38_4_1",
+    "backend_description": "An L-shaped figure (tetromino) composed of connected unit squares, filled with light green color and outlined in black. The L-shape is positioned on the left side of the image as the original reference shape. The solid green fill and clear black outlines make the shape's configuration easily identifiable, providing a clear reference for students to compare against the transformation options. This serves as the starting point for identifying which type of geometric transformation (translation, rotation, or reflection) is being demonstrated.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "4_1",
     "tag": "Gr5_38_E4",
@@ -865,6 +930,11 @@
       "Gr5_38_4_1_A",
       "Gr5_38_4_1_B",
       "Gr5_38_4_1_C"
+    ],
+    "image_choice_tags_backend_description": [
+      "The same L-shaped figure rotated 90° counterclockwise from the original position, filled with light green color and outlined in black. The rotated orientation demonstrates what the shape looks like after a rotation transformation.",
+      "The same L-shaped figure reflected across a vertical line, creating a mirror image, filled with light green color and outlined in black. The reflected orientation shows what the shape looks like after a reflection transformation.",
+      "The same L-shaped figure moved to a different position without rotation or reflection, filled with light green color and outlined in black. The translated position demonstrates what the shape looks like after a translation (sliding) transformation."
     ],
     "correct_answers": [
       "C"
@@ -894,19 +964,23 @@
     "solution_image_tag": [
       [
         "1/5",
-        "Gr5_38_4_1_step_1"
+        "Gr5_38_4_1_step_1",
+        "The original light green L-shaped figure clearly marked or highlighted as the starting reference shape, possibly with a label or emphasis to indicate this is the base shape for comparison."
       ],
       [
         "2/5",
-        "Gr5_38_4_1_step_2"
+        "Gr5_38_4_1_step_2",
+        "Shows the L-shaped figure after a 90° counterclockwise rotation, with curved arrows or rotation indicators demonstrating the rotational movement. This helps students visualize what a rotation transformation looks like."
       ],
       [
         "3/5",
-        "Gr5_38_4_1_step_3"
+        "Gr5_38_4_1_step_3",
+        "Shows the L-shaped figure after reflection across a vertical line, with a dashed vertical line indicating the line of reflection and possibly arrows showing the flipping motion. This demonstrates what a reflection transformation looks like."
       ],
       [
         "4/5",
-        "Gr5_38_4_1_step_4"
+        "Gr5_38_4_1_step_4",
+        "Shows the L-shaped figure after translation (moving up 1 and left 2 units), with straight arrows indicating the sliding movement direction. This demonstrates what a translation transformation looks like and confirms this is the correct answer."
       ]
     ]
   },
@@ -914,6 +988,7 @@
     "question_text": "What combination of transformations is shown below?",
     "skills": "combinations-of-reflections-rotations-and-translations",
     "image_tag": "Gr5_39_1_1",
+    "backend_description": "Three L-shaped figures arranged horizontally and labeled as Shape 1, Shape 2, and Shape 3, showing a sequence of geometric transformations. All shapes are filled with light green color and outlined in black for consistency. The shapes demonstrate a step-by-step transformation sequence, with Shape 1 as the original, Shape 2 showing the first transformation, and Shape 3 showing the second transformation. The clear labeling and consistent coloring help students track the progression and identify what combination of transformations occurred.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_1",
     "tag": "Gr5_39_E1",
@@ -943,11 +1018,13 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr5_39_1_1_step_1"
+        "Gr5_39_1_1_step_1",
+        "Shows the transformation from Shape 1 to Shape 2 with a dashed vertical line indicating the line of reflection and curved arrows or visual indicators showing the reflection movement. This demonstrates the first transformation in the sequence."
       ],
       [
         "2/3",
-        "Gr5_39_1_1_step_2"
+        "Gr5_39_1_1_step_2",
+        "Shows the transformation from Shape 2 to Shape 3 with curved arrows indicating a 90° clockwise rotation around a center point. This demonstrates the second transformation in the sequence, completing the combination."
       ]
     ]
   },
@@ -955,6 +1032,7 @@
     "question_text": "Start with this triangle:\nRotate the triangle 180° around the point (4,3). Which is the resulting triangle?",
     "skills": "transformations-on-the-coordinate-plane",
     "image_tag": "Gr5_39_2_1",
+    "backend_description": "A coordinate plane with a white background and gray grid lines, showing a triangle positioned in the upper portion of the grid. The point (4,3) is marked as a distinct dot (likely in red or another contrasting color) to indicate the center of rotation. The triangle serves as the original shape that will be rotated 180° around the marked point. The clear grid lines and marked rotation center help students understand the rotation concept and visualize how shapes move around a fixed point.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_1",
     "tag": "Gr5_39_E2",
@@ -962,6 +1040,11 @@
       "Gr5_39_2_1_A",
       "Gr5_39_2_1_B",
       "Gr5_39_2_1_C"
+    ],
+    "image_choice_tags_backend_description": [
+      "A coordinate plane showing a triangle positioned after rotation, but not correctly positioned for a 180° rotation around point (4,3). This incorrect option helps students practice identifying proper rotational relationships.",
+      "A coordinate plane showing a triangle positioned after rotation, but not correctly positioned for a 180° rotation around point (4,3). This incorrect option provides another comparison for students to evaluate.",
+      "A coordinate plane showing the triangle correctly positioned after a 180° rotation around point (4,3), likely in the lower portion of the grid in the opposite orientation. This correct option demonstrates the proper result of the specified rotation."
     ],
     "correct_answers": [
       "C"
@@ -987,19 +1070,23 @@
     "solution_image_tag": [
       [
         "1/4",
-        "Gr5_39_2_1_step_1"
+        "Gr5_39_2_1_step_1",
+        "The original triangle position with point (4,3) clearly marked as the center of rotation, possibly with emphasis or highlighting to show this is the fixed point around which the rotation will occur."
       ],
       [
         "2/4",
-        "Gr5_39_2_1_step_2"
+        "Gr5_39_2_1_step_2",
+        "Shows an incorrect rotation result for comparison, helping students understand what an improper rotation would look like."
       ],
       [
         "3/4",
-        "Gr5_39_2_1_step_3"
+        "Gr5_39_2_1_step_3",
+        "Shows another incorrect rotation result for comparison, providing additional examples of what doesn't constitute a correct 180° rotation around the specified point."
       ],
       [
         "4/4",
-        "Gr5_39_2_1_step_4"
+        "Gr5_39_2_1_step_4",
+        "Shows the correct result of rotating the triangle 180° around point (4,3), with the triangle properly positioned and oriented. Visual indicators like rotation arrows or lines connecting corresponding points may help demonstrate the correct rotational relationship."
       ]
     ]
   }
