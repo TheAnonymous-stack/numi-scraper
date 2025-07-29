@@ -411,6 +411,7 @@
     "image_tag": "Gr8_34_2_1",
     "backend_description": "The image shows a coordinate grid labeled from -6 to 6 on both axes. A green point labeled T is located at (4, 4) in the first quadrant.",
     "question_type": "Multiple Fill in the blank",
+    "orderMatter": "TRUE",
     "question_number": "2_1",
     "tag": "Gr8_34_E2",
     "correct_answers": [
@@ -449,6 +450,7 @@
     "image_tag": "Gr8_34_3_1",
     "backend_description":"The image shows a coordinate grid labeled from -6 to 6 on both axes. A blue point labeled N is located in the third quadrant at (-2, -6). A red horizontal line is drawn across the x-axis, suggesting a reflection over the x-axis.",
     "question_type": "Multiple Fill in the blank",
+    "orderMatter": "TRUE",
     "question_number": "3_1",
     "tag": "Gr8_34_E3",
     "correct_answers": [
@@ -487,6 +489,7 @@
     "image_tag": "Gr8_34_3_2",
     "backend_description":"The image shows a coordinate grid labeled from -6 to 6 on both axes. An orange point labeled N is located in the left half of the grid at (-1, -1). A red vertical line is drawn along the y-axis, indicating a reflection over the y-axis.",
     "question_type": "Multiple Fill in the blank",
+    "orderMatter": "TRUE",
     "question_number": "3_2",
     "tag": "Gr8_34_E3",
     "correct_answers": [
@@ -525,6 +528,7 @@
     "image_tag": "Gr8_34_4_1",
     "backend_description":"The image shows a coordinate grid labeled from -6 to 6 on both axes. A blue point labeled L is located in the lower-right quadrant at (4, -4).",
     "question_type": "Multiple Fill in the blank",
+    "orderMatter": "TRUE",
     "question_number": "4_1",
     "tag": "Gr8_34_E4",
     "correct_answers": [
@@ -788,11 +792,11 @@
     "question_text": "One angle of a triangle measures 110°. The other two angles are in a ratio of 2:5. What are the measures of those two angles?\n___° and ___°",
     "skills": "find-missing-angles-in-triangles-using-ratios",
     "question_type": "Multiple Fill in the blank",
+    "orderMatter": "FALSE",
     "question_number": "4_1",
     "tag": "Gr8_35_E4",
     "correct_answers": [
-      ["20", "50"],
-      ["50", "20"]
+      "20", "50"
     ],
     "solution": [
       [
@@ -874,12 +878,11 @@
     "question_text": "One angle of a parallelogram measures 55°. What are the measures of the other three angles in the parallelogram?\n___°, ___°, and ___°",
     "skills": "find-missing-angles-in-quadrilaterals-ii",
     "question_type": "Multiple Fill in the blank",
+    "orderMatter": "FALSE",
     "question_number": "3_1",
     "tag": "Gr8_36_E3",
     "correct_answers": [
-      ["55", "125", "125"],
-      ["125", "55", "125"],
-      ["125", "125", "55"]
+      "55", "125", "125"
     ],
     "solution": [
       [
