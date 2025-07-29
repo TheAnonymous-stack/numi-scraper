@@ -3,13 +3,17 @@
     "question_text": "If you look at this object from the front, what will you see?",
     "skills": "front-side-and-top-view",
     "image_tag": "Gr8_32_4_1",
-    "back_end_description":"The image shows a large cube made up of smaller unit cubes. The cube is shaded with different tones of pink and purple to show its three-dimensional structure, with 4 cubes along each edge, forming a 4 by 4 by 4 cube.",
+    "backend_description":"The image shows a large cube made up of smaller unit cubes. The cube is shaded with different tones of pink and purple to show its three-dimensional structure, with 4 cubes along each edge, forming a 4 by 4 by 4 cube.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "4_1",
     "tag": "Gr8_32_E4",
     "image_choice_tags": [
       "Gr8_32_4_1_A",
       "Gr8_32_4_1_B"
+    ],
+    "image_choice_tags_backend_description": [
+      "This image displays a flat grid of 16 pink squares arranged in 4 rows and 4 columns",
+      "This image displays a flat grid of 20 pink squares arranged in 5 rows and 4 columns"
     ],
     "correct_answers": [
       "A"
@@ -27,11 +31,13 @@
     "solution_image_tag": [
       [
         "1/2",
-        "Gr8_32_4_1_step_1"
+        "Gr8_32_4_1_step_1",
+        "The image shows a large pink cube made up of smaller unit cubes. The cube is arranged in a 4 by 4 by 4 structure, with each face consisting of 16 visible unit squares. The front face is highlighted with a black border, showing the 4 by 4 arrangement of 16 visible unit squares."
       ],
       [
         "2/2",
-        "Gr8_32_4_1_step_2"
+        "Gr8_32_4_1_step_2",
+        "This image displays a flat grid of 16 pink squares arranged in 4 rows and 4 columns, representing the 4 by 4 face of the cube that is visible from the front."
       ]
     ]
   },
@@ -39,13 +45,17 @@
     "question_text": "What does this object's base plan look like?",
     "skills": "base-plans",
     "image_tag": "Gr8_33_1_1",
-    "back_end_description":"The image shows a 3D rectangular prism made up of smaller unit cubes. The prism is arranged as a 2 by 2 by 3 cube, with varying shades of pink and purple to represent depth and sides. The top view of the prism is shown, with the pink and purple cubes arranged in a 2 by 2 grid.",
+    "backend_description":"The image shows a 3D rectangular prism made up of smaller unit cubes. The prism is arranged as a 2 by 2 by 3 cube, with varying shades of pink and purple to represent depth and sides. The top view of the prism is shown, with the pink and purple cubes arranged in a 2 by 2 grid.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_1",
     "tag": "Gr8_33_E1",
     "image_choice_tags": [
       "Gr8_33_1_1_A",
       "Gr8_33_1_1_B"
+    ],
+    "image_choice_tags_backend_description":[
+      "The image shows a grid made up of 6 pink squares arranged in 2 rows and 3 columns. Each square contains the number 3, indicating a height of 3 units at that position.",
+      "The image shows a grid made up of 4 pink squares arranged in 2 rows and 2 columns. Each square contains the number 3, indicating a height of 3 units at that position."
     ],
     "correct_answers": [
       "B"
@@ -67,15 +77,18 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_33_1_1_step_1"
+        "Gr8_33_1_1_step_1",
+        "The image shows a 3D rectangular prism made up of smaller unit cubes. The prism is arranged as a 2 by 2 by 3 cube, with varying shades of pink and purple to represent depth and sides. The top view is highlighted with a black border, showing the 2 by 2 arrangement of 4 visible unit squares."
       ],
       [
         "2/3",
-        "Gr8_33_1_1_step_2"
+        "Gr8_33_1_1_step_2",
+        "The top view of the 3D object is shown as a 2 by 2 grid of squares."
       ],
       [
         "3/3",
-        "Gr8_33_1_1_step_3"
+        "Gr8_33_1_1_step_3",
+        "This image displays a flat grid of 4 pink squares arranged in 2 rows and 2 columns, representing the 2 by 2 base plan of the prism that is visible from the top."
       ]
     ]
   },
@@ -170,7 +183,7 @@
     "question_text": "The blue shape is a dilation of the black shape. Is it an enlargement or a reduction?",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_33_3_1",
-    "back_end_description":"The image shows a coordinate grid with a black quadrilateral near the bottom and a smaller blue version of the same shape positioned above it. The blue shape is a dilation of the black shape and represents a reduction.",
+    "backend_description":"The image shows a coordinate grid with a black quadrilateral near the bottom and a smaller blue version of the same shape positioned above it. The blue shape is a dilation of the black shape and represents a reduction.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "3_1",
     "tag": "Gr8_33_E3",
@@ -218,11 +231,13 @@
     "solution_image_tag": [
       [
         "1/8",
-        "Gr8_33_3_1_step_1"
+        "Gr8_33_3_1_step_1",
+        "The image shows a coordinate grid with a black quadrilateral located below the x-axis and a smaller blue quadrilateral above it. A red segment highlights one side of the black quadrilateral, which connects the points (-8, -6) and (0, -6), measuring 8 units long."
       ],
       [
         "2/8",
-        "Gr8_33_3_1_step_2"
+        "Gr8_33_3_1_step_2",
+        "The image shows a coordinate grid with a black quadrilateral located below the x-axis and a smaller blue quadrilateral above it. A red segment highlights one side of the blue quadrilateral, which connects the points (-4, -3) and (0, -3), measuring 4 units long."
       ]
     ]
   },
@@ -230,7 +245,7 @@
     "question_text": "The purple shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify our answer and write it as a fraction or whole number.",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_33_3_2",
-    "back_end_description":"The image shows a coordinate grid with a black triangle and a smaller purple triangle below it. The purple shape is a dilation of the black shape. Each side of the purple triangle corresponds to a side of the black triangle. The top side of the black triangle stretches from (-6,10) to (10,10), which is 16 units long, and the corresponding side in the purple triangle goes from (-3,5) to (5,5), which is 8 units long. The left side of the black triangle connects (-8,-4) to (-6,10), and the corresponding side in the purple triangle connects (-4,-2) to (-3,5). The right side of the black triangle connects (10,10) to (-8,-4), and the corresponding side in the purple triangle connects (5,5) to (-4,-2). All three sides of the purple triangle are half the length of the corresponding sides in the black triangle, indicating a scale factor of 1/2.",
+    "backend_description":"The image shows a coordinate grid with a black triangle and a smaller purple triangle below it. The purple shape is a dilation of the black shape. Each side of the purple triangle corresponds to a side of the black triangle. The top side of the black triangle stretches from (-6,10) to (10,10), which is 16 units long, and the corresponding side in the purple triangle goes from (-3,5) to (5,5), which is 8 units long. The left side of the black triangle connects (-8,-4) to (-6,10), and the corresponding side in the purple triangle connects (-4,-2) to (-3,5). The right side of the black triangle connects (10,10) to (-8,-4), and the corresponding side in the purple triangle connects (5,5) to (-4,-2). All three sides of the purple triangle are half the length of the corresponding sides in the black triangle, indicating a scale factor of 1/2.",
     "question_type": "Fill in the blank",
     "question_number": "3_2",
     "tag": "Gr8_33_E3",
@@ -270,11 +285,13 @@
     "solution_image_tag": [
       [
         "1/7",
-        "Gr8_33_3_2_step_1"
+        "Gr8_33_3_2_step_1",
+        "The image shows a coordinate grid with a large black triangle and a smaller purple triangle. A red segment highlights one side of the black triangle, which connects the points (-6,10) and (10,10), measuring 16 units long."
       ],
       [
         "2/7",
-        "Gr8_33_3_2_step_2"
+        "Gr8_33_3_2_step_2",
+        "The image shows a coordinate grid with a large black triangle and a smaller purple triangle. A red segment highlights one side of the purple triangle, which connects the points (-3,5) and (5,5), measuring 8 units long."
       ]
     ]
   },
@@ -282,7 +299,7 @@
     "question_text": "Look at this shape:\nWhich image shows a rotation?",
     "skills": "identify-reflections-rotations-and-translations",
     "image_tag": "Gr8_33_4_1",
-    "back_end_description":"The image shows a purple triangle on a coordinate grid, located in the first quadrant. The triangle has a horizontal base and points upward and to the right. It serves as the original figure to compare with other triangles to determine which option could be a rotation of it.",
+    "backend_description":"The image shows a purple triangle on a coordinate grid. The triangle has a horizontal base and points upward and to the right. It serves as the original figure to compare with other triangles to determine which option could be a rotation of it.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "4_1",
     "tag": "Gr8_33_E4",
@@ -290,6 +307,11 @@
       "Gr8_33_4_1_A",
       "Gr8_33_4_1_B",
       "Gr8_33_4_1_C"
+    ],
+    "image_choice_tags_backend_description": [
+      "This image shows the same purple triangle after a 90° counterclockwise rotation. The triangle has a vertical base and the top vertex pointing to the left.",
+      "This image shows the purple triangle translated vertically upward. The shape has the same size and orientation as the original triangle but is now positioned higher on the grid by 1 unit.",
+      "This image shows the purple triangle reflected across a vertical red line. The triangle is now facing the opposite direction. The red line indicates the line of reflection."
     ],
     "correct_answers": [
       "A"
@@ -319,19 +341,23 @@
     "solution_image_tag": [
       [
         "1/5",
-        "Gr8_33_4_1_step_1"
+        "Gr8_33_4_1_step_1",
+        "The image shows a purple triangle on a coordinate grid. The triangle has a horizontal base and points upward and to the right."
       ],
       [
         "3/5",
-        "Gr8_33_4_1_step_3"
+        "Gr8_33_4_1_step_3",
+        "The image shows the same purple triangle after a 90° counterclockwise rotation. The triangle has a vertical base and the top vertex pointing to the left."
       ],
       [
         "4/5",
-        "Gr8_33_4_1_step_4"
+        "Gr8_33_4_1_step_4",
+        "The image shows the purple triangle translated vertically upward. The shape has the same size and orientation as the original triangle but is now positioned higher on the grid by 1 unit."
       ],
       [
         "5/5",
-        "Gr8_33_4_1_step_5"
+        "Gr8_33_4_1_step_5",
+        "The image shows the purple triangle reflected across a vertical red line. The triangle is now facing the opposite direction. The red line indicates the line of reflection."
       ]
     ]
   },
@@ -339,7 +365,7 @@
     "question_text": "What combination of transformations is shown below?",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_34_1_1",
-    "back_end_description":"The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 is rotated 180° to produce Shape 2, which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3. The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_1",
     "tag": "Gr8_34_E1",
@@ -369,11 +395,13 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_34_1_1_step_1"
+        "Gr8_34_1_1_step_1",
+        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
       ],
       [
         "2/3",
-        "Gr8_34_1_1_step_2"
+        "Gr8_34_1_1_step_2",
+        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
       ]
     ]
   },
@@ -381,8 +409,8 @@
     "question_text": "The point T(4,4) is translated 6 units down. What are the coordinates of the resulting point, T'?\nT' = (_, _)",
     "skills": "translations-find-the-coordinates",
     "image_tag": "Gr8_34_2_1",
-    "back_end_description":"The image shows a coordinate grid labeled from -6 to 6 on both axes. A green point labeled T is located at (4, 4) in the first quadrant.",
-    "question_type": "Fill in the blank",
+    "backend_description": "The image shows a coordinate grid labeled from -6 to 6 on both axes. A green point labeled T is located at (4, 4) in the first quadrant.",
+    "question_type": "Multiple Fill in the blank",
     "question_number": "2_1",
     "tag": "Gr8_34_E2",
     "correct_answers": [
@@ -405,11 +433,13 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_34_2_1_step_1"
+        "Gr8_34_2_1_step_1",
+        "The image shows a coordinate grid labeled from -6 to 6 on both axes. A green point labeled T is located at (4, 4) in the first quadrant."
       ],
       [
         "2/3",
-        "Gr8_34_2_1_step_2"
+        "Gr8_34_2_1_step_2",
+        "The image shows the same coordinate grid with the green point T now moved down 6 units. The new purple point T' is located at (4, -2) in the fourth quadrant."
       ]
     ]
   },
@@ -417,12 +447,12 @@
     "question_text": "The point N(-2,-6) is reflected over the x-axis. What are the coordinates of the resulting point, N'?\nN' = (_, _)",
     "skills": "reflections-find-the-coordinates",
     "image_tag": "Gr8_34_3_1",
-    "back_end_description":"The image shows a coordinate grid labeled from -6 to 6 on both axes. A blue point labeled N is located in the lower-left quadrant at (-2, -6). A red horizontal line is drawn across the x-axis, suggesting a reflection over the x-axis.",
-    "question_type": "Fill in the blank",
+    "backend_description":"The image shows a coordinate grid labeled from -6 to 6 on both axes. A blue point labeled N is located in the third quadrant at (-2, -6). A red horizontal line is drawn across the x-axis, suggesting a reflection over the x-axis.",
+    "question_type": "Multiple Fill in the blank",
     "question_number": "3_1",
     "tag": "Gr8_34_E3",
     "correct_answers": [
-      "-2,6"
+      "-2", "6"
     ],
     "solution": [
       [
@@ -441,11 +471,13 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_34_3_1_step_1"
+        "Gr8_34_3_1_step_1",
+        "The image shows a coordinate grid labeled from -6 to 6 on both axes. A blue point labeled N is located in the third quadrant at (-2, -6). A red horizontal line is drawn across the x-axis, suggesting a reflection over the x-axis."
       ],
       [
         "2/3",
-        "Gr8_34_3_1_step_2"
+        "Gr8_34_3_1_step_2",
+        "The image shows the same coordinate grid with the blue point N now reflected over the x-axis. The new light blue point N' is located at (-2, 6) in the second quadrant."
       ]
     ]
   },
@@ -453,12 +485,12 @@
     "question_text": "The point N(-1,-1) is reflected over the y-axis. What are the coordinates of the resulting point, N'?\nN' = (_, _)",
     "skills": "reflections-find-the-coordinates",
     "image_tag": "Gr8_34_3_2",
-    "back_end_description":"The image shows a coordinate grid labeled from -6 to 6 on both axes. An orange point labeled N is located in the left half of the grid at (-1, -1). A red vertical line is drawn along the y-axis, indicating a reflection over the y-axis.",
-    "question_type": "Fill in the blank",
+    "backend_description":"The image shows a coordinate grid labeled from -6 to 6 on both axes. An orange point labeled N is located in the left half of the grid at (-1, -1). A red vertical line is drawn along the y-axis, indicating a reflection over the y-axis.",
+    "question_type": "Multiple Fill in the blank",
     "question_number": "3_2",
     "tag": "Gr8_34_E3",
     "correct_answers": [
-      "1,-1"
+      "1", "-1"
     ],
     "solution": [
       [
@@ -477,11 +509,13 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_34_3_2_step_1"
+        "Gr8_34_3_2_step_1",
+        "The image shows a coordinate grid labeled from -6 to 6 on both axes. An orange point labeled N is located in the left half of the grid at (-1, -1). A red vertical line is drawn along the y-axis, indicating a reflection over the y-axis."
       ],
       [
         "2/3",
-        "Gr8_34_3_2_step_2"
+        "Gr8_34_3_2_step_2",
+        "The image shows the same coordinate grid with the orange point N now reflected over the y-axis. The new blue point N' is located at (1, -1) in the first quadrant."
       ]
     ]
   },
@@ -489,12 +523,12 @@
     "question_text": "The point L(4,-4) is rotated 90° counterclockwise around the origin. What are the coordinates of the resulting point, L'?\nL' = (_, _)",
     "skills": "rotations-find-the-coordinates",
     "image_tag": "Gr8_34_4_1",
-    "back_end_description":"The image shows a coordinate grid labeled from -6 to 6 on both axes. A blue point labeled L is located in the lower-right quadrant at (4, -4).",
-    "question_type": "Fill in the blank",
+    "backend_description":"The image shows a coordinate grid labeled from -6 to 6 on both axes. A blue point labeled L is located in the lower-right quadrant at (4, -4).",
+    "question_type": "Multiple Fill in the blank",
     "question_number": "4_1",
     "tag": "Gr8_34_E4",
     "correct_answers": [
-      "4,4"
+      "4", "4"
     ],
     "solution": [
       [
@@ -517,15 +551,18 @@
     "solution_image_tag": [
       [
         "1/4",
-        "Gr8_34_4_1_step_1"
+        "Gr8_34_4_1_step_1",
+        "The image shows a coordinate grid from -6 to 6 on both axes. A thick curved arrow in purple indicates a 90° counterclockwise rotation starting from the positive x-axis and ending on the positive y-axis. This visual represents the direction of rotation around the origin."
       ],
       [
         "2/4",
-        "Gr8_34_4_1_step_2"
+        "Gr8_34_4_1_step_2",
+        "The image shows a coordinate grid with a blue point labeled L at the coordinates (4, -4), located in the fourth quadrant. This represents the original position of point L before the rotation."
       ],
       [
         "3/4",
-        "Gr8_34_4_1_step_3"
+        "Gr8_34_4_1_step_3",
+        "The image shows a coordinate grid with two colored rectangles forming a square around the origin. A blue point labeled L is at (4, -4) and a green point labeled L′ is at (4, 4). A black dot marks the origin. The configuration visually shows that point L has been rotated 90° "
       ]
     ]
   },
@@ -533,7 +570,7 @@
     "question_text": "The graph shows quadrilaterals BCDE and B'C'D'E'.\nWhich of the following transformations maps BCDE onto B'C'D'E'?",
     "skills": "describe-transformations",
     "image_tag": "Gr8_35_1_1",
-    "back_end_description":"The image shows two quadrilaterals, BCDE and B'C'D'E', on a coordinate grid. Quadrilateral BCDE is drawn in blue with vertices at B(1,2), C(3,3), D(-2,8), and E(-3,5). Quadrilateral B'C'D'E' is drawn in pink with corresponding vertices at B'(-2,1), C'(-3,3), D'(-8,-2), and E'(-5,-3). The two shapes are congruent and appear to have the same orientation, but B'C'D'E' is rotated relative to BCDE. The positioning of the corresponding points suggests that B'C'D'E' is the result of a 90° counterclockwise rotation of BCDE around the origin.",
+    "backend_description": "The image shows two congruent quadrilaterals on a coordinate grid. Quadrilateral BCDE is drawn in blue in Quadrants I and II, with labeled vertices B(1,2), C(3,3), D(-2,8), and E(-3,5). Quadrilateral B′C′D′E′ is shown in pink in Quadrants III and IV with corresponding vertices B′(-2,1), C′(-3,3), D′(-8,-2), and E′(-5,-3). The two shapes are congruent and appear to have the same orientation. The positioning suggests that B′C′D′E′ is the result of a 90° counterclockwise rotation of BCDE around the origin.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_1",
     "tag": "Gr8_35_E1",
@@ -585,12 +622,14 @@
     ],
     "solution_image_tag": [
       [
-        "1/8",
-        "Gr8_35_1_1_step_1"
+        "2/8",
+        "Gr8_35_1_1_step_2",
+        "The image shows two congruent quadrilaterals on a coordinate grid. Quadrilateral BCDE is drawn in blue in Quadrants I and II, with labeled vertices B(1,2), C(3,3), D(-2,8), and E(-3,5). Quadrilateral B′C′D′E′ is shown in pink in Quadrants III and IV with corresponding vertices B′(-2,1), C′(-3,3), D′(-8,-2), and E′(-5,-3). The two shapes are congruent and appear to have the same orientation. The positioning suggests that B′C′D′E′ is the result of a 90° counterclockwise rotation of BCDE around the origin."
       ],
       [
-        "2/8",
-        "Gr8_35_1_1_step_2"
+        "6/8",
+        "Gr8_35_1_1_step_6",
+        "The same quadrilaterals BCDE and B′C′D′E′ are shown as in the previous image. Dashed green line segments connect the origin to points B and B′, highlighting that B maps to B′ through a 90° counterclockwise rotation around the origin."
       ]
     ]
   },
@@ -598,7 +637,7 @@
     "question_text": "The graph shows triangles DEF and D'E'F'.\nWhich of the following transformations maps DEF onto D'E'F'?",
     "skills": "describe-transformations",
     "image_tag": "Gr8_35_1_2",
-    "back_end_description":"The image shows two triangles, DEF and D'E'F', on a coordinate grid. Triangle DEF is drawn in pink with vertices at D(-8,6), E(-4,-3), and F(-8,-3). Triangle D'E'F' is drawn in orange with corresponding vertices at D'(6,8), E'(-3,4), and F'(-3,8). The two triangles are congruent and appear to have the same shape and size, but their positioning suggests a transformation. Based on the locations of the points, triangle D'E'F' appears to be the result of a 90° clockwise rotation of triangle DEF around the origin.",
+    "backend_description":"The image shows two triangles, DEF and D'E'F', on a coordinate grid. Triangle DEF is drawn in pink with vertices at D(-8,6), E(-4,-3), and F(-8,-3). Triangle D'E'F' is drawn in orange with corresponding vertices at D'(6,8), E'(-3,4), and F'(-3,8). The two triangles are congruent and appear to have the same shape and size, but their positioning suggests a transformation. Based on the locations of the points, triangle D'E'F' appears to be the result of a 90° clockwise rotation of triangle DEF around the origin.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_2",
     "tag": "Gr8_35_E1",
@@ -650,12 +689,14 @@
     ],
     "solution_image_tag": [
       [
-        "1/8",
-        "Gr8_35_1_2_step_1"
+        "2/8",
+        "Gr8_35_1_2_step_2",
+        "The image shows two triangles, DEF and D'E'F', on a coordinate grid. Triangle DEF is drawn in pink with vertices at D(-8,6), E(-4,-3), and F(-8,-3). Triangle D'E'F' is drawn in orange with corresponding vertices at D'(6,8), E'(-3,4), and F'(-3,8). The two triangles are congruent and appear to have the same shape and size, but their positioning suggests a transformation. Based on the locations of the points, triangle D'E'F' appears to be the result of a 90° clockwise rotation of triangle DEF around the origin."
       ],
       [
-        "2/8",
-        "Gr8_35_1_2_step_2"
+        "6/8",
+        "Gr8_35_1_2_step_6",
+        "The same triangles DEF and D'E'F' are shown as in the previous image. Dashed blue line segments connect the origin to points D and D', highlighting that D maps to D' through a 90° clockwise rotation around the origin."
       ]
     ]
   },
@@ -663,7 +704,7 @@
     "question_text": "The graph shows triangles RST and R'S'T'.\nWhich sequence of transformations maps RST onto R'S'T'?",
     "skills": "sequences-of-congruence-transformations-choose-the-sequence",
     "image_tag": "Gr8_35_2_1",
-    "back_end_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_1",
     "tag": "Gr8_35_E2",
@@ -690,25 +731,29 @@
       ],
       [
         "4/5",
-        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nFirst,reflect RST across the x-axis to map it onto R''S''T''.Then,rotate R''S''T' 90° clockwise around the origin.This does not map R''S''T'' onto R'S'T'."
+        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nFirst,reflect RST across the x-axis to map it onto R''S''T''. Then,rotate R''S''T' 90° clockwise around the origin. This does not map R''S''T'' onto R'S'T'."
       ],
       [
         "5/5",
-        "❌ a rotation 180° around the origin followed by a translation left 3 units and up 4units\nFirst,rotate RST 180° around the origin to map it onto R''S''T''. Then, translate R''S''T'' left 3 units and up 4 units.This does not map R''S''T''onto R'S'T'."
+        "❌ a rotation 180° around the origin followed by a translation left 3 units and up 4units\nFirst,rotate RST 180° around the origin to map it onto R''S''T''. Then, translate R''S''T'' left 3 units and up 4 units. This does not map R''S''T''onto R'S'T'."
       ]
     ],
     "solution_image_tag": [
       [
         "2/5",
-        "Gr8_35_2_1_step_2"
+        "Gr8_35_2_1_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+
       ],
       [
         "4/5",
-        "Gr8_35_2_1_step_4"
+        "Gr8_35_2_1_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
       ],
       [
         "5/5",
-        "Gr8_35_2_1_step_5"
+        "Gr8_35_2_1_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
       ]
     ]
   },
@@ -716,7 +761,7 @@
     "question_text": "What is the measure of the missing angle?\n___°",
     "skills": "find-missing-angles-in-triangles",
     "image_tag": "Gr8_35_3_1",
-    "back_end_description": "The image shows a yellow triangle with two of its interior angles labeled. One angle is 38°, another is 96°, and the third angle is marked with a question mark (?).",
+    "backend_description": "The image shows a yellow triangle with two of its interior angles labeled. One angle is 38°, another is 96°, and the third angle is marked with a question mark (?).",
     "question_type": "Fill in the blank",
     "question_number": "3_1",
     "tag": "Gr8_35_E3",
@@ -742,12 +787,12 @@
   {
     "question_text": "One angle of a triangle measures 110°. The other two angles are in a ratio of 2:5. What are the measures of those two angles?\n___° and ___°",
     "skills": "find-missing-angles-in-triangles-using-ratios",
-    "question_type": "Fill in the blank",
+    "question_type": "Multiple Fill in the blank",
     "question_number": "4_1",
     "tag": "Gr8_35_E4",
     "correct_answers": [
-      "20,50",
-      "50,20"
+      ["20", "50"],
+      ["50", "20"]
     ],
     "solution": [
       [
@@ -769,7 +814,7 @@
     "question_text": "The diagram shows a triangle.\nWhat is the value of u?\nu = ___°",
     "skills": "triangle-angle-sum-theorem",
     "image_tag": "Gr8_36_1_1",
-    "back_end_description": "The image shows a triangle outlined in purple. One of the angles is labeled 36°, and two other angles are labeled with expressions: one angle is 2u and the other is 4u.",
+    "backend_description": "The image shows a triangle outlined in purple. One of the angles is labeled 36°, and two other angles are labeled with expressions: one angle is 2u and the other is 4u.",
     "question_type": "Fill in the blank",
     "question_number": "1_1",
     "tag": "Gr8_36_E1",
@@ -793,7 +838,8 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_36_1_1_step_1"
+        "Gr8_36_1_1_step_1",
+        "The image shows a triangle with three angles labeled. The first angle is labeled 36°, and the other two angles are labeled 2u and 4u. The triangle is outlined in purple."
       ]
     ]
   },
@@ -801,12 +847,12 @@
     "question_text": "What is the measure of the missing angle?\n___°",
     "skills": "find-missing-angles-in-quadrilaterals",
     "image_tag": "Gr8_36_2_1",
-    "back_end_description": "The image shows a green quadrilateral with four interior angles. Three of the angles are labeled: 69°, 110°, and 33°. One angle is marked with a question mark.",
+    "backend_description": "The image shows a green quadrilateral with four interior angles. Three of the angles are labeled: 69°, 110°, and 33°. One angle is marked with a question mark.",
     "question_type": "Fill in the blank",
     "question_number": "2_1",
     "tag": "Gr8_36_E2",
     "correct_answers": [
-      "148°"
+      "148°","148"
     ],
     "solution": [
       [
@@ -827,13 +873,13 @@
   {
     "question_text": "One angle of a parallelogram measures 55°. What are the measures of the other three angles in the parallelogram?\n___°, ___°, and ___°",
     "skills": "find-missing-angles-in-quadrilaterals-ii",
-    "question_type": "Fill in the blank",
+    "question_type": "Multiple Fill in the blank",
     "question_number": "3_1",
     "tag": "Gr8_36_E3",
     "correct_answers": [
-      "55,125,125",
-      "125,55,125",
-      "125,125,55"
+      ["55", "125", "125"],
+      ["125", "55", "125"],
+      ["125", "125", "55"]
     ],
     "solution": [
       [
@@ -859,7 +905,7 @@
     "question_text": "What is the sum of the angle measures in this shape?\n___°",
     "skills": "interior-angles-of-polygons",
     "image_tag": "Gr8_36_4_1",
-    "back_end_description": "The image shows a pentagon outlined in green on a white background. The shape has five sides of varying lengths, and none of the angles or side lengths are labeled.",
+    "backend_description": "The image shows a pentagon outlined in green on a white background. The shape has five sides of varying lengths, and none of the angles or side lengths are labeled.",
     "question_type": "Fill in the blank",
     "question_number": "4_1",
     "tag": "Gr8_36_E4",
@@ -886,7 +932,7 @@
     "question_text": "Which angle is supplementary to $\\angle$AGC?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_37_1_1",
-    "back_end_description": "The image shows six rays labeled A through F meeting at a central point labeled G. Rays AG and GD form a straight horizontal line, while rays BG and EG, and CG and FG, form intersecting lines that create multiple angles around point G. The angle AGC lies between rays AG and CG.",
+    "backend_description": "The image shows six rays labeled A through F meeting at a central point labeled G. Rays AG and GD form a straight horizontal line, while rays BG and EG, and CG and FG, form intersecting lines that create multiple angles around point G. The angle AGC lies between rays AG and CG.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_1",
     "tag": "Gr8_37_E1",
@@ -908,7 +954,8 @@
     "solution_image_tag": [
       [
         "1/1",
-        "Gr8_37_1_1_step_1"
+        "Gr8_37_1_1_step_1",
+        "The image shows six rays—AG, BG, CG, DG, EG, and FG—that all meet at a common point labeled G. Rays AG and DG form a straight horizontal line. Rays BG and EG form another straight line that slants upward to the left and downward to the right, while CG and FG form a third line that slants upward to the right and downward to the left. These intersecting lines create several angles around point G. The angle ∠AGC is formed between rays AG and CG. A green arc marks ∠AGC, and a blue arc marks the adjacent angle ∠FGA, which together form a straight line."
       ]
     ]
   },
@@ -940,7 +987,7 @@
     "question_number": "2_2",
     "tag": "Gr8_37_E2",
     "correct_answers": [
-      "°35"
+      "35"
     ],
     "solution": [
       [
@@ -958,7 +1005,7 @@
     "question_text": "What is the value of w?\n___°",
     "skills": "find-measures-of-complementary-supplementary-vertical-and-adjacent-angles",
     "image_tag": "Gr8_37_2_3",
-    "back_end_description": "The image shows three rays forming two adjacent angles at a vertex. One of the angles is labeled as 53°, and the other adjacent angle is labeled w. Together, these two angles form a right angle, indicated by a small square at the vertex. The two angles are complementary.",
+    "backend_description": "The image shows three rays forming two adjacent angles at a vertex. One of the angles is labeled as 53°, and the other adjacent angle is labeled w. Together, these two angles form a right angle, indicated by a small square at the vertex. The two angles are complementary.",
     "question_type": "Fill in the blank",
     "question_number": "2_3",
     "tag": "Gr8_37_E2",
@@ -978,7 +1025,8 @@
     "solution_image_tag": [
       [
         "1/2",
-        "Gr8_37_2_3_step_1"
+        "Gr8_37_2_3_step_1",
+        "The image shows three rays forming two adjacent angles at a vertex. One of the angles is labeled as 53°, and the other adjacent angle is labeled w. Together, these two angles form a right angle, indicated by a small square at the vertex. The two angles are complementary."
       ]
     ]
   },
@@ -986,7 +1034,7 @@
     "question_text": "$\\overline{PR}$ and $\\overline{SU}$ are parallel lines. Which angles are supplementary angles?",
     "skills": "transversals-of-parallel-lines-name-angle-pairs",
     "image_tag": "Gr8_37_3_1",
-    "back_end_description": "The image shows two parallel vertical lines, labeled PR and SU, intersected by a diagonal transversal line VO. Points of intersection are marked at Q on line PR and T on line SU. Additional labeled points include S and P above the intersections, and U and R below. The transversal forms various angles at the points of intersection, including angles PQT and PQO, which lie on a straight line and are supplementary as they form a linear pair.",
+    "backend_description": "The image shows two parallel vertical lines, labeled PR and SU, intersected by a diagonal transversal line VO. Points of intersection are marked at Q on line PR and T on line SU. Additional labeled points include S and P above the intersections, and U and R below. The transversal forms various angles at the points of intersection, including angles PQT and PQO. Together they form a straight line.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "3_1",
     "tag": "Gr8_37_E3",
@@ -1024,23 +1072,28 @@
     "solution_image_tag": [
       [
         "1/5",
-        "Gr8_37_3_1_step_1"
+        "Gr8_37_3_1_step_1",
+        "The image shows two vertical parallel lines: SU on the left and PR on the right. A diagonal transversal line VO intersects both at points T and Q, respectively. A blue arc highlights ∠PQT, which is formed by the intersection of lines PR and VO, opening to the left between segments QP and QT."
       ],
       [
         "2/5",
-        "Gr8_37_3_1_step_2"
+        "Gr8_37_3_1_step_2",
+        "This image is identical to step 1 (Gr8_37_3_1_step_1) but adds a green arc to mark ∠STV, which is formed at the left intersection of transversal VO and line SU, opening to the left between segments TS and TV. The blue arc for ∠PQT remains. "
       ],
       [
         "3/5",
-        "Gr8_37_3_1_step_3"
+        "Gr8_37_3_1_step_3",
+        "This image is identical to step 1 (Gr8_37_3_1_step_1) but adds a green arc highlights ∠UTQ, formed at point T between TU and TQ. The blue arc still marks ∠PQT at point Q."
       ],
       [
         "4/5",
-        "Gr8_37_3_1_step_4"
+        "Gr8_37_3_1_step_4",
+        "This image is identical to step 1 (Gr8_37_3_1_step_1) but adds a green arc highlights ∠RQO, the angle at Q opening to the right between QR and QO. The blue arc remains on ∠PQT. "
       ],
       [
         "5/5",
-        "Gr8_37_3_1_step_5"
+        "Gr8_37_3_1_step_5",
+        "This image is identical to step 1 (Gr8_37_3_1_step_1) but adds a green arc highlights ∠PQO. ∠PQT (blue) and ∠PQO (green) both share vertex Q. The two angles are adjacent and lie on a straight line from point P to O, forming a linear pair. Together, they are supplementary and sum to 180°."
       ]
     ]
   },
@@ -1048,7 +1101,7 @@
     "question_text": "$\\overline{IK}$ and $\\overline{LN}$ are parallel lines. Which angles are vertical angles?",
     "skills": "transversals-of-parallel-lines-name-angle-pairs",
     "image_tag": "Gr8_37_3_2",
-    "back_end_description": "The image shows two parallel vertical lines, labeled IK and LN, intersected by a diagonal transversal line OH. Points of intersection are labeled M on LN and J on IK. Additional labeled points include L and I above the intersections, and N and K below. The transversal creates multiple angles at the points of intersection, including angles KJM and IJH, which are vertical angles formed by the intersection of lines OH and IK.",
+    "backend_description": "The image shows two parallel vertical lines, labeled IK and LN, intersected by a diagonal transversal line OH. Points of intersection are labeled M on LN and J on IK. Additional labeled points include L and I above the intersections, and N and K below. The transversal creates multiple angles at the points of intersection, including angles KJM and IJH, which are vertical angles formed by the intersection of lines OH and IK.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "3_2",
     "tag": "Gr8_37_E3",
@@ -1086,23 +1139,28 @@
     "solution_image_tag": [
       [
         "1/5",
-        "Gr8_37_3_2_step_1"
+        "Gr8_37_3_2_step_1",
+        "The image shows two parallel vertical lines, labeled IK and LN, intersected by a diagonal transversal line OH. Points of intersection are labeled M on LN and J on IK. Additional labeled points include L and I above the intersections, and N and K below. A blue arc highlights ∠KJM"
       ],
       [
         "2/5",
-        "Gr8_37_3_2_step_2"
+        "Gr8_37_3_2_step_2",
+        "This image is identical to step 1 (Gr8_37_3_2_step_1) but adds a green arc to mark ∠LMO. The blue arc remains on ∠KJM."
       ],
       [
         "3/5",
-        "Gr8_37_3_2_step_3"
+        "Gr8_37_3_2_step_3",
+        "This image is identical to step 1 (Gr8_37_3_2_step_1) but adds a green arc to mark ∠NMO. The blue arc remains on ∠KJM."
       ],
       [
         "4/5",
-        "Gr8_37_3_2_step_4"
+        "Gr8_37_3_2_step_4",
+        "This image is identical to step 1 (Gr8_37_3_2_step_1) but adds a green arc to mark ∠NMJ. The blue arc remains on ∠KJM."
       ],
       [
         "5/5",
-        "Gr8_37_3_2_step_5"
+        "Gr8_37_3_2_step_5",
+        "This image is identical to step 1 (Gr8_37_3_2_step_1) but adds a green arc to mark ∠IJH. The blue arc remains on ∠KJM."
       ]
     ]
   },
@@ -1110,7 +1168,7 @@
     "question_text": "$\\overline{EG}$ and $\\overline{HJ}$ are parallel lines. Which angles are alternate exterior angles?",
     "skills": "transversals-of-parallel-lines-name-angle-pairs",
     "image_tag": "Gr8_37_3_3",
-    "back_end_description": "The image shows two parallel horizontal lines, EG and HJ, intersected by a diagonal transversal line DK. The points of intersection are labeled F on EG and I on HJ. Several points are labeled to form angles along the transversal, including ∠JIK below line HJ and ∠EFD above line EG. These two angles are alternate exterior angles, as they lie outside the parallel lines and on opposite sides of the transversal.",
+    "backend_description": "The image shows two parallel horizontal lines, EG and HJ, intersected by a diagonal transversal line DK. The points of intersection are labeled F on EG and I on HJ. Several points are labeled to form angles along the transversal, including ∠JIK below line HJ and ∠EFD above line EG. These two angles are alternate exterior angles, as they lie outside the parallel lines and on opposite sides of the transversal.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "3_3",
     "tag": "Gr8_37_E3",
@@ -1148,23 +1206,28 @@
     "solution_image_tag": [
       [
         "1/5",
-        "Gr8_37_3_3_step_1"
+        "Gr8_37_3_3_step_1",
+        "The image shows two parallel horizontal lines, EG and HJ, intersected by a diagonal transversal line DK. The points of intersection are labeled F on EG and I on HJ. A blue arc highlights ∠JIK"
       ],
       [
         "2/5",
-        "Gr8_37_3_3_step_2"
+        "Gr8_37_3_3_step_2",
+        "This image is identical to step 1 (Gr8_37_3_3_step_1) but adds a green arc to mark ∠HIK. The blue arc remains on ∠JIK."
       ],
       [
         "3/5",
-        "Gr8_37_3_3_step_3"
+        "Gr8_37_3_3_step_3",
+        "This image is identical to step 1 (Gr8_37_3_3_step_1) but adds a green arc to mark ∠JIF. The blue arc remains on ∠JIK."
       ],
       [
         "4/5",
-        "Gr8_37_3_3_step_4"
+        "Gr8_37_3_3_step_4",
+         "This image is identical to step 1 (Gr8_37_3_3_step_1) but adds a green arc to mark ∠EFD. The blue arc remains on ∠JIK."
       ],
       [
         "5/5",
-        "Gr8_37_3_3_step_5"
+        "Gr8_37_3_3_step_5",
+         "This image is identical to step 1 (Gr8_37_3_3_step_1) but adds a green arc to mark ∠GFD. The blue arc remains on ∠JIK."
       ]
     ]
   },
@@ -1172,7 +1235,7 @@
     "question_text": "$\\overline{RT}$ and $\\overline{UW}$ are parallel lines. Which angles are corresponding angles?",
     "skills": "transversals-of-parallel-lines-name-angle-pairs",
     "image_tag": "Gr8_37_3_4",
-    "back_end_description": "The image shows two parallel horizontal lines, RT and UW, intersected by a diagonal transversal line XQ. The points of intersection are labeled S on RT and V on UW. Several angles are formed by the intersections, including ∠RSV above line RT and ∠UVX below line UW. These two angles are in matching positions relative to the parallel lines and the transversal, making them corresponding angles.",
+    "backend_description": "The image shows two parallel horizontal lines, RT and UW, intersected by a diagonal transversal line XQ. The points of intersection are labeled S on RT and V on UW. Several angles are formed by the intersections, including ∠RSV above line RT and ∠UVX below line UW. These two angles are in matching positions relative to the parallel lines and the transversal, making them corresponding angles.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "3_4",
     "tag": "Gr8_37_E3",
@@ -1210,23 +1273,28 @@
     "solution_image_tag": [
       [
         "1/5",
-        "Gr8_37_3_4_step_1"
+        "Gr8_37_3_4_step_1",
+        "The image shows two parallel horizontal lines, RT and UW, intersected by a diagonal transversal line XQ. The points of intersection are labeled S on RT and V on UW. A blue arc highlights ∠RSV"
       ],
       [
         "2/5",
-        "Gr8_37_3_4_step_2"
+        "Gr8_37_3_4_step_2",
+        "This image is identical to step 1 (Gr8_37_3_4_step_1) but adds a green arc to mark ∠WVX. The blue arc remains on ∠RSV."
       ],
       [
         "3/5",
-        "Gr8_37_3_4_step_3"
+        "Gr8_37_3_4_step_3",
+        "This image is identical to step 1 (Gr8_37_3_4_step_1) but adds a green arc to mark ∠UVX. The blue arc remains on ∠RSV."
       ],
       [
         "4/5",
-        "Gr8_37_3_4_step_4"
+        "Gr8_37_3_4_step_4",
+        "This image is identical to step 1 (Gr8_37_3_4_step_1) but adds a green arc to mark ∠TSV. The blue arc remains on ∠RSV."
       ],
       [
         "5/5",
-        "Gr8_37_3_4_step_5"
+        "Gr8_37_3_4_step_5",
+        "This image is identical to step 1 (Gr8_37_3_4_step_1) but adds a green arc to mark ∠RSQ. The blue arc remains on ∠RSV."
       ]
     ]
   },
@@ -1234,7 +1302,7 @@
     "question_text": "$\\overline{IK}$ and $\\overline{LN}$ are parallel lines. Which angles are alternate interior angles?",
     "skills": "transversals-of-parallel-lines-name-angle-pairs",
     "image_tag": "Gr8_37_3_5",
-    "back_end_description": "The image shows two vertical parallel lines, IK and LN, intersected by a diagonal transversal line OH. The intersections occur at points J (on IK) and M (on LN). This creates several interior and exterior angles between the parallel lines. Angles ∠NMJ and ∠IJM lie between the parallel lines and on opposite sides of the transversal, making them alternate interior angles.",
+    "backend_description": "The image shows two vertical parallel lines, IK and LN, intersected by a diagonal transversal line OH. The intersections occur at points J (on IK) and M (on LN). This creates several interior and exterior angles between the parallel lines. Angles ∠NMJ and ∠IJM lie between the parallel lines and on opposite sides of the transversal, making them alternate interior angles.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "3_5",
     "tag": "Gr8_37_E3",
@@ -1272,23 +1340,28 @@
     "solution_image_tag": [
       [
         "1/5",
-        "Gr8_37_3_5_step_1"
+        "Gr8_37_3_5_step_1",
+        "The image shows two vertical parallel lines, IK and LN, intersected by a diagonal transversal line OH. The intersections occur at points J (on IK) and M (on LN). A blue arc highlights ∠NMJ"
       ],
       [
         "2/5",
-        "Gr8_37_3_5_step_2"
+        "Gr8_37_3_5_step_2",
+        "This image is identical to step 1 (Gr8_37_3_5_step_1) but adds a green arc to mark ∠KJH. The blue arc remains on ∠NMJ."
       ],
       [
         "3/5",
-        "Gr8_37_3_5_step_3"
+        "Gr8_37_3_5_step_3",
+        "This image is identical to step 1 (Gr8_37_3_5_step_1) but adds a green arc to mark ∠LMO. The blue arc remains on ∠NMJ."
       ],
       [
         "4/5",
-        "Gr8_37_3_5_step_4"
+        "Gr8_37_3_5_step_4",
+        "This image is identical to step 1 (Gr8_37_3_5_step_1) but adds a green arc to mark ∠IJM. The blue arc remains on ∠NMJ."
       ],
       [
         "5/5",
-        "Gr8_37_3_5_step_5"
+        "Gr8_37_3_5_step_5",
+        "This image is identical to step 1 (Gr8_37_3_5_step_1) but adds a green arc to mark ∠LMJ. The blue arc remains on ∠NMJ."
       ]
     ]
   },
@@ -1296,7 +1369,7 @@
     "question_text": "$\\overline{IK}$ and $\\overline{LN}$ are parallel lines. Which angles are adjacent angles?",
     "skills": "transversals-of-parallel-lines-name-angle-pairs",
     "image_tag": "Gr8_37_3_6",
-    "back_end_description": "The image shows two horizontal parallel lines, IK and LN, intersected by a diagonal transversal line HO. The intersections occur at points J (on IK) and M (on LN), creating multiple angle pairs. Angles ∠LMO and ∠NMO share a common side (ray MO), making them adjacent angles.",
+    "backend_description": "The image shows two horizontal parallel lines, IK and LN, intersected by a diagonal transversal line HO. The intersections occur at points J (on IK) and M (on LN), creating multiple angle pairs. Angles ∠LMO and ∠NMO share a common side (ray MO), making them adjacent angles.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "3_6",
     "tag": "Gr8_37_E3",
@@ -1334,23 +1407,28 @@
     "solution_image_tag": [
       [
         "1/5",
-        "Gr8_37_3_6_step_1"
+        "Gr8_37_3_6_step_1",
+        "The image shows two horizontal parallel lines, IK and LN, intersected by a diagonal transversal line HO. The intersections occur at points J (on IK) and M (on LN). A blue arc highlights ∠LMO"
       ],
       [
         "2/5",
-        "Gr8_37_3_6_step_2"
+        "Gr8_37_3_6_step_2",
+        "This image is identical to step 1 (Gr8_37_3_6_step_1) but adds a green arc to mark ∠IJH. The blue arc remains on ∠LMO."
       ],
       [
         "3/5",
-        "Gr8_37_3_6_step_3"
+        "Gr8_37_3_6_step_3",
+        "This image is identical to step 1 (Gr8_37_3_6_step_1) but adds a green arc to mark ∠KJH. The blue arc remains on ∠LMO."
       ],
       [
         "4/5",
-        "Gr8_37_3_6_step_4"
+        "Gr8_37_3_6_step_4",
+        "This image is identical to step 1 (Gr8_37_3_6_step_1) but adds a green arc to mark ∠NMO. The blue arc remains on ∠LMO."
       ],
       [
         "5/5",
-        "Gr8_37_3_6_step_5"
+        "Gr8_37_3_6_step_5",
+        "This image is identical to step 1 (Gr8_37_3_6_step_1) but adds a green arc to mark ∠NMJ. The blue arc remains on ∠LMO."
       ]
     ]
   },
@@ -1358,7 +1436,7 @@
     "question_text": "Look at this diagram.\nIf $\\overline{OQ}$ and $\\overline{RT}$ are parallel lines and $\\angle$TSP=40°, what is $\\angle$TSU?\n___°",
     "skills": "transversals-of-parallel-lines-find-angle-measures",
     "image_tag": "Gr8_37_4_1",
-    "back_end_description": "The image shows two parallel horizontal lines OQ and RT, intersected by a diagonal line NU. The intersections occur at points P (on OQ) and S (on RT). The angle ∠TSP is labeled as 40°, and angle ∠TSU is supplementary to ∠TSP as they form a straight angle along the line RT.",
+    "backend_description": "The image shows two parallel horizontal lines OQ and RT, intersected by a diagonal line NU. The intersections occur at points P (on OQ) and S (on RT). The angle ∠TSP is labeled as 40°, and angle ∠TSU is supplementary to ∠TSP as they form a straight angle along the line RT.",
     "question_type": "Fill in the blank",
     "question_number": "4_1",
     "tag": "Gr8_37_E4",
@@ -1382,7 +1460,8 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_37_4_1_step_1"
+        "Gr8_37_4_1_step_1",
+        "The image shows two parallel horizontal lines OQ and RT, intersected by a diagonal line NU. The intersections occur at points P (on OQ) and S (on RT). A blue arc highlights ∠TSP and a green arc highlights ∠TSU"
       ]
     ]
   },
@@ -1390,7 +1469,7 @@
     "question_text": "A line segment is bisected, forming two new line segments. If the original line segment had a measure of 24 centimetres, what is the measure of each new line segment?\n___ centimetres",
     "skills": "find-lengths-and-measures-of-bisected-line-segments-and-angles",
     "image_tag": "Gr8_38_1_1",
-    "back_end_description": "A line segment is divided into two equal parts, with the total length labeled as 24 cm.",
+    "backend_description": "A line segment is divided into two equal parts, with the total length labeled as 24 cm.",
     "question_type": "Fill in the blank",
     "question_number": "1_1",
     "tag": "Gr8_38_E1",
@@ -1413,7 +1492,7 @@
     "question_text": "If a line segment is bisected to form two new 4-centimetre line segments, what was the measure of the original line segment?\n___ centimetres",
     "skills": "find-lengths-and-measures-of-bisected-line-segments-and-angles",
     "image_tag": "Gr8_38_1_2",
-    "back_end_description": "A line segment is divided into two equal parts, each labeled as 4 cm.",
+    "backend_description": "A line segment is divided into two equal parts, each labeled as 4 cm.",
     "question_type": "Fill in the blank",
     "question_number": "1_2",
     "tag": "Gr8_38_E1",
@@ -1436,7 +1515,7 @@
     "question_text": "If an angle is bisected to form two new 6° angles, what was the measure of the original angle?\n___°",
     "skills": "find-lengths-and-measures-of-bisected-line-segments-and-angles",
     "image_tag": "Gr8_38_1_3",
-    "back_end_description": "Two adjacent angles are formed by a pair of rays, and both angles are labeled as 6 degrees.",
+    "backend_description": "Two adjacent angles are formed by a pair of rays, and both angles are labeled as 6 degrees.",
     "question_type": "Fill in the blank",
     "question_number": "1_3",
     "tag": "Gr8_38_E1",
@@ -1459,7 +1538,7 @@
     "question_text": "After bisecting an angle measuring 14°, Adele has two angles. What is the measure of each new angle?\n___°",
     "skills": "find-lengths-and-measures-of-bisected-line-segments-and-angles",
     "image_tag": "Gr8_38_1_4",
-    "back_end_description": "Two adjacent angles are formed by a pair of rays, and the total angle is labeled as 14 degrees.",
+    "backend_description": "Two adjacent angles are formed by a pair of rays, and the total angle is labeled as 14 degrees.",
     "question_type": "Fill in the blank",
     "question_number": "1_4",
     "tag": "Gr8_38_E1",
@@ -1482,7 +1561,7 @@
     "question_text": "What is the perimeter of this rectangle?\n___ centimetres",
     "skills": "perimeter",
     "image_tag": "Gr8_38_2_1",
-    "back_end_description": "A rectangle is shown with a length of 19 cm and a width of 6 cm.",
+    "backend_description": "A rectangle is shown with a length of 19 cm and a width of 6 cm.",
     "question_type": "Fill in the blank",
     "question_number": "2_1",
     "tag": "Gr8_38_E2",
@@ -1505,7 +1584,7 @@
     "question_text": "What is the area of the shaded region?\n___ square centimetres",
     "skills": "area",
     "image_tag": "Gr8_38_3_1",
-    "back_end_description": "A triangle is shown with a base of 6 cm and a height of 5 cm.",
+    "backend_description": "A triangle is shown with a base of 6 cm and a height of 5 cm.",
     "question_type": "Fill in the blank",
     "question_number": "3_1",
     "tag": "Gr8_38_E3",
@@ -1536,7 +1615,7 @@
     "question_text": "What is the area of the shaded region?\n___ square centimetres",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_38_4_1",
-    "back_end_description": "The image shows a large blue square with a smaller white square centered inside it. The side length of the outer square is 40 cm on the left and 39 cm on the bottom. The inner square has a top side labeled 29 cm and a right side labeled 27 cm. The blue region represents the area between the two squares.",
+    "backend_description": "The image shows a large blue square with a smaller white square centered inside it. The side length of the outer square is 40 cm on the left and 39 cm on the bottom. The inner square has a top side labeled 29 cm and a right side labeled 27 cm. The blue region represents the area between the two squares.",
     "question_type": "Fill in the blank",
     "question_number": "4_1",
     "tag": "Gr8_38_E4",
@@ -1599,7 +1678,7 @@
     "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_38_4_2",
-    "back_end_description": "The image displays a large blue circle with a smaller white circle inside it, both sharing the same center. The inner circle has a diameter labeled d = 24 m. A red dashed segment from the edge of the inner circle to the edge of the outer circle is labeled 17 m, representing the difference in radii between the two circles. The shaded blue region shows the area between the two concentric circles.",
+    "backend_description": "The image displays a large blue circle with a smaller white circle inside it, both sharing the same center. The inner circle has a diameter labeled d = 24 m. A red dashed segment from the edge of the inner circle to the edge of the outer circle is labeled 17 m, representing the difference in radii between the two circles. The shaded blue region shows the area between the two concentric circles.",
     "question_type": "Fill in the blank",
     "question_number": "4_2",
     "tag": "Gr8_38_E4",
@@ -1651,7 +1730,8 @@
     "solution_image_tag": [
       [
         "1/10",
-        "Gr8_38_4_2_step_1"
+        "Gr8_38_4_2_step_1",
+        "The image displays a large blue circle with a smaller white circle inside it, both sharing the same center. The inner circle has a radius labeled r = 12 m. A red dashed segment from the edge of the inner circle to the edge of the outer circle is labeled 17 m, representing the difference in radii between the two circles. The shaded blue region shows the area between the two concentric circles."
       ]
     ]
   },
@@ -1673,7 +1753,8 @@
     "solution_image_tag": [
       [
         "1/1",
-        "Gr8_39_1_1_step_1"
+        "Gr8_39_1_1_step_1",
+        "The image shows a square with all four sides labeled as 10 units."
       ]
     ]
   },
@@ -1695,7 +1776,8 @@
     "solution_image_tag": [
       [
         "1/1",
-        "Gr8_39_1_2_step_1"
+        "Gr8_39_1_2_step_1",
+        "The image shows a rectangle with the top and bottom sides each measure 10 units, while the left and right sides each measure 8 units. "
       ]
     ]
   },
@@ -1721,19 +1803,20 @@
     "solution_image_tag": [
       [
         "1/2",
-        "Gr8_39_1_3_step_1"
+        "Gr8_39_1_3_step_1",
+        "The image shows a square with all four sides labeled as 20 units."
       ]
     ]
   },
   {
     "question_text": "A rectangular dining room has a perimeter of 16 metres and an area of 15 square metres. What are the dimensions of the dining room?\n___ metres by ___ metres",
     "skills": "area-and-perimeter-word-problems",
-    "question_type": "Fill in the blank",
+    "question_type": "MultipleFill in the blank",
     "question_number": "1_4",
     "tag": "Gr8_39_E1",
     "correct_answers": [
-      "3,5",
-      "5,3"
+      ["3", "5"],
+      ["5", "3"]
     ],
     "solution": [
       [
@@ -1748,7 +1831,8 @@
     "solution_image_tag": [
       [
         "1/2",
-        "Gr8_39_1_4_step_1"
+        "Gr8_39_1_4_step_1",
+        "The image displays a table with three columns labeled Dimensions, Area, and Perimeter. The first row shows a rectangle with dimensions 1 by 15. Its area is calculated as 1×15=15, and its perimeter is calculated as 1+15+1+15=32. The second row shows a rectangle with dimensions 3 by 5. Its area is calculated as 3×5=15, and its perimeter is calculated as 3+5+3+5=16."
       ]
     ]
   },
@@ -1756,7 +1840,7 @@
     "question_text": "The radius of a circle is 1 kilometre. What is the circle's area?\n\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n___ square kilometres",
     "skills": "area-of-circles",
     "image_tag": "Gr8_39_2_1",
-    "back_end_description": "The image shows a circle with a radius labeled as 1 kilometre.",
+    "backend_description": "The image shows a circle with a radius labeled as 1 kilometre.",
     "question_type": "Fill in the blank",
     "question_number": "2_1",
     "tag": "Gr8_39_E2",
@@ -1779,7 +1863,7 @@
     "question_text": "The radius of a circle is 4 kilometres. What is the circle's circumference?\n\nUse $\\pi$ \\approx $3.14$ and round your answer to the nearest hundredth.\n___ kilometres",
     "skills": "circumference-of-circles",
     "image_tag": "Gr8_39_3_1",
-    "back_end_description": "The image shows a circle with a radius labeled as 4 kilometres.",
+    "backend_description": "The image shows a circle with a radius labeled as 4 kilometres.",
     "question_type": "Fill in the blank",
     "question_number": "3_1",
     "tag": "Gr8_39_E3",
@@ -1802,7 +1886,7 @@
     "question_text": "The diameter of a circle is 6 kilometres. What is the circle's circumference?\n\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n___ kilometres",
     "skills": "circumference-of-circles",
     "image_tag": "Gr8_39_3_2",
-    "back_end_description": "The image shows a circle with a diameter labeled as 6 kilometres.",
+    "backend_description": "The image shows a circle with a diameter labeled as 6 kilometres.",
     "question_type": "Fill in the blank",
     "question_number": "3_2",
     "tag": "Gr8_39_E3",
@@ -1825,7 +1909,7 @@
     "question_text": "The radius of a quarter circle is 3 centimetres. What is the quarter circle's area?\n\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n___ square centimetres",
     "skills": "area-and-perimeter-of-semicircles-and-quarter-circles",
     "image_tag": "Gr8_39_4_1",
-    "back_end_description": "The image shows a quarter circle with a radius labeled as 3 centimetres.",
+    "backend_description": "The image shows a quarter circle with a radius labeled as 3 centimetres.",
     "question_type": "Fill in the blank",
     "question_number": "4_1",
     "tag": "Gr8_39_E4",
@@ -1848,7 +1932,7 @@
     "question_text": "The diameter of a semicircle is 8 kilometres. What is the semicircle's area?\n\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n___ square kilometres",
     "skills": "area-and-perimeter-of-semicircles-and-quarter-circles",
     "image_tag": "Gr8_39_4_2",
-    "back_end_description": "The image shows a semicircle with a diameter labeled as 8 kilometres.",
+    "backend_description": "The image shows a semicircle with a diameter labeled as 8 kilometres.",
     "question_type": "Fill in the blank",
     "question_number": "4_2",
     "tag": "Gr8_39_E4",
@@ -1965,7 +2049,7 @@
     "question_text": "What is the area of this figure?\n\nWrite your answer using decimals. Use 3.14 for $\\pi$.\n___ square kilometres",
     "skills": "area-of-compound-figures-with-triangles-semicircles-and-quarter-circles",
     "image_tag": "Gr8_40_2_1",
-    "back_end_description": "The image shows a geometric figure composed of two rectangles and a quarter circle. The left rectangle has a width of 4 kilometres and a height of 13 kilometres, while the middle rectangle is 5 kilometres wide and 20 kilometres tall. The top edges of these two rectangles are aligned horizontally. The quarter circle has a radius of 11 kilometres; part of its radius aligns with a portion of side of the middle rectangle.",
+    "backend_description": "The image shows a compound figure composed of two rectangles and a quarter circle. The left rectangle has a height of 13 kilometres and a width of 4 kilometres. Attached to its right is a second rectangle, which is 20 kilometres tall and 5 kilometres wide. The top edges of the two rectangles are aligned horizontally, and the total width of the upper portion of the figure is 9 kilometres. Vertical measurements indicate that the second rectangle extends 7 kilometres below the bottom of the first rectangle. On the right side of the second rectangle, a quarter circle is attached. Part of its radius aligns with the right edge of the rectangle, and vertical markings show that the quarter circle extends 8 kilometres below the bottom of the second rectangle. The quarter circle has a radius of 11 kilometres.",
     "question_type": "Fill in the blank",
     "question_number": "2_1",
     "tag": "Gr8_40_E2",
@@ -2013,7 +2097,8 @@
     "solution_image_tag": [
       [
         "1/9",
-        "Gr8_40_2_1_step_1"
+        "Gr8_40_2_1_step_1",
+        "The image shows a compound figure composed of two rectangles and a quarter circle. Dashed vertical red lines separate Rectangles A, B, and quarter circle C. Rectangle A on the left has a height of 13 kilometres and a width of 4 kilometres. Attached to the right of Rectangle A is Rectangle B, which is 20 kilometres tall and 5 kilometres wide. The top edges of these two rectangles are aligned horizontally, and the total width of the upper portion of the figure is 9 kilometres. Vertical measurements indicate that Rectangle B extends 7 kilometres below Rectangle A. On the right side of Rectangle B, a quarter circle labeled C is attached, with part of its radius aligned with a portion of the right side of Rectangle B. Quarter circle C has a radius of 11 kilometres."
       ]
     ]
   },
@@ -2021,7 +2106,7 @@
     "question_text": "What is the volume?\n___ cubic millimetres",
     "skills": "volume",
     "image_tag": "Gr8_40_3_1",
-    "back_end_description": "The image shows a rectangular prism with a length of 2 mm, a width of 5 mm, and a height of 1 mm.",
+    "backend_description": "The image shows a rectangular prism with a length of 2 mm, a width of 5 mm, and a height of 1 mm.",
     "question_type": "Fill in the blank",
     "question_number": "3_1",
     "tag": "Gr8_40_E3",
@@ -2048,7 +2133,7 @@
     "question_text": "What is the volume of this figure?\n___ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_40_4_1",
-    "back_end_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 10 cm, a width of 3 cm, and a height of 2 cm. The bottom left prism has a length of 2 cm, a width of 3 cm, and a height of 3 cm. The bottom right prism has a length of 2 cm, a width of 3 cm, and a height of 3 cm.",
+    "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 10 cm, a width of 3 cm, and a height of 2 cm. The bottom left prism has a length of 2 cm, a width of 3 cm, and a height of 3 cm. The bottom right prism has a length of 2 cm, a width of 3 cm, and a height of 3 cm.",
     "question_type": "Fill in the blank",
     "question_number": "4_1",
     "tag": "Gr8_40_E4",
@@ -2086,7 +2171,7 @@
       ],
       [
         "8/12",
-        "Now, find the volume of the bottom right prism. Notice that its width is also the same as the top prism, 3centimetres. Its height is the same as the bottom left prism, 3centimetres."
+        "Now, find the volume of the bottom right prism. Notice that its width is also the same as the top prism, 3centimetres. Its height is the same as the bottom left prism, 3 centimetres."
       ],
       [
         "9/12",
@@ -2108,19 +2193,23 @@
     "solution_image_tag": [
       [
         "1/12",
-        "Gr8_40_4_1_step_1"
+        "Gr8_40_4_1_step_1",
+        "The image shows a three-dimensional figure is broken into three rectangular prisms. The top prism has a length of 10 cm, a width of 3 cm, and a height of 2 cm. The bottom left prism has a length of 2 cm, a width of 3 cm, and a height of 3 cm. The bottom right prism has a length of 2 cm, a width of 3 cm, and a height of 3 cm"
       ],
       [
         "2/12",
-        "Gr8_40_4_1_step_2"
+        "Gr8_40_4_1_step_2",
+        "This image shows a rectangular prism with a length of 10 cm, a width of 3 cm, and a height of 2 cm"
       ],
       [
         "5/12",
-        "Gr8_40_4_1_step_5"
+        "Gr8_40_4_1_step_5",
+        "This image shows a rectangular prism with a length of 2 cm, a width of 3 cm, and a height of 3 cm"
       ],
       [
         "8/12",
-        "Gr8_40_4_1_step_8"
+        "Gr8_40_4_1_step_8",
+        "This image shows a rectangular prism with a length of 2 cm, a width of 3 cm, and a height of 3 cm"
       ]
     ]
   },
@@ -2128,7 +2217,7 @@
     "question_text": "What is the surface area?\n___ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_41_1_1",
-    "back_end_description": "The image shows a cube with a side length of 2 millimetres.",
+    "backend_description": "The image shows a cube with a side length of 2 millimetres.",
     "question_type": "Fill in the blank",
     "question_number": "1_1",
     "tag": "Gr8_41_E1",
@@ -2152,7 +2241,8 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_41_1_1_step_1"
+        "Gr8_41_1_1_step_1",
+        "The image shows a square with all four sides labeled as 2mm."
       ]
     ]
   },
@@ -2160,7 +2250,7 @@
     "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n___ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_41_1_2",
-    "back_end_description": "The image shows a cylinder with a radius of 3 centimetres and a height of 10 centimetres.",
+    "backend_description": "The image shows a cylinder with a radius of 3 centimetres and a height of 10 centimetres.",
     "question_type": "Fill in the blank",
     "question_number": "1_2",
     "tag": "Gr8_41_E1",
@@ -2203,7 +2293,7 @@
     "question_text": "What is the surface area?\n___ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_41_1_3",
-    "back_end_description": "The image shows a triangular prism with a base triangle measuring 6 centimetres along the bottom edge, 5 centimetres for each of the two side edges, and a height of 4 centimetres. The prism has a length of 6 centimetres.",
+    "backend_description": "The image shows a triangular prism with a base triangle measuring 6 centimetres along the bottom edge, 5 centimetres for each of the two side edges, and a height of 4 centimetres. The prism has a length of 6 centimetres.",
     "question_type": "Fill in the blank",
     "question_number": "1_3",
     "tag": "Gr8_41_E1",
@@ -2227,7 +2317,8 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_41_1_3_step_1"
+        "Gr8_41_1_3_step_1",
+        "The image shows the surface area calculation for a triangular prism. At the top are two identical green triangles. Beneath each triangle is the expression 1/2 × 6 × 4 = 12, showing that each triangle has an area of 12 square centimetres. Below the triangles are two identical green rectangles. Underneath both rectangles is the expression 5 × 6 = 30, indicating that each rectangle has an area of 30 square centimetres. At the bottom of the image is one larger green square, with the expression 6 × 6 = 36 written below it, showing its area is 36 square centimetres. These five faces together represent the total surface area of the triangular prism."
       ]
     ]
   },
@@ -2235,7 +2326,7 @@
     "question_text": "What is the surface area?\n___ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_41_1_4",
-    "back_end_description":"The image shows a rectangular prism with a length of 4 millimetres, a width of 2 millimetres, and a height of 2 millimetres.",
+    "backend_description":"The image shows a rectangular prism with a length of 4 millimetres, a width of 2 millimetres, and a height of 2 millimetres.",
     "question_type": "Fill in the blank",
     "question_number": "1_4",
     "tag": "Gr8_41_E1",
@@ -2259,7 +2350,8 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_41_1_4_step_1"
+        "Gr8_41_1_4_step_1",
+        "The image shows the surface area calculation for a rectangular prism. There are six green rectangles arranged in three pairs. At the top are two identical vertical rectangles with the expression 2 × 4 = 8 written below each, showing that each has an area of 8 square millimetres. In the middle are two identical horizontal rectangles, also labeled with 4 × 2 = 8, indicating each of their areas is 8 square millimetres. At the bottom are two identical squares, each labeled with 2 × 2 = 4, showing that each has an area of 4 square millimetres. These six faces together represent the total surface area of the rectangular prism."
       ]
     ]
   },
@@ -2267,7 +2359,7 @@
     "question_text": "What is the surface area of this triangular pyramid?\n___ square meters",
     "skills": "surface-area-of-pyramids",
     "image_tag": "Gr8_41_2_1",
-    "back_end_description": "The image shows a triangular pyramid with a triangular base. Each side of the base measures 5 cm, and the height of the base is labeled as 4.3 cm. In addition to the base, the pyramid has three triangular faces, each with a height of 9 cm. Dashed lines indicate the slant heights from the apex to the base edges, and arrows point to all the relevant measurements.",
+    "backend_description": "The image shows a triangular pyramid with a triangular base and three triangular faces. Each side of the base measures 5 cm. The height of the base triangle is labeled as 4.3 cm and is indicated by a vertical dashed line inside the base. Each of the three triangular faces shares a 5 cm side with the base and has a height of 9 cm from the base to the apex of the pyramid. Dashed lines are used to indicate the slant height of the faces, and arrows point to all the key measurements on the figure.",
     "question_type": "Fill in the blank",
     "question_number": "2_1",
     "tag": "Gr8_41_E2",
@@ -2291,7 +2383,8 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_41_2_1_step_1"
+        "Gr8_41_2_1_step_1",
+        "The image shows the surface area calculation for a triangular pyramid. There are four triangles representing the pyramid’s faces. Three of the triangles are identical, each labeled with the area formula 1/2 × 5 × 9 = 22.5, showing that each of these three faces has an area of 22.5 square meters. The fourth triangle, which is smaller, is labeled with the expression 1/2 × 5 × 4.3 = 10.75, indicating that this triangle has an area of 10.75 square meters. These four triangle areas represent the total surface area of the triangular pyramid."
       ]
     ]
   },
@@ -2299,7 +2392,7 @@
     "question_text": "What is the length of the hypotenuse?\n $c$ = ___ kilometres",
     "skills": "pythagorean-theorem-find-the-length-of-the-hypotenuse",
     "image_tag": "Gr8_41_3_1",
-    "back_end_description": "The image shows a right triangle with legs labeled as 3 km and 4 km. The hypotenuse is labeled as c.",
+    "backend_description": "The image shows a right triangle with legs labeled as 3 km and 4 km. The hypotenuse is labeled as c.",
     "question_type": "Fill in the blank",
     "question_number": "3_1",
     "tag": "Gr8_41_E3",
@@ -2342,7 +2435,7 @@
     "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_41_4_1",
-    "back_end_description": "The image shows a right triangle with legs labeled as 6 km and b. The hypotenuse is labeled as 10 km.",
+    "backend_description": "The image shows a right triangle with legs labeled as 6 km and b. The hypotenuse is labeled as 10 km.",
     "question_type": "Fill in the blank",
     "question_number": "4_1",
     "tag": "Gr8_41_E4",
@@ -2385,7 +2478,7 @@
     "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_41_4_2",
-    "back_end_description": "The image shows a right triangle with legs labeled as a and 9 cm. The hypotenuse is labeled as 15 cm.",
+    "backend_description": "The image shows a right triangle with legs labeled as a and 9 cm. The hypotenuse is labeled as 15 cm.",
     "question_type": "Fill in the blank",
     "question_number": "4_2",
     "tag": "Gr8_41_E4",
@@ -2428,7 +2521,7 @@
     "question_text": "What is the length of the hypotenuse?\n $c$ = ___ metres",
     "skills": "pythagorean-theorem-find-the-missing-leg-or-hypotenuse-length",
     "image_tag": "Gr8_42_1_1",
-    "back_end_description": "The image shows a right triangle with legs labeled as 39 m and 80 m. The hypotenuse is labeled as c.",
+    "backend_description": "The image shows a right triangle with legs labeled as 39 m and 80 m. The hypotenuse is labeled as c.",
     "question_type": "Fill in the blank",
     "question_number": "1_1",
     "tag": "Gr8_42_E1",
@@ -2471,7 +2564,7 @@
     "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-or-hypotenuse-length",
     "image_tag": "Gr8_42_1_2",
-    "back_end_description": "The image shows a right triangle with legs labeled as 10 km and b. The hypotenuse is labeled as 26 km.",
+    "backend_description": "The image shows a right triangle with legs labeled as 10 km and b. The hypotenuse is labeled as 26 km.",
     "question_type": "Fill in the blank",
     "question_number": "1_2",
     "tag": "Gr8_42_E1",
@@ -2514,7 +2607,7 @@
     "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-or-hypotenuse-length",
     "image_tag": "Gr8_42_1_3",
-    "back_end_description": "The image shows a right triangle with legs labeled as 42 cm and a. The hypotenuse is labeled as 70 cm.",
+    "backend_description": "The image shows a right triangle with legs labeled as 42 cm and a. The hypotenuse is labeled as 70 cm.",
     "question_type": "Fill in the blank",
     "question_number": "1_3",
     "tag": "Gr8_42_E1",
@@ -2557,7 +2650,7 @@
     "question_text": "What is the perimeter?\n  ___ kilometres",
     "skills": "pythagorean-theorem-find-the-perimeter",
     "image_tag": "Gr8_42_2_1",
-    "back_end_description": "The image shows a right triangle with legs labeled as 5 km and 12 km. The hypotenuse is labeled as c.",
+    "backend_description": "The image shows a right triangle with legs labeled as 5 km and 12 km. The hypotenuse is labeled as c.",
     "question_type": "Fill in the blank",
     "question_number": "2_1",
     "tag": "Gr8_42_E2",
@@ -2608,7 +2701,7 @@
     "question_text": "What is the perimeter?\n  ___ metres",
     "skills": "pythagorean-theorem-find-the-perimeter",
     "image_tag": "Gr8_42_2_2",
-    "back_end_description": "The image shows a right triangle with legs labeled as 15 m and b. The hypotenuse is labeled as 17 m.",
+    "backend_description": "The image shows a right triangle with legs labeled as 15 m and b. The hypotenuse is labeled as 17 m.",
     "question_type": "Fill in the blank",
     "question_number": "2_2",
     "tag": "Gr8_42_E2",
@@ -2659,7 +2752,7 @@
     "question_text": "What is the perimeter?\n  ___ metres",
     "skills": "pythagorean-theorem-find-the-perimeter",
     "image_tag": "Gr8_42_2_3",
-    "back_end_description": "The image shows a right triangle with legs labeled as a and 16m. The hypotenuse is labeled as 20 m.",
+    "backend_description": "The image shows a right triangle with legs labeled as a and 16m. The hypotenuse is labeled as 20 m.",
     "question_type": "Fill in the blank",
     "question_number": "2_3",
     "tag": "Gr8_42_E2",
@@ -2736,7 +2829,8 @@
     "solution_image_tag": [
       [
         "1/4",
-        "Gr8_42_3_1_step_1"
+        "Gr8_42_3_1_step_1",
+        "The image shows a right triangle with legs labeled as 5m and 12m. The hypotenuse is labeled as c."
       ]
     ]
   },
@@ -2794,7 +2888,7 @@
     "question_text": "This table shows Ethan's March budget. How much money does he need to earn at the greenhouse to balance his budget? Complete the table.",
     "skills": "balance-a-budget",
     "image_tag": "Gr8_43_1_1",
-    "back_end_description": "The image shows a two-column table titled 'Ethan's March budget'. The left column lists Ethan's sources of income, including 'Job at the greenhouse', 'Allowance: $10', and 'Pet sitting: $30', with a blank box next to the greenhouse job and a total income box at the bottom. The right column lists Ethan's expenses: 'Donating to the animal shelter: $25', 'Spring street fair: $60', and 'Spring dance: $25', with a total expenses box at the bottom. The table is styled with a purple header and borders separating each row.",
+    "backend_description": "The image shows a two-column table titled 'Ethan's March budget'. The left column lists Ethan's sources of income, including 'Job at the greenhouse', 'Allowance: $10', and 'Pet sitting: $30', with a blank box next to the greenhouse job and a total income box at the bottom. The right column lists Ethan's expenses: 'Donating to the animal shelter: $25', 'Spring street fair: $60', and 'Spring dance: $25', with a total expenses box at the bottom. The table is styled with a purple header and borders separating each row.",
     "question_type": "Fill in the blank",
     "question_number": "1_1",
     "tag": "Gr8_43_E1",
@@ -2834,15 +2928,18 @@
     "solution_image_tag": [
       [
         "2/7",
-        "Gr8_43_1_1_step_2"
+        "Gr8_43_1_1_step_2",
+        "The table is titled Ethan’s March budget and is divided into two columns: Income and Expenses. Under the Income column, three entries are listed: 'Job at the greenhouse: ?', 'Allowance: $10', and 'Pet sitting: $30'. The total at the bottom of the Income column is marked as 'Total: ?'. In the Expenses column, three entries are listed: 'Donating to the animal shelter: $25', 'Spring street fair: $60', and 'Spring dance: $25'. The total at the bottom of the Expenses column is 'Total: $110', displayed in green font."
       ],
       [
         "3/7",
-        "Gr8_43_1_1_step_3"
+        "Gr8_43_1_1_step_3",
+        "The same table titled Ethan’s March budget appears again, with the structure and entries unchanged, but this time the total at the bottom of the Income column is now filled in as 'Total: $110', also shown in green font. The greenhouse job amount is still marked with a question mark ('?'), while the Allowance and Pet sitting amounts remain $10 and $30 respectively. The Expenses side is unchanged from the first image."
       ],
       [
         "7/7",
-        "Gr8_43_1_1_step_7"
+        "Gr8_43_1_1_step_7",
+        "This image shows the completed version of Ethan’s March budget table. In the Income column, the entry 'Job at the greenhouse' is now filled in as '$70' in green font. The Allowance and Pet sitting remain $10 and $30 respectively. The total income is shown as 'Total: $110'. The Expenses column remains unchanged, showing individual expenses of $25, $60, and $25, with a total of 'Total: $110'."
       ]
     ]
   },
@@ -2850,7 +2947,7 @@
     "question_text": "This table shows Trent's August budget.\n\nWhat could Trent do to balance his budget?",
     "skills": "adjust-a-budget",
     "image_tag": "Gr8_43_2_1",
-    "back_end_description": "The image displays a table titled 'Trent's August budget' with two columns for income and expenses. In the income column are 'Pet sitting: $25', 'Working as a lifeguard: $40', and 'Gift from Nana: $20'. The expenses column includes 'Aqua World water park: $40', 'Saving for a skateboard: $35', and 'School supplies: $20'. The table uses an orange header and has clearly separated rows for each entry.",
+    "backend_description": "The image displays a table titled 'Trent's August budget' with two columns for income and expenses. In the income column are 'Pet sitting: $25', 'Working as a lifeguard: $40', and 'Gift from Nana: $20'. The expenses column includes 'Aqua World water park: $40', 'Saving for a skateboard: $35', and 'School supplies: $20'. The table uses an orange header and has clearly separated rows for each entry.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_1",
     "tag": "Gr8_43_E2",

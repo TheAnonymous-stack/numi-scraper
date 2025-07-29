@@ -510,7 +510,7 @@
     "question_text": "The Picture and Sound electronics store has hired Cole to work in the warehouse. He uses a pulley with a hand crank to lift heavy boxes.\nThere is a proportional relationship between the number of times Cole turns the crank to lift a box, x, and the height the box has been lifted (in metres), y.\n\nWhat is the constant of proportionality? Write your answer as a whole number or decimal.\n ___ metres per time Cole turns the crank",
     "skills": "find-the-constant-of-proportionality-from-a-table",
     "image_tag": "Gr8_18_3_1",
-    "back_end_description":"The image shows a table with two columns. The first column is labeled 'x (times Cole turns the crank)' and the second column is labeled 'y (metres)'. The rows show that when x is 5, y is 2; when x is 10, y is 4; when x is 15, y is 6; and when x is 20, y is 8.",
+    "backend_description":"The image shows a table with two columns. The first column is labeled 'x (times Cole turns the crank)' and the second column is labeled 'y (metres)'. The rows show that when x is 5, y is 2; when x is 10, y is 4; when x is 15, y is 6; and when x is 20, y is 8.",
     "question_type": "Fill in the blank",
     "question_number": "3_1",
     "tag": "Gr8_18_E3",
@@ -538,7 +538,8 @@
     "solution_image_tag": [
       [
         "2/4",
-        "Gr8_18_3_1_step_2"
+        "Gr8_18_3_1_step_2",
+        "The image shows a table with three columns. The first column lists the number of times Cole turns the crank (x), with values 5, 10, 15, and 20. The second column lists the corresponding height the box is lifted in metres (y), with values 2, 4, 6, and 8. The third column shows the ratio of y to x for each row, written as simplified fractions and their decimal equivalents: 2⁄5 = 0.4, 4⁄10 = 0.4, 6⁄15 = 0.4, and 8⁄20 = 0.4. This confirms a constant of proportionality of 0.4 metres per crank turn."
       ]
     ]
   },
@@ -546,7 +547,7 @@
     "question_text": "The Unruly Queens chess club is hosting a tournament, and each club member is bringing something to eat or drink. Florence decides to bring oatmeal raisin cookies from her favourite bakery.\nThere is a proportional relationship between the number of oatmeal raisin cookies Florence buys, x, and their total cost (in dollars), y.\n\nWhat is the constant of proportionality? Write your answer as a whole number or decimal.\n ___ dollars per cookie",
     "skills": "find-the-constant-of-proportionality-from-a-table",
     "image_tag": "Gr8_18_3_2",
-    "back_end_description":"The image shows a table with two columns. The first column is labeled 'x (cookies)' and the second column is labeled 'y (dollars)'. The rows show that 6 cookies cost $6, 8 cookies cost $8, 12 cookies cost $12, and 19 cookies cost $19.",
+    "backend_description":"The image shows a table with two columns. The first column is labeled 'x (cookies)' and the second column is labeled 'y (dollars)'. The rows show that 6 cookies cost $6, 8 cookies cost $8, 12 cookies cost $12, and 19 cookies cost $19.",
     "question_type": "Fill in the blank",
     "question_number": "3_2",
     "tag": "Gr8_18_E3",
@@ -576,7 +577,8 @@
     "solution_image_tag": [
       [
         "2/4",
-        "Gr8_18_3_2_step_2"
+        "Gr8_18_3_2_step_2",
+        "The image shows a table with three columns. The first column is labeled x (cookies) and includes values 6, 8, 12, and 19. The second column is labeled y (dollars) and includes values $6, $8, $12, and $19. The third column shows the ratio of y to x for each pair as simplified fractions and their decimal values: 6⁄6 = 1, 8⁄8 = 1, 12⁄12 = 1, and 19⁄19 = 1. This confirms that the constant of proportionality is 1 dollar per cookie."
       ]
     ]
   },
@@ -584,7 +586,7 @@
     "question_text": "John likes to make lemonade using the lemons from his grandmother's trees.\nThere is a proportional relationship between the number of jugs of lemonade John wants to make, x, and the number of lemons he needs, y.\n\nWhat is the constant of proportionality? Write your answer as a whole number or decimal.\n ___ lemons per jug",
     "skills": "find-the-constant-of-proportionality-from-a-graph",
     "image_tag": "Gr8_18_4_1",
-    "back_end_description":"The image shows a line graph with 'Jugs' labeled on the x-axis and 'Lemons' on the y-axis. The graph contains a blue line passing through the origin (0,0), through point (1,5), and extending to point (2,10), showing a linear relationship between the number of jugs and the number of lemons.",
+    "backend_description":"The image shows a line graph with 'Jugs' labeled on the x-axis and 'Lemons' on the y-axis. The graph contains a blue line passing through the origin (0,0), through point (1,5), and extending to point (2,10), showing a linear relationship between the number of jugs and the number of lemons.",
     "question_type": "Fill in the blank",
     "question_number": "4_1",
     "tag": "Gr8_18_E4",
@@ -613,7 +615,8 @@
     "solution_image_tag": [
       [
         "2/4",
-        "Gr8_18_4_1_step_2"
+        "Gr8_18_4_1_step_2",
+        "The image shows a graph with a straight blue line representing a proportional relationship between the number of jugs of lemonade (x-axis) and the number of lemons (y-axis). The line passes through the origin (0, 0), and the point (1, 5) is highlighted on the graph. This indicates that for every jug of lemonade, 5 lemons are needed. The constant of proportionality is 5 lemons per jug, which is consistent for all points on the line."
       ]
     ]
   },
@@ -626,6 +629,10 @@
     "image_choice_tags": [
       "Gr8_19_1_1_A",
       "Gr8_19_1_1_B"
+    ],
+    "image_choice_tags_backend_description": [
+      "The image shows a graph with a straight blue line that does not pass through the origin. It starts at the point (0, 1) and rises to (7, 10).",
+      "The image shows a graph with a straight blue line that passes through the origin (0, 0), as well as other points such as (4, 8) and (5, 10)."
     ],
     "correct_answers": [
       "B"
@@ -658,12 +665,14 @@
     ],
     "solution_image_tag": [
       [
-        "2/6",
-        "Gr8_19_1_1_step_2"
+        "3/6",
+        "Gr8_19_1_1_step_3",
+        "The graph shows a straight blue line that does not pass through the origin. It starts at the point (0, 1) and rises to (7, 10), indicating a linear relationship but not a proportional one."
       ],
       [
-        "3/6",
-        "Gr8_19_1_1_step_3"
+        "5/6",
+        "Gr8_19_1_1_step_5",
+        "The graph shows a straight blue line that passes through the origin (0, 0), as well as other points such as (4, 8) and (5, 10). This indicates that the ratio of y to x is constant, confirming a proportional relationship between x and y."
       ]
     ]
   },
@@ -676,6 +685,10 @@
     "image_choice_tags": [
       "Gr8_19_2_1_A",
       "Gr8_19_2_1_B"
+    ],
+    "image_choice_tags_backend_description": [
+      "The image shows a table with three rows displaying values for x and y. When x = 1, y = 3. When x = 2, y = 9. When x = 3, y = 19.",
+      "The image shows a table with three rows displaying values for x and y. When x = 4, y = 5. When x = 8, y = 10. When x = 12, y = 15."
     ],
     "correct_answers": [
       "B"
@@ -708,12 +721,14 @@
     ],
     "solution_image_tag": [
       [
-        "2/6",
-        "Gr8_19_2_1_step_2"
+        "3/6",
+        "Gr8_19_2_1_step_3",
+        "The image shows a table with three rows displaying values for x, y, and the ratio of y to x. In the first row, the ratio is 3 ÷ 1 = 3. In the second row, the ratio is 9 ÷ 2 = 4.5. In the third row, the ratio is 19 ÷ 3, which is approximately 6.33. Since the ratio of y to x is not the same in every row, this table does not represent a proportional relationship."
       ],
       [
-        "3/6",
-        "Gr8_19_2_1_step_3"
+        "5/6",
+        "Gr8_19_2_1_step_5",
+        "The image shows a table with three rows that include values for x, y, and the ratio of y to x. In each row, the ratio is equal to 5⁄4. For example, the first row shows 5 ÷ 4, and the second and third rows simplify 10 ÷ 8 and 15 ÷ 12 to the same value. Because the ratio is consistent in all rows, this table does show a proportional relationship between x and y."
       ]
     ]
   },
@@ -749,11 +764,13 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_19_3_1_step_1"
+        "Gr8_19_3_1_step_1",
+        "The image shows the number sequence 1, 7, 49, 343, with red arrows between each term labeled with the differences: +6, +42, and +294. These differences are not consistent, which indicates that the sequence does not follow an arithmetic pattern."
       ],
       [
         "2/3",
-        "Gr8_19_3_1_step_2"
+        "Gr8_19_3_1_step_2",
+        "The image shows the same number sequence 1, 7, 49, 343, but now the red arrows between terms are labeled with ×7. Since each number is obtained by multiplying the previous one by 7, this confirms that the sequence follows a geometric pattern with a common ratio of 7."
       ]
     ]
   },
@@ -789,11 +806,13 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_19_3_2_step_1"
+        "Gr8_19_3_2_step_1",
+        "The image shows the number sequence 9, 18, 36, 72, with red arrows between each term labeled with the differences: +9, +18, and +36. These differences are not consistent, which indicates that the sequence does not follow an arithmetic pattern."
       ],
       [
         "2/3",
-        "Gr8_19_3_2_step_2"
+        "Gr8_19_3_2_step_2",
+        "The image shows the same number sequence 9, 18, 36, 72, but now the red arrows between terms are labeled with ×2. Since each number is obtained by multiplying the previous one by 2, this confirms that the sequence follows a geometric pattern with a common ratio of 2."
       ]
     ]
   },
@@ -829,11 +848,13 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_19_3_3_step_1"
+        "Gr8_19_3_3_step_1",
+        "The image shows the number sequence 41, 49, 57, 65, with red arrows between each term labeled with the differences: +8, +8, and +8. These differences are consistent, which indicates that the sequence follows an arithmetic pattern."
       ],
       [
         "2/3",
-        "Gr8_19_3_3_step_2"
+        "Gr8_19_3_3_step_2",
+        "The image shows the number sequence 41, 49, 57, 65, with red arrows indicating the progression between terms. Below each arrow is a blue label showing the ratio between consecutive terms: 49/41, 57/49, and 65/57. Since these ratios are not the same, the sequence does not follow a geometric pattern."
       ]
     ]
   },
@@ -867,7 +888,8 @@
     "solution_image_tag": [
       [
         "2/4",
-        "Gr8_19_4_1_step_2"
+        "Gr8_19_4_1_step_2",
+        "The image shows a line graph titled Cakes baked, with the x-axis labeled Number of additional eggs and the y-axis labeled Number of cakes. A black line extends diagonally and passes through two red points at coordinates (0, 40) and (40, 70). These points represent the relationship between the number of additional eggs Haley buys and the number of cakes she can bake. The graph is used to determine the constant rate of change, which is calculated by comparing the vertical change in cakes to the horizontal change in eggs between the two points."
       ]
     ]
   },
@@ -875,7 +897,7 @@
     "question_text": "Benjamin owns and operates Stain-B-Gone Carpet Cleaners. He uses a special non-toxic cleaning solution to clean carpets. Benjamin cleans 6 square metres of carpet for each litre of cleaning solution he uses.\nThere is a proportional relationship between the amount of cleaning solution (in litres) Benjamin uses, x, and the area of carpet (in square metres) he cleans with the solution, y.\nGraph this relationship. Select two points to draw a line.\nWhat is the slope of the line?",
     "skills": "graph-proportional-relationships-I",
     "image_tag": "Gr8_20_1_1",
-    "back_end_description":"The image shows a blank line graph with 'Litres' labeled on the x-axis and 'Square metres' labeled on the y-axis. The grid is empty with no data points or lines shown, asking the user to graph the relationship.",
+    "backend_description":"The image shows a blank line graph with 'Litres' labeled on the x-axis and 'Square metres' labeled on the y-axis. The grid is empty with no data points or lines shown, asking the user to graph the relationship.",
     "question_type": "Fill in the blank",
     "question_number": "1_1",
     "tag": "Gr8_20_E1",
@@ -914,16 +936,19 @@
     ],
     "solution_image_tag": [
       [
-        "1/7",
-        "Gr8_20_1_1_step_1"
-      ],
-      [
         "2/7",
-        "Gr8_20_1_1_step_2"
+        "Gr8_20_1_1_step_2",
+        "The image shows a blank coordinate grid with the x-axis labeled 'Litres' and the y-axis labeled 'Square metres'. There are no points or lines plotted yet, but the origin is marked in yellow with the coordinate label (0, 0), representing the starting point for the proportional relationship between the amount of cleaning solution used and the area cleaned."
       ],
       [
-        "3/7",
-        "Gr8_20_1_1_step_3"
+        "5/7",
+        "Gr8_20_1_1_step_5",
+        "The image shows a coordinate grid with two points plotted. One point is at the origin (0, 0), and the second point is at (1, 6). Dotted orange lines are used to show the vertical and horizontal movement from (0, 0) to (1, 6), indicating that 1 litre of cleaning solution corresponds to cleaning 6 square metres of carpet."
+      ],
+      [
+        "6/7",
+        "Gr8_20_1_1_step_6",
+        "The image shows a yellow line passing through the origin (0, 0) and the point (1, 6), representing the proportional relationship between litres of cleaning solution and square metres of carpet cleaned. The line continues in a straight path upward, and the slope is based on the unit rate of 6 square metres per litre."
       ]
     ]
   },
@@ -931,7 +956,7 @@
     "question_text": "As a farmer, Austen keeps a close eye on the weather. After a few stressful weeks with no rain, Austen was relieved when it started raining one morning. It rained steadily all day, and Austen periodically checked to see how much rain had fallen.\nThe graph shows the proportional relationship between the amount of time (in hours) it had been raining, x, and the amount of rain (in centimetres) that had fallen, y.\n\nWhat does the point (10,5) represent?",
     "skills": "interpret-graphs-of-proportional-relationships",
     "image_tag": "Gr8_20_2_1",
-    "back_end_description":"The image shows a line graph with 'Hours' labeled on the x-axis and 'Centimetres' labeled on the y-axis. A green line starts at the origin (0,0) and goes through the point (10,5), which is labeled in green text. The graph shows a linear relationship between the two variables.",
+    "backend_description":"The image shows a line graph with 'Hours' labeled on the x-axis and 'Centimetres' labeled on the y-axis. A green line starts at the origin (0,0) and goes through the point (10,5), which is labeled in green text. The graph shows a linear relationship between the two variables.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_1",
     "tag": "Gr8_20_E2",
@@ -1026,11 +1051,13 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_21_1_1_step_1"
+        "Gr8_21_1_1_step_1",
+        "The image shows the sequence 5, 7, 11, 17, a missing number, 35, 47, and 61. Red arrows between the numbers indicate the differences between terms. The labels below the arrows show that the differences increase by 2 each time, starting with '+2', '+4', '+6', and then a blank space before continuing with '+12' and '+14'. This setup highlights the missing value in the pattern."
       ],
       [
         "2/3",
-        "Gr8_21_1_1_step_2"
+        "Gr8_21_1_1_step_2",
+        "The image shows the same sequence, but the missing number has been filled in with '25' in green. The red arrows now show a consistent increasing pattern of additions: '+2', '+4', '+6', '+8', '+10', '+12', and '+14', confirming that the missing number fits the rule of adding 2 more each time."
       ]
     ]
   },
@@ -1060,11 +1087,13 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_21_2_1_step_1"
+        "Gr8_21_2_1_step_1",
+        "The image shows the sequence 14, 16, 18, 20, and a missing number. Red arrows between the numbers indicate the differences between terms. The labels below the arrows show that the differences increase by 2 each time, starting with '+2', '+2', '+2', and then a blank space. This setup highlights the missing value in the pattern."
       ],
       [
         "2/3",
-        "Gr8_21_2_1_step_2"
+        "Gr8_21_2_1_step_2",
+        "The image shows the same sequence, but the missing number has been filled in with '22' in green. The red arrows now show a consistent increasing pattern of additions: '+2', '+2', '+2', '+2', confirming that the missing number fits the rule of adding 2 more each time."
       ]
     ]
   },
@@ -1094,18 +1123,20 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_21_2_2_step_1"
+        "Gr8_21_2_2_step_1",
+        "The image shows the number sequence 2, 4, 8, 16, 32, followed by a question mark. Red arrows indicate the pattern between each pair of numbers, with blue labels showing that each term is multiplied by 2 to get the next. This visual sets up the task of finding the next number by continuing the same multiplication pattern."
       ],
       [
         "2/3",
-        "Gr8_21_2_2_step_2"
+        "Gr8_21_2_2_step_2",
+        "The image shows the completed sequence 2, 4, 8, 16, 32, 64. The red arrows and blue labels continue to indicate multiplication by 2 at each step. The missing number has been filled in as '64' in green, confirming that the pattern is consistent and that 64 is the correct next term in the sequence."
       ]
     ]
   },
   {
     "question_text": "Find the first four terms of the sequence defined below, where n represents the position of a term in the sequence. Start with n = 1.\n4n-3\n ____, ____, ____, ____",
     "skills": "evaluate-variable-expressions-for-number-sequences",
-    "question_type": "Fill in the blank",
+    "question_type": "Multiple Fill in the blank",
     "question_number": "3_1",
     "tag": "Gr8_21_E3",
     "correct_answers": [
@@ -1142,7 +1173,7 @@
     "question_text": "Read the following description of a relationship:\nEach location of a chain restaurant employs 5 more waiters than cooks.\nLet c represent the number of cooks at a location and w represent the number of waiters at the same location.\nComplete the table using the function w=c+5.",
     "skills": "complete-a-table-for-a-linear-function",
     "image_tag": "Gr8_21_4_1",
-    "back_end_description":"The image shows a two-column table labeled 'c' and 'w'. The row for c = 1 has a blank box in the w column. The next rows show c = 2 with w = 7, c = 3 with w = 8, and c = 4 with w = 9.",
+    "backend_description":"The image shows a two-column table labeled 'c' and 'w'. The row for c = 1 has a blank box in the w column. The next rows show c = 2 with w = 7, c = 3 with w = 8, and c = 4 with w = 9.",
     "question_type": "Fill in the blank",
     "question_number": "4_1",
     "tag": "Gr8_21_E4",
@@ -1170,7 +1201,8 @@
     "solution_image_tag": [
       [
         "4/4",
-        "Gr8_21_4_1_step_4"
+        "Gr8_21_4_1_step_4",
+        "The image shows a completed two-column table labeled 'c' and 'w'. The values in the 'c' column are 1, 2, 3, and 4, and the corresponding values in the 'w' column are 6, 7, 8, and 9. The entry for c = 1 has been filled in with '6' in purple, showing that when the number of cooks is 1, the number of waiters is 6. This confirms the linear function w = c + 5."
       ]
     ]
   },
@@ -1178,8 +1210,8 @@
     "question_text": "Complete the table and then graph the function.",
     "skills": "complete-a-table-and-graph-a-linear-function",
     "image_tag": "Gr8_22_1_1",
-    "back_end_description":"The image shows a math task asking to complete a table and graph the function y = x + 3. The table has a purple header with two columns labeled 'x' and 'y'. The x-values listed are 2, 3, 4, and 5, and the corresponding y-values are left blank. Below the table is a blank coordinate grid labeled 'x' on the horizontal axis and 'y' on the vertical axis, ranging from 0 to 10 on both axes. The user is asked to complete the table and then graph the function.",
-    "question_type": "Fill in the blank",
+    "backend_description":"The image shows a math task asking to complete a table and graph the function y = x + 3. The table has a purple header with two columns labeled 'x' and 'y'. The x-values listed are 2, 3, 4, and 5, and the corresponding y-values are left blank. Below the table is a blank coordinate grid labeled 'x' on the horizontal axis and 'y' on the vertical axis, ranging from 0 to 10 on both axes. The user is asked to complete the table and then graph the function.",
+    "question_type": "Multiple Fill in the blank",
     "question_number": "1_1",
     "tag": "Gr8_22_E1",
     "correct_answers": [
@@ -1225,15 +1257,18 @@
     "solution_image_tag": [
       [
         "6/8",
-        "Gr8_22_1_1_step_6"
+        "Gr8_22_1_1_step_6",
+        "The image shows a completed two-column table with a purple header labeled 'x' and 'y'. The values in the 'x' column are 2, 3, 4, and 5, and the corresponding 'y' values are 5, 6, 7, and 8. These values represent outputs from the linear function y = x + 3."
       ],
       [
         "7/8",
-        "Gr8_22_1_1_step_7"
+        "Gr8_22_1_1_step_7",
+        "The image shows a coordinate grid labeled 'x' and 'y', with purple dots plotted at the points (2, 5), (3, 6), (4, 7), and (5, 8). Each dot represents a pair from the completed table, illustrating the relationship defined by the function y = x + 3."
       ],
       [
         "8/8",
-        "Gr8_22_1_1_step_8"
+        "Gr8_22_1_1_step_8",
+        "The image shows the same coordinate grid with a straight purple line passing through the points (2, 5), (3, 6), (4, 7), and (5, 8). The line continues in both directions and visually represents the graph of the function y = x + 3."
       ]
     ]
   },
@@ -1241,7 +1276,7 @@
     "question_text": "This graph shows how Mike's bank account balance is related to the number of admission tickets he purchases.\nHow many admission tickets does Mike need to buy to get the account balance down to $10?\n___ admission tickets",
     "skills": "interpret-the-graph-of-a-linear-function-word-problems",
     "image_tag": "Gr8_22_2_1",
-    "back_end_description":"The image shows a line graph titled 'Bank account balance' with 'Number of admission tickets' on the x-axis and 'Balance' on the y-axis. The graph contains a black line starting at $40 on the y-axis and decreasing to $0 as the number of admission tickets increases to over 60. The line passes through the point (50,10).",
+    "backend_description":"The image shows a line graph titled 'Bank account balance' with 'Number of admission tickets' on the x-axis and 'Balance' on the y-axis. The graph contains a black line starting at $40 on the y-axis and decreasing to $0 as the number of admission tickets increases to over 60. The line passes through the point (50,10).",
     "question_type": "Fill in the blank",
     "question_number": "2_1",
     "tag": "Gr8_22_E2",
@@ -1265,11 +1300,13 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_22_2_1_step_1"
+        "Gr8_22_2_1_step_1",
+        "This image shows the same graph with a horizontal red line drawn across the y-axis at the $10 mark, extending rightward until it intersects the black line that represents Mike’s bank balance. The red line helps identify where the account balance reaches $10. "
       ],
       [
         "2/3",
-        "Gr8_22_2_1_step_2"
+        "Gr8_22_2_1_step_2",
+        "This image adds a vertical red line downward from that point of intersection to the x-axis, marking where the number of tickets reaches 50. These steps illustrate how to use the graph to determine that Mike needs to buy 50 tickets for the balance to reach $10."
       ]
     ]
   },
@@ -1277,7 +1314,7 @@
     "question_text": "This graph shows how the number of tulips Maura, a florist, has left is related to the number of arrangements she puts together.\nIf Maura puts together 5 arrangements, how many tulips will she have left?\n___ tulips",
     "skills": "interpret-the-graph-of-a-linear-function-word-problems",
     "image_tag": "Gr8_22_2_2",
-    "back_end_description":"The image shows a line graph titled 'Tulips remaining' with 'Number of arrangements' on the x-axis and 'Tulips remaining' on the y-axis. A black line starts at 100 tulips and decreases to about 20 tulips as the number of arrangements increases from 0 to 10. The line passes through the point (5,60).",
+    "backend_description":"The image shows a line graph titled 'Tulips remaining' with 'Number of arrangements' on the x-axis and 'Tulips remaining' on the y-axis. A black line starts at 100 tulips and decreases to about 20 tulips as the number of arrangements increases from 0 to 10. The line passes through the point (5,60).",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_2",
     "tag": "Gr8_22_E2",
@@ -1307,11 +1344,13 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_22_2_2_step_1"
+        "Gr8_22_2_2_step_1",
+        "This image shows the same graph with a vertical red line drawn from the x-axis at 5 arrangements, extending upward until it intersects the black line that represents the number of tulips remaining. The red line helps identify where the number of tulips is 60 when Maura puts together 5 arrangements."
       ],
       [
         "2/3",
-        "Gr8_22_2_2_step_2"
+        "Gr8_22_2_2_step_2",
+        "This image adds a horizontal red line from the y-axis at 60 tulips, extending leftward until it intersects the black line that represents the number of tulips remaining. The red line helps identify where the number of tulips is 60 when Maura puts together 5 arrangements."
       ]
     ]
   },
@@ -1319,7 +1358,7 @@
     "question_text": "Emily and her dad share an intense love of baseball. Every weekend, they go to the batting cages to practice hitting. Emily's dad buys tokens for her to use in the batting cage.\nThere is a proportional relationship between the number of tokens Emily uses, x, and the number of pitches thrown by the pitching machine, y.\nWrite an equation for the relationship between x and y. Simplify any fractions.\ny= ___",
     "skills": "write-equations-for-proportional-relationships-from-tables",
     "image_tag": "Gr8_22_3_1",
-    "back_end_description":"The image shows a table with two columns labeled 'x (tokens)' and 'y (pitches)'. The rows show that 1 token gives 5 pitches, 2 tokens give 10 pitches, 3 tokens give 15 pitches, and 4 tokens give 20 pitches.",
+    "backend_description":"The image shows a table with two columns labeled 'x (tokens)' and 'y (pitches)'. The rows show that 1 token gives 5 pitches, 2 tokens give 10 pitches, 3 tokens give 15 pitches, and 4 tokens give 20 pitches.",
     "question_type": "Fill in the blank",
     "question_number": "3_1",
     "tag": "Gr8_22_E3",
@@ -1351,7 +1390,8 @@
     "solution_image_tag": [
       [
         "2/5",
-        "Gr8_22_3_1_step_2"
+        "Gr8_22_3_1_step_2",
+        "The image shows a three-column table with a blue header. The first column is labeled 'x (tokens)', the second is labeled 'y (pitches)', and the third is labeled 'Ratio of y to x (pitches per token)'. The rows show that 1 token gives 5 pitches, 2 tokens give 10 pitches, 3 tokens give 15 pitches, and 4 tokens give 20 pitches. In the third column, each row calculates the ratio of y to x as a fraction and simplifies it to 5, showing that the relationship is proportional. Each simplified ratio is written in bold blue."
       ]
     ]
   },
@@ -1359,7 +1399,7 @@
     "question_text": "Henry's class is having a holiday party, and he is in charge of bringing juice. He decides to bring powdered juice mix and add water to it at school.\nThere is a proportional relationship between the volume of water Henry uses to make the juice (in litres), x, and the number of scoops of juice mix he uses, y.\nWrite an equation for the relationship between x and y. Simplify any fractions.\ny= ___",
     "skills": "write-equations-for-proportional-relationships-from-graphs",
     "image_tag": "Gr8_22_4_1",
-    "back_end_description":"The image shows a line graph with 'Litres' labeled on the x-axis and 'Scoops' on the y-axis. A blue line passes through the origin (0,0) and extends to the point (10,10), showing a direct linear relationship.",
+    "backend_description":"The image shows a line graph with 'Litres' labeled on the x-axis and 'Scoops' on the y-axis. A blue line passes through the origin (0,0) and extends to the point (10,10), showing a direct linear relationship.",
     "question_type": "Fill in the blank",
     "question_number": "4_1",
     "tag": "Gr8_22_E4",
@@ -1387,7 +1427,8 @@
     "solution_image_tag": [
       [
         "1/4",
-        "Gr8_22_4_1_step_1"
+        "Gr8_22_4_1_step_1",
+        "The image shows a line graph with 'Litres' labeled on the x-axis and 'Scoops' on the y-axis. A blue line starts from the origin (0,0) and passes through the point (1,1), which is labeled and marked with a blue dot. The line extends upward diagonally to the point (10,10), forming a straight line that illustrates a proportional relationship between litres of water and scoops of juice mix. The slope of the line indicates one scoop per litre."
       ]
     ]
   },
@@ -1395,7 +1436,7 @@
     "question_text": "Sylvie is starting a summer camp for children who are deaf or hard of hearing. She needs to hire enough counselors to chaperone the children.\nThere is a proportional relationship between the number of counselors Sylvie hires, x, and the maximum number of children who can attend the camp, y.\nWrite an equation for the relationship between x and y. Simplify any fractions.\ny= ___",
     "skills": "write-equations-for-proportional-relationships-from-graphs",
     "image_tag": "Gr8_22_4_2",
-    "back_end_description":"The image shows a line graph with 'Counselors' on the x-axis and 'Maximum number of children' on the y-axis. A blue line passes through the origin (0,0) and extends to the point (3,9), showing a positive linear relationship.",
+    "backend_description":"The image shows a line graph with 'Counselors' on the x-axis and 'Maximum number of children' on the y-axis. A blue line passes through the origin (0,0) and extends to the point (3,9), showing a positive linear relationship.",
     "question_type": "Fill in the blank",
     "question_number": "4_2",
     "tag": "Gr8_22_E4",
@@ -1423,7 +1464,8 @@
     "solution_image_tag": [
       [
         "1/4",
-        "Gr8_22_4_2_step_1"
+        "Gr8_22_4_2_step_1",
+        "The image shows a line graph with 'Counselors' labeled on the x-axis and 'Maximum number of children' on the y-axis. A blue line starts from the origin (0,0) and passes through the point (1,3), which is labeled and marked with a blue dot. The line extends upward diagonally to the point (3,9), forming a straight line that illustrates a proportional relationship between the number of counsellors and the maximum number of children who can attend the camp. The slope of the line indicates 3 children per counsellor."
       ]
     ]
   },
@@ -1468,7 +1510,7 @@
     "question_text": "Fill in the missing number to complete the linear equation that gives the rule for this table.\ny = ___x",
     "skills": "write-a-linear-function-from-a-table",
     "image_tag": "Gr8_23_2_1",
-    "back_end_description":"The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 5, y = 15; x = 6, y = 18; x = 7, y = 21; and x = 8, y = 24.",
+    "backend_description":"The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 5, y = 15; x = 6, y = 18; x = 7, y = 21; and x = 8, y = 24.",
     "question_type": "Fill in the blank",
     "question_number": "2_1",
     "tag": "Gr8_23_E2",
@@ -1520,7 +1562,8 @@
     "solution_image_tag": [
       [
         "2/10",
-        "Gr8_23_2_1_step_2"
+        "Gr8_23_2_1_step_2",
+        "The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 5, y = 15; x = 6, y = 18; x = 7, y = 21; and x = 8, y = 24."
       ]
     ]
   },
@@ -1528,7 +1571,7 @@
     "question_text": "Which equation gives the rule for this table?",
     "skills": "write-a-linear-function-from-a-table",
     "image_tag": "Gr8_23_2_2",
-    "back_end_description":"The image shows a two-column table with a green header labeled 'x' and 'y'. The values in the table are: x = 5, y = 4; x = 6, y = 5; x = 7, y = 6; and x = 8, y = 7.",
+    "backend_description":"The image shows a two-column table with a green header labeled 'x' and 'y'. The values in the table are: x = 5, y = 4; x = 6, y = 5; x = 7, y = 6; and x = 8, y = 7.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_2",
     "tag": "Gr8_23_E2",
@@ -1586,7 +1629,8 @@
     "solution_image_tag": [
       [
         "2/10",
-        "Gr8_23_2_2_step_2"
+        "Gr8_23_2_2_step_2",
+        "The image shows a two-column table with a green header labeled 'x' and 'y'. The values in the table are: x = 5, y = 4; x = 6, y = 5; x = 7, y = 6; and x = 8, y = 7."
       ]
     ]
   },
@@ -1616,7 +1660,8 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_23_3_1_step_1"
+        "Gr8_23_3_1_step_1",
+        "The image shows a table with three columns labeled 'Guests (x)', 'Calculation of cost (y)', and 'Cost (y)'. The rows show that for 1 guest, the calculation is 2(1) and the cost is 2; for 2 guests, the calculation is 2(2) and the cost is 4; for 3 guests, the calculation is 2(3) and the cost is 6. The final row generalizes the pattern with x guests, showing the calculation as 2(x) and the resulting cost as 2x, written in bold. The table demonstrates that the cost is directly proportional to the number of guests, with a rate of 2 dollars per guest."
       ]
     ]
   },
@@ -1802,7 +1847,7 @@
     "question_text": "The number line shows an unknown number, c.\nIs -c positive or negative?",
     "skills": "apply-addition-and-subtraction-rules",
     "image_tag": "Gr8_24_2_1",
-    "back_end_description":"The image shows a horizontal number line with arrows on both ends. Tick marks are labeled 0 and 1. A green point labeled 'c' is plotted to the right of 1.",
+    "backend_description":"The image shows a horizontal number line with arrows on both ends. Tick marks are labeled 0 and 1. A green point labeled 'c' is plotted to the right of 1.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_1",
     "tag": "Gr8_24_E2",
@@ -1833,12 +1878,14 @@
     ],
     "solution_image_tag": [
       [
-        "1/4",
-        "Gr8_24_2_1_step_1"
+        "2/4",
+        "Gr8_24_2_1_step_2",
+        "This image shows a number line with arrows at both ends. Tick marks label 0 and 1. A green point labeled 'c' is shown to the right of 1."
       ],
       [
-        "2/4",
-        "Gr8_24_2_1_step_2"
+        "3/4",
+        "Gr8_24_2_1_step_3",
+        "This image shows the same number line, with another green point labeled '-c' is added, positioned symmetrically to the left of 0, representing the opposite of 'c'."
       ]
     ]
   },
@@ -1846,7 +1893,7 @@
     "question_text": "The number line shows an unknown number, w.\nIs -5w positive or negative?",
     "skills": "apply-multiplication-and-division-rules",
     "image_tag": "Gr8_24_3_1",
-    "back_end_description":"The image shows a horizontal number line with arrows on both ends. Tick marks are labeled 0 and 1. A purple point labeled 'w' is plotted exactly halfway between 0 and 1.",
+    "backend_description":"The image shows a horizontal number line with arrows on both ends. Tick marks are labeled 0 and 1. A purple point labeled 'w' is plotted in the middle of 0 and 1.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "3_1",
     "tag": "Gr8_24_E3",
@@ -1882,7 +1929,8 @@
     "solution_image_tag": [
       [
         "1/5",
-        "Gr8_24_3_1_step_1"
+        "Gr8_24_3_1_step_1",
+        "This image shows a number line with arrows at both ends. Tick marks label 0 and 1. A purple point labeled 'w' is plotted in the middle of 0 and 1."
       ]
     ]
   },
@@ -1890,7 +1938,7 @@
     "question_text": "The number line shows an unknown number, p.\nIs 4p positive or negative?",
     "skills": "apply-addition-subtraction-multiplication-and-division-rules",
     "image_tag": "Gr8_24_4_1",
-    "back_end_description":"The image shows a horizontal number line with arrows on both ends. Tick marks are labeled 0 and 1. A purple point labeled 'p' is plotted to the right of 1.",
+    "backend_description":"The image shows a horizontal number line with arrows on both ends. Tick marks are labeled 0 and 1. A purple point labeled 'p' is plotted to the right of 1.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "4_1",
     "tag": "Gr8_24_E4",
@@ -1926,7 +1974,8 @@
     "solution_image_tag": [
       [
         "1/5",
-        "Gr8_24_4_1_step_1"
+        "Gr8_24_4_1_step_1",
+        "This image shows a number line with arrows at both ends. Tick marks label 0 and 1. A purple point labeled 'p' is plotted to the right of 1."
       ]
     ]
   },
@@ -1988,7 +2037,7 @@
     "question_text": "These tiles represent the expression $3x+x+7$.\nWhich expression is equivalent to $3x+x+7$?",
     "skills": "identify-equivalent-linear-expressions-using-algebra-tiles",
     "image_tag": "Gr8_25_3_1",
-    "back_end_description":"The image shows a visual model where there are four green rectangular tiles labeled 'x'—three grouped together to represent 3x, and one separated to represent x. To the right, there are seven small yellow square tiles labeled '1', arranged in two columns, representing the constant 7.",
+    "backend_description":"The image shows a visual model where there are four green rectangular tiles labeled 'x'—three grouped together to represent 3x, and one separated to represent x. To the right, there are seven small yellow square tiles labeled '1', arranged in three columns, representing the constant 7.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "3_1",
     "tag": "Gr8_25_E3",
@@ -2018,7 +2067,8 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_25_3_1_step_1"
+        "Gr8_25_3_1_step_1",
+        "he image shows a visual model where there are four green rectangular tiles labeled 'x'—three grouped together to represent 3x, and one separated to represent x. To the right, there are seven small yellow square tiles labeled '1', arranged in three columns, representing the constant 7."
       ]
     ]
   },
@@ -2319,6 +2369,12 @@
       "Gr8_27_3_1_C",
       "Gr8_27_3_1_D"
     ],
+    "image_choice_tags_backend_description": [
+      "The image shows a visual model where there are five green rectangular tiles labeled 'x'—grouped together to represent 5x—and eight small red square tiles labeled '-1', representing -8. On the right side of the equation, there are twenty-seven yellow squares labeled '1', representing a total of 27.",
+      "The image shows a visual model where there are five green rectangular tiles labeled 'x'—grouped together to represent 5x—and nine small yellow square tiles labeled '1', representing 9. On the right side of the equation, there are twenty-six red squares labeled '-1', representing a total of -26.",
+      "The image shows a visual model where there are five green rectangular tiles labeled 'x'—grouped together to represent 5x—and eight small red square tiles labeled '-1', representing -8. On the right side of the equation, there are twenty-eight red squares labeled '-1', representing a total of -28.",
+      "The image shows a visual model where there are five green rectangular tiles labeled 'x'—grouped together to represent 5x—and nine small yellow square tiles labeled '1', representing 9. On the right side of the equation, there are twenty-four yellow squares labeled '1', representing a total of 24."
+    ],
     "correct_answers": [
       "C"
     ],
@@ -2347,11 +2403,13 @@
     "solution_image_tag": [
       [
         "1/5",
-        "Gr8_27_3_1_step_1"
+        "Gr8_27_3_1_step_1",
+        "This image shows a visual model where there are five green rectangular tiles labeled 'x'—grouped together to represent 5x—and eight small red square tiles labeled '-1', representing -8. On the right side of the equation, there are twenty-eight red squares labeled '-1', representing a total of -28."
       ],
       [
-        "2/5",
-        "Gr8_27_3_1_step_2"
+        "5/5",
+        "Gr8_27_3_1_step_5",
+        "This image involves three visual components, where each component presents an equation represented using algebra tiles. The first set represents the equation 5x − 8 = 27, where five green rectangular tiles labeled 'x' represent 5x, and eight red square tiles labeled '-1' represent −8. On the right side of the equation, there are twenty-seven yellow squares labeled '1', representing a total of 27. The second set represents the equation 5x + 9 = −26, where five green rectangular tiles labeled 'x' represent 5x, and nine yellow square tiles labeled '1' represent +9. On the right side of the equation, there are twenty-six red square tiles labeled '-1', representing a total of −26. The third set represents the equation 5x + 9 = 24, where five green rectangular tiles labeled 'x' represent 5x, and nine yellow square tiles labeled '1' represent +9. On the right side of the equation, there are twenty-four yellow square tiles labeled '1', representing a total of 24"
       ]
     ]
   },
@@ -2359,7 +2417,7 @@
     "question_text": "Write an equation that says that the length of the green line is equal to the length of the black line. Combine like terms.\nEquation:_________",
     "skills": "write-and-solve-equations-that-represent-diagrams",
     "image_tag": "Gr8_27_4_1",
-    "back_end_description":"The image shows two horizontal bar models representing a total value split into two parts. The top bar is a single green segment labeled 19. The bottom bar is divided into two black segments: the left segment is labeled 'm' and the right segment is labeled 12. Both bars are aligned to show that m + 12 equals 19.",
+    "backend_description":"The image shows two horizontal bar models representing a total value split into two parts. The top bar is a single green segment labeled 19. The bottom bar is divided into two black segments: the left segment is labeled 'm' and the right segment is labeled 12. Both bars are aligned to show that m + 12 equals 19.",
     "question_type": "Fill in the blank",
     "question_number": "4_1",
     "tag": "Gr8_27_E4",
@@ -2493,7 +2551,7 @@
   {
     "question_text": "Complete the process of solving the equation.\nFill in the missing term on each line. Simplify any fractions.\n4y+10=14\n4y=___   Subtract 10 from both sides\ny=___   Divide both sides by 4",
     "skills": "solve-equations-complete-the-solution",
-    "question_type": "Fill in the blank",
+    "question_type": "Multiple Fill in the blank",
     "question_number": "2_1",
     "tag": "Gr8_29_E2",
     "correct_answers": [
@@ -2673,19 +2731,24 @@
     "solution_image_tag": [
       [
         "1/5",
-        "Gr8_30_1_1_step_1"
+        "Gr8_30_1_1_step_1",
+        "This image shows a line graph titled 'Spelling words practised' with the horizontal axis labeled 'Day' and the vertical axis labeled 'Number of spelling words'. Data points are plotted for each day of the week from Thursday to Wednesday, connected by a line that shows changes in the number of words practiced over time."
       ],
       [
         "3/5",
-        "Gr8_30_1_1_step_3"
+        "Gr8_30_1_1_step_3",
+        "This image shows a stem-and-leaf plot titled 'Restaurant ratings'. The 'Stem' column shows digits representing the tens place (1 to 4), and the 'Leaf' column shows digits representing the ones place of the ratings."
       ],
       [
         "4/5",
-        "Gr8_30_1_1_step_4"
+        "Gr8_30_1_1_step_4",
+        "This image shows a pictograph titled 'Can recycling drive'. It displays three rows labeled 'Whitney', 'Jayla', and 'Tristan', with soda can icons representing the number of cans each person collected. A key at the bottom indicates that each can icon equals 1 can."
+
       ],
       [
         "5/5",
-        "Gr8_30_1_1_step_5"
+        "Gr8_30_1_1_step_5",
+        "This image shows a double bar graph titled 'Buildings'. The horizontal axis is labeled 'Materials' and includes categories such as 'Stucco', 'Stone', 'Brick', and 'Concrete'. The vertical axis shows the 'Number of buildings'. Each category has two bars: one green bar for 'Banks' and one blue bar for 'Restaurants', allowing comparison of material use across the two types of buildings."
       ]
     ]
   },
@@ -2729,19 +2792,24 @@
     "solution_image_tag": [
       [
         "1/5",
-        "Gr8_30_1_2_step_1"
+        "Gr8_30_1_2_step_1",
+        "This image shows a vertical bar graph titled 'Elementary school attendance'. The horizontal axis is labeled 'School' and lists 'North River Elementary' and 'Roseville Elementary'. The vertical axis is labeled 'Number of students' and ranges from 0 to 1000. Two colored bars represent the student attendance: a taller blue bar for North River Elementary showing 800 students, and a shorter orange bar for Roseville Elementary showing 300 students."
+    
       ],
       [
         "3/5",
-        "Gr8_30_1_2_step_3"
+        "Gr8_30_1_2_step_3",
+        "This image shows a stem-and-leaf plot titled 'Actors per movie'. The stem includes values from 5 to 8, while the leaves list single digits. The plot presents individual values in a compact format arranged by place value."
       ],
       [
         "4/5",
-        "Gr8_30_1_2_step_4"
+        "Gr8_30_1_2_step_4",
+        "This image shows a circle graph titled 'Students in applied majors'. The circle is divided into two sections: one orange section labeled 'Mechanical engineering' makes up 2/5 of the circle, and one yellow section labeled 'Civil engineering' makes up 3/5 of the circle. This pie chart shows how a whole group is split into parts."
       ],
       [
         "5/5",
-        "Gr8_30_1_2_step_5"
+        "Gr8_30_1_2_step_5",
+        "This image shows a double bar graph titled 'Favourite fruits'. It compares the preferences of boys and girls across four fruits: pears, bananas, peaches, and plums. Each fruit has two bars—light blue for boys and pink for girls. The graph helps compare two sets of data across the same categories."
       ]
     ]
   },
@@ -2749,7 +2817,7 @@
     "question_text": "Does this scatter plot show a positive trend, a negative trend, or no trend?",
     "skills": "identify-trends-with-scatter-plots",
     "image_tag": "Gr8_30_2_1",
-    "back_end_description":"The image shows a scatter plot with green dots on a grid labeled 'x' and 'y'. The data points are scattered but show a general positive trend, with x-values ranging from about 1 to 9 and y-values from about 1 to 9.",
+    "backend_description":"The image shows a scatter plot with green dots on a grid labeled 'x' and 'y'. The data points are scattered but show a general positive trend, with x-values ranging from about 1 to 9 and y-values from about 1 to 9.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_1",
     "tag": "Gr8_30_E2",
@@ -2778,7 +2846,8 @@
     "solution_image_tag": [
       [
         "2/3",
-        "Gr8_30_2_1_step_2"
+        "Gr8_30_2_1_step_2",
+        "This image shows a scatter plot with several green dots representing data points on a coordinate grid labeled 'x' and 'y'. A black trend line with a positive slope is drawn through the center of the data, showing the general upward direction from left to right. The pattern of the dots indicates that as the x-values increase, the y-values also tend to increase, illustrating a positive trend."
       ]
     ]
   },
@@ -2786,7 +2855,7 @@
     "question_text": "As part of a math lab, Katie tracked the number of times her classmates drew a number between 2 and 8.\nHow many students drew a number less than 5?\n___",
     "skills": "interpret-tables",
     "image_tag": "Gr8_30_3_1",
-    "back_end_description":"The image shows a table titled 'Drawing a card between 2 and 8' with two columns: 'Number drawn' and 'Frequency'. The values are: 2 -> 13, 3 -> 16, 4 -> 1, 5 -> 18, 6 -> 7, 7 -> 14, and 8 -> 6.",
+    "backend_description":"The image shows a table titled 'Drawing a card between 2 and 8' with two columns: 'Number drawn' and 'Frequency'. The values are: 2 -> 13, 3 -> 16, 4 -> 1, 5 -> 18, 6 -> 7, 7 -> 14, and 8 -> 6.",
     "question_type": "Fill in the blank",
     "question_number": "3_1",
     "tag": "Gr8_30_E3",
@@ -2810,7 +2879,8 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_30_3_1_step_1"
+        "Gr8_30_3_1_step_1",
+        "This image shows a frequency table titled 'Drawing a card between 2 and 8'. The table has two columns labeled 'Number drawn' and 'Frequency'. Three green arrows point to the rows for the numbers 2, 3, and 4, which have frequencies of 13, 16, and 1 respectively. These arrows highlight the values needed to answer the question about how many students drew a number less than 5."
       ]
     ]
   },
@@ -2818,7 +2888,7 @@
     "question_text": "While working as a summer camp counsellor, Diego monitored how many candy necklaces each child made.\nHow many children made exactly 1 candy necklace?\n___",
     "skills": "interpret-tables",
     "image_tag": "Gr8_30_3_2",
-    "back_end_description":"The image shows a table titled 'Making candy necklaces' with two columns: 'Candy necklaces made' and 'Frequency'. The values are: 0 -> 15, 1 -> 14, 2 -> 13, and 3 -> 19.",
+    "backend_description":"The image shows a table titled 'Making candy necklaces' with two columns: 'Candy necklaces made' and 'Frequency'. The values are: 0 -> 15, 1 -> 14, 2 -> 13, and 3 -> 19.",
     "question_type": "Fill in the blank",
     "question_number": "3_2",
     "tag": "Gr8_30_E3",
@@ -2841,7 +2911,7 @@
     "question_text": "Based on the scatter plot below, which is a better prediction for $y$ when $x=4$?",
     "skills": "make-predictions-with-scatter-plots",
     "image_tag": "Gr8_30_4_1",
-    "back_end_description":"The image shows a scatter plot on a coordinate grid labeled 'x' and 'y'. The graph shows a general upward trend, which can be used to make a reasonable prediction for y when given a value of x around 4. Around x = 4, there is some variation in the y-values, but the nearby points suggest a prediction near y = 4 would be reasonable based on the pattern of the data.",
+    "backend_description":"The image shows a scatter plot on a coordinate grid labeled 'x' and 'y'. The graph shows a general upward trend, which can be used to make a reasonable prediction for y when given a value of x around 4. Around x = 4, there is some variation in the y-values, but the nearby points suggest a prediction near y = 4 would be reasonable based on the pattern of the data.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "4_1",
     "tag": "Gr8_30_E4",
@@ -2877,15 +2947,18 @@
     "solution_image_tag": [
       [
         "1/5",
-        "Gr8_30_4_1_step_1"
+        "Gr8_30_4_1_step_1",
+        "The image shows a scatter plot on a grid with green data points, labeled with 'x' on the horizontal axis and 'y' on the vertical axis. A black line of best fit is drawn through the points, indicating a general upward trend in the data."
       ],
       [
         "2/5",
-        "Gr8_30_4_1_step_2"
+        "Gr8_30_4_1_step_2",
+        "This image shows the same coordinate grid with the line of best fit. A red vertical line is drawn from the x-axis at $x=4$ up to the line of best fit. A red dot marks the intersection point between $x=4$ and the line."
       ],
       [
         "3/5",
-        "Gr8_30_4_1_step_3"
+        "Gr8_30_4_1_step_3",
+        "This image shows the same coordinate grid with the line of best fit and continues from the previous step ('Gr8_30_4_1_step_2'). A horizontal red line is now added from the red dot leftward to the $y$-axis, indicating how to determine the corresponding $y$-value when $x=4$ using the line of best fit. The intersection point between the horizontal red line and the $y$-axis is approximately $4$."
       ]
     ]
   },
@@ -2918,7 +2991,7 @@
     "question_text": "You pick a card at random.\nWhat is P(5)?\nWrite your answer as a percentage.\n___%",
     "skills": "probability-of-simple-events",
     "image_tag": "Gr8_31_1_2",
-    "back_end_description":"The image shows four pink cards placed in a row, each with a white number. The cards display the numbers 2, 3, 4, and 5 from left to right.",
+    "backend_description":"The image shows four pink cards placed in a row, each with a white number. The cards display the numbers 2, 3, 4, and 5 from left to right.",
     "question_type": "Fill in the blank",
     "question_number": "1_2",
     "tag": "Gr8_31_E1",
@@ -3015,7 +3088,7 @@
     "question_text": "You spin the spinner once.\nWhat is P(4 or less than 4)?\nWrite your answer as a fraction or whole number.\n___",
     "skills": "probability-of-opposite-mutually-exclusive-and-overlapping-events",
     "image_tag": "Gr8_31_2_2",
-    "back_end_description":"The image shows a circular spinner divided into four equal sections labeled 1, 2, 3, and 4. Each section is a different color, and the arrow is pointing to section 2.",
+    "backend_description":"The image shows a circular spinner divided into four equal sections labeled 1, 2, 3, and 4. Each section is a different color, and the arrow is pointing to section 2.",
     "question_type": "Fill in the blank",
     "question_number": "2_2",
     "tag": "Gr8_31_E2",
@@ -3054,7 +3127,7 @@
     "question_text": "You pick a card at random.\nWhat is P(5 or greater than 4)?\nWrite your answer as a percentage.\n___%",
     "skills": "probability-of-opposite-mutually-exclusive-and-overlapping-events",
     "image_tag": "Gr8_31_2_3",
-    "back_end_description":"The image shows four pink cards placed in a row, each with a white number. The cards display the numbers 2, 3, 4, and 5 from left to right, identical to a previous image.",
+    "backend_description":"The image shows four pink cards placed in a row, each with a white number. The cards display the numbers 2, 3, 4, and 5 from left to right, identical to a previous image.",
     "question_type": "Fill in the blank",
     "question_number": "2_3",
     "tag": "Gr8_31_E2",
@@ -3165,7 +3238,8 @@
     "solution_image_tag": [
       [
         "4/4",
-        "Gr8_31_4_1_step_4"
+        "Gr8_31_4_1_step_4",
+        "The image shows a tree diagram representing the compound outcomes of flipping a coin and rolling a die. The diagram starts with two branches labeled ‘H’ (heads) and ‘T’ (tails). Each of these branches splits into six smaller branches labeled 1 through 6, corresponding to the possible die rolls. The endpoints are labeled H1 through H6 for heads and T1 through T6 for tails, showing all 12 possible outcomes."
       ]
     ]
   },
@@ -3264,7 +3338,7 @@
     "question_text": "You pick a card at random. Without putting the first card back, you pick a second card at random.\nCard: 5,6,7\nWhat is the probability of picking a 7 and then picking a 6?\nWrite your answer as a fraction or whole number.\n___",
     "skills": "probability-of-independent-and-dependent-events",
     "image_tag": "Gr8_32_3_1",
-    "back_end_description":"The image shows three orange cards placed in a row, each with a white number. The cards display the numbers 5, 6, and 7 from left to right.",
+    "backend_description":"The image shows three orange cards placed in a row, each with a white number. The cards display the numbers 5, 6, and 7 from left to right.",
     "question_type": "Fill in the blank",
     "question_number": "3_1",
     "tag": "Gr8_32_E3",
@@ -3299,8 +3373,9 @@
     ],
     "solution_image_tag": [
       [
-        "1/6",
-        "Gr8_32_3_1_step_1"
+        "3/6",
+        "Gr8_32_3_1_step_3",
+        "The image shows three orange cards placed in a row, each with a white number. The cards display the numbers 5 and 6 left to right."
       ]
     ]
   },
