@@ -46,7 +46,7 @@
     "question_type": "Fill in the blank",
     "tag": "Gr5_27_E1",
     "correct_answers": [
-      "1,2,4,7,11,16"
+      "16"
     ],
     "solution": [
       [
@@ -69,7 +69,7 @@
     "question_type": "Fill in the blank",
     "tag": "Gr5_27_E2",
     "correct_answers": [
-      "1,2,4,8,16,32"
+      "8"
     ],
     "solution": [
       [
@@ -325,7 +325,7 @@
       "434",
       "414"
     ],
-    "correct_answers": [],
+    "correct_answers": [A],
     "solution": [
       [
         "1/2",
@@ -345,7 +345,7 @@
     "question_type": "Fill in the blank",
     "tag": "Gr5_27_E4",
     "correct_answers": [
-      "1,4,16,64,256,1024"
+      "16"
     ],
     "solution": [
       [
@@ -366,7 +366,7 @@
     "question_type": "Fill in the blank",
     "tag": "Gr5_28_E1",
     "correct_answers": [
-      "1$\\frac{10}{100}$1000"
+      "1,10,100,1000"
     ],
     "solution": [
       [
@@ -383,7 +383,7 @@
     "question_type": "Fill in the blank",
     "tag": "Gr5_28_E2",
     "correct_answers": [
-      "2, 20, 200, 2000"
+      "2,20,200,2000"
     ],
     "solution": [
       [
@@ -916,13 +916,16 @@
     "question_number": "2_2"
   },
   {
-    "question_text": "Write an equation that ay that the length of the green line i equal to the length of the black line.\n\n\nEquation: ",
+    "question_text": "Write an equation that says that the length of the green line is equal to the length of the black line.\n\n\nEquation: ",
     "skills": "write-and-solve-equations-that-represent-diagrams",
     "image_tag": "Gr5_30_3_1",
     "question_type": "Fill in the blank",
     "tag": "Gr5_30_E3",
     "correct_answers": [
-      "Equation: 9 = s + 3"
+      "9=s+3"
+      "9=3+s"
+      "s+3=9"
+      "3+s=9"
     ],
     "solution": [
       [
@@ -944,7 +947,10 @@
     "question_type": "Fill in the blank",
     "tag": "Gr5_30_E3",
     "correct_answers": [
-      "Equation: 8 = q + 1"
+      "8=q+1"
+      "q+1=8"
+      "1+q=8"
+      "8=1+q"
     ],
     "solution": [
       [
@@ -966,7 +972,10 @@
     "question_type": "Fill in the blank",
     "tag": "Gr5_30_E3",
     "correct_answers": [
-      "Equation: 25 = d + 14"
+      "25=d+14"
+      "25=14+d"
+      "14+d=25"
+      "d+14=25"
     ],
     "solution": [
       [
@@ -988,7 +997,10 @@
     "question_type": "Fill in the blank",
     "tag": "Gr5_30_E3",
     "correct_answers": [
-      "Equation: 13 = y + 9"
+      "13=y+9"
+      "13=9+y"
+      "9+y=13"
+      "y+9=13"
     ],
     "solution": [
       [
@@ -1150,7 +1162,7 @@
     "question_number": "3_2"
   },
   {
-    "question_text": "Pick the story that can be modelled by the equation 4x=8.\nDeb used 4 roses and 8 daisies to make a flower bouquet for her mom's birthday. She used x flowers in total.\nIn her mom's birthday bouquet, Deb used x roses and 4 times as many daisies. She used 8 daisies.",
+    "question_text": "Pick the story that can be modelled by the equation 4x=8.
     "skills": "which-word-problem-matches-the-one-step-equation",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr5_31_E4",
@@ -1499,7 +1511,8 @@
     "question_type": "Fill in the blank",
     "tag": "Gr5_32_E3",
     "correct_answers": [
-      "Birds seen\nBirdBlue JaysSparrowsCardinals\nRelative frequency%%%302050"
+      "30,20,50"
+      "30%,20%,50%"
     ],
     "solution": [
       [
@@ -1535,7 +1548,8 @@
     "question_type": "Fill in the blank",
     "tag": "Gr5_32_E3",
     "correct_answers": [
-      "Art studio\nItem paintedCanvasesFramesVasesSigns\nRelative frequency%%%%20301040"
+      "20,30,10,40"
+      "20%,30%,10%,40%"
     ],
     "solution": [
       [
@@ -1571,7 +1585,8 @@
     "question_type": "Fill in the blank",
     "tag": "Gr5_32_E3",
     "correct_answers": [
-      "Cheese platter\nCheeseCheddarSwissPepper jackGoudaBrie\nRelative frequency%%%%%2428181812"
+      "24,28,18,18,12"
+      "24%,28%,18%,18%,12%"
     ],
     "solution": [
       [
@@ -1607,7 +1622,8 @@
     "question_type": "Fill in the blank",
     "tag": "Gr5_32_E3",
     "correct_answers": [
-      "Family night\nActivityBoard gamesKaraokeBowling\nRelative frequency%%%305020"
+      "30,50,20"
+      "30%,50%,20%"
     ],
     "solution": [
       [
@@ -1643,7 +1659,8 @@
     "question_type": "Fill in the blank",
     "tag": "Gr5_32_E3",
     "correct_answers": [
-      "Classes at Fun Flips Gymnastics\nClassTumblingRhythmTrampolineBeam\nRelative frequency%%%%24282028"
+      "24,28,20,28"
+      "24%,28%,20%,28%"
     ],
     "solution": [
       [
@@ -1679,7 +1696,8 @@
     "question_type": "Fill in the blank",
     "tag": "Gr5_32_E3",
     "correct_answers": [
-      "Today's prizes\nSizeSmallMediumLarge\nRelative frequency%%%603010"
+      "60,30,10"
+      "60%,30%,10%"
     ],
     "solution": [
       [
@@ -1715,7 +1733,8 @@
     "question_type": "Fill in the blank",
     "tag": "Gr5_32_E3",
     "correct_answers": [
-      "Getting to school\nTransportation methodBusWalkBikeCar\nRelative frequency%%%%50151025"
+      "50,15,10,25"
+      "50%,15%,10%,25%"
     ],
     "solution": [
       [
@@ -1751,7 +1770,8 @@
     "question_type": "Fill in the blank",
     "tag": "Gr5_32_E3",
     "correct_answers": [
-      "Completed tasks\nTaskEmpty the dishwasherFold the laundryVacuum\nRelative frequency%%%504010"
+      "50%,40%,10%"
+      "50,40,10"
     ],
     "solution": [
       [
@@ -1787,7 +1807,8 @@
     "question_type": "Fill in the blank",
     "tag": "Gr5_32_E3",
     "correct_answers": [
-      "Pizzas made\nPizzaCheesePepperoniVeggieCanadian\nRelative frequency%%%%40122226"
+      "40%,12%,22%,26%"
+      "40,12,22,26"
     ],
     "solution": [
       [
