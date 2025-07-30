@@ -17,23 +17,23 @@
     "solution": [
       [
         "1/5",
-        "Divide by prime factors until the quotient is 1."
+        "Prime factorization means writing a number as a product of prime numbers only. Prime numbers are numbers greater than 1 that can only be divided by 1 and themselves."
       ],
       [
         "2/5",
-        "$6 \\div 2 = 3$"
+        "Start by dividing 6 by the smallest prime number that goes into it. The smallest prime number is 2, and $6 \\div 2 = 3$."
       ],
       [
         "3/5",
-        "$3 \\div 3 = 1$"
+        "Now we have 3 left. Since 3 is a prime number (it can only be divided by 1 and 3), we divide: $3 \\div 3 = 1$."
       ],
       [
         "4/5",
-        "The prime factorization of 6 is:"
+        "When we reach 1, we stop. The prime factors we used were 2 and 3."
       ],
       [
         "5/5",
-        "6 = 2 \\times 3"
+        "Therefore, the prime factorization of 6 is $2 \\times 3$."
       ]
     ]
   },
@@ -50,20 +50,24 @@
     ],
     "solution": [
       [
-        "1/4",
-        "Multiply as you would multiply whole numbers."
+        "1/5",
+        "To multiply a decimal by a whole number, first multiply as if both numbers were whole numbers. Treat 6.6 as 66."
       ],
       [
-        "2/4",
-        "Count the number of decimal places in the factors. There is 1 decimal place in 6.6. Move the decimal point 1 place to the left in the answer."
+        "2/5",
+        "Multiply: $66 \\times 76 = 5016$"
       ],
       [
-        "3/4",
-        "5016. $\\rightarrow$ 501.6"
+        "3/5",
+        "Count the decimal places in the original numbers. The number 6.6 has 1 decimal place, and 76 has 0 decimal places. Total: 1 decimal place."
       ],
       [
-        "4/4",
-        "Write the answer:"
+        "4/5",
+        "Starting from the right of 5016, count 1 place to the left and put the decimal point there: 501.6"
+      ],
+      [
+        "5/5",
+        "Therefore, $6.6 \\times 76 = 501.6$"
       ]
     ]
   },
@@ -80,24 +84,28 @@
     ],
     "solution": [
       [
-        "1/5",
-        "Multiply the amount of tape per minute by the number of minutes."
+        "1/6",
+        "This is a word problem asking for total metres of tape. Since the factory makes 7.1 metres per minute, multiply by the number of minutes: $7.1 \\times 8$"
       ],
       [
-        "2/5",
-        "Multiply as you would multiply whole numbers."
+        "2/6",
+        "To multiply a decimal by a whole number, first multiply as if both were whole numbers. Treat 7.1 as 71."
       ],
       [
-        "3/5",
-        "Count the number of decimal places in the factors. There is 1 decimal place in 7.1. Move the decimal point 1 place to the left in the answer."
+        "3/6",
+        "Multiply: $71 \\times 8 = 568$"
       ],
       [
-        "4/5",
-        "568.$\\rightarrow$56.8"
+        "4/6",
+        "Count decimal places in the original numbers. The number 7.1 has 1 decimal place, and 8 has 0 decimal places. Total: 1 decimal place."
       ],
       [
-        "5/5",
-        "The factory can make 56.8 metres of masking tape in 8 minutes."
+        "5/6",
+        "Starting from the right of 568, count 1 place to the left and put the decimal point there: 56.8"
+      ],
+      [
+        "6/6",
+        "Therefore, the factory can make 56.8 metres of masking tape in 8 minutes."
       ]
     ]
   },
@@ -117,15 +125,15 @@
     "solution": [
       [
         "1/3",
-        "Move the decimal point 1 place to the right in both the dividend and divisor."
+        "When dividing by a decimal, first convert the divisor to a whole number. Since 0.4 has 1 decimal place, move the decimal point 1 place to the right in both the dividend and divisor."
       ],
       [
-        "2/3",
-        "Add zeros after the decimal point in the number you are dividing. Divide until there is no remainder."
+        "2/3", 
+        "Use long division to solve $210 \\div 4$. Since 210 doesn't divide evenly by 4, add a decimal point and zero, then continue dividing to get 52.5."
       ],
       [
         "3/3",
-        "The quotient is 52.5."
+        "Therefore, $21 \\div 0.4 = 52.5$"
       ]
     ]
   },
@@ -148,19 +156,19 @@
     "solution": [
       [
         "1/4",
-        "This model shows the product $2 \\times \\frac{2}{6}$.\nCount how many $\\frac{1}{6}$ parts are shaded."
+        "Look at the model showing $\\frac{2}{6}$. To find $2 \\times \\frac{2}{6}$, we need to count this model twice. Count how many individual $\\frac{1}{6}$ parts would be shaded in total."
       ],
       [
         "2/4",
-        "There are 4 shaded parts. So, this model also shows $4 \\times \\frac{1}{6}$.\n$2 \\times \\frac{2}{6} = 4 \\times \\frac{1}{6}$"
+        "The model shows 2 shaded $\\frac{1}{6}$ parts. Since we're multiplying by 2, we count this twice: $2 + 2 = 4$ individual $\\frac{1}{6}$ parts. So $2 \\times \\frac{2}{6} = 4 \\times \\frac{1}{6}$"
       ],
       [
         "3/4",
-        "Multiply.\n$4 \\times \\frac{1}{6} = \\frac{4}{6}$"
+        "Multiply $4 \\times \\frac{1}{6}$ by multiplying 4 by the numerator: $4 \\times 1 = 4$. So $4 \\times \\frac{1}{6} = \\frac{4}{6}$"
       ],
       [
         "4/4",
-        "Use this product to complete the equation.\n$2 \\times \\frac{2}{6} = \\frac{4}{6}$"
+        "Therefore, $2 \\times \\frac{2}{6} = \\frac{4}{6}$"
       ]
     ]
   },
