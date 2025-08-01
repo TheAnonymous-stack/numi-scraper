@@ -1363,34 +1363,26 @@
     ],
     "solution": [
       [
-        "1/6",
-        "Look for a pattern. See how many dots are in each step."
+        "1/4",
+        "Count the total dots in each step. Step 1 has 2 dots, Step 2 has 6 dots, and Step 3 has 12 dots."
       ],
       [
-        "2/6",
-        "Step 1 has 1 row of 2 dots. This multiplication sentence matches.\n$1 \\cdot 2 = 2$"
+        "2/4",
+        "Look at how the dots are arranged in rows. Step 1 has 1 row of 2 dots, Step 2 has 2 rows of 3 dots, and Step 3 has 3 rows of 4 dots."
       ],
       [
-        "3/6",
-        "Step 2 has 2 rows of 3 dots. This multiplication sentence matches.\n$2 \\cdot 3 = 6$"
+        "3/4",
+        "To find the total dots in each step, we observe a pattern among the given steps. We see that multiplying the number of rows by the number of dots per row gives us the total: Step 1 is $1 \\times 2 = 2$, Step 2 is $2 \\times 3 = 6$, Step 3 is $3 \\times 4 = 12$."
       ],
       [
-        "4/6",
-        "Step 3 has 3 rows of 4 dots. This multiplication sentence matches.\n$3 \\cdot 4 = 12$"
-      ],
-      [
-        "5/6",
-        "Now, continue the pattern to the 4th step.\nStep 4 has 4 rows of 5 dots. This multiplication sentence matches.\n$4 \\cdot 5 = 20$"
-      ],
-      [
-        "6/6",
-        "The 4th step has 20 dots."
+        "4/4",
+        "Following this pattern, Step 4 will have 4 rows of 5 dots, so it will have $4 \\times 5 = 20$ dots in total."
       ]
     ]
   },
   {
     "skills": "complete-an-arithmetic-number-sequence",
-    "question_text": "Which number is missing from this sequence?\n36,43,50,57,64,71,__",
+    "question_text": "Which number is missing from this sequence?\n36,43,50,57,64,71,___",
     "tag": "Gr6_31_E2",
     "question_number": "2_1",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -1406,15 +1398,15 @@
     "solution": [
       [
         "1/3",
-        "First, look for a pattern. Notice how each number is 7 more than the previous number:"
+        "Find the pattern by looking at the difference between consecutive numbers: $43 - 36 = 7$, $50 - 43 = 7$, $57 - 50 = 7$. Each number increases by 7."
       ],
       [
         "2/3",
-        "36,43,50,57,64,71,__"
+        "Continue the pattern by adding 7 to the last given number: $71 + 7 = 78$"
       ],
       [
         "3/3",
-        "To make the pattern complete, the number 78 must go in the blank space."
+        "Therefore, the missing number is 78."
       ]
     ]
   },
@@ -1429,24 +1421,16 @@
     ],
     "solution": [
       [
-        "1/5",
-        "First, look for a pattern. Notice how each number is 3 times the previous number:"
+        "1/3",
+        "Find the pattern by looking at the ratio between consecutive numbers: $3 \\div 1 = 3$, $9 \\div 3 = 3$. Each number is multiplied by 3."
       ],
       [
-        "2/5",
-        "1,3,9,__,81"
+        "2/3",
+        "Continue the pattern by multiplying the last given number by 3: $9 \\times 3 = 27$"
       ],
       [
-        "3/5",
-        "Multiply 9 by 3 to find the missing number:"
-      ],
-      [
-        "4/5",
-        "9 x 3 = 27"
-      ],
-      [
-        "5/5",
-        "To make the pattern complete, the number 27 must go in the blank space."
+        "3/3",
+        "Therefore, the missing number is 27."
       ]
     ]
   },
@@ -1466,15 +1450,15 @@
     "solution": [
       [
         "1/3",
-        "Find the pattern. Look at how much you add to each number to get the next number:"
+        "To find the pattern, look at the differences between each number in the sequence: $1 - 1 = 0$, $3 - 1 = 2$, $7 - 3 = 4$, $13 - 7 = 6$, $21 - 13 = 8$, and $31 - 21 = 10$. Notice that the amount added increases by 2 each time: 0, 2, 4, 6, 8, 10."
       ],
       [
         "2/3",
-        "The amount you add increases by 2 each time. You should add 12 the next time. Add 12 to 31 to find the next number:"
+        "Since the pattern increases by 2 each time, the next number to add is 12. Adding 12 to the last number in the sequence gives: $31 + 12 = 43$."
       ],
       [
         "3/3",
-        "The next number is 43."
+        "Therefore, the next number in the sequence is 43."
       ]
     ]
   },
