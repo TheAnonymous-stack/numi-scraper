@@ -1480,25 +1480,25 @@
     "solution": [
       [
         "1/4",
-        "This is the rule Gordon tried to use to make his table:\nRule: The output is $c \\cdot 7$."
+        "The rule says the output is $c \\cdot 7$, where $c$ is the input. This means we multiply each input by 7 to get the output."
       ],
       [
         "2/4",
-        "In the table, c is the input. So, the rule says you multiply the input by 7 to get the output. Gordon's table has the inputs 6, 7, 8, and 10."
+        "Let's check Gordon's work by multiplying each input by 7: $6 \\times 7 = 42$, $7 \\times 7 = 49$, $8 \\times 7 = 56$, and $10 \\times 7 = 70$."
       ],
       [
         "3/4",
-        "Multiply each input by 7 to find the outputs. For example, multiply 6 by 7 to get 42, which is the first output. Here is the correct table:"
+        "Comparing our answers with Gordon's table, Gordon wrote 42, 49, 63, and 70. Three of these match our calculations, but when the input is 8, Gordon wrote 63 instead of 56."
       ],
       [
         "4/4",
-        "Gordon's table is incorrect. Notice that he didn't multiply correctly. When the input is 8 the output should be 56 because 8 times 7 is 56."
+        "Gordon made a multiplication error. When the input is 8, the output should be 56 because $8 \\times 7 = 56$, not 63. Therefore, Gordon's table is incorrect since he didn't multiply correctly."
       ]
     ],
     "solution_image_tag": [
+      "Gr6_32_1_1_step_1",
       "Gr6_32_1_1_step_2",
-      "Gr6_32_1_1_step_3",
-      "Gr6_32_1_1_step_4"
+      "Gr6_32_1_1_step_3"
     ]
   },
   {
@@ -1517,38 +1517,22 @@
     ],
     "solution": [
       [
-        "1/7",
-        "This is the pattern Kirk has so far:"
+        "1/3",
+        "The pattern is 44, 32, 20, and the rule is subtract 12. To find the next number, we subtract 12 from the last number in the pattern."
       ],
       [
-        "2/7",
-        "44, 32, 20, ..."
+        "2/3",
+        "Subtract 12 from 20: $20 - 12 = 8$."
       ],
       [
-        "3/7",
-        "The rule for the pattern is subtract 12. This means the next number is what you get when you subtract 12 from 20."
-      ],
-      [
-        "4/7",
-        "20-12=8"
-      ],
-      [
-        "5/7",
-        "The next number is 8."
-      ],
-      [
-        "6/7",
-        "44, 32, 20, 8, ..."
-      ],
-      [
-        "7/7",
-        "Kirk says the next number is 8. So, Kirk is correct."
+        "3/3",
+        "Kirk says the next number is 8, which matches our calculation. Therefore, Kirk is correct."
       ]
     ]
   },
   {
     "skills": "division-patterns-with-zeroes",
-    "question_text": "Complete the pattern:\n6 ÷ ___ = 1\n60 ÷ ___ = 10\n600 ÷ ___ = 100\n6000 ÷ ___ = 1000",
+    "question_text": "Complete the pattern:\n$6 \\div \\_\\_ = 1$\n$60 \\div \\_\\_ = 10$\n$600 \\div \\_\\_ = 100$\n$6000 \\div \\_\\_ = 1000$",
     "tag": "Gr6_32_E2",
     "question_number": "2_1",
     "question_type": "Fill in the blank",
@@ -1560,50 +1544,26 @@
     ],
     "solution": [
       [
-        "1/10",
-        "Find the first missing number:"
+        "1/4",
+        "Start with the first equation: $6 \\div \\_\\_ = 1$. What number do we divide 6 by to get 1? Since $6 \\div 6 = 1$, the missing number is 6."
       ],
       [
-        "2/10",
-        "6 ones ÷ 6 = 1 one"
+        "2/4",
+        "Check the second equation: $60 \\div \\_\\_ = 10$. Since $60 \\div 6 = 10$, the missing number is also 6."
       ],
       [
-        "3/10",
-        "6 ÷ 6 = 1"
+        "3/4", 
+        "Continue with the pattern: $600 \\div 6 = 100$ and $6000 \\div 6 = 1000$. Each time we add a zero to 6 (6, 60, 600, 6000), the answer also gets a zero added (1, 10, 100, 1000), but we still divide by 6."
       ],
       [
-        "4/10",
-        "Now complete the pattern:"
-      ],
-      [
-        "5/10",
-        "6 tens ÷ 6 = 1 ten"
-      ],
-      [
-        "6/10",
-        "60 ÷ 6 = 10"
-      ],
-      [
-        "7/10",
-        "6 hundreds ÷ 6 = 1 hundred"
-      ],
-      [
-        "8/10",
-        "600 ÷ 6 = 100"
-      ],
-      [
-        "9/10",
-        "6 thousands ÷ 6 = 1 thousand"
-      ],
-      [
-        "10/10",
-        "6000 ÷ = 1000"
+        "4/4",
+        "Therefore, all the missing numbers are 6."
       ]
     ]
   },
   {
     "skills": "decimal-division-patterns-over-increasing-place-values",
-    "question_text": "Complete the pattern:\n0.8996 ÷  ___ = 0.08996\n0.8996 ÷ ___ = 0.008996\n0.8996 ÷ ___ = 0.0008996\n0.8996 ÷ ___ = 0.00008996",
+    "question_text": "Complete the pattern:\n$0.8996 \\div \\_\\_ = 0.08996$\n$0.8996 \\div \\_\\_ = 0.008996$\n$0.8996 \\div \\_\\_ = 0.0008996$\n$0.8996 \\div \\_\\_ = 0.00008996$",
     "tag": "Gr6_32_E3",
     "question_number": "3_1",
     "question_type": "Fill in the blank",
@@ -1615,36 +1575,20 @@
     ],
     "solution": [
       [
-        "1/8",
-        "Look at the first equation. Count how many places the decimal moves."
+        "1/4",
+        "Look at the first equation: $0.8996 \\div \\_\\_ = 0.08996$. Compare the original number $0.8996$ with the answer $0.08996$. The decimal point moved 1 place to the right, which means we divided by 10."
       ],
       [
-        "2/8",
-        "0.8996 $\\rightarrow$ 0.08996"
+        "2/4",
+        "In the second equation, the decimal point moves 2 places to the right from $0.8996$ to $0.008996$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
       ],
       [
-        "3/8",
-        "The decimal moves 1 place. The missing number is 10."
+        "3/4", 
+        "Continue the pattern: the decimal moves 3 places to get $0.0008996$, so we divide by 1000. The decimal moves 4 places to get $0.00008996$, so we divide by 10000."
       ],
       [
-        "4/8",
-        "0.8996 ÷ 10 = 0.08996"
-      ],
-      [
-        "5/8",
-        "Now find the other missing numbers. When you divide the same number by larger and larger powers of ten, the decimal point moves to the left in the quotient."
-      ],
-      [
-        "6/8",
-        "0.8996 ÷ 100 = 0.008996"
-      ],
-      [
-        "7/8",
-        "0.8996 ÷ 1000 = 0.0008996"
-      ],
-      [
-        "8/8",
-        "0.8996 ÷ 10000 = 0.00008996"
+        "4/4",
+        "Therefore, the missing numbers are 10, 100, 1000, and 10000."
       ]
     ]
   }
