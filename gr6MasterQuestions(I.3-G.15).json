@@ -1056,7 +1056,7 @@
   },
   {
     "skills": "find-the-total-given-a-part-and-a-percent",
-    "question_text": "20 is 100% of what number?",
+    "question_text": "20 is 100\\% of what number?",
     "tag": "Gr6_28_E4",
     "question_number": "4_1",
     "question_type": "Fill in the blank",
@@ -1065,38 +1065,26 @@
     ],
     "solution": [
       [
-        "1/8",
-        "100% of a number is the entire number. 100% of 20 is 20. You can check this by doing the math."
+        "1/4",
+        "We need to find what number, when 100\\% of it is taken, gives us 20. Let's call this unknown number n."
       ],
       [
-        "2/8",
-        "The part is 20.\nThe percent is 100%."
+        "2/4",
+        "Set up the equation: $100\\% \\text{ of } n = 20$, which we write as $100\\% \\times n = 20$"
       ],
       [
-        "4/8",
-        "Let n represent the whole. \nWrite a proportion to solve for n."
+        "3/4",
+        "Convert the percentage to a decimal to solve: $100\\% = 1.00$. Now we have $1.00 \\times n = 20$. To find n, divide: $n = 20 \\div 1.00 = 20$"
       ],
       [
-        "5/8",
-        "$\\frac{20}{n} = \\frac{100}{100}$\n$100n = 20 \\cdot 100$\n$100n = 2000$\n$100n \\div 100 = 2000 \\div 100$\n$n = 20$"
-      ],
-      [
-        "6/8",
-        "20 is 100% of 20."
-      ],
-      [
-        "7/8",
-        "You could also find the answer by writing and solving an equation:"
-      ],
-      [
-        "8/8",
-        "20 is 100% of 20."
+        "4/4",
+        "Check our answer: $100\\% \\times 20 = 1.00 \\times 20 = 20$. Therefore, 20 is 100\\% of 20."
       ]
     ]
   },
   {
     "skills": "solve-percent-problems",
-    "question_text": "What is 50% of 68?\n___",
+    "question_text": "What is 50\\% of 68?\n___",
     "tag": "Gr6_29_E1",
     "question_number": "1_1",
     "question_type": "Fill in the blank",
@@ -1105,38 +1093,22 @@
     ],
     "solution": [
       [
-        "1/7",
-        "The whole is 68.\nThe percent is 50%."
+        "1/3",
+        "To find 50\\% of 68, convert the percentage to a decimal: $50\\% = 0.50$"
       ],
       [
-        "2/7",
-        "Let n represent the part.\nWrite a proportion to solve for n."
+        "2/3",
+        "Multiply the decimal by the number: $0.50 \\times 68 = 34$"
       ],
       [
-        "3/7",
-        "$\\frac{n}{68} = \\frac{50}{100}$\n$100n = 50 \\cdot 68$\n$100n = 3400$\n$100n \\div 100 = 3400 \\div 100$\n$n = 34$"
-      ],
-      [
-        "4/7",
-        "50% of 68 is 34."
-      ],
-      [
-        "5/7",
-        "You could also find the answer by writing and solving an equation:"
-      ],
-      [
-        "6/7",
-        "part = percentage of whole\n$n = 50\\% \\cdot 68$\n$n = 0.50 \\cdot 68$\n$n = 34$"
-      ],
-      [
-        "7/7",
-        "50% of 68 is 34."
+        "3/3",
+        "Therefore, 50\\% of 68 is 34."
       ]
     ]
   },
   {
     "skills": "solve-percent-problems",
-    "question_text": "Complete the following statement.\n40% of 40 = ___",
+    "question_text": "Complete the following statement.\n40\\% of 40 = ___",
     "question_type": "Fill in the blank",
     "question_number": "1_2",
     "tag": "Gr6_29_E1",
@@ -1145,38 +1117,22 @@
     ],
     "solution": [
       [
-        "1/7",
-        "The whole is 40."
+        "1/3",
+        "To find 40\\% of 40, convert the percentage to a decimal: $40\\% = 0.40$"
       ],
       [
-        "2/7",
-        "The percent is 40%."
+        "2/3",
+        "Multiply the decimal by the number: $0.40 \\times 40 = 16$"
       ],
       [
-        "3/7",
-        "Let n represent the part."
-      ],
-      [
-        "4/7",
-        "Write a proportion to solve for n."
-      ],
-      [
-        "5/7",
-        "$\\frac{n}{40} = \\frac{40}{100}$\n$100n = 40 \\cdot 40$\n$100n = 1600$\n$100n \\div 100 = 1600 \\div 100$\n$n = 16$\n40% of 40 is 16."
-      ],
-      [
-        "6/7",
-        "You could also find the answer by writing and solving an equation:"
-      ],
-      [
-        "7/7",
-        "part=percetage of whole\n$n = 40\\% \\cdot 40$\n$n = 0.40 \\cdot 40$\n$n = 16$\n40% of 40 is 16."
+        "3/3",
+        "Therefore, 40\\% of 40 is 16."
       ]
     ]
   },
   {
     "skills": "solve-percent-word-problems",
-    "question_text": "At Whitney's Beading Boutique, 70% of the 10 beads on clearance are plastic. How many plastic beads are there on clearance?\n___ plastic beads",
+    "question_text": "At Whitney's Beading Boutique, 70\\% of the 10 beads on clearance are plastic. How many plastic beads are there on clearance?\n___ plastic beads",
     "tag": "Gr6_29_E2",
     "question_number": "2_1",
     "question_type": "Fill in the blank",
@@ -1185,28 +1141,16 @@
     ],
     "solution": [
       [
-        "1/8",
-        "Find 70% of 10.\nThe whole is 10.\nThe percent is 70%."
+        "1/3",
+        "To find how many plastic beads are on clearance, calculate 70\\% of 10 beads. Convert the percentage to a decimal: $70\\% = 0.70$"
       ],
       [
-        "4/8",
-        "Let n represent the part.\nWrite a proportion to solve for n."
+        "2/3",
+        "Multiply the decimal by the total number of beads: $0.70 \\times 10 = 7$"
       ],
       [
-        "5/8",
-        "$\\frac{n}{10} = \\frac{70}{100}$\n$100n = 70 \\cdot 10$\n$100n = 700$\n$100n \\div 100 = 700 \\div 100$\n$n = 7$"
-      ],
-      [
-        "6/8",
-        "There are 7 plastic beads on clearance."
-      ],
-      [
-        "7/8",
-        "You could also find the answer by writing and solving an equation:\npart = percentage of whole\n$n = 70\\% \\cdot 10$\n$n = 0.7 \\cdot 10$\n$n = 7$"
-      ],
-      [
-        "8/8",
-        "There are 7 plastic beads on clearance."
+        "3/3",
+        "Therefore, there are 7 plastic beads on clearance."
       ]
     ]
   },
@@ -1226,60 +1170,28 @@
     ],
     "solution_image_tag": [
       "Gr6_29_3_1_step_3",
-      "Gr6_29_3_1_step_7"
+      "Gr6_29_3_1_step_4"
     ],
     "solution": [
       [
-        "1/13",
-        "To determine whether the function is linear or nonlinear, see whether it has a constant rate of change."
+        "1/5",
+        "To determine if the function is linear, check if it has a constant rate of change between all pairs of points."
       ],
       [
-        "2/13",
-        "Pick any two rows of the table and calculate the rate of change between them. The first two rows are a good place to start."
+        "2/5",
+        "Rate of change measures how much y changes compared to how much x changes. The formula is: $\\frac{y_2 - y_1}{x_2 - x_1}$ where $(x_1, y_1)$ is the first point and $(x_2, y_2)$ is the second point."
       ],
       [
-        "3/13",
-        "Rows 1 and 2:"
+        "3/5",
+        "Calculate the rate of change between the first two points. Let $(x_1, y_1) = (14, 17)$ and $(x_2, y_2) = (15, 13)$: $\\frac{13 - 17}{15 - 14} = \\frac{-4}{1} = -4$"
       ],
       [
-        "4/13",
-        "Call the values in the first row x1 and y1. Call the values in the second row x2 and y2."
+        "4/5", 
+        "Calculate the rate of change between the first and third points. Let $(x_1, y_1) = (14, 17)$ and $(x_2, y_2) = (16, 9)$: $\\frac{9 - 17}{16 - 14} = \\frac{-8}{2} = -4$"
       ],
       [
-        "5/13",
-        "Rate of change: \n$\\frac{y_2 - y_1}{x_2 - x_1}$\n$= \\frac{13 - 17}{15 - 14}$\n$= \\frac{-4}{1} = -4$"
-      ],
-      [
-        "6/13",
-        "Now pick a different pair of rows and calculate the rate of change between them."
-      ],
-      [
-        "7/13",
-        "Rows 1 and 3:"
-      ],
-      [
-        "8/13",
-        "Call the values in the first row x1 and y1. Call the values in the third row x2 and y2."
-      ],
-      [
-        "9/13",
-        "Rate of change: \n$\\frac{y_2 - y_1}{x_2 - x_1}$\n$= \\frac{9 - 17}{16 - 14}$\n$= \\frac{-8}{2} = -4$"
-      ],
-      [
-        "10/13",
-        "The two rates of change are the same."
-      ],
-      [
-        "11/13",
-        "If you checked the rate of change between rows 2 and 3, you would find that it is also -4."
-      ],
-      [
-        "12/13",
-        "This means the rate of change is the same for each pair of points. So, the function has a constant rate of change."
-      ],
-      [
-        "13/13",
-        "The function is linear."
+        "5/5",
+        "Since the rate of change is the same (-4) between all pairs of points, the function has a constant rate of change and is linear."
       ]
     ]
   },
@@ -1302,24 +1214,20 @@
     ],
     "solution": [
       [
-        "1/5",
-        "Look at the corresponding terms in the table. For example, the first pair of corresponding terms is 4 and 13."
+        "1/4",
+        "Look at the corresponding terms in the table. Pattern A has terms 4, 7, 10, 13 and Pattern B has terms 13, 22, 31, 40."
       ],
       [
-        "2/5",
-        "Read the first statement.\nEach term in pattern B can be found by multiplying the corresponding term in pattern A by 3 and then adding 1."
+        "2/4",
+        "Test the first statement by checking if each term in pattern B equals the corresponding term in pattern A multiplied by 3, then add 1: $4 \\times 3 + 1 = 13$, $7 \\times 3 + 1 = 22$, $10 \\times 3 + 1 = 31$, $13 \\times 3 + 1 = 40$. This works for all pairs."
       ],
       [
-        "3/5",
-        "This statement is true for all of the corresponding terms. \n$4 \\cdot 3 =12$ and then $12+1=13$\n$7 \\cdot 3 =21$ and then $21+1=22$\n$10 \\cdot 3 =30$ and then $30+1=31$\n$13 \\cdot 3 =39$ and then $39+1=40$"
+        "3/4",
+        "Test the second statement by checking if each term in pattern B is 9 more than the corresponding term in pattern A: $4 + 9 = 13$, but $7 + 9 = 16 \\neq 22$. This doesn't work for all pairs."
       ],
       [
-        "4/5",
-        "Read the second statement. \nEach term in pattern B is 9 more than the corresponding term in pattern A."
-      ],
-      [
-        "5/5",
-        "This statement is not true for some of the corresponding terms. For example, 22 is not 9 more than 7."
+        "4/4",
+        "Since the first relationship works for all pairs and the second doesn't, the answer is the first statement."
       ]
     ]
   },
@@ -1339,21 +1247,21 @@
     "solution": [
       [
         "1/3",
-        "First, look for a pattern."
+        "To find the pattern, look at the differences between consecutive terms: $41 - 34 = 7$, $48 - 41 = 7$, $55 - 48 = 7$, $62 - 55 = 7$."
       ],
       [
         "2/3",
-        "Add 7 to find the next number:"
+        "The pattern is to add 7 each time. To find the sixth bowl, add 7 to the fifth bowl: $62 + 7 = 69$"
       ],
       [
         "3/3",
-        "Mason will put 69 cherries in the sixth bowl."
+        "Therefore, Mason will put 69 cherries in the sixth bowl."
       ]
     ]
   },
   {
     "skills": "complete-a-table-for-a-two-variable-relationship",
-    "question_text": "Read the following description of a relationship:\nA backpacking company requires each camper to bring a flashlight to go on a trip. The company supplies 5 extra in case any flashlights get lost or broken.\nLet c represent the number of campers and f represent the total number of flashlights.\nComplete the table using the equation f=c+5.\ncf\n16\n27\n38\n4",
+    "question_text": "Read the following description of a relationship:\nA backpacking company requires each camper to bring a flashlight to go on a trip. The company supplies 5 extra in case any flashlights get lost or broken.\nLet c represent the number of campers and f represent the total number of flashlights.\nComplete the table using the equation $f = c + 5$.",
     "image_tag": "Gr6_30_2_1",
     "tag": "Gr6_30_E2",
     "question_number": "2_1",
@@ -1362,34 +1270,30 @@
       "9"
     ],
     "solution_image_tag": [
-      "Gr6_30_2_1_step_5"
+      "Gr6_30_2_1_step_2"
     ],
     "solution": [
       [
-        "1/5",
-        "The equation shows the relationship between the number of campers, c, and the total number of flashlights, f."
+        "1/4",
+        "The equation $f = c + 5$ shows that the total number of flashlights equals the number of campers plus 5 extra flashlights."
       ],
       [
-        "2/5",
-        "f=c+5"
+        "2/4",
+        "Looking at the table, we need to find the value of f when $c = 4$. Substitute $c = 4$ into the equation."
       ],
       [
-        "3/5",
-        "In this relationship, c is the input, and f is the output. Plug the value c=4 from the table into the equation to find the missing value of f."
+        "3/4",
+        "Calculate: $f = c + 5 = 4 + 5 = 9$"
       ],
       [
-        "4/5",
-        "f\n=c+5\n=4+5\n=9"
-      ],
-      [
-        "5/5",
-        "Complete the table."
+        "4/4",
+        "Therefore, when there are 4 campers, there will be 9 total flashlights."
       ]
     ]
   },
   {
     "skills": "use-a-rule-to-complete-a-number-sequence",
-    "question_text": "Fill in the missing number in the pattern.\nThe first number is 15. The rule is to subtract 3.\n15, 12, 9, ",
+    "question_text": "Fill in the missing number in the pattern.\nThe first number is 15. The rule is to subtract 3.\n15, 12, 9, ___",
     "tag": "Gr6_30_E3",
     "question_number": "3_1",
     "question_type": "Fill in the blank",
@@ -1398,20 +1302,16 @@
     ],
     "solution": [
       [
-        "1/4",
-        "The missing number comes next after 9. The rule is to subtract 3."
+        "1/3",
+        "The rule is to subtract 3 from each number to get the next number. We can see this pattern in the given numbers: $15 - 3 = 12$ and $12 - 3 = 9$."
       ],
       [
-        "2/4",
-        "9-3=6"
+        "2/3",
+        "To find the missing number, subtract 3 from the last given number: $9 - 3 = 6$"
       ],
       [
-        "3/4",
-        "The missing number is 6. This is the pattern:"
-      ],
-      [
-        "4/4",
-        "15, 12, 9, 6"
+        "3/3",
+        "Therefore, the missing number is 6 and the complete pattern is: 15, 12, 9, 6"
       ]
     ]
   },
@@ -1427,35 +1327,27 @@
       "x+7"
     ],
     "solution_image_tag": [
+      "Gr6_30_4_1_step_1",
       "Gr6_30_4_1_step_2",
       "Gr6_30_4_1_step_3",
-      "Gr6_30_4_1_step_4",
-      "Gr6_30_4_1_step_5"
+      "Gr6_30_4_1_step_4"
     ],
     "solution": [
       [
-        "1/6",
-        "Complete the table. \nEach row of the table represents a point on the line in the graph. Use the graph to find the missing value in the table."
+        "1/4",
+        "To complete the table, find the y-value when $x = 13$ by locating this point on the graph."
       ],
       [
-        "2/6",
-        "Look at the fourth row."
+        "2/4",
+        "Looking at the graph, when $x = 13$, the point on the line has coordinates (13, 20). So $y = 20$."
       ],
       [
-        "3/6",
-        "To find the y-value when the x-value is 13, find the point on the line with an x-coordinate of 13."
+        "3/4", 
+        "To find the equation, look for the relationship between x and y in each row. Notice that each y-value equals the x-value plus 7: when $x = 6$, $y = 6 + 7 = 13$; when $x = 7$, $y = 7 + 7 = 14$; when $x = 12$, $y = 12 + 7 = 19$; when $x = 13$, $y = 13 + 7 = 20$."
       ],
       [
-        "4/6",
-        "The point (13,20) is on the line and has an x-coordinate of 13. Its y-coordinate is 20."
-      ],
-      [
-        "5/6",
-        "Write the equation. \nFor each row of the table, the number in the y column is more than the number in the x column. Find how much more."
-      ],
-      [
-        "6/6",
-        "In each row of the table, the number in the y column is 7 more than the number in the x column. You can write the equation as:\n$y=x+7$"
+        "4/4",
+        "Since y always equals x plus 7, the equation is $y = x + 7$."
       ]
     ]
   },
