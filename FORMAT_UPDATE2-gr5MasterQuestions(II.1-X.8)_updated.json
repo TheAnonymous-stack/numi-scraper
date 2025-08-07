@@ -123,12 +123,13 @@
     "question_number": "3_1"
   },
   {
-    "question_text": "Convert:\n\n\n 7 kilograms = _ grams",
+    "question_text": "Convert:\n\n 7 kilograms = \\__ grams",
     "skills": "compare-and-convert-metric-units-of-mass",
     "question_type": "Fill in the blank",
     "tag": "Gr5_40_E3",
     "correct_answers": [
-      "7000"
+      "7000",
+      "7,000"
     ],
     "solution": [
       [
@@ -137,7 +138,7 @@
       ],
       [
         "2/3",
-        "Multiply:\n\n\n7 x 1000 = 7000\n\nnThere are 7000 grams in 7 kilograms."
+        "Multiply:\n\n7 x 1000 = 7000\n\nThere are 7000 grams in 7 kilograms."
       ],
       [
         "3/3",
@@ -184,9 +185,9 @@
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr5_41_E1",
     "choices": [
-      "greater than a right angle",
-      "equal to a right angle",
-      "less than a right angle"
+      "Greater than a right angle",
+      "Equal to a right angle",
+      "Less than a right angle"
     ],
     "correct_answers": [
       "C"
@@ -250,13 +251,15 @@
     "backend_description": "A straight angle formed by two brown rays pointing in opposite directions, creating a straight line that measures 180 degrees."
   },
   {
-    "question_text": "What is the measurement of this angle?\n\n_°",
+    "question_text": "What is the measurement of this angle?\n\n\\__°",
     "skills": "measure-angles-with-a-protractor",
     "image_tag": "Gr5_41_3_1",
     "question_type": "Fill in the blank",
     "tag": "Gr5_41_E3",
     "correct_answers": [
-      "165"
+      "165",
+      "165degrees",
+      "165°"
     ],
     "solution": [
       [
@@ -273,7 +276,7 @@
     "backend_description": "A yellow protractor showing an angle measurement. One ray points to 0 degrees on the protractor scale, and the other ray points to 165 degrees, creating an obtuse angle of 165 degrees."
   },
   {
-    "question_text": "What is the area?\n\n\n\n\n\n square kilometres",
+    "question_text": "What is the area?\n\n \\__ square kilometres",
     "skills": "area-of-parallelograms",
     "image_tag": "Gr5_41_4_1",
     "question_type": "Fill in the blank",
@@ -284,11 +287,11 @@
     "solution": [
       [
         "1/4",
-        "Find the base and height of the parallelogram.\nBase:8 km\nHeight:14 km"
+        "Find the base and height of the parallelogram.\nBase: 8 km\nHeight: 14 km"
       ],
       [
         "2/4",
-        "The formula to find the area of a parallelogram is base multiplied by height.\nArea = base x height \n= 8 x 14 \n= 112."
+        "The formula to find the area of a parallelogram is base multiplied by height.\n\nArea = base x height \n= 8 x 14 \n= 112."
       ],
       [
         "3/4",
@@ -335,7 +338,7 @@
     ]
   },
   {
-    "question_text": "What is the area?\n\n\n\n\n\n square millimetres",
+    "question_text": "What is the area?\n\n \\__ square millimetres",
     "skills": "area-of-triangles",
     "image_tag": "Gr5_42_2_1",
     "question_type": "Fill in the blank",
@@ -346,15 +349,15 @@
     "solution": [
       [
         "1/5",
-        "Find the base and height of the triangle. Base:7 mm\nHeight:14 mm"
+        "Find the base and height of the triangle. \nBase: 7 mm\nHeight: 14 mm"
       ],
       [
         "2/5",
-        "The formula to find the area of a triangle is Area = $\\frac{1}{2}$ x base x height"
+        "The formula to find the area of a triangle is Area = $\\frac{\text{base} \times \text{height}}{2}$"
       ],
       [
         "3/5",
-        "Putting the values of base and height into the formula, we have: Area = $\\frac{1}{2}$ x 7 x 14 \n= $\\frac{1}{2}$ x 98 \n= 49."
+        "Putting the values of base and height into the formula, we have: Area $= \\frac{7 \times 14}{2}$ \n$= \\frac{98}{2}$ \n$= 49$"
       ],
       [
         "4/5",
@@ -370,7 +373,7 @@
     "backend_description": "A light purple right triangle with base 7 mm and height 14 mm. The right angle is marked with a small square in the corner."
   },
   {
-    "question_text": "The rectangles below have the same area.\n\n\n\n\n\nIf the perimeter of the orange rectangle is 16 metres, what are its dimensions?\n\n\n​ __metres by __metres",
+    "question_text": "The rectangles below have the same area.\n\n\n\nIf the perimeter of the orange rectangle is 16 metres, what are its dimensions?\n\n\n​ \\__ metres by \\__ metres",
     "skills": "rectangles-relationship-between-perimeter-and-area",
     "image_tag": "Gr5_42_3_1",
     "question_type": "Multiple fill in the blank",
@@ -444,12 +447,13 @@
     "question_number": "4_1"
   },
   {
-    "question_text": "Jared wants to buy a young pig to raise for the fall fair. The pig costs $75, and there is a $1.50 processing fee to pay with a cheque.\nWhat is the total cost of buying the pig with a cheque?\n$_",
+    "question_text": "Jared wants to buy a young pig to raise for the fall fair. The pig costs $75, and there is a $1.50 processing fee to pay with a cheque.\n\nWhat is the total cost of buying the pig with a cheque?\n\n$\\__",
     "skills": "evaluate-payment-methods",
     "question_type": "Fill in the blank",
     "tag": "Gr5_43_E1",
     "correct_answers": [
-      "76.50"
+      "76.50".
+      '$76.50"
     ],
     "solution": [
       [
@@ -458,21 +462,23 @@
       ],
       [
         "2/2",
-        "$75 + $1.50 = $76.50\nThe total cost of buying the pig with a cheque is $76.50."
+        "$75 + $1.50 = $76.50\n\nThe total cost of buying the pig with a cheque is $76.50."
       ]
     ],
     "solution_image_tag": [],
     "question_number": "1_1"
   },
   {
-    "question_text": "How much money does Wesley need to buy a cookbook, a baking dish, and a large plate?\n\n$_",
+    "question_text": "How much money does Wesley need to buy a cookbook, a baking dish, and a large plate?\n\n$\\__",
     "skills": "price-lists-with-addition-and-subtraction",
     "image_tag": "Gr5_43_2_1",
     "question_type": "Fill in the blank",
     "tag": "Gr5_43_E2",
     "correct_answers": [
       "18",
-      "18.00"
+      "18.00",
+      "$18",
+      "$18.00"
     ],
     "solution": [
       [
@@ -495,19 +501,21 @@
     "question_number": "2_1"
   },
   {
-    "question_text": "How much more does a large plate cost than an ice cream scoop?\n\n$_",
+    "question_text": "How much more does a large plate cost than an ice cream scoop?\n\n$\\__",
     "skills": "price-lists-with-addition-and-subtraction",
     "image_tag": "Gr5_43_2_2",
     "question_type": "Fill in the blank",
     "tag": "Gr5_43_E2",
     "correct_answers": [
       "5",
-      "5.00"
+      "5.00",
+      "$5",
+      "$5.00"
     ],
     "solution": [
       [
         "1/2",
-        "Find the prices of a large plate and an ice cream scoop. The prices are $8.00 and $3.00. \nTo find how much more a large plate costs, subtract the price of an ice cream scoop from the price of a large plate."
+        "Find the prices of a large plate and an ice cream scoop. The prices are $8.00 and $3.00. \n\nTo find how much more a large plate costs, subtract the price of an ice cream scoop from the price of a large plate."
       ],
       [
         "2/2",
@@ -540,7 +548,7 @@
     "solution": [
       [
         "1/1",
-        "Kristen's credit card balance is $115. She makes the minimum payment of $25. So, she will be charged interest on her remaining balance of $90."
+        "Kristen's credit card balance is $115. She makes the minimum payment of $25. \n\nSo, she will be charged interest on her remaining balance of $90."
       ]
     ],
     "solution_image_tag": [],
@@ -552,8 +560,8 @@
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr5_43_E3",
     "choices": [
-      "yes",
-      "no"
+      "Yes",
+      "No"
     ],
     "correct_answers": [
       "A"
@@ -656,10 +664,10 @@
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr5_44_E1",
     "choices": [
-      "walk dogs to earn an extra $20",
-      "increase income from teaching water sports to $60",
-      "use only $85 for vacation spending money",
-      "save only $190 for a kayak"
+      "Walk dogs to earn an extra $20",
+      "Increase income from teaching water sports to $60",
+      "Use only $85 for vacation spending money",
+      "Save only $190 for a kayak"
     ],
     "correct_answers": [
       "A"
@@ -693,10 +701,10 @@
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr5_44_E1",
     "choices": [
-      "increase spending on gifts for Mom and Nana by $10",
-      "put $25 less in his savings account",
-      "return bottles to earn an extra $5",
-      "decrease amount of gas money to $30"
+      "Increase spending on gifts for Mom and Nana by $10",
+      "Put $25 less in his savings account",
+      "Return bottles to earn an extra $5",
+      "Decrease amount of gas money to $30"
     ],
     "correct_answers": [
       "B"
@@ -724,7 +732,7 @@
     "backend_description": "A budget table titled 'Mitch's May budget' with blue header. Income column shows: Mowing lawns: $20, Babysitting: $35, Bagging groceries at Hall's Market: $105. Expenses column shows: Gifts for Mom and Nana: $40, Gas money: $45, Savings account: $100"
   },
   {
-    "question_text": "This is Akira's complete financial record for August:\n\nHow much money did Akira receive on August 22?\n$_",
+    "question_text": "This is Akira's complete financial record for August:\n\nHow much money did Akira receive on August 22?\n\n$\\__",
     "skills": "reading-financial-records",
     "image_tag": "Gr5_44_2_1",
     "question_type": "Fill in the blank",
@@ -777,7 +785,7 @@
     "backend_description": "A financial record table with green header. Columns: Date, Description, Received, Expenses, Available Funds. Data shows: Balance end of May $101.00; 6/5 rain boots expense $34.55, available $66.45; 6/17 mac & cheese expense $6.80, available $59.65; 6/21 cleaning stables with blank fields for Received and Available Funds"
   },
   {
-    "question_text": "Find the unit rate.\n\n\n18 seats in 3 rows =  _ seats per row",
+    "question_text": "Find the unit rate.\n\n18 seats in 3 rows = \\__ seats per row",
     "skills": "unit-rates",
     "question_type": "Fill in the blank",
     "tag": "Gr5_44_E4",
@@ -786,14 +794,16 @@
     ],
     "solution": [
       [
-        "1/1",
+        "1/2",
         "Remember, a unit rate tells us the amount for 1 of something. To find it, divide the total by the number of groups."
       ],
       [
+        "2/2",
         "Divide:\n\n\n18 ÷ 3 = 6\n\n6 seats per row."
       ]
     ],
     "solution_image_tag": [],
     "question_number": "4_1"
   }
+
 ]
