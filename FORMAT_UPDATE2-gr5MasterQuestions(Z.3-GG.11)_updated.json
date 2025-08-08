@@ -59,17 +59,14 @@
     ],
     "solution": [
       [
-        "1/2",
+        "1/1",
         "Find the pattern. Look at how much you add to each number to get the next number:\n\n\n1,2,4,7,11,?\n\n+ 1+ 2+ 3+ 4\n\n\nThe amount you add increases by 1 each time. You should add 5 the next time. Add 5 to 11 to find the next number:\n\n\n1,2,4,7,11,16\n\n+ 1+ 2+ 3+ 4+ 5\n\n\nThe next number is 16.."
       ],
-      [
-        "2/2",
-        "Look at how much you add to each number to get the next number:\n\n\n1,2,4,7,11,?\n\n+ 1+ 2+ 3+ 4\n\n\nThe amount you add increases by 1 each time. You should add 5 the next time. Add 5 to 11 to find the next number:\n\n\n1,2,4,7,11,16\n\n+ 1+ 2+ 3+ 4+ 5\n\n\nThe next number is 16.."
-      ]
+     
     ],
     "solution_image_tag": [
       [
-        "1/2",
+        "1/1",
         "Gr5_27_1_1_step_1",
         "A visual representation of the number sequence 1, 2, 4, 7, 11, ? with red curved arrows between consecutive numbers. Below each arrow is the difference: +1 between 1 and 2, +2 between 2 and 4, +3 between 4 and 7, +4 between 7 and 11, showing the pattern of increasing differences by 1 each time."
       ]
@@ -77,7 +74,7 @@
     "question_number": "1_1"
   },
   {
-    "question_text": "Type the missing number in this sequence:\n\n\n1,2,4,,16,32",
+    "question_text": "Type the missing number in this sequence:\n\n\n1,2,4,__,16,32",
     "skills": "complete-a-geometric-number-sequence",
     "question_type": "Fill in the blank",
     "tag": "Gr5_27_E2",
@@ -125,7 +122,7 @@
     "question_number": "3_1"
   },
   {
-    "question_text": "Ivan is drawing stars in his notebook. He draws 4 stars on the first page, 12 stars on the second page, 36 stars on the third page, and 108 stars on the fourth page. If this pattern continues, how many stars will Ivan draw on the fifth page?\n\n\n stars",
+    "question_text": "Ivan is drawing stars in his notebook. He draws 4 stars on the first page, 12 stars on the second page, 36 stars on the third page, and 108 stars on the fourth page. If this pattern continues, how many stars will Ivan draw on the fifth page?",
     "skills": "number-sequences-word-problems",
     "question_type": "Fill in the blank",
     "tag": "Gr5_27_E3",
@@ -368,7 +365,7 @@
     "question_number": "3_10"
   },
   {
-    "question_text": "Which number is missing from this sequence?\n\n\n845,745,645,545,__,345,245$\\frac{445}{429}$434\n414",
+    "question_text": "Which number is missing from this sequence?\n\n\n845,745,645,545,__,345,245",
     "skills": "number-sequences-mixed-review",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr5_27_E4",
@@ -393,7 +390,7 @@
     "question_number": "4_1"
   },
   {
-    "question_text": "Type the missing number in this sequence:\n\n\n1,4,,64,256,1024",
+    "question_text": "Type the missing number in this sequence:\n\n\n1,4,__,64,256,1024",
     "skills": "number-sequences-mixed-review",
     "question_type": "Fill in the blank",
     "tag": "Gr5_27_E4",
@@ -512,7 +509,7 @@
     "question_number": "1_1"
   },
   {
-    "question_text": "Gina tried to find the missing number in this input/output table.\nRule: The output is n÷2.\n\nGina says the missing number is 6. Is Gina correct?\nNo, the rule says to divide the input by 2 to get the output. The missing number should be 4 because 8 divided by 2 is 4.\nNo, the rule says to divide the output by 2 to get the input. The missing number should be 16 because 16 divided by 2 is 8.\nYes, Gina is correct.",
+    "question_text": "Gina tried to find the missing number in this input/output table.\nRule: The output is n÷2.\n\nGina says the missing number is 6. Is Gina correct?",
     "skills": "identify-mistakes-in-number-patterns",
     "image_tag": "Gr5_29_2_1",
     "backend_description": "A green input/output table with white text showing Input (n) values 2, 4, 6, 8 and corresponding Output (p) values 1, 2, 3, with a question mark for the missing output value when input is 8. The rule states 'The output is n÷2'.",
@@ -554,7 +551,7 @@
     "question_number": "2_1"
   },
   {
-    "question_text": "Shawn tried to find the rule for this pattern.\n6, 18, 54, ...\nShawn says that the rule is multiply by 3 because 18 times 3 is 54. Is Shawn's rule correct?\nNo, Shawn should have noticed that every number is even. The rule should be multiply by 2.\nNo, Shawn should have noticed that 6 plus 12 is 18. The rule should be add 12.\nYes, Shawn's rule is correct.",
+    "question_text": "Shawn tried to find the rule for this pattern.\n6, 18, 54, ...\nShawn says that the rule is multiply by 3 because 18 times 3 is 54. Is Shawn's rule correct?",
     "skills": "identify-mistakes-in-number-patterns",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr5_29_E2",
@@ -596,7 +593,7 @@
     "question_number": "2_2"
   },
   {
-    "question_text": "Bert tried to find the rule for this input/output table.\n\nBert says that the output is n×2. Is Bert's rule correct?\nNo, Bert should have noticed that each output is 5 more than the output before it. The output is n+5.\nNo, Bert should have noticed that each output is 7 more than each input. The output is n+7.\nYes, Bert's rule is correct.",
+    "question_text": "Bert tried to find the rule for this input/output table.\n\nBert says that the output is n×2. Is Bert's rule correct?",
     "skills": "identify-mistakes-in-number-patterns",
     "image_tag": "Gr5_29_2_3",
     "backend_description": "A blue input/output table with white text showing Input (n) values 7, 12, 17, 23 and corresponding Output (p) values 14, 19, 24, 30. The rule being evaluated is whether 'The output is n×2'.",
@@ -662,7 +659,7 @@
     "question_number": "2_3"
   },
   {
-    "question_text": "Mia tried to find the rule for this input/output table.\n\nMia says that the output is c+9. Is Mia's rule correct?\nNo, Mia's rule doesn't work for every input and output in the table. The output is c×2.\nNo, Mia should have noticed that each output is 8 more than the output before it. The output is c+8.\nYes, Mia's rule is correct.",
+    "question_text": "Mia tried to find the rule for this input/output table.\n\nMia says that the output is c+9. Is Mia's rule correct?",
     "skills": "identify-mistakes-in-number-patterns",
     "image_tag": "Gr5_29_2_4",
     "backend_description": "An orange/yellow input/output table with white text showing Input (c) values 9, 13, 17, 21 and corresponding Output (d) values 18, 26, 34, 42. The rule being evaluated is whether 'The output is c+9'.",
@@ -728,7 +725,7 @@
     "question_number": "2_4"
   },
   {
-    "question_text": "Melissa tried to find the rule for this input/output table.\n\nMelissa says that the output is g+10. Is Melissa's rule correct?\nNo, Melissa should have noticed that each output is 9 more than each input. The output is g+9.\nNo, Melissa should have noticed that each input is 1 less than each output. The output is g–1.\nYes, Melissa's rule is correct.",
+    "question_text": "Melissa tried to find the rule for this input/output table.\n\nMelissa says that the output is g+10. Is Melissa's rule correct?",
     "skills": "identify-mistakes-in-number-patterns",
     "image_tag": "Gr5_29_2_5",
     "backend_description": "A blue input/output table with white text showing Input (g) values 1, 11, 21, 31 and corresponding Output (h) values 10, 20, 30, 40. The rule being evaluated is whether 'The output is g+10'.",
