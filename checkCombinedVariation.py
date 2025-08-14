@@ -6,7 +6,6 @@ isCorrupt = {}
 tags = []
 with open("miniMapping.csv", newline="") as f:
     reader = csv.reader(f)
-    next(reader)
     for row in reader:
         tag, skill = row
         if skill != "empty":
@@ -18,7 +17,7 @@ with open("miniMapping.csv", newline="") as f:
 
 
 
-with open("FORMAT_UPDATE4-gr4ScrapedQuestions(Gr4_1_E1_1_1-Gr4_13_E4_4_1).json", "r") as f:
+with open("FORMAT_UPDATE4-gr4ScrapedQuestions(Gr4_14_E1_1_1-Gr4_26_E4_4_1).json", "r") as f:
     data = json.load(f)
     for question in data: 
         variationCounter[question["tag"]] += 1
