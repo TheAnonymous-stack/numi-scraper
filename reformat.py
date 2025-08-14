@@ -6,14 +6,15 @@ import shutil
 map = {}
 with open("mapping.csv", "r") as f:
     reader = csv.reader(f)
-    header = next(reader)
+    # No header in this CSV file, process all rows
     for row in reader:
         tag, skill = row
+        skill = skill.split("(")[0].strip().lower()  # Convert to lowercase for matching
         map[skill] = tag
 
 
 files = [
-    "FORMAT_UPDATE - gr6MasterQuestions(A.1-J.1x).json",
+    "FORMAT_UPDATE - gr6MasterQuestions(A.1-J.14).json",
     "FORMAT_UPDATE - gr6MasterQuestions(I.3-G.15).json",
     "FORMAT_UPDATE - gr6MasterQuestions(W.13-T.7).json",
     "FORMAT_UPDATE2 - gr6MasterQuestions(M.1-K.17).json"
@@ -26,7 +27,7 @@ new_files = [
     "FORMAT_UPDATE3 - gr6MasterQuestions(M.1-K.17).json"
 ]
 for i, file in enumerate(files):
-    with open(file, "r") as f:
+    with open(file, "r", encoding="utf-8") as f:
         data = json.load(f)
     for question in data:
         skill = question["skills"].replace("-", " ")
@@ -75,7 +76,7 @@ for i, file in enumerate(files):
                 })
             question["shape_image_tags"] = new_shape_image_tags
         
-        if len(question["solution_image_tag"]) > 0:
+        if "solution_image_tag" in question:
             old_solution_image_tag = question["solution_image_tag"]
             new_solution_image_tag = []
             for obj in old_solution_image_tag:
