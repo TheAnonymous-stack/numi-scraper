@@ -6,7 +6,6 @@ import shutil
 map = {}
 with open("mapping.csv", "r") as f:
     reader = csv.reader(f)
-    # No header in this CSV file, process all rows
     for row in reader:
         tag, skill = row
         skill = skill.split("(")[0].strip().lower()  # Convert to lowercase for matching
