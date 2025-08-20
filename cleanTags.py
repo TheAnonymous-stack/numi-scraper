@@ -8,9 +8,9 @@ with open("miniMapping.csv", newline="") as f:
         tag, skill = row
         if skill != "empty":
             tags.append(tag)
-for tag in tags:
+for global_tag in tags:
 
-    with open(f"{tag}_variations.json") as f:
+    with open(f"{global_tag} variations.json") as f:
         data = json.load(f)
     for question in data:
         parts = question["tag"].split("_")
@@ -33,7 +33,7 @@ for tag in tags:
                 option = obj["id"]
                 new_lst.append({
                     "tag": f"Gr4_{week_number}_{exercise_number}_{variation_number}_{option}",
-                    "backend_description": obj[1],
+                    "backend_description": obj["backend_description"],
                     "id": option
                 })
             question["shape_image_tags"] = new_lst
@@ -51,6 +51,6 @@ for tag in tags:
                 ])
             question["solution_image_tag"] = new_lst
 
-    with open(f"{tag}_variations.json", "w") as f:
+    with open(f"{global_tag} variations.json", "w") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 

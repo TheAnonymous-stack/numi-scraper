@@ -11,7 +11,7 @@ with open("miniMapping.csv", newline="") as f:
         if skill != "empty":
             tags.append(tag)
 
-with open('/Users/hypebeast/numi-scraper/FORMAT_UPDATE4-gr4ScrapedQuestions(Gr4_14_E1_1_1-Gr4_26_E4_4_1).json', 'r') as f:
+with open('/Users/hypebeast/numi-scraper/FORMAT_UPDATE4-gr4ScrapedQuestions(Gr4_40_E1_1_1-Gr4_52_E4_4_1).json', 'r') as f:
     data = json.load(f)
 
 
@@ -44,7 +44,7 @@ for tag in tags:
                     
     
 # Save the combined file
-with open('/Users/hypebeast/numi-scraper/FORMAT_UPDATE4-gr4ScrapedQuestions(Gr4_14_E1_1_1-Gr4_26_E4_4_1).json', 'w') as f:
+with open('/Users/hypebeast/numi-scraper/FORMAT_UPDATE4-gr4ScrapedQuestions(Gr4_40_E1_1_1-Gr4_52_E4_4_1).json', 'w') as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
         
         

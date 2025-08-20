@@ -16,13 +16,14 @@ chrome_options.add_argument("--window-size=1920,1080")
 # Initialize the driver
 driver = webdriver.Chrome(options=chrome_options)
 
-tags = []
-with open("miniMapping.csv", newline="") as f:
-    reader = csv.reader(f)
-    for row in reader:
-        tag, skill = row
-        if skill != "empty":
-            tags.append(tag)
+# tags = []
+# with open("miniMapping.csv", newline="") as f:
+#     reader = csv.reader(f)
+#     for row in reader:
+#         tag, skill = row
+#         if skill != "empty":
+#             tags.append(tag)
+tags = ["Gr4_46_E4"]
 # Get all HTML files matching the pattern
 for tag in tags:
     week_number = int(tag.split("_")[1])  # Extract week number (2 in this case)
@@ -31,7 +32,8 @@ for tag in tags:
     html_files.sort(key=lambda x: int(x.split('_')[-1].split('.')[0]))  # Sort by number
 
     print(f"Found {len(html_files)} HTML files to process")
-
+    if len(html_files) == 0:
+        continue
     # Create directory if it doesn't exist
     save_dir = f"Grade4_Master_Images/{week_number}"
     os.makedirs(save_dir, exist_ok=True)

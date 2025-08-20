@@ -1,15 +1,15 @@
 import csv
 import json
 
-tags = []
-with open("FORMAT_UPDATE4-gr4ScrapedQuestions(Gr4_14_E1_1_1-Gr4_26_E4_4_1).json", "r") as f:
+tags = ["Gr4_36_E2"]
+with open("FORMAT_UPDATE4-gr4ScrapedQuestions(Gr4_27_E1_1_1-Gr4_39_E4_4_1).json", "r") as f:
     data = json.load(f)
-with open("miniMapping.csv", newline="") as f:
-    reader = csv.reader(f)
-    for row in reader:
-        tag, skill = row 
-        if skill != "empty":
-            tags.append(tag)
+# with open("miniMapping.csv", newline="") as f:
+#     reader = csv.reader(f)
+#     for row in reader:
+#         tag, skill = row 
+#         if skill != "empty":
+#             tags.append(tag)
     for tag in tags:
         variations = []
         counter = 0
