@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .item {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: white;
+        }
+        .bar-chart {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .chart-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .bar-container {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            height: 30px;
+        }
+        .bar-label {
+            width: 100px;
+            font-size: 14px;
+        }
+        .bar-wrapper {
+            position: relative;
+            flex: 1;
+            background: #f0f0f0;
+            height: 25px;
+            margin-right: 50px;
+        }
+        .bar {
+            height: 100%;
+            transition: width 0.3s;
+            position: relative;
+        }
+        .bar-value {
+            position: absolute;
+            right: -40px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-weight: bold;
+            color: #333;
+        }
+        .scale {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            padding-left: 100px;
+            padding-right: 50px;
+            color: #666;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr4_43_4_21">
+        <div class="bar-chart">
+            <div class="chart-title">Youtube Videos Uploaded</div>
+            <div class="bar-container">
+                <div class="bar-label">Sunday</div>
+                <div class="bar-wrapper">
+                    <div class="bar" style="width: 46.666666666666664%; background-color: blue;">
+                        <span class="bar-value">28</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-container">
+                <div class="bar-label">Monday</div>
+                <div class="bar-wrapper">
+                    <div class="bar" style="width: 66.66666666666666%; background-color: green;">
+                        <span class="bar-value">40</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-container">
+                <div class="bar-label">Tuesday</div>
+                <div class="bar-wrapper">
+                    <div class="bar" style="width: 66.66666666666666%; background-color: steelblue;">
+                        <span class="bar-value">40</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-container">
+                <div class="bar-label">Wednesday</div>
+                <div class="bar-wrapper">
+                    <div class="bar" style="width: 66.66666666666666%; background-color: steelblue;">
+                        <span class="bar-value">40</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-container">
+                <div class="bar-label">Thursday</div>
+                <div class="bar-wrapper">
+                    <div class="bar" style="width: 80.0%; background-color: steelblue;">
+                        <span class="bar-value">48</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-container">
+                <div class="bar-label">Friday</div>
+                <div class="bar-wrapper">
+                    <div class="bar" style="width: 81.66666666666667%; background-color: steelblue;">
+                        <span class="bar-value">49</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-container">
+                <div class="bar-label">Saturday</div>
+                <div class="bar-wrapper">
+                    <div class="bar" style="width: 103.33333333333334%; background-color: red;">
+                        <span class="bar-value">62</span>
+                    </div>
+                </div>
+            </div>
+            <div class="scale">
+                <span>0</span>
+                <span>30</span>
+                <span>60</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

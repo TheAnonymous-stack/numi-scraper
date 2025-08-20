@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .item {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: white;
+        }
+        .line-plot {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .plot-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .plot-container {
+            position: relative;
+            margin: 20px 0;
+            padding-bottom: 40px;
+            height: 200px; /* Fixed height to accommodate stacked X marks */
+        }
+        .number-line {
+            position: absolute;
+            bottom: 40px; /* Position from bottom */
+            left: 20px;
+            right: 20px;
+            height: 2px;
+            background: #333;
+        }
+        .tick {
+            position: absolute;
+            top: -5px;
+            width: 2px;
+            height: 12px;
+            background: #333;
+        }
+        .tick-label {
+            position: absolute;
+            top: 15px;
+            transform: translateX(-50%);
+            font-size: 14px;
+        }
+        .x-mark {
+            position: absolute;
+            transform: translateX(-50%);
+            color: #FF6347;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr4_43_4_47">
+        <div class="line-plot">
+            <div class="plot-title">The Numbers</div>
+            <div class="plot-container">
+                <div class="number-line">
+                    <div class="tick" style="left: 0.0%;"></div>
+                    <div class="tick-label" style="left: 0.0%;">0</div>
+                    <div class="x-mark" style="left: 0.0%; bottom: 10px;">X</div>
+                    <div class="x-mark" style="left: 0.0%; bottom: 35px;">X</div>
+                    <div class="tick" style="left: 16.666666666666664%;"></div>
+                    <div class="tick-label" style="left: 16.666666666666664%;">1</div>
+                    <div class="x-mark" style="left: 16.666666666666664%; bottom: 10px;">X</div>
+                    <div class="tick" style="left: 33.33333333333333%;"></div>
+                    <div class="tick-label" style="left: 33.33333333333333%;">2</div>
+                    <div class="x-mark" style="left: 33.33333333333333%; bottom: 10px;">X</div>
+                    <div class="x-mark" style="left: 33.33333333333333%; bottom: 35px;">X</div>
+                    <div class="tick" style="left: 50.0%;"></div>
+                    <div class="tick-label" style="left: 50.0%;">3</div>
+                    <div class="x-mark" style="left: 50.0%; bottom: 10px;">X</div>
+                    <div class="x-mark" style="left: 50.0%; bottom: 35px;">X</div>
+                    <div class="tick" style="left: 66.66666666666666%;"></div>
+                    <div class="tick-label" style="left: 66.66666666666666%;">4</div>
+                    <div class="tick" style="left: 83.33333333333334%;"></div>
+                    <div class="tick-label" style="left: 83.33333333333334%;">5</div>
+                    <div class="x-mark" style="left: 83.33333333333334%; bottom: 10px;">X</div>
+                    <div class="x-mark" style="left: 83.33333333333334%; bottom: 35px;">X</div>
+                    <div class="tick" style="left: 100.0%;"></div>
+                    <div class="tick-label" style="left: 100.0%;">6</div>
+                    <div class="x-mark" style="left: 100.0%; bottom: 10px;">X</div>
+                    <div class="x-mark" style="left: 100.0%; bottom: 35px;">X</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

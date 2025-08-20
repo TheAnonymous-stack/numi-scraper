@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .question-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .item {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: white;
+        }
+        .chart-title {
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .data-table {
+            border-collapse: collapse;
+            margin: 10px auto;
+        }
+        .data-table th, .data-table td {
+            padding: 10px 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        .choices-container {
+            display: flex;
+            gap: 20px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .choice {
+            flex: 1;
+            min-width: 400px;
+        }
+        .step {
+            flex: 1;
+            min-width: 400px;
+            max-width: 700px;
+        }
+    </style>
+</head>
+<body>
+    <div class="question-container">
+        
+        <!-- Main Image -->
+        <div class="item" label="Gr4_44_3_22" style="display: inline-block">
+    <table class="data-table">
+        <tr>
+            <th colspan="3" style="background-color: #4CAF50; color: white; text-align: center;">
+                Bird watching data
+            </th>
+        </tr>
+        <tr>
+            <th>Category</th>
+            <th>2020</th>
+            <th>2021</th>
+        </tr>
+        <tr>
+            <td>Lake area</td>
+            <td>55</td>
+            <td>77</td>
+        </tr>
+        <tr>
+            <td>Forest</td>
+            <td>87</td>
+            <td>93</td>
+        </tr>
+        <tr>
+            <td>Meadow</td>
+            <td>31</td>
+            <td>99</td>
+        </tr>
+    </table>
+        </div>
+        
+        <!-- Choice Images -->
+        <div class="choices-container">
+            <div class="item" label="Gr4_44_3_22_A" style="display: inline-block">
+                <div style="background: white; padding: 10px;">
+                    
+        <div class="chart-title">Bird watching data</div>
+        <svg width="600" height="350">
+            <!-- Y-axis -->
+            <line x1="70" y1="40" 
+                  x2="70" y2="270" 
+                  stroke="black" stroke-width="2"/>
+            
+            <!-- X-axis -->
+            <line x1="70" y1="270" 
+                  x2="480" y2="270" 
+                  stroke="black" stroke-width="2"/>
+            
+            <!-- Y-axis labels and grid lines -->
+            <text x="60" y="275.0" text-anchor="end" font-size="12">0</text>
+            <line x1="70" y1="270.0" 
+                  x2="480" y2="270.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="229.0" text-anchor="end" font-size="12">20</text>
+            <line x1="70" y1="224.0" 
+                  x2="480" y2="224.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="183.0" text-anchor="end" font-size="12">40</text>
+            <line x1="70" y1="178.0" 
+                  x2="480" y2="178.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="137.0" text-anchor="end" font-size="12">60</text>
+            <line x1="70" y1="132.0" 
+                  x2="480" y2="132.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="91.0" text-anchor="end" font-size="12">80</text>
+            <line x1="70" y1="86.0" 
+                  x2="480" y2="86.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="45.0" text-anchor="end" font-size="12">100</text>
+            <line x1="70" y1="40.0" 
+                  x2="480" y2="40.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <rect x="92.77777777777777" y="143.5" 
+                  width="43.55555555555555" height="126.50000000000001" 
+                  fill="#4CAF50" />
+            <text x="114.55555555555554" y="138.5" 
+                  text-anchor="middle" font-size="11">55</text>
+            <rect x="140.33333333333331" y="92.9" 
+                  width="43.55555555555555" height="177.1" 
+                  fill="#2196F3" />
+            <text x="162.1111111111111" y="87.9" 
+                  text-anchor="middle" font-size="11">77</text>
+            <text x="138.33333333333331" y="290" 
+                  text-anchor="middle" font-size="12">Lake area</text>
+            <rect x="229.44444444444446" y="92.9" 
+                  width="43.55555555555555" height="177.1" 
+                  fill="#4CAF50" stroke="red" stroke-width="3"/>
+            <text x="251.22222222222223" y="87.9" 
+                  text-anchor="middle" font-size="11">77</text>
+            <rect x="277.0" y="56.099999999999994" 
+                  width="43.55555555555555" height="213.9" 
+                  fill="#2196F3" />
+            <text x="298.77777777777777" y="51.099999999999994" 
+                  text-anchor="middle" font-size="11">93</text>
+            <text x="275.0" y="290" 
+                  text-anchor="middle" font-size="12">Forest</text>
+            <rect x="366.1111111111111" y="198.7" 
+                  width="43.55555555555555" height="71.3" 
+                  fill="#4CAF50" />
+            <text x="387.88888888888886" y="193.7" 
+                  text-anchor="middle" font-size="11">31</text>
+            <rect x="413.66666666666663" y="42.30000000000001" 
+                  width="43.55555555555555" height="227.7" 
+                  fill="#2196F3" />
+            <text x="435.4444444444444" y="37.30000000000001" 
+                  text-anchor="middle" font-size="11">99</text>
+            <text x="411.66666666666663" y="290" 
+                  text-anchor="middle" font-size="12">Meadow</text>
+            <!-- Legend -->
+            <rect x="500" y="60" 
+                  width="15" height="15" fill="#4CAF50"/>
+            <text x="520" y="72" 
+                  font-size="12">2020</text>
+            
+            <rect x="500" y="85" 
+                  width="15" height="15" fill="#2196F3"/>
+            <text x="520" y="97" 
+                  font-size="12">2021</text>
+        </svg>
+                </div>
+            </div>
+            <div class="item" label="Gr4_44_3_22_B" style="display: inline-block">
+                <div style="background: white; padding: 10px;">
+                    
+        <div class="chart-title">Bird watching data</div>
+        <svg width="600" height="350">
+            <!-- Y-axis -->
+            <line x1="70" y1="40" 
+                  x2="70" y2="270" 
+                  stroke="black" stroke-width="2"/>
+            
+            <!-- X-axis -->
+            <line x1="70" y1="270" 
+                  x2="480" y2="270" 
+                  stroke="black" stroke-width="2"/>
+            
+            <!-- Y-axis labels and grid lines -->
+            <text x="60" y="275.0" text-anchor="end" font-size="12">0</text>
+            <line x1="70" y1="270.0" 
+                  x2="480" y2="270.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="229.0" text-anchor="end" font-size="12">20</text>
+            <line x1="70" y1="224.0" 
+                  x2="480" y2="224.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="183.0" text-anchor="end" font-size="12">40</text>
+            <line x1="70" y1="178.0" 
+                  x2="480" y2="178.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="137.0" text-anchor="end" font-size="12">60</text>
+            <line x1="70" y1="132.0" 
+                  x2="480" y2="132.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="91.0" text-anchor="end" font-size="12">80</text>
+            <line x1="70" y1="86.0" 
+                  x2="480" y2="86.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="45.0" text-anchor="end" font-size="12">100</text>
+            <line x1="70" y1="40.0" 
+                  x2="480" y2="40.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <rect x="92.77777777777777" y="143.5" 
+                  width="43.55555555555555" height="126.50000000000001" 
+                  fill="#4CAF50" />
+            <text x="114.55555555555554" y="138.5" 
+                  text-anchor="middle" font-size="11">55</text>
+            <rect x="140.33333333333331" y="92.9" 
+                  width="43.55555555555555" height="177.1" 
+                  fill="#2196F3" />
+            <text x="162.1111111111111" y="87.9" 
+                  text-anchor="middle" font-size="11">77</text>
+            <text x="138.33333333333331" y="290" 
+                  text-anchor="middle" font-size="12">Lake area</text>
+            <rect x="229.44444444444446" y="69.9" 
+                  width="43.55555555555555" height="200.1" 
+                  fill="#4CAF50" />
+            <text x="251.22222222222223" y="64.9" 
+                  text-anchor="middle" font-size="11">87</text>
+            <rect x="277.0" y="56.099999999999994" 
+                  width="43.55555555555555" height="213.9" 
+                  fill="#2196F3" />
+            <text x="298.77777777777777" y="51.099999999999994" 
+                  text-anchor="middle" font-size="11">93</text>
+            <text x="275.0" y="290" 
+                  text-anchor="middle" font-size="12">Forest</text>
+            <rect x="366.1111111111111" y="198.7" 
+                  width="43.55555555555555" height="71.3" 
+                  fill="#4CAF50" />
+            <text x="387.88888888888886" y="193.7" 
+                  text-anchor="middle" font-size="11">31</text>
+            <rect x="413.66666666666663" y="42.30000000000001" 
+                  width="43.55555555555555" height="227.7" 
+                  fill="#2196F3" />
+            <text x="435.4444444444444" y="37.30000000000001" 
+                  text-anchor="middle" font-size="11">99</text>
+            <text x="411.66666666666663" y="290" 
+                  text-anchor="middle" font-size="12">Meadow</text>
+            <!-- Legend -->
+            <rect x="500" y="60" 
+                  width="15" height="15" fill="#4CAF50"/>
+            <text x="520" y="72" 
+                  font-size="12">2020</text>
+            
+            <rect x="500" y="85" 
+                  width="15" height="15" fill="#2196F3"/>
+            <text x="520" y="97" 
+                  font-size="12">2021</text>
+        </svg>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Solution Steps -->
+        <div class="solution-steps">
+            <div class="item" label="Gr4_44_3_22_step_1" style="display: inline-block">
+    <table class="data-table">
+        <tr>
+            <th colspan="3" style="background-color: #4CAF50; color: white; text-align: center;">
+                Bird watching data
+            </th>
+        </tr>
+        <tr>
+            <th>Category</th>
+            <th>2020</th>
+            <th>2021</th>
+        </tr>
+        <tr>
+            <td>Lake area</td>
+            <td>55</td>
+            <td>77</td>
+        </tr>
+        <tr>
+            <td>Forest</td>
+            <td>87</td>
+            <td>93</td>
+        </tr>
+        <tr>
+            <td>Meadow</td>
+            <td>31</td>
+            <td>99</td>
+        </tr>
+    </table>
+            </div>
+            <div class="item" label="Gr4_44_3_22_step_2" style="display: inline-block">
+                <div style="background: white; padding: 10px;">
+                    
+        <div class="chart-title">Bird watching data</div>
+        <svg width="600" height="350">
+            <!-- Y-axis -->
+            <line x1="70" y1="40" 
+                  x2="70" y2="270" 
+                  stroke="black" stroke-width="2"/>
+            
+            <!-- X-axis -->
+            <line x1="70" y1="270" 
+                  x2="480" y2="270" 
+                  stroke="black" stroke-width="2"/>
+            
+            <!-- Y-axis labels and grid lines -->
+            <text x="60" y="275.0" text-anchor="end" font-size="12">0</text>
+            <line x1="70" y1="270.0" 
+                  x2="480" y2="270.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="229.0" text-anchor="end" font-size="12">20</text>
+            <line x1="70" y1="224.0" 
+                  x2="480" y2="224.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="183.0" text-anchor="end" font-size="12">40</text>
+            <line x1="70" y1="178.0" 
+                  x2="480" y2="178.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="137.0" text-anchor="end" font-size="12">60</text>
+            <line x1="70" y1="132.0" 
+                  x2="480" y2="132.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="91.0" text-anchor="end" font-size="12">80</text>
+            <line x1="70" y1="86.0" 
+                  x2="480" y2="86.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="45.0" text-anchor="end" font-size="12">100</text>
+            <line x1="70" y1="40.0" 
+                  x2="480" y2="40.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <rect x="92.77777777777777" y="143.5" 
+                  width="43.55555555555555" height="126.50000000000001" 
+                  fill="#4CAF50" />
+            <text x="114.55555555555554" y="138.5" 
+                  text-anchor="middle" font-size="11">55</text>
+            <rect x="140.33333333333331" y="92.9" 
+                  width="43.55555555555555" height="177.1" 
+                  fill="#2196F3" />
+            <text x="162.1111111111111" y="87.9" 
+                  text-anchor="middle" font-size="11">77</text>
+            <text x="138.33333333333331" y="290" 
+                  text-anchor="middle" font-size="12">Lake area</text>
+            <rect x="229.44444444444446" y="92.9" 
+                  width="43.55555555555555" height="177.1" 
+                  fill="#4CAF50" stroke="red" stroke-width="3"/>
+            <text x="251.22222222222223" y="87.9" 
+                  text-anchor="middle" font-size="11">77</text>
+            <rect x="277.0" y="56.099999999999994" 
+                  width="43.55555555555555" height="213.9" 
+                  fill="#2196F3" />
+            <text x="298.77777777777777" y="51.099999999999994" 
+                  text-anchor="middle" font-size="11">93</text>
+            <text x="275.0" y="290" 
+                  text-anchor="middle" font-size="12">Forest</text>
+            <rect x="366.1111111111111" y="198.7" 
+                  width="43.55555555555555" height="71.3" 
+                  fill="#4CAF50" />
+            <text x="387.88888888888886" y="193.7" 
+                  text-anchor="middle" font-size="11">31</text>
+            <rect x="413.66666666666663" y="42.30000000000001" 
+                  width="43.55555555555555" height="227.7" 
+                  fill="#2196F3" />
+            <text x="435.4444444444444" y="37.30000000000001" 
+                  text-anchor="middle" font-size="11">99</text>
+            <text x="411.66666666666663" y="290" 
+                  text-anchor="middle" font-size="12">Meadow</text>
+            <!-- Legend -->
+            <rect x="500" y="60" 
+                  width="15" height="15" fill="#4CAF50"/>
+            <text x="520" y="72" 
+                  font-size="12">2020</text>
+            
+            <rect x="500" y="85" 
+                  width="15" height="15" fill="#2196F3"/>
+            <text x="520" y="97" 
+                  font-size="12">2021</text>
+        </svg>
+                </div>
+            </div>
+            <div class="item" label="Gr4_44_3_22_step_3" style="display: inline-block">
+                <div style="background: white; padding: 10px;">
+                    
+        <div class="chart-title">Bird watching data</div>
+        <svg width="600" height="350">
+            <!-- Y-axis -->
+            <line x1="70" y1="40" 
+                  x2="70" y2="270" 
+                  stroke="black" stroke-width="2"/>
+            
+            <!-- X-axis -->
+            <line x1="70" y1="270" 
+                  x2="480" y2="270" 
+                  stroke="black" stroke-width="2"/>
+            
+            <!-- Y-axis labels and grid lines -->
+            <text x="60" y="275.0" text-anchor="end" font-size="12">0</text>
+            <line x1="70" y1="270.0" 
+                  x2="480" y2="270.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="229.0" text-anchor="end" font-size="12">20</text>
+            <line x1="70" y1="224.0" 
+                  x2="480" y2="224.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="183.0" text-anchor="end" font-size="12">40</text>
+            <line x1="70" y1="178.0" 
+                  x2="480" y2="178.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="137.0" text-anchor="end" font-size="12">60</text>
+            <line x1="70" y1="132.0" 
+                  x2="480" y2="132.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="91.0" text-anchor="end" font-size="12">80</text>
+            <line x1="70" y1="86.0" 
+                  x2="480" y2="86.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="45.0" text-anchor="end" font-size="12">100</text>
+            <line x1="70" y1="40.0" 
+                  x2="480" y2="40.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <rect x="92.77777777777777" y="143.5" 
+                  width="43.55555555555555" height="126.50000000000001" 
+                  fill="#4CAF50" />
+            <text x="114.55555555555554" y="138.5" 
+                  text-anchor="middle" font-size="11">55</text>
+            <rect x="140.33333333333331" y="92.9" 
+                  width="43.55555555555555" height="177.1" 
+                  fill="#2196F3" />
+            <text x="162.1111111111111" y="87.9" 
+                  text-anchor="middle" font-size="11">77</text>
+            <text x="138.33333333333331" y="290" 
+                  text-anchor="middle" font-size="12">Lake area</text>
+            <rect x="229.44444444444446" y="69.9" 
+                  width="43.55555555555555" height="200.1" 
+                  fill="#4CAF50" />
+            <text x="251.22222222222223" y="64.9" 
+                  text-anchor="middle" font-size="11">87</text>
+            <rect x="277.0" y="56.099999999999994" 
+                  width="43.55555555555555" height="213.9" 
+                  fill="#2196F3" />
+            <text x="298.77777777777777" y="51.099999999999994" 
+                  text-anchor="middle" font-size="11">93</text>
+            <text x="275.0" y="290" 
+                  text-anchor="middle" font-size="12">Forest</text>
+            <rect x="366.1111111111111" y="198.7" 
+                  width="43.55555555555555" height="71.3" 
+                  fill="#4CAF50" />
+            <text x="387.88888888888886" y="193.7" 
+                  text-anchor="middle" font-size="11">31</text>
+            <rect x="413.66666666666663" y="42.30000000000001" 
+                  width="43.55555555555555" height="227.7" 
+                  fill="#2196F3" />
+            <text x="435.4444444444444" y="37.30000000000001" 
+                  text-anchor="middle" font-size="11">99</text>
+            <text x="411.66666666666663" y="290" 
+                  text-anchor="middle" font-size="12">Meadow</text>
+            <!-- Legend -->
+            <rect x="500" y="60" 
+                  width="15" height="15" fill="#4CAF50"/>
+            <text x="520" y="72" 
+                  font-size="12">2020</text>
+            
+            <rect x="500" y="85" 
+                  width="15" height="15" fill="#2196F3"/>
+            <text x="520" y="97" 
+                  font-size="12">2021</text>
+        </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

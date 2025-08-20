@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .item {
+            display: inline-block;
+            margin: 10px;
+        }
+        .grid-container {
+            display: inline-flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .grid {
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            border: 2px solid #333;
+            background: linear-gradient(to right, transparent 49%, #ddd 49%, #ddd 51%, transparent 51%),
+                        linear-gradient(to bottom, transparent 49%, #ddd 49%, #ddd 51%, transparent 51%);
+            background-size: 30px 30px;
+            position: relative;
+        }
+        .arrow {
+            font-size: 30px;
+            color: #333;
+        }
+        .letter {
+            position: absolute;
+            font-family: Arial, sans-serif;
+            font-size: 48px;
+            font-weight: bold;
+            color: #FF8C00;
+        }
+    </style>
+</head>
+<body>
+    <!-- Question 1_43: A transformation of the letter 'M' on two small gr... -->
+    <div class="item" label="Gr4_46_4_40">
+        <div class="grid-container">
+            <div class="grid">
+                <div class="letter" style="top: 50px; left: 55px;">M</div>
+            </div>
+            <div class="arrow">-></div>
+            <div class="grid">
+                <div class="letter" style="top: 50px; left: 85px;">M</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

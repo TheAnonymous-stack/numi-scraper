@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .question-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .item {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: white;
+        }
+        .chart-title {
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .data-table {
+            border-collapse: collapse;
+            margin: 10px auto;
+        }
+        .data-table th, .data-table td {
+            padding: 10px 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        .choices-container {
+            display: flex;
+            gap: 20px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .choice {
+            flex: 1;
+            min-width: 400px;
+        }
+        .step {
+            flex: 1;
+            min-width: 400px;
+            max-width: 700px;
+        }
+    </style>
+</head>
+<body>
+    <div class="question-container">
+        
+        <!-- Main Image -->
+        <div class="item" label="Gr4_44_3_4" style="display: inline-block">
+            <div style="background: white; padding: 10px;">
+                
+        <div class="chart-title">Swimming practice</div>
+        <svg width="600" height="350">
+            <!-- Y-axis -->
+            <line x1="70" y1="40" 
+                  x2="70" y2="270" 
+                  stroke="black" stroke-width="2"/>
+            
+            <!-- X-axis -->
+            <line x1="70" y1="270" 
+                  x2="480" y2="270" 
+                  stroke="black" stroke-width="2"/>
+            
+            <!-- Y-axis labels and grid lines -->
+            <text x="60" y="275.0" text-anchor="end" font-size="12">0</text>
+            <line x1="70" y1="270.0" 
+                  x2="480" y2="270.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="198.33333333333334" text-anchor="end" font-size="12">20</text>
+            <line x1="70" y1="193.33333333333334" 
+                  x2="480" y2="193.33333333333334" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="121.66666666666669" text-anchor="end" font-size="12">40</text>
+            <line x1="70" y1="116.66666666666669" 
+                  x2="480" y2="116.66666666666669" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="45.0" text-anchor="end" font-size="12">60</text>
+            <line x1="70" y1="40.0" 
+                  x2="480" y2="40.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <rect x="92.77777777777777" y="47.66666666666666" 
+                  width="43.55555555555555" height="222.33333333333334" 
+                  fill="#4CAF50" />
+            <text x="114.55555555555554" y="42.66666666666666" 
+                  text-anchor="middle" font-size="11">58</text>
+            <rect x="140.33333333333331" y="109.0" 
+                  width="43.55555555555555" height="161.0" 
+                  fill="#2196F3" />
+            <text x="162.1111111111111" y="104.0" 
+                  text-anchor="middle" font-size="11">42</text>
+            <text x="138.33333333333331" y="290" 
+                  text-anchor="middle" font-size="12">Freestyle</text>
+            <rect x="229.44444444444446" y="120.5" 
+                  width="43.55555555555555" height="149.5" 
+                  fill="#4CAF50" />
+            <text x="251.22222222222223" y="115.5" 
+                  text-anchor="middle" font-size="11">39</text>
+            <rect x="277.0" y="74.5" 
+                  width="43.55555555555555" height="195.5" 
+                  fill="#2196F3" />
+            <text x="298.77777777777777" y="69.5" 
+                  text-anchor="middle" font-size="11">51</text>
+            <text x="275.0" y="290" 
+                  text-anchor="middle" font-size="12">Backstroke</text>
+            <rect x="366.1111111111111" y="101.33333333333334" 
+                  width="43.55555555555555" height="168.66666666666666" 
+                  fill="#4CAF50" />
+            <text x="387.88888888888886" y="96.33333333333334" 
+                  text-anchor="middle" font-size="11">44</text>
+            <rect x="413.66666666666663" y="101.33333333333334" 
+                  width="43.55555555555555" height="168.66666666666666" 
+                  fill="#2196F3" />
+            <text x="435.4444444444444" y="96.33333333333334" 
+                  text-anchor="middle" font-size="11">44</text>
+            <text x="411.66666666666663" y="290" 
+                  text-anchor="middle" font-size="12">Butterfly</text>
+            <!-- Legend -->
+            <rect x="500" y="60" 
+                  width="15" height="15" fill="#4CAF50"/>
+            <text x="520" y="72" 
+                  font-size="12">fast</text>
+            
+            <rect x="500" y="85" 
+                  width="15" height="15" fill="#2196F3"/>
+            <text x="520" y="97" 
+                  font-size="12">slow</text>
+        </svg>
+            </div>
+        </div>
+        
+        <!-- Choice Images -->
+        <div class="choices-container">
+            <div class="item" label="Gr4_44_3_4_A" style="display: inline-block">
+    <table class="data-table">
+        <tr>
+            <th colspan="3" style="background-color: #4CAF50; color: white; text-align: center;">
+                Swimming practice
+            </th>
+        </tr>
+        <tr>
+            <th>Category</th>
+            <th>fast</th>
+            <th>slow</th>
+        </tr>
+        <tr>
+            <td>Freestyle</td>
+            <td>58</td>
+            <td>42</td>
+        </tr>
+        <tr>
+            <td>Backstroke</td>
+            <td>39</td>
+            <td>51</td>
+        </tr>
+        <tr>
+            <td>Butterfly</td>
+            <td>44</td>
+            <td>54</td>
+        </tr>
+    </table>
+            </div>
+            <div class="item" label="Gr4_44_3_4_B" style="display: inline-block">
+    <table class="data-table">
+        <tr>
+            <th colspan="3" style="background-color: #4CAF50; color: white; text-align: center;">
+                Swimming practice
+            </th>
+        </tr>
+        <tr>
+            <th>Category</th>
+            <th>fast</th>
+            <th>slow</th>
+        </tr>
+        <tr>
+            <td>Freestyle</td>
+            <td>58</td>
+            <td>42</td>
+        </tr>
+        <tr>
+            <td>Backstroke</td>
+            <td>39</td>
+            <td>51</td>
+        </tr>
+        <tr>
+            <td>Butterfly</td>
+            <td>44</td>
+            <td>44</td>
+        </tr>
+    </table>
+            </div>
+        </div>
+        
+        <!-- Solution Steps -->
+        <div class="solution-steps">
+            <div class="item" label="Gr4_44_3_4_step_1" style="display: inline-block">
+            <div style="background: white; padding: 10px;">
+                
+        <div class="chart-title">Swimming practice</div>
+        <svg width="600" height="350">
+            <!-- Y-axis -->
+            <line x1="70" y1="40" 
+                  x2="70" y2="270" 
+                  stroke="black" stroke-width="2"/>
+            
+            <!-- X-axis -->
+            <line x1="70" y1="270" 
+                  x2="480" y2="270" 
+                  stroke="black" stroke-width="2"/>
+            
+            <!-- Y-axis labels and grid lines -->
+            <text x="60" y="275.0" text-anchor="end" font-size="12">0</text>
+            <line x1="70" y1="270.0" 
+                  x2="480" y2="270.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="198.33333333333334" text-anchor="end" font-size="12">20</text>
+            <line x1="70" y1="193.33333333333334" 
+                  x2="480" y2="193.33333333333334" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="121.66666666666669" text-anchor="end" font-size="12">40</text>
+            <line x1="70" y1="116.66666666666669" 
+                  x2="480" y2="116.66666666666669" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <text x="60" y="45.0" text-anchor="end" font-size="12">60</text>
+            <line x1="70" y1="40.0" 
+                  x2="480" y2="40.0" 
+                  stroke="#e0e0e0" stroke-width="1"/>
+            <rect x="92.77777777777777" y="47.66666666666666" 
+                  width="43.55555555555555" height="222.33333333333334" 
+                  fill="#4CAF50" />
+            <text x="114.55555555555554" y="42.66666666666666" 
+                  text-anchor="middle" font-size="11">58</text>
+            <rect x="140.33333333333331" y="109.0" 
+                  width="43.55555555555555" height="161.0" 
+                  fill="#2196F3" />
+            <text x="162.1111111111111" y="104.0" 
+                  text-anchor="middle" font-size="11">42</text>
+            <text x="138.33333333333331" y="290" 
+                  text-anchor="middle" font-size="12">Freestyle</text>
+            <rect x="229.44444444444446" y="120.5" 
+                  width="43.55555555555555" height="149.5" 
+                  fill="#4CAF50" />
+            <text x="251.22222222222223" y="115.5" 
+                  text-anchor="middle" font-size="11">39</text>
+            <rect x="277.0" y="74.5" 
+                  width="43.55555555555555" height="195.5" 
+                  fill="#2196F3" />
+            <text x="298.77777777777777" y="69.5" 
+                  text-anchor="middle" font-size="11">51</text>
+            <text x="275.0" y="290" 
+                  text-anchor="middle" font-size="12">Backstroke</text>
+            <rect x="366.1111111111111" y="101.33333333333334" 
+                  width="43.55555555555555" height="168.66666666666666" 
+                  fill="#4CAF50" />
+            <text x="387.88888888888886" y="96.33333333333334" 
+                  text-anchor="middle" font-size="11">44</text>
+            <rect x="413.66666666666663" y="101.33333333333334" 
+                  width="43.55555555555555" height="168.66666666666666" 
+                  fill="#2196F3" />
+            <text x="435.4444444444444" y="96.33333333333334" 
+                  text-anchor="middle" font-size="11">44</text>
+            <text x="411.66666666666663" y="290" 
+                  text-anchor="middle" font-size="12">Butterfly</text>
+            <!-- Legend -->
+            <rect x="500" y="60" 
+                  width="15" height="15" fill="#4CAF50"/>
+            <text x="520" y="72" 
+                  font-size="12">fast</text>
+            
+            <rect x="500" y="85" 
+                  width="15" height="15" fill="#2196F3"/>
+            <text x="520" y="97" 
+                  font-size="12">slow</text>
+        </svg>
+            </div>
+            </div>
+            <div class="item" label="Gr4_44_3_4_step_2" style="display: inline-block">
+    <table class="data-table">
+        <tr>
+            <th colspan="3" style="background-color: #4CAF50; color: white; text-align: center;">
+                Swimming practice
+            </th>
+        </tr>
+        <tr>
+            <th>Category</th>
+            <th>fast</th>
+            <th>slow</th>
+        </tr>
+        <tr>
+            <td>Freestyle</td>
+            <td>58</td>
+            <td>42</td>
+        </tr>
+        <tr>
+            <td>Backstroke</td>
+            <td>39</td>
+            <td>51</td>
+        </tr>
+        <tr>
+            <td>Butterfly</td>
+            <td>44</td>
+            <td>54</td>
+        </tr>
+    </table>
+            </div>
+            <div class="item" label="Gr4_44_3_4_step_3" style="display: inline-block">
+    <table class="data-table">
+        <tr>
+            <th colspan="3" style="background-color: #4CAF50; color: white; text-align: center;">
+                Swimming practice
+            </th>
+        </tr>
+        <tr>
+            <th>Category</th>
+            <th>fast</th>
+            <th>slow</th>
+        </tr>
+        <tr>
+            <td>Freestyle</td>
+            <td>58</td>
+            <td>42</td>
+        </tr>
+        <tr>
+            <td>Backstroke</td>
+            <td>39</td>
+            <td>51</td>
+        </tr>
+        <tr>
+            <td>Butterfly</td>
+            <td>44</td>
+            <td>44</td>
+        </tr>
+    </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gr4_2_E2 2_48 Images</title>
+    <style>
+        .item {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .rounding-table {
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            margin: 0;
+        }
+        
+        .rounding-table caption {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+        
+        .rounding-table th {
+            background-color: #87CEEB;
+            border: 2px solid black;
+            padding: 10px 30px;
+            text-align: center;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .rounding-table td {
+            background-color: white;
+            border: 2px solid black;
+            padding: 10px 30px;
+            text-align: center;
+            font-size: 20px;
+        }
+        
+        .empty-cell {
+            background-color: #f0f0f0;
+            min-width: 80px;
+            height: 40px;
+        }
+        
+        .completed {
+            color: #9370DB;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Initial table with empty cells -->
+    <div class="item" label="Gr4_2_2_48" style="display: inline-block; padding: 10px;">
+        <table class="rounding-table">
+            <caption>Rule: Round to the nearest ten</caption>
+            <tr>
+                <th>In</th>
+                <th>Out</th>
+            </tr>
+            <tr>
+                <td>519</td>
+                <td>520</td>
+            </tr>
+            <tr>
+                <td>666</td>
+                <td class="empty-cell"></td>
+            </tr>
+            <tr>
+                <td>86</td>
+                <td class="empty-cell"></td>
+            </tr>
+            <tr>
+                <td>147</td>
+                <td class="empty-cell"></td>
+            </tr>
+        </table>
+    </div>
+    
+    <!-- Completed table for solution -->
+    <div class="item" label="Gr4_2_2_48_step_5" style="display: inline-block; padding: 10px;">
+        <table class="rounding-table">
+            <caption>Rule: Round to the nearest ten</caption>
+            <tr>
+                <th>In</th>
+                <th>Out</th>
+            </tr>
+            <tr>
+                <td>519</td>
+                <td>520</td>
+            </tr>
+            <tr>
+                <td>666</td>
+                <td class="completed">670</td>
+            </tr>
+            <tr>
+                <td>86</td>
+                <td class="completed">90</td>
+            </tr>
+            <tr>
+                <td>147</td>
+                <td class="completed">150</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
