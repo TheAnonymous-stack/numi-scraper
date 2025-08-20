@@ -63,37 +63,6 @@
   },
   {
     "skills": "extend-a-repeating-shape-pattern",
-    "question_text": "Look at the steps and find the pattern.\nIf the pattern continues, what shape will be in the 95th step?",
-    "image_tag": "Gr4_36_2_1_2",
-    "backend_description": "This image shows a 6-step sequence diagram with a pattern of shapes. The pattern consists of navy ovals and coral hearts arranged horizontally. The sequence shows: oval, heart, oval, heart, heart, oval. Each shape is labeled below with gray text indicating 'step 1' through 'step 6'. The shapes follow a consistent repeating pattern.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_36_E2",
-    "image_choice_tags": [
-      "Gr4_36_2_2_A",
-      "Gr4_36_2_2_B"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "The pattern shows a repeating sequence: oval, heart, oval, 2 hearts, oval."
-      ],
-      [
-        "2/2",
-        "To find the 95th step, divide 95 by the pattern length and look at the remainder. The shape in the 95th step will be a heart."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "2_1_2",
-    "image_choice_tags_backend_description": [
-      "A simple geometric shape showing a navy oval centered inside a light blue rounded border. The oval is a solid color with clean edges, useful for teaching shape recognition and patterns.",
-      "A coral heart centered inside a light blue rounded border. The heart has clean lines, contrasting with the oval option to help students distinguish between different geometric shapes."
-    ]
-  },
-  {
-    "skills": "extend-a-repeating-shape-pattern",
     "question_text": "Look at the steps and find the pattern.\nIf the pattern continues, what shape will be in the 104th step?",
     "image_tag": "Gr4_36_2_3",
     "backend_description": "This image shows a 6-step sequence diagram with a pattern of shapes. The pattern consists of yellow rectangles and pink pentagons arranged horizontally. The sequence shows: rectangle, pentagon, rectangle, pentagon, rectangle, pentagon. Each shape is labeled below with gray text indicating 'step 1' through 'step 6'. The shapes follow a consistent repeating pattern.",
@@ -1578,6 +1547,37 @@
     "image_choice_tags_backend_description": [
       "A simple geometric shape showing a green hexagon centered inside a light blue rounded border. The hexagon is a solid color with clean edges, useful for teaching shape recognition and patterns.",
       "A purple diamond centered inside a light blue rounded border. The diamond has clean lines, contrasting with the hexagon option to help students distinguish between different geometric shapes."
+    ]
+  },
+  {
+    "skills": "extend-a-repeating-shape-pattern",
+    "question_text": "Look at the steps and find the pattern.\nIf the pattern continues, what shape will be in the 149th step?",
+    "image_tag": "Gr4_36_2_51",
+    "backend_description": "This image shows a 6-step sequence diagram with a pattern of shapes. The pattern consists of navy ovals and coral hearts arranged horizontally. The sequence shows: oval, heart, oval, heart, oval, heart. Each shape is labeled below with gray text indicating 'step 1' through 'step 6'. The shapes follow a consistent repeating pattern.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "tag": "Gr4_36_E2",
+    "image_choice_tags": [
+      "Gr4_36_2_51_A",
+      "Gr4_36_2_51_B"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "The pattern shows a oval followed by a heart. Then the pattern repeats."
+      ],
+      [
+        "2/2",
+        "Notice that the shape in every odd-numbered step is a oval, and the shape in every even-numbered step is a heart. Since 149 is an odd number, the shape in the 149th step will be a oval."
+      ]
+    ],
+    "solution_image_tag": [],
+    "question_number": "2_51",
+    "image_choice_tags_backend_description": [
+      "A simple geometric shape showing a navy oval centered inside a light blue rounded border. The oval is a solid color with clean edges, useful for teaching shape recognition and patterns.",
+      "A coral heart centered inside a light blue rounded border. The heart has clean lines, contrasting with the oval option to help students distinguish between different geometric shapes."
     ]
   }
 ]
