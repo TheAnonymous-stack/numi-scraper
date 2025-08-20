@@ -17,7 +17,7 @@ with open("miniMapping.csv", newline="") as f:
 
 
 
-with open("FORMAT_UPDATE4-gr4ScrapedQuestions(Gr4_14_E1_1_1-Gr4_26_E4_4_1).json", "r") as f:
+with open("FORMAT_UPDATE4-gr4ScrapedQuestions(Gr4_40_E1_1_1-Gr4_52_E4_4_1).json", "r") as f:
     data = json.load(f)
     for question in data: 
         variationCounter[question["tag"]] += 1
