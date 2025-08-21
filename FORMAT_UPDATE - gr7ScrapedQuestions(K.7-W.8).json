@@ -108,7 +108,7 @@
   },
   {
     "skills": "compare-and-order-decimals",
-    "question_text": "Which sign makes the statement true?\n\n$2.5 \\_\\_\\_\\_ 1.3$",
+    "question_text": "Which sign makes the statement true?\n\n2.5 dollars \\_\\_\\_\\_ 1.3$",
     "tag": "Gr7_1_E4",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -675,10 +675,12 @@
   },
   {
     "skills": "convert-between-mixed-numbers-and-improper-fractions",
-    "question_text": "Write $\\frac{26}{9}$ as a mixed number.\n",
+    "question_text": "Write $\\frac{26}{9}$ as a mixed number.\n $\\frac{26}{9}$ = _ _/_M",
     "question_type": "Fraction Fill in the blank",
     "correct_answers": [
-      "2", "8", "9"
+      "2",
+      "8",
+      "9"
     ],
     "solution": [
       [
@@ -785,7 +787,7 @@
   },
   {
     "skills": "evaluate-numerical-expressions-involving-decimals",
-    "question_text": "Evaluate the expression.\n\n$0.1 + 0.6 ÷ 3 = \\_\\_\\_\\_$\n\nWrite your answer as an integer or a decimal. Do not round.\n\n",
+    "question_text": "Evaluate the expression.\n\n0.1 dollars + 0.6 ÷ 3 = \\_\\_\\_\\_$\n\nWrite your answer as an integer or a decimal. Do not round.\n\n",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "0.3",
@@ -891,9 +893,9 @@
   },
   {
     "skills": "price-lists",
-    "question_text": "Isabelle has $1.00. Does she have enough to buy a package of purple streamers and a party hat?\n\nDo not round.\n\n",
+    "question_text": "Isabelle has 1.00 dollar. Does she have enough to buy a package of purple streamers and a party hat?\n\nDo not round.\n\n",
     "image_tag": "Grade7_7_1_1",
-    "backend_description": "A price list table showing party supplies: bouncy ball ($0.71), greeting card ($0.97), party hat ($0.57), noisemaker ($0.52), and package of purple streamers ($0.41). The table has a yellow header and white background.",
+    "backend_description": "A price list table showing party supplies: bouncy ball (0.71 dollars), greeting card (0.97 dollars), party hat (0.57 dollars), noisemaker (0.52 dollars), and package of purple streamers (0.41 dollars). The table has a yellow header and white background.",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
       "yes",
@@ -906,17 +908,17 @@
       [
         "1/2",
         "Gr7_7_1_1_step_1",
-        "Shows the addition calculation: $0.41 + $0.57 = $0.98. The amounts are properly aligned by decimal point for accurate addition."
+        "Shows the addition calculation: 0.41 dollars + 0.57 dollars = 0.98 dollars. The amounts are properly aligned by decimal point for accurate addition."
       ]
     ],
     "solution": [
       [
         "1/2",
-        "Add the price of a package of purple streamers and the price of a party hat: $0.41 + $0.57 = $0.98"
+        "Add the price of a package of purple streamers and the price of a party hat: 0.41 dollars + 0.57 dollars = 0.98 dollars"
       ],
       [
         "2/2",
-        "$0.98 is less than $1.00. So, yes Isabelle does have enough money."
+        "0.98 dollars is less than 1.00 dollar. So, yes Isabelle does have enough money."
       ]
     ],
     "tag": "Gr7_7_E1",
@@ -926,7 +928,7 @@
     "question_text": "How much more does a ticket for a Hawaiian cruise cost than a ticket for a Mexican cruise?\n",
     "skills": "price-lists",
     "image_tag": "Grade7_7_1_2",
-    "backend_description": "A price list table showing cruise ticket prices: Australian cruise ($6040), Mexican cruise ($7119), Alaskan cruise ($6959), Mediterranean cruise ($2462), and Hawaiian cruise ($8606). The table uses purple header styling.",
+    "backend_description": "A price list table showing cruise ticket prices: Australian cruise (6040 dollars), Mexican cruise (7119 dollars), Alaskan cruise (6959 dollars), Mediterranean cruise (2462 dollars), and Hawaiian cruise (8606 dollars). The table uses purple header styling.",
     "tag": "Gr7_7_E1",
     "question_type": "Fill in the blank",
     "question_number": "1_2",
@@ -938,7 +940,7 @@
       [
         "1/2",
         "Gr7_7_1_2_step_1",
-        "Shows the subtraction calculation: $8606 - $7119 = $1487. The larger Hawaiian cruise price minus the Mexican cruise price gives the difference."
+        "Shows the subtraction calculation: 8606 dollars - 7119 dollars = 1487 dollars. The larger Hawaiian cruise price minus the Mexican cruise price gives the difference."
       ]
     ],
     "solution": [
@@ -948,7 +950,7 @@
       ],
       [
         "2/2",
-        "A ticket for a Hawaiian cruise costs $1487 more than a ticket for a Mexican cruise."
+        "A ticket for a Hawaiian cruise costs 1487 dollars more than a ticket for a Mexican cruise."
       ]
     ]
   },
@@ -956,7 +958,7 @@
     "question_text": "How much money does Wanda need to buy a small metal hook and a short steel screw?\n\nDo not round.\n",
     "skills": "price-lists",
     "image_tag": "Grade7_7_1_3",
-    "backend_description": "A price list table showing hardware items: red thumbtack ($0.12), brass clip ($0.52), small paintbrush ($0.70), short steel screw ($0.14), roll of electrical tape ($0.60), and small metal hook ($0.60). The table has alternating row colors for easier reading.",
+    "backend_description": "A price list table showing hardware items: red thumbtack (0.12 dollars), brass clip (0.52 dollars), small paintbrush (0.70 dollars), short steel screw (0.14 dollars), roll of electrical tape (0.60 dollars), and small metal hook (0.60 dollars). The table has alternating row colors for easier reading.",
     "tag": "Gr7_7_E1",
     "question_type": "Fill in the blank",
     "question_number": "1_3",
@@ -967,7 +969,7 @@
       [
         "1/2",
         "Gr7_7_1_3_step_1",
-        "Shows the addition: $0.60 + $0.14 = $0.74. The calculation adds the price of a small metal hook and a short steel screw."
+        "Shows the addition: 0.60 dollars + 0.14 dollars = 0.74 dollars. The calculation adds the price of a small metal hook and a short steel screw."
       ]
     ],
     "solution": [
@@ -977,7 +979,7 @@
       ],
       [
         "2/2",
-        "Wanda needs $0.74 to buy a small metal hook and a short steel screw."
+        "Wanda needs 0.74 dollars to buy a small metal hook and a short steel screw."
       ]
     ]
   },
@@ -985,11 +987,11 @@
     "skills": "unit-prices-find-the-total-price",
     "question_text": "What is the total cost for 1 kilogram of chicken chili?\n\n Do not round your answer.\n",
     "image_tag": "Grade7_7_3_1",
-    "backend_description": "A price list table showing soup prices per kilogram: vegetable soup ($0.63/kg), tortilla soup ($0.63/kg), chicken chili ($0.72/kg), and lobster bisque ($1.04/kg). The table clearly displays unit prices.",
+    "backend_description": "A price list table showing soup prices per kilogram: vegetable soup (0.63 dollars/kg), tortilla soup (0.63 dollars/kg), chicken chili (0.72 dollars/kg), and lobster bisque (1.04 dollars/kg). The table clearly displays unit prices.",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "0.72",
-      "$0.72"
+      "0.72 dollars"
     ],
     "solution": [
       [
@@ -998,11 +1000,11 @@
       ],
       [
         "2/3",
-        "0.72 x 1 = $0.72"
+        "0.72 x 1 = 0.72 dollars"
       ],
       [
         "3/3",
-        "The total cost for 1kg of chicken chili is $0.72."
+        "The total cost for 1kg of chicken chili is 0.72 dollars."
       ]
     ],
     "tag": "Gr7_7_E3",
@@ -1010,27 +1012,27 @@
   },
   {
     "skills": "multi-step-problems-with-percents",
-    "question_text": "A beach umbrella was originally priced at $50 but went on sale for 50% off. If Nathan bought the beach umbrella and paid 12% sales tax, how much did he pay in total?\n",
+    "question_text": "A beach umbrella was originally priced at 50 dollars but went on sale for 50% off. If Nathan bought the beach umbrella and paid 12% sales tax, how much did he pay in total?\n",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "28",
-      "$28"
+      "28 dollars"
     ],
     "solution_image_tag": [
       [
         "1/4",
         "Gr7_7_4_1_step_1",
-        "Shows finding the discount price: original price × discount = $50 × 0.50 = $25. Then subtracting from original: $50 - $25 = $25."
+        "Shows finding the discount price: original price × discount = 50 dollars × 0.50 = 25 dollars. Then subtracting from original: 50 dollars - 25 dollars = 25 dollars."
       ],
       [
         "2/4",
         "Gr7_7_4_1_step_2",
-        "Shows calculating the tax: $25 × 0.12 = $3. The 12% tax rate is converted to decimal form (0.12) for calculation."
+        "Shows calculating the tax: 25 dollars × 0.12 = 3 dollars. The 12% tax rate is converted to decimal form (0.12) for calculation."
       ],
       [
         "3/4",
         "Gr7_7_4_1_step_3",
-        "Shows the final calculation: discounted price + tax = $25 + $3 = $28. This gives the total amount Nathan paid."
+        "Shows the final calculation: discounted price + tax = 25 dollars + 3 dollars = 28 dollars. This gives the total amount Nathan paid."
       ]
     ],
     "solution": [
@@ -1048,7 +1050,7 @@
       ],
       [
         "4/4",
-        "The total for the umbrella cost was $28."
+        "The total for the umbrella cost was 28 dollars."
       ]
     ],
     "tag": "Gr7_7_E4",
@@ -1056,7 +1058,7 @@
   },
   {
     "skills": "multi-step-word-problems",
-    "question_text": "Rob and Joey went to lunch at a cafe. They ordered a spinach salad for $6.60, a tuna sandwich for $6.55, and 2 glasses of lemonade for $1.60 each. The tax was $1.65. They gave the waiter $20.00.\n\nHow much change should they have received?\n",
+    "question_text": "Rob and Joey went to lunch at a cafe. They ordered a spinach salad for 6.60 dollars, a tuna sandwich for 6.55 dollars, and 2 glasses of lemonade for 1.60 dollars each. The tax was 1.65 dollars. They gave the waiter 20.00 dollars.\n\nHow much change should they have received?\n",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "2",
@@ -1067,21 +1069,21 @@
       [
         "3/3",
         "Gr7_8_1_1_step_3",
-        "Shows the complete solution with three steps clearly labeled. Step 1 calculates food cost ($16.35), Step 2 adds tax ($18.00), and Step 3 finds the change from $20.00 ($2.00)."
+        "Shows the complete solution with three steps clearly labeled. Step 1 calculates food cost (16.35 dollars), Step 2 adds tax (18.00 dollars), and Step 3 finds the change from 20.00 dollars (2.00 dollars)."
       ]
     ],
     "solution": [
       [
         "1/3",
-        "First, find the cost of the food.\n\n6.60 + 6.55 + 1.60 + 1.60 = $16.35."
+        "First, find the cost of the food.\n\n6.60 + 6.55 + 1.60 + 1.60 = 16.35 dollars."
       ],
       [
         "2/3",
-        "Now find the total cost including the tax.\n\n16.35 + 1.65 = $18.00"
+        "Now find the total cost including the tax.\n\n16.35 + 1.65 = 18.00 dollars"
       ],
       [
         "3/3",
-        "Subtract the total cost including the tax from the amount they paid to find the change:\n\n20.00 − 18.00 = $2.00.\n"
+        "Subtract the total cost including the tax from the amount they paid to find the change:\n\n20.00 − 18.00 = 2.00 dollars.\n"
       ]
     ],
     "tag": "Gr7_8_E1",
@@ -1089,7 +1091,7 @@
   },
   {
     "skills": "properties-of-addition-and-multiplication",
-    "question_text": "Which property of multiplication is shown?\n\n$2 × (7 × 9) = (2 × 7) × 9$",
+    "question_text": "Which property of multiplication is shown?\n\n2 dollars × (7 × 9) = (2 × 7) × 9$",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
       "associative",
@@ -1113,7 +1115,7 @@
   },
   {
     "skills": "multiply-using-the-distributive-property",
-    "question_text": "Simplify the expression:\n\n$3(5t + 2) = \\_\\_\\_\\_$\n\n",
+    "question_text": "Simplify the expression:\n\n3 dollars(5t + 2) = \\_\\_\\_\\_$\n\n",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "15t+6",
@@ -1172,7 +1174,7 @@
   },
   {
     "skills": "write-equivalent-expressions-using-properties",
-    "question_text": "Complete the expressions below. Write each answer as a number, a variable, or the product of a number and a variable.\n\nExpression: $1 + 8s + 3$\n\nStep 1: Rearrange using the commutative property of addition\n\n$\\_\\_\\_\\_ + 1 + 3$\n\nStep 2: Add the constants\n\n$8s + \\_\\_\\_\\_$\n",
+    "question_text": "Complete the expressions below. Write each answer as a number, a variable, or the product of a number and a variable.\n\nExpression: 1 dollar + 8s + 3$\n\nStep 1: Rearrange using the commutative property of addition\n\n$\\_\\_\\_\\_ + 1 + 3$\n\nStep 2: Add the constants\n\n8 dollarss + \\_\\_\\_\\_$\n",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "8s,4"
@@ -1560,7 +1562,7 @@
   },
   {
     "skills": "add-and-subtract-integers",
-    "question_text": "Subtract:\n\n$2 - (-3) = \\_\\_\\_\\_$\n\n",
+    "question_text": "Subtract:\n\n2 dollars - (-3) = \\_\\_\\_\\_$\n\n",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "5"
@@ -1615,7 +1617,7 @@
     ]
   },
   {
-    "question_text": "Dominic deposited $300 he made from helping out with chores. If Dominic's bank account started out with a balance of $300, which integer represents the final balance?",
+    "question_text": "Dominic deposited 300 dollars he made from helping out with chores. If Dominic's bank account started out with a balance of 300 dollars, which integer represents the final balance?",
     "skills": "add-and-subtract-integers-word-problems",
     "tag": "Gr7_11_E1",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -1632,21 +1634,21 @@
     "solution": [
       [
         "1/3",
-        "Add Dominic's starting balance ($300) plus the amount deposited ($300) to find the final balance"
+        "Add Dominic's starting balance (300 dollars) plus the amount deposited (300 dollars) to find the final balance"
       ],
       [
         "2/3",
-        "$300 + $300 = $600"
+        "300 dollars + 300 dollars = 600 dollars"
       ],
       [
         "3/3",
-        "Dominic's final balance is $600. So, option C is correct."
+        "Dominic's final balance is 600 dollars. So, option C is correct."
       ]
     ]
   },
   {
     "skills": "add-and-subtract-integers-word-problems",
-    "question_text": "According to his bank statement, Emilio spent $10000 on a fancy watch. If Emilio's bank account started out with a balance of $10000, which integer represents the final balance?",
+    "question_text": "According to his bank statement, Emilio spent 10000 dollars on a fancy watch. If Emilio's bank account started out with a balance of 10000 dollars, which integer represents the final balance?",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
       "0",
@@ -1660,15 +1662,15 @@
     "solution": [
       [
         "1/3",
-        "Subtract Emilio's the amount spent ($10000) from his starting balance ($10000) to find the final balance"
+        "Subtract Emilio's the amount spent (10000 dollars) from his starting balance (10000 dollars) to find the final balance"
       ],
       [
         "2/3",
-        "$10000 - $10000 = $0"
+        "10000 dollars - 10000 dollars = 0 dollars"
       ],
       [
         "3/3",
-        "Emilio's final balance is $0. So, option A is correct."
+        "Emilio's final balance is 0 dollars. So, option A is correct."
       ]
     ],
     "tag": "Gr7_11_E1",
@@ -2058,7 +2060,7 @@
     "solution": [
       [
         "1/6",
-        "We are adding two mixed numbers: $2 \\frac{8}{11} + 8 \\frac{8}{11}$."
+        "We are adding two mixed numbers: 2 dollars \\frac{8}{11} + 8 \\frac{8}{11}$."
       ],
       [
         "2/6",
@@ -2078,7 +2080,7 @@
       ],
       [
         "6/6",
-        "Now add the whole numbers: 10 + 1 = 11.\n\n So the final answer is $11 \\frac{5}{11}$."
+        "Now add the whole numbers: 10 + 1 = 11.\n\n So the final answer is 11 dollars \\frac{5}{11}$."
       ]
     ],
     "tag": "Gr7_13_E3"
@@ -2119,11 +2121,11 @@
       ],
       [
         "2/6",
-        "We can't subtract $\\frac{8}{11}$ from $\\frac{1}{11}$, so we need to borrow 1 from the whole number part of $15 \\frac{1}{11}$:\n"
+        "We can't subtract $\\frac{8}{11}$ from $\\frac{1}{11}$, so we need to borrow 1 from the whole number part of 15 dollars \\frac{1}{11}$:\n"
       ],
       [
         "3/6",
-        "Rewrite $15 \\frac{1}{11}$ as $14 \\frac{12}{11}$. Now we can subtract $6 \\frac{8}{11}$."
+        "Rewrite 15 dollars \\frac{1}{11}$ as 14 dollars \\frac{12}{11}$. Now we can subtract 6 dollars \\frac{8}{11}$."
       ],
       [
         "4/6",
@@ -2135,12 +2137,12 @@
       ],
       [
         "6/6",
-        "The final answer is $8 \\frac{4}{11}$."
+        "The final answer is 8 dollars \\frac{4}{11}$."
       ]
     ]
   },
   {
-    "question_text": "Yesterday, The Sweet Slice Cafe sold $6 \\frac{1}{4}$ carafes of caffeinated coffee and $2 \\frac{1}{4}$ carafes of decaffeinated coffee. How many carafes of coffee did they sell in all?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n",
+    "question_text": "Yesterday, The Sweet Slice Cafe sold 6 dollars \\frac{1}{4}$ carafes of caffeinated coffee and 2 dollars \\frac{1}{4}$ carafes of decaffeinated coffee. How many carafes of coffee did they sell in all?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n",
     "skills": "add-and-subtract-mixed-numbers-word-problems",
     "tag": "Gr7_13_E4",
     "question_type": "Fill in the blank",
@@ -2166,7 +2168,7 @@
     "solution": [
       [
         "1/5",
-        "Find total number of carafes of coffee by adding $6 \\frac{1}{4}$ and $2 \\frac{1}{4}$."
+        "Find total number of carafes of coffee by adding 6 dollars \\frac{1}{4}$ and 2 dollars \\frac{1}{4}$."
       ],
       [
         "2/5",
@@ -2182,13 +2184,13 @@
       ],
       [
         "5/5",
-        "So, a total of $8 \\frac{1}{2}$ carafes of coffee were sold. This is also equal to the improper fraction $\\frac{17}{2}$."
+        "So, a total of 8 dollars \\frac{1}{2}$ carafes of coffee were sold. This is also equal to the improper fraction $\\frac{17}{2}$."
       ]
     ]
   },
   {
     "skills": "add-and-subtract-mixed-numbers-word-problems",
-    "question_text": "Leo's drive to work is $12 \\frac{3}{4}$ hours, whereas Mitch's is $10 \\frac{1}{4}$ hours. How much longer is Leo's drive than Mitch's?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n",
+    "question_text": "Leo's drive to work is 12 dollars \\frac{3}{4}$ hours, whereas Mitch's is 10 dollars \\frac{1}{4}$ hours. How much longer is Leo's drive than Mitch's?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n",
     "question_type": "Fill in the blank",
     "question_number": "4_2",
     "correct_answers": [
@@ -2222,7 +2224,7 @@
       ],
       [
         "4/4",
-        "Leo's drive is $2 \\frac{1}{2}$ hours longer than Mitch's:\n"
+        "Leo's drive is 2 dollars \\frac{1}{2}$ hours longer than Mitch's:\n"
       ]
     ],
     "tag": "Gr7_13_E4"
@@ -2377,7 +2379,7 @@
   },
   {
     "skills": "understanding-exponents",
-    "question_text": "Write the expression using an exponent.\n\n$2 x 2 = = \\_\\_\\_\\_^{\\_\\_\\_\\_}$",
+    "question_text": "Write the expression using an exponent.\n\n2 dollars x 2 = = \\_\\_\\_\\_^{\\_\\_\\_\\_}$",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "2^2"
@@ -2389,15 +2391,15 @@
       ],
       [
         "2/2",
-        "So, we can write this as an exponent.\n\n$2 x 2 = 2^{2}$."
+        "So, we can write this as an exponent.\n\n2 dollars x 2 = 2^{2}$."
       ]
     ],
     "tag": "Gr7_14_E4",
     "question_number": "4_1"
   },
-    {
+  {
     "skills": "understand-exponents",
-    "question_text": "Write the expression using an exponent.\n\n$4 x 4 = \\_\\_\\_\\_^{\\_\\_\\_\\_}$",
+    "question_text": "Write the expression using an exponent.\n\n4 dollars x 4 = \\_\\_\\_\\_^{\\_\\_\\_\\_}$",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "4^2"
@@ -2409,7 +2411,7 @@
       ],
       [
         "2/2",
-        "So, we write this using an exponent as $4^{2}$"
+        "So, we write this using an exponent as 4 dollars^{2}$"
       ]
     ],
     "tag": "Gr7_14_E4",
@@ -2417,7 +2419,7 @@
   },
   {
     "skills": "evaluate-powers",
-    "question_text": "Evaluate.\n\n$8^{2} = \\_\\_\\_\\_$\n\n",
+    "question_text": "Evaluate.\n\n8 dollars^{2} = \\_\\_\\_\\_$\n\n",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "64"
@@ -2444,7 +2446,7 @@
   },
   {
     "skills": "solve-equations-with-variable-exponents",
-    "question_text": "Solve for s.\n\n$2^{s} = 8$\n\n$s = \\_\\_\\_\\_$",
+    "question_text": "Solve for s.\n\n2 dollars^{s} = 8$\n\n$s = \\_\\_\\_\\_$",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "3"
@@ -2459,7 +2461,7 @@
     "solution": [
       [
         "1/5",
-        "We are given the equation: $2^{s} = 8$."
+        "We are given the equation: 2 dollars^{s} = 8$."
       ],
       [
         "2/5",
@@ -2467,11 +2469,11 @@
       ],
       [
         "3/5",
-        "First try $2^{2} = 2 × 2 = 4$, this does not equal 8."
+        "First try 2 dollars^{2} = 2 × 2 = 4$, this does not equal 8."
       ],
       [
         "4/5",
-        "Now try $2^{3} = 2 x 2 x 2 = 4 x 2 = 8$\n"
+        "Now try 2 dollars^{3} = 2 x 2 x 2 = 4 x 2 = 8$\n"
       ],
       [
         "5/5",
@@ -2597,7 +2599,7 @@
     "solution": [
       [
         "1/7",
-        "We are multiplying $4 \\frac{1}{3} x 2 \\frac{1}{4}$."
+        "We are multiplying 4 dollars \\frac{1}{3} x 2 \\frac{1}{4}$."
       ],
       [
         "2/7",
@@ -2621,7 +2623,7 @@
       ],
       [
         "7/7",
-        "The final answer is $9 \\frac{3}{4}$."
+        "The final answer is 9 dollars \\frac{3}{4}$."
       ]
     ],
     "tag": "Gr7_16_E2",
@@ -2629,7 +2631,7 @@
   },
   {
     "skills": "multiply-mixed-numbers-word-problems",
-    "question_text": "Gabe's lemon cookie recipe calls for $3$ cups of sugar.\n\nHow much sugar would Gabe use to make $\\frac{4}{5}$ of a batch of cookies?\n\nWrite your answer as a fraction or as a whole or mixed number.\n",
+    "question_text": "Gabe's lemon cookie recipe calls for 3 dollars$ cups of sugar.\n\nHow much sugar would Gabe use to make $\\frac{4}{5}$ of a batch of cookies?\n\nWrite your answer as a fraction or as a whole or mixed number.\n",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "2 2/5",
@@ -2684,7 +2686,7 @@
   },
   {
     "skills": "divide-fractions",
-    "question_text": "Divide.\n\n$2 ÷ 1/2 = \\_\\_\\_\\_ $\n\n",
+    "question_text": "Divide.\n\n2 dollars ÷ 1/2 = \\_\\_\\_\\_ $\n\n",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "4",
@@ -2694,7 +2696,7 @@
     "solution": [
       [
         "1/4",
-        "You are dividing 2 by $\\frac{1}{2}$.\n$2 ÷ \\frac{1}{2}$."
+        "You are dividing 2 by $\\frac{1}{2}$.\n2 dollars ÷ \\frac{1}{2}$."
       ],
       [
         "2/4",
@@ -2702,11 +2704,11 @@
       ],
       [
         "3/4",
-        "So, $2 ÷ \\frac{1}{2} = 2 x \\frac{2}{1} = 4$."
+        "So, 2 dollars ÷ \\frac{1}{2} = 2 x \\frac{2}{1} = 4$."
       ],
       [
         "4/4",
-        "Therefore, $2 ÷ \\frac{1}{2} = 4$."
+        "Therefore, 2 dollars ÷ \\frac{1}{2} = 4$."
       ]
     ],
     "tag": "Gr7_16_E4",
@@ -2799,7 +2801,7 @@
     "solution": [
       [
         "1/4",
-        "Convert the mixed number $1 \\frac{1}{3}$ to an improper fraction:\n"
+        "Convert the mixed number 1 dollar \\frac{1}{3}$ to an improper fraction:\n"
       ],
       [
         "2/4",
@@ -2811,7 +2813,7 @@
       ],
       [
         "4/4",
-        "Simplify $\\frac{24}{15}$. Divide both by 3 to get $\\frac{8}{5}$, which is $1 \\frac{3}{5}$ as a mixed number.\n"
+        "Simplify $\\frac{24}{15}$. Divide both by 3 to get $\\frac{8}{5}$, which is 1 dollar \\frac{3}{5}$ as a mixed number.\n"
       ]
     ],
     "tag": "Gr7_17_E2",
@@ -2819,7 +2821,7 @@
   },
   {
     "skills": "divide-fractions-and-mixed-numbers-word-problems",
-    "question_text": "A veterinarian divided $\\frac{3}{5}$ of a bottle of medicine equally among $3$ sick cats. How much did she give each sick cat?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n",
+    "question_text": "A veterinarian divided $\\frac{3}{5}$ of a bottle of medicine equally among 3 dollars$ sick cats. How much did she give each sick cat?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "1/5",
@@ -2911,7 +2913,7 @@
   },
   {
     "skills": "multiply-decimals",
-    "question_text": "The model shows 0.4 x 0.2.\n\nMultiply.\n\n$0.4 x 0.2 = \\_\\_\\_\\_$",
+    "question_text": "The model shows 0.4 x 0.2.\n\nMultiply.\n\n0.4 dollars x 0.2 = \\_\\_\\_\\_$",
     "image_tag": "Grade7_18_1_1",
     "backend_description": "Shows a 10×10 grid representing 1 whole. The visual model displays 0.4 × 0.2 with 4 rows (representing 0.4) shaded in light purple and 2 columns (representing 0.2) shaded more prominently. The overlapping area of 8 small squares represents the product.",
     "question_type": "Fill in the blank",
@@ -2952,7 +2954,7 @@
   },
   {
     "skills": "divide-decimals-by-whole-numbers",
-    "question_text": "Divide. Give the exact answer, written as a decimal.\n\n$372.33 ÷ 2 = \\_\\_\\_\\_$\n\n",
+    "question_text": "Divide. Give the exact answer, written as a decimal.\n\n372.33 dollars ÷ 2 = \\_\\_\\_\\_$\n\n",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "186.165"
@@ -3005,8 +3007,6 @@
     "skills": "divide-decimals-by-whole-numbers-word-problems",
     "question_text": "A cafeteria used 360.82 kilograms of beans to make 8 batches of chili. What quantity of beans went into each one?\n",
     "question_type": "Fill in the blank",
-    "image_tag": "Grade7_18_3_1",
-    "backend_description": "Shows a word problem asking to divide 360.82 kg of beans among 8 batches of chili, with a blank line for the answer.",
     "correct_answers": [
       "45.1025"
     ],
@@ -3204,11 +3204,11 @@
       ],
       [
         "2/5",
-        "Use cross multiplication.\n\n$22 x 8 = 11 x s$"
+        "Use cross multiplication.\n\n22 dollars x 8 = 11 x s$"
       ],
       [
         "3/5",
-        "Simplify both sides.\n\n$176 = 11s$"
+        "Simplify both sides.\n\n176 dollars = 11s$"
       ],
       [
         "4/5",
@@ -3258,11 +3258,11 @@
       ],
       [
         "2/5",
-        "Use cross multiplication.\n\n$18 × n = 9 × 20$"
+        "Use cross multiplication.\n\n18 dollars × n = 9 × 20$"
       ],
       [
         "3/5",
-        "Simplify the multiplication.\n\n$18n = 180$"
+        "Simplify the multiplication.\n\n18 dollarsn = 180$"
       ],
       [
         "4/5",
@@ -3278,7 +3278,7 @@
   },
   {
     "skills": "multiply-a-decimal-by-a-multi-digit-whole-number",
-    "question_text": "Multiply:\n\n$6.6 × 54 = \\_\\_\\_\\_$\n\n",
+    "question_text": "Multiply:\n\n6.6 dollars × 54 = \\_\\_\\_\\_$\n\n",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "356.4",
@@ -3482,7 +3482,7 @@
     "skills": "find-the-constant-of-proportionality-from-a-graph",
     "question_text": "Philippe is running laps to raise money for the West Side Children's Hospital. The more laps he runs, the more money he raises.\n\nThere is a proportional relationship between the number of laps (x) and the amount of money raised (y, in dollars).\n\nWhat is the constant of proportionality? Write your answer as a whole number or decimal.",
     "image_tag": "Grade7_21_2_1",
-    "backend_description": "A coordinate grid showing a straight line passing through the origin. The line represents the proportional relationship between laps run (x-axis) and money raised (y-axis). The line passes through points including (1, 7), showing the constant rate of $7 per lap.",
+    "backend_description": "A coordinate grid showing a straight line passing through the origin. The line represents the proportional relationship between laps run (x-axis) and money raised (y-axis). The line passes through points including (1, 7), showing the constant rate of 7 dollars per lap.",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "7"
@@ -3491,7 +3491,7 @@
       [
         "1/4",
         "Gr7_21_2_1_step_1",
-        "Shows the coordinate grid with the proportional relationship line. The point (1, 7) is clearly visible on the line, indicating that 1 lap raises $7. The line passes through the origin (0, 0), confirming the proportional relationship."
+        "Shows the coordinate grid with the proportional relationship line. The point (1, 7) is clearly visible on the line, indicating that 1 lap raises 7 dollars. The line passes through the origin (0, 0), confirming the proportional relationship."
       ]
     ],
     "solution": [
@@ -3668,7 +3668,7 @@
   },
   {
     "skills": "arithmetic-sequences",
-    "question_text": "Type the missing number in this sequence:\n\n$85, \\_\\_\\_\\_, 69, 61, 53$\n\n",
+    "question_text": "Type the missing number in this sequence:\n\n85 dollars, \\_\\_\\_\\_, 69, 61, 53$\n\n",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "77"
@@ -3692,7 +3692,7 @@
   },
   {
     "skills": "geometric-sequences",
-    "question_text": "Type the missing number in this sequence:\n\n$1, \\_\\_\\_\\_, 25, 125, 625, 3125\n$",
+    "question_text": "Type the missing number in this sequence:\n\n1 dollar, \\_\\_\\_\\_, 25, 125, 625, 3125\n$",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "5"
@@ -3724,7 +3724,7 @@
   },
   {
     "skills": "evaluate-variable-expressions-for-number-sequences",
-    "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n$2^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
+    "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "2,4,8"
@@ -3802,7 +3802,7 @@
       ],
       [
         "5/5",
-        "Therefore, $c = 9$ when $b$ is $4$."
+        "Therefore, $c = 9$ when $b$ is 4 dollars$."
       ]
     ],
     "tag": "Gr7_23_E1",
