@@ -203,9 +203,10 @@
     "image_tag": "Grade7_2_2_1",
     "backend_description": "A number line from 0 to 1 divided into 10 equal intervals. The variable z is marked at the 5th tick mark, requiring students to determine its decimal value.",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "0.5",
-      "0.50"
+      ["0.5"],
+      ["0.50"]
     ],
     "solution_image_tag": [
       [
@@ -597,10 +598,11 @@
     "image_tag": "Grade7_4_4_1",
     "backend_description": "Shows an equation with 3/9 equals a fraction with denominator 3 and an unknown numerator represented by an empty box.",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "1",
-      "1.0",
-      "1.00"
+      ["1"],
+      ["1.0"],
+      ["1.00"]
     ],
     "solution": [
       [
@@ -647,10 +649,11 @@
     "skills": "round-decimals",
     "question_text": "What is 54.3 rounded to the nearest whole number?\n\n",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "54",
-      "54.0",
-      "54.00"
+      ["54"],
+      ["54.0"],
+      ["54.00"]
     ],
     "solution": [
       [
@@ -675,7 +678,7 @@
   },
   {
     "skills": "convert-between-mixed-numbers-and-improper-fractions",
-    "question_text": "Write $\\frac{26}{9}$ as a mixed number.\n $\\frac{26}{9}$ = _ _/_M",
+    "question_text": "Write $\\frac{26}{9}$ as a mixed number.\n $\\frac{26}{9}$ = _ _/_",
     "question_type": "Fraction Fill in the blank",
     "correct_answers": [
       "2",
@@ -789,9 +792,10 @@
     "skills": "evaluate-numerical-expressions-involving-decimals",
     "question_text": "Evaluate the expression.\n\n0.1 dollars + 0.6 ÷ 3 = \\_\\_\\_\\_$\n\nWrite your answer as an integer or a decimal. Do not round.\n\n",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "0.3",
-      "0.30"
+      ["0.3"],
+      ["0.30"]
     ],
     "solution": [
       [
@@ -822,12 +826,13 @@
     "skills": "add-subtract-multiply-and-divide-fractions-and-mixed-numbers-word-problems",
     "question_text": "Of the pies that Zach's Pie Shop sold last month, $\\frac{7}{10}$ were blueberry pies and $\\frac{1}{6}$ were blackberry pies. What fraction of the pies sold were either blueberry or blackberry?\n\nWrite your answer as a fraction or as a whole or mixed number.\n",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "26/30",
-      "13/15",
-      "0.8667",
-      "0.867",
-      "0.87"
+      ["26/30"],
+      ["13/15"],
+      ["0.8667"],
+      ["0.867"],
+      ["0.87"]
     ],
     "solution_image_tag": [
       [
@@ -932,9 +937,10 @@
     "tag": "Gr7_7_E1",
     "question_type": "Fill in the blank",
     "question_number": "1_2",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "1487",
-      "1,487"
+      ["1487"],
+      ["1,487"]
     ],
     "solution_image_tag": [
       [
@@ -989,9 +995,10 @@
     "image_tag": "Grade7_7_3_1",
     "backend_description": "A price list table showing soup prices per kilogram: vegetable soup (0.63 dollars/kg), tortilla soup (0.63 dollars/kg), chicken chili (0.72 dollars/kg), and lobster bisque (1.04 dollars/kg). The table clearly displays unit prices.",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "0.72",
-      "0.72 dollars"
+      ["0.72"],[
+      "0.72 dollars"]
     ],
     "solution": [
       [
@@ -1014,9 +1021,10 @@
     "skills": "multi-step-problems-with-percents",
     "question_text": "A beach umbrella was originally priced at 50 dollars but went on sale for 50% off. If Nathan bought the beach umbrella and paid 12% sales tax, how much did he pay in total?\n",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "28",
-      "28 dollars"
+      ["28"],
+      ["28 dollars"]
     ],
     "solution_image_tag": [
       [
@@ -1060,10 +1068,11 @@
     "skills": "multi-step-word-problems",
     "question_text": "Rob and Joey went to lunch at a cafe. They ordered a spinach salad for 6.60 dollars, a tuna sandwich for 6.55 dollars, and 2 glasses of lemonade for 1.60 dollars each. The tax was 1.65 dollars. They gave the waiter 20.00 dollars.\n\nHow much change should they have received?\n",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "2",
-      "2.0",
-      "2.00"
+      ["2"],
+      ["2.0"],
+      ["2.00"]
     ],
     "solution_image_tag": [
       [
@@ -1117,11 +1126,12 @@
     "skills": "multiply-using-the-distributive-property",
     "question_text": "Simplify the expression:\n\n3 dollars(5t + 2) = \\_\\_\\_\\_$\n\n",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "15t+6",
-      "6+15t",
-      "t15+6",
-      "6+t15"
+      ["15t+6"],
+      ["6+15t"],
+      ["t15+6"],
+      ["6+t15"]
     ],
     "solution": [
       [
@@ -1804,9 +1814,10 @@
     "image_tag": "Grade7_12_2_1",
     "backend_description": "Shows the addition problem 1/6 + 1/2 with an empty box for the answer.",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "4/6",
-      "2/3"
+      ["4/6"],
+      ["2/3"]
     ],
     "solution_image_tag": [
       [
@@ -1877,9 +1888,10 @@
     "image_tag": "Grade7_12_4_1",
     "backend_description": "Shows the subtraction problem 2/4 - 2/8 with an empty box for the answer.",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "2/8",
-      "1/4"
+      ["2/8"],
+      ["1/4"]
     ],
     "solution_image_tag": [
       [
@@ -1920,9 +1932,10 @@
     "tag": "Gr7_13_E1",
     "question_type": "Fill in the blank",
     "question_number": "1_1",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "9/12",
-      "3/4"
+      ["9/12"],
+      ["3/4"]
     ],
     "solution_image_tag": [
       [
@@ -2001,10 +2014,11 @@
     "skills": "add-and-subtract-fractions-with-unlike-denominators-word-problems",
     "question_text": "Rita began her pizza delivery route with $\\frac{1}{2}$ of a tank of gas in her car. When she made it back to the pizzeria, $\\frac{1}{6}$ of a tank of gas was left. How much gas did Rita use?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "2/6",
-      "1/3",
-      "4/12"
+      ["2/6"],
+      ["1/3"],
+      ["4/12"]
     ],
     "solution_image_tag": [
       [
@@ -2041,14 +2055,15 @@
   },
   {
     "skills": "add-and-subtract-mixed-numbers",
-    "question_text": "Add. Write your answer as a fraction or as a whole or mixed number.\n",
+    "question_text": "Add. Write your answer as a fraction or as a whole or mixed number. __/_",
     "image_tag": "Grade7_13_3_1",
     "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
     "question_type": "Fill in the blank",
     "question_number": "3_1",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "11 5/11",
-      "126/11"
+      ["11 5/11"],
+      ["126/11"]
     ],
     "solution_image_tag": [
       [
@@ -2093,9 +2108,10 @@
     "tag": "Gr7_13_E3",
     "question_type": "Fill in the blank",
     "question_number": "3_2",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "8 4/11",
-      "92/11"
+      ["8 4/11"],
+      ["92/11"]
     ],
     "solution_image_tag": [
       [
@@ -2147,11 +2163,12 @@
     "tag": "Gr7_13_E4",
     "question_type": "Fill in the blank",
     "question_number": "4_1",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "8 1/2",
-      "17/2",
-      "34/4",
-      "8 2/4"
+      ["8 1/2"],
+      ["17/2"],
+      ["34/4"],
+      ["8 2/4"]
     ],
     "solution_image_tag": [
       [
@@ -2193,9 +2210,10 @@
     "question_text": "Leo's drive to work is 12 dollars \\frac{3}{4}$ hours, whereas Mitch's is 10 dollars \\frac{1}{4}$ hours. How much longer is Leo's drive than Mitch's?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n",
     "question_type": "Fill in the blank",
     "question_number": "4_2",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "2 1/2",
-      "5/2"
+      ["2 1/2"],
+      ["5/2"]
     ],
     "solution_image_tag": [
       [
@@ -2570,9 +2588,10 @@
     "image_tag": "Grade7_16_2_1",
     "backend_description": "Shows the multiplication of two mixed numbers: 4 1/3 × 2 1/4 with an empty box for the answer.",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "9 3/4",
-      "39/4"
+      ["9 3/4"],
+      ["39/4"]
     ],
     "solution_image_tag": [
       [
@@ -2633,9 +2652,10 @@
     "skills": "multiply-mixed-numbers-word-problems",
     "question_text": "Gabe's lemon cookie recipe calls for 3 dollars$ cups of sugar.\n\nHow much sugar would Gabe use to make $\\frac{4}{5}$ of a batch of cookies?\n\nWrite your answer as a fraction or as a whole or mixed number.\n",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "2 2/5",
-      "12/5"
+     [ "2 2/5"],
+      ["12/5"]
     ],
     "solution_image_tag": [
       [
@@ -2688,10 +2708,11 @@
     "skills": "divide-fractions",
     "question_text": "Divide.\n\n2 dollars ÷ 1/2 = \\_\\_\\_\\_ $\n\n",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "4",
-      "4/1",
-      "4.0"
+      ["4"],
+      ["4/1"],
+      ["4.0"]
     ],
     "solution": [
       [
@@ -2718,9 +2739,10 @@
     "skills": "divide-fractions-word-problems",
     "question_text": "A gardener spread $\\frac{1}{2}$ of a bag of mulch evenly over her 4 equal-sized vegetable beds.\n\nHow much mulch did she put on each vegetable bed?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "1/8",
-      "0.125"
+      ["1/8"],
+     [ "0.125"]
     ],
     "solution_image_tag": [
       [
@@ -2771,10 +2793,11 @@
     "image_tag": "Grade7_17_2_1",
     "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "1 3/5",
-      "8/5",
-      "24/15"
+      ["1 3/5"],
+      ["8/5"],
+      ["24/15"]
     ],
     "solution_image_tag": [
       [
@@ -2823,10 +2846,11 @@
     "skills": "divide-fractions-and-mixed-numbers-word-problems",
     "question_text": "A veterinarian divided $\\frac{3}{5}$ of a bottle of medicine equally among 3 dollars$ sick cats. How much did she give each sick cat?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "1/5",
-      "0.2",
-      "0.20"
+      ["1/5"],
+      ["0.2"],
+      ["0.20"]
     ],
     "solution_image_tag": [
       [
@@ -2875,9 +2899,10 @@
     "skills": "multiply-decimals-and-whole-numbers-word-problems",
     "question_text": "Each metal ball weighs 0.6 grams. How much do 2 metal balls weigh in all?\n\n",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "1.2",
-      "1.20"
+      ["1.2"],
+      ["1.20"]
     ],
     "solution_image_tag": [
       [
@@ -3060,9 +3085,10 @@
     "image_tag": "Grade7_18_4_1",
     "backend_description": "Shows the division problem 45.6 ÷ 4 with an empty box for the answer.",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "11.4",
-      "11.40"
+      ["11.4"],
+      ["11.40"]
     ],
     "solution_image_tag": [
       [
@@ -3280,9 +3306,10 @@
     "skills": "multiply-a-decimal-by-a-multi-digit-whole-number",
     "question_text": "Multiply:\n\n6.6 dollars × 54 = \\_\\_\\_\\_$\n\n",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "356.4",
-      "356.40"
+      ["356.4"],
+      ["356.40"]
     ],
     "solution_image_tag": [
       [
