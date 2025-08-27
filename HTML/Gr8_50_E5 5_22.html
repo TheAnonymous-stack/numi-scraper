@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr8_50_E5 Question 5_22</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 400px;
+        }
+        .item {
+            display: inline-block;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        svg {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" label="Gr8_50_5_22_step_1">
+            <svg width="300" height="250" xmlns="http://www.w3.org/2000/svg">
+                <!-- Grid for visual reference -->
+                <defs>
+                    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+                        <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#f0f0f0" stroke-width="1"/>
+                    </pattern>
+                </defs>
+                <rect width="300" height="250" fill="url(#grid)" />
+                
+                <!-- Right triangle -->
+                <!-- Right angle indicator -->
+                <rect x="50" y="160" width="15" height="15" fill="none" stroke="#333" stroke-width="1.5"/>
+                
+                <!-- Triangle -->
+                <path d="M 50 40 L 50 175 L 230 175 Z" fill="none" stroke="#333" stroke-width="2"/>
+                
+                <!-- Labels -->
+                <!-- Vertical side (a) -->
+                <text x="30" y="110" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">8m</text>
+                
+                <!-- Horizontal side (b) -->
+                <text x="140" y="195" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">15m</text>
+                
+                <!-- Hypotenuse (c) -->
+                <text x="145" y="100" font-family="Arial" font-size="14" fill="#333" text-anchor="middle" transform="rotate(-35, 145, 100)">c</text>
+                
+                <!-- Dotted lines for emphasis -->
+                <line x1="50" y1="40" x2="50" y2="175" stroke="#666" stroke-width="1.5" stroke-dasharray="none"/>
+                <line x1="50" y1="175" x2="230" y2="175" stroke="#666" stroke-width="1.5" stroke-dasharray="none"/>
+                <line x1="50" y1="40" x2="230" y2="175" stroke="#666" stroke-width="1.5" stroke-dasharray="none"/>
+            </svg>
+        </div>
+    </div>
+</body>
+</html>

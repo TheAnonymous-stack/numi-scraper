@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr8_50_E3 3_6</title>
+    <style>
+        .item {
+            display: inline-block;
+            margin: 20px;
+        }
+        svg {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr8_50_3_6">
+        <svg width="300" height="250" xmlns="http://www.w3.org/2000/svg">
+            <!-- Right triangle -->
+            <path d="M 50 200 L 230 200 L 230 50 Z" fill="none" stroke="black" stroke-width="2"/>
+            
+            <!-- Right angle indicator -->
+            <path d="M 210 200 L 210 180 L 230 180" fill="none" stroke="black" stroke-width="1.5"/>
+            
+            <!-- Labels for sides -->
+            <!-- Bottom side (first leg) -->
+            <text x="140" y="220" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">
+                48 cm
+            </text>
+            
+            <!-- Right side (second leg) -->
+            <text x="250" y="125" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">
+                a
+            </text>
+            
+            <!-- Hypotenuse -->
+            <text x="120" y="115" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" transform="rotate(-35, 120, 115)">
+                50 cm
+            </text>
+        </svg>
+    </div>
+</body>
+</html>

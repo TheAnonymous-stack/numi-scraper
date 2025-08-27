@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .item {
+            display: inline-block;
+            margin: 10px;
+        }
+        .budget-table {
+            border-collapse: collapse;
+            width: 600px;
+            font-family: Arial, sans-serif;
+        }
+        .budget-table th {
+            background-color: #8B4F9F;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 18px;
+            border: 1px solid #8B4F9F;
+        }
+        .budget-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .budget-table tr:last-child {
+            font-weight: bold;
+            background-color: #f5f5f5;
+        }
+        .budget-table .total-row td {
+            border-top: 2px solid #8B4F9F;
+        }
+        .answer-box {
+            width: 80px;
+            padding: 4px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+        .title {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .green {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="item" label="Gr8_51_1_38">
+        <div class="title">Sophia</div>
+        <table class="budget-table">
+            <tr>
+                <th colspan="2">Income</th>
+                <th colspan="2">Expenses</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <table style="width: 100%; border: none;">
+                        <tr><td>Babysitting: $20:</td><td><input type="text" class="answer-box"></td></tr>
+                        <tr><td>Craft sales', 'Allowance:</td><td>$90</td></tr>
+                        <tr><td>Babysitting:</td><td>$20</td></tr>
+                        <tr class="total-row">
+                            <td>Total:</td>
+                            <td><input type="text" class="answer-box"></td>
+                        </tr>
+                    </table>
+                </td>
+                <td colspan="2">
+                    <table style="width: 100%; border: none;">
+                        <tr><td>Gym membership:</td><td>$30</td></tr>
+                        <tr><td>Beach trip:</td><td>$70</td></tr>
+                        <tr><td>Video games:</td><td>$45</td></tr>
+                        <tr class="total-row">
+                            <td>Total:</td>
+                            <td><input type="text" class="answer-box"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="item" label="Gr8_51_1_38_step_2">
+        <div class="title">Sophia's September budget and is divided into two columns: Income and Expenses</div>
+        <table class="budget-table">
+            <tr>
+                <th colspan="2">Income</th>
+                <th colspan="2">Expenses</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <table style="width: 100%; border: none;">
+                        <tr><td>Craft sales:</td><td>?</td></tr>
+                        <tr><td>Allowance:</td><td>$90</td></tr>
+                        <tr><td>Babysitting:</td><td>$20</td></tr>
+                        <tr class="total-row">
+                            <td>Total:</td>
+                            <td>?</td>
+                        </tr>
+                    </table>
+                </td>
+                <td colspan="2">
+                    <table style="width: 100%; border: none;">
+                        <tr><td>Gym membership:</td><td>$30</td></tr>
+                        <tr><td>Beach trip:</td><td>$70</td></tr>
+                        <tr><td>Video games:</td><td>$45</td></tr>
+                        <tr class="total-row">
+                            <td>Total:</td>
+                            <td>?</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="item" label="Gr8_51_1_38_step_3">
+        <div class="title">Sophia's September budget appears again, with the structure and entries unchanged, but this time the total at the bottom of the Income column is now filled in as 'Total: $145', also shown in green font</div>
+        <table class="budget-table">
+            <tr>
+                <th colspan="2">Income</th>
+                <th colspan="2">Expenses</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <table style="width: 100%; border: none;">
+                        <tr><td>Total:</td><td>$145</td></tr>
+                        <tr class="total-row">
+                            <td>Total:</td>
+                            <td><span class="green">$145</span></td>
+                        </tr>
+                    </table>
+                </td>
+                <td colspan="2">
+                    <table style="width: 100%; border: none;">
+                        <tr class="total-row">
+                            <td>Total:</td>
+                            <td>?</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="item" label="Gr8_51_1_38_step_7">
+        <div class="title">Budget Table</div>
+        <table class="budget-table">
+            <tr>
+                <th colspan="2">Income</th>
+                <th colspan="2">Expenses</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <table style="width: 100%; border: none;">
+                        <tr><td>Total:</td><td>$145</td></tr>
+                        <tr class="total-row">
+                            <td>Total:</td>
+                            <td>?</td>
+                        </tr>
+                    </table>
+                </td>
+                <td colspan="2">
+                    <table style="width: 100%; border: none;">
+                        <tr><td>Total:</td><td>$145</td></tr>
+                        <tr class="total-row">
+                            <td>Total:</td>
+                            <td><span class="green">$145</span></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

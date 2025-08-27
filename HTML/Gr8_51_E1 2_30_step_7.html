@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .item {
+            display: inline-block;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .title {
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .budget-table {
+            border-collapse: collapse;
+            width: 400px;
+        }
+        .budget-table th {
+            background-color: #8B5FCF;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .budget-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        .budget-table tr:last-child td {
+            border-top: 2px solid #333;
+            font-weight: bold;
+        }
+        .filled-green {
+            color: #22C55E;
+            font-weight: bold;
+        }
+        .question-mark {
+            display: inline-block;
+            width: 40px;
+            height: 25px;
+            border: 1px solid #999;
+            background-color: #f9f9f9;
+            text-align: center;
+            line-height: 25px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr8_51_1_30_step_7">
+        <div class="container">
+            <div class="title">Madison's March budget</div>
+            <table class="budget-table">
+                <thead>
+                    <tr>
+                        <th>Income</th>
+                        <th>Expenses</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Total: <span class="filled-green">$140</span></td>
+                        <td>Total: <span class="filled-green">$140</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade 8 Surface Area - Question 1_25</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mtml-chtml.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            }
+        };
+    </script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #4CAF50;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin: 0;
+            font-size: 2.2em;
+        }
+        
+        .question-info {
+            background: #e8f5e8;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #4CAF50;
+        }
+        
+        .question-text {
+            font-size: 1.3em;
+            color: #2c3e50;
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border: 2px solid #dee2e6;
+        }
+        
+        .visualization {
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            background: #fafafa;
+            border-radius: 10px;
+        }
+        
+        #shape-canvas {
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            background: white;
+        }
+        
+        .solution-section {
+            margin: 30px 0;
+            padding: 20px;
+            background: #fff3cd;
+            border-radius: 10px;
+            border-left: 5px solid #ffc107;
+        }
+        
+        .solution-step {
+            margin: 15px 0;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+        }
+        
+        .step-number {
+            background: #007bff;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        
+        .answer-section {
+            background: #d4edda;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #28a745;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .answer {
+            font-size: 1.5em;
+            color: #155724;
+            font-weight: bold;
+        }
+        
+        .navigation {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #dee2e6;
+        }
+        
+        .nav-button {
+            background: #007bff;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1em;
+            transition: background 0.3s ease;
+        }
+        
+        .nav-button:hover {
+            background: #0056b3;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .question-text {
+                font-size: 1.1em;
+            }
+            
+            #shape-canvas {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Surface Area of Prisms and Cylinders</h1>
+            <p style="color: #666; margin: 10px 0 0 0;">Grade 8 Mathematics</p>
+        </div>
+        
+        <div class="question-info">
+            <strong>Question Number:</strong> 1_25<br>
+            <strong>Skill:</strong> surface-area-of-prisms-and-cylinders<br>
+            <strong>Tag:</strong> Gr8_49_E1<br>
+            <strong>Type:</strong> Fill in the blank
+        </div>
+        
+        <div class="question-text">
+            What is the surface area?
+___ square millimetres
+        </div>
+        
+        
+        <div class="visualization">
+            <h3>Interactive 3D Cube</h3>
+            <canvas id="shape-canvas" width="400" height="400"></canvas>
+            <p style="margin-top: 15px; color: #666;">
+                <em>Cube with side length: 10.0 millimetres</em><br>
+                <small>Click and drag to rotate the cube!</small>
+            </p>
+        </div>
+        
+        <script>
+        // 3D Cube Visualization
+        const canvas = document.getElementById('shape-canvas');
+        const ctx = canvas.getContext('2d');
+        
+        let mouseX = 0, mouseY = 0;
+        let isMouseDown = false;
+        let rotationX = 0.3, rotationY = 0.5;
+        
+        const cubeSize = 80;
+        const centerX = canvas.width / 2;
+        const centerY = canvas.height / 2;
+        
+        const vertices = [
+            [-1, -1, -1], [1, -1, -1], [1, 1, -1], [-1, 1, -1],
+            [-1, -1, 1], [1, -1, 1], [1, 1, 1], [-1, 1, 1]
+        ];
+        
+        const faces = [
+            [0, 1, 2, 3], [4, 5, 6, 7], [0, 1, 5, 4],
+            [2, 3, 7, 6], [0, 3, 7, 4], [1, 2, 6, 5]
+        ];
+        
+        const faceColors = [
+            '#FFB6C1', '#87CEEB', '#98FB98', 
+            '#F0E68C', '#DDA0DD', '#F4A460'
+        ];
+        
+        function rotatePoint(x, y, z, rx, ry) {
+            let cosY = Math.cos(ry);
+            let sinY = Math.sin(ry);
+            let tempX = x * cosY - z * sinY;
+            let tempZ = x * sinY + z * cosY;
+            
+            let cosX = Math.cos(rx);
+            let sinX = Math.sin(rx);
+            let newY = y * cosX - tempZ * sinX;
+            let newZ = y * sinX + tempZ * cosX;
+            
+            return [tempX, newY, newZ];
+        }
+        
+        function projectPoint(x, y, z) {
+            const scale = 200 / (200 + z);
+            return [centerX + x * scale, centerY + y * scale];
+        }
+        
+        function drawCube() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            const transformedVertices = vertices.map(([x, y, z]) => {
+                const [rx, ry, rz] = rotatePoint(x * cubeSize, y * cubeSize, z * cubeSize, rotationX, rotationY);
+                return projectPoint(rx, ry, rz);
+            });
+            
+            const faceDepths = faces.map((face, i) => {
+                const faceCenter = face.reduce((acc, vi) => {
+                    const [vx, vy, vz] = rotatePoint(
+                        vertices[vi][0] * cubeSize,
+                        vertices[vi][1] * cubeSize,
+                        vertices[vi][2] * cubeSize,
+                        rotationX, rotationY
+                    );
+                    return [acc[0] + vx, acc[1] + vy, acc[2] + vz];
+                }, [0, 0, 0]).map(v => v / 4);
+                
+                return { index: i, depth: faceCenter[2] };
+            });
+            
+            faceDepths.sort((a, b) => a.depth - b.depth);
+            
+            faceDepths.forEach(({ index }) => {
+                const face = faces[index];
+                
+                ctx.beginPath();
+                ctx.moveTo(...transformedVertices[face[0]]);
+                face.slice(1).forEach(vi => {
+                    ctx.lineTo(...transformedVertices[vi]);
+                });
+                ctx.closePath();
+                
+                ctx.fillStyle = faceColors[index];
+                ctx.fill();
+                ctx.strokeStyle = '#333';
+                ctx.lineWidth = 2;
+                ctx.stroke();
+                
+                const centerPoint = face.reduce((acc, vi) => [
+                    acc[0] + transformedVertices[vi][0],
+                    acc[1] + transformedVertices[vi][1]
+                ], [0, 0]).map(v => v / 4);
+                
+                ctx.fillStyle = '#333';
+                ctx.font = 'bold 12px Arial';
+                ctx.textAlign = 'center';
+                ctx.fillText('10.0millimetres', centerPoint[0], centerPoint[1]);
+            });
+            
+            ctx.fillStyle = '#d32f2f';
+            ctx.font = 'bold 14px Arial';
+            ctx.textAlign = 'center';
+            const area = 10.0 * 10.0;
+            const totalArea = 6 * area;
+            ctx.fillText(`Each face: 10.0millimetres × 10.0millimetres = ${area} millimetres²`, centerX, canvas.height - 30);
+            ctx.fillText(`Total surface area: 6 × ${area} = ${totalArea} millimetres²`, centerX, canvas.height - 10);
+        }
+        
+        canvas.addEventListener('mousedown', (e) => {
+            isMouseDown = true;
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+        });
+        
+        canvas.addEventListener('mousemove', (e) => {
+            if (isMouseDown) {
+                const deltaX = e.clientX - mouseX;
+                const deltaY = e.clientY - mouseY;
+                rotationY += deltaX * 0.01;
+                rotationX += deltaY * 0.01;
+                mouseX = e.clientX;
+                mouseY = e.clientY;
+                drawCube();
+            }
+        });
+        
+        canvas.addEventListener('mouseup', () => { isMouseDown = false; });
+        canvas.addEventListener('mouseleave', () => { isMouseDown = false; });
+        
+        canvas.addEventListener('touchstart', (e) => {
+            e.preventDefault();
+            const touch = e.touches[0];
+            mouseX = touch.clientX;
+            mouseY = touch.clientY;
+            isMouseDown = true;
+        });
+        
+        canvas.addEventListener('touchmove', (e) => {
+            e.preventDefault();
+            if (isMouseDown) {
+                const touch = e.touches[0];
+                const deltaX = touch.clientX - mouseX;
+                const deltaY = touch.clientY - mouseY;
+                rotationY += deltaX * 0.01;
+                rotationX += deltaY * 0.01;
+                mouseX = touch.clientX;
+                mouseY = touch.clientY;
+                drawCube();
+            }
+        });
+        
+        canvas.addEventListener('touchend', (e) => {
+            e.preventDefault();
+            isMouseDown = false;
+        });
+        
+        setInterval(() => {
+            if (!isMouseDown) {
+                rotationY += 0.005;
+                drawCube();
+            }
+        }, 50);
+        
+        drawCube();
+        </script>
+    
+        
+        <div class="solution-section"><h3>Solution Steps</h3>
+        <div class="solution-step">
+            <span class="step-number">1</span>
+            <strong>Step 1:</strong> Each face of the cube is a square with sides that are 10 millimetres long.
+        </div>
+        
+        <div class="solution-step">
+            <span class="step-number">2</span>
+            <strong>Step 2:</strong> Find the area of one face:
+Area = side $\times$ side
+= 10 $\times$ 10
+= 100
+The area of each face is 100 square millimetres.
+        </div>
+        
+        <div class="solution-step">
+            <span class="step-number">3</span>
+            <strong>Step 3:</strong> There are 6 faces. Multiply:
+Surface area = 6 $\times$ 100
+= 600
+The surface area of the cube is 600 square millimetres.
+        </div>
+        </div>
+        
+        <div class="answer-section">
+            <div class="answer">Answer: 600 square millimetres</div>
+        </div>
+        
+        <div class="navigation"><a href="Gr8_49_E1_index.html" class="nav-button">Back to Index</a><a href="Gr8_49_E1_1_24.html" class="nav-button">Previous</a><a href="Gr8_49_E1_1_26.html" class="nav-button">Next Question</a></div>
+    </div>
+</body>
+</html>
