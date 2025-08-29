@@ -44,397 +44,62 @@
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "Which transformations created this final result?",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_2",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three pentagons labeled 1, 2, and 3 on a coordinate grid, representing Pokemon evolution stages. Shape 1 (red) undergoes a reflection to produce Shape 2 (orange). Then, Shape 2 undergoes a rotation to produce Shape 3 (yellow). The full transformation from Shape 1 to Shape 3 involves reflection, then rotation, evolving through different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_2",
     "tag": "Gr8_40_E2",
     "choices": [
-      "translation left 6 units and down 3 units",
-      "reflection across the y-axis",
-      "rotation 90° clockwise around the origin",
-      "translation right 7 units and up 2 units",
-      "rotation 90° counterclockwise around the origin",
-      "rotation 180° around the origin",
-      "reflection across the x-axis"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "A"
+      "C"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a horizontal line."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° counterclockwise."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a rotation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_2_step_1",
+        "The image shows two pentagons, labeled 1 and 2, on a coordinate grid. Pentagon 1 is red and Pentagon 2 is orange. Pentagon 2 is a reflection of Pentagon 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_2_step_2",
+        "The image shows Pentagons 2 (orange) and 3 (yellow), on a coordinate grid. Pentagon 3 is a rotation of Pentagon 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "Determine which transformations took place.",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_3",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three hexagons labeled 1, 2, and 3 on a coordinate grid, representing Zelda item upgrades. Shape 1 (lime) undergoes a rotation to produce Shape 2 (emerald). Then, Shape 2 undergoes a reflection to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves rotation, then reflection, upgrading through different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_3",
     "tag": "Gr8_40_E2",
     "choices": [
-      "translation right 7 units and up 4 units",
-      "rotation 90° counterclockwise around the origin",
-      "rotation 180° around the origin",
-      "reflection across the y-axis",
-      "rotation 90° clockwise around the origin",
-      "translation left 5 units and down 5 units",
-      "reflection across the x-axis"
-    ],
-    "correct_answers": [
-      "G"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
-      ],
-      [
-        "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "What combination of transformations is shown below?",
-    "skills": "describe-a-sequence-of-transformations",
-    "image_tag": "Gr8_40_2_4",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "2_4",
-    "tag": "Gr8_40_E2",
-    "choices": [
-      "reflection across the x-axis",
-      "rotation 90° clockwise around the origin",
-      "rotation 90° counterclockwise around the origin",
-      "translation left 6 units and down 3 units",
-      "reflection across the y-axis",
-      "translation right 3 units and up 6 units",
-      "rotation 180° around the origin"
-    ],
-    "correct_answers": [
-      "F"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
-      ],
-      [
-        "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "What combination of transformations is shown below?",
-    "skills": "describe-a-sequence-of-transformations",
-    "image_tag": "Gr8_40_2_5",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "2_5",
-    "tag": "Gr8_40_E2",
-    "choices": [
-      "rotation 180° around the origin",
-      "translation left 2 units and down 4 units",
-      "reflection across the x-axis",
-      "translation right 2 units and up 2 units",
-      "rotation 90° counterclockwise around the origin",
-      "rotation 90° clockwise around the origin",
-      "reflection across the y-axis"
-    ],
-    "correct_answers": [
-      "F"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
-      ],
-      [
-        "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "What combination of transformations is shown below?",
-    "skills": "describe-a-sequence-of-transformations",
-    "image_tag": "Gr8_40_2_6",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "2_6",
-    "tag": "Gr8_40_E2",
-    "choices": [
-      "rotation 180° around the origin",
-      "reflection across the y-axis",
-      "reflection across the x-axis",
-      "translation left 7 units and down 4 units",
-      "translation right 6 units and up 8 units",
-      "rotation 90° counterclockwise around the origin",
-      "rotation 90° clockwise around the origin"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
-      ],
-      [
-        "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "What combination of transformations is shown below?",
-    "skills": "describe-a-sequence-of-transformations",
-    "image_tag": "Gr8_40_2_7",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "2_7",
-    "tag": "Gr8_40_E2",
-    "choices": [
-      "reflection across the x-axis",
-      "rotation 90° clockwise around the origin",
-      "translation left 5 units and down 7 units",
-      "translation right 2 units and up 3 units",
-      "reflection across the y-axis",
-      "rotation 90° counterclockwise around the origin",
-      "rotation 180° around the origin"
-    ],
-    "correct_answers": [
-      "G"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
-      ],
-      [
-        "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "What combination of transformations is shown below?",
-    "skills": "describe-a-sequence-of-transformations",
-    "image_tag": "Gr8_40_2_8",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "2_8",
-    "tag": "Gr8_40_E2",
-    "choices": [
-      "translation right 5 units and up 5 units",
-      "reflection across the x-axis",
-      "reflection across the y-axis",
-      "translation left 6 units and down 8 units",
-      "rotation 90° clockwise around the origin",
-      "rotation 180° around the origin",
-      "rotation 90° counterclockwise around the origin"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
-      ],
-      [
-        "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "What combination of transformations is shown below?",
-    "skills": "describe-a-sequence-of-transformations",
-    "image_tag": "Gr8_40_2_9",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "2_9",
-    "tag": "Gr8_40_E2",
-    "choices": [
-      "rotation 180° around the origin",
-      "rotation 90° clockwise around the origin",
-      "reflection across the x-axis",
-      "rotation 90° counterclockwise around the origin",
-      "translation left 2 units and down 4 units",
-      "reflection across the y-axis",
-      "translation right 4 units and up 6 units"
-    ],
-    "correct_answers": [
-      "E"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
-      ],
-      [
-        "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "What combination of transformations is shown below?",
-    "skills": "describe-a-sequence-of-transformations",
-    "image_tag": "Gr8_40_2_10",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "2_10",
-    "tag": "Gr8_40_E2",
-    "choices": [
-      "reflection across the x-axis",
-      "rotation 180° around the origin",
-      "reflection across the y-axis",
-      "translation left 5 units and down 2 units",
-      "rotation 90° counterclockwise around the origin",
-      "rotation 90° clockwise around the origin",
-      "translation right 7 units and up 5 units"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
       "D"
@@ -442,7 +107,7 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 270° clockwise."
       ],
       [
         "2/3",
@@ -456,32 +121,337 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_3_step_1",
+        "The image shows two hexagons, labeled 1 and 2, on a coordinate grid. Hexagon 1 is lime and Hexagon 2 is emerald. Hexagon 2 is a rotation of Hexagon 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_3_step_2",
+        "The image shows Hexagons 2 (emerald) and 3 (forest green), on a coordinate grid. Hexagon 3 is a reflection of Hexagon 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "Which transformations map the figure to its final position?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_4",
+    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Marvel hero transformations. Shape 1 (lime) undergoes a translation to produce Shape 2 (emerald). Then, Shape 2 undergoes a rotation to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves translation, then rotation, transforming via different stages.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_4",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then translation",
+      "rotation, then translation",
+      "translation, then rotation",
+      "rotation, then reflection"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape right 2 units."
+      ],
+      [
+        "2/3",
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° counterclockwise."
+      ],
+      [
+        "3/3",
+        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a rotation."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_4_step_1",
+        "The image shows two squares, labeled 1 and 2, on a coordinate grid. Square 1 is lime and Square 2 is emerald. Square 2 is a translation of Square 1."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_4_step_2",
+        "The image shows Squares 2 (emerald) and 3 (forest green), on a coordinate grid. Square 3 is a rotation of Square 2."
+      ]
+    ]
+  },
+  {
+    "question_text": "Describe each transformation in the sequence.",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_5",
+    "backend_description": "The image shows three parallelograms labeled 1, 2, and 3 on a coordinate grid, representing Minecraft crafting stages. Shape 1 (red) undergoes a rotation to produce Shape 2 (orange). Then, Shape 2 undergoes a translation to produce Shape 3 (yellow). The full transformation from Shape 1 to Shape 3 involves rotation, then translation, crafting through different stages.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_5",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 270° clockwise."
+      ],
+      [
+        "2/3",
+        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape left 3 units."
+      ],
+      [
+        "3/3",
+        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a translation."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_5_step_1",
+        "The image shows two parallelograms, labeled 1 and 2, on a coordinate grid. Parallelogram 1 is red and Parallelogram 2 is orange. Parallelogram 2 is a rotation of Parallelogram 1."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_5_step_2",
+        "The image shows Parallelograms 2 (orange) and 3 (yellow), on a coordinate grid. Parallelogram 3 is a translation of Parallelogram 2."
+      ]
+    ]
+  },
+  {
+    "question_text": "Identify the combination of transformations below.",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_6",
+    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid, representing Naruto jutsu stages. Shape 1 (green) undergoes a rotation to produce Shape 2 (light blue). Then, Shape 2 undergoes a translation to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves rotation, then translation, performing different stages.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_6",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180° clockwise."
+      ],
+      [
+        "2/3",
+        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape left 6 units."
+      ],
+      [
+        "3/3",
+        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a translation."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_6_step_1",
+        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and Triangle 2 is light blue. Triangle 2 is a rotation of Triangle 1."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_6_step_2",
+        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a translation of Triangle 2."
+      ]
+    ]
+  },
+  {
+    "question_text": "Name each transformation in the sequence.",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_7",
+    "backend_description": "The image shows three pentagons labeled 1, 2, and 3 on a coordinate grid, representing Overwatch ultimate charge. Shape 1 (lime) undergoes a rotation to produce Shape 2 (emerald). Then, Shape 2 undergoes a reflection to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves rotation, then reflection, charging through different stages.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_7",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 270° counterclockwise."
+      ],
+      [
+        "2/3",
+        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a diagonal line."
+      ],
+      [
+        "3/3",
+        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_7_step_1",
+        "The image shows two pentagons, labeled 1 and 2, on a coordinate grid. Pentagon 1 is lime and Pentagon 2 is emerald. Pentagon 2 is a rotation of Pentagon 1."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_7_step_2",
+        "The image shows Pentagons 2 (emerald) and 3 (forest green), on a coordinate grid. Pentagon 3 is a reflection of Pentagon 2."
+      ]
+    ]
+  },
+  {
+    "question_text": "What series of transformations is demonstrated?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_8",
+    "backend_description": "The image shows three parallelograms labeled 1, 2, and 3 on a coordinate grid, representing Zelda item upgrades. Shape 1 (purple) undergoes a translation to produce Shape 2 (pink). Then, Shape 2 undergoes a reflection to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves translation, then reflection, upgrading through different stages.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_8",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "translation, then reflection"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape down 6 units."
+      ],
+      [
+        "2/3",
+        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a diagonal line."
+      ],
+      [
+        "3/3",
+        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a reflection."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_8_step_1",
+        "The image shows two parallelograms, labeled 1 and 2, on a coordinate grid. Parallelogram 1 is purple and Parallelogram 2 is pink. Parallelogram 2 is a translation of Parallelogram 1."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_8_step_2",
+        "The image shows Parallelograms 2 (pink) and 3 (magenta), on a coordinate grid. Parallelogram 3 is a reflection of Parallelogram 2."
+      ]
+    ]
+  },
+  {
+    "question_text": "Name the transformation steps demonstrated.",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_9",
+    "backend_description": "The image shows three hexagons labeled 1, 2, and 3 on a coordinate grid, representing Among Us sabotage sequence. Shape 1 (purple) undergoes a reflection to produce Shape 2 (pink). Then, Shape 2 undergoes a translation to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves reflection, then translation, sabotaging via different stages.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_9",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a diagonal line."
+      ],
+      [
+        "2/3",
+        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape down 5 units."
+      ],
+      [
+        "3/3",
+        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a translation."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_9_step_1",
+        "The image shows two hexagons, labeled 1 and 2, on a coordinate grid. Hexagon 1 is purple and Hexagon 2 is pink. Hexagon 2 is a reflection of Hexagon 1."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_9_step_2",
+        "The image shows Hexagons 2 (pink) and 3 (magenta), on a coordinate grid. Hexagon 3 is a translation of Hexagon 2."
+      ]
+    ]
+  },
+  {
+    "question_text": "Determine the transformations applied in this diagram.",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_10",
+    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Zelda item upgrades. Shape 1 (cyan) undergoes a translation to produce Shape 2 (teal). Then, Shape 2 undergoes a reflection to produce Shape 3 (aqua). The full transformation from Shape 1 to Shape 3 involves translation, then reflection, upgrading through different stages.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_10",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then translation",
+      "translation, then reflection",
+      "reflection, then rotation",
+      "rotation, then reflection"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape right 6 units."
+      ],
+      [
+        "2/3",
+        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a diagonal line."
+      ],
+      [
+        "3/3",
+        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a reflection."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_10_step_1",
+        "The image shows two squares, labeled 1 and 2, on a coordinate grid. Square 1 is cyan and Square 2 is teal. Square 2 is a translation of Square 1."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_10_step_2",
+        "The image shows Squares 2 (teal) and 3 (aqua), on a coordinate grid. Square 3 is a reflection of Square 2."
+      ]
+    ]
+  },
+  {
+    "question_text": "Name all transformations in this sequence.",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_11",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three parallelograms labeled 1, 2, and 3 on a coordinate grid, representing Star Wars force techniques. Shape 1 (lime) undergoes a reflection to produce Shape 2 (emerald). Then, Shape 2 undergoes a translation to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves reflection, then translation, channeling different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_11",
     "tag": "Gr8_40_E2",
     "choices": [
-      "rotation 180° around the origin",
-      "translation right 8 units and up 5 units",
-      "translation left 8 units and down 2 units",
-      "reflection across the x-axis",
-      "rotation 90° clockwise around the origin",
-      "reflection across the y-axis",
-      "rotation 90° counterclockwise around the origin"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
       "A"
@@ -489,46 +459,43 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a diagonal line."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape left 6 units."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a translation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_11_step_1",
+        "The image shows two parallelograms, labeled 1 and 2, on a coordinate grid. Parallelogram 1 is lime and Parallelogram 2 is emerald. Parallelogram 2 is a reflection of Parallelogram 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_11_step_2",
+        "The image shows Parallelograms 2 (emerald) and 3 (forest green), on a coordinate grid. Parallelogram 3 is a translation of Parallelogram 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "Identify the ordered transformations below.",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_12",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three pentagons labeled 1, 2, and 3 on a coordinate grid, representing Overwatch ultimate charge. Shape 1 (purple) undergoes a reflection to produce Shape 2 (pink). Then, Shape 2 undergoes a translation to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves reflection, then translation, charging through different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_12",
     "tag": "Gr8_40_E2",
     "choices": [
-      "rotation 180° around the origin",
-      "reflection across the x-axis",
-      "translation right 8 units and up 4 units",
-      "reflection across the y-axis",
-      "rotation 90° clockwise around the origin",
-      "rotation 90° counterclockwise around the origin",
-      "translation left 7 units and down 4 units"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
       "A"
@@ -536,74 +503,71 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a diagonal line."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape right 2 units."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a translation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_12_step_1",
+        "The image shows two pentagons, labeled 1 and 2, on a coordinate grid. Pentagon 1 is purple and Pentagon 2 is pink. Pentagon 2 is a reflection of Pentagon 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_12_step_2",
+        "The image shows Pentagons 2 (pink) and 3 (magenta), on a coordinate grid. Pentagon 3 is a translation of Pentagon 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "Describe the complete transformation sequence.",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_13",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid, representing Mario power-up sequence. Shape 1 (lime) undergoes a reflection to produce Shape 2 (emerald). Then, Shape 2 undergoes a translation to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves reflection, then translation, transforming via different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_13",
     "tag": "Gr8_40_E2",
     "choices": [
-      "rotation 90° clockwise around the origin",
-      "reflection across the y-axis",
-      "translation left 8 units and down 5 units",
-      "rotation 90° counterclockwise around the origin",
-      "reflection across the x-axis",
-      "rotation 180° around the origin",
-      "translation right 4 units and up 3 units"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "G"
+      "A"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a diagonal line."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape right 6 units."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a translation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_13_step_1",
+        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is lime and Triangle 2 is emerald. Triangle 2 is a reflection of Triangle 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_13_step_2",
+        "The image shows Triangles 2 (emerald) and 3 (forest green), on a coordinate grid. Triangle 3 is a translation of Triangle 2."
       ]
     ]
   },
@@ -611,30 +575,27 @@
     "question_text": "What combination of transformations is shown below?",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_14",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three parallelograms labeled 1, 2, and 3 on a coordinate grid, representing Avatar element mastery. Shape 1 (cyan) undergoes a rotation to produce Shape 2 (teal). Then, Shape 2 undergoes a reflection to produce Shape 3 (aqua). The full transformation from Shape 1 to Shape 3 involves rotation, then reflection, mastering through different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_14",
     "tag": "Gr8_40_E2",
     "choices": [
-      "rotation 90° counterclockwise around the origin",
-      "reflection across the y-axis",
-      "rotation 180° around the origin",
-      "rotation 90° clockwise around the origin",
-      "translation left 5 units and down 7 units",
-      "reflection across the x-axis",
-      "translation right 6 units and up 4 units"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "A"
+      "D"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 90° counterclockwise."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a vertical line."
       ],
       [
         "3/3",
@@ -644,181 +605,169 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_14_step_1",
+        "The image shows two parallelograms, labeled 1 and 2, on a coordinate grid. Parallelogram 1 is cyan and Parallelogram 2 is teal. Parallelogram 2 is a rotation of Parallelogram 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_14_step_2",
+        "The image shows Parallelograms 2 (teal) and 3 (aqua), on a coordinate grid. Parallelogram 3 is a reflection of Parallelogram 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "Identify the transformation process shown.",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_15",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three parallelograms labeled 1, 2, and 3 on a coordinate grid, representing Portal test chambers. Shape 1 (purple) undergoes a reflection to produce Shape 2 (pink). Then, Shape 2 undergoes a translation to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves reflection, then translation, navigating through different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_15",
     "tag": "Gr8_40_E2",
     "choices": [
-      "reflection across the y-axis",
-      "rotation 180° around the origin",
-      "translation left 3 units and down 5 units",
-      "reflection across the x-axis",
-      "rotation 90° counterclockwise around the origin",
-      "translation right 2 units and up 8 units",
-      "rotation 90° clockwise around the origin"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "C"
+      "A"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a vertical line."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape down 5 units."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a translation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_15_step_1",
+        "The image shows two parallelograms, labeled 1 and 2, on a coordinate grid. Parallelogram 1 is purple and Parallelogram 2 is pink. Parallelogram 2 is a reflection of Parallelogram 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_15_step_2",
+        "The image shows Parallelograms 2 (pink) and 3 (magenta), on a coordinate grid. Parallelogram 3 is a translation of Parallelogram 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "What transformations occurred in sequence?",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_16",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Fortnite building sequence. Shape 1 (cyan) undergoes a translation to produce Shape 2 (teal). Then, Shape 2 undergoes a reflection to produce Shape 3 (aqua). The full transformation from Shape 1 to Shape 3 involves translation, then reflection, building through different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_16",
     "tag": "Gr8_40_E2",
     "choices": [
-      "translation right 2 units and up 7 units",
-      "translation left 5 units and down 2 units",
-      "rotation 90° counterclockwise around the origin",
-      "rotation 90° clockwise around the origin",
-      "reflection across the x-axis",
-      "rotation 180° around the origin",
-      "reflection across the y-axis"
+      "reflection, then translation",
+      "rotation, then translation",
+      "translation, then reflection",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "B"
+      "C"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape up 3 units."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a diagonal line."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a reflection."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_16_step_1",
+        "The image shows two squares, labeled 1 and 2, on a coordinate grid. Square 1 is cyan and Square 2 is teal. Square 2 is a translation of Square 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_16_step_2",
+        "The image shows Squares 2 (teal) and 3 (aqua), on a coordinate grid. Square 3 is a reflection of Square 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "What series of transformations produced this result?",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_17",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three quadrilaterals labeled 1, 2, and 3 on a coordinate grid, representing Overwatch ultimate charge. Shape 1 (purple) undergoes a translation to produce Shape 2 (pink). Then, Shape 2 undergoes a rotation to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves translation, then rotation, charging through different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_17",
     "tag": "Gr8_40_E2",
     "choices": [
-      "rotation 90° counterclockwise around the origin",
-      "translation right 8 units and up 2 units",
-      "reflection across the x-axis",
-      "reflection across the y-axis",
-      "rotation 180° around the origin",
-      "rotation 90° clockwise around the origin",
-      "translation left 7 units and down 7 units"
+      "reflection, then translation",
+      "translation, then rotation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "D"
+      "B"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape up 6 units."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 180° counterclockwise."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a rotation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_17_step_1",
+        "The image shows two quadrilaterals, labeled 1 and 2, on a coordinate grid. Quadrilateral 1 is purple and Quadrilateral 2 is pink. Quadrilateral 2 is a translation of Quadrilateral 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_17_step_2",
+        "The image shows Quadrilaterals 2 (pink) and 3 (magenta), on a coordinate grid. Quadrilateral 3 is a rotation of Quadrilateral 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "Identify each transformation in the sequence shown.",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_18",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid, representing Mario power-up sequence. Shape 1 (brown) undergoes a rotation to produce Shape 2 (tan). Then, Shape 2 undergoes a reflection to produce Shape 3 (beige). The full transformation from Shape 1 to Shape 3 involves rotation, then reflection, transforming via different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_18",
     "tag": "Gr8_40_E2",
     "choices": [
-      "reflection across the x-axis",
-      "rotation 90° counterclockwise around the origin",
-      "reflection across the y-axis",
-      "rotation 90° clockwise around the origin",
-      "translation left 7 units and down 3 units",
-      "rotation 180° around the origin",
-      "translation right 4 units and up 4 units"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "G"
+      "D"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 270° clockwise."
       ],
       [
         "2/3",
@@ -832,185 +781,173 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_18_step_1",
+        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is brown and Triangle 2 is tan. Triangle 2 is a rotation of Triangle 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_18_step_2",
+        "The image shows Triangles 2 (tan) and 3 (beige), on a coordinate grid. Triangle 3 is a reflection of Triangle 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "Determine the sequence of transformations applied.",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_19",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three parallelograms labeled 1, 2, and 3 on a coordinate grid, representing Zelda item upgrades. Shape 1 (purple) undergoes a reflection to produce Shape 2 (pink). Then, Shape 2 undergoes a rotation to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves reflection, then rotation, upgrading through different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_19",
     "tag": "Gr8_40_E2",
     "choices": [
-      "translation left 5 units and down 7 units",
-      "rotation 90° counterclockwise around the origin",
-      "reflection across the y-axis",
-      "rotation 90° clockwise around the origin",
-      "translation right 4 units and up 7 units",
-      "reflection across the x-axis",
-      "rotation 180° around the origin"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "B"
+      "C"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a diagonal line."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 180° clockwise."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a rotation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_19_step_1",
+        "The image shows two parallelograms, labeled 1 and 2, on a coordinate grid. Parallelogram 1 is purple and Parallelogram 2 is pink. Parallelogram 2 is a reflection of Parallelogram 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_19_step_2",
+        "The image shows Parallelograms 2 (pink) and 3 (magenta), on a coordinate grid. Parallelogram 3 is a rotation of Parallelogram 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "What combination of moves is shown here?",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_20",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three quadrilaterals labeled 1, 2, and 3 on a coordinate grid, representing Overwatch ultimate charge. Shape 1 (brown) undergoes a rotation to produce Shape 2 (tan). Then, Shape 2 undergoes a translation to produce Shape 3 (beige). The full transformation from Shape 1 to Shape 3 involves rotation, then translation, charging through different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_20",
     "tag": "Gr8_40_E2",
     "choices": [
-      "rotation 90° counterclockwise around the origin",
-      "rotation 90° clockwise around the origin",
-      "translation left 8 units and down 4 units",
-      "reflection across the x-axis",
-      "reflection across the y-axis",
-      "rotation 180° around the origin",
-      "translation right 5 units and up 4 units"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "A"
+      "B"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180° counterclockwise."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape down 5 units."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a translation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_20_step_1",
+        "The image shows two quadrilaterals, labeled 1 and 2, on a coordinate grid. Quadrilateral 1 is brown and Quadrilateral 2 is tan. Quadrilateral 2 is a rotation of Quadrilateral 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_20_step_2",
+        "The image shows Quadrilaterals 2 (tan) and 3 (beige), on a coordinate grid. Quadrilateral 3 is a translation of Quadrilateral 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "Identify all transformations shown in sequence.",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_21",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Portal test chambers. Shape 1 (purple) undergoes a translation to produce Shape 2 (pink). Then, Shape 2 undergoes a reflection to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves translation, then reflection, navigating through different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_21",
     "tag": "Gr8_40_E2",
     "choices": [
-      "rotation 90° counterclockwise around the origin",
-      "rotation 90° clockwise around the origin",
-      "translation right 3 units and up 3 units",
-      "reflection across the x-axis",
-      "reflection across the y-axis",
-      "translation left 4 units and down 4 units",
-      "rotation 180° around the origin"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "translation, then reflection"
     ],
     "correct_answers": [
-      "E"
+      "D"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape right 2 units."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a vertical line."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a reflection."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_21_step_1",
+        "The image shows two squares, labeled 1 and 2, on a coordinate grid. Square 1 is purple and Square 2 is pink. Square 2 is a translation of Square 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_21_step_2",
+        "The image shows Squares 2 (pink) and 3 (magenta), on a coordinate grid. Square 3 is a reflection of Square 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "What transformation sequence is illustrated here?",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_22",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three parallelograms labeled 1, 2, and 3 on a coordinate grid, representing Overwatch ultimate charge. Shape 1 (purple) undergoes a rotation to produce Shape 2 (pink). Then, Shape 2 undergoes a reflection to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves rotation, then reflection, charging through different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_22",
     "tag": "Gr8_40_E2",
     "choices": [
-      "reflection across the x-axis",
-      "rotation 90° clockwise around the origin",
-      "reflection across the y-axis",
-      "translation right 7 units and up 4 units",
-      "rotation 90° counterclockwise around the origin",
-      "translation left 8 units and down 5 units",
-      "rotation 180° around the origin"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "A"
+      "D"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180° counterclockwise."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a vertical line."
       ],
       [
         "3/3",
@@ -1020,138 +957,129 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_22_step_1",
+        "The image shows two parallelograms, labeled 1 and 2, on a coordinate grid. Parallelogram 1 is purple and Parallelogram 2 is pink. Parallelogram 2 is a rotation of Parallelogram 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_22_step_2",
+        "The image shows Parallelograms 2 (pink) and 3 (magenta), on a coordinate grid. Parallelogram 3 is a reflection of Parallelogram 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "List all transformations that were performed.",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_23",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid, representing Star Wars force techniques. Shape 1 (red) undergoes a reflection to produce Shape 2 (orange). Then, Shape 2 undergoes a translation to produce Shape 3 (yellow). The full transformation from Shape 1 to Shape 3 involves reflection, then translation, channeling different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_23",
     "tag": "Gr8_40_E2",
     "choices": [
-      "reflection across the y-axis",
-      "rotation 90° clockwise around the origin",
-      "translation right 3 units and up 5 units",
-      "rotation 180° around the origin",
-      "reflection across the x-axis",
-      "rotation 90° counterclockwise around the origin",
-      "translation left 2 units and down 2 units"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "D"
+      "A"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a diagonal line."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape left 6 units."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a translation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_23_step_1",
+        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is red and Triangle 2 is orange. Triangle 2 is a reflection of Triangle 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_23_step_2",
+        "The image shows Triangles 2 (orange) and 3 (yellow), on a coordinate grid. Triangle 3 is a translation of Triangle 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "Name the transformations that occurred in order.",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_24",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three pentagons labeled 1, 2, and 3 on a coordinate grid, representing Minecraft crafting stages. Shape 1 (purple) undergoes a reflection to produce Shape 2 (pink). Then, Shape 2 undergoes a translation to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves reflection, then translation, crafting through different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_24",
     "tag": "Gr8_40_E2",
     "choices": [
-      "rotation 90° clockwise around the origin",
-      "reflection across the y-axis",
-      "reflection across the x-axis",
-      "rotation 180° around the origin",
-      "translation left 6 units and down 7 units",
-      "rotation 90° counterclockwise around the origin",
-      "translation right 6 units and up 6 units"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "E"
+      "A"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a vertical line."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape right 5 units."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a translation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_24_step_1",
+        "The image shows two pentagons, labeled 1 and 2, on a coordinate grid. Pentagon 1 is purple and Pentagon 2 is pink. Pentagon 2 is a reflection of Pentagon 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_24_step_2",
+        "The image shows Pentagons 2 (pink) and 3 (magenta), on a coordinate grid. Pentagon 3 is a translation of Pentagon 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "List the transformations applied to the figure.",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_25",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Fortnite building sequence. Shape 1 (cyan) undergoes a rotation to produce Shape 2 (teal). Then, Shape 2 undergoes a reflection to produce Shape 3 (aqua). The full transformation from Shape 1 to Shape 3 involves rotation, then reflection, building through different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_25",
     "tag": "Gr8_40_E2",
     "choices": [
-      "reflection across the x-axis",
-      "rotation 90° clockwise around the origin",
-      "rotation 90° counterclockwise around the origin",
-      "translation right 5 units and up 2 units",
-      "reflection across the y-axis",
-      "translation left 5 units and down 3 units",
-      "rotation 180° around the origin"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "G"
+      "D"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 90° counterclockwise."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a vertical line."
       ],
       [
         "3/3",
@@ -1161,502 +1089,469 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_25_step_1",
+        "The image shows two squares, labeled 1 and 2, on a coordinate grid. Square 1 is cyan and Square 2 is teal. Square 2 is a rotation of Square 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_25_step_2",
+        "The image shows Squares 2 (teal) and 3 (aqua), on a coordinate grid. Square 3 is a reflection of Square 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "What transformations map the original to the final position?",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_26",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three pentagons labeled 1, 2, and 3 on a coordinate grid, representing Sonic speed boost stages. Shape 1 (red) undergoes a translation to produce Shape 2 (orange). Then, Shape 2 undergoes a reflection to produce Shape 3 (yellow). The full transformation from Shape 1 to Shape 3 involves translation, then reflection, accelerating through different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_26",
     "tag": "Gr8_40_E2",
     "choices": [
-      "reflection across the y-axis",
-      "reflection across the x-axis",
-      "rotation 90° clockwise around the origin",
-      "rotation 90° counterclockwise around the origin",
-      "rotation 180° around the origin",
-      "translation right 5 units and up 8 units",
-      "translation left 2 units and down 4 units"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "translation, then reflection"
     ],
     "correct_answers": [
-      "F"
+      "D"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape up 4 units."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a diagonal line."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a reflection."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_26_step_1",
+        "The image shows two pentagons, labeled 1 and 2, on a coordinate grid. Pentagon 1 is red and Pentagon 2 is orange. Pentagon 2 is a translation of Pentagon 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_26_step_2",
+        "The image shows Pentagons 2 (orange) and 3 (yellow), on a coordinate grid. Pentagon 3 is a reflection of Pentagon 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "Identify the order of transformations shown.",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_27",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three pentagons labeled 1, 2, and 3 on a coordinate grid, representing Among Us sabotage sequence. Shape 1 (lime) undergoes a translation to produce Shape 2 (emerald). Then, Shape 2 undergoes a reflection to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves translation, then reflection, sabotaging via different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_27",
     "tag": "Gr8_40_E2",
     "choices": [
-      "rotation 90° counterclockwise around the origin",
-      "rotation 90° clockwise around the origin",
-      "reflection across the x-axis",
-      "translation left 6 units and down 3 units",
-      "translation right 3 units and up 5 units",
-      "reflection across the y-axis",
-      "rotation 180° around the origin"
+      "reflection, then translation",
+      "rotation, then translation",
+      "translation, then reflection",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "A"
+      "C"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape left 4 units."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a diagonal line."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a reflection."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_27_step_1",
+        "The image shows two pentagons, labeled 1 and 2, on a coordinate grid. Pentagon 1 is lime and Pentagon 2 is emerald. Pentagon 2 is a translation of Pentagon 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_27_step_2",
+        "The image shows Pentagons 2 (emerald) and 3 (forest green), on a coordinate grid. Pentagon 3 is a reflection of Pentagon 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "Describe the transformation sequence displayed.",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_28",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three hexagons labeled 1, 2, and 3 on a coordinate grid, representing Naruto jutsu stages. Shape 1 (lime) undergoes a reflection to produce Shape 2 (emerald). Then, Shape 2 undergoes a rotation to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves reflection, then rotation, performing different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_28",
     "tag": "Gr8_40_E2",
     "choices": [
-      "rotation 90° clockwise around the origin",
-      "translation right 4 units and up 4 units",
-      "rotation 90° counterclockwise around the origin",
-      "rotation 180° around the origin",
-      "reflection across the y-axis",
-      "translation left 5 units and down 8 units",
-      "reflection across the x-axis"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "B"
+      "C"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a diagonal line."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° clockwise."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a rotation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_28_step_1",
+        "The image shows two hexagons, labeled 1 and 2, on a coordinate grid. Hexagon 1 is lime and Hexagon 2 is emerald. Hexagon 2 is a reflection of Hexagon 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_28_step_2",
+        "The image shows Hexagons 2 (emerald) and 3 (forest green), on a coordinate grid. Hexagon 3 is a rotation of Hexagon 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "List the transformations from original to final.",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_29",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three quadrilaterals labeled 1, 2, and 3 on a coordinate grid, representing Marvel hero transformations. Shape 1 (purple) undergoes a translation to produce Shape 2 (pink). Then, Shape 2 undergoes a rotation to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves translation, then rotation, transforming via different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_29",
     "tag": "Gr8_40_E2",
     "choices": [
-      "rotation 90° clockwise around the origin",
-      "reflection across the x-axis",
-      "rotation 180° around the origin",
-      "translation left 4 units and down 6 units",
-      "reflection across the y-axis",
-      "translation right 4 units and up 3 units",
-      "rotation 90° counterclockwise around the origin"
+      "translation, then rotation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "G"
+      "A"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape left 2 units."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° clockwise."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a rotation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_29_step_1",
+        "The image shows two quadrilaterals, labeled 1 and 2, on a coordinate grid. Quadrilateral 1 is purple and Quadrilateral 2 is pink. Quadrilateral 2 is a translation of Quadrilateral 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_29_step_2",
+        "The image shows Quadrilaterals 2 (pink) and 3 (magenta), on a coordinate grid. Quadrilateral 3 is a rotation of Quadrilateral 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "Describe the sequence of transformations below.",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_30",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three pentagons labeled 1, 2, and 3 on a coordinate grid, representing Fortnite building sequence. Shape 1 (green) undergoes a rotation to produce Shape 2 (light blue). Then, Shape 2 undergoes a translation to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves rotation, then translation, building through different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_30",
     "tag": "Gr8_40_E2",
     "choices": [
-      "rotation 90° counterclockwise around the origin",
-      "rotation 180° around the origin",
-      "reflection across the x-axis",
-      "rotation 90° clockwise around the origin",
-      "translation right 8 units and up 2 units",
-      "reflection across the y-axis",
-      "translation left 7 units and down 7 units"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "G"
+      "B"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180° clockwise."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape up 2 units."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a translation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_30_step_1",
+        "The image shows two pentagons, labeled 1 and 2, on a coordinate grid. Pentagon 1 is green and Pentagon 2 is light blue. Pentagon 2 is a rotation of Pentagon 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_30_step_2",
+        "The image shows Pentagons 2 (light blue) and 3 (dark blue), on a coordinate grid. Pentagon 3 is a translation of Pentagon 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "List each transformation that was applied.",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_31",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid, representing Naruto jutsu stages. Shape 1 (cyan) undergoes a translation to produce Shape 2 (teal). Then, Shape 2 undergoes a rotation to produce Shape 3 (aqua). The full transformation from Shape 1 to Shape 3 involves translation, then rotation, performing different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_31",
     "tag": "Gr8_40_E2",
     "choices": [
-      "reflection across the y-axis",
-      "translation left 7 units and down 7 units",
-      "reflection across the x-axis",
-      "rotation 90° counterclockwise around the origin",
-      "rotation 180° around the origin",
-      "translation right 5 units and up 4 units",
-      "rotation 90° clockwise around the origin"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "translation, then rotation"
     ],
     "correct_answers": [
-      "G"
+      "D"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape left 5 units."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° counterclockwise."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a rotation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_31_step_1",
+        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is cyan and Triangle 2 is teal. Triangle 2 is a translation of Triangle 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_31_step_2",
+        "The image shows Triangles 2 (teal) and 3 (aqua), on a coordinate grid. Triangle 3 is a rotation of Triangle 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "Describe all transformations in order.",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_32",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Overwatch ultimate charge. Shape 1 (lime) undergoes a translation to produce Shape 2 (emerald). Then, Shape 2 undergoes a rotation to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves translation, then rotation, charging through different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_32",
     "tag": "Gr8_40_E2",
     "choices": [
-      "translation left 3 units and down 7 units",
-      "translation right 3 units and up 2 units",
-      "reflection across the y-axis",
-      "rotation 90° counterclockwise around the origin",
-      "rotation 90° clockwise around the origin",
-      "reflection across the x-axis",
-      "rotation 180° around the origin"
+      "reflection, then translation",
+      "rotation, then translation",
+      "translation, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "E"
+      "C"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape down 4 units."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° clockwise."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a rotation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_32_step_1",
+        "The image shows two squares, labeled 1 and 2, on a coordinate grid. Square 1 is lime and Square 2 is emerald. Square 2 is a translation of Square 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_32_step_2",
+        "The image shows Squares 2 (emerald) and 3 (forest green), on a coordinate grid. Square 3 is a rotation of Square 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "What transformations took place in this image?",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_33",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three pentagons labeled 1, 2, and 3 on a coordinate grid, representing Pokemon evolution stages. Shape 1 (brown) undergoes a reflection to produce Shape 2 (tan). Then, Shape 2 undergoes a rotation to produce Shape 3 (beige). The full transformation from Shape 1 to Shape 3 involves reflection, then rotation, evolving through different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_33",
     "tag": "Gr8_40_E2",
     "choices": [
-      "translation right 3 units and up 2 units",
-      "rotation 180° around the origin",
-      "rotation 90° counterclockwise around the origin",
-      "rotation 90° clockwise around the origin",
-      "translation left 6 units and down 6 units",
-      "reflection across the x-axis",
-      "reflection across the y-axis"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "B"
+      "C"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a diagonal line."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° clockwise."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a rotation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_33_step_1",
+        "The image shows two pentagons, labeled 1 and 2, on a coordinate grid. Pentagon 1 is brown and Pentagon 2 is tan. Pentagon 2 is a reflection of Pentagon 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_33_step_2",
+        "The image shows Pentagons 2 (tan) and 3 (beige), on a coordinate grid. Pentagon 3 is a rotation of Pentagon 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "What transformation steps are demonstrated?",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_34",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three hexagons labeled 1, 2, and 3 on a coordinate grid, representing Zelda item upgrades. Shape 1 (brown) undergoes a rotation to produce Shape 2 (tan). Then, Shape 2 undergoes a translation to produce Shape 3 (beige). The full transformation from Shape 1 to Shape 3 involves rotation, then translation, upgrading through different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_34",
     "tag": "Gr8_40_E2",
     "choices": [
-      "rotation 90° counterclockwise around the origin",
-      "translation left 3 units and down 3 units",
-      "rotation 180° around the origin",
-      "reflection across the y-axis",
-      "reflection across the x-axis",
-      "rotation 90° clockwise around the origin",
-      "translation right 2 units and up 6 units"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "A"
+      "B"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 90° counterclockwise."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape up 3 units."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a translation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_34_step_1",
+        "The image shows two hexagons, labeled 1 and 2, on a coordinate grid. Hexagon 1 is brown and Hexagon 2 is tan. Hexagon 2 is a rotation of Hexagon 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_34_step_2",
+        "The image shows Hexagons 2 (tan) and 3 (beige), on a coordinate grid. Hexagon 3 is a translation of Hexagon 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "Identify the transformation sequence illustrated.",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_35",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid, representing Among Us sabotage sequence. Shape 1 (purple) undergoes a reflection to produce Shape 2 (pink). Then, Shape 2 undergoes a rotation to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves reflection, then rotation, sabotaging via different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_35",
     "tag": "Gr8_40_E2",
     "choices": [
-      "rotation 90° counterclockwise around the origin",
-      "rotation 180° around the origin",
-      "translation right 6 units and up 6 units",
-      "reflection across the x-axis",
-      "translation left 8 units and down 8 units",
-      "rotation 90° clockwise around the origin",
-      "reflection across the y-axis"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "A"
+      "C"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a vertical line."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° counterclockwise."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a rotation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_35_step_1",
+        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is purple and Triangle 2 is pink. Triangle 2 is a reflection of Triangle 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_35_step_2",
+        "The image shows Triangles 2 (pink) and 3 (magenta), on a coordinate grid. Triangle 3 is a rotation of Triangle 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "What transformations mapped the original figure?",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_36",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three parallelograms labeled 1, 2, and 3 on a coordinate grid, representing Overwatch ultimate charge. Shape 1 (lime) undergoes a translation to produce Shape 2 (emerald). Then, Shape 2 undergoes a rotation to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves translation, then rotation, charging through different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_36",
     "tag": "Gr8_40_E2",
     "choices": [
-      "reflection across the x-axis",
-      "rotation 180° around the origin",
-      "rotation 90° counterclockwise around the origin",
-      "translation right 7 units and up 3 units",
-      "translation left 8 units and down 6 units",
-      "reflection across the y-axis",
-      "rotation 90° clockwise around the origin"
+      "translation, then rotation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
       "A"
@@ -1664,93 +1559,87 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape down 4 units."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 180° counterclockwise."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a rotation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_36_step_1",
+        "The image shows two parallelograms, labeled 1 and 2, on a coordinate grid. Parallelogram 1 is lime and Parallelogram 2 is emerald. Parallelogram 2 is a translation of Parallelogram 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_36_step_2",
+        "The image shows Parallelograms 2 (emerald) and 3 (forest green), on a coordinate grid. Parallelogram 3 is a rotation of Parallelogram 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "Which combination of transformations occurred?",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_37",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three pentagons labeled 1, 2, and 3 on a coordinate grid, representing Naruto jutsu stages. Shape 1 (green) undergoes a translation to produce Shape 2 (light blue). Then, Shape 2 undergoes a rotation to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves translation, then rotation, performing different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_37",
     "tag": "Gr8_40_E2",
     "choices": [
-      "rotation 180° around the origin",
-      "reflection across the y-axis",
-      "translation right 2 units and up 7 units",
-      "translation left 8 units and down 8 units",
-      "rotation 90° counterclockwise around the origin",
-      "reflection across the x-axis",
-      "rotation 90° clockwise around the origin"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "translation, then rotation"
     ],
     "correct_answers": [
-      "G"
+      "D"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape up 5 units."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° counterclockwise."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a rotation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_37_step_1",
+        "The image shows two pentagons, labeled 1 and 2, on a coordinate grid. Pentagon 1 is green and Pentagon 2 is light blue. Pentagon 2 is a translation of Pentagon 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_37_step_2",
+        "The image shows Pentagons 2 (light blue) and 3 (dark blue), on a coordinate grid. Pentagon 3 is a rotation of Pentagon 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "What transformations created this arrangement?",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_38",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three hexagons labeled 1, 2, and 3 on a coordinate grid, representing Marvel hero transformations. Shape 1 (brown) undergoes a translation to produce Shape 2 (tan). Then, Shape 2 undergoes a reflection to produce Shape 3 (beige). The full transformation from Shape 1 to Shape 3 involves translation, then reflection, transforming via different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_38",
     "tag": "Gr8_40_E2",
     "choices": [
-      "rotation 90° clockwise around the origin",
-      "rotation 90° counterclockwise around the origin",
-      "reflection across the x-axis",
-      "rotation 180° around the origin",
-      "reflection across the y-axis",
-      "translation right 4 units and up 7 units",
-      "translation left 6 units and down 6 units"
+      "reflection, then translation",
+      "rotation, then translation",
+      "translation, then reflection",
+      "rotation, then reflection"
     ],
     "correct_answers": [
       "C"
@@ -1758,7 +1647,7 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape down 6 units."
       ],
       [
         "2/3",
@@ -1766,461 +1655,35 @@
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a reflection."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_38_step_1",
+        "The image shows two hexagons, labeled 1 and 2, on a coordinate grid. Hexagon 1 is brown and Hexagon 2 is tan. Hexagon 2 is a translation of Hexagon 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_38_step_2",
+        "The image shows Hexagons 2 (tan) and 3 (beige), on a coordinate grid. Hexagon 3 is a reflection of Hexagon 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "Identify the transformations shown in this diagram.",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_39",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three quadrilaterals labeled 1, 2, and 3 on a coordinate grid, representing Naruto jutsu stages. Shape 1 (cyan) undergoes a reflection to produce Shape 2 (teal). Then, Shape 2 undergoes a rotation to produce Shape 3 (aqua). The full transformation from Shape 1 to Shape 3 involves reflection, then rotation, performing different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_39",
     "tag": "Gr8_40_E2",
     "choices": [
-      "reflection across the x-axis",
-      "reflection across the y-axis",
-      "translation right 4 units and up 4 units",
-      "rotation 90° clockwise around the origin",
-      "rotation 180° around the origin",
-      "translation left 7 units and down 3 units",
-      "rotation 90° counterclockwise around the origin"
-    ],
-    "correct_answers": [
-      "F"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
-      ],
-      [
-        "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "What combination of transformations is shown below?",
-    "skills": "describe-a-sequence-of-transformations",
-    "image_tag": "Gr8_40_2_40",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "2_40",
-    "tag": "Gr8_40_E2",
-    "choices": [
-      "rotation 180° around the origin",
-      "translation right 8 units and up 3 units",
-      "rotation 90° counterclockwise around the origin",
-      "translation left 6 units and down 6 units",
-      "rotation 90° clockwise around the origin",
-      "reflection across the x-axis",
-      "reflection across the y-axis"
-    ],
-    "correct_answers": [
-      "G"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
-      ],
-      [
-        "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "What combination of transformations is shown below?",
-    "skills": "describe-a-sequence-of-transformations",
-    "image_tag": "Gr8_40_2_41",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "2_41",
-    "tag": "Gr8_40_E2",
-    "choices": [
-      "translation right 4 units and up 6 units",
-      "rotation 180° around the origin",
-      "rotation 90° counterclockwise around the origin",
-      "reflection across the y-axis",
-      "rotation 90° clockwise around the origin",
-      "translation left 6 units and down 2 units",
-      "reflection across the x-axis"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
-      ],
-      [
-        "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "What combination of transformations is shown below?",
-    "skills": "describe-a-sequence-of-transformations",
-    "image_tag": "Gr8_40_2_42",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "2_42",
-    "tag": "Gr8_40_E2",
-    "choices": [
-      "rotation 90° counterclockwise around the origin",
-      "rotation 90° clockwise around the origin",
-      "translation left 8 units and down 3 units",
-      "reflection across the y-axis",
-      "translation right 6 units and up 5 units",
-      "rotation 180° around the origin",
-      "reflection across the x-axis"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
-      ],
-      [
-        "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "What combination of transformations is shown below?",
-    "skills": "describe-a-sequence-of-transformations",
-    "image_tag": "Gr8_40_2_43",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "2_43",
-    "tag": "Gr8_40_E2",
-    "choices": [
-      "translation right 6 units and up 6 units",
-      "translation left 7 units and down 8 units",
-      "rotation 180° around the origin",
-      "rotation 90° counterclockwise around the origin",
-      "reflection across the x-axis",
-      "rotation 90° clockwise around the origin",
-      "reflection across the y-axis"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
-      ],
-      [
-        "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "What combination of transformations is shown below?",
-    "skills": "describe-a-sequence-of-transformations",
-    "image_tag": "Gr8_40_2_44",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "2_44",
-    "tag": "Gr8_40_E2",
-    "choices": [
-      "rotation 90° clockwise around the origin",
-      "reflection across the x-axis",
-      "translation left 8 units and down 6 units",
-      "rotation 180° around the origin",
-      "reflection across the y-axis",
-      "translation right 6 units and up 8 units",
-      "rotation 90° counterclockwise around the origin"
-    ],
-    "correct_answers": [
-      "E"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
-      ],
-      [
-        "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "What combination of transformations is shown below?",
-    "skills": "describe-a-sequence-of-transformations",
-    "image_tag": "Gr8_40_2_45",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "2_45",
-    "tag": "Gr8_40_E2",
-    "choices": [
-      "reflection across the y-axis",
-      "rotation 90° clockwise around the origin",
-      "rotation 90° counterclockwise around the origin",
-      "rotation 180° around the origin",
-      "reflection across the x-axis",
-      "translation left 4 units and down 4 units",
-      "translation right 3 units and up 6 units"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
-      ],
-      [
-        "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "What combination of transformations is shown below?",
-    "skills": "describe-a-sequence-of-transformations",
-    "image_tag": "Gr8_40_2_46",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "2_46",
-    "tag": "Gr8_40_E2",
-    "choices": [
-      "translation left 7 units and down 3 units",
-      "translation right 8 units and up 5 units",
-      "reflection across the x-axis",
-      "rotation 90° counterclockwise around the origin",
-      "rotation 90° clockwise around the origin",
-      "rotation 180° around the origin",
-      "reflection across the y-axis"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
-      ],
-      [
-        "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "What combination of transformations is shown below?",
-    "skills": "describe-a-sequence-of-transformations",
-    "image_tag": "Gr8_40_2_47",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "2_47",
-    "tag": "Gr8_40_E2",
-    "choices": [
-      "translation right 3 units and up 7 units",
-      "rotation 90° counterclockwise around the origin",
-      "rotation 180° around the origin",
-      "rotation 90° clockwise around the origin",
-      "translation left 8 units and down 3 units",
-      "reflection across the y-axis",
-      "reflection across the x-axis"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
-      ],
-      [
-        "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "What combination of transformations is shown below?",
-    "skills": "describe-a-sequence-of-transformations",
-    "image_tag": "Gr8_40_2_48",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "2_48",
-    "tag": "Gr8_40_E2",
-    "choices": [
-      "rotation 180° around the origin",
-      "reflection across the y-axis",
-      "translation left 3 units and down 2 units",
-      "reflection across the x-axis",
-      "rotation 90° clockwise around the origin",
-      "translation right 6 units and up 6 units",
-      "rotation 90° counterclockwise around the origin"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
       "C"
@@ -2228,11 +1691,187 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a horizontal line."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° clockwise."
+      ],
+      [
+        "3/3",
+        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a rotation."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_39_step_1",
+        "The image shows two quadrilaterals, labeled 1 and 2, on a coordinate grid. Quadrilateral 1 is cyan and Quadrilateral 2 is teal. Quadrilateral 2 is a reflection of Quadrilateral 1."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_39_step_2",
+        "The image shows Quadrilaterals 2 (teal) and 3 (aqua), on a coordinate grid. Quadrilateral 3 is a rotation of Quadrilateral 2."
+      ]
+    ]
+  },
+  {
+    "question_text": "What sequence of transformations is presented?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_40",
+    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Pokemon evolution stages. Shape 1 (lime) undergoes a reflection to produce Shape 2 (emerald). Then, Shape 2 undergoes a rotation to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves reflection, then rotation, evolving through different stages.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_40",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a horizontal line."
+      ],
+      [
+        "2/3",
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° counterclockwise."
+      ],
+      [
+        "3/3",
+        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a rotation."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_40_step_1",
+        "The image shows two squares, labeled 1 and 2, on a coordinate grid. Square 1 is lime and Square 2 is emerald. Square 2 is a reflection of Square 1."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_40_step_2",
+        "The image shows Squares 2 (emerald) and 3 (forest green), on a coordinate grid. Square 3 is a rotation of Square 2."
+      ]
+    ]
+  },
+  {
+    "question_text": "Name the sequence of transformations below.",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_41",
+    "backend_description": "The image shows three pentagons labeled 1, 2, and 3 on a coordinate grid, representing Pokemon evolution stages. Shape 1 (cyan) undergoes a reflection to produce Shape 2 (teal). Then, Shape 2 undergoes a rotation to produce Shape 3 (aqua). The full transformation from Shape 1 to Shape 3 involves reflection, then rotation, evolving through different stages.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_41",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a vertical line."
+      ],
+      [
+        "2/3",
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° counterclockwise."
+      ],
+      [
+        "3/3",
+        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a rotation."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_41_step_1",
+        "The image shows two pentagons, labeled 1 and 2, on a coordinate grid. Pentagon 1 is cyan and Pentagon 2 is teal. Pentagon 2 is a reflection of Pentagon 1."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_41_step_2",
+        "The image shows Pentagons 2 (teal) and 3 (aqua), on a coordinate grid. Pentagon 3 is a rotation of Pentagon 2."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which transformations produced this outcome?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_42",
+    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Overwatch ultimate charge. Shape 1 (lime) undergoes a reflection to produce Shape 2 (emerald). Then, Shape 2 undergoes a translation to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves reflection, then translation, charging through different stages.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_42",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a vertical line."
+      ],
+      [
+        "2/3",
+        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape up 5 units."
+      ],
+      [
+        "3/3",
+        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a translation."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_42_step_1",
+        "The image shows two squares, labeled 1 and 2, on a coordinate grid. Square 1 is lime and Square 2 is emerald. Square 2 is a reflection of Square 1."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_42_step_2",
+        "The image shows Squares 2 (emerald) and 3 (forest green), on a coordinate grid. Square 3 is a translation of Square 2."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which series of transformations is displayed?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_43",
+    "backend_description": "The image shows three quadrilaterals labeled 1, 2, and 3 on a coordinate grid, representing Marvel hero transformations. Shape 1 (brown) undergoes a rotation to produce Shape 2 (tan). Then, Shape 2 undergoes a reflection to produce Shape 3 (beige). The full transformation from Shape 1 to Shape 3 involves rotation, then reflection, transforming via different stages.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_43",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180° clockwise."
+      ],
+      [
+        "2/3",
+        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a diagonal line."
       ],
       [
         "3/3",
@@ -2242,126 +1881,293 @@
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_43_step_1",
+        "The image shows two quadrilaterals, labeled 1 and 2, on a coordinate grid. Quadrilateral 1 is brown and Quadrilateral 2 is tan. Quadrilateral 2 is a rotation of Quadrilateral 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_43_step_2",
+        "The image shows Quadrilaterals 2 (tan) and 3 (beige), on a coordinate grid. Quadrilateral 3 is a reflection of Quadrilateral 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "List the transformations shown from start to finish.",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_44",
+    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Naruto jutsu stages. Shape 1 (purple) undergoes a rotation to produce Shape 2 (pink). Then, Shape 2 undergoes a reflection to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves rotation, then reflection, performing different stages.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_44",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180° counterclockwise."
+      ],
+      [
+        "2/3",
+        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a vertical line."
+      ],
+      [
+        "3/3",
+        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_44_step_1",
+        "The image shows two squares, labeled 1 and 2, on a coordinate grid. Square 1 is purple and Square 2 is pink. Square 2 is a rotation of Square 1."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_44_step_2",
+        "The image shows Squares 2 (pink) and 3 (magenta), on a coordinate grid. Square 3 is a reflection of Square 2."
+      ]
+    ]
+  },
+  {
+    "question_text": "Identify each step in the transformation process.",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_45",
+    "backend_description": "The image shows three parallelograms labeled 1, 2, and 3 on a coordinate grid, representing Naruto jutsu stages. Shape 1 (purple) undergoes a reflection to produce Shape 2 (pink). Then, Shape 2 undergoes a rotation to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves reflection, then rotation, performing different stages.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_45",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a horizontal line."
+      ],
+      [
+        "2/3",
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° counterclockwise."
+      ],
+      [
+        "3/3",
+        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a rotation."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_45_step_1",
+        "The image shows two parallelograms, labeled 1 and 2, on a coordinate grid. Parallelogram 1 is purple and Parallelogram 2 is pink. Parallelogram 2 is a reflection of Parallelogram 1."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_45_step_2",
+        "The image shows Parallelograms 2 (pink) and 3 (magenta), on a coordinate grid. Parallelogram 3 is a rotation of Parallelogram 2."
+      ]
+    ]
+  },
+  {
+    "question_text": "Name the transformations in the correct order.",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_46",
+    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid, representing Among Us sabotage sequence. Shape 1 (red) undergoes a rotation to produce Shape 2 (orange). Then, Shape 2 undergoes a translation to produce Shape 3 (yellow). The full transformation from Shape 1 to Shape 3 involves rotation, then translation, sabotaging via different stages.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_46",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 90° counterclockwise."
+      ],
+      [
+        "2/3",
+        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape right 6 units."
+      ],
+      [
+        "3/3",
+        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a translation."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_46_step_1",
+        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is red and Triangle 2 is orange. Triangle 2 is a rotation of Triangle 1."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_46_step_2",
+        "The image shows Triangles 2 (orange) and 3 (yellow), on a coordinate grid. Triangle 3 is a translation of Triangle 2."
+      ]
+    ]
+  },
+  {
+    "question_text": "What transformations were used in this diagram?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_47",
+    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid, representing Mario power-up sequence. Shape 1 (green) undergoes a translation to produce Shape 2 (light blue). Then, Shape 2 undergoes a reflection to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves translation, then reflection, transforming via different stages.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_47",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then translation",
+      "rotation, then translation",
+      "translation, then reflection",
+      "rotation, then reflection"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape up 2 units."
+      ],
+      [
+        "2/3",
+        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a vertical line."
+      ],
+      [
+        "3/3",
+        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a reflection."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_47_step_1",
+        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and Triangle 2 is light blue. Triangle 2 is a translation of Triangle 1."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_47_step_2",
+        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which sequence of transformations is displayed?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_48",
+    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Avatar element mastery. Shape 1 (cyan) undergoes a reflection to produce Shape 2 (teal). Then, Shape 2 undergoes a rotation to produce Shape 3 (aqua). The full transformation from Shape 1 to Shape 3 involves reflection, then rotation, mastering through different stages.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_48",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a horizontal line."
+      ],
+      [
+        "2/3",
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° clockwise."
+      ],
+      [
+        "3/3",
+        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a rotation."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_48_step_1",
+        "The image shows two squares, labeled 1 and 2, on a coordinate grid. Square 1 is cyan and Square 2 is teal. Square 2 is a reflection of Square 1."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_48_step_2",
+        "The image shows Squares 2 (teal) and 3 (aqua), on a coordinate grid. Square 3 is a rotation of Square 2."
+      ]
+    ]
+  },
+  {
+    "question_text": "Determine the transformation combination shown.",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_49",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Pokemon evolution stages. Shape 1 (green) undergoes a rotation to produce Shape 2 (light blue). Then, Shape 2 undergoes a translation to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves rotation, then translation, evolving through different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_49",
     "tag": "Gr8_40_E2",
     "choices": [
-      "translation right 5 units and up 6 units",
-      "rotation 180° around the origin",
-      "rotation 90° clockwise around the origin",
-      "reflection across the x-axis",
-      "reflection across the y-axis",
-      "translation left 7 units and down 8 units",
-      "rotation 90° counterclockwise around the origin"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
-      "D"
+      "B"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 270° counterclockwise."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape left 6 units."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a translation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_49_step_1",
+        "The image shows two squares, labeled 1 and 2, on a coordinate grid. Square 1 is green and Square 2 is light blue. Square 2 is a rotation of Square 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_49_step_2",
+        "The image shows Squares 2 (light blue) and 3 (dark blue), on a coordinate grid. Square 3 is a translation of Square 2."
       ]
     ]
   },
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "What transformations occurred from start to end?",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_50",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Sonic speed boost stages. Shape 1 (brown) undergoes a translation to produce Shape 2 (tan). Then, Shape 2 undergoes a rotation to produce Shape 3 (beige). The full transformation from Shape 1 to Shape 3 involves translation, then rotation, accelerating through different stages.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_50",
     "tag": "Gr8_40_E2",
     "choices": [
-      "translation left 2 units and down 6 units",
-      "rotation 90° clockwise around the origin",
-      "reflection across the y-axis",
-      "reflection across the x-axis",
-      "translation right 3 units and up 3 units",
-      "rotation 90° counterclockwise around the origin",
-      "rotation 180° around the origin"
-    ],
-    "correct_answers": [
-      "F"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
-      ],
-      [
-        "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "What combination of transformations is shown below?",
-    "skills": "describe-a-sequence-of-transformations",
-    "image_tag": "Gr8_40_2_51",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "2_51",
-    "tag": "Gr8_40_E2",
-    "choices": [
-      "rotation 180° around the origin",
-      "rotation 90° counterclockwise around the origin",
-      "reflection across the y-axis",
-      "reflection across the x-axis",
-      "translation right 6 units and up 2 units",
-      "rotation 90° clockwise around the origin",
-      "translation left 2 units and down 4 units"
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "translation, then rotation"
     ],
     "correct_answers": [
       "D"
@@ -2369,27 +2175,71 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape left 6 units."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° clockwise."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a rotation."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_50_step_1",
+        "The image shows two squares, labeled 1 and 2, on a coordinate grid. Square 1 is brown and Square 2 is tan. Square 2 is a translation of Square 1."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_50_step_2",
+        "The image shows Squares 2 (tan) and 3 (beige), on a coordinate grid. Square 3 is a rotation of Square 2."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which transformations were applied to create this image?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_51",
+    "backend_description": "The image shows three parallelograms labeled 1, 2, and 3 on a coordinate grid, representing Star Wars force techniques. Shape 1 (cyan) undergoes a reflection to produce Shape 2 (teal). Then, Shape 2 undergoes a translation to produce Shape 3 (aqua). The full transformation from Shape 1 to Shape 3 involves reflection, then translation, channeling different stages.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_51",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a vertical line."
+      ],
+      [
+        "2/3",
+        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape right 2 units."
+      ],
+      [
+        "3/3",
+        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a translation."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_51_step_1",
+        "The image shows two parallelograms, labeled 1 and 2, on a coordinate grid. Parallelogram 1 is cyan and Parallelogram 2 is teal. Parallelogram 2 is a reflection of Parallelogram 1."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_51_step_2",
+        "The image shows Parallelograms 2 (teal) and 3 (aqua), on a coordinate grid. Parallelogram 3 is a translation of Parallelogram 2."
       ]
     ]
   }

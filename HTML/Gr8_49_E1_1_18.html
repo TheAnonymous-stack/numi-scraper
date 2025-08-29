@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade 8 Surface Area - Question 1_18</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mtml-chtml.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            }
+        };
+    </script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #4CAF50;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin: 0;
+            font-size: 2.2em;
+        }
+        
+        .question-info {
+            background: #e8f5e8;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #4CAF50;
+        }
+        
+        .question-text {
+            font-size: 1.3em;
+            color: #2c3e50;
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border: 2px solid #dee2e6;
+        }
+        
+        .visualization {
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            background: #fafafa;
+            border-radius: 10px;
+        }
+        
+        #shape-canvas {
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            background: white;
+        }
+        
+        .solution-section {
+            margin: 30px 0;
+            padding: 20px;
+            background: #fff3cd;
+            border-radius: 10px;
+            border-left: 5px solid #ffc107;
+        }
+        
+        .solution-step {
+            margin: 15px 0;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+        }
+        
+        .step-number {
+            background: #007bff;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        
+        .answer-section {
+            background: #d4edda;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #28a745;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .answer {
+            font-size: 1.5em;
+            color: #155724;
+            font-weight: bold;
+        }
+        
+        .navigation {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #dee2e6;
+        }
+        
+        .nav-button {
+            background: #007bff;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1em;
+            transition: background 0.3s ease;
+        }
+        
+        .nav-button:hover {
+            background: #0056b3;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .question-text {
+                font-size: 1.1em;
+            }
+            
+            #shape-canvas {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Surface Area of Prisms and Cylinders</h1>
+            <p style="color: #666; margin: 10px 0 0 0;">Grade 8 Mathematics</p>
+        </div>
+        
+        <div class="question-info">
+            <strong>Question Number:</strong> 1_18<br>
+            <strong>Skill:</strong> surface-area-of-prisms-and-cylinders<br>
+            <strong>Tag:</strong> Gr8_49_E1<br>
+            <strong>Type:</strong> Fill in the blank
+        </div>
+        
+        <div class="question-text">
+            What is the surface area of this cylinder?
+Use $\pi \approx 3.14$ and round your answer to the nearest hundredth.
+___ square centimetres
+        </div>
+        
+        
+        <div class="visualization">
+            <h3>Interactive 3D Cylinder</h3>
+            <canvas id="shape-canvas" width="400" height="400"></canvas>
+            <p style="margin-top: 15px; color: #666;">
+                <em>Cylinder with radius: 3.0 centimetres, height: 19.0 centimetres</em><br>
+                <small>Click and drag to rotate the cylinder!</small>
+            </p>
+        </div>
+        
+        <script>
+        const canvas = document.getElementById('shape-canvas');
+        const ctx = canvas.getContext('2d');
+        
+        let mouseX = 0, mouseY = 0;
+        let isMouseDown = false;
+        let rotationX = 0.3, rotationY = 0.5;
+        
+        const cylinderRadius = 24.0;
+        const cylinderHeight = 114.0;
+        const centerX = canvas.width / 2;
+        const centerY = canvas.height / 2;
+        
+        function rotatePoint(x, y, z, rx, ry) {
+            let cosY = Math.cos(ry);
+            let sinY = Math.sin(ry);
+            let tempX = x * cosY - z * sinY;
+            let tempZ = x * sinY + z * cosY;
+            
+            let cosX = Math.cos(rx);
+            let sinX = Math.sin(rx);
+            let newY = y * cosX - tempZ * sinX;
+            let newZ = y * sinX + tempZ * cosX;
+            
+            return [tempX, newY, newZ];
+        }
+        
+        function projectPoint(x, y, z) {
+            const scale = 200 / (200 + z);
+            return [centerX + x * scale, centerY + y * scale];
+        }
+        
+        function drawCylinder() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            // Draw cylinder body
+            const segments = 32;
+            const topCircle = [];
+            const bottomCircle = [];
+            
+            for (let i = 0; i < segments; i++) {
+                const angle = (i / segments) * Math.PI * 2;
+                const x = Math.cos(angle) * cylinderRadius;
+                const z = Math.sin(angle) * cylinderRadius;
+                
+                const [topX, topY, topZ] = rotatePoint(x, -cylinderHeight/2, z, rotationX, rotationY);
+                const [bottomX, bottomY, bottomZ] = rotatePoint(x, cylinderHeight/2, z, rotationX, rotationY);
+                
+                topCircle.push({ point: projectPoint(topX, topY, topZ), depth: topZ });
+                bottomCircle.push({ point: projectPoint(bottomX, bottomY, bottomZ), depth: bottomZ });
+            }
+            
+            // Draw cylinder sides
+            ctx.fillStyle = '#87CEEB';
+            ctx.strokeStyle = '#333';
+            ctx.lineWidth = 1;
+            
+            for (let i = 0; i < segments; i++) {
+                const next = (i + 1) % segments;
+                
+                ctx.beginPath();
+                ctx.moveTo(...topCircle[i].point);
+                ctx.lineTo(...topCircle[next].point);
+                ctx.lineTo(...bottomCircle[next].point);
+                ctx.lineTo(...bottomCircle[i].point);
+                ctx.closePath();
+                
+                ctx.fill();
+                ctx.stroke();
+            }
+            
+            // Draw top circle
+            const topDepth = topCircle.reduce((sum, p) => sum + p.depth, 0) / segments;
+            const bottomDepth = bottomCircle.reduce((sum, p) => sum + p.depth, 0) / segments;
+            
+            if (topDepth < bottomDepth) {
+                ctx.fillStyle = '#FFB6C1';
+                ctx.beginPath();
+                ctx.moveTo(...topCircle[0].point);
+                for (let i = 1; i < segments; i++) {
+                    ctx.lineTo(...topCircle[i].point);
+                }
+                ctx.closePath();
+                ctx.fill();
+                ctx.stroke();
+            }
+            
+            // Draw bottom circle  
+            if (bottomDepth < topDepth) {
+                ctx.fillStyle = '#98FB98';
+                ctx.beginPath();
+                ctx.moveTo(...bottomCircle[0].point);
+                for (let i = 1; i < segments; i++) {
+                    ctx.lineTo(...bottomCircle[i].point);
+                }
+                ctx.closePath();
+                ctx.fill();
+                ctx.stroke();
+            }
+            
+            // Add labels
+            ctx.fillStyle = '#d32f2f';
+            ctx.font = 'bold 14px Arial';
+            ctx.textAlign = 'center';
+            
+            const topArea = Math.PI * 3.0 * 3.0;
+            const sideArea = 2 * Math.PI * 3.0 * 19.0;
+            const totalArea = 2 * topArea + sideArea;
+            
+            ctx.fillText(`Radius: 3.0centimetres, Height: 19.0centimetres`, centerX, 30);
+            ctx.fillText(`Top/Bottom area: π × 3.0² ≈ ${topArea.toFixed(2)} centimetres²`, centerX, canvas.height - 50);
+            ctx.fillText(`Side area: 2π × 3.0 × 19.0 ≈ ${sideArea.toFixed(2)} centimetres²`, centerX, canvas.height - 30);
+            ctx.fillText(`Total: ${totalArea.toFixed(2)} centimetres²`, centerX, canvas.height - 10);
+        }
+        
+        canvas.addEventListener('mousedown', (e) => {
+            isMouseDown = true;
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+        });
+        
+        canvas.addEventListener('mousemove', (e) => {
+            if (isMouseDown) {
+                const deltaX = e.clientX - mouseX;
+                const deltaY = e.clientY - mouseY;
+                rotationY += deltaX * 0.01;
+                rotationX += deltaY * 0.01;
+                mouseX = e.clientX;
+                mouseY = e.clientY;
+                drawCylinder();
+            }
+        });
+        
+        canvas.addEventListener('mouseup', () => { isMouseDown = false; });
+        canvas.addEventListener('mouseleave', () => { isMouseDown = false; });
+        
+        canvas.addEventListener('touchstart', (e) => {
+            e.preventDefault();
+            const touch = e.touches[0];
+            mouseX = touch.clientX;
+            mouseY = touch.clientY;
+            isMouseDown = true;
+        });
+        
+        canvas.addEventListener('touchmove', (e) => {
+            e.preventDefault();
+            if (isMouseDown) {
+                const touch = e.touches[0];
+                const deltaX = touch.clientX - mouseX;
+                const deltaY = touch.clientY - mouseY;
+                rotationY += deltaX * 0.01;
+                rotationX += deltaY * 0.01;
+                mouseX = touch.clientX;
+                mouseY = touch.clientY;
+                drawCylinder();
+            }
+        });
+        
+        canvas.addEventListener('touchend', (e) => {
+            e.preventDefault();
+            isMouseDown = false;
+        });
+        
+        setInterval(() => {
+            if (!isMouseDown) {
+                rotationY += 0.005;
+                drawCylinder();
+            }
+        }, 50);
+        
+        drawCylinder();
+        </script>
+    
+        
+        <div class="solution-section"><h3>Solution Steps</h3>
+        <div class="solution-step">
+            <span class="step-number">1</span>
+            <strong>Step 1:</strong> Find the radius and height of the cylinder.
+radius=3
+height=19
+        </div>
+        
+        <div class="solution-step">
+            <span class="step-number">2</span>
+            <strong>Step 2:</strong> Find the area of the circle on the top of the cylinder. Use 3.14 for $\pi$.
+
+$A_{top} = \pi r^2$
+$\approx 3.14 \times 3 \times 3$
+$\approx 28.26$
+        </div>
+        
+        <div class="solution-step">
+            <span class="step-number">3</span>
+            <strong>Step 3:</strong> The circle on the bottom of the cylinder is the same, so:
+$A_{bottom} = A_{top} \approx 28.26$
+        </div>
+        
+        <div class="solution-step">
+            <span class="step-number">4</span>
+            <strong>Step 4:</strong> Find the circumference of the top circle.
+
+$C = 2\pi r$
+$\approx 2 \times 3.14 \times 3$
+$\approx 18.84$
+        </div>
+        
+        <div class="solution-step">
+            <span class="step-number">5</span>
+            <strong>Step 5:</strong> Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.
+
+$A_{side} = C \times h$
+$\approx 18.84 \times 19$
+$\approx 357.96$
+        </div>
+        
+        <div class="solution-step">
+            <span class="step-number">6</span>
+            <strong>Step 6:</strong> Now add the areas to find the surface area of the cylinder.
+
+$\text{Surface area} = A_{top} + A_{bottom} + A_{side}$
+$\approx 28.26 + 28.26 + 357.96$
+$\approx 414.48$
+        </div>
+        
+        <div class="solution-step">
+            <span class="step-number">7</span>
+            <strong>Step 7:</strong> The surface area of the cylinder is about 414.48 square centimetres.
+        </div>
+        </div>
+        
+        <div class="answer-section">
+            <div class="answer">Answer: 414.48 square centimetres</div>
+        </div>
+        
+        <div class="navigation"><a href="Gr8_49_E1_index.html" class="nav-button">Back to Index</a><a href="Gr8_49_E1_1_17.html" class="nav-button">Previous</a><a href="Gr8_49_E1_1_19.html" class="nav-button">Next Question</a></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade 8 Math - Question 3_16</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['\\(', '\\)']],
+                displayMath: [['\\[', '\\]']]
+            }
+        };
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #4A90E2, #357ABD);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .header .question-meta {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            padding: 40px;
+        }
+
+        .question-section {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 5px solid #4A90E2;
+        }
+
+        .question-text {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            font-weight: 500;
+        }
+
+        .visualization-section {
+            text-align: center;
+        }
+
+        .visualization-title {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            font-weight: 500;
+        }
+
+        .svg-container {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .description {
+            background: #e8f4fd;
+            padding: 20px;
+            border-radius: 8px;
+            font-size: 1rem;
+            color: #34495e;
+            line-height: 1.6;
+        }
+
+        .solution-section {
+            grid-column: 1 / -1;
+            margin-top: 20px;
+        }
+
+        .solution-title {
+            font-size: 1.6rem;
+            color: #2c3e50;
+            margin-bottom: 25px;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .solution-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+        }
+
+        .solution-step {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .solution-step:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .step-number {
+            font-size: 0.9rem;
+            color: #4A90E2;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .step-content {
+            font-size: 1rem;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+
+        .answer-highlight {
+            background: linear-gradient(135deg, #7ED321, #5BA617);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 20px auto;
+            max-width: 300px;
+        }
+
+        .prism-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .prism-card {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .prism-title {
+            font-weight: bold;
+            color: #4A90E2;
+            margin-bottom: 8px;
+        }
+
+        .prism-dimensions {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                grid-template-columns: 1fr;
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .solution-steps {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .interactive-controls {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .control-button {
+            background: #4A90E2;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .control-button:hover {
+            background: #357ABD;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Volume of Compound Figures</h1>
+            <div class="question-meta">Grade 8 Mathematics • Question 3_16 • Tag: Gr8_48_E3</div>
+        </div>
+        
+        <div class="content">
+            <div class="question-section">
+                <div class="question-text">What is the volume of this figure?
+___ cubic centimetres</div>
+                <div class="answer-highlight">Answer: 184 cubic centimetres</div>
+                
+                <div class="prism-info">
+
+                    <div class="prism-card">
+                        <div class="prism-title">Top Prism</div>
+                        <div class="prism-dimensions">
+                            Length: 14.0 cm<br>
+                            Width: 4.0 cm<br>
+                            Height: 2.0 cm<br>
+                            <strong>Volume: 112.0 cm³</strong>
+                        </div>
+                    </div>
+        
+                    <div class="prism-card">
+                        <div class="prism-title">Bottom Left Prism</div>
+                        <div class="prism-dimensions">
+                            Length: 4.0 cm<br>
+                            Width: 2.0 cm<br>
+                            Height: 4.0 cm<br>
+                            <strong>Volume: 32.0 cm³</strong>
+                        </div>
+                    </div>
+        
+                    <div class="prism-card">
+                        <div class="prism-title">Bottom Right Prism</div>
+                        <div class="prism-dimensions">
+                            Length: 5.0 cm<br>
+                            Width: 2.0 cm<br>
+                            Height: 4.0 cm<br>
+                            <strong>Volume: 40.0 cm³</strong>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+            
+            <div class="visualization-section">
+                <div class="visualization-title">3D Visualization</div>
+                <div class="svg-container">
+                    
+    <svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <style>
+                .prism-face { stroke: #333; stroke-width: 2; opacity: 0.8; }
+                .prism-edge { stroke: #333; stroke-width: 1.5; fill: none; }
+                .label { font-family: 'Arial', sans-serif; font-size: 14px; font-weight: bold; text-anchor: middle; }
+                .dimension { font-family: 'Arial', sans-serif; font-size: 12px; fill: #666; text-anchor: middle; }
+            </style>
+        </defs>
+    
+            <path d="M 200.0 310.0 L 410.0 247.0 L 410.0 307.0 L 200.0 370.0 Z" fill="#2c5687" class="prism-face"/>
+            
+            <path d="M 185.0 301.0 L 395.0 238.0 L 395.0 298.0 L 185.0 361.0 Z" fill="#4a90e2" class="prism-face"/>
+            
+            <path d="M 200.0 310.0 L 410.0 247.0 L 395.0 238.0 L 185.0 301.0 Z" fill="#3b73b4" class="prism-face"/>
+            
+            <path d="M 410.0 307.0 L 200.0 370.0 L 185.0 361.0 L 395.0 298.0 Z" fill="#33649e" class="prism-face"/>
+            
+            <path d="M 410.0 247.0 L 410.0 307.0 L 395.0 298.0 L 395.0 238.0 Z" fill="#4281cb" class="prism-face"/>
+            
+            <path d="M 200.0 310.0 L 200.0 370.0 L 185.0 361.0 L 185.0 301.0 Z" fill="#376ca9" class="prism-face"/>
+            
+        <text x="297.5" y="304.0" class="label" fill="white">
+            top
+        </text>
+        <text x="297.5" y="324.0" class="dimension" fill="white">
+            14.0×4.0×2.0 cm
+        </text>
+        
+            <path d="M 170.0 349.0 L 230.0 331.0 L 230.0 361.0 L 170.0 379.0 Z" fill="#4b7e13" class="prism-face"/>
+            
+            <path d="M 140.0 331.0 L 200.0 313.0 L 200.0 343.0 L 140.0 361.0 Z" fill="#7ed321" class="prism-face"/>
+            
+            <path d="M 170.0 349.0 L 230.0 331.0 L 200.0 313.0 L 140.0 331.0 Z" fill="#64a81a" class="prism-face"/>
+            
+            <path d="M 230.0 361.0 L 170.0 379.0 L 140.0 361.0 L 200.0 343.0 Z" fill="#589317" class="prism-face"/>
+            
+            <path d="M 230.0 331.0 L 230.0 361.0 L 200.0 343.0 L 200.0 313.0 Z" fill="#71bd1d" class="prism-face"/>
+            
+            <path d="M 170.0 349.0 L 170.0 379.0 L 140.0 361.0 L 140.0 331.0 Z" fill="#5e9e18" class="prism-face"/>
+            
+        <text x="185.0" y="346.0" class="label" fill="white">
+            bottom left
+        </text>
+        <text x="185.0" y="366.0" class="dimension" fill="white">
+            4.0×2.0×4.0 cm
+        </text>
+        
+            <path d="M 237.0 328.9 L 312.0 306.4 L 312.0 336.4 L 237.0 358.9 Z" fill="#936315" class="prism-face"/>
+            
+            <path d="M 207.0 310.9 L 282.0 288.4 L 282.0 318.4 L 207.0 340.9 Z" fill="#f5a623" class="prism-face"/>
+            
+            <path d="M 237.0 328.9 L 312.0 306.4 L 282.0 288.4 L 207.0 310.9 Z" fill="#c4841c" class="prism-face"/>
+            
+            <path d="M 312.0 336.4 L 237.0 358.9 L 207.0 340.9 L 282.0 318.4 Z" fill="#ab7418" class="prism-face"/>
+            
+            <path d="M 312.0 306.4 L 312.0 336.4 L 282.0 318.4 L 282.0 288.4 Z" fill="#dc951f" class="prism-face"/>
+            
+            <path d="M 237.0 328.9 L 237.0 358.9 L 207.0 340.9 L 207.0 310.9 Z" fill="#b77c1a" class="prism-face"/>
+            
+        <text x="259.5" y="323.65" class="label" fill="white">
+            bottom right
+        </text>
+        <text x="259.5" y="343.65" class="dimension" fill="white">
+            5.0×2.0×4.0 cm
+        </text>
+        </svg>
+                </div>
+                <div class="description">
+                    <strong>Figure Description:</strong><br>
+                    The image shows a figure composed of three rectangular prisms. The top prism has a length of 14 cm, a width of 4 cm, and a height of 2 cm. The bottom left prism has a length of 4 cm, a width of 2 cm, and a height of 4 cm. The bottom right prism has a length of 5 cm, a width of 2 cm, and a height of 4 cm.
+                </div>
+                <div class="interactive-controls">
+                    <button class="control-button" onclick="highlightPrism(0)">Highlight Top</button>
+                    <button class="control-button" onclick="highlightPrism(1)">Highlight Left</button>
+                    <button class="control-button" onclick="highlightPrism(2)">Highlight Right</button>
+                    <button class="control-button" onclick="resetHighlight()">Reset View</button>
+                </div>
+            </div>
+            
+            <div class="solution-section">
+                <div class="solution-title">Step-by-Step Solution</div>
+                <div class="solution-steps">
+                    
+        <div class="solution-step">
+            <div class="step-number">Step 1/12</div>
+            <div class="step-content">To find the volume of the figure, start by breaking it up into 3 rectangular prisms.</div>
+        </div>
+        
+        <div class="solution-step">
+            <div class="step-number">Step 2/12</div>
+            <div class="step-content">Now, find the volume of each prism. Start with the top prism.</div>
+        </div>
+        
+        <div class="solution-step">
+            <div class="step-number">Step 3/12</div>
+            <div class="step-content">The length \(\1\) is 14 centimetres. The width \(\1\) is 4 centimetres. The height \(\1\) is 2 centimetres.</div>
+        </div>
+        
+        <div class="solution-step">
+            <div class="step-number">Step 4/12</div>
+            <div class="step-content">V = \(\1\)
+V= 14 \(\1\) 4 \(\1\) 2
+V= 112
+The volume of the top prism is 112 cubic centimetres.</div>
+        </div>
+        
+        <div class="solution-step">
+            <div class="step-number">Step 5/12</div>
+            <div class="step-content">Now, find the volume of the bottom left prism.</div>
+        </div>
+        
+        <div class="solution-step">
+            <div class="step-number">Step 6/12</div>
+            <div class="step-content">The length \(\1\) is 4 centimetres. The width \(\1\) is 2 centimetres. The height \(\1\) is 4 centimetres.</div>
+        </div>
+        
+        <div class="solution-step">
+            <div class="step-number">Step 7/12</div>
+            <div class="step-content">V = \(\1\)
+V= 4 \(\1\) 2 \(\1\) 4
+V= 32
+The volume of the bottom left prism is 32 cubic centimetres.</div>
+        </div>
+        
+        <div class="solution-step">
+            <div class="step-number">Step 8/12</div>
+            <div class="step-content">Now, find the volume of the bottom right prism.</div>
+        </div>
+        
+        <div class="solution-step">
+            <div class="step-number">Step 9/12</div>
+            <div class="step-content">The length \(\1\) is 5 centimetres. The width \(\1\) is 2 centimetres. The height \(\1\) is 4 centimetres.</div>
+        </div>
+        
+        <div class="solution-step">
+            <div class="step-number">Step 10/12</div>
+            <div class="step-content">V = \(\1\)
+V= 5 \(\1\) 2 \(\1\) 4
+V= 40
+The volume of the bottom right prism is 40 cubic centimetres.</div>
+        </div>
+        
+        <div class="solution-step">
+            <div class="step-number">Step 11/12</div>
+            <div class="step-content">To find the total volume of the figure, add the volumes of the prisms.
+112 + 32 + 40 = 184</div>
+        </div>
+        
+        <div class="solution-step">
+            <div class="step-number">Step 12/12</div>
+            <div class="step-content">The volume of the figure is 184 cubic centimetres.</div>
+        </div>
+        
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Interactive functionality for highlighting prisms
+        function highlightPrism(prismIndex) {
+            const paths = document.querySelectorAll('.prism-face');
+            resetHighlight();
+            
+            // Calculate which paths belong to which prism (simplified)
+            const pathsPerPrism = Math.floor(paths.length / 3);
+            const startIndex = prismIndex * pathsPerPrism;
+            const endIndex = Math.min(startIndex + pathsPerPrism, paths.length);
+            
+            for (let i = startIndex; i < endIndex; i++) {
+                if (paths[i]) {
+                    paths[i].style.opacity = '1.0';
+                    paths[i].style.strokeWidth = '3';
+                    paths[i].style.stroke = '#FF6B6B';
+                }
+            }
+        }
+        
+        function resetHighlight() {
+            const paths = document.querySelectorAll('.prism-face');
+            paths.forEach(path => {
+                path.style.opacity = '0.8';
+                path.style.strokeWidth = '2';
+                path.style.stroke = '#333';
+            });
+        }
+
+        // Add some animation on load
+        window.addEventListener('load', function() {
+            const steps = document.querySelectorAll('.solution-step');
+            steps.forEach((step, index) => {
+                setTimeout(() => {
+                    step.style.opacity = '0';
+                    step.style.transform = 'translateY(20px)';
+                    step.style.transition = 'all 0.5s ease';
+                    
+                    setTimeout(() => {
+                        step.style.opacity = '1';
+                        step.style.transform = 'translateY(0)';
+                    }, 100);
+                }, index * 100);
+            });
+        });
+    </script>
+</body>
+</html>

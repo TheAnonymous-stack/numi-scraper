@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade 8 Surface Area - Question 1_23</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mtml-chtml.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            }
+        };
+    </script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #4CAF50;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin: 0;
+            font-size: 2.2em;
+        }
+        
+        .question-info {
+            background: #e8f5e8;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #4CAF50;
+        }
+        
+        .question-text {
+            font-size: 1.3em;
+            color: #2c3e50;
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border: 2px solid #dee2e6;
+        }
+        
+        .visualization {
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            background: #fafafa;
+            border-radius: 10px;
+        }
+        
+        #shape-canvas {
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            background: white;
+        }
+        
+        .solution-section {
+            margin: 30px 0;
+            padding: 20px;
+            background: #fff3cd;
+            border-radius: 10px;
+            border-left: 5px solid #ffc107;
+        }
+        
+        .solution-step {
+            margin: 15px 0;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+        }
+        
+        .step-number {
+            background: #007bff;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        
+        .answer-section {
+            background: #d4edda;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #28a745;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .answer {
+            font-size: 1.5em;
+            color: #155724;
+            font-weight: bold;
+        }
+        
+        .navigation {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #dee2e6;
+        }
+        
+        .nav-button {
+            background: #007bff;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1em;
+            transition: background 0.3s ease;
+        }
+        
+        .nav-button:hover {
+            background: #0056b3;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .question-text {
+                font-size: 1.1em;
+            }
+            
+            #shape-canvas {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Surface Area of Prisms and Cylinders</h1>
+            <p style="color: #666; margin: 10px 0 0 0;">Grade 8 Mathematics</p>
+        </div>
+        
+        <div class="question-info">
+            <strong>Question Number:</strong> 1_23<br>
+            <strong>Skill:</strong> surface-area-of-prisms-and-cylinders<br>
+            <strong>Tag:</strong> Gr8_49_E1<br>
+            <strong>Type:</strong> Fill in the blank
+        </div>
+        
+        <div class="question-text">
+            What is the surface area?
+___ square centimetres
+        </div>
+        
+        
+        <div class="visualization">
+            <h3>Interactive 3D Triangular Prism</h3>
+            <canvas id="shape-canvas" width="400" height="400"></canvas>
+            <p style="margin-top: 15px; color: #666;">
+                <em>Triangular prism: base 6.0centimetres, sides 6.0centimetres, height 7.0centimetres, length 10.0centimetres</em><br>
+                <small>Click and drag to rotate!</small>
+            </p>
+        </div>
+        
+        <script>
+        const canvas = document.getElementById('shape-canvas');
+        const ctx = canvas.getContext('2d');
+        
+        let mouseX = 0, mouseY = 0;
+        let isMouseDown = false;
+        let rotationX = 0.3, rotationY = 0.5;
+        
+        const scaleBase = 48.0;
+        const scaleHeight = 56.0;
+        const scaleLength = 40.0;
+        const centerX = canvas.width / 2;
+        const centerY = canvas.height / 2;
+        
+        // Triangular prism vertices
+        const vertices = [
+            // Front triangle
+            [0, -scaleHeight/2, scaleLength/2],           // top
+            [-scaleBase/2, scaleHeight/2, scaleLength/2], // bottom left
+            [scaleBase/2, scaleHeight/2, scaleLength/2],  // bottom right
+            // Back triangle
+            [0, -scaleHeight/2, -scaleLength/2],          // top
+            [-scaleBase/2, scaleHeight/2, -scaleLength/2],// bottom left
+            [scaleBase/2, scaleHeight/2, -scaleLength/2]  // bottom right
+        ];
+        
+        const faces = [
+            [0, 1, 2], // front triangle
+            [3, 5, 4], // back triangle
+            [0, 1, 4, 3], // left side
+            [0, 2, 5, 3], // right side
+            [1, 2, 5, 4]  // bottom
+        ];
+        
+        const faceColors = [
+            '#FFB6C1', '#87CEEB', '#98FB98', '#F0E68C', '#DDA0DD'
+        ];
+        
+        function rotatePoint(x, y, z, rx, ry) {
+            let cosY = Math.cos(ry);
+            let sinY = Math.sin(ry);
+            let tempX = x * cosY - z * sinY;
+            let tempZ = x * sinY + z * cosY;
+            
+            let cosX = Math.cos(rx);
+            let sinX = Math.sin(rx);
+            let newY = y * cosX - tempZ * sinX;
+            let newZ = y * sinX + tempZ * cosX;
+            
+            return [tempX, newY, newZ];
+        }
+        
+        function projectPoint(x, y, z) {
+            const scale = 200 / (200 + z);
+            return [centerX + x * scale, centerY + y * scale];
+        }
+        
+        function drawTriangularPrism() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            const transformedVertices = vertices.map(([x, y, z]) => {
+                const [rx, ry, rz] = rotatePoint(x, y, z, rotationX, rotationY);
+                return { projected: projectPoint(rx, ry, rz), depth: rz };
+            });
+            
+            const faceDepths = faces.map((face, i) => {
+                const avgDepth = face.reduce((sum, vi) => sum + transformedVertices[vi].depth, 0) / face.length;
+                return { index: i, depth: avgDepth };
+            });
+            
+            faceDepths.sort((a, b) => a.depth - b.depth);
+            
+            faceDepths.forEach(({ index }) => {
+                const face = faces[index];
+                
+                ctx.beginPath();
+                ctx.moveTo(...transformedVertices[face[0]].projected);
+                face.slice(1).forEach(vi => {
+                    ctx.lineTo(...transformedVertices[vi].projected);
+                });
+                ctx.closePath();
+                
+                ctx.fillStyle = faceColors[index];
+                ctx.fill();
+                ctx.strokeStyle = '#333';
+                ctx.lineWidth = 2;
+                ctx.stroke();
+            });
+            
+            ctx.fillStyle = '#d32f2f';
+            ctx.font = 'bold 14px Arial';
+            ctx.textAlign = 'center';
+            const triangleArea = 0.5 * 6.0 * 7.0;
+            const totalArea = 2 * triangleArea + 6.0 * 10.0 + 6.0 * 10.0 + 6.0 * 10.0;
+            ctx.fillText(`Triangle area: ½ × 6.0 × 7.0 = ${triangleArea} centimetres²`, centerX, canvas.height - 50);
+            ctx.fillText(`Total surface area = ${totalArea} centimetres²`, centerX, canvas.height - 30);
+        }
+        
+        canvas.addEventListener('mousedown', (e) => {
+            isMouseDown = true;
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+        });
+        
+        canvas.addEventListener('mousemove', (e) => {
+            if (isMouseDown) {
+                const deltaX = e.clientX - mouseX;
+                const deltaY = e.clientY - mouseY;
+                rotationY += deltaX * 0.01;
+                rotationX += deltaY * 0.01;
+                mouseX = e.clientX;
+                mouseY = e.clientY;
+                drawTriangularPrism();
+            }
+        });
+        
+        canvas.addEventListener('mouseup', () => { isMouseDown = false; });
+        canvas.addEventListener('mouseleave', () => { isMouseDown = false; });
+        
+        canvas.addEventListener('touchstart', (e) => {
+            e.preventDefault();
+            const touch = e.touches[0];
+            mouseX = touch.clientX;
+            mouseY = touch.clientY;
+            isMouseDown = true;
+        });
+        
+        canvas.addEventListener('touchmove', (e) => {
+            e.preventDefault();
+            if (isMouseDown) {
+                const touch = e.touches[0];
+                const deltaX = touch.clientX - mouseX;
+                const deltaY = touch.clientY - mouseY;
+                rotationY += deltaX * 0.01;
+                rotationX += deltaY * 0.01;
+                mouseX = touch.clientX;
+                mouseY = touch.clientY;
+                drawTriangularPrism();
+            }
+        });
+        
+        canvas.addEventListener('touchend', (e) => {
+            e.preventDefault();
+            isMouseDown = false;
+        });
+        
+        setInterval(() => {
+            if (!isMouseDown) {
+                rotationY += 0.005;
+                drawTriangularPrism();
+            }
+        }, 50);
+        
+        drawTriangularPrism();
+        </script>
+    
+        
+        <div class="solution-section"><h3>Solution Steps</h3>
+        <div class="solution-step">
+            <span class="step-number">1</span>
+            <strong>Step 1:</strong> Find the area of the faces in each face.
+$\frac{1}{2}\times6\times7=21$
+
+$\frac{1}{2}\times6\times7=21$
+$6\times10=60$
+$6\times 10=60$
+$6\times10=60$
+        </div>
+        
+        <div class="solution-step">
+            <span class="step-number">2</span>
+            <strong>Step 2:</strong> Add the areas of the 5 faces to find the surface area.
+Surface area$=21+21+60+60+60=222$
+        </div>
+        
+        <div class="solution-step">
+            <span class="step-number">3</span>
+            <strong>Step 3:</strong> The surface area is 222 square centimetres.
+        </div>
+        </div>
+        
+        <div class="answer-section">
+            <div class="answer">Answer: 222 square centimetres</div>
+        </div>
+        
+        <div class="navigation"><a href="Gr8_49_E1_index.html" class="nav-button">Back to Index</a><a href="Gr8_49_E1_1_22.html" class="nav-button">Previous</a><a href="Gr8_49_E1_1_24.html" class="nav-button">Next Question</a></div>
+    </div>
+</body>
+</html>

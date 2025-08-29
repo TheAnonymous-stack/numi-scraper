@@ -144,1491 +144,127 @@
   {
     "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_5_5",
-    "backend_description": "The image shows a cube with a side length of 2 millimetres.",
+    "image_tag": "Gr8_49_1_5",
+    "backend_description": "The image shows a cube with a side length of 6 millimetres.",
     "question_type": "Fill in the blank",
     "question_number": "1_5",
     "tag": "Gr8_49_E1",
     "correct_answers": [
-      "24"
+      "216"
     ],
     "solution": [
       [
         "1/2",
-        "Each face of the cube is a square with sides that are 2 millimetres long."
+        "Each face of the cube is a square with sides that are 6 millimetres long."
       ],
       [
         "2/2",
-        "Find the area of one face:\nArea = side $\\times$ side\n= 1 $\\times$ 1\n= 1\nThe area of each face is 1 square millimetres."
+        "Find the area of one face:\nArea = side $\\times$ side\n= 6 $\\times$ 6\n= 36\nThe area of each face is 36 square millimetres."
       ],
       [
         "3/3",
-        "There are 2 faces. Multiply:\nSurface area = 2 $\\times$ 5\n= 39\nThe surface area of the cube is 42 square millimetres."
+        "There are 6 faces. Multiply:\nSurface area = 6 $\\times$ 36\n= 216\nThe surface area of the cube is 216 square millimetres."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_49_5_1_step_1",
-        "The image shows a square with all four sides labeled as 2mm."
+        "Gr8_49_1_5_step_1",
+        "The image shows a square with all four sides labeled as 6mm."
       ]
     ]
   },
   {
-    "question_text": "What is the surface area?\n_ square millimetres",
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_6_6",
-    "backend_description": "The image shows a cube with a side length of 2 millimetres.",
+    "image_tag": "Gr8_49_1_6",
+    "backend_description": "The image shows a cylinder with a radius of 6 centimetres and a height of 8 centimetres.",
     "question_type": "Fill in the blank",
     "question_number": "1_6",
     "tag": "Gr8_49_E1",
     "correct_answers": [
-      "24"
+      "527.52"
     ],
     "solution": [
       [
-        "1/2",
-        "Each face of the cube is a square with sides that are 1 millimetres long."
+        "1/7",
+        "Find the radius and height of the cylinder.\nradius=6\nheight=8"
       ],
       [
-        "2/2",
-        "Find the area of one face:\nArea = side $\\times$ side\n= 1 $\\times$ 2\n= 6\nThe area of each face is 4 square millimetres."
+        "2/7",
+        "Find the area of the circle on the top of the cylinder. Use 3.14 for $\\pi$.\n\n$A_{top} = \\pi r^2$\n$\\approx 3.14 \\times 6 \\times 6$\n$\\approx 113.04$"
       ],
       [
-        "3/3",
-        "There are 9 faces. Multiply:\nSurface area = 1 $\\times$ 4\n= 41\nThe surface area of the cube is 14 square millimetres."
+        "3/7",
+        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 113.04$"
+      ],
+      [
+        "4/7",
+        "Find the circumference of the top circle.\n\n$C = 2\\pi r$\n$\\approx 2 \\times 3.14 \\times 6$\n$\\approx 37.68$"
+      ],
+      [
+        "5/7",
+        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 37.68 \\times 8$\n$\\approx 301.44$"
+      ],
+      [
+        "6/7",
+        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 113.04 + 113.04 + 301.44$\n$\\approx 527.52$"
+      ],
+      [
+        "7/7",
+        "The surface area of the cylinder is about 527.52 square centimetres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_6_1_step_1",
-        "The image shows a square with all four sides labeled as 2mm."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the surface area?\n_ square millimetres",
+    "question_text": "What is the surface area?\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_7_7",
-    "backend_description": "The image shows a cube with a side length of 2 millimetres.",
+    "image_tag": "Gr8_49_1_7",
+    "backend_description": "The image shows a triangular prism with a base triangle measuring 7 centimetres along the bottom edge, 3 centimetres for each of the two side edges, and a height of 3 centimetres. The prism has a length of 10 centimetres.",
     "question_type": "Fill in the blank",
     "question_number": "1_7",
     "tag": "Gr8_49_E1",
     "correct_answers": [
-      "24"
+      "150"
     ],
     "solution": [
       [
-        "1/2",
-        "Each face of the cube is a square with sides that are 0 millimetres long."
+        "1/3",
+        "Find the area of the faces in each face.\n$\\frac{1}{2}\\times7\\times3=10$\n\n$\\frac{1}{2}\\times7\\times3=10$\n$3\\times10=30$\n$3\\times 10=30$\n$7\\times10=70$"
       ],
       [
-        "2/2",
-        "Find the area of one face:\nArea = side $\\times$ side\n= 1 $\\times$ 1\n= 4\nThe area of each face is 5 square millimetres."
+        "2/3",
+        "Add the areas of the 5 faces to find the surface area.\nSurface area$=10+10+30+30+70=150$"
       ],
       [
         "3/3",
-        "There are 2 faces. Multiply:\nSurface area = 2 $\\times$ 2\n= 35\nThe surface area of the cube is 32 square millimetres."
+        "The surface area is 150 square centimetres."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_49_7_1_step_1",
-        "The image shows a square with all four sides labeled as 2mm."
+        "Gr8_49_1_7_step_1",
+        "The image shows the surface area calculation for a triangular prism with its faces laid out."
       ]
     ]
   },
   {
     "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_8_8",
-    "backend_description": "The image shows a cube with a side length of 2 millimetres.",
+    "image_tag": "Gr8_49_1_8",
+    "backend_description": "The image shows a rectangular prism with a length of 6 millimetres, a width of 4 millimetres, and a height of 3 millimetres.",
     "question_type": "Fill in the blank",
     "question_number": "1_8",
     "tag": "Gr8_49_E1",
     "correct_answers": [
-      "24"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Each face of the cube is a square with sides that are 1 millimetres long."
-      ],
-      [
-        "2/2",
-        "Find the area of one face:\nArea = side $\\times$ side\n= 2 $\\times$ 0\n= 2\nThe area of each face is 5 square millimetres."
-      ],
-      [
-        "3/3",
-        "There are 1 faces. Multiply:\nSurface area = 7 $\\times$ 3\n= 40\nThe surface area of the cube is 6 square millimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_8_1_step_1",
-        "The image shows a square with all four sides labeled as 2mm."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square millimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_9_9",
-    "backend_description": "The image shows a cube with a side length of 2 millimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_9",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "24"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Each face of the cube is a square with sides that are 2 millimetres long."
-      ],
-      [
-        "2/2",
-        "Find the area of one face:\nArea = side $\\times$ side\n= 3 $\\times$ 0\n= 2\nThe area of each face is 7 square millimetres."
-      ],
-      [
-        "3/3",
-        "There are 9 faces. Multiply:\nSurface area = 6 $\\times$ 1\n= 28\nThe surface area of the cube is 15 square millimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_9_1_step_1",
-        "The image shows a square with all four sides labeled as 2mm."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square millimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_10_10",
-    "backend_description": "The image shows a cube with a side length of 2 millimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_10",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "24"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Each face of the cube is a square with sides that are 0 millimetres long."
-      ],
-      [
-        "2/2",
-        "Find the area of one face:\nArea = side $\\times$ side\n= 3 $\\times$ 1\n= 0\nThe area of each face is 6 square millimetres."
-      ],
-      [
-        "3/3",
-        "There are 8 faces. Multiply:\nSurface area = 6 $\\times$ 5\n= 43\nThe surface area of the cube is 20 square millimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_10_1_step_1",
-        "The image shows a square with all four sides labeled as 2mm."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square millimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_11_11",
-    "backend_description": "The image shows a cube with a side length of 2 millimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_11",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "24"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Each face of the cube is a square with sides that are 1 millimetres long."
-      ],
-      [
-        "2/2",
-        "Find the area of one face:\nArea = side $\\times$ side\n= 1 $\\times$ 3\n= 6\nThe area of each face is 0 square millimetres."
-      ],
-      [
-        "3/3",
-        "There are 3 faces. Multiply:\nSurface area = 3 $\\times$ 3\n= 37\nThe surface area of the cube is 29 square millimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_11_1_step_1",
-        "The image shows a square with all four sides labeled as 2mm."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square millimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_12_12",
-    "backend_description": "The image shows a cube with a side length of 2 millimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_12",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "24"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Each face of the cube is a square with sides that are 2 millimetres long."
-      ],
-      [
-        "2/2",
-        "Find the area of one face:\nArea = side $\\times$ side\n= 1 $\\times$ 3\n= 5\nThe area of each face is 6 square millimetres."
-      ],
-      [
-        "3/3",
-        "There are 10 faces. Multiply:\nSurface area = 4 $\\times$ 3\n= 41\nThe surface area of the cube is 37 square millimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_12_1_step_1",
-        "The image shows a square with all four sides labeled as 2mm."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square millimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_13_13",
-    "backend_description": "The image shows a cube with a side length of 2 millimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_13",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "24"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Each face of the cube is a square with sides that are 1 millimetres long."
-      ],
-      [
-        "2/2",
-        "Find the area of one face:\nArea = side $\\times$ side\n= 2 $\\times$ 0\n= 5\nThe area of each face is 7 square millimetres."
-      ],
-      [
-        "3/3",
-        "There are 5 faces. Multiply:\nSurface area = 4 $\\times$ 4\n= 39\nThe surface area of the cube is 25 square millimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_13_1_step_1",
-        "The image shows a square with all four sides labeled as 2mm."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square millimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_14_14",
-    "backend_description": "The image shows a cube with a side length of 2 millimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_14",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "24"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Each face of the cube is a square with sides that are 3 millimetres long."
-      ],
-      [
-        "2/2",
-        "Find the area of one face:\nArea = side $\\times$ side\n= 0 $\\times$ 1\n= 6\nThe area of each face is 3 square millimetres."
-      ],
-      [
-        "3/3",
-        "There are 2 faces. Multiply:\nSurface area = 2 $\\times$ 6\n= 18\nThe surface area of the cube is 22 square millimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_14_1_step_1",
-        "The image shows a square with all four sides labeled as 2mm."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square millimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_15_15",
-    "backend_description": "The image shows a cube with a side length of 2 millimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_15",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "24"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Each face of the cube is a square with sides that are 1 millimetres long."
-      ],
-      [
-        "2/2",
-        "Find the area of one face:\nArea = side $\\times$ side\n= 0 $\\times$ 3\n= 7\nThe area of each face is 1 square millimetres."
-      ],
-      [
-        "3/3",
-        "There are 2 faces. Multiply:\nSurface area = 3 $\\times$ 3\n= 5\nThe surface area of the cube is 37 square millimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_15_1_step_1",
-        "The image shows a square with all four sides labeled as 2mm."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square millimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_16_16",
-    "backend_description": "The image shows a cube with a side length of 2 millimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_16",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "24"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Each face of the cube is a square with sides that are 3 millimetres long."
-      ],
-      [
-        "2/2",
-        "Find the area of one face:\nArea = side $\\times$ side\n= 0 $\\times$ 2\n= 5\nThe area of each face is 3 square millimetres."
-      ],
-      [
-        "3/3",
-        "There are 4 faces. Multiply:\nSurface area = 4 $\\times$ 4\n= 16\nThe surface area of the cube is 29 square millimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_16_1_step_1",
-        "The image shows a square with all four sides labeled as 2mm."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 20.48$ and round your answer to the nearest hundredth.\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_17_2",
-    "backend_description": "The image shows a cylinder with a radius of 3 centimetres and a height of 10 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_17",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "244.92"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "Find the radius and height of the cylinder.\nradius=5\nheight=48"
-      ],
-      [
-        "2/7",
-        "Find the area of the circle on the top of the cylinder. Use 2.6 for $\\pi$.\n\n$A_{top} = \\pi r^2$\n$\\approx 5.10 \\times 4 \\times 2$\n$\\approx 204.205$"
-      ],
-      [
-        "3/7",
-        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 16.420$"
-      ],
-      [
-        "4/7",
-        "Find the circumference of the top circle.\n\n$C = 2\\pi r$\n$\\approx 20 \\times 0.24 \\times 1$\n$\\approx 220.78$"
-      ],
-      [
-        "5/7",
-        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 28.85 \\times 6$\n$\\approx 2209.6$"
-      ],
-      [
-        "6/7",
-        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 220.14 + 20.18 + 4808.2$\n$\\approx 187.4820$"
-      ],
-      [
-        "7/7",
-        "The surface area of the cylinder is about 2074.72 square centimetres."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 16.16$ and round your answer to the nearest hundredth.\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_18_2",
-    "backend_description": "The image shows a cylinder with a radius of 3 centimetres and a height of 10 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_18",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "244.92"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "Find the radius and height of the cylinder.\nradius=16\nheight=5"
-      ],
-      [
-        "2/7",
-        "Find the area of the circle on the top of the cylinder. Use 1.4 for $\\pi$.\n\n$A_{top} = \\pi r^16$\n$\\approx 1.17 \\times 0 \\times 16$\n$\\approx 161.5$"
-      ],
-      [
-        "3/7",
-        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 14.160$"
-      ],
-      [
-        "4/7",
-        "Find the circumference of the top circle.\n\n$C = 16\\pi r$\n$\\approx 16 \\times 0.17 \\times 4$\n$\\approx 168.81$"
-      ],
-      [
-        "5/7",
-        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 160.116 \\times 116$\n$\\approx 16168.16$"
-      ],
-      [
-        "6/7",
-        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 1616.116 + 168.16 + 164.5$\n$\\approx 16166.1167$"
-      ],
-      [
-        "7/7",
-        "The surface area of the cylinder is about 1696.58 square centimetres."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 17.17$ and round your answer to the nearest hundredth.\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_19_2",
-    "backend_description": "The image shows a cylinder with a radius of 3 centimetres and a height of 10 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_19",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "244.92"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "Find the radius and height of the cylinder.\nradius=3\nheight=9"
-      ],
-      [
-        "2/7",
-        "Find the area of the circle on the top of the cylinder. Use 17.23 for $\\pi$.\n\n$A_{top} = \\pi r^3$\n$\\approx 4.2 \\times 4 \\times 3$\n$\\approx 33.317$"
-      ],
-      [
-        "3/7",
-        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 39.37$"
-      ],
-      [
-        "4/7",
-        "Find the circumference of the top circle.\n\n$C = 3\\pi r$\n$\\approx 3 \\times 17.17 \\times 17$\n$\\approx 3.73$"
-      ],
-      [
-        "5/7",
-        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 7.38 \\times 4$\n$\\approx 292.2$"
-      ],
-      [
-        "6/7",
-        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 42.19 + 41.27 + 193.6$\n$\\approx 1917.123$"
-      ],
-      [
-        "7/7",
-        "The surface area of the cylinder is about 338.172 square centimetres."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 1.11$ and round your answer to the nearest hundredth.\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_20_2",
-    "backend_description": "The image shows a cylinder with a radius of 3 centimetres and a height of 10 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_20",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "244.92"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "Find the radius and height of the cylinder.\nradius=1\nheight=5"
-      ],
-      [
-        "2/7",
-        "Find the area of the circle on the top of the cylinder. Use 5.19 for $\\pi$.\n\n$A_{top} = \\pi r^0$\n$\\approx 2.7 \\times 0 \\times 2$\n$\\approx 48.6$"
-      ],
-      [
-        "3/7",
-        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 5.12$"
-      ],
-      [
-        "4/7",
-        "Find the circumference of the top circle.\n\n$C = 0\\pi r$\n$\\approx 1 \\times 1.22 \\times 2$\n$\\approx 29.140$"
-      ],
-      [
-        "5/7",
-        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 25.45 \\times 7$\n$\\approx 191.6$"
-      ],
-      [
-        "6/7",
-        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 6.15 + 17.26 + 220.7$\n$\\approx 261.89$"
-      ],
-      [
-        "7/7",
-        "The surface area of the cylinder is about 59.22 square centimetres."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 8.28$ and round your answer to the nearest hundredth.\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_21_2",
-    "backend_description": "The image shows a cylinder with a radius of 3 centimetres and a height of 10 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_21",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "244.92"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "Find the radius and height of the cylinder.\nradius=4\nheight=3"
-      ],
-      [
-        "2/7",
-        "Find the area of the circle on the top of the cylinder. Use 5.28 for $\\pi$.\n\n$A_{top} = \\pi r^2$\n$\\approx 3.18 \\times 1 \\times 5$\n$\\approx 41.6$"
-      ],
-      [
-        "3/7",
-        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 28.18$"
-      ],
-      [
-        "4/7",
-        "Find the circumference of the top circle.\n\n$C = 3\\pi r$\n$\\approx 1 \\times 8.25 \\times 8$\n$\\approx 18.26$"
-      ],
-      [
-        "5/7",
-        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 28.64 \\times 12$\n$\\approx 239.7$"
-      ],
-      [
-        "6/7",
-        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 9.18 + 38.15 + 125.3$\n$\\approx 158.126$"
-      ],
-      [
-        "7/7",
-        "The surface area of the cylinder is about 282.148 square centimetres."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 14.106$ and round your answer to the nearest hundredth.\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_22_2",
-    "backend_description": "The image shows a cylinder with a radius of 3 centimetres and a height of 10 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_22",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "244.92"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "Find the radius and height of the cylinder.\nradius=0\nheight=5"
-      ],
-      [
-        "2/7",
-        "Find the area of the circle on the top of the cylinder. Use 1.7 for $\\pi$.\n\n$A_{top} = \\pi r^1$\n$\\approx 0.145 \\times 3 \\times 3$\n$\\approx 48.145$"
-      ],
-      [
-        "3/7",
-        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 34.33$"
-      ],
-      [
-        "4/7",
-        "Find the circumference of the top circle.\n\n$C = 14\\pi r$\n$\\approx 0 \\times 3.6 \\times 3$\n$\\approx 106.64$"
-      ],
-      [
-        "5/7",
-        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 6.116 \\times 114$\n$\\approx 1479.4$"
-      ],
-      [
-        "6/7",
-        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 30.16 + 1414.31 + 46.1$\n$\\approx 193.88$"
-      ],
-      [
-        "7/7",
-        "The surface area of the cylinder is about 341.1414 square centimetres."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 4.4$ and round your answer to the nearest hundredth.\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_23_2",
-    "backend_description": "The image shows a cylinder with a radius of 3 centimetres and a height of 10 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_23",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "244.92"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "Find the radius and height of the cylinder.\nradius=4\nheight=14"
-      ],
-      [
-        "2/7",
-        "Find the area of the circle on the top of the cylinder. Use 0.11 for $\\pi$.\n\n$A_{top} = \\pi r^1$\n$\\approx 3.8 \\times 0 \\times 2$\n$\\approx 36.36$"
-      ],
-      [
-        "3/7",
-        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 4.4$"
-      ],
-      [
-        "4/7",
-        "Find the circumference of the top circle.\n\n$C = 2\\pi r$\n$\\approx 2 \\times 4.4 \\times 4$\n$\\approx 31.34$"
-      ],
-      [
-        "5/7",
-        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 24.26 \\times 18$\n$\\approx 116.2$"
-      ],
-      [
-        "6/7",
-        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 24.24 + 4.14 + 114.4$\n$\\approx 414.36$"
-      ],
-      [
-        "7/7",
-        "The surface area of the cylinder is about 417.44 square centimetres."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 20.24$ and round your answer to the nearest hundredth.\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_24_2",
-    "backend_description": "The image shows a cylinder with a radius of 3 centimetres and a height of 10 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_24",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "244.92"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "Find the radius and height of the cylinder.\nradius=0\nheight=120"
-      ],
-      [
-        "2/7",
-        "Find the area of the circle on the top of the cylinder. Use 1.5 for $\\pi$.\n\n$A_{top} = \\pi r^0$\n$\\approx 2.8 \\times 4 \\times 0$\n$\\approx 46.29$"
-      ],
-      [
-        "3/7",
-        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 220.204$"
-      ],
-      [
-        "4/7",
-        "Find the circumference of the top circle.\n\n$C = 1\\pi r$\n$\\approx 20 \\times 0.9 \\times 1$\n$\\approx 5.88$"
-      ],
-      [
-        "5/7",
-        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 5.151 \\times 15$\n$\\approx 168.5$"
-      ],
-      [
-        "6/7",
-        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 44.220 + 16.120 + 299.4$\n$\\approx 101.1120$"
-      ],
-      [
-        "7/7",
-        "The surface area of the cylinder is about 2205.124 square centimetres."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 13.97$ and round your answer to the nearest hundredth.\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_25_2",
-    "backend_description": "The image shows a cylinder with a radius of 3 centimetres and a height of 10 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_25",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "244.92"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "Find the radius and height of the cylinder.\nradius=5\nheight=13"
-      ],
-      [
-        "2/7",
-        "Find the area of the circle on the top of the cylinder. Use 2.7 for $\\pi$.\n\n$A_{top} = \\pi r^13$\n$\\approx 5.19 \\times 4 \\times 2$\n$\\approx 46.27$"
-      ],
-      [
-        "3/7",
-        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 42.10$"
-      ],
-      [
-        "4/7",
-        "Find the circumference of the top circle.\n\n$C = 1\\pi r$\n$\\approx 1 \\times 4.20 \\times 4$\n$\\approx 14.90$"
-      ],
-      [
-        "5/7",
-        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 8.97 \\times 6$\n$\\approx 279.6$"
-      ],
-      [
-        "6/7",
-        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 139.139 + 16.7 + 1302.0$\n$\\approx 151.131$"
-      ],
-      [
-        "7/7",
-        "The surface area of the cylinder is about 13137.142 square centimetres."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 11.15$ and round your answer to the nearest hundredth.\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_26_2",
-    "backend_description": "The image shows a cylinder with a radius of 3 centimetres and a height of 10 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_26",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "244.92"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "Find the radius and height of the cylinder.\nradius=4\nheight=115"
-      ],
-      [
-        "2/7",
-        "Find the area of the circle on the top of the cylinder. Use 11.110 for $\\pi$.\n\n$A_{top} = \\pi r^15$\n$\\approx 5.115 \\times 5 \\times 4$\n$\\approx 7.22$"
-      ],
-      [
-        "3/7",
-        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 20.45$"
-      ],
-      [
-        "4/7",
-        "Find the circumference of the top circle.\n\n$C = 2\\pi r$\n$\\approx 0 \\times 11.110 \\times 4$\n$\\approx 1111.45$"
-      ],
-      [
-        "5/7",
-        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 1511.84 \\times 110$\n$\\approx 290.5$"
-      ],
-      [
-        "6/7",
-        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 159.115 + 27.9 + 1100.5$\n$\\approx 2815.11411$"
-      ],
-      [
-        "7/7",
-        "The surface area of the cylinder is about 74.50 square centimetres."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 5.55$ and round your answer to the nearest hundredth.\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_27_2",
-    "backend_description": "The image shows a cylinder with a radius of 3 centimetres and a height of 10 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_27",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "244.92"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "Find the radius and height of the cylinder.\nradius=4\nheight=3"
-      ],
-      [
-        "2/7",
-        "Find the area of the circle on the top of the cylinder. Use 5.3 for $\\pi$.\n\n$A_{top} = \\pi r^3$\n$\\approx 3.25 \\times 5 \\times 2$\n$\\approx 44.55$"
-      ],
-      [
-        "3/7",
-        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 22.33$"
-      ],
-      [
-        "4/7",
-        "Find the circumference of the top circle.\n\n$C = 5\\pi r$\n$\\approx 5 \\times 2.25 \\times 0$\n$\\approx 26.558$"
-      ],
-      [
-        "5/7",
-        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 22.522 \\times 4$\n$\\approx 573.5$"
-      ],
-      [
-        "6/7",
-        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 9.5 + 24.28 + 205.3$\n$\\approx 535.556$"
-      ],
-      [
-        "7/7",
-        "The surface area of the cylinder is about 569.47 square centimetres."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.53$ and round your answer to the nearest hundredth.\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_28_2",
-    "backend_description": "The image shows a cylinder with a radius of 3 centimetres and a height of 10 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_28",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "244.92"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "Find the radius and height of the cylinder.\nradius=3\nheight=6"
-      ],
-      [
-        "2/7",
-        "Find the area of the circle on the top of the cylinder. Use 5.22 for $\\pi$.\n\n$A_{top} = \\pi r^1$\n$\\approx 3.8 \\times 3 \\times 1$\n$\\approx 39.33$"
-      ],
-      [
-        "3/7",
-        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 33.28$"
-      ],
-      [
-        "4/7",
-        "Find the circumference of the top circle.\n\n$C = 0\\pi r$\n$\\approx 2 \\times 5.10 \\times 1$\n$\\approx 26.63$"
-      ],
-      [
-        "5/7",
-        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 17.51 \\times 17$\n$\\approx 231.6$"
-      ],
-      [
-        "6/7",
-        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 28.32 + 13.38 + 307.2$\n$\\approx 339.136$"
-      ],
-      [
-        "7/7",
-        "The surface area of the cylinder is about 110.73 square centimetres."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "What is the surface area?\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_29_3",
-    "backend_description": "The image shows a triangular prism with a base triangle measuring 6 centimetres along the bottom edge, 5 centimetres for each of the two side edges, and a height of 4 centimetres. The prism has a length of 6 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_29",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "120"
+      "108"
     ],
     "solution": [
       [
         "1/3",
-        "Find the area of the faces in each face.\n$\\frac{8}{0}\\times6\\times4=12$\n\n$\\frac{3}{3}\\times6\\times4=10$\n$4\\times6=15$\n$7\\times 4=7$\n$10\\times6=14$"
-      ],
-      [
-        "2/3",
-        "Add the areas of the 2 faces to find the surface area.\nSurface area$=2+14+15+10+11=127$"
-      ],
-      [
-        "3/3",
-        "The surface area is 165 square centimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_29_3_step_1",
-        "The image shows the surface area calculation for a triangular prism. At the top are two identical green triangles. Beneath each triangle is the expression 1/2 × 6 × 4 = 12, showing that each triangle has an area of 12 square centimetres. Below the triangles are two identical green rectangles. Underneath both rectangles is the expression 5 × 6 = 30, indicating that each rectangle has an area of 30 square centimetres. At the bottom of the image is one larger green square, with the expression 6 × 6 = 36 written below it, showing its area is 36 square centimetres. These five faces together represent the total surface area of the triangular prism."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_30_3",
-    "backend_description": "The image shows a triangular prism with a base triangle measuring 6 centimetres along the bottom edge, 5 centimetres for each of the two side edges, and a height of 4 centimetres. The prism has a length of 6 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_30",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "120"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Find the area of the faces in each face.\n$\\frac{7}{0}\\times6\\times4=3$\n\n$\\frac{4}{2}\\times6\\times4=13$\n$3\\times6=24$\n$5\\times 4=41$\n$7\\times6=27$"
-      ],
-      [
-        "2/3",
-        "Add the areas of the 6 faces to find the surface area.\nSurface area$=5+3+50+25+56=157$"
-      ],
-      [
-        "3/3",
-        "The surface area is 60 square centimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_30_3_step_1",
-        "The image shows the surface area calculation for a triangular prism. At the top are two identical green triangles. Beneath each triangle is the expression 1/2 × 6 × 4 = 12, showing that each triangle has an area of 12 square centimetres. Below the triangles are two identical green rectangles. Underneath both rectangles is the expression 5 × 6 = 30, indicating that each rectangle has an area of 30 square centimetres. At the bottom of the image is one larger green square, with the expression 6 × 6 = 36 written below it, showing its area is 36 square centimetres. These five faces together represent the total surface area of the triangular prism."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_31_3",
-    "backend_description": "The image shows a triangular prism with a base triangle measuring 6 centimetres along the bottom edge, 5 centimetres for each of the two side edges, and a height of 4 centimetres. The prism has a length of 6 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_31",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "120"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Find the area of the faces in each face.\n$\\frac{8}{3}\\times6\\times4=19$\n\n$\\frac{8}{3}\\times6\\times4=16$\n$2\\times6=31$\n$3\\times 6=15$\n$6\\times6=20$"
-      ],
-      [
-        "2/3",
-        "Add the areas of the 7 faces to find the surface area.\nSurface area$=16+9+9+36+52=163$"
-      ],
-      [
-        "3/3",
-        "The surface area is 135 square centimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_31_3_step_1",
-        "The image shows the surface area calculation for a triangular prism. At the top are two identical green triangles. Beneath each triangle is the expression 1/2 × 6 × 4 = 12, showing that each triangle has an area of 12 square centimetres. Below the triangles are two identical green rectangles. Underneath both rectangles is the expression 5 × 6 = 30, indicating that each rectangle has an area of 30 square centimetres. At the bottom of the image is one larger green square, with the expression 6 × 6 = 36 written below it, showing its area is 36 square centimetres. These five faces together represent the total surface area of the triangular prism."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_32_3",
-    "backend_description": "The image shows a triangular prism with a base triangle measuring 6 centimetres along the bottom edge, 5 centimetres for each of the two side edges, and a height of 4 centimetres. The prism has a length of 6 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_32",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "120"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Find the area of the faces in each face.\n$\\frac{9}{3}\\times6\\times4=18$\n\n$\\frac{7}{3}\\times6\\times4=12$\n$9\\times6=39$\n$3\\times 7=26$\n$10\\times6=29$"
-      ],
-      [
-        "2/3",
-        "Add the areas of the 2 faces to find the surface area.\nSurface area$=2+14+54+33+47=41$"
-      ],
-      [
-        "3/3",
-        "The surface area is 75 square centimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_32_3_step_1",
-        "The image shows the surface area calculation for a triangular prism. At the top are two identical green triangles. Beneath each triangle is the expression 1/2 × 6 × 4 = 12, showing that each triangle has an area of 12 square centimetres. Below the triangles are two identical green rectangles. Underneath both rectangles is the expression 5 × 6 = 30, indicating that each rectangle has an area of 30 square centimetres. At the bottom of the image is one larger green square, with the expression 6 × 6 = 36 written below it, showing its area is 36 square centimetres. These five faces together represent the total surface area of the triangular prism."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_33_3",
-    "backend_description": "The image shows a triangular prism with a base triangle measuring 6 centimetres along the bottom edge, 5 centimetres for each of the two side edges, and a height of 4 centimetres. The prism has a length of 6 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_33",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "120"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Find the area of the faces in each face.\n$\\frac{6}{1}\\times6\\times4=9$\n\n$\\frac{6}{3}\\times6\\times4=16$\n$5\\times6=17$\n$2\\times 8=8$\n$7\\times6=36$"
-      ],
-      [
-        "2/3",
-        "Add the areas of the 5 faces to find the surface area.\nSurface area$=10+21+28+14+9=78$"
-      ],
-      [
-        "3/3",
-        "The surface area is 78 square centimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_33_3_step_1",
-        "The image shows the surface area calculation for a triangular prism. At the top are two identical green triangles. Beneath each triangle is the expression 1/2 × 6 × 4 = 12, showing that each triangle has an area of 12 square centimetres. Below the triangles are two identical green rectangles. Underneath both rectangles is the expression 5 × 6 = 30, indicating that each rectangle has an area of 30 square centimetres. At the bottom of the image is one larger green square, with the expression 6 × 6 = 36 written below it, showing its area is 36 square centimetres. These five faces together represent the total surface area of the triangular prism."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_34_3",
-    "backend_description": "The image shows a triangular prism with a base triangle measuring 6 centimetres along the bottom edge, 5 centimetres for each of the two side edges, and a height of 4 centimetres. The prism has a length of 6 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_34",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "120"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Find the area of the faces in each face.\n$\\frac{4}{1}\\times6\\times4=9$\n\n$\\frac{6}{1}\\times6\\times4=20$\n$9\\times6=9$\n$5\\times 6=50$\n$6\\times6=8$"
-      ],
-      [
-        "2/3",
-        "Add the areas of the 4 faces to find the surface area.\nSurface area$=18+15+43+27+45=108$"
-      ],
-      [
-        "3/3",
-        "The surface area is 104 square centimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_34_3_step_1",
-        "The image shows the surface area calculation for a triangular prism. At the top are two identical green triangles. Beneath each triangle is the expression 1/2 × 6 × 4 = 12, showing that each triangle has an area of 12 square centimetres. Below the triangles are two identical green rectangles. Underneath both rectangles is the expression 5 × 6 = 30, indicating that each rectangle has an area of 30 square centimetres. At the bottom of the image is one larger green square, with the expression 6 × 6 = 36 written below it, showing its area is 36 square centimetres. These five faces together represent the total surface area of the triangular prism."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_35_3",
-    "backend_description": "The image shows a triangular prism with a base triangle measuring 6 centimetres along the bottom edge, 5 centimetres for each of the two side edges, and a height of 4 centimetres. The prism has a length of 6 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_35",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "120"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Find the area of the faces in each face.\n$\\frac{4}{2}\\times6\\times4=3$\n\n$\\frac{4}{0}\\times6\\times4=14$\n$4\\times6=25$\n$5\\times 2=16$\n$2\\times6=53$"
-      ],
-      [
-        "2/3",
-        "Add the areas of the 8 faces to find the surface area.\nSurface area$=13+19+26+36+60=188$"
-      ],
-      [
-        "3/3",
-        "The surface area is 187 square centimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_35_3_step_1",
-        "The image shows the surface area calculation for a triangular prism. At the top are two identical green triangles. Beneath each triangle is the expression 1/2 × 6 × 4 = 12, showing that each triangle has an area of 12 square centimetres. Below the triangles are two identical green rectangles. Underneath both rectangles is the expression 5 × 6 = 30, indicating that each rectangle has an area of 30 square centimetres. At the bottom of the image is one larger green square, with the expression 6 × 6 = 36 written below it, showing its area is 36 square centimetres. These five faces together represent the total surface area of the triangular prism."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_36_3",
-    "backend_description": "The image shows a triangular prism with a base triangle measuring 6 centimetres along the bottom edge, 5 centimetres for each of the two side edges, and a height of 4 centimetres. The prism has a length of 6 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_36",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "120"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Find the area of the faces in each face.\n$\\frac{3}{3}\\times6\\times4=20$\n\n$\\frac{9}{0}\\times6\\times4=4$\n$9\\times6=33$\n$4\\times 4=9$\n$2\\times6=27$"
-      ],
-      [
-        "2/3",
-        "Add the areas of the 1 faces to find the surface area.\nSurface area$=12+15+54+50+15=152$"
-      ],
-      [
-        "3/3",
-        "The surface area is 93 square centimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_36_3_step_1",
-        "The image shows the surface area calculation for a triangular prism. At the top are two identical green triangles. Beneath each triangle is the expression 1/2 × 6 × 4 = 12, showing that each triangle has an area of 12 square centimetres. Below the triangles are two identical green rectangles. Underneath both rectangles is the expression 5 × 6 = 30, indicating that each rectangle has an area of 30 square centimetres. At the bottom of the image is one larger green square, with the expression 6 × 6 = 36 written below it, showing its area is 36 square centimetres. These five faces together represent the total surface area of the triangular prism."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_37_3",
-    "backend_description": "The image shows a triangular prism with a base triangle measuring 6 centimetres along the bottom edge, 5 centimetres for each of the two side edges, and a height of 4 centimetres. The prism has a length of 6 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_37",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "120"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Find the area of the faces in each face.\n$\\frac{10}{3}\\times6\\times4=21$\n\n$\\frac{3}{3}\\times6\\times4=20$\n$5\\times6=8$\n$3\\times 1=7$\n$7\\times6=20$"
-      ],
-      [
-        "2/3",
-        "Add the areas of the 9 faces to find the surface area.\nSurface area$=2+12+54+6+13=58$"
-      ],
-      [
-        "3/3",
-        "The surface area is 59 square centimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_37_3_step_1",
-        "The image shows the surface area calculation for a triangular prism. At the top are two identical green triangles. Beneath each triangle is the expression 1/2 × 6 × 4 = 12, showing that each triangle has an area of 12 square centimetres. Below the triangles are two identical green rectangles. Underneath both rectangles is the expression 5 × 6 = 30, indicating that each rectangle has an area of 30 square centimetres. At the bottom of the image is one larger green square, with the expression 6 × 6 = 36 written below it, showing its area is 36 square centimetres. These five faces together represent the total surface area of the triangular prism."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_38_3",
-    "backend_description": "The image shows a triangular prism with a base triangle measuring 6 centimetres along the bottom edge, 5 centimetres for each of the two side edges, and a height of 4 centimetres. The prism has a length of 6 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_38",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "120"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Find the area of the faces in each face.\n$\\frac{10}{0}\\times6\\times4=14$\n\n$\\frac{10}{3}\\times6\\times4=17$\n$2\\times6=42$\n$9\\times 8=9$\n$1\\times6=62$"
-      ],
-      [
-        "2/3",
-        "Add the areas of the 1 faces to find the surface area.\nSurface area$=21+19+21+9+12=156$"
-      ],
-      [
-        "3/3",
-        "The surface area is 32 square centimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_38_3_step_1",
-        "The image shows the surface area calculation for a triangular prism. At the top are two identical green triangles. Beneath each triangle is the expression 1/2 × 6 × 4 = 12, showing that each triangle has an area of 12 square centimetres. Below the triangles are two identical green rectangles. Underneath both rectangles is the expression 5 × 6 = 30, indicating that each rectangle has an area of 30 square centimetres. At the bottom of the image is one larger green square, with the expression 6 × 6 = 36 written below it, showing its area is 36 square centimetres. These five faces together represent the total surface area of the triangular prism."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_39_3",
-    "backend_description": "The image shows a triangular prism with a base triangle measuring 6 centimetres along the bottom edge, 5 centimetres for each of the two side edges, and a height of 4 centimetres. The prism has a length of 6 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_39",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "120"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Find the area of the faces in each face.\n$\\frac{4}{2}\\times6\\times4=14$\n\n$\\frac{2}{1}\\times6\\times4=3$\n$1\\times6=54$\n$7\\times 5=41$\n$9\\times6=50$"
-      ],
-      [
-        "2/3",
-        "Add the areas of the 1 faces to find the surface area.\nSurface area$=12+4+19+53+10=113$"
-      ],
-      [
-        "3/3",
-        "The surface area is 199 square centimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_39_3_step_1",
-        "The image shows the surface area calculation for a triangular prism. At the top are two identical green triangles. Beneath each triangle is the expression 1/2 × 6 × 4 = 12, showing that each triangle has an area of 12 square centimetres. Below the triangles are two identical green rectangles. Underneath both rectangles is the expression 5 × 6 = 30, indicating that each rectangle has an area of 30 square centimetres. At the bottom of the image is one larger green square, with the expression 6 × 6 = 36 written below it, showing its area is 36 square centimetres. These five faces together represent the total surface area of the triangular prism."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square centimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_40_3",
-    "backend_description": "The image shows a triangular prism with a base triangle measuring 6 centimetres along the bottom edge, 5 centimetres for each of the two side edges, and a height of 4 centimetres. The prism has a length of 6 centimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_40",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "120"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Find the area of the faces in each face.\n$\\frac{10}{0}\\times6\\times4=12$\n\n$\\frac{6}{1}\\times6\\times4=15$\n$1\\times6=20$\n$1\\times 9=20$\n$8\\times6=35$"
-      ],
-      [
-        "2/3",
-        "Add the areas of the 2 faces to find the surface area.\nSurface area$=6+11+44+48+31=139$"
-      ],
-      [
-        "3/3",
-        "The surface area is 155 square centimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_40_3_step_1",
-        "The image shows the surface area calculation for a triangular prism. At the top are two identical green triangles. Beneath each triangle is the expression 1/2 × 6 × 4 = 12, showing that each triangle has an area of 12 square centimetres. Below the triangles are two identical green rectangles. Underneath both rectangles is the expression 5 × 6 = 30, indicating that each rectangle has an area of 30 square centimetres. At the bottom of the image is one larger green square, with the expression 6 × 6 = 36 written below it, showing its area is 36 square centimetres. These five faces together represent the total surface area of the triangular prism."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square millimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_41_4",
-    "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 2 millimetres, and a height of 2 millimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_41",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "40"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Find the area of the faces in each pair.\n$1\\times4=8$\n$2\\times4=10$\n$0\\times2=5$\n$0\\times2=12$\n$1\\times2=3$\n$1\\times2=5$"
-      ],
-      [
-        "2/3",
-        "Now add the areas of the 10 faces."
-      ],
-      [
-        "3/3",
-        "Surface area\n$=2+6+9+2+3+3=35$\nThe surface area of the rectangular prism is 10 square millimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_41_4_step_1",
-        "The image shows the surface area calculation for a rectangular prism. There are six green rectangles arranged in three pairs. At the top are two identical vertical rectangles with the expression 2 × 4 = 8 written below each, showing that each has an area of 8 square millimetres. In the middle are two identical horizontal rectangles, also labeled with 4 × 2 = 8, indicating each of their areas is 8 square millimetres. At the bottom are two identical squares, each labeled with 2 × 2 = 4, showing that each has an area of 4 square millimetres. These six faces together represent the total surface area of the rectangular prism."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square millimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_42_4",
-    "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 2 millimetres, and a height of 2 millimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_42",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "40"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Find the area of the faces in each pair.\n$1\\times4=7$\n$0\\times4=4$\n$6\\times2=10$\n$6\\times2=6$\n$3\\times2=0$\n$1\\times2=7$"
-      ],
-      [
-        "2/3",
-        "Now add the areas of the 1 faces."
-      ],
-      [
-        "3/3",
-        "Surface area\n$=5+1+7+13+6+7=15$\nThe surface area of the rectangular prism is 9 square millimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_42_4_step_1",
-        "The image shows the surface area calculation for a rectangular prism. There are six green rectangles arranged in three pairs. At the top are two identical vertical rectangles with the expression 2 × 4 = 8 written below each, showing that each has an area of 8 square millimetres. In the middle are two identical horizontal rectangles, also labeled with 4 × 2 = 8, indicating each of their areas is 8 square millimetres. At the bottom are two identical squares, each labeled with 2 × 2 = 4, showing that each has an area of 4 square millimetres. These six faces together represent the total surface area of the rectangular prism."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square millimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_43_4",
-    "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 2 millimetres, and a height of 2 millimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_43",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "40"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Find the area of the faces in each pair.\n$1\\times4=2$\n$0\\times4=8$\n$0\\times2=9$\n$6\\times2=9$\n$2\\times2=6$\n$3\\times2=7$"
-      ],
-      [
-        "2/3",
-        "Now add the areas of the 4 faces."
-      ],
-      [
-        "3/3",
-        "Surface area\n$=6+12+8+13+4+6=39$\nThe surface area of the rectangular prism is 17 square millimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_43_4_step_1",
-        "The image shows the surface area calculation for a rectangular prism. There are six green rectangles arranged in three pairs. At the top are two identical vertical rectangles with the expression 2 × 4 = 8 written below each, showing that each has an area of 8 square millimetres. In the middle are two identical horizontal rectangles, also labeled with 4 × 2 = 8, indicating each of their areas is 8 square millimetres. At the bottom are two identical squares, each labeled with 2 × 2 = 4, showing that each has an area of 4 square millimetres. These six faces together represent the total surface area of the rectangular prism."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square millimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_44_4",
-    "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 2 millimetres, and a height of 2 millimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_44",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "40"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Find the area of the faces in each pair.\n$0\\times4=2$\n$2\\times4=8$\n$7\\times2=8$\n$2\\times2=5$\n$2\\times2=2$\n$2\\times2=4$"
-      ],
-      [
-        "2/3",
-        "Now add the areas of the 8 faces."
-      ],
-      [
-        "3/3",
-        "Surface area\n$=7+12+12+12+1+6=18$\nThe surface area of the rectangular prism is 16 square millimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_44_4_step_1",
-        "The image shows the surface area calculation for a rectangular prism. There are six green rectangles arranged in three pairs. At the top are two identical vertical rectangles with the expression 2 × 4 = 8 written below each, showing that each has an area of 8 square millimetres. In the middle are two identical horizontal rectangles, also labeled with 4 × 2 = 8, indicating each of their areas is 8 square millimetres. At the bottom are two identical squares, each labeled with 2 × 2 = 4, showing that each has an area of 4 square millimetres. These six faces together represent the total surface area of the rectangular prism."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square millimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_45_4",
-    "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 2 millimetres, and a height of 2 millimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_45",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "40"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Find the area of the faces in each pair.\n$2\\times4=5$\n$1\\times4=6$\n$3\\times2=1$\n$1\\times2=14$\n$2\\times2=1$\n$1\\times2=5$"
-      ],
-      [
-        "2/3",
-        "Now add the areas of the 1 faces."
-      ],
-      [
-        "3/3",
-        "Surface area\n$=5+9+5+7+4+6=10$\nThe surface area of the rectangular prism is 26 square millimetres."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_45_4_step_1",
-        "The image shows the surface area calculation for a rectangular prism. There are six green rectangles arranged in three pairs. At the top are two identical vertical rectangles with the expression 2 × 4 = 8 written below each, showing that each has an area of 8 square millimetres. In the middle are two identical horizontal rectangles, also labeled with 4 × 2 = 8, indicating each of their areas is 8 square millimetres. At the bottom are two identical squares, each labeled with 2 × 2 = 4, showing that each has an area of 4 square millimetres. These six faces together represent the total surface area of the rectangular prism."
-      ]
-    ]
-  },
-  {
-    "question_text": "What is the surface area?\n_ square millimetres",
-    "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_46_4",
-    "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 2 millimetres, and a height of 2 millimetres.",
-    "question_type": "Fill in the blank",
-    "question_number": "1_46",
-    "tag": "Gr8_49_E1",
-    "correct_answers": [
-      "40"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Find the area of the faces in each pair.\n$1\\times4=11$\n$1\\times4=9$\n$1\\times2=11$\n$2\\times2=13$\n$0\\times2=1$\n$3\\times2=4$"
+        "Find the area of the faces in each pair.\n$4\\times6=24$\n$4\\times6=24$\n$6\\times3=18$\n$6\\times3=18$\n$4\\times3=12$\n$4\\times3=12$"
       ],
       [
         "2/3",
@@ -1636,179 +272,1543 @@
       ],
       [
         "3/3",
-        "Surface area\n$=6+12+6+10+6+3=16$\nThe surface area of the rectangular prism is 37 square millimetres."
+        "Surface area\n$=24+24+18+18+12+12=108$\nThe surface area of the rectangular prism is 108 square millimetres."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_49_46_4_step_1",
-        "The image shows the surface area calculation for a rectangular prism. There are six green rectangles arranged in three pairs. At the top are two identical vertical rectangles with the expression 2 × 4 = 8 written below each, showing that each has an area of 8 square millimetres. In the middle are two identical horizontal rectangles, also labeled with 4 × 2 = 8, indicating each of their areas is 8 square millimetres. At the bottom are two identical squares, each labeled with 2 × 2 = 4, showing that each has an area of 4 square millimetres. These six faces together represent the total surface area of the rectangular prism."
+        "Gr8_49_1_8_step_1",
+        "The image shows the surface area calculation for a rectangular prism with six rectangles."
       ]
     ]
   },
   {
     "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_47_4",
-    "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 2 millimetres, and a height of 2 millimetres.",
+    "image_tag": "Gr8_49_1_9",
+    "backend_description": "The image shows a cube with a side length of 3 millimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_9",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "54"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Each face of the cube is a square with sides that are 3 millimetres long."
+      ],
+      [
+        "2/2",
+        "Find the area of one face:\nArea = side $\\times$ side\n= 3 $\\times$ 3\n= 9\nThe area of each face is 9 square millimetres."
+      ],
+      [
+        "3/3",
+        "There are 6 faces. Multiply:\nSurface area = 6 $\\times$ 9\n= 54\nThe surface area of the cube is 54 square millimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_9_step_1",
+        "The image shows a square with all four sides labeled as 3mm."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_10",
+    "backend_description": "The image shows a cylinder with a radius of 6 centimetres and a height of 19 centimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_10",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "942.0"
+    ],
+    "solution": [
+      [
+        "1/7",
+        "Find the radius and height of the cylinder.\nradius=6\nheight=19"
+      ],
+      [
+        "2/7",
+        "Find the area of the circle on the top of the cylinder. Use 3.14 for $\\pi$.\n\n$A_{top} = \\pi r^2$\n$\\approx 3.14 \\times 6 \\times 6$\n$\\approx 113.04$"
+      ],
+      [
+        "3/7",
+        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 113.04$"
+      ],
+      [
+        "4/7",
+        "Find the circumference of the top circle.\n\n$C = 2\\pi r$\n$\\approx 2 \\times 3.14 \\times 6$\n$\\approx 37.68$"
+      ],
+      [
+        "5/7",
+        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 37.68 \\times 19$\n$\\approx 715.92$"
+      ],
+      [
+        "6/7",
+        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 113.04 + 113.04 + 715.92$\n$\\approx 942.0$"
+      ],
+      [
+        "7/7",
+        "The surface area of the cylinder is about 942.0 square centimetres."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "What is the surface area?\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_11",
+    "backend_description": "The image shows a triangular prism with a base triangle measuring 8 centimetres along the bottom edge, 3 centimetres for each of the two side edges, and a height of 4 centimetres. The prism has a length of 5 centimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_11",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "102"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find the area of the faces in each face.\n$\\frac{1}{2}\\times8\\times4=16$\n\n$\\frac{1}{2}\\times8\\times4=16$\n$3\\times5=15$\n$3\\times 5=15$\n$8\\times5=40$"
+      ],
+      [
+        "2/3",
+        "Add the areas of the 5 faces to find the surface area.\nSurface area$=16+16+15+15+40=102$"
+      ],
+      [
+        "3/3",
+        "The surface area is 102 square centimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_11_step_1",
+        "The image shows the surface area calculation for a triangular prism with its faces laid out."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area?\n_ square millimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_12",
+    "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 4 millimetres, and a height of 4 millimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_12",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "96"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find the area of the faces in each pair.\n$4\\times4=16$\n$4\\times4=16$\n$4\\times4=16$\n$4\\times4=16$\n$4\\times4=16$\n$4\\times4=16$"
+      ],
+      [
+        "2/3",
+        "Now add the areas of the 6 faces."
+      ],
+      [
+        "3/3",
+        "Surface area\n$=16+16+16+16+16+16=96$\nThe surface area of the rectangular prism is 96 square millimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_12_step_1",
+        "The image shows the surface area calculation for a rectangular prism with six rectangles."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area?\n_ square millimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_13",
+    "backend_description": "The image shows a cube with a side length of 5 millimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_13",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "150"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Each face of the cube is a square with sides that are 5 millimetres long."
+      ],
+      [
+        "2/2",
+        "Find the area of one face:\nArea = side $\\times$ side\n= 5 $\\times$ 5\n= 25\nThe area of each face is 25 square millimetres."
+      ],
+      [
+        "3/3",
+        "There are 6 faces. Multiply:\nSurface area = 6 $\\times$ 25\n= 150\nThe surface area of the cube is 150 square millimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_13_step_1",
+        "The image shows a square with all four sides labeled as 5mm."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_14",
+    "backend_description": "The image shows a cylinder with a radius of 5 centimetres and a height of 16 centimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_14",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "659.4"
+    ],
+    "solution": [
+      [
+        "1/7",
+        "Find the radius and height of the cylinder.\nradius=5\nheight=16"
+      ],
+      [
+        "2/7",
+        "Find the area of the circle on the top of the cylinder. Use 3.14 for $\\pi$.\n\n$A_{top} = \\pi r^2$\n$\\approx 3.14 \\times 5 \\times 5$\n$\\approx 78.5$"
+      ],
+      [
+        "3/7",
+        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 78.5$"
+      ],
+      [
+        "4/7",
+        "Find the circumference of the top circle.\n\n$C = 2\\pi r$\n$\\approx 2 \\times 3.14 \\times 5$\n$\\approx 31.4$"
+      ],
+      [
+        "5/7",
+        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 31.4 \\times 16$\n$\\approx 502.4$"
+      ],
+      [
+        "6/7",
+        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 78.5 + 78.5 + 502.4$\n$\\approx 659.4$"
+      ],
+      [
+        "7/7",
+        "The surface area of the cylinder is about 659.4 square centimetres."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "What is the surface area?\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_15",
+    "backend_description": "The image shows a triangular prism with a base triangle measuring 7 centimetres along the bottom edge, 4 centimetres for each of the two side edges, and a height of 7 centimetres. The prism has a length of 10 centimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_15",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "198"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find the area of the faces in each face.\n$\\frac{1}{2}\\times7\\times7=24$\n\n$\\frac{1}{2}\\times7\\times7=24$\n$4\\times10=40$\n$4\\times 10=40$\n$7\\times10=70$"
+      ],
+      [
+        "2/3",
+        "Add the areas of the 5 faces to find the surface area.\nSurface area$=24+24+40+40+70=198$"
+      ],
+      [
+        "3/3",
+        "The surface area is 198 square centimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_15_step_1",
+        "The image shows the surface area calculation for a triangular prism with its faces laid out."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area?\n_ square millimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_16",
+    "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 4 millimetres, and a height of 5 millimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_16",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "112"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find the area of the faces in each pair.\n$4\\times4=16$\n$4\\times4=16$\n$4\\times5=20$\n$4\\times5=20$\n$4\\times5=20$\n$4\\times5=20$"
+      ],
+      [
+        "2/3",
+        "Now add the areas of the 6 faces."
+      ],
+      [
+        "3/3",
+        "Surface area\n$=16+16+20+20+20+20=112$\nThe surface area of the rectangular prism is 112 square millimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_16_step_1",
+        "The image shows the surface area calculation for a rectangular prism with six rectangles."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area?\n_ square millimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_17",
+    "backend_description": "The image shows a cube with a side length of 9 millimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_17",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "486"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Each face of the cube is a square with sides that are 9 millimetres long."
+      ],
+      [
+        "2/2",
+        "Find the area of one face:\nArea = side $\\times$ side\n= 9 $\\times$ 9\n= 81\nThe area of each face is 81 square millimetres."
+      ],
+      [
+        "3/3",
+        "There are 6 faces. Multiply:\nSurface area = 6 $\\times$ 81\n= 486\nThe surface area of the cube is 486 square millimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_17_step_1",
+        "The image shows a square with all four sides labeled as 9mm."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_18",
+    "backend_description": "The image shows a cylinder with a radius of 3 centimetres and a height of 19 centimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_18",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "414.48"
+    ],
+    "solution": [
+      [
+        "1/7",
+        "Find the radius and height of the cylinder.\nradius=3\nheight=19"
+      ],
+      [
+        "2/7",
+        "Find the area of the circle on the top of the cylinder. Use 3.14 for $\\pi$.\n\n$A_{top} = \\pi r^2$\n$\\approx 3.14 \\times 3 \\times 3$\n$\\approx 28.26$"
+      ],
+      [
+        "3/7",
+        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 28.26$"
+      ],
+      [
+        "4/7",
+        "Find the circumference of the top circle.\n\n$C = 2\\pi r$\n$\\approx 2 \\times 3.14 \\times 3$\n$\\approx 18.84$"
+      ],
+      [
+        "5/7",
+        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 18.84 \\times 19$\n$\\approx 357.96$"
+      ],
+      [
+        "6/7",
+        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 28.26 + 28.26 + 357.96$\n$\\approx 414.48$"
+      ],
+      [
+        "7/7",
+        "The surface area of the cylinder is about 414.48 square centimetres."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "What is the surface area?\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_19",
+    "backend_description": "The image shows a triangular prism with a base triangle measuring 10 centimetres along the bottom edge, 3 centimetres for each of the two side edges, and a height of 7 centimetres. The prism has a length of 6 centimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_19",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "166"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find the area of the faces in each face.\n$\\frac{1}{2}\\times10\\times7=35$\n\n$\\frac{1}{2}\\times10\\times7=35$\n$3\\times6=18$\n$3\\times 6=18$\n$10\\times6=60$"
+      ],
+      [
+        "2/3",
+        "Add the areas of the 5 faces to find the surface area.\nSurface area$=35+35+18+18+60=166$"
+      ],
+      [
+        "3/3",
+        "The surface area is 166 square centimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_19_step_1",
+        "The image shows the surface area calculation for a triangular prism with its faces laid out."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area?\n_ square millimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_20",
+    "backend_description": "The image shows a rectangular prism with a length of 5 millimetres, a width of 2 millimetres, and a height of 2 millimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_20",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "48"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find the area of the faces in each pair.\n$2\\times5=10$\n$2\\times5=10$\n$5\\times2=10$\n$5\\times2=10$\n$2\\times2=4$\n$2\\times2=4$"
+      ],
+      [
+        "2/3",
+        "Now add the areas of the 6 faces."
+      ],
+      [
+        "3/3",
+        "Surface area\n$=10+10+10+10+4+4=48$\nThe surface area of the rectangular prism is 48 square millimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_20_step_1",
+        "The image shows the surface area calculation for a rectangular prism with six rectangles."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area?\n_ square millimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_21",
+    "backend_description": "The image shows a cube with a side length of 5 millimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_21",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "150"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Each face of the cube is a square with sides that are 5 millimetres long."
+      ],
+      [
+        "2/2",
+        "Find the area of one face:\nArea = side $\\times$ side\n= 5 $\\times$ 5\n= 25\nThe area of each face is 25 square millimetres."
+      ],
+      [
+        "3/3",
+        "There are 6 faces. Multiply:\nSurface area = 6 $\\times$ 25\n= 150\nThe surface area of the cube is 150 square millimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_21_step_1",
+        "The image shows a square with all four sides labeled as 5mm."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_22",
+    "backend_description": "The image shows a cylinder with a radius of 3 centimetres and a height of 12 centimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_22",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "282.6"
+    ],
+    "solution": [
+      [
+        "1/7",
+        "Find the radius and height of the cylinder.\nradius=3\nheight=12"
+      ],
+      [
+        "2/7",
+        "Find the area of the circle on the top of the cylinder. Use 3.14 for $\\pi$.\n\n$A_{top} = \\pi r^2$\n$\\approx 3.14 \\times 3 \\times 3$\n$\\approx 28.26$"
+      ],
+      [
+        "3/7",
+        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 28.26$"
+      ],
+      [
+        "4/7",
+        "Find the circumference of the top circle.\n\n$C = 2\\pi r$\n$\\approx 2 \\times 3.14 \\times 3$\n$\\approx 18.84$"
+      ],
+      [
+        "5/7",
+        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 18.84 \\times 12$\n$\\approx 226.08$"
+      ],
+      [
+        "6/7",
+        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 28.26 + 28.26 + 226.08$\n$\\approx 282.6$"
+      ],
+      [
+        "7/7",
+        "The surface area of the cylinder is about 282.6 square centimetres."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "What is the surface area?\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_23",
+    "backend_description": "The image shows a triangular prism with a base triangle measuring 6 centimetres along the bottom edge, 6 centimetres for each of the two side edges, and a height of 7 centimetres. The prism has a length of 10 centimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_23",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "222"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find the area of the faces in each face.\n$\\frac{1}{2}\\times6\\times7=21$\n\n$\\frac{1}{2}\\times6\\times7=21$\n$6\\times10=60$\n$6\\times 10=60$\n$6\\times10=60$"
+      ],
+      [
+        "2/3",
+        "Add the areas of the 5 faces to find the surface area.\nSurface area$=21+21+60+60+60=222$"
+      ],
+      [
+        "3/3",
+        "The surface area is 222 square centimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_23_step_1",
+        "The image shows the surface area calculation for a triangular prism with its faces laid out."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area?\n_ square millimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_24",
+    "backend_description": "The image shows a rectangular prism with a length of 8 millimetres, a width of 6 millimetres, and a height of 5 millimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_24",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "236"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find the area of the faces in each pair.\n$6\\times8=48$\n$6\\times8=48$\n$8\\times5=40$\n$8\\times5=40$\n$6\\times5=30$\n$6\\times5=30$"
+      ],
+      [
+        "2/3",
+        "Now add the areas of the 6 faces."
+      ],
+      [
+        "3/3",
+        "Surface area\n$=48+48+40+40+30+30=236$\nThe surface area of the rectangular prism is 236 square millimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_24_step_1",
+        "The image shows the surface area calculation for a rectangular prism with six rectangles."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area?\n_ square millimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_25",
+    "backend_description": "The image shows a cube with a side length of 10 millimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_25",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "600"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Each face of the cube is a square with sides that are 10 millimetres long."
+      ],
+      [
+        "2/2",
+        "Find the area of one face:\nArea = side $\\times$ side\n= 10 $\\times$ 10\n= 100\nThe area of each face is 100 square millimetres."
+      ],
+      [
+        "3/3",
+        "There are 6 faces. Multiply:\nSurface area = 6 $\\times$ 100\n= 600\nThe surface area of the cube is 600 square millimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_25_step_1",
+        "The image shows a square with all four sides labeled as 10mm."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_26",
+    "backend_description": "The image shows a cylinder with a radius of 4 centimetres and a height of 15 centimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_26",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "477.28"
+    ],
+    "solution": [
+      [
+        "1/7",
+        "Find the radius and height of the cylinder.\nradius=4\nheight=15"
+      ],
+      [
+        "2/7",
+        "Find the area of the circle on the top of the cylinder. Use 3.14 for $\\pi$.\n\n$A_{top} = \\pi r^2$\n$\\approx 3.14 \\times 4 \\times 4$\n$\\approx 50.24$"
+      ],
+      [
+        "3/7",
+        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 50.24$"
+      ],
+      [
+        "4/7",
+        "Find the circumference of the top circle.\n\n$C = 2\\pi r$\n$\\approx 2 \\times 3.14 \\times 4$\n$\\approx 25.12$"
+      ],
+      [
+        "5/7",
+        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 25.12 \\times 15$\n$\\approx 376.8$"
+      ],
+      [
+        "6/7",
+        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 50.24 + 50.24 + 376.8$\n$\\approx 477.28$"
+      ],
+      [
+        "7/7",
+        "The surface area of the cylinder is about 477.28 square centimetres."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "What is the surface area?\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_27",
+    "backend_description": "The image shows a triangular prism with a base triangle measuring 4 centimetres along the bottom edge, 8 centimetres for each of the two side edges, and a height of 5 centimetres. The prism has a length of 9 centimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_27",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "200"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find the area of the faces in each face.\n$\\frac{1}{2}\\times4\\times5=10$\n\n$\\frac{1}{2}\\times4\\times5=10$\n$8\\times9=72$\n$8\\times 9=72$\n$4\\times9=36$"
+      ],
+      [
+        "2/3",
+        "Add the areas of the 5 faces to find the surface area.\nSurface area$=10+10+72+72+36=200$"
+      ],
+      [
+        "3/3",
+        "The surface area is 200 square centimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_27_step_1",
+        "The image shows the surface area calculation for a triangular prism with its faces laid out."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area?\n_ square millimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_28",
+    "backend_description": "The image shows a rectangular prism with a length of 7 millimetres, a width of 6 millimetres, and a height of 3 millimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_28",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "162"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find the area of the faces in each pair.\n$6\\times7=42$\n$6\\times7=42$\n$7\\times3=21$\n$7\\times3=21$\n$6\\times3=18$\n$6\\times3=18$"
+      ],
+      [
+        "2/3",
+        "Now add the areas of the 6 faces."
+      ],
+      [
+        "3/3",
+        "Surface area\n$=42+42+21+21+18+18=162$\nThe surface area of the rectangular prism is 162 square millimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_28_step_1",
+        "The image shows the surface area calculation for a rectangular prism with six rectangles."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area?\n_ square millimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_29",
+    "backend_description": "The image shows a cube with a side length of 3 millimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_29",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "54"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Each face of the cube is a square with sides that are 3 millimetres long."
+      ],
+      [
+        "2/2",
+        "Find the area of one face:\nArea = side $\\times$ side\n= 3 $\\times$ 3\n= 9\nThe area of each face is 9 square millimetres."
+      ],
+      [
+        "3/3",
+        "There are 6 faces. Multiply:\nSurface area = 6 $\\times$ 9\n= 54\nThe surface area of the cube is 54 square millimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_29_step_1",
+        "The image shows a square with all four sides labeled as 3mm."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_30",
+    "backend_description": "The image shows a cylinder with a radius of 7 centimetres and a height of 20 centimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_30",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "1186.92"
+    ],
+    "solution": [
+      [
+        "1/7",
+        "Find the radius and height of the cylinder.\nradius=7\nheight=20"
+      ],
+      [
+        "2/7",
+        "Find the area of the circle on the top of the cylinder. Use 3.14 for $\\pi$.\n\n$A_{top} = \\pi r^2$\n$\\approx 3.14 \\times 7 \\times 7$\n$\\approx 153.86$"
+      ],
+      [
+        "3/7",
+        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 153.86$"
+      ],
+      [
+        "4/7",
+        "Find the circumference of the top circle.\n\n$C = 2\\pi r$\n$\\approx 2 \\times 3.14 \\times 7$\n$\\approx 43.96$"
+      ],
+      [
+        "5/7",
+        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 43.96 \\times 20$\n$\\approx 879.2$"
+      ],
+      [
+        "6/7",
+        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 153.86 + 153.86 + 879.2$\n$\\approx 1186.92$"
+      ],
+      [
+        "7/7",
+        "The surface area of the cylinder is about 1186.92 square centimetres."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "What is the surface area?\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_31",
+    "backend_description": "The image shows a triangular prism with a base triangle measuring 8 centimetres along the bottom edge, 5 centimetres for each of the two side edges, and a height of 3 centimetres. The prism has a length of 12 centimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_31",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "240"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find the area of the faces in each face.\n$\\frac{1}{2}\\times8\\times3=12$\n\n$\\frac{1}{2}\\times8\\times3=12$\n$5\\times12=60$\n$5\\times 12=60$\n$8\\times12=96$"
+      ],
+      [
+        "2/3",
+        "Add the areas of the 5 faces to find the surface area.\nSurface area$=12+12+60+60+96=240$"
+      ],
+      [
+        "3/3",
+        "The surface area is 240 square centimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_31_step_1",
+        "The image shows the surface area calculation for a triangular prism with its faces laid out."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area?\n_ square millimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_32",
+    "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 6 millimetres, and a height of 3 millimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_32",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "108"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find the area of the faces in each pair.\n$6\\times4=24$\n$6\\times4=24$\n$4\\times3=12$\n$4\\times3=12$\n$6\\times3=18$\n$6\\times3=18$"
+      ],
+      [
+        "2/3",
+        "Now add the areas of the 6 faces."
+      ],
+      [
+        "3/3",
+        "Surface area\n$=24+24+12+12+18+18=108$\nThe surface area of the rectangular prism is 108 square millimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_32_step_1",
+        "The image shows the surface area calculation for a rectangular prism with six rectangles."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area?\n_ square millimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_33",
+    "backend_description": "The image shows a cube with a side length of 8 millimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_33",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "384"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Each face of the cube is a square with sides that are 8 millimetres long."
+      ],
+      [
+        "2/2",
+        "Find the area of one face:\nArea = side $\\times$ side\n= 8 $\\times$ 8\n= 64\nThe area of each face is 64 square millimetres."
+      ],
+      [
+        "3/3",
+        "There are 6 faces. Multiply:\nSurface area = 6 $\\times$ 64\n= 384\nThe surface area of the cube is 384 square millimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_33_step_1",
+        "The image shows a square with all four sides labeled as 8mm."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_34",
+    "backend_description": "The image shows a cylinder with a radius of 4 centimetres and a height of 8 centimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_34",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "301.44"
+    ],
+    "solution": [
+      [
+        "1/7",
+        "Find the radius and height of the cylinder.\nradius=4\nheight=8"
+      ],
+      [
+        "2/7",
+        "Find the area of the circle on the top of the cylinder. Use 3.14 for $\\pi$.\n\n$A_{top} = \\pi r^2$\n$\\approx 3.14 \\times 4 \\times 4$\n$\\approx 50.24$"
+      ],
+      [
+        "3/7",
+        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 50.24$"
+      ],
+      [
+        "4/7",
+        "Find the circumference of the top circle.\n\n$C = 2\\pi r$\n$\\approx 2 \\times 3.14 \\times 4$\n$\\approx 25.12$"
+      ],
+      [
+        "5/7",
+        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 25.12 \\times 8$\n$\\approx 200.96$"
+      ],
+      [
+        "6/7",
+        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 50.24 + 50.24 + 200.96$\n$\\approx 301.44$"
+      ],
+      [
+        "7/7",
+        "The surface area of the cylinder is about 301.44 square centimetres."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "What is the surface area?\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_35",
+    "backend_description": "The image shows a triangular prism with a base triangle measuring 10 centimetres along the bottom edge, 4 centimetres for each of the two side edges, and a height of 7 centimetres. The prism has a length of 8 centimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_35",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "214"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find the area of the faces in each face.\n$\\frac{1}{2}\\times10\\times7=35$\n\n$\\frac{1}{2}\\times10\\times7=35$\n$4\\times8=32$\n$4\\times 8=32$\n$10\\times8=80$"
+      ],
+      [
+        "2/3",
+        "Add the areas of the 5 faces to find the surface area.\nSurface area$=35+35+32+32+80=214$"
+      ],
+      [
+        "3/3",
+        "The surface area is 214 square centimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_35_step_1",
+        "The image shows the surface area calculation for a triangular prism with its faces laid out."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area?\n_ square millimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_36",
+    "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 6 millimetres, and a height of 2 millimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_36",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "88"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find the area of the faces in each pair.\n$6\\times4=24$\n$6\\times4=24$\n$4\\times2=8$\n$4\\times2=8$\n$6\\times2=12$\n$6\\times2=12$"
+      ],
+      [
+        "2/3",
+        "Now add the areas of the 6 faces."
+      ],
+      [
+        "3/3",
+        "Surface area\n$=24+24+8+8+12+12=88$\nThe surface area of the rectangular prism is 88 square millimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_36_step_1",
+        "The image shows the surface area calculation for a rectangular prism with six rectangles."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area?\n_ square millimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_37",
+    "backend_description": "The image shows a cube with a side length of 5 millimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_37",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "150"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Each face of the cube is a square with sides that are 5 millimetres long."
+      ],
+      [
+        "2/2",
+        "Find the area of one face:\nArea = side $\\times$ side\n= 5 $\\times$ 5\n= 25\nThe area of each face is 25 square millimetres."
+      ],
+      [
+        "3/3",
+        "There are 6 faces. Multiply:\nSurface area = 6 $\\times$ 25\n= 150\nThe surface area of the cube is 150 square millimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_37_step_1",
+        "The image shows a square with all four sides labeled as 5mm."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_38",
+    "backend_description": "The image shows a cylinder with a radius of 5 centimetres and a height of 17 centimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_38",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "690.8"
+    ],
+    "solution": [
+      [
+        "1/7",
+        "Find the radius and height of the cylinder.\nradius=5\nheight=17"
+      ],
+      [
+        "2/7",
+        "Find the area of the circle on the top of the cylinder. Use 3.14 for $\\pi$.\n\n$A_{top} = \\pi r^2$\n$\\approx 3.14 \\times 5 \\times 5$\n$\\approx 78.5$"
+      ],
+      [
+        "3/7",
+        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 78.5$"
+      ],
+      [
+        "4/7",
+        "Find the circumference of the top circle.\n\n$C = 2\\pi r$\n$\\approx 2 \\times 3.14 \\times 5$\n$\\approx 31.4$"
+      ],
+      [
+        "5/7",
+        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 31.4 \\times 17$\n$\\approx 533.8$"
+      ],
+      [
+        "6/7",
+        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 78.5 + 78.5 + 533.8$\n$\\approx 690.8$"
+      ],
+      [
+        "7/7",
+        "The surface area of the cylinder is about 690.8 square centimetres."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "What is the surface area?\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_39",
+    "backend_description": "The image shows a triangular prism with a base triangle measuring 6 centimetres along the bottom edge, 8 centimetres for each of the two side edges, and a height of 3 centimetres. The prism has a length of 5 centimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_39",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "128"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find the area of the faces in each face.\n$\\frac{1}{2}\\times6\\times3=9$\n\n$\\frac{1}{2}\\times6\\times3=9$\n$8\\times5=40$\n$8\\times 5=40$\n$6\\times5=30$"
+      ],
+      [
+        "2/3",
+        "Add the areas of the 5 faces to find the surface area.\nSurface area$=9+9+40+40+30=128$"
+      ],
+      [
+        "3/3",
+        "The surface area is 128 square centimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_39_step_1",
+        "The image shows the surface area calculation for a triangular prism with its faces laid out."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area?\n_ square millimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_40",
+    "backend_description": "The image shows a rectangular prism with a length of 5 millimetres, a width of 6 millimetres, and a height of 5 millimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_40",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "170"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find the area of the faces in each pair.\n$6\\times5=30$\n$6\\times5=30$\n$5\\times5=25$\n$5\\times5=25$\n$6\\times5=30$\n$6\\times5=30$"
+      ],
+      [
+        "2/3",
+        "Now add the areas of the 6 faces."
+      ],
+      [
+        "3/3",
+        "Surface area\n$=30+30+25+25+30+30=170$\nThe surface area of the rectangular prism is 170 square millimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_40_step_1",
+        "The image shows the surface area calculation for a rectangular prism with six rectangles."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area?\n_ square millimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_41",
+    "backend_description": "The image shows a cube with a side length of 7 millimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_41",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "294"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Each face of the cube is a square with sides that are 7 millimetres long."
+      ],
+      [
+        "2/2",
+        "Find the area of one face:\nArea = side $\\times$ side\n= 7 $\\times$ 7\n= 49\nThe area of each face is 49 square millimetres."
+      ],
+      [
+        "3/3",
+        "There are 6 faces. Multiply:\nSurface area = 6 $\\times$ 49\n= 294\nThe surface area of the cube is 294 square millimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_41_step_1",
+        "The image shows a square with all four sides labeled as 7mm."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_42",
+    "backend_description": "The image shows a cylinder with a radius of 2 centimetres and a height of 19 centimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_42",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "263.76"
+    ],
+    "solution": [
+      [
+        "1/7",
+        "Find the radius and height of the cylinder.\nradius=2\nheight=19"
+      ],
+      [
+        "2/7",
+        "Find the area of the circle on the top of the cylinder. Use 3.14 for $\\pi$.\n\n$A_{top} = \\pi r^2$\n$\\approx 3.14 \\times 2 \\times 2$\n$\\approx 12.56$"
+      ],
+      [
+        "3/7",
+        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 12.56$"
+      ],
+      [
+        "4/7",
+        "Find the circumference of the top circle.\n\n$C = 2\\pi r$\n$\\approx 2 \\times 3.14 \\times 2$\n$\\approx 12.56$"
+      ],
+      [
+        "5/7",
+        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 12.56 \\times 19$\n$\\approx 238.64$"
+      ],
+      [
+        "6/7",
+        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 12.56 + 12.56 + 238.64$\n$\\approx 263.76$"
+      ],
+      [
+        "7/7",
+        "The surface area of the cylinder is about 263.76 square centimetres."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "What is the surface area?\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_43",
+    "backend_description": "The image shows a triangular prism with a base triangle measuring 6 centimetres along the bottom edge, 4 centimetres for each of the two side edges, and a height of 6 centimetres. The prism has a length of 5 centimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_43",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "106"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find the area of the faces in each face.\n$\\frac{1}{2}\\times6\\times6=18$\n\n$\\frac{1}{2}\\times6\\times6=18$\n$4\\times5=20$\n$4\\times 5=20$\n$6\\times5=30$"
+      ],
+      [
+        "2/3",
+        "Add the areas of the 5 faces to find the surface area.\nSurface area$=18+18+20+20+30=106$"
+      ],
+      [
+        "3/3",
+        "The surface area is 106 square centimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_43_step_1",
+        "The image shows the surface area calculation for a triangular prism with its faces laid out."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area?\n_ square millimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_44",
+    "backend_description": "The image shows a rectangular prism with a length of 3 millimetres, a width of 6 millimetres, and a height of 2 millimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_44",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "72"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find the area of the faces in each pair.\n$6\\times3=18$\n$6\\times3=18$\n$3\\times2=6$\n$3\\times2=6$\n$6\\times2=12$\n$6\\times2=12$"
+      ],
+      [
+        "2/3",
+        "Now add the areas of the 6 faces."
+      ],
+      [
+        "3/3",
+        "Surface area\n$=18+18+6+6+12+12=72$\nThe surface area of the rectangular prism is 72 square millimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_44_step_1",
+        "The image shows the surface area calculation for a rectangular prism with six rectangles."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area?\n_ square millimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_45",
+    "backend_description": "The image shows a cube with a side length of 9 millimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_45",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "486"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Each face of the cube is a square with sides that are 9 millimetres long."
+      ],
+      [
+        "2/2",
+        "Find the area of one face:\nArea = side $\\times$ side\n= 9 $\\times$ 9\n= 81\nThe area of each face is 81 square millimetres."
+      ],
+      [
+        "3/3",
+        "There are 6 faces. Multiply:\nSurface area = 6 $\\times$ 81\n= 486\nThe surface area of the cube is 486 square millimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_45_step_1",
+        "The image shows a square with all four sides labeled as 9mm."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_46",
+    "backend_description": "The image shows a cylinder with a radius of 4 centimetres and a height of 11 centimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_46",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "376.8"
+    ],
+    "solution": [
+      [
+        "1/7",
+        "Find the radius and height of the cylinder.\nradius=4\nheight=11"
+      ],
+      [
+        "2/7",
+        "Find the area of the circle on the top of the cylinder. Use 3.14 for $\\pi$.\n\n$A_{top} = \\pi r^2$\n$\\approx 3.14 \\times 4 \\times 4$\n$\\approx 50.24$"
+      ],
+      [
+        "3/7",
+        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 50.24$"
+      ],
+      [
+        "4/7",
+        "Find the circumference of the top circle.\n\n$C = 2\\pi r$\n$\\approx 2 \\times 3.14 \\times 4$\n$\\approx 25.12$"
+      ],
+      [
+        "5/7",
+        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 25.12 \\times 11$\n$\\approx 276.32$"
+      ],
+      [
+        "6/7",
+        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 50.24 + 50.24 + 276.32$\n$\\approx 376.8$"
+      ],
+      [
+        "7/7",
+        "The surface area of the cylinder is about 376.8 square centimetres."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "What is the surface area?\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_47",
+    "backend_description": "The image shows a triangular prism with a base triangle measuring 7 centimetres along the bottom edge, 5 centimetres for each of the two side edges, and a height of 3 centimetres. The prism has a length of 7 centimetres.",
     "question_type": "Fill in the blank",
     "question_number": "1_47",
     "tag": "Gr8_49_E1",
     "correct_answers": [
-      "40"
+      "139"
     ],
     "solution": [
       [
         "1/3",
-        "Find the area of the faces in each pair.\n$0\\times4=2$\n$1\\times4=4$\n$6\\times2=2$\n$1\\times2=12$\n$3\\times2=6$\n$2\\times2=3$"
+        "Find the area of the faces in each face.\n$\\frac{1}{2}\\times7\\times3=10$\n\n$\\frac{1}{2}\\times7\\times3=10$\n$5\\times7=35$\n$5\\times 7=35$\n$7\\times7=49$"
       ],
       [
         "2/3",
-        "Now add the areas of the 8 faces."
+        "Add the areas of the 5 faces to find the surface area.\nSurface area$=10+10+35+35+49=139$"
       ],
       [
         "3/3",
-        "Surface area\n$=12+4+5+3+4+4=66$\nThe surface area of the rectangular prism is 51 square millimetres."
+        "The surface area is 139 square centimetres."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_49_47_4_step_1",
-        "The image shows the surface area calculation for a rectangular prism. There are six green rectangles arranged in three pairs. At the top are two identical vertical rectangles with the expression 2 × 4 = 8 written below each, showing that each has an area of 8 square millimetres. In the middle are two identical horizontal rectangles, also labeled with 4 × 2 = 8, indicating each of their areas is 8 square millimetres. At the bottom are two identical squares, each labeled with 2 × 2 = 4, showing that each has an area of 4 square millimetres. These six faces together represent the total surface area of the rectangular prism."
+        "Gr8_49_1_47_step_1",
+        "The image shows the surface area calculation for a triangular prism with its faces laid out."
       ]
     ]
   },
   {
     "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_48_4",
-    "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 2 millimetres, and a height of 2 millimetres.",
+    "image_tag": "Gr8_49_1_48",
+    "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 4 millimetres, and a height of 4 millimetres.",
     "question_type": "Fill in the blank",
     "question_number": "1_48",
     "tag": "Gr8_49_E1",
     "correct_answers": [
-      "40"
+      "96"
     ],
     "solution": [
       [
         "1/3",
-        "Find the area of the faces in each pair.\n$0\\times4=4$\n$3\\times4=6$\n$7\\times2=6$\n$7\\times2=1$\n$1\\times2=7$\n$3\\times2=5$"
+        "Find the area of the faces in each pair.\n$4\\times4=16$\n$4\\times4=16$\n$4\\times4=16$\n$4\\times4=16$\n$4\\times4=16$\n$4\\times4=16$"
       ],
       [
         "2/3",
-        "Now add the areas of the 3 faces."
+        "Now add the areas of the 6 faces."
       ],
       [
         "3/3",
-        "Surface area\n$=13+7+9+4+6+4=65$\nThe surface area of the rectangular prism is 33 square millimetres."
+        "Surface area\n$=16+16+16+16+16+16=96$\nThe surface area of the rectangular prism is 96 square millimetres."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_49_48_4_step_1",
-        "The image shows the surface area calculation for a rectangular prism. There are six green rectangles arranged in three pairs. At the top are two identical vertical rectangles with the expression 2 × 4 = 8 written below each, showing that each has an area of 8 square millimetres. In the middle are two identical horizontal rectangles, also labeled with 4 × 2 = 8, indicating each of their areas is 8 square millimetres. At the bottom are two identical squares, each labeled with 2 × 2 = 4, showing that each has an area of 4 square millimetres. These six faces together represent the total surface area of the rectangular prism."
+        "Gr8_49_1_48_step_1",
+        "The image shows the surface area calculation for a rectangular prism with six rectangles."
       ]
     ]
   },
   {
     "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_49_4",
-    "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 2 millimetres, and a height of 2 millimetres.",
+    "image_tag": "Gr8_49_1_49",
+    "backend_description": "The image shows a cube with a side length of 9 millimetres.",
     "question_type": "Fill in the blank",
     "question_number": "1_49",
     "tag": "Gr8_49_E1",
     "correct_answers": [
-      "40"
+      "486"
     ],
     "solution": [
       [
-        "1/3",
-        "Find the area of the faces in each pair.\n$3\\times4=2$\n$2\\times4=14$\n$5\\times2=3$\n$0\\times2=7$\n$2\\times2=0$\n$0\\times2=0$"
+        "1/2",
+        "Each face of the cube is a square with sides that are 9 millimetres long."
       ],
       [
-        "2/3",
-        "Now add the areas of the 5 faces."
+        "2/2",
+        "Find the area of one face:\nArea = side $\\times$ side\n= 9 $\\times$ 9\n= 81\nThe area of each face is 81 square millimetres."
       ],
       [
         "3/3",
-        "Surface area\n$=9+5+12+1+6+0=25$\nThe surface area of the rectangular prism is 64 square millimetres."
+        "There are 6 faces. Multiply:\nSurface area = 6 $\\times$ 81\n= 486\nThe surface area of the cube is 486 square millimetres."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_49_49_4_step_1",
-        "The image shows the surface area calculation for a rectangular prism. There are six green rectangles arranged in three pairs. At the top are two identical vertical rectangles with the expression 2 × 4 = 8 written below each, showing that each has an area of 8 square millimetres. In the middle are two identical horizontal rectangles, also labeled with 4 × 2 = 8, indicating each of their areas is 8 square millimetres. At the bottom are two identical squares, each labeled with 2 × 2 = 4, showing that each has an area of 4 square millimetres. These six faces together represent the total surface area of the rectangular prism."
+        "Gr8_49_1_49_step_1",
+        "The image shows a square with all four sides labeled as 9mm."
       ]
     ]
   },
   {
-    "question_text": "What is the surface area?\n_ square millimetres",
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_50_4",
-    "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 2 millimetres, and a height of 2 millimetres.",
+    "image_tag": "Gr8_49_1_50",
+    "backend_description": "The image shows a cylinder with a radius of 6 centimetres and a height of 13 centimetres.",
     "question_type": "Fill in the blank",
     "question_number": "1_50",
     "tag": "Gr8_49_E1",
     "correct_answers": [
-      "40"
+      "715.92"
     ],
     "solution": [
       [
-        "1/3",
-        "Find the area of the faces in each pair.\n$0\\times4=10$\n$3\\times4=6$\n$7\\times2=2$\n$1\\times2=3$\n$1\\times2=1$\n$3\\times2=4$"
+        "1/7",
+        "Find the radius and height of the cylinder.\nradius=6\nheight=13"
       ],
       [
-        "2/3",
-        "Now add the areas of the 3 faces."
+        "2/7",
+        "Find the area of the circle on the top of the cylinder. Use 3.14 for $\\pi$.\n\n$A_{top} = \\pi r^2$\n$\\approx 3.14 \\times 6 \\times 6$\n$\\approx 113.04$"
       ],
       [
-        "3/3",
-        "Surface area\n$=8+4+14+1+0+4=10$\nThe surface area of the rectangular prism is 9 square millimetres."
+        "3/7",
+        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 113.04$"
+      ],
+      [
+        "4/7",
+        "Find the circumference of the top circle.\n\n$C = 2\\pi r$\n$\\approx 2 \\times 3.14 \\times 6$\n$\\approx 37.68$"
+      ],
+      [
+        "5/7",
+        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 37.68 \\times 13$\n$\\approx 489.84$"
+      ],
+      [
+        "6/7",
+        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 113.04 + 113.04 + 489.84$\n$\\approx 715.92$"
+      ],
+      [
+        "7/7",
+        "The surface area of the cylinder is about 715.92 square centimetres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr8_49_50_4_step_1",
-        "The image shows the surface area calculation for a rectangular prism. There are six green rectangles arranged in three pairs. At the top are two identical vertical rectangles with the expression 2 × 4 = 8 written below each, showing that each has an area of 8 square millimetres. In the middle are two identical horizontal rectangles, also labeled with 4 × 2 = 8, indicating each of their areas is 8 square millimetres. At the bottom are two identical squares, each labeled with 2 × 2 = 4, showing that each has an area of 4 square millimetres. These six faces together represent the total surface area of the rectangular prism."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the surface area?\n_ square millimetres",
+    "question_text": "What is the surface area?\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
-    "image_tag": "Gr8_49_51_4",
-    "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 2 millimetres, and a height of 2 millimetres.",
+    "image_tag": "Gr8_49_1_51",
+    "backend_description": "The image shows a triangular prism with a base triangle measuring 5 centimetres along the bottom edge, 7 centimetres for each of the two side edges, and a height of 3 centimetres. The prism has a length of 8 centimetres.",
     "question_type": "Fill in the blank",
     "question_number": "1_51",
     "tag": "Gr8_49_E1",
     "correct_answers": [
-      "40"
+      "166"
     ],
     "solution": [
       [
         "1/3",
-        "Find the area of the faces in each pair.\n$2\\times4=9$\n$1\\times4=10$\n$3\\times2=13$\n$4\\times2=8$\n$1\\times2=2$\n$1\\times2=3$"
+        "Find the area of the faces in each face.\n$\\frac{1}{2}\\times5\\times3=7$\n\n$\\frac{1}{2}\\times5\\times3=7$\n$7\\times8=56$\n$7\\times 8=56$\n$5\\times8=40$"
       ],
       [
         "2/3",
-        "Now add the areas of the 10 faces."
+        "Add the areas of the 5 faces to find the surface area.\nSurface area$=7+7+56+56+40=166$"
       ],
       [
         "3/3",
-        "Surface area\n$=13+3+11+14+5+5=40$\nThe surface area of the rectangular prism is 16 square millimetres."
+        "The surface area is 166 square centimetres."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_49_51_4_step_1",
-        "The image shows the surface area calculation for a rectangular prism. There are six green rectangles arranged in three pairs. At the top are two identical vertical rectangles with the expression 2 × 4 = 8 written below each, showing that each has an area of 8 square millimetres. In the middle are two identical horizontal rectangles, also labeled with 4 × 2 = 8, indicating each of their areas is 8 square millimetres. At the bottom are two identical squares, each labeled with 2 × 2 = 4, showing that each has an area of 4 square millimetres. These six faces together represent the total surface area of the rectangular prism."
+        "Gr8_49_1_51_step_1",
+        "The image shows the surface area calculation for a triangular prism with its faces laid out."
       ]
     ]
   }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Right Triangle - Pythagorean Theorem</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .item {
+            display: inline-block;
+            margin: 10px;
+        }
+        svg {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr8_50_2_34">
+        <svg width="300" height="250" viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg">
+            <!-- Triangle -->
+            <path d="M 50 200 L 250 200 L 50 50 Z" 
+                  fill="none" 
+                  stroke="black" 
+                  stroke-width="2"/>
+            
+            <!-- Right angle indicator -->
+            <path d="M 50 180 L 70 180 L 70 200" 
+                  fill="none" 
+                  stroke="black" 
+                  stroke-width="1.5"/>
+            
+            <!-- Labels -->
+            <!-- Horizontal leg -->
+            <text x="150" y="220" text-anchor="middle" font-size="14" font-family="Arial">
+                a 
+            </text>
+            
+            <!-- Vertical leg -->
+            <text x="30" y="125" text-anchor="middle" font-size="14" font-family="Arial">
+                80 cm
+            </text>
+            
+            <!-- Hypotenuse -->
+            <text x="150" y="115" text-anchor="middle" font-size="14" font-family="Arial" 
+                  transform="rotate(-45 150 115)">
+                89 cm
+            </text>
+        </svg>
+    </div>
+</body>
+</html>
