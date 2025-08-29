@@ -1,0 +1,2262 @@
+[
+  {
+    "question_text": "Fill in the missing number to complete the linear equation that gives the rule for this table.\n\ny = _x",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_1",
+    "backend_description": "The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 5, y = 15; x = 6, y = 18; x = 7, y = 21; and x = 8, y = 24.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_1",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "3"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 3. This means that m is equal to 3."
+      ],
+      [
+        "3/10",
+        "Next find b. Take the equation y = mx + b and plug in the m value (m = 3) and a pair of (x, y) coordinates from the table, such as (5,15). Then solve for b.\n$y= mx + b$\n$15=3(5) + b$  Plug in m = 3, x = 5, and y = 15\n$15=15 + b$  Simplify\n$0=b$  Simplify"
+      ],
+      [
+        "4/10",
+        "Finally, use the m and b values you found (m = 3 and b = 0) to write the equation.\n$y= mx + b$\n$y=3x + 0$  Plug in m = 3 and b = 0\n$y=3x$  Simplify"
+      ],
+      [
+        "5/10",
+        "Now check your answer. Plug in each (x,y) pair in the table, and see if the result is a true statement."
+      ],
+      [
+        "6/10",
+        "Plug in (5,15).\n$y=3x$\n$15=3(5)$\n$15=15$"
+      ],
+      [
+        "7/10",
+        "Plug in (6,18).\n$y=3x$\n$18=3(6)$\n$18=18$"
+      ],
+      [
+        "8/10",
+        "Plug in (7,21).\n$y=3x$\n$21=3(7)$\n$21=21$"
+      ],
+      [
+        "9/10",
+        "Plug in (8,24).\n$y=3x$\n$24=3(8)$\n$24=24$"
+      ],
+      [
+        "10/10",
+        "Each (x,y) pair from the table resulted in a true statement.\nSo, the linear equation is y = 3x."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_1_step_2",
+        "The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 5, y = 15; x = 6, y = 18; x = 7, y = 21; and x = 8, y = 24."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_2",
+    "backend_description": "The image shows a two-column table with a green header labeled 'x' and 'y'. The values in the table are: x = 5, y = 4; x = 6, y = 5; x = 7, y = 6; and x = 8, y = 7.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_2",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=x+3$",
+      "$y=x-3$",
+      "$y=x+1$",
+      "$y=x-1$"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 1. This means that m is equal to 1."
+      ],
+      [
+        "3/10",
+        "Next find b. Take the equation y = mx + b and plug in the m value (m = 1) and a pair of (x, y) coordinates from the table, such as (5,4). Then solve for b.\n $y=mx + b$\n$4=1(5) + b$  Plug in m = 1, x = 5, and y = 4\n$4=5 + b$  Simplify\n$4=5+b$  Simplify\n$-1=b$  Simplify"
+      ],
+      [
+        "4/10",
+        "Finally, use the m and b values you found (m = 1 and b = -1) to write the equation.\n$y=mx + b$\n$y=1x + -1$  Plug in  m = 1 and b = -1\n$y=x - 1$  Simplify"
+      ],
+      [
+        "5/10",
+        "Now check your answer. Plug in each (x,y) pair in the table, and see if the result is a true statement."
+      ],
+      [
+        "6/10",
+        "Plug in (5,4).\n$y=x - 1$\n$4=5 - 1$\n$4=4$"
+      ],
+      [
+        "7/10",
+        "Plug in (6,5).\n$y=x - 1$\n$5=6 - 1$\n$5=5$"
+      ],
+      [
+        "8/10",
+        "Plug in (7,6).\n$y=x - 1$\n$6=7 - 1$\n$6=6$"
+      ],
+      [
+        "9/10",
+        "Plug in (8,7).\n$y=x - 1$\n$7=8 - 1$\n$7=7$"
+      ],
+      [
+        "10/10",
+        "Each (x, y) pair from the table resulted in a true statement.\nSo, the equation is y = x - 1."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_2_step_2",
+        "The image shows a two-column table with a green header labeled 'x' and 'y'. The values in the table are: x = 5, y = 4; x = 6, y = 5; x = 7, y = 6; and x = 8, y = 7."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing number to complete the linear equation that gives the rule for this table.\n\ny = _x",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_3",
+    "backend_description": "The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 8, y = 80; x = 9, y = 90; x = 10, y = 100; x = 11, y = 110.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_3",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "10"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 10. This means that m is equal to 10."
+      ],
+      [
+        "3/10",
+        "Next find b. Take the equation y = mx + b and plug in the m value (m = 10) and a pair of (x, y) coordinates from the table, such as (8,80). Then solve for b.\n$y= mx + b$\n$80=10(8) + b$  Plug in m = 10, x = 8, and y = 80\n$80=80 + b$  Simplify\n$0=b$  Simplify"
+      ],
+      [
+        "4/10",
+        "Finally, use the m and b values you found (m = 10 and b = 0) to write the equation.\n$y= mx + b$\n$y=10x + 0$  Plug in m = 10 and b = 0\n$y=10x$  Simplify"
+      ],
+      [
+        "5/10",
+        "Now check your answer. Plug in each (x,y) pair in the table, and see if the result is a true statement."
+      ],
+      [
+        "6/10",
+        "Plug in (8,80).\n$y=10x$\n$80=10(8)$\n$80=80$"
+      ],
+      [
+        "7/10",
+        "Plug in (9,90).\n$y=10x$\n$90=10(9)$\n$90=90$"
+      ],
+      [
+        "8/10",
+        "Plug in (10,100).\n$y=10x$\n$100=10(10)$\n$100=100$"
+      ],
+      [
+        "9/10",
+        "Plug in (11,110).\n$y=10x$\n$110=10(11)$\n$110=110$"
+      ],
+      [
+        "10/10",
+        "Each (x,y) pair from the table resulted in a true statement.\nSo, the linear equation is y = 10x."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_3_step_2",
+        "The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 8, y = 80; x = 9, y = 90; x = 10, y = 100; x = 11, y = 110."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_4",
+    "backend_description": "The image shows a two-column table with a orange header labeled 'x' and 'y'. The values in the table are: x = 10, y = 55; x = 11, y = 60; x = 12, y = 65; x = 13, y = 70.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_4",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=6x+5$",
+      "$y=6x+6$",
+      "$y=5x+5$",
+      "$y=5x+3$"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 5. This means that m is equal to 5."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_4_step_2",
+        "The image shows a two-column table with a orange header labeled 'x' and 'y'. The values in the table are: x = 10, y = 55; x = 11, y = 60; x = 12, y = 65; x = 13, y = 70."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing numbers to complete the linear equation that gives the rule for this table.\n\ny = _/_x + _",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_5",
+    "backend_description": "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 3, y = 2; x = 6, y = 3; x = 9, y = 4; x = 12, y = 5.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_5",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "1",
+      "3",
+      "1"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Calculate the slope using two points from the table: m = (y₂-y₁)/(x₂-x₁) = (3-2)/(6-3) = 1/3."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_5_step_2",
+        "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 3, y = 2; x = 6, y = 3; x = 9, y = 4; x = 12, y = 5."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_6",
+    "backend_description": "The image shows a two-column table with a orange header labeled 'x' and 'y'. The values in the table are: x = 10, y = -20; x = 11, y = -22; x = 12, y = -24; x = 13, y = -26.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_6",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=-1x$",
+      "$y=-1x+1$",
+      "$y=-2x-1$",
+      "$y=-2x$"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by -2. This means that m is equal to -2."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_6_step_2",
+        "The image shows a two-column table with a orange header labeled 'x' and 'y'. The values in the table are: x = 10, y = -20; x = 11, y = -22; x = 12, y = -24; x = 13, y = -26."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing numbers to complete the linear equation that gives the rule for this table.\n\ny = _x + _",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_7",
+    "backend_description": "The image shows a two-column table with a red header labeled 'x' and 'y'. The values in the table are: x = 6, y = 33; x = 7, y = 38; x = 8, y = 43; x = 9, y = 48.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_7",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "5",
+      "3"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 5. This means that m is equal to 5."
+      ],
+      [
+        "3/10",
+        "Next find b. Take the equation y = mx + b and plug in the m value (m = 5) and a pair of (x, y) coordinates from the table, such as (6,33). Then solve for b.\n$y= mx + b$\n$33=5(6) + b$  Plug in m = 5, x = 6, and y = 33\n$33=30 + b$  Simplify\n$3=b$  Simplify"
+      ],
+      [
+        "4/10",
+        "Finally, use the m and b values you found (m = 5 and b = 3) to write the equation.\n$y= mx + b$\n$y=5x + 3$  Plug in m = 5 and b = 3"
+      ],
+      [
+        "5/10",
+        "Now check your answer. Plug in each (x,y) pair in the table, and see if the result is a true statement."
+      ],
+      [
+        "6/10",
+        "Plug in (6,33).\n$y=5x+3$\n$33=5(6)+3$\n$33=33$"
+      ],
+      [
+        "7/10",
+        "Plug in (7,38).\n$y=5x+3$\n$38=5(7)+3$\n$38=38$"
+      ],
+      [
+        "8/10",
+        "Plug in (8,43).\n$y=5x+3$\n$43=5(8)+3$\n$43=43$"
+      ],
+      [
+        "9/10",
+        "Plug in (9,48).\n$y=5x+3$\n$48=5(9)+3$\n$48=48$"
+      ],
+      [
+        "10/10",
+        "Each (x,y) pair from the table resulted in a true statement.\nSo, the linear equation is y = 5x + 3."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_7_step_2",
+        "The image shows a two-column table with a red header labeled 'x' and 'y'. The values in the table are: x = 6, y = 33; x = 7, y = 38; x = 8, y = 43; x = 9, y = 48."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_8",
+    "backend_description": "The image shows a two-column table with a blue header labeled 'x' and 'y'. The values in the table are: x = 8, y = 19; x = 9, y = 22; x = 10, y = 25; x = 11, y = 28.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_8",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=-5x+3$",
+      "$y=2x-5$",
+      "$y=3x-5$",
+      "$y=3x-3$"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 3. This means that m is equal to 3."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_8_step_2",
+        "The image shows a two-column table with a blue header labeled 'x' and 'y'. The values in the table are: x = 8, y = 19; x = 9, y = 22; x = 10, y = 25; x = 11, y = 28."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing number to complete the linear equation that gives the rule for this table.\n\ny = _x",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_9",
+    "backend_description": "The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 9, y = 72; x = 10, y = 80; x = 11, y = 88; x = 12, y = 96.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_9",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "8"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 8. This means that m is equal to 8."
+      ],
+      [
+        "3/10",
+        "Next find b. Take the equation y = mx + b and plug in the m value (m = 8) and a pair of (x, y) coordinates from the table, such as (9,72). Then solve for b.\n$y= mx + b$\n$72=8(9) + b$  Plug in m = 8, x = 9, and y = 72\n$72=72 + b$  Simplify\n$0=b$  Simplify"
+      ],
+      [
+        "4/10",
+        "Finally, use the m and b values you found (m = 8 and b = 0) to write the equation.\n$y= mx + b$\n$y=8x + 0$  Plug in m = 8 and b = 0\n$y=8x$  Simplify"
+      ],
+      [
+        "5/10",
+        "Now check your answer. Plug in each (x,y) pair in the table, and see if the result is a true statement."
+      ],
+      [
+        "6/10",
+        "Plug in (9,72).\n$y=8x$\n$72=8(9)$\n$72=72$"
+      ],
+      [
+        "7/10",
+        "Plug in (10,80).\n$y=8x$\n$80=8(10)$\n$80=80$"
+      ],
+      [
+        "8/10",
+        "Plug in (11,88).\n$y=8x$\n$88=8(11)$\n$88=88$"
+      ],
+      [
+        "9/10",
+        "Plug in (12,96).\n$y=8x$\n$96=8(12)$\n$96=96$"
+      ],
+      [
+        "10/10",
+        "Each (x,y) pair from the table resulted in a true statement.\nSo, the linear equation is y = 8x."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_9_step_2",
+        "The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 9, y = 72; x = 10, y = 80; x = 11, y = 88; x = 12, y = 96."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_10",
+    "backend_description": "The image shows a two-column table with a green header labeled 'x' and 'y'. The values in the table are: x = 9, y = -6; x = 10, y = -7; x = 11, y = -8; x = 12, y = -9.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_10",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=-1x+4$",
+      "$y=-1x+3$",
+      "$y=1x+3$",
+      "$y=3x-1$"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by -1. This means that m is equal to -1."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_10_step_2",
+        "The image shows a two-column table with a green header labeled 'x' and 'y'. The values in the table are: x = 9, y = -6; x = 10, y = -7; x = 11, y = -8; x = 12, y = -9."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing numbers to complete the linear equation that gives the rule for this table.\n\ny = _/_x + _",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_11",
+    "backend_description": "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 5, y = 7; x = 10, y = 12; x = 15, y = 17; x = 20, y = 22.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_11",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "5",
+      "5",
+      "2"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Calculate the slope using two points from the table: m = (y₂-y₁)/(x₂-x₁) = (12-7)/(10-5) = 5/5."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_11_step_2",
+        "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 5, y = 7; x = 10, y = 12; x = 15, y = 17; x = 20, y = 22."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_12",
+    "backend_description": "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 6, y = -22; x = 7, y = -25; x = 8, y = -28; x = 9, y = -31.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_12",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=-3x-5$",
+      "$y=-4x-4$",
+      "$y=-4x-3$",
+      "$y=-3x-4$"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by -3. This means that m is equal to -3."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_12_step_2",
+        "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 6, y = -22; x = 7, y = -25; x = 8, y = -28; x = 9, y = -31."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing numbers to complete the linear equation that gives the rule for this table.\n\ny = _x + _",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_13",
+    "backend_description": "The image shows a two-column table with a orange header labeled 'x' and 'y'. The values in the table are: x = 1, y = 7; x = 2, y = 13; x = 3, y = 19; x = 4, y = 25.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_13",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "6",
+      "1"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 6. This means that m is equal to 6."
+      ],
+      [
+        "3/10",
+        "Next find b. Take the equation y = mx + b and plug in the m value (m = 6) and a pair of (x, y) coordinates from the table, such as (1,7). Then solve for b.\n$y= mx + b$\n$7=6(1) + b$  Plug in m = 6, x = 1, and y = 7\n$7=6 + b$  Simplify\n$1=b$  Simplify"
+      ],
+      [
+        "4/10",
+        "Finally, use the m and b values you found (m = 6 and b = 1) to write the equation.\n$y= mx + b$\n$y=6x + 1$  Plug in m = 6 and b = 1"
+      ],
+      [
+        "5/10",
+        "Now check your answer. Plug in each (x,y) pair in the table, and see if the result is a true statement."
+      ],
+      [
+        "6/10",
+        "Plug in (1,7).\n$y=6x+1$\n$7=6(1)+1$\n$7=7$"
+      ],
+      [
+        "7/10",
+        "Plug in (2,13).\n$y=6x+1$\n$13=6(2)+1$\n$13=13$"
+      ],
+      [
+        "8/10",
+        "Plug in (3,19).\n$y=6x+1$\n$19=6(3)+1$\n$19=19$"
+      ],
+      [
+        "9/10",
+        "Plug in (4,25).\n$y=6x+1$\n$25=6(4)+1$\n$25=25$"
+      ],
+      [
+        "10/10",
+        "Each (x,y) pair from the table resulted in a true statement.\nSo, the linear equation is y = 6x + 1."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_13_step_2",
+        "The image shows a two-column table with a orange header labeled 'x' and 'y'. The values in the table are: x = 1, y = 7; x = 2, y = 13; x = 3, y = 19; x = 4, y = 25."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_14",
+    "backend_description": "The image shows a two-column table with a orange header labeled 'x' and 'y'. The values in the table are: x = 8, y = 18; x = 9, y = 20; x = 10, y = 22; x = 11, y = 24.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_14",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=2x+3$",
+      "$y=2x+2$",
+      "$y=4x+2$",
+      "$y=3x+3$"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 2. This means that m is equal to 2."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_14_step_2",
+        "The image shows a two-column table with a orange header labeled 'x' and 'y'. The values in the table are: x = 8, y = 18; x = 9, y = 20; x = 10, y = 22; x = 11, y = 24."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing number to complete the linear equation that gives the rule for this table.\n\ny = _x",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_15",
+    "backend_description": "The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 10, y = 60; x = 11, y = 66; x = 12, y = 72; x = 13, y = 78.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_15",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "6"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 6. This means that m is equal to 6."
+      ],
+      [
+        "3/10",
+        "Next find b. Take the equation y = mx + b and plug in the m value (m = 6) and a pair of (x, y) coordinates from the table, such as (10,60). Then solve for b.\n$y= mx + b$\n$60=6(10) + b$  Plug in m = 6, x = 10, and y = 60\n$60=60 + b$  Simplify\n$0=b$  Simplify"
+      ],
+      [
+        "4/10",
+        "Finally, use the m and b values you found (m = 6 and b = 0) to write the equation.\n$y= mx + b$\n$y=6x + 0$  Plug in m = 6 and b = 0\n$y=6x$  Simplify"
+      ],
+      [
+        "5/10",
+        "Now check your answer. Plug in each (x,y) pair in the table, and see if the result is a true statement."
+      ],
+      [
+        "6/10",
+        "Plug in (10,60).\n$y=6x$\n$60=6(10)$\n$60=60$"
+      ],
+      [
+        "7/10",
+        "Plug in (11,66).\n$y=6x$\n$66=6(11)$\n$66=66$"
+      ],
+      [
+        "8/10",
+        "Plug in (12,72).\n$y=6x$\n$72=6(12)$\n$72=72$"
+      ],
+      [
+        "9/10",
+        "Plug in (13,78).\n$y=6x$\n$78=6(13)$\n$78=78$"
+      ],
+      [
+        "10/10",
+        "Each (x,y) pair from the table resulted in a true statement.\nSo, the linear equation is y = 6x."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_15_step_2",
+        "The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 10, y = 60; x = 11, y = 66; x = 12, y = 72; x = 13, y = 78."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_16",
+    "backend_description": "The image shows a two-column table with a red header labeled 'x' and 'y'. The values in the table are: x = 3, y = 3; x = 4, y = 5; x = 5, y = 7; x = 6, y = 9.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_16",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=1x-3$",
+      "$y=2x-1$",
+      "$y=2x-3$",
+      "$y=-3x+2$"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 2. This means that m is equal to 2."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_16_step_2",
+        "The image shows a two-column table with a red header labeled 'x' and 'y'. The values in the table are: x = 3, y = 3; x = 4, y = 5; x = 5, y = 7; x = 6, y = 9."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing numbers to complete the linear equation that gives the rule for this table.\n\ny = _/_x",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_17",
+    "backend_description": "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 12, y = 9; x = 16, y = 12; x = 20, y = 15; x = 24, y = 18.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_17",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "3",
+      "4"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Calculate the slope using two points from the table: m = (y₂-y₁)/(x₂-x₁) = (12-9)/(16-12) = 3/4."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_17_step_2",
+        "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 12, y = 9; x = 16, y = 12; x = 20, y = 15; x = 24, y = 18."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_18",
+    "backend_description": "The image shows a two-column table with a orange header labeled 'x' and 'y'. The values in the table are: x = 7, y = -14; x = 8, y = -16; x = 9, y = -18; x = 10, y = -20.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_18",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=-1x+1$",
+      "$y=0x$",
+      "$y=-2x-2$",
+      "$y=-2x$"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by -2. This means that m is equal to -2."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_18_step_2",
+        "The image shows a two-column table with a orange header labeled 'x' and 'y'. The values in the table are: x = 7, y = -14; x = 8, y = -16; x = 9, y = -18; x = 10, y = -20."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing numbers to complete the linear equation that gives the rule for this table.\n\ny = _x + _",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_19",
+    "backend_description": "The image shows a two-column table with a orange header labeled 'x' and 'y'. The values in the table are: x = 9, y = 49; x = 10, y = 54; x = 11, y = 59; x = 12, y = 64.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_19",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "5",
+      "4"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 5. This means that m is equal to 5."
+      ],
+      [
+        "3/10",
+        "Next find b. Take the equation y = mx + b and plug in the m value (m = 5) and a pair of (x, y) coordinates from the table, such as (9,49). Then solve for b.\n$y= mx + b$\n$49=5(9) + b$  Plug in m = 5, x = 9, and y = 49\n$49=45 + b$  Simplify\n$4=b$  Simplify"
+      ],
+      [
+        "4/10",
+        "Finally, use the m and b values you found (m = 5 and b = 4) to write the equation.\n$y= mx + b$\n$y=5x + 4$  Plug in m = 5 and b = 4"
+      ],
+      [
+        "5/10",
+        "Now check your answer. Plug in each (x,y) pair in the table, and see if the result is a true statement."
+      ],
+      [
+        "6/10",
+        "Plug in (9,49).\n$y=5x+4$\n$49=5(9)+4$\n$49=49$"
+      ],
+      [
+        "7/10",
+        "Plug in (10,54).\n$y=5x+4$\n$54=5(10)+4$\n$54=54$"
+      ],
+      [
+        "8/10",
+        "Plug in (11,59).\n$y=5x+4$\n$59=5(11)+4$\n$59=59$"
+      ],
+      [
+        "9/10",
+        "Plug in (12,64).\n$y=5x+4$\n$64=5(12)+4$\n$64=64$"
+      ],
+      [
+        "10/10",
+        "Each (x,y) pair from the table resulted in a true statement.\nSo, the linear equation is y = 5x + 4."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_19_step_2",
+        "The image shows a two-column table with a orange header labeled 'x' and 'y'. The values in the table are: x = 9, y = 49; x = 10, y = 54; x = 11, y = 59; x = 12, y = 64."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_20",
+    "backend_description": "The image shows a two-column table with a blue header labeled 'x' and 'y'. The values in the table are: x = 5, y = 16; x = 6, y = 19; x = 7, y = 22; x = 8, y = 25.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_20",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=1x+3$",
+      "$y=3x+1$",
+      "$y=2x+1$",
+      "$y=3x+2$"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 3. This means that m is equal to 3."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_20_step_2",
+        "The image shows a two-column table with a blue header labeled 'x' and 'y'. The values in the table are: x = 5, y = 16; x = 6, y = 19; x = 7, y = 22; x = 8, y = 25."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing number to complete the linear equation that gives the rule for this table.\n\ny = _x",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_21",
+    "backend_description": "The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 10, y = 40; x = 11, y = 44; x = 12, y = 48; x = 13, y = 52.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_21",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "4"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 4. This means that m is equal to 4."
+      ],
+      [
+        "3/10",
+        "Next find b. Take the equation y = mx + b and plug in the m value (m = 4) and a pair of (x, y) coordinates from the table, such as (10,40). Then solve for b.\n$y= mx + b$\n$40=4(10) + b$  Plug in m = 4, x = 10, and y = 40\n$40=40 + b$  Simplify\n$0=b$  Simplify"
+      ],
+      [
+        "4/10",
+        "Finally, use the m and b values you found (m = 4 and b = 0) to write the equation.\n$y= mx + b$\n$y=4x + 0$  Plug in m = 4 and b = 0\n$y=4x$  Simplify"
+      ],
+      [
+        "5/10",
+        "Now check your answer. Plug in each (x,y) pair in the table, and see if the result is a true statement."
+      ],
+      [
+        "6/10",
+        "Plug in (10,40).\n$y=4x$\n$40=4(10)$\n$40=40$"
+      ],
+      [
+        "7/10",
+        "Plug in (11,44).\n$y=4x$\n$44=4(11)$\n$44=44$"
+      ],
+      [
+        "8/10",
+        "Plug in (12,48).\n$y=4x$\n$48=4(12)$\n$48=48$"
+      ],
+      [
+        "9/10",
+        "Plug in (13,52).\n$y=4x$\n$52=4(13)$\n$52=52$"
+      ],
+      [
+        "10/10",
+        "Each (x,y) pair from the table resulted in a true statement.\nSo, the linear equation is y = 4x."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_21_step_2",
+        "The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 10, y = 40; x = 11, y = 44; x = 12, y = 48; x = 13, y = 52."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_22",
+    "backend_description": "The image shows a two-column table with a orange header labeled 'x' and 'y'. The values in the table are: x = 3, y = 16; x = 4, y = 20; x = 5, y = 24; x = 6, y = 28.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_22",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=3x+4$",
+      "$y=4x+4$",
+      "$y=4x+3$",
+      "$y=5x+5$"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 4. This means that m is equal to 4."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_22_step_2",
+        "The image shows a two-column table with a orange header labeled 'x' and 'y'. The values in the table are: x = 3, y = 16; x = 4, y = 20; x = 5, y = 24; x = 6, y = 28."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing numbers to complete the linear equation that gives the rule for this table.\n\ny = _/_x + _",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_23",
+    "backend_description": "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 4, y = 2; x = 6, y = 4; x = 8, y = 6; x = 10, y = 8.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_23",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "2",
+      "2",
+      "(-2)"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Calculate the slope using two points from the table: m = (y₂-y₁)/(x₂-x₁) = (4-2)/(6-4) = 2/2."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_23_step_2",
+        "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 4, y = 2; x = 6, y = 4; x = 8, y = 6; x = 10, y = 8."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_24",
+    "backend_description": "The image shows a two-column table with a red header labeled 'x' and 'y'. The values in the table are: x = 9, y = 28; x = 10, y = 31; x = 11, y = 34; x = 12, y = 37.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_24",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=3x+2$",
+      "$y=3x+1$",
+      "$y=1x+3$",
+      "$y=5x+1$"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 3. This means that m is equal to 3."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_24_step_2",
+        "The image shows a two-column table with a red header labeled 'x' and 'y'. The values in the table are: x = 9, y = 28; x = 10, y = 31; x = 11, y = 34; x = 12, y = 37."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing numbers to complete the linear equation that gives the rule for this table.\n\ny = _x + _",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_25",
+    "backend_description": "The image shows a two-column table with a blue header labeled 'x' and 'y'. The values in the table are: x = 7, y = 10; x = 8, y = 12; x = 9, y = 14; x = 10, y = 16.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_25",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "2",
+      "(-4)"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 2. This means that m is equal to 2."
+      ],
+      [
+        "3/10",
+        "Next find b. Take the equation y = mx + b and plug in the m value (m = 2) and a pair of (x, y) coordinates from the table, such as (7,10). Then solve for b.\n$y= mx + b$\n$10=2(7) + b$  Plug in m = 2, x = 7, and y = 10\n$10=14 + b$  Simplify\n$-4=b$  Simplify"
+      ],
+      [
+        "4/10",
+        "Finally, use the m and b values you found (m = 2 and b = -4) to write the equation.\n$y= mx + b$\n$y=2x - 4$  Plug in m = 2 and b = -4"
+      ],
+      [
+        "5/10",
+        "Now check your answer. Plug in each (x,y) pair in the table, and see if the result is a true statement."
+      ],
+      [
+        "6/10",
+        "Plug in (7,10).\n$y=2x-4$\n$10=2(7)-4$\n$10=10$"
+      ],
+      [
+        "7/10",
+        "Plug in (8,12).\n$y=2x-4$\n$12=2(8)-4$\n$12=12$"
+      ],
+      [
+        "8/10",
+        "Plug in (9,14).\n$y=2x-4$\n$14=2(9)-4$\n$14=14$"
+      ],
+      [
+        "9/10",
+        "Plug in (10,16).\n$y=2x-4$\n$16=2(10)-4$\n$16=16$"
+      ],
+      [
+        "10/10",
+        "Each (x,y) pair from the table resulted in a true statement.\nSo, the linear equation is y = 2x - 4."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_25_step_2",
+        "The image shows a two-column table with a blue header labeled 'x' and 'y'. The values in the table are: x = 7, y = 10; x = 8, y = 12; x = 9, y = 14; x = 10, y = 16."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_26",
+    "backend_description": "The image shows a two-column table with a red header labeled 'x' and 'y'. The values in the table are: x = 4, y = -13; x = 5, y = -15; x = 6, y = -17; x = 7, y = -19.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_26",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=-3x-5$",
+      "$y=-2x-4$",
+      "$y=-2x-5$",
+      "$y=-5x-2$"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by -2. This means that m is equal to -2."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_26_step_2",
+        "The image shows a two-column table with a red header labeled 'x' and 'y'. The values in the table are: x = 4, y = -13; x = 5, y = -15; x = 6, y = -17; x = 7, y = -19."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing number to complete the linear equation that gives the rule for this table.\n\ny = _x",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_27",
+    "backend_description": "The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 2, y = 8; x = 3, y = 12; x = 4, y = 16; x = 5, y = 20.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_27",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "4"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 4. This means that m is equal to 4."
+      ],
+      [
+        "3/10",
+        "Next find b. Take the equation y = mx + b and plug in the m value (m = 4) and a pair of (x, y) coordinates from the table, such as (2,8). Then solve for b.\n$y= mx + b$\n$8=4(2) + b$  Plug in m = 4, x = 2, and y = 8\n$8=8 + b$  Simplify\n$0=b$  Simplify"
+      ],
+      [
+        "4/10",
+        "Finally, use the m and b values you found (m = 4 and b = 0) to write the equation.\n$y= mx + b$\n$y=4x + 0$  Plug in m = 4 and b = 0\n$y=4x$  Simplify"
+      ],
+      [
+        "5/10",
+        "Now check your answer. Plug in each (x,y) pair in the table, and see if the result is a true statement."
+      ],
+      [
+        "6/10",
+        "Plug in (2,8).\n$y=4x$\n$8=4(2)$\n$8=8$"
+      ],
+      [
+        "7/10",
+        "Plug in (3,12).\n$y=4x$\n$12=4(3)$\n$12=12$"
+      ],
+      [
+        "8/10",
+        "Plug in (4,16).\n$y=4x$\n$16=4(4)$\n$16=16$"
+      ],
+      [
+        "9/10",
+        "Plug in (5,20).\n$y=4x$\n$20=4(5)$\n$20=20$"
+      ],
+      [
+        "10/10",
+        "Each (x,y) pair from the table resulted in a true statement.\nSo, the linear equation is y = 4x."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_27_step_2",
+        "The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 2, y = 8; x = 3, y = 12; x = 4, y = 16; x = 5, y = 20."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_28",
+    "backend_description": "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 8, y = -9; x = 9, y = -10; x = 10, y = -11; x = 11, y = -12.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_28",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=0x+0$",
+      "$y=-1x-1$",
+      "$y=1x-1$",
+      "$y=-1x$"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by -1. This means that m is equal to -1."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_28_step_2",
+        "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 8, y = -9; x = 9, y = -10; x = 10, y = -11; x = 11, y = -12."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing numbers to complete the linear equation that gives the rule for this table.\n\ny = _/_x + _",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_29",
+    "backend_description": "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 6, y = 16; x = 8, y = 21; x = 10, y = 26; x = 12, y = 31.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_29",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "5",
+      "2",
+      "1"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Calculate the slope using two points from the table: m = (y₂-y₁)/(x₂-x₁) = (21-16)/(8-6) = 5/2."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_29_step_2",
+        "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 6, y = 16; x = 8, y = 21; x = 10, y = 26; x = 12, y = 31."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_30",
+    "backend_description": "The image shows a two-column table with a red header labeled 'x' and 'y'. The values in the table are: x = 9, y = -10; x = 10, y = -11; x = 11, y = -12; x = 12, y = -13.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_30",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=-1x-3$",
+      "$y=0x+0$",
+      "$y=-1x-1$",
+      "$y=-2x-1$"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by -1. This means that m is equal to -1."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_30_step_2",
+        "The image shows a two-column table with a red header labeled 'x' and 'y'. The values in the table are: x = 9, y = -10; x = 10, y = -11; x = 11, y = -12; x = 12, y = -13."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing numbers to complete the linear equation that gives the rule for this table.\n\ny = _x + _",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_31",
+    "backend_description": "The image shows a two-column table with a red header labeled 'x' and 'y'. The values in the table are: x = 5, y = -14; x = 6, y = -17; x = 7, y = -20; x = 8, y = -23.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_31",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "-3",
+      "1"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by -3. This means that m is equal to -3."
+      ],
+      [
+        "3/10",
+        "Next find b. Take the equation y = mx + b and plug in the m value (m = -3) and a pair of (x, y) coordinates from the table, such as (5,-14). Then solve for b.\n$y= mx + b$\n$-14=-3(5) + b$  Plug in m = -3, x = 5, and y = -14\n$-14=-15 + b$  Simplify\n$1=b$  Simplify"
+      ],
+      [
+        "4/10",
+        "Finally, use the m and b values you found (m = -3 and b = 1) to write the equation.\n$y= mx + b$\n$y=-3x + 1$  Plug in m = -3 and b = 1"
+      ],
+      [
+        "5/10",
+        "Now check your answer. Plug in each (x,y) pair in the table, and see if the result is a true statement."
+      ],
+      [
+        "6/10",
+        "Plug in (5,-14).\n$y=-3x+1$\n$-14=-3(5)+1$\n$-14=-14$"
+      ],
+      [
+        "7/10",
+        "Plug in (6,-17).\n$y=-3x+1$\n$-17=-3(6)+1$\n$-17=-17$"
+      ],
+      [
+        "8/10",
+        "Plug in (7,-20).\n$y=-3x+1$\n$-20=-3(7)+1$\n$-20=-20$"
+      ],
+      [
+        "9/10",
+        "Plug in (8,-23).\n$y=-3x+1$\n$-23=-3(8)+1$\n$-23=-23$"
+      ],
+      [
+        "10/10",
+        "Each (x,y) pair from the table resulted in a true statement.\nSo, the linear equation is y = -3x + 1."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_31_step_2",
+        "The image shows a two-column table with a red header labeled 'x' and 'y'. The values in the table are: x = 5, y = -14; x = 6, y = -17; x = 7, y = -20; x = 8, y = -23."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_32",
+    "backend_description": "The image shows a two-column table with a green header labeled 'x' and 'y'. The values in the table are: x = 6, y = -17; x = 7, y = -19; x = 8, y = -21; x = 9, y = -23.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_32",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=-5x-2$",
+      "$y=-2x-3$",
+      "$y=-1x-5$",
+      "$y=-2x-5$"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by -2. This means that m is equal to -2."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_32_step_2",
+        "The image shows a two-column table with a green header labeled 'x' and 'y'. The values in the table are: x = 6, y = -17; x = 7, y = -19; x = 8, y = -21; x = 9, y = -23."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing number to complete the linear equation that gives the rule for this table.\n\ny = _x",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_33",
+    "backend_description": "The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 3, y = 9; x = 4, y = 12; x = 5, y = 15; x = 6, y = 18.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_33",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "3"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 3. This means that m is equal to 3."
+      ],
+      [
+        "3/10",
+        "Next find b. Take the equation y = mx + b and plug in the m value (m = 3) and a pair of (x, y) coordinates from the table, such as (3,9). Then solve for b.\n$y= mx + b$\n$9=3(3) + b$  Plug in m = 3, x = 3, and y = 9\n$9=9 + b$  Simplify\n$0=b$  Simplify"
+      ],
+      [
+        "4/10",
+        "Finally, use the m and b values you found (m = 3 and b = 0) to write the equation.\n$y= mx + b$\n$y=3x + 0$  Plug in m = 3 and b = 0\n$y=3x$  Simplify"
+      ],
+      [
+        "5/10",
+        "Now check your answer. Plug in each (x,y) pair in the table, and see if the result is a true statement."
+      ],
+      [
+        "6/10",
+        "Plug in (3,9).\n$y=3x$\n$9=3(3)$\n$9=9$"
+      ],
+      [
+        "7/10",
+        "Plug in (4,12).\n$y=3x$\n$12=3(4)$\n$12=12$"
+      ],
+      [
+        "8/10",
+        "Plug in (5,15).\n$y=3x$\n$15=3(5)$\n$15=15$"
+      ],
+      [
+        "9/10",
+        "Plug in (6,18).\n$y=3x$\n$18=3(6)$\n$18=18$"
+      ],
+      [
+        "10/10",
+        "Each (x,y) pair from the table resulted in a true statement.\nSo, the linear equation is y = 3x."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_33_step_2",
+        "The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 3, y = 9; x = 4, y = 12; x = 5, y = 15; x = 6, y = 18."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_34",
+    "backend_description": "The image shows a two-column table with a orange header labeled 'x' and 'y'. The values in the table are: x = 7, y = -16; x = 8, y = -18; x = 9, y = -20; x = 10, y = -22.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_34",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=-1x-2$",
+      "$y=-2x-2$",
+      "$y=-1x+-1$",
+      "$y=-2x-3$"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by -2. This means that m is equal to -2."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_34_step_2",
+        "The image shows a two-column table with a orange header labeled 'x' and 'y'. The values in the table are: x = 7, y = -16; x = 8, y = -18; x = 9, y = -20; x = 10, y = -22."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing numbers to complete the linear equation that gives the rule for this table.\n\ny = _/_x + _",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_35",
+    "backend_description": "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 12, y = 5; x = 16, y = 7; x = 20, y = 9; x = 24, y = 11.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_35",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "2",
+      "4",
+      "(-1)"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Calculate the slope using two points from the table: m = (y₂-y₁)/(x₂-x₁) = (7-5)/(16-12) = 2/4."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_35_step_2",
+        "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 12, y = 5; x = 16, y = 7; x = 20, y = 9; x = 24, y = 11."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_36",
+    "backend_description": "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 7, y = -20; x = 8, y = -23; x = 9, y = -26; x = 10, y = -29.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_36",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=1x-3$",
+      "$y=-3x+1$",
+      "$y=-2x+1$",
+      "$y=-3x+2$"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by -3. This means that m is equal to -3."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_36_step_2",
+        "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 7, y = -20; x = 8, y = -23; x = 9, y = -26; x = 10, y = -29."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing numbers to complete the linear equation that gives the rule for this table.\n\ny = _x + _",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_37",
+    "backend_description": "The image shows a two-column table with a blue header labeled 'x' and 'y'. The values in the table are: x = 8, y = 42; x = 9, y = 47; x = 10, y = 52; x = 11, y = 57.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_37",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "5",
+      "2"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 5. This means that m is equal to 5."
+      ],
+      [
+        "3/10",
+        "Next find b. Take the equation y = mx + b and plug in the m value (m = 5) and a pair of (x, y) coordinates from the table, such as (8,42). Then solve for b.\n$y= mx + b$\n$42=5(8) + b$  Plug in m = 5, x = 8, and y = 42\n$42=40 + b$  Simplify\n$2=b$  Simplify"
+      ],
+      [
+        "4/10",
+        "Finally, use the m and b values you found (m = 5 and b = 2) to write the equation.\n$y= mx + b$\n$y=5x + 2$  Plug in m = 5 and b = 2"
+      ],
+      [
+        "5/10",
+        "Now check your answer. Plug in each (x,y) pair in the table, and see if the result is a true statement."
+      ],
+      [
+        "6/10",
+        "Plug in (8,42).\n$y=5x+2$\n$42=5(8)+2$\n$42=42$"
+      ],
+      [
+        "7/10",
+        "Plug in (9,47).\n$y=5x+2$\n$47=5(9)+2$\n$47=47$"
+      ],
+      [
+        "8/10",
+        "Plug in (10,52).\n$y=5x+2$\n$52=5(10)+2$\n$52=52$"
+      ],
+      [
+        "9/10",
+        "Plug in (11,57).\n$y=5x+2$\n$57=5(11)+2$\n$57=57$"
+      ],
+      [
+        "10/10",
+        "Each (x,y) pair from the table resulted in a true statement.\nSo, the linear equation is y = 5x + 2."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_37_step_2",
+        "The image shows a two-column table with a blue header labeled 'x' and 'y'. The values in the table are: x = 8, y = 42; x = 9, y = 47; x = 10, y = 52; x = 11, y = 57."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_38",
+    "backend_description": "The image shows a two-column table with a red header labeled 'x' and 'y'. The values in the table are: x = 6, y = -6; x = 7, y = -7; x = 8, y = -8; x = 9, y = -9.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_38",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=-1x$",
+      "$y=-2x$",
+      "$y=0x+1$",
+      "$y=-1x+1$"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by -1. This means that m is equal to -1."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_38_step_2",
+        "The image shows a two-column table with a red header labeled 'x' and 'y'. The values in the table are: x = 6, y = -6; x = 7, y = -7; x = 8, y = -8; x = 9, y = -9."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing number to complete the linear equation that gives the rule for this table.\n\ny = _x",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_39",
+    "backend_description": "The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 10, y = 60; x = 11, y = 66; x = 12, y = 72; x = 13, y = 78.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_39",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "6"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 6. This means that m is equal to 6."
+      ],
+      [
+        "3/10",
+        "Next find b. Take the equation y = mx + b and plug in the m value (m = 6) and a pair of (x, y) coordinates from the table, such as (10,60). Then solve for b.\n$y= mx + b$\n$60=6(10) + b$  Plug in m = 6, x = 10, and y = 60\n$60=60 + b$  Simplify\n$0=b$  Simplify"
+      ],
+      [
+        "4/10",
+        "Finally, use the m and b values you found (m = 6 and b = 0) to write the equation.\n$y= mx + b$\n$y=6x + 0$  Plug in m = 6 and b = 0\n$y=6x$  Simplify"
+      ],
+      [
+        "5/10",
+        "Now check your answer. Plug in each (x,y) pair in the table, and see if the result is a true statement."
+      ],
+      [
+        "6/10",
+        "Plug in (10,60).\n$y=6x$\n$60=6(10)$\n$60=60$"
+      ],
+      [
+        "7/10",
+        "Plug in (11,66).\n$y=6x$\n$66=6(11)$\n$66=66$"
+      ],
+      [
+        "8/10",
+        "Plug in (12,72).\n$y=6x$\n$72=6(12)$\n$72=72$"
+      ],
+      [
+        "9/10",
+        "Plug in (13,78).\n$y=6x$\n$78=6(13)$\n$78=78$"
+      ],
+      [
+        "10/10",
+        "Each (x,y) pair from the table resulted in a true statement.\nSo, the linear equation is y = 6x."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_39_step_2",
+        "The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 10, y = 60; x = 11, y = 66; x = 12, y = 72; x = 13, y = 78."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_40",
+    "backend_description": "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 3, y = 9; x = 4, y = 12; x = 5, y = 15; x = 6, y = 18.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_40",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=3x$",
+      "$y=4x$",
+      "$y=4x+1$",
+      "$y=3x+2$"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 3. This means that m is equal to 3."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_40_step_2",
+        "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 3, y = 9; x = 4, y = 12; x = 5, y = 15; x = 6, y = 18."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing numbers to complete the linear equation that gives the rule for this table.\n\ny = _/_x + _",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_41",
+    "backend_description": "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 4, y = 5; x = 8, y = 9; x = 12, y = 13; x = 16, y = 17.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_41",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "4",
+      "4",
+      "1"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Calculate the slope using two points from the table: m = (y₂-y₁)/(x₂-x₁) = (9-5)/(8-4) = 4/4."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_41_step_2",
+        "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 4, y = 5; x = 8, y = 9; x = 12, y = 13; x = 16, y = 17."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_42",
+    "backend_description": "The image shows a two-column table with a blue header labeled 'x' and 'y'. The values in the table are: x = 9, y = -19; x = 10, y = -21; x = 11, y = -23; x = 12, y = -25.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_42",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=-1x-2$",
+      "$y=-3x-1$",
+      "$y=-2x-1$",
+      "$y=-2x+1$"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by -2. This means that m is equal to -2."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_42_step_2",
+        "The image shows a two-column table with a blue header labeled 'x' and 'y'. The values in the table are: x = 9, y = -19; x = 10, y = -21; x = 11, y = -23; x = 12, y = -25."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing numbers to complete the linear equation that gives the rule for this table.\n\ny = _x + _",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_43",
+    "backend_description": "The image shows a two-column table with a orange header labeled 'x' and 'y'. The values in the table are: x = 5, y = -14; x = 6, y = -16; x = 7, y = -18; x = 8, y = -20.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_43",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "-2",
+      "(-4)"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by -2. This means that m is equal to -2."
+      ],
+      [
+        "3/10",
+        "Next find b. Take the equation y = mx + b and plug in the m value (m = -2) and a pair of (x, y) coordinates from the table, such as (5,-14). Then solve for b.\n$y= mx + b$\n$-14=-2(5) + b$  Plug in m = -2, x = 5, and y = -14\n$-14=-10 + b$  Simplify\n$-4=b$  Simplify"
+      ],
+      [
+        "4/10",
+        "Finally, use the m and b values you found (m = -2 and b = -4) to write the equation.\n$y= mx + b$\n$y=-2x - 4$  Plug in m = -2 and b = -4"
+      ],
+      [
+        "5/10",
+        "Now check your answer. Plug in each (x,y) pair in the table, and see if the result is a true statement."
+      ],
+      [
+        "6/10",
+        "Plug in (5,-14).\n$y=-2x-4$\n$-14=-2(5)-4$\n$-14=-14$"
+      ],
+      [
+        "7/10",
+        "Plug in (6,-16).\n$y=-2x-4$\n$-16=-2(6)-4$\n$-16=-16$"
+      ],
+      [
+        "8/10",
+        "Plug in (7,-18).\n$y=-2x-4$\n$-18=-2(7)-4$\n$-18=-18$"
+      ],
+      [
+        "9/10",
+        "Plug in (8,-20).\n$y=-2x-4$\n$-20=-2(8)-4$\n$-20=-20$"
+      ],
+      [
+        "10/10",
+        "Each (x,y) pair from the table resulted in a true statement.\nSo, the linear equation is y = -2x - 4."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_43_step_2",
+        "The image shows a two-column table with a orange header labeled 'x' and 'y'. The values in the table are: x = 5, y = -14; x = 6, y = -16; x = 7, y = -18; x = 8, y = -20."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_44",
+    "backend_description": "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 6, y = -18; x = 7, y = -21; x = 8, y = -24; x = 9, y = -27.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_44",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=-3x+2$",
+      "$y=-1x$",
+      "$y=-2x+1$",
+      "$y=-3x$"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by -3. This means that m is equal to -3."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_44_step_2",
+        "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 6, y = -18; x = 7, y = -21; x = 8, y = -24; x = 9, y = -27."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing number to complete the linear equation that gives the rule for this table.\n\ny = _x",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_45",
+    "backend_description": "The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 2, y = 6; x = 3, y = 9; x = 4, y = 12; x = 5, y = 15.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_45",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "3"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 3. This means that m is equal to 3."
+      ],
+      [
+        "3/10",
+        "Next find b. Take the equation y = mx + b and plug in the m value (m = 3) and a pair of (x, y) coordinates from the table, such as (2,6). Then solve for b.\n$y= mx + b$\n$6=3(2) + b$  Plug in m = 3, x = 2, and y = 6\n$6=6 + b$  Simplify\n$0=b$  Simplify"
+      ],
+      [
+        "4/10",
+        "Finally, use the m and b values you found (m = 3 and b = 0) to write the equation.\n$y= mx + b$\n$y=3x + 0$  Plug in m = 3 and b = 0\n$y=3x$  Simplify"
+      ],
+      [
+        "5/10",
+        "Now check your answer. Plug in each (x,y) pair in the table, and see if the result is a true statement."
+      ],
+      [
+        "6/10",
+        "Plug in (2,6).\n$y=3x$\n$6=3(2)$\n$6=6$"
+      ],
+      [
+        "7/10",
+        "Plug in (3,9).\n$y=3x$\n$9=3(3)$\n$9=9$"
+      ],
+      [
+        "8/10",
+        "Plug in (4,12).\n$y=3x$\n$12=3(4)$\n$12=12$"
+      ],
+      [
+        "9/10",
+        "Plug in (5,15).\n$y=3x$\n$15=3(5)$\n$15=15$"
+      ],
+      [
+        "10/10",
+        "Each (x,y) pair from the table resulted in a true statement.\nSo, the linear equation is y = 3x."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_45_step_2",
+        "The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 2, y = 6; x = 3, y = 9; x = 4, y = 12; x = 5, y = 15."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_46",
+    "backend_description": "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 3, y = 2; x = 4, y = 1; x = 5, y = 0; x = 6, y = -1.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_46",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=5x-1$",
+      "$y=-2x+5$",
+      "$y=-1x+3$",
+      "$y=-1x+5$"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by -1. This means that m is equal to -1."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_46_step_2",
+        "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 3, y = 2; x = 4, y = 1; x = 5, y = 0; x = 6, y = -1."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing numbers to complete the linear equation that gives the rule for this table.\n\ny = _/_x + _",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_47",
+    "backend_description": "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 4, y = 4; x = 6, y = 7; x = 8, y = 10; x = 10, y = 13.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_47",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "3",
+      "2",
+      "(-2)"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Calculate the slope using two points from the table: m = (y₂-y₁)/(x₂-x₁) = (7-4)/(6-4) = 3/2."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_47_step_2",
+        "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 4, y = 4; x = 6, y = 7; x = 8, y = 10; x = 10, y = 13."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_48",
+    "backend_description": "The image shows a two-column table with a red header labeled 'x' and 'y'. The values in the table are: x = 8, y = -27; x = 9, y = -30; x = 10, y = -33; x = 11, y = -36.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_48",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=-4x-3$",
+      "$y=-2x+-2$",
+      "$y=-3x-5$",
+      "$y=-3x-3$"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by -3. This means that m is equal to -3."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_48_step_2",
+        "The image shows a two-column table with a red header labeled 'x' and 'y'. The values in the table are: x = 8, y = -27; x = 9, y = -30; x = 10, y = -33; x = 11, y = -36."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing numbers to complete the linear equation that gives the rule for this table.\n\ny = _x + _",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_49",
+    "backend_description": "The image shows a two-column table with a red header labeled 'x' and 'y'. The values in the table are: x = 10, y = 26; x = 11, y = 29; x = 12, y = 32; x = 13, y = 35.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_49",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "3",
+      "(-4)"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 3. This means that m is equal to 3."
+      ],
+      [
+        "3/10",
+        "Next find b. Take the equation y = mx + b and plug in the m value (m = 3) and a pair of (x, y) coordinates from the table, such as (10,26). Then solve for b.\n$y= mx + b$\n$26=3(10) + b$  Plug in m = 3, x = 10, and y = 26\n$26=30 + b$  Simplify\n$-4=b$  Simplify"
+      ],
+      [
+        "4/10",
+        "Finally, use the m and b values you found (m = 3 and b = -4) to write the equation.\n$y= mx + b$\n$y=3x - 4$  Plug in m = 3 and b = -4"
+      ],
+      [
+        "5/10",
+        "Now check your answer. Plug in each (x,y) pair in the table, and see if the result is a true statement."
+      ],
+      [
+        "6/10",
+        "Plug in (10,26).\n$y=3x-4$\n$26=3(10)-4$\n$26=26$"
+      ],
+      [
+        "7/10",
+        "Plug in (11,29).\n$y=3x-4$\n$29=3(11)-4$\n$29=29$"
+      ],
+      [
+        "8/10",
+        "Plug in (12,32).\n$y=3x-4$\n$32=3(12)-4$\n$32=32$"
+      ],
+      [
+        "9/10",
+        "Plug in (13,35).\n$y=3x-4$\n$35=3(13)-4$\n$35=35$"
+      ],
+      [
+        "10/10",
+        "Each (x,y) pair from the table resulted in a true statement.\nSo, the linear equation is y = 3x - 4."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_49_step_2",
+        "The image shows a two-column table with a red header labeled 'x' and 'y'. The values in the table are: x = 10, y = 26; x = 11, y = 29; x = 12, y = 32; x = 13, y = 35."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which equation gives the rule for this table?",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_50",
+    "backend_description": "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 3, y = 13; x = 4, y = 16; x = 5, y = 19; x = 6, y = 22.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_50",
+    "tag": "Gr8_26_E1",
+    "choices": [
+      "$y=3x+5$",
+      "$y=3x+4$",
+      "$y=4x+3$",
+      "$y=5x+4$"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 3. This means that m is equal to 3."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_50_step_2",
+        "The image shows a two-column table with a purple header labeled 'x' and 'y'. The values in the table are: x = 3, y = 13; x = 4, y = 16; x = 5, y = 19; x = 6, y = 22."
+      ]
+    ]
+  },
+  {
+    "question_text": "Fill in the missing number to complete the linear equation that gives the rule for this table.\n\ny = _x",
+    "skills": "write-a-linear-function-from-a-table",
+    "image_tag": "Gr8_26_1_51",
+    "backend_description": "The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 7, y = 14; x = 8, y = 16; x = 9, y = 18; x = 10, y = 20.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_51",
+    "tag": "Gr8_26_E1",
+    "correct_answers": [
+      "2"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "Linear functions are of the form y = mx + b"
+      ],
+      [
+        "2/10",
+        "First find m. Look at the table and notice that every time the x terms go up by 1, the y terms go up by 2. This means that m is equal to 2."
+      ],
+      [
+        "3/10",
+        "Next find b. Take the equation y = mx + b and plug in the m value (m = 2) and a pair of (x, y) coordinates from the table, such as (7,14). Then solve for b.\n$y= mx + b$\n$14=2(7) + b$  Plug in m = 2, x = 7, and y = 14\n$14=14 + b$  Simplify\n$0=b$  Simplify"
+      ],
+      [
+        "4/10",
+        "Finally, use the m and b values you found (m = 2 and b = 0) to write the equation.\n$y= mx + b$\n$y=2x + 0$  Plug in m = 2 and b = 0\n$y=2x$  Simplify"
+      ],
+      [
+        "5/10",
+        "Now check your answer. Plug in each (x,y) pair in the table, and see if the result is a true statement."
+      ],
+      [
+        "6/10",
+        "Plug in (7,14).\n$y=2x$\n$14=2(7)$\n$14=14$"
+      ],
+      [
+        "7/10",
+        "Plug in (8,16).\n$y=2x$\n$16=2(8)$\n$16=16$"
+      ],
+      [
+        "8/10",
+        "Plug in (9,18).\n$y=2x$\n$18=2(9)$\n$18=18$"
+      ],
+      [
+        "9/10",
+        "Plug in (10,20).\n$y=2x$\n$20=2(10)$\n$20=20$"
+      ],
+      [
+        "10/10",
+        "Each (x,y) pair from the table resulted in a true statement.\nSo, the linear equation is y = 2x."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/10",
+        "Gr8_26_1_51_step_2",
+        "The image shows a two-column table with an orange header labeled 'x' and 'y'. The values in the table are: x = 7, y = 14; x = 8, y = 16; x = 9, y = 18; x = 10, y = 20."
+      ]
+    ]
+  }
+]

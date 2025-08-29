@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr8_14_3_9</title>
+    <style>
+        .item {
+            font-family: Arial, sans-serif;
+            padding: 15px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .grid {
+            display: inline-block;
+            border: 3px solid #333;
+            margin: 10px;
+            background-color: white;
+        }
+        .grid-row {
+            display: flex;
+        }
+        .grid-cell {
+            width: 30px;
+            height: 30px;
+            border: 1px solid #666;
+            box-sizing: border-box;
+        }
+        .shaded-blue {
+            background-color: #87CEEB;
+        }
+        .cross-hatched {
+            background-color: #87CEEB;
+            background-image: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 4px,
+                #4682B4 4px,
+                #4682B4 8px
+            );
+        }
+        .fraction-label {
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .label-vertical {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            padding: 0 10px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .model-container {
+            display: inline-flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main image: Square divided into 8 columns and 8 rows, first 4 columns shaded, top 4 cell cross-hatched -->
+    <div class="item" label="Gr8_14_3_9">
+        <div class="model-container">
+            <div class="label-vertical">4/8</div>
+            <div>
+                <div class="grid">
+                    <!-- Row 1 -->
+                    <div class="grid-row">
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                    <!-- Row 2 -->
+                    <div class="grid-row">
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                    <!-- Row 3 -->
+                    <div class="grid-row">
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                    <!-- Row 4 -->
+                    <div class="grid-row">
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                    <!-- Row 5 -->
+                    <div class="grid-row">
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                    <!-- Row 6 -->
+                    <div class="grid-row">
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                    <!-- Row 7 -->
+                    <div class="grid-row">
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                    <!-- Row 8 -->
+                    <div class="grid-row">
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                </div>
+                <div class="fraction-label">4/8</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Step 2: Square divided into 8 columns with first 4 shaded -->
+    <div class="item" label="Gr8_14_3_9_step_2">
+        <div class="grid">
+            <div class="grid-row">
+                <div class="grid-cell shaded-blue" style="height: 120px;"></div>
+                <div class="grid-cell shaded-blue" style="height: 120px;"></div>
+                <div class="grid-cell shaded-blue" style="height: 120px;"></div>
+                <div class="grid-cell shaded-blue" style="height: 120px;"></div>
+                <div class="grid-cell" style="height: 120px;"></div>
+                <div class="grid-cell" style="height: 120px;"></div>
+                <div class="grid-cell" style="height: 120px;"></div>
+                <div class="grid-cell" style="height: 120px;"></div>
+            </div>
+        </div>
+        <div class="fraction-label">4/8</div>
+    </div>
+
+    <!-- Step 3: Complete grid showing 4/8 of 4/8 -->
+    <div class="item" label="Gr8_14_3_9_step_3">
+        <div class="model-container">
+            <div class="label-vertical">4/8</div>
+            <div>
+                <div class="grid">
+                    <!-- Row 1 -->
+                    <div class="grid-row">
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                    <!-- Row 2 -->
+                    <div class="grid-row">
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                    <!-- Row 3 -->
+                    <div class="grid-row">
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                    <!-- Row 4 -->
+                    <div class="grid-row">
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell cross-hatched"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                    <!-- Row 5 -->
+                    <div class="grid-row">
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                    <!-- Row 6 -->
+                    <div class="grid-row">
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                    <!-- Row 7 -->
+                    <div class="grid-row">
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                    <!-- Row 8 -->
+                    <div class="grid-row">
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell shaded-blue"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                </div>
+                <div class="fraction-label">4/8</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,2458 @@
+[
+  {
+    "question_text": "The graph shows triangles RST and R'S'T'.\nWhich sequence of transformations maps RST onto R'S'T'?",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_1",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/5",
+        "This sequence of transformations maps RST onto R'S'T'."
+      ],
+      [
+        "2/5",
+        "✅ a translation right 3 units and up 10 units followed by a reflection across the y-axis\nFirst,translate RST right 3 units and up 10 units to map it onto R''S''T''.Then,reflect R''S''T'' across the y-axis to map it onto R'S'T'."
+      ],
+      [
+        "3/5",
+        "These sequences do not map RST onto R'S'T'."
+      ],
+      [
+        "4/5",
+        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nFirst,reflect RST across the x-axis to map it onto R''S''T''. Then,rotate R''S''T' 90° clockwise around the origin. This does not map R''S''T'' onto R'S'T'."
+      ],
+      [
+        "5/5",
+        "❌ a rotation 180° around the origin followed by a translation left 3 units and up 4units\nFirst,rotate RST 180° around the origin to map it onto R''S''T''. Then, translate R''S''T'' left 3 units and up 4 units. This does not map R''S''T''onto R'S'T'."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_1_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_1_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_1_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n83, 103, 123, 143, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_2",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 20 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{103}{83} \\approx 1.241$\n$\\frac{123}{103} \\approx 1.194$\n$\\frac{143}{123} \\approx 1.163$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_2_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_2_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_2_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n1, 136, 281, 178, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_3",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 5 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_3_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_3_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_3_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n116, 56, 84, 83, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_4",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 7 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{56}{116} \\approx 1.333$\n$\\frac{84}{56} \\approx 1.250$\n$\\frac{83}{84} \\approx 1.200$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_4_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_4_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_4_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n5, 47, 148, 53, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_5",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 3 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_5_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_5_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_5_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n20, 37, 17, 77, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_6",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 15 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{37}{20} \\approx 1.577$\n$\\frac{17}{37} \\approx 1.366$\n$\\frac{77}{17} \\approx 1.208$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_6_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_6_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_6_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n127, 17, 127, 13, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_7",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 2 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_7_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_7_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_7_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n33, 52, 51, 84, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_8",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 3 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{52}{33} \\approx 1.062$\n$\\frac{51}{52} \\approx 1.059$\n$\\frac{84}{51} \\approx 1.056$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_8_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_8_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_8_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n2, 51, 38, 371, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_9",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 5 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_9_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_9_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_9_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n57, 106, 90, 455, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_10",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 20 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{106}{57} \\approx 1.339$\n$\\frac{90}{106} \\approx 1.253$\n$\\frac{455}{90} \\approx 1.202$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_10_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_10_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_10_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n128, 28, 144, 101, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_11",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 2 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_11_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_11_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_11_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n59, 26, 102, 121, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_12",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 6 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{26}{59} \\approx 1.077$\n$\\frac{102}{26} \\approx 1.071$\n$\\frac{121}{102} \\approx 1.067$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_12_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_12_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_12_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n2, 136, 26, 132, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_13",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 4 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_13_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_13_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_13_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n90, 113, 135, 117, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_14",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 3 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{113}{90} \\approx 1.150$\n$\\frac{135}{113} \\approx 1.130$\n$\\frac{117}{135} \\approx 1.115$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_14_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_14_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_14_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n4, 1, 54, 454, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_15",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 5 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_15_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_15_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_15_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n112, 57, 57, 13, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_16",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 7 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{57}{112} \\approx 1.438$\n$\\frac{57}{57} \\approx 1.574$\n$\\frac{13}{57} \\approx 1.573$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_16_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_16_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_16_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n11, 89, 126, 142, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_17",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 4 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_17_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_17_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_17_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n66, 495, 291, 407, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_18",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 19 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{495}{66} \\approx 1.196$\n$\\frac{291}{495} \\approx 1.164$\n$\\frac{407}{291} \\approx 1.141$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_18_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_18_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_18_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n1, 54, 94, 98, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_19",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 2 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_19_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_19_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_19_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n110, 476, 76, 259, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_20",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 18 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{476}{110} \\approx 1.186$\n$\\frac{76}{476} \\approx 1.157$\n$\\frac{259}{76} \\approx 1.135$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_20_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_20_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_20_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n15, 86, 145, 54, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_21",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 2 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_21_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_21_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_21_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n84, 71, 22, 30, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_22",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 5 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{71}{84} \\approx 1.096$\n$\\frac{22}{71} \\approx 1.088$\n$\\frac{30}{22} \\approx 1.081$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_22_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_22_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_22_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n10, 139, 234, 246, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_23",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 4 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_23_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_23_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_23_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n26, 60, 21, 112, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_24",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 6 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{60}{26} \\approx 1.182$\n$\\frac{21}{60} \\approx 1.154$\n$\\frac{112}{21} \\approx 1.126$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_24_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_24_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_24_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n11, 133, 37, 93, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_25",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 2 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_25_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_25_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_25_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n81, 73, 129, 68, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_26",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 10 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{73}{81} \\approx 1.156$\n$\\frac{129}{73} \\approx 1.135$\n$\\frac{68}{129} \\approx 1.119$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_26_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_26_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_26_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n23, 93, 100, 23100, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_27",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 5 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_27_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_27_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_27_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n123, 30, 125, 119, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_28",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 11 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{30}{123} \\approx 1.355$\n$\\frac{125}{30} \\approx 1.262$\n$\\frac{119}{125} \\approx 1.208$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_28_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_28_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_28_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n1, 97, 127, 141, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_29",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 2 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_29_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_29_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_29_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n135, 66, 42, 64, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_30",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 16 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{66}{135} \\approx 1.615$\n$\\frac{42}{66} \\approx 1.381$\n$\\frac{64}{42} \\approx 1.276$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_30_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_30_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_30_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n11, 16, 911, 94, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_31",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 4 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_31_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_31_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_31_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n30, 63, 364, 426, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_32",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 20 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{63}{30} \\approx 1.308$\n$\\frac{364}{63} \\approx 1.235$\n$\\frac{426}{364} \\approx 1.190$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_32_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_32_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_32_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n12, 11, 16, 83, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_33",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 2 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_33_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_33_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_33_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n58, 148, 147, 359, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_34",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 4 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{148}{58} \\approx 1.043$\n$\\frac{147}{148} \\approx 1.042$\n$\\frac{359}{147} \\approx 1.040$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_34_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_34_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_34_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n7, 2, 23, 26, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_35",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 2 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_35_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_35_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_35_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n121, 64, 81, 140, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_36",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 9 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{64}{121} \\approx 1.429$\n$\\frac{81}{64} \\approx 1.640$\n$\\frac{140}{81} \\approx 1.231$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_36_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_36_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_36_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n10, 55, 84, 346, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_37",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 3 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_37_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_37_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_37_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n35, 19, 61, 77, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_38",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 7 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{19}{35} \\approx 1.109$\n$\\frac{61}{19} \\approx 1.099$\n$\\frac{77}{61} \\approx 1.090$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_38_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_38_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_38_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n22, 19, 75, 1222, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_39",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 3 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_39_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_39_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_39_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n135, 11, 126, 79, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_40",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 6 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{11}{135} \\approx 1.250$\n$\\frac{126}{11} \\approx 1.200$\n$\\frac{79}{126} \\approx 1.167$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_40_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_40_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_40_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n5, 2, 27, 114, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_41",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 2 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_41_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_41_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_41_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n144, 32, 62, 99, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_42",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 9 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{32}{144} \\approx 1.375$\n$\\frac{62}{32} \\approx 1.273$\n$\\frac{99}{62} \\approx 1.214$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_42_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_42_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_42_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n6, 55, 27, 250, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_43",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 3 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_43_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_43_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_43_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n13, 99, 145, 130, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_44",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 8 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{99}{13} \\approx 1.333$\n$\\frac{145}{99} \\approx 1.250$\n$\\frac{130}{145} \\approx 1.200$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_44_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_44_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_44_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n6, 101, 107, 447, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_45",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 3 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_45_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_45_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_45_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n99, 58, 87, 45, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_46",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 13 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{58}{99} \\approx 1.722$\n$\\frac{87}{58} \\approx 1.419$\n$\\frac{45}{87} \\approx 1.295$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_46_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_46_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_46_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n6, 131, 44, 133, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_47",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 2 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_47_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_47_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_47_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n112, 120, 78, 77, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_48",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 5 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{120}{112} \\approx 1.294$\n$\\frac{78}{120} \\approx 1.1207$\n$\\frac{77}{78} \\approx 1.185$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_48_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_48_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_48_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n2, 114, 52, 98, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_49",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 3 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_49_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_49_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_49_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n75, 46, 76, 307, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_50",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is a constant difference of 10 between consecutive terms. So, the sequence is arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is not a constant multiplier between consecutive terms. So, the sequence is not geometric."
+      ],
+      [
+        "3/3",
+        "These multipliers are not all the same:\n$\\frac{46}{75} \\approx 1.125$\n$\\frac{76}{46} \\approx 1.111$\n$\\frac{307}{76} \\approx 1.76$\n\nSo, the sequence is only arithmetic."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_50_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_50_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_50_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
+    "question_text": "What kind of sequence is this?\n\n9, 145, 129, 383, ...",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_51",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First check if the sequence is arithmetic. There is not a constant difference between consecutive terms. So, the sequence is not arithmetic."
+      ],
+      [
+        "2/3",
+        "Next check if the sequence is geometric. There is a constant multiplier of 4 between consecutive terms. So, the sequence is geometric."
+      ],
+      [
+        "3/3",
+        "So, the sequence is only geometric."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_51_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_51_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_51_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  }
+]
