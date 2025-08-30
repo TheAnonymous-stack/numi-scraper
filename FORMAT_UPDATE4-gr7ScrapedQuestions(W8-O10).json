@@ -34,7 +34,7 @@
   },
   {
     "skills": "write-equations-for-proportional-relationships-from-tables",
-    "question_text": "Emily and her dad share an intense love of baseball. Every weekend, they go to the batting cages to practice hitting. Emily's dad buys tokens for her to use in the batting cage.\n\nThere is a proportional relationship between the number of tokens Emily uses (x) and the number of pitches thrown by the pitching machine (y).\n\nWrite an equation for the relationship between x and y. Simplify any fractions.\ny=",
+    "question_text": "Emily and her dad share an intense love of baseball. Every weekend, they go to the batting cages to practice hitting. Emily's dad buys tokens for her to use in the batting cage.\n\nThere is a proportional relationship between the number of tokens Emily uses (x) and the number of pitches thrown by the pitching machine (y).\n\nWrite an equation for the relationship between x and y. Simplify any fractions.\ny=_",
     "image_tag": "Gr7_29_1_1",
     "backend_description": "A table showing the proportional relationship between tokens (x) and pitches (y). The table has 4 rows with x values of 1, 2, 3, and 4, and corresponding y values of 5, 10, 15, and 20. This helps students identify the constant of proportionality is 5.",
     "question_type": "Fill in the blank",
@@ -55,7 +55,7 @@
       ],
       [
         "2/3",
-        "The ratio for each pair of x- and y-values is 5. So, the constant of proportionality is 5 pitches per token."
+        "The ratio for each pair of x and y-values is 5. So, the constant of proportionality is 5 pitches per token."
       ],
       [
         "3/3",
@@ -67,7 +67,7 @@
   },
   {
     "skills": "write-equations-for-proportional-relationships-from-graphs",
-    "question_text": "During hockey season, Lili stays in excellent shape. To keep up her conditioning in the off-season, she swims every day.\n\nThere is a proportional relationship between the time (in seconds) Lili swims freestyle (x) and the number of feet she travels (y).\n\nWrite an equation for the relationship between x and y. Simplify any fractions.\ny=",
+    "question_text": "During hockey season, Lili stays in excellent shape. To keep up her conditioning in the off-season, she swims every day.\n\nThere is a proportional relationship between the time (in seconds) Lili swims freestyle (x) and the number of feet she travels (y).\n\nWrite an equation for the relationship between x and y. Simplify any fractions.\ny=_",
     "image_tag": "Gr7_29_2_1",
     "backend_description": "A graph showing the proportional relationship between time swimming freestyle in seconds (x-axis) and distance traveled in feet (y-axis). The line passes through the origin and the point (1, 3), indicating a constant rate of 3 feet per second.",
     "question_type": "Fill in the blank",
@@ -92,7 +92,7 @@
       ],
       [
         "3/4",
-        "y/x = 3/1 = 3. The constant of proportionality is 3 feet per second."
+        "$\\frac{y}{x} = \\frac{3}{1} = 3$. The constant of proportionality is 3 feet per second."
       ],
       [
         "4/4",
@@ -104,7 +104,7 @@
   },
   {
     "skills": "write-variable-expressions-for-arithmetic-sequences",
-    "question_text": "Write an expression to describe the sequence below. Use n to represent the position of a term in the sequence, where n = 1 for the first term.\n\n9, 18, 27, 36, ...",
+    "question_text": "Write an expression to describe the sequence below. Use n to represent the position of a term in the sequence, where n = 1 for the first term.\n\n9, 18, 27, 36, ...\n_",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "9n"
@@ -129,7 +129,7 @@
   },
   {
     "skills": "write-a-two-variable-equation",
-    "question_text": "Read the following description of a relationship:\nA shipyard produces 7 new ships each month. Let m represent the number of months and s represent the total number of ships produced.\n\nComplete the equation that represents the relationship between m and s.\ns=__m",
+    "question_text": "Read the following description of a relationship:\nA shipyard produces 7 new ships each month. Let m represent the number of months and s represent the total number of ships produced.\n\nComplete the equation that represents the relationship between m and s.\ns=_m",
     "image_tag": "Gr7_29_4_1",
     "backend_description": "A table showing the relationship between months (m) and ships produced (s). The equation s = 7m needs to be completed. The table helps verify that 7 ships are produced each month.",
     "question_type": "Fill in the blank",
@@ -170,26 +170,35 @@
   },
   {
     "skills": "write-an-equation-from-a-graph-using-a-table",
-    "question_text": "Study the graph and table below. Write an equation for the relationship shown in the graph.",
+    "question_text": "Study the graph and table below. Write an equation for the relationship shown in the graph.\nMissing entry of the table: _\nEquation for relationship: _",
     "image_tag": "Gr7_29_5_1",
     "backend_description": "A coordinate grid showing a straight line that represents y = x + 3. The line passes through several points including (9, 12). Below the graph is a table with x values and corresponding y values, with one y value missing when x = 9.",
-    "question_type": "Fill in the blank",
+    "question_type": "Multiple fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
       [
-        "12"
+        "12", "y=x+3"
       ],
       [
-        "y=x+3"
+        "12", "y = x + 3"
       ],
       [
-        "y=3+x"
+        "12", "y=3+x"
       ],
       [
-        "x+3=y"
+        "12", "y = 3 + x"
       ],
       [
-        "3+x=y"
+        "12", "x+3=y"
+      ],
+      [
+        "12", "x + 3 = y"
+      ],
+      [
+        "12", "3+x=y"
+      ],
+      [
+        "12", "3 + x = y"
       ]
     ],
     "solution": [
@@ -397,7 +406,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Is –8 x 6 positive or negative?",
+    "question_text": "Is -8 x 6 positive or negative?",
     "skills": "integer-multiplication-and-division-rules",
     "tag": "Gr7_31_E3",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -412,7 +421,7 @@
     "solution": [
       [
         "1/4",
-        "–8 is negative. 6 is positive."
+        "-8 is negative. 6 is positive."
       ],
       [
         "2/4",
@@ -420,11 +429,11 @@
       ],
       [
         "3/4",
-        "So, – 8 x 6 is negative."
+        "So, - 8 x 6 is negative."
       ],
       [
         "4/4",
-        "Now check your answer by doing the math: –8 x 6 = –48. Yes, the answer is negative."
+        "Now check your answer by doing the math: -8 x 6 = -48. Yes, the answer is negative."
       ]
     ],
     "solution_image_tag": []
@@ -464,7 +473,7 @@
   },
   {
     "skills": "add-and-subtract-like-terms",
-    "question_text": "Simplify the expression:\n3m+3m-3m",
+    "question_text": "Simplify the expression:\n3m+3m-3m=_",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "3m"
@@ -489,7 +498,7 @@
   },
   {
     "skills": "evaluate-linear-expressions",
-    "question_text": "Evaluate the expression below for y = 8.\n\ny + 7 = ",
+    "question_text": "Evaluate the expression below for y = 8.\n\ny + 7 = _",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "15"
@@ -511,7 +520,7 @@
     "question_number": "2_1"
   },
   {
-    "question_text": "Evaluate the expression below for x = 12 and y = 11.\n\nx - y = ",
+    "question_text": "Evaluate the expression below for x = 12 and y = 11.\n\nx - y = _",
     "skills": "evaluate-multi-variable-expressions",
     "tag": "Gr7_32_E3",
     "question_type": "Fill in the blank",
@@ -526,14 +535,14 @@
       ],
       [
         "2/2",
-        "x − y = 12 − 11 = 1"
+        "x - y = 12 - 11 = 1"
       ]
     ],
     "solution_image_tag": []
   },
   {
     "skills": "evaluate-multi-variable-expressions",
-    "question_text": "Evaluate the expression below for f = 5 and g = 3.\n\nfg = ",
+    "question_text": "Evaluate the expression below for f = 5 and g = 3.\n\nfg = _",
     "question_type": "Fill in the blank",
     "question_number": "3_2",
     "correct_answers": [
@@ -553,7 +562,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Evaluate the expression below for u = 7 and v = 5.\n\nu + v = ",
+    "question_text": "Evaluate the expression below for u = 7 and v = 5.\n\nu + v = _",
     "skills": "evaluate-multi-variable-expressions",
     "tag": "Gr7_32_E3",
     "question_type": "Fill in the blank",
@@ -682,7 +691,7 @@
   },
   {
     "skills": "write-and-solve-equations-that-represent-diagrams",
-    "question_text": "Write an equation that says that the length of the green line is equal to the length of the black line.",
+    "question_text": "Write an equation that says that the length of the green line is equal to the length of the black line.\n_",
     "image_tag": "Gr7_33_3_1",
     "backend_description": "Shows two line segments: a green line labeled '21' at the top, and below it a black line divided into two parts labeled 'c' and '6'. The visual representation helps students understand that c + 6 = 21.",
     "question_type": "Fill in the blank",
@@ -692,13 +701,25 @@
         "21=c+6"
       ],
       [
+        "21 = c + 6"
+      ],
+      [
         "21=6+c"
+      ],
+      [
+        "21 = 6 + c"
       ],
       [
         "6+c=21"
       ],
       [
+        "6 + c = 21"
+      ],
+      [
         "c+6=21"
+      ],
+      [
+        "c + 6 = 21"
       ]
     ],
     "solution_image_tag": [
@@ -732,7 +753,7 @@
   },
   {
     "skills": "solve-one-step-equations",
-    "question_text": "Solve for d.\n\nd - 3 = 6\n\nd = ",
+    "question_text": "Solve for d.\n\nd - 3 = 6\n\nd = _",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "9"
@@ -757,7 +778,7 @@
   },
   {
     "skills": "solve-two-step-equations",
-    "question_text": "Solve for c.\n\n2c + 4 = 8\n\nc = ",
+    "question_text": "Solve for c.\n\n2c + 4 = 8\n\nc = _",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "2"
@@ -786,7 +807,7 @@
   },
   {
     "skills": "solve-one-and-two-step-equations-with-decimals",
-    "question_text": "Solve for r.\n\nr + 13 = 88.9\n\nr = ",
+    "question_text": "Solve for r.\n\nr + 13 = 88.9\n\nr = _",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "75.9"
@@ -811,7 +832,7 @@
   },
   {
     "skills": "solve-one-and-two-step-equations-word-problems",
-    "question_text": "The equation below shows how the amount of money Tucker makes from selling lemonade is related to the number of cups sold.\n\nd = c + 1\n\nThe variable c represents the number of cups sold, and the variable d represents earnings in dollars. How many cups of lemonade does Tucker need to sell in all to earn 9 dollars?",
+    "question_text": "The equation below shows how the amount of money Tucker makes from selling lemonade is related to the number of cups sold.\n\nd = c + 1\n\nThe variable c represents the number of cups sold, and the variable d represents earnings in dollars. How many cups of lemonade does Tucker need to sell in all to earn 9 dollars?\n_ cups",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "8"
@@ -840,7 +861,7 @@
   },
   {
     "skills": "solve-equations-involving-like-terms",
-    "question_text": "Solve for z.\n\n3z + 6z = 18\n\nz = ",
+    "question_text": "Solve for z.\n\n3z + 6z = 18\n\nz = _",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "2"
@@ -876,14 +897,13 @@
   },
   {
     "skills": "solve-equations-complete-the-solution",
-    "question_text": "Complete the process of solving the equation. Fill in the missing term on each line. Simplify any fractions.",
-    "question_type": "Multiple Fill in the blank",
-    "image_tag": "Gr7_35_2_1",
-    "backend_description": "Shows a step-by-step equation solving process with three lines. Starting with 5b + 7 = 7, the second line shows 5b = [blank], and the third line shows b = [blank]. Students need to fill in the missing values by following the algebraic steps.",
+    "question_text": "Complete the process of solving the equation. Fill in the missing term on each line. Simplify any fractions.\n5b + 7 = 7\n5b = _\nb = _",
+    "question_type": "Multiple fill in the blank",
     "correct_answers": [
       "0",
       "0"
     ],
+    "orderMatter": true,
     "solution": [
       [
         "1/3",
@@ -891,7 +911,7 @@
       ],
       [
         "2/3",
-        "To find the missing term, subtract 7 from both sides of the equation.\n5b + 7 = 7\n5b + 7 – 7 = 7 – 7\n5b = 0\nThe missing term in the second line is 0."
+        "To find the missing term, subtract 7 from both sides of the equation.\n5b + 7 = 7\n5b + 7 - 7 = 7 - 7\n5b = 0\nThe missing term in the second line is 0."
       ],
       [
         "3/3",
@@ -934,81 +954,27 @@
     "question_number": "1_1"
   },
   {
-    "skills": "solve-one-step-inequalities",
-    "question_text": "Solve for q.\n\nq + 2 ≥ 6\n\nq ≥",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "4"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Subtract 2 from both sides:\nq + 2 – 2 ≥ 6 – 2"
-      ],
-      [
-        "2/2",
-        "Simplify: q ≥ 4."
-      ]
-    ],
-    "tag": "Gr7_29_E4",
-    "question_number": "4_1",
-    "solution_image_tag": []
-  },
-  {
     "skills": "one-step-inequalities-word-problems",
-    "question_text": "James bought 4 tubes of paint to use for an art project. He paid the same amount for each tube, and he spent less than 20 dollars in all.\n\nLet x represent the cost of each tube of paint in dollars. Which inequality describes the problem?\n\nSolve the inequality. Then, complete the sentence below to describe the solution.\n\nEach tube of paint cost less than ",
-    "question_type": "Fill in the blank and multiple choice question with single answer",
+    "question_text": "James bought 4 tubes of paint to use for an art project. He paid the same amount for each tube, and he spent less than 20 dollars in all.\n\nLet x represent the cost of each tube of paint in dollars. Which inequality describes the problem?",
+    "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
       "4x > 20",
       "4x < 20"
     ],
     "correct_answers": [
-      "B",
-      "5",
-      "5 dollars"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "The variable x represents the cost of each tube of paint. Since James bought 4 tubes of paint, the expression 4x represents the total cost of the paint.\nSince he spent less than 20 dollars in all, 4x must be less than 20."
-      ],
-      [
-        "2/3",
-        "So, the inequality is 4x < 20.\nNow, divide both sides by 4 to solve for x."
-      ],
-      [
-        "3/3",
-        "This gives x < 5. Therefore, each tube of paint cost less than 5 dollars."
-      ]
-    ],
-    "tag": "Gr7_36_E2",
-    "question_number": "2_1",
-    "solution_image_tag": []
-  },
-  {
-    "skills": "solve-two-step-inequalities",
-    "question_text": "Solve for a.\n\n2 + 2a > 10",
-    "question_type": "Fill in the blank",
-    "has_alternative_answers": true,
-    "correct_answers": [
-      [
-        "a>4"
-      ],
-      [
-        "4<a"
-      ]
+      "B"
     ],
     "solution": [
       [
         "1/2",
-        "Solve for a by subtracting 2 from both sides:\n2 + 2a – 2 > 10 – 2\nSimplify: 2a > 8."
+        "The variable x represents the cost of each tube of paint. Since James bought 4 tubes of paint, the expression 4x represents the total cost of the paint.\nSince he spent less than 20 dollars in all, 4x must be less than 20."
       ],
       [
         "2/2",
-        "Divide both sides by 2:\n2a/2 > 8/2\nSimplify: a>4."
+        "So, the inequality is 4x < 20."
       ]
     ],
-    "tag": "Gr7_30_E2",
+    "tag": "Gr7_36_E2",
     "question_number": "2_1",
     "solution_image_tag": []
   },
@@ -1086,7 +1052,7 @@
   },
   {
     "skills": "circle-graphs-and-central-angles",
-    "question_text": "A survey was conducted to learn people's chocolate preferences.\n\nWhat is the measure of the central angle in the \"Milk chocolate\" section?",
+    "question_text": "A survey was conducted to learn people's chocolate preferences.\n\nWhat is the measure of the central angle in the \"Milk chocolate\" section?\n_ °",
     "image_tag": "Gr7_37_3_1",
     "backend_description": "A circle graph showing chocolate preferences. The circle is divided into two equal halves: 'Milk chocolate' (50%, shown in orange/peach color) and 'Dark chocolate' (50%, shown in purple). Students need to find the central angle for the milk chocolate section.",
     "tag": "Gr7_37_E3",
@@ -1119,7 +1085,7 @@
   },
   {
     "skills": "calculate-mean-and-range",
-    "question_text": "What is the mean of the following numbers?\n\n7,4,4,0,0",
+    "question_text": "What is the mean of the following numbers?\n\n7,4,4,0,0\n_",
     "tag": "Gr7_38_E1",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -1147,7 +1113,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the range of the following numbers?\n\n1,2,9,4,1,10,4",
+    "question_text": "What is the range of the following numbers?\n\n1,2,9,4,1,10,4\n_",
     "skills": "calculate-mean-and-range",
     "tag": "Gr7_38_E1",
     "question_type": "Fill in the blank",
@@ -1177,17 +1143,11 @@
   },
   {
     "skills": "calculate-mean-median-mode-and-range",
-    "question_text": "Whitney wanted to buy a snack from the vending machine. She had 7 choices, which cost: 1.00 dollar, \n 5.00 dollars, \n1.00 dollar, \n3.00 dollars, \n5.00 dollars, \n2.00 dollars, \n3.00 dollars\n\nWhat was the median price of the snacks?",
+    "question_text": "Whitney wanted to buy a snack from the vending machine. She had 7 choices, which cost: \n1.00 dollar,\n5.00 dollars,\n1.00 dollar,\n3.00 dollars,\n5.00 dollars,\n2.00 dollars,\n3.00 dollars\n\nWhat was the median price of the snacks?\n_ dollars",
     "tag": "Gr7_38_E2",
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      [
-        "3.00 dollars"
-      ],
-      [
-        "3 dollars"
-      ],
       [
         "3.00"
       ],
@@ -1221,7 +1181,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Jamal volunteered at the city park. He planted 8 flower beds with:\n9 plants, 6 plants, 6 plants, 8 plants, 5 plants, 8 plants, 6 plants, 6 plants.\n\nWhat was the mode of the numbers of plants?",
+    "question_text": "Jamal volunteered at the city park. He planted 8 flower beds with:\n9 plants, 6 plants, 6 plants, 8 plants, 5 plants, 8 plants, 6 plants, 6 plants.\n\nWhat was the mode of the numbers of plants?\n_ plants",
     "skills": "calculate-mean-median-mode-and-range",
     "tag": "Gr7_38_E2",
     "question_type": "Fill in the blank",
@@ -1254,7 +1214,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Kayla, a forward on her school basketball team, has played in 8 games since starting high school. The number of points she scored at those games was:\n8 points, 7 points, 6 points, 5 points, 8 points, 6 points, 7 points, 9 points.\n\nWhat was the mean number of points scored?",
+    "question_text": "Kayla, a forward on her school basketball team, has played in 8 games since starting high school. The number of points she scored at those games was:\n8 points, 7 points, 6 points, 5 points, 8 points, 6 points, 7 points, 9 points.\n\nWhat was the mean number of points scored?\n_ points",
     "skills": "calculate-mean-median-mode-and-range",
     "tag": "Gr7_38_E2",
     "question_type": "Fill in the blank",
@@ -1283,19 +1243,13 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Braden is e-mailing some photographs from his computer. The 5 pictures have file sizes of:\n1MB, 2MB, 3MB, 1MB, 3MB.\n\nWhat is the range of the file sizes?",
+    "question_text": "Braden is e-mailing some photographs from his computer. The 5 pictures have file sizes of:\n1MB, 2MB, 3MB, 1MB, 3MB.\n\nWhat is the range of the file sizes?\n_ MB",
     "skills": "calculate-mean-median-mode-and-range",
     "tag": "Gr7_38_E2",
     "question_type": "Fill in the blank",
     "question_number": "2_4",
-    "has_alternative_answers": true,
     "correct_answers": [
-      [
-        "2"
-      ],
-      [
-        "2MB"
-      ]
+      "2"
     ],
     "solution": [
       [
@@ -1353,7 +1307,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Some friends compared the sizes of their stuffed animal collections.\n\nWhat is the range of the numbers?",
+    "question_text": "Some friends compared the sizes of their stuffed animal collections.\n\nWhat is the range of the numbers?\n_",
     "skills": "interpret-charts-to-find-mean-and-range",
     "image_tag": "Gr7_38_3_2",
     "backend_description": "A table titled 'Stuffed animal collections' with two columns: 'Name' and 'Number of stuffed animals'. Shows data for 6 people: Danielle (6), Tisha (7), Kelly (6), Leo (10), Bob (7), and Fred (9). Students need to find the range of these values.",
@@ -1389,7 +1343,7 @@
   },
   {
     "skills": "interpret-charts-to-find-mean-median-mode-and-range",
-    "question_text": "The manager of a party supply store researched how many balloons it sold in the past 7 days.\n\nWhat is the mode of the numbers?",
+    "question_text": "The manager of a party supply store researched how many balloons it sold in the past 7 days.\n\nWhat is the mode of the numbers?\n_",
     "image_tag": "Gr7_38_4_1",
     "backend_description": "A line graph titled 'Balloons sold' showing daily sales over a week. The y-axis shows 'Number of balloons' (0-10) and x-axis shows days Thursday through Wednesday. The line connects points showing varying sales: starting at 3, peaking at 5, dropping to 2, and ending at 3.",
     "tag": "Gr7_38_E4",
@@ -1419,7 +1373,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Ava's classmates revealed how many science articles they read.\n\nWhat is the mean of the numbers?",
+    "question_text": "Ava's classmates revealed how many science articles they read.\n\nWhat is the mean of the numbers?\n_",
     "skills": "interpret-charts-to-find-mean-median-mode-and-range",
     "image_tag": "Gr7_38_4_2",
     "backend_description": "A table titled 'Science articles read' with two columns showing 8 people and the number of articles they read: Ava (2), Valentina (10), Haley (10), Lindsey (7), Dirk (4), Charlie (2), Bill (4), and Nate (9). Students calculate the mean from this data.",
@@ -1454,7 +1408,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "The week of his birthday, Clarence paid attention to how many pieces of mail he received each day.\n\nWhat is the mode of the numbers?",
+    "question_text": "The week of his birthday, Clarence paid attention to how many pieces of mail he received each day.\n\nWhat is the mode of the numbers?\n_",
     "skills": "interpret-charts-to-find-mean-median-mode-and-range",
     "image_tag": "Gr7_38_4_3",
     "backend_description": "A table titled 'Pieces of mail received' showing mail count for 5 days: Tuesday (7), Wednesday (9), Thursday (9), Friday (7), and Saturday (7). Students need to identify the mode from this data.",
@@ -1485,7 +1439,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "The week of his birthday, Hunter paid attention to how many pieces of mail he received each day.\n\nWhat is the range of the numbers?",
+    "question_text": "The week of his birthday, Hunter paid attention to how many pieces of mail he received each day.\n\nWhat is the range of the numbers?\n_",
     "skills": "interpret-charts-to-find-mean-median-mode-and-range",
     "image_tag": "Gr7_38_4_4",
     "backend_description": "A table titled 'Pieces of mail received' showing mail count for different days: Saturday (3), Monday (6), Tuesday (5), Wednesday (2), and Thursday (3). Students need to find the range of these values.",
@@ -1987,7 +1941,7 @@
   },
   {
     "skills": "interpret-tables",
-    "question_text": "A statistician analyzed the number of runs scored by players last season.\n\nHow many players are there in all?",
+    "question_text": "A statistician analyzed the number of runs scored by players last season.\n\nHow many players are there in all?\n_ players",
     "image_tag": "Gr7_40_1_1",
     "backend_description": "A frequency table titled 'Baseball runs scored last season' with two columns: 'Runs scored' (0, 1, 2, 3, 4) and 'Frequency' (13, 18, 12, 16, 8). Students need to find the total number of players by adding all frequencies.",
     "tag": "Gr7_40_E1",
@@ -2060,7 +2014,7 @@
   },
   {
     "skills": "compound-events-find-the-number-of-outcomes",
-    "question_text": "You pick a marble and roll a die. How many outcomes are possible?",
+    "question_text": "You pick a marble and roll a die. How many outcomes are possible?\n_ outcomes",
     "tag": "Gr7_41_E2",
     "image_tag": "Gr7_41_2_1",
     "backend_description": "Shows 5 marbles in different colors (pink, blue, orange, purple, and green) and a standard six-sided die. Students need to find the total number of outcomes when picking one marble and rolling the die.",
@@ -2243,11 +2197,12 @@
   },
   {
     "skills": "dilations-find-the-coordinates",
-    "question_text": "Write the coordinates of the vertices after a dilation with a scale factor of 3, centred at the origin.",
+    "question_text": "Write the coordinates of the vertices after a dilation with a scale factor of 3, centred at the origin.\n(_,_,_)",
     "image_tag": "Gr7_44_1_1",
     "backend_description": "A coordinate grid showing triangle DEF with vertices at D(-3, 0), E(3, 0), and F(-3, 3). Students need to find the coordinates after dilating by a scale factor of 3 centered at the origin.",
     "tag": "Gr7_44_E1",
-    "question_type": "Multiple Fill in the blank",
+    "question_type": "Multiple fill in the blank",
+    "orderMatter": true,
     "correct_answers": [
       "9",
       "0",
@@ -2408,7 +2363,7 @@
   },
   {
     "skills": "side-lengths-and-angle-measures-of-similar-figures",
-    "question_text": "If these two shapes are similar, what is the measure of the missing length q?",
+    "question_text": "If these two shapes are similar, what is the measure of the missing length q?\n_",
     "image_tag": "Gr7_43_3_1",
     "backend_description": "Shows two similar parallelograms. The purple parallelogram has a side labeled 'q' meters and another side labeled '5 m'. The blue parallelogram has corresponding sides of '2 m' and '1 m'. Students need to find the value of q using proportional relationships.",
     "tag": "Gr7_43_E3",
@@ -2520,13 +2475,15 @@
   },
   {
     "skills": "translations-find-the-coordinates",
-    "question_text": "The point V(3,-5) is translated 5 units up. What are the coordinates of the resulting point, V'?",
+    "question_text": "The point V(3,-5) is translated 5 units up. What are the coordinates of the resulting point, V'?\n_",
     "image_tag": "Gr7_45_2_1",
     "backend_description": "A coordinate grid showing point V at position (3, -5). Students need to find the new coordinates when V is translated 5 units up.",
     "tag": "Gr7_45_E2",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "(3,0)"
+      ["(3,0)"],
+      ["(3, 0)"]
     ],
     "solution": [
       [
@@ -2547,13 +2504,15 @@
   },
   {
     "skills": "reflections-find-the-coordinates",
-    "question_text": "The point S(-4,-5) is reflected over the x-axis. What are the coordinates of the resulting point, S'?",
+    "question_text": "The point S(-4,-5) is reflected over the x-axis. What are the coordinates of the resulting point, S'?\n_",
     "image_tag": "Gr7_45_3_1",
     "backend_description": "A coordinate grid showing point S at position (-4, -5) with the x-axis clearly marked. Students need to find the coordinates of S' when S is reflected over the x-axis.",
     "tag": "Gr7_45_E3",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "(-4,5)"
+      ["(-4,5)"],
+      ["(-4, 5)"]
     ],
     "solution": [
       [
@@ -2574,13 +2533,15 @@
   },
   {
     "skills": "rotations-find-the-coordinates",
-    "question_text": "The point B(-3,-5) is rotated 90° counterclockwise around the origin. What are the coordinates of the resulting point, B'?",
+    "question_text": "The point B(-3,-5) is rotated 90° counterclockwise around the origin. What are the coordinates of the resulting point, B'?\n_",
     "image_tag": "Gr7_45_4_1",
     "backend_description": "A coordinate grid showing point B at position (-3, -5) in Quadrant III. Students need to find the coordinates of B' when B is rotated 90° counterclockwise around the origin.",
     "tag": "Gr7_45_E4",
     "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
     "correct_answers": [
-      "(5,-3)"
+      ["(5,-3)"],
+      ["(5, -3)"]
     ],
     "solution": [
       [
@@ -2605,7 +2566,7 @@
   },
   {
     "skills": "convert-between-cubic-centimetres-and-millilitres",
-    "question_text": "Convert: 1 millilitre =  ___ cubic centimetres",
+    "question_text": "Convert: 1 millilitre =  _ cubic centimetres",
     "tag": "Gr7_46_E1",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -2674,7 +2635,7 @@
   },
   {
     "skills": "circumference-of-circles",
-    "question_text": "The radius of a circle is 2 kilometres. What is the circle's circumference in kilometres?\nUse ​𝜋 ≈ 3.14 and round your answer to the nearest hundredth.",
+    "question_text": "The radius of a circle is 2 kilometres. What is the circle's circumference in kilometres?\nUse ​𝜋 ≈ 3.14 and round your answer to the nearest hundredth.\n _",
     "image_tag": "Gr7_47_1_1",
     "backend_description": "Shows a circle with radius labeled as 2 km. Students need to calculate the circumference using π ≈ 3.14.",
     "tag": "Gr7_47_E1",
@@ -2701,7 +2662,7 @@
   },
   {
     "skills": "area-of-circles",
-    "question_text": "The radius of a circle is 1 centimetre. What is the circle's area (in square centimetres)?\nUse ​𝜋 ≈ 3.14 and round your answer to the nearest hundredth.",
+    "question_text": "The radius of a circle is 1 centimetre. What is the circle's area (in square centimetres)?\nUse ​𝜋 ≈ 3.14 and round your answer to the nearest hundredth.\n _",
     "image_tag": "Gr7_47_3_1",
     "backend_description": "Shows a circle with radius labeled as 1 cm. Students need to calculate the area using π ≈ 3.14.",
     "tag": "Gr7_47_E3",
@@ -2728,7 +2689,7 @@
   },
   {
     "skills": "circles-word-problems",
-    "question_text": "The saucer for Laura's teacup has a diameter of 8 centimetres. What is the saucer's circumference in centimetres?\nUse 3.14 for 𝜋. If necessary, round your answer to the nearest hundredth.",
+    "question_text": "The saucer for Laura's teacup has a diameter of 8 centimetres. What is the saucer's circumference in centimetres?\nUse 3.14 for 𝜋. If necessary, round your answer to the nearest hundredth.\n _",
     "tag": "Gr7_47_E2",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -2786,7 +2747,7 @@
   },
   {
     "skills": "surface-area-of-cylinders",
-    "question_text": "What is the surface area of this cylinder?\nUse 𝜋 = 3.14 and round your answer to the nearest hundredth.",
+    "question_text": "What is the surface area of this cylinder?\nUse 𝜋 = 3.14 and round your answer to the nearest hundredth.\n _",
     "image_tag": "Gr7_48_1_1",
     "backend_description": "Shows a cylinder with radius 7 cm and height 6 cm. The cylinder is shown in 3D perspective with the circular top and bottom visible. Students calculate surface area using these dimensions.",
     "tag": "Gr7_48_E1",
@@ -2852,7 +2813,7 @@
   },
   {
     "skills": "relationship-between-volume-and-the-area-of-the-base-word-problems",
-    "question_text": "Layla makes necklaces out of cube-shaped beads. Each bead has a volume of one cubic centimetre. She keeps the beads in a jewellery box that is shaped like a rectangular prism.\n\nThe jewellery box has a height of 6 centimetres. The bottom of the jewellery box can be completely covered by a layer of 60 beads. What is the volume of the jewellery box (in cubic centimetres)?",
+    "question_text": "Layla makes necklaces out of cube-shaped beads. Each bead has a volume of one cubic centimetre. She keeps the beads in a jewellery box that is shaped like a rectangular prism.\n\nThe jewellery box has a height of 6 centimetres. The bottom of the jewellery box can be completely covered by a layer of 60 beads. What is the volume of the jewellery box?\n _ cubic centimetres",
     "tag": "Gr7_48_E2",
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
@@ -2890,7 +2851,7 @@
   },
   {
     "skills": "volume-of-prisms-and-cylinders",
-    "question_text": "What is the volume (in cubic millimetres)?",
+    "question_text": "What is the volume?\n _ cubic millimetres",
     "image_tag": "Gr7_48_3_1",
     "backend_description": "Shows a rectangular prism with dimensions labeled as 9 mm length, 8 mm width, and 10 mm height. The 3D shape is shown in perspective view with visible edges to help students identify all three dimensions needed for volume calculation.",
     "tag": "Gr7_48_E3",
@@ -2983,17 +2944,11 @@
   },
   {
     "skills": "simple-interest",
-    "question_text": "Brad has 40 dollars in a savings account that earns 10% annually. The interest is not compounded. How much will he have in total after 1 year?\n\nUse the formula i = prt, where i is the interest earned, p is the principal (starting amount), r is the interest rate expressed as a decimal, and t is the time in years.",
+    "question_text": "Brad has 40 dollars in a savings account that earns 10% annually. The interest is not compounded. How much will he have in total after 1 year?\n\nUse the formula i = prt, where i is the interest earned, p is the principal (starting amount), r is the interest rate expressed as a decimal, and t is the time in years.\n _ dollars",
     "tag": "Gr7_49_E2",
     "question_type": "Fill in the blank",
-    "has_alternative_answers": true,
     "correct_answers": [
-      [
-        "44 dollars"
-      ],
-      [
-        "44"
-      ]
+      "44"
     ],
     "solution_image_tag": [
       [
@@ -3055,31 +3010,23 @@
     ],
     "solution": [
       [
-        "1/7",
+        "1/5",
         "You are trying to calculate -2 - 2."
       ],
       [
-        "2/7",
+        "2/5",
         "Start out with 2 negative counters, which represent -2:"
       ],
       [
-        "3/7",
+        "3/5",
         "You would like to take away 2 positive counters. However, it's not possible to take away 2 positive counters, because there aren't any positive counters in the first group. You can fix this problem by adding 2 pairs of positive and negative counters to the first group, so that you have the 2 positive counters that are needed:"
       ],
       [
-        "4/7",
-        " "
-      ],
-      [
-        "5/7",
+        "4/5",
         "Now take away 2 positive counters:"
       ],
       [
-        "6/7",
-        " "
-      ],
-      [
-        "7/7",
+        "5/5",
         "4 negative counters remain. So -2 - 2 = -4."
       ]
     ],
