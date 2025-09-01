@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr7_42_E1 1_30</title>
+    <style>
+        .item {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Question 1_30: Main Image -->
+    <div class="item" label="Gr7_42_1_30" style="width: 200px; height: 250px;">
+        <svg width="200" height="250" viewBox="0 0 200 250">
+            <!-- Cylinder - standing upright with base at bottom -->
+            <!-- Top circular face -->
+            <ellipse cx="100" cy="50" rx="60" ry="18" fill="#708090" stroke="#505050" stroke-width="2"/>
+            <!-- Hidden back edge of top (dashed) -->
+            <path d="M 40 50 A 60 18 0 0 1 160 50" stroke="#505050" stroke-width="1" stroke-dasharray="3,3" opacity="0.6" fill="none"/>
+            <!-- Body -->
+            <rect x="40" y="50" width="120" height="130" fill="#708090" stroke="none"/>
+            <!-- Vertical edges -->
+            <line x1="40" y1="50" x2="40" y2="180" stroke="#505050" stroke-width="2"/>
+            <line x1="160" y1="50" x2="160" y2="180" stroke="#505050" stroke-width="2"/>
+            <!-- Bottom circular face -->
+            <ellipse cx="100" cy="180" rx="60" ry="18" fill="#708090" stroke="#505050" stroke-width="2"/>
+    </svg>
+    </div>
+
+    <!-- Solution Image Step 1 -->
+    <div class="item" label="Gr7_42_1_30_step_1" style="width: 200px; height: 250px;">
+        <svg width="200" height="250" viewBox="0 0 200 250">
+            <!-- Same cylinder with base highlighted -->
+            <!-- Top circular face -->
+            <ellipse cx="100" cy="50" rx="60" ry="18" fill="#708090" stroke="#505050" stroke-width="2" opacity="0.5"/>
+            <!-- Hidden back edge of top (dashed) -->
+            <path d="M 40 50 A 60 18 0 0 1 160 50" stroke="#505050" stroke-width="1" stroke-dasharray="3,3" opacity="0.3" fill="none"/>
+            <!-- Body -->
+            <rect x="40" y="50" width="120" height="130" fill="#708090" stroke="none" opacity="0.5"/>
+            <!-- Vertical edges -->
+            <line x1="40" y1="50" x2="40" y2="180" stroke="#505050" stroke-width="2" opacity="0.5"/>
+            <line x1="160" y1="50" x2="160" y2="180" stroke="#505050" stroke-width="2" opacity="0.5"/>
+            <!-- Highlighted bottom circular face in orange -->
+            <ellipse cx="100" cy="180" rx="60" ry="18" fill="#FFA500" stroke="#FF8C00" stroke-width="3"/>
+    </svg>
+    </div>
+</body>
+</html>

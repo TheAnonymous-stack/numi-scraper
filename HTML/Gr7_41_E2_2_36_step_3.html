@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .item {
+        margin: 20px;
+        padding: 15px;
+        border: 1px solid #ccc;
+        display: inline-block;
+    }
+    .tree-diagram {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        font-family: Arial, sans-serif;
+    }
+    .tree-level {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .tree-node {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 2px;
+    }
+    .node-label {
+        font-size: 11px;
+        font-weight: bold;
+        background: #e6f3ff;
+        padding: 3px 6px;
+        border: 1px solid #0066cc;
+        border-radius: 3px;
+        margin-bottom: 3px;
+        min-width: 30px;
+    }
+    .outcome-node {
+        background: #fff2e6;
+        border: 1px solid #ff9900;
+        color: #cc6600;
+        font-size: 10px;
+        padding: 2px 4px;
+    }
+    .connecting-lines {
+        display: flex;
+        justify-content: center;
+        height: 15px;
+        position: relative;
+        width: 100%;
+    }
+    .total-count {
+        margin-top: 15px;
+        text-align: center;
+        font-weight: bold;
+        color: #cc0000;
+        font-size: 14px;
+    }
+</style>
+</head>
+<body>
+
+<div class="item" label="Gr7_41_2_36_step_3" style="width: 900px; height: 500px; overflow-x: auto;">
+<div class="tree-diagram">
+    <div class="tree-level">
+        <div class="tree-node">
+            <div class="node-label">First Event</div>
+        </div>
+    </div>
+    
+    <div class="tree-level">
+        <div class="tree-node">
+            <div class="node-label">red</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label">BL</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label">GR</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label">YE</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label">PU</div>
+        </div>
+    </div>
+    
+    <div class="tree-level">
+        <div class="tree-node">
+            <div class="node-label outcome-node">red,1</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">red,2</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">red,3</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">red,4</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">red,5</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">red,6</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">red,7</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">red,8</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">BL,1</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">BL,2</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">BL,3</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">BL,4</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">BL,5</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">BL,6</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">BL,7</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">BL,8</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">GR,1</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">GR,2</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">GR,3</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">GR,4</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">GR,5</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">GR,6</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">GR,7</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">GR,8</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">YE,1</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">YE,2</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">YE,3</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">YE,4</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">YE,5</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">YE,6</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">YE,7</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">YE,8</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">PU,1</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">PU,2</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">PU,3</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">PU,4</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">PU,5</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">PU,6</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">PU,7</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">PU,8</div>
+        </div>
+    </div>
+    
+    <div class="total-count">
+        Total: 40 outcomes
+    </div>
+</div>
+</div>
+
+</body>
+</html>

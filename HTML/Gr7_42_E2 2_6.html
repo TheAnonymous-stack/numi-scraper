@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Gr7_42_2_6</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            padding: 20px; 
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .question-title {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+        .item { 
+            margin: 20px; 
+            display: inline-block; 
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            vertical-align: top;
+        }
+        .item-title {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #34495e;
+        }
+        .iso-container {
+            display: inline-block;
+            margin: 20px;
+        }
+        .choice-grid {
+            display: inline-block;
+            margin: 10px;
+        }
+        .choice-row {
+            display: flex;
+            justify-content: center;
+        }
+        .choice-cube {
+            width: 30px;
+            height: 30px;
+            border: 1px solid #333;
+            margin: 1px;
+        }
+        .green { background-color: #32cd32; }
+        .transparent { 
+            background: transparent; 
+            border: 1px dashed #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="question-title">Gr7_42_2_6 - 3D Visualization</h1>
+        
+        <div class="item" label="Gr7_42_2_6">
+            <div class="iso-container">
+                <svg width="300" height="250" viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <g id="greenCube">
+                            <path d="M 0,0 L 30,-15 L 60,0 L 30,15 Z" fill="#3cf63c" stroke="#333" stroke-width="1"/>
+                            <path d="M 60,0 L 60,30 L 30,45 L 30,15 Z" fill="#28a428" stroke="#333" stroke-width="1"/>
+                            <path d="M 0,0 L 0,30 L 30,45 L 30,15 Z" fill="#32cd32" stroke="#333" stroke-width="1"/>
+                        </g>
+                    </defs>
+                    
+                    <g transform="translate(100, 120)">
+                        <!-- 3 columns at same base level: 3 blocks, 2 blocks, 1 block -->
+                        <!-- Column 1: 3 blocks tall -->
+                        <use href="#greenCube" x="0" y="60"/>
+                        <use href="#greenCube" x="0" y="30"/>
+                        <use href="#greenCube" x="0" y="0"/>
+                        
+                        <!-- Column 2: 2 blocks tall -->
+                        <use href="#greenCube" x="60" y="60"/>
+                        <use href="#greenCube" x="60" y="30"/>
+                        
+                        <!-- Column 3: 1 block tall -->
+                        <use href="#greenCube" x="120" y="60"/>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        
+        <div class="item" label="Gr7_42_2_6_A">
+
+            <div class="choice-grid">
+                <div class="choice-row">
+                    <div class="choice-cube green"></div>
+                    <div class="choice-cube transparent"></div>
+                    <div class="choice-cube transparent"></div>
+                </div>
+                <div class="choice-row">
+                    <div class="choice-cube green"></div>
+                    <div class="choice-cube green"></div>
+                    <div class="choice-cube transparent"></div>
+                </div>
+                <div class="choice-row">
+                    <div class="choice-cube green"></div>
+                    <div class="choice-cube green"></div>
+                    <div class="choice-cube green"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="item" label="Gr7_42_2_6_B">
+
+            <div class="choice-grid">
+                <div class="choice-row">
+                    <div class="choice-cube green"></div>
+                    <div class="choice-cube green"></div>
+                    <div class="choice-cube transparent"></div>
+                </div>
+                <div class="choice-row">
+                    <div class="choice-cube green"></div>
+                    <div class="choice-cube transparent"></div>
+                    <div class="choice-cube transparent"></div>
+                </div>
+                <div class="choice-row">
+                    <div class="choice-cube transparent"></div>
+                    <div class="choice-cube transparent"></div>
+                    <div class="choice-cube transparent"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="item" label="Gr7_42_2_6_C">
+            
+            <div class="choice-grid">
+                <div class="choice-row">
+                    <div class="choice-cube green"></div>
+                    <div class="choice-cube green"></div>
+                    <div class="choice-cube green"></div>
+                </div>
+                <div class="choice-row">
+                    <div class="choice-cube green"></div>
+                    <div class="choice-cube green"></div>
+                    <div class="choice-cube green"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="item" label="Gr7_42_2_6_D">
+ 
+            <div class="choice-grid">
+                <div class="choice-row">
+                    <div class="choice-cube green"></div>
+                </div>
+                <div class="choice-row">
+                    <div class="choice-cube green"></div>
+                </div>
+                <div class="choice-row">
+                    <div class="choice-cube green"></div>
+                </div>
+                <div class="choice-row">
+                    <div class="choice-cube green"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

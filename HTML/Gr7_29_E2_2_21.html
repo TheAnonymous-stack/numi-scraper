@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .item {
+      margin: 20px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <!-- Question 2_21 from Gr7_29_E2 -->
+  
+<!-- Main image: Gr7_29_2_21 -->
+<div class="item" label="Gr7_29_2_21">
+  <svg width="400" height="400" viewBox="0 0 400 400">
+    <!-- Graph background -->
+    <rect x="0" y="0" width="400" height="400" fill="white" stroke="black" stroke-width="2"/>
+    
+    <!-- Grid lines -->
+    <defs>
+      <pattern id="grid_Gr7_29_2_21" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="lightgray" stroke-width="0.5"/>
+      </pattern>
+    </defs>
+    <rect width="400" height="400" fill="url(#grid_Gr7_29_2_21)"/>
+    
+    <!-- Axes -->
+    <line x1="50" y1="350" x2="370" y2="350" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="50" y1="350" x2="50" y2="30" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Arrow markers -->
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="black"/>
+      </marker>
+    </defs>
+    
+    <!-- Axis labels -->
+    <text x="210" y="390" text-anchor="middle" font-size="12" font-family="Arial">time running on the treadmill in seconds</text>
+    <text x="20" y="190" text-anchor="middle" font-size="12" font-family="Arial" transform="rotate(-90 20 190)">distance traveled in feet</text>
+    
+    <!-- Origin label -->
+    <text x="40" y="365" text-anchor="end" font-size="10" font-family="Arial">0</text>
+    
+    <!-- X-axis tick marks and labels -->
+    <line x1="50" y1="350" x2="50" y2="355" stroke="black" stroke-width="1"/>
+    <text x="112.5" y="365" text-anchor="middle" font-size="10" font-family="Arial">1</text>
+    <line x1="112.5" y1="350" x2="112.5" y2="355" stroke="black" stroke-width="1"/>
+    
+    <!-- Y-axis tick marks and labels -->
+    <text x="40" y="103.0" text-anchor="end" font-size="10" font-family="Arial">4</text>
+    <line x1="45" y1="100.0" x2="50" y2="100.0" stroke="black" stroke-width="1"/>
+    
+    <!-- Proportional line through origin and point -->
+    <line x1="50" y1="350" x2="112.5" y2="100.0" stroke="blue" stroke-width="2"/>
+    
+    <!-- Extended line (if space allows) -->
+    <line x1="112.5" y1="100.0" x2="175.0" y2="-150.0" stroke="blue" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
+    
+    <!-- Points on the line -->
+    <circle cx="50" cy="350" r="4" fill="blue"/>
+    <circle cx="112.5" cy="100.0" r="4" fill="blue"/>
+  </svg>
+</div>
+<!-- Solution step: Gr7_29_2_21_step_1 -->
+<div class="item" label="Gr7_29_2_21_step_1">
+  <svg width="400" height="400" viewBox="0 0 400 400">
+    <!-- Graph background -->
+    <rect x="0" y="0" width="400" height="400" fill="white" stroke="black" stroke-width="2"/>
+    
+    <!-- Grid lines -->
+    <defs>
+      <pattern id="grid_Gr7_29_2_21_step_1" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="lightgray" stroke-width="0.5"/>
+      </pattern>
+    </defs>
+    <rect width="400" height="400" fill="url(#grid_Gr7_29_2_21_step_1)"/>
+    
+    <!-- Axes -->
+    <line x1="50" y1="350" x2="370" y2="350" stroke="black" stroke-width="2" marker-end="url(#arrowhead_sol)"/>
+    <line x1="50" y1="350" x2="50" y2="30" stroke="black" stroke-width="2" marker-end="url(#arrowhead_sol)"/>
+    
+    <!-- Arrow markers -->
+    <defs>
+      <marker id="arrowhead_sol" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="black"/>
+      </marker>
+    </defs>
+    
+    <!-- Axis labels -->
+    <text x="210" y="390" text-anchor="middle" font-size="12" font-family="Arial">time running on the treadmill in seconds</text>
+    <text x="20" y="190" text-anchor="middle" font-size="12" font-family="Arial" transform="rotate(-90 20 190)">distance traveled in feet</text>
+    
+    <!-- Origin label -->
+    <text x="40" y="365" text-anchor="end" font-size="10" font-family="Arial">0</text>
+    
+    <!-- X-axis tick marks and labels -->
+    <line x1="50" y1="350" x2="50" y2="355" stroke="black" stroke-width="1"/>
+    <text x="112.5" y="365" text-anchor="middle" font-size="10" font-family="Arial">1</text>
+    <line x1="112.5" y1="350" x2="112.5" y2="355" stroke="black" stroke-width="1"/>
+    
+    <!-- Y-axis tick marks and labels -->
+    <text x="40" y="103.0" text-anchor="end" font-size="10" font-family="Arial">4</text>
+    <line x1="45" y1="100.0" x2="50" y2="100.0" stroke="black" stroke-width="1"/>
+    
+    <!-- Proportional line through origin and point -->
+    <line x1="50" y1="350" x2="112.5" y2="100.0" stroke="blue" stroke-width="2"/>
+    
+    <!-- Extended line (if space allows) -->
+    <line x1="112.5" y1="100.0" x2="175.0" y2="-150.0" stroke="blue" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
+    
+    <!-- Points on the line -->
+    <circle cx="50" cy="350" r="4" fill="blue"/>
+    
+    <!-- Highlighted point with coordinate label -->
+    <circle cx="112.5" cy="100.0" r="6" fill="red" stroke="darkred" stroke-width="2"/>
+    
+    <!-- Coordinate label with background -->
+    <rect x="120.5" y="80.0" width="50" height="20" fill="yellow" opacity="0.8" rx="3"/>
+    <text x="122.5" y="95.0" font-size="14" font-family="Arial" font-weight="bold">(1, 4)</text>
+    
+    <!-- Dotted lines to axes for clarity -->
+    <line x1="112.5" y1="100.0" x2="112.5" y2="350" stroke="red" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+    <line x1="112.5" y1="100.0" x2="50" y2="100.0" stroke="red" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+  </svg>
+</div>
+  
+</body>
+</html>

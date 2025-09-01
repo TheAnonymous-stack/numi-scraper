@@ -1,0 +1,1730 @@
+[
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Charlie has the following data:\n\n15, 15, p, 15, 15, 15\n\nIf the mean is 15, which number could p be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "27",
+      "15"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 6 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try p = 27. Find the sum of the numbers:\n15 + 15 + 27 + 15 + 15 + 15 = 102.\nDivide by 6: 102 ÷ 6 = 17.\nWhen p = 27, the mean is 17."
+      ],
+      [
+        "3/4",
+        "Try p = 15. Find the sum of the numbers:\n15 + 15 + 15 + 15 + 15 + 15 = 90.\nDivide by 6: 90 ÷ 6 = 15.\nWhen p = 15, the mean is 15."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 15, p = 15."
+      ]
+    ],
+    "question_number": "1_1",
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "14, 14, t, 14, 6, 17\n\nThe range of the numbers above is 11, what could t be?",
+    "skills": "mean-and-range-find-the-missing-number",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_2",
+    "choices": [
+      "2",
+      "14"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/7",
+        "Try t = 2.\nArrange the numbers from least to greatest: 2, 6, 14, 14, 14, 17"
+      ],
+      [
+        "2/7",
+        "Subtract the least number from the greatest number: 17 - 2 = 15"
+      ],
+      [
+        "3/7",
+        "When t = 2, the range is 15."
+      ],
+      [
+        "4/7",
+        "Try t = 14.\nArrange the numbers from least to greatest: 6, 14, 14, 14, 14, 17"
+      ],
+      [
+        "5/7",
+        "Subtract the least number from the greatest number: 17 - 6 = 11"
+      ],
+      [
+        "6/7",
+        "When t = 14, the range is 11."
+      ],
+      [
+        "7/7",
+        "Since the true range is 11, t = 14."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Sam has the following data:\n\n15, r, 11, 4, r\n\nIf the range is 11, which number could r be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "18",
+      "6"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "First, find the range of the known numbers: max = 15, min = 4, range = 11."
+      ],
+      [
+        "2/4",
+        "Try r = 18. The complete set would be: [4, 11, 15, 18].\nMax = 18, Min = 4, Range = 14."
+      ],
+      [
+        "3/4",
+        "Try r = 6. The complete set would be: [4, 6, 11, 15].\nMax = 15, Min = 4, Range = 11."
+      ],
+      [
+        "4/4",
+        "Since the true range is 11, r = 6."
+      ]
+    ],
+    "question_number": "1_2",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Harper has the following data:\n\n20, 20, 20, n, 20, 20\n\nIf the mean is 23, which number could n be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "20",
+      "38"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 6 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try n = 20. Find the sum of the numbers:\n20 + 20 + 20 + 20 + 20 + 20 = 120.\nDivide by 6: 120 ÷ 6 = 20.0.\nWhen n = 20, the mean is 20.0."
+      ],
+      [
+        "3/4",
+        "Try n = 38. Find the sum of the numbers:\n20 + 20 + 20 + 20 + 20 + 38 = 138.\nDivide by 6: 138 ÷ 6 = 23.\nWhen n = 38, the mean is 23."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 23, n = 38."
+      ]
+    ],
+    "question_number": "1_3",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Sam has the following data:\n\n19, 19, v, 19\n\nIf the mean is 23, which number could v be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "19",
+      "35"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 4 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try v = 19. Find the sum of the numbers:\n19 + 19 + 19 + 19 = 76.\nDivide by 4: 76 ÷ 4 = 19.0.\nWhen v = 19, the mean is 19.0."
+      ],
+      [
+        "3/4",
+        "Try v = 35. Find the sum of the numbers:\n19 + 19 + 19 + 35 = 92.\nDivide by 4: 92 ÷ 4 = 23.\nWhen v = 35, the mean is 23."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 23, v = 35."
+      ]
+    ],
+    "question_number": "1_4",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Jordan has the following data:\n\n15, 15, 15, r, 15, 15, 15\n\nIf the mean is 14, which number could r be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "8",
+      "15"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 7 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try r = 15. Find the sum of the numbers:\n15 + 15 + 15 + 15 + 15 + 15 + 15 = 105.\nDivide by 7: 105 ÷ 7 = 15.0.\nWhen r = 15, the mean is 15.0."
+      ],
+      [
+        "3/4",
+        "Try r = 8. Find the sum of the numbers:\n15 + 15 + 15 + 15 + 15 + 15 + 8 = 98.\nDivide by 7: 98 ÷ 7 = 14.\nWhen r = 8, the mean is 14."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 14, r = 8."
+      ]
+    ],
+    "question_number": "1_5",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Skylar has the following data:\n\n16, 16, q, 16\n\nIf the mean is 21, which number could q be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "36",
+      "16"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 4 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try q = 16. Find the sum of the numbers:\n16 + 16 + 16 + 16 = 64.\nDivide by 4: 64 ÷ 4 = 16.0.\nWhen q = 16, the mean is 16.0."
+      ],
+      [
+        "3/4",
+        "Try q = 36. Find the sum of the numbers:\n16 + 16 + 16 + 36 = 84.\nDivide by 4: 84 ÷ 4 = 21.\nWhen q = 36, the mean is 21."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 21, q = 36."
+      ]
+    ],
+    "question_number": "1_6",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Drew has the following data:\n\n10, d, 9, 22, d\n\nIf the range is 16, which number could d be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "15",
+      "25"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "First, find the range of the known numbers: max = 22, min = 9, range = 13."
+      ],
+      [
+        "2/4",
+        "Try d = 15. The complete set would be: [9, 10, 15, 22].\nMax = 22, Min = 9, Range = 13."
+      ],
+      [
+        "3/4",
+        "Try d = 25. The complete set would be: [9, 10, 22, 25].\nMax = 25, Min = 9, Range = 16."
+      ],
+      [
+        "4/4",
+        "Since the true range is 16, d = 25."
+      ]
+    ],
+    "question_number": "1_7",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Taylor has the following data:\n\n18, 18, y, 18, 18\n\nIf the mean is 13, which number could y be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "-7",
+      "18"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 5 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try y = 18. Find the sum of the numbers:\n18 + 18 + 18 + 18 + 18 = 90.\nDivide by 5: 90 ÷ 5 = 18.0.\nWhen y = 18, the mean is 18.0."
+      ],
+      [
+        "3/4",
+        "Try y = -7. Find the sum of the numbers:\n18 + 18 + 18 + 18 + -7 = 65.\nDivide by 5: 65 ÷ 5 = 13.\nWhen y = -7, the mean is 13."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 13, y = -7."
+      ]
+    ],
+    "question_number": "1_8",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Quinn has the following data:\n\n13, 13, 13, b, 13, 13\n\nIf the mean is 13, which number could b be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "8",
+      "13"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 6 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try b = 8. Find the sum of the numbers:\n13 + 13 + 13 + 13 + 13 + 8 = 73.\nDivide by 6: 73 ÷ 6 = 12.2.\nWhen b = 8, the mean is 12.2."
+      ],
+      [
+        "3/4",
+        "Try b = 13. Find the sum of the numbers:\n13 + 13 + 13 + 13 + 13 + 13 = 78.\nDivide by 6: 78 ÷ 6 = 13.\nWhen b = 13, the mean is 13."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 13, b = 13."
+      ]
+    ],
+    "question_number": "1_9",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Sidney has the following data:\n\n11, 14, m, 9, 5, 15, m\n\nIf the range is 12, which number could m be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "5",
+      "17"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "First, find the range of the known numbers: max = 15, min = 5, range = 10."
+      ],
+      [
+        "2/4",
+        "Try m = 5. The complete set would be: [5, 5, 9, 11, 14, 15].\nMax = 15, Min = 5, Range = 10."
+      ],
+      [
+        "3/4",
+        "Try m = 17. The complete set would be: [5, 9, 11, 14, 15, 17].\nMax = 17, Min = 5, Range = 12."
+      ],
+      [
+        "4/4",
+        "Since the true range is 12, m = 17."
+      ]
+    ],
+    "question_number": "1_10",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Jamie has the following data:\n\n16, 16, t, 16\n\nIf the mean is 18, which number could t be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "16",
+      "24"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 4 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try t = 16. Find the sum of the numbers:\n16 + 16 + 16 + 16 = 64.\nDivide by 4: 64 ÷ 4 = 16.0.\nWhen t = 16, the mean is 16.0."
+      ],
+      [
+        "3/4",
+        "Try t = 24. Find the sum of the numbers:\n16 + 16 + 16 + 24 = 72.\nDivide by 4: 72 ÷ 4 = 18.\nWhen t = 24, the mean is 18."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 18, t = 24."
+      ]
+    ],
+    "question_number": "1_11",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Casey has the following data:\n\n6, 15, s, 19, 14, s\n\nIf the range is 15, which number could s be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "12",
+      "4"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "First, find the range of the known numbers: max = 19, min = 6, range = 13."
+      ],
+      [
+        "2/4",
+        "Try s = 12. The complete set would be: [6, 12, 14, 15, 19].\nMax = 19, Min = 6, Range = 13."
+      ],
+      [
+        "3/4",
+        "Try s = 4. The complete set would be: [4, 6, 14, 15, 19].\nMax = 19, Min = 4, Range = 15."
+      ],
+      [
+        "4/4",
+        "Since the true range is 15, s = 4."
+      ]
+    ],
+    "question_number": "1_12",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Spencer has the following data:\n\n11, 7, z, 13, 5, z\n\nIf the range is 8, which number could z be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "9",
+      "3"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "First, find the range of the known numbers: max = 13, min = 5, range = 8."
+      ],
+      [
+        "2/4",
+        "Try z = 3. The complete set would be: [3, 5, 7, 11, 13].\nMax = 13, Min = 3, Range = 10."
+      ],
+      [
+        "3/4",
+        "Try z = 9. The complete set would be: [5, 7, 9, 11, 13].\nMax = 13, Min = 5, Range = 8."
+      ],
+      [
+        "4/4",
+        "Since the true range is 8, z = 9."
+      ]
+    ],
+    "question_number": "1_13",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Drew has the following data:\n\n20, 20, 20, b, 20, 20\n\nIf the mean is 25, which number could b be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "20",
+      "50"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 6 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try b = 20. Find the sum of the numbers:\n20 + 20 + 20 + 20 + 20 + 20 = 120.\nDivide by 6: 120 ÷ 6 = 20.0.\nWhen b = 20, the mean is 20.0."
+      ],
+      [
+        "3/4",
+        "Try b = 50. Find the sum of the numbers:\n20 + 20 + 20 + 20 + 20 + 50 = 150.\nDivide by 6: 150 ÷ 6 = 25.\nWhen b = 50, the mean is 25."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 25, b = 50."
+      ]
+    ],
+    "question_number": "1_14",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Blake has the following data:\n\n16, 16, z, 16, 16\n\nIf the mean is 11, which number could z be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "-9",
+      "16"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 5 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try z = 16. Find the sum of the numbers:\n16 + 16 + 16 + 16 + 16 = 80.\nDivide by 5: 80 ÷ 5 = 16.0.\nWhen z = 16, the mean is 16.0."
+      ],
+      [
+        "3/4",
+        "Try z = -9. Find the sum of the numbers:\n16 + 16 + 16 + 16 + -9 = 55.\nDivide by 5: 55 ÷ 5 = 11.\nWhen z = -9, the mean is 11."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 11, z = -9."
+      ]
+    ],
+    "question_number": "1_15",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Reese has the following data:\n\n24, 10, q, 12, 19, q\n\nIf the range is 17, which number could q be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "12",
+      "27"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "First, find the range of the known numbers: max = 24, min = 10, range = 14."
+      ],
+      [
+        "2/4",
+        "Try q = 12. The complete set would be: [10, 12, 12, 19, 24].\nMax = 24, Min = 10, Range = 14."
+      ],
+      [
+        "3/4",
+        "Try q = 27. The complete set would be: [10, 12, 19, 24, 27].\nMax = 27, Min = 10, Range = 17."
+      ],
+      [
+        "4/4",
+        "Since the true range is 17, q = 27."
+      ]
+    ],
+    "question_number": "1_16",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Sidney has the following data:\n\n20, 20, c, 20\n\nIf the mean is 22, which number could c be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "20",
+      "28"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 4 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try c = 20. Find the sum of the numbers:\n20 + 20 + 20 + 20 = 80.\nDivide by 4: 80 ÷ 4 = 20.0.\nWhen c = 20, the mean is 20.0."
+      ],
+      [
+        "3/4",
+        "Try c = 28. Find the sum of the numbers:\n20 + 20 + 20 + 28 = 88.\nDivide by 4: 88 ÷ 4 = 22.\nWhen c = 28, the mean is 22."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 22, c = 28."
+      ]
+    ],
+    "question_number": "1_17",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Riley has the following data:\n\n12, 12, 12, x, 12, 12\n\nIf the mean is 15, which number could x be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "30",
+      "12"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 6 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try x = 12. Find the sum of the numbers:\n12 + 12 + 12 + 12 + 12 + 12 = 72.\nDivide by 6: 72 ÷ 6 = 12.0.\nWhen x = 12, the mean is 12.0."
+      ],
+      [
+        "3/4",
+        "Try x = 30. Find the sum of the numbers:\n12 + 12 + 12 + 12 + 12 + 30 = 90.\nDivide by 6: 90 ÷ 6 = 15.\nWhen x = 30, the mean is 15."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 15, x = 30."
+      ]
+    ],
+    "question_number": "1_18",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Avery has the following data:\n\n9, 9, t, 9\n\nIf the mean is 10, which number could t be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "13",
+      "9"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 4 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try t = 9. Find the sum of the numbers:\n9 + 9 + 9 + 9 = 36.\nDivide by 4: 36 ÷ 4 = 9.0.\nWhen t = 9, the mean is 9.0."
+      ],
+      [
+        "3/4",
+        "Try t = 13. Find the sum of the numbers:\n9 + 9 + 9 + 13 = 40.\nDivide by 4: 40 ÷ 4 = 10.\nWhen t = 13, the mean is 10."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 10, t = 13."
+      ]
+    ],
+    "question_number": "1_19",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Harper has the following data:\n\n16, 16, m, 16, 16\n\nIf the mean is 11, which number could m be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "-9",
+      "16"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 5 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try m = 16. Find the sum of the numbers:\n16 + 16 + 16 + 16 + 16 = 80.\nDivide by 5: 80 ÷ 5 = 16.0.\nWhen m = 16, the mean is 16.0."
+      ],
+      [
+        "3/4",
+        "Try m = -9. Find the sum of the numbers:\n16 + 16 + 16 + 16 + -9 = 55.\nDivide by 5: 55 ÷ 5 = 11.\nWhen m = -9, the mean is 11."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 11, m = -9."
+      ]
+    ],
+    "question_number": "1_20",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Emerson has the following data:\n\n14, 16, c, 10, 9, 18, c\n\nIf the range is 9, which number could c be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "11",
+      "7"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "First, find the range of the known numbers: max = 18, min = 9, range = 9."
+      ],
+      [
+        "2/4",
+        "Try c = 7. The complete set would be: [7, 9, 10, 14, 16, 18].\nMax = 18, Min = 7, Range = 11."
+      ],
+      [
+        "3/4",
+        "Try c = 11. The complete set would be: [9, 10, 11, 14, 16, 18].\nMax = 18, Min = 9, Range = 9."
+      ],
+      [
+        "4/4",
+        "Since the true range is 9, c = 11."
+      ]
+    ],
+    "question_number": "1_21",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Quinn has the following data:\n\n17, 17, v, 17\n\nIf the mean is 20, which number could v be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "29",
+      "17"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 4 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try v = 17. Find the sum of the numbers:\n17 + 17 + 17 + 17 = 68.\nDivide by 4: 68 ÷ 4 = 17.0.\nWhen v = 17, the mean is 17.0."
+      ],
+      [
+        "3/4",
+        "Try v = 29. Find the sum of the numbers:\n17 + 17 + 17 + 29 = 80.\nDivide by 4: 80 ÷ 4 = 20.\nWhen v = 29, the mean is 20."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 20, v = 29."
+      ]
+    ],
+    "question_number": "1_22",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Morgan has the following data:\n\n12, 12, 12, w, 12, 12, 12\n\nIf the mean is 10, which number could w be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "12",
+      "-2"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 7 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try w = 12. Find the sum of the numbers:\n12 + 12 + 12 + 12 + 12 + 12 + 12 = 84.\nDivide by 7: 84 ÷ 7 = 12.0.\nWhen w = 12, the mean is 12.0."
+      ],
+      [
+        "3/4",
+        "Try w = -2. Find the sum of the numbers:\n12 + 12 + 12 + 12 + 12 + 12 + -2 = 70.\nDivide by 7: 70 ÷ 7 = 10.\nWhen w = -2, the mean is 10."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 10, w = -2."
+      ]
+    ],
+    "question_number": "1_23",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Taylor has the following data:\n\n20, 20, 20, m, 20, 20, 20\n\nIf the mean is 17, which number could m be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "-1",
+      "20"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 7 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try m = 20. Find the sum of the numbers:\n20 + 20 + 20 + 20 + 20 + 20 + 20 = 140.\nDivide by 7: 140 ÷ 7 = 20.0.\nWhen m = 20, the mean is 20.0."
+      ],
+      [
+        "3/4",
+        "Try m = -1. Find the sum of the numbers:\n20 + 20 + 20 + 20 + 20 + 20 + -1 = 119.\nDivide by 7: 119 ÷ 7 = 17.\nWhen m = -1, the mean is 17."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 17, m = -1."
+      ]
+    ],
+    "question_number": "1_24",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Riley has the following data:\n\n3, 4, p, 17, 13, p\n\nIf the range is 16, which number could p be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "16",
+      "1"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "First, find the range of the known numbers: max = 17, min = 3, range = 14."
+      ],
+      [
+        "2/4",
+        "Try p = 16. The complete set would be: [3, 4, 13, 16, 17].\nMax = 17, Min = 3, Range = 14."
+      ],
+      [
+        "3/4",
+        "Try p = 1. The complete set would be: [1, 3, 4, 13, 17].\nMax = 17, Min = 1, Range = 16."
+      ],
+      [
+        "4/4",
+        "Since the true range is 16, p = 1."
+      ]
+    ],
+    "question_number": "1_25",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Skylar has the following data:\n\n4, t, 16, 13, t\n\nIf the range is 12, which number could t be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "19",
+      "7"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "First, find the range of the known numbers: max = 16, min = 4, range = 12."
+      ],
+      [
+        "2/4",
+        "Try t = 19. The complete set would be: [4, 13, 16, 19].\nMax = 19, Min = 4, Range = 15."
+      ],
+      [
+        "3/4",
+        "Try t = 7. The complete set would be: [4, 7, 13, 16].\nMax = 16, Min = 4, Range = 12."
+      ],
+      [
+        "4/4",
+        "Since the true range is 12, t = 7."
+      ]
+    ],
+    "question_number": "1_26",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Skylar has the following data:\n\n8, 8, s, 8\n\nIf the mean is 8, which number could s be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "13",
+      "8"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 4 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try s = 13. Find the sum of the numbers:\n8 + 8 + 8 + 13 = 37.\nDivide by 4: 37 ÷ 4 = 9.2.\nWhen s = 13, the mean is 9.2."
+      ],
+      [
+        "3/4",
+        "Try s = 8. Find the sum of the numbers:\n8 + 8 + 8 + 8 = 32.\nDivide by 4: 32 ÷ 4 = 8.\nWhen s = 8, the mean is 8."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 8, s = 8."
+      ]
+    ],
+    "question_number": "1_27",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Harper has the following data:\n\n16, 16, m, 16, 16\n\nIf the mean is 20, which number could m be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "36",
+      "16"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 5 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try m = 16. Find the sum of the numbers:\n16 + 16 + 16 + 16 + 16 = 80.\nDivide by 5: 80 ÷ 5 = 16.0.\nWhen m = 16, the mean is 16.0."
+      ],
+      [
+        "3/4",
+        "Try m = 36. Find the sum of the numbers:\n16 + 16 + 16 + 16 + 36 = 100.\nDivide by 5: 100 ÷ 5 = 20.\nWhen m = 36, the mean is 20."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 20, m = 36."
+      ]
+    ],
+    "question_number": "1_28",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Cameron has the following data:\n\n10, 10, s, 10\n\nIf the mean is 11, which number could s be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "14",
+      "10"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 4 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try s = 10. Find the sum of the numbers:\n10 + 10 + 10 + 10 = 40.\nDivide by 4: 40 ÷ 4 = 10.0.\nWhen s = 10, the mean is 10.0."
+      ],
+      [
+        "3/4",
+        "Try s = 14. Find the sum of the numbers:\n10 + 10 + 10 + 14 = 44.\nDivide by 4: 44 ÷ 4 = 11.\nWhen s = 14, the mean is 11."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 11, s = 14."
+      ]
+    ],
+    "question_number": "1_29",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Morgan has the following data:\n\n16, 5, a, 8, 8, a\n\nIf the range is 14, which number could a be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "12",
+      "2"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "First, find the range of the known numbers: max = 16, min = 5, range = 11."
+      ],
+      [
+        "2/4",
+        "Try a = 12. The complete set would be: [5, 8, 8, 12, 16].\nMax = 16, Min = 5, Range = 11."
+      ],
+      [
+        "3/4",
+        "Try a = 2. The complete set would be: [2, 5, 8, 8, 16].\nMax = 16, Min = 2, Range = 14."
+      ],
+      [
+        "4/4",
+        "Since the true range is 14, a = 2."
+      ]
+    ],
+    "question_number": "1_30",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Kendall has the following data:\n\n18, 18, z, 18, 18\n\nIf the mean is 19, which number could z be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "23",
+      "18"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 5 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try z = 18. Find the sum of the numbers:\n18 + 18 + 18 + 18 + 18 = 90.\nDivide by 5: 90 ÷ 5 = 18.0.\nWhen z = 18, the mean is 18.0."
+      ],
+      [
+        "3/4",
+        "Try z = 23. Find the sum of the numbers:\n18 + 18 + 18 + 18 + 23 = 95.\nDivide by 5: 95 ÷ 5 = 19.\nWhen z = 23, the mean is 19."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 19, z = 23."
+      ]
+    ],
+    "question_number": "1_31",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Alex has the following data:\n\n13, 17, q, 21, 9, q\n\nIf the range is 12, which number could q be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "25",
+      "19"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "First, find the range of the known numbers: max = 21, min = 9, range = 12."
+      ],
+      [
+        "2/4",
+        "Try q = 25. The complete set would be: [9, 13, 17, 21, 25].\nMax = 25, Min = 9, Range = 16."
+      ],
+      [
+        "3/4",
+        "Try q = 19. The complete set would be: [9, 13, 17, 19, 21].\nMax = 21, Min = 9, Range = 12."
+      ],
+      [
+        "4/4",
+        "Since the true range is 12, q = 19."
+      ]
+    ],
+    "question_number": "1_32",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Quinn has the following data:\n\n4, 14, x, 3, 11, 16, x\n\nIf the range is 15, which number could x be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "1",
+      "11"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "First, find the range of the known numbers: max = 16, min = 3, range = 13."
+      ],
+      [
+        "2/4",
+        "Try x = 11. The complete set would be: [3, 4, 11, 11, 14, 16].\nMax = 16, Min = 3, Range = 13."
+      ],
+      [
+        "3/4",
+        "Try x = 1. The complete set would be: [1, 3, 4, 11, 14, 16].\nMax = 16, Min = 1, Range = 15."
+      ],
+      [
+        "4/4",
+        "Since the true range is 15, x = 1."
+      ]
+    ],
+    "question_number": "1_33",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Jamie has the following data:\n\n9, m, 24, 10, m\n\nIf the range is 17, which number could m be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "7",
+      "20"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "First, find the range of the known numbers: max = 24, min = 9, range = 15."
+      ],
+      [
+        "2/4",
+        "Try m = 20. The complete set would be: [9, 10, 20, 24].\nMax = 24, Min = 9, Range = 15."
+      ],
+      [
+        "3/4",
+        "Try m = 7. The complete set would be: [7, 9, 10, 24].\nMax = 24, Min = 7, Range = 17."
+      ],
+      [
+        "4/4",
+        "Since the true range is 17, m = 7."
+      ]
+    ],
+    "question_number": "1_34",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Riley has the following data:\n\n14, r, 6, 9, r\n\nIf the range is 11, which number could r be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "7",
+      "17"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "First, find the range of the known numbers: max = 14, min = 6, range = 8."
+      ],
+      [
+        "2/4",
+        "Try r = 7. The complete set would be: [6, 7, 9, 14].\nMax = 14, Min = 6, Range = 8."
+      ],
+      [
+        "3/4",
+        "Try r = 17. The complete set would be: [6, 9, 14, 17].\nMax = 17, Min = 6, Range = 11."
+      ],
+      [
+        "4/4",
+        "Since the true range is 11, r = 17."
+      ]
+    ],
+    "question_number": "1_35",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Jamie has the following data:\n\n13, c, 5, 7, c\n\nIf the range is 8, which number could c be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "7",
+      "1"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "First, find the range of the known numbers: max = 13, min = 5, range = 8."
+      ],
+      [
+        "2/4",
+        "Try c = 1. The complete set would be: [1, 5, 7, 13].\nMax = 13, Min = 1, Range = 12."
+      ],
+      [
+        "3/4",
+        "Try c = 7. The complete set would be: [5, 7, 7, 13].\nMax = 13, Min = 5, Range = 8."
+      ],
+      [
+        "4/4",
+        "Since the true range is 8, c = 7."
+      ]
+    ],
+    "question_number": "1_36",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Taylor has the following data:\n\n17, 17, 17, a, 17, 17, 17\n\nIf the mean is 20, which number could a be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "38",
+      "17"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 7 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try a = 17. Find the sum of the numbers:\n17 + 17 + 17 + 17 + 17 + 17 + 17 = 119.\nDivide by 7: 119 ÷ 7 = 17.0.\nWhen a = 17, the mean is 17.0."
+      ],
+      [
+        "3/4",
+        "Try a = 38. Find the sum of the numbers:\n17 + 17 + 17 + 17 + 17 + 17 + 38 = 140.\nDivide by 7: 140 ÷ 7 = 20.\nWhen a = 38, the mean is 20."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 20, a = 38."
+      ]
+    ],
+    "question_number": "1_37",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Finley has the following data:\n\n19, 10, d, 23, 25, d\n\nIf the range is 15, which number could d be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "30",
+      "12"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "First, find the range of the known numbers: max = 25, min = 10, range = 15."
+      ],
+      [
+        "2/4",
+        "Try d = 30. The complete set would be: [10, 19, 23, 25, 30].\nMax = 30, Min = 10, Range = 20."
+      ],
+      [
+        "3/4",
+        "Try d = 12. The complete set would be: [10, 12, 19, 23, 25].\nMax = 25, Min = 10, Range = 15."
+      ],
+      [
+        "4/4",
+        "Since the true range is 15, d = 12."
+      ]
+    ],
+    "question_number": "1_38",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Emerson has the following data:\n\n17, 17, 17, d, 17, 17\n\nIf the mean is 20, which number could d be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "35",
+      "17"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 6 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try d = 17. Find the sum of the numbers:\n17 + 17 + 17 + 17 + 17 + 17 = 102.\nDivide by 6: 102 ÷ 6 = 17.0.\nWhen d = 17, the mean is 17.0."
+      ],
+      [
+        "3/4",
+        "Try d = 35. Find the sum of the numbers:\n17 + 17 + 17 + 17 + 17 + 35 = 120.\nDivide by 6: 120 ÷ 6 = 20.\nWhen d = 35, the mean is 20."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 20, d = 35."
+      ]
+    ],
+    "question_number": "1_39",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Drew has the following data:\n\n18, 17, a, 10, 11, a\n\nIf the range is 8, which number could a be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "23",
+      "11"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "First, find the range of the known numbers: max = 18, min = 10, range = 8."
+      ],
+      [
+        "2/4",
+        "Try a = 23. The complete set would be: [10, 11, 17, 18, 23].\nMax = 23, Min = 10, Range = 13."
+      ],
+      [
+        "3/4",
+        "Try a = 11. The complete set would be: [10, 11, 11, 17, 18].\nMax = 18, Min = 10, Range = 8."
+      ],
+      [
+        "4/4",
+        "Since the true range is 8, a = 11."
+      ]
+    ],
+    "question_number": "1_40",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Sam has the following data:\n\n7, 12, r, 4, 3, r\n\nIf the range is 9, which number could r be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "8",
+      "1"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "First, find the range of the known numbers: max = 12, min = 3, range = 9."
+      ],
+      [
+        "2/4",
+        "Try r = 1. The complete set would be: [1, 3, 4, 7, 12].\nMax = 12, Min = 1, Range = 11."
+      ],
+      [
+        "3/4",
+        "Try r = 8. The complete set would be: [3, 4, 7, 8, 12].\nMax = 12, Min = 3, Range = 9."
+      ],
+      [
+        "4/4",
+        "Since the true range is 9, r = 8."
+      ]
+    ],
+    "question_number": "1_41",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Emerson has the following data:\n\n16, 16, a, 16\n\nIf the mean is 20, which number could a be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "32",
+      "16"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 4 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try a = 16. Find the sum of the numbers:\n16 + 16 + 16 + 16 = 64.\nDivide by 4: 64 ÷ 4 = 16.0.\nWhen a = 16, the mean is 16.0."
+      ],
+      [
+        "3/4",
+        "Try a = 32. Find the sum of the numbers:\n16 + 16 + 16 + 32 = 80.\nDivide by 4: 80 ÷ 4 = 20.\nWhen a = 32, the mean is 20."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 20, a = 32."
+      ]
+    ],
+    "question_number": "1_42",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Reese has the following data:\n\n19, 19, n, 19, 19\n\nIf the mean is 16, which number could n be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "4",
+      "19"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 5 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try n = 19. Find the sum of the numbers:\n19 + 19 + 19 + 19 + 19 = 95.\nDivide by 5: 95 ÷ 5 = 19.0.\nWhen n = 19, the mean is 19.0."
+      ],
+      [
+        "3/4",
+        "Try n = 4. Find the sum of the numbers:\n19 + 19 + 19 + 19 + 4 = 80.\nDivide by 5: 80 ÷ 5 = 16.\nWhen n = 4, the mean is 16."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 16, n = 4."
+      ]
+    ],
+    "question_number": "1_43",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Harper has the following data:\n\n10, 5, w, 13, 15, w\n\nIf the range is 12, which number could w be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "7",
+      "3"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "First, find the range of the known numbers: max = 15, min = 5, range = 10."
+      ],
+      [
+        "2/4",
+        "Try w = 7. The complete set would be: [5, 7, 10, 13, 15].\nMax = 15, Min = 5, Range = 10."
+      ],
+      [
+        "3/4",
+        "Try w = 3. The complete set would be: [3, 5, 10, 13, 15].\nMax = 15, Min = 3, Range = 12."
+      ],
+      [
+        "4/4",
+        "Since the true range is 12, w = 3."
+      ]
+    ],
+    "question_number": "1_44",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Casey has the following data:\n\n8, 8, d, 8\n\nIf the mean is 11, which number could d be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "8",
+      "20"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 4 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try d = 8. Find the sum of the numbers:\n8 + 8 + 8 + 8 = 32.\nDivide by 4: 32 ÷ 4 = 8.0.\nWhen d = 8, the mean is 8.0."
+      ],
+      [
+        "3/4",
+        "Try d = 20. Find the sum of the numbers:\n8 + 8 + 8 + 20 = 44.\nDivide by 4: 44 ÷ 4 = 11.\nWhen d = 20, the mean is 11."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 11, d = 20."
+      ]
+    ],
+    "question_number": "1_45",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Blake has the following data:\n\n8, 8, 8, b, 8, 8\n\nIf the mean is 9, which number could b be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "14",
+      "8"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 6 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try b = 8. Find the sum of the numbers:\n8 + 8 + 8 + 8 + 8 + 8 = 48.\nDivide by 6: 48 ÷ 6 = 8.0.\nWhen b = 8, the mean is 8.0."
+      ],
+      [
+        "3/4",
+        "Try b = 14. Find the sum of the numbers:\n8 + 8 + 8 + 8 + 8 + 14 = 54.\nDivide by 6: 54 ÷ 6 = 9.\nWhen b = 14, the mean is 9."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 9, b = 14."
+      ]
+    ],
+    "question_number": "1_46",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Quinn has the following data:\n\n14, 14, c, 14, 14\n\nIf the mean is 9, which number could c be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "-11",
+      "14"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 5 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try c = 14. Find the sum of the numbers:\n14 + 14 + 14 + 14 + 14 = 70.\nDivide by 5: 70 ÷ 5 = 14.0.\nWhen c = 14, the mean is 14.0."
+      ],
+      [
+        "3/4",
+        "Try c = -11. Find the sum of the numbers:\n14 + 14 + 14 + 14 + -11 = 45.\nDivide by 5: 45 ÷ 5 = 9.\nWhen c = -11, the mean is 9."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 9, c = -11."
+      ]
+    ],
+    "question_number": "1_47",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Alex has the following data:\n\n8, 8, s, 8, 8\n\nIf the mean is 8, which number could s be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "11",
+      "8"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 5 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try s = 11. Find the sum of the numbers:\n8 + 8 + 8 + 8 + 11 = 43.\nDivide by 5: 43 ÷ 5 = 8.6.\nWhen s = 11, the mean is 8.6."
+      ],
+      [
+        "3/4",
+        "Try s = 8. Find the sum of the numbers:\n8 + 8 + 8 + 8 + 8 = 40.\nDivide by 5: 40 ÷ 5 = 8.\nWhen s = 8, the mean is 8."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 8, s = 8."
+      ]
+    ],
+    "question_number": "1_48",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Spencer has the following data:\n\n20, n, 7, 13, n\n\nIf the range is 16, which number could n be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "23",
+      "17"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "First, find the range of the known numbers: max = 20, min = 7, range = 13."
+      ],
+      [
+        "2/4",
+        "Try n = 17. The complete set would be: [7, 13, 17, 20].\nMax = 20, Min = 7, Range = 13."
+      ],
+      [
+        "3/4",
+        "Try n = 23. The complete set would be: [7, 13, 20, 23].\nMax = 23, Min = 7, Range = 16."
+      ],
+      [
+        "4/4",
+        "Since the true range is 16, n = 23."
+      ]
+    ],
+    "question_number": "1_49",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Morgan has the following data:\n\n15, y, 6, 18, y\n\nIf the range is 14, which number could y be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "20",
+      "15"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "First, find the range of the known numbers: max = 18, min = 6, range = 12."
+      ],
+      [
+        "2/4",
+        "Try y = 15. The complete set would be: [6, 15, 15, 18].\nMax = 18, Min = 6, Range = 12."
+      ],
+      [
+        "3/4",
+        "Try y = 20. The complete set would be: [6, 15, 18, 20].\nMax = 20, Min = 6, Range = 14."
+      ],
+      [
+        "4/4",
+        "Since the true range is 14, y = 20."
+      ]
+    ],
+    "question_number": "1_50",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "mean-and-range-find-the-missing-number",
+    "question_text": "Harper has the following data:\n\n20, 20, 20, q, 20, 20\n\nIf the mean is 22, which number could q be?",
+    "tag": "Gr7_39_E1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "20",
+      "32"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "There are 6 numbers in the group."
+      ],
+      [
+        "2/4",
+        "Try q = 20. Find the sum of the numbers:\n20 + 20 + 20 + 20 + 20 + 20 = 120.\nDivide by 6: 120 ÷ 6 = 20.0.\nWhen q = 20, the mean is 20.0."
+      ],
+      [
+        "3/4",
+        "Try q = 32. Find the sum of the numbers:\n20 + 20 + 20 + 20 + 20 + 32 = 132.\nDivide by 6: 132 ÷ 6 = 22.\nWhen q = 32, the mean is 22."
+      ],
+      [
+        "4/4",
+        "Since the true mean is 22, q = 32."
+      ]
+    ],
+    "question_number": "1_51",
+    "solution_image_tag": []
+  }
+]

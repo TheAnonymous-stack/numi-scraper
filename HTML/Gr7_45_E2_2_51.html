@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .item {
+            display: inline-block;
+            margin: 10px;
+            border: 1px solid #ccc;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- A coordinate grid showing point M at position (2, 7). Students need to find the new coordinates when M is translated 5 units down. -->
+    <div class="item" label="Gr7_45_2_51" style="width: 240px; height: 340px;">
+        <svg width="240" height="340" xmlns="http://www.w3.org/2000/svg">
+            <!-- Grid -->
+            <defs>
+                <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+                </pattern>
+            </defs>
+            <rect width="240" height="340" fill="white"/>
+            <rect width="240" height="340" fill="url(#grid)"/>
+            
+            <!-- Axes -->
+            <line x1="0" y1="240" x2="240" y2="240" stroke="black" stroke-width="1.5"/>
+            <line x1="100" y1="0" x2="100" y2="340" stroke="black" stroke-width="1.5"/>
+            
+            <!-- Axis labels -->
+            <text x="40" y="260" font-size="14" text-anchor="middle">-3</text>
+            <text x="60" y="260" font-size="14" text-anchor="middle">-2</text>
+            <text x="80" y="260" font-size="14" text-anchor="middle">-1</text>
+            <text x="120" y="260" font-size="14" text-anchor="middle">1</text>
+            <text x="140" y="260" font-size="14" text-anchor="middle">2</text>
+            <text x="160" y="260" font-size="14" text-anchor="middle">3</text>
+            <text x="180" y="260" font-size="14" text-anchor="middle">4</text>
+            <text x="200" y="260" font-size="14" text-anchor="middle">5</text>
+            <text x="90" y="305" font-size="14" text-anchor="end">-3</text>
+            <text x="90" y="285" font-size="14" text-anchor="end">-2</text>
+            <text x="90" y="265" font-size="14" text-anchor="end">-1</text>
+            <text x="90" y="225" font-size="14" text-anchor="end">1</text>
+            <text x="90" y="205" font-size="14" text-anchor="end">2</text>
+            <text x="90" y="185" font-size="14" text-anchor="end">3</text>
+            <text x="90" y="165" font-size="14" text-anchor="end">4</text>
+            <text x="90" y="145" font-size="14" text-anchor="end">5</text>
+            <text x="90" y="125" font-size="14" text-anchor="end">6</text>
+            <text x="90" y="105" font-size="14" text-anchor="end">7</text>
+            <text x="90" y="85" font-size="14" text-anchor="end">8</text>
+            <text x="90" y="65" font-size="14" text-anchor="end">9</text>
+            <text x="90" y="45" font-size="14" text-anchor="end">10</text>
+            <text x="110" y="260" font-size="14" text-anchor="end">0</text>
+            
+            <!-- Point M at (2, 7) -->
+            <circle cx="140" cy="100" r="5" fill="blue"/>
+            <text x="150" y="92" font-size="16" font-weight="bold">M</text>
+        </svg>
+    </div>
+</body>
+</html>

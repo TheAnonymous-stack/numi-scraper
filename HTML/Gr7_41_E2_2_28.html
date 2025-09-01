@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+        .item {
+            margin: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            display: inline-block;
+        }
+        .probability-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            justify-content: center;
+        }
+        .spinner-3 {
+            width: 80px;
+            height: 80px;
+            border: 2px solid #333;
+            border-radius: 50%;
+            position: relative;
+            background: conic-gradient(
+                #ff6b6b 0deg 120deg,
+                #4ecdc4 120deg 240deg,
+                #45b7d1 240deg 360deg
+            );
+        }
+        .items-grid {
+            display: grid;
+            grid-template-columns: repeat(6, 25px);
+            gap: 3px;
+        }
+        .item-box {
+            width: 25px;
+            height: 25px;
+            border: 1px solid #666;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: bold;
+            background: #f0f0f0;
+        }
+        .and-text {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Shows 11 tiles and a spinner -->
+<div class="item" label="Gr7_41_2_28" style="width: 380px; height: 120px;">
+<div class="probability-container">
+<div class="items-grid">
+<div class="item-box">A</div>
+<div class="item-box">B</div>
+<div class="item-box">C</div>
+<div class="item-box">D</div>
+<div class="item-box">E</div>
+<div class="item-box">F</div>
+<div class="item-box">G</div>
+<div class="item-box">H</div>
+<div class="item-box">I</div>
+<div class="item-box">J</div>
+<div class="item-box">K</div>
+</div>
+<span class="and-text">AND</span>
+<div class="spinner-3"></div>
+</div>
+</div>
+
+</body>
+</html>

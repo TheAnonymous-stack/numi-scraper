@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+        .item {
+            margin: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            display: inline-block;
+        }
+        .probability-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            justify-content: center;
+        }
+        .coin {
+            width: 60px;
+            height: 60px;
+            border: 2px solid #333;
+            border-radius: 50%;
+            background: #cd7f32;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .coin::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 50%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        .coin-text {
+            position: absolute;
+            font-size: 8px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+        }
+        .coin-heads {
+            left: 6px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .coin-tails {
+            right: 6px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .items-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 35px);
+            gap: 5px;
+        }
+        .item-box {
+            width: 35px;
+            height: 35px;
+            border: 2px solid #666;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            font-weight: bold;
+            background: #ff8800;
+            border-radius: 50%;
+            color: white;
+        }
+        .and-text {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Shows 7 Dragon Balls and a coin -->
+<div class="item" label="Gr7_41_2_40" style="width: 380px; height: 120px;">
+<div class="probability-container">
+<div class="items-grid">
+<div class="item-box">★</div>
+<div class="item-box">★★</div>
+<div class="item-box">★★★</div>
+<div class="item-box" style="font-size: 12px;">★★★★</div>
+<div class="item-box" style="font-size: 10px;">★★★★★</div>
+<div class="item-box" style="font-size: 10px;">★★★★★★</div>
+<div class="item-box" style="font-size: 9px;">★★★★★★★</div>
+</div>
+<span class="and-text">AND</span>
+<div class="coin">
+    <span class="coin-text coin-heads">Head</span>
+    <span class="coin-text coin-tails">Tail</span>
+</div>
+</div>
+</div>
+
+</body>
+</html>

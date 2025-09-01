@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+        .item {
+            margin: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            display: inline-block;
+        }
+        .probability-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            justify-content: center;
+        }
+        .die {
+            width: 60px;
+            height: 60px;
+            border: 2px solid #333;
+            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .die-8 {
+            width: 60px;
+            height: 60px;
+            border: 2px solid #333;
+            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            transform: rotate(22.5deg);
+            clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+        }
+        .and-text {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Shows an 8-sided die and a 6-sided die -->
+<div class="item" label="Gr7_41_2_25" style="width: 250px; height: 120px;">
+<div class="probability-container">
+<div class="die-8">8</div>
+<span class="and-text">AND</span>
+<div class="die">6</div>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Gr7_42_2_4</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            padding: 20px; 
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .question-title {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+        .item { 
+            margin: 20px; 
+            display: inline-block; 
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            vertical-align: top;
+        }
+        .item-title {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #34495e;
+        }
+        .iso-container {
+            display: inline-block;
+            margin: 20px;
+        }
+        .choice-grid {
+            display: inline-block;
+            margin: 10px;
+        }
+        .choice-row {
+            display: flex;
+            justify-content: center;
+        }
+        .choice-cube {
+            width: 30px;
+            height: 30px;
+            border: 1px solid #333;
+            margin: 1px;
+        }
+        .purple { background-color: #9370db; }
+        .transparent { 
+            background: transparent; 
+            border: 1px dashed #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="question-title">Gr7_42_2_4 - 3D Visualization</h1>
+        
+        <div class="item" label="Gr7_42_2_4">
+            <div class="item-title">3D Figure</div>
+            <div class="iso-container">
+                <svg width="300" height="250" viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <g id="purpleCube">
+                            <path d="M 0,0 L 30,-15 L 60,0 L 30,15 Z" fill="#b086ff" stroke="#333" stroke-width="1"/>
+                            <path d="M 60,0 L 60,30 L 30,45 L 30,15 Z" fill="#7559af" stroke="#333" stroke-width="1"/>
+                            <path d="M 0,0 L 0,30 L 30,45 L 30,15 Z" fill="#9370db" stroke="#333" stroke-width="1"/>
+                        </g>
+                    </defs>
+                    
+                    <g transform="translate(100, 80)">
+                        <!-- Simple stepped pyramid: 1-2-3 formation (6 cubes total) -->
+                        <!-- Top layer: 1 cube -->
+                        <use href="#purpleCube" x="30" y="0"/>
+                        
+                        <!-- Middle layer: 2 cubes side by side -->
+                        <use href="#purpleCube" x="15" y="35"/>
+                        <use href="#purpleCube" x="45" y="50"/>
+                        
+                        <!-- Bottom layer: 3 cubes in a row -->
+                        <use href="#purpleCube" x="-30" y="50"/>
+                        <use href="#purpleCube" x="10" y="65"/>
+                        <use href="#purpleCube" x="60" y="90"/>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        
+        <div class="item" label="Gr7_42_2_4_A">
+            <div class="item-title">Option A</div>
+            <div class="choice-grid">
+                <div class="choice-row">
+                    <div class="choice-cube purple"></div>
+                    <div class="choice-cube purple"></div>
+                    <div class="choice-cube purple"></div>
+                </div>
+                <div class="choice-row">
+                    <div class="choice-cube transparent"></div>
+                    <div class="choice-cube purple"></div>
+                    <div class="choice-cube transparent"></div>
+                </div>
+                <div class="choice-row">
+                    <div class="choice-cube transparent"></div>
+                    <div class="choice-cube purple"></div>
+                    <div class="choice-cube transparent"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="item" label="Gr7_42_2_4_B">
+            <div class="item-title">Option B - Right Side View</div>
+            <div class="choice-grid">
+                <div class="choice-row">
+                    <div class="choice-cube purple"></div>
+                    <div class="choice-cube transparent"></div>
+                    <div class="choice-cube transparent"></div>
+                </div>
+                <div class="choice-row">
+                    <div class="choice-cube purple"></div>
+                    <div class="choice-cube purple"></div>
+                    <div class="choice-cube transparent"></div>
+                </div>
+                <div class="choice-row">
+                    <div class="choice-cube purple"></div>
+                    <div class="choice-cube purple"></div>
+                    <div class="choice-cube purple"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

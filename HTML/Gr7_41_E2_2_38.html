@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+        .item {
+            margin: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            display: inline-block;
+        }
+        .probability-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            justify-content: center;
+        }
+        .spinner-9 {
+            width: 80px;
+            height: 80px;
+            border: 2px solid #333;
+            border-radius: 50%;
+            position: relative;
+            background: conic-gradient(
+                #ff6b6b 0deg 40deg,
+                #4ecdc4 40deg 80deg,
+                #45b7d1 80deg 120deg,
+                #96ceb4 120deg 160deg,
+                #ffeaa7 160deg 200deg,
+                #dfe6e9 200deg 240deg,
+                #a29bfe 240deg 280deg,
+                #fd79a8 280deg 320deg,
+                #6c5ce7 320deg 360deg
+            );
+        }
+        .spinner-5 {
+            width: 80px;
+            height: 80px;
+            border: 2px solid #333;
+            border-radius: 50%;
+            position: relative;
+            background: conic-gradient(
+                #ff6b6b 0deg 72deg,
+                #4ecdc4 72deg 144deg,
+                #45b7d1 144deg 216deg,
+                #96ceb4 216deg 288deg,
+                #ffeaa7 288deg 360deg
+            );
+        }
+        .and-text {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Shows a 9-section spinner and a 5-section spinner -->
+<div class="item" label="Gr7_41_2_38" style="width: 250px; height: 120px;">
+<div class="probability-container">
+<div class="spinner-9"></div>
+<span class="and-text">AND</span>
+<div class="spinner-5"></div>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+        .item {
+            margin: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            display: inline-block;
+        }
+        .probability-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            justify-content: center;
+        }
+        .spinner-5 {
+            width: 80px;
+            height: 80px;
+            border: 2px solid #333;
+            border-radius: 50%;
+            position: relative;
+            background: conic-gradient(
+                #ff6b6b 0deg 72deg,
+                #4ecdc4 72deg 144deg,
+                #45b7d1 144deg 216deg,
+                #96ceb4 216deg 288deg,
+                #ffeaa7 288deg 360deg
+            );
+        }
+        .items-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 35px);
+            gap: 5px;
+        }
+        .item-box {
+            width: 35px;
+            height: 35px;
+            border: 2px solid #666;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+        .and-text {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Shows 6 gems and a spinner with 5 sections -->
+<div class="item" label="Gr7_41_2_51" style="width: 320px; height: 120px;">
+<div class="probability-container">
+<div class="items-grid">
+<div class="item-box" style="background: #ff4444; color: white;">FIRE</div>
+<div class="item-box" style="background: #4444ff; color: white;">WAT</div>
+<div class="item-box" style="background: #8b4513; color: white;">EAR</div>
+<div class="item-box" style="background: #87ceeb; color: black;">AIR</div>
+<div class="item-box" style="background: #ffffcc; color: black;">LGT</div>
+<div class="item-box" style="background: #4b0082; color: white;">DRK</div>
+</div>
+<span class="and-text">AND</span>
+<div class="spinner-5"></div>
+</div>
+</div>
+
+</body>
+</html>

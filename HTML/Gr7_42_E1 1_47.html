@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr7_42_E1 1_47</title>
+    <style>
+        .item {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Question 1_47: Main Image -->
+    <div class="item" label="Gr7_42_1_47" style="width: 200px; height: 200px;">
+        <svg width="200" height="200" viewBox="0 0 200 200">
+            <!-- Pentagonal pyramid - base at bottom, apex at top -->
+            <!-- Base pentagon (bottom) -->
+            <polygon points="100,180 130,170 125,140 75,140 70,170" 
+                     fill="#C0C0C0" stroke="#808080" stroke-width="2"/>
+            <!-- Hidden back edges of base (dashed) -->
+            <line x1="85" y1="150" x2="115" y2="150" stroke="#808080" stroke-width="1" stroke-dasharray="3,3" opacity="0.6"/>
+            <line x1="85" y1="150" x2="85" y2="165" stroke="#808080" stroke-width="1" stroke-dasharray="3,3" opacity="0.6"/>
+            <line x1="115" y1="150" x2="115" y2="165" stroke="#808080" stroke-width="1" stroke-dasharray="3,3" opacity="0.6"/>
+            <!-- Triangular faces -->
+            <polygon points="100,180 130,170 100,40" fill="#B0B0B0" stroke="#808080" stroke-width="2" opacity="0.8"/>
+            <polygon points="70,170 100,180 100,40" fill="#A0A0A0" stroke="#808080" stroke-width="2" opacity="0.8"/>
+            <polygon points="75,140 70,170 100,40" fill="#999999" stroke="#808080" stroke-width="2" opacity="0.8"/>
+            <polygon points="125,140 75,140 100,40" fill="#888888" stroke="#808080" stroke-width="2" opacity="0.8"/>
+            <polygon points="130,170 125,140 100,40" fill="#909090" stroke="#808080" stroke-width="2" opacity="0.8"/>
+            <!-- Hidden back edges to apex (dashed) -->
+            <line x1="85" y1="150" x2="100" y2="40" stroke="#808080" stroke-width="1" stroke-dasharray="3,3" opacity="0.6"/>
+            <line x1="115" y1="150" x2="100" y2="40" stroke="#808080" stroke-width="1" stroke-dasharray="3,3" opacity="0.6"/>
+    </svg>
+    </div>
+
+    <!-- Solution Image Step 1 -->
+    <div class="item" label="Gr7_42_1_47_step_1" style="width: 200px; height: 200px;">
+        <svg width="200" height="200" viewBox="0 0 200 200">
+            <!-- Same pentagonal pyramid with base highlighted -->
+            <!-- Highlighted base pentagon in red -->
+            <polygon points="100,180 130,170 125,140 75,140 70,170" 
+                     fill="#FF0000" stroke="#CC0000" stroke-width="3"/>
+            <!-- Hidden back edges of base (dashed) -->
+            <line x1="85" y1="150" x2="115" y2="150" stroke="#808080" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+            <line x1="85" y1="150" x2="85" y2="165" stroke="#808080" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+            <line x1="115" y1="150" x2="115" y2="165" stroke="#808080" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+            <!-- Triangular faces -->
+            <polygon points="100,180 130,170 100,40" fill="#B0B0B0" stroke="#808080" stroke-width="2" opacity="0.5"/>
+            <polygon points="70,170 100,180 100,40" fill="#A0A0A0" stroke="#808080" stroke-width="2" opacity="0.5"/>
+            <polygon points="75,140 70,170 100,40" fill="#999999" stroke="#808080" stroke-width="2" opacity="0.5"/>
+            <polygon points="125,140 75,140 100,40" fill="#888888" stroke="#808080" stroke-width="2" opacity="0.5"/>
+            <polygon points="130,170 125,140 100,40" fill="#909090" stroke="#808080" stroke-width="2" opacity="0.5"/>
+            <!-- Hidden back edges to apex (dashed) -->
+            <line x1="85" y1="150" x2="100" y2="40" stroke="#808080" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+            <line x1="115" y1="150" x2="100" y2="40" stroke="#808080" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+    </svg>
+    </div>
+</body>
+</html>

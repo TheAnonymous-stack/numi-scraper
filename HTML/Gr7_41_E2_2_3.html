@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+        .item {
+            margin: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            display: inline-block;
+        }
+        .probability-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            justify-content: center;
+        }
+        .spinner {
+            width: 80px;
+            height: 80px;
+            border: 2px solid #333;
+            border-radius: 50%;
+            position: relative;
+            background: conic-gradient(
+                #ff6b6b 0deg 45deg,
+                #4ecdc4 45deg 90deg,
+                #45b7d1 90deg 135deg,
+                #96ceb4 135deg 180deg,
+                #ffeaa7 180deg 225deg,
+                #dfe6e9 225deg 270deg,
+                #a29bfe 270deg 315deg,
+                #fd79a8 315deg 360deg
+            );
+        }
+        .spinner-5 {
+            background: conic-gradient(
+                #ff6b6b 0deg 72deg,
+                #4ecdc4 72deg 144deg,
+                #45b7d1 144deg 216deg,
+                #96ceb4 216deg 288deg,
+                #ffeaa7 288deg 360deg
+            );
+        }
+        .spinner-3 {
+            background: conic-gradient(
+                #ff6b6b 0deg 120deg,
+                #4ecdc4 120deg 240deg,
+                #45b7d1 240deg 360deg
+            );
+        }
+        .spinner-4 {
+            background: conic-gradient(
+                #ff6b6b 0deg 90deg,
+                #4ecdc4 90deg 180deg,
+                #45b7d1 180deg 270deg,
+                #96ceb4 270deg 360deg
+            );
+        }
+        .die {
+            width: 60px;
+            height: 60px;
+            border: 2px solid #333;
+            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .coin {
+            width: 60px;
+            height: 60px;
+            border: 2px solid #333;
+            border-radius: 50%;
+            background: #cd7f32;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .coin::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 50%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        .coin-text {
+            position: absolute;
+            font-size: 8px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+        }
+        .coin-heads {
+            left: 6px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .coin-tails {
+            right: 6px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .items-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 30px);
+            gap: 5px;
+        }
+        .item-box {
+            width: 30px;
+            height: 30px;
+            border: 1px solid #666;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+        }
+        .and-text {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="item" label="Gr7_41_2_3" style="width: 350px; height: 120px;">
+<div class="probability-container">
+<div class="items-grid">
+<div class="item-box" style="background: #ff0000;">R</div>
+<div class="item-box" style="background: #00ff00;">E</div>
+<div class="item-box" style="background: #0000ff;">S</div>
+<div class="item-box" style="background: #ffff00;">D</div>
+<div class="item-box" style="background: #ff00ff;">T</div>
+<div class="item-box" style="background: #00ffff;">A</div>
+<div class="item-box" style="background: #333333;">O</div>
+<div class="item-box" style="background: #90ee90;">J</div>
+</div>
+<span class="and-text">AND</span>
+<div class="coin">
+    <span class="coin-text coin-heads">Head</span>
+    <span class="coin-text coin-tails">Tail</span>
+</div>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr7_48_E1 1_30</title>
+    <style>
+        .item {
+            display: inline-block;
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h2>Grade 7 Week 48 Exercise 1 - Question 1_30</h2>
+    
+<!-- Main cylinder image -->
+<div class="item" label="Gr7_48_1_30">
+    <svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+        <!-- Cylinder body (rectangle) -->
+        <rect x="25.0" y="50" 
+              width="150.0" height="92.3076923076923"
+              fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+        
+        <!-- Bottom ellipse (back part) -->
+        <ellipse cx="100.0" cy="142.30769230769232" 
+                 rx="75.0" ry="22.5"
+                 fill="#bbdefb" stroke="#1976d2" stroke-width="2"/>
+        
+        <!-- Top ellipse -->
+        <ellipse cx="100.0" cy="50" 
+                 rx="75.0" ry="22.5"
+                 fill="#90caf9" stroke="#1976d2" stroke-width="2"/>
+        
+        <!-- Labels -->
+        <text x="0" y="96.15384615384616" 
+              text-anchor="start" font-family="Arial" font-size="14" fill="#000">
+            h = 16.0 cm
+        </text>
+        
+        <!-- Radius label with arrow -->
+        <line x1="100.0" y1="50" x2="175.0" y2="50"
+              stroke="#d32f2f" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <text x="137.5" y="45" 
+              text-anchor="middle" font-family="Arial" font-size="14" fill="#d32f2f">
+            r = 13.0 cm
+        </text>
+        
+        <!-- Arrow marker definition -->
+        <defs>
+            <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                    refX="9" refY="3.5" orient="auto">
+                <polygon points="0 0, 10 3.5, 0 7" fill="#d32f2f"/>
+            </marker>
+        </defs>
+    </svg>
+</div>
+
+<!-- Solution step 7/10: Unrolled surface -->
+<div class="item" label="Gr7_48_1_30_step_7">
+    <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+        <!-- Rectangle representing unrolled surface -->
+        <rect x="50" y="50" 
+              width="200" height="100"
+              fill="#fff3e0" stroke="#e65100" stroke-width="2"/>
+        
+        
+        
+        <!-- Width label (circumference) -->
+        <text x="145" y="40.0" 
+              text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">
+            Width = 81.64 cm
+        </text>
+        
+        <!-- Height label -->
+        <text x="0" y="70" 
+              text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" transform="rotate(-90, 30, 65.0)"">
+            Height = 16.0 cm
+        </text>
+        
+        <!-- Area calculation -->
+        <text x="145" y="175" 
+              text-anchor="middle" font-family="Arial" font-size="13" fill="#d84315">
+            Area = 81.64 x 16.0 = 1306.24 cm²
+        </text>
+    </svg>
+</div>
+
+</body>
+</html>

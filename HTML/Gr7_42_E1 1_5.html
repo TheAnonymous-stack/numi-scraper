@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr7_42_E1 1_5</title>
+    <style>
+        .item {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Question 1_5: Main Image -->
+    <div class="item" label="Gr7_42_1_5" style="width: 200px; height: 180px;">
+        <svg width="200" height="180" viewBox="0 0 200 180">
+            <!-- Hemisphere - circular base at bottom -->
+            <!-- Circular base -->
+            <ellipse cx="100" cy="160" rx="70" ry="20" fill="#C0C0C0" stroke="#808080" stroke-width="2"/>
+            <!-- Hidden back edge of base (dashed) -->
+            <path d="M 30 160 A 70 20 0 0 1 170 160" stroke="#808080" stroke-width="1" stroke-dasharray="3,3" opacity="0.6" fill="none"/>
+            <!-- Hemisphere body -->
+            <path d="M 30 160 A 70 70 0 0 1 170 160" fill="#C0C0C0" stroke="#808080" stroke-width="2"/>
+    </svg>
+    </div>
+
+    <!-- Solution Image Step 1 -->
+    <div class="item" label="Gr7_42_1_5_step_1" style="width: 200px; height: 180px;">
+        <svg width="200" height="180" viewBox="0 0 200 180">
+            <!-- Same hemisphere with base highlighted -->
+            <!-- Highlighted circular base in blue -->
+            <ellipse cx="100" cy="160" rx="70" ry="20" fill="#0000FF" stroke="#0000CC" stroke-width="3"/>
+            <!-- Hidden back edge of base (dashed) -->
+            <path d="M 30 160 A 70 20 0 0 1 170 160" stroke="#808080" stroke-width="1" stroke-dasharray="3,3" opacity="0.4" fill="none"/>
+            <!-- Hemisphere body -->
+            <path d="M 30 160 A 70 70 0 0 1 170 160" fill="#C0C0C0" stroke="#808080" stroke-width="2" opacity="0.6"/>
+    </svg>
+    </div>
+</body>
+</html>

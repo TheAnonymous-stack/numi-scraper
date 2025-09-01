@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+        .item {
+            margin: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            display: inline-block;
+        }
+        .probability-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            justify-content: center;
+        }
+        .spinner-3 {
+            width: 80px;
+            height: 80px;
+            border: 2px solid #333;
+            border-radius: 50%;
+            position: relative;
+            background: conic-gradient(
+                #ff6b6b 0deg 120deg,
+                #4ecdc4 120deg 240deg,
+                #45b7d1 240deg 360deg
+            );
+        }
+        .items-grid {
+            display: grid;
+            grid-template-columns: repeat(6, 20px);
+            gap: 3px;
+        }
+        .item-box {
+            width: 20px;
+            height: 20px;
+            border: 1px solid #666;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 8px;
+            font-weight: bold;
+            border-radius: 50%;
+        }
+        .and-text {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Shows 18 tokens and a triangle spinner -->
+<div class="item" label="Gr7_41_2_27" style="width: 450px; height: 140px;">
+<div class="probability-container">
+<div class="items-grid">
+<div class="item-box" style="background: #ff0000;">R1</div>
+<div class="item-box" style="background: #ff0000;">R2</div>
+<div class="item-box" style="background: #ff0000;">R3</div>
+<div class="item-box" style="background: #00ff00;">G1</div>
+<div class="item-box" style="background: #00ff00;">G2</div>
+<div class="item-box" style="background: #00ff00;">G3</div>
+<div class="item-box" style="background: #0000ff;">B1</div>
+<div class="item-box" style="background: #0000ff;">B2</div>
+<div class="item-box" style="background: #0000ff;">B3</div>
+<div class="item-box" style="background: #ffff00;">Y1</div>
+<div class="item-box" style="background: #ffff00;">Y2</div>
+<div class="item-box" style="background: #ffff00;">Y3</div>
+<div class="item-box" style="background: #ff00ff;">P1</div>
+<div class="item-box" style="background: #ff00ff;">P2</div>
+<div class="item-box" style="background: #ff00ff;">P3</div>
+<div class="item-box" style="background: #ffa500;">O1</div>
+<div class="item-box" style="background: #ffa500;">O2</div>
+<div class="item-box" style="background: #ffa500;">O3</div>
+</div>
+<span class="and-text">AND</span>
+<div class="spinner-3"></div>
+</div>
+</div>
+
+</body>
+</html>

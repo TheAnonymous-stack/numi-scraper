@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .item {
+        margin: 20px;
+        padding: 15px;
+        border: 1px solid #ccc;
+        display: inline-block;
+    }
+    .tree-diagram {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        font-family: Arial, sans-serif;
+    }
+    .tree-level {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .tree-node {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 2px;
+    }
+    .node-label {
+        font-size: 11px;
+        font-weight: bold;
+        background: #e6f3ff;
+        padding: 3px 6px;
+        border: 1px solid #0066cc;
+        border-radius: 3px;
+        margin-bottom: 3px;
+        min-width: 30px;
+    }
+    .outcome-node {
+        background: #fff2e6;
+        border: 1px solid #ff9900;
+        color: #cc6600;
+        font-size: 10px;
+        padding: 2px 4px;
+    }
+    .connecting-lines {
+        display: flex;
+        justify-content: center;
+        height: 15px;
+        position: relative;
+        width: 100%;
+    }
+    .total-count {
+        margin-top: 15px;
+        text-align: center;
+        font-weight: bold;
+        color: #cc0000;
+        font-size: 14px;
+    }
+</style>
+</head>
+<body>
+
+<div class="item" label="Gr7_41_2_51_step_3" style="width: 900px; height: 500px; overflow-x: auto;">
+<div class="tree-diagram">
+    <div class="tree-level">
+        <div class="tree-node">
+            <div class="node-label">First Event</div>
+        </div>
+    </div>
+    
+    <div class="tree-level">
+        <div class="tree-node">
+            <div class="node-label">FI</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label">WA</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label">EA</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label">air</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label">LI</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label">DA</div>
+        </div>
+    </div>
+    
+    <div class="tree-level">
+        <div class="tree-node">
+            <div class="node-label outcome-node">FI,north</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">FI,south</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">FI,east</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">FI,west</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">FI,center</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">WA,north</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">WA,south</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">WA,east</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">WA,west</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">WA,center</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">EA,north</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">EA,south</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">EA,east</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">EA,west</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">EA,center</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">air,north</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">air,south</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">air,east</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">air,west</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">air,center</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">LI,north</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">LI,south</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">LI,east</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">LI,west</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">LI,center</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">DA,north</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">DA,south</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">DA,east</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">DA,west</div>
+        </div>
+        <div class="tree-node">
+            <div class="node-label outcome-node">DA,center</div>
+        </div>
+    </div>
+    
+    <div class="total-count">
+        Total: 30 outcomes
+    </div>
+</div>
+</div>
+
+</body>
+</html>

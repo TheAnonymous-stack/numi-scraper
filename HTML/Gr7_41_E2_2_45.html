@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+        .item {
+            margin: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            display: inline-block;
+        }
+        .probability-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            justify-content: center;
+        }
+        .die {
+            width: 60px;
+            height: 60px;
+            border: 2px solid #333;
+            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .items-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 35px);
+            gap: 5px;
+        }
+        .item-box {
+            width: 35px;
+            height: 35px;
+            border: 2px solid #666;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .and-text {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Shows 5 Infinity Stones and a die -->
+<div class="item" label="Gr7_41_2_45" style="width: 380px; height: 120px;">
+<div class="probability-container">
+<div class="items-grid">
+<div class="item-box" style="background: #9400d3; color: white;">POW</div>
+<div class="item-box" style="background: #0000ff; color: white;">SPC</div>
+<div class="item-box" style="background: #ff0000; color: white;">REA</div>
+<div class="item-box" style="background: #ff8800; color: white;">SOU</div>
+<div class="item-box" style="background: #ffff00; color: black;">MND</div>
+</div>
+<span class="and-text">AND</span>
+<div class="die">6</div>
+</div>
+</div>
+
+</body>
+</html>

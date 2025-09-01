@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Gr7_45_E1 1_27</title>
+    <style>
+        .item {
+            margin: 20px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        svg {
+            border: 1px solid #ccc;
+        }
+        .reflection-line {
+            stroke: blue;
+            stroke-width: 2;
+            stroke-dasharray: 5,5;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <!-- Question 1_27 Visual Components -->
+
+    <!-- Main Image: Gr7_45_1_27 -->
+    <div class="item" label="Gr7_45_1_27">
+        <svg width="200" height="200" viewBox="0 0 200 200">
+            <!-- Grid -->
+            <defs>
+                <pattern id="grid_main" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+                </pattern>
+            </defs>
+            <rect width="200" height="200" fill="url(#grid_main)" />
+            <!-- Original Shape -->
+            <path d="M 100,70 L 130,130 L 70,130 Z" fill="purple" stroke="black" stroke-width="2" opacity="0.8" />
+        </svg>
+    </div>
+
+    <!-- Choice Images -->
+    <div class="item" label="Gr7_45_1_27_A">
+        <svg width="200" height="200" viewBox="0 0 200 200">
+            <!-- Grid -->
+            <defs>
+                <pattern id="grid_choice_0" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+                </pattern>
+            </defs>
+            <rect width="200" height="200" fill="url(#grid_choice_0)" />
+            <line x1="0" y1="100" x2="200" y2="100" class="reflection-line"/>
+            <!-- Transformed Shape -->
+            <path d="M 100,70 L 130,130 L 70,130 Z" fill="purple" stroke="black" stroke-width="2" opacity="0.8" transform="scale(1,-1) translate(0,-200)"/>
+        </svg>
+    </div>
+    <div class="item" label="Gr7_45_1_27_B">
+        <svg width="200" height="200" viewBox="0 0 200 200">
+            <!-- Grid -->
+            <defs>
+                <pattern id="grid_choice_1" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+                </pattern>
+            </defs>
+            <rect width="200" height="200" fill="url(#grid_choice_1)" />
+            
+            <!-- Transformed Shape -->
+            <path d="M 100,70 L 130,130 L 70,130 Z" fill="purple" stroke="black" stroke-width="2" opacity="0.8" transform="translate(80,-60)"/>
+        </svg>
+    </div>
+    <div class="item" label="Gr7_45_1_27_C">
+        <svg width="200" height="200" viewBox="0 0 200 200">
+            <!-- Grid -->
+            <defs>
+                <pattern id="grid_choice_2" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+                </pattern>
+            </defs>
+            <rect width="200" height="200" fill="url(#grid_choice_2)" />
+            
+            <!-- Transformed Shape -->
+            <path d="M 100,70 L 130,130 L 70,130 Z" fill="purple" stroke="black" stroke-width="2" opacity="0.8" transform="rotate(90 100 100)"/>
+        </svg>
+    </div>
+    
+    <!-- Solution Images -->
+    <div class="item" label="Gr7_45_1_27_step_1">
+        <svg width="200" height="200" viewBox="0 0 200 200">
+            <!-- Grid -->
+            <defs>
+                <pattern id="grid_step_1" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+                </pattern>
+            </defs>
+            <rect width="200" height="200" fill="url(#grid_step_1)" />
+            <!-- Original Shape -->
+            <path d="M 100,70 L 130,130 L 70,130 Z" fill="purple" stroke="black" stroke-width="2" opacity="0.8" />
+        </svg>
+    </div>
+    <div class="item" label="Gr7_45_1_27_step_2">
+        <svg width="200" height="200" viewBox="0 0 200 200">
+            <!-- Grid -->
+            <defs>
+                <pattern id="grid_step_2" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+                </pattern>
+            </defs>
+            <rect width="200" height="200" fill="url(#grid_step_2)" />
+            <line x1="0" y1="100" x2="200" y2="100" class="reflection-line"/>
+            <!-- Transformed Shape -->
+            <path d="M 100,70 L 130,130 L 70,130 Z" fill="purple" stroke="black" stroke-width="2" opacity="0.8" transform="scale(1,-1) translate(0,-200)"/>
+        </svg>
+    </div>
+    <div class="item" label="Gr7_45_1_27_step_3">
+        <svg width="200" height="200" viewBox="0 0 200 200">
+            <!-- Grid -->
+            <defs>
+                <pattern id="grid_step_3" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+                </pattern>
+            </defs>
+            <rect width="200" height="200" fill="url(#grid_step_3)" />
+            
+            <!-- Transformed Shape -->
+            <path d="M 100,70 L 130,130 L 70,130 Z" fill="purple" stroke="black" stroke-width="2" opacity="0.8" transform="rotate(90 100 100)"/>
+        </svg>
+    </div>
+    <div class="item" label="Gr7_45_1_27_step_4">
+        <svg width="200" height="200" viewBox="0 0 200 200">
+            <!-- Grid -->
+            <defs>
+                <pattern id="grid_step_4" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+                </pattern>
+            </defs>
+            <rect width="200" height="200" fill="url(#grid_step_4)" />
+            
+            <!-- Transformed Shape -->
+            <path d="M 100,70 L 130,130 L 70,130 Z" fill="purple" stroke="black" stroke-width="2" opacity="0.8" transform="translate(80,-60)"/>
+        </svg>
+    </div>
+</body>
+</html>
