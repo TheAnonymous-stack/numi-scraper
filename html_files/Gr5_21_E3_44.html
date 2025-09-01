@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr5_21_E3 3_44</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .item {
+            margin: 20px 0;
+            display: inline-block;
+        }
+        .fraction-strip {
+            display: flex;
+            border: 2px solid #333;
+            width: 320px;
+            height: 50px;
+        }
+        .fraction-box {
+            flex: 1;
+            border-right: 1px solid #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .fraction-box:last-child {
+            border-right: none;
+        }
+        .filled {
+            background-color: #4CAF50;
+        }
+        .empty {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr5_21_3_44">
+        <div class="fraction-strip">
+            <div class="fraction-box filled"></div>
+            <div class="fraction-box empty"></div>
+            <div class="fraction-box empty"></div>
+            <div class="fraction-box empty"></div>
+        </div>
+        <div style="text-align: center; margin-top: 5px;">First fraction: 1/4</div>
+        
+        <div style="margin-top: 20px;"></div>
+        
+        <div class="fraction-strip">
+            <div class="fraction-box filled"></div>
+            <div class="fraction-box filled"></div>
+            <div class="fraction-box empty"></div>
+            <div class="fraction-box empty"></div>
+        </div>
+        <div style="text-align: center; margin-top: 5px;">Second fraction: 2/4</div>
+    </div>
+</body>
+</html>
