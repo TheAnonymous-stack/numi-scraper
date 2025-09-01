@@ -29,12 +29,13 @@
       ]
     ],
     "tag": "Gr7_1_E1",
-    "question_number": "1_1"
+    "question_number": "1_1",
+    "solution_image_tag": []
   },
   {
     "skills": "integers-on-number-lines",
     "question_text": "Type the missing number.",
-    "image_tag": "Grade7_1_2_1",
+    "image_tag": "Gr7_1_2_1",
     "backend_description": "A number line from -1 to 6 with tick marks at each integer. The number 3 is marked, followed by an empty box, then the number 5. Students need to identify the missing integer between 3 and 5.",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -75,7 +76,7 @@
   {
     "skills": "compare-and-order-integers",
     "question_text": "Which words make this statement true?\n\n$-2 \\_\\_\\_\\_ -1$\n\nIt may help to locate the points on a number line.\n",
-    "image_tag": "Grade7_1_3_1",
+    "image_tag": "Gr7_1_3_1",
     "backend_description": "A number line from -5 to 5 showing integer positions. This visual helps students compare -2 and -1 by seeing their relative positions, with numbers further left being smaller.",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -104,7 +105,8 @@
       ]
     ],
     "tag": "Gr7_1_E3",
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "solution_image_tag": []
   },
   {
     "skills": "compare-and-order-decimals",
@@ -121,7 +123,8 @@
     "solution_image_tag": [
       [
         "1/5",
-        "Gr7_1_4_1_step_1"
+        "Gr7_1_4_1_step_1",
+        "A place value chart with two columns labeled 'ones' and 'tenths'. The ones column contains the values 2 and 1 in separate rows. The tenths column contains the values 5 and 3 in corresponding rows, creating two decimal numbers: 2.5 and 1.3."
       ]
     ],
     "solution": [
@@ -195,18 +198,23 @@
         "Therefore, we get 0.42, 0.69, 0.78, 1.86 when ordering the numbers from least to greatest."
       ]
     ],
-    "question_number": "4_2"
+    "question_number": "4_2",
+    "solution_image_tag": []
   },
   {
     "skills": "decimal-number-lines",
     "question_text": "Find the value of z. Write your answer as a decimal number.\n\nz = ____\n",
-    "image_tag": "Grade7_2_2_1",
+    "image_tag": "Gr7_2_2_1",
     "backend_description": "A number line from 0 to 1 divided into 10 equal intervals. The variable z is marked at the 5th tick mark, requiring students to determine its decimal value.",
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["0.5"],
-      ["0.50"]
+      [
+        "0.5"
+      ],
+      [
+        "0.50"
+      ]
     ],
     "solution_image_tag": [
       [
@@ -298,7 +306,8 @@
       ]
     ],
     "tag": "Gr7_2_E4",
-    "question_number": "4_1"
+    "question_number": "4_1",
+    "solution_image_tag": []
   },
   {
     "skills": "compare-fractions-word-problems",
@@ -351,7 +360,7 @@
   {
     "skills": "compare-mixed-numbers-and-improper-fractions",
     "question_text": "Which sign makes the statement true?",
-    "image_tag": "Grade7_3_2_1",
+    "image_tag": "Gr7_3_2_1",
     "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -366,12 +375,12 @@
       [
         "3/6",
         "Gr7_3_2_1_step_3",
-        "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 × 2/2 = 4/18."
+        "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
       ],
       [
         "4/6",
         "Gr7_3_2_1_step_4",
-        "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 × 9/9 = 9/18."
+        "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
       ],
       [
         "5/6",
@@ -448,7 +457,8 @@
       ]
     ],
     "tag": "Gr7_3_E3",
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "solution_image_tag": []
   },
   {
     "skills": "identify-rational-numbers",
@@ -484,7 +494,7 @@
   {
     "skills": "compare-and-order-rational-numbers-using-number-lines",
     "question_text": "What sign makes the comparison true?\n\n$-\\frac{9}{10} \\_\\_\\_\\_-\\frac{7}{10}$\n\nYou can use the number line to help.",
-    "image_tag": "Grade7_4_1_1",
+    "image_tag": "Gr7_4_1_1",
     "backend_description": "A number line from -1 to 0 with two fractions marked: -9/10 and -7/10. The visual representation helps students see that -9/10 is further left (more negative) than -7/10.",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -521,7 +531,7 @@
   {
     "skills": "compare-rational-numbers",
     "question_text": "Which sign makes the statement true?",
-    "image_tag": "Grade7_4_2_1",
+    "image_tag": "Gr7_4_2_1",
     "backend_description": "Shows the comparison between -9 1/2 and -7 3/4 using mathematical notation and visual elements.",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -590,19 +600,26 @@
       ]
     ],
     "tag": "Gr7_4_E3",
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "solution_image_tag": []
   },
   {
     "skills": "equivalent-fractions",
     "question_text": "Type the missing number that makes these fractions equal:\n",
-    "image_tag": "Grade7_4_4_1",
+    "image_tag": "Gr7_4_4_1",
     "backend_description": "Shows an equation with 3/9 equals a fraction with denominator 3 and an unknown numerator represented by an empty box.",
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["1"],
-      ["1.0"],
-      ["1.00"]
+      [
+        "1"
+      ],
+      [
+        "1.0"
+      ],
+      [
+        "1.00"
+      ]
     ],
     "solution": [
       [
@@ -619,7 +636,8 @@
       ]
     ],
     "tag": "Gr7_4_E4",
-    "question_number": "4_1"
+    "question_number": "4_1",
+    "solution_image_tag": []
   },
   {
     "skills": "write-fractions-in-lowest-terms",
@@ -643,7 +661,8 @@
       ]
     ],
     "tag": "Gr7_5_E1",
-    "question_number": "1_1"
+    "question_number": "1_1",
+    "solution_image_tag": []
   },
   {
     "skills": "round-decimals",
@@ -651,9 +670,15 @@
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["54"],
-      ["54.0"],
-      ["54.00"]
+      [
+        "54"
+      ],
+      [
+        "54.0"
+      ],
+      [
+        "54.00"
+      ]
     ],
     "solution": [
       [
@@ -674,7 +699,8 @@
       ]
     ],
     "tag": "Gr7_5_E2",
-    "question_number": "2_1"
+    "question_number": "2_1",
+    "solution_image_tag": []
   },
   {
     "skills": "convert-between-mixed-numbers-and-improper-fractions",
@@ -700,7 +726,8 @@
       ]
     ],
     "tag": "Gr7_5_E3",
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "solution_image_tag": []
   },
   {
     "skills": "convert-between-decimals-and-fractions-or-mixed-numbers",
@@ -740,7 +767,7 @@
       [
         "1/2",
         "Gr7_6_1_1_step_1",
-        "Shows the conversion of 7/20 to a fraction with denominator 100. The calculation displays: 7/20 × 5/5 = 35/100, demonstrating how multiplying by 5/5 creates an equivalent fraction."
+        "Shows the conversion of 7/20 to a fraction with denominator 100. The calculation displays: 7/20 x 5/5 = 35/100, demonstrating how multiplying by 5/5 creates an equivalent fraction."
       ],
       [
         "2/2",
@@ -794,8 +821,12 @@
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["0.3"],
-      ["0.30"]
+      [
+        "0.3"
+      ],
+      [
+        "0.30"
+      ]
     ],
     "solution": [
       [
@@ -820,7 +851,8 @@
       ]
     ],
     "tag": "Gr7_6_E3",
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "solution_image_tag": []
   },
   {
     "skills": "add-subtract-multiply-and-divide-fractions-and-mixed-numbers-word-problems",
@@ -828,11 +860,21 @@
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["26/30"],
-      ["13/15"],
-      ["0.8667"],
-      ["0.867"],
-      ["0.87"]
+      [
+        "26/30"
+      ],
+      [
+        "13/15"
+      ],
+      [
+        "0.8667"
+      ],
+      [
+        "0.867"
+      ],
+      [
+        "0.87"
+      ]
     ],
     "solution_image_tag": [
       [
@@ -862,11 +904,11 @@
       ],
       [
         "3/10",
-        "The prime factorization of 10 is 2 × 5, and for 6 it is 2 × 3."
+        "The prime factorization of 10 is 2 x 5, and for 6 it is 2 x 3."
       ],
       [
         "4/10",
-        "Use each factor the greatest number of times it appears: 2, 3, and 5. Multiply them to get the LCD: 2 × 3 × 5 = 30."
+        "Use each factor the greatest number of times it appears: 2, 3, and 5. Multiply them to get the LCD: 2 x 3 x 5 = 30."
       ],
       [
         "5/10",
@@ -899,7 +941,7 @@
   {
     "skills": "price-lists",
     "question_text": "Isabelle has 1.00 dollar. Does she have enough to buy a package of purple streamers and a party hat?\n\nDo not round.\n\n",
-    "image_tag": "Grade7_7_1_1",
+    "image_tag": "Gr7_7_1_1",
     "backend_description": "A price list table showing party supplies: bouncy ball (0.71 dollars), greeting card (0.97 dollars), party hat (0.57 dollars), noisemaker (0.52 dollars), and package of purple streamers (0.41 dollars). The table has a yellow header and white background.",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -932,15 +974,19 @@
   {
     "question_text": "How much more does a ticket for a Hawaiian cruise cost than a ticket for a Mexican cruise?\n",
     "skills": "price-lists",
-    "image_tag": "Grade7_7_1_2",
+    "image_tag": "Gr7_7_1_2",
     "backend_description": "A price list table showing cruise ticket prices: Australian cruise (6040 dollars), Mexican cruise (7119 dollars), Alaskan cruise (6959 dollars), Mediterranean cruise (2462 dollars), and Hawaiian cruise (8606 dollars). The table uses purple header styling.",
     "tag": "Gr7_7_E1",
     "question_type": "Fill in the blank",
     "question_number": "1_2",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["1487"],
-      ["1,487"]
+      [
+        "1487"
+      ],
+      [
+        "1,487"
+      ]
     ],
     "solution_image_tag": [
       [
@@ -963,7 +1009,7 @@
   {
     "question_text": "How much money does Wanda need to buy a small metal hook and a short steel screw?\n\nDo not round.\n",
     "skills": "price-lists",
-    "image_tag": "Grade7_7_1_3",
+    "image_tag": "Gr7_7_1_3",
     "backend_description": "A price list table showing hardware items: red thumbtack (0.12 dollars), brass clip (0.52 dollars), small paintbrush (0.70 dollars), short steel screw (0.14 dollars), roll of electrical tape (0.60 dollars), and small metal hook (0.60 dollars). The table has alternating row colors for easier reading.",
     "tag": "Gr7_7_E1",
     "question_type": "Fill in the blank",
@@ -971,17 +1017,11 @@
     "correct_answers": [
       "0.74"
     ],
-    "solution_image_tag": [
-      [
-        "1/2",
-        "Gr7_7_1_3_step_1",
-        "Shows the addition: 0.60 dollars + 0.14 dollars = 0.74 dollars. The calculation adds the price of a small metal hook and a short steel screw."
-      ]
-    ],
+    "solution_image_tag": [],
     "solution": [
       [
         "1/2",
-        "Add the price of a small metal hook and the price of a short steel screw:\n"
+        "Add the price of a small metal hook and the price of a short steel screw:\n0.60 dollars + 0.14 dollars = 0.74 dollars."
       ],
       [
         "2/2",
@@ -992,13 +1032,17 @@
   {
     "skills": "unit-prices-find-the-total-price",
     "question_text": "What is the total cost for 1 kilogram of chicken chili?\n\n Do not round your answer.\n",
-    "image_tag": "Grade7_7_3_1",
+    "image_tag": "Gr7_7_3_1",
     "backend_description": "A price list table showing soup prices per kilogram: vegetable soup (0.63 dollars/kg), tortilla soup (0.63 dollars/kg), chicken chili (0.72 dollars/kg), and lobster bisque (1.04 dollars/kg). The table clearly displays unit prices.",
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["0.72"],[
-      "0.72 dollars"]
+      [
+        "0.72"
+      ],
+      [
+        "0.72 dollars"
+      ]
     ],
     "solution": [
       [
@@ -1015,7 +1059,8 @@
       ]
     ],
     "tag": "Gr7_7_E3",
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "solution_image_tag": []
   },
   {
     "skills": "multi-step-problems-with-percents",
@@ -1023,19 +1068,23 @@
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["28"],
-      ["28 dollars"]
+      [
+        "28"
+      ],
+      [
+        "28 dollars"
+      ]
     ],
     "solution_image_tag": [
       [
         "1/4",
         "Gr7_7_4_1_step_1",
-        "Shows finding the discount price: original price × discount = 50 dollars × 0.50 = 25 dollars. Then subtracting from original: 50 dollars - 25 dollars = 25 dollars."
+        "Shows finding the discount price: original price x discount = 50 dollars x 0.50 = 25 dollars. Then subtracting from original: 50 dollars - 25 dollars = 25 dollars."
       ],
       [
         "2/4",
         "Gr7_7_4_1_step_2",
-        "Shows calculating the tax: 25 dollars × 0.12 = 3 dollars. The 12% tax rate is converted to decimal form (0.12) for calculation."
+        "Shows calculating the tax: 25 dollars x 0.12 = 3 dollars. The 12% tax rate is converted to decimal form (0.12) for calculation."
       ],
       [
         "3/4",
@@ -1070,9 +1119,15 @@
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["2"],
-      ["2.0"],
-      ["2.00"]
+      [
+        "2"
+      ],
+      [
+        "2.0"
+      ],
+      [
+        "2.00"
+      ]
     ],
     "solution_image_tag": [
       [
@@ -1100,7 +1155,7 @@
   },
   {
     "skills": "properties-of-addition-and-multiplication",
-    "question_text": "Which property of multiplication is shown?\n\n2 dollars × (7 × 9) = (2 × 7) × 9$",
+    "question_text": "Which property of multiplication is shown?\n\n2 dollars x (7 x 9) = (2 x 7) x 9$",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
       "associative",
@@ -1112,7 +1167,7 @@
     "solution": [
       [
         "1/2",
-        "The equation 2 × (7 × 9) = (2 × 7) × 9 shows a change in grouping."
+        "The equation 2 x (7 x 9) = (2 x 7) x 9 shows a change in grouping."
       ],
       [
         "2/2",
@@ -1120,7 +1175,8 @@
       ]
     ],
     "tag": "Gr7_8_E2",
-    "question_number": "2_1"
+    "question_number": "2_1",
+    "solution_image_tag": []
   },
   {
     "skills": "multiply-using-the-distributive-property",
@@ -1128,10 +1184,18 @@
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["15t+6"],
-      ["6+15t"],
-      ["t15+6"],
-      ["6+t15"]
+      [
+        "15t+6"
+      ],
+      [
+        "6+15t"
+      ],
+      [
+        "t15+6"
+      ],
+      [
+        "6+t15"
+      ]
     ],
     "solution": [
       [
@@ -1140,7 +1204,7 @@
       ],
       [
         "2/3",
-        "Multiply 3 by each term inside the parentheses:\n3 × 5t = 15t\n3 × 2 = 6"
+        "Multiply 3 by each term inside the parentheses:\n3 x 5t = 15t\n3 x 2 = 6"
       ],
       [
         "3/3",
@@ -1148,7 +1212,8 @@
       ]
     ],
     "tag": "Gr7_8_E3",
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "solution_image_tag": []
   },
   {
     "skills": "solve-equations-using-properties",
@@ -1180,7 +1245,8 @@
       ]
     ],
     "tag": "Gr7_8_E4",
-    "question_number": "4_1"
+    "question_number": "4_1",
+    "solution_image_tag": []
   },
   {
     "skills": "write-equivalent-expressions-using-properties",
@@ -1216,12 +1282,13 @@
       ]
     ],
     "tag": "Gr7_9_E1",
-    "question_number": "1_1"
+    "question_number": "1_1",
+    "solution_image_tag": []
   },
   {
     "skills": "add-integers-using-counters",
     "question_text": "Use counters to add -1 + 1.\n\nWhich picture shows the sum?\n",
-    "image_tag": "Grade7_9_2_1",
+    "image_tag": "Gr7_9_2_1",
     "backend_description": "Shows a visual representation for adding -1 + 1 using counter symbols. Multiple choice options display different combinations of positive and negative counters.",
     "question_type": "Multiple Choice Question with Single Answer",
     "image_choice_tags": [
@@ -1320,7 +1387,8 @@
       ]
     ],
     "tag": "Gr7_9_E3",
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "solution_image_tag": []
   },
   {
     "skills": "add-integers",
@@ -1348,7 +1416,8 @@
       ]
     ],
     "tag": "Gr7_9_E4",
-    "question_number": "4_1"
+    "question_number": "4_1",
+    "solution_image_tag": []
   },
   {
     "skills": "add-three-or-more-integers",
@@ -1429,12 +1498,13 @@
       ]
     ],
     "tag": "Gr7_10_E2",
-    "question_number": "2_1"
+    "question_number": "2_1",
+    "solution_image_tag": []
   },
   {
     "question_text": "Use counters to subtract –2 − 2.\n\nWhich picture shows the difference?\n",
     "skills": "add-and-subtract-integers-using-counters",
-    "image_tag": "Grade7_10_3_1",
+    "image_tag": "Gr7_10_3_1",
     "backend_description": "Shows a visual representation for subtracting -2 - 2 using counter symbols. Multiple choice options display different combinations of positive and negative counters.",
     "tag": "Gr7_10_E3",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -1501,7 +1571,7 @@
   {
     "skills": "add-and-subtract-integers-using-counters",
     "question_text": "Use counters to add -1 + 4.\n\nWhich picture shows the sum?\n",
-    "image_tag": "Grade7_10_3_2",
+    "image_tag": "Gr7_10_3_2",
     "backend_description": "Shows a visual representation for adding -1 + 4 using counter symbols. Multiple choice options display different combinations of positive and negative counters.",
     "question_type": "Multiple Choice Question with Single Answer",
     "image_choice_tags": [
@@ -1596,7 +1666,8 @@
       ]
     ],
     "tag": "Gr7_10_E4",
-    "question_number": "4_1"
+    "question_number": "4_1",
+    "solution_image_tag": []
   },
   {
     "question_text": "Add:\n\n-4 + 3 = ____\n",
@@ -1624,7 +1695,8 @@
         "4/4",
         "So, –4 + 3 = –1."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "question_text": "Dominic deposited 300 dollars he made from helping out with chores. If Dominic's bank account started out with a balance of 300 dollars, which integer represents the final balance?",
@@ -1654,7 +1726,8 @@
         "3/3",
         "Dominic's final balance is 600 dollars. So, option C is correct."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "skills": "add-and-subtract-integers-word-problems",
@@ -1684,12 +1757,13 @@
       ]
     ],
     "tag": "Gr7_11_E1",
-    "question_number": "1_2"
+    "question_number": "1_2",
+    "solution_image_tag": []
   },
   {
     "skills": "add-and-subtract-fractions-with-like-denominators",
     "question_text": "Add.\n",
-    "image_tag": "Grade7_11_3_1",
+    "image_tag": "Gr7_11_3_1",
     "backend_description": "Shows the addition of 1/3 + 1/3 with an empty box for the answer.",
     "question_type": "Fill in the blank",
     "question_number": "3_1",
@@ -1706,12 +1780,13 @@
         "So, $\\frac{1}{3} + \\frac{1}{3} = \\frac{2}{3}$."
       ]
     ],
-    "tag": "Gr7_11_E3"
+    "tag": "Gr7_11_E3",
+    "solution_image_tag": []
   },
   {
     "question_text": "Subtract.\n",
     "skills": "add-and-subtract-fractions-with-like-denominators",
-    "image_tag": "Grade7_11_3_2",
+    "image_tag": "Gr7_11_3_2",
     "backend_description": "Shows the subtraction of 7/9 - 3/9 with an empty box for the answer.",
     "tag": "Gr7_11_E3",
     "question_type": "Fill in the blank",
@@ -1728,7 +1803,8 @@
         "2/2",
         "So, $\\frac{7}{9} - \\frac{3}{9} = \\frac{4}{9}$."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "skills": "add-and-subtract-fractions-with-like-denominators-word-problems",
@@ -1752,7 +1828,8 @@
       ]
     ],
     "tag": "Gr7_11_E4",
-    "question_number": "4_1"
+    "question_number": "4_1",
+    "solution_image_tag": []
   },
   {
     "question_text": "At a pie-eating contest, Amelia got through $\\frac{3}{5}$ of a pie before time was called; Dalton finished just $\\frac{2}{5}$ of a pie.\n\nHow much more pie did Amelia eat than Dalton?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n",
@@ -1776,13 +1853,14 @@
         "3/3",
         "Therefore, Amelia ate $\\frac{1}{5}$ of a pie more than Dalton."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "skills": "add-fractions-with-unlike-denominators-using-models",
     "question_text": "Add.\n\n$\\frac{2}{3} + \\frac{1}{6} = \\_\\_\\_\\_$\n\nUse the model to help you.\n",
     "question_type": "Fill in the blank",
-    "image_tag": "Grade7_12_1_1",
+    "image_tag": "Gr7_12_1_1",
     "backend_description": "Visual model showing 2/3 + 1/6 using rectangular bars. The top bar is divided into thirds with two sections shaded blue, and the bottom bar is divided into sixths with one section shaded green.",
     "correct_answers": [
       "5/6"
@@ -1806,24 +1884,29 @@
       ]
     ],
     "tag": "Gr7_12_E1",
-    "question_number": "1_1"
+    "question_number": "1_1",
+    "solution_image_tag": []
   },
   {
     "skills": "add-fractions-with-unlike-denominators",
     "question_text": "Add.\n",
-    "image_tag": "Grade7_12_2_1",
+    "image_tag": "Gr7_12_2_1",
     "backend_description": "Shows the addition problem 1/6 + 1/2 with an empty box for the answer.",
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["4/6"],
-      ["2/3"]
+      [
+        "4/6"
+      ],
+      [
+        "2/3"
+      ]
     ],
     "solution_image_tag": [
       [
         "2/4",
         "Gr7_12_2_1_step_2",
-        "Shows the conversion of 1/2 to 3/6 by multiplying both numerator and denominator by 3. The calculation 1×3/2×3 = 3/6 is displayed."
+        "Shows the conversion of 1/2 to 3/6 by multiplying both numerator and denominator by 3. The calculation 1x3/2x3 = 3/6 is displayed."
       ],
       [
         "3/4",
@@ -1855,7 +1938,7 @@
   {
     "skills": "subtract-fractions-with-unlike-denominators-using-models",
     "question_text": "Subtract the fractions.\n\n$\\frac{4}{6} - \\frac{1}{2} = \\_\\_\\_\\_$\n\nUse the model to help you.\n",
-    "image_tag": "Grade7_12_3_1",
+    "image_tag": "Gr7_12_3_1",
     "backend_description": "Visual model showing 4/6 - 1/2 using rectangular bars. One bar shows 4 out of 6 sections shaded, and another shows 1 out of 2 sections shaded.",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -1880,29 +1963,25 @@
       ]
     ],
     "tag": "Gr7_12_E3",
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "solution_image_tag": []
   },
   {
     "skills": "subtract-fractions-with-unlike-denominators",
     "question_text": "Subtract.\n",
-    "image_tag": "Grade7_12_4_1",
+    "image_tag": "Gr7_12_4_1",
     "backend_description": "Shows the subtraction problem 2/4 - 2/8 with an empty box for the answer.",
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["2/8"],
-      ["1/4"]
-    ],
-    "solution_image_tag": [
       [
-        "2/4",
-        "Gr7_12_4_1_step_2"
+        "2/8"
       ],
       [
-        "3/4",
-        "Gr7_12_4_1_step_3"
+        "1/4"
       ]
     ],
+    "solution_image_tag": [],
     "solution": [
       [
         "1/4",
@@ -1910,11 +1989,11 @@
       ],
       [
         "2/4",
-        "Rewrite $\\frac{2}{4}$ with a denominator of 8 by multiplying the numerator and denominator by 2:\n"
+        "Rewrite $\\frac{2}{4}$ with a denominator of 8 by multiplying the numerator and denominator by 2:\n$\\frac{2 x 2}{4 x 2}=\\frac{4}{8}$"
       ],
       [
         "3/4",
-        "Now subtract the fractions:\n"
+        "Now subtract the fractions:\n$\\frac{4}{8} - \\frac{2}{8} = \\frac{2}{8}$"
       ],
       [
         "4/4",
@@ -1926,7 +2005,7 @@
   },
   {
     "question_text": "Subtract.\n",
-    "image_tag": "Grade7_13_1_1",
+    "image_tag": "Gr7_13_1_1",
     "backend_description": "Shows the subtraction problem 5/6 - 1/12 with an empty box for the answer.",
     "skills": "add-and-subtract-fractions-with-unlike-denominators",
     "tag": "Gr7_13_E1",
@@ -1934,14 +2013,18 @@
     "question_number": "1_1",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["9/12"],
-      ["3/4"]
+      [
+        "9/12"
+      ],
+      [
+        "3/4"
+      ]
     ],
     "solution_image_tag": [
       [
         "2/4",
         "Gr7_13_1_1_step_2",
-        "Shows the conversion of 5/6 to 10/12 by multiplying both numerator and denominator by 2. The equation clearly displays: 5/6 × 2/2 = 10/12, demonstrating how to find a common denominator."
+        "Shows the conversion of 5/6 to 10/12 by multiplying both numerator and denominator by 2. The equation clearly displays: 5/6 x 2/2 = 10/12, demonstrating how to find a common denominator."
       ],
       [
         "3/4",
@@ -1971,7 +2054,7 @@
   {
     "skills": "add-and-subtract-fractions-with-unlike-denominators",
     "question_text": "Add.\n",
-    "image_tag": "Grade7_13_1_2",
+    "image_tag": "Gr7_13_1_2",
     "backend_description": "Shows the addition problem 5/9 + 1/3 with an empty box for the answer.",
     "question_type": "Fill in the blank",
     "question_number": "1_2",
@@ -1982,7 +2065,7 @@
       [
         "2/4",
         "Gr7_13_1_2_step_2",
-        "Shows the conversion of 1/3 to 3/9 by multiplying both numerator and denominator by 3. The equation displays: 1/3 × 3/3 = 3/9, demonstrating how to create a common denominator with 5/9."
+        "Shows the conversion of 1/3 to 3/9 by multiplying both numerator and denominator by 3. The equation displays: 1/3 x 3/3 = 3/9, demonstrating how to create a common denominator with 5/9."
       ],
       [
         "3/4",
@@ -2016,9 +2099,15 @@
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["2/6"],
-      ["1/3"],
-      ["4/12"]
+      [
+        "2/6"
+      ],
+      [
+        "1/3"
+      ],
+      [
+        "4/12"
+      ]
     ],
     "solution_image_tag": [
       [
@@ -2056,14 +2145,18 @@
   {
     "skills": "add-and-subtract-mixed-numbers",
     "question_text": "Add. Write your answer as a fraction or as a whole or mixed number. __/_",
-    "image_tag": "Grade7_13_3_1",
+    "image_tag": "Gr7_13_3_1",
     "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
     "question_type": "Fill in the blank",
     "question_number": "3_1",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["11 5/11"],
-      ["126/11"]
+      [
+        "11 5/11"
+      ],
+      [
+        "126/11"
+      ]
     ],
     "solution_image_tag": [
       [
@@ -2103,15 +2196,19 @@
   {
     "question_text": "Subtract. Write your answer as a fraction or as a whole or mixed number.\n\n",
     "skills": "add-and-subtract-mixed-numbers",
-    "image_tag": "Grade7_13_3_2",
+    "image_tag": "Gr7_13_3_2",
     "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
     "tag": "Gr7_13_E3",
     "question_type": "Fill in the blank",
     "question_number": "3_2",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["8 4/11"],
-      ["92/11"]
+      [
+        "8 4/11"
+      ],
+      [
+        "92/11"
+      ]
     ],
     "solution_image_tag": [
       [
@@ -2165,10 +2262,18 @@
     "question_number": "4_1",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["8 1/2"],
-      ["17/2"],
-      ["34/4"],
-      ["8 2/4"]
+      [
+        "8 1/2"
+      ],
+      [
+        "17/2"
+      ],
+      [
+        "34/4"
+      ],
+      [
+        "8 2/4"
+      ]
     ],
     "solution_image_tag": [
       [
@@ -2212,8 +2317,12 @@
     "question_number": "4_2",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["2 1/2"],
-      ["5/2"]
+      [
+        "2 1/2"
+      ],
+      [
+        "5/2"
+      ]
     ],
     "solution_image_tag": [
       [
@@ -2258,12 +2367,12 @@
       [
         "1/5",
         "Gr7_14_1_1_step_1",
-        "Shows the prime factorization of both numbers. 8 is broken down as 8 = 2 × 2 × 2 (with each 2 shown in red), and 4 is broken down as 4 = 2 × 2 (with each 2 shown in red)."
+        "Shows the prime factorization of both numbers. 8 is broken down as 8 = 2 x 2 x 2 (with each 2 shown in red), and 4 is broken down as 4 = 2 x 2 (with each 2 shown in red)."
       ],
       [
         "2/5",
         "Gr7_14_1_1_step_2",
-        "Highlights the common factors between the two numbers. Both 8 and 4 share 2 × 2 as common factors, with the shared factors shown in red to make the comparison clear."
+        "Highlights the common factors between the two numbers. Both 8 and 4 share 2 x 2 as common factors, with the shared factors shown in red to make the comparison clear."
       ]
     ],
     "solution": [
@@ -2321,7 +2430,8 @@
       ]
     ],
     "tag": "Gr7_14_E2",
-    "question_number": "2_1"
+    "question_number": "2_1",
+    "solution_image_tag": []
   },
   {
     "skills": "gcf-and-lcm-word-problems",
@@ -2357,7 +2467,8 @@
       ]
     ],
     "tag": "Gr7_14_E3",
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "solution_image_tag": []
   },
   {
     "question_text": "Over the next two days, Madison Employment Agency is interviewing clients who wish to find jobs. On the first day, the agency plans to interview clients in groups of 2. On the second day, the agency will interview clients in groups of 10. If the employment agency will interview the same number of clients on each day, what is the smallest number of clients that could be interviewed each day?\n",
@@ -2393,7 +2504,8 @@
         "6/6",
         "So, the smallest number of clients that could be interviewed each day is 10."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "skills": "understanding-exponents",
@@ -2413,7 +2525,8 @@
       ]
     ],
     "tag": "Gr7_14_E4",
-    "question_number": "4_1"
+    "question_number": "4_1",
+    "solution_image_tag": []
   },
   {
     "skills": "understand-exponents",
@@ -2433,7 +2546,8 @@
       ]
     ],
     "tag": "Gr7_14_E4",
-    "question_number": "4_2"
+    "question_number": "4_2",
+    "solution_image_tag": []
   },
   {
     "skills": "evaluate-powers",
@@ -2446,7 +2560,7 @@
       [
         "2/2",
         "Gr7_15_1_1_step_2",
-        "Shows the calculation 8² = 8 × 8 = 64. The exponent notation is expanded to show multiplication, then the final result."
+        "Shows the calculation 8² = 8 x 8 = 64. The exponent notation is expanded to show multiplication, then the final result."
       ]
     ],
     "solution": [
@@ -2487,7 +2601,7 @@
       ],
       [
         "3/5",
-        "First try 2 dollars^{2} = 2 × 2 = 4$, this does not equal 8."
+        "First try 2 dollars^{2} = 2 x 2 = 4$, this does not equal 8."
       ],
       [
         "4/5",
@@ -2504,8 +2618,8 @@
   {
     "skills": "multiply-fractions",
     "question_text": "Multiply.\n\n",
-    "image_tag": "Grade7_15_4_1",
-    "backend_description": "Shows the multiplication problem 1/5 × 1/4 with an empty box for the answer.",
+    "image_tag": "Gr7_15_4_1",
+    "backend_description": "Shows the multiplication problem 1/5 x 1/4 with an empty box for the answer.",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "1/20"
@@ -2514,25 +2628,25 @@
       [
         "3/4",
         "Gr7_15_4_1_step_3",
-        "Shows the complete multiplication: (1 × 1)/(5 × 4) = 1/20. The numerators are multiplied together (1 × 1 = 1) and the denominators are multiplied together (5 × 4 = 20)."
+        "Shows the complete multiplication: (1 x 1)/(5 x 4) = 1/20. The numerators are multiplied together (1 x 1 = 1) and the denominators are multiplied together (5 x 4 = 20)."
       ]
     ],
     "solution": [
       [
         "1/4",
-        "We are multiplying two fractions.\n$\\frac{1}{5} × \\frac{1}{4}$"
+        "We are multiplying two fractions.\n$\\frac{1}{5} x \\frac{1}{4}$"
       ],
       [
         "2/4",
-        "First, multiply the numerators.\n1 × 1 = 1"
+        "First, multiply the numerators.\n1 x 1 = 1"
       ],
       [
         "3/4",
-        "Now multiply the denominators:\n5 × 4 = 20\n"
+        "Now multiply the denominators:\n5 x 4 = 20\n"
       ],
       [
         "4/4",
-        "So, $\\frac{1}{5} × \\frac{1}{4} = \\frac{1}{20}$."
+        "So, $\\frac{1}{5} x \\frac{1}{4} = \\frac{1}{20}$."
       ]
     ],
     "tag": "Gr7_15_E4",
@@ -2549,12 +2663,12 @@
       [
         "2/5",
         "Gr7_16_1_1_step_2",
-        "Shows the multiplication of two fractions: 1/4 × 1/3. The calculation is set up to multiply numerators and denominators separately."
+        "Shows the multiplication of two fractions: 1/4 x 1/3. The calculation is set up to multiply numerators and denominators separately."
       ],
       [
         "4/5",
         "Gr7_16_1_1_step_4",
-        "Shows the complete calculation: 1/4 × 1/3 = (1 × 1)/(4 × 3) = 1/12. The numerators (1 × 1 = 1) and denominators (4 × 3 = 12) are multiplied to get the final answer."
+        "Shows the complete calculation: 1/4 x 1/3 = (1 x 1)/(4 x 3) = 1/12. The numerators (1 x 1 = 1) and denominators (4 x 3 = 12) are multiplied to get the final answer."
       ]
     ],
     "solution": [
@@ -2585,29 +2699,33 @@
   {
     "skills": "multiply-mixed-numbers",
     "question_text": "Multiply. Write your answer as a fraction or as a whole or mixed number.\n",
-    "image_tag": "Grade7_16_2_1",
-    "backend_description": "Shows the multiplication of two mixed numbers: 4 1/3 × 2 1/4 with an empty box for the answer.",
+    "image_tag": "Gr7_16_2_1",
+    "backend_description": "Shows the multiplication of two mixed numbers: 4 1/3 x 2 1/4 with an empty box for the answer.",
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["9 3/4"],
-      ["39/4"]
+      [
+        "9 3/4"
+      ],
+      [
+        "39/4"
+      ]
     ],
     "solution_image_tag": [
       [
         "3/7",
         "Gr7_16_2_1_step_3",
-        "Shows the conversion of 4 1/3 to an improper fraction: 4 1/3 = (4 × 3 + 1)/3 = 13/3. The calculation demonstrates multiplying the whole number by the denominator and adding the numerator."
+        "Shows the conversion of 4 1/3 to an improper fraction: 4 1/3 = (4 x 3 + 1)/3 = 13/3. The calculation demonstrates multiplying the whole number by the denominator and adding the numerator."
       ],
       [
         "4/7",
         "Gr7_16_2_1_step_4",
-        "Shows the conversion of 2 1/4 to an improper fraction: 2 1/4 = (2 × 4 + 1)/4 = 9/4. The same process is used to convert the second mixed number."
+        "Shows the conversion of 2 1/4 to an improper fraction: 2 1/4 = (2 x 4 + 1)/4 = 9/4. The same process is used to convert the second mixed number."
       ],
       [
         "5/7",
         "Gr7_16_2_1_step_5",
-        "Shows the multiplication of the improper fractions: 13/3 × 9/4 = (13 × 9)/(3 × 4) = 117/12. The numerators and denominators are multiplied separately."
+        "Shows the multiplication of the improper fractions: 13/3 x 9/4 = (13 x 9)/(3 x 4) = 117/12. The numerators and denominators are multiplied separately."
       ],
       [
         "6/7",
@@ -2654,24 +2772,28 @@
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-     [ "2 2/5"],
-      ["12/5"]
+      [
+        "2 2/5"
+      ],
+      [
+        "12/5"
+      ]
     ],
     "solution_image_tag": [
       [
         "1/5",
         "Gr7_16_3_1_step_1",
-        "Shows the multiplication setup: 3 × 4/5. The whole number 3 is to be multiplied by the fraction 4/5."
+        "Shows the multiplication setup: 3 x 4/5. The whole number 3 is to be multiplied by the fraction 4/5."
       ],
       [
         "2/5",
         "Gr7_16_3_1_step_2",
-        "Shows converting 3 to a fraction: 3 = 3/1. This allows the multiplication to be performed as fraction × fraction."
+        "Shows converting 3 to a fraction: 3 = 3/1. This allows the multiplication to be performed as fraction x fraction."
       ],
       [
         "3/5",
         "Gr7_16_3_1_step_3",
-        "Shows the multiplication: 3/1 × 4/5 = (3 × 4)/(1 × 5) = 12/5. The numerators and denominators are multiplied to get the improper fraction result."
+        "Shows the multiplication: 3/1 x 4/5 = (3 x 4)/(1 x 5) = 12/5. The numerators and denominators are multiplied to get the improper fraction result."
       ],
       [
         "5/5",
@@ -2710,9 +2832,15 @@
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["4"],
-      ["4/1"],
-      ["4.0"]
+      [
+        "4"
+      ],
+      [
+        "4/1"
+      ],
+      [
+        "4.0"
+      ]
     ],
     "solution": [
       [
@@ -2733,7 +2861,8 @@
       ]
     ],
     "tag": "Gr7_16_E4",
-    "question_number": "4_1"
+    "question_number": "4_1",
+    "solution_image_tag": []
   },
   {
     "skills": "divide-fractions-word-problems",
@@ -2741,8 +2870,12 @@
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["1/8"],
-     [ "0.125"]
+      [
+        "1/8"
+      ],
+      [
+        "0.125"
+      ]
     ],
     "solution_image_tag": [
       [
@@ -2758,12 +2891,12 @@
       [
         "3/4",
         "Gr7_17_1_1_step_3",
-        "Shows converting division to multiplication by the reciprocal: 1/2 ÷ 4/1 = 1/2 × 1/4. The reciprocal of 4/1 is 1/4."
+        "Shows converting division to multiplication by the reciprocal: 1/2 ÷ 4/1 = 1/2 x 1/4. The reciprocal of 4/1 is 1/4."
       ],
       [
         "4/4",
         "Gr7_17_1_1_step_4",
-        "Shows the final multiplication: 1/2 × 1/4 = 1/8. Multiplying the numerators (1 × 1 = 1) and denominators (2 × 4 = 8) gives the answer."
+        "Shows the final multiplication: 1/2 x 1/4 = 1/8. Multiplying the numerators (1 x 1 = 1) and denominators (2 x 4 = 8) gives the answer."
       ]
     ],
     "solution": [
@@ -2790,30 +2923,36 @@
   {
     "skills": "divide-fractions-and-mixed-numbers",
     "question_text": "Divide.\n",
-    "image_tag": "Grade7_17_2_1",
+    "image_tag": "Gr7_17_2_1",
     "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["1 3/5"],
-      ["8/5"],
-      ["24/15"]
+      [
+        "1 3/5"
+      ],
+      [
+        "8/5"
+      ],
+      [
+        "24/15"
+      ]
     ],
     "solution_image_tag": [
       [
         "1/4",
         "Gr7_17_2_1_step_1",
-        "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 × 3 + 1)/3 = 4/3."
+        "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
       ],
       [
         "2/4",
         "Gr7_17_2_1_step_2",
-        "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 × 6/5. The reciprocal of 5/6 is 6/5."
+        "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
       ],
       [
         "3/4",
         "Gr7_17_2_1_step_3",
-        "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 × 2)/(1 × 5) = 8/5."
+        "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
       ],
       [
         "4/4",
@@ -2848,9 +2987,15 @@
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["1/5"],
-      ["0.2"],
-      ["0.20"]
+      [
+        "1/5"
+      ],
+      [
+        "0.2"
+      ],
+      [
+        "0.20"
+      ]
     ],
     "solution_image_tag": [
       [
@@ -2861,12 +3006,12 @@
       [
         "2/4",
         "Gr7_17_3_1_step_2",
-        "Shows converting to multiplication by the reciprocal: 3/5 ÷ 3 = 3/5 × 1/3. When dividing by 3, multiply by 1/3."
+        "Shows converting to multiplication by the reciprocal: 3/5 ÷ 3 = 3/5 x 1/3. When dividing by 3, multiply by 1/3."
       ],
       [
         "3/4",
         "Gr7_17_3_1_step_3",
-        "Shows the simplification: The 3 in the numerator of the first fraction cancels with the 3 in the denominator of the second fraction, leaving 1/5 × 1/1 = 1/5."
+        "Shows the simplification: The 3 in the numerator of the first fraction cancels with the 3 in the denominator of the second fraction, leaving 1/5 x 1/1 = 1/5."
       ],
       [
         "4/4",
@@ -2901,14 +3046,18 @@
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["1.2"],
-      ["1.20"]
+      [
+        "1.2"
+      ],
+      [
+        "1.20"
+      ]
     ],
     "solution_image_tag": [
       [
         "2/5",
         "Gr7_17_4_1_step_2",
-        "Shows the multiplication calculation: 0.6 × 2. First multiply ignoring the decimal: 6 × 2 = 12. Then place the decimal point based on the total decimal places in the factors."
+        "Shows the multiplication calculation: 0.6 x 2. First multiply ignoring the decimal: 6 x 2 = 12. Then place the decimal point based on the total decimal places in the factors."
       ]
     ],
     "solution": [
@@ -2939,8 +3088,8 @@
   {
     "skills": "multiply-decimals",
     "question_text": "The model shows 0.4 x 0.2.\n\nMultiply.\n\n0.4 dollars x 0.2 = \\_\\_\\_\\_$",
-    "image_tag": "Grade7_18_1_1",
-    "backend_description": "Shows a 10×10 grid representing 1 whole. The visual model displays 0.4 × 0.2 with 4 rows (representing 0.4) shaded in light purple and 2 columns (representing 0.2) shaded more prominently. The overlapping area of 8 small squares represents the product.",
+    "image_tag": "Gr7_18_1_1",
+    "backend_description": "Shows a 10x10 grid representing 1 whole. The visual model displays 0.4 x 0.2 with 4 rows (representing 0.4) shaded in light purple and 2 columns (representing 0.2) shaded more prominently. The overlapping area of 8 small squares represents the product.",
     "question_type": "Fill in the blank",
     "correct_answers": [
       "0.08"
@@ -2949,7 +3098,7 @@
       [
         "1/5",
         "Gr7_18_1_1_step_1",
-        "Shows a 10×10 grid where the overlapping area of 0.4 (4 rows) and 0.2 (2 columns) creates 8 darkly shaded squares out of 100 total squares, visually demonstrating that 0.4 × 0.2 = 0.08."
+        "Shows a 10x10 grid where the overlapping area of 0.4 (4 rows) and 0.2 (2 columns) creates 8 darkly shaded squares out of 100 total squares, visually demonstrating that 0.4 x 0.2 = 0.08."
       ]
     ],
     "solution": [
@@ -2998,27 +3147,27 @@
       ],
       [
         "2/8",
-        "Start by dividing 2 into the first digit, which is 3. 2 goes into 3 one time. Write 1 above the 3. 1 × 2 = 2. Subtract 2 from 3, which gives 1. Now bring down the next digit, 7, to make 17"
+        "Start by dividing 2 into the first digit, which is 3. 2 goes into 3 one time. Write 1 above the 3. 1 x 2 = 2. Subtract 2 from 3, which gives 1. Now bring down the next digit, 7, to make 17"
       ],
       [
         "3/8",
-        "2 goes into 17 eight times. Write 8 above the 7. 8 × 2 = 16. Subtract 16 from 17 to get 1. Bring down the next digit, 2, to make 12."
+        "2 goes into 17 eight times. Write 8 above the 7. 8 x 2 = 16. Subtract 16 from 17 to get 1. Bring down the next digit, 2, to make 12."
       ],
       [
         "4/8",
-        "2 goes into 12 six times. Write 6 above the 2. 6 × 2 = 12. Subtract 12 from 12 to get 0. Now bring down the decimal point and the 3 after it. Place a decimal point in your answer and continue."
+        "2 goes into 12 six times. Write 6 above the 2. 6 x 2 = 12. Subtract 12 from 12 to get 0. Now bring down the decimal point and the 3 after it. Place a decimal point in your answer and continue."
       ],
       [
         "5/8",
-        "2 goes into 3 one time. Write 1 after the decimal point in your answer. 1 × 2 = 2. Subtract 2 from 3 to get 1. Bring down the next digit, 3, to make 13."
+        "2 goes into 3 one time. Write 1 after the decimal point in your answer. 1 x 2 = 2. Subtract 2 from 3 to get 1. Bring down the next digit, 3, to make 13."
       ],
       [
         "6/8",
-        "2 goes into 13 six times. Write 6 in your answer. 6 × 2 = 12. Subtract 12 from 13 to get 1. Bring down the next digit, 0, to make 10."
+        "2 goes into 13 six times. Write 6 in your answer. 6 x 2 = 12. Subtract 12 from 13 to get 1. Bring down the next digit, 0, to make 10."
       ],
       [
         "7/8",
-        "2 goes into 10 five times. Write 5 in your answer. 5 × 2 = 10. Subtract 10 from 10 and you get 0. Now there is nothing left to bring down, so we are done."
+        "2 goes into 10 five times. Write 5 in your answer. 5 x 2 = 10. Subtract 10 from 10 and you get 0. Now there is nothing left to bring down, so we are done."
       ],
       [
         "8/8",
@@ -3049,31 +3198,31 @@
       ],
       [
         "2/8",
-        "Start by dividing 8 into the first digit, which is 3. 8 doesn't go into 3, so write 0 above the 3. Now look at the next two digits, 36. 8 goes into 36 four times. Write 4 above the 6. 4 × 8 = 32. Subtract 32 from 36 to get 4. Bring down the next digit, 0, to make 40."
+        "Start by dividing 8 into the first digit, which is 3. 8 doesn't go into 3, so write 0 above the 3. Now look at the next two digits, 36. 8 goes into 36 four times. Write 4 above the 6. 4 x 8 = 32. Subtract 32 from 36 to get 4. Bring down the next digit, 0, to make 40."
       ],
       [
         "3/8",
-        "8 goes into 40 five times. Write 5 above the 0. 5 × 8 = 40. Subtract 40 from 40 to get 0. Bring down the next digit, 8."
+        "8 goes into 40 five times. Write 5 above the 0. 5 x 8 = 40. Subtract 40 from 40 to get 0. Bring down the next digit, 8."
       ],
       [
         "4/8",
-        "8 goes into 8 one time. Write 1 above the 8. 1 × 8 = 8. Subtract 8 from 8 to get 0. Now bring down the decimal point and the next digit, 2. Place a decimal point in your answer and continue."
+        "8 goes into 8 one time. Write 1 above the 8. 1 x 8 = 8. Subtract 8 from 8 to get 0. Now bring down the decimal point and the next digit, 2. Place a decimal point in your answer and continue."
       ],
       [
         "5/8",
-        "8 goes into 2 zero times. Write 0 after the decimal point in your answer. 0 × 8 = 0. Subtract 0 from 2 to get 2. Bring down the next digit, which is 5, to make 25."
+        "8 goes into 2 zero times. Write 0 after the decimal point in your answer. 0 x 8 = 0. Subtract 0 from 2 to get 2. Bring down the next digit, which is 5, to make 25."
       ],
       [
         "6/8",
-        "8 goes into 25 three times. Write 3 in your answer. 3 × 8 = 24. Subtract 24 from 25 to get 1. Bring down the next digit, which is 0, to make 10."
+        "8 goes into 25 three times. Write 3 in your answer. 3 x 8 = 24. Subtract 24 from 25 to get 1. Bring down the next digit, which is 0, to make 10."
       ],
       [
         "7/8",
-        "8 goes into 10 one time. Write 1 in your answer. 1 × 8 = 8. Subtract 8 from 10 to get 2. Bring down the next digit, which is 0, to make 20."
+        "8 goes into 10 one time. Write 1 in your answer. 1 x 8 = 8. Subtract 8 from 10 to get 2. Bring down the next digit, which is 0, to make 20."
       ],
       [
         "8/8",
-        "8 goes into 20 two times. Write 2 in your answer. 2 × 8 = 16. Subtract 16 from 20 to get 4. Bring down the next digit, which is 0, to make 40. 8 goes into 40 five times. Write 5. Now the remainder is 0, so we’re done.\n\nThe final answer is 45.1025."
+        "8 goes into 20 two times. Write 2 in your answer. 2 x 8 = 16. Subtract 16 from 20 to get 4. Bring down the next digit, which is 0, to make 40. 8 goes into 40 five times. Write 5. Now the remainder is 0, so we’re done.\n\nThe final answer is 45.1025."
       ]
     ],
     "tag": "Gr7_18_E3",
@@ -3082,13 +3231,17 @@
   {
     "skills": "divide-decimals",
     "question_text": "Divide. Give the exact answer, written as a decimal.\n",
-    "image_tag": "Grade7_18_4_1",
+    "image_tag": "Gr7_18_4_1",
     "backend_description": "Shows the division problem 45.6 ÷ 4 with an empty box for the answer.",
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["11.4"],
-      ["11.40"]
+      [
+        "11.4"
+      ],
+      [
+        "11.40"
+      ]
     ],
     "solution_image_tag": [
       [
@@ -3104,11 +3257,11 @@
       ],
       [
         "2/5",
-        "Start by dividing 4 into 4. 4 goes into 4 one time. Write 1 above the 4. 1 × 4 = 4. Subtract 4 from 4 to get 0. Bring down the next digit, which is 5."
+        "Start by dividing 4 into 4. 4 goes into 4 one time. Write 1 above the 4. 1 x 4 = 4. Subtract 4 from 4 to get 0. Bring down the next digit, which is 5."
       ],
       [
         "3/5",
-        "4 goes into 5 one time. Write 1 above the 5. 1 × 4 = 4. Subtract 4 from 5 to get 1. Now bring down the next digit, which is 6. Don’t forget to place a decimal point in your answer."
+        "4 goes into 5 one time. Write 1 above the 5. 1 x 4 = 4. Subtract 4 from 5 to get 1. Now bring down the next digit, which is 6. Don’t forget to place a decimal point in your answer."
       ],
       [
         "4/5",
@@ -3116,7 +3269,7 @@
       ],
       [
         "5/5",
-        "4 × 4 = 16. Subtract 16 from 16 to get 0. There is nothing left to bring down.\n\nThe final answer is 11.4."
+        "4 x 4 = 16. Subtract 16 from 16 to get 0. There is nothing left to bring down.\n\nThe final answer is 11.4."
       ]
     ],
     "tag": "Gr7_18_E4",
@@ -3144,7 +3297,7 @@
       ],
       [
         "3/4",
-        "Write $\\frac{4}{1}$ as a fraction with a denominator of 4 by multiplying the numerator and denominator by 4.\n\n$\\frac{4}{1} = \\frac{4 × 4}{4 × 1} = \\frac{16}{4}$."
+        "Write $\\frac{4}{1}$ as a fraction with a denominator of 4 by multiplying the numerator and denominator by 4.\n\n$\\frac{4}{1} = \\frac{4 x 4}{4 x 1} = \\frac{16}{4}$."
       ],
       [
         "4/4",
@@ -3152,7 +3305,8 @@
       ]
     ],
     "tag": "Gr7_19_E1",
-    "question_number": "1_1"
+    "question_number": "1_1",
+    "solution_image_tag": []
   },
   {
     "skills": "do-the-ratios-form-a-proportion-word-problems",
@@ -3174,7 +3328,7 @@
       [
         "2/3",
         "Gr7_19_2_1_step_2",
-        "Shows the cross multiplication check: 9 × 4 = 36 and 6 × 6 = 36. Since the cross products are equal, the ratios form a proportion."
+        "Shows the cross multiplication check: 9 x 4 = 36 and 6 x 6 = 36. Since the cross products are equal, the ratios form a proportion."
       ]
     ],
     "solution": [
@@ -3210,12 +3364,12 @@
       [
         "2/5",
         "Gr7_19_3_1_step_2",
-        "Shows the cross multiplication setup: 22 × 8 = 11 × s, demonstrating the method to solve the proportion."
+        "Shows the cross multiplication setup: 22 x 8 = 11 x s, demonstrating the method to solve the proportion."
       ],
       [
         "3/5",
         "Gr7_19_3_1_step_3",
-        "Shows the simplified equation: 176 = 11s, after multiplying 22 × 8."
+        "Shows the simplified equation: 176 = 11s, after multiplying 22 x 8."
       ],
       [
         "4/5",
@@ -3264,7 +3418,7 @@
       [
         "2/5",
         "Gr7_19_4_1_step_2",
-        "Shows the cross multiplication: 18 × n = 9 × 20, setting up the equation to solve for n."
+        "Shows the cross multiplication: 18 x n = 9 x 20, setting up the equation to solve for n."
       ],
       [
         "3/5",
@@ -3284,7 +3438,7 @@
       ],
       [
         "2/5",
-        "Use cross multiplication.\n\n18 dollars × n = 9 × 20$"
+        "Use cross multiplication.\n\n18 dollars x n = 9 x 20$"
       ],
       [
         "3/5",
@@ -3304,18 +3458,22 @@
   },
   {
     "skills": "multiply-a-decimal-by-a-multi-digit-whole-number",
-    "question_text": "Multiply:\n\n6.6 dollars × 54 = \\_\\_\\_\\_$\n\n",
+    "question_text": "Multiply:\n\n6.6 dollars x 54 = \\_\\_\\_\\_$\n\n",
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["356.4"],
-      ["356.40"]
+      [
+        "356.4"
+      ],
+      [
+        "356.40"
+      ]
     ],
     "solution_image_tag": [
       [
         "1/3",
         "Gr7_20_1_1_step_1",
-        "Shows the vertical multiplication setup of 66 × 54. The calculation shows 66 × 4 = 264 (ones place) and 66 × 50 = 3300 (tens place), then adds these partial products to get 3564."
+        "Shows the vertical multiplication setup of 66 x 54. The calculation shows 66 x 4 = 264 (ones place) and 66 x 50 = 3300 (tens place), then adds these partial products to get 3564."
       ],
       [
         "2/3",
@@ -3356,7 +3514,7 @@
       [
         "3/4",
         "Gr7_20_2_1_step_3",
-        "Shows solving the proportion through cross multiplication: 53p = 74 × 530. Then simplifying to get 53p = 39,220, and finally dividing both sides by 53 to get p = 740."
+        "Shows solving the proportion through cross multiplication: 53p = 74 x 530. Then simplifying to get 53p = 39,220, and finally dividing both sides by 53 to get p = 740."
       ]
     ],
     "solution": [
@@ -3383,7 +3541,7 @@
   {
     "skills": "constant-rate-of-change",
     "question_text": "This graph shows how the amount of time that a receptionist named Brody spends on the phone is related to the number of phone calls he routes to employees.\n\nWhat is the rate of change?\n\nWrite your answer as a decimal or integer.\n\n",
-    "image_tag": "Grade7_20_3_1",
+    "image_tag": "Gr7_20_3_1",
     "backend_description": "A line graph titled 'Time spent routing calls' with x-axis labeled 'Phone calls routed' (0-100) and y-axis labeled 'Minutes on the phone' (0-100). The graph shows a straight line starting from the origin (0,0) and passing through points like (50,60), demonstrating a linear relationship.",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -3416,12 +3574,13 @@
       ]
     ],
     "tag": "Gr7_20_E3",
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "solution_image_tag": []
   },
   {
     "skills": "find-the-constant-of-proportionality-from-a-table",
     "question_text": "Juliette is making her special punch for the Starry Night homecoming dance. There is a proportional relationship between the number of cans of peach juice concentrate in a punch bowl, x, and the corresponding number of bottles of lemon-lime soda, y.\n\nWhat is the constant of proportionality?\n\nWrite your answer as a whole number or decimal.\n",
-    "image_tag": "Grade7_20_4_1",
+    "image_tag": "Gr7_20_4_1",
     "backend_description": "A table showing the proportional relationship between cans of peach juice concentrate (x) and bottles of lemon-lime soda (y). The table has 4 rows with x values 1, 2, 3, 4 and corresponding y values 4, 8, 12, 16.",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -3454,7 +3613,7 @@
   {
     "skills": "identify-proportional-relationships-by-graphing",
     "question_text": "Rachel earns 3 gems for every mine she builds in her favorite board game.\n\nIf she builds 1 mine, she earns 3 gems.\nIf she builds 2 mines, she earns 6 gems.\n\nLet x represent the number of mines and y represent the number of gems.\n\nGraph two points that show this relationship and draw the line through them.\n\nDoes the graph show a proportional relationship between x and y?",
-    "image_tag": "Grade7_21_1_1",
+    "image_tag": "Gr7_21_1_1",
     "backend_description": "A coordinate grid with x and y axes. The grid shows empty space ready for plotting points and drawing a line to demonstrate the proportional relationship between mines built and gems earned.",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -3508,7 +3667,7 @@
   {
     "skills": "find-the-constant-of-proportionality-from-a-graph",
     "question_text": "Philippe is running laps to raise money for the West Side Children's Hospital. The more laps he runs, the more money he raises.\n\nThere is a proportional relationship between the number of laps (x) and the amount of money raised (y, in dollars).\n\nWhat is the constant of proportionality? Write your answer as a whole number or decimal.",
-    "image_tag": "Grade7_21_2_1",
+    "image_tag": "Gr7_21_2_1",
     "backend_description": "A coordinate grid showing a straight line passing through the origin. The line represents the proportional relationship between laps run (x-axis) and money raised (y-axis). The line passes through points including (1, 7), showing the constant rate of 7 dollars per lap.",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -3631,7 +3790,7 @@
       [
         "4/6",
         "Gr7_21_4_1_step_4",
-        "Shows the sequence with arrows between terms labeled '×4', demonstrating that each term is multiplied by 4 to get the next term: 8×4=32, 32×4=128, 128×4=512."
+        "Shows the sequence with arrows between terms labeled 'x4', demonstrating that each term is multiplied by 4 to get the next term: 8x4=32, 32x4=128, 128x4=512."
       ]
     ],
     "solution": [
@@ -3666,7 +3825,7 @@
   {
     "skills": "interpret-graphs-of-proportional-relationships",
     "question_text": "In The Tall Tales of Timothy Toad, a witch brews a magical invisibility potion. The graph shows the proportional relationship between the amount of potion the witch drinks (in millilitres), x, and the amount of time she is invisible (in minutes), y.\n\nWhat does the point (1,5) represent?\n",
-    "image_tag": "Grade7_22_1_1",
+    "image_tag": "Gr7_22_1_1",
     "backend_description": "A coordinate grid showing a straight line passing through the origin and the point (1, 5). The line represents the proportional relationship between potion consumed (x-axis, in millilitres) and invisibility time (y-axis, in minutes).",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -3691,7 +3850,8 @@
       ]
     ],
     "tag": "Gr7_22_E1",
-    "question_number": "1_1"
+    "question_number": "1_1",
+    "solution_image_tag": []
   },
   {
     "skills": "arithmetic-sequences",
@@ -3715,7 +3875,8 @@
       ]
     ],
     "tag": "Gr7_22_E2",
-    "question_number": "2_1"
+    "question_number": "2_1",
+    "solution_image_tag": []
   },
   {
     "skills": "geometric-sequences",
@@ -3747,7 +3908,8 @@
       ]
     ],
     "tag": "Gr7_22_E3",
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "solution_image_tag": []
   },
   {
     "skills": "evaluate-variable-expressions-for-number-sequences",
@@ -3765,12 +3927,12 @@
       [
         "2/4",
         "Gr7_22_4_1_step_2",
-        "Shows the calculation for n = 2: 2² = 2 × 2 = 4. This gives the second term of the sequence."
+        "Shows the calculation for n = 2: 2² = 2 x 2 = 4. This gives the second term of the sequence."
       ],
       [
         "3/4",
         "Gr7_22_4_1_step_3",
-        "Shows the calculation for n = 3: 2³ = 2 × 2 × 2 = 8. This gives the third term of the sequence."
+        "Shows the calculation for n = 3: 2³ = 2 x 2 x 2 = 8. This gives the third term of the sequence."
       ]
     ],
     "solution": [
@@ -3797,7 +3959,7 @@
   {
     "skills": "complete-a-table-for-a-two-variable-relationship",
     "question_text": "Read the following description of a relationship:\n\nA farmer has 5 employees who work all year round, and he hires some temporary employees at harvest time.\n\nLet b represent the number of temporary employees and c represent the total number of employees.\n\nComplete the table using the equation: $c = b + 5$",
-    "image_tag": "Grade7_23_1_1",
+    "image_tag": "Gr7_23_1_1",
     "backend_description": "A table with two columns labeled 'b' (temporary employees) and 'c' (total employees). The table has 4 rows with b values of 1, 2, 3, and 4. The c values are 6, 7, 8, and a blank cell to be filled in. This helps students understand the linear relationship c = b + 5.",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -3838,7 +4000,7 @@
   {
     "skills": "identify-the-graph-of-an-equation",
     "question_text": "This equation describes a relationship between $x$ and $y$.\n\n$y = x + 2$\n\nComplete the table and select the graph that shows this relationship.",
-    "image_tag": "Grade7_23_2_1",
+    "image_tag": "Gr7_23_2_1",
     "backend_description": "A table showing the relationship y = x + 2 with x values 2, 3, 4, and 5. The y values show 4 (blank), 5, 6, and 7 (blank), with two cells to be completed. This helps students practice substituting x values into the equation.",
     "question_type": "Multiple Choice Question with Single Answer and fill in the blank",
     "image_choice_tags": [
@@ -3868,12 +4030,13 @@
       ]
     ],
     "tag": "Gr7_23_E2",
-    "question_number": "2_1"
+    "question_number": "2_1",
+    "solution_image_tag": []
   },
   {
     "skills": "interpret-a-graph-word-problems",
     "question_text": "The graph below shows how the number of plants Evelyn can have in her backyard is related to the number of seed packets she purchases.\n\nHow many seed packets does Evelyn need to have a total of 400 plants in her backyard?",
-    "image_tag": "Grade7_23_3_1",
+    "image_tag": "Gr7_23_3_1",
     "backend_description": "A graph titled 'Plants in Evelyn's backyard' with x-axis labeled 'Number of seed packets' (0-100) and y-axis labeled 'Total number of plants' (0-1000). A straight line starts from the origin and shows a proportional relationship. Students need to find that 400 plants corresponds to 40 seed packets.",
     "question_number": "3_1",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -3900,12 +4063,13 @@
         "You land at 40 seed packets. So, Evelyn needs 40 seed packets to have 400 plants."
       ]
     ],
-    "tag": "Gr7_23_E3"
+    "tag": "Gr7_23_E3",
+    "solution_image_tag": []
   },
   {
     "question_text": "This graph shows how the amount of time that a receptionist named Nicole spends on the phone is related to the number of phone calls she routes to employees.\n\nIf she routes 100 phone calls, how much time will Nicole have spent on the phone in total (in minutes)?",
     "skills": "interpret-a-graph-word-problems",
-    "image_tag": "Grade7_23_3_2",
+    "image_tag": "Gr7_23_3_2",
     "backend_description": "A graph titled 'Time spent routing calls' with x-axis labeled 'Phone calls routed' (0-100) and y-axis labeled 'Minutes on the phone' (0-1000). A straight line shows the proportional relationship between calls and time. Students need to find that 100 calls corresponds to 500 minutes.",
     "tag": "Gr7_23_E3",
     "question_type": "Fill in the blank",
@@ -3926,6 +4090,7 @@
         "3/3",
         "You intersect the y-axis at 500 minutes. Therefore, if she routes 100 phone calls, Nicole will have spent a total of 500 minutes on the phone."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   }
 ]

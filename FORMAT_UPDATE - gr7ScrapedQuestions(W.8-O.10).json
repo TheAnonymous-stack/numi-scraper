@@ -2,7 +2,7 @@
   {
     "question_text": "This graph shows how the total number of stamps Dakota has in her collection is related to the amount of money she spends on additional stamps.\n\nWith 500 dollars to spend on new stamps, how many total stamps will Dakota have in her collection?",
     "skills": "interpret-a-graph-word-problems",
-    "image_tag": "Grade7_23_3_3",
+    "image_tag": "Gr7_23_3_3",
     "backend_description": "A graph titled 'Stamps in Dakota's collection' with x-axis labeled 'Money spent on additional stamps' (0-500) and y-axis labeled 'Total number of stamps' (0-500). The line doesn't start at the origin but begins at approximately (0, 50), showing Dakota already had stamps before buying more. Students need to find that spending 500 dollars gives 300 total stamps.",
     "tag": "Gr7_23_E3",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -29,12 +29,13 @@
         "3/3",
         "You intersect the y-axis at 300 stamps. With 500 dollars to spend on new stamps, Dakota will have a total of 300 stamps in her collection."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "skills": "write-equations-for-proportional-relationships-from-tables",
     "question_text": "Emily and her dad share an intense love of baseball. Every weekend, they go to the batting cages to practice hitting. Emily's dad buys tokens for her to use in the batting cage.\n\nThere is a proportional relationship between the number of tokens Emily uses (x) and the number of pitches thrown by the pitching machine (y).\n\nWrite an equation for the relationship between x and y. Simplify any fractions.\ny=",
-    "image_tag": "Grade7_23_4_1",
+    "image_tag": "Gr7_23_4_1",
     "backend_description": "A table showing the proportional relationship between tokens (x) and pitches (y). The table has 4 rows with x values of 1, 2, 3, and 4, and corresponding y values of 5, 10, 15, and 20. This helps students identify the constant of proportionality is 5.",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -43,7 +44,7 @@
     "solution_image_tag": [
       [
         "2/3",
-        "Gr7_23_4_1_step_1",
+        "Gr7_23_4_1_step_2",
         "Shows the table with an additional column calculating y/x for each row. The ratios are 5/1 = 5, 10/2 = 5, 15/3 = 5, and 20/4 = 5, demonstrating that the constant of proportionality is 5 pitches per token."
       ]
     ],
@@ -67,7 +68,7 @@
   {
     "skills": "write-equations-for-proportional-relationships-from-graphs",
     "question_text": "During hockey season, Lili stays in excellent shape. To keep up her conditioning in the off-season, she swims every day.\n\nThere is a proportional relationship between the time (in seconds) Lili swims freestyle (x) and the number of feet she travels (y).\n\nWrite an equation for the relationship between x and y. Simplify any fractions.\ny=",
-    "image_tag": "Grade7_24_1_1",
+    "image_tag": "Gr7_24_1_1",
     "backend_description": "A graph showing the proportional relationship between time swimming freestyle in seconds (x-axis) and distance traveled in feet (y-axis). The line passes through the origin and the point (1, 3), indicating a constant rate of 3 feet per second.",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -123,12 +124,13 @@
       ]
     ],
     "tag": "Gr7_24_E2",
-    "question_number": "2_1"
+    "question_number": "2_1",
+    "solution_image_tag": []
   },
   {
     "skills": "write-a-two-variable-equation",
     "question_text": "Read the following description of a relationship:\nA shipyard produces 7 new ships each month. Let m represent the number of months and s represent the total number of ships produced.\n\nComplete the equation that represents the relationship between m and s.\ns=__m",
-    "image_tag": "Grade7_24_3_1",
+    "image_tag": "Gr7_24_3_1",
     "backend_description": "A table showing the relationship between months (m) and ships produced (s). The equation s = 7m needs to be completed. The table helps verify that 7 ships are produced each month.",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -137,7 +139,7 @@
     "solution_image_tag": [
       [
         "5/5",
-        "Gr7_24_3_1_step_1",
+        "Gr7_24_3_1_step_5",
         "Shows a completed table with columns for m, 7m, and s. The table demonstrates that when m = 3, then 7m = 21 and s = 21; when m = 4, then 7m = 28 and s = 28; when m = 5, then 7m = 35 and s = 35; and when m = 6, then 7m = 42 and s = 42, confirming the equation s = 7m."
       ]
     ],
@@ -169,16 +171,26 @@
   {
     "skills": "write-an-equation-from-a-graph-using-a-table",
     "question_text": "Study the graph and table below. Write an equation for the relationship shown in the graph.",
-    "image_tag": "Grade7_24_4_1",
+    "image_tag": "Gr7_24_4_1",
     "backend_description": "A coordinate grid showing a straight line that represents y = x + 3. The line passes through several points including (9, 12). Below the graph is a table with x values and corresponding y values, with one y value missing when x = 9.",
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["12"],
-      ["y=x+3"],
-      ["y=3+x"],
-      ["x+3=y"],
-      ["3+x=y"]
+      [
+        "12"
+      ],
+      [
+        "y=x+3"
+      ],
+      [
+        "y=3+x"
+      ],
+      [
+        "x+3=y"
+      ],
+      [
+        "3+x=y"
+      ]
     ],
     "solution": [
       [
@@ -207,7 +219,8 @@
       ]
     ],
     "tag": "Gr7_24_E4",
-    "question_number": "4_1"
+    "question_number": "4_1",
+    "solution_image_tag": []
   },
   {
     "skills": "integer-addition-rules",
@@ -235,7 +248,8 @@
       ]
     ],
     "tag": "Gr7_25_E1",
-    "question_number": "1_1"
+    "question_number": "1_1",
+    "solution_image_tag": []
   },
   {
     "skills": "integer-subtraction-rules",
@@ -263,7 +277,8 @@
       ]
     ],
     "tag": "Gr7_25_E2",
-    "question_number": "2_1"
+    "question_number": "2_1",
+    "solution_image_tag": []
   },
   {
     "skills": "integer-addition-and-subtraction-rules",
@@ -287,7 +302,8 @@
       ]
     ],
     "tag": "Gr7_25_E3",
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "solution_image_tag": []
   },
   {
     "question_text": "Is -68 - 89 positive or negative?",
@@ -311,7 +327,8 @@
         "2/2",
         "You can check your answer by doing the math: -68 - 89 = -157. As you can see, the result is negative."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "skills": "integer-multiplication-rules",
@@ -343,7 +360,8 @@
       ]
     ],
     "tag": "Gr7_25_E4",
-    "question_number": "4_1"
+    "question_number": "4_1",
+    "solution_image_tag": []
   },
   {
     "skills": "integer-division-rules",
@@ -375,10 +393,11 @@
       ]
     ],
     "tag": "Gr7_26_E1",
-    "question_number": "1_1"
+    "question_number": "1_1",
+    "solution_image_tag": []
   },
   {
-    "question_text": "Is –8 × 6 positive or negative?",
+    "question_text": "Is –8 x 6 positive or negative?",
     "skills": "integer-multiplication-and-division-rules",
     "tag": "Gr7_26_E2",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -397,17 +416,18 @@
       ],
       [
         "2/4",
-        "Use the rule: negative × positive = negative."
+        "Use the rule: negative x positive = negative."
       ],
       [
         "3/4",
-        "So, – 8 × 6 is negative."
+        "So, – 8 x 6 is negative."
       ],
       [
         "4/4",
-        "Now check your answer by doing the math: –8 × 6 = –48. Yes, the answer is negative."
+        "Now check your answer by doing the math: –8 x 6 = –48. Yes, the answer is negative."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "skills": "integer-multiplication-and-division-rules",
@@ -439,7 +459,8 @@
         "Now check your answer by doing the math: 80 ÷ 10 = 8. Yes, the answer is positive."
       ]
     ],
-    "tag": "Gr7_26_E2"
+    "tag": "Gr7_26_E2",
+    "solution_image_tag": []
   },
   {
     "skills": "add-and-subtract-like-terms",
@@ -463,7 +484,8 @@
       ]
     ],
     "tag": "Gr7_26_E3",
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "solution_image_tag": []
   },
   {
     "skills": "evaluate-linear-expressions",
@@ -506,7 +528,8 @@
         "2/2",
         "x − y = 12 − 11 = 1"
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "skills": "evaluate-multi-variable-expressions",
@@ -526,7 +549,8 @@
         "fg = 5(3) = 15"
       ]
     ],
-    "tag": "Gr7_27_E1"
+    "tag": "Gr7_27_E1",
+    "solution_image_tag": []
   },
   {
     "question_text": "Evaluate the expression below for u = 7 and v = 5.\n\nu + v = ",
@@ -546,7 +570,8 @@
         "2/2",
         "u + v = 7 + 5 = 12"
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "skills": "which-x-satisfies-an-equation",
@@ -578,7 +603,8 @@
       ]
     ],
     "tag": "Gr7_27_E2",
-    "question_number": "2_1"
+    "question_number": "2_1",
+    "solution_image_tag": []
   },
   {
     "skills": "model-and-solve-equations-using-algebra-tiles",
@@ -614,14 +640,15 @@
         "3/3",
         "C is the correct set of algebra tiles, representing the equation 3x = 15."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "skills": "model-and-solve-equations-using-algebra-tiles",
     "question_text": "Which equation does this set of algebra tiles represent?",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "3_2",
-    "image_tag": "Grade7_27_3_2",
+    "image_tag": "Gr7_27_3_2",
     "backend_description": "Shows algebra tiles with 1 green rectangular 'x' tile and 8 yellow square '1' tiles on the left side of the equation, and 15 yellow square '1' tiles on the right side. Students need to identify this represents x + 8 = 15.",
     "choices": [
       "x + 5 = 21",
@@ -650,20 +677,29 @@
         "This set of algebra tiles represents the equation x + 8 = 15."
       ]
     ],
-    "tag": "Gr7_27_E3"
+    "tag": "Gr7_27_E3",
+    "solution_image_tag": []
   },
   {
     "skills": "write-and-solve-equations-that-represent-diagrams",
     "question_text": "Write an equation that says that the length of the green line is equal to the length of the black line.",
-    "image_tag": "Grade7_27_4_1",
+    "image_tag": "Gr7_27_4_1",
     "backend_description": "Shows two line segments: a green line labeled '21' at the top, and below it a black line divided into two parts labeled 'c' and '6'. The visual representation helps students understand that c + 6 = 21.",
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["21=c+6"],
-      ["21=6+c"],
-      ["6+c=21"],
-      ["c+6=21"]
+      [
+        "21=c+6"
+      ],
+      [
+        "21=6+c"
+      ],
+      [
+        "6+c=21"
+      ],
+      [
+        "c+6=21"
+      ]
     ],
     "solution_image_tag": [
       [
@@ -716,7 +752,8 @@
       ]
     ],
     "tag": "Gr7_28_E1",
-    "question_number": "1_1"
+    "question_number": "1_1",
+    "solution_image_tag": []
   },
   {
     "skills": "solve-two-step-equations",
@@ -744,7 +781,8 @@
       ]
     ],
     "tag": "Gr7_28_E2",
-    "question_number": "2_1"
+    "question_number": "2_1",
+    "solution_image_tag": []
   },
   {
     "skills": "solve-one-and-two-step-equations-with-decimals",
@@ -768,7 +806,8 @@
       ]
     ],
     "tag": "Gr7_28_E3",
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "solution_image_tag": []
   },
   {
     "skills": "solve-one-and-two-step-equations-word-problems",
@@ -796,7 +835,8 @@
       ]
     ],
     "tag": "Gr7_28_E4",
-    "question_number": "4_1"
+    "question_number": "4_1",
+    "solution_image_tag": []
   },
   {
     "skills": "solve-equations-involving-like-terms",
@@ -838,7 +878,7 @@
     "skills": "solve-equations-complete-the-solution",
     "question_text": "Complete the process of solving the equation. Fill in the missing term on each line. Simplify any fractions.",
     "question_type": "Multiple Fill in the blank",
-    "image_tag": "Grade7_29_2_1",
+    "image_tag": "Gr7_29_2_1",
     "backend_description": "Shows a step-by-step equation solving process with three lines. Starting with 5b + 7 = 7, the second line shows 5b = [blank], and the third line shows b = [blank]. Students need to fill in the missing values by following the algebraic steps.",
     "correct_answers": [
       "0",
@@ -859,7 +899,8 @@
       ]
     ],
     "tag": "Gr7_29_E2",
-    "question_number": "2_1"
+    "question_number": "2_1",
+    "solution_image_tag": []
   },
   {
     "skills": "solutions-to-inequalities",
@@ -893,26 +934,6 @@
     "question_number": "3_1"
   },
   {
-    "skills": "solve-one-step-inequalities",
-    "question_text": "Solve for q.\n\nq + 2 ≥ 6\n\nq ≥",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "4"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Subtract 2 from both sides:\nq + 2 – 2 ≥ 6 – 2"
-      ],
-      [
-        "2/2",
-        "Simplify: q ≥ 4."
-      ]
-    ],
-    "tag": "Gr7_29_E4",
-    "question_number": "4_1"
-  },
-  {
     "skills": "one-step-inequalities-word-problems",
     "question_text": "James bought 4 tubes of paint to use for an art project. He paid the same amount for each tube, and he spent less than 20 dollars in all.\n\nLet x represent the cost of each tube of paint in dollars. Which inequality describes the problem?\n\nSolve the inequality. Then, complete the sentence below to describe the solution.\n\nEach tube of paint cost less than ",
     "question_type": "Fill in the blank and multiple choice question with single answer",
@@ -940,29 +961,8 @@
       ]
     ],
     "tag": "Gr7_30_E1",
-    "question_number": "1_1"
-  },
-  {
-    "skills": "solve-two-step-inequalities",
-    "question_text": "Solve for a.\n\n2 + 2a > 10",
-    "question_type": "Fill in the blank",
-    "has_alternative_answers": true,
-    "correct_answers": [
-      ["a>4"],
-      ["4<a"]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Solve for a by subtracting 2 from both sides:\n2 + 2a – 2 > 10 – 2\nSimplify: 2a > 8."
-      ],
-      [
-        "2/2",
-        "Divide both sides by 2:\n2a/2 > 8/2\nSimplify: a>4."
-      ]
-    ],
-    "tag": "Gr7_30_E2",
-    "question_number": "2_1"
+    "question_number": "1_1",
+    "solution_image_tag": []
   },
   {
     "skills": "identify-representative-random-and-biased-samples",
@@ -982,7 +982,8 @@
         "Since the national orchestra's violinists might not be similar to violinists in general, it is likely to be a biased sample. These violinists are not randomly chosen to be part of the national orchestra, but are likely to be chosen based on some characteristics like talent."
       ]
     ],
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "solution_image_tag": []
   },
   {
     "skills": "choose-the-best-type-of-graph",
@@ -1006,12 +1007,12 @@
       ],
       [
         "3/4",
-        "Gr7_30_4_1_step_2",
+        "Gr7_30_4_1_step_3",
         "Shows a circle graph (pie chart) divided into colored sections. Each section represents a percentage or fraction of the whole, illustrating how circle graphs show parts of a whole."
       ],
       [
         "4/4",
-        "Gr7_30_4_1_step_3",
+        "Gr7_30_4_1_step_4",
         "Shows a pictograph using repeated symbols to represent quantities. Each symbol represents a specific value, demonstrating how pictographs compare values using visual symbols."
       ]
     ],
@@ -1038,7 +1039,7 @@
   {
     "skills": "circle-graphs-and-central-angles",
     "question_text": "A survey was conducted to learn people's chocolate preferences.\n\nWhat is the measure of the central angle in the \"Milk chocolate\" section?",
-    "image_tag": "Grade7_31_1_1",
+    "image_tag": "Gr7_31_1_1",
     "backend_description": "A circle graph showing chocolate preferences. The circle is divided into two equal halves: 'Milk chocolate' (50%, shown in orange/peach color) and 'Dark chocolate' (50%, shown in purple). Students need to find the central angle for the milk chocolate section.",
     "tag": "Gr7_31_E1",
     "question_type": "Fill in the blank",
@@ -1048,8 +1049,8 @@
     "solution_image_tag": [
       [
         "2/3",
-        "Gr7_31_1_1_step_1",
-        "Shows the calculation: 50% of 360° = 0.50 × 360° = 180°. This demonstrates how to convert the percentage shown in the circle graph to the corresponding central angle measurement."
+        "Gr7_31_1_1_step_2",
+        "Shows the calculation: 50% of 360° = 0.50 x 360° = 180°. This demonstrates how to convert the percentage shown in the circle graph to the corresponding central angle measurement."
       ]
     ],
     "solution": [
@@ -1094,7 +1095,8 @@
         "Therefore, the mean is 3."
       ]
     ],
-    "question_number": "2_1"
+    "question_number": "2_1",
+    "solution_image_tag": []
   },
   {
     "question_text": "What is the range of the following numbers?\n\n1,2,9,4,1,10,4",
@@ -1122,7 +1124,8 @@
         "4/4",
         "Therefore, the range is 9."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "skills": "calculate-mean-median-mode-and-range",
@@ -1131,10 +1134,18 @@
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["3.00 dollars"],
-      ["3 dollars"],
-      ["3.00"],
-      ["3"]
+      [
+        "3.00 dollars"
+      ],
+      [
+        "3 dollars"
+      ],
+      [
+        "3.00"
+      ],
+      [
+        "3"
+      ]
     ],
     "solution": [
       [
@@ -1158,7 +1169,8 @@
         "Therefore, the median price of the snacks is 3.00 dollars."
       ]
     ],
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "solution_image_tag": []
   },
   {
     "question_text": "Jamal volunteered at the city park. He planted 8 flower beds with:\n9 plants, 6 plants, 6 plants, 8 plants, 5 plants, 8 plants, 6 plants, 6 plants.\n\nWhat was the mode of the numbers of plants?",
@@ -1190,7 +1202,8 @@
         "5/5",
         "Therefore, mode of the numbers of plants is 6."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "question_text": "Kayla, a forward on her school basketball team, has played in 8 games since starting high school. The number of points she scored at those games was:\n8 points, 7 points, 6 points, 5 points, 8 points, 6 points, 7 points, 9 points.\n\nWhat was the mean number of points scored?",
@@ -1218,7 +1231,8 @@
         "4/4",
         "The mean number of points scored is 7."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "question_text": "Braden is e-mailing some photographs from his computer. The 5 pictures have file sizes of:\n1MB, 2MB, 3MB, 1MB, 3MB.\n\nWhat is the range of the file sizes?",
@@ -1228,8 +1242,12 @@
     "question_number": "3_4",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["2"],
-      ["2MB"]
+      [
+        "2"
+      ],
+      [
+        "2MB"
+      ]
     ],
     "solution": [
       [
@@ -1248,12 +1266,13 @@
         "4/4",
         "The range of the file sizes is 2 MB."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "skills": "interpret-charts-to-find-mean-and-range",
     "question_text": "People on a whale-watching trip compared the number of whales they saw, represented below.\n\nWhat is the mean of the numbers?",
-    "image_tag": "Grade7_31_4_1",
+    "image_tag": "Gr7_31_4_1",
     "backend_description": "A line plot titled 'Whale watching' showing the number of whales spotted (0-5 on x-axis) with X marks above each number indicating frequency. Multiple X's are stacked vertically to show how many people spotted that number of whales.",
     "tag": "Gr7_31_E4",
     "question_type": "Fill in the blank",
@@ -1282,12 +1301,13 @@
         "The mean is 2."
       ]
     ],
-    "question_number": "4_1"
+    "question_number": "4_1",
+    "solution_image_tag": []
   },
   {
     "question_text": "Some friends compared the sizes of their stuffed animal collections.\n\nWhat is the range of the numbers?",
     "skills": "interpret-charts-to-find-mean-and-range",
-    "image_tag": "Grade7_31_4_2",
+    "image_tag": "Gr7_32_4_2",
     "backend_description": "A table titled 'Stuffed animal collections' with two columns: 'Name' and 'Number of stuffed animals'. Shows data for 6 people: Danielle (6), Tisha (7), Kelly (6), Leo (10), Bob (7), and Fred (9). Students need to find the range of these values.",
     "tag": "Gr7_32_E4",
     "question_type": "Fill in the blank",
@@ -1316,12 +1336,13 @@
         "5/5",
         "The range is 4."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "skills": "interpret-charts-to-find-mean-median-mode-and-range",
     "question_text": "The manager of a party supply store researched how many balloons it sold in the past 7 days.\n\nWhat is the mode of the numbers?",
-    "image_tag": "Grade7_32_1_1",
+    "image_tag": "Gr7_32_1_1",
     "backend_description": "A line graph titled 'Balloons sold' showing daily sales over a week. The y-axis shows 'Number of balloons' (0-10) and x-axis shows days Thursday through Wednesday. The line connects points showing varying sales: starting at 3, peaking at 5, dropping to 2, and ending at 3.",
     "tag": "Gr7_32_E1",
     "question_type": "Fill in the blank",
@@ -1346,12 +1367,13 @@
         "The number that appears most often is 3. So, the mode is 3."
       ]
     ],
-    "question_number": "1_1"
+    "question_number": "1_1",
+    "solution_image_tag": []
   },
   {
     "question_text": "Ava's classmates revealed how many science articles they read.\n\nWhat is the mean of the numbers?",
     "skills": "interpret-charts-to-find-mean-median-mode-and-range",
-    "image_tag": "Grade7_32_1_2",
+    "image_tag": "Gr7_32_1_2",
     "backend_description": "A table titled 'Science articles read' with two columns showing 8 people and the number of articles they read: Ava (2), Valentina (10), Haley (10), Lindsey (7), Dirk (4), Charlie (2), Bill (4), and Nate (9). Students calculate the mean from this data.",
     "tag": "Gr7_32_E1",
     "question_type": "Fill in the blank",
@@ -1380,12 +1402,13 @@
         "5/5",
         "Therefore, the mean is 6."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "question_text": "The week of his birthday, Clarence paid attention to how many pieces of mail he received each day.\n\nWhat is the mode of the numbers?",
     "skills": "interpret-charts-to-find-mean-median-mode-and-range",
-    "image_tag": "Grade7_32_1_3",
+    "image_tag": "Gr7_32_1_3",
     "backend_description": "A table titled 'Pieces of mail received' showing mail count for 5 days: Tuesday (7), Wednesday (9), Thursday (9), Friday (7), and Saturday (7). Students need to identify the mode from this data.",
     "tag": "Gr7_32_E1",
     "question_type": "Fill in the blank",
@@ -1410,12 +1433,13 @@
         "4/4",
         "Therefore, the mode is 7."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "question_text": "The week of his birthday, Hunter paid attention to how many pieces of mail he received each day.\n\nWhat is the range of the numbers?",
     "skills": "interpret-charts-to-find-mean-median-mode-and-range",
-    "image_tag": "Grade7_32_1_4",
+    "image_tag": "Gr7_32_1_4",
     "backend_description": "A table titled 'Pieces of mail received' showing mail count for different days: Saturday (3), Monday (6), Tuesday (5), Wednesday (2), and Thursday (3). Students need to find the range of these values.",
     "tag": "Gr7_32_E1",
     "question_type": "Fill in the blank",
@@ -1444,7 +1468,8 @@
         "5/5",
         "Therefore, the range is 4."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "skills": "mean-and-range-find-the-missing-number",
@@ -1476,7 +1501,8 @@
         "Since the true mean is 15, p = 15."
       ]
     ],
-    "question_number": "2_1"
+    "question_number": "2_1",
+    "solution_image_tag": []
   },
   {
     "question_text": "14, 14, t, 14, 6, 17\n\nThe range of the numbers above is 11, what could t be?",
@@ -1520,7 +1546,8 @@
         "7/7",
         "Since the true range is 11, t = 14."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "skills": "mean-median-mode-and-range-find-the-missing-number",
@@ -1564,7 +1591,8 @@
         "Since the true range is 9, a = 15."
       ]
     ],
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "solution_image_tag": []
   },
   {
     "question_text": "5, n, 4, 4, 4.\n\nThe mean of the numbers above is 5, what could n be?",
@@ -1604,7 +1632,8 @@
         "6/6",
         "Since the true mean is 5, n = 8."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "question_text": "14, 12, 12, 4, n, 14.\n\nThe mode of the numbers above is 12, what could n be?",
@@ -1640,7 +1669,8 @@
         "5/5",
         "Since the true mode is 12, n = 12."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "question_text": "16, 15, h, 14, 12.\n\nThe median is 14, what could h be?",
@@ -1676,7 +1706,8 @@
         "5/5",
         "Since the true median is 14, h = 13."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "skills": "changes-in-mean-and-range",
@@ -1713,7 +1744,8 @@
         "The mean would decrease from 77 to 76."
       ]
     ],
-    "question_number": "4_1"
+    "question_number": "4_1",
+    "solution_image_tag": []
   },
   {
     "question_text": "Look at this set of 8 numbers:\n\n6, 5, 4, 8, 6, 4, 5, 4\n\nHow would the range change if the number 1 replaced one of the 4's in the set?",
@@ -1746,7 +1778,8 @@
         "4/4",
         "The range would increase from 4 to 7."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "skills": "changes-in-mean-median-mode-and-range",
@@ -1783,7 +1816,8 @@
         "The mode would decrease from 82 to 62."
       ]
     ],
-    "question_number": "1_1"
+    "question_number": "1_1",
+    "solution_image_tag": []
   },
   {
     "question_text": "Look at this set of 6 numbers:\n\n29, 74, 84, 62, 73, 82, 63\n\nHow would the range change if the number 31 replaced 29 in the set?",
@@ -1816,7 +1850,8 @@
         "4/4",
         "The range would decrease from 55 to 53."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "question_text": "Look at this set of 8 numbers:\n\n56, 21, 55, 52, 12, 24, 60, 26\n\nHow would the median change if the number 60 was replaced by 86 in the set?",
@@ -1861,7 +1896,8 @@
         "7/7",
         "The median would not change."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "question_text": "Look at this set of 8 numbers:\n\n34, 30, 57, 17, 34, 34, 34, 56\n\nHow would the mean change if one of the 34's was replaced by 50 in the set?",
@@ -1898,12 +1934,13 @@
         "5/5",
         "The mean would increase from 37 to 39."
       ]
-    ]
+    ],
+    "solution_image_tag": []
   },
   {
     "skills": "interpret-tables",
     "question_text": "A statistician analyzed the number of runs scored by players last season.\n\nHow many players are there in all?",
-    "image_tag": "Grade7_33_2_1",
+    "image_tag": "Gr7_33_2_1",
     "backend_description": "A frequency table titled 'Baseball runs scored last season' with two columns: 'Runs scored' (0, 1, 2, 3, 4) and 'Frequency' (13, 18, 12, 16, 8). Students need to find the total number of players by adding all frequencies.",
     "tag": "Gr7_33_E2",
     "question_type": "Fill in the blank",
@@ -1924,12 +1961,13 @@
         "There are 67 players in all."
       ]
     ],
-    "question_number": "2_1"
+    "question_number": "2_1",
+    "solution_image_tag": []
   },
   {
     "skills": "interpret-circle-graphs",
     "question_text": "Five of the sports teams from Manchester High School decided to raise funds to buy new sports equipment.\n\nWhich team raised the least?",
-    "image_tag": "Grade7_33_3_1",
+    "image_tag": "Gr7_33_3_1",
     "backend_description": "A circle graph titled 'Sports equipment fundraising' showing five teams' contributions as fractions. The sections are: Football (1/11, yellow), Basketball (3/11, orange), Soccer (2/11, light blue), Baseball (2/11, green), and Tennis (3/11, purple). Students identify which team raised the least by comparing fraction sizes.",
     "tag": "Gr7_33_E3",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -1948,7 +1986,8 @@
         "Look for the smallest section in the graph. The smallest section is for football (1/11). Therefore, the football team raised the least."
       ]
     ],
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "solution_image_tag": []
   },
   {
     "skills": "identify-independent-and-dependent-events",
@@ -1968,13 +2007,14 @@
         "The two events are dependent. Jason does not put the first card back, so his first pick affects which cards are left for his second pick."
       ]
     ],
-    "question_number": "4_1"
+    "question_number": "4_1",
+    "solution_image_tag": []
   },
   {
     "skills": "compound-events-find-the-number-of-outcomes",
     "question_text": "You pick a marble and roll a die. How many outcomes are possible?",
     "tag": "Gr7_34_E1",
-    "image_tag": "Grade7_34_1_1",
+    "image_tag": "Gr7_34_1_1",
     "backend_description": "Shows 5 marbles in different colors (pink, blue, orange, purple, and green) and a standard six-sided die. Students need to find the total number of outcomes when picking one marble and rolling the die.",
     "question_type": "Fill in the blank",
     "correct_answers": [
@@ -1983,7 +2023,7 @@
     "solution_image_tag": [
       [
         "3/4",
-        "Gr7_34_1_1_step_1",
+        "Gr7_34_1_1_step_3",
         "Shows a tree diagram with 5 main branches for the marble colors (Pi for pink, Bl for blue, O for orange, Pu for purple, G for green). Each main branch splits into 6 sub-branches numbered 1-6 for the die outcomes, creating 30 total branches."
       ]
     ],
@@ -2010,7 +2050,7 @@
   {
     "skills": "bases-of-three-dimensional-figures",
     "question_text": "Look at the figure below. What is the shape of its base?",
-    "image_tag": "Grade7_34_2_1",
+    "image_tag": "Gr7_34_2_1",
     "backend_description": "Shows a 3D cone with its circular base visible at the bottom and apex at the top. The cone is shaded in gray/silver color. Students need to identify that the base is circular.",
     "tag": "Gr7_34_E2",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -2045,7 +2085,7 @@
   {
     "skills": "front-side-and-top-view",
     "question_text": "If you look at this object from the top, what will you see?",
-    "image_tag": "Grade7_34_3_1",
+    "image_tag": "Gr7_34_3_1",
     "backend_description": "Shows a 3D figure made of pink cubic blocks arranged in a specific pattern. Students need to visualize what this shape looks like when viewed from the top.",
     "tag": "Gr7_34_E3",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -2054,7 +2094,7 @@
       "Gr7_34_3_1_B"
     ],
     "image_choice_tags_backend_description": [
-      "Shows a 2×3 grid of pink squares representing the top view of stacked blocks, with all 6 positions filled.",
+      "Shows a 2x3 grid of pink squares representing the top view of stacked blocks, with all 6 positions filled.",
       "Shows a cross or plus-sign pattern made of 5 pink squares - one center square with one square attached to each of its four sides."
     ],
     "correct_answers": [
@@ -2087,7 +2127,7 @@
   {
     "skills": "identify-similar-figures",
     "question_text": "Are these shapes similar?",
-    "image_tag": "Grade7_34_4_1",
+    "image_tag": "Gr7_34_4_1",
     "backend_description": "Shows two parallelograms. The left parallelogram (JKLM) has all sides labeled as 48 cm. The right parallelogram (PQRS) has sides labeled with alternating lengths of 48 cm and 38 cm. Students need to determine if these shapes are similar.",
     "tag": "Gr7_34_E4",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -2101,17 +2141,17 @@
     "solution_image_tag": [
       [
         "3/6",
-        "Gr7_34_4_1_step_1",
+        "Gr7_34_4_1_step_3",
         "Shows both parallelograms with corresponding angles marked, demonstrating that all corresponding angles are congruent."
       ],
       [
         "4/6",
-        "Gr7_34_4_1_step_2",
+        "Gr7_34_4_1_step_4",
         "Shows the calculation JM = 48 and SP = 38, with the ratio 48/38 = 24/19."
       ],
       [
         "4/6",
-        "Gr7_34_4_1_step_3",
+        "Gr7_34_4_1_step_4",
         "Shows the calculation ML = 48 and PQ = 48, with the ratio 48/48 = 1/1 = 1."
       ],
       [
@@ -2121,7 +2161,7 @@
       ],
       [
         "4/6",
-        "Gr7_34_4_1_step_5",
+        "Gr7_34_4_1_step_4",
         "Shows the calculation KJ = 48 and RS = 48, with the ratio 48/48 = 1/1 = 1."
       ]
     ],
@@ -2156,7 +2196,7 @@
   {
     "skills": "dilations-find-the-coordinates",
     "question_text": "Write the coordinates of the vertices after a dilation with a scale factor of 3, centred at the origin.",
-    "image_tag": "Grade7_35_1_1",
+    "image_tag": "Gr7_35_1_1",
     "backend_description": "A coordinate grid showing triangle DEF with vertices at D(-3, 0), E(3, 0), and F(-3, 3). Students need to find the coordinates after dilating by a scale factor of 3 centered at the origin.",
     "tag": "Gr7_35_E1",
     "question_type": "Multiple Fill in the blank",
@@ -2168,17 +2208,17 @@
     "solution_image_tag": [
       [
         "3/7",
-        "Gr7_35_1_1_step_1",
+        "Gr7_35_1_1_step_3",
         "Shows the calculation for dilating point D(-3, 0): D(-3, 0) → D'(-9, 0). The coordinates are multiplied by 3, demonstrating how dilation works for a point on the x-axis."
       ],
       [
         "4/7",
-        "Gr7_35_1_1_step_2",
+        "Gr7_35_1_1_step_4",
         "Shows the calculation for dilating point E(3, 0): E(3, 0) → E'(9, 0). Again multiplying by the scale factor of 3."
       ],
       [
         "5/7",
-        "Gr7_35_1_1_step_3",
+        "Gr7_35_1_1_step_5",
         "Shows the calculation for dilating point F(-3, 3): F(-3, 3) → F'(-9, 9). Both coordinates are multiplied by 3, showing dilation of a point not on an axis."
       ]
     ],
@@ -2217,7 +2257,7 @@
   {
     "skills": "dilations-scale-factor-and-classification",
     "question_text": "The purple shape is a dilation of the black shape. Is it an enlargement or a reduction?",
-    "image_tag": "Grade7_35_2_1",
+    "image_tag": "Gr7_35_2_1",
     "backend_description": "A coordinate grid showing two similar shapes. The black shape (original) is smaller and positioned closer to the origin. The purple shape (image) is larger and represents a dilation of the black shape. Students need to determine if this is an enlargement or reduction.",
     "tag": "Gr7_35_E2",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -2231,7 +2271,7 @@
     "solution_image_tag": [
       [
         "6/7",
-        "Gr7_35_2_1_step_1",
+        "Gr7_35_2_1_step_6",
         "Shows the calculation of the scale factor: 20/10 = 2. The ratio of corresponding side lengths (image to original) equals 2, confirming this is an enlargement since the scale factor is greater than 1."
       ]
     ],
@@ -2270,7 +2310,7 @@
   {
     "skills": "determine-if-two-figures-are-similar-justify-your-answer",
     "question_text": "The graph shows quadrilaterals STUV and CDEF. Is STUV similar to CDEF?",
-    "image_tag": "Grade7_35_3_1",
+    "image_tag": "Gr7_35_3_1",
     "backend_description": "A coordinate grid showing two quadrilaterals: STUV (smaller, in blue) and CDEF (larger, in green). Both shapes are positioned on the grid to help students determine if they are similar by checking if one is a dilation of the other.",
     "tag": "Gr7_35_E3",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -2285,12 +2325,12 @@
     "solution_image_tag": [
       [
         "2/5",
-        "Gr7_35_3_1_step_1",
+        "Gr7_35_3_1_step_2",
         "Shows STUV dilated by scale factor 3 to create S'T'U'V' in orange dashed lines. The dilated shape S'T'U'V' perfectly coincides with CDEF, proving they are similar."
       ],
       [
         "4/5",
-        "Gr7_35_3_1_step_2",
+        "Gr7_35_3_1_step_4",
         "Shows STUV dilated by scale factor 2 to create S'T'U'V' in orange dashed lines. The dilated shape does not coincide with CDEF, showing that scale factor 2 is incorrect."
       ]
     ],
@@ -2321,7 +2361,7 @@
   {
     "skills": "side-lengths-and-angle-measures-of-similar-figures",
     "question_text": "If these two shapes are similar, what is the measure of the missing length q?",
-    "image_tag": "Grade7_35_4_1",
+    "image_tag": "Gr7_35_4_1",
     "backend_description": "Shows two similar parallelograms. The purple parallelogram has a side labeled 'q' meters and another side labeled '5 m'. The blue parallelogram has corresponding sides of '2 m' and '1 m'. Students need to find the value of q using proportional relationships.",
     "tag": "Gr7_35_E4",
     "question_type": "Fill in the blank",
@@ -2331,12 +2371,12 @@
     "solution_image_tag": [
       [
         "4/6",
-        "Gr7_35_4_1_step_1",
+        "Gr7_35_4_1_step_4",
         "Shows the proportion setup: 5/1 = q/2. The ratio of shorter sides (5 to 1) must equal the ratio of longer sides (q to 2)."
       ],
       [
         "5/6",
-        "Gr7_35_4_1_step_2",
+        "Gr7_35_4_1_step_5",
         "Shows solving the proportion: Multiplying both sides by 2 gives q = 10. The calculation demonstrates that the missing length is 10 meters."
       ]
     ],
@@ -2371,7 +2411,7 @@
   {
     "skills": "identify-reflections-rotations-and-translations",
     "question_text": "Look at the shape below. Which image shows a translation?",
-    "image_tag": "Grade7_36_1_1",
+    "image_tag": "Gr7_36_1_1",
     "backend_description": "Shows a green L-shaped figure on a grid. Students need to identify which transformation (translation, reflection, or rotation) is shown in the answer choices.",
     "tag": "Gr7_36_E1",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -2396,17 +2436,17 @@
       ],
       [
         "4/4",
-        "Gr7_36_1_1_step_2",
+        "Gr7_36_1_1_step_4",
         "Shows the translation transformation with an arrow indicating the shape moved up 3 units and right 1 unit."
       ],
       [
         "2/4",
-        "Gr7_36_1_1_step_3",
+        "Gr7_36_1_1_step_2",
         "Shows the reflection transformation with a horizontal line indicating the axis of reflection."
       ],
       [
         "3/4",
-        "Gr7_36_1_1_step_4",
+        "Gr7_36_1_1_step_3",
         "Shows the rotation transformation with a curved arrow indicating a 180-degree turn."
       ]
     ],
@@ -2433,7 +2473,7 @@
   {
     "skills": "translations-find-the-coordinates",
     "question_text": "The point V(3,-5) is translated 5 units up. What are the coordinates of the resulting point, V'?",
-    "image_tag": "Grade7_36_2_1",
+    "image_tag": "Gr7_36_2_1",
     "backend_description": "A coordinate grid showing point V at position (3, -5). Students need to find the new coordinates when V is translated 5 units up.",
     "tag": "Gr7_36_E2",
     "question_type": "Fill in the blank",
@@ -2454,12 +2494,13 @@
         "V' has coordinates (3,0)."
       ]
     ],
-    "question_number": "2_1"
+    "question_number": "2_1",
+    "solution_image_tag": []
   },
   {
     "skills": "reflections-find-the-coordinates",
     "question_text": "The point S(-4,-5) is reflected over the x-axis. What are the coordinates of the resulting point, S'?",
-    "image_tag": "Grade7_36_3_1",
+    "image_tag": "Gr7_36_3_1",
     "backend_description": "A coordinate grid showing point S at position (-4, -5) with the x-axis clearly marked. Students need to find the coordinates of S' when S is reflected over the x-axis.",
     "tag": "Gr7_36_E3",
     "question_type": "Fill in the blank",
@@ -2480,12 +2521,13 @@
         "Since S is 5 units below the x-axis, S' is 5 units above the x-axis. S' has coordinates (-4,5)."
       ]
     ],
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "solution_image_tag": []
   },
   {
     "skills": "rotations-find-the-coordinates",
     "question_text": "The point B(-3,-5) is rotated 90° counterclockwise around the origin. What are the coordinates of the resulting point, B'?",
-    "image_tag": "Grade7_36_4_1",
+    "image_tag": "Gr7_36_4_1",
     "backend_description": "A coordinate grid showing point B at position (-3, -5) in Quadrant III. Students need to find the coordinates of B' when B is rotated 90° counterclockwise around the origin.",
     "tag": "Gr7_36_E4",
     "question_type": "Fill in the blank",
@@ -2510,7 +2552,8 @@
         "B' has coordinates (5,-3)."
       ]
     ],
-    "question_number": "4_1"
+    "question_number": "4_1",
+    "solution_image_tag": []
   },
   {
     "skills": "convert-between-cubic-centimetres-and-millilitres",
@@ -2526,13 +2569,14 @@
         "1 cubic centimetre = 1 millilitre"
       ]
     ],
-    "question_number": "1_1"
+    "question_number": "1_1",
+    "solution_image_tag": []
   },
   {
     "skills": "perimeter-area-and-volume-changes-in-scale",
     "question_text": "Look at this rectangular prism. If all three dimensions are tripled, then which of the following statements about its surface area will be true?",
-    "image_tag": "Grade7_37_2_1",
-    "backend_description": "Shows a rectangular prism with dimensions 5 cm × 9 cm × 6 cm. Students need to determine how the surface area changes when all dimensions are tripled.",
+    "image_tag": "Gr7_37_2_1",
+    "backend_description": "Shows a rectangular prism with dimensions 5 cm x 9 cm x 6 cm. Students need to determine how the surface area changes when all dimensions are tripled.",
     "tag": "Gr7_37_E2",
     "question_type": "Multiple Choice Question with Single Answer",
     "choices": [
@@ -2547,12 +2591,12 @@
     "solution_image_tag": [
       [
         "3/5",
-        "Gr7_37_2_1_step_1",
+        "Gr7_37_2_1_step_3",
         "Shows the surface area formula calculation for the new prism with tripled dimensions: S' = 2[(3l)(3w) + (3l)(3h) + (3w)(3h)] = 2[9lw + 9lh + 9wh] = 18(lw + lh + wh)."
       ],
       [
         "4/5",
-        "Gr7_37_2_1_step_2",
+        "Gr7_37_2_1_step_4",
         "Shows the ratio calculation: new surface area / original surface area = 18(lw + lh + wh) / 2(lw + lh + wh) = 9. This proves the new surface area is 9 times the original."
       ]
     ],
@@ -2583,7 +2627,7 @@
   {
     "skills": "circumference-of-circles",
     "question_text": "The radius of a circle is 2 kilometres. What is the circle's circumference in kilometres?\nUse ​𝜋 ≈ 3.14 and round your answer to the nearest hundredth.",
-    "image_tag": "Grade7_37_3_1",
+    "image_tag": "Gr7_37_3_1",
     "backend_description": "Shows a circle with radius labeled as 2 km. Students need to calculate the circumference using π ≈ 3.14.",
     "tag": "Gr7_37_E3",
     "question_type": "Fill in the blank",
@@ -2604,12 +2648,13 @@
         "The circumference is about 12.56 kilometres."
       ]
     ],
-    "question_number": "3_1"
+    "question_number": "3_1",
+    "solution_image_tag": []
   },
   {
     "skills": "area-of-circles",
     "question_text": "The radius of a circle is 1 centimetre. What is the circle's area (in square centimetres)?\nUse ​𝜋 ≈ 3.14 and round your answer to the nearest hundredth.",
-    "image_tag": "Grade7_37_4_1",
+    "image_tag": "Gr7_37_4_1",
     "backend_description": "Shows a circle with radius labeled as 1 cm. Students need to calculate the area using π ≈ 3.14.",
     "tag": "Gr7_37_E4",
     "question_type": "Fill in the blank",
@@ -2630,7 +2675,8 @@
         "The area is about 3.14 square centimetres."
       ]
     ],
-    "question_number": "4_1"
+    "question_number": "4_1",
+    "solution_image_tag": []
   },
   {
     "skills": "circles-word-problems",
@@ -2644,7 +2690,7 @@
       [
         "1/2",
         "Gr7_38_1_1_step_1",
-        "Shows the circumference formula calculation: C = π × d ≈ 3.14 × 8 ≈ 25.12. The diameter of 8 cm is substituted into the formula and multiplied by 3.14 to get the circumference."
+        "Shows the circumference formula calculation: C = π x d ≈ 3.14 x 8 ≈ 25.12. The diameter of 8 cm is substituted into the formula and multiplied by 3.14 to get the circumference."
       ]
     ],
     "solution": [
@@ -2662,7 +2708,7 @@
   {
     "skills": "nets-of-three-dimensional-figures",
     "question_text": "Which figure will this net make?",
-    "image_tag": "Grade7_38_2_1",
+    "image_tag": "Gr7_38_2_1",
     "backend_description": "Shows a net consisting of connected rectangles arranged in a cross pattern. The net has rectangular faces that would fold up to form a 3D shape. Students need to identify whether this creates a triangular or rectangular prism.",
     "tag": "Gr7_38_E2",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -2687,12 +2733,13 @@
         "This net makes a rectangular prism."
       ]
     ],
-    "question_number": "2_1"
+    "question_number": "2_1",
+    "solution_image_tag": []
   },
   {
     "skills": "surface-area-of-cylinders",
     "question_text": "What is the surface area of this cylinder?\nUse 𝜋 = 3.14 and round your answer to the nearest hundredth.",
-    "image_tag": "Grade7_38_3_1",
+    "image_tag": "Gr7_38_3_1",
     "backend_description": "Shows a cylinder with radius 7 cm and height 6 cm. The cylinder is shown in 3D perspective with the circular top and bottom visible. Students calculate surface area using these dimensions.",
     "tag": "Gr7_38_E3",
     "question_type": "Fill in the blank",
@@ -2707,8 +2754,8 @@
       ],
       [
         "7/10",
-        "Gr7_38_3_1_step_2",
-        "Shows the rectangular shape that represents the curved surface when 'unrolled.' The rectangle has height 6 cm and width equal to the circumference (43.96 cm). The area calculation shows: A_side = C × h = 43.96 × 6 = 263.76 square cm."
+        "Gr7_38_3_1_step_7",
+        "Shows the rectangular shape that represents the curved surface when 'unrolled.' The rectangle has height 6 cm and width equal to the circumference (43.96 cm). The area calculation shows: A_side = C x h = 43.96 x 6 = 263.76 square cm."
       ]
     ],
     "solution": [
@@ -2762,9 +2809,15 @@
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["360"],
-      ["360.0"],
-      ["360.00"]
+      [
+        "360"
+      ],
+      [
+        "360.0"
+      ],
+      [
+        "360.00"
+      ]
     ],
     "solution": [
       [
@@ -2784,12 +2837,13 @@
         "360 one cubic centimetre beads would fill the jewellery box. Therefore, the volume of the jewellery box is 360 cubic centimetres."
       ]
     ],
-    "question_number": "4_1"
+    "question_number": "4_1",
+    "solution_image_tag": []
   },
   {
     "skills": "volume-of-prisms-and-cylinders",
     "question_text": "What is the volume (in cubic millimetres)?",
-    "image_tag": "Grade7_39_1_1",
+    "image_tag": "Gr7_39_1_1",
     "backend_description": "Shows a rectangular prism with dimensions labeled as 9 mm length, 8 mm width, and 10 mm height. The 3D shape is shown in perspective view with visible edges to help students identify all three dimensions needed for volume calculation.",
     "tag": "Gr7_39_E1",
     "question_type": "Fill in the blank",
@@ -2799,8 +2853,8 @@
     "solution_image_tag": [
       [
         "2/3",
-        "Gr7_39_1_1_step_1",
-        "Shows the volume formula calculation: Volume = length × width × height, with the values 9 × 8 × 10 substituted and multiplied to get 720. The clear step-by-step layout helps students see how to apply the rectangular prism volume formula."
+        "Gr7_39_1_1_step_2",
+        "Shows the volume formula calculation: Volume = length x width x height, with the values 9 x 8 x 10 substituted and multiplied to get 720. The clear step-by-step layout helps students see how to apply the rectangular prism volume formula."
       ]
     ],
     "solution": [
@@ -2822,7 +2876,7 @@
   {
     "skills": "adjust-a-budget",
     "question_text": "This table shows Naomi's budget for October.\n\nWhat could Naomi do to balance her budget?",
-    "image_tag": "Grade7_39_2_1",
+    "image_tag": "Gr7_39_2_1",
     "backend_description": "A budget table titled 'Naomi's October Budget' with two columns: Income (showing Mowing lawns: 35 dollars, Yard work: 20 dollars, Allowance: 25 dollars) and Expenses (showing School supplies: 20 dollars, Book fair: 45 dollars, Movies: 30 dollars). The clear layout helps students analyze budget balancing.",
     "tag": "Gr7_39_E2",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -2838,12 +2892,12 @@
     "solution_image_tag": [
       [
         "2/7",
-        "Gr7_39_2_1_step_1",
+        "Gr7_39_2_1_step_2",
         "Shows the income calculation with upward arrows pointing to each income source: 35 dollars (Mowing lawns) + 20 dollars (Yard work) + 25 dollars (Allowance) = 80 dollars (Total income). The visual arrows help students understand that these amounts are being added together."
       ],
       [
         "3/7",
-        "Gr7_39_2_1_step_2",
+        "Gr7_39_2_1_step_3",
         "Shows the expense calculation with upward arrows pointing to each expense: 20 dollars (School supplies) + 45 dollars (Book fair) + 30 dollars (Movies) = 95 dollars (Total expenses). The parallel structure to the income calculation helps students organize budget information."
       ]
     ],
@@ -2886,8 +2940,12 @@
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
-      ["44 dollars"],
-      ["44"]
+      [
+        "44 dollars"
+      ],
+      [
+        "44"
+      ]
     ],
     "solution_image_tag": [
       [
@@ -2898,7 +2956,7 @@
       [
         "2/5",
         "Gr7_39_3_1_step_2",
-        "Shows the interest formula calculation: i = prt = 40 dollars × 0.1 × 1 = 4 dollars. Each variable is substituted clearly, helping students apply the simple interest formula step by step."
+        "Shows the interest formula calculation: i = prt = 40 dollars x 0.1 x 1 = 4 dollars. Each variable is substituted clearly, helping students apply the simple interest formula step by step."
       ]
     ],
     "solution": [
@@ -2928,7 +2986,7 @@
   {
     "skills": "subtract-integers-using-counters",
     "question_text": "Use counters to subtract -2- 2.\n\nYou start with:\n\n\n\nYou subtract:\n\n\n\nWhich picture shows the difference?\n\n\n\n",
-    "image_tag": "Grade7_39_4_1",
+    "image_tag": "Gr7_39_4_1",
     "backend_description": "Shows counter models for integer subtraction. The visual includes positive counters (yellow circles with plus signs) and negative counters (red circles with minus signs) to demonstrate the subtraction -2 - 2 using the zero pairs method.",
     "tag": "Gr7_39_E4",
     "question_type": "Multiple Choice Question with Single Answer",
@@ -2977,7 +3035,8 @@
         "4 negative counters remain. So -2 - 2 = -4."
       ]
     ],
-    "question_number": "4_1"
+    "question_number": "4_1",
+    "solution_image_tag": []
   },
   {
     "skills": "subtract-integers-using-number-lines",
@@ -3034,7 +3093,7 @@
       "Gr7_40_2_1_B"
     ],
     "image_choice_tags_backend_description": [
-      "Shows a square divided into a 4×3 grid creating 12 equal parts. The leftmost column (1/4 of the square) is shaded in light purple, and the top 2 rows of that shaded column are double-shaded with diagonal stripes, representing 2/3 of 1/4, which equals 2/12.",
+      "Shows a square divided into a 4x3 grid creating 12 equal parts. The leftmost column (1/4 of the square) is shaded in light purple, and the top 2 rows of that shaded column are double-shaded with diagonal stripes, representing 2/3 of 1/4, which equals 2/12.",
       "Shows a square divided into 4 vertical columns. Only the leftmost column (1/4) is shaded in light purple. This represents just 1/4 without showing the multiplication by 2/3."
     ],
     "correct_answers": [
@@ -3050,7 +3109,7 @@
       [
         "2/3",
         "Gr7_40_2_1_step_2",
-        "Shows the same square now divided into both 4 columns and 3 rows, creating 12 equal parts. The leftmost column remains shaded, and the top 2 squares of that column have diagonal stripe shading overlay, showing 2/3 of the 1/4 column. This visual demonstrates that 2/3 × 1/4 = 2/12."
+        "Shows the same square now divided into both 4 columns and 3 rows, creating 12 equal parts. The leftmost column remains shaded, and the top 2 squares of that column have diagonal stripe shading overlay, showing 2/3 of the 1/4 column. This visual demonstrates that 2/3 x 1/4 = 2/12."
       ]
     ],
     "solution": [
