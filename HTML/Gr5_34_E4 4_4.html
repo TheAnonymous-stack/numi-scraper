@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Segment Diagram</title>
+    <style>
+        .item {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+            display: inline-block;
+        }
+        .line-container {
+            margin: 10px 0;
+        }
+        .line {
+            height: 8px;
+            margin: 5px 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+        .green-line {
+            background-color: #4CAF50;
+            width: 260px;
+            margin-bottom: 15px;
+        }
+        .black-line {
+            background-color: #333;
+            width: 260px;
+            display: flex;
+        }
+        .segment {
+            height: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .segment1 {
+            background-color: #333;
+            flex: 1;
+        }
+        .segment2 {
+            background-color: #333;
+            width: 180px;
+        }
+        .label {
+            position: absolute;
+            bottom: -25px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+            width: 100%;
+        }
+        .length-label {
+            position: absolute;
+            top: -25px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #4CAF50;
+            text-align: center;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr5_34_4_4">
+        <div class="line-container">
+            <div class="line green-line">
+                <div class="length-label">13</div>
+            </div>
+            <div class="line black-line">
+                <div class="segment segment1">
+                    <div class="label">y</div>
+                </div>
+                <div class="segment segment2">
+                    <div class="label">9</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

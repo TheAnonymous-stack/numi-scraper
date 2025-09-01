@@ -1,0 +1,1596 @@
+[
+  {
+    "question_text": "A store owner tracked daily customers. What is the median of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_1",
+    "backend_description": "A table titled 'Customer Traffic' with columns showing items and daily customers. Data rows: Item 1: 102 customers, Item 2: 32 customers, Item 3: 48 customers, Item 4: 108 customers, Item 5: 125 customers, Item 6: 161 customers, Item 7: 150 customers, Item 8: 37 customers.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "105"
+    ],
+    "question_number": "3_1",
+    "solution": [
+      [
+        "text",
+        "To find the median of daily customers, I need to sort the values and find the middle."
+      ],
+      [
+        "text",
+        "Original data: 102, 32, 48, 108, 125, 161, 150, 37"
+      ],
+      [
+        "text",
+        "Sorted data: 32, 37, 48, 102, 108, 125, 150, 161"
+      ],
+      [
+        "text",
+        "With 8 values (even), median is average of middle two: (102 + 108) ÷ 2 = 105"
+      ]
+    ]
+  },
+  {
+    "question_text": "A marketing analyst recorded website visits per hour. What is the mode of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_2",
+    "backend_description": "A table titled 'Web Analytics' with columns showing items and website visits per hour. Data rows: Item 1: 635 visits, Item 2: 530 visits, Item 3: 968 visits, Item 4: 655 visits, Item 5: 968 visits, Item 6: 111 visits, Item 7: 968 visits, Item 8: 968 visits.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "968"
+    ],
+    "question_number": "3_2",
+    "solution": [
+      [
+        "text",
+        "To find the mode of website visits per hour, I need to find the most frequent value."
+      ],
+      [
+        "text",
+        "Data values: 635, 530, 968, 655, 968, 111, 968, 968"
+      ],
+      [
+        "text",
+        "Frequency count: 111: 1 times, 530: 1 times, 635: 1 times, 655: 1 times, 968: 4 times"
+      ],
+      [
+        "text",
+        "The value 968 appears most frequently (4 times), so it is the mode."
+      ]
+    ]
+  },
+  {
+    "question_text": "A product manager tracked units sold per day. What is the median of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_3",
+    "backend_description": "A pictograph titled 'Product Sales' showing units sold per day. Each symbol represents 10 units. Item 1: 3 symbols (33 units) Item 2: 1 symbols (10 units) Item 3: 2 symbols (23 units) Item 4: 3 symbols (35 units) Item 5: 3 symbols (33 units) Item 6: 4 symbols (47 units) Item 7: 2 symbols (21 units).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "33"
+    ],
+    "question_number": "3_3",
+    "solution": [
+      [
+        "text",
+        "To find the median of units sold per day, I need to sort the values and find the middle."
+      ],
+      [
+        "text",
+        "Original data: 33, 10, 23, 35, 33, 47, 21"
+      ],
+      [
+        "text",
+        "Sorted data: 10, 21, 23, 33, 33, 35, 47"
+      ],
+      [
+        "text",
+        "With 7 values (odd), median is the middle value: 33"
+      ]
+    ]
+  },
+  {
+    "question_text": "A franchise owner recorded weekly revenue ($1000s). What is the mode of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_4",
+    "backend_description": "A table titled 'Revenue Tracking' with columns showing items and weekly revenue ($1000s). Data rows: Item 1: 67 thousands, Item 2: 146 thousands, Item 3: 146 thousands, Item 4: 87 thousands, Item 5: 116 thousands, Item 6: 43 thousands, Item 7: 43 thousands, Item 8: 87 thousands.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "43"
+    ],
+    "question_number": "3_4",
+    "solution": [
+      [
+        "text",
+        "To find the mode of weekly revenue ($1000s), I need to find the most frequent value."
+      ],
+      [
+        "text",
+        "Data values: 67, 146, 146, 87, 116, 43, 43, 87"
+      ],
+      [
+        "text",
+        "Frequency count: 43: 2 times, 67: 1 times, 87: 2 times, 116: 1 times, 146: 2 times"
+      ],
+      [
+        "text",
+        "The value 43 appears most frequently (2 times), so it is the mode."
+      ]
+    ]
+  },
+  {
+    "question_text": "A principal tracked students per grade level. What is the median of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_5",
+    "backend_description": "A pictograph titled 'Grade Distribution' showing students per grade level. Each symbol represents 20 students. Item 1: 1 symbols (21 students) Item 2: 0 symbols (18 students) Item 3: 1 symbols (23 students) Item 4: 1 symbols (25 students) Item 5: 1 symbols (22 students) Item 6: 1 symbols (21 students).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "21.5"
+    ],
+    "question_number": "3_5",
+    "solution": [
+      [
+        "text",
+        "To find the median of students per grade level, I need to sort the values and find the middle."
+      ],
+      [
+        "text",
+        "Original data: 21, 18, 23, 25, 22, 21"
+      ],
+      [
+        "text",
+        "Sorted data: 18, 21, 21, 22, 23, 25"
+      ],
+      [
+        "text",
+        "With 6 values (even), median is average of middle two: (21 + 22) ÷ 2 = 21.5"
+      ]
+    ]
+  },
+  {
+    "question_text": "A librarian analyzed books checked out daily. What is the mean of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_6",
+    "backend_description": "A table titled 'Library Activity' with columns showing items and books checked out daily. Data rows: Item 1: 12 books, Item 2: 24 books, Item 3: 18 books, Item 4: 19 books, Item 5: 3 books, Item 6: 4 books, Item 7: 13 books.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "13.285714285714286"
+    ],
+    "question_number": "3_6",
+    "solution": [
+      [
+        "text",
+        "To find the mean of books checked out daily, I need to add all values and divide by the count."
+      ],
+      [
+        "text",
+        "Data values: 12, 24, 18, 19, 3, 4, 13"
+      ],
+      [
+        "text",
+        "Sum: 12 + 24 + 18 + 19 + 3 + 4 + 13 = 93"
+      ],
+      [
+        "text",
+        "Count: 7 values"
+      ],
+      [
+        "text",
+        "Mean: 93 ÷ 7 = 13.285714285714286"
+      ]
+    ]
+  },
+  {
+    "question_text": "A PE teacher recorded laps completed by students. What is the mode of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_7",
+    "backend_description": "A pictograph titled 'Fitness Test' showing laps completed by students. Each symbol represents 3 laps. Item 1: 1 symbols (4 laps) Item 2: 4 symbols (12 laps) Item 3: 1 symbols (3 laps) Item 4: 1 symbols (3 laps) Item 5: 1 symbols (3 laps) Item 6: 4 symbols (12 laps) Item 7: 1 symbols (3 laps) Item 8: 3 symbols (9 laps).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "3"
+    ],
+    "question_number": "3_7",
+    "solution": [
+      [
+        "text",
+        "To find the mode of laps completed by students, I need to find the most frequent value."
+      ],
+      [
+        "text",
+        "Data values: 4, 12, 3, 3, 3, 12, 3, 9"
+      ],
+      [
+        "text",
+        "Frequency count: 3: 4 times, 4: 1 times, 9: 1 times, 12: 2 times"
+      ],
+      [
+        "text",
+        "The value 3 appears most frequently (4 times), so it is the mode."
+      ]
+    ]
+  },
+  {
+    "question_text": "A music teacher analyzed practice minutes per student. What is the mean of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_8",
+    "backend_description": "A bar graph titled 'Practice Log' showing practice minutes per student. The graph has colored bars: Item 1 (pink, 12 minutes), Item 2 (light green, 36 minutes), Item 3 (orange, 32 minutes), Item 4 (purple, 13 minutes), Item 5 (light blue, 28 minutes), Item 6 (yellow, 32 minutes), Item 7 (green, 40 minutes), Item 8 (blue, 46 minutes).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "29.875"
+    ],
+    "question_number": "3_8",
+    "solution": [
+      [
+        "text",
+        "To find the mean of practice minutes per student, I need to add all values and divide by the count."
+      ],
+      [
+        "text",
+        "Data values: 12, 36, 32, 13, 28, 32, 40, 46"
+      ],
+      [
+        "text",
+        "Sum: 12 + 36 + 32 + 13 + 28 + 32 + 40 + 46 = 239"
+      ],
+      [
+        "text",
+        "Count: 8 values"
+      ],
+      [
+        "text",
+        "Mean: 239 ÷ 8 = 29.875"
+      ]
+    ]
+  },
+  {
+    "question_text": "A cafeteria manager recorded lunches served daily. What is the mode of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_9",
+    "backend_description": "A pictograph titled 'Lunch Count' showing lunches served daily. Each symbol represents 50 meals. Item 1: 5 symbols (259 meals) Item 2: 5 symbols (278 meals) Item 3: 5 symbols (278 meals) Item 4: 3 symbols (155 meals) Item 5: 7 symbols (392 meals) Item 6: 5 symbols (278 meals) Item 7: 5 symbols (278 meals).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "278"
+    ],
+    "question_number": "3_9",
+    "solution": [
+      [
+        "text",
+        "To find the mode of lunches served daily, I need to find the most frequent value."
+      ],
+      [
+        "text",
+        "Data values: 259, 278, 278, 155, 392, 278, 278"
+      ],
+      [
+        "text",
+        "Frequency count: 155: 1 times, 259: 1 times, 278: 4 times, 392: 1 times"
+      ],
+      [
+        "text",
+        "The value 278 appears most frequently (4 times), so it is the mode."
+      ]
+    ]
+  },
+  {
+    "question_text": "A coach tracked points scored per game. What is the median of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_10",
+    "backend_description": "A table titled 'Season Stats' with columns showing items and points scored per game. Data rows: Item 1: 47 points, Item 2: 20 points, Item 3: 49 points, Item 4: 36 points, Item 5: 40 points, Item 6: 33 points, Item 7: 39 points, Item 8: 29 points.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "37.5"
+    ],
+    "question_number": "3_10",
+    "solution": [
+      [
+        "text",
+        "To find the median of points scored per game, I need to sort the values and find the middle."
+      ],
+      [
+        "text",
+        "Original data: 47, 20, 49, 36, 40, 33, 39, 29"
+      ],
+      [
+        "text",
+        "Sorted data: 20, 29, 33, 36, 39, 40, 47, 49"
+      ],
+      [
+        "text",
+        "With 8 values (even), median is average of middle two: (36 + 39) ÷ 2 = 37.5"
+      ]
+    ]
+  },
+  {
+    "question_text": "A tournament director tracked matches won per player. What is the median of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_11",
+    "backend_description": "A pictograph titled 'Tournament Results' showing matches won per player. Each symbol represents 1 wins. Item 1: 6 symbols (6 wins) Item 2: 4 symbols (4 wins) Item 3: 6 symbols (6 wins) Item 4: 1 symbols (1 wins) Item 5: 1 symbols (1 wins) Item 6: 8 symbols (8 wins) Item 7: 2 symbols (2 wins) Item 8: 8 symbols (8 wins).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "5"
+    ],
+    "question_number": "3_11",
+    "solution": [
+      [
+        "text",
+        "To find the median of matches won per player, I need to sort the values and find the middle."
+      ],
+      [
+        "text",
+        "Original data: 6, 4, 6, 1, 1, 8, 2, 8"
+      ],
+      [
+        "text",
+        "Sorted data: 1, 1, 2, 4, 6, 6, 8, 8"
+      ],
+      [
+        "text",
+        "With 8 values (even), median is average of middle two: (4 + 6) ÷ 2 = 5"
+      ]
+    ]
+  },
+  {
+    "question_text": "A swim instructor analyzed pool lengths per student. What is the mean of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_12",
+    "backend_description": "A bar graph titled 'Swimming Progress' showing pool lengths per student. The graph has colored bars: Item 1 (pink, 23 lengths), Item 2 (light green, 25 lengths), Item 3 (orange, 23 lengths), Item 4 (purple, 19 lengths), Item 5 (light blue, 12 lengths), Item 6 (yellow, 6 lengths), Item 7 (green, 24 lengths), Item 8 (blue, 10 lengths).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "17.75"
+    ],
+    "question_number": "3_12",
+    "solution": [
+      [
+        "text",
+        "To find the mean of pool lengths per student, I need to add all values and divide by the count."
+      ],
+      [
+        "text",
+        "Data values: 23, 25, 23, 19, 12, 6, 24, 10"
+      ],
+      [
+        "text",
+        "Sum: 23 + 25 + 23 + 19 + 12 + 6 + 24 + 10 = 142"
+      ],
+      [
+        "text",
+        "Count: 8 values"
+      ],
+      [
+        "text",
+        "Mean: 142 ÷ 8 = 17.75"
+      ]
+    ]
+  },
+  {
+    "question_text": "A dance teacher analyzed routines mastered. What is the mean of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_13",
+    "backend_description": "A bar graph titled 'Dance Progress' showing routines mastered. The graph has colored bars: Item 1 (pink, 6 routines), Item 2 (light green, 9 routines), Item 3 (orange, 6 routines), Item 4 (purple, 10 routines), Item 5 (light blue, 8 routines), Item 6 (yellow, 10 routines), Item 7 (green, 6 routines), Item 8 (blue, 8 routines).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "7.875"
+    ],
+    "question_number": "3_13",
+    "solution": [
+      [
+        "text",
+        "To find the mean of routines mastered, I need to add all values and divide by the count."
+      ],
+      [
+        "text",
+        "Data values: 6, 9, 6, 10, 8, 10, 6, 8"
+      ],
+      [
+        "text",
+        "Sum: 6 + 9 + 6 + 10 + 8 + 10 + 6 + 8 = 63"
+      ],
+      [
+        "text",
+        "Count: 8 values"
+      ],
+      [
+        "text",
+        "Mean: 63 ÷ 8 = 7.875"
+      ]
+    ]
+  },
+  {
+    "question_text": "A chess club leader analyzed games played per member. What is the mean of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_14",
+    "backend_description": "A table titled 'Chess Activity' with columns showing items and games played per member. Data rows: Item 1: 5 games, Item 2: 1 games, Item 3: 2 games, Item 4: 12 games, Item 5: 14 games, Item 6: 9 games, Item 7: 1 games, Item 8: 13 games.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "7.125"
+    ],
+    "question_number": "3_14",
+    "solution": [
+      [
+        "text",
+        "To find the mean of games played per member, I need to add all values and divide by the count."
+      ],
+      [
+        "text",
+        "Data values: 5, 1, 2, 12, 14, 9, 1, 13"
+      ],
+      [
+        "text",
+        "Sum: 5 + 1 + 2 + 12 + 14 + 9 + 1 + 13 = 57"
+      ],
+      [
+        "text",
+        "Count: 8 values"
+      ],
+      [
+        "text",
+        "Mean: 57 ÷ 8 = 7.125"
+      ]
+    ]
+  },
+  {
+    "question_text": "A botanist analyzed flowers per plant. What is the mean of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_15",
+    "backend_description": "A pictograph titled 'Plant Study' showing flowers per plant. Each symbol represents 3 flowers. Item 1: 2 symbols (7 flowers) Item 2: 3 symbols (11 flowers) Item 3: 5 symbols (16 flowers) Item 4: 5 symbols (15 flowers) Item 5: 2 symbols (6 flowers) Item 6: 5 symbols (16 flowers) Item 7: 5 symbols (16 flowers) Item 8: 4 symbols (14 flowers).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "12.625"
+    ],
+    "question_number": "3_15",
+    "solution": [
+      [
+        "text",
+        "To find the mean of flowers per plant, I need to add all values and divide by the count."
+      ],
+      [
+        "text",
+        "Data values: 7, 11, 16, 15, 6, 16, 16, 14"
+      ],
+      [
+        "text",
+        "Sum: 7 + 11 + 16 + 15 + 6 + 16 + 16 + 14 = 101"
+      ],
+      [
+        "text",
+        "Count: 8 values"
+      ],
+      [
+        "text",
+        "Mean: 101 ÷ 8 = 12.625"
+      ]
+    ]
+  },
+  {
+    "question_text": "A meteorologist recorded rainfall (mm) per day. What is the mode of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_16",
+    "backend_description": "A table titled 'Weather Data' with columns showing items and rainfall (mm) per day. Data rows: Item 1: 15 millimeters, Item 2: 6 millimeters, Item 3: 6 millimeters, Item 4: 6 millimeters, Item 5: 14 millimeters, Item 6: 25 millimeters, Item 7: 28 millimeters.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "6"
+    ],
+    "question_number": "3_16",
+    "solution": [
+      [
+        "text",
+        "To find the mode of rainfall (mm) per day, I need to find the most frequent value."
+      ],
+      [
+        "text",
+        "Data values: 15, 6, 6, 6, 14, 25, 28"
+      ],
+      [
+        "text",
+        "Frequency count: 6: 3 times, 14: 1 times, 15: 1 times, 25: 1 times, 28: 1 times"
+      ],
+      [
+        "text",
+        "The value 6 appears most frequently (3 times), so it is the mode."
+      ]
+    ]
+  },
+  {
+    "question_text": "A biologist tracked birds spotted per hour. What is the median of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_17",
+    "backend_description": "A pictograph titled 'Bird Watch' showing birds spotted per hour. Each symbol represents 2 birds. Item 1: 2 symbols (4 birds) Item 2: 7 symbols (15 birds) Item 3: 4 symbols (9 birds) Item 4: 2 symbols (4 birds) Item 5: 1 symbols (3 birds) Item 6: 7 symbols (15 birds) Item 7: 4 symbols (9 birds) Item 8: 5 symbols (11 birds).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "9"
+    ],
+    "question_number": "3_17",
+    "solution": [
+      [
+        "text",
+        "To find the median of birds spotted per hour, I need to sort the values and find the middle."
+      ],
+      [
+        "text",
+        "Original data: 4, 15, 9, 4, 3, 15, 9, 11"
+      ],
+      [
+        "text",
+        "Sorted data: 3, 4, 4, 9, 9, 11, 15, 15"
+      ],
+      [
+        "text",
+        "With 8 values (even), median is average of middle two: (9 + 9) ÷ 2 = 9"
+      ]
+    ]
+  },
+  {
+    "question_text": "A lab technician analyzed experiments completed daily. What is the mean of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_18",
+    "backend_description": "A table titled 'Lab Report' with columns showing items and experiments completed daily. Data rows: Item 1: 6 experiments, Item 2: 2 experiments, Item 3: 7 experiments, Item 4: 3 experiments, Item 5: 4 experiments, Item 6: 4 experiments, Item 7: 4 experiments.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "4.285714285714286"
+    ],
+    "question_number": "3_18",
+    "solution": [
+      [
+        "text",
+        "To find the mean of experiments completed daily, I need to add all values and divide by the count."
+      ],
+      [
+        "text",
+        "Data values: 6, 2, 7, 3, 4, 4, 4"
+      ],
+      [
+        "text",
+        "Sum: 6 + 2 + 7 + 3 + 4 + 4 + 4 = 30"
+      ],
+      [
+        "text",
+        "Count: 7 values"
+      ],
+      [
+        "text",
+        "Mean: 30 ÷ 7 = 4.285714285714286"
+      ]
+    ]
+  },
+  {
+    "question_text": "A environmental scientist recorded samples collected per site. What is the mode of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_19",
+    "backend_description": "A bar graph titled 'Field Study' showing samples collected per site. The graph has colored bars: Item 1 (pink, 19 samples), Item 2 (light green, 11 samples), Item 3 (orange, 19 samples), Item 4 (purple, 17 samples), Item 5 (light blue, 4 samples), Item 6 (yellow, 17 samples), Item 7 (green, 25 samples), Item 8 (blue, 5 samples).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "17"
+    ],
+    "question_number": "3_19",
+    "solution": [
+      [
+        "text",
+        "To find the mode of samples collected per site, I need to find the most frequent value."
+      ],
+      [
+        "text",
+        "Data values: 19, 11, 19, 17, 4, 17, 25, 5"
+      ],
+      [
+        "text",
+        "Frequency count: 4: 1 times, 5: 1 times, 11: 1 times, 17: 2 times, 19: 2 times, 25: 1 times"
+      ],
+      [
+        "text",
+        "The value 17 appears most frequently (2 times), so it is the mode."
+      ]
+    ]
+  },
+  {
+    "question_text": "A volunteer coordinator analyzed hours volunteered per person. What is the mean of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_20",
+    "backend_description": "A bar graph titled 'Volunteer Hours' showing hours volunteered per person. The graph has colored bars: Item 1 (pink, 5 hours), Item 2 (light green, 6 hours), Item 3 (orange, 4 hours), Item 4 (purple, 4 hours), Item 5 (light blue, 2 hours), Item 6 (yellow, 6 hours), Item 7 (green, 8 hours), Item 8 (blue, 6 hours).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "5.125"
+    ],
+    "question_number": "3_20",
+    "solution": [
+      [
+        "text",
+        "To find the mean of hours volunteered per person, I need to add all values and divide by the count."
+      ],
+      [
+        "text",
+        "Data values: 5, 6, 4, 4, 2, 6, 8, 6"
+      ],
+      [
+        "text",
+        "Sum: 5 + 6 + 4 + 4 + 2 + 6 + 8 + 6 = 41"
+      ],
+      [
+        "text",
+        "Count: 8 values"
+      ],
+      [
+        "text",
+        "Mean: 41 ÷ 8 = 5.125"
+      ]
+    ]
+  },
+  {
+    "question_text": "A food bank manager tracked boxes distributed daily. What is the median of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_21",
+    "backend_description": "A table titled 'Distribution Log' with columns showing items and boxes distributed daily. Data rows: Item 1: 22 boxes, Item 2: 41 boxes, Item 3: 14 boxes, Item 4: 30 boxes, Item 5: 40 boxes, Item 6: 35 boxes, Item 7: 12 boxes.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "30"
+    ],
+    "question_number": "3_21",
+    "solution": [
+      [
+        "text",
+        "To find the median of boxes distributed daily, I need to sort the values and find the middle."
+      ],
+      [
+        "text",
+        "Original data: 22, 41, 14, 30, 40, 35, 12"
+      ],
+      [
+        "text",
+        "Sorted data: 12, 14, 22, 30, 35, 40, 41"
+      ],
+      [
+        "text",
+        "With 7 values (odd), median is the middle value: 30"
+      ]
+    ]
+  },
+  {
+    "question_text": "A park ranger analyzed visitors per day. What is the mean of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_22",
+    "backend_description": "A table titled 'Park Attendance' with columns showing items and visitors per day. Data rows: Item 1: 74 visitors, Item 2: 36 visitors, Item 3: 13 visitors, Item 4: 94 visitors, Item 5: 93 visitors, Item 6: 93 visitors, Item 7: 64 visitors.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "66.71428571428571"
+    ],
+    "question_number": "3_22",
+    "solution": [
+      [
+        "text",
+        "To find the mean of visitors per day, I need to add all values and divide by the count."
+      ],
+      [
+        "text",
+        "Data values: 74, 36, 13, 94, 93, 93, 64"
+      ],
+      [
+        "text",
+        "Sum: 74 + 36 + 13 + 94 + 93 + 93 + 64 = 467"
+      ],
+      [
+        "text",
+        "Count: 7 values"
+      ],
+      [
+        "text",
+        "Mean: 467 ÷ 7 = 66.71428571428571"
+      ]
+    ]
+  },
+  {
+    "question_text": "A recycling coordinator analyzed bins collected per route. What is the mean of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_23",
+    "backend_description": "A table titled 'Collection Data' with columns showing items and bins collected per route. Data rows: Item 1: 9 bins, Item 2: 23 bins, Item 3: 9 bins, Item 4: 10 bins, Item 5: 13 bins, Item 6: 24 bins, Item 7: 39 bins, Item 8: 21 bins.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "18.5"
+    ],
+    "question_number": "3_23",
+    "solution": [
+      [
+        "text",
+        "To find the mean of bins collected per route, I need to add all values and divide by the count."
+      ],
+      [
+        "text",
+        "Data values: 9, 23, 9, 10, 13, 24, 39, 21"
+      ],
+      [
+        "text",
+        "Sum: 9 + 23 + 9 + 10 + 13 + 24 + 39 + 21 = 148"
+      ],
+      [
+        "text",
+        "Count: 8 values"
+      ],
+      [
+        "text",
+        "Mean: 148 ÷ 8 = 18.5"
+      ]
+    ]
+  },
+  {
+    "question_text": "A community organizer tracked event attendees. What is the median of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_24",
+    "backend_description": "A pictograph titled 'Event Turnout' showing event attendees. Each symbol represents 15 people. Item 1: 0 symbols (10 people) Item 2: 3 symbols (47 people) Item 3: 1 symbols (15 people) Item 4: 2 symbols (39 people) Item 5: 2 symbols (31 people) Item 6: 0 symbols (12 people) Item 7: 3 symbols (59 people) Item 8: 4 symbols (61 people).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "35"
+    ],
+    "question_number": "3_24",
+    "solution": [
+      [
+        "text",
+        "To find the median of event attendees, I need to sort the values and find the middle."
+      ],
+      [
+        "text",
+        "Original data: 10, 47, 15, 39, 31, 12, 59, 61"
+      ],
+      [
+        "text",
+        "Sorted data: 10, 12, 15, 31, 39, 47, 59, 61"
+      ],
+      [
+        "text",
+        "With 8 values (even), median is average of middle two: (31 + 39) ÷ 2 = 35"
+      ]
+    ]
+  },
+  {
+    "question_text": "A game developer recorded levels completed per player. What is the mode of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_25",
+    "backend_description": "A pictograph titled 'Player Progress' showing levels completed per player. Each symbol represents 3 levels. Item 1: 1 symbols (5 levels) Item 2: 2 symbols (6 levels) Item 3: 3 symbols (10 levels) Item 4: 3 symbols (10 levels) Item 5: 2 symbols (8 levels) Item 6: 2 symbols (6 levels) Item 7: 1 symbols (5 levels) Item 8: 2 symbols (8 levels).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "5"
+    ],
+    "question_number": "3_25",
+    "solution": [
+      [
+        "text",
+        "To find the mode of levels completed per player, I need to find the most frequent value."
+      ],
+      [
+        "text",
+        "Data values: 5, 6, 10, 10, 8, 6, 5, 8"
+      ],
+      [
+        "text",
+        "Frequency count: 5: 2 times, 6: 2 times, 8: 2 times, 10: 2 times"
+      ],
+      [
+        "text",
+        "The value 5 appears most frequently (2 times), so it is the mode."
+      ]
+    ]
+  },
+  {
+    "question_text": "A app designer analyzed daily active users (hundreds). What is the mean of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_26",
+    "backend_description": "A pictograph titled 'User Metrics' showing daily active users (hundreds). Each symbol represents 5 hundreds. Item 1: 13 symbols (69 hundreds) Item 2: 4 symbols (22 hundreds) Item 3: 3 symbols (18 hundreds) Item 4: 6 symbols (34 hundreds) Item 5: 15 symbols (78 hundreds) Item 6: 7 symbols (39 hundreds) Item 7: 3 symbols (19 hundreds).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "39.857142857142854"
+    ],
+    "question_number": "3_26",
+    "solution": [
+      [
+        "text",
+        "To find the mean of daily active users (hundreds), I need to add all values and divide by the count."
+      ],
+      [
+        "text",
+        "Data values: 69, 22, 18, 34, 78, 39, 19"
+      ],
+      [
+        "text",
+        "Sum: 69 + 22 + 18 + 34 + 78 + 39 + 19 = 279"
+      ],
+      [
+        "text",
+        "Count: 7 values"
+      ],
+      [
+        "text",
+        "Mean: 279 ÷ 7 = 39.857142857142854"
+      ]
+    ]
+  },
+  {
+    "question_text": "A tech support tracked tickets resolved daily. What is the median of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_27",
+    "backend_description": "A bar graph titled 'Support Stats' showing tickets resolved daily. The graph has colored bars: Item 1 (pink, 3 tickets), Item 2 (light green, 7 tickets), Item 3 (orange, 10 tickets), Item 4 (purple, 21 tickets), Item 5 (light blue, 15 tickets), Item 6 (yellow, 9 tickets), Item 7 (green, 13 tickets), Item 8 (blue, 21 tickets).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "11.5"
+    ],
+    "question_number": "3_27",
+    "solution": [
+      [
+        "text",
+        "To find the median of tickets resolved daily, I need to sort the values and find the middle."
+      ],
+      [
+        "text",
+        "Original data: 3, 7, 10, 21, 15, 9, 13, 21"
+      ],
+      [
+        "text",
+        "Sorted data: 3, 7, 9, 10, 13, 15, 21, 21"
+      ],
+      [
+        "text",
+        "With 8 values (even), median is average of middle two: (10 + 13) ÷ 2 = 11.5"
+      ]
+    ]
+  },
+  {
+    "question_text": "A social media manager recorded posts per day. What is the mode of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_28",
+    "backend_description": "A pictograph titled 'Content Calendar' showing posts per day. Each symbol represents 2 posts. Item 1: 1 symbols (2 posts) Item 2: 1 symbols (3 posts) Item 3: 1 symbols (3 posts) Item 4: 1 symbols (2 posts) Item 5: 3 symbols (7 posts) Item 6: 3 symbols (6 posts) Item 7: 4 symbols (9 posts) Item 8: 3 symbols (6 posts).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "2"
+    ],
+    "question_number": "3_28",
+    "solution": [
+      [
+        "text",
+        "To find the mode of posts per day, I need to find the most frequent value."
+      ],
+      [
+        "text",
+        "Data values: 2, 3, 3, 2, 7, 6, 9, 6"
+      ],
+      [
+        "text",
+        "Frequency count: 2: 2 times, 3: 2 times, 6: 2 times, 7: 1 times, 9: 1 times"
+      ],
+      [
+        "text",
+        "The value 2 appears most frequently (2 times), so it is the mode."
+      ]
+    ]
+  },
+  {
+    "question_text": "A data analyst tracked queries processed per hour. What is the median of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_29",
+    "backend_description": "A table titled 'Database Load' with columns showing items and queries processed per hour. Data rows: Item 1: 18 queries, Item 2: 67 queries, Item 3: 86 queries, Item 4: 70 queries, Item 5: 46 queries, Item 6: 52 queries, Item 7: 26 queries, Item 8: 91 queries.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "59.5"
+    ],
+    "question_number": "3_29",
+    "solution": [
+      [
+        "text",
+        "To find the median of queries processed per hour, I need to sort the values and find the middle."
+      ],
+      [
+        "text",
+        "Original data: 18, 67, 86, 70, 46, 52, 26, 91"
+      ],
+      [
+        "text",
+        "Sorted data: 18, 26, 46, 52, 67, 70, 86, 91"
+      ],
+      [
+        "text",
+        "With 8 values (even), median is average of middle two: (52 + 67) ÷ 2 = 59.5"
+      ]
+    ]
+  },
+  {
+    "question_text": "A bus driver analyzed passengers per stop. What is the mean of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_30",
+    "backend_description": "A table titled 'Route Analysis' with columns showing items and passengers per stop. Data rows: Item 1: 10 passengers, Item 2: 0 passengers, Item 3: 6 passengers, Item 4: 4 passengers, Item 5: 19 passengers, Item 6: 9 passengers, Item 7: 17 passengers, Item 8: 8 passengers.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "9.125"
+    ],
+    "question_number": "3_30",
+    "solution": [
+      [
+        "text",
+        "To find the mean of passengers per stop, I need to add all values and divide by the count."
+      ],
+      [
+        "text",
+        "Data values: 10, 0, 6, 4, 19, 9, 17, 8"
+      ],
+      [
+        "text",
+        "Sum: 10 + 0 + 6 + 4 + 19 + 9 + 17 + 8 = 73"
+      ],
+      [
+        "text",
+        "Count: 8 values"
+      ],
+      [
+        "text",
+        "Mean: 73 ÷ 8 = 9.125"
+      ]
+    ]
+  },
+  {
+    "question_text": "A delivery driver tracked packages per route. What is the median of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_31",
+    "backend_description": "A bar graph titled 'Delivery Log' showing packages per route. The graph has colored bars: Item 1 (pink, 36 packages), Item 2 (light green, 32 packages), Item 3 (orange, 8 packages), Item 4 (purple, 10 packages), Item 5 (light blue, 40 packages), Item 6 (yellow, 7 packages), Item 7 (green, 10 packages), Item 8 (blue, 20 packages).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "15"
+    ],
+    "question_number": "3_31",
+    "solution": [
+      [
+        "text",
+        "To find the median of packages per route, I need to sort the values and find the middle."
+      ],
+      [
+        "text",
+        "Original data: 36, 32, 8, 10, 40, 7, 10, 20"
+      ],
+      [
+        "text",
+        "Sorted data: 7, 8, 10, 10, 20, 32, 36, 40"
+      ],
+      [
+        "text",
+        "With 8 values (even), median is average of middle two: (10 + 20) ÷ 2 = 15"
+      ]
+    ]
+  },
+  {
+    "question_text": "A airline analyst analyzed flights per gate daily. What is the mean of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_32",
+    "backend_description": "A table titled 'Airport Traffic' with columns showing items and flights per gate daily. Data rows: Item 1: 10 flights, Item 2: 12 flights, Item 3: 5 flights, Item 4: 9 flights, Item 5: 3 flights, Item 6: 3 flights, Item 7: 12 flights, Item 8: 13 flights.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "8.375"
+    ],
+    "question_number": "3_32",
+    "solution": [
+      [
+        "text",
+        "To find the mean of flights per gate daily, I need to add all values and divide by the count."
+      ],
+      [
+        "text",
+        "Data values: 10, 12, 5, 9, 3, 3, 12, 13"
+      ],
+      [
+        "text",
+        "Sum: 10 + 12 + 5 + 9 + 3 + 3 + 12 + 13 = 67"
+      ],
+      [
+        "text",
+        "Count: 8 values"
+      ],
+      [
+        "text",
+        "Mean: 67 ÷ 8 = 8.375"
+      ]
+    ]
+  },
+  {
+    "question_text": "A train conductor recorded cars per train. What is the mode of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_33",
+    "backend_description": "A pictograph titled 'Train Composition' showing cars per train. Each symbol represents 3 cars. Item 1: 2 symbols (7 cars) Item 2: 1 symbols (5 cars) Item 3: 2 symbols (7 cars) Item 4: 2 symbols (7 cars) Item 5: 2 symbols (8 cars) Item 6: 2 symbols (8 cars) Item 7: 2 symbols (7 cars) Item 8: 2 symbols (7 cars).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "7"
+    ],
+    "question_number": "3_33",
+    "solution": [
+      [
+        "text",
+        "To find the mode of cars per train, I need to find the most frequent value."
+      ],
+      [
+        "text",
+        "Data values: 7, 5, 7, 7, 8, 8, 7, 7"
+      ],
+      [
+        "text",
+        "Frequency count: 5: 1 times, 7: 5 times, 8: 2 times"
+      ],
+      [
+        "text",
+        "The value 7 appears most frequently (5 times), so it is the mode."
+      ]
+    ]
+  },
+  {
+    "question_text": "A shipping manager recorded containers per ship. What is the mode of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_34",
+    "backend_description": "A table titled 'Shipping Log' with columns showing items and containers per ship. Data rows: Item 1: 99 containers, Item 2: 86 containers, Item 3: 99 containers, Item 4: 99 containers, Item 5: 105 containers, Item 6: 31 containers, Item 7: 24 containers, Item 8: 41 containers.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "99"
+    ],
+    "question_number": "3_34",
+    "solution": [
+      [
+        "text",
+        "To find the mode of containers per ship, I need to find the most frequent value."
+      ],
+      [
+        "text",
+        "Data values: 99, 86, 99, 99, 105, 31, 24, 41"
+      ],
+      [
+        "text",
+        "Frequency count: 24: 1 times, 31: 1 times, 41: 1 times, 86: 1 times, 99: 3 times, 105: 1 times"
+      ],
+      [
+        "text",
+        "The value 99 appears most frequently (3 times), so it is the mode."
+      ]
+    ]
+  },
+  {
+    "question_text": "A farmer tracked eggs collected daily. What is the median of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_35",
+    "backend_description": "A pictograph titled 'Egg Production' showing eggs collected daily. Each symbol represents 12 eggs. Item 1: 1 symbols (16 eggs) Item 2: 1 symbols (18 eggs) Item 3: 2 symbols (25 eggs) Item 4: 0 symbols (8 eggs) Item 5: 1 symbols (13 eggs) Item 6: 1 symbols (21 eggs) Item 7: 0 symbols (11 eggs).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "16"
+    ],
+    "question_number": "3_35",
+    "solution": [
+      [
+        "text",
+        "To find the median of eggs collected daily, I need to sort the values and find the middle."
+      ],
+      [
+        "text",
+        "Original data: 16, 18, 25, 8, 13, 21, 11"
+      ],
+      [
+        "text",
+        "Sorted data: 8, 11, 13, 16, 18, 21, 25"
+      ],
+      [
+        "text",
+        "With 7 values (odd), median is the middle value: 16"
+      ]
+    ]
+  },
+  {
+    "question_text": "A beekeeper recorded pounds of honey per hive. What is the mode of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_36",
+    "backend_description": "A table titled 'Honey Harvest' with columns showing items and pounds of honey per hive. Data rows: Item 1: 21 pounds, Item 2: 51 pounds, Item 3: 55 pounds, Item 4: 35 pounds, Item 5: 40 pounds, Item 6: 21 pounds, Item 7: 57 pounds, Item 8: 57 pounds.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "21"
+    ],
+    "question_number": "3_36",
+    "solution": [
+      [
+        "text",
+        "To find the mode of pounds of honey per hive, I need to find the most frequent value."
+      ],
+      [
+        "text",
+        "Data values: 21, 51, 55, 35, 40, 21, 57, 57"
+      ],
+      [
+        "text",
+        "Frequency count: 21: 2 times, 35: 1 times, 40: 1 times, 51: 1 times, 55: 1 times, 57: 2 times"
+      ],
+      [
+        "text",
+        "The value 21 appears most frequently (2 times), so it is the mode."
+      ]
+    ]
+  },
+  {
+    "question_text": "A orchard owner analyzed baskets of apples per tree. What is the mean of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_37",
+    "backend_description": "A pictograph titled 'Apple Harvest' showing baskets of apples per tree. Each symbol represents 2 baskets. Item 1: 1 symbols (3 baskets) Item 2: 1 symbols (2 baskets) Item 3: 3 symbols (7 baskets) Item 4: 4 symbols (8 baskets) Item 5: 2 symbols (5 baskets) Item 6: 2 symbols (4 baskets) Item 7: 2 symbols (4 baskets) Item 8: 4 symbols (8 baskets).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "5.125"
+    ],
+    "question_number": "3_37",
+    "solution": [
+      [
+        "text",
+        "To find the mean of baskets of apples per tree, I need to add all values and divide by the count."
+      ],
+      [
+        "text",
+        "Data values: 3, 2, 7, 8, 5, 4, 4, 8"
+      ],
+      [
+        "text",
+        "Sum: 3 + 2 + 7 + 8 + 5 + 4 + 4 + 8 = 41"
+      ],
+      [
+        "text",
+        "Count: 8 values"
+      ],
+      [
+        "text",
+        "Mean: 41 ÷ 8 = 5.125"
+      ]
+    ]
+  },
+  {
+    "question_text": "A gardener recorded tomatoes per plant. What is the mode of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_38",
+    "backend_description": "A bar graph titled 'Garden Yield' showing tomatoes per plant. The graph has colored bars: Item 1 (pink, 16 tomatoes), Item 2 (light green, 8 tomatoes), Item 3 (orange, 19 tomatoes), Item 4 (purple, 16 tomatoes), Item 5 (light blue, 16 tomatoes), Item 6 (yellow, 8 tomatoes), Item 7 (green, 19 tomatoes), Item 8 (blue, 15 tomatoes).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "16"
+    ],
+    "question_number": "3_38",
+    "solution": [
+      [
+        "text",
+        "To find the mode of tomatoes per plant, I need to find the most frequent value."
+      ],
+      [
+        "text",
+        "Data values: 16, 8, 19, 16, 16, 8, 19, 15"
+      ],
+      [
+        "text",
+        "Frequency count: 8: 2 times, 15: 1 times, 16: 3 times, 19: 2 times"
+      ],
+      [
+        "text",
+        "The value 16 appears most frequently (3 times), so it is the mode."
+      ]
+    ]
+  },
+  {
+    "question_text": "A rancher analyzed calves born per season. What is the mean of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_39",
+    "backend_description": "A bar graph titled 'Ranch Records' showing calves born per season. The graph has colored bars: Item 1 (pink, 6 calves), Item 2 (light green, 1 calves), Item 3 (orange, 7 calves), Item 4 (purple, 1 calves), Item 5 (light blue, 7 calves), Item 6 (yellow, 2 calves), Item 7 (green, 10 calves), Item 8 (blue, 6 calves).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "5"
+    ],
+    "question_number": "3_39",
+    "solution": [
+      [
+        "text",
+        "To find the mean of calves born per season, I need to add all values and divide by the count."
+      ],
+      [
+        "text",
+        "Data values: 6, 1, 7, 1, 7, 2, 10, 6"
+      ],
+      [
+        "text",
+        "Sum: 6 + 1 + 7 + 1 + 7 + 2 + 10 + 6 = 40"
+      ],
+      [
+        "text",
+        "Count: 8 values"
+      ],
+      [
+        "text",
+        "Mean: 40 ÷ 8 = 5"
+      ]
+    ]
+  },
+  {
+    "question_text": "A theater manager tracked tickets sold per show. What is the median of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_40",
+    "backend_description": "A table titled 'Box Office' with columns showing items and tickets sold per show. Data rows: Item 1: 80 tickets, Item 2: 36 tickets, Item 3: 127 tickets, Item 4: 165 tickets, Item 5: 59 tickets, Item 6: 101 tickets, Item 7: 59 tickets, Item 8: 92 tickets.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "86"
+    ],
+    "question_number": "3_40",
+    "solution": [
+      [
+        "text",
+        "To find the median of tickets sold per show, I need to sort the values and find the middle."
+      ],
+      [
+        "text",
+        "Original data: 80, 36, 127, 165, 59, 101, 59, 92"
+      ],
+      [
+        "text",
+        "Sorted data: 36, 59, 59, 80, 92, 101, 127, 165"
+      ],
+      [
+        "text",
+        "With 8 values (even), median is average of middle two: (80 + 92) ÷ 2 = 86"
+      ]
+    ]
+  },
+  {
+    "question_text": "A art curator recorded visitors per exhibit daily. What is the mode of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_41",
+    "backend_description": "A pictograph titled 'Gallery Traffic' showing visitors per exhibit daily. Each symbol represents 15 visitors. Item 1: 4 symbols (70 visitors) Item 2: 4 symbols (60 visitors) Item 3: 4 symbols (70 visitors) Item 4: 4 symbols (70 visitors) Item 5: 5 symbols (75 visitors) Item 6: 4 symbols (60 visitors) Item 7: 1 symbols (18 visitors).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "70"
+    ],
+    "question_number": "3_41",
+    "solution": [
+      [
+        "text",
+        "To find the mode of visitors per exhibit daily, I need to find the most frequent value."
+      ],
+      [
+        "text",
+        "Data values: 70, 60, 70, 70, 75, 60, 18"
+      ],
+      [
+        "text",
+        "Frequency count: 18: 1 times, 60: 2 times, 70: 3 times, 75: 1 times"
+      ],
+      [
+        "text",
+        "The value 70 appears most frequently (3 times), so it is the mode."
+      ]
+    ]
+  },
+  {
+    "question_text": "A movie critic tracked films reviewed per month. What is the median of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_42",
+    "backend_description": "A bar graph titled 'Review Log' showing films reviewed per month. The graph has colored bars: Item 1 (pink, 5 films), Item 2 (light green, 14 films), Item 3 (orange, 7 films), Item 4 (purple, 4 films), Item 5 (light blue, 2 films), Item 6 (yellow, 10 films), Item 7 (green, 10 films), Item 8 (blue, 13 films).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "8.5"
+    ],
+    "question_number": "3_42",
+    "solution": [
+      [
+        "text",
+        "To find the median of films reviewed per month, I need to sort the values and find the middle."
+      ],
+      [
+        "text",
+        "Original data: 5, 14, 7, 4, 2, 10, 10, 13"
+      ],
+      [
+        "text",
+        "Sorted data: 2, 4, 5, 7, 10, 10, 13, 14"
+      ],
+      [
+        "text",
+        "With 8 values (even), median is average of middle two: (7 + 10) ÷ 2 = 8.5"
+      ]
+    ]
+  },
+  {
+    "question_text": "A concert promoter analyzed attendees per venue. What is the mean of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_43",
+    "backend_description": "A table titled 'Concert Attendance' with columns showing items and attendees per venue. Data rows: Item 1: 305 people, Item 2: 97 people, Item 3: 316 people, Item 4: 282 people, Item 5: 439 people, Item 6: 146 people, Item 7: 131 people, Item 8: 342 people.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "257.25"
+    ],
+    "question_number": "3_43",
+    "solution": [
+      [
+        "text",
+        "To find the mean of attendees per venue, I need to add all values and divide by the count."
+      ],
+      [
+        "text",
+        "Data values: 305, 97, 316, 282, 439, 146, 131, 342"
+      ],
+      [
+        "text",
+        "Sum: 305 + 97 + 316 + 282 + 439 + 146 + 131 + 342 = 2058"
+      ],
+      [
+        "text",
+        "Count: 8 values"
+      ],
+      [
+        "text",
+        "Mean: 2058 ÷ 8 = 257.25"
+      ]
+    ]
+  },
+  {
+    "question_text": "A festival organizer recorded vendors per day. What is the mode of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_44",
+    "backend_description": "A table titled 'Festival Stats' with columns showing items and vendors per day. Data rows: Item 1: 14 vendors, Item 2: 28 vendors, Item 3: 16 vendors, Item 4: 21 vendors, Item 5: 30 vendors, Item 6: 28 vendors, Item 7: 36 vendors, Item 8: 25 vendors.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "28"
+    ],
+    "question_number": "3_44",
+    "solution": [
+      [
+        "text",
+        "To find the mode of vendors per day, I need to find the most frequent value."
+      ],
+      [
+        "text",
+        "Data values: 14, 28, 16, 21, 30, 28, 36, 25"
+      ],
+      [
+        "text",
+        "Frequency count: 14: 1 times, 16: 1 times, 21: 1 times, 25: 1 times, 28: 2 times, 30: 1 times, 36: 1 times"
+      ],
+      [
+        "text",
+        "The value 28 appears most frequently (2 times), so it is the mode."
+      ]
+    ]
+  },
+  {
+    "question_text": "A fitness trainer recorded reps completed per exercise. What is the mode of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_45",
+    "backend_description": "A bar graph titled 'Workout Log' showing reps completed per exercise. The graph has colored bars: Item 1 (pink, 11 reps), Item 2 (light green, 10 reps), Item 3 (orange, 19 reps), Item 4 (purple, 10 reps), Item 5 (light blue, 10 reps), Item 6 (yellow, 19 reps), Item 7 (green, 16 reps), Item 8 (blue, 11 reps).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "10"
+    ],
+    "question_number": "3_45",
+    "solution": [
+      [
+        "text",
+        "To find the mode of reps completed per exercise, I need to find the most frequent value."
+      ],
+      [
+        "text",
+        "Data values: 11, 10, 19, 10, 10, 19, 16, 11"
+      ],
+      [
+        "text",
+        "Frequency count: 10: 3 times, 11: 2 times, 16: 1 times, 19: 2 times"
+      ],
+      [
+        "text",
+        "The value 10 appears most frequently (3 times), so it is the mode."
+      ]
+    ]
+  },
+  {
+    "question_text": "A nutritionist analyzed calories per meal. What is the mean of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_46",
+    "backend_description": "A table titled 'Diet Tracking' with columns showing items and calories per meal. Data rows: Item 1: 208 calories, Item 2: 202 calories, Item 3: 435 calories, Item 4: 542 calories, Item 5: 294 calories, Item 6: 383 calories, Item 7: 227 calories, Item 8: 709 calories.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "375"
+    ],
+    "question_number": "3_46",
+    "solution": [
+      [
+        "text",
+        "To find the mean of calories per meal, I need to add all values and divide by the count."
+      ],
+      [
+        "text",
+        "Data values: 208, 202, 435, 542, 294, 383, 227, 709"
+      ],
+      [
+        "text",
+        "Sum: 208 + 202 + 435 + 542 + 294 + 383 + 227 + 709 = 3000"
+      ],
+      [
+        "text",
+        "Count: 8 values"
+      ],
+      [
+        "text",
+        "Mean: 3000 ÷ 8 = 375"
+      ]
+    ]
+  },
+  {
+    "question_text": "A yoga instructor recorded poses held (seconds). What is the mode of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_47",
+    "backend_description": "A table titled 'Yoga Progress' with columns showing items and poses held (seconds). Data rows: Item 1: 29 seconds, Item 2: 29 seconds, Item 3: 16 seconds, Item 4: 29 seconds, Item 5: 58 seconds, Item 6: 36 seconds, Item 7: 30 seconds, Item 8: 29 seconds.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "29"
+    ],
+    "question_number": "3_47",
+    "solution": [
+      [
+        "text",
+        "To find the mode of poses held (seconds), I need to find the most frequent value."
+      ],
+      [
+        "text",
+        "Data values: 29, 29, 16, 29, 58, 36, 30, 29"
+      ],
+      [
+        "text",
+        "Frequency count: 16: 1 times, 29: 4 times, 30: 1 times, 36: 1 times, 58: 1 times"
+      ],
+      [
+        "text",
+        "The value 29 appears most frequently (4 times), so it is the mode."
+      ]
+    ]
+  },
+  {
+    "question_text": "A physical therapist recorded exercises per session. What is the mode of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_48",
+    "backend_description": "A pictograph titled 'Therapy Plan' showing exercises per session. Each symbol represents 3 exercises. Item 1: 0 symbols (2 exercises) Item 2: 0 symbols (2 exercises) Item 3: 1 symbols (4 exercises) Item 4: 2 symbols (8 exercises) Item 5: 1 symbols (4 exercises) Item 6: 0 symbols (2 exercises) Item 7: 0 symbols (2 exercises) Item 8: 3 symbols (9 exercises).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "2"
+    ],
+    "question_number": "3_48",
+    "solution": [
+      [
+        "text",
+        "To find the mode of exercises per session, I need to find the most frequent value."
+      ],
+      [
+        "text",
+        "Data values: 2, 2, 4, 8, 4, 2, 2, 9"
+      ],
+      [
+        "text",
+        "Frequency count: 2: 4 times, 4: 2 times, 8: 1 times, 9: 1 times"
+      ],
+      [
+        "text",
+        "The value 2 appears most frequently (4 times), so it is the mode."
+      ]
+    ]
+  },
+  {
+    "question_text": "A health coach tracked steps per day (thousands). What is the median of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_49",
+    "backend_description": "A bar graph titled 'Activity Monitor' showing steps per day (thousands). The graph has colored bars: Item 1 (pink, 3 thousands), Item 2 (light green, 11 thousands), Item 3 (orange, 4 thousands), Item 4 (purple, 10 thousands), Item 5 (light blue, 7 thousands), Item 6 (yellow, 9 thousands), Item 7 (green, 6 thousands), Item 8 (blue, 9 thousands).",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "8"
+    ],
+    "question_number": "3_49",
+    "solution": [
+      [
+        "text",
+        "To find the median of steps per day (thousands), I need to sort the values and find the middle."
+      ],
+      [
+        "text",
+        "Original data: 3, 11, 4, 10, 7, 9, 6, 9"
+      ],
+      [
+        "text",
+        "Sorted data: 3, 4, 6, 7, 9, 9, 10, 11"
+      ],
+      [
+        "text",
+        "With 8 values (even), median is average of middle two: (7 + 9) ÷ 2 = 8"
+      ]
+    ]
+  },
+  {
+    "question_text": "A sales manager tracked monthly sales (in thousands). What is the median of the numbers?\n\n",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_3_50",
+    "backend_description": "A table titled 'Sales Report' with columns showing items and monthly sales (in thousands). Data rows: Item 1: 87 dollars, Item 2: 72 dollars, Item 3: 37 dollars, Item 4: 68 dollars, Item 5: 88 dollars, Item 6: 95 dollars, Item 7: 68 dollars, Item 8: 36 dollars.",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "70"
+    ],
+    "question_number": "3_50",
+    "solution": [
+      [
+        "text",
+        "To find the median of monthly sales (in thousands), I need to sort the values and find the middle."
+      ],
+      [
+        "text",
+        "Original data: 87, 72, 37, 68, 88, 95, 68, 36"
+      ],
+      [
+        "text",
+        "Sorted data: 36, 37, 68, 68, 72, 87, 88, 95"
+      ],
+      [
+        "text",
+        "With 8 values (even), median is average of middle two: (68 + 72) ÷ 2 = 70"
+      ]
+    ]
+  },
+  {
+    "question_text": "The chart shows data values: 17, 18, 14, 18, 15. What is the mean (average) of these values?",
+    "skills": "interpret-charts-to-find-mean-median-and-mode",
+    "image_tag": "Gr5_39_E3_50",
+    "backend_description": "Chart showing values [17, 18, 14, 18, 15] with mean 16",
+    "question_type": "Fill in the blank",
+    "tag": "Gr5_39_E3",
+    "correct_answers": [
+      "16"
+    ],
+    "question_number": "1_51_77_50",
+    "solution": [
+      [
+        "text",
+        "To find the mean, I need to add all values and divide by the number of values."
+      ],
+      [
+        "text",
+        "Sum = 17 + 18 + 14 + 18 + 15 = 82"
+      ],
+      [
+        "text",
+        "Mean = 82 ÷ 5 = 16"
+      ]
+    ]
+  }
+]

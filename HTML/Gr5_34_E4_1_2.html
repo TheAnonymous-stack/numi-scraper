@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade 5 Math - Gr5_34_E4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }
+        
+        .exercise-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        .exercise-header {
+            background: #4a90e2;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .question {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        .image-placeholder {
+            width: 100%;
+            max-width: 600px;
+            height: 300px;
+            background: #e8f4fd;
+            border: 2px dashed #4a90e2;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+        }
+        
+        .choices {
+            margin: 20px 0;
+        }
+        
+        .choice {
+            background: #f8f9fa;
+            padding: 10px 15px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 2px solid #e9ecef;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .choice:hover {
+            background: #e3f2fd;
+            border-color: #4a90e2;
+        }
+        
+        .choice.correct {
+            background: #d4edda;
+            border-color: #28a745;
+        }
+        
+        .solution {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        
+        .solution h3 {
+            color: #856404;
+            margin-top: 0;
+        }
+        
+        .metadata {
+            font-size: 12px;
+            color: #666;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+            margin-top: 20px;
+        }
+        
+        .table-container {
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .data-table th, .data-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .data-table th {
+            background: #4a90e2;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .data-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        
+        .pictograph {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        
+        .pictograph-item {
+            display: flex;
+            align-items: center;
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #e9ecef;
+        }
+        
+        .pictograph-symbols {
+            margin-left: 10px;
+        }
+        
+        .symbol {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: #4a90e2;
+            margin: 2px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="exercise-container">
+        <div class="exercise-header">
+            <h1>Grade 5 Math - Gr5_34_E4</h1>
+            <div>Question: 1_2 | Skills: write-and-solve-equations-that-represent-diagrams | Type: Fill in the blank</div>
+        </div>
+        
+        <div class="question">
+            Write an equation that says that the length of the green line is equal to the length of the black line.
+        </div>
+        
+        <div class="image-placeholder">Visual representation for Gr5_34_4_1<br><br>A horizontal line segment diagram. The top line (green) is labeled '8'. The bottom line (black) is divided into two parts: the left part is labeled 'q' and the right part is labeled '3'. Both lines have the same total length.</div>
+        
+        
+        
+        <div class="solution"><h3>Solution:</h3><p>The green line has length 8. The black line is made of two parts: q and 3. So, the equation is 8 = q + 3. We can also write this as q + 3 = 8, or 8 = 3 + q, or 3 + q = 8. To solve for q: q = 8 - 3 = 5.</p></div>
+        
+        <div class="metadata">
+            <strong>Tag:</strong> Gr5_34_E4<br>
+            <strong>Image Tag:</strong> Gr5_34_4_1<br>
+            <strong>Backend Description:</strong> A horizontal line segment diagram. The top line (green) is labeled '8'. The bottom line (black) is divided into two parts: the left part is labeled 'q' and the right part is labeled '3'. Both lines have the same total length.
+        </div>
+    </div>
+    
+    <script>
+        // Add interactivity for multiple choice questions
+        document.querySelectorAll('.choice').forEach(function(choice) {
+            choice.addEventListener('click', function() {
+                // Remove previous selections
+                document.querySelectorAll('.choice').forEach(c => c.classList.remove('selected'));
+                // Add selection to clicked choice
+                this.classList.add('selected');
+            });
+        });
+    </script>
+</body>
+</html>

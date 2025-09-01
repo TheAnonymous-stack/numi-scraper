@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr5_37_E3 3_1 - Graph Type Comparison</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .item {
+            display: inline-block;
+            margin: 20px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .graph-comparison {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+        }
+        .graph-type {
+            text-align: center;
+            padding: 10px;
+        }
+        .graph-type h3 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        .pictograph {
+            background-color: #e8f5e9;
+            border: 2px solid #4caf50;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .line-graph {
+            background-color: #fff3e0;
+            border: 2px solid #ff9800;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .bar-graph {
+            background-color: #e3f2fd;
+            border: 2px solid #2196f3;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .pokemon-icon {
+            width: 30px;
+            height: 30px;
+            background: linear-gradient(45deg, #ff6b6b, #ffd93d);
+            border-radius: 50%;
+            display: inline-block;
+            margin: 2px;
+            position: relative;
+        }
+        .pokemon-icon::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 8px;
+            height: 8px;
+            background: white;
+            border-radius: 50%;
+        }
+        .line-graph svg {
+            width: 150px;
+            height: 100px;
+        }
+        .bar-graph .bar {
+            display: inline-block;
+            width: 25px;
+            background: #2196f3;
+            margin: 0 3px;
+            vertical-align: bottom;
+        }
+        .best-choice {
+            background-color: #4caf50;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 12px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+        .explanation {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            font-size: 13px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr5_37_3_1_step_1">
+        <h2 style="color: #333; margin-bottom: 20px;">Choosing the Best Graph for Pokemon Cards Data</h2>
+        <p style="margin-bottom: 20px; color: #666;">Pokemon cards come in booster packs of 11. Which graph type is best?</p>
+        
+        <div class="graph-comparison">
+            <div class="graph-type">
+                <h3>Pictograph</h3>
+                <div class="pictograph">
+                    <div style="margin-bottom: 5px;">
+                        <span style="display: inline-block; width: 60px;">Student A:</span>
+                        <span class="pokemon-icon"></span>
+                        <span class="pokemon-icon"></span>
+                        <span class="pokemon-icon"></span>
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                        <span style="display: inline-block; width: 60px;">Student B:</span>
+                        <span class="pokemon-icon"></span>
+                        <span class="pokemon-icon"></span>
+                    </div>
+                    <div>
+                        <span style="display: inline-block; width: 60px;">Student C:</span>
+                        <span class="pokemon-icon"></span>
+                        <span class="pokemon-icon"></span>
+                        <span class="pokemon-icon"></span>
+                        <span class="pokemon-icon"></span>
+                    </div>
+                    <div style="margin-top: 10px; font-size: 11px; color: #666;">
+                        Each icon = 11 cards (1 pack)
+                    </div>
+                </div>
+                <div class="best-choice">✓ BEST CHOICE</div>
+            </div>
+            
+            <div class="graph-type">
+                <h3>Line Graph</h3>
+                <div class="line-graph">
+                    <svg>
+                        <line x1="10" y1="90" x2="140" y2="90" stroke="#333" stroke-width="1"/>
+                        <line x1="10" y1="10" x2="10" y2="90" stroke="#333" stroke-width="1"/>
+                        <polyline points="20,80 50,60 80,70 110,40 140,50" 
+                                  stroke="#ff9800" stroke-width="2" fill="none"/>
+                        <text x="60" y="100" font-size="10" text-anchor="middle">Time</text>
+                    </svg>
+                </div>
+                <div style="margin-top: 10px; color: #999; font-size: 12px;">Not suitable</div>
+            </div>
+            
+            <div class="graph-type">
+                <h3>Bar Graph</h3>
+                <div class="bar-graph">
+                    <div style="height: 100px; position: relative;">
+                        <div class="bar" style="height: 33px;"></div>
+                        <div class="bar" style="height: 22px;"></div>
+                        <div class="bar" style="height: 44px;"></div>
+                        <div class="bar" style="height: 55px;"></div>
+                    </div>
+                    <div style="font-size: 10px; color: #666; margin-top: 5px;">Students</div>
+                </div>
+                <div style="margin-top: 10px; color: #999; font-size: 12px;">Less suitable</div>
+            </div>
+        </div>
+        
+        <div class="explanation">
+            <strong>Why Pictograph is Best:</strong> When data comes in natural groups (booster packs of 11), 
+            a pictograph clearly shows these groupings. Each symbol can represent one pack, making it easy 
+            to count and compare collections.
+        </div>
+    </div>
+</body>
+</html>
