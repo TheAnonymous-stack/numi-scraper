@@ -1,10 +1,10 @@
 import csv
 from getVideoInfo import get_info
 import json
-tags_file = "tags.csv"
+tags_file = "tag.csv"
 links_file = "links.csv"
 data = {"videos": []}
-with open(tags_file, newline="") as tagsFile, open(links_file, newline = "") as linksFile, open("videoData.json", "w") as output:
+with open(tags_file, newline="") as tagsFile, open(links_file, newline = "") as linksFile, open("gr8VideoData.json", "w") as output:
     tags_reader = csv.reader(tagsFile)
     links_reader = csv.reader(linksFile)
     for row1, row2 in zip(tags_reader, links_reader):

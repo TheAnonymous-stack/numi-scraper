@@ -25,8 +25,10 @@ with open(input_file, newline="") as csv_in, open("tag.csv", "r") as tag_file, o
                 if "khanacademy" in link:
                     print(f"{tag} has khanacademy link")
                     processed_link = extract_youtube_from_khan(link)
+                    print(f"processed_link is {processed_link}")
                     match = re.search(pattern, processed_link)
                     if match:
+                        print("matched pattern")
                         video_id = match.group(1)
                         new_link = f"https://youtu.be/{video_id}"
                         writer.writerow([new_link])
@@ -37,7 +39,7 @@ with open(input_file, newline="") as csv_in, open("tag.csv", "r") as tag_file, o
 
                 elif "youtube.com" in link:
                     print(f"{tag} has youtube.com link")
-                    video_id = link.split("=")[-1]
+                    video_id = link.split("watch?v=")[-1]
                     new_link = f"https://youtu.be/{video_id}"
                     writer.writerow([new_link])
                 else:
