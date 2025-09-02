@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Division Problem: 92 ÷ 16</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: white;
+        }
+        .item {
+            margin: 20px 0;
+            display: inline-block;
+        }
+        .division-setup {
+            font-size: 24px;
+            font-weight: normal;
+            position: relative;
+        }
+        .division-bracket {
+            display: inline-block;
+            border-left: 2px solid black;
+            border-top: 2px solid black;
+            padding: 5px 10px 5px 15px;
+            margin-left: 5px;
+        }
+        .remainder-box {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border: 2px solid black;
+            text-align: center;
+            line-height: 30px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        .r-label {
+            display: inline-block;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+        .solution-work {
+            font-size: 20px;
+            position: relative;
+            margin-top: 30px;
+        }
+        .quotient {
+            color: blue;
+            position: absolute;
+            top: -25px;
+            left: 45px;
+            font-weight: bold;
+        }
+        .dividend {
+            color: blue;
+            display: inline-block;
+        }
+        .work-line {
+            margin-left: 35px;
+        }
+        .subtract-line {
+            border-bottom: 1px solid black;
+            padding-bottom: 2px;
+            margin-bottom: 2px;
+        }
+        .explanation {
+            margin-top: 20px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <!-- Question setup image -->
+    <div class="item" label="Gr5_26_3_5">
+        <div class="division-setup">
+            <span class="remainder-box"></span>
+            <span class="r-label">R</span>
+            <span class="remainder-box"></span>
+            <span style="margin: 0 10px;">16 )</span>
+            <span class="division-bracket">92</span>
+        </div>
+    </div>
+
+    <!-- Solution image -->
+    <div class="item" label="Gr5_26_3_5_step_2">
+        <div class="solution-work">
+            <div class="quotient">5</div>
+            <div>16 ) <span class="dividend">92</span></div>
+            <div class="work-line subtract-line">−80</div>
+            <div class="work-line">12</div>
+        </div>
+        <div class="explanation">
+            Divide: 92 ÷ 16<br>
+            Multiply: 5 × 16 = 80<br>
+            Subtract: 92 − 80 = 12
+        </div>
+    </div>
+</body>
+</html>

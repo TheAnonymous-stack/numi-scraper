@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gr5_22_E2 Question 2_9</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        .item {
+            background: white;
+            border-radius: 8px;
+            padding: 10px;
+        }
+        .bar {
+            display: flex;
+            width: 240px;
+            height: 80px;
+            border: 2px solid #333;
+        }
+        .section {
+            flex: 1;
+            border-right: 1px solid #666;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .section:last-child {
+            border-right: none;
+        }
+        .shaded {
+            background-color: #4a90e2;
+        }
+        .operator {
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" label="Gr5_22_2_9">
+            <div class="bar">
+                <div class="section shaded"></div>
+                <div class="section shaded"></div>
+                <div class="section"></div>
+            </div>
+        </div>
+        <div class="operator">−</div>
+        <div class="item" label="Gr5_22_2_9_second">
+            <div class="bar">
+                <div class="section shaded"></div>
+                <div class="section"></div>
+                <div class="section"></div>
+            </div>
+        </div>
+        <div class="operator">=</div>
+        <div class="operator">?</div>
+    </div>
+</body>
+</html>
