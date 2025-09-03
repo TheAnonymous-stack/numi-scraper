@@ -1,111 +1,925 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Gr8_41_E5 5_40</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr8_41_E5 5_40 - Enhanced Visualization</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             padding: 20px;
-            background-color: #f5f5f5;
+            min-height: 100vh;
         }
-        .item {
-            margin: 20px 0;
-            padding: 10px;
-            background-color: white;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            display: inline-block;
+        
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
         }
-        .item::before {
-            content: "Tag: " attr(label);
-            display: block;
-            font-weight: bold;
+        
+        .visualization-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .visualization-card {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .visualization-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+        
+        .step-title {
+            font-size: 18px;
+            font-weight: 600;
             color: #333;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: linear-gradient(90deg, #f0f0f0 0%, transparent 100%);
+            border-left: 4px solid #667eea;
+        }
+        
+        .step-description {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            line-height: 1.6;
+        }
+        
+        .svg-container {
+            background: white;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: inset 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .solution-indicator {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
             margin-bottom: 10px;
         }
+        
+        .correct {
+            background: #10b981;
+            color: white;
+        }
+        
+        .incorrect {
+            background: #ef4444;
+            color: white;
+        }
+        
+        .main-question {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            font-size: 18px;
+            line-height: 1.8;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .visualization-card {
+            animation: fadeIn 0.5s ease forwards;
+        }
+        
+        .visualization-card:nth-child(1) { animation-delay: 0.1s; }
+        .visualization-card:nth-child(2) { animation-delay: 0.2s; }
+        .visualization-card:nth-child(3) { animation-delay: 0.3s; }
+        .visualization-card:nth-child(4) { animation-delay: 0.4s; }
     </style>
 </head>
 <body>
-    <h1>Grade 8 - Week 41 - Exercise 5 - Question 5_40</h1>
-<div class="item" label="Gr8_41_5_40">
-<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
-    <!-- Grid -->
+    <div class="container">
+        <div class="main-question">
+            <h2>Transformation Challenge</h2>
+            <p>The graph shows pentagons JKL and J'K'L'.<br>Which sequence of transformations maps JKL onto J'K'L'?</p>
+        </div>
+        <div class="visualization-grid">
+            <div class="visualization-card">
+                <div class="step-title">Initial Configuration</div>
+                <div class="step-description">
+                    Two congruent shapes are shown on the coordinate plane. 
+                    Analyze the transformation needed to map one onto the other.
+                </div>
+                <div class="svg-container">
+                    <svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+    <!-- Enhanced gradient backgrounds -->
     <defs>
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#e6f3ff;stop-opacity:1" />
+        </linearGradient>
+        
+        <!-- Arrow markers for transformation paths -->
+        <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+            <polygon points="0 0, 10 3, 0 6" fill="#ff4500" />
+        </marker>
+        
+        <marker id="arrowhead2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+            <polygon points="0 0, 10 3, 0 6" fill="#4169e1" />
+        </marker>
+        
+        <!-- Glow effect for shapes -->
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        
+        <!-- Pattern for grid -->
+        <pattern id="smallGrid" width="15" height="15" patternUnits="userSpaceOnUse">
+            <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#e8e8e8" stroke-width="0.5"/>
+        </pattern>
         <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-            <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+            <rect width="30" height="30" fill="url(#smallGrid)"/>
+            <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#d0d0d0" stroke-width="1"/>
         </pattern>
     </defs>
-    <rect width="600" height="600" fill="white"/>
-    <rect width="600" height="600" fill="url(#grid)"/>
     
-    <!-- Axes -->
-    <line x1="0" y1="300.0" x2="600" y2="300.0" stroke="#666" stroke-width="2"/>
-    <line x1="300.0" y1="0" x2="300.0" y2="600" stroke="#666" stroke-width="2"/>
+    <!-- Background with gradient -->
+    <rect width="800" height="800" fill="url(#bgGradient)"/>
     
-    <!-- Axis labels -->
-    <text x="585" y="295.0" font-size="14" fill="#333">x</text>
-    <text x="305.0" y="15" font-size="14" fill="#333">y</text><line x1="0.0" y1="297.0" x2="0.0" y2="303.0" stroke="#666"/><line x1="297.0" y1="600.0" x2="303.0" y2="600.0" stroke="#666"/><text x="-5.0" y="315.0" font-size="10" fill="#333">-10</text><text x="280.0" y="603.0" font-size="10" fill="#333">-10</text><line x1="60.0" y1="297.0" x2="60.0" y2="303.0" stroke="#666"/><line x1="297.0" y1="540.0" x2="303.0" y2="540.0" stroke="#666"/><text x="55.0" y="315.0" font-size="10" fill="#333">-8</text><text x="280.0" y="543.0" font-size="10" fill="#333">-8</text><line x1="120.0" y1="297.0" x2="120.0" y2="303.0" stroke="#666"/><line x1="297.0" y1="480.0" x2="303.0" y2="480.0" stroke="#666"/><text x="115.0" y="315.0" font-size="10" fill="#333">-6</text><text x="280.0" y="483.0" font-size="10" fill="#333">-6</text><line x1="180.0" y1="297.0" x2="180.0" y2="303.0" stroke="#666"/><line x1="297.0" y1="420.0" x2="303.0" y2="420.0" stroke="#666"/><text x="175.0" y="315.0" font-size="10" fill="#333">-4</text><text x="280.0" y="423.0" font-size="10" fill="#333">-4</text><line x1="240.0" y1="297.0" x2="240.0" y2="303.0" stroke="#666"/><line x1="297.0" y1="360.0" x2="303.0" y2="360.0" stroke="#666"/><text x="235.0" y="315.0" font-size="10" fill="#333">-2</text><text x="280.0" y="363.0" font-size="10" fill="#333">-2</text><line x1="360.0" y1="297.0" x2="360.0" y2="303.0" stroke="#666"/><line x1="297.0" y1="240.0" x2="303.0" y2="240.0" stroke="#666"/><text x="355.0" y="315.0" font-size="10" fill="#333">2</text><text x="280.0" y="243.0" font-size="10" fill="#333">2</text><line x1="420.0" y1="297.0" x2="420.0" y2="303.0" stroke="#666"/><line x1="297.0" y1="180.0" x2="303.0" y2="180.0" stroke="#666"/><text x="415.0" y="315.0" font-size="10" fill="#333">4</text><text x="280.0" y="183.0" font-size="10" fill="#333">4</text><line x1="480.0" y1="297.0" x2="480.0" y2="303.0" stroke="#666"/><line x1="297.0" y1="120.0" x2="303.0" y2="120.0" stroke="#666"/><text x="475.0" y="315.0" font-size="10" fill="#333">6</text><text x="280.0" y="123.0" font-size="10" fill="#333">6</text><line x1="540.0" y1="297.0" x2="540.0" y2="303.0" stroke="#666"/><line x1="297.0" y1="60.0" x2="303.0" y2="60.0" stroke="#666"/><text x="535.0" y="315.0" font-size="10" fill="#333">8</text><text x="280.0" y="63.0" font-size="10" fill="#333">8</text><line x1="600.0" y1="297.0" x2="600.0" y2="303.0" stroke="#666"/><line x1="297.0" y1="0.0" x2="303.0" y2="0.0" stroke="#666"/><text x="595.0" y="315.0" font-size="10" fill="#333">10</text><text x="280.0" y="3.0" font-size="10" fill="#333">10</text><path d="M 360.0,270.0 L 420.0,270.0 L 450.0,225.0 L 390.0,180.0 L 330.0,225.0 Z" fill="#FFC0CB" fill-opacity="0.6" stroke="#FFC0CB" stroke-width="2"/><text x="360.0" y="255.0" font-size="12" font-weight="bold" fill="#000">T</text><path d="M 510.0,180.0 L 570.0,180.0 L 600.0,135.0 L 540.0,90.0 L 480.0,135.0 Z" fill="#008000" fill-opacity="0.6" stroke="#008000" stroke-width="2"/><text x="510.0" y="165.0" font-size="12" font-weight="bold" fill="#000">J</text><text x="570.0" y="165.0" font-size="12" font-weight="bold" fill="#000">K</text><text x="600.0" y="120.0" font-size="12" font-weight="bold" fill="#000">L</text></svg>
-</div>
-<div class="item" label="Gr8_41_5_40_step_2">
-  <!-- The image shows pentagon JKL (pink) and its transformed image after the first transformation. The pentagon has been transformed using translate JKL right 5 units and up 5 units. -->
-<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
-    <!-- Grid -->
-    <defs>
-        <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-            <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#e0e0e0" stroke-width="1"/>
-        </pattern>
-    </defs>
-    <rect width="600" height="600" fill="white"/>
-    <rect width="600" height="600" fill="url(#grid)"/>
+    <!-- Grid overlay -->
+    <rect width="800" height="800" fill="url(#grid)" opacity="0.8"/>
     
-    <!-- Axes -->
-    <line x1="0" y1="300" x2="600" y2="300" stroke="#666" stroke-width="2"/>
-    <line x1="300" y1="0" x2="300" y2="600" stroke="#666" stroke-width="2"/>
+    <!-- Main coordinate axes with enhanced styling -->
+    <line x1="0" y1="400" x2="800" y2="400" stroke="#333" stroke-width="2.5" opacity="0.8"/>
+    <line x1="400" y1="0" x2="400" y2="800" stroke="#333" stroke-width="2.5" opacity="0.8"/>
     
-    <!-- Transformation visualization placeholder -->
-    <text x="300" y="300" font-size="14" text-anchor="middle" fill="#333">Transformation Step</text>
+    <!-- Axis arrows -->
+    <polygon points="795,400 800,395 800,405" fill="#333"/>
+    <polygon points="400,5 395,0 405,0" fill="#333"/>
+    
+    <!-- Enhanced axis labels with background -->
+    <g font-family="'Segoe UI', Arial, sans-serif">
+        <!-- X-axis label -->
+        <rect x="770" y="410" width="20" height="20" fill="white" opacity="0.9" rx="2"/>
+        <text x="780" y="425" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">x</text>
+        
+        <!-- Y-axis label -->
+        <rect x="410" y="10" width="20" height="20" fill="white" opacity="0.9" rx="2"/>
+        <text x="420" y="25" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">y</text>
+    </g>
+    
+    <!-- Grid numbers with enhanced visibility -->
+    <g font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#555">
+        <rect x="25" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="40" y="420" text-anchor="middle" font-weight="500">-12</text>
+        <rect x="408" y="751" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="763" text-anchor="middle" font-weight="500">-12</text>
+        <rect x="85" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="100" y="420" text-anchor="middle" font-weight="500">-10</text>
+        <rect x="408" y="691" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="703" text-anchor="middle" font-weight="500">-10</text>
+        <rect x="145" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="160" y="420" text-anchor="middle" font-weight="500">-8</text>
+        <rect x="408" y="631" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="643" text-anchor="middle" font-weight="500">-8</text>
+        <rect x="205" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="220" y="420" text-anchor="middle" font-weight="500">-6</text>
+        <rect x="408" y="571" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="583" text-anchor="middle" font-weight="500">-6</text>
+        <rect x="265" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="280" y="420" text-anchor="middle" font-weight="500">-4</text>
+        <rect x="408" y="511" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="523" text-anchor="middle" font-weight="500">-4</text>
+        <rect x="325" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="340" y="420" text-anchor="middle" font-weight="500">-2</text>
+        <rect x="408" y="451" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="463" text-anchor="middle" font-weight="500">-2</text>
+        <rect x="445" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="460" y="420" text-anchor="middle" font-weight="500">2</text>
+        <rect x="408" y="331" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="343" text-anchor="middle" font-weight="500">2</text>
+        <rect x="505" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="520" y="420" text-anchor="middle" font-weight="500">4</text>
+        <rect x="408" y="271" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="283" text-anchor="middle" font-weight="500">4</text>
+        <rect x="565" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="580" y="420" text-anchor="middle" font-weight="500">6</text>
+        <rect x="408" y="211" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="223" text-anchor="middle" font-weight="500">6</text>
+        <rect x="625" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="640" y="420" text-anchor="middle" font-weight="500">8</text>
+        <rect x="408" y="151" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="163" text-anchor="middle" font-weight="500">8</text>
+        <rect x="685" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="700" y="420" text-anchor="middle" font-weight="500">10</text>
+        <rect x="408" y="91" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="103" text-anchor="middle" font-weight="500">10</text>
+        <rect x="745" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="760" y="420" text-anchor="middle" font-weight="500">12</text>
+        <rect x="408" y="31" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="43" text-anchor="middle" font-weight="500">12</text>
+    </g>
+    
+    <!-- Origin label -->
+    <rect x="408" y="408" width="25" height="18" fill="white" opacity="0.9" rx="2"/>
+    <text x="420" y="420" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">O</text>
+    
+    <!-- Main question shapes with enhanced styling -->
+    <g id="main-shapes">
+        <!-- First shape with gradient fill -->
+        <defs>
+            <linearGradient id="shape1Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#008080;stop-opacity:0.8" />
+                <stop offset="100%" style="stop-color:#20b2aa;stop-opacity:0.8" />
+            </linearGradient>
+            <linearGradient id="shape2Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#ff1493;stop-opacity:0.8" />
+                <stop offset="100%" style="stop-color:#ff69b4;stop-opacity:0.8" />
+            </linearGradient>
+        </defs>
+        
+        <g filter="url(#glow)">
+            
+        <path d="M 460,340 L 520,340 L 520,280 L 460,280 Z" fill="url(#shape1Gradient)" stroke="#333" stroke-width="2.5"/>
+        
+        <circle cx="460" cy="340" r="5" fill="#333" opacity="0.8"/>
+        <circle cx="460" cy="340" r="3" fill="white"/>
+        <circle cx="520" cy="340" r="5" fill="#333" opacity="0.8"/>
+        <circle cx="520" cy="340" r="3" fill="white"/>
+        <circle cx="520" cy="280" r="5" fill="#333" opacity="0.8"/>
+        <circle cx="520" cy="280" r="3" fill="white"/>
+        <circle cx="460" cy="280" r="5" fill="#333" opacity="0.8"/>
+        <circle cx="460" cy="280" r="3" fill="white"/>
+        <text x="490.0" y="310.0" font-size="16" font-weight="bold" fill="white" 
+              stroke="#333" stroke-width="0.5" text-anchor="middle">pentagons,</text>
+            
+        <path d="M 280,340 L 340,340 L 340,280 L 280,280 Z" fill="url(#shape2Gradient)" stroke="#333" stroke-width="2.5"/>
+        
+        <circle cx="280" cy="340" r="5" fill="#333" opacity="0.8"/>
+        <circle cx="280" cy="340" r="3" fill="white"/>
+        <circle cx="340" cy="340" r="5" fill="#333" opacity="0.8"/>
+        <circle cx="340" cy="340" r="3" fill="white"/>
+        <circle cx="340" cy="280" r="5" fill="#333" opacity="0.8"/>
+        <circle cx="340" cy="280" r="3" fill="white"/>
+        <circle cx="280" cy="280" r="5" fill="#333" opacity="0.8"/>
+        <circle cx="280" cy="280" r="3" fill="white"/>
+        <text x="310.0" y="310.0" font-size="16" font-weight="bold" fill="white" 
+              stroke="#333" stroke-width="0.5" text-anchor="middle">3D</text>
+        </g>
+        
+        <!-- Question mark indicator -->
+        <circle cx="400" cy="100" r="30" fill="#ffd700" opacity="0.8"/>
+        <text x="400" y="110" font-size="28" font-weight="bold" fill="#333" text-anchor="middle">?</text>
+    </g>
+    
+    <!-- Legend/Key -->
+    <g id="legend" transform="translate(20, 20)">
+        <rect x="0" y="0" width="150" height="100" fill="white" opacity="0.9" stroke="#333" stroke-width="1" rx="5"/>
+        <text x="75" y="20" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Legend</text>
+        <line x1="10" y1="30" x2="140" y2="30" stroke="#333" stroke-width="0.5"/>
+        <rect x="10" y="40" width="15" height="15" fill="#008080" opacity="0.6"/>
+        <text x="30" y="52" font-size="12" fill="#333">Original Shape</text>
+        <rect x="10" y="60" width="15" height="15" fill="#ff1493" opacity="0.6"/>
+        <text x="30" y="72" font-size="12" fill="#333">Transformed Shape</text>
+        <line x="10" y="85" x2="25" y2="85" stroke="#ff4500" stroke-width="2" marker-end="url(#arrowhead)"/>
+        <text x="30" y="89" font-size="12" fill="#333">Transformation Path</text>
+    </g>
+    
 </svg>
-</div>
-<div class="item" label="Gr8_41_5_40_step_4">
-  <!-- The image shows an incorrect transformation sequence applied to pentagon JKL. -->
-<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
-    <!-- Grid -->
+                </div>
+            </div>
+            <div class="visualization-card">
+                <div class="step-title">Step 2/5</div>
+                <span class="solution-indicator correct">✅ Correct Transformation</span>
+                <div class="step-description">
+                    ✅ a translation right 5 units and up 5 units followed by a reflection across the y-axis<br>First, translate JKL right 5 units and up 5 units to map it onto JKL''.Then, reflection across the y-axis to map it onto J'K'L'.
+                </div>
+                <div class="svg-container">
+                    <svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+    <!-- Enhanced gradient backgrounds -->
     <defs>
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#e6f3ff;stop-opacity:1" />
+        </linearGradient>
+        
+        <!-- Arrow markers for transformation paths -->
+        <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+            <polygon points="0 0, 10 3, 0 6" fill="#ff4500" />
+        </marker>
+        
+        <marker id="arrowhead2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+            <polygon points="0 0, 10 3, 0 6" fill="#4169e1" />
+        </marker>
+        
+        <!-- Glow effect for shapes -->
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        
+        <!-- Pattern for grid -->
+        <pattern id="smallGrid" width="15" height="15" patternUnits="userSpaceOnUse">
+            <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#e8e8e8" stroke-width="0.5"/>
+        </pattern>
         <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-            <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+            <rect width="30" height="30" fill="url(#smallGrid)"/>
+            <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#d0d0d0" stroke-width="1"/>
         </pattern>
     </defs>
-    <rect width="600" height="600" fill="white"/>
-    <rect width="600" height="600" fill="url(#grid)"/>
     
-    <!-- Axes -->
-    <line x1="0" y1="300" x2="600" y2="300" stroke="#666" stroke-width="2"/>
-    <line x1="300" y1="0" x2="300" y2="600" stroke="#666" stroke-width="2"/>
+    <!-- Background with gradient -->
+    <rect width="800" height="800" fill="url(#bgGradient)"/>
     
-    <!-- Transformation visualization placeholder -->
-    <text x="300" y="300" font-size="14" text-anchor="middle" fill="#333">Transformation Step</text>
+    <!-- Grid overlay -->
+    <rect width="800" height="800" fill="url(#grid)" opacity="0.8"/>
+    
+    <!-- Main coordinate axes with enhanced styling -->
+    <line x1="0" y1="400" x2="800" y2="400" stroke="#333" stroke-width="2.5" opacity="0.8"/>
+    <line x1="400" y1="0" x2="400" y2="800" stroke="#333" stroke-width="2.5" opacity="0.8"/>
+    
+    <!-- Axis arrows -->
+    <polygon points="795,400 800,395 800,405" fill="#333"/>
+    <polygon points="400,5 395,0 405,0" fill="#333"/>
+    
+    <!-- Enhanced axis labels with background -->
+    <g font-family="'Segoe UI', Arial, sans-serif">
+        <!-- X-axis label -->
+        <rect x="770" y="410" width="20" height="20" fill="white" opacity="0.9" rx="2"/>
+        <text x="780" y="425" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">x</text>
+        
+        <!-- Y-axis label -->
+        <rect x="410" y="10" width="20" height="20" fill="white" opacity="0.9" rx="2"/>
+        <text x="420" y="25" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">y</text>
+    </g>
+    
+    <!-- Grid numbers with enhanced visibility -->
+    <g font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#555">
+        <rect x="25" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="40" y="420" text-anchor="middle" font-weight="500">-12</text>
+        <rect x="408" y="751" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="763" text-anchor="middle" font-weight="500">-12</text>
+        <rect x="85" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="100" y="420" text-anchor="middle" font-weight="500">-10</text>
+        <rect x="408" y="691" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="703" text-anchor="middle" font-weight="500">-10</text>
+        <rect x="145" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="160" y="420" text-anchor="middle" font-weight="500">-8</text>
+        <rect x="408" y="631" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="643" text-anchor="middle" font-weight="500">-8</text>
+        <rect x="205" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="220" y="420" text-anchor="middle" font-weight="500">-6</text>
+        <rect x="408" y="571" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="583" text-anchor="middle" font-weight="500">-6</text>
+        <rect x="265" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="280" y="420" text-anchor="middle" font-weight="500">-4</text>
+        <rect x="408" y="511" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="523" text-anchor="middle" font-weight="500">-4</text>
+        <rect x="325" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="340" y="420" text-anchor="middle" font-weight="500">-2</text>
+        <rect x="408" y="451" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="463" text-anchor="middle" font-weight="500">-2</text>
+        <rect x="445" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="460" y="420" text-anchor="middle" font-weight="500">2</text>
+        <rect x="408" y="331" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="343" text-anchor="middle" font-weight="500">2</text>
+        <rect x="505" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="520" y="420" text-anchor="middle" font-weight="500">4</text>
+        <rect x="408" y="271" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="283" text-anchor="middle" font-weight="500">4</text>
+        <rect x="565" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="580" y="420" text-anchor="middle" font-weight="500">6</text>
+        <rect x="408" y="211" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="223" text-anchor="middle" font-weight="500">6</text>
+        <rect x="625" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="640" y="420" text-anchor="middle" font-weight="500">8</text>
+        <rect x="408" y="151" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="163" text-anchor="middle" font-weight="500">8</text>
+        <rect x="685" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="700" y="420" text-anchor="middle" font-weight="500">10</text>
+        <rect x="408" y="91" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="103" text-anchor="middle" font-weight="500">10</text>
+        <rect x="745" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="760" y="420" text-anchor="middle" font-weight="500">12</text>
+        <rect x="408" y="31" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="43" text-anchor="middle" font-weight="500">12</text>
+    </g>
+    
+    <!-- Origin label -->
+    <rect x="408" y="408" width="25" height="18" fill="white" opacity="0.9" rx="2"/>
+    <text x="420" y="420" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">O</text>
+    
+    <!-- Correct transformation sequence visualization -->
+    <g id="transformation-sequence">
+        <!-- Original shape (semi-transparent) -->
+        <g opacity="0.4">
+            
+        <path d="M 460,340 L 520,340 L 520,280 L 460,280 Z" fill="#008080" fill-opacity="0.3" stroke="#008080" stroke-width="2"/>
+        <text x="490.0" y="310.0" font-size="14" font-weight="bold" fill="#000" text-anchor="middle">Original</text>
+        <circle cx="460" cy="340" r="4" fill="#008080"/> <circle cx="520" cy="340" r="4" fill="#008080"/> <circle cx="520" cy="280" r="4" fill="#008080"/> <circle cx="460" cy="280" r="4" fill="#008080"/>
+        </g>
+        
+        <!-- Intermediate transformation with motion path -->
+        <g opacity="0.6">
+            
+        <path d="M 490,310 L 550,310 L 550,250 L 490,250 Z" fill="#ff6b6b" fill-opacity="0.3" stroke="#ff6b6b" stroke-width="2"/>
+        <text x="520.0" y="280.0" font-size="14" font-weight="bold" fill="#000" text-anchor="middle">Step 1</text>
+        <circle cx="490" cy="310" r="4" fill="#ff6b6b"/> <circle cx="550" cy="310" r="4" fill="#ff6b6b"/> <circle cx="550" cy="250" r="4" fill="#ff6b6b"/> <circle cx="490" cy="250" r="4" fill="#ff6b6b"/>
+            
+        <path d="M 460,340 Q 459.0,310.0 490,310" 
+              fill="none" stroke="#ff4500" stroke-width="2" opacity="0.6" 
+              stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+        <path d="M 520,340 Q 539.0,314.0 550,310" 
+              fill="none" stroke="#ff4500" stroke-width="2" opacity="0.6" 
+              stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+        <path d="M 520,280 Q 522.0,284.0 550,250" 
+              fill="none" stroke="#ff4500" stroke-width="2" opacity="0.6" 
+              stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+        <path d="M 460,280 Q 472.0,264.0 490,250" 
+              fill="none" stroke="#ff4500" stroke-width="2" opacity="0.6" 
+              stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+        </g>
+        
+        <!-- Final shape with glow effect -->
+        <g filter="url(#glow)">
+            
+        <path d="M 280,310 L 340,310 L 340,250 L 280,250 Z" fill="#4169e1" fill-opacity="0.3" stroke="#4169e1" stroke-width="2"/>
+        <text x="310.0" y="280.0" font-size="14" font-weight="bold" fill="#000" text-anchor="middle">Final</text>
+        <circle cx="280" cy="310" r="4" fill="#4169e1"/> <circle cx="340" cy="310" r="4" fill="#4169e1"/> <circle cx="340" cy="250" r="4" fill="#4169e1"/> <circle cx="280" cy="250" r="4" fill="#4169e1"/>
+            
+        <path d="M 490,310 Q 374.0,295.0 280,310" 
+              fill="none" stroke="#4169e1" stroke-width="2" opacity="0.6" 
+              stroke-dasharray="5,3" marker-end="url(#arrowhead2)"/>
+        <path d="M 550,310 Q 438.0,330.0 340,310" 
+              fill="none" stroke="#4169e1" stroke-width="2" opacity="0.6" 
+              stroke-dasharray="5,3" marker-end="url(#arrowhead2)"/>
+        <path d="M 550,250 Q 426.0,262.0 340,250" 
+              fill="none" stroke="#4169e1" stroke-width="2" opacity="0.6" 
+              stroke-dasharray="5,3" marker-end="url(#arrowhead2)"/>
+        <path d="M 490,250 Q 397.0,248.0 280,250" 
+              fill="none" stroke="#4169e1" stroke-width="2" opacity="0.6" 
+              stroke-dasharray="5,3" marker-end="url(#arrowhead2)"/>
+        </g>
+        
+        <!-- Transformation annotations -->
+        
+    <g id="annotations" font-family="'Segoe UI', Arial, sans-serif">
+        <rect x="550" y="100" width="200" height="80" fill="white" opacity="0.95" stroke="#333" stroke-width="1" rx="5"/>
+        <text x="650" y="125" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Translation</text>
+        <text x="650" y="145" font-size="12" fill="#555" text-anchor="middle">right & up</text>
+        <text x="650" y="165" font-size="11" fill="#777" text-anchor="middle">Vector notation shown</text>
+        <rect x="550" y="200" width="200" height="80" fill="white" opacity="0.95" stroke="#333" stroke-width="1" rx="5"/>
+        <text x="650" y="225" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Reflection</text>
+        <text x="650" y="245" font-size="12" fill="#555" text-anchor="middle">Across y-axis</text>
+        <text x="650" y="265" font-size="11" fill="#777" text-anchor="middle">Mirror line shown</text>
+    </g>
+    </g>
+    
+    <!-- Legend/Key -->
+    <g id="legend" transform="translate(20, 20)">
+        <rect x="0" y="0" width="150" height="100" fill="white" opacity="0.9" stroke="#333" stroke-width="1" rx="5"/>
+        <text x="75" y="20" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Legend</text>
+        <line x1="10" y1="30" x2="140" y2="30" stroke="#333" stroke-width="0.5"/>
+        <rect x="10" y="40" width="15" height="15" fill="#008080" opacity="0.6"/>
+        <text x="30" y="52" font-size="12" fill="#333">Original Shape</text>
+        <rect x="10" y="60" width="15" height="15" fill="#ff1493" opacity="0.6"/>
+        <text x="30" y="72" font-size="12" fill="#333">Transformed Shape</text>
+        <line x="10" y="85" x2="25" y2="85" stroke="#ff4500" stroke-width="2" marker-end="url(#arrowhead)"/>
+        <text x="30" y="89" font-size="12" fill="#333">Transformation Path</text>
+    </g>
+    
 </svg>
-</div>
-<div class="item" label="Gr8_41_5_40_step_5">
-  <!-- The image shows another incorrect transformation sequence applied to pentagon JKL. -->
-<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
-    <!-- Grid -->
+                </div>
+            </div>
+            <div class="visualization-card">
+                <div class="step-title">Step 4/5</div>
+                <span class="solution-indicator incorrect">❌ Incorrect Transformation</span>
+                <div class="step-description">
+                    ❌ a rotation 180° around the origin followed by a translation left 5 units and up 5 units<br>This sequence does not correctly map JKL onto J'K'L'.
+                </div>
+                <div class="svg-container">
+                    <svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+    <!-- Enhanced gradient backgrounds -->
     <defs>
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#e6f3ff;stop-opacity:1" />
+        </linearGradient>
+        
+        <!-- Arrow markers for transformation paths -->
+        <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+            <polygon points="0 0, 10 3, 0 6" fill="#ff4500" />
+        </marker>
+        
+        <marker id="arrowhead2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+            <polygon points="0 0, 10 3, 0 6" fill="#4169e1" />
+        </marker>
+        
+        <!-- Glow effect for shapes -->
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        
+        <!-- Pattern for grid -->
+        <pattern id="smallGrid" width="15" height="15" patternUnits="userSpaceOnUse">
+            <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#e8e8e8" stroke-width="0.5"/>
+        </pattern>
         <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-            <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+            <rect width="30" height="30" fill="url(#smallGrid)"/>
+            <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#d0d0d0" stroke-width="1"/>
         </pattern>
     </defs>
-    <rect width="600" height="600" fill="white"/>
-    <rect width="600" height="600" fill="url(#grid)"/>
     
-    <!-- Axes -->
-    <line x1="0" y1="300" x2="600" y2="300" stroke="#666" stroke-width="2"/>
-    <line x1="300" y1="0" x2="300" y2="600" stroke="#666" stroke-width="2"/>
+    <!-- Background with gradient -->
+    <rect width="800" height="800" fill="url(#bgGradient)"/>
     
-    <!-- Transformation visualization placeholder -->
-    <text x="300" y="300" font-size="14" text-anchor="middle" fill="#333">Transformation Step</text>
+    <!-- Grid overlay -->
+    <rect width="800" height="800" fill="url(#grid)" opacity="0.8"/>
+    
+    <!-- Main coordinate axes with enhanced styling -->
+    <line x1="0" y1="400" x2="800" y2="400" stroke="#333" stroke-width="2.5" opacity="0.8"/>
+    <line x1="400" y1="0" x2="400" y2="800" stroke="#333" stroke-width="2.5" opacity="0.8"/>
+    
+    <!-- Axis arrows -->
+    <polygon points="795,400 800,395 800,405" fill="#333"/>
+    <polygon points="400,5 395,0 405,0" fill="#333"/>
+    
+    <!-- Enhanced axis labels with background -->
+    <g font-family="'Segoe UI', Arial, sans-serif">
+        <!-- X-axis label -->
+        <rect x="770" y="410" width="20" height="20" fill="white" opacity="0.9" rx="2"/>
+        <text x="780" y="425" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">x</text>
+        
+        <!-- Y-axis label -->
+        <rect x="410" y="10" width="20" height="20" fill="white" opacity="0.9" rx="2"/>
+        <text x="420" y="25" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">y</text>
+    </g>
+    
+    <!-- Grid numbers with enhanced visibility -->
+    <g font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#555">
+        <rect x="25" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="40" y="420" text-anchor="middle" font-weight="500">-12</text>
+        <rect x="408" y="751" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="763" text-anchor="middle" font-weight="500">-12</text>
+        <rect x="85" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="100" y="420" text-anchor="middle" font-weight="500">-10</text>
+        <rect x="408" y="691" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="703" text-anchor="middle" font-weight="500">-10</text>
+        <rect x="145" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="160" y="420" text-anchor="middle" font-weight="500">-8</text>
+        <rect x="408" y="631" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="643" text-anchor="middle" font-weight="500">-8</text>
+        <rect x="205" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="220" y="420" text-anchor="middle" font-weight="500">-6</text>
+        <rect x="408" y="571" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="583" text-anchor="middle" font-weight="500">-6</text>
+        <rect x="265" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="280" y="420" text-anchor="middle" font-weight="500">-4</text>
+        <rect x="408" y="511" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="523" text-anchor="middle" font-weight="500">-4</text>
+        <rect x="325" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="340" y="420" text-anchor="middle" font-weight="500">-2</text>
+        <rect x="408" y="451" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="463" text-anchor="middle" font-weight="500">-2</text>
+        <rect x="445" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="460" y="420" text-anchor="middle" font-weight="500">2</text>
+        <rect x="408" y="331" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="343" text-anchor="middle" font-weight="500">2</text>
+        <rect x="505" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="520" y="420" text-anchor="middle" font-weight="500">4</text>
+        <rect x="408" y="271" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="283" text-anchor="middle" font-weight="500">4</text>
+        <rect x="565" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="580" y="420" text-anchor="middle" font-weight="500">6</text>
+        <rect x="408" y="211" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="223" text-anchor="middle" font-weight="500">6</text>
+        <rect x="625" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="640" y="420" text-anchor="middle" font-weight="500">8</text>
+        <rect x="408" y="151" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="163" text-anchor="middle" font-weight="500">8</text>
+        <rect x="685" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="700" y="420" text-anchor="middle" font-weight="500">10</text>
+        <rect x="408" y="91" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="103" text-anchor="middle" font-weight="500">10</text>
+        <rect x="745" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="760" y="420" text-anchor="middle" font-weight="500">12</text>
+        <rect x="408" y="31" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="43" text-anchor="middle" font-weight="500">12</text>
+    </g>
+    
+    <!-- Origin label -->
+    <rect x="408" y="408" width="25" height="18" fill="white" opacity="0.9" rx="2"/>
+    <text x="420" y="420" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">O</text>
+    
+    <!-- Incorrect transformation visualization with warning -->
+    <g id="incorrect-transformation">
+        <!-- Red warning border -->
+        <rect x="50" y="50" width="700" height="700" fill="none" stroke="#ff0000" stroke-width="3" stroke-dasharray="10,5" opacity="0.3" rx="10"/>
+        
+        <!-- Original shape -->
+        <g opacity="0.4">
+            
+        <path d="M 460,340 L 520,340 L 520,280 L 460,280 Z" fill="#808080" fill-opacity="0.3" stroke="#808080" stroke-width="2"/>
+        <text x="490.0" y="310.0" font-size="14" font-weight="bold" fill="#000" text-anchor="middle">Original</text>
+        <circle cx="460" cy="340" r="4" fill="#808080"/> <circle cx="520" cy="340" r="4" fill="#808080"/> <circle cx="520" cy="280" r="4" fill="#808080"/> <circle cx="460" cy="280" r="4" fill="#808080"/>
+        </g>
+        
+        <!-- Incorrect transformation with crossed-out path -->
+        <g opacity="0.5">
+            
+        <path d="M 380,420 L 440,420 L 440,360 L 380,360 Z" fill="#ff0000" fill-opacity="0.3" stroke="#ff0000" stroke-width="2"/>
+        <text x="410.0" y="390.0" font-size="14" font-weight="bold" fill="#000" text-anchor="middle">Incorrect</text>
+        <circle cx="380" cy="420" r="4" fill="#ff0000"/> <circle cx="440" cy="420" r="4" fill="#ff0000"/> <circle cx="440" cy="360" r="4" fill="#ff0000"/> <circle cx="380" cy="360" r="4" fill="#ff0000"/>
+            
+        <path d="M 460,340 Q 409.0,362.0 380,420" 
+              fill="none" stroke="#ff0000" stroke-width="2" opacity="0.6" 
+              stroke-dasharray="5,3" marker-end="url(#arrowhead2)"/>
+        <path d="M 520,340 Q 478.0,398.0 440,420" 
+              fill="none" stroke="#ff0000" stroke-width="2" opacity="0.6" 
+              stroke-dasharray="5,3" marker-end="url(#arrowhead2)"/>
+        <path d="M 520,280 Q 479.0,309.0 440,360" 
+              fill="none" stroke="#ff0000" stroke-width="2" opacity="0.6" 
+              stroke-dasharray="5,3" marker-end="url(#arrowhead2)"/>
+        <path d="M 460,280 Q 417.0,339.0 380,360" 
+              fill="none" stroke="#ff0000" stroke-width="2" opacity="0.6" 
+              stroke-dasharray="5,3" marker-end="url(#arrowhead2)"/>
+        <line x1="410.0" y1="370.0" x2="430.0" y2="390.0" 
+              stroke="#ff0000" stroke-width="3"/>
+        <line x1="410.0" y1="390.0" x2="430.0" y2="370.0" 
+              stroke="#ff0000" stroke-width="3"/>
+        <line x1="470.0" y1="370.0" x2="490.0" y2="390.0" 
+              stroke="#ff0000" stroke-width="3"/>
+        <line x1="470.0" y1="390.0" x2="490.0" y2="370.0" 
+              stroke="#ff0000" stroke-width="3"/>
+        <line x1="470.0" y1="310.0" x2="490.0" y2="330.0" 
+              stroke="#ff0000" stroke-width="3"/>
+        <line x1="470.0" y1="330.0" x2="490.0" y2="310.0" 
+              stroke="#ff0000" stroke-width="3"/>
+        <line x1="410.0" y1="310.0" x2="430.0" y2="330.0" 
+              stroke="#ff0000" stroke-width="3"/>
+        <line x1="410.0" y1="330.0" x2="430.0" y2="310.0" 
+              stroke="#ff0000" stroke-width="3"/>
+        </g>
+        
+        <!-- Error message -->
+        <rect x="250" y="720" width="300" height="40" fill="#ffcccc" stroke="#ff0000" stroke-width="2" rx="5"/>
+        <text x="400" y="745" font-size="16" font-weight="bold" fill="#cc0000" text-anchor="middle">
+            ❌ Incorrect Transformation
+        </text>
+    </g>
+    
+    <!-- Legend/Key -->
+    <g id="legend" transform="translate(20, 20)">
+        <rect x="0" y="0" width="150" height="100" fill="white" opacity="0.9" stroke="#333" stroke-width="1" rx="5"/>
+        <text x="75" y="20" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Legend</text>
+        <line x1="10" y1="30" x2="140" y2="30" stroke="#333" stroke-width="0.5"/>
+        <rect x="10" y="40" width="15" height="15" fill="#008080" opacity="0.6"/>
+        <text x="30" y="52" font-size="12" fill="#333">Original Shape</text>
+        <rect x="10" y="60" width="15" height="15" fill="#ff1493" opacity="0.6"/>
+        <text x="30" y="72" font-size="12" fill="#333">Transformed Shape</text>
+        <line x="10" y="85" x2="25" y2="85" stroke="#ff4500" stroke-width="2" marker-end="url(#arrowhead)"/>
+        <text x="30" y="89" font-size="12" fill="#333">Transformation Path</text>
+    </g>
+    
 </svg>
-</div>
-
+                </div>
+            </div>
+            <div class="visualization-card">
+                <div class="step-title">Step 5/5</div>
+                <span class="solution-indicator incorrect">❌ Incorrect Transformation</span>
+                <div class="step-description">
+                    ❌ a translation left 5 units and down 5 units followed by a rotation 90° clockwise around the origin<br>This sequence does not correctly map JKL onto J'K'L'.
+                </div>
+                <div class="svg-container">
+                    <svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+    <!-- Enhanced gradient backgrounds -->
+    <defs>
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#e6f3ff;stop-opacity:1" />
+        </linearGradient>
+        
+        <!-- Arrow markers for transformation paths -->
+        <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+            <polygon points="0 0, 10 3, 0 6" fill="#ff4500" />
+        </marker>
+        
+        <marker id="arrowhead2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+            <polygon points="0 0, 10 3, 0 6" fill="#4169e1" />
+        </marker>
+        
+        <!-- Glow effect for shapes -->
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        
+        <!-- Pattern for grid -->
+        <pattern id="smallGrid" width="15" height="15" patternUnits="userSpaceOnUse">
+            <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#e8e8e8" stroke-width="0.5"/>
+        </pattern>
+        <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+            <rect width="30" height="30" fill="url(#smallGrid)"/>
+            <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#d0d0d0" stroke-width="1"/>
+        </pattern>
+    </defs>
+    
+    <!-- Background with gradient -->
+    <rect width="800" height="800" fill="url(#bgGradient)"/>
+    
+    <!-- Grid overlay -->
+    <rect width="800" height="800" fill="url(#grid)" opacity="0.8"/>
+    
+    <!-- Main coordinate axes with enhanced styling -->
+    <line x1="0" y1="400" x2="800" y2="400" stroke="#333" stroke-width="2.5" opacity="0.8"/>
+    <line x1="400" y1="0" x2="400" y2="800" stroke="#333" stroke-width="2.5" opacity="0.8"/>
+    
+    <!-- Axis arrows -->
+    <polygon points="795,400 800,395 800,405" fill="#333"/>
+    <polygon points="400,5 395,0 405,0" fill="#333"/>
+    
+    <!-- Enhanced axis labels with background -->
+    <g font-family="'Segoe UI', Arial, sans-serif">
+        <!-- X-axis label -->
+        <rect x="770" y="410" width="20" height="20" fill="white" opacity="0.9" rx="2"/>
+        <text x="780" y="425" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">x</text>
+        
+        <!-- Y-axis label -->
+        <rect x="410" y="10" width="20" height="20" fill="white" opacity="0.9" rx="2"/>
+        <text x="420" y="25" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">y</text>
+    </g>
+    
+    <!-- Grid numbers with enhanced visibility -->
+    <g font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#555">
+        <rect x="25" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="40" y="420" text-anchor="middle" font-weight="500">-12</text>
+        <rect x="408" y="751" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="763" text-anchor="middle" font-weight="500">-12</text>
+        <rect x="85" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="100" y="420" text-anchor="middle" font-weight="500">-10</text>
+        <rect x="408" y="691" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="703" text-anchor="middle" font-weight="500">-10</text>
+        <rect x="145" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="160" y="420" text-anchor="middle" font-weight="500">-8</text>
+        <rect x="408" y="631" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="643" text-anchor="middle" font-weight="500">-8</text>
+        <rect x="205" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="220" y="420" text-anchor="middle" font-weight="500">-6</text>
+        <rect x="408" y="571" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="583" text-anchor="middle" font-weight="500">-6</text>
+        <rect x="265" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="280" y="420" text-anchor="middle" font-weight="500">-4</text>
+        <rect x="408" y="511" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="523" text-anchor="middle" font-weight="500">-4</text>
+        <rect x="325" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="340" y="420" text-anchor="middle" font-weight="500">-2</text>
+        <rect x="408" y="451" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="463" text-anchor="middle" font-weight="500">-2</text>
+        <rect x="445" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="460" y="420" text-anchor="middle" font-weight="500">2</text>
+        <rect x="408" y="331" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="343" text-anchor="middle" font-weight="500">2</text>
+        <rect x="505" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="520" y="420" text-anchor="middle" font-weight="500">4</text>
+        <rect x="408" y="271" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="283" text-anchor="middle" font-weight="500">4</text>
+        <rect x="565" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="580" y="420" text-anchor="middle" font-weight="500">6</text>
+        <rect x="408" y="211" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="223" text-anchor="middle" font-weight="500">6</text>
+        <rect x="625" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="640" y="420" text-anchor="middle" font-weight="500">8</text>
+        <rect x="408" y="151" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="163" text-anchor="middle" font-weight="500">8</text>
+        <rect x="685" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="700" y="420" text-anchor="middle" font-weight="500">10</text>
+        <rect x="408" y="91" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="103" text-anchor="middle" font-weight="500">10</text>
+        <rect x="745" y="408" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="760" y="420" text-anchor="middle" font-weight="500">12</text>
+        <rect x="408" y="31" width="30" height="18" fill="white" opacity="0.8" rx="2"/>
+        <text x="423" y="43" text-anchor="middle" font-weight="500">12</text>
+    </g>
+    
+    <!-- Origin label -->
+    <rect x="408" y="408" width="25" height="18" fill="white" opacity="0.9" rx="2"/>
+    <text x="420" y="420" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">O</text>
+    
+    <!-- Incorrect transformation visualization with warning -->
+    <g id="incorrect-transformation">
+        <!-- Red warning border -->
+        <rect x="50" y="50" width="700" height="700" fill="none" stroke="#ff0000" stroke-width="3" stroke-dasharray="10,5" opacity="0.3" rx="10"/>
+        
+        <!-- Original shape -->
+        <g opacity="0.4">
+            
+        <path d="M 460,340 L 520,340 L 520,280 L 460,280 Z" fill="#808080" fill-opacity="0.3" stroke="#808080" stroke-width="2"/>
+        <text x="490.0" y="310.0" font-size="14" font-weight="bold" fill="#000" text-anchor="middle">Original</text>
+        <circle cx="460" cy="340" r="4" fill="#808080"/> <circle cx="520" cy="340" r="4" fill="#808080"/> <circle cx="520" cy="280" r="4" fill="#808080"/> <circle cx="460" cy="280" r="4" fill="#808080"/>
+        </g>
+        
+        <!-- Incorrect transformation with crossed-out path -->
+        <g opacity="0.5">
+            
+        <path d="M 380,420 L 440,420 L 440,360 L 380,360 Z" fill="#ff0000" fill-opacity="0.3" stroke="#ff0000" stroke-width="2"/>
+        <text x="410.0" y="390.0" font-size="14" font-weight="bold" fill="#000" text-anchor="middle">Incorrect</text>
+        <circle cx="380" cy="420" r="4" fill="#ff0000"/> <circle cx="440" cy="420" r="4" fill="#ff0000"/> <circle cx="440" cy="360" r="4" fill="#ff0000"/> <circle cx="380" cy="360" r="4" fill="#ff0000"/>
+            
+        <path d="M 460,340 Q 421.0,376.0 380,420" 
+              fill="none" stroke="#ff0000" stroke-width="2" opacity="0.6" 
+              stroke-dasharray="5,3" marker-end="url(#arrowhead2)"/>
+        <path d="M 520,340 Q 484.0,377.0 440,420" 
+              fill="none" stroke="#ff0000" stroke-width="2" opacity="0.6" 
+              stroke-dasharray="5,3" marker-end="url(#arrowhead2)"/>
+        <path d="M 520,280 Q 470.0,321.0 440,360" 
+              fill="none" stroke="#ff0000" stroke-width="2" opacity="0.6" 
+              stroke-dasharray="5,3" marker-end="url(#arrowhead2)"/>
+        <path d="M 460,280 Q 427.0,314.0 380,360" 
+              fill="none" stroke="#ff0000" stroke-width="2" opacity="0.6" 
+              stroke-dasharray="5,3" marker-end="url(#arrowhead2)"/>
+        <line x1="410.0" y1="370.0" x2="430.0" y2="390.0" 
+              stroke="#ff0000" stroke-width="3"/>
+        <line x1="410.0" y1="390.0" x2="430.0" y2="370.0" 
+              stroke="#ff0000" stroke-width="3"/>
+        <line x1="470.0" y1="370.0" x2="490.0" y2="390.0" 
+              stroke="#ff0000" stroke-width="3"/>
+        <line x1="470.0" y1="390.0" x2="490.0" y2="370.0" 
+              stroke="#ff0000" stroke-width="3"/>
+        <line x1="470.0" y1="310.0" x2="490.0" y2="330.0" 
+              stroke="#ff0000" stroke-width="3"/>
+        <line x1="470.0" y1="330.0" x2="490.0" y2="310.0" 
+              stroke="#ff0000" stroke-width="3"/>
+        <line x1="410.0" y1="310.0" x2="430.0" y2="330.0" 
+              stroke="#ff0000" stroke-width="3"/>
+        <line x1="410.0" y1="330.0" x2="430.0" y2="310.0" 
+              stroke="#ff0000" stroke-width="3"/>
+        </g>
+        
+        <!-- Error message -->
+        <rect x="250" y="720" width="300" height="40" fill="#ffcccc" stroke="#ff0000" stroke-width="2" rx="5"/>
+        <text x="400" y="745" font-size="16" font-weight="bold" fill="#cc0000" text-anchor="middle">
+            ❌ Incorrect Transformation
+        </text>
+    </g>
+    
+    <!-- Legend/Key -->
+    <g id="legend" transform="translate(20, 20)">
+        <rect x="0" y="0" width="150" height="100" fill="white" opacity="0.9" stroke="#333" stroke-width="1" rx="5"/>
+        <text x="75" y="20" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Legend</text>
+        <line x1="10" y1="30" x2="140" y2="30" stroke="#333" stroke-width="0.5"/>
+        <rect x="10" y="40" width="15" height="15" fill="#008080" opacity="0.6"/>
+        <text x="30" y="52" font-size="12" fill="#333">Original Shape</text>
+        <rect x="10" y="60" width="15" height="15" fill="#ff1493" opacity="0.6"/>
+        <text x="30" y="72" font-size="12" fill="#333">Transformed Shape</text>
+        <line x="10" y="85" x2="25" y2="85" stroke="#ff4500" stroke-width="2" marker-end="url(#arrowhead)"/>
+        <text x="30" y="89" font-size="12" fill="#333">Transformation Path</text>
+    </g>
+    
+</svg>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
