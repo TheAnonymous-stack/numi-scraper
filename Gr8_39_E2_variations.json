@@ -1,5 +1,56 @@
 [
   {
+    "question_text": "What does this object's base plan look like?",
+    "skills": "base-plans",
+    "image_tag": "Gr8_39_2_1",
+    "backend_description": "The image shows a 3D rectangular prism made up of smaller unit cubes. The prism is arranged as a 2 by 2 by 3 cube, with varying shades of pink and purple to represent depth and sides. The top view of the prism is shown, with the pink and purple cubes arranged in a 2 by 2 grid.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_1",
+    "tag": "Gr8_39_E2",
+    "image_choice_tags": [
+      "Gr8_39_2_1_A",
+      "Gr8_39_2_1_B"
+    ],
+    "image_choice_tags_backend_description": [
+      "The image shows a grid made up of 6 pink squares arranged in 2 rows and 3 columns. Each square contains the number 3, indicating a height of 3 units at that position.",
+      "The image shows a grid made up of 4 pink squares arranged in 2 rows and 2 columns. Each square contains the number 3, indicating a height of 3 units at that position."
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Imagine you are looking at this object from the top. You will see the squares highlighted below:"
+      ],
+      [
+        "2/3",
+        "Label the height of each part, like this:"
+      ],
+      [
+        "3/3",
+        "This is the base plan"
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_39_2_1_step_1",
+        "The image shows a 3D rectangular prism made up of smaller unit cubes. The prism is arranged as a 2 by 2 by 3 cube, with varying shades of pink and purple to represent depth and sides. The top view is highlighted with a black border, showing the 2 by 2 arrangement of 4 visible unit squares."
+      ],
+      [
+        "2/3",
+        "Gr8_39_2_1_step_2",
+        "The top view of the 3D object is shown as a 2 by 2 grid of squares."
+      ],
+      [
+        "3/3",
+        "Gr8_39_2_1_step_3",
+        "This image displays a flat grid of 4 pink squares arranged in 2 rows and 2 columns, representing the 2 by 2 base plan of the prism that is visible from the top."
+      ]
+    ]
+  },
+  {
     "question_text": "Pick the correct base plan for this structure.",
     "skills": "base-plans",
     "image_tag": "Gr8_39_2_2",

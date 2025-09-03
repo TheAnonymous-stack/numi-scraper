@@ -1,6 +1,148 @@
 [
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_1",
+    "backend_description": "The image shows a cube with a side length of 2 millimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_1",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "24"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Each face of the cube is a square with sides that are 2 millimetres long."
+      ],
+      [
+        "2/2",
+        "Find the area of one face:\nArea = side $\\times$ side\n= 2 $\\times$ 2\n= 4\nThe area of each face is 4 square millimetres."
+      ],
+      [
+        "3/3",
+        "There are 6 faces. Multiply:\nSurface area = 6 $\\times$ 4\n= 24\nThe surface area of the cube is 24 square millimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_1_step_1",
+        "The image shows a square with all four sides labeled as 2mm."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_2",
+    "backend_description": "The image shows a cylinder with a radius of 3 centimetres and a height of 10 centimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_2",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "244.92"
+    ],
+    "solution": [
+      [
+        "1/7",
+        "Find the radius and height of the cylinder.\nradius=3\nheight=10"
+      ],
+      [
+        "2/7",
+        "Find the area of the circle on the top of the cylinder. Use 3.14 for $\\pi$.\n\n$A_{top} = \\pi r^2$\n$\\approx 3.14 \\times 3 \\times 3$\n$\\approx 28.26$"
+      ],
+      [
+        "3/7",
+        "The circle on the bottom of the cylinder is the same, so:\n$A_{bottom} = A_{top} \\approx 28.26$"
+      ],
+      [
+        "4/7",
+        "Find the circumference of the top circle.\n\n$C = 2\\pi r$\n$\\approx 2 \\times 3.14 \\times 3$\n$\\approx 18.84$"
+      ],
+      [
+        "5/7",
+        "Now find the area of the curved surface. The curved surface is a rectangle. One side length is the height, and the other side length is the circumference of the circle.\n\n$A_{side} = C \\times h$\n$\\approx 18.84 \\times 10$\n$\\approx 188.4$"
+      ],
+      [
+        "6/7",
+        "Now add the areas to find the surface area of the cylinder.\n\n$\\text{Surface area} = A_{top} + A_{bottom} + A_{side}$\n$\\approx 28.26 + 28.26 + 188.4$\n$\\approx 244.92$"
+      ],
+      [
+        "7/7",
+        "The surface area of the cylinder is about 244.92 square centimetres."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "What is the surface area?\n_ square centimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_3",
+    "backend_description": "The image shows a triangular prism with a base triangle measuring 6 centimetres along the bottom edge, 5 centimetres for each of the two side edges, and a height of 4 centimetres. The prism has a length of 6 centimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_3",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "120"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find the area of the faces in each face.\n$\\frac{1}{2}\\times6\\times4=12$\n\n$\\frac{1}{2}\\times6\\times4=12$\n$5\\times6=30$\n$5\\times 6=30$\n$6\\times6=36$"
+      ],
+      [
+        "2/3",
+        "Add the areas of the 5 faces to find the surface area.\nSurface area$=12+12+30+30+36=120$"
+      ],
+      [
+        "3/3",
+        "The surface area is 120 square centimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_3_step_1",
+        "The image shows the surface area calculation for a triangular prism. At the top are two identical green triangles. Beneath each triangle is the expression 1/2 × 6 × 4 = 12, showing that each triangle has an area of 12 square centimetres. Below the triangles are two identical green rectangles. Underneath both rectangles is the expression 5 × 6 = 30, indicating that each rectangle has an area of 30 square centimetres. At the bottom of the image is one larger green square, with the expression 6 × 6 = 36 written below it, showing its area is 36 square centimetres. These five faces together represent the total surface area of the triangular prism."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area?\n_ square millimetres",
+    "skills": "surface-area-of-prisms-and-cylinders",
+    "image_tag": "Gr8_49_1_4",
+    "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 2 millimetres, and a height of 2 millimetres.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_4",
+    "tag": "Gr8_49_E1",
+    "correct_answers": [
+      "40"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find the area of the faces in each pair.\n$2\\times4=8$\n$2\\times4=8$\n$4\\times2=8$\n$4\\times2=8$\n$2\\times2=4$\n$2\\times2=4$"
+      ],
+      [
+        "2/3",
+        "Now add the areas of the 6 faces."
+      ],
+      [
+        "3/3",
+        "Surface area\n$=8+8+8+8+4+4=40$\nThe surface area of the rectangular prism is 40 square millimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_49_1_4_step_1",
+        "The image shows the surface area calculation for a rectangular prism. There are six green rectangles arranged in three pairs. At the top are two identical vertical rectangles with the expression 2 × 4 = 8 written below each, showing that each has an area of 8 square millimetres. In the middle are two identical horizontal rectangles, also labeled with 4 × 2 = 8, indicating each of their areas is 8 square millimetres. At the bottom are two identical squares, each labeled with 2 × 2 = 4, showing that each has an area of 4 square millimetres. These six faces together represent the total surface area of the rectangular prism."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_5",
     "backend_description": "The image shows a cube with a side length of 6 millimetres.",
@@ -33,7 +175,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n___ square centimetres",
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_6",
     "backend_description": "The image shows a cylinder with a radius of 6 centimetres and a height of 8 centimetres.",
@@ -76,7 +218,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the surface area?\n___ square centimetres",
+    "question_text": "What is the surface area?\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_7",
     "backend_description": "The image shows a triangular prism with a base triangle measuring 7 centimetres along the bottom edge, 3 centimetres for each of the two side edges, and a height of 3 centimetres. The prism has a length of 10 centimetres.",
@@ -109,7 +251,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_8",
     "backend_description": "The image shows a rectangular prism with a length of 6 millimetres, a width of 4 millimetres, and a height of 3 millimetres.",
@@ -142,7 +284,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_9",
     "backend_description": "The image shows a cube with a side length of 3 millimetres.",
@@ -175,7 +317,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n___ square centimetres",
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_10",
     "backend_description": "The image shows a cylinder with a radius of 6 centimetres and a height of 19 centimetres.",
@@ -218,7 +360,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the surface area?\n___ square centimetres",
+    "question_text": "What is the surface area?\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_11",
     "backend_description": "The image shows a triangular prism with a base triangle measuring 8 centimetres along the bottom edge, 3 centimetres for each of the two side edges, and a height of 4 centimetres. The prism has a length of 5 centimetres.",
@@ -251,7 +393,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_12",
     "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 4 millimetres, and a height of 4 millimetres.",
@@ -284,7 +426,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_13",
     "backend_description": "The image shows a cube with a side length of 5 millimetres.",
@@ -317,7 +459,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n___ square centimetres",
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_14",
     "backend_description": "The image shows a cylinder with a radius of 5 centimetres and a height of 16 centimetres.",
@@ -360,7 +502,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the surface area?\n___ square centimetres",
+    "question_text": "What is the surface area?\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_15",
     "backend_description": "The image shows a triangular prism with a base triangle measuring 7 centimetres along the bottom edge, 4 centimetres for each of the two side edges, and a height of 7 centimetres. The prism has a length of 10 centimetres.",
@@ -393,7 +535,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_16",
     "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 4 millimetres, and a height of 5 millimetres.",
@@ -426,7 +568,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_17",
     "backend_description": "The image shows a cube with a side length of 9 millimetres.",
@@ -459,7 +601,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n___ square centimetres",
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_18",
     "backend_description": "The image shows a cylinder with a radius of 3 centimetres and a height of 19 centimetres.",
@@ -502,7 +644,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the surface area?\n___ square centimetres",
+    "question_text": "What is the surface area?\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_19",
     "backend_description": "The image shows a triangular prism with a base triangle measuring 10 centimetres along the bottom edge, 3 centimetres for each of the two side edges, and a height of 7 centimetres. The prism has a length of 6 centimetres.",
@@ -535,7 +677,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_20",
     "backend_description": "The image shows a rectangular prism with a length of 5 millimetres, a width of 2 millimetres, and a height of 2 millimetres.",
@@ -568,7 +710,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_21",
     "backend_description": "The image shows a cube with a side length of 5 millimetres.",
@@ -601,7 +743,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n___ square centimetres",
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_22",
     "backend_description": "The image shows a cylinder with a radius of 3 centimetres and a height of 12 centimetres.",
@@ -644,7 +786,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the surface area?\n___ square centimetres",
+    "question_text": "What is the surface area?\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_23",
     "backend_description": "The image shows a triangular prism with a base triangle measuring 6 centimetres along the bottom edge, 6 centimetres for each of the two side edges, and a height of 7 centimetres. The prism has a length of 10 centimetres.",
@@ -677,7 +819,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_24",
     "backend_description": "The image shows a rectangular prism with a length of 8 millimetres, a width of 6 millimetres, and a height of 5 millimetres.",
@@ -710,7 +852,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_25",
     "backend_description": "The image shows a cube with a side length of 10 millimetres.",
@@ -743,7 +885,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n___ square centimetres",
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_26",
     "backend_description": "The image shows a cylinder with a radius of 4 centimetres and a height of 15 centimetres.",
@@ -786,7 +928,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the surface area?\n___ square centimetres",
+    "question_text": "What is the surface area?\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_27",
     "backend_description": "The image shows a triangular prism with a base triangle measuring 4 centimetres along the bottom edge, 8 centimetres for each of the two side edges, and a height of 5 centimetres. The prism has a length of 9 centimetres.",
@@ -819,7 +961,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_28",
     "backend_description": "The image shows a rectangular prism with a length of 7 millimetres, a width of 6 millimetres, and a height of 3 millimetres.",
@@ -852,7 +994,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_29",
     "backend_description": "The image shows a cube with a side length of 3 millimetres.",
@@ -885,7 +1027,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n___ square centimetres",
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_30",
     "backend_description": "The image shows a cylinder with a radius of 7 centimetres and a height of 20 centimetres.",
@@ -928,7 +1070,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the surface area?\n___ square centimetres",
+    "question_text": "What is the surface area?\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_31",
     "backend_description": "The image shows a triangular prism with a base triangle measuring 8 centimetres along the bottom edge, 5 centimetres for each of the two side edges, and a height of 3 centimetres. The prism has a length of 12 centimetres.",
@@ -961,7 +1103,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_32",
     "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 6 millimetres, and a height of 3 millimetres.",
@@ -994,7 +1136,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_33",
     "backend_description": "The image shows a cube with a side length of 8 millimetres.",
@@ -1027,7 +1169,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n___ square centimetres",
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_34",
     "backend_description": "The image shows a cylinder with a radius of 4 centimetres and a height of 8 centimetres.",
@@ -1070,7 +1212,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the surface area?\n___ square centimetres",
+    "question_text": "What is the surface area?\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_35",
     "backend_description": "The image shows a triangular prism with a base triangle measuring 10 centimetres along the bottom edge, 4 centimetres for each of the two side edges, and a height of 7 centimetres. The prism has a length of 8 centimetres.",
@@ -1103,7 +1245,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_36",
     "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 6 millimetres, and a height of 2 millimetres.",
@@ -1136,7 +1278,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_37",
     "backend_description": "The image shows a cube with a side length of 5 millimetres.",
@@ -1169,7 +1311,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n___ square centimetres",
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_38",
     "backend_description": "The image shows a cylinder with a radius of 5 centimetres and a height of 17 centimetres.",
@@ -1212,7 +1354,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the surface area?\n___ square centimetres",
+    "question_text": "What is the surface area?\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_39",
     "backend_description": "The image shows a triangular prism with a base triangle measuring 6 centimetres along the bottom edge, 8 centimetres for each of the two side edges, and a height of 3 centimetres. The prism has a length of 5 centimetres.",
@@ -1245,7 +1387,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_40",
     "backend_description": "The image shows a rectangular prism with a length of 5 millimetres, a width of 6 millimetres, and a height of 5 millimetres.",
@@ -1278,7 +1420,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_41",
     "backend_description": "The image shows a cube with a side length of 7 millimetres.",
@@ -1311,7 +1453,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n___ square centimetres",
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_42",
     "backend_description": "The image shows a cylinder with a radius of 2 centimetres and a height of 19 centimetres.",
@@ -1354,7 +1496,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the surface area?\n___ square centimetres",
+    "question_text": "What is the surface area?\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_43",
     "backend_description": "The image shows a triangular prism with a base triangle measuring 6 centimetres along the bottom edge, 4 centimetres for each of the two side edges, and a height of 6 centimetres. The prism has a length of 5 centimetres.",
@@ -1387,7 +1529,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_44",
     "backend_description": "The image shows a rectangular prism with a length of 3 millimetres, a width of 6 millimetres, and a height of 2 millimetres.",
@@ -1420,7 +1562,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_45",
     "backend_description": "The image shows a cube with a side length of 9 millimetres.",
@@ -1453,7 +1595,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n___ square centimetres",
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_46",
     "backend_description": "The image shows a cylinder with a radius of 4 centimetres and a height of 11 centimetres.",
@@ -1496,7 +1638,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the surface area?\n___ square centimetres",
+    "question_text": "What is the surface area?\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_47",
     "backend_description": "The image shows a triangular prism with a base triangle measuring 7 centimetres along the bottom edge, 5 centimetres for each of the two side edges, and a height of 3 centimetres. The prism has a length of 7 centimetres.",
@@ -1529,7 +1671,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_48",
     "backend_description": "The image shows a rectangular prism with a length of 4 millimetres, a width of 4 millimetres, and a height of 4 millimetres.",
@@ -1562,7 +1704,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area?\n___ square millimetres",
+    "question_text": "What is the surface area?\n_ square millimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_49",
     "backend_description": "The image shows a cube with a side length of 9 millimetres.",
@@ -1595,7 +1737,7 @@
     ]
   },
   {
-    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n___ square centimetres",
+    "question_text": "What is the surface area of this cylinder?\nUse $\\pi \\approx 3.14$ and round your answer to the nearest hundredth.\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_50",
     "backend_description": "The image shows a cylinder with a radius of 6 centimetres and a height of 13 centimetres.",
@@ -1638,7 +1780,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the surface area?\n___ square centimetres",
+    "question_text": "What is the surface area?\n_ square centimetres",
     "skills": "surface-area-of-prisms-and-cylinders",
     "image_tag": "Gr8_49_1_51",
     "backend_description": "The image shows a triangular prism with a base triangle measuring 5 centimetres along the bottom edge, 7 centimetres for each of the two side edges, and a height of 3 centimetres. The prism has a length of 8 centimetres.",

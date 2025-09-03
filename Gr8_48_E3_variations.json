@@ -1,6 +1,90 @@
 [
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
+    "skills": "volume-of-compound-figures",
+    "image_tag": "Gr8_48_3_1",
+    "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 10 cm, a width of 3 cm, and a height of 2 cm. The bottom left prism has a length of 2 cm, a width of 3 cm, and a height of 3 cm. The bottom right prism has a length of 2 cm, a width of 3 cm, and a height of 3 cm.",
+    "question_type": "Fill in the blank",
+    "question_number": "3_1",
+    "tag": "Gr8_48_E3",
+    "correct_answers": [
+      "96"
+    ],
+    "solution": [
+      [
+        "1/12",
+        "To find the volume of the figure, start by breaking it up into 3 rectangular prisms."
+      ],
+      [
+        "2/12",
+        "Now, find the volume of each prism. Start with the top prism. Notice that its height is the difference between the height of the whole figure, 5 centimetres, and the height of the bottom left prism, 3 centimetres."
+      ],
+      [
+        "3/12",
+        "The length $\\ell$ is 10 centimetres. The width $w$ is 3 centimetres. The height $h$ is 2 centimetres."
+      ],
+      [
+        "4/12",
+        "V = $\\ell \\times w \\times h$\nV= 10 $\\times$ 3 $\\times$ 2\nV= 60\nThe volume of the top prism is 60 cubic centimetres."
+      ],
+      [
+        "5/12",
+        "Now, find the volume of the bottom left prism. Notice that its width is the same as the top prism, 3 centimetres."
+      ],
+      [
+        "6/12",
+        "The length $\\ell$ is 3 centimetres. The width $w$ is 2 centimetres. The height $h$ is 3 centimetres."
+      ],
+      [
+        "7/12",
+        "V = $\\ell \\times w \\times h$\nV= 3 $\\times$ 2 $\\times$ 3\nV= 18\nThe volume of the bottom left prism is 18 cubic centimetres."
+      ],
+      [
+        "8/12",
+        "Now, find the volume of the bottom right prism. Notice that its width is also the same as the top prism, 3centimetres. Its height is the same as the bottom left prism, 3 centimetres."
+      ],
+      [
+        "9/12",
+        "The length $\\ell$ is 3 centimetres. The width $w$ is 2 centimetres. The height $h$ is 3 centimetres."
+      ],
+      [
+        "10/12",
+        "V = $\\ell \\times w \\times h$\nV= 3 $\\times$ 2 $\\times$ 3\nV= 18\nThe volume of the bottom right prism is 18 cubic centimetres."
+      ],
+      [
+        "11/12",
+        "To find the total volume of the figure, add the volumes of the prisms.\n60 + 18 + 18 = 96"
+      ],
+      [
+        "12/12",
+        "The volume of the figure is 96 cubic centimetres."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/12",
+        "Gr8_48_3_1_step_1",
+        "The image shows a three-dimensional figure is broken into three rectangular prisms. The top prism has a length of 10 cm, a width of 3 cm, and a height of 2 cm. The bottom left prism has a length of 2 cm, a width of 3 cm, and a height of 3 cm. The bottom right prism has a length of 2 cm, a width of 3 cm, and a height of 3 cm"
+      ],
+      [
+        "2/12",
+        "Gr8_48_3_1_step_2",
+        "This image shows a rectangular prism with a length of 10 cm, a width of 3 cm, and a height of 2 cm"
+      ],
+      [
+        "5/12",
+        "Gr8_48_3_1_step_5",
+        "This image shows a rectangular prism with a length of 2 cm, a width of 3 cm, and a height of 3 cm"
+      ],
+      [
+        "8/12",
+        "Gr8_48_3_1_step_8",
+        "This image shows a rectangular prism with a length of 2 cm, a width of 3 cm, and a height of 3 cm"
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_2",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 15 cm, a width of 4 cm, and a height of 4 cm. The bottom left prism has a length of 2 cm, a width of 3 cm, and a height of 5 cm. The bottom right prism has a length of 3 cm, a width of 3 cm, and a height of 5 cm.",
@@ -84,7 +168,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_3",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 10 cm, a width of 3 cm, and a height of 4 cm. The bottom left prism has a length of 2 cm, a width of 4 cm, and a height of 5 cm. The bottom right prism has a length of 2 cm, a width of 4 cm, and a height of 5 cm.",
@@ -168,7 +252,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_4",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 9 cm, a width of 3 cm, and a height of 3 cm. The bottom left prism has a length of 2 cm, a width of 3 cm, and a height of 5 cm. The bottom right prism has a length of 2 cm, a width of 3 cm, and a height of 5 cm.",
@@ -252,7 +336,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_5",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 8 cm, a width of 5 cm, and a height of 4 cm. The bottom left prism has a length of 5 cm, a width of 4 cm, and a height of 4 cm. The bottom right prism has a length of 2 cm, a width of 4 cm, and a height of 4 cm.",
@@ -336,7 +420,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_6",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 12 cm, a width of 4 cm, and a height of 4 cm. The bottom left prism has a length of 3 cm, a width of 2 cm, and a height of 3 cm. The bottom right prism has a length of 2 cm, a width of 4 cm, and a height of 3 cm.",
@@ -420,7 +504,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_7",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 12 cm, a width of 4 cm, and a height of 2 cm. The bottom left prism has a length of 5 cm, a width of 2 cm, and a height of 5 cm. The bottom right prism has a length of 3 cm, a width of 4 cm, and a height of 5 cm.",
@@ -504,7 +588,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_8",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 13 cm, a width of 3 cm, and a height of 2 cm. The bottom left prism has a length of 3 cm, a width of 4 cm, and a height of 5 cm. The bottom right prism has a length of 2 cm, a width of 3 cm, and a height of 5 cm.",
@@ -588,7 +672,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_9",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 14 cm, a width of 2 cm, and a height of 3 cm. The bottom left prism has a length of 2 cm, a width of 2 cm, and a height of 5 cm. The bottom right prism has a length of 3 cm, a width of 2 cm, and a height of 5 cm.",
@@ -672,7 +756,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_10",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 11 cm, a width of 5 cm, and a height of 3 cm. The bottom left prism has a length of 2 cm, a width of 2 cm, and a height of 4 cm. The bottom right prism has a length of 3 cm, a width of 3 cm, and a height of 4 cm.",
@@ -756,7 +840,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_11",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 13 cm, a width of 5 cm, and a height of 4 cm. The bottom left prism has a length of 4 cm, a width of 2 cm, and a height of 3 cm. The bottom right prism has a length of 4 cm, a width of 4 cm, and a height of 3 cm.",
@@ -840,7 +924,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_12",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 12 cm, a width of 2 cm, and a height of 4 cm. The bottom left prism has a length of 5 cm, a width of 2 cm, and a height of 5 cm. The bottom right prism has a length of 3 cm, a width of 4 cm, and a height of 5 cm.",
@@ -924,7 +1008,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_13",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 12 cm, a width of 4 cm, and a height of 4 cm. The bottom left prism has a length of 4 cm, a width of 2 cm, and a height of 5 cm. The bottom right prism has a length of 5 cm, a width of 2 cm, and a height of 5 cm.",
@@ -1008,7 +1092,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_14",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 8 cm, a width of 4 cm, and a height of 4 cm. The bottom left prism has a length of 3 cm, a width of 4 cm, and a height of 4 cm. The bottom right prism has a length of 2 cm, a width of 2 cm, and a height of 4 cm.",
@@ -1092,7 +1176,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_15",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 8 cm, a width of 4 cm, and a height of 3 cm. The bottom left prism has a length of 2 cm, a width of 2 cm, and a height of 3 cm. The bottom right prism has a length of 2 cm, a width of 3 cm, and a height of 3 cm.",
@@ -1176,7 +1260,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_16",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 14 cm, a width of 4 cm, and a height of 2 cm. The bottom left prism has a length of 4 cm, a width of 2 cm, and a height of 4 cm. The bottom right prism has a length of 5 cm, a width of 2 cm, and a height of 4 cm.",
@@ -1260,7 +1344,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_17",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 9 cm, a width of 4 cm, and a height of 2 cm. The bottom left prism has a length of 5 cm, a width of 2 cm, and a height of 3 cm. The bottom right prism has a length of 2 cm, a width of 3 cm, and a height of 3 cm.",
@@ -1344,7 +1428,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_18",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 12 cm, a width of 2 cm, and a height of 2 cm. The bottom left prism has a length of 5 cm, a width of 2 cm, and a height of 4 cm. The bottom right prism has a length of 4 cm, a width of 2 cm, and a height of 4 cm.",
@@ -1428,7 +1512,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_19",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 8 cm, a width of 2 cm, and a height of 4 cm. The bottom left prism has a length of 5 cm, a width of 4 cm, and a height of 5 cm. The bottom right prism has a length of 4 cm, a width of 3 cm, and a height of 5 cm.",
@@ -1512,7 +1596,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_20",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 15 cm, a width of 3 cm, and a height of 3 cm. The bottom left prism has a length of 3 cm, a width of 4 cm, and a height of 3 cm. The bottom right prism has a length of 2 cm, a width of 2 cm, and a height of 3 cm.",
@@ -1596,7 +1680,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_21",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 11 cm, a width of 3 cm, and a height of 3 cm. The bottom left prism has a length of 5 cm, a width of 2 cm, and a height of 4 cm. The bottom right prism has a length of 5 cm, a width of 4 cm, and a height of 4 cm.",
@@ -1680,7 +1764,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_22",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 10 cm, a width of 3 cm, and a height of 4 cm. The bottom left prism has a length of 3 cm, a width of 4 cm, and a height of 3 cm. The bottom right prism has a length of 4 cm, a width of 4 cm, and a height of 3 cm.",
@@ -1764,7 +1848,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_23",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 9 cm, a width of 4 cm, and a height of 2 cm. The bottom left prism has a length of 3 cm, a width of 3 cm, and a height of 5 cm. The bottom right prism has a length of 5 cm, a width of 2 cm, and a height of 5 cm.",
@@ -1848,7 +1932,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_24",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 9 cm, a width of 5 cm, and a height of 2 cm. The bottom left prism has a length of 2 cm, a width of 4 cm, and a height of 4 cm. The bottom right prism has a length of 4 cm, a width of 4 cm, and a height of 4 cm.",
@@ -1932,7 +2016,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_25",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 15 cm, a width of 4 cm, and a height of 2 cm. The bottom left prism has a length of 3 cm, a width of 3 cm, and a height of 4 cm. The bottom right prism has a length of 2 cm, a width of 2 cm, and a height of 4 cm.",
@@ -2016,7 +2100,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_26",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 15 cm, a width of 5 cm, and a height of 3 cm. The bottom left prism has a length of 2 cm, a width of 4 cm, and a height of 3 cm. The bottom right prism has a length of 5 cm, a width of 2 cm, and a height of 3 cm.",
@@ -2100,7 +2184,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_27",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 12 cm, a width of 4 cm, and a height of 3 cm. The bottom left prism has a length of 5 cm, a width of 3 cm, and a height of 5 cm. The bottom right prism has a length of 2 cm, a width of 3 cm, and a height of 5 cm.",
@@ -2184,7 +2268,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_28",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 15 cm, a width of 5 cm, and a height of 4 cm. The bottom left prism has a length of 3 cm, a width of 3 cm, and a height of 3 cm. The bottom right prism has a length of 2 cm, a width of 4 cm, and a height of 3 cm.",
@@ -2268,7 +2352,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_29",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 12 cm, a width of 3 cm, and a height of 3 cm. The bottom left prism has a length of 4 cm, a width of 2 cm, and a height of 3 cm. The bottom right prism has a length of 2 cm, a width of 2 cm, and a height of 3 cm.",
@@ -2352,7 +2436,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_30",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 13 cm, a width of 5 cm, and a height of 4 cm. The bottom left prism has a length of 5 cm, a width of 2 cm, and a height of 5 cm. The bottom right prism has a length of 3 cm, a width of 3 cm, and a height of 5 cm.",
@@ -2436,7 +2520,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_31",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 10 cm, a width of 3 cm, and a height of 3 cm. The bottom left prism has a length of 2 cm, a width of 4 cm, and a height of 3 cm. The bottom right prism has a length of 2 cm, a width of 4 cm, and a height of 3 cm.",
@@ -2520,7 +2604,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_32",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 10 cm, a width of 3 cm, and a height of 2 cm. The bottom left prism has a length of 4 cm, a width of 3 cm, and a height of 3 cm. The bottom right prism has a length of 2 cm, a width of 2 cm, and a height of 3 cm.",
@@ -2604,7 +2688,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_33",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 12 cm, a width of 5 cm, and a height of 2 cm. The bottom left prism has a length of 2 cm, a width of 2 cm, and a height of 3 cm. The bottom right prism has a length of 2 cm, a width of 2 cm, and a height of 3 cm.",
@@ -2688,7 +2772,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_34",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 11 cm, a width of 2 cm, and a height of 3 cm. The bottom left prism has a length of 4 cm, a width of 3 cm, and a height of 4 cm. The bottom right prism has a length of 4 cm, a width of 3 cm, and a height of 4 cm.",
@@ -2772,7 +2856,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_35",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 11 cm, a width of 3 cm, and a height of 4 cm. The bottom left prism has a length of 3 cm, a width of 2 cm, and a height of 4 cm. The bottom right prism has a length of 3 cm, a width of 3 cm, and a height of 4 cm.",
@@ -2856,7 +2940,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_36",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 8 cm, a width of 3 cm, and a height of 3 cm. The bottom left prism has a length of 5 cm, a width of 3 cm, and a height of 4 cm. The bottom right prism has a length of 2 cm, a width of 2 cm, and a height of 4 cm.",
@@ -2940,7 +3024,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_37",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 11 cm, a width of 4 cm, and a height of 4 cm. The bottom left prism has a length of 5 cm, a width of 4 cm, and a height of 4 cm. The bottom right prism has a length of 3 cm, a width of 3 cm, and a height of 4 cm.",
@@ -3024,7 +3108,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_38",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 8 cm, a width of 5 cm, and a height of 3 cm. The bottom left prism has a length of 5 cm, a width of 4 cm, and a height of 5 cm. The bottom right prism has a length of 2 cm, a width of 3 cm, and a height of 5 cm.",
@@ -3108,7 +3192,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_39",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 12 cm, a width of 4 cm, and a height of 4 cm. The bottom left prism has a length of 5 cm, a width of 3 cm, and a height of 3 cm. The bottom right prism has a length of 4 cm, a width of 4 cm, and a height of 3 cm.",
@@ -3192,7 +3276,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_40",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 12 cm, a width of 3 cm, and a height of 2 cm. The bottom left prism has a length of 5 cm, a width of 4 cm, and a height of 4 cm. The bottom right prism has a length of 5 cm, a width of 4 cm, and a height of 4 cm.",
@@ -3276,7 +3360,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_41",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 9 cm, a width of 3 cm, and a height of 2 cm. The bottom left prism has a length of 3 cm, a width of 2 cm, and a height of 4 cm. The bottom right prism has a length of 2 cm, a width of 4 cm, and a height of 4 cm.",
@@ -3360,7 +3444,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_42",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 13 cm, a width of 4 cm, and a height of 2 cm. The bottom left prism has a length of 4 cm, a width of 2 cm, and a height of 3 cm. The bottom right prism has a length of 2 cm, a width of 2 cm, and a height of 3 cm.",
@@ -3444,7 +3528,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_43",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 13 cm, a width of 3 cm, and a height of 3 cm. The bottom left prism has a length of 3 cm, a width of 4 cm, and a height of 5 cm. The bottom right prism has a length of 3 cm, a width of 2 cm, and a height of 5 cm.",
@@ -3528,7 +3612,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_44",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 12 cm, a width of 3 cm, and a height of 4 cm. The bottom left prism has a length of 4 cm, a width of 4 cm, and a height of 4 cm. The bottom right prism has a length of 3 cm, a width of 2 cm, and a height of 4 cm.",
@@ -3612,7 +3696,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_45",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 15 cm, a width of 5 cm, and a height of 3 cm. The bottom left prism has a length of 4 cm, a width of 4 cm, and a height of 3 cm. The bottom right prism has a length of 3 cm, a width of 3 cm, and a height of 3 cm.",
@@ -3696,7 +3780,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_46",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 13 cm, a width of 2 cm, and a height of 3 cm. The bottom left prism has a length of 2 cm, a width of 2 cm, and a height of 4 cm. The bottom right prism has a length of 4 cm, a width of 2 cm, and a height of 4 cm.",
@@ -3780,7 +3864,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_47",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 10 cm, a width of 4 cm, and a height of 3 cm. The bottom left prism has a length of 5 cm, a width of 3 cm, and a height of 4 cm. The bottom right prism has a length of 2 cm, a width of 4 cm, and a height of 4 cm.",
@@ -3864,7 +3948,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_48",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 9 cm, a width of 4 cm, and a height of 4 cm. The bottom left prism has a length of 5 cm, a width of 4 cm, and a height of 5 cm. The bottom right prism has a length of 5 cm, a width of 4 cm, and a height of 5 cm.",
@@ -3948,7 +4032,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_49",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 10 cm, a width of 5 cm, and a height of 2 cm. The bottom left prism has a length of 3 cm, a width of 2 cm, and a height of 3 cm. The bottom right prism has a length of 3 cm, a width of 2 cm, and a height of 3 cm.",
@@ -4032,7 +4116,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_50",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 8 cm, a width of 2 cm, and a height of 2 cm. The bottom left prism has a length of 4 cm, a width of 3 cm, and a height of 4 cm. The bottom right prism has a length of 5 cm, a width of 2 cm, and a height of 4 cm.",
@@ -4116,7 +4200,7 @@
     ]
   },
   {
-    "question_text": "What is the volume of this figure?\n___ cubic centimetres",
+    "question_text": "What is the volume of this figure?\n_ cubic centimetres",
     "skills": "volume-of-compound-figures",
     "image_tag": "Gr8_48_3_51",
     "backend_description": "The image shows a figure composed of three rectangular prisms. The top prism has a length of 9 cm, a width of 2 cm, and a height of 3 cm. The bottom left prism has a length of 5 cm, a width of 2 cm, and a height of 5 cm. The bottom right prism has a length of 3 cm, a width of 3 cm, and a height of 5 cm.",

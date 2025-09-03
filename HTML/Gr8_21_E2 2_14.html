@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gr8_21_E2 2_14</title>
+    <style>
+        .item {
+            display: block;
+            margin: 20px;
+        }
+        .sequence-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 20px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            width: fit-content;
+        }
+        .number-box {
+            width: 70px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            border: 2px solid #333;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .arrow-container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+        .arrow {
+            width: 35px;
+            height: 2px;
+            background: #dc3545;
+            position: relative;
+        }
+        .arrow::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: -4px;
+            width: 0;
+            height: 0;
+            border-left: 8px solid #dc3545;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+        }
+        .operation {
+            color: #dc3545;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .missing {
+            background: #fff3cd;
+            border-color: #ffc107;
+        }
+    </style>
+</head>
+<body>
+    <!-- Gr8_21_2_14_step_1 -->
+    <div class="item" label="Gr8_21_2_14_step_1">
+        <div class="sequence-container">
+            <div class="number-box">38</div>
+            <div class="arrow-container">
+                <div class="arrow"></div>
+                <div class="operation">+11</div>
+            </div>
+            <div class="number-box">49</div>
+            <div class="arrow-container">
+                <div class="arrow"></div>
+                <div class="operation">+11</div>
+            </div>
+            <div class="number-box">60</div>
+            <div class="arrow-container">
+                <div class="arrow"></div>
+                <div class="operation">+11</div>
+            </div>
+            <div class="number-box">71</div>
+            <div class="arrow-container">
+                <div class="arrow"></div>
+                <div class="operation">+11</div>
+            </div>
+            <div class="number-box">82</div>
+            <div class="arrow-container">
+                <div class="arrow"></div>
+                <div class="operation"></div>
+            </div>
+            <div class="number-box missing">?</div>
+        </div>
+    </div>
+
+    <!-- Gr8_21_2_14_step_2 -->
+    <div class="item" label="Gr8_21_2_14_step_2">
+        <div class="sequence-container">
+            <div class="number-box">38</div>
+            <div class="arrow-container">
+                <div class="arrow"></div>
+                <div class="operation">+11</div>
+            </div>
+            <div class="number-box">49</div>
+            <div class="arrow-container">
+                <div class="arrow"></div>
+                <div class="operation">+11</div>
+            </div>
+            <div class="number-box">60</div>
+            <div class="arrow-container">
+                <div class="arrow"></div>
+                <div class="operation">+11</div>
+            </div>
+            <div class="number-box">71</div>
+            <div class="arrow-container">
+                <div class="arrow"></div>
+                <div class="operation">+11</div>
+            </div>
+            <div class="number-box">82</div>
+            <div class="arrow-container">
+                <div class="arrow"></div>
+                <div class="operation">+11</div>
+            </div>
+            <div class="number-box">93</div>
+        </div>
+    </div>
+
+</body>
+</html>

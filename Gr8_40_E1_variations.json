@@ -1,5 +1,71 @@
 [
   {
+    "question_text": "Look at this shape:\nWhich image shows a rotation?",
+    "skills": "identify-reflections-rotations-and-translations",
+    "image_tag": "Gr8_40_1_1",
+    "backend_description": "The image shows a purple triangle on a coordinate grid. The triangle has a horizontal base and points upward and to the right. It serves as the original figure to compare with other triangles to determine which option could be a rotation of it.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_1",
+    "tag": "Gr8_40_E1",
+    "image_choice_tags": [
+      "Gr8_40_1_1_A",
+      "Gr8_40_1_1_B",
+      "Gr8_40_1_1_C"
+    ],
+    "image_choice_tags_backend_description": [
+      "This image shows the same purple triangle after a 90° counterclockwise rotation. The triangle has a vertical base and the top vertex pointing to the left.",
+      "This image shows the purple triangle translated vertically upward. The shape has the same size and orientation as the original triangle but is now positioned higher on the grid by 1 unit.",
+      "This image shows the purple triangle reflected across a vertical red line. The triangle is now facing the opposite direction. The red line indicates the line of reflection."
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/5",
+        "Look at the first shape:"
+      ],
+      [
+        "2/5",
+        "Now find the image that shows a rotation."
+      ],
+      [
+        "3/5",
+        "Image A shows a rotation. Rotate the shape 90° counterclockwise. Image A is the correct image."
+      ],
+      [
+        "4/5",
+        "Image B shows a translation. Translate the shape up 1."
+      ],
+      [
+        "5/5",
+        "Image C shows a reflection. Reflect the shape across a vertical line."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/5",
+        "Gr8_40_1_1_step_1",
+        "The image shows a purple triangle on a coordinate grid. The triangle has a horizontal base and points upward and to the right."
+      ],
+      [
+        "3/5",
+        "Gr8_40_1_1_step_3",
+        "The image shows the same purple triangle after a 90° counterclockwise rotation. The triangle has a vertical base and the top vertex pointing to the left."
+      ],
+      [
+        "4/5",
+        "Gr8_40_1_1_step_4",
+        "The image shows the purple triangle translated vertically upward. The shape has the same size and orientation as the original triangle but is now positioned higher on the grid by 1 unit."
+      ],
+      [
+        "5/5",
+        "Gr8_40_1_1_step_5",
+        "The image shows the purple triangle reflected across a vertical red line. The triangle is now facing the opposite direction. The red line indicates the line of reflection."
+      ]
+    ]
+  },
+  {
     "question_text": "Identify the diagram with a reflection.",
     "skills": "identify-reflections-rotations-and-translations",
     "image_tag": "Gr8_40_1_2",
@@ -13,7 +79,7 @@
       "Gr8_40_1_2_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the yellow square after a 180\u00b0 clockwise rotation.",
+      "This image shows the yellow square after a 180° clockwise rotation.",
       "This image shows the yellow square translated up 1 unit.",
       "This image shows the same yellow square reflected across a diagonal red line, representing Naruto shadow clone mirror dimension."
     ],
@@ -56,7 +122,7 @@
       [
         "4/5",
         "Gr8_40_1_2_step_4",
-        "This image shows the yellow square after a 180\u00b0 clockwise rotation."
+        "This image shows the yellow square after a 180° clockwise rotation."
       ],
       [
         "5/5",
@@ -79,7 +145,7 @@
       "Gr8_40_1_3_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the cyan pentagon after a 270\u00b0 counterclockwise rotation.",
+      "This image shows the cyan pentagon after a 270° counterclockwise rotation.",
       "This image shows the same cyan pentagon translated right 5 units, representing Zelda time shift where it shifted.",
       "This image shows the cyan pentagon reflected across a horizontal red line."
     ],
@@ -122,7 +188,7 @@
       [
         "4/5",
         "Gr8_40_1_3_step_4",
-        "This image shows the cyan pentagon after a 270\u00b0 counterclockwise rotation."
+        "This image shows the cyan pentagon after a 270° counterclockwise rotation."
       ],
       [
         "5/5",
@@ -145,7 +211,7 @@
       "Gr8_40_1_4_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the orange hexagon after a 270\u00b0 counterclockwise rotation.",
+      "This image shows the orange hexagon after a 270° counterclockwise rotation.",
       "This image shows the orange hexagon translated left 4 units.",
       "This image shows the same orange hexagon reflected across a vertical red line, representing Among Us vent mirror dimension."
     ],
@@ -188,7 +254,7 @@
       [
         "4/5",
         "Gr8_40_1_4_step_4",
-        "This image shows the orange hexagon after a 270\u00b0 counterclockwise rotation."
+        "This image shows the orange hexagon after a 270° counterclockwise rotation."
       ],
       [
         "5/5",
@@ -211,7 +277,7 @@
       "Gr8_40_1_5_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the gray diamond after a 90\u00b0 clockwise rotation.",
+      "This image shows the gray diamond after a 90° clockwise rotation.",
       "This image shows the gray diamond translated right 5 units.",
       "This image shows the same gray diamond reflected across a vertical red line, representing Overwatch blink mirror dimension."
     ],
@@ -254,7 +320,7 @@
       [
         "4/5",
         "Gr8_40_1_5_step_4",
-        "This image shows the gray diamond after a 90\u00b0 clockwise rotation."
+        "This image shows the gray diamond after a 90° clockwise rotation."
       ],
       [
         "5/5",
@@ -277,7 +343,7 @@
       "Gr8_40_1_6_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the same orange trapezoid after a 270\u00b0 clockwise rotation, representing Fortnite rift.",
+      "This image shows the same orange trapezoid after a 270° clockwise rotation, representing Fortnite rift.",
       "This image shows the orange trapezoid translated up 5 units.",
       "This image shows the orange trapezoid reflected across a diagonal red line."
     ],
@@ -295,7 +361,7 @@
       ],
       [
         "3/5",
-        "Image A shows a rotation. Rotate the shape 270\u00b0 clockwise. Image A is the correct image."
+        "Image A shows a rotation. Rotate the shape 270° clockwise. Image A is the correct image."
       ],
       [
         "4/5",
@@ -315,7 +381,7 @@
       [
         "3/5",
         "Gr8_40_1_6_step_3",
-        "This image shows the same orange trapezoid after a 270\u00b0 clockwise rotation, representing Fortnite rift."
+        "This image shows the same orange trapezoid after a 270° clockwise rotation, representing Fortnite rift."
       ],
       [
         "4/5",
@@ -343,7 +409,7 @@
       "Gr8_40_1_7_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the same yellow square after a 90\u00b0 counterclockwise rotation, representing Portal gun.",
+      "This image shows the same yellow square after a 90° counterclockwise rotation, representing Portal gun.",
       "This image shows the yellow square translated down 3 units.",
       "This image shows the yellow square reflected across a horizontal red line."
     ],
@@ -361,7 +427,7 @@
       ],
       [
         "3/5",
-        "Image A shows a rotation. Rotate the shape 90\u00b0 counterclockwise. Image A is the correct image."
+        "Image A shows a rotation. Rotate the shape 90° counterclockwise. Image A is the correct image."
       ],
       [
         "4/5",
@@ -381,7 +447,7 @@
       [
         "3/5",
         "Gr8_40_1_7_step_3",
-        "This image shows the same yellow square after a 90\u00b0 counterclockwise rotation, representing Portal gun."
+        "This image shows the same yellow square after a 90° counterclockwise rotation, representing Portal gun."
       ],
       [
         "4/5",
@@ -409,7 +475,7 @@
       "Gr8_40_1_8_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the same red hexagon after a 270\u00b0 counterclockwise rotation, representing Pokemon Ditto transformation.",
+      "This image shows the same red hexagon after a 270° counterclockwise rotation, representing Pokemon Ditto transformation.",
       "This image shows the red hexagon translated left 2 units.",
       "This image shows the red hexagon reflected across a horizontal red line."
     ],
@@ -427,7 +493,7 @@
       ],
       [
         "3/5",
-        "Image A shows a rotation. Rotate the shape 270\u00b0 counterclockwise. Image A is the correct image."
+        "Image A shows a rotation. Rotate the shape 270° counterclockwise. Image A is the correct image."
       ],
       [
         "4/5",
@@ -447,7 +513,7 @@
       [
         "3/5",
         "Gr8_40_1_8_step_3",
-        "This image shows the same red hexagon after a 270\u00b0 counterclockwise rotation, representing Pokemon Ditto transformation."
+        "This image shows the same red hexagon after a 270° counterclockwise rotation, representing Pokemon Ditto transformation."
       ],
       [
         "4/5",
@@ -475,7 +541,7 @@
       "Gr8_40_1_9_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the yellow rectangle after a 90\u00b0 counterclockwise rotation.",
+      "This image shows the yellow rectangle after a 90° counterclockwise rotation.",
       "This image shows the same yellow rectangle translated left 5 units, representing Zelda time shift where it shifted.",
       "This image shows the yellow rectangle reflected across a vertical red line."
     ],
@@ -518,7 +584,7 @@
       [
         "4/5",
         "Gr8_40_1_9_step_4",
-        "This image shows the yellow rectangle after a 90\u00b0 counterclockwise rotation."
+        "This image shows the yellow rectangle after a 90° counterclockwise rotation."
       ],
       [
         "5/5",
@@ -541,7 +607,7 @@
       "Gr8_40_1_10_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the orange hexagon after a 270\u00b0 counterclockwise rotation.",
+      "This image shows the orange hexagon after a 270° counterclockwise rotation.",
       "This image shows the same orange hexagon translated down 5 units, representing Overwatch blink where it blinked.",
       "This image shows the orange hexagon reflected across a vertical red line."
     ],
@@ -584,7 +650,7 @@
       [
         "4/5",
         "Gr8_40_1_10_step_4",
-        "This image shows the orange hexagon after a 270\u00b0 counterclockwise rotation."
+        "This image shows the orange hexagon after a 270° counterclockwise rotation."
       ],
       [
         "5/5",
@@ -607,7 +673,7 @@
       "Gr8_40_1_11_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the pink hexagon after a 270\u00b0 counterclockwise rotation.",
+      "This image shows the pink hexagon after a 270° counterclockwise rotation.",
       "This image shows the pink hexagon translated down 1 unit.",
       "This image shows the same pink hexagon reflected across a diagonal red line, representing Mario warp pipe mirror dimension."
     ],
@@ -650,7 +716,7 @@
       [
         "4/5",
         "Gr8_40_1_11_step_4",
-        "This image shows the pink hexagon after a 270\u00b0 counterclockwise rotation."
+        "This image shows the pink hexagon after a 270° counterclockwise rotation."
       ],
       [
         "5/5",
@@ -673,7 +739,7 @@
       "Gr8_40_1_12_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the same pink pentagon after a 180\u00b0 counterclockwise rotation, representing Sonic spin dash.",
+      "This image shows the same pink pentagon after a 180° counterclockwise rotation, representing Sonic spin dash.",
       "This image shows the pink pentagon translated right 3 units.",
       "This image shows the pink pentagon reflected across a horizontal red line."
     ],
@@ -691,7 +757,7 @@
       ],
       [
         "3/5",
-        "Image A shows a rotation. Rotate the shape 180\u00b0 counterclockwise. Image A is the correct image."
+        "Image A shows a rotation. Rotate the shape 180° counterclockwise. Image A is the correct image."
       ],
       [
         "4/5",
@@ -711,7 +777,7 @@
       [
         "3/5",
         "Gr8_40_1_12_step_3",
-        "This image shows the same pink pentagon after a 180\u00b0 counterclockwise rotation, representing Sonic spin dash."
+        "This image shows the same pink pentagon after a 180° counterclockwise rotation, representing Sonic spin dash."
       ],
       [
         "4/5",
@@ -739,7 +805,7 @@
       "Gr8_40_1_13_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the same blue parallelogram after a 180\u00b0 counterclockwise rotation, representing Sonic spin dash.",
+      "This image shows the same blue parallelogram after a 180° counterclockwise rotation, representing Sonic spin dash.",
       "This image shows the blue parallelogram translated up 2 units.",
       "This image shows the blue parallelogram reflected across a vertical red line."
     ],
@@ -757,7 +823,7 @@
       ],
       [
         "3/5",
-        "Image A shows a rotation. Rotate the shape 180\u00b0 counterclockwise. Image A is the correct image."
+        "Image A shows a rotation. Rotate the shape 180° counterclockwise. Image A is the correct image."
       ],
       [
         "4/5",
@@ -777,7 +843,7 @@
       [
         "3/5",
         "Gr8_40_1_13_step_3",
-        "This image shows the same blue parallelogram after a 180\u00b0 counterclockwise rotation, representing Sonic spin dash."
+        "This image shows the same blue parallelogram after a 180° counterclockwise rotation, representing Sonic spin dash."
       ],
       [
         "4/5",
@@ -805,7 +871,7 @@
       "Gr8_40_1_14_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the same orange square after a 180\u00b0 clockwise rotation, representing Pokemon Ditto transformation.",
+      "This image shows the same orange square after a 180° clockwise rotation, representing Pokemon Ditto transformation.",
       "This image shows the orange square translated right 5 units.",
       "This image shows the orange square reflected across a diagonal red line."
     ],
@@ -823,7 +889,7 @@
       ],
       [
         "3/5",
-        "Image A shows a rotation. Rotate the shape 180\u00b0 clockwise. Image A is the correct image."
+        "Image A shows a rotation. Rotate the shape 180° clockwise. Image A is the correct image."
       ],
       [
         "4/5",
@@ -843,7 +909,7 @@
       [
         "3/5",
         "Gr8_40_1_14_step_3",
-        "This image shows the same orange square after a 180\u00b0 clockwise rotation, representing Pokemon Ditto transformation."
+        "This image shows the same orange square after a 180° clockwise rotation, representing Pokemon Ditto transformation."
       ],
       [
         "4/5",
@@ -871,7 +937,7 @@
       "Gr8_40_1_15_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the cyan trapezoid after a 270\u00b0 counterclockwise rotation.",
+      "This image shows the cyan trapezoid after a 270° counterclockwise rotation.",
       "This image shows the cyan trapezoid translated right 2 units.",
       "This image shows the same cyan trapezoid reflected across a vertical red line, representing Mario warp pipe mirror dimension."
     ],
@@ -914,7 +980,7 @@
       [
         "4/5",
         "Gr8_40_1_15_step_4",
-        "This image shows the cyan trapezoid after a 270\u00b0 counterclockwise rotation."
+        "This image shows the cyan trapezoid after a 270° counterclockwise rotation."
       ],
       [
         "5/5",
@@ -937,7 +1003,7 @@
       "Gr8_40_1_16_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the red parallelogram after a 90\u00b0 counterclockwise rotation.",
+      "This image shows the red parallelogram after a 90° counterclockwise rotation.",
       "This image shows the red parallelogram translated down 5 units.",
       "This image shows the same red parallelogram reflected across a vertical red line, representing Marvel portal mirror dimension."
     ],
@@ -980,7 +1046,7 @@
       [
         "4/5",
         "Gr8_40_1_16_step_4",
-        "This image shows the red parallelogram after a 90\u00b0 counterclockwise rotation."
+        "This image shows the red parallelogram after a 90° counterclockwise rotation."
       ],
       [
         "5/5",
@@ -1003,7 +1069,7 @@
       "Gr8_40_1_17_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the purple pentagon after a 90\u00b0 clockwise rotation.",
+      "This image shows the purple pentagon after a 90° clockwise rotation.",
       "This image shows the same purple pentagon translated up 4 units, representing Harry Potter apparition where it apparated.",
       "This image shows the purple pentagon reflected across a diagonal red line."
     ],
@@ -1046,7 +1112,7 @@
       [
         "4/5",
         "Gr8_40_1_17_step_4",
-        "This image shows the purple pentagon after a 90\u00b0 clockwise rotation."
+        "This image shows the purple pentagon after a 90° clockwise rotation."
       ],
       [
         "5/5",
@@ -1069,7 +1135,7 @@
       "Gr8_40_1_18_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the blue trapezoid after a 180\u00b0 clockwise rotation.",
+      "This image shows the blue trapezoid after a 180° clockwise rotation.",
       "This image shows the blue trapezoid translated down 5 units.",
       "This image shows the same blue trapezoid reflected across a horizontal red line, representing Avatar element bending mirror dimension."
     ],
@@ -1112,7 +1178,7 @@
       [
         "4/5",
         "Gr8_40_1_18_step_4",
-        "This image shows the blue trapezoid after a 180\u00b0 clockwise rotation."
+        "This image shows the blue trapezoid after a 180° clockwise rotation."
       ],
       [
         "5/5",
@@ -1135,7 +1201,7 @@
       "Gr8_40_1_19_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the cyan diamond after a 90\u00b0 clockwise rotation.",
+      "This image shows the cyan diamond after a 90° clockwise rotation.",
       "This image shows the same cyan diamond translated up 5 units, representing Star Wars force move where it force-moved.",
       "This image shows the cyan diamond reflected across a horizontal red line."
     ],
@@ -1178,7 +1244,7 @@
       [
         "4/5",
         "Gr8_40_1_19_step_4",
-        "This image shows the cyan diamond after a 90\u00b0 clockwise rotation."
+        "This image shows the cyan diamond after a 90° clockwise rotation."
       ],
       [
         "5/5",
@@ -1201,7 +1267,7 @@
       "Gr8_40_1_20_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the orange rectangle after a 270\u00b0 counterclockwise rotation.",
+      "This image shows the orange rectangle after a 270° counterclockwise rotation.",
       "This image shows the orange rectangle translated down 4 units.",
       "This image shows the same orange rectangle reflected across a diagonal red line, representing Harry Potter apparition mirror dimension."
     ],
@@ -1244,7 +1310,7 @@
       [
         "4/5",
         "Gr8_40_1_20_step_4",
-        "This image shows the orange rectangle after a 270\u00b0 counterclockwise rotation."
+        "This image shows the orange rectangle after a 270° counterclockwise rotation."
       ],
       [
         "5/5",
@@ -1267,7 +1333,7 @@
       "Gr8_40_1_21_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the gray diamond after a 90\u00b0 counterclockwise rotation.",
+      "This image shows the gray diamond after a 90° counterclockwise rotation.",
       "This image shows the gray diamond translated up 5 units.",
       "This image shows the same gray diamond reflected across a diagonal red line, representing Mario warp pipe mirror dimension."
     ],
@@ -1310,7 +1376,7 @@
       [
         "4/5",
         "Gr8_40_1_21_step_4",
-        "This image shows the gray diamond after a 90\u00b0 counterclockwise rotation."
+        "This image shows the gray diamond after a 90° counterclockwise rotation."
       ],
       [
         "5/5",
@@ -1333,7 +1399,7 @@
       "Gr8_40_1_22_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the same orange diamond after a 180\u00b0 counterclockwise rotation, representing Among Us vent.",
+      "This image shows the same orange diamond after a 180° counterclockwise rotation, representing Among Us vent.",
       "This image shows the orange diamond translated right 3 units.",
       "This image shows the orange diamond reflected across a diagonal red line."
     ],
@@ -1351,7 +1417,7 @@
       ],
       [
         "3/5",
-        "Image A shows a rotation. Rotate the shape 180\u00b0 counterclockwise. Image A is the correct image."
+        "Image A shows a rotation. Rotate the shape 180° counterclockwise. Image A is the correct image."
       ],
       [
         "4/5",
@@ -1371,7 +1437,7 @@
       [
         "3/5",
         "Gr8_40_1_22_step_3",
-        "This image shows the same orange diamond after a 180\u00b0 counterclockwise rotation, representing Among Us vent."
+        "This image shows the same orange diamond after a 180° counterclockwise rotation, representing Among Us vent."
       ],
       [
         "4/5",
@@ -1399,7 +1465,7 @@
       "Gr8_40_1_23_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the same green triangle after a 90\u00b0 counterclockwise rotation, representing Among Us vent.",
+      "This image shows the same green triangle after a 90° counterclockwise rotation, representing Among Us vent.",
       "This image shows the green triangle translated down 5 units.",
       "This image shows the green triangle reflected across a horizontal red line."
     ],
@@ -1417,7 +1483,7 @@
       ],
       [
         "3/5",
-        "Image A shows a rotation. Rotate the shape 90\u00b0 counterclockwise. Image A is the correct image."
+        "Image A shows a rotation. Rotate the shape 90° counterclockwise. Image A is the correct image."
       ],
       [
         "4/5",
@@ -1437,7 +1503,7 @@
       [
         "3/5",
         "Gr8_40_1_23_step_3",
-        "This image shows the same green triangle after a 90\u00b0 counterclockwise rotation, representing Among Us vent."
+        "This image shows the same green triangle after a 90° counterclockwise rotation, representing Among Us vent."
       ],
       [
         "4/5",
@@ -1465,7 +1531,7 @@
       "Gr8_40_1_24_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the cyan rectangle after a 180\u00b0 clockwise rotation.",
+      "This image shows the cyan rectangle after a 180° clockwise rotation.",
       "This image shows the cyan rectangle translated down 5 units.",
       "This image shows the same cyan rectangle reflected across a vertical red line, representing Mario warp pipe mirror dimension."
     ],
@@ -1508,7 +1574,7 @@
       [
         "4/5",
         "Gr8_40_1_24_step_4",
-        "This image shows the cyan rectangle after a 180\u00b0 clockwise rotation."
+        "This image shows the cyan rectangle after a 180° clockwise rotation."
       ],
       [
         "5/5",
@@ -1531,7 +1597,7 @@
       "Gr8_40_1_25_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the cyan trapezoid after a 90\u00b0 clockwise rotation.",
+      "This image shows the cyan trapezoid after a 90° clockwise rotation.",
       "This image shows the cyan trapezoid translated right 1 unit.",
       "This image shows the same cyan trapezoid reflected across a horizontal red line, representing Among Us vent mirror dimension."
     ],
@@ -1574,7 +1640,7 @@
       [
         "4/5",
         "Gr8_40_1_25_step_4",
-        "This image shows the cyan trapezoid after a 90\u00b0 clockwise rotation."
+        "This image shows the cyan trapezoid after a 90° clockwise rotation."
       ],
       [
         "5/5",
@@ -1597,7 +1663,7 @@
       "Gr8_40_1_26_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the orange triangle after a 180\u00b0 counterclockwise rotation.",
+      "This image shows the orange triangle after a 180° counterclockwise rotation.",
       "This image shows the orange triangle translated left 1 unit.",
       "This image shows the same orange triangle reflected across a vertical red line, representing Among Us vent mirror dimension."
     ],
@@ -1640,7 +1706,7 @@
       [
         "4/5",
         "Gr8_40_1_26_step_4",
-        "This image shows the orange triangle after a 180\u00b0 counterclockwise rotation."
+        "This image shows the orange triangle after a 180° counterclockwise rotation."
       ],
       [
         "5/5",
@@ -1663,7 +1729,7 @@
       "Gr8_40_1_27_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the same orange square after a 90\u00b0 counterclockwise rotation, representing Zelda time shift.",
+      "This image shows the same orange square after a 90° counterclockwise rotation, representing Zelda time shift.",
       "This image shows the orange square translated up 3 units.",
       "This image shows the orange square reflected across a vertical red line."
     ],
@@ -1681,7 +1747,7 @@
       ],
       [
         "3/5",
-        "Image A shows a rotation. Rotate the shape 90\u00b0 counterclockwise. Image A is the correct image."
+        "Image A shows a rotation. Rotate the shape 90° counterclockwise. Image A is the correct image."
       ],
       [
         "4/5",
@@ -1701,7 +1767,7 @@
       [
         "3/5",
         "Gr8_40_1_27_step_3",
-        "This image shows the same orange square after a 90\u00b0 counterclockwise rotation, representing Zelda time shift."
+        "This image shows the same orange square after a 90° counterclockwise rotation, representing Zelda time shift."
       ],
       [
         "4/5",
@@ -1729,7 +1795,7 @@
       "Gr8_40_1_28_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the purple hexagon after a 180\u00b0 clockwise rotation.",
+      "This image shows the purple hexagon after a 180° clockwise rotation.",
       "This image shows the same purple hexagon translated left 4 units, representing Among Us vent where it vented.",
       "This image shows the purple hexagon reflected across a horizontal red line."
     ],
@@ -1772,7 +1838,7 @@
       [
         "4/5",
         "Gr8_40_1_28_step_4",
-        "This image shows the purple hexagon after a 180\u00b0 clockwise rotation."
+        "This image shows the purple hexagon after a 180° clockwise rotation."
       ],
       [
         "5/5",
@@ -1795,7 +1861,7 @@
       "Gr8_40_1_29_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the green rectangle after a 270\u00b0 counterclockwise rotation.",
+      "This image shows the green rectangle after a 270° counterclockwise rotation.",
       "This image shows the green rectangle translated up 3 units.",
       "This image shows the same green rectangle reflected across a vertical red line, representing Zelda time shift mirror dimension."
     ],
@@ -1838,7 +1904,7 @@
       [
         "4/5",
         "Gr8_40_1_29_step_4",
-        "This image shows the green rectangle after a 270\u00b0 counterclockwise rotation."
+        "This image shows the green rectangle after a 270° counterclockwise rotation."
       ],
       [
         "5/5",
@@ -1861,7 +1927,7 @@
       "Gr8_40_1_30_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the same green rectangle after a 270\u00b0 counterclockwise rotation, representing Avatar element bending.",
+      "This image shows the same green rectangle after a 270° counterclockwise rotation, representing Avatar element bending.",
       "This image shows the green rectangle translated left 2 units.",
       "This image shows the green rectangle reflected across a diagonal red line."
     ],
@@ -1879,7 +1945,7 @@
       ],
       [
         "3/5",
-        "Image A shows a rotation. Rotate the shape 270\u00b0 counterclockwise. Image A is the correct image."
+        "Image A shows a rotation. Rotate the shape 270° counterclockwise. Image A is the correct image."
       ],
       [
         "4/5",
@@ -1899,7 +1965,7 @@
       [
         "3/5",
         "Gr8_40_1_30_step_3",
-        "This image shows the same green rectangle after a 270\u00b0 counterclockwise rotation, representing Avatar element bending."
+        "This image shows the same green rectangle after a 270° counterclockwise rotation, representing Avatar element bending."
       ],
       [
         "4/5",
@@ -1927,7 +1993,7 @@
       "Gr8_40_1_31_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the same orange pentagon after a 90\u00b0 clockwise rotation, representing Marvel portal.",
+      "This image shows the same orange pentagon after a 90° clockwise rotation, representing Marvel portal.",
       "This image shows the orange pentagon translated down 1 unit.",
       "This image shows the orange pentagon reflected across a vertical red line."
     ],
@@ -1945,7 +2011,7 @@
       ],
       [
         "3/5",
-        "Image A shows a rotation. Rotate the shape 90\u00b0 clockwise. Image A is the correct image."
+        "Image A shows a rotation. Rotate the shape 90° clockwise. Image A is the correct image."
       ],
       [
         "4/5",
@@ -1965,7 +2031,7 @@
       [
         "3/5",
         "Gr8_40_1_31_step_3",
-        "This image shows the same orange pentagon after a 90\u00b0 clockwise rotation, representing Marvel portal."
+        "This image shows the same orange pentagon after a 90° clockwise rotation, representing Marvel portal."
       ],
       [
         "4/5",
@@ -1993,7 +2059,7 @@
       "Gr8_40_1_32_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the pink pentagon after a 270\u00b0 clockwise rotation.",
+      "This image shows the pink pentagon after a 270° clockwise rotation.",
       "This image shows the pink pentagon translated left 3 units.",
       "This image shows the same pink pentagon reflected across a diagonal red line, representing Among Us vent mirror dimension."
     ],
@@ -2036,7 +2102,7 @@
       [
         "4/5",
         "Gr8_40_1_32_step_4",
-        "This image shows the pink pentagon after a 270\u00b0 clockwise rotation."
+        "This image shows the pink pentagon after a 270° clockwise rotation."
       ],
       [
         "5/5",
@@ -2059,7 +2125,7 @@
       "Gr8_40_1_33_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the same brown pentagon after a 180\u00b0 clockwise rotation, representing Avatar element bending.",
+      "This image shows the same brown pentagon after a 180° clockwise rotation, representing Avatar element bending.",
       "This image shows the brown pentagon translated up 2 units.",
       "This image shows the brown pentagon reflected across a vertical red line."
     ],
@@ -2077,7 +2143,7 @@
       ],
       [
         "3/5",
-        "Image A shows a rotation. Rotate the shape 180\u00b0 clockwise. Image A is the correct image."
+        "Image A shows a rotation. Rotate the shape 180° clockwise. Image A is the correct image."
       ],
       [
         "4/5",
@@ -2097,7 +2163,7 @@
       [
         "3/5",
         "Gr8_40_1_33_step_3",
-        "This image shows the same brown pentagon after a 180\u00b0 clockwise rotation, representing Avatar element bending."
+        "This image shows the same brown pentagon after a 180° clockwise rotation, representing Avatar element bending."
       ],
       [
         "4/5",
@@ -2125,7 +2191,7 @@
       "Gr8_40_1_34_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the purple trapezoid after a 270\u00b0 counterclockwise rotation.",
+      "This image shows the purple trapezoid after a 270° counterclockwise rotation.",
       "This image shows the purple trapezoid translated up 2 units.",
       "This image shows the same purple trapezoid reflected across a horizontal red line, representing Naruto shadow clone mirror dimension."
     ],
@@ -2168,7 +2234,7 @@
       [
         "4/5",
         "Gr8_40_1_34_step_4",
-        "This image shows the purple trapezoid after a 270\u00b0 counterclockwise rotation."
+        "This image shows the purple trapezoid after a 270° counterclockwise rotation."
       ],
       [
         "5/5",
@@ -2191,7 +2257,7 @@
       "Gr8_40_1_35_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the same cyan parallelogram after a 180\u00b0 clockwise rotation, representing Sonic spin dash.",
+      "This image shows the same cyan parallelogram after a 180° clockwise rotation, representing Sonic spin dash.",
       "This image shows the cyan parallelogram translated up 1 unit.",
       "This image shows the cyan parallelogram reflected across a diagonal red line."
     ],
@@ -2209,7 +2275,7 @@
       ],
       [
         "3/5",
-        "Image A shows a rotation. Rotate the shape 180\u00b0 clockwise. Image A is the correct image."
+        "Image A shows a rotation. Rotate the shape 180° clockwise. Image A is the correct image."
       ],
       [
         "4/5",
@@ -2229,7 +2295,7 @@
       [
         "3/5",
         "Gr8_40_1_35_step_3",
-        "This image shows the same cyan parallelogram after a 180\u00b0 clockwise rotation, representing Sonic spin dash."
+        "This image shows the same cyan parallelogram after a 180° clockwise rotation, representing Sonic spin dash."
       ],
       [
         "4/5",
@@ -2257,7 +2323,7 @@
       "Gr8_40_1_36_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the same yellow rectangle after a 180\u00b0 counterclockwise rotation, representing Sonic spin dash.",
+      "This image shows the same yellow rectangle after a 180° counterclockwise rotation, representing Sonic spin dash.",
       "This image shows the yellow rectangle translated up 5 units.",
       "This image shows the yellow rectangle reflected across a vertical red line."
     ],
@@ -2275,7 +2341,7 @@
       ],
       [
         "3/5",
-        "Image A shows a rotation. Rotate the shape 180\u00b0 counterclockwise. Image A is the correct image."
+        "Image A shows a rotation. Rotate the shape 180° counterclockwise. Image A is the correct image."
       ],
       [
         "4/5",
@@ -2295,7 +2361,7 @@
       [
         "3/5",
         "Gr8_40_1_36_step_3",
-        "This image shows the same yellow rectangle after a 180\u00b0 counterclockwise rotation, representing Sonic spin dash."
+        "This image shows the same yellow rectangle after a 180° counterclockwise rotation, representing Sonic spin dash."
       ],
       [
         "4/5",
@@ -2323,7 +2389,7 @@
       "Gr8_40_1_37_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the same pink rectangle after a 90\u00b0 counterclockwise rotation, representing Sonic spin dash.",
+      "This image shows the same pink rectangle after a 90° counterclockwise rotation, representing Sonic spin dash.",
       "This image shows the pink rectangle translated left 1 unit.",
       "This image shows the pink rectangle reflected across a horizontal red line."
     ],
@@ -2341,7 +2407,7 @@
       ],
       [
         "3/5",
-        "Image A shows a rotation. Rotate the shape 90\u00b0 counterclockwise. Image A is the correct image."
+        "Image A shows a rotation. Rotate the shape 90° counterclockwise. Image A is the correct image."
       ],
       [
         "4/5",
@@ -2361,7 +2427,7 @@
       [
         "3/5",
         "Gr8_40_1_37_step_3",
-        "This image shows the same pink rectangle after a 90\u00b0 counterclockwise rotation, representing Sonic spin dash."
+        "This image shows the same pink rectangle after a 90° counterclockwise rotation, representing Sonic spin dash."
       ],
       [
         "4/5",
@@ -2389,7 +2455,7 @@
       "Gr8_40_1_38_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the green pentagon after a 180\u00b0 counterclockwise rotation.",
+      "This image shows the green pentagon after a 180° counterclockwise rotation.",
       "This image shows the same green pentagon translated up 1 unit, representing Star Wars force move where it force-moved.",
       "This image shows the green pentagon reflected across a horizontal red line."
     ],
@@ -2432,7 +2498,7 @@
       [
         "4/5",
         "Gr8_40_1_38_step_4",
-        "This image shows the green pentagon after a 180\u00b0 counterclockwise rotation."
+        "This image shows the green pentagon after a 180° counterclockwise rotation."
       ],
       [
         "5/5",
@@ -2455,7 +2521,7 @@
       "Gr8_40_1_39_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the same cyan rectangle after a 180\u00b0 counterclockwise rotation, representing Sonic spin dash.",
+      "This image shows the same cyan rectangle after a 180° counterclockwise rotation, representing Sonic spin dash.",
       "This image shows the cyan rectangle translated left 5 units.",
       "This image shows the cyan rectangle reflected across a vertical red line."
     ],
@@ -2473,7 +2539,7 @@
       ],
       [
         "3/5",
-        "Image A shows a rotation. Rotate the shape 180\u00b0 counterclockwise. Image A is the correct image."
+        "Image A shows a rotation. Rotate the shape 180° counterclockwise. Image A is the correct image."
       ],
       [
         "4/5",
@@ -2493,7 +2559,7 @@
       [
         "3/5",
         "Gr8_40_1_39_step_3",
-        "This image shows the same cyan rectangle after a 180\u00b0 counterclockwise rotation, representing Sonic spin dash."
+        "This image shows the same cyan rectangle after a 180° counterclockwise rotation, representing Sonic spin dash."
       ],
       [
         "4/5",
@@ -2521,7 +2587,7 @@
       "Gr8_40_1_40_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the orange hexagon after a 180\u00b0 counterclockwise rotation.",
+      "This image shows the orange hexagon after a 180° counterclockwise rotation.",
       "This image shows the same orange hexagon translated down 2 units, representing Dragon Ball instant transmission where it teleported.",
       "This image shows the orange hexagon reflected across a diagonal red line."
     ],
@@ -2564,7 +2630,7 @@
       [
         "4/5",
         "Gr8_40_1_40_step_4",
-        "This image shows the orange hexagon after a 180\u00b0 counterclockwise rotation."
+        "This image shows the orange hexagon after a 180° counterclockwise rotation."
       ],
       [
         "5/5",
@@ -2587,7 +2653,7 @@
       "Gr8_40_1_41_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the gray parallelogram after a 90\u00b0 counterclockwise rotation.",
+      "This image shows the gray parallelogram after a 90° counterclockwise rotation.",
       "This image shows the same gray parallelogram translated down 5 units, representing Overwatch blink where it blinked.",
       "This image shows the gray parallelogram reflected across a diagonal red line."
     ],
@@ -2630,7 +2696,7 @@
       [
         "4/5",
         "Gr8_40_1_41_step_4",
-        "This image shows the gray parallelogram after a 90\u00b0 counterclockwise rotation."
+        "This image shows the gray parallelogram after a 90° counterclockwise rotation."
       ],
       [
         "5/5",
@@ -2653,7 +2719,7 @@
       "Gr8_40_1_42_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the same brown parallelogram after a 180\u00b0 clockwise rotation, representing Zelda time shift.",
+      "This image shows the same brown parallelogram after a 180° clockwise rotation, representing Zelda time shift.",
       "This image shows the brown parallelogram translated right 4 units.",
       "This image shows the brown parallelogram reflected across a vertical red line."
     ],
@@ -2671,7 +2737,7 @@
       ],
       [
         "3/5",
-        "Image A shows a rotation. Rotate the shape 180\u00b0 clockwise. Image A is the correct image."
+        "Image A shows a rotation. Rotate the shape 180° clockwise. Image A is the correct image."
       ],
       [
         "4/5",
@@ -2691,7 +2757,7 @@
       [
         "3/5",
         "Gr8_40_1_42_step_3",
-        "This image shows the same brown parallelogram after a 180\u00b0 clockwise rotation, representing Zelda time shift."
+        "This image shows the same brown parallelogram after a 180° clockwise rotation, representing Zelda time shift."
       ],
       [
         "4/5",
@@ -2719,7 +2785,7 @@
       "Gr8_40_1_43_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the gray pentagon after a 90\u00b0 clockwise rotation.",
+      "This image shows the gray pentagon after a 90° clockwise rotation.",
       "This image shows the gray pentagon translated left 3 units.",
       "This image shows the same gray pentagon reflected across a horizontal red line, representing Dragon Ball instant transmission mirror dimension."
     ],
@@ -2762,7 +2828,7 @@
       [
         "4/5",
         "Gr8_40_1_43_step_4",
-        "This image shows the gray pentagon after a 90\u00b0 clockwise rotation."
+        "This image shows the gray pentagon after a 90° clockwise rotation."
       ],
       [
         "5/5",
@@ -2785,7 +2851,7 @@
       "Gr8_40_1_44_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the pink pentagon after a 180\u00b0 clockwise rotation.",
+      "This image shows the pink pentagon after a 180° clockwise rotation.",
       "This image shows the pink pentagon translated left 3 units.",
       "This image shows the same pink pentagon reflected across a vertical red line, representing Overwatch blink mirror dimension."
     ],
@@ -2828,7 +2894,7 @@
       [
         "4/5",
         "Gr8_40_1_44_step_4",
-        "This image shows the pink pentagon after a 180\u00b0 clockwise rotation."
+        "This image shows the pink pentagon after a 180° clockwise rotation."
       ],
       [
         "5/5",
@@ -2851,7 +2917,7 @@
       "Gr8_40_1_45_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the yellow hexagon after a 270\u00b0 clockwise rotation.",
+      "This image shows the yellow hexagon after a 270° clockwise rotation.",
       "This image shows the yellow hexagon translated up 1 unit.",
       "This image shows the same yellow hexagon reflected across a vertical red line, representing Marvel portal mirror dimension."
     ],
@@ -2894,7 +2960,7 @@
       [
         "4/5",
         "Gr8_40_1_45_step_4",
-        "This image shows the yellow hexagon after a 270\u00b0 clockwise rotation."
+        "This image shows the yellow hexagon after a 270° clockwise rotation."
       ],
       [
         "5/5",
@@ -2917,7 +2983,7 @@
       "Gr8_40_1_46_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the cyan pentagon after a 270\u00b0 counterclockwise rotation.",
+      "This image shows the cyan pentagon after a 270° counterclockwise rotation.",
       "This image shows the same cyan pentagon translated right 1 unit, representing Marvel portal where it portaled.",
       "This image shows the cyan pentagon reflected across a vertical red line."
     ],
@@ -2960,7 +3026,7 @@
       [
         "4/5",
         "Gr8_40_1_46_step_4",
-        "This image shows the cyan pentagon after a 270\u00b0 counterclockwise rotation."
+        "This image shows the cyan pentagon after a 270° counterclockwise rotation."
       ],
       [
         "5/5",
@@ -2983,7 +3049,7 @@
       "Gr8_40_1_47_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the gray parallelogram after a 270\u00b0 counterclockwise rotation.",
+      "This image shows the gray parallelogram after a 270° counterclockwise rotation.",
       "This image shows the same gray parallelogram translated right 5 units, representing Harry Potter apparition where it apparated.",
       "This image shows the gray parallelogram reflected across a diagonal red line."
     ],
@@ -3026,7 +3092,7 @@
       [
         "4/5",
         "Gr8_40_1_47_step_4",
-        "This image shows the gray parallelogram after a 270\u00b0 counterclockwise rotation."
+        "This image shows the gray parallelogram after a 270° counterclockwise rotation."
       ],
       [
         "5/5",
@@ -3049,7 +3115,7 @@
       "Gr8_40_1_48_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the same orange trapezoid after a 270\u00b0 clockwise rotation, representing Minecraft enderpearl.",
+      "This image shows the same orange trapezoid after a 270° clockwise rotation, representing Minecraft enderpearl.",
       "This image shows the orange trapezoid translated right 5 units.",
       "This image shows the orange trapezoid reflected across a diagonal red line."
     ],
@@ -3067,7 +3133,7 @@
       ],
       [
         "3/5",
-        "Image A shows a rotation. Rotate the shape 270\u00b0 clockwise. Image A is the correct image."
+        "Image A shows a rotation. Rotate the shape 270° clockwise. Image A is the correct image."
       ],
       [
         "4/5",
@@ -3087,7 +3153,7 @@
       [
         "3/5",
         "Gr8_40_1_48_step_3",
-        "This image shows the same orange trapezoid after a 270\u00b0 clockwise rotation, representing Minecraft enderpearl."
+        "This image shows the same orange trapezoid after a 270° clockwise rotation, representing Minecraft enderpearl."
       ],
       [
         "4/5",
@@ -3115,7 +3181,7 @@
       "Gr8_40_1_49_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the purple trapezoid after a 270\u00b0 counterclockwise rotation.",
+      "This image shows the purple trapezoid after a 270° counterclockwise rotation.",
       "This image shows the same purple trapezoid translated left 2 units, representing Dragon Ball instant transmission where it teleported.",
       "This image shows the purple trapezoid reflected across a horizontal red line."
     ],
@@ -3158,7 +3224,7 @@
       [
         "4/5",
         "Gr8_40_1_49_step_4",
-        "This image shows the purple trapezoid after a 270\u00b0 counterclockwise rotation."
+        "This image shows the purple trapezoid after a 270° counterclockwise rotation."
       ],
       [
         "5/5",
@@ -3181,7 +3247,7 @@
       "Gr8_40_1_50_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the pink diamond after a 180\u00b0 clockwise rotation.",
+      "This image shows the pink diamond after a 180° clockwise rotation.",
       "This image shows the pink diamond translated up 5 units.",
       "This image shows the same pink diamond reflected across a horizontal red line, representing Minecraft enderpearl mirror dimension."
     ],
@@ -3224,7 +3290,7 @@
       [
         "4/5",
         "Gr8_40_1_50_step_4",
-        "This image shows the pink diamond after a 180\u00b0 clockwise rotation."
+        "This image shows the pink diamond after a 180° clockwise rotation."
       ],
       [
         "5/5",
@@ -3247,7 +3313,7 @@
       "Gr8_40_1_51_C"
     ],
     "image_choice_tags_backend_description": [
-      "This image shows the same pink diamond after a 270\u00b0 clockwise rotation, representing Portal gun.",
+      "This image shows the same pink diamond after a 270° clockwise rotation, representing Portal gun.",
       "This image shows the pink diamond translated right 4 units.",
       "This image shows the pink diamond reflected across a vertical red line."
     ],
@@ -3265,7 +3331,7 @@
       ],
       [
         "3/5",
-        "Image A shows a rotation. Rotate the shape 270\u00b0 clockwise. Image A is the correct image."
+        "Image A shows a rotation. Rotate the shape 270° clockwise. Image A is the correct image."
       ],
       [
         "4/5",
@@ -3285,7 +3351,7 @@
       [
         "3/5",
         "Gr8_40_1_51_step_3",
-        "This image shows the same pink diamond after a 270\u00b0 clockwise rotation, representing Portal gun."
+        "This image shows the same pink diamond after a 270° clockwise rotation, representing Portal gun."
       ],
       [
         "4/5",

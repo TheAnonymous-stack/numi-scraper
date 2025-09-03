@@ -1,5 +1,55 @@
 [
   {
+    "question_text": "A triangle has sides with lengths of 6 kilometres, 8 kilometres, and 10 kilometres. Is it a right triangle?",
+    "skills": "converse-of-the-pythagorean-theorem-is-it-a-right-triangle",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "6_1",
+    "tag": "Gr8_50_E6",
+    "choices": [
+      "yes",
+      "no"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Plug in 6, 8, and 10. Use the smaller numbers for $a$ and $b$ and the largest number for $c$.\n$a^2+b^2=c^2$\n$6^2+8^2=10^2$\n$36+64=100$\n$100=100$"
+      ],
+      [
+        "2/2",
+        "The result is true. So, it is a right triangle."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "A triangle has sides with lengths of 13 kilometres, 14 kilometres, and 18 kilometres. Is it a right triangle?",
+    "skills": "converse-of-the-pythagorean-theorem-is-it-a-right-triangle",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "6_2",
+    "tag": "Gr8_50_E6",
+    "choices": [
+      "yes",
+      "no"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Plug in 13, 14, and 18. Use the smaller numbers for $a$ and $b$ and the largest number for $c$.\n$a^2+b^2=c^2$\n$13^2+14^2=18^2$\n$169+196=324$\n$365$ is not equal to $324$"
+      ],
+      [
+        "2/2",
+        "The result is false. So, it is not a right triangle."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
     "question_text": "A triangle has sides with lengths of 60 kilometres, 91 kilometres, and 109 kilometres. Is it a right triangle?",
     "skills": "converse-of-the-pythagorean-theorem-is-it-a-right-triangle",
     "question_type": "Multiple Choice Question with Single Answer",

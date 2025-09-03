@@ -3,144 +3,205 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gr8_11_E1 Question 1_2</title>
+    <title>Gr8_11_E1 1_2</title>
     <style>
         .item {
-            margin: 20px;
+            font-family: Arial, sans-serif;
+            padding: 15px;
             display: inline-block;
+            vertical-align: top;
         }
-        .circle {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            margin: 2px;
-            font-size: 24px;
-            font-weight: bold;
-            color: white;
-        }
-        .yellow-circle {
-            background-color: #FFD700;
-        }
-        .red-circle {
-            background-color: #FF0000;
-        }
-        .row {
-            display: flex;
-            align-items: center;
+        .counter-display {
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
             margin: 10px 0;
         }
-        .label {
-            margin-right: 10px;
-            font-family: Arial, sans-serif;
-            font-size: 16px;
+        .counter-row {
+            margin: 10px 0;
+        }
+        .counter-label {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+            display: block;
+        }
+        .counters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3px;
+        }
+        .counter {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 18px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .counter.positive {
+            background-color: #FFD700;
+            color: white;
+        }
+        .counter.negative {
+            background-color: #DC143C;
+            color: white;
         }
     </style>
 </head>
 <body>
-    <!-- Main question image -->
-    <div class="item" label="Gr8_11_1_2">
-        <div>
-            <div class="row">
-                <span class="label">You start with:</span>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
+    <!-- Main image: Two rows of yellow circles with plus signs. First row (4 circles), Second row (17 circles) -->
+    <div class="item" label="Gr8_11_1_2" style="display: inline-block;">
+        <div class="counter-display">
+            <div class="counter-row">
+                <span class="counter-label">You start with:</span>
+                <div class="counters">
+                    <div class="counter positive">+</div>
+                    <div class="counter positive">+</div>
+                    <div class="counter positive">+</div>
+                    <div class="counter positive">+</div>
+                </div>
             </div>
-            <div class="row">
-                <span class="label">You add:</span>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
+            <div class="counter-row">
+                <span class="counter-label">You add:</span>
+                <div class="counters">
+                    <div class="counter positive">+</div>
+                    <div class="counter positive">+</div>
+                    <div class="counter positive">+</div>
+                    <div class="counter positive">+</div>
+                    <div class="counter positive">+</div>
+                    <div class="counter positive">+</div>
+                    <div class="counter positive">+</div>
+                    <div class="counter positive">+</div>
+                    <div class="counter positive">+</div>
+                    <div class="counter positive">+</div>
+                    <div class="counter positive">+</div>
+                    <div class="counter positive">+</div>
+                    <div class="counter positive">+</div>
+                    <div class="counter positive">+</div>
+                    <div class="counter positive">+</div>
+                    <div class="counter positive">+</div>
+                    <div class="counter positive">+</div>
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- A -->
-    <div class="item" label="Gr8_11_1_2_A">
-        <div class="row">
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
+    <!-- Choice A: 21 yellow circles with plus signs -->
+    <div class="item" label="Gr8_11_1_2_A" style="display: inline-block;">
+        <div class="counter-display">
+            <div class="counters">
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+            </div>
         </div>
     </div>
 
-    <!-- B -->
-    <div class="item" label="Gr8_11_1_2_B">
-        <div class="row">
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
+    <!-- Choice B: 20 red circles with minus signs -->
+    <div class="item" label="Gr8_11_1_2_B" style="display: inline-block;">
+        <div class="counter-display">
+            <div class="counters">
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+            </div>
         </div>
     </div>
 
-    <!-- C -->
-    <div class="item" label="Gr8_11_1_2_C">
-        <div class="row">
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
-            <div class="circle red-circle">−</div>
+    <!-- Choice C: 21 red circles with minus signs -->
+    <div class="item" label="Gr8_11_1_2_C" style="display: inline-block;">
+        <div class="counter-display">
+            <div class="counters">
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+                <div class="counter negative">−</div>
+            </div>
         </div>
     </div>
 
-    <!-- D -->
-    <div class="item" label="Gr8_11_1_2_D">
-        <div class="row">
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
-            <div class="circle yellow-circle">+</div>
+    <!-- Choice D: 20 yellow circles with plus signs -->
+    <div class="item" label="Gr8_11_1_2_D" style="display: inline-block;">
+        <div class="counter-display">
+            <div class="counters">
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+                <div class="counter positive">+</div>
+            </div>
         </div>
     </div>
 </body>

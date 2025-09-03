@@ -1,6 +1,41 @@
 [
   {
-    "question_text": "The teacher is standing 40 metres in front of Yuki. Oakley is sitting 42 metres to Yuki's right.\nHow far apart are the teacher and Oakley?\n___ metres",
+    "question_text": "Mrs. Ballard is teaching a 5th grade class. She is standing 5 metres in front of Carla. Tyrone is sitting 12 metres to Carla's right. How far apart are Mrs. Ballard and Tyrone?\n_ metres",
+    "skills": "pythagorean-theorem-word-problems",
+    "question_type": "Fill in the blank",
+    "question_number": "5_1",
+    "tag": "Gr8_50_E5",
+    "correct_answers": [
+      "13"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "Draw a diagram."
+      ],
+      [
+        "2/4",
+        "Use the Pythagorean theorem, with $a=5$ and $b=12$."
+      ],
+      [
+        "3/4",
+        "$a^2+b^2=c^2$ Pythagorean theorem\n$5^2+12^2=c^2$\nPlug in $a=5$ and $b=12$\n$25+144=c^2$\n$169=c^2$\n$\\sqrt{169}=\\sqrt{c^2}$\nTake the square root of both sides\n$13=c$"
+      ],
+      [
+        "4/4",
+        "Mrs. Ballard and Tyrone are 13 metres apart."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/4",
+        "Gr8_50_5_1_step_1",
+        "The image shows a right triangle with legs labeled as 5m and 12m. The hypotenuse is labeled as c."
+      ]
+    ]
+  },
+  {
+    "question_text": "The teacher is standing 40 metres in front of Yuki. Oakley is sitting 42 metres to Yuki's right.\nHow far apart are the teacher and Oakley?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_2",
@@ -35,7 +70,7 @@
     ]
   },
   {
-    "question_text": "A ladder is leaning against a wall. The bottom of the ladder is 20 metres from the wall, and it reaches 99 metres up the wall.\nHow long is the ladder?\n___ metres",
+    "question_text": "A ladder is leaning against a wall. The bottom of the ladder is 20 metres from the wall, and it reaches 99 metres up the wall.\nHow long is the ladder?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_3",
@@ -70,7 +105,7 @@
     ]
   },
   {
-    "question_text": "A kite is flying 20 metres above the ground. The string is held 21 metres away from the point directly below the kite.\nHow long is the kite string?\n___ metres",
+    "question_text": "A kite is flying 20 metres above the ground. The string is held 21 metres away from the point directly below the kite.\nHow long is the kite string?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_4",
@@ -105,7 +140,7 @@
     ]
   },
   {
-    "question_text": "Indigo walks 24 metres north from the corner, then 70 metres east.\nHow far is Indigo from the starting corner?\n___ metres",
+    "question_text": "Indigo walks 24 metres north from the corner, then 70 metres east.\nHow far is Indigo from the starting corner?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_5",
@@ -140,7 +175,7 @@
     ]
   },
   {
-    "question_text": "A baseball diamond has bases 65 metres apart. A player runs from first base to second base, then from second base to third base.\nHow far is the player from first base after reaching third base?\n___ metres",
+    "question_text": "A baseball diamond has bases 65 metres apart. A player runs from first base to second base, then from second base to third base.\nHow far is the player from first base after reaching third base?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_6",
@@ -175,7 +210,7 @@
     ]
   },
   {
-    "question_text": "A rectangular garden is 5 metres wide and 12 metres long.\nWhat is the length of the diagonal path across the garden?\n___ metres",
+    "question_text": "A rectangular garden is 5 metres wide and 12 metres long.\nWhat is the length of the diagonal path across the garden?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_7",
@@ -210,7 +245,7 @@
     ]
   },
   {
-    "question_text": "A zip line runs from a platform 32 metres high to a point 126 metres away on the ground.\nHow long is the zip line cable?\n___ metres",
+    "question_text": "A zip line runs from a platform 32 metres high to a point 126 metres away on the ground.\nHow long is the zip line cable?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_8",
@@ -245,7 +280,7 @@
     ]
   },
   {
-    "question_text": "Alex is sailing 16 kilometres east from the harbor, then 63 kilometres north.\nHow far is Alex from the harbor?\n___ metres",
+    "question_text": "Alex is sailing 16 kilometres east from the harbor, then 63 kilometres north.\nHow far is Alex from the harbor?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_9",
@@ -280,7 +315,7 @@
     ]
   },
   {
-    "question_text": "A ramp rises 56 metres over a horizontal distance of 90 metres.\nWhat is the length of the ramp's surface?\n___ metres",
+    "question_text": "A ramp rises 56 metres over a horizontal distance of 90 metres.\nWhat is the length of the ramp's surface?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_10",
@@ -315,7 +350,7 @@
     ]
   },
   {
-    "question_text": "A TV screen is 14 centimetres wide and 48 centimetres tall.\nWhat is the diagonal measurement of the screen?\n___ metres",
+    "question_text": "A TV screen is 14 centimetres wide and 48 centimetres tall.\nWhat is the diagonal measurement of the screen?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_11",
@@ -350,7 +385,7 @@
     ]
   },
   {
-    "question_text": "The teacher is standing 6 metres in front of River. Taylor is sitting 8 metres to River's right.\nHow far apart are the teacher and Taylor?\n___ metres",
+    "question_text": "The teacher is standing 6 metres in front of River. Taylor is sitting 8 metres to River's right.\nHow far apart are the teacher and Taylor?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_12",
@@ -385,7 +420,7 @@
     ]
   },
   {
-    "question_text": "A ladder is leaning against a wall. The bottom of the ladder is 33 metres from the wall, and it reaches 56 metres up the wall.\nHow long is the ladder?\n___ metres",
+    "question_text": "A ladder is leaning against a wall. The bottom of the ladder is 33 metres from the wall, and it reaches 56 metres up the wall.\nHow long is the ladder?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_13",
@@ -420,7 +455,7 @@
     ]
   },
   {
-    "question_text": "A kite is flying 16 metres above the ground. The string is held 30 metres away from the point directly below the kite.\nHow long is the kite string?\n___ metres",
+    "question_text": "A kite is flying 16 metres above the ground. The string is held 30 metres away from the point directly below the kite.\nHow long is the kite string?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_14",
@@ -455,7 +490,7 @@
     ]
   },
   {
-    "question_text": "Kelly walks 22 metres north from the corner, then 120 metres east.\nHow far is Kelly from the starting corner?\n___ metres",
+    "question_text": "Kelly walks 22 metres north from the corner, then 120 metres east.\nHow far is Kelly from the starting corner?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_15",
@@ -490,7 +525,7 @@
     ]
   },
   {
-    "question_text": "A baseball diamond has bases 39 metres apart. A player runs from first base to second base, then from second base to third base.\nHow far is the player from first base after reaching third base?\n___ metres",
+    "question_text": "A baseball diamond has bases 39 metres apart. A player runs from first base to second base, then from second base to third base.\nHow far is the player from first base after reaching third base?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_16",
@@ -525,7 +560,7 @@
     ]
   },
   {
-    "question_text": "A rectangular garden is 36 metres wide and 77 metres long.\nWhat is the length of the diagonal path across the garden?\n___ metres",
+    "question_text": "A rectangular garden is 36 metres wide and 77 metres long.\nWhat is the length of the diagonal path across the garden?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_17",
@@ -560,7 +595,7 @@
     ]
   },
   {
-    "question_text": "A zip line runs from a platform 12 metres high to a point 35 metres away on the ground.\nHow long is the zip line cable?\n___ metres",
+    "question_text": "A zip line runs from a platform 12 metres high to a point 35 metres away on the ground.\nHow long is the zip line cable?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_18",
@@ -595,7 +630,7 @@
     ]
   },
   {
-    "question_text": "Drew is sailing 72 kilometres east from the harbor, then 154 kilometres north.\nHow far is Drew from the harbor?\n___ metres",
+    "question_text": "Drew is sailing 72 kilometres east from the harbor, then 154 kilometres north.\nHow far is Drew from the harbor?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_19",
@@ -630,7 +665,7 @@
     ]
   },
   {
-    "question_text": "A ramp rises 7 metres over a horizontal distance of 24 metres.\nWhat is the length of the ramp's surface?\n___ metres",
+    "question_text": "A ramp rises 7 metres over a horizontal distance of 24 metres.\nWhat is the length of the ramp's surface?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_20",
@@ -665,7 +700,7 @@
     ]
   },
   {
-    "question_text": "A TV screen is 66 centimetres wide and 112 centimetres tall.\nWhat is the diagonal measurement of the screen?\n___ metres",
+    "question_text": "A TV screen is 66 centimetres wide and 112 centimetres tall.\nWhat is the diagonal measurement of the screen?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_21",
@@ -700,7 +735,7 @@
     ]
   },
   {
-    "question_text": "The teacher is standing 8 metres in front of Ellis. Quinn is sitting 15 metres to Ellis's right.\nHow far apart are the teacher and Quinn?\n___ metres",
+    "question_text": "The teacher is standing 8 metres in front of Ellis. Quinn is sitting 15 metres to Ellis's right.\nHow far apart are the teacher and Quinn?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_22",
@@ -735,7 +770,7 @@
     ]
   },
   {
-    "question_text": "A ladder is leaning against a wall. The bottom of the ladder is 18 metres from the wall, and it reaches 80 metres up the wall.\nHow long is the ladder?\n___ metres",
+    "question_text": "A ladder is leaning against a wall. The bottom of the ladder is 18 metres from the wall, and it reaches 80 metres up the wall.\nHow long is the ladder?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_23",
@@ -770,7 +805,7 @@
     ]
   },
   {
-    "question_text": "A kite is flying 78 metres above the ground. The string is held 160 metres away from the point directly below the kite.\nHow long is the kite string?\n___ metres",
+    "question_text": "A kite is flying 78 metres above the ground. The string is held 160 metres away from the point directly below the kite.\nHow long is the kite string?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_24",
@@ -805,7 +840,7 @@
     ]
   },
   {
-    "question_text": "Morgan walks 40 metres north from the corner, then 198 metres east.\nHow far is Morgan from the starting corner?\n___ metres",
+    "question_text": "Morgan walks 40 metres north from the corner, then 198 metres east.\nHow far is Morgan from the starting corner?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_25",
@@ -840,7 +875,7 @@
     ]
   },
   {
-    "question_text": "A baseball diamond has bases 28 metres apart. A player runs from first base to second base, then from second base to third base.\nHow far is the player from first base after reaching third base?\n___ metres",
+    "question_text": "A baseball diamond has bases 28 metres apart. A player runs from first base to second base, then from second base to third base.\nHow far is the player from first base after reaching third base?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_26",
@@ -875,7 +910,7 @@
     ]
   },
   {
-    "question_text": "A rectangular garden is 3 metres wide and 4 metres long.\nWhat is the length of the diagonal path across the garden?\n___ metres",
+    "question_text": "A rectangular garden is 3 metres wide and 4 metres long.\nWhat is the length of the diagonal path across the garden?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_27",
@@ -910,7 +945,7 @@
     ]
   },
   {
-    "question_text": "A zip line runs from a platform 10 metres high to a point 24 metres away on the ground.\nHow long is the zip line cable?\n___ metres",
+    "question_text": "A zip line runs from a platform 10 metres high to a point 24 metres away on the ground.\nHow long is the zip line cable?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_28",
@@ -945,7 +980,7 @@
     ]
   },
   {
-    "question_text": "Oakley is sailing 13 kilometres east from the harbor, then 84 kilometres north.\nHow far is Oakley from the harbor?\n___ metres",
+    "question_text": "Oakley is sailing 13 kilometres east from the harbor, then 84 kilometres north.\nHow far is Oakley from the harbor?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_29",
@@ -980,7 +1015,7 @@
     ]
   },
   {
-    "question_text": "A ramp rises 11 metres over a horizontal distance of 60 metres.\nWhat is the length of the ramp's surface?\n___ metres",
+    "question_text": "A ramp rises 11 metres over a horizontal distance of 60 metres.\nWhat is the length of the ramp's surface?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_30",
@@ -1015,7 +1050,7 @@
     ]
   },
   {
-    "question_text": "A TV screen is 26 centimetres wide and 168 centimetres tall.\nWhat is the diagonal measurement of the screen?\n___ metres",
+    "question_text": "A TV screen is 26 centimetres wide and 168 centimetres tall.\nWhat is the diagonal measurement of the screen?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_31",
@@ -1050,7 +1085,7 @@
     ]
   },
   {
-    "question_text": "The teacher is standing 9 metres in front of Unity. Cameron is sitting 40 metres to Unity's right.\nHow far apart are the teacher and Cameron?\n___ metres",
+    "question_text": "The teacher is standing 9 metres in front of Unity. Cameron is sitting 40 metres to Unity's right.\nHow far apart are the teacher and Cameron?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_32",
@@ -1085,7 +1120,7 @@
     ]
   },
   {
-    "question_text": "A ladder is leaning against a wall. The bottom of the ladder is 80 metres from the wall, and it reaches 84 metres up the wall.\nHow long is the ladder?\n___ metres",
+    "question_text": "A ladder is leaning against a wall. The bottom of the ladder is 80 metres from the wall, and it reaches 84 metres up the wall.\nHow long is the ladder?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_33",
@@ -1120,7 +1155,7 @@
     ]
   },
   {
-    "question_text": "A kite is flying 40 metres above the ground. The string is held 198 metres away from the point directly below the kite.\nHow long is the kite string?\n___ metres",
+    "question_text": "A kite is flying 40 metres above the ground. The string is held 198 metres away from the point directly below the kite.\nHow long is the kite string?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_34",
@@ -1155,7 +1190,7 @@
     ]
   },
   {
-    "question_text": "Alex walks 40 metres north from the corner, then 42 metres east.\nHow far is Alex from the starting corner?\n___ metres",
+    "question_text": "Alex walks 40 metres north from the corner, then 42 metres east.\nHow far is Alex from the starting corner?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_35",
@@ -1190,7 +1225,7 @@
     ]
   },
   {
-    "question_text": "A baseball diamond has bases 48 metres apart. A player runs from first base to second base, then from second base to third base.\nHow far is the player from first base after reaching third base?\n___ metres",
+    "question_text": "A baseball diamond has bases 48 metres apart. A player runs from first base to second base, then from second base to third base.\nHow far is the player from first base after reaching third base?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_36",
@@ -1225,7 +1260,7 @@
     ]
   },
   {
-    "question_text": "A rectangular garden is 130 metres wide and 144 metres long.\nWhat is the length of the diagonal path across the garden?\n___ metres",
+    "question_text": "A rectangular garden is 130 metres wide and 144 metres long.\nWhat is the length of the diagonal path across the garden?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_37",
@@ -1260,7 +1295,7 @@
     ]
   },
   {
-    "question_text": "A zip line runs from a platform 10 metres high to a point 24 metres away on the ground.\nHow long is the zip line cable?\n___ metres",
+    "question_text": "A zip line runs from a platform 10 metres high to a point 24 metres away on the ground.\nHow long is the zip line cable?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_38",
@@ -1295,7 +1330,7 @@
     ]
   },
   {
-    "question_text": "Taylor is sailing 64 kilometres east from the harbor, then 252 kilometres north.\nHow far is Taylor from the harbor?\n___ metres",
+    "question_text": "Taylor is sailing 64 kilometres east from the harbor, then 252 kilometres north.\nHow far is Taylor from the harbor?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_39",
@@ -1330,7 +1365,7 @@
     ]
   },
   {
-    "question_text": "A ramp rises 32 metres over a horizontal distance of 126 metres.\nWhat is the length of the ramp's surface?\n___ metres",
+    "question_text": "A ramp rises 32 metres over a horizontal distance of 126 metres.\nWhat is the length of the ramp's surface?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_40",
@@ -1365,7 +1400,7 @@
     ]
   },
   {
-    "question_text": "A TV screen is 112 centimetres wide and 180 centimetres tall.\nWhat is the diagonal measurement of the screen?\n___ metres",
+    "question_text": "A TV screen is 112 centimetres wide and 180 centimetres tall.\nWhat is the diagonal measurement of the screen?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_41",
@@ -1400,7 +1435,7 @@
     ]
   },
   {
-    "question_text": "The teacher is standing 28 metres in front of Parker. Zion is sitting 96 metres to Parker's right.\nHow far apart are the teacher and Zion?\n___ metres",
+    "question_text": "The teacher is standing 28 metres in front of Parker. Zion is sitting 96 metres to Parker's right.\nHow far apart are the teacher and Zion?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_42",
@@ -1435,7 +1470,7 @@
     ]
   },
   {
-    "question_text": "A ladder is leaning against a wall. The bottom of the ladder is 12 metres from the wall, and it reaches 16 metres up the wall.\nHow long is the ladder?\n___ metres",
+    "question_text": "A ladder is leaning against a wall. The bottom of the ladder is 12 metres from the wall, and it reaches 16 metres up the wall.\nHow long is the ladder?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_43",
@@ -1470,7 +1505,7 @@
     ]
   },
   {
-    "question_text": "A kite is flying 66 metres above the ground. The string is held 112 metres away from the point directly below the kite.\nHow long is the kite string?\n___ metres",
+    "question_text": "A kite is flying 66 metres above the ground. The string is held 112 metres away from the point directly below the kite.\nHow long is the kite string?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_44",
@@ -1505,7 +1540,7 @@
     ]
   },
   {
-    "question_text": "Drew walks 32 metres north from the corner, then 60 metres east.\nHow far is Drew from the starting corner?\n___ metres",
+    "question_text": "Drew walks 32 metres north from the corner, then 60 metres east.\nHow far is Drew from the starting corner?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_45",
@@ -1540,7 +1575,7 @@
     ]
   },
   {
-    "question_text": "A baseball diamond has bases 44 metres apart. A player runs from first base to second base, then from second base to third base.\nHow far is the player from first base after reaching third base?\n___ metres",
+    "question_text": "A baseball diamond has bases 44 metres apart. A player runs from first base to second base, then from second base to third base.\nHow far is the player from first base after reaching third base?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_46",
@@ -1575,7 +1610,7 @@
     ]
   },
   {
-    "question_text": "A rectangular garden is 78 metres wide and 160 metres long.\nWhat is the length of the diagonal path across the garden?\n___ metres",
+    "question_text": "A rectangular garden is 78 metres wide and 160 metres long.\nWhat is the length of the diagonal path across the garden?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_47",
@@ -1610,7 +1645,7 @@
     ]
   },
   {
-    "question_text": "A zip line runs from a platform 72 metres high to a point 154 metres away on the ground.\nHow long is the zip line cable?\n___ metres",
+    "question_text": "A zip line runs from a platform 72 metres high to a point 154 metres away on the ground.\nHow long is the zip line cable?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_48",
@@ -1645,7 +1680,7 @@
     ]
   },
   {
-    "question_text": "Quinn is sailing 24 kilometres east from the harbor, then 70 kilometres north.\nHow far is Quinn from the harbor?\n___ metres",
+    "question_text": "Quinn is sailing 24 kilometres east from the harbor, then 70 kilometres north.\nHow far is Quinn from the harbor?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_49",
@@ -1680,7 +1715,7 @@
     ]
   },
   {
-    "question_text": "A ramp rises 144 metres over a horizontal distance of 308 metres.\nWhat is the length of the ramp's surface?\n___ metres",
+    "question_text": "A ramp rises 144 metres over a horizontal distance of 308 metres.\nWhat is the length of the ramp's surface?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_50",
@@ -1715,7 +1750,7 @@
     ]
   },
   {
-    "question_text": "A TV screen is 14 centimetres wide and 48 centimetres tall.\nWhat is the diagonal measurement of the screen?\n___ metres",
+    "question_text": "A TV screen is 14 centimetres wide and 48 centimetres tall.\nWhat is the diagonal measurement of the screen?\n_ metres",
     "skills": "pythagorean-theorem-word-problems",
     "question_type": "Fill in the blank",
     "question_number": "5_51",

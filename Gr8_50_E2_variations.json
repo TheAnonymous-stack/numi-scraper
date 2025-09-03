@@ -1,6 +1,92 @@
 [
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
+    "skills": "pythagorean-theorem-find-the-missing-leg-length",
+    "image_tag": "Gr8_50_2_1",
+    "backend_description": "The image shows a right triangle with legs labeled as 6 km and b. The hypotenuse is labeled as 10 km.",
+    "question_type": "Fill in the blank",
+    "question_number": "2_1",
+    "tag": "Gr8_50_E2",
+    "correct_answers": [
+      "8"
+    ],
+    "solution": [
+      [
+        "1/7",
+        "Use the Pythagorean theorem, with $a=6$ and $c=10$."
+      ],
+      [
+        "2/7",
+        "$a^2+b^2=c^2$  Pythagorean theorem"
+      ],
+      [
+        "3/7",
+        "$6^2+b^2=10^2$  Plug in $a$=6 and $c$=10"
+      ],
+      [
+        "4/7",
+        "$36+b^2=100$"
+      ],
+      [
+        "5/7",
+        "$b^2=64$"
+      ],
+      [
+        "6/7",
+        "$\\sqrt{b^2}=\\sqrt{64}$  Take the square root of both sides\n$b=8$"
+      ],
+      [
+        "7/7",
+        "The length of the missing leg is 8 kilometres."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
+    "skills": "pythagorean-theorem-find-the-missing-leg-length",
+    "image_tag": "Gr8_50_2_2",
+    "backend_description": "The image shows a right triangle with legs labeled as a and 9 cm. The hypotenuse is labeled as 15 cm.",
+    "question_type": "Fill in the blank",
+    "question_number": "2_2",
+    "tag": "Gr8_50_E2",
+    "correct_answers": [
+      "12"
+    ],
+    "solution": [
+      [
+        "1/7",
+        "Use the Pythagorean theorem, with $b = 9$ and $c = 15$."
+      ],
+      [
+        "2/7",
+        "$a^2 + b^2 = c^2$  Pythagorean theorem"
+      ],
+      [
+        "3/7",
+        "$a^2 + 9^2 = 15^2$  Plug in $b = 9$ and $c = 15$"
+      ],
+      [
+        "4/7",
+        "$a^2 + 81 = 225$  Square"
+      ],
+      [
+        "5/7",
+        "$a^2 = 144$  Subtract"
+      ],
+      [
+        "6/7",
+        "$\\sqrt{a^2} = \\sqrt{144}$  Take the square root of both sides\n$a = 12$  Simplify"
+      ],
+      [
+        "7/7",
+        "The length of the missing leg is 12 centimetres."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_3",
     "backend_description": "The image shows a right triangle with legs labeled as 30 km and b. The hypotenuse is labeled as 226 km.",
@@ -43,7 +129,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_4",
     "backend_description": "The image shows a right triangle with legs labeled as a and 12 cm. The hypotenuse is labeled as 13 cm.",
@@ -86,7 +172,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_5",
     "backend_description": "The image shows a right triangle with legs labeled as 65 km and b. The hypotenuse is labeled as 97 km.",
@@ -129,7 +215,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_6",
     "backend_description": "The image shows a right triangle with legs labeled as a and 48 cm. The hypotenuse is labeled as 50 cm.",
@@ -172,7 +258,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_7",
     "backend_description": "The image shows a right triangle with legs labeled as 56 km and b. The hypotenuse is labeled as 106 km.",
@@ -215,7 +301,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_8",
     "backend_description": "The image shows a right triangle with legs labeled as a and 56 cm. The hypotenuse is labeled as 65 cm.",
@@ -258,7 +344,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_9",
     "backend_description": "The image shows a right triangle with legs labeled as 40 km and b. The hypotenuse is labeled as 58 km.",
@@ -301,7 +387,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_10",
     "backend_description": "The image shows a right triangle with legs labeled as a and 117 cm. The hypotenuse is labeled as 125 cm.",
@@ -344,7 +430,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_11",
     "backend_description": "The image shows a right triangle with legs labeled as 9 km and b. The hypotenuse is labeled as 41 km.",
@@ -387,7 +473,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_12",
     "backend_description": "The image shows a right triangle with legs labeled as a and 120 cm. The hypotenuse is labeled as 122 cm.",
@@ -430,7 +516,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_13",
     "backend_description": "The image shows a right triangle with legs labeled as 36 km and b. The hypotenuse is labeled as 85 km.",
@@ -473,7 +559,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_14",
     "backend_description": "The image shows a right triangle with legs labeled as a and 15 cm. The hypotenuse is labeled as 17 cm.",
@@ -516,7 +602,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_15",
     "backend_description": "The image shows a right triangle with legs labeled as 16 km and b. The hypotenuse is labeled as 65 km.",
@@ -559,7 +645,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_16",
     "backend_description": "The image shows a right triangle with legs labeled as a and 8 cm. The hypotenuse is labeled as 10 cm.",
@@ -602,7 +688,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_17",
     "backend_description": "The image shows a right triangle with legs labeled as 13 km and b. The hypotenuse is labeled as 85 km.",
@@ -645,7 +731,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_18",
     "backend_description": "The image shows a right triangle with legs labeled as a and 105 cm. The hypotenuse is labeled as 137 cm.",
@@ -688,7 +774,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_19",
     "backend_description": "The image shows a right triangle with legs labeled as 16 km and b. The hypotenuse is labeled as 34 km.",
@@ -731,7 +817,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_20",
     "backend_description": "The image shows a right triangle with legs labeled as a and 160 cm. The hypotenuse is labeled as 178 cm.",
@@ -774,7 +860,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_21",
     "backend_description": "The image shows a right triangle with legs labeled as 3 km and b. The hypotenuse is labeled as 5 km.",
@@ -817,7 +903,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_22",
     "backend_description": "The image shows a right triangle with legs labeled as a and 126 cm. The hypotenuse is labeled as 130 cm.",
@@ -860,7 +946,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_23",
     "backend_description": "The image shows a right triangle with legs labeled as 20 km and b. The hypotenuse is labeled as 29 km.",
@@ -903,7 +989,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_24",
     "backend_description": "The image shows a right triangle with legs labeled as a and 24 cm. The hypotenuse is labeled as 26 cm.",
@@ -946,7 +1032,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_25",
     "backend_description": "The image shows a right triangle with legs labeled as 60 km and b. The hypotenuse is labeled as 109 km.",
@@ -989,7 +1075,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_26",
     "backend_description": "The image shows a right triangle with legs labeled as a and 198 cm. The hypotenuse is labeled as 202 cm.",
@@ -1032,7 +1118,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_27",
     "backend_description": "The image shows a right triangle with legs labeled as 66 km and b. The hypotenuse is labeled as 130 km.",
@@ -1075,7 +1161,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_28",
     "backend_description": "The image shows a right triangle with legs labeled as a and 112 cm. The hypotenuse is labeled as 113 cm.",
@@ -1118,7 +1204,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_29",
     "backend_description": "The image shows a right triangle with legs labeled as 12 km and b. The hypotenuse is labeled as 37 km.",
@@ -1161,7 +1247,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_30",
     "backend_description": "The image shows a right triangle with legs labeled as a and 99 cm. The hypotenuse is labeled as 101 cm.",
@@ -1204,7 +1290,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_31",
     "backend_description": "The image shows a right triangle with legs labeled as 11 km and b. The hypotenuse is labeled as 61 km.",
@@ -1247,7 +1333,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_32",
     "backend_description": "The image shows a right triangle with legs labeled as a and 234 cm. The hypotenuse is labeled as 250 cm.",
@@ -1290,7 +1376,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_33",
     "backend_description": "The image shows a right triangle with legs labeled as 28 km and b. The hypotenuse is labeled as 53 km.",
@@ -1333,7 +1419,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_34",
     "backend_description": "The image shows a right triangle with legs labeled as a and 80 cm. The hypotenuse is labeled as 89 cm.",
@@ -1376,7 +1462,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_35",
     "backend_description": "The image shows a right triangle with legs labeled as 24 km and b. The hypotenuse is labeled as 74 km.",
@@ -1419,7 +1505,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_36",
     "backend_description": "The image shows a right triangle with legs labeled as a and 154 cm. The hypotenuse is labeled as 170 cm.",
@@ -1462,7 +1548,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_37",
     "backend_description": "The image shows a right triangle with legs labeled as 7 km and b. The hypotenuse is labeled as 25 km.",
@@ -1505,7 +1591,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_38",
     "backend_description": "The image shows a right triangle with legs labeled as a and 168 cm. The hypotenuse is labeled as 170 cm.",
@@ -1548,7 +1634,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_39",
     "backend_description": "The image shows a right triangle with legs labeled as 18 km and b. The hypotenuse is labeled as 82 km.",
@@ -1591,7 +1677,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_40",
     "backend_description": "The image shows a right triangle with legs labeled as a and 448 cm. The hypotenuse is labeled as 452 cm.",
@@ -1634,7 +1720,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_41",
     "backend_description": "The image shows a right triangle with legs labeled as 10 km and b. The hypotenuse is labeled as 26 km.",
@@ -1677,7 +1763,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_42",
     "backend_description": "The image shows a right triangle with legs labeled as a and 144 cm. The hypotenuse is labeled as 194 cm.",
@@ -1720,7 +1806,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_43",
     "backend_description": "The image shows a right triangle with legs labeled as 28 km and b. The hypotenuse is labeled as 100 km.",
@@ -1763,7 +1849,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_44",
     "backend_description": "The image shows a right triangle with legs labeled as a and 180 cm. The hypotenuse is labeled as 212 cm.",
@@ -1806,7 +1892,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_45",
     "backend_description": "The image shows a right triangle with legs labeled as 66 km and b. The hypotenuse is labeled as 130 km.",
@@ -1849,7 +1935,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_46",
     "backend_description": "The image shows a right triangle with legs labeled as a and 84 cm. The hypotenuse is labeled as 116 cm.",
@@ -1892,7 +1978,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_47",
     "backend_description": "The image shows a right triangle with legs labeled as 88 km and b. The hypotenuse is labeled as 250 km.",
@@ -1935,7 +2021,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_48",
     "backend_description": "The image shows a right triangle with legs labeled as a and 80 cm. The hypotenuse is labeled as 82 cm.",
@@ -1978,7 +2064,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_49",
     "backend_description": "The image shows a right triangle with legs labeled as 44 km and b. The hypotenuse is labeled as 244 km.",
@@ -2021,7 +2107,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $a$ = ___ centimetres",
+    "question_text": "What is the length of the missing leg?\n $a$ = _ centimetres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_50",
     "backend_description": "The image shows a right triangle with legs labeled as a and 154 cm. The hypotenuse is labeled as 170 cm.",
@@ -2064,7 +2150,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "What is the length of the missing leg?\n $b$ = ___ kilometres",
+    "question_text": "What is the length of the missing leg?\n $b$ = _ kilometres",
     "skills": "pythagorean-theorem-find-the-missing-leg-length",
     "image_tag": "Gr8_50_2_51",
     "backend_description": "The image shows a right triangle with legs labeled as 16 km and b. The hypotenuse is labeled as 34 km.",

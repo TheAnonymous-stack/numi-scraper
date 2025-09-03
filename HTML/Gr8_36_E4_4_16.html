@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gr8_36_E4 4_16</title>
+    <style>
+        .item {
+            display: inline-block;
+            margin: 10px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main scatter plot for question 4_16 -->
+    <div class="item" label="Gr8_36_4_16" style="width: 420px; height: 340px;">
+        
+    <svg width="400" height="320" viewBox="0 0 400 320">
+        <!-- Grid lines -->
+        <defs>
+            <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+                <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+            </pattern>
+        </defs>
+        <rect width="400" height="320" fill="url(#grid)" />
+        
+        <!-- Axes -->
+        <line x1="50" y1="270" x2="350" y2="270" stroke="black" stroke-width="2"/>
+        <line x1="50" y1="270" x2="50" y2="30" stroke="black" stroke-width="2"/>
+        
+        <!-- X-axis label -->
+        <text x="200" y="305" text-anchor="middle" font-size="14" font-family="Arial">x</text>
+        
+        <!-- Y-axis label -->
+        <text x="20" y="150" text-anchor="middle" font-size="14" font-family="Arial" transform="rotate(-90, 20, 150)">y</text>
+        
+        <!-- X-axis ticks and labels -->
+        <line x1="50" y1="270" x2="50" y2="275" stroke="black" stroke-width="1"/>
+        <text x="50" y="290" text-anchor="middle" font-size="12" font-family="Arial">0</text>
+        <line x1="80" y1="270" x2="80" y2="275" stroke="black" stroke-width="1"/>
+        <text x="80" y="290" text-anchor="middle" font-size="12" font-family="Arial">1</text>
+        <line x1="110" y1="270" x2="110" y2="275" stroke="black" stroke-width="1"/>
+        <text x="110" y="290" text-anchor="middle" font-size="12" font-family="Arial">2</text>
+        <line x1="140" y1="270" x2="140" y2="275" stroke="black" stroke-width="1"/>
+        <text x="140" y="290" text-anchor="middle" font-size="12" font-family="Arial">3</text>
+        <line x1="170" y1="270" x2="170" y2="275" stroke="black" stroke-width="1"/>
+        <text x="170" y="290" text-anchor="middle" font-size="12" font-family="Arial">4</text>
+        <line x1="200" y1="270" x2="200" y2="275" stroke="black" stroke-width="1"/>
+        <text x="200" y="290" text-anchor="middle" font-size="12" font-family="Arial">5</text>
+        <line x1="230" y1="270" x2="230" y2="275" stroke="black" stroke-width="1"/>
+        <text x="230" y="290" text-anchor="middle" font-size="12" font-family="Arial">6</text>
+        <line x1="260" y1="270" x2="260" y2="275" stroke="black" stroke-width="1"/>
+        <text x="260" y="290" text-anchor="middle" font-size="12" font-family="Arial">7</text>
+        <line x1="290" y1="270" x2="290" y2="275" stroke="black" stroke-width="1"/>
+        <text x="290" y="290" text-anchor="middle" font-size="12" font-family="Arial">8</text>
+        <line x1="320" y1="270" x2="320" y2="275" stroke="black" stroke-width="1"/>
+        <text x="320" y="290" text-anchor="middle" font-size="12" font-family="Arial">9</text>
+        <line x1="350" y1="270" x2="350" y2="275" stroke="black" stroke-width="1"/>
+        <text x="350" y="290" text-anchor="middle" font-size="12" font-family="Arial">10</text>
+        <line x1="45" y1="270" x2="50" y2="270" stroke="black" stroke-width="1"/>
+        <text x="35" y="274" text-anchor="end" font-size="12" font-family="Arial">0</text>
+        <line x1="45" y1="246" x2="50" y2="246" stroke="black" stroke-width="1"/>
+        <text x="35" y="250" text-anchor="end" font-size="12" font-family="Arial">1</text>
+        <line x1="45" y1="222" x2="50" y2="222" stroke="black" stroke-width="1"/>
+        <text x="35" y="226" text-anchor="end" font-size="12" font-family="Arial">2</text>
+        <line x1="45" y1="198" x2="50" y2="198" stroke="black" stroke-width="1"/>
+        <text x="35" y="202" text-anchor="end" font-size="12" font-family="Arial">3</text>
+        <line x1="45" y1="174" x2="50" y2="174" stroke="black" stroke-width="1"/>
+        <text x="35" y="178" text-anchor="end" font-size="12" font-family="Arial">4</text>
+        <line x1="45" y1="150" x2="50" y2="150" stroke="black" stroke-width="1"/>
+        <text x="35" y="154" text-anchor="end" font-size="12" font-family="Arial">5</text>
+        <line x1="45" y1="126" x2="50" y2="126" stroke="black" stroke-width="1"/>
+        <text x="35" y="130" text-anchor="end" font-size="12" font-family="Arial">6</text>
+        <line x1="45" y1="102" x2="50" y2="102" stroke="black" stroke-width="1"/>
+        <text x="35" y="106" text-anchor="end" font-size="12" font-family="Arial">7</text>
+        <line x1="45" y1="78" x2="50" y2="78" stroke="black" stroke-width="1"/>
+        <text x="35" y="82" text-anchor="end" font-size="12" font-family="Arial">8</text>
+        <line x1="45" y1="54" x2="50" y2="54" stroke="black" stroke-width="1"/>
+        <text x="35" y="58" text-anchor="end" font-size="12" font-family="Arial">9</text>
+        <line x1="45" y1="30" x2="50" y2="30" stroke="black" stroke-width="1"/>
+        <text x="35" y="34" text-anchor="end" font-size="12" font-family="Arial">10</text>
+        <circle cx="80" cy="154.66114709017467" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="110" cy="137.13069459937316" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="140" cy="121.89928226394932" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="170" cy="119.61702329500645" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="200" cy="100.03140533117758" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="230" cy="56.29417809481163" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="260" cy="95.45640364281911" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="290" cy="62.694924549119236" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="320" cy="57.95688739138782" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="350" cy="30" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <!-- Line of best fit -->
+        <line x1="50" y1="198.0" x2="312.5" y2="30" 
+              stroke="#FF5722" stroke-width="2" stroke-dasharray="5,5"/>
+    </svg>
+    </div>
+
+    <!-- Solution step images for question 4_16 -->
+    <div class="item" label="Gr8_36_4_16_step_1" style="width: 420px; height: 340px;">
+        
+    <svg width="400" height="320" viewBox="0 0 400 320">
+        <!-- Grid lines -->
+        <defs>
+            <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+                <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+            </pattern>
+        </defs>
+        <rect width="400" height="320" fill="url(#grid)" />
+        
+        <!-- Axes -->
+        <line x1="50" y1="270" x2="350" y2="270" stroke="black" stroke-width="2"/>
+        <line x1="50" y1="270" x2="50" y2="30" stroke="black" stroke-width="2"/>
+        
+        <!-- X-axis label -->
+        <text x="200" y="305" text-anchor="middle" font-size="14" font-family="Arial">x</text>
+        
+        <!-- Y-axis label -->
+        <text x="20" y="150" text-anchor="middle" font-size="14" font-family="Arial" transform="rotate(-90, 20, 150)">y</text>
+        
+        <!-- X-axis ticks and labels -->
+        <line x1="50" y1="270" x2="50" y2="275" stroke="black" stroke-width="1"/>
+        <text x="50" y="290" text-anchor="middle" font-size="12" font-family="Arial">0</text>
+        <line x1="80" y1="270" x2="80" y2="275" stroke="black" stroke-width="1"/>
+        <text x="80" y="290" text-anchor="middle" font-size="12" font-family="Arial">1</text>
+        <line x1="110" y1="270" x2="110" y2="275" stroke="black" stroke-width="1"/>
+        <text x="110" y="290" text-anchor="middle" font-size="12" font-family="Arial">2</text>
+        <line x1="140" y1="270" x2="140" y2="275" stroke="black" stroke-width="1"/>
+        <text x="140" y="290" text-anchor="middle" font-size="12" font-family="Arial">3</text>
+        <line x1="170" y1="270" x2="170" y2="275" stroke="black" stroke-width="1"/>
+        <text x="170" y="290" text-anchor="middle" font-size="12" font-family="Arial">4</text>
+        <line x1="200" y1="270" x2="200" y2="275" stroke="black" stroke-width="1"/>
+        <text x="200" y="290" text-anchor="middle" font-size="12" font-family="Arial">5</text>
+        <line x1="230" y1="270" x2="230" y2="275" stroke="black" stroke-width="1"/>
+        <text x="230" y="290" text-anchor="middle" font-size="12" font-family="Arial">6</text>
+        <line x1="260" y1="270" x2="260" y2="275" stroke="black" stroke-width="1"/>
+        <text x="260" y="290" text-anchor="middle" font-size="12" font-family="Arial">7</text>
+        <line x1="290" y1="270" x2="290" y2="275" stroke="black" stroke-width="1"/>
+        <text x="290" y="290" text-anchor="middle" font-size="12" font-family="Arial">8</text>
+        <line x1="320" y1="270" x2="320" y2="275" stroke="black" stroke-width="1"/>
+        <text x="320" y="290" text-anchor="middle" font-size="12" font-family="Arial">9</text>
+        <line x1="350" y1="270" x2="350" y2="275" stroke="black" stroke-width="1"/>
+        <text x="350" y="290" text-anchor="middle" font-size="12" font-family="Arial">10</text>
+        <line x1="45" y1="270" x2="50" y2="270" stroke="black" stroke-width="1"/>
+        <text x="35" y="274" text-anchor="end" font-size="12" font-family="Arial">0</text>
+        <line x1="45" y1="246" x2="50" y2="246" stroke="black" stroke-width="1"/>
+        <text x="35" y="250" text-anchor="end" font-size="12" font-family="Arial">1</text>
+        <line x1="45" y1="222" x2="50" y2="222" stroke="black" stroke-width="1"/>
+        <text x="35" y="226" text-anchor="end" font-size="12" font-family="Arial">2</text>
+        <line x1="45" y1="198" x2="50" y2="198" stroke="black" stroke-width="1"/>
+        <text x="35" y="202" text-anchor="end" font-size="12" font-family="Arial">3</text>
+        <line x1="45" y1="174" x2="50" y2="174" stroke="black" stroke-width="1"/>
+        <text x="35" y="178" text-anchor="end" font-size="12" font-family="Arial">4</text>
+        <line x1="45" y1="150" x2="50" y2="150" stroke="black" stroke-width="1"/>
+        <text x="35" y="154" text-anchor="end" font-size="12" font-family="Arial">5</text>
+        <line x1="45" y1="126" x2="50" y2="126" stroke="black" stroke-width="1"/>
+        <text x="35" y="130" text-anchor="end" font-size="12" font-family="Arial">6</text>
+        <line x1="45" y1="102" x2="50" y2="102" stroke="black" stroke-width="1"/>
+        <text x="35" y="106" text-anchor="end" font-size="12" font-family="Arial">7</text>
+        <line x1="45" y1="78" x2="50" y2="78" stroke="black" stroke-width="1"/>
+        <text x="35" y="82" text-anchor="end" font-size="12" font-family="Arial">8</text>
+        <line x1="45" y1="54" x2="50" y2="54" stroke="black" stroke-width="1"/>
+        <text x="35" y="58" text-anchor="end" font-size="12" font-family="Arial">9</text>
+        <line x1="45" y1="30" x2="50" y2="30" stroke="black" stroke-width="1"/>
+        <text x="35" y="34" text-anchor="end" font-size="12" font-family="Arial">10</text>
+        <circle cx="80" cy="186.4322243464898" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="110" cy="180.8847604943535" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="140" cy="149.464157071485" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="170" cy="102.79429034628464" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="200" cy="106.48383730432676" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="230" cy="103.18044671752247" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="260" cy="57.0155018590512" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="290" cy="33.52031534429091" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="320" cy="60.315546999212785" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="350" cy="30" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <!-- Line of best fit -->
+        <line x1="50" y1="198.0" x2="312.5" y2="30" 
+              stroke="#FF5722" stroke-width="2" stroke-dasharray="5,5"/>
+    </svg>
+    </div>
+    <div class="item" label="Gr8_36_4_16_step_2" style="width: 420px; height: 340px;">
+        
+    <svg width="400" height="320" viewBox="0 0 400 320">
+        <!-- Grid lines -->
+        <defs>
+            <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+                <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+            </pattern>
+        </defs>
+        <rect width="400" height="320" fill="url(#grid)" />
+        
+        <!-- Axes -->
+        <line x1="50" y1="270" x2="350" y2="270" stroke="black" stroke-width="2"/>
+        <line x1="50" y1="270" x2="50" y2="30" stroke="black" stroke-width="2"/>
+        
+        <!-- X-axis label -->
+        <text x="200" y="305" text-anchor="middle" font-size="14" font-family="Arial">x</text>
+        
+        <!-- Y-axis label -->
+        <text x="20" y="150" text-anchor="middle" font-size="14" font-family="Arial" transform="rotate(-90, 20, 150)">y</text>
+        
+        <!-- X-axis ticks and labels -->
+        <line x1="50" y1="270" x2="50" y2="275" stroke="black" stroke-width="1"/>
+        <text x="50" y="290" text-anchor="middle" font-size="12" font-family="Arial">0</text>
+        <line x1="80" y1="270" x2="80" y2="275" stroke="black" stroke-width="1"/>
+        <text x="80" y="290" text-anchor="middle" font-size="12" font-family="Arial">1</text>
+        <line x1="110" y1="270" x2="110" y2="275" stroke="black" stroke-width="1"/>
+        <text x="110" y="290" text-anchor="middle" font-size="12" font-family="Arial">2</text>
+        <line x1="140" y1="270" x2="140" y2="275" stroke="black" stroke-width="1"/>
+        <text x="140" y="290" text-anchor="middle" font-size="12" font-family="Arial">3</text>
+        <line x1="170" y1="270" x2="170" y2="275" stroke="black" stroke-width="1"/>
+        <text x="170" y="290" text-anchor="middle" font-size="12" font-family="Arial">4</text>
+        <line x1="200" y1="270" x2="200" y2="275" stroke="black" stroke-width="1"/>
+        <text x="200" y="290" text-anchor="middle" font-size="12" font-family="Arial">5</text>
+        <line x1="230" y1="270" x2="230" y2="275" stroke="black" stroke-width="1"/>
+        <text x="230" y="290" text-anchor="middle" font-size="12" font-family="Arial">6</text>
+        <line x1="260" y1="270" x2="260" y2="275" stroke="black" stroke-width="1"/>
+        <text x="260" y="290" text-anchor="middle" font-size="12" font-family="Arial">7</text>
+        <line x1="290" y1="270" x2="290" y2="275" stroke="black" stroke-width="1"/>
+        <text x="290" y="290" text-anchor="middle" font-size="12" font-family="Arial">8</text>
+        <line x1="320" y1="270" x2="320" y2="275" stroke="black" stroke-width="1"/>
+        <text x="320" y="290" text-anchor="middle" font-size="12" font-family="Arial">9</text>
+        <line x1="350" y1="270" x2="350" y2="275" stroke="black" stroke-width="1"/>
+        <text x="350" y="290" text-anchor="middle" font-size="12" font-family="Arial">10</text>
+        <line x1="45" y1="270" x2="50" y2="270" stroke="black" stroke-width="1"/>
+        <text x="35" y="274" text-anchor="end" font-size="12" font-family="Arial">0</text>
+        <line x1="45" y1="246" x2="50" y2="246" stroke="black" stroke-width="1"/>
+        <text x="35" y="250" text-anchor="end" font-size="12" font-family="Arial">1</text>
+        <line x1="45" y1="222" x2="50" y2="222" stroke="black" stroke-width="1"/>
+        <text x="35" y="226" text-anchor="end" font-size="12" font-family="Arial">2</text>
+        <line x1="45" y1="198" x2="50" y2="198" stroke="black" stroke-width="1"/>
+        <text x="35" y="202" text-anchor="end" font-size="12" font-family="Arial">3</text>
+        <line x1="45" y1="174" x2="50" y2="174" stroke="black" stroke-width="1"/>
+        <text x="35" y="178" text-anchor="end" font-size="12" font-family="Arial">4</text>
+        <line x1="45" y1="150" x2="50" y2="150" stroke="black" stroke-width="1"/>
+        <text x="35" y="154" text-anchor="end" font-size="12" font-family="Arial">5</text>
+        <line x1="45" y1="126" x2="50" y2="126" stroke="black" stroke-width="1"/>
+        <text x="35" y="130" text-anchor="end" font-size="12" font-family="Arial">6</text>
+        <line x1="45" y1="102" x2="50" y2="102" stroke="black" stroke-width="1"/>
+        <text x="35" y="106" text-anchor="end" font-size="12" font-family="Arial">7</text>
+        <line x1="45" y1="78" x2="50" y2="78" stroke="black" stroke-width="1"/>
+        <text x="35" y="82" text-anchor="end" font-size="12" font-family="Arial">8</text>
+        <line x1="45" y1="54" x2="50" y2="54" stroke="black" stroke-width="1"/>
+        <text x="35" y="58" text-anchor="end" font-size="12" font-family="Arial">9</text>
+        <line x1="45" y1="30" x2="50" y2="30" stroke="black" stroke-width="1"/>
+        <text x="35" y="34" text-anchor="end" font-size="12" font-family="Arial">10</text>
+        <circle cx="80" cy="186.4322243464898" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="110" cy="180.8847604943535" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="140" cy="149.464157071485" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="170" cy="102.79429034628464" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="200" cy="106.48383730432676" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="230" cy="103.18044671752247" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="260" cy="57.0155018590512" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="290" cy="33.52031534429091" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="320" cy="60.315546999212785" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="350" cy="30" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <!-- Line of best fit -->
+        <line x1="50" y1="198.0" x2="312.5" y2="30" 
+              stroke="#FF5722" stroke-width="2" stroke-dasharray="5,5"/>
+    </svg>
+    </div>
+    <div class="item" label="Gr8_36_4_16_step_3" style="width: 420px; height: 340px;">
+        
+    <svg width="400" height="320" viewBox="0 0 400 320">
+        <!-- Grid lines -->
+        <defs>
+            <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+                <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+            </pattern>
+        </defs>
+        <rect width="400" height="320" fill="url(#grid)" />
+        
+        <!-- Axes -->
+        <line x1="50" y1="270" x2="350" y2="270" stroke="black" stroke-width="2"/>
+        <line x1="50" y1="270" x2="50" y2="30" stroke="black" stroke-width="2"/>
+        
+        <!-- X-axis label -->
+        <text x="200" y="305" text-anchor="middle" font-size="14" font-family="Arial">x</text>
+        
+        <!-- Y-axis label -->
+        <text x="20" y="150" text-anchor="middle" font-size="14" font-family="Arial" transform="rotate(-90, 20, 150)">y</text>
+        
+        <!-- X-axis ticks and labels -->
+        <line x1="50" y1="270" x2="50" y2="275" stroke="black" stroke-width="1"/>
+        <text x="50" y="290" text-anchor="middle" font-size="12" font-family="Arial">0</text>
+        <line x1="80" y1="270" x2="80" y2="275" stroke="black" stroke-width="1"/>
+        <text x="80" y="290" text-anchor="middle" font-size="12" font-family="Arial">1</text>
+        <line x1="110" y1="270" x2="110" y2="275" stroke="black" stroke-width="1"/>
+        <text x="110" y="290" text-anchor="middle" font-size="12" font-family="Arial">2</text>
+        <line x1="140" y1="270" x2="140" y2="275" stroke="black" stroke-width="1"/>
+        <text x="140" y="290" text-anchor="middle" font-size="12" font-family="Arial">3</text>
+        <line x1="170" y1="270" x2="170" y2="275" stroke="black" stroke-width="1"/>
+        <text x="170" y="290" text-anchor="middle" font-size="12" font-family="Arial">4</text>
+        <line x1="200" y1="270" x2="200" y2="275" stroke="black" stroke-width="1"/>
+        <text x="200" y="290" text-anchor="middle" font-size="12" font-family="Arial">5</text>
+        <line x1="230" y1="270" x2="230" y2="275" stroke="black" stroke-width="1"/>
+        <text x="230" y="290" text-anchor="middle" font-size="12" font-family="Arial">6</text>
+        <line x1="260" y1="270" x2="260" y2="275" stroke="black" stroke-width="1"/>
+        <text x="260" y="290" text-anchor="middle" font-size="12" font-family="Arial">7</text>
+        <line x1="290" y1="270" x2="290" y2="275" stroke="black" stroke-width="1"/>
+        <text x="290" y="290" text-anchor="middle" font-size="12" font-family="Arial">8</text>
+        <line x1="320" y1="270" x2="320" y2="275" stroke="black" stroke-width="1"/>
+        <text x="320" y="290" text-anchor="middle" font-size="12" font-family="Arial">9</text>
+        <line x1="350" y1="270" x2="350" y2="275" stroke="black" stroke-width="1"/>
+        <text x="350" y="290" text-anchor="middle" font-size="12" font-family="Arial">10</text>
+        <line x1="45" y1="270" x2="50" y2="270" stroke="black" stroke-width="1"/>
+        <text x="35" y="274" text-anchor="end" font-size="12" font-family="Arial">0</text>
+        <line x1="45" y1="246" x2="50" y2="246" stroke="black" stroke-width="1"/>
+        <text x="35" y="250" text-anchor="end" font-size="12" font-family="Arial">1</text>
+        <line x1="45" y1="222" x2="50" y2="222" stroke="black" stroke-width="1"/>
+        <text x="35" y="226" text-anchor="end" font-size="12" font-family="Arial">2</text>
+        <line x1="45" y1="198" x2="50" y2="198" stroke="black" stroke-width="1"/>
+        <text x="35" y="202" text-anchor="end" font-size="12" font-family="Arial">3</text>
+        <line x1="45" y1="174" x2="50" y2="174" stroke="black" stroke-width="1"/>
+        <text x="35" y="178" text-anchor="end" font-size="12" font-family="Arial">4</text>
+        <line x1="45" y1="150" x2="50" y2="150" stroke="black" stroke-width="1"/>
+        <text x="35" y="154" text-anchor="end" font-size="12" font-family="Arial">5</text>
+        <line x1="45" y1="126" x2="50" y2="126" stroke="black" stroke-width="1"/>
+        <text x="35" y="130" text-anchor="end" font-size="12" font-family="Arial">6</text>
+        <line x1="45" y1="102" x2="50" y2="102" stroke="black" stroke-width="1"/>
+        <text x="35" y="106" text-anchor="end" font-size="12" font-family="Arial">7</text>
+        <line x1="45" y1="78" x2="50" y2="78" stroke="black" stroke-width="1"/>
+        <text x="35" y="82" text-anchor="end" font-size="12" font-family="Arial">8</text>
+        <line x1="45" y1="54" x2="50" y2="54" stroke="black" stroke-width="1"/>
+        <text x="35" y="58" text-anchor="end" font-size="12" font-family="Arial">9</text>
+        <line x1="45" y1="30" x2="50" y2="30" stroke="black" stroke-width="1"/>
+        <text x="35" y="34" text-anchor="end" font-size="12" font-family="Arial">10</text>
+        <circle cx="80" cy="145.7796389580724" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="110" cy="178.87213000824653" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="140" cy="160.68620700009188" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="170" cy="154.61684973699923" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="200" cy="102.61117915055391" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="230" cy="87.18547520050373" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="260" cy="80.28369628354807" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="290" cy="79.51291286812815" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="320" cy="30" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <circle cx="350" cy="38.772987341609024" r="4" fill="#2196F3" stroke="#1976D2" stroke-width="1"/>
+        <!-- Line of best fit -->
+        <line x1="50" y1="198.0" x2="312.5" y2="30" 
+              stroke="#FF5722" stroke-width="2" stroke-dasharray="5,5"/>
+        <!-- Vertical line from x-axis -->
+        <line x1="200" y1="270" x2="200" y2="102.0" 
+              stroke="red" stroke-width="2"/>
+        <!-- Horizontal line to y-axis -->
+        <line x1="200" y1="102.0" x2="50" y2="102.0" 
+              stroke="red" stroke-width="2"/>
+        <!-- Highlight intersection point -->
+        <circle cx="200" cy="102.0" r="6" fill="red" opacity="0.7"/>
+    </svg>
+    </div>
+</body>
+</html>

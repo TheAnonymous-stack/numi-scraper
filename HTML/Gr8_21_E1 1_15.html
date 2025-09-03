@@ -1,0 +1,92 @@
+<!-- Gr8_21_E1 Question 1_15 - Fibonacci-like pattern (sum of two previous) -->
+<div class="item" label="Gr8_21_1_15_step_1" style="width: 850px; height: 180px; padding: 20px; background-color: #f0f8ff; border: 2px solid #4169e1; border-radius: 10px;">
+  <svg width="810" height="140" viewBox="0 0 810 140">
+    <!-- Sequence numbers -->
+    <text x="40" y="50" font-size="24" font-weight="bold" fill="#2c3e50">1</text>
+    <text x="120" y="50" font-size="24" font-weight="bold" fill="#2c3e50">8</text>
+    <text x="200" y="50" font-size="24" font-weight="bold" fill="#2c3e50">9</text>
+    <text x="280" y="50" font-size="24" font-weight="bold" fill="#2c3e50">17</text>
+    <text x="360" y="50" font-size="24" font-weight="bold" fill="#2c3e50">26</text>
+    <rect x="430" y="25" width="60" height="35" fill="none" stroke="#ff4500" stroke-width="2" stroke-dasharray="5,5" rx="5"/>
+    <text x="460" y="50" font-size="20" fill="#808080" text-anchor="middle">?</text>
+    <text x="540" y="50" font-size="24" font-weight="bold" fill="#2c3e50">69</text>
+    <text x="620" y="50" font-size="24" font-weight="bold" fill="#2c3e50">112</text>
+    
+    <!-- Curved arrows showing sum pattern -->
+    <path d="M 45 70 Q 80 100 115 70" stroke="#dc143c" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 125 70 Q 160 100 195 70" stroke="#dc143c" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <text x="120" y="110" font-size="12" fill="#dc143c">1+8=9</text>
+    
+    <path d="M 125 70 Q 160 100 195 70" stroke="#dc143c" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 205 70 Q 240 100 275 70" stroke="#dc143c" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <text x="200" y="110" font-size="12" fill="#dc143c">8+9=17</text>
+    
+    <path d="M 205 70 Q 240 100 275 70" stroke="#dc143c" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 285 70 Q 320 100 355 70" stroke="#dc143c" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <text x="280" y="110" font-size="12" fill="#dc143c">9+17=26</text>
+    
+    <path d="M 285 70 Q 320 105 355 70" stroke="#dc143c" stroke-width="2" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+    <path d="M 365 70 Q 410 105 485 70" stroke="#dc143c" stroke-width="2" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+    <text x="360" y="115" font-size="12" fill="#dc143c">17+26=?</text>
+    
+    <path d="M 435 70 Q 487 105 535 70" stroke="#dc143c" stroke-width="2" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+    <text x="460" y="115" font-size="12" fill="#dc143c">?+26=69</text>
+    
+    <path d="M 495 70 Q 530 100 535 70" stroke="#dc143c" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 545 70 Q 580 100 615 70" stroke="#dc143c" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <text x="540" y="110" font-size="12" fill="#dc143c">?+69=112</text>
+    
+    <!-- Arrow marker definition -->
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#dc143c"/>
+      </marker>
+    </defs>
+  </svg>
+</div>
+
+<div class="item" label="Gr8_21_1_15_step_2" style="width: 850px; height: 180px; padding: 20px; background-color: #f0f8ff; border: 2px solid #4169e1; border-radius: 10px;">
+  <svg width="810" height="140" viewBox="0 0 810 140">
+    <!-- Sequence numbers with answer filled in -->
+    <text x="40" y="50" font-size="24" font-weight="bold" fill="#2c3e50">1</text>
+    <text x="120" y="50" font-size="24" font-weight="bold" fill="#2c3e50">8</text>
+    <text x="200" y="50" font-size="24" font-weight="bold" fill="#2c3e50">9</text>
+    <text x="280" y="50" font-size="24" font-weight="bold" fill="#2c3e50">17</text>
+    <text x="360" y="50" font-size="24" font-weight="bold" fill="#2c3e50">26</text>
+    <text x="460" y="50" font-size="24" font-weight="bold" fill="#228b22">43</text>
+    <text x="540" y="50" font-size="24" font-weight="bold" fill="#2c3e50">69</text>
+    <text x="620" y="50" font-size="24" font-weight="bold" fill="#2c3e50">112</text>
+    
+    <!-- Curved arrows confirming sum pattern -->
+    <path d="M 45 70 Q 80 100 115 70" stroke="#dc143c" stroke-width="2" fill="none" marker-end="url(#arrowhead2)"/>
+    <path d="M 125 70 Q 160 100 195 70" stroke="#dc143c" stroke-width="2" fill="none" marker-end="url(#arrowhead2)"/>
+    <text x="120" y="110" font-size="12" fill="#dc143c">1+8=9</text>
+    
+    <path d="M 125 70 Q 160 100 195 70" stroke="#dc143c" stroke-width="2" fill="none" marker-end="url(#arrowhead2)"/>
+    <path d="M 205 70 Q 240 100 275 70" stroke="#dc143c" stroke-width="2" fill="none" marker-end="url(#arrowhead2)"/>
+    <text x="200" y="110" font-size="12" fill="#dc143c">8+9=17</text>
+    
+    <path d="M 205 70 Q 240 100 275 70" stroke="#dc143c" stroke-width="2" fill="none" marker-end="url(#arrowhead2)"/>
+    <path d="M 285 70 Q 320 100 355 70" stroke="#dc143c" stroke-width="2" fill="none" marker-end="url(#arrowhead2)"/>
+    <text x="280" y="110" font-size="12" fill="#dc143c">9+17=26</text>
+    
+    <path d="M 285 70 Q 320 105 355 70" stroke="#dc143c" stroke-width="2" fill="none" marker-end="url(#arrowhead2)"/>
+    <path d="M 365 70 Q 410 105 455 70" stroke="#dc143c" stroke-width="2" fill="none" marker-end="url(#arrowhead2)"/>
+    <text x="360" y="115" font-size="12" fill="#dc143c">17+26=43</text>
+    
+    <path d="M 365 70 Q 410 100 455 70" stroke="#dc143c" stroke-width="2" fill="none" marker-end="url(#arrowhead2)"/>
+    <path d="M 465 70 Q 500 100 535 70" stroke="#dc143c" stroke-width="2" fill="none" marker-end="url(#arrowhead2)"/>
+    <text x="460" y="110" font-size="12" fill="#dc143c">26+43=69</text>
+    
+    <path d="M 465 70 Q 500 100 535 70" stroke="#dc143c" stroke-width="2" fill="none" marker-end="url(#arrowhead2)"/>
+    <path d="M 545 70 Q 580 100 615 70" stroke="#dc143c" stroke-width="2" fill="none" marker-end="url(#arrowhead2)"/>
+    <text x="540" y="110" font-size="12" fill="#dc143c">43+69=112</text>
+    
+    <!-- Arrow marker definition -->
+    <defs>
+      <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#dc143c"/>
+      </marker>
+    </defs>
+  </svg>
+</div>

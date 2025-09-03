@@ -1,5 +1,61 @@
 [
   {
+    "question_text": "The graph shows triangles RST and R'S'T'.\nWhich sequence of transformations maps RST onto R'S'T'?",
+    "skills": "sequences-of-congruence-transformations-choose-the-sequence",
+    "image_tag": "Gr8_41_5_1",
+    "backend_description": "The image shows two triangles, RST and R'S'T', on a coordinate grid. Triangle RST is drawn in pink with vertices at R(-5,-3), S(-9,-5), and T(-8,-2). Triangle R'S'T' is drawn in green with corresponding vertices at R'(2,7), S'(6,5), and T'(5,8). The triangles are congruent and have the same shape and size. Based on the positions of the points, triangle R'S'T' appears to be the result of a translation followed by a reflection. Specifically, triangle RST is translated 3 units right and 10 units up, then reflected across the y-axis to map onto triangle R'S'T'.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "5_1",
+    "tag": "Gr8_41_E5",
+    "choices": [
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 4 units"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/5",
+        "This sequence of transformations maps RST onto R'S'T'."
+      ],
+      [
+        "2/5",
+        "✅ a translation right 3 units and up 10 units followed by a reflection across the y-axis\nFirst,translate RST right 3 units and up 10 units to map it onto R''S''T''.Then,reflect R''S''T'' across the y-axis to map it onto R'S'T'."
+      ],
+      [
+        "3/5",
+        "These sequences do not map RST onto R'S'T'."
+      ],
+      [
+        "4/5",
+        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nFirst,reflect RST across the x-axis to map it onto R''S''T''. Then,rotate R''S''T' 90° clockwise around the origin. This does not map R''S''T'' onto R'S'T'."
+      ],
+      [
+        "5/5",
+        "❌ a rotation 180° around the origin followed by a translation left 3 units and up 4units\nFirst,rotate RST 180° around the origin to map it onto R''S''T''. Then, translate R''S''T'' left 3 units and up 4 units. This does not map R''S''T''onto R'S'T'."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/5",
+        "Gr8_41_5_1_step_2",
+        "The image shows triangle RST (pink) with vertices at R(–5, –3), S(–9, –5), and T(–8, –2), and its translated image R″S″T″ (blue) with vertices at R″(–2, 7), S″(–6, 5), and T″(–5, 8). The triangle was translated 3 units to the right and 10 units up. The shape, size, and orientation remain unchanged."
+      ],
+      [
+        "4/5",
+        "Gr8_41_5_1_step_4",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) after reflecting across the x-axis and rotating 90° clockwise around the origin. The resulting triangle has vertices R″(–5, 3), S″(–9, 5), and T″(–8, 2). This triangle is congruent to RST but does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this transformation is incorrect."
+      ],
+      [
+        "5/5",
+        "Gr8_41_5_1_step_5",
+        "The image shows triangle RST (pink) with vertices R(–5, –3), S(–9, –5), and T(–8, –2), and its transformed image R″S″T″ (blue) with vertices R″(5, 3), S″(9, 5), and T″(8, 2). This triangle was formed by rotating RST 180° around the origin, then translating it 3 units left and 4 units up. While the triangle is still congruent to RST, it does not align with triangle R′S′T′ (green), which has vertices R′(2, 7), S′(6, 5), and T′(5, 8), so this sequence is incorrect."
+      ]
+    ]
+  },
+  {
     "question_text": "The graph shows parallelograms JKL and J'K'L'.\nWhich sequence of transformations maps JKL onto J'K'L'?",
     "skills": "sequences-of-congruence-transformations-choose-the-sequence",
     "image_tag": "Gr8_41_5_2",
@@ -8,9 +64,9 @@
     "question_number": "5_2",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a rotation 180\u00b0 around the origin followed by a translation left 3 units and up 7 units",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 7 units",
       "a translation right 3 units and up 7 units followed by a reflection across the y-axis",
-      "a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis"
+      "a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis"
     ],
     "correct_answers": [
       "B"
@@ -22,7 +78,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 3 units and up 7 units followed by a reflection across the y-axis\nFirst, translate JKL right 3 units and up 7 units to map it onto JKL''.Then, reflection across the y-axis to map it onto J'K'L'."
+        "✅ a translation right 3 units and up 7 units followed by a reflection across the y-axis\nFirst, translate JKL right 3 units and up 7 units to map it onto JKL''.Then, reflection across the y-axis to map it onto J'K'L'."
       ],
       [
         "3/5",
@@ -30,11 +86,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map JKL onto J'K'L'."
+        "❌ a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map JKL onto J'K'L'."
       ],
       [
         "5/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 3 units and up 7 units\nThis sequence does not correctly map JKL onto J'K'L'."
+        "❌ a rotation 180° around the origin followed by a translation left 3 units and up 7 units\nThis sequence does not correctly map JKL onto J'K'L'."
       ]
     ],
     "solution_image_tag": [
@@ -65,8 +121,8 @@
     "tag": "Gr8_41_E5",
     "choices": [
       "a translation right 3 units and up 3 units followed by a reflection across the y-axis",
-      "a translation left 3 units and down 3 units followed by a rotation 90\u00b0 clockwise around the origin",
-      "a rotation 180\u00b0 around the origin followed by a translation left 3 units and up 3 units"
+      "a translation left 3 units and down 3 units followed by a rotation 90° clockwise around the origin",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 3 units"
     ],
     "correct_answers": [
       "A"
@@ -78,7 +134,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 3 units and up 3 units followed by a reflection across the y-axis\nFirst, translate VWX right 3 units and up 3 units to map it onto VWX''.Then, reflection across the y-axis to map it onto V'W'X'."
+        "✅ a translation right 3 units and up 3 units followed by a reflection across the y-axis\nFirst, translate VWX right 3 units and up 3 units to map it onto VWX''.Then, reflection across the y-axis to map it onto V'W'X'."
       ],
       [
         "3/5",
@@ -86,11 +142,11 @@
       ],
       [
         "4/5",
-        "\u274c a translation left 3 units and down 3 units followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map VWX onto V'W'X'."
+        "❌ a translation left 3 units and down 3 units followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map VWX onto V'W'X'."
       ],
       [
         "5/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 3 units and up 3 units\nThis sequence does not correctly map VWX onto V'W'X'."
+        "❌ a rotation 180° around the origin followed by a translation left 3 units and up 3 units\nThis sequence does not correctly map VWX onto V'W'X'."
       ]
     ],
     "solution_image_tag": [
@@ -120,9 +176,9 @@
     "question_number": "5_4",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin",
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
       "a translation right 4 units and up 7 units followed by a reflection across the y-axis",
-      "a rotation 180\u00b0 around the origin followed by a translation left 4 units and up 7 units"
+      "a rotation 180° around the origin followed by a translation left 4 units and up 7 units"
     ],
     "correct_answers": [
       "B"
@@ -134,7 +190,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 4 units and up 7 units followed by a reflection across the y-axis\nFirst, translate JKL right 4 units and up 7 units to map it onto JKL''.Then, reflection across the y-axis to map it onto J'K'L'."
+        "✅ a translation right 4 units and up 7 units followed by a reflection across the y-axis\nFirst, translate JKL right 4 units and up 7 units to map it onto JKL''.Then, reflection across the y-axis to map it onto J'K'L'."
       ],
       [
         "3/5",
@@ -142,11 +198,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 4 units and up 7 units\nThis sequence does not correctly map JKL onto J'K'L'."
+        "❌ a rotation 180° around the origin followed by a translation left 4 units and up 7 units\nThis sequence does not correctly map JKL onto J'K'L'."
       ],
       [
         "5/5",
-        "\u274c a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map JKL onto J'K'L'."
+        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map JKL onto J'K'L'."
       ]
     ],
     "solution_image_tag": [
@@ -177,7 +233,7 @@
     "tag": "Gr8_41_E5",
     "choices": [
       "a reflection across the y-axis followed by a translation right 3 units and down 2 units",
-      "a translation left 3 units and down 2 units followed by a rotation 90\u00b0 clockwise around the origin",
+      "a translation left 3 units and down 2 units followed by a rotation 90° clockwise around the origin",
       "a translation right 3 units and up 2 units followed by a reflection across the y-axis"
     ],
     "correct_answers": [
@@ -190,7 +246,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 3 units and up 2 units followed by a reflection across the y-axis\nFirst, translate VWX right 3 units and up 2 units to map it onto VWX''.Then, reflection across the y-axis to map it onto V'W'X'."
+        "✅ a translation right 3 units and up 2 units followed by a reflection across the y-axis\nFirst, translate VWX right 3 units and up 2 units to map it onto VWX''.Then, reflection across the y-axis to map it onto V'W'X'."
       ],
       [
         "3/5",
@@ -198,11 +254,11 @@
       ],
       [
         "4/5",
-        "\u274c a reflection across the y-axis followed by a translation right 3 units and down 2 units\nThis sequence does not correctly map VWX onto V'W'X'."
+        "❌ a reflection across the y-axis followed by a translation right 3 units and down 2 units\nThis sequence does not correctly map VWX onto V'W'X'."
       ],
       [
         "5/5",
-        "\u274c a translation left 3 units and down 2 units followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map VWX onto V'W'X'."
+        "❌ a translation left 3 units and down 2 units followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map VWX onto V'W'X'."
       ]
     ],
     "solution_image_tag": [
@@ -232,9 +288,9 @@
     "question_number": "5_6",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a translation left 3 units and down 8 units followed by a rotation 90\u00b0 clockwise around the origin",
+      "a translation left 3 units and down 8 units followed by a rotation 90° clockwise around the origin",
       "a translation right 3 units and up 8 units followed by a reflection across the y-axis",
-      "a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin"
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin"
     ],
     "correct_answers": [
       "B"
@@ -246,7 +302,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 3 units and up 8 units followed by a reflection across the y-axis\nFirst, translate VWX right 3 units and up 8 units to map it onto VWX''.Then, reflection across the y-axis to map it onto V'W'X'."
+        "✅ a translation right 3 units and up 8 units followed by a reflection across the y-axis\nFirst, translate VWX right 3 units and up 8 units to map it onto VWX''.Then, reflection across the y-axis to map it onto V'W'X'."
       ],
       [
         "3/5",
@@ -254,11 +310,11 @@
       ],
       [
         "4/5",
-        "\u274c a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map VWX onto V'W'X'."
+        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map VWX onto V'W'X'."
       ],
       [
         "5/5",
-        "\u274c a translation left 3 units and down 8 units followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map VWX onto V'W'X'."
+        "❌ a translation left 3 units and down 8 units followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map VWX onto V'W'X'."
       ]
     ],
     "solution_image_tag": [
@@ -289,8 +345,8 @@
     "tag": "Gr8_41_E5",
     "choices": [
       "a translation right 5 units and up 9 units followed by a reflection across the y-axis",
-      "a rotation 180\u00b0 around the origin followed by a translation left 5 units and up 9 units",
-      "a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis"
+      "a rotation 180° around the origin followed by a translation left 5 units and up 9 units",
+      "a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis"
     ],
     "correct_answers": [
       "A"
@@ -302,7 +358,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 5 units and up 9 units followed by a reflection across the y-axis\nFirst, translate ABC right 5 units and up 9 units to map it onto ABC''.Then, reflection across the y-axis to map it onto A'B'C'."
+        "✅ a translation right 5 units and up 9 units followed by a reflection across the y-axis\nFirst, translate ABC right 5 units and up 9 units to map it onto ABC''.Then, reflection across the y-axis to map it onto A'B'C'."
       ],
       [
         "3/5",
@@ -310,11 +366,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 5 units and up 9 units\nThis sequence does not correctly map ABC onto A'B'C'."
+        "❌ a rotation 180° around the origin followed by a translation left 5 units and up 9 units\nThis sequence does not correctly map ABC onto A'B'C'."
       ],
       [
         "5/5",
-        "\u274c a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map ABC onto A'B'C'."
+        "❌ a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map ABC onto A'B'C'."
       ]
     ],
     "solution_image_tag": [
@@ -344,8 +400,8 @@
     "question_number": "5_8",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis",
-      "a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin",
+      "a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis",
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
       "a translation right 6 units and up 3 units followed by a reflection across the y-axis"
     ],
     "correct_answers": [
@@ -358,7 +414,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 6 units and up 3 units followed by a reflection across the y-axis\nFirst, translate GHI right 6 units and up 3 units to map it onto GHI''.Then, reflection across the y-axis to map it onto G'H'I'."
+        "✅ a translation right 6 units and up 3 units followed by a reflection across the y-axis\nFirst, translate GHI right 6 units and up 3 units to map it onto GHI''.Then, reflection across the y-axis to map it onto G'H'I'."
       ],
       [
         "3/5",
@@ -366,11 +422,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map GHI onto G'H'I'."
+        "❌ a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map GHI onto G'H'I'."
       ],
       [
         "5/5",
-        "\u274c a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map GHI onto G'H'I'."
+        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map GHI onto G'H'I'."
       ]
     ],
     "solution_image_tag": [
@@ -402,7 +458,7 @@
     "choices": [
       "a translation right 6 units and up 3 units followed by a reflection across the y-axis",
       "a reflection across the y-axis followed by a translation right 6 units and down 3 units",
-      "a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis"
+      "a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis"
     ],
     "correct_answers": [
       "A"
@@ -414,7 +470,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 6 units and up 3 units followed by a reflection across the y-axis\nFirst, translate PQR right 6 units and up 3 units to map it onto PQR''.Then, reflection across the y-axis to map it onto P'Q'R'."
+        "✅ a translation right 6 units and up 3 units followed by a reflection across the y-axis\nFirst, translate PQR right 6 units and up 3 units to map it onto PQR''.Then, reflection across the y-axis to map it onto P'Q'R'."
       ],
       [
         "3/5",
@@ -422,11 +478,11 @@
       ],
       [
         "4/5",
-        "\u274c a reflection across the y-axis followed by a translation right 6 units and down 3 units\nThis sequence does not correctly map PQR onto P'Q'R'."
+        "❌ a reflection across the y-axis followed by a translation right 6 units and down 3 units\nThis sequence does not correctly map PQR onto P'Q'R'."
       ],
       [
         "5/5",
-        "\u274c a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map PQR onto P'Q'R'."
+        "❌ a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map PQR onto P'Q'R'."
       ]
     ],
     "solution_image_tag": [
@@ -457,7 +513,7 @@
     "tag": "Gr8_41_E5",
     "choices": [
       "a reflection across the y-axis followed by a translation right 3 units and down 8 units",
-      "a translation left 3 units and down 8 units followed by a rotation 90\u00b0 clockwise around the origin",
+      "a translation left 3 units and down 8 units followed by a rotation 90° clockwise around the origin",
       "a translation right 3 units and up 8 units followed by a reflection across the y-axis"
     ],
     "correct_answers": [
@@ -470,7 +526,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 3 units and up 8 units followed by a reflection across the y-axis\nFirst, translate JKL right 3 units and up 8 units to map it onto JKL''.Then, reflection across the y-axis to map it onto J'K'L'."
+        "✅ a translation right 3 units and up 8 units followed by a reflection across the y-axis\nFirst, translate JKL right 3 units and up 8 units to map it onto JKL''.Then, reflection across the y-axis to map it onto J'K'L'."
       ],
       [
         "3/5",
@@ -478,11 +534,11 @@
       ],
       [
         "4/5",
-        "\u274c a reflection across the y-axis followed by a translation right 3 units and down 8 units\nThis sequence does not correctly map JKL onto J'K'L'."
+        "❌ a reflection across the y-axis followed by a translation right 3 units and down 8 units\nThis sequence does not correctly map JKL onto J'K'L'."
       ],
       [
         "5/5",
-        "\u274c a translation left 3 units and down 8 units followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map JKL onto J'K'L'."
+        "❌ a translation left 3 units and down 8 units followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map JKL onto J'K'L'."
       ]
     ],
     "solution_image_tag": [
@@ -512,8 +568,8 @@
     "question_number": "5_11",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis",
-      "a translation left 4 units and down 3 units followed by a rotation 90\u00b0 clockwise around the origin",
+      "a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis",
+      "a translation left 4 units and down 3 units followed by a rotation 90° clockwise around the origin",
       "a translation right 4 units and up 3 units followed by a reflection across the y-axis"
     ],
     "correct_answers": [
@@ -526,7 +582,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 4 units and up 3 units followed by a reflection across the y-axis\nFirst, translate PQR right 4 units and up 3 units to map it onto PQR''.Then, reflection across the y-axis to map it onto P'Q'R'."
+        "✅ a translation right 4 units and up 3 units followed by a reflection across the y-axis\nFirst, translate PQR right 4 units and up 3 units to map it onto PQR''.Then, reflection across the y-axis to map it onto P'Q'R'."
       ],
       [
         "3/5",
@@ -534,11 +590,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map PQR onto P'Q'R'."
+        "❌ a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map PQR onto P'Q'R'."
       ],
       [
         "5/5",
-        "\u274c a translation left 4 units and down 3 units followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map PQR onto P'Q'R'."
+        "❌ a translation left 4 units and down 3 units followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map PQR onto P'Q'R'."
       ]
     ],
     "solution_image_tag": [
@@ -568,9 +624,9 @@
     "question_number": "5_12",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a rotation 180\u00b0 around the origin followed by a translation left 3 units and up 2 units",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 2 units",
       "a translation right 3 units and up 2 units followed by a reflection across the y-axis",
-      "a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin"
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin"
     ],
     "correct_answers": [
       "B"
@@ -582,7 +638,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 3 units and up 2 units followed by a reflection across the y-axis\nFirst, translate RST right 3 units and up 2 units to map it onto RST''.Then, reflection across the y-axis to map it onto R'S'T'."
+        "✅ a translation right 3 units and up 2 units followed by a reflection across the y-axis\nFirst, translate RST right 3 units and up 2 units to map it onto RST''.Then, reflection across the y-axis to map it onto R'S'T'."
       ],
       [
         "3/5",
@@ -590,11 +646,11 @@
       ],
       [
         "4/5",
-        "\u274c a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map RST onto R'S'T'."
+        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map RST onto R'S'T'."
       ],
       [
         "5/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 3 units and up 2 units\nThis sequence does not correctly map RST onto R'S'T'."
+        "❌ a rotation 180° around the origin followed by a translation left 3 units and up 2 units\nThis sequence does not correctly map RST onto R'S'T'."
       ]
     ],
     "solution_image_tag": [
@@ -624,7 +680,7 @@
     "question_number": "5_13",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin",
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
       "a reflection across the y-axis followed by a translation right 5 units and down 7 units",
       "a translation right 5 units and up 7 units followed by a reflection across the y-axis"
     ],
@@ -638,7 +694,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 5 units and up 7 units followed by a reflection across the y-axis\nFirst, translate ABC right 5 units and up 7 units to map it onto ABC''.Then, reflection across the y-axis to map it onto A'B'C'."
+        "✅ a translation right 5 units and up 7 units followed by a reflection across the y-axis\nFirst, translate ABC right 5 units and up 7 units to map it onto ABC''.Then, reflection across the y-axis to map it onto A'B'C'."
       ],
       [
         "3/5",
@@ -646,11 +702,11 @@
       ],
       [
         "4/5",
-        "\u274c a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map ABC onto A'B'C'."
+        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map ABC onto A'B'C'."
       ],
       [
         "5/5",
-        "\u274c a reflection across the y-axis followed by a translation right 5 units and down 7 units\nThis sequence does not correctly map ABC onto A'B'C'."
+        "❌ a reflection across the y-axis followed by a translation right 5 units and down 7 units\nThis sequence does not correctly map ABC onto A'B'C'."
       ]
     ],
     "solution_image_tag": [
@@ -680,9 +736,9 @@
     "question_number": "5_14",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin",
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
       "a translation right 5 units and up 4 units followed by a reflection across the y-axis",
-      "a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis"
+      "a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis"
     ],
     "correct_answers": [
       "B"
@@ -694,7 +750,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 5 units and up 4 units followed by a reflection across the y-axis\nFirst, translate JKL right 5 units and up 4 units to map it onto JKL''.Then, reflection across the y-axis to map it onto J'K'L'."
+        "✅ a translation right 5 units and up 4 units followed by a reflection across the y-axis\nFirst, translate JKL right 5 units and up 4 units to map it onto JKL''.Then, reflection across the y-axis to map it onto J'K'L'."
       ],
       [
         "3/5",
@@ -702,11 +758,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map JKL onto J'K'L'."
+        "❌ a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map JKL onto J'K'L'."
       ],
       [
         "5/5",
-        "\u274c a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map JKL onto J'K'L'."
+        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map JKL onto J'K'L'."
       ]
     ],
     "solution_image_tag": [
@@ -737,7 +793,7 @@
     "tag": "Gr8_41_E5",
     "choices": [
       "a translation right 3 units and up 2 units followed by a reflection across the y-axis",
-      "a translation left 3 units and down 2 units followed by a rotation 90\u00b0 clockwise around the origin",
+      "a translation left 3 units and down 2 units followed by a rotation 90° clockwise around the origin",
       "a reflection across the y-axis followed by a translation right 3 units and down 2 units"
     ],
     "correct_answers": [
@@ -750,7 +806,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 3 units and up 2 units followed by a reflection across the y-axis\nFirst, translate DEF right 3 units and up 2 units to map it onto DEF''.Then, reflection across the y-axis to map it onto D'E'F'."
+        "✅ a translation right 3 units and up 2 units followed by a reflection across the y-axis\nFirst, translate DEF right 3 units and up 2 units to map it onto DEF''.Then, reflection across the y-axis to map it onto D'E'F'."
       ],
       [
         "3/5",
@@ -758,11 +814,11 @@
       ],
       [
         "4/5",
-        "\u274c a translation left 3 units and down 2 units followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map DEF onto D'E'F'."
+        "❌ a translation left 3 units and down 2 units followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map DEF onto D'E'F'."
       ],
       [
         "5/5",
-        "\u274c a reflection across the y-axis followed by a translation right 3 units and down 2 units\nThis sequence does not correctly map DEF onto D'E'F'."
+        "❌ a reflection across the y-axis followed by a translation right 3 units and down 2 units\nThis sequence does not correctly map DEF onto D'E'F'."
       ]
     ],
     "solution_image_tag": [
@@ -792,8 +848,8 @@
     "question_number": "5_16",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis",
-      "a translation left 2 units and down 3 units followed by a rotation 90\u00b0 clockwise around the origin",
+      "a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis",
+      "a translation left 2 units and down 3 units followed by a rotation 90° clockwise around the origin",
       "a translation right 2 units and up 3 units followed by a reflection across the y-axis"
     ],
     "correct_answers": [
@@ -806,7 +862,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 2 units and up 3 units followed by a reflection across the y-axis\nFirst, translate PQR right 2 units and up 3 units to map it onto PQR''.Then, reflection across the y-axis to map it onto P'Q'R'."
+        "✅ a translation right 2 units and up 3 units followed by a reflection across the y-axis\nFirst, translate PQR right 2 units and up 3 units to map it onto PQR''.Then, reflection across the y-axis to map it onto P'Q'R'."
       ],
       [
         "3/5",
@@ -814,11 +870,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map PQR onto P'Q'R'."
+        "❌ a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map PQR onto P'Q'R'."
       ],
       [
         "5/5",
-        "\u274c a translation left 2 units and down 3 units followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map PQR onto P'Q'R'."
+        "❌ a translation left 2 units and down 3 units followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map PQR onto P'Q'R'."
       ]
     ],
     "solution_image_tag": [
@@ -849,8 +905,8 @@
     "tag": "Gr8_41_E5",
     "choices": [
       "a translation right 5 units and up 5 units followed by a reflection across the y-axis",
-      "a rotation 180\u00b0 around the origin followed by a translation left 5 units and up 5 units",
-      "a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis"
+      "a rotation 180° around the origin followed by a translation left 5 units and up 5 units",
+      "a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis"
     ],
     "correct_answers": [
       "A"
@@ -862,7 +918,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 5 units and up 5 units followed by a reflection across the y-axis\nFirst, translate GHI right 5 units and up 5 units to map it onto GHI''.Then, reflection across the y-axis to map it onto G'H'I'."
+        "✅ a translation right 5 units and up 5 units followed by a reflection across the y-axis\nFirst, translate GHI right 5 units and up 5 units to map it onto GHI''.Then, reflection across the y-axis to map it onto G'H'I'."
       ],
       [
         "3/5",
@@ -870,11 +926,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 5 units and up 5 units\nThis sequence does not correctly map GHI onto G'H'I'."
+        "❌ a rotation 180° around the origin followed by a translation left 5 units and up 5 units\nThis sequence does not correctly map GHI onto G'H'I'."
       ],
       [
         "5/5",
-        "\u274c a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map GHI onto G'H'I'."
+        "❌ a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map GHI onto G'H'I'."
       ]
     ],
     "solution_image_tag": [
@@ -905,8 +961,8 @@
     "tag": "Gr8_41_E5",
     "choices": [
       "a translation right 2 units and up 10 units followed by a reflection across the y-axis",
-      "a translation left 2 units and down 10 units followed by a rotation 90\u00b0 clockwise around the origin",
-      "a rotation 180\u00b0 around the origin followed by a translation left 2 units and up 10 units"
+      "a translation left 2 units and down 10 units followed by a rotation 90° clockwise around the origin",
+      "a rotation 180° around the origin followed by a translation left 2 units and up 10 units"
     ],
     "correct_answers": [
       "A"
@@ -918,7 +974,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 2 units and up 10 units followed by a reflection across the y-axis\nFirst, translate MNO right 2 units and up 10 units to map it onto MNO''.Then, reflection across the y-axis to map it onto M'N'O'."
+        "✅ a translation right 2 units and up 10 units followed by a reflection across the y-axis\nFirst, translate MNO right 2 units and up 10 units to map it onto MNO''.Then, reflection across the y-axis to map it onto M'N'O'."
       ],
       [
         "3/5",
@@ -926,11 +982,11 @@
       ],
       [
         "4/5",
-        "\u274c a translation left 2 units and down 10 units followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map MNO onto M'N'O'."
+        "❌ a translation left 2 units and down 10 units followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map MNO onto M'N'O'."
       ],
       [
         "5/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 2 units and up 10 units\nThis sequence does not correctly map MNO onto M'N'O'."
+        "❌ a rotation 180° around the origin followed by a translation left 2 units and up 10 units\nThis sequence does not correctly map MNO onto M'N'O'."
       ]
     ],
     "solution_image_tag": [
@@ -960,7 +1016,7 @@
     "question_number": "5_19",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis",
+      "a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis",
       "a reflection across the y-axis followed by a translation right 5 units and down 2 units",
       "a translation right 5 units and up 2 units followed by a reflection across the y-axis"
     ],
@@ -974,7 +1030,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 5 units and up 2 units followed by a reflection across the y-axis\nFirst, translate DEF right 5 units and up 2 units to map it onto DEF''.Then, reflection across the y-axis to map it onto D'E'F'."
+        "✅ a translation right 5 units and up 2 units followed by a reflection across the y-axis\nFirst, translate DEF right 5 units and up 2 units to map it onto DEF''.Then, reflection across the y-axis to map it onto D'E'F'."
       ],
       [
         "3/5",
@@ -982,11 +1038,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map DEF onto D'E'F'."
+        "❌ a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map DEF onto D'E'F'."
       ],
       [
         "5/5",
-        "\u274c a reflection across the y-axis followed by a translation right 5 units and down 2 units\nThis sequence does not correctly map DEF onto D'E'F'."
+        "❌ a reflection across the y-axis followed by a translation right 5 units and down 2 units\nThis sequence does not correctly map DEF onto D'E'F'."
       ]
     ],
     "solution_image_tag": [
@@ -1016,9 +1072,9 @@
     "question_number": "5_20",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis",
+      "a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis",
       "a translation right 4 units and up 2 units followed by a reflection across the y-axis",
-      "a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin"
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin"
     ],
     "correct_answers": [
       "B"
@@ -1030,7 +1086,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 4 units and up 2 units followed by a reflection across the y-axis\nFirst, translate XYZ right 4 units and up 2 units to map it onto XYZ''.Then, reflection across the y-axis to map it onto X'Y'Z'."
+        "✅ a translation right 4 units and up 2 units followed by a reflection across the y-axis\nFirst, translate XYZ right 4 units and up 2 units to map it onto XYZ''.Then, reflection across the y-axis to map it onto X'Y'Z'."
       ],
       [
         "3/5",
@@ -1038,11 +1094,11 @@
       ],
       [
         "4/5",
-        "\u274c a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map XYZ onto X'Y'Z'."
+        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map XYZ onto X'Y'Z'."
       ],
       [
         "5/5",
-        "\u274c a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map XYZ onto X'Y'Z'."
+        "❌ a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map XYZ onto X'Y'Z'."
       ]
     ],
     "solution_image_tag": [
@@ -1072,9 +1128,9 @@
     "question_number": "5_21",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a translation left 3 units and down 3 units followed by a rotation 90\u00b0 clockwise around the origin",
+      "a translation left 3 units and down 3 units followed by a rotation 90° clockwise around the origin",
       "a translation right 3 units and up 3 units followed by a reflection across the y-axis",
-      "a rotation 180\u00b0 around the origin followed by a translation left 3 units and up 3 units"
+      "a rotation 180° around the origin followed by a translation left 3 units and up 3 units"
     ],
     "correct_answers": [
       "B"
@@ -1086,7 +1142,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 3 units and up 3 units followed by a reflection across the y-axis\nFirst, translate GHI right 3 units and up 3 units to map it onto GHI''.Then, reflection across the y-axis to map it onto G'H'I'."
+        "✅ a translation right 3 units and up 3 units followed by a reflection across the y-axis\nFirst, translate GHI right 3 units and up 3 units to map it onto GHI''.Then, reflection across the y-axis to map it onto G'H'I'."
       ],
       [
         "3/5",
@@ -1094,11 +1150,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 3 units and up 3 units\nThis sequence does not correctly map GHI onto G'H'I'."
+        "❌ a rotation 180° around the origin followed by a translation left 3 units and up 3 units\nThis sequence does not correctly map GHI onto G'H'I'."
       ],
       [
         "5/5",
-        "\u274c a translation left 3 units and down 3 units followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map GHI onto G'H'I'."
+        "❌ a translation left 3 units and down 3 units followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map GHI onto G'H'I'."
       ]
     ],
     "solution_image_tag": [
@@ -1129,7 +1185,7 @@
     "tag": "Gr8_41_E5",
     "choices": [
       "a translation right 3 units and up 5 units followed by a reflection across the y-axis",
-      "a translation left 3 units and down 5 units followed by a rotation 90\u00b0 clockwise around the origin",
+      "a translation left 3 units and down 5 units followed by a rotation 90° clockwise around the origin",
       "a reflection across the y-axis followed by a translation right 3 units and down 5 units"
     ],
     "correct_answers": [
@@ -1142,7 +1198,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 3 units and up 5 units followed by a reflection across the y-axis\nFirst, translate GHI right 3 units and up 5 units to map it onto GHI''.Then, reflection across the y-axis to map it onto G'H'I'."
+        "✅ a translation right 3 units and up 5 units followed by a reflection across the y-axis\nFirst, translate GHI right 3 units and up 5 units to map it onto GHI''.Then, reflection across the y-axis to map it onto G'H'I'."
       ],
       [
         "3/5",
@@ -1150,11 +1206,11 @@
       ],
       [
         "4/5",
-        "\u274c a translation left 3 units and down 5 units followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map GHI onto G'H'I'."
+        "❌ a translation left 3 units and down 5 units followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map GHI onto G'H'I'."
       ],
       [
         "5/5",
-        "\u274c a reflection across the y-axis followed by a translation right 3 units and down 5 units\nThis sequence does not correctly map GHI onto G'H'I'."
+        "❌ a reflection across the y-axis followed by a translation right 3 units and down 5 units\nThis sequence does not correctly map GHI onto G'H'I'."
       ]
     ],
     "solution_image_tag": [
@@ -1184,8 +1240,8 @@
     "question_number": "5_23",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis",
-      "a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin",
+      "a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis",
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
       "a translation right 5 units and up 7 units followed by a reflection across the y-axis"
     ],
     "correct_answers": [
@@ -1198,7 +1254,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 5 units and up 7 units followed by a reflection across the y-axis\nFirst, translate XYZ right 5 units and up 7 units to map it onto XYZ''.Then, reflection across the y-axis to map it onto X'Y'Z'."
+        "✅ a translation right 5 units and up 7 units followed by a reflection across the y-axis\nFirst, translate XYZ right 5 units and up 7 units to map it onto XYZ''.Then, reflection across the y-axis to map it onto X'Y'Z'."
       ],
       [
         "3/5",
@@ -1206,11 +1262,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map XYZ onto X'Y'Z'."
+        "❌ a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map XYZ onto X'Y'Z'."
       ],
       [
         "5/5",
-        "\u274c a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map XYZ onto X'Y'Z'."
+        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map XYZ onto X'Y'Z'."
       ]
     ],
     "solution_image_tag": [
@@ -1242,7 +1298,7 @@
     "choices": [
       "a reflection across the y-axis followed by a translation right 5 units and down 8 units",
       "a translation right 5 units and up 8 units followed by a reflection across the y-axis",
-      "a rotation 180\u00b0 around the origin followed by a translation left 5 units and up 8 units"
+      "a rotation 180° around the origin followed by a translation left 5 units and up 8 units"
     ],
     "correct_answers": [
       "B"
@@ -1254,7 +1310,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 5 units and up 8 units followed by a reflection across the y-axis\nFirst, translate VWX right 5 units and up 8 units to map it onto VWX''.Then, reflection across the y-axis to map it onto V'W'X'."
+        "✅ a translation right 5 units and up 8 units followed by a reflection across the y-axis\nFirst, translate VWX right 5 units and up 8 units to map it onto VWX''.Then, reflection across the y-axis to map it onto V'W'X'."
       ],
       [
         "3/5",
@@ -1262,11 +1318,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 5 units and up 8 units\nThis sequence does not correctly map VWX onto V'W'X'."
+        "❌ a rotation 180° around the origin followed by a translation left 5 units and up 8 units\nThis sequence does not correctly map VWX onto V'W'X'."
       ],
       [
         "5/5",
-        "\u274c a reflection across the y-axis followed by a translation right 5 units and down 8 units\nThis sequence does not correctly map VWX onto V'W'X'."
+        "❌ a reflection across the y-axis followed by a translation right 5 units and down 8 units\nThis sequence does not correctly map VWX onto V'W'X'."
       ]
     ],
     "solution_image_tag": [
@@ -1296,8 +1352,8 @@
     "question_number": "5_25",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin",
-      "a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis",
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis",
       "a translation right 3 units and up 10 units followed by a reflection across the y-axis"
     ],
     "correct_answers": [
@@ -1310,7 +1366,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 3 units and up 10 units followed by a reflection across the y-axis\nFirst, translate XYZ right 3 units and up 10 units to map it onto XYZ''.Then, reflection across the y-axis to map it onto X'Y'Z'."
+        "✅ a translation right 3 units and up 10 units followed by a reflection across the y-axis\nFirst, translate XYZ right 3 units and up 10 units to map it onto XYZ''.Then, reflection across the y-axis to map it onto X'Y'Z'."
       ],
       [
         "3/5",
@@ -1318,11 +1374,11 @@
       ],
       [
         "4/5",
-        "\u274c a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map XYZ onto X'Y'Z'."
+        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map XYZ onto X'Y'Z'."
       ],
       [
         "5/5",
-        "\u274c a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map XYZ onto X'Y'Z'."
+        "❌ a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map XYZ onto X'Y'Z'."
       ]
     ],
     "solution_image_tag": [
@@ -1352,8 +1408,8 @@
     "question_number": "5_26",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin",
-      "a rotation 180\u00b0 around the origin followed by a translation left 6 units and up 9 units",
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a rotation 180° around the origin followed by a translation left 6 units and up 9 units",
       "a translation right 6 units and up 9 units followed by a reflection across the y-axis"
     ],
     "correct_answers": [
@@ -1366,7 +1422,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 6 units and up 9 units followed by a reflection across the y-axis\nFirst, translate GHI right 6 units and up 9 units to map it onto GHI''.Then, reflection across the y-axis to map it onto G'H'I'."
+        "✅ a translation right 6 units and up 9 units followed by a reflection across the y-axis\nFirst, translate GHI right 6 units and up 9 units to map it onto GHI''.Then, reflection across the y-axis to map it onto G'H'I'."
       ],
       [
         "3/5",
@@ -1374,11 +1430,11 @@
       ],
       [
         "4/5",
-        "\u274c a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map GHI onto G'H'I'."
+        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map GHI onto G'H'I'."
       ],
       [
         "5/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 6 units and up 9 units\nThis sequence does not correctly map GHI onto G'H'I'."
+        "❌ a rotation 180° around the origin followed by a translation left 6 units and up 9 units\nThis sequence does not correctly map GHI onto G'H'I'."
       ]
     ],
     "solution_image_tag": [
@@ -1409,7 +1465,7 @@
     "tag": "Gr8_41_E5",
     "choices": [
       "a translation right 5 units and up 7 units followed by a reflection across the y-axis",
-      "a translation left 5 units and down 7 units followed by a rotation 90\u00b0 clockwise around the origin",
+      "a translation left 5 units and down 7 units followed by a rotation 90° clockwise around the origin",
       "a reflection across the y-axis followed by a translation right 5 units and down 7 units"
     ],
     "correct_answers": [
@@ -1422,7 +1478,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 5 units and up 7 units followed by a reflection across the y-axis\nFirst, translate RST right 5 units and up 7 units to map it onto RST''.Then, reflection across the y-axis to map it onto R'S'T'."
+        "✅ a translation right 5 units and up 7 units followed by a reflection across the y-axis\nFirst, translate RST right 5 units and up 7 units to map it onto RST''.Then, reflection across the y-axis to map it onto R'S'T'."
       ],
       [
         "3/5",
@@ -1430,11 +1486,11 @@
       ],
       [
         "4/5",
-        "\u274c a translation left 5 units and down 7 units followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map RST onto R'S'T'."
+        "❌ a translation left 5 units and down 7 units followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map RST onto R'S'T'."
       ],
       [
         "5/5",
-        "\u274c a reflection across the y-axis followed by a translation right 5 units and down 7 units\nThis sequence does not correctly map RST onto R'S'T'."
+        "❌ a reflection across the y-axis followed by a translation right 5 units and down 7 units\nThis sequence does not correctly map RST onto R'S'T'."
       ]
     ],
     "solution_image_tag": [
@@ -1464,8 +1520,8 @@
     "question_number": "5_28",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis",
-      "a rotation 180\u00b0 around the origin followed by a translation left 6 units and up 9 units",
+      "a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis",
+      "a rotation 180° around the origin followed by a translation left 6 units and up 9 units",
       "a translation right 6 units and up 9 units followed by a reflection across the y-axis"
     ],
     "correct_answers": [
@@ -1478,7 +1534,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 6 units and up 9 units followed by a reflection across the y-axis\nFirst, translate RST right 6 units and up 9 units to map it onto RST''.Then, reflection across the y-axis to map it onto R'S'T'."
+        "✅ a translation right 6 units and up 9 units followed by a reflection across the y-axis\nFirst, translate RST right 6 units and up 9 units to map it onto RST''.Then, reflection across the y-axis to map it onto R'S'T'."
       ],
       [
         "3/5",
@@ -1486,11 +1542,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map RST onto R'S'T'."
+        "❌ a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map RST onto R'S'T'."
       ],
       [
         "5/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 6 units and up 9 units\nThis sequence does not correctly map RST onto R'S'T'."
+        "❌ a rotation 180° around the origin followed by a translation left 6 units and up 9 units\nThis sequence does not correctly map RST onto R'S'T'."
       ]
     ],
     "solution_image_tag": [
@@ -1521,8 +1577,8 @@
     "tag": "Gr8_41_E5",
     "choices": [
       "a translation right 5 units and up 9 units followed by a reflection across the y-axis",
-      "a rotation 180\u00b0 around the origin followed by a translation left 5 units and up 9 units",
-      "a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis"
+      "a rotation 180° around the origin followed by a translation left 5 units and up 9 units",
+      "a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis"
     ],
     "correct_answers": [
       "A"
@@ -1534,7 +1590,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 5 units and up 9 units followed by a reflection across the y-axis\nFirst, translate MNO right 5 units and up 9 units to map it onto MNO''.Then, reflection across the y-axis to map it onto M'N'O'."
+        "✅ a translation right 5 units and up 9 units followed by a reflection across the y-axis\nFirst, translate MNO right 5 units and up 9 units to map it onto MNO''.Then, reflection across the y-axis to map it onto M'N'O'."
       ],
       [
         "3/5",
@@ -1542,11 +1598,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 5 units and up 9 units\nThis sequence does not correctly map MNO onto M'N'O'."
+        "❌ a rotation 180° around the origin followed by a translation left 5 units and up 9 units\nThis sequence does not correctly map MNO onto M'N'O'."
       ],
       [
         "5/5",
-        "\u274c a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map MNO onto M'N'O'."
+        "❌ a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map MNO onto M'N'O'."
       ]
     ],
     "solution_image_tag": [
@@ -1577,7 +1633,7 @@
     "tag": "Gr8_41_E5",
     "choices": [
       "a translation right 6 units and up 2 units followed by a reflection across the y-axis",
-      "a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis",
+      "a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis",
       "a reflection across the y-axis followed by a translation right 6 units and down 2 units"
     ],
     "correct_answers": [
@@ -1590,7 +1646,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 6 units and up 2 units followed by a reflection across the y-axis\nFirst, translate MNO right 6 units and up 2 units to map it onto MNO''.Then, reflection across the y-axis to map it onto M'N'O'."
+        "✅ a translation right 6 units and up 2 units followed by a reflection across the y-axis\nFirst, translate MNO right 6 units and up 2 units to map it onto MNO''.Then, reflection across the y-axis to map it onto M'N'O'."
       ],
       [
         "3/5",
@@ -1598,11 +1654,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map MNO onto M'N'O'."
+        "❌ a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map MNO onto M'N'O'."
       ],
       [
         "5/5",
-        "\u274c a reflection across the y-axis followed by a translation right 6 units and down 2 units\nThis sequence does not correctly map MNO onto M'N'O'."
+        "❌ a reflection across the y-axis followed by a translation right 6 units and down 2 units\nThis sequence does not correctly map MNO onto M'N'O'."
       ]
     ],
     "solution_image_tag": [
@@ -1634,7 +1690,7 @@
     "choices": [
       "a translation right 3 units and up 6 units followed by a reflection across the y-axis",
       "a reflection across the y-axis followed by a translation right 3 units and down 6 units",
-      "a rotation 180\u00b0 around the origin followed by a translation left 3 units and up 6 units"
+      "a rotation 180° around the origin followed by a translation left 3 units and up 6 units"
     ],
     "correct_answers": [
       "A"
@@ -1646,7 +1702,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 3 units and up 6 units followed by a reflection across the y-axis\nFirst, translate RST right 3 units and up 6 units to map it onto RST''.Then, reflection across the y-axis to map it onto R'S'T'."
+        "✅ a translation right 3 units and up 6 units followed by a reflection across the y-axis\nFirst, translate RST right 3 units and up 6 units to map it onto RST''.Then, reflection across the y-axis to map it onto R'S'T'."
       ],
       [
         "3/5",
@@ -1654,11 +1710,11 @@
       ],
       [
         "4/5",
-        "\u274c a reflection across the y-axis followed by a translation right 3 units and down 6 units\nThis sequence does not correctly map RST onto R'S'T'."
+        "❌ a reflection across the y-axis followed by a translation right 3 units and down 6 units\nThis sequence does not correctly map RST onto R'S'T'."
       ],
       [
         "5/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 3 units and up 6 units\nThis sequence does not correctly map RST onto R'S'T'."
+        "❌ a rotation 180° around the origin followed by a translation left 3 units and up 6 units\nThis sequence does not correctly map RST onto R'S'T'."
       ]
     ],
     "solution_image_tag": [
@@ -1688,9 +1744,9 @@
     "question_number": "5_32",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin",
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
       "a translation right 3 units and up 10 units followed by a reflection across the y-axis",
-      "a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis"
+      "a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis"
     ],
     "correct_answers": [
       "B"
@@ -1702,7 +1758,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 3 units and up 10 units followed by a reflection across the y-axis\nFirst, translate PQR right 3 units and up 10 units to map it onto PQR''.Then, reflection across the y-axis to map it onto P'Q'R'."
+        "✅ a translation right 3 units and up 10 units followed by a reflection across the y-axis\nFirst, translate PQR right 3 units and up 10 units to map it onto PQR''.Then, reflection across the y-axis to map it onto P'Q'R'."
       ],
       [
         "3/5",
@@ -1710,11 +1766,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map PQR onto P'Q'R'."
+        "❌ a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map PQR onto P'Q'R'."
       ],
       [
         "5/5",
-        "\u274c a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map PQR onto P'Q'R'."
+        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map PQR onto P'Q'R'."
       ]
     ],
     "solution_image_tag": [
@@ -1744,8 +1800,8 @@
     "question_number": "5_33",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a translation left 5 units and down 10 units followed by a rotation 90\u00b0 clockwise around the origin",
-      "a rotation 180\u00b0 around the origin followed by a translation left 5 units and up 10 units",
+      "a translation left 5 units and down 10 units followed by a rotation 90° clockwise around the origin",
+      "a rotation 180° around the origin followed by a translation left 5 units and up 10 units",
       "a translation right 5 units and up 10 units followed by a reflection across the y-axis"
     ],
     "correct_answers": [
@@ -1758,7 +1814,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 5 units and up 10 units followed by a reflection across the y-axis\nFirst, translate PQR right 5 units and up 10 units to map it onto PQR''.Then, reflection across the y-axis to map it onto P'Q'R'."
+        "✅ a translation right 5 units and up 10 units followed by a reflection across the y-axis\nFirst, translate PQR right 5 units and up 10 units to map it onto PQR''.Then, reflection across the y-axis to map it onto P'Q'R'."
       ],
       [
         "3/5",
@@ -1766,11 +1822,11 @@
       ],
       [
         "4/5",
-        "\u274c a translation left 5 units and down 10 units followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map PQR onto P'Q'R'."
+        "❌ a translation left 5 units and down 10 units followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map PQR onto P'Q'R'."
       ],
       [
         "5/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 5 units and up 10 units\nThis sequence does not correctly map PQR onto P'Q'R'."
+        "❌ a rotation 180° around the origin followed by a translation left 5 units and up 10 units\nThis sequence does not correctly map PQR onto P'Q'R'."
       ]
     ],
     "solution_image_tag": [
@@ -1802,7 +1858,7 @@
     "choices": [
       "a translation right 4 units and up 9 units followed by a reflection across the y-axis",
       "a reflection across the y-axis followed by a translation right 4 units and down 9 units",
-      "a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin"
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin"
     ],
     "correct_answers": [
       "A"
@@ -1814,7 +1870,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 4 units and up 9 units followed by a reflection across the y-axis\nFirst, translate JKL right 4 units and up 9 units to map it onto JKL''.Then, reflection across the y-axis to map it onto J'K'L'."
+        "✅ a translation right 4 units and up 9 units followed by a reflection across the y-axis\nFirst, translate JKL right 4 units and up 9 units to map it onto JKL''.Then, reflection across the y-axis to map it onto J'K'L'."
       ],
       [
         "3/5",
@@ -1822,11 +1878,11 @@
       ],
       [
         "4/5",
-        "\u274c a reflection across the y-axis followed by a translation right 4 units and down 9 units\nThis sequence does not correctly map JKL onto J'K'L'."
+        "❌ a reflection across the y-axis followed by a translation right 4 units and down 9 units\nThis sequence does not correctly map JKL onto J'K'L'."
       ],
       [
         "5/5",
-        "\u274c a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map JKL onto J'K'L'."
+        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map JKL onto J'K'L'."
       ]
     ],
     "solution_image_tag": [
@@ -1857,8 +1913,8 @@
     "tag": "Gr8_41_E5",
     "choices": [
       "a translation right 3 units and up 7 units followed by a reflection across the y-axis",
-      "a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis",
-      "a rotation 180\u00b0 around the origin followed by a translation left 3 units and up 7 units"
+      "a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis",
+      "a rotation 180° around the origin followed by a translation left 3 units and up 7 units"
     ],
     "correct_answers": [
       "A"
@@ -1870,7 +1926,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 3 units and up 7 units followed by a reflection across the y-axis\nFirst, translate JKL right 3 units and up 7 units to map it onto JKL''.Then, reflection across the y-axis to map it onto J'K'L'."
+        "✅ a translation right 3 units and up 7 units followed by a reflection across the y-axis\nFirst, translate JKL right 3 units and up 7 units to map it onto JKL''.Then, reflection across the y-axis to map it onto J'K'L'."
       ],
       [
         "3/5",
@@ -1878,11 +1934,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map JKL onto J'K'L'."
+        "❌ a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map JKL onto J'K'L'."
       ],
       [
         "5/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 3 units and up 7 units\nThis sequence does not correctly map JKL onto J'K'L'."
+        "❌ a rotation 180° around the origin followed by a translation left 3 units and up 7 units\nThis sequence does not correctly map JKL onto J'K'L'."
       ]
     ],
     "solution_image_tag": [
@@ -1914,7 +1970,7 @@
     "choices": [
       "a translation right 4 units and up 8 units followed by a reflection across the y-axis",
       "a reflection across the y-axis followed by a translation right 4 units and down 8 units",
-      "a translation left 4 units and down 8 units followed by a rotation 90\u00b0 clockwise around the origin"
+      "a translation left 4 units and down 8 units followed by a rotation 90° clockwise around the origin"
     ],
     "correct_answers": [
       "A"
@@ -1926,7 +1982,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 4 units and up 8 units followed by a reflection across the y-axis\nFirst, translate XYZ right 4 units and up 8 units to map it onto XYZ''.Then, reflection across the y-axis to map it onto X'Y'Z'."
+        "✅ a translation right 4 units and up 8 units followed by a reflection across the y-axis\nFirst, translate XYZ right 4 units and up 8 units to map it onto XYZ''.Then, reflection across the y-axis to map it onto X'Y'Z'."
       ],
       [
         "3/5",
@@ -1934,11 +1990,11 @@
       ],
       [
         "4/5",
-        "\u274c a reflection across the y-axis followed by a translation right 4 units and down 8 units\nThis sequence does not correctly map XYZ onto X'Y'Z'."
+        "❌ a reflection across the y-axis followed by a translation right 4 units and down 8 units\nThis sequence does not correctly map XYZ onto X'Y'Z'."
       ],
       [
         "5/5",
-        "\u274c a translation left 4 units and down 8 units followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map XYZ onto X'Y'Z'."
+        "❌ a translation left 4 units and down 8 units followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map XYZ onto X'Y'Z'."
       ]
     ],
     "solution_image_tag": [
@@ -1968,8 +2024,8 @@
     "question_number": "5_37",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin",
-      "a rotation 180\u00b0 around the origin followed by a translation left 2 units and up 9 units",
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
+      "a rotation 180° around the origin followed by a translation left 2 units and up 9 units",
       "a translation right 2 units and up 9 units followed by a reflection across the y-axis"
     ],
     "correct_answers": [
@@ -1982,7 +2038,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 2 units and up 9 units followed by a reflection across the y-axis\nFirst, translate ABC right 2 units and up 9 units to map it onto ABC''.Then, reflection across the y-axis to map it onto A'B'C'."
+        "✅ a translation right 2 units and up 9 units followed by a reflection across the y-axis\nFirst, translate ABC right 2 units and up 9 units to map it onto ABC''.Then, reflection across the y-axis to map it onto A'B'C'."
       ],
       [
         "3/5",
@@ -1990,11 +2046,11 @@
       ],
       [
         "4/5",
-        "\u274c a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map ABC onto A'B'C'."
+        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map ABC onto A'B'C'."
       ],
       [
         "5/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 2 units and up 9 units\nThis sequence does not correctly map ABC onto A'B'C'."
+        "❌ a rotation 180° around the origin followed by a translation left 2 units and up 9 units\nThis sequence does not correctly map ABC onto A'B'C'."
       ]
     ],
     "solution_image_tag": [
@@ -2024,7 +2080,7 @@
     "question_number": "5_38",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a rotation 180\u00b0 around the origin followed by a translation left 5 units and up 3 units",
+      "a rotation 180° around the origin followed by a translation left 5 units and up 3 units",
       "a translation right 5 units and up 3 units followed by a reflection across the y-axis",
       "a reflection across the y-axis followed by a translation right 5 units and down 3 units"
     ],
@@ -2038,7 +2094,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 5 units and up 3 units followed by a reflection across the y-axis\nFirst, translate VWX right 5 units and up 3 units to map it onto VWX''.Then, reflection across the y-axis to map it onto V'W'X'."
+        "✅ a translation right 5 units and up 3 units followed by a reflection across the y-axis\nFirst, translate VWX right 5 units and up 3 units to map it onto VWX''.Then, reflection across the y-axis to map it onto V'W'X'."
       ],
       [
         "3/5",
@@ -2046,11 +2102,11 @@
       ],
       [
         "4/5",
-        "\u274c a reflection across the y-axis followed by a translation right 5 units and down 3 units\nThis sequence does not correctly map VWX onto V'W'X'."
+        "❌ a reflection across the y-axis followed by a translation right 5 units and down 3 units\nThis sequence does not correctly map VWX onto V'W'X'."
       ],
       [
         "5/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 5 units and up 3 units\nThis sequence does not correctly map VWX onto V'W'X'."
+        "❌ a rotation 180° around the origin followed by a translation left 5 units and up 3 units\nThis sequence does not correctly map VWX onto V'W'X'."
       ]
     ],
     "solution_image_tag": [
@@ -2080,7 +2136,7 @@
     "question_number": "5_39",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis",
+      "a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis",
       "a translation right 5 units and up 3 units followed by a reflection across the y-axis",
       "a reflection across the y-axis followed by a translation right 5 units and down 3 units"
     ],
@@ -2094,7 +2150,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 5 units and up 3 units followed by a reflection across the y-axis\nFirst, translate STU right 5 units and up 3 units to map it onto STU''.Then, reflection across the y-axis to map it onto S'T'U'."
+        "✅ a translation right 5 units and up 3 units followed by a reflection across the y-axis\nFirst, translate STU right 5 units and up 3 units to map it onto STU''.Then, reflection across the y-axis to map it onto S'T'U'."
       ],
       [
         "3/5",
@@ -2102,11 +2158,11 @@
       ],
       [
         "4/5",
-        "\u274c a reflection across the y-axis followed by a translation right 5 units and down 3 units\nThis sequence does not correctly map STU onto S'T'U'."
+        "❌ a reflection across the y-axis followed by a translation right 5 units and down 3 units\nThis sequence does not correctly map STU onto S'T'U'."
       ],
       [
         "5/5",
-        "\u274c a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map STU onto S'T'U'."
+        "❌ a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map STU onto S'T'U'."
       ]
     ],
     "solution_image_tag": [
@@ -2136,8 +2192,8 @@
     "question_number": "5_40",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a rotation 180\u00b0 around the origin followed by a translation left 5 units and up 5 units",
-      "a translation left 5 units and down 5 units followed by a rotation 90\u00b0 clockwise around the origin",
+      "a rotation 180° around the origin followed by a translation left 5 units and up 5 units",
+      "a translation left 5 units and down 5 units followed by a rotation 90° clockwise around the origin",
       "a translation right 5 units and up 5 units followed by a reflection across the y-axis"
     ],
     "correct_answers": [
@@ -2150,7 +2206,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 5 units and up 5 units followed by a reflection across the y-axis\nFirst, translate JKL right 5 units and up 5 units to map it onto JKL''.Then, reflection across the y-axis to map it onto J'K'L'."
+        "✅ a translation right 5 units and up 5 units followed by a reflection across the y-axis\nFirst, translate JKL right 5 units and up 5 units to map it onto JKL''.Then, reflection across the y-axis to map it onto J'K'L'."
       ],
       [
         "3/5",
@@ -2158,11 +2214,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 5 units and up 5 units\nThis sequence does not correctly map JKL onto J'K'L'."
+        "❌ a rotation 180° around the origin followed by a translation left 5 units and up 5 units\nThis sequence does not correctly map JKL onto J'K'L'."
       ],
       [
         "5/5",
-        "\u274c a translation left 5 units and down 5 units followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map JKL onto J'K'L'."
+        "❌ a translation left 5 units and down 5 units followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map JKL onto J'K'L'."
       ]
     ],
     "solution_image_tag": [
@@ -2193,7 +2249,7 @@
     "tag": "Gr8_41_E5",
     "choices": [
       "a translation right 4 units and up 5 units followed by a reflection across the y-axis",
-      "a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin",
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
       "a reflection across the y-axis followed by a translation right 4 units and down 5 units"
     ],
     "correct_answers": [
@@ -2206,7 +2262,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 4 units and up 5 units followed by a reflection across the y-axis\nFirst, translate VWX right 4 units and up 5 units to map it onto VWX''.Then, reflection across the y-axis to map it onto V'W'X'."
+        "✅ a translation right 4 units and up 5 units followed by a reflection across the y-axis\nFirst, translate VWX right 4 units and up 5 units to map it onto VWX''.Then, reflection across the y-axis to map it onto V'W'X'."
       ],
       [
         "3/5",
@@ -2214,11 +2270,11 @@
       ],
       [
         "4/5",
-        "\u274c a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map VWX onto V'W'X'."
+        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map VWX onto V'W'X'."
       ],
       [
         "5/5",
-        "\u274c a reflection across the y-axis followed by a translation right 4 units and down 5 units\nThis sequence does not correctly map VWX onto V'W'X'."
+        "❌ a reflection across the y-axis followed by a translation right 4 units and down 5 units\nThis sequence does not correctly map VWX onto V'W'X'."
       ]
     ],
     "solution_image_tag": [
@@ -2250,7 +2306,7 @@
     "choices": [
       "a translation right 3 units and up 4 units followed by a reflection across the y-axis",
       "a reflection across the y-axis followed by a translation right 3 units and down 4 units",
-      "a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis"
+      "a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis"
     ],
     "correct_answers": [
       "A"
@@ -2262,7 +2318,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 3 units and up 4 units followed by a reflection across the y-axis\nFirst, translate VWX right 3 units and up 4 units to map it onto VWX''.Then, reflection across the y-axis to map it onto V'W'X'."
+        "✅ a translation right 3 units and up 4 units followed by a reflection across the y-axis\nFirst, translate VWX right 3 units and up 4 units to map it onto VWX''.Then, reflection across the y-axis to map it onto V'W'X'."
       ],
       [
         "3/5",
@@ -2270,11 +2326,11 @@
       ],
       [
         "4/5",
-        "\u274c a reflection across the y-axis followed by a translation right 3 units and down 4 units\nThis sequence does not correctly map VWX onto V'W'X'."
+        "❌ a reflection across the y-axis followed by a translation right 3 units and down 4 units\nThis sequence does not correctly map VWX onto V'W'X'."
       ],
       [
         "5/5",
-        "\u274c a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map VWX onto V'W'X'."
+        "❌ a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map VWX onto V'W'X'."
       ]
     ],
     "solution_image_tag": [
@@ -2304,9 +2360,9 @@
     "question_number": "5_43",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a rotation 180\u00b0 around the origin followed by a translation left 4 units and up 7 units",
+      "a rotation 180° around the origin followed by a translation left 4 units and up 7 units",
       "a translation right 4 units and up 7 units followed by a reflection across the y-axis",
-      "a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis"
+      "a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis"
     ],
     "correct_answers": [
       "B"
@@ -2318,7 +2374,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 4 units and up 7 units followed by a reflection across the y-axis\nFirst, translate GHI right 4 units and up 7 units to map it onto GHI''.Then, reflection across the y-axis to map it onto G'H'I'."
+        "✅ a translation right 4 units and up 7 units followed by a reflection across the y-axis\nFirst, translate GHI right 4 units and up 7 units to map it onto GHI''.Then, reflection across the y-axis to map it onto G'H'I'."
       ],
       [
         "3/5",
@@ -2326,11 +2382,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map GHI onto G'H'I'."
+        "❌ a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map GHI onto G'H'I'."
       ],
       [
         "5/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 4 units and up 7 units\nThis sequence does not correctly map GHI onto G'H'I'."
+        "❌ a rotation 180° around the origin followed by a translation left 4 units and up 7 units\nThis sequence does not correctly map GHI onto G'H'I'."
       ]
     ],
     "solution_image_tag": [
@@ -2360,9 +2416,9 @@
     "question_number": "5_44",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin",
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
       "a translation right 5 units and up 7 units followed by a reflection across the y-axis",
-      "a translation left 5 units and down 7 units followed by a rotation 90\u00b0 clockwise around the origin"
+      "a translation left 5 units and down 7 units followed by a rotation 90° clockwise around the origin"
     ],
     "correct_answers": [
       "B"
@@ -2374,7 +2430,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 5 units and up 7 units followed by a reflection across the y-axis\nFirst, translate MNO right 5 units and up 7 units to map it onto MNO''.Then, reflection across the y-axis to map it onto M'N'O'."
+        "✅ a translation right 5 units and up 7 units followed by a reflection across the y-axis\nFirst, translate MNO right 5 units and up 7 units to map it onto MNO''.Then, reflection across the y-axis to map it onto M'N'O'."
       ],
       [
         "3/5",
@@ -2382,11 +2438,11 @@
       ],
       [
         "4/5",
-        "\u274c a translation left 5 units and down 7 units followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map MNO onto M'N'O'."
+        "❌ a translation left 5 units and down 7 units followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map MNO onto M'N'O'."
       ],
       [
         "5/5",
-        "\u274c a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map MNO onto M'N'O'."
+        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map MNO onto M'N'O'."
       ]
     ],
     "solution_image_tag": [
@@ -2417,7 +2473,7 @@
     "tag": "Gr8_41_E5",
     "choices": [
       "a translation right 5 units and up 10 units followed by a reflection across the y-axis",
-      "a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin",
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
       "a reflection across the y-axis followed by a translation right 5 units and down 10 units"
     ],
     "correct_answers": [
@@ -2430,7 +2486,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 5 units and up 10 units followed by a reflection across the y-axis\nFirst, translate ABC right 5 units and up 10 units to map it onto ABC''.Then, reflection across the y-axis to map it onto A'B'C'."
+        "✅ a translation right 5 units and up 10 units followed by a reflection across the y-axis\nFirst, translate ABC right 5 units and up 10 units to map it onto ABC''.Then, reflection across the y-axis to map it onto A'B'C'."
       ],
       [
         "3/5",
@@ -2438,11 +2494,11 @@
       ],
       [
         "4/5",
-        "\u274c a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map ABC onto A'B'C'."
+        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map ABC onto A'B'C'."
       ],
       [
         "5/5",
-        "\u274c a reflection across the y-axis followed by a translation right 5 units and down 10 units\nThis sequence does not correctly map ABC onto A'B'C'."
+        "❌ a reflection across the y-axis followed by a translation right 5 units and down 10 units\nThis sequence does not correctly map ABC onto A'B'C'."
       ]
     ],
     "solution_image_tag": [
@@ -2473,7 +2529,7 @@
     "tag": "Gr8_41_E5",
     "choices": [
       "a translation right 2 units and up 6 units followed by a reflection across the y-axis",
-      "a rotation 180\u00b0 around the origin followed by a translation left 2 units and up 6 units",
+      "a rotation 180° around the origin followed by a translation left 2 units and up 6 units",
       "a reflection across the y-axis followed by a translation right 2 units and down 6 units"
     ],
     "correct_answers": [
@@ -2486,7 +2542,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 2 units and up 6 units followed by a reflection across the y-axis\nFirst, translate XYZ right 2 units and up 6 units to map it onto XYZ''.Then, reflection across the y-axis to map it onto X'Y'Z'."
+        "✅ a translation right 2 units and up 6 units followed by a reflection across the y-axis\nFirst, translate XYZ right 2 units and up 6 units to map it onto XYZ''.Then, reflection across the y-axis to map it onto X'Y'Z'."
       ],
       [
         "3/5",
@@ -2494,11 +2550,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 2 units and up 6 units\nThis sequence does not correctly map XYZ onto X'Y'Z'."
+        "❌ a rotation 180° around the origin followed by a translation left 2 units and up 6 units\nThis sequence does not correctly map XYZ onto X'Y'Z'."
       ],
       [
         "5/5",
-        "\u274c a reflection across the y-axis followed by a translation right 2 units and down 6 units\nThis sequence does not correctly map XYZ onto X'Y'Z'."
+        "❌ a reflection across the y-axis followed by a translation right 2 units and down 6 units\nThis sequence does not correctly map XYZ onto X'Y'Z'."
       ]
     ],
     "solution_image_tag": [
@@ -2528,8 +2584,8 @@
     "question_number": "5_47",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a translation left 5 units and down 4 units followed by a rotation 90\u00b0 clockwise around the origin",
-      "a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin",
+      "a translation left 5 units and down 4 units followed by a rotation 90° clockwise around the origin",
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
       "a translation right 5 units and up 4 units followed by a reflection across the y-axis"
     ],
     "correct_answers": [
@@ -2542,7 +2598,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 5 units and up 4 units followed by a reflection across the y-axis\nFirst, translate DEF right 5 units and up 4 units to map it onto DEF''.Then, reflection across the y-axis to map it onto D'E'F'."
+        "✅ a translation right 5 units and up 4 units followed by a reflection across the y-axis\nFirst, translate DEF right 5 units and up 4 units to map it onto DEF''.Then, reflection across the y-axis to map it onto D'E'F'."
       ],
       [
         "3/5",
@@ -2550,11 +2606,11 @@
       ],
       [
         "4/5",
-        "\u274c a translation left 5 units and down 4 units followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map DEF onto D'E'F'."
+        "❌ a translation left 5 units and down 4 units followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map DEF onto D'E'F'."
       ],
       [
         "5/5",
-        "\u274c a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map DEF onto D'E'F'."
+        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map DEF onto D'E'F'."
       ]
     ],
     "solution_image_tag": [
@@ -2584,8 +2640,8 @@
     "question_number": "5_48",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a rotation 180\u00b0 around the origin followed by a translation left 6 units and up 9 units",
-      "a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin",
+      "a rotation 180° around the origin followed by a translation left 6 units and up 9 units",
+      "a reflection across the x-axis followed by a rotation 90° clockwise around the origin",
       "a translation right 6 units and up 9 units followed by a reflection across the y-axis"
     ],
     "correct_answers": [
@@ -2598,7 +2654,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 6 units and up 9 units followed by a reflection across the y-axis\nFirst, translate XYZ right 6 units and up 9 units to map it onto XYZ''.Then, reflection across the y-axis to map it onto X'Y'Z'."
+        "✅ a translation right 6 units and up 9 units followed by a reflection across the y-axis\nFirst, translate XYZ right 6 units and up 9 units to map it onto XYZ''.Then, reflection across the y-axis to map it onto X'Y'Z'."
       ],
       [
         "3/5",
@@ -2606,11 +2662,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 6 units and up 9 units\nThis sequence does not correctly map XYZ onto X'Y'Z'."
+        "❌ a rotation 180° around the origin followed by a translation left 6 units and up 9 units\nThis sequence does not correctly map XYZ onto X'Y'Z'."
       ],
       [
         "5/5",
-        "\u274c a reflection across the x-axis followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map XYZ onto X'Y'Z'."
+        "❌ a reflection across the x-axis followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map XYZ onto X'Y'Z'."
       ]
     ],
     "solution_image_tag": [
@@ -2640,8 +2696,8 @@
     "question_number": "5_49",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a translation left 4 units and down 3 units followed by a rotation 90\u00b0 clockwise around the origin",
-      "a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis",
+      "a translation left 4 units and down 3 units followed by a rotation 90° clockwise around the origin",
+      "a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis",
       "a translation right 4 units and up 3 units followed by a reflection across the y-axis"
     ],
     "correct_answers": [
@@ -2654,7 +2710,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 4 units and up 3 units followed by a reflection across the y-axis\nFirst, translate VWX right 4 units and up 3 units to map it onto VWX''.Then, reflection across the y-axis to map it onto V'W'X'."
+        "✅ a translation right 4 units and up 3 units followed by a reflection across the y-axis\nFirst, translate VWX right 4 units and up 3 units to map it onto VWX''.Then, reflection across the y-axis to map it onto V'W'X'."
       ],
       [
         "3/5",
@@ -2662,11 +2718,11 @@
       ],
       [
         "4/5",
-        "\u274c a translation left 4 units and down 3 units followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map VWX onto V'W'X'."
+        "❌ a translation left 4 units and down 3 units followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map VWX onto V'W'X'."
       ],
       [
         "5/5",
-        "\u274c a rotation 90\u00b0 counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map VWX onto V'W'X'."
+        "❌ a rotation 90° counterclockwise around the origin followed by a reflection across the x-axis\nThis sequence does not correctly map VWX onto V'W'X'."
       ]
     ],
     "solution_image_tag": [
@@ -2696,8 +2752,8 @@
     "question_number": "5_50",
     "tag": "Gr8_41_E5",
     "choices": [
-      "a translation left 6 units and down 2 units followed by a rotation 90\u00b0 clockwise around the origin",
-      "a rotation 180\u00b0 around the origin followed by a translation left 6 units and up 2 units",
+      "a translation left 6 units and down 2 units followed by a rotation 90° clockwise around the origin",
+      "a rotation 180° around the origin followed by a translation left 6 units and up 2 units",
       "a translation right 6 units and up 2 units followed by a reflection across the y-axis"
     ],
     "correct_answers": [
@@ -2710,7 +2766,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 6 units and up 2 units followed by a reflection across the y-axis\nFirst, translate MNO right 6 units and up 2 units to map it onto MNO''.Then, reflection across the y-axis to map it onto M'N'O'."
+        "✅ a translation right 6 units and up 2 units followed by a reflection across the y-axis\nFirst, translate MNO right 6 units and up 2 units to map it onto MNO''.Then, reflection across the y-axis to map it onto M'N'O'."
       ],
       [
         "3/5",
@@ -2718,11 +2774,11 @@
       ],
       [
         "4/5",
-        "\u274c a translation left 6 units and down 2 units followed by a rotation 90\u00b0 clockwise around the origin\nThis sequence does not correctly map MNO onto M'N'O'."
+        "❌ a translation left 6 units and down 2 units followed by a rotation 90° clockwise around the origin\nThis sequence does not correctly map MNO onto M'N'O'."
       ],
       [
         "5/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 6 units and up 2 units\nThis sequence does not correctly map MNO onto M'N'O'."
+        "❌ a rotation 180° around the origin followed by a translation left 6 units and up 2 units\nThis sequence does not correctly map MNO onto M'N'O'."
       ]
     ],
     "solution_image_tag": [
@@ -2754,7 +2810,7 @@
     "choices": [
       "a reflection across the y-axis followed by a translation right 6 units and down 4 units",
       "a translation right 6 units and up 4 units followed by a reflection across the y-axis",
-      "a rotation 180\u00b0 around the origin followed by a translation left 6 units and up 4 units"
+      "a rotation 180° around the origin followed by a translation left 6 units and up 4 units"
     ],
     "correct_answers": [
       "B"
@@ -2766,7 +2822,7 @@
       ],
       [
         "2/5",
-        "\u2705 a translation right 6 units and up 4 units followed by a reflection across the y-axis\nFirst, translate VWX right 6 units and up 4 units to map it onto VWX''.Then, reflection across the y-axis to map it onto V'W'X'."
+        "✅ a translation right 6 units and up 4 units followed by a reflection across the y-axis\nFirst, translate VWX right 6 units and up 4 units to map it onto VWX''.Then, reflection across the y-axis to map it onto V'W'X'."
       ],
       [
         "3/5",
@@ -2774,11 +2830,11 @@
       ],
       [
         "4/5",
-        "\u274c a rotation 180\u00b0 around the origin followed by a translation left 6 units and up 4 units\nThis sequence does not correctly map VWX onto V'W'X'."
+        "❌ a rotation 180° around the origin followed by a translation left 6 units and up 4 units\nThis sequence does not correctly map VWX onto V'W'X'."
       ],
       [
         "5/5",
-        "\u274c a reflection across the y-axis followed by a translation right 6 units and down 4 units\nThis sequence does not correctly map VWX onto V'W'X'."
+        "❌ a reflection across the y-axis followed by a translation right 6 units and down 4 units\nThis sequence does not correctly map VWX onto V'W'X'."
       ]
     ],
     "solution_image_tag": [

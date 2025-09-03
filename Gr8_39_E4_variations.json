@@ -1,6 +1,122 @@
 [
   {
-    "question_text": "The purple shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The blue shape is a dilation of the black shape. Is it an enlargement or a reduction?",
+    "skills": "dilations-scale-factor-and-classification",
+    "image_tag": "Gr8_39_4_1",
+    "backend_description": "The image shows a coordinate grid with a black quadrilateral near the bottom and a smaller blue version of the same shape positioned above it. The blue shape is a dilation of the black shape and represents a reduction.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "4_1",
+    "tag": "Gr8_39_E4",
+    "choices": [
+      "enlargement",
+      "reduction"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/8",
+        "The blue shape is smaller than the black shape. So, the dilation is a reduction."
+      ],
+      [
+        "2/8",
+        "You can check our answer $b$ finding the scale factor. Find the length of one side in the original shape."
+      ],
+      [
+        "3/8",
+        "The side connects (-8,-6) and (0,-6). It is 8 units long."
+      ],
+      [
+        "4/8",
+        "Find the length of the corresponding side in the image."
+      ],
+      [
+        "5/8",
+        "The side connects (-4,-3) and (0,-3). It is 4 units long."
+      ],
+      [
+        "6/8",
+        "Write the ratio of the length in the image to the length in the original figure.\n$\\frac{4}{8}$"
+      ],
+      [
+        "7/8",
+        "Simplify the fraction.\n$\\frac{4}{8}=\\frac{1}{2}$"
+      ],
+      [
+        "8/8",
+        "The scale factor is $\\frac{1}{2}$. Since the scale factor is less than 1, the dilation is a reduction."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/8",
+        "Gr8_39_4_1_step_1",
+        "The image shows a coordinate grid with a black quadrilateral located below the x-axis and a smaller blue quadrilateral above it. A red segment highlights one side of the black quadrilateral, which connects the points (-8, -6) and (0, -6), measuring 8 units long."
+      ],
+      [
+        "2/8",
+        "Gr8_39_4_1_step_2",
+        "The image shows a coordinate grid with a black quadrilateral located below the x-axis and a smaller blue quadrilateral above it. A red segment highlights one side of the blue quadrilateral, which connects the points (-4, -3) and (0, -3), measuring 4 units long."
+      ]
+    ]
+  },
+  {
+    "question_text": "The purple shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify our answer and write it as a fraction or whole number.\n _",
+    "skills": "dilations-scale-factor-and-classification",
+    "image_tag": "Gr8_39_4_2",
+    "backend_description": "The image shows a coordinate grid with a black triangle and a smaller purple triangle below it. The purple shape is a dilation of the black shape. Each side of the purple triangle corresponds to a side of the black triangle. The top side of the black triangle stretches from (-6,10) to (10,10), which is 16 units long, and the corresponding side in the purple triangle goes from (-3,5) to (5,5), which is 8 units long. The left side of the black triangle connects (-8,-4) to (-6,10), and the corresponding side in the purple triangle connects (-4,-2) to (-3,5). The right side of the black triangle connects (10,10) to (-8,-4), and the corresponding side in the purple triangle connects (5,5) to (-4,-2). All three sides of the purple triangle are half the length of the corresponding sides in the black triangle, indicating a scale factor of 1/2.",
+    "question_type": "Fill in the blank",
+    "question_number": "4_2",
+    "tag": "Gr8_39_E4",
+    "correct_answers": [
+      "1/2"
+    ],
+    "solution": [
+      [
+        "1/7",
+        "Find the length of one side in the original shape."
+      ],
+      [
+        "2/7",
+        "The side connects (-6,10) and (10,10). It is 16 units long."
+      ],
+      [
+        "3/7",
+        "Find the length of the corresponding side in the image."
+      ],
+      [
+        "4/7",
+        "The side connects (-3,5) and (5,5). It is 8 units long."
+      ],
+      [
+        "5/7",
+        "Write the ratio of the length in the image to the length in the original figure.\n$\\frac{8}{16}$"
+      ],
+      [
+        "6/7",
+        "Simplify the fraction.\n$\\frac{8}{16}=\\frac{1}{2}$"
+      ],
+      [
+        "7/7",
+        "The scale factor is $\\frac{1}{2}$."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/7",
+        "Gr8_39_4_2_step_1",
+        "The image shows a coordinate grid with a large black triangle and a smaller purple triangle. A red segment highlights one side of the black triangle, which connects the points (-6,10) and (10,10), measuring 16 units long."
+      ],
+      [
+        "2/7",
+        "Gr8_39_4_2_step_2",
+        "The image shows a coordinate grid with a large black triangle and a smaller purple triangle. A red segment highlights one side of the purple triangle, which connects the points (-3,5) and (5,5), measuring 8 units long."
+      ]
+    ]
+  },
+  {
+    "question_text": "The purple shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_3",
     "backend_description": "The image shows a coordinate grid with a black rectangle and a purple rectangle. The purple shape is a dilation of the black shape. Each side of the purple rectangle is 1/6 the length of the corresponding side in the black rectangle. This represents Harry Potter spell effect transformation.",
@@ -54,7 +170,7 @@
     ]
   },
   {
-    "question_text": "The pink shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The pink shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_4",
     "backend_description": "The image shows a coordinate grid with a black pentagon and a pink pentagon. The pink shape is a dilation of the black shape. Each side of the pink pentagon is 2/4 the length of the corresponding side in the black pentagon. This represents Hulk transformation transformation.",
@@ -170,7 +286,7 @@
     ]
   },
   {
-    "question_text": "The brown shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The brown shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_6",
     "backend_description": "The image shows a coordinate grid with a black hexagon and a brown hexagon. The brown shape is a dilation of the black shape. Each side of the brown hexagon is 1/4 the length of the corresponding side in the black hexagon. This represents Mario mushroom effect transformation.",
@@ -224,7 +340,7 @@
     ]
   },
   {
-    "question_text": "The purple shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The purple shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_7",
     "backend_description": "The image shows a coordinate grid with a black triangle and a purple triangle. The purple shape is a dilation of the black shape. Each side of the purple triangle is 1/2 the length of the corresponding side in the black triangle. This represents Star Wars force effect transformation.",
@@ -278,7 +394,7 @@
     ]
   },
   {
-    "question_text": "The gray shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The gray shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_8",
     "backend_description": "The image shows a coordinate grid with a black rectangle and a gray rectangle. The gray shape is a dilation of the black shape. Each side of the gray rectangle is 1/2 the length of the corresponding side in the black rectangle. This represents Dragon Ball power-up transformation.",
@@ -332,7 +448,7 @@
     ]
   },
   {
-    "question_text": "The blue shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The blue shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_9",
     "backend_description": "The image shows a coordinate grid with a black quadrilateral and a blue quadrilateral. The blue shape is a dilation of the black shape. Each side of the blue quadrilateral is 2/4 the length of the corresponding side in the black quadrilateral. This represents Sonic boost transformation.",
@@ -386,7 +502,7 @@
     ]
   },
   {
-    "question_text": "The red shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The red shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_10",
     "backend_description": "The image shows a coordinate grid with a black pentagon and a red pentagon. The red shape is a dilation of the black shape. Each side of the red pentagon is 3/4 the length of the corresponding side in the black pentagon. This represents Hulk transformation transformation.",
@@ -564,7 +680,7 @@
     ]
   },
   {
-    "question_text": "The yellow shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The yellow shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_13",
     "backend_description": "The image shows a coordinate grid with a black hexagon and a yellow hexagon. The yellow shape is a dilation of the black shape. Each side of the yellow hexagon is 2/3 the length of the corresponding side in the black hexagon. This represents Mario mushroom effect transformation.",
@@ -618,7 +734,7 @@
     ]
   },
   {
-    "question_text": "The brown shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The brown shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_14",
     "backend_description": "The image shows a coordinate grid with a black trapezoid and a brown trapezoid. The brown shape is a dilation of the black shape. Each side of the brown trapezoid is 3/4 the length of the corresponding side in the black trapezoid. This represents Avatar state transformation transformation.",
@@ -734,7 +850,7 @@
     ]
   },
   {
-    "question_text": "The green shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The green shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_16",
     "backend_description": "The image shows a coordinate grid with a black square and a green square. The green shape is a dilation of the black shape. Each side of the green square is 2/3 the length of the corresponding side in the black square. This represents Mario mushroom effect transformation.",
@@ -850,7 +966,7 @@
     ]
   },
   {
-    "question_text": "The green shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The green shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_18",
     "backend_description": "The image shows a coordinate grid with a black triangle and a green triangle. The green shape is a dilation of the black shape. Each side of the green triangle is 2/3 the length of the corresponding side in the black triangle. This represents Pokemon evolution transformation.",
@@ -966,7 +1082,7 @@
     ]
   },
   {
-    "question_text": "The orange shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The orange shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_20",
     "backend_description": "The image shows a coordinate grid with a black quadrilateral and a orange quadrilateral. The orange shape is a dilation of the black shape. Each side of the orange quadrilateral is 2/6 the length of the corresponding side in the black quadrilateral. This represents Hulk transformation transformation.",
@@ -1082,7 +1198,7 @@
     ]
   },
   {
-    "question_text": "The pink shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The pink shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_22",
     "backend_description": "The image shows a coordinate grid with a black parallelogram and a pink parallelogram. The pink shape is a dilation of the black shape. Each side of the pink parallelogram is 3/4 the length of the corresponding side in the black parallelogram. This represents Naruto chakra mode transformation.",
@@ -1322,7 +1438,7 @@
     ]
   },
   {
-    "question_text": "The orange shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The orange shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_26",
     "backend_description": "The image shows a coordinate grid with a black hexagon and a orange hexagon. The orange shape is a dilation of the black shape. Each side of the orange hexagon is 2/3 the length of the corresponding side in the black hexagon. This represents Hulk transformation transformation.",
@@ -1438,7 +1554,7 @@
     ]
   },
   {
-    "question_text": "The blue shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The blue shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_28",
     "backend_description": "The image shows a coordinate grid with a black hexagon and a blue hexagon. The blue shape is a dilation of the black shape. Each side of the blue hexagon is 1/6 the length of the corresponding side in the black hexagon. This represents Harry Potter spell effect transformation.",
@@ -1492,7 +1608,7 @@
     ]
   },
   {
-    "question_text": "The blue shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The blue shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_29",
     "backend_description": "The image shows a coordinate grid with a black trapezoid and a blue trapezoid. The blue shape is a dilation of the black shape. Each side of the blue trapezoid is 2/3 the length of the corresponding side in the black trapezoid. This represents Star Wars force effect transformation.",
@@ -1546,7 +1662,7 @@
     ]
   },
   {
-    "question_text": "The gray shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The gray shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_30",
     "backend_description": "The image shows a coordinate grid with a black pentagon and a gray pentagon. The gray shape is a dilation of the black shape. Each side of the gray pentagon is 1/2 the length of the corresponding side in the black pentagon. This represents Mario mushroom effect transformation.",
@@ -1600,7 +1716,7 @@
     ]
   },
   {
-    "question_text": "The cyan shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The cyan shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_31",
     "backend_description": "The image shows a coordinate grid with a black hexagon and a cyan hexagon. The cyan shape is a dilation of the black shape. Each side of the cyan hexagon is 4/5 the length of the corresponding side in the black hexagon. This represents Naruto chakra mode transformation.",
@@ -1902,7 +2018,7 @@
     ]
   },
   {
-    "question_text": "The purple shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The purple shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_36",
     "backend_description": "The image shows a coordinate grid with a black triangle and a purple triangle. The purple shape is a dilation of the black shape. Each side of the purple triangle is 2/4 the length of the corresponding side in the black triangle. This represents Dragon Ball power-up transformation.",
@@ -1956,7 +2072,7 @@
     ]
   },
   {
-    "question_text": "The blue shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The blue shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_37",
     "backend_description": "The image shows a coordinate grid with a black rectangle and a blue rectangle. The blue shape is a dilation of the black shape. Each side of the blue rectangle is 2/6 the length of the corresponding side in the black rectangle. This represents Sonic boost transformation.",
@@ -2010,7 +2126,7 @@
     ]
   },
   {
-    "question_text": "The yellow shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The yellow shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_38",
     "backend_description": "The image shows a coordinate grid with a black square and a yellow square. The yellow shape is a dilation of the black shape. Each side of the yellow square is 3/4 the length of the corresponding side in the black square. This represents Naruto chakra mode transformation.",
@@ -2064,7 +2180,7 @@
     ]
   },
   {
-    "question_text": "The brown shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The brown shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_39",
     "backend_description": "The image shows a coordinate grid with a black triangle and a brown triangle. The brown shape is a dilation of the black shape. Each side of the brown triangle is 2/3 the length of the corresponding side in the black triangle. This represents Harry Potter spell effect transformation.",
@@ -2118,7 +2234,7 @@
     ]
   },
   {
-    "question_text": "The red shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The red shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_40",
     "backend_description": "The image shows a coordinate grid with a black parallelogram and a red parallelogram. The red shape is a dilation of the black shape. Each side of the red parallelogram is 2/3 the length of the corresponding side in the black parallelogram. This represents Pokemon evolution transformation.",
@@ -2172,7 +2288,7 @@
     ]
   },
   {
-    "question_text": "The pink shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The pink shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_41",
     "backend_description": "The image shows a coordinate grid with a black parallelogram and a pink parallelogram. The pink shape is a dilation of the black shape. Each side of the pink parallelogram is 4/5 the length of the corresponding side in the black parallelogram. This represents Pokemon evolution transformation.",
@@ -2226,7 +2342,7 @@
     ]
   },
   {
-    "question_text": "The pink shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The pink shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_42",
     "backend_description": "The image shows a coordinate grid with a black quadrilateral and a pink quadrilateral. The pink shape is a dilation of the black shape. Each side of the pink quadrilateral is 4/6 the length of the corresponding side in the black quadrilateral. This represents Avatar state transformation transformation.",
@@ -2280,7 +2396,7 @@
     ]
   },
   {
-    "question_text": "The gray shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The gray shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_43",
     "backend_description": "The image shows a coordinate grid with a black square and a gray square. The gray shape is a dilation of the black shape. Each side of the gray square is 2/6 the length of the corresponding side in the black square. This represents Harry Potter spell effect transformation.",
@@ -2334,7 +2450,7 @@
     ]
   },
   {
-    "question_text": "The purple shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The purple shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_44",
     "backend_description": "The image shows a coordinate grid with a black square and a purple square. The purple shape is a dilation of the black shape. Each side of the purple square is 3/4 the length of the corresponding side in the black square. This represents Harry Potter spell effect transformation.",
@@ -2388,7 +2504,7 @@
     ]
   },
   {
-    "question_text": "The gray shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The gray shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_45",
     "backend_description": "The image shows a coordinate grid with a black parallelogram and a gray parallelogram. The gray shape is a dilation of the black shape. Each side of the gray parallelogram is 4/5 the length of the corresponding side in the black parallelogram. This represents Harry Potter spell effect transformation.",
@@ -2752,7 +2868,7 @@
     ]
   },
   {
-    "question_text": "The gray shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.",
+    "question_text": "The gray shape is a dilation of the black shape. What is the scale factor of the dilation?\nSimplify your answer and write it as a fraction or whole number.\n _",
     "skills": "dilations-scale-factor-and-classification",
     "image_tag": "Gr8_39_4_51",
     "backend_description": "The image shows a coordinate grid with a black pentagon and a gray pentagon. The gray shape is a dilation of the black shape. Each side of the gray pentagon is 3/4 the length of the corresponding side in the black pentagon. This represents Harry Potter spell effect transformation.",

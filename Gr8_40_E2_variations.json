@@ -1,5 +1,49 @@
 [
   {
+    "question_text": "What combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_1",
+    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_1",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+      ],
+      [
+        "2/3",
+        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+      ],
+      [
+        "3/3",
+        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_1_step_1",
+        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_1_step_2",
+        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+      ]
+    ]
+  },
+  {
     "question_text": "Which transformations created this final result?",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_2",
@@ -23,7 +67,7 @@
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270\u00b0 counterclockwise."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° counterclockwise."
       ],
       [
         "3/3",
@@ -63,7 +107,7 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 270\u00b0 clockwise."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 270° clockwise."
       ],
       [
         "2/3",
@@ -111,7 +155,7 @@
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270\u00b0 counterclockwise."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° counterclockwise."
       ],
       [
         "3/3",
@@ -151,7 +195,7 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 270\u00b0 clockwise."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 270° clockwise."
       ],
       [
         "2/3",
@@ -195,7 +239,7 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180\u00b0 clockwise."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180° clockwise."
       ],
       [
         "2/3",
@@ -239,7 +283,7 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 270\u00b0 counterclockwise."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 270° counterclockwise."
       ],
       [
         "2/3",
@@ -547,7 +591,7 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 90\u00b0 counterclockwise."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 90° counterclockwise."
       ],
       [
         "2/3",
@@ -683,7 +727,7 @@
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 180\u00b0 counterclockwise."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 180° counterclockwise."
       ],
       [
         "3/3",
@@ -723,7 +767,7 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 270\u00b0 clockwise."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 270° clockwise."
       ],
       [
         "2/3",
@@ -771,7 +815,7 @@
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 180\u00b0 clockwise."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 180° clockwise."
       ],
       [
         "3/3",
@@ -811,7 +855,7 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180\u00b0 counterclockwise."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180° counterclockwise."
       ],
       [
         "2/3",
@@ -899,7 +943,7 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180\u00b0 counterclockwise."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180° counterclockwise."
       ],
       [
         "2/3",
@@ -1031,7 +1075,7 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 90\u00b0 counterclockwise."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 90° counterclockwise."
       ],
       [
         "2/3",
@@ -1167,7 +1211,7 @@
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90\u00b0 clockwise."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° clockwise."
       ],
       [
         "3/3",
@@ -1211,7 +1255,7 @@
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90\u00b0 clockwise."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° clockwise."
       ],
       [
         "3/3",
@@ -1251,7 +1295,7 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180\u00b0 clockwise."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180° clockwise."
       ],
       [
         "2/3",
@@ -1299,7 +1343,7 @@
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270\u00b0 counterclockwise."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° counterclockwise."
       ],
       [
         "3/3",
@@ -1343,7 +1387,7 @@
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90\u00b0 clockwise."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° clockwise."
       ],
       [
         "3/3",
@@ -1387,7 +1431,7 @@
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90\u00b0 clockwise."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° clockwise."
       ],
       [
         "3/3",
@@ -1427,7 +1471,7 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 90\u00b0 counterclockwise."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 90° counterclockwise."
       ],
       [
         "2/3",
@@ -1475,7 +1519,7 @@
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270\u00b0 counterclockwise."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° counterclockwise."
       ],
       [
         "3/3",
@@ -1519,7 +1563,7 @@
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 180\u00b0 counterclockwise."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 180° counterclockwise."
       ],
       [
         "3/3",
@@ -1563,7 +1607,7 @@
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270\u00b0 counterclockwise."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° counterclockwise."
       ],
       [
         "3/3",
@@ -1651,7 +1695,7 @@
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90\u00b0 clockwise."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° clockwise."
       ],
       [
         "3/3",
@@ -1695,7 +1739,7 @@
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90\u00b0 counterclockwise."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° counterclockwise."
       ],
       [
         "3/3",
@@ -1739,7 +1783,7 @@
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270\u00b0 counterclockwise."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° counterclockwise."
       ],
       [
         "3/3",
@@ -1823,7 +1867,7 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180\u00b0 clockwise."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180° clockwise."
       ],
       [
         "2/3",
@@ -1867,7 +1911,7 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180\u00b0 counterclockwise."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180° counterclockwise."
       ],
       [
         "2/3",
@@ -1915,7 +1959,7 @@
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270\u00b0 counterclockwise."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° counterclockwise."
       ],
       [
         "3/3",
@@ -1955,7 +1999,7 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 90\u00b0 counterclockwise."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 90° counterclockwise."
       ],
       [
         "2/3",
@@ -2047,7 +2091,7 @@
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90\u00b0 clockwise."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° clockwise."
       ],
       [
         "3/3",
@@ -2087,7 +2131,7 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 270\u00b0 counterclockwise."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 270° counterclockwise."
       ],
       [
         "2/3",
@@ -2135,7 +2179,7 @@
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270\u00b0 clockwise."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° clockwise."
       ],
       [
         "3/3",
