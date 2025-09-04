@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr6_9_2_33_step_2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: white;
+        }
+        .item {
+            display: inline-block;
+            border: 2px solid #333;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+        .subtraction {
+            font-family: 'Courier New', monospace;
+            font-size: 24px;
+            letter-spacing: 8px;
+        }
+        .number-row {
+            text-align: right;
+            margin: 5px 0;
+            position: relative;
+        }
+        .operator {
+            position: absolute;
+            left: -30px;
+            font-size: 28px;
+        }
+        .divider {
+            border-top: 3px solid #333;
+            margin: 10px 0;
+        }
+        .digit {
+            display: inline-block;
+            width: 30px;
+            text-align: center;
+        }
+        .highlight {
+            background-color: #ffeb3b;
+            border-radius: 4px;
+            padding: 2px;
+        }
+        .result-partial {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr6_9_2_33_step_2">
+        <div class="subtraction">
+            <div class="number-row">
+                <span class="digit">6</span><span class="digit">1</span><span class="digit">2</span><span class="digit">0</span><span class="digit highlight">8</span>
+            </div>
+            <div class="number-row">
+                <span class="operator">−</span>
+                <span class="digit">1</span><span class="digit">4</span><span class="digit">1</span><span class="digit">7</span><span class="digit highlight">0</span>
+            </div>
+            <div class="divider"></div>
+            <div class="number-row result-partial">
+                <span class="digit"> </span><span class="digit"> </span><span class="digit"> </span><span class="digit"> </span><span class="digit highlight">8</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

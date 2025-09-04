@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .item {
+            display: inline-block;
+            margin: 10px;
+        }
+        svg {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Question 1_15: Map from Hillside to Greenwood via Springdale -->
+    <div class="item" label="Gr6_15_5_2">
+        <svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+            <!-- Background -->
+            <rect width="400" height="300" fill="#f8f8f8" stroke="#ddd" stroke-width="1"/>
+            
+            <!-- Location: Hillside -->
+            <circle cx="80" cy="150" r="5" fill="#4169E1"/>
+            <text x="80" y="140" text-anchor="middle" font-family="Arial" font-size="14">Hillside</text>
+            
+            <!-- Location: Springdale -->
+            <circle cx="200" cy="80" r="5" fill="#4169E1"/>
+            <text x="200" y="70" text-anchor="middle" font-family="Arial" font-size="14">Springdale</text>
+            
+            <!-- Location: Greenwood -->
+            <circle cx="320" cy="200" r="5" fill="#4169E1"/>
+            <text x="320" y="190" text-anchor="middle" font-family="Arial" font-size="14">Greenwood</text>
+            
+            <!-- Path from Hillside to Springdale -->
+            <line x1="80" y1="150" x2="200" y2="80" stroke="#FF69B4" stroke-width="2"/>
+            <text x="140" y="110" text-anchor="middle" font-family="Arial" font-size="12" fill="#FF1493">7.6 km</text>
+            
+            <!-- Path from Springdale to Greenwood -->
+            <line x1="200" y1="80" x2="320" y2="200" stroke="#FF69B4" stroke-width="2"/>
+            <text x="260" y="140" text-anchor="middle" font-family="Arial" font-size="12" fill="#FF1493">5.3 km</text>
+        </svg>
+    </div>
+</body>
+</html>
