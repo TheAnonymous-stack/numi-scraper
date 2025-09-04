@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr8_44_1_41</title>
+    <style>
+        body { margin: 20px; font-family: Arial, sans-serif; background-color: #f5f5f5; }
+        .item { 
+            margin: 20px 0; 
+            border: 2px solid #333; 
+            padding: 20px; 
+            display: inline-block; 
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        svg { display: block; margin: 0 auto; }
+        .angle-label { font-size: 14px; font-weight: bold; fill: #000; }
+        .ray { stroke: #000; stroke-width: 2; }
+        .point { fill: #000; }
+        .angle-arc { stroke: #007acc; stroke-width: 2; fill: none; }
+        .highlight { stroke: #ff6b00; stroke-width: 3; }
+        .solution-highlight { stroke: #ff0000; stroke-width: 3; fill: none; }
+        .title { text-align: center; margin-bottom: 10px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="item" label="Gr8_44_1_41">
+    <div class="title">Main Question Image</div>
+    <svg width="350" height="300" viewBox="0 0 350 300">
+        
+        <!-- Central point G -->
+        <circle cx="150" cy="150" r="3" class="point" />
+        <text x="145" y="140" class="angle-label">G</text>
+        
+        <!-- Rays from G -->
+        <line x1="150" y1="150" x2="150" y2="50" class="ray" />  <!-- Ray GB -->
+        <line x1="150" y1="150" x2="250" y2="150" class="ray" /> <!-- Ray GF -->
+        <line x1="150" y1="150" x2="150" y2="250" class="ray" /> <!-- Ray GA -->
+        <line x1="150" y1="150" x2="50" y2="150" class="ray" />  <!-- Ray GC -->
+        <line x1="150" y1="150" x2="220" y2="80" class="ray" />  <!-- Ray GE -->
+        
+        <!-- Point labels -->
+        <text x="145" y="40" class="angle-label">B</text>
+        <text x="260" y="155" class="angle-label">F</text>
+        <text x="145" y="270" class="angle-label">A</text>
+        <text x="35" y="155" class="angle-label">C</text>
+        <text x="225" y="75" class="angle-label">E</text>
+    
+        <!-- Right angle indicator -->
+        <rect x="140" y="140" width="20" height="20" fill="none" stroke="#000" stroke-width="1" />
+        <!-- Question angle marked -->
+        <path d="M 200 150 A 50 50 0 0 0 150 200" class="angle-arc" />
+        <text x="175" y="185" class="angle-label">∠AGC</text>
+            
+    </svg>
+</div>
+
+<div class="item" label="Gr8_44_1_41_step_1">
+    <div class="title">Solution Step Image</div>
+    <svg width="350" height="320" viewBox="0 0 350 320">
+        
+        <!-- Central point G -->
+        <circle cx="150" cy="150" r="3" class="point" />
+        <text x="145" y="140" class="angle-label">G</text>
+        
+        <!-- Rays from G -->
+        <line x1="150" y1="150" x2="150" y2="50" class="ray" />  <!-- Ray GB -->
+        <line x1="150" y1="150" x2="250" y2="150" class="ray" /> <!-- Ray GF -->
+        <line x1="150" y1="150" x2="150" y2="250" class="ray" /> <!-- Ray GA -->
+        <line x1="150" y1="150" x2="50" y2="150" class="ray" />  <!-- Ray GC -->
+        <line x1="150" y1="150" x2="220" y2="80" class="ray" />  <!-- Ray GE -->
+        
+        <!-- Point labels -->
+        <text x="145" y="40" class="angle-label">B</text>
+        <text x="260" y="155" class="angle-label">F</text>
+        <text x="145" y="270" class="angle-label">A</text>
+        <text x="35" y="155" class="angle-label">C</text>
+        <text x="225" y="75" class="angle-label">E</text>
+    
+        <!-- Right angle indicator -->
+        <rect x="140" y="140" width="20" height="20" fill="none" stroke="#000" stroke-width="1" />
+        <!-- Complementary angles highlighted -->
+        <path d="M 200 150 A 50 50 0 0 0 150 200" class="solution-highlight" stroke-width="3" />
+        <path d="M 150 100 A 50 50 0 0 0 100 150" class="solution-highlight" stroke-width="3" />
+        <text x="175" y="185" class="angle-label" fill="#ff0000">∠AGC</text>
+        <text x="115" y="125" class="angle-label" fill="#ff0000">∠BGC</text>
+        <text x="60" y="280" class="angle-label" style="font-size: 12px;">Complementary Angles - Two angles that add up to 90°</text>
+            
+    </svg>
+</div>
+
+</body>
+</html>

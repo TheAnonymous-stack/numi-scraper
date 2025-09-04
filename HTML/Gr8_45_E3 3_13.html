@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Segment Bisection</title>
+    <style>
+        .item {
+            display: inline-block;
+            margin: 10px;
+        }
+        .line-segment {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .segment {
+            width: 55px;
+            height: 3px;
+            background-color: #333;
+            margin: 0 2px;
+            position: relative;
+        }
+        .label {
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+        }
+        .bisection-point {
+            width: 3px;
+            height: 15px;
+            background-color: #333;
+            margin: 0 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr8_45_3_13">
+        <div class="line-segment">
+            <div class="segment">
+                <div class="label">11 cm</div>
+            </div>
+            <div class="bisection-point"></div>
+            <div class="segment">
+                <div class="label">11 cm</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Area Visualization</title>
+    <style>
+        .item {
+            display: inline-block;
+            margin: 20px;
+            text-align: center;
+        }
+        svg {
+            border: 1px solid #ccc;
+        }
+        text {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            fill: #333;
+        }
+        .triangle {
+            fill: #87CEEB;
+            stroke: #000;
+            stroke-width: 2;
+        }
+        .dimension-line {
+            stroke: #666;
+            stroke-width: 1;
+        }
+        .dimension-text {
+            font-size: 10px;
+            fill: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr8_46_2_25">
+        <svg width="268" height="224">
+            <!-- Triangle with base 14 cm and height 18 cm -->
+            <polygon class="triangle" points="50,184 190,184 120.0,40" />
+            
+            <!-- Base dimension line -->
+            <line class="dimension-line" x1="50" y1="199" x2="190" y2="199" />
+            <line class="dimension-line" x1="50" y1="194" x2="50" y2="204" />
+            <line class="dimension-line" x1="190" y1="194" x2="190" y2="204" />
+            <text class="dimension-text" x="120.0" y="214" text-anchor="middle">14 cm</text>
+            
+            <!-- Height dimension line -->
+            <line class="dimension-line" x1="30" y1="40" x2="30" y2="184" />
+            <line class="dimension-line" x1="25" y1="40" x2="35" y2="40" />
+            <line class="dimension-line" x1="25" y1="184" x2="35" y2="184" />
+            <text class="dimension-text" x="15" y="112.0" text-anchor="middle" transform="rotate(-90, 15, 112.0)">18 cm</text>
+            
+            <!-- Height line (dotted) -->
+            <line stroke="#999" stroke-width="1" stroke-dasharray="3,3" x1="120.0" y1="40" x2="120.0" y2="184" />
+        </svg>
+    </div>
+</body>
+</html>

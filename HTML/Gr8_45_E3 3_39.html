@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angle Bisection</title>
+    <style>
+        .item {
+            display: inline-block;
+            margin: 10px;
+        }
+        .angle-diagram {
+            position: relative;
+            width: 120px;
+            height: 80px;
+        }
+        .ray {
+            position: absolute;
+            width: 60px;
+            height: 2px;
+            background-color: #333;
+            transform-origin: 0% 50%;
+        }
+        .ray1 {
+            bottom: 20px;
+            left: 20px;
+            transform: rotate(30deg);
+        }
+        .ray2 {
+            bottom: 20px;
+            left: 20px;
+            transform: rotate(-30deg);
+        }
+        .ray-bisector {
+            bottom: 20px;
+            left: 20px;
+            transform: rotate(0deg);
+            background-color: #666;
+            border-style: dashed;
+        }
+        .total-angle-label {
+            position: absolute;
+            font-size: 12px;
+            font-weight: bold;
+            color: #333;
+            top: 25px;
+            left: 45px;
+        }
+        .vertex {
+            position: absolute;
+            bottom: 18px;
+            left: 18px;
+            width: 4px;
+            height: 4px;
+            background-color: #333;
+            border-radius: 50%;
+        }
+        .angle-arc {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            width: 40px;
+            height: 40px;
+            border: 1px solid #666;
+            border-radius: 50%;
+            border-right: none;
+            border-bottom: none;
+            transform: rotate(-30deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr8_45_3_39">
+        <div class="angle-diagram">
+            <div class="ray ray1"></div>
+            <div class="ray ray2"></div>
+            <div class="ray ray-bisector"></div>
+            <div class="vertex"></div>
+            <div class="angle-arc"></div>
+            <div class="total-angle-label">70°</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angle Diagram - Solution</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .item {
+            display: inline-block;
+            position: relative;
+        }
+        svg {
+            display: block;
+        }
+        text {
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+        }
+        .angle-arc {
+            fill: none;
+            stroke: #666;
+            stroke-width: 1.5;
+        }
+        .highlight-arc {
+            fill: rgba(255, 0, 0, 0.2);
+            stroke: red;
+            stroke-width: 2;
+        }
+        .right-angle-mark {
+            fill: none;
+            stroke: #333;
+            stroke-width: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr8_44_1_8_step_1">
+        <svg width="400" height="400" viewBox="0 0 400 400">
+            <!-- Central point G -->
+            <circle cx="200" cy="200" r="3" fill="black"/>
+            <text x="185" y="195" font-size="16" font-weight="bold">G</text>
+            
+            <!-- Ray GA (horizontal right) -->
+            <line x1="200" y1="200" x2="350" y2="200" stroke="black" stroke-width="2"/>
+            <text x="355" y="205" font-size="16">A</text>
+            
+            <!-- Ray GB (vertical up) -->
+            <line x1="200" y1="200" x2="200" y2="50" stroke="black" stroke-width="2"/>
+            <text x="195" y="40" font-size="16">B</text>
+            
+            <!-- Ray GC (diagonal upper left) -->
+            <line x1="200" y1="200" x2="100" y2="100" stroke="black" stroke-width="2"/>
+            <text x="85" y="95" font-size="16">C</text>
+            
+            <!-- Ray GE (horizontal left) -->
+            <line x1="200" y1="200" x2="50" y2="200" stroke="black" stroke-width="2"/>
+            <text x="35" y="205" font-size="16">E</text>
+            
+            <!-- Ray GF (diagonal lower left) -->
+            <line x1="200" y1="200" x2="150" y2="300" stroke="black" stroke-width="2"/>
+            <text x="140" y="315" font-size="16">F</text>
+            
+            <!-- Highlighted angle region -->
+            <path d="M 230,200 A 30,30 0 0,1 200,170 L 200,200 Z" class="highlight-arc"/>
+            
+            <!-- Angle label -->
+            <text x="215" y="180" font-size="14" fill="red" font-weight="bold">∠FGA</text>
+        </svg>
+    </div>
+</body>
+</html>

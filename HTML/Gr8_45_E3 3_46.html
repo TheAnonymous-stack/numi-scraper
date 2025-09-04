@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angle Bisection</title>
+    <style>
+        .item {
+            display: inline-block;
+            margin: 10px;
+        }
+        .angle-diagram {
+            position: relative;
+            width: 120px;
+            height: 80px;
+        }
+        .ray {
+            position: absolute;
+            width: 60px;
+            height: 2px;
+            background-color: #333;
+            transform-origin: 0% 50%;
+        }
+        .ray1 {
+            bottom: 20px;
+            left: 20px;
+            transform: rotate(12deg);
+        }
+        .ray2 {
+            bottom: 20px;
+            left: 20px;
+            transform: rotate(-12deg);
+        }
+        .ray-bisector {
+            bottom: 20px;
+            left: 20px;
+            transform: rotate(0deg);
+            background-color: #666;
+        }
+        .angle-label {
+            position: absolute;
+            font-size: 12px;
+            font-weight: bold;
+            color: #333;
+        }
+        .angle1-label {
+            top: 32px;
+            left: 35px;
+        }
+        .angle2-label {
+            top: 48px;
+            left: 35px;
+        }
+        .vertex {
+            position: absolute;
+            bottom: 18px;
+            left: 18px;
+            width: 4px;
+            height: 4px;
+            background-color: #333;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr8_45_3_46">
+        <div class="angle-diagram">
+            <div class="ray ray1"></div>
+            <div class="ray ray2"></div>
+            <div class="ray ray-bisector"></div>
+            <div class="vertex"></div>
+            <div class="angle-label angle1-label">14°</div>
+            <div class="angle-label angle2-label">14°</div>
+        </div>
+    </div>
+</body>
+</html>

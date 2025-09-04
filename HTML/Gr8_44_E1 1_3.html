@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angle Diagram</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .item {
+            display: inline-block;
+            position: relative;
+        }
+        svg {
+            display: block;
+        }
+        text {
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+        }
+        .angle-arc {
+            fill: none;
+            stroke: #666;
+            stroke-width: 1.5;
+        }
+        .right-angle-mark {
+            fill: none;
+            stroke: #333;
+            stroke-width: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="item" label="Gr8_44_1_3">
+        <svg width="400" height="400" viewBox="0 0 400 400">
+            <!-- Central point G -->
+            <circle cx="200" cy="200" r="3" fill="black"/>
+            <text x="185" y="195" font-size="16" font-weight="bold">G</text>
+            
+            <!-- Ray GA (horizontal right) -->
+            <line x1="200" y1="200" x2="350" y2="200" stroke="black" stroke-width="2"/>
+            <text x="355" y="205" font-size="16">A</text>
+            
+            <!-- Ray GB (varies by question) -->
+            <line x1="200" y1="200" x2="200" y2="50" stroke="black" stroke-width="2" id="rayGB"/>
+            <text x="195" y="40" font-size="16" id="labelB">B</text>
+            
+            <!-- Ray GC (varies by question) -->
+            <line x1="200" y1="200" x2="100" y2="100" stroke="black" stroke-width="2" id="rayGC"/>
+            <text x="85" y="95" font-size="16" id="labelC">C</text>
+            
+            <!-- Ray GE (varies by question) -->
+            <line x1="200" y1="200" x2="50" y2="200" stroke="black" stroke-width="2" id="rayGE"/>
+            <text x="35" y="205" font-size="16" id="labelE">E</text>
+            
+            <!-- Ray GF (varies by question) -->
+            <line x1="200" y1="200" x2="150" y2="300" stroke="black" stroke-width="2" id="rayGF"/>
+            <text x="140" y="315" font-size="16" id="labelF">F</text>
+
+            <!-- Angle arc markings for vertical angles -->
+            <path d="M 220,200 A 20,20 0 0,1 200,180" class="angle-arc" stroke="red"/>
+            <path d="M 180,200 A 20,20 0 0,1 200,220" class="angle-arc" stroke="red"/>
+
+        </svg>
+    </div>
+
+</body>
+</html>
