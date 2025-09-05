@@ -1,2348 +1,2350 @@
-[
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_1",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "3/5",
-      "1/5"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Look at the first model. It shows 3 out of 5 equal parts colored, which represents $\\frac{3}{5}$."
+{
+  "quizzes": [
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_1",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "3/5",
+        "1/5"
       ],
-      [
-        "2/4",
-        "Look at the second model. It shows 1 out of 5 equal parts colored, which represents $\\frac{1}{5}$."
+      "correct_answers": [
+        "B"
       ],
-      [
+      "solution": [
+        [
+          "1/4",
+          "Look at the first model. It shows 3 out of 5 equal parts colored, which represents $\\frac{3}{5}$."
+        ],
+        [
+          "2/4",
+          "Look at the second model. It shows 1 out of 5 equal parts colored, which represents $\\frac{1}{5}$."
+        ],
+        [
+          "3/4",
+          "Both models have the same size and are divided into 5 equal parts. This means each part in both models is the same size."
+        ],
+        [
+          "4/4",
+          "Since the parts are the same size, 1 part is less than 3 parts. Therefore, $\\frac{1}{5}$ is less than $\\frac{3}{5}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_1_step_1",
+          "A vertical rectangle divided into five equal horizontal sections. The fraction 3/5 is displayed below. The top three-thirds are shaded in peach/orange color while the bottom two sections remain white."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_1_step_2",
+          "A vertical rectangle divided into five equal horizontal sections with the fraction 1/5 below. The top fifth is shaded in light blue while the bottom fourth remains white."
+        ]
+      ],
+      "question_number": "1_1",
+      "backend_description": "Two rectangles side by side showing fraction comparisons. The left rectangle is labeled '3/5' and is divided into five equal horizontal sections, with the top 3 sections colored orange. The right rectangle is labeled '1/5' and is also divided into five sections, with the top section colored light blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_2",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "1/6",
+        "5/6"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 1 of 6 parts colored: $\\frac{1}{6}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 5 of 6 parts colored: $\\frac{5}{6}$."
+        ],
+        [
+          "3/4",
+          "Both models have 6 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 5, $\\frac{1}{6}$ is less than $\\frac{5}{6}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_2_step_1",
+          "Rectangle divided into 6 sections. 1 sections shaded in orange showing 1/6."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_2_step_2",
+          "Rectangle divided into 6 sections. 5 sections shaded in blue showing 5/6."
+        ]
+      ],
+      "question_number": "1_2",
+      "backend_description": "Two rectangles comparing fractions. Left: '1/6' with 1 of 6 sections orange. Right: '5/6' with 5 of 6 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_3",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
         "3/4",
-        "Both models have the same size and are divided into 5 equal parts. This means each part in both models is the same size."
+        "1/4"
       ],
-      [
-        "4/4",
-        "Since the parts are the same size, 1 part is less than 3 parts. Therefore, $\\frac{1}{5}$ is less than $\\frac{3}{5}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_1_step_1",
-        "A vertical rectangle divided into five equal horizontal sections. The fraction 3/5 is displayed below. The top three-thirds are shaded in peach/orange color while the bottom two sections remain white."
+      "correct_answers": [
+        "B"
       ],
-      [
-        "2/4",
-        "Gr4_8_1_1_step_2",
-        "A vertical rectangle divided into five equal horizontal sections with the fraction 1/5 below. The top fifth is shaded in light blue while the bottom fourth remains white."
-      ]
-    ],
-    "question_number": "1_1",
-    "backend_description": "Two rectangles side by side showing fraction comparisons. The left rectangle is labeled '3/5' and is divided into five equal horizontal sections, with the top 3 sections colored orange. The right rectangle is labeled '1/5' and is also divided into five sections, with the top section colored light blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_2",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "1/6",
-      "5/6"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 1 of 6 parts colored: $\\frac{1}{6}$."
+      "solution": [
+        [
+          "1/4",
+          "First model shows 3 of 4 parts colored: $\\frac{3}{4}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 1 of 4 parts colored: $\\frac{1}{4}$."
+        ],
+        [
+          "3/4",
+          "Both models have 4 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 3, $\\frac{1}{4}$ is less than $\\frac{3}{4}$."
+        ]
       ],
-      [
-        "2/4",
-        "Second model shows 5 of 6 parts colored: $\\frac{5}{6}$."
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_3_step_1",
+          "Rectangle divided into 4 sections. 3 sections shaded in orange showing 3/4."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_3_step_2",
+          "Rectangle divided into 4 sections. 1 sections shaded in blue showing 1/4."
+        ]
       ],
-      [
+      "question_number": "1_3",
+      "backend_description": "Two rectangles comparing fractions. Left: '3/4' with 3 of 4 sections orange. Right: '1/4' with 1 of 4 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_4",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
         "3/4",
-        "Both models have 6 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 5, $\\frac{1}{6}$ is less than $\\frac{5}{6}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_2_step_1",
-        "Rectangle divided into 6 sections. 1 sections shaded in orange showing 1/6."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_2_step_2",
-        "Rectangle divided into 6 sections. 5 sections shaded in blue showing 5/6."
-      ]
-    ],
-    "question_number": "1_2",
-    "backend_description": "Two rectangles comparing fractions. Left: '1/6' with 1 of 6 sections orange. Right: '5/6' with 5 of 6 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_3",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "3/4",
-      "1/4"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 3 of 4 parts colored: $\\frac{3}{4}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 1 of 4 parts colored: $\\frac{1}{4}$."
-      ],
-      [
-        "3/4",
-        "Both models have 4 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 3, $\\frac{1}{4}$ is less than $\\frac{3}{4}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_3_step_1",
-        "Rectangle divided into 4 sections. 3 sections shaded in orange showing 3/4."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_3_step_2",
-        "Rectangle divided into 4 sections. 1 sections shaded in blue showing 1/4."
-      ]
-    ],
-    "question_number": "1_3",
-    "backend_description": "Two rectangles comparing fractions. Left: '3/4' with 3 of 4 sections orange. Right: '1/4' with 1 of 4 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_4",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "3/4",
-      "2/4"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 3 of 4 parts colored: $\\frac{3}{4}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 2 of 4 parts colored: $\\frac{2}{4}$."
-      ],
-      [
-        "3/4",
-        "Both models have 4 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 2 < 3, $\\frac{2}{4}$ is less than $\\frac{3}{4}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_4_step_1",
-        "Rectangle divided into 4 sections. 3 sections shaded in orange showing 3/4."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_4_step_2",
-        "Rectangle divided into 4 sections. 2 sections shaded in blue showing 2/4."
-      ]
-    ],
-    "question_number": "1_4",
-    "backend_description": "Two rectangles comparing fractions. Left: '3/4' with 3 of 4 sections orange. Right: '2/4' with 2 of 4 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_5",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "1/5",
-      "2/5"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 1 of 5 parts colored: $\\frac{1}{5}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 2 of 5 parts colored: $\\frac{2}{5}$."
-      ],
-      [
-        "3/4",
-        "Both models have 5 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 2, $\\frac{1}{5}$ is less than $\\frac{2}{5}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_5_step_1",
-        "Rectangle divided into 5 sections. 1 sections shaded in orange showing 1/5."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_5_step_2",
-        "Rectangle divided into 5 sections. 2 sections shaded in blue showing 2/5."
-      ]
-    ],
-    "question_number": "1_5",
-    "backend_description": "Two rectangles comparing fractions. Left: '1/5' with 1 of 5 sections orange. Right: '2/5' with 2 of 5 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_6",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "2/3",
-      "1/3"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 2 of 3 parts colored: $\\frac{2}{3}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 1 of 3 parts colored: $\\frac{1}{3}$."
-      ],
-      [
-        "3/4",
-        "Both models have 3 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 2, $\\frac{1}{3}$ is less than $\\frac{2}{3}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_6_step_1",
-        "Rectangle divided into 3 sections. 2 sections shaded in orange showing 2/3."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_6_step_2",
-        "Rectangle divided into 3 sections. 1 sections shaded in blue showing 1/3."
-      ]
-    ],
-    "question_number": "1_6",
-    "backend_description": "Two rectangles comparing fractions. Left: '2/3' with 2 of 3 sections orange. Right: '1/3' with 1 of 3 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_7",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "2/4",
-      "1/4"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 2 of 4 parts colored: $\\frac{2}{4}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 1 of 4 parts colored: $\\frac{1}{4}$."
-      ],
-      [
-        "3/4",
-        "Both models have 4 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 2, $\\frac{1}{4}$ is less than $\\frac{2}{4}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_7_step_1",
-        "Rectangle divided into 4 sections. 2 sections shaded in orange showing 2/4."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_7_step_2",
-        "Rectangle divided into 4 sections. 1 sections shaded in blue showing 1/4."
-      ]
-    ],
-    "question_number": "1_7",
-    "backend_description": "Two rectangles comparing fractions. Left: '2/4' with 2 of 4 sections orange. Right: '1/4' with 1 of 4 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_8",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "4/5",
-      "3/5"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 4 of 5 parts colored: $\\frac{4}{5}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 3 of 5 parts colored: $\\frac{3}{5}$."
-      ],
-      [
-        "3/4",
-        "Both models have 5 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 3 < 4, $\\frac{3}{5}$ is less than $\\frac{4}{5}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_8_step_1",
-        "Rectangle divided into 5 sections. 4 sections shaded in orange showing 4/5."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_8_step_2",
-        "Rectangle divided into 5 sections. 3 sections shaded in blue showing 3/5."
-      ]
-    ],
-    "question_number": "1_8",
-    "backend_description": "Two rectangles comparing fractions. Left: '4/5' with 4 of 5 sections orange. Right: '3/5' with 3 of 5 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_9",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "5/6",
-      "3/6"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 5 of 6 parts colored: $\\frac{5}{6}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 3 of 6 parts colored: $\\frac{3}{6}$."
-      ],
-      [
-        "3/4",
-        "Both models have 6 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 3 < 5, $\\frac{3}{6}$ is less than $\\frac{5}{6}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_9_step_1",
-        "Rectangle divided into 6 sections. 5 sections shaded in orange showing 5/6."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_9_step_2",
-        "Rectangle divided into 6 sections. 3 sections shaded in blue showing 3/6."
-      ]
-    ],
-    "question_number": "1_9",
-    "backend_description": "Two rectangles comparing fractions. Left: '5/6' with 5 of 6 sections orange. Right: '3/6' with 3 of 6 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_10",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "1/6",
-      "2/6"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 1 of 6 parts colored: $\\frac{1}{6}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 2 of 6 parts colored: $\\frac{2}{6}$."
-      ],
-      [
-        "3/4",
-        "Both models have 6 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 2, $\\frac{1}{6}$ is less than $\\frac{2}{6}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_10_step_1",
-        "Rectangle divided into 6 sections. 1 sections shaded in orange showing 1/6."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_10_step_2",
-        "Rectangle divided into 6 sections. 2 sections shaded in blue showing 2/6."
-      ]
-    ],
-    "question_number": "1_10",
-    "backend_description": "Two rectangles comparing fractions. Left: '1/6' with 1 of 6 sections orange. Right: '2/6' with 2 of 6 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_11",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "4/5",
-      "1/5"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 4 of 5 parts colored: $\\frac{4}{5}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 1 of 5 parts colored: $\\frac{1}{5}$."
-      ],
-      [
-        "3/4",
-        "Both models have 5 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 4, $\\frac{1}{5}$ is less than $\\frac{4}{5}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_11_step_1",
-        "Rectangle divided into 5 sections. 4 sections shaded in orange showing 4/5."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_11_step_2",
-        "Rectangle divided into 5 sections. 1 sections shaded in blue showing 1/5."
-      ]
-    ],
-    "question_number": "1_11",
-    "backend_description": "Two rectangles comparing fractions. Left: '4/5' with 4 of 5 sections orange. Right: '1/5' with 1 of 5 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_12",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "2/7",
-      "3/7"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 2 of 7 parts colored: $\\frac{2}{7}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 3 of 7 parts colored: $\\frac{3}{7}$."
-      ],
-      [
-        "3/4",
-        "Both models have 7 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 2 < 3, $\\frac{2}{7}$ is less than $\\frac{3}{7}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_12_step_1",
-        "Rectangle divided into 7 sections. 2 sections shaded in orange showing 2/7."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_12_step_2",
-        "Rectangle divided into 7 sections. 3 sections shaded in blue showing 3/7."
-      ]
-    ],
-    "question_number": "1_12",
-    "backend_description": "Two rectangles comparing fractions. Left: '2/7' with 2 of 7 sections orange. Right: '3/7' with 3 of 7 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_13",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "1/3",
-      "2/3"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 1 of 3 parts colored: $\\frac{1}{3}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 2 of 3 parts colored: $\\frac{2}{3}$."
-      ],
-      [
-        "3/4",
-        "Both models have 3 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 2, $\\frac{1}{3}$ is less than $\\frac{2}{3}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_13_step_1",
-        "Rectangle divided into 3 sections. 1 sections shaded in orange showing 1/3."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_13_step_2",
-        "Rectangle divided into 3 sections. 2 sections shaded in blue showing 2/3."
-      ]
-    ],
-    "question_number": "1_13",
-    "backend_description": "Two rectangles comparing fractions. Left: '1/3' with 1 of 3 sections orange. Right: '2/3' with 2 of 3 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_14",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "4/6",
-      "1/6"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 4 of 6 parts colored: $\\frac{4}{6}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 1 of 6 parts colored: $\\frac{1}{6}$."
-      ],
-      [
-        "3/4",
-        "Both models have 6 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 4, $\\frac{1}{6}$ is less than $\\frac{4}{6}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_14_step_1",
-        "Rectangle divided into 6 sections. 4 sections shaded in orange showing 4/6."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_14_step_2",
-        "Rectangle divided into 6 sections. 1 sections shaded in blue showing 1/6."
-      ]
-    ],
-    "question_number": "1_14",
-    "backend_description": "Two rectangles comparing fractions. Left: '4/6' with 4 of 6 sections orange. Right: '1/6' with 1 of 6 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_15",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "2/7",
-      "5/7"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 2 of 7 parts colored: $\\frac{2}{7}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 5 of 7 parts colored: $\\frac{5}{7}$."
-      ],
-      [
-        "3/4",
-        "Both models have 7 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 2 < 5, $\\frac{2}{7}$ is less than $\\frac{5}{7}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_15_step_1",
-        "Rectangle divided into 7 sections. 2 sections shaded in orange showing 2/7."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_15_step_2",
-        "Rectangle divided into 7 sections. 5 sections shaded in blue showing 5/7."
-      ]
-    ],
-    "question_number": "1_15",
-    "backend_description": "Two rectangles comparing fractions. Left: '2/7' with 2 of 7 sections orange. Right: '5/7' with 5 of 7 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_16",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "5/6",
-      "1/6"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 5 of 6 parts colored: $\\frac{5}{6}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 1 of 6 parts colored: $\\frac{1}{6}$."
-      ],
-      [
-        "3/4",
-        "Both models have 6 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 5, $\\frac{1}{6}$ is less than $\\frac{5}{6}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_16_step_1",
-        "Rectangle divided into 6 sections. 5 sections shaded in orange showing 5/6."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_16_step_2",
-        "Rectangle divided into 6 sections. 1 sections shaded in blue showing 1/6."
-      ]
-    ],
-    "question_number": "1_16",
-    "backend_description": "Two rectangles comparing fractions. Left: '5/6' with 5 of 6 sections orange. Right: '1/6' with 1 of 6 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_17",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "5/6",
-      "4/6"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 5 of 6 parts colored: $\\frac{5}{6}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 4 of 6 parts colored: $\\frac{4}{6}$."
-      ],
-      [
-        "3/4",
-        "Both models have 6 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 4 < 5, $\\frac{4}{6}$ is less than $\\frac{5}{6}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_17_step_1",
-        "Rectangle divided into 6 sections. 5 sections shaded in orange showing 5/6."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_17_step_2",
-        "Rectangle divided into 6 sections. 4 sections shaded in blue showing 4/6."
-      ]
-    ],
-    "question_number": "1_17",
-    "backend_description": "Two rectangles comparing fractions. Left: '5/6' with 5 of 6 sections orange. Right: '4/6' with 4 of 6 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_18",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "2/7",
-      "6/7"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 2 of 7 parts colored: $\\frac{2}{7}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 6 of 7 parts colored: $\\frac{6}{7}$."
-      ],
-      [
-        "3/4",
-        "Both models have 7 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 2 < 6, $\\frac{2}{7}$ is less than $\\frac{6}{7}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_18_step_1",
-        "Rectangle divided into 7 sections. 2 sections shaded in orange showing 2/7."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_18_step_2",
-        "Rectangle divided into 7 sections. 6 sections shaded in blue showing 6/7."
-      ]
-    ],
-    "question_number": "1_18",
-    "backend_description": "Two rectangles comparing fractions. Left: '2/7' with 2 of 7 sections orange. Right: '6/7' with 6 of 7 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_19",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "1/6",
-      "3/6"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 1 of 6 parts colored: $\\frac{1}{6}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 3 of 6 parts colored: $\\frac{3}{6}$."
-      ],
-      [
-        "3/4",
-        "Both models have 6 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 3, $\\frac{1}{6}$ is less than $\\frac{3}{6}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_19_step_1",
-        "Rectangle divided into 6 sections. 1 sections shaded in orange showing 1/6."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_19_step_2",
-        "Rectangle divided into 6 sections. 3 sections shaded in blue showing 3/6."
-      ]
-    ],
-    "question_number": "1_19",
-    "backend_description": "Two rectangles comparing fractions. Left: '1/6' with 1 of 6 sections orange. Right: '3/6' with 3 of 6 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_20",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "1/5",
-      "3/5"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 1 of 5 parts colored: $\\frac{1}{5}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 3 of 5 parts colored: $\\frac{3}{5}$."
-      ],
-      [
-        "3/4",
-        "Both models have 5 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 3, $\\frac{1}{5}$ is less than $\\frac{3}{5}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_20_step_1",
-        "Rectangle divided into 5 sections. 1 sections shaded in orange showing 1/5."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_20_step_2",
-        "Rectangle divided into 5 sections. 3 sections shaded in blue showing 3/5."
-      ]
-    ],
-    "question_number": "1_20",
-    "backend_description": "Two rectangles comparing fractions. Left: '1/5' with 1 of 5 sections orange. Right: '3/5' with 3 of 5 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_21",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "1/7",
-      "4/7"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 1 of 7 parts colored: $\\frac{1}{7}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 4 of 7 parts colored: $\\frac{4}{7}$."
-      ],
-      [
-        "3/4",
-        "Both models have 7 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 4, $\\frac{1}{7}$ is less than $\\frac{4}{7}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_21_step_1",
-        "Rectangle divided into 7 sections. 1 sections shaded in orange showing 1/7."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_21_step_2",
-        "Rectangle divided into 7 sections. 4 sections shaded in blue showing 4/7."
-      ]
-    ],
-    "question_number": "1_21",
-    "backend_description": "Two rectangles comparing fractions. Left: '1/7' with 1 of 7 sections orange. Right: '4/7' with 4 of 7 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_22",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "1/7",
-      "6/7"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 1 of 7 parts colored: $\\frac{1}{7}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 6 of 7 parts colored: $\\frac{6}{7}$."
-      ],
-      [
-        "3/4",
-        "Both models have 7 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 6, $\\frac{1}{7}$ is less than $\\frac{6}{7}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_22_step_1",
-        "Rectangle divided into 7 sections. 1 sections shaded in orange showing 1/7."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_22_step_2",
-        "Rectangle divided into 7 sections. 6 sections shaded in blue showing 6/7."
-      ]
-    ],
-    "question_number": "1_22",
-    "backend_description": "Two rectangles comparing fractions. Left: '1/7' with 1 of 7 sections orange. Right: '6/7' with 6 of 7 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_23",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "2/6",
-      "5/6"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 2 of 6 parts colored: $\\frac{2}{6}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 5 of 6 parts colored: $\\frac{5}{6}$."
-      ],
-      [
-        "3/4",
-        "Both models have 6 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 2 < 5, $\\frac{2}{6}$ is less than $\\frac{5}{6}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_23_step_1",
-        "Rectangle divided into 6 sections. 2 sections shaded in orange showing 2/6."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_23_step_2",
-        "Rectangle divided into 6 sections. 5 sections shaded in blue showing 5/6."
-      ]
-    ],
-    "question_number": "1_23",
-    "backend_description": "Two rectangles comparing fractions. Left: '2/6' with 2 of 6 sections orange. Right: '5/6' with 5 of 6 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_24",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "2/6",
-      "1/6"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 2 of 6 parts colored: $\\frac{2}{6}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 1 of 6 parts colored: $\\frac{1}{6}$."
-      ],
-      [
-        "3/4",
-        "Both models have 6 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 2, $\\frac{1}{6}$ is less than $\\frac{2}{6}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_24_step_1",
-        "Rectangle divided into 6 sections. 2 sections shaded in orange showing 2/6."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_24_step_2",
-        "Rectangle divided into 6 sections. 1 sections shaded in blue showing 1/6."
-      ]
-    ],
-    "question_number": "1_24",
-    "backend_description": "Two rectangles comparing fractions. Left: '2/6' with 2 of 6 sections orange. Right: '1/6' with 1 of 6 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_25",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "4/6",
-      "5/6"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 4 of 6 parts colored: $\\frac{4}{6}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 5 of 6 parts colored: $\\frac{5}{6}$."
-      ],
-      [
-        "3/4",
-        "Both models have 6 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 4 < 5, $\\frac{4}{6}$ is less than $\\frac{5}{6}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_25_step_1",
-        "Rectangle divided into 6 sections. 4 sections shaded in orange showing 4/6."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_25_step_2",
-        "Rectangle divided into 6 sections. 5 sections shaded in blue showing 5/6."
-      ]
-    ],
-    "question_number": "1_25",
-    "backend_description": "Two rectangles comparing fractions. Left: '4/6' with 4 of 6 sections orange. Right: '5/6' with 5 of 6 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_26",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "2/6",
-      "3/6"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 2 of 6 parts colored: $\\frac{2}{6}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 3 of 6 parts colored: $\\frac{3}{6}$."
-      ],
-      [
-        "3/4",
-        "Both models have 6 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 2 < 3, $\\frac{2}{6}$ is less than $\\frac{3}{6}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_26_step_1",
-        "Rectangle divided into 6 sections. 2 sections shaded in orange showing 2/6."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_26_step_2",
-        "Rectangle divided into 6 sections. 3 sections shaded in blue showing 3/6."
-      ]
-    ],
-    "question_number": "1_26",
-    "backend_description": "Two rectangles comparing fractions. Left: '2/6' with 2 of 6 sections orange. Right: '3/6' with 3 of 6 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_27",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "1/4",
-      "3/4"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 1 of 4 parts colored: $\\frac{1}{4}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 3 of 4 parts colored: $\\frac{3}{4}$."
-      ],
-      [
-        "3/4",
-        "Both models have 4 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 3, $\\frac{1}{4}$ is less than $\\frac{3}{4}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_27_step_1",
-        "Rectangle divided into 4 sections. 1 sections shaded in orange showing 1/4."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_27_step_2",
-        "Rectangle divided into 4 sections. 3 sections shaded in blue showing 3/4."
-      ]
-    ],
-    "question_number": "1_27",
-    "backend_description": "Two rectangles comparing fractions. Left: '1/4' with 1 of 4 sections orange. Right: '3/4' with 3 of 4 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_28",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "3/6",
-      "4/6"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 3 of 6 parts colored: $\\frac{3}{6}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 4 of 6 parts colored: $\\frac{4}{6}$."
-      ],
-      [
-        "3/4",
-        "Both models have 6 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 3 < 4, $\\frac{3}{6}$ is less than $\\frac{4}{6}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_28_step_1",
-        "Rectangle divided into 6 sections. 3 sections shaded in orange showing 3/6."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_28_step_2",
-        "Rectangle divided into 6 sections. 4 sections shaded in blue showing 4/6."
-      ]
-    ],
-    "question_number": "1_28",
-    "backend_description": "Two rectangles comparing fractions. Left: '3/6' with 3 of 6 sections orange. Right: '4/6' with 4 of 6 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_29",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "1/7",
-      "5/7"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 1 of 7 parts colored: $\\frac{1}{7}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 5 of 7 parts colored: $\\frac{5}{7}$."
-      ],
-      [
-        "3/4",
-        "Both models have 7 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 5, $\\frac{1}{7}$ is less than $\\frac{5}{7}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_29_step_1",
-        "Rectangle divided into 7 sections. 1 sections shaded in orange showing 1/7."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_29_step_2",
-        "Rectangle divided into 7 sections. 5 sections shaded in blue showing 5/7."
-      ]
-    ],
-    "question_number": "1_29",
-    "backend_description": "Two rectangles comparing fractions. Left: '1/7' with 1 of 7 sections orange. Right: '5/7' with 5 of 7 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_30",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "1/5",
-      "4/5"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 1 of 5 parts colored: $\\frac{1}{5}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 4 of 5 parts colored: $\\frac{4}{5}$."
-      ],
-      [
-        "3/4",
-        "Both models have 5 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 4, $\\frac{1}{5}$ is less than $\\frac{4}{5}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_30_step_1",
-        "Rectangle divided into 5 sections. 1 sections shaded in orange showing 1/5."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_30_step_2",
-        "Rectangle divided into 5 sections. 4 sections shaded in blue showing 4/5."
-      ]
-    ],
-    "question_number": "1_30",
-    "backend_description": "Two rectangles comparing fractions. Left: '1/5' with 1 of 5 sections orange. Right: '4/5' with 4 of 5 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_31",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "2/5",
-      "1/5"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 2 of 5 parts colored: $\\frac{2}{5}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 1 of 5 parts colored: $\\frac{1}{5}$."
-      ],
-      [
-        "3/4",
-        "Both models have 5 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 2, $\\frac{1}{5}$ is less than $\\frac{2}{5}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_31_step_1",
-        "Rectangle divided into 5 sections. 2 sections shaded in orange showing 2/5."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_31_step_2",
-        "Rectangle divided into 5 sections. 1 sections shaded in blue showing 1/5."
-      ]
-    ],
-    "question_number": "1_31",
-    "backend_description": "Two rectangles comparing fractions. Left: '2/5' with 2 of 5 sections orange. Right: '1/5' with 1 of 5 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_32",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "2/5",
-      "3/5"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 2 of 5 parts colored: $\\frac{2}{5}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 3 of 5 parts colored: $\\frac{3}{5}$."
-      ],
-      [
-        "3/4",
-        "Both models have 5 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 2 < 3, $\\frac{2}{5}$ is less than $\\frac{3}{5}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_32_step_1",
-        "Rectangle divided into 5 sections. 2 sections shaded in orange showing 2/5."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_32_step_2",
-        "Rectangle divided into 5 sections. 3 sections shaded in blue showing 3/5."
-      ]
-    ],
-    "question_number": "1_32",
-    "backend_description": "Two rectangles comparing fractions. Left: '2/5' with 2 of 5 sections orange. Right: '3/5' with 3 of 5 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_33",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "5/6",
-      "2/6"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 5 of 6 parts colored: $\\frac{5}{6}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 2 of 6 parts colored: $\\frac{2}{6}$."
-      ],
-      [
-        "3/4",
-        "Both models have 6 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 2 < 5, $\\frac{2}{6}$ is less than $\\frac{5}{6}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_33_step_1",
-        "Rectangle divided into 6 sections. 5 sections shaded in orange showing 5/6."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_33_step_2",
-        "Rectangle divided into 6 sections. 2 sections shaded in blue showing 2/6."
-      ]
-    ],
-    "question_number": "1_33",
-    "backend_description": "Two rectangles comparing fractions. Left: '5/6' with 5 of 6 sections orange. Right: '2/6' with 2 of 6 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_34",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "1/6",
-      "4/6"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 1 of 6 parts colored: $\\frac{1}{6}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 4 of 6 parts colored: $\\frac{4}{6}$."
-      ],
-      [
-        "3/4",
-        "Both models have 6 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 4, $\\frac{1}{6}$ is less than $\\frac{4}{6}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_34_step_1",
-        "Rectangle divided into 6 sections. 1 sections shaded in orange showing 1/6."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_34_step_2",
-        "Rectangle divided into 6 sections. 4 sections shaded in blue showing 4/6."
-      ]
-    ],
-    "question_number": "1_34",
-    "backend_description": "Two rectangles comparing fractions. Left: '1/6' with 1 of 6 sections orange. Right: '4/6' with 4 of 6 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_35",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "2/4",
-      "3/4"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 2 of 4 parts colored: $\\frac{2}{4}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 3 of 4 parts colored: $\\frac{3}{4}$."
-      ],
-      [
-        "3/4",
-        "Both models have 4 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 2 < 3, $\\frac{2}{4}$ is less than $\\frac{3}{4}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_35_step_1",
-        "Rectangle divided into 4 sections. 2 sections shaded in orange showing 2/4."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_35_step_2",
-        "Rectangle divided into 4 sections. 3 sections shaded in blue showing 3/4."
-      ]
-    ],
-    "question_number": "1_35",
-    "backend_description": "Two rectangles comparing fractions. Left: '2/4' with 2 of 4 sections orange. Right: '3/4' with 3 of 4 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_36",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "4/6",
-      "3/6"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 4 of 6 parts colored: $\\frac{4}{6}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 3 of 6 parts colored: $\\frac{3}{6}$."
-      ],
-      [
-        "3/4",
-        "Both models have 6 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 3 < 4, $\\frac{3}{6}$ is less than $\\frac{4}{6}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_36_step_1",
-        "Rectangle divided into 6 sections. 4 sections shaded in orange showing 4/6."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_36_step_2",
-        "Rectangle divided into 6 sections. 3 sections shaded in blue showing 3/6."
-      ]
-    ],
-    "question_number": "1_36",
-    "backend_description": "Two rectangles comparing fractions. Left: '4/6' with 4 of 6 sections orange. Right: '3/6' with 3 of 6 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_37",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "3/5",
-      "4/5"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 3 of 5 parts colored: $\\frac{3}{5}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 4 of 5 parts colored: $\\frac{4}{5}$."
-      ],
-      [
-        "3/4",
-        "Both models have 5 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 3 < 4, $\\frac{3}{5}$ is less than $\\frac{4}{5}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_37_step_1",
-        "Rectangle divided into 5 sections. 3 sections shaded in orange showing 3/5."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_37_step_2",
-        "Rectangle divided into 5 sections. 4 sections shaded in blue showing 4/5."
-      ]
-    ],
-    "question_number": "1_37",
-    "backend_description": "Two rectangles comparing fractions. Left: '3/5' with 3 of 5 sections orange. Right: '4/5' with 4 of 5 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_38",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "3/6",
-      "2/6"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 3 of 6 parts colored: $\\frac{3}{6}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 2 of 6 parts colored: $\\frac{2}{6}$."
-      ],
-      [
-        "3/4",
-        "Both models have 6 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 2 < 3, $\\frac{2}{6}$ is less than $\\frac{3}{6}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_38_step_1",
-        "Rectangle divided into 6 sections. 3 sections shaded in orange showing 3/6."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_38_step_2",
-        "Rectangle divided into 6 sections. 2 sections shaded in blue showing 2/6."
-      ]
-    ],
-    "question_number": "1_38",
-    "backend_description": "Two rectangles comparing fractions. Left: '3/6' with 3 of 6 sections orange. Right: '2/6' with 2 of 6 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_39",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "2/7",
-      "1/7"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 2 of 7 parts colored: $\\frac{2}{7}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 1 of 7 parts colored: $\\frac{1}{7}$."
-      ],
-      [
-        "3/4",
-        "Both models have 7 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 2, $\\frac{1}{7}$ is less than $\\frac{2}{7}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_39_step_1",
-        "Rectangle divided into 7 sections. 2 sections shaded in orange showing 2/7."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_39_step_2",
-        "Rectangle divided into 7 sections. 1 sections shaded in blue showing 1/7."
-      ]
-    ],
-    "question_number": "1_39",
-    "backend_description": "Two rectangles comparing fractions. Left: '2/7' with 2 of 7 sections orange. Right: '1/7' with 1 of 7 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_40",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "3/7",
-      "1/7"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 3 of 7 parts colored: $\\frac{3}{7}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 1 of 7 parts colored: $\\frac{1}{7}$."
-      ],
-      [
-        "3/4",
-        "Both models have 7 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 3, $\\frac{1}{7}$ is less than $\\frac{3}{7}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_40_step_1",
-        "Rectangle divided into 7 sections. 3 sections shaded in orange showing 3/7."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_40_step_2",
-        "Rectangle divided into 7 sections. 1 sections shaded in blue showing 1/7."
-      ]
-    ],
-    "question_number": "1_40",
-    "backend_description": "Two rectangles comparing fractions. Left: '3/7' with 3 of 7 sections orange. Right: '1/7' with 1 of 7 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_41",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "3/5",
-      "2/5"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 3 of 5 parts colored: $\\frac{3}{5}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 2 of 5 parts colored: $\\frac{2}{5}$."
-      ],
-      [
-        "3/4",
-        "Both models have 5 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 2 < 3, $\\frac{2}{5}$ is less than $\\frac{3}{5}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_41_step_1",
-        "Rectangle divided into 5 sections. 3 sections shaded in orange showing 3/5."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_41_step_2",
-        "Rectangle divided into 5 sections. 2 sections shaded in blue showing 2/5."
-      ]
-    ],
-    "question_number": "1_41",
-    "backend_description": "Two rectangles comparing fractions. Left: '3/5' with 3 of 5 sections orange. Right: '2/5' with 2 of 5 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_42",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "3/6",
-      "1/6"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 3 of 6 parts colored: $\\frac{3}{6}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 1 of 6 parts colored: $\\frac{1}{6}$."
-      ],
-      [
-        "3/4",
-        "Both models have 6 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 3, $\\frac{1}{6}$ is less than $\\frac{3}{6}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_42_step_1",
-        "Rectangle divided into 6 sections. 3 sections shaded in orange showing 3/6."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_42_step_2",
-        "Rectangle divided into 6 sections. 1 sections shaded in blue showing 1/6."
-      ]
-    ],
-    "question_number": "1_42",
-    "backend_description": "Two rectangles comparing fractions. Left: '3/6' with 3 of 6 sections orange. Right: '1/6' with 1 of 6 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_43",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "4/6",
-      "2/6"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 4 of 6 parts colored: $\\frac{4}{6}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 2 of 6 parts colored: $\\frac{2}{6}$."
-      ],
-      [
-        "3/4",
-        "Both models have 6 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 2 < 4, $\\frac{2}{6}$ is less than $\\frac{4}{6}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_43_step_1",
-        "Rectangle divided into 6 sections. 4 sections shaded in orange showing 4/6."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_43_step_2",
-        "Rectangle divided into 6 sections. 2 sections shaded in blue showing 2/6."
-      ]
-    ],
-    "question_number": "1_43",
-    "backend_description": "Two rectangles comparing fractions. Left: '4/6' with 4 of 6 sections orange. Right: '2/6' with 2 of 6 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_44",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "1/4",
-      "2/4"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 1 of 4 parts colored: $\\frac{1}{4}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 2 of 4 parts colored: $\\frac{2}{4}$."
-      ],
-      [
-        "3/4",
-        "Both models have 4 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 2, $\\frac{1}{4}$ is less than $\\frac{2}{4}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_44_step_1",
-        "Rectangle divided into 4 sections. 1 sections shaded in orange showing 1/4."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_44_step_2",
-        "Rectangle divided into 4 sections. 2 sections shaded in blue showing 2/4."
-      ]
-    ],
-    "question_number": "1_44",
-    "backend_description": "Two rectangles comparing fractions. Left: '1/4' with 1 of 4 sections orange. Right: '2/4' with 2 of 4 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_45",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "2/7",
-      "4/7"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 2 of 7 parts colored: $\\frac{2}{7}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 4 of 7 parts colored: $\\frac{4}{7}$."
-      ],
-      [
-        "3/4",
-        "Both models have 7 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 2 < 4, $\\frac{2}{7}$ is less than $\\frac{4}{7}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_45_step_1",
-        "Rectangle divided into 7 sections. 2 sections shaded in orange showing 2/7."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_45_step_2",
-        "Rectangle divided into 7 sections. 4 sections shaded in blue showing 4/7."
-      ]
-    ],
-    "question_number": "1_45",
-    "backend_description": "Two rectangles comparing fractions. Left: '2/7' with 2 of 7 sections orange. Right: '4/7' with 4 of 7 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_46",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "3/6",
-      "5/6"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 3 of 6 parts colored: $\\frac{3}{6}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 5 of 6 parts colored: $\\frac{5}{6}$."
-      ],
-      [
-        "3/4",
-        "Both models have 6 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 3 < 5, $\\frac{3}{6}$ is less than $\\frac{5}{6}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_46_step_1",
-        "Rectangle divided into 6 sections. 3 sections shaded in orange showing 3/6."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_46_step_2",
-        "Rectangle divided into 6 sections. 5 sections shaded in blue showing 5/6."
-      ]
-    ],
-    "question_number": "1_46",
-    "backend_description": "Two rectangles comparing fractions. Left: '3/6' with 3 of 6 sections orange. Right: '5/6' with 5 of 6 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_47",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "1/7",
-      "3/7"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 1 of 7 parts colored: $\\frac{1}{7}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 3 of 7 parts colored: $\\frac{3}{7}$."
-      ],
-      [
-        "3/4",
-        "Both models have 7 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 3, $\\frac{1}{7}$ is less than $\\frac{3}{7}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_47_step_1",
-        "Rectangle divided into 7 sections. 1 sections shaded in orange showing 1/7."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_47_step_2",
-        "Rectangle divided into 7 sections. 3 sections shaded in blue showing 3/7."
-      ]
-    ],
-    "question_number": "1_47",
-    "backend_description": "Two rectangles comparing fractions. Left: '1/7' with 1 of 7 sections orange. Right: '3/7' with 3 of 7 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_48",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "2/5",
-      "4/5"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 2 of 5 parts colored: $\\frac{2}{5}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 4 of 5 parts colored: $\\frac{4}{5}$."
-      ],
-      [
-        "3/4",
-        "Both models have 5 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 2 < 4, $\\frac{2}{5}$ is less than $\\frac{4}{5}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_48_step_1",
-        "Rectangle divided into 5 sections. 2 sections shaded in orange showing 2/5."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_48_step_2",
-        "Rectangle divided into 5 sections. 4 sections shaded in blue showing 4/5."
-      ]
-    ],
-    "question_number": "1_48",
-    "backend_description": "Two rectangles comparing fractions. Left: '2/5' with 2 of 5 sections orange. Right: '4/5' with 4 of 5 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_49",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "4/5",
-      "2/5"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 4 of 5 parts colored: $\\frac{4}{5}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 2 of 5 parts colored: $\\frac{2}{5}$."
-      ],
-      [
-        "3/4",
-        "Both models have 5 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 2 < 4, $\\frac{2}{5}$ is less than $\\frac{4}{5}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_49_step_1",
-        "Rectangle divided into 5 sections. 4 sections shaded in orange showing 4/5."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_49_step_2",
-        "Rectangle divided into 5 sections. 2 sections shaded in blue showing 2/5."
-      ]
-    ],
-    "question_number": "1_49",
-    "backend_description": "Two rectangles comparing fractions. Left: '4/5' with 4 of 5 sections orange. Right: '2/5' with 2 of 5 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_50",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "1/7",
-      "2/7"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 1 of 7 parts colored: $\\frac{1}{7}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 2 of 7 parts colored: $\\frac{2}{7}$."
-      ],
-      [
-        "3/4",
-        "Both models have 7 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 1 < 2, $\\frac{1}{7}$ is less than $\\frac{2}{7}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_50_step_1",
-        "Rectangle divided into 7 sections. 1 sections shaded in orange showing 1/7."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_50_step_2",
-        "Rectangle divided into 7 sections. 2 sections shaded in blue showing 2/7."
-      ]
-    ],
-    "question_number": "1_50",
-    "backend_description": "Two rectangles comparing fractions. Left: '1/7' with 1 of 7 sections orange. Right: '2/7' with 2 of 7 sections blue."
-  },
-  {
-    "skills": "compare-fractions-with-like-denominators-using-models",
-    "question_text": "Which fraction is less?",
-    "image_tag": "Gr4_8_1_51",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_8_E1",
-    "choices": [
-      "2/6",
-      "4/6"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "First model shows 2 of 6 parts colored: $\\frac{2}{6}$."
-      ],
-      [
-        "2/4",
-        "Second model shows 4 of 6 parts colored: $\\frac{4}{6}$."
-      ],
-      [
-        "3/4",
-        "Both models have 6 equal parts of the same size."
-      ],
-      [
-        "4/4",
-        "Since 2 < 4, $\\frac{2}{6}$ is less than $\\frac{4}{6}$."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr4_8_1_51_step_1",
-        "Rectangle divided into 6 sections. 2 sections shaded in orange showing 2/6."
-      ],
-      [
-        "2/4",
-        "Gr4_8_1_51_step_2",
-        "Rectangle divided into 6 sections. 4 sections shaded in blue showing 4/6."
-      ]
-    ],
-    "question_number": "1_51",
-    "backend_description": "Two rectangles comparing fractions. Left: '2/6' with 2 of 6 sections orange. Right: '4/6' with 4 of 6 sections blue."
-  }
-]
+        "2/4"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 3 of 4 parts colored: $\\frac{3}{4}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 2 of 4 parts colored: $\\frac{2}{4}$."
+        ],
+        [
+          "3/4",
+          "Both models have 4 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 2 < 3, $\\frac{2}{4}$ is less than $\\frac{3}{4}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_4_step_1",
+          "Rectangle divided into 4 sections. 3 sections shaded in orange showing 3/4."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_4_step_2",
+          "Rectangle divided into 4 sections. 2 sections shaded in blue showing 2/4."
+        ]
+      ],
+      "question_number": "1_4",
+      "backend_description": "Two rectangles comparing fractions. Left: '3/4' with 3 of 4 sections orange. Right: '2/4' with 2 of 4 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_5",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "1/5",
+        "2/5"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 1 of 5 parts colored: $\\frac{1}{5}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 2 of 5 parts colored: $\\frac{2}{5}$."
+        ],
+        [
+          "3/4",
+          "Both models have 5 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 2, $\\frac{1}{5}$ is less than $\\frac{2}{5}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_5_step_1",
+          "Rectangle divided into 5 sections. 1 sections shaded in orange showing 1/5."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_5_step_2",
+          "Rectangle divided into 5 sections. 2 sections shaded in blue showing 2/5."
+        ]
+      ],
+      "question_number": "1_5",
+      "backend_description": "Two rectangles comparing fractions. Left: '1/5' with 1 of 5 sections orange. Right: '2/5' with 2 of 5 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_6",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "2/3",
+        "1/3"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 2 of 3 parts colored: $\\frac{2}{3}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 1 of 3 parts colored: $\\frac{1}{3}$."
+        ],
+        [
+          "3/4",
+          "Both models have 3 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 2, $\\frac{1}{3}$ is less than $\\frac{2}{3}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_6_step_1",
+          "Rectangle divided into 3 sections. 2 sections shaded in orange showing 2/3."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_6_step_2",
+          "Rectangle divided into 3 sections. 1 sections shaded in blue showing 1/3."
+        ]
+      ],
+      "question_number": "1_6",
+      "backend_description": "Two rectangles comparing fractions. Left: '2/3' with 2 of 3 sections orange. Right: '1/3' with 1 of 3 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_7",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "2/4",
+        "1/4"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 2 of 4 parts colored: $\\frac{2}{4}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 1 of 4 parts colored: $\\frac{1}{4}$."
+        ],
+        [
+          "3/4",
+          "Both models have 4 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 2, $\\frac{1}{4}$ is less than $\\frac{2}{4}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_7_step_1",
+          "Rectangle divided into 4 sections. 2 sections shaded in orange showing 2/4."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_7_step_2",
+          "Rectangle divided into 4 sections. 1 sections shaded in blue showing 1/4."
+        ]
+      ],
+      "question_number": "1_7",
+      "backend_description": "Two rectangles comparing fractions. Left: '2/4' with 2 of 4 sections orange. Right: '1/4' with 1 of 4 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_8",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "4/5",
+        "3/5"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 4 of 5 parts colored: $\\frac{4}{5}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 3 of 5 parts colored: $\\frac{3}{5}$."
+        ],
+        [
+          "3/4",
+          "Both models have 5 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 3 < 4, $\\frac{3}{5}$ is less than $\\frac{4}{5}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_8_step_1",
+          "Rectangle divided into 5 sections. 4 sections shaded in orange showing 4/5."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_8_step_2",
+          "Rectangle divided into 5 sections. 3 sections shaded in blue showing 3/5."
+        ]
+      ],
+      "question_number": "1_8",
+      "backend_description": "Two rectangles comparing fractions. Left: '4/5' with 4 of 5 sections orange. Right: '3/5' with 3 of 5 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_9",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "5/6",
+        "3/6"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 5 of 6 parts colored: $\\frac{5}{6}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 3 of 6 parts colored: $\\frac{3}{6}$."
+        ],
+        [
+          "3/4",
+          "Both models have 6 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 3 < 5, $\\frac{3}{6}$ is less than $\\frac{5}{6}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_9_step_1",
+          "Rectangle divided into 6 sections. 5 sections shaded in orange showing 5/6."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_9_step_2",
+          "Rectangle divided into 6 sections. 3 sections shaded in blue showing 3/6."
+        ]
+      ],
+      "question_number": "1_9",
+      "backend_description": "Two rectangles comparing fractions. Left: '5/6' with 5 of 6 sections orange. Right: '3/6' with 3 of 6 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_10",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "1/6",
+        "2/6"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 1 of 6 parts colored: $\\frac{1}{6}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 2 of 6 parts colored: $\\frac{2}{6}$."
+        ],
+        [
+          "3/4",
+          "Both models have 6 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 2, $\\frac{1}{6}$ is less than $\\frac{2}{6}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_10_step_1",
+          "Rectangle divided into 6 sections. 1 sections shaded in orange showing 1/6."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_10_step_2",
+          "Rectangle divided into 6 sections. 2 sections shaded in blue showing 2/6."
+        ]
+      ],
+      "question_number": "1_10",
+      "backend_description": "Two rectangles comparing fractions. Left: '1/6' with 1 of 6 sections orange. Right: '2/6' with 2 of 6 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_11",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "4/5",
+        "1/5"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 4 of 5 parts colored: $\\frac{4}{5}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 1 of 5 parts colored: $\\frac{1}{5}$."
+        ],
+        [
+          "3/4",
+          "Both models have 5 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 4, $\\frac{1}{5}$ is less than $\\frac{4}{5}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_11_step_1",
+          "Rectangle divided into 5 sections. 4 sections shaded in orange showing 4/5."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_11_step_2",
+          "Rectangle divided into 5 sections. 1 sections shaded in blue showing 1/5."
+        ]
+      ],
+      "question_number": "1_11",
+      "backend_description": "Two rectangles comparing fractions. Left: '4/5' with 4 of 5 sections orange. Right: '1/5' with 1 of 5 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_12",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "2/7",
+        "3/7"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 2 of 7 parts colored: $\\frac{2}{7}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 3 of 7 parts colored: $\\frac{3}{7}$."
+        ],
+        [
+          "3/4",
+          "Both models have 7 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 2 < 3, $\\frac{2}{7}$ is less than $\\frac{3}{7}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_12_step_1",
+          "Rectangle divided into 7 sections. 2 sections shaded in orange showing 2/7."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_12_step_2",
+          "Rectangle divided into 7 sections. 3 sections shaded in blue showing 3/7."
+        ]
+      ],
+      "question_number": "1_12",
+      "backend_description": "Two rectangles comparing fractions. Left: '2/7' with 2 of 7 sections orange. Right: '3/7' with 3 of 7 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_13",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "1/3",
+        "2/3"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 1 of 3 parts colored: $\\frac{1}{3}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 2 of 3 parts colored: $\\frac{2}{3}$."
+        ],
+        [
+          "3/4",
+          "Both models have 3 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 2, $\\frac{1}{3}$ is less than $\\frac{2}{3}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_13_step_1",
+          "Rectangle divided into 3 sections. 1 sections shaded in orange showing 1/3."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_13_step_2",
+          "Rectangle divided into 3 sections. 2 sections shaded in blue showing 2/3."
+        ]
+      ],
+      "question_number": "1_13",
+      "backend_description": "Two rectangles comparing fractions. Left: '1/3' with 1 of 3 sections orange. Right: '2/3' with 2 of 3 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_14",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "4/6",
+        "1/6"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 4 of 6 parts colored: $\\frac{4}{6}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 1 of 6 parts colored: $\\frac{1}{6}$."
+        ],
+        [
+          "3/4",
+          "Both models have 6 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 4, $\\frac{1}{6}$ is less than $\\frac{4}{6}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_14_step_1",
+          "Rectangle divided into 6 sections. 4 sections shaded in orange showing 4/6."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_14_step_2",
+          "Rectangle divided into 6 sections. 1 sections shaded in blue showing 1/6."
+        ]
+      ],
+      "question_number": "1_14",
+      "backend_description": "Two rectangles comparing fractions. Left: '4/6' with 4 of 6 sections orange. Right: '1/6' with 1 of 6 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_15",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "2/7",
+        "5/7"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 2 of 7 parts colored: $\\frac{2}{7}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 5 of 7 parts colored: $\\frac{5}{7}$."
+        ],
+        [
+          "3/4",
+          "Both models have 7 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 2 < 5, $\\frac{2}{7}$ is less than $\\frac{5}{7}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_15_step_1",
+          "Rectangle divided into 7 sections. 2 sections shaded in orange showing 2/7."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_15_step_2",
+          "Rectangle divided into 7 sections. 5 sections shaded in blue showing 5/7."
+        ]
+      ],
+      "question_number": "1_15",
+      "backend_description": "Two rectangles comparing fractions. Left: '2/7' with 2 of 7 sections orange. Right: '5/7' with 5 of 7 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_16",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "5/6",
+        "1/6"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 5 of 6 parts colored: $\\frac{5}{6}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 1 of 6 parts colored: $\\frac{1}{6}$."
+        ],
+        [
+          "3/4",
+          "Both models have 6 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 5, $\\frac{1}{6}$ is less than $\\frac{5}{6}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_16_step_1",
+          "Rectangle divided into 6 sections. 5 sections shaded in orange showing 5/6."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_16_step_2",
+          "Rectangle divided into 6 sections. 1 sections shaded in blue showing 1/6."
+        ]
+      ],
+      "question_number": "1_16",
+      "backend_description": "Two rectangles comparing fractions. Left: '5/6' with 5 of 6 sections orange. Right: '1/6' with 1 of 6 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_17",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "5/6",
+        "4/6"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 5 of 6 parts colored: $\\frac{5}{6}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 4 of 6 parts colored: $\\frac{4}{6}$."
+        ],
+        [
+          "3/4",
+          "Both models have 6 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 4 < 5, $\\frac{4}{6}$ is less than $\\frac{5}{6}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_17_step_1",
+          "Rectangle divided into 6 sections. 5 sections shaded in orange showing 5/6."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_17_step_2",
+          "Rectangle divided into 6 sections. 4 sections shaded in blue showing 4/6."
+        ]
+      ],
+      "question_number": "1_17",
+      "backend_description": "Two rectangles comparing fractions. Left: '5/6' with 5 of 6 sections orange. Right: '4/6' with 4 of 6 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_18",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "2/7",
+        "6/7"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 2 of 7 parts colored: $\\frac{2}{7}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 6 of 7 parts colored: $\\frac{6}{7}$."
+        ],
+        [
+          "3/4",
+          "Both models have 7 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 2 < 6, $\\frac{2}{7}$ is less than $\\frac{6}{7}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_18_step_1",
+          "Rectangle divided into 7 sections. 2 sections shaded in orange showing 2/7."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_18_step_2",
+          "Rectangle divided into 7 sections. 6 sections shaded in blue showing 6/7."
+        ]
+      ],
+      "question_number": "1_18",
+      "backend_description": "Two rectangles comparing fractions. Left: '2/7' with 2 of 7 sections orange. Right: '6/7' with 6 of 7 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_19",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "1/6",
+        "3/6"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 1 of 6 parts colored: $\\frac{1}{6}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 3 of 6 parts colored: $\\frac{3}{6}$."
+        ],
+        [
+          "3/4",
+          "Both models have 6 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 3, $\\frac{1}{6}$ is less than $\\frac{3}{6}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_19_step_1",
+          "Rectangle divided into 6 sections. 1 sections shaded in orange showing 1/6."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_19_step_2",
+          "Rectangle divided into 6 sections. 3 sections shaded in blue showing 3/6."
+        ]
+      ],
+      "question_number": "1_19",
+      "backend_description": "Two rectangles comparing fractions. Left: '1/6' with 1 of 6 sections orange. Right: '3/6' with 3 of 6 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_20",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "1/5",
+        "3/5"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 1 of 5 parts colored: $\\frac{1}{5}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 3 of 5 parts colored: $\\frac{3}{5}$."
+        ],
+        [
+          "3/4",
+          "Both models have 5 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 3, $\\frac{1}{5}$ is less than $\\frac{3}{5}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_20_step_1",
+          "Rectangle divided into 5 sections. 1 sections shaded in orange showing 1/5."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_20_step_2",
+          "Rectangle divided into 5 sections. 3 sections shaded in blue showing 3/5."
+        ]
+      ],
+      "question_number": "1_20",
+      "backend_description": "Two rectangles comparing fractions. Left: '1/5' with 1 of 5 sections orange. Right: '3/5' with 3 of 5 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_21",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "1/7",
+        "4/7"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 1 of 7 parts colored: $\\frac{1}{7}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 4 of 7 parts colored: $\\frac{4}{7}$."
+        ],
+        [
+          "3/4",
+          "Both models have 7 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 4, $\\frac{1}{7}$ is less than $\\frac{4}{7}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_21_step_1",
+          "Rectangle divided into 7 sections. 1 sections shaded in orange showing 1/7."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_21_step_2",
+          "Rectangle divided into 7 sections. 4 sections shaded in blue showing 4/7."
+        ]
+      ],
+      "question_number": "1_21",
+      "backend_description": "Two rectangles comparing fractions. Left: '1/7' with 1 of 7 sections orange. Right: '4/7' with 4 of 7 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_22",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "1/7",
+        "6/7"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 1 of 7 parts colored: $\\frac{1}{7}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 6 of 7 parts colored: $\\frac{6}{7}$."
+        ],
+        [
+          "3/4",
+          "Both models have 7 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 6, $\\frac{1}{7}$ is less than $\\frac{6}{7}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_22_step_1",
+          "Rectangle divided into 7 sections. 1 sections shaded in orange showing 1/7."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_22_step_2",
+          "Rectangle divided into 7 sections. 6 sections shaded in blue showing 6/7."
+        ]
+      ],
+      "question_number": "1_22",
+      "backend_description": "Two rectangles comparing fractions. Left: '1/7' with 1 of 7 sections orange. Right: '6/7' with 6 of 7 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_23",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "2/6",
+        "5/6"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 2 of 6 parts colored: $\\frac{2}{6}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 5 of 6 parts colored: $\\frac{5}{6}$."
+        ],
+        [
+          "3/4",
+          "Both models have 6 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 2 < 5, $\\frac{2}{6}$ is less than $\\frac{5}{6}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_23_step_1",
+          "Rectangle divided into 6 sections. 2 sections shaded in orange showing 2/6."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_23_step_2",
+          "Rectangle divided into 6 sections. 5 sections shaded in blue showing 5/6."
+        ]
+      ],
+      "question_number": "1_23",
+      "backend_description": "Two rectangles comparing fractions. Left: '2/6' with 2 of 6 sections orange. Right: '5/6' with 5 of 6 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_24",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "2/6",
+        "1/6"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 2 of 6 parts colored: $\\frac{2}{6}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 1 of 6 parts colored: $\\frac{1}{6}$."
+        ],
+        [
+          "3/4",
+          "Both models have 6 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 2, $\\frac{1}{6}$ is less than $\\frac{2}{6}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_24_step_1",
+          "Rectangle divided into 6 sections. 2 sections shaded in orange showing 2/6."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_24_step_2",
+          "Rectangle divided into 6 sections. 1 sections shaded in blue showing 1/6."
+        ]
+      ],
+      "question_number": "1_24",
+      "backend_description": "Two rectangles comparing fractions. Left: '2/6' with 2 of 6 sections orange. Right: '1/6' with 1 of 6 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_25",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "4/6",
+        "5/6"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 4 of 6 parts colored: $\\frac{4}{6}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 5 of 6 parts colored: $\\frac{5}{6}$."
+        ],
+        [
+          "3/4",
+          "Both models have 6 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 4 < 5, $\\frac{4}{6}$ is less than $\\frac{5}{6}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_25_step_1",
+          "Rectangle divided into 6 sections. 4 sections shaded in orange showing 4/6."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_25_step_2",
+          "Rectangle divided into 6 sections. 5 sections shaded in blue showing 5/6."
+        ]
+      ],
+      "question_number": "1_25",
+      "backend_description": "Two rectangles comparing fractions. Left: '4/6' with 4 of 6 sections orange. Right: '5/6' with 5 of 6 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_26",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "2/6",
+        "3/6"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 2 of 6 parts colored: $\\frac{2}{6}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 3 of 6 parts colored: $\\frac{3}{6}$."
+        ],
+        [
+          "3/4",
+          "Both models have 6 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 2 < 3, $\\frac{2}{6}$ is less than $\\frac{3}{6}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_26_step_1",
+          "Rectangle divided into 6 sections. 2 sections shaded in orange showing 2/6."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_26_step_2",
+          "Rectangle divided into 6 sections. 3 sections shaded in blue showing 3/6."
+        ]
+      ],
+      "question_number": "1_26",
+      "backend_description": "Two rectangles comparing fractions. Left: '2/6' with 2 of 6 sections orange. Right: '3/6' with 3 of 6 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_27",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "1/4",
+        "3/4"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 1 of 4 parts colored: $\\frac{1}{4}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 3 of 4 parts colored: $\\frac{3}{4}$."
+        ],
+        [
+          "3/4",
+          "Both models have 4 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 3, $\\frac{1}{4}$ is less than $\\frac{3}{4}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_27_step_1",
+          "Rectangle divided into 4 sections. 1 sections shaded in orange showing 1/4."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_27_step_2",
+          "Rectangle divided into 4 sections. 3 sections shaded in blue showing 3/4."
+        ]
+      ],
+      "question_number": "1_27",
+      "backend_description": "Two rectangles comparing fractions. Left: '1/4' with 1 of 4 sections orange. Right: '3/4' with 3 of 4 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_28",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "3/6",
+        "4/6"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 3 of 6 parts colored: $\\frac{3}{6}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 4 of 6 parts colored: $\\frac{4}{6}$."
+        ],
+        [
+          "3/4",
+          "Both models have 6 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 3 < 4, $\\frac{3}{6}$ is less than $\\frac{4}{6}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_28_step_1",
+          "Rectangle divided into 6 sections. 3 sections shaded in orange showing 3/6."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_28_step_2",
+          "Rectangle divided into 6 sections. 4 sections shaded in blue showing 4/6."
+        ]
+      ],
+      "question_number": "1_28",
+      "backend_description": "Two rectangles comparing fractions. Left: '3/6' with 3 of 6 sections orange. Right: '4/6' with 4 of 6 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_29",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "1/7",
+        "5/7"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 1 of 7 parts colored: $\\frac{1}{7}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 5 of 7 parts colored: $\\frac{5}{7}$."
+        ],
+        [
+          "3/4",
+          "Both models have 7 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 5, $\\frac{1}{7}$ is less than $\\frac{5}{7}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_29_step_1",
+          "Rectangle divided into 7 sections. 1 sections shaded in orange showing 1/7."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_29_step_2",
+          "Rectangle divided into 7 sections. 5 sections shaded in blue showing 5/7."
+        ]
+      ],
+      "question_number": "1_29",
+      "backend_description": "Two rectangles comparing fractions. Left: '1/7' with 1 of 7 sections orange. Right: '5/7' with 5 of 7 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_30",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "1/5",
+        "4/5"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 1 of 5 parts colored: $\\frac{1}{5}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 4 of 5 parts colored: $\\frac{4}{5}$."
+        ],
+        [
+          "3/4",
+          "Both models have 5 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 4, $\\frac{1}{5}$ is less than $\\frac{4}{5}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_30_step_1",
+          "Rectangle divided into 5 sections. 1 sections shaded in orange showing 1/5."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_30_step_2",
+          "Rectangle divided into 5 sections. 4 sections shaded in blue showing 4/5."
+        ]
+      ],
+      "question_number": "1_30",
+      "backend_description": "Two rectangles comparing fractions. Left: '1/5' with 1 of 5 sections orange. Right: '4/5' with 4 of 5 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_31",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "2/5",
+        "1/5"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 2 of 5 parts colored: $\\frac{2}{5}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 1 of 5 parts colored: $\\frac{1}{5}$."
+        ],
+        [
+          "3/4",
+          "Both models have 5 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 2, $\\frac{1}{5}$ is less than $\\frac{2}{5}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_31_step_1",
+          "Rectangle divided into 5 sections. 2 sections shaded in orange showing 2/5."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_31_step_2",
+          "Rectangle divided into 5 sections. 1 sections shaded in blue showing 1/5."
+        ]
+      ],
+      "question_number": "1_31",
+      "backend_description": "Two rectangles comparing fractions. Left: '2/5' with 2 of 5 sections orange. Right: '1/5' with 1 of 5 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_32",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "2/5",
+        "3/5"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 2 of 5 parts colored: $\\frac{2}{5}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 3 of 5 parts colored: $\\frac{3}{5}$."
+        ],
+        [
+          "3/4",
+          "Both models have 5 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 2 < 3, $\\frac{2}{5}$ is less than $\\frac{3}{5}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_32_step_1",
+          "Rectangle divided into 5 sections. 2 sections shaded in orange showing 2/5."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_32_step_2",
+          "Rectangle divided into 5 sections. 3 sections shaded in blue showing 3/5."
+        ]
+      ],
+      "question_number": "1_32",
+      "backend_description": "Two rectangles comparing fractions. Left: '2/5' with 2 of 5 sections orange. Right: '3/5' with 3 of 5 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_33",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "5/6",
+        "2/6"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 5 of 6 parts colored: $\\frac{5}{6}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 2 of 6 parts colored: $\\frac{2}{6}$."
+        ],
+        [
+          "3/4",
+          "Both models have 6 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 2 < 5, $\\frac{2}{6}$ is less than $\\frac{5}{6}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_33_step_1",
+          "Rectangle divided into 6 sections. 5 sections shaded in orange showing 5/6."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_33_step_2",
+          "Rectangle divided into 6 sections. 2 sections shaded in blue showing 2/6."
+        ]
+      ],
+      "question_number": "1_33",
+      "backend_description": "Two rectangles comparing fractions. Left: '5/6' with 5 of 6 sections orange. Right: '2/6' with 2 of 6 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_34",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "1/6",
+        "4/6"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 1 of 6 parts colored: $\\frac{1}{6}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 4 of 6 parts colored: $\\frac{4}{6}$."
+        ],
+        [
+          "3/4",
+          "Both models have 6 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 4, $\\frac{1}{6}$ is less than $\\frac{4}{6}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_34_step_1",
+          "Rectangle divided into 6 sections. 1 sections shaded in orange showing 1/6."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_34_step_2",
+          "Rectangle divided into 6 sections. 4 sections shaded in blue showing 4/6."
+        ]
+      ],
+      "question_number": "1_34",
+      "backend_description": "Two rectangles comparing fractions. Left: '1/6' with 1 of 6 sections orange. Right: '4/6' with 4 of 6 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_35",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "2/4",
+        "3/4"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 2 of 4 parts colored: $\\frac{2}{4}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 3 of 4 parts colored: $\\frac{3}{4}$."
+        ],
+        [
+          "3/4",
+          "Both models have 4 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 2 < 3, $\\frac{2}{4}$ is less than $\\frac{3}{4}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_35_step_1",
+          "Rectangle divided into 4 sections. 2 sections shaded in orange showing 2/4."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_35_step_2",
+          "Rectangle divided into 4 sections. 3 sections shaded in blue showing 3/4."
+        ]
+      ],
+      "question_number": "1_35",
+      "backend_description": "Two rectangles comparing fractions. Left: '2/4' with 2 of 4 sections orange. Right: '3/4' with 3 of 4 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_36",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "4/6",
+        "3/6"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 4 of 6 parts colored: $\\frac{4}{6}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 3 of 6 parts colored: $\\frac{3}{6}$."
+        ],
+        [
+          "3/4",
+          "Both models have 6 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 3 < 4, $\\frac{3}{6}$ is less than $\\frac{4}{6}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_36_step_1",
+          "Rectangle divided into 6 sections. 4 sections shaded in orange showing 4/6."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_36_step_2",
+          "Rectangle divided into 6 sections. 3 sections shaded in blue showing 3/6."
+        ]
+      ],
+      "question_number": "1_36",
+      "backend_description": "Two rectangles comparing fractions. Left: '4/6' with 4 of 6 sections orange. Right: '3/6' with 3 of 6 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_37",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "3/5",
+        "4/5"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 3 of 5 parts colored: $\\frac{3}{5}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 4 of 5 parts colored: $\\frac{4}{5}$."
+        ],
+        [
+          "3/4",
+          "Both models have 5 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 3 < 4, $\\frac{3}{5}$ is less than $\\frac{4}{5}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_37_step_1",
+          "Rectangle divided into 5 sections. 3 sections shaded in orange showing 3/5."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_37_step_2",
+          "Rectangle divided into 5 sections. 4 sections shaded in blue showing 4/5."
+        ]
+      ],
+      "question_number": "1_37",
+      "backend_description": "Two rectangles comparing fractions. Left: '3/5' with 3 of 5 sections orange. Right: '4/5' with 4 of 5 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_38",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "3/6",
+        "2/6"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 3 of 6 parts colored: $\\frac{3}{6}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 2 of 6 parts colored: $\\frac{2}{6}$."
+        ],
+        [
+          "3/4",
+          "Both models have 6 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 2 < 3, $\\frac{2}{6}$ is less than $\\frac{3}{6}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_38_step_1",
+          "Rectangle divided into 6 sections. 3 sections shaded in orange showing 3/6."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_38_step_2",
+          "Rectangle divided into 6 sections. 2 sections shaded in blue showing 2/6."
+        ]
+      ],
+      "question_number": "1_38",
+      "backend_description": "Two rectangles comparing fractions. Left: '3/6' with 3 of 6 sections orange. Right: '2/6' with 2 of 6 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_39",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "2/7",
+        "1/7"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 2 of 7 parts colored: $\\frac{2}{7}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 1 of 7 parts colored: $\\frac{1}{7}$."
+        ],
+        [
+          "3/4",
+          "Both models have 7 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 2, $\\frac{1}{7}$ is less than $\\frac{2}{7}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_39_step_1",
+          "Rectangle divided into 7 sections. 2 sections shaded in orange showing 2/7."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_39_step_2",
+          "Rectangle divided into 7 sections. 1 sections shaded in blue showing 1/7."
+        ]
+      ],
+      "question_number": "1_39",
+      "backend_description": "Two rectangles comparing fractions. Left: '2/7' with 2 of 7 sections orange. Right: '1/7' with 1 of 7 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_40",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "3/7",
+        "1/7"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 3 of 7 parts colored: $\\frac{3}{7}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 1 of 7 parts colored: $\\frac{1}{7}$."
+        ],
+        [
+          "3/4",
+          "Both models have 7 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 3, $\\frac{1}{7}$ is less than $\\frac{3}{7}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_40_step_1",
+          "Rectangle divided into 7 sections. 3 sections shaded in orange showing 3/7."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_40_step_2",
+          "Rectangle divided into 7 sections. 1 sections shaded in blue showing 1/7."
+        ]
+      ],
+      "question_number": "1_40",
+      "backend_description": "Two rectangles comparing fractions. Left: '3/7' with 3 of 7 sections orange. Right: '1/7' with 1 of 7 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_41",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "3/5",
+        "2/5"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 3 of 5 parts colored: $\\frac{3}{5}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 2 of 5 parts colored: $\\frac{2}{5}$."
+        ],
+        [
+          "3/4",
+          "Both models have 5 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 2 < 3, $\\frac{2}{5}$ is less than $\\frac{3}{5}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_41_step_1",
+          "Rectangle divided into 5 sections. 3 sections shaded in orange showing 3/5."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_41_step_2",
+          "Rectangle divided into 5 sections. 2 sections shaded in blue showing 2/5."
+        ]
+      ],
+      "question_number": "1_41",
+      "backend_description": "Two rectangles comparing fractions. Left: '3/5' with 3 of 5 sections orange. Right: '2/5' with 2 of 5 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_42",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "3/6",
+        "1/6"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 3 of 6 parts colored: $\\frac{3}{6}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 1 of 6 parts colored: $\\frac{1}{6}$."
+        ],
+        [
+          "3/4",
+          "Both models have 6 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 3, $\\frac{1}{6}$ is less than $\\frac{3}{6}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_42_step_1",
+          "Rectangle divided into 6 sections. 3 sections shaded in orange showing 3/6."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_42_step_2",
+          "Rectangle divided into 6 sections. 1 sections shaded in blue showing 1/6."
+        ]
+      ],
+      "question_number": "1_42",
+      "backend_description": "Two rectangles comparing fractions. Left: '3/6' with 3 of 6 sections orange. Right: '1/6' with 1 of 6 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_43",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "4/6",
+        "2/6"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 4 of 6 parts colored: $\\frac{4}{6}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 2 of 6 parts colored: $\\frac{2}{6}$."
+        ],
+        [
+          "3/4",
+          "Both models have 6 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 2 < 4, $\\frac{2}{6}$ is less than $\\frac{4}{6}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_43_step_1",
+          "Rectangle divided into 6 sections. 4 sections shaded in orange showing 4/6."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_43_step_2",
+          "Rectangle divided into 6 sections. 2 sections shaded in blue showing 2/6."
+        ]
+      ],
+      "question_number": "1_43",
+      "backend_description": "Two rectangles comparing fractions. Left: '4/6' with 4 of 6 sections orange. Right: '2/6' with 2 of 6 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_44",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "1/4",
+        "2/4"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 1 of 4 parts colored: $\\frac{1}{4}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 2 of 4 parts colored: $\\frac{2}{4}$."
+        ],
+        [
+          "3/4",
+          "Both models have 4 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 2, $\\frac{1}{4}$ is less than $\\frac{2}{4}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_44_step_1",
+          "Rectangle divided into 4 sections. 1 sections shaded in orange showing 1/4."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_44_step_2",
+          "Rectangle divided into 4 sections. 2 sections shaded in blue showing 2/4."
+        ]
+      ],
+      "question_number": "1_44",
+      "backend_description": "Two rectangles comparing fractions. Left: '1/4' with 1 of 4 sections orange. Right: '2/4' with 2 of 4 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_45",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "2/7",
+        "4/7"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 2 of 7 parts colored: $\\frac{2}{7}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 4 of 7 parts colored: $\\frac{4}{7}$."
+        ],
+        [
+          "3/4",
+          "Both models have 7 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 2 < 4, $\\frac{2}{7}$ is less than $\\frac{4}{7}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_45_step_1",
+          "Rectangle divided into 7 sections. 2 sections shaded in orange showing 2/7."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_45_step_2",
+          "Rectangle divided into 7 sections. 4 sections shaded in blue showing 4/7."
+        ]
+      ],
+      "question_number": "1_45",
+      "backend_description": "Two rectangles comparing fractions. Left: '2/7' with 2 of 7 sections orange. Right: '4/7' with 4 of 7 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_46",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "3/6",
+        "5/6"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 3 of 6 parts colored: $\\frac{3}{6}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 5 of 6 parts colored: $\\frac{5}{6}$."
+        ],
+        [
+          "3/4",
+          "Both models have 6 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 3 < 5, $\\frac{3}{6}$ is less than $\\frac{5}{6}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_46_step_1",
+          "Rectangle divided into 6 sections. 3 sections shaded in orange showing 3/6."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_46_step_2",
+          "Rectangle divided into 6 sections. 5 sections shaded in blue showing 5/6."
+        ]
+      ],
+      "question_number": "1_46",
+      "backend_description": "Two rectangles comparing fractions. Left: '3/6' with 3 of 6 sections orange. Right: '5/6' with 5 of 6 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_47",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "1/7",
+        "3/7"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 1 of 7 parts colored: $\\frac{1}{7}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 3 of 7 parts colored: $\\frac{3}{7}$."
+        ],
+        [
+          "3/4",
+          "Both models have 7 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 3, $\\frac{1}{7}$ is less than $\\frac{3}{7}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_47_step_1",
+          "Rectangle divided into 7 sections. 1 sections shaded in orange showing 1/7."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_47_step_2",
+          "Rectangle divided into 7 sections. 3 sections shaded in blue showing 3/7."
+        ]
+      ],
+      "question_number": "1_47",
+      "backend_description": "Two rectangles comparing fractions. Left: '1/7' with 1 of 7 sections orange. Right: '3/7' with 3 of 7 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_48",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "2/5",
+        "4/5"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 2 of 5 parts colored: $\\frac{2}{5}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 4 of 5 parts colored: $\\frac{4}{5}$."
+        ],
+        [
+          "3/4",
+          "Both models have 5 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 2 < 4, $\\frac{2}{5}$ is less than $\\frac{4}{5}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_48_step_1",
+          "Rectangle divided into 5 sections. 2 sections shaded in orange showing 2/5."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_48_step_2",
+          "Rectangle divided into 5 sections. 4 sections shaded in blue showing 4/5."
+        ]
+      ],
+      "question_number": "1_48",
+      "backend_description": "Two rectangles comparing fractions. Left: '2/5' with 2 of 5 sections orange. Right: '4/5' with 4 of 5 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_49",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "4/5",
+        "2/5"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 4 of 5 parts colored: $\\frac{4}{5}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 2 of 5 parts colored: $\\frac{2}{5}$."
+        ],
+        [
+          "3/4",
+          "Both models have 5 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 2 < 4, $\\frac{2}{5}$ is less than $\\frac{4}{5}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_49_step_1",
+          "Rectangle divided into 5 sections. 4 sections shaded in orange showing 4/5."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_49_step_2",
+          "Rectangle divided into 5 sections. 2 sections shaded in blue showing 2/5."
+        ]
+      ],
+      "question_number": "1_49",
+      "backend_description": "Two rectangles comparing fractions. Left: '4/5' with 4 of 5 sections orange. Right: '2/5' with 2 of 5 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_50",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "1/7",
+        "2/7"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 1 of 7 parts colored: $\\frac{1}{7}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 2 of 7 parts colored: $\\frac{2}{7}$."
+        ],
+        [
+          "3/4",
+          "Both models have 7 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 1 < 2, $\\frac{1}{7}$ is less than $\\frac{2}{7}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_50_step_1",
+          "Rectangle divided into 7 sections. 1 sections shaded in orange showing 1/7."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_50_step_2",
+          "Rectangle divided into 7 sections. 2 sections shaded in blue showing 2/7."
+        ]
+      ],
+      "question_number": "1_50",
+      "backend_description": "Two rectangles comparing fractions. Left: '1/7' with 1 of 7 sections orange. Right: '2/7' with 2 of 7 sections blue."
+    },
+    {
+      "skills": "compare-fractions-with-like-denominators-using-models",
+      "question_text": "Which fraction is less?",
+      "image_tag": "Gr4_8_1_51",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_8_E1",
+      "choices": [
+        "2/6",
+        "4/6"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "First model shows 2 of 6 parts colored: $\\frac{2}{6}$."
+        ],
+        [
+          "2/4",
+          "Second model shows 4 of 6 parts colored: $\\frac{4}{6}$."
+        ],
+        [
+          "3/4",
+          "Both models have 6 equal parts of the same size."
+        ],
+        [
+          "4/4",
+          "Since 2 < 4, $\\frac{2}{6}$ is less than $\\frac{4}{6}$."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr4_8_1_51_step_1",
+          "Rectangle divided into 6 sections. 2 sections shaded in orange showing 2/6."
+        ],
+        [
+          "2/4",
+          "Gr4_8_1_51_step_2",
+          "Rectangle divided into 6 sections. 4 sections shaded in blue showing 4/6."
+        ]
+      ],
+      "question_number": "1_51",
+      "backend_description": "Two rectangles comparing fractions. Left: '2/6' with 2 of 6 sections orange. Right: '4/6' with 4 of 6 sections blue."
+    }
+  ]
+}

@@ -1,1991 +1,1993 @@
-[
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at Linda's Construction monitored the number of cracked window panes in each shipment they received.\n\nHow many shipments had at least 50 cracked window panes but less than 90 cracked window panes?",
-    "image_tag": "Gr4_44_5_1",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "12",
-      "15",
-      "13",
-      "14"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of shipments that had at least 50, but less than 90 cracked window panes, we need to count all numbers from 50 to 89."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 5, 6, 7, and 8."
-      ],
-      [
-        "3/3",
-        "There are 14 leaves, which are blue in the stem-and-leaf plot above. 14 shipments had at least 50 cracked window panes but less than 90 cracked window panes."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_1_step_1",
-        "A stem-and-leaf plot titled 'Cracked window panes per shipment' with stems 3-8 and their corresponding leaves. Blue numbers indicate specific data points: Stem 3: Leaf 6; Stem 4: Leaf 6; Stem 5: Leaves 1, 2, 4, 4, 5, 7; Stem 6: Leaves 5, 5, 7, 8; Stem 7: Leaf 7; Stem 8: Leaves 1, 3, 6."
-      ]
-    ],
-    "question_number": "5_1",
-    "backend_description": "A stem-and-leaf plot showing the distribution of cracked window panes. The stem column shows values 3-8, and the leaf column shows: 3|6, 4|6, 5|1 2 4 4 5 7, 6|5 5 7 8, 7|7, 8|1 3 6."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at AppMaster monitored the number of error messages in each software deployment they received.\n\nHow many software deployments had at least 60 error messages but less than 90 error messages?",
-    "image_tag": "Gr4_44_5_2",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "6",
-      "3",
-      "8",
-      "9"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of software deployments that had at least 60 error messages but less than 90 error messages, we need to count all numbers from 60 to 89."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 6 leaves, which are highlighted in the stem-and-leaf plot above. 6 software deployments had at least 60 error messages but less than 90 error messages."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_2_step_1",
-        "A stem-and-leaf plot titled 'Software testing' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-90."
-      ]
-    ],
-    "question_number": "5_2",
-    "backend_description": "A stem-and-leaf plot showing the distribution of error messages. The stem column shows values 3-8, and the leaf column shows: 3|6, 4|0 0 7 8, 5|1, 6|3 9, 7|, 8|2 5 8 9."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at ByteWorks monitored the number of rejected parts in each batch they received.\n\nHow many batchs had at least 40 rejected parts but not more than 90 rejected parts?",
-    "image_tag": "Gr4_44_5_3",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "8",
-      "6",
-      "9",
-      "7"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of batchs that had at least 40 rejected parts but not more than 90 rejected parts, we need to count all numbers from 40 to 90."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 4, 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 9 leaves, which are highlighted in the stem-and-leaf plot above. 9 batchs had at least 40 rejected parts but not more than 90 rejected parts."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_3_step_1",
-        "A stem-and-leaf plot titled 'Manufacturing QC' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-90."
-      ]
-    ],
-    "question_number": "5_3",
-    "backend_description": "A stem-and-leaf plot showing the distribution of rejected parts. The stem column shows values 3-8, and the leaf column shows: 3|5 6 7 8, 4|6, 5|4 6 9 9, 6|1 2, 7|, 8|1 7."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at CloudNet monitored the number of tweets flagged in each moderation queue they received.\n\nHow many moderation queues had at least 60 tweets flagged but less than 90 tweets flagged?",
-    "image_tag": "Gr4_44_5_4",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "2",
-      "5",
-      "3",
-      "6"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of moderation queues that had at least 60 tweets flagged but less than 90 tweets flagged, we need to count all numbers from 60 to 89."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 5 leaves, which are highlighted in the stem-and-leaf plot above. 5 moderation queues had at least 60 tweets flagged but less than 90 tweets flagged."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_4_step_1",
-        "A stem-and-leaf plot titled 'Content moderation' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-90."
-      ]
-    ],
-    "question_number": "5_4",
-    "backend_description": "A stem-and-leaf plot showing the distribution of tweets flagged. The stem column shows values 3-8, and the leaf column shows: 3|, 4|0 4 9, 5|1 9, 6|3 6, 7|9, 8|4 8."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at CloudNet monitored the number of stream interruptions in each broadcast they received.\n\nHow many broadcasts had at least 60 stream interruptions but less than 100 stream interruptions?",
-    "image_tag": "Gr4_44_5_5",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "12",
-      "8",
-      "11",
-      "10"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of broadcasts that had at least 60 stream interruptions but less than 100 stream interruptions, we need to count all numbers from 60 to 99."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 10 leaves, which are highlighted in the stem-and-leaf plot above. 10 broadcasts had at least 60 stream interruptions but less than 100 stream interruptions."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_5_step_1",
-        "A stem-and-leaf plot titled 'Live streaming' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-100."
-      ]
-    ],
-    "question_number": "5_5",
-    "backend_description": "A stem-and-leaf plot showing the distribution of stream interruptions. The stem column shows values 3-8, and the leaf column shows: 3|0 4 7 9, 4|, 5|0 7 8 9, 6|2 2 5 6, 7|0 1 4, 8|1 2 6."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at DataSoft monitored the number of failed tests in each exam session they received.\n\nHow many exam sessions had at least 40 failed tests but not more than 90 failed tests?",
-    "image_tag": "Gr4_44_5_6",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "8",
-      "11",
-      "12",
-      "10"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of exam sessions that had at least 40 failed tests but not more than 90 failed tests, we need to count all numbers from 40 to 90."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 4, 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 10 leaves, which are highlighted in the stem-and-leaf plot above. 10 exam sessions had at least 40 failed tests but not more than 90 failed tests."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_6_step_1",
-        "A stem-and-leaf plot titled 'Academic testing' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-90."
-      ]
-    ],
-    "question_number": "5_6",
-    "backend_description": "A stem-and-leaf plot showing the distribution of failed tests. The stem column shows values 3-8, and the leaf column shows: 3|2 6 8, 4|6 7, 5|2 6 8, 6|2 7 9, 7|, 8|3 7."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at CodeCraft monitored the number of dropped calls in each hour they received.\n\nHow many hours had at least 50 dropped calls but not more than 80 dropped calls?",
-    "image_tag": "Gr4_44_5_7",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "5",
-      "6",
-      "3",
-      "8"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of hours that had at least 50 dropped calls but not more than 80 dropped calls, we need to count all numbers from 50 to 80."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 6 leaves, which are highlighted in the stem-and-leaf plot above. 6 hours had at least 50 dropped calls but not more than 80 dropped calls."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_7_step_1",
-        "A stem-and-leaf plot titled 'Call center metrics' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-80."
-      ]
-    ],
-    "question_number": "5_7",
-    "backend_description": "A stem-and-leaf plot showing the distribution of dropped calls. The stem column shows values 3-8, and the leaf column shows: 3|8, 4|, 5|9, 6|0 1 4, 7|1 5, 8|6 7 9."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at ByteWorks monitored the number of damaged items in each shipment they received.\n\nHow many shipments had at least 50 damaged items but less than 80 damaged items?",
-    "image_tag": "Gr4_44_5_8",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "12",
-      "10",
-      "8",
-      "7"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of shipments that had at least 50 damaged items but less than 80 damaged items, we need to count all numbers from 50 to 79."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 5, 6, 7."
-      ],
-      [
-        "3/3",
-        "There are 10 leaves, which are highlighted in the stem-and-leaf plot above. 10 shipments had at least 50 damaged items but less than 80 damaged items."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_8_step_1",
-        "A stem-and-leaf plot titled 'Quality control' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-80."
-      ]
-    ],
-    "question_number": "5_8",
-    "backend_description": "A stem-and-leaf plot showing the distribution of damaged items. The stem column shows values 3-8, and the leaf column shows: 3|1 1 7 8, 4|0 6 8, 5|0 0 3 4, 6|2 5, 7|1 1 3 4, 8|2 4."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at DataSoft monitored the number of stream interruptions in each broadcast they received.\n\nHow many broadcasts had at least 50 stream interruptions but not more than 80 stream interruptions?",
-    "image_tag": "Gr4_44_5_9",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "0",
-      "1",
-      "4",
-      "3"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of broadcasts that had at least 50 stream interruptions but not more than 80 stream interruptions, we need to count all numbers from 50 to 80."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 3 leaves, which are highlighted in the stem-and-leaf plot above. 3 broadcasts had at least 50 stream interruptions but not more than 80 stream interruptions."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_9_step_1",
-        "A stem-and-leaf plot titled 'Live streaming' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-80."
-      ]
-    ],
-    "question_number": "5_9",
-    "backend_description": "A stem-and-leaf plot showing the distribution of stream interruptions. The stem column shows values 3-8, and the leaf column shows: 3|0 1 5 9, 4|, 5|, 6|, 7|1 2 4, 8|1 3."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at DataSoft monitored the number of bugs found in each code review they received.\n\nHow many code reviews had at least 50 bugs found but not more than 100 bugs found?",
-    "image_tag": "Gr4_44_5_10",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "7",
-      "10",
-      "9",
-      "12"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of code reviews that had at least 50 bugs found but not more than 100 bugs found, we need to count all numbers from 50 to 100."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 9 leaves, which are highlighted in the stem-and-leaf plot above. 9 code reviews had at least 50 bugs found but not more than 100 bugs found."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_10_step_1",
-        "A stem-and-leaf plot titled 'Software development' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-100."
-      ]
-    ],
-    "question_number": "5_10",
-    "backend_description": "A stem-and-leaf plot showing the distribution of bugs found. The stem column shows values 3-8, and the leaf column shows: 3|0 4, 4|0 5, 5|6 9, 6|3, 7|7 9 9, 8|1 2 7."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at CodeCraft monitored the number of dropped calls in each hour they received.\n\nHow many hours had at least 60 dropped calls but less than 100 dropped calls?",
-    "image_tag": "Gr4_44_5_11",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "4",
-      "6",
-      "7",
-      "5"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of hours that had at least 60 dropped calls but less than 100 dropped calls, we need to count all numbers from 60 to 99."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 7 leaves, which are highlighted in the stem-and-leaf plot above. 7 hours had at least 60 dropped calls but less than 100 dropped calls."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_11_step_1",
-        "A stem-and-leaf plot titled 'Call center metrics' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-100."
-      ]
-    ],
-    "question_number": "5_11",
-    "backend_description": "A stem-and-leaf plot showing the distribution of dropped calls. The stem column shows values 3-8, and the leaf column shows: 3|0 5 8, 4|1 5 5 5, 5|3 6 7, 6|, 7|1 5 8, 8|0 5 9 9."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at CloudNet monitored the number of stream interruptions in each broadcast they received.\n\nHow many broadcasts had at least 50 stream interruptions but less than 80 stream interruptions?",
-    "image_tag": "Gr4_44_5_12",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "5",
-      "8",
-      "3",
-      "6"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of broadcasts that had at least 50 stream interruptions but less than 80 stream interruptions, we need to count all numbers from 50 to 79."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 5, 6, 7."
-      ],
-      [
-        "3/3",
-        "There are 5 leaves, which are highlighted in the stem-and-leaf plot above. 5 broadcasts had at least 50 stream interruptions but less than 80 stream interruptions."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_12_step_1",
-        "A stem-and-leaf plot titled 'Live streaming' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-80."
-      ]
-    ],
-    "question_number": "5_12",
-    "backend_description": "A stem-and-leaf plot showing the distribution of stream interruptions. The stem column shows values 3-8, and the leaf column shows: 3|2 6 6, 4|, 5|7, 6|0 9, 7|9 9, 8|3 7 9."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at StreamLine monitored the number of bugs found in each code review they received.\n\nHow many code reviews had at least 50 bugs found but less than 80 bugs found?",
-    "image_tag": "Gr4_44_5_13",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "14",
-      "12",
-      "11",
-      "9"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of code reviews that had at least 50 bugs found but less than 80 bugs found, we need to count all numbers from 50 to 79."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 5, 6, 7."
-      ],
-      [
-        "3/3",
-        "There are 11 leaves, which are highlighted in the stem-and-leaf plot above. 11 code reviews had at least 50 bugs found but less than 80 bugs found."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_13_step_1",
-        "A stem-and-leaf plot titled 'Software development' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-80."
-      ]
-    ],
-    "question_number": "5_13",
-    "backend_description": "A stem-and-leaf plot showing the distribution of bugs found. The stem column shows values 3-8, and the leaf column shows: 3|5, 4|8, 5|4 4 9, 6|2 5 6 7, 7|3 5 6 6, 8|7 7."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at DigiFlow monitored the number of rejected parts in each batch they received.\n\nHow many batchs had at least 50 rejected parts but not more than 80 rejected parts?",
-    "image_tag": "Gr4_44_5_14",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "10",
-      "5",
-      "9",
-      "7"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of batchs that had at least 50 rejected parts but not more than 80 rejected parts, we need to count all numbers from 50 to 80."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 7 leaves, which are highlighted in the stem-and-leaf plot above. 7 batchs had at least 50 rejected parts but not more than 80 rejected parts."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_14_step_1",
-        "A stem-and-leaf plot titled 'Manufacturing QC' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-80."
-      ]
-    ],
-    "question_number": "5_14",
-    "backend_description": "A stem-and-leaf plot showing the distribution of rejected parts. The stem column shows values 3-8, and the leaf column shows: 3|4, 4|9, 5|0 1 8, 6|4 6 7, 7|8, 8|."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at DigiFlow monitored the number of damaged items in each shipment they received.\n\nHow many shipments had at least 60 damaged items but less than 100 damaged items?",
-    "image_tag": "Gr4_44_5_15",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "7",
-      "6",
-      "4",
-      "9"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of shipments that had at least 60 damaged items but less than 100 damaged items, we need to count all numbers from 60 to 99."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 7 leaves, which are highlighted in the stem-and-leaf plot above. 7 shipments had at least 60 damaged items but less than 100 damaged items."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_15_step_1",
-        "A stem-and-leaf plot titled 'Quality control' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-100."
-      ]
-    ],
-    "question_number": "5_15",
-    "backend_description": "A stem-and-leaf plot showing the distribution of damaged items. The stem column shows values 3-8, and the leaf column shows: 3|3 6, 4|, 5|6, 6|2 3 4 6, 7|1 2 5, 8|."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at StreamLine monitored the number of render errors in each video export they received.\n\nHow many video exports had at least 40 render errors but less than 90 render errors?",
-    "image_tag": "Gr4_44_5_16",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "11",
-      "12",
-      "10",
-      "15"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of video exports that had at least 40 render errors but less than 90 render errors, we need to count all numbers from 40 to 89."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 4, 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 12 leaves, which are highlighted in the stem-and-leaf plot above. 12 video exports had at least 40 render errors but less than 90 render errors."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_16_step_1",
-        "A stem-and-leaf plot titled 'Video production' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-90."
-      ]
-    ],
-    "question_number": "5_16",
-    "backend_description": "A stem-and-leaf plot showing the distribution of render errors. The stem column shows values 3-8, and the leaf column shows: 3|1 3 6 9, 4|5 8 9, 5|5 8 8, 6|, 7|3 3 5 9, 8|1 9."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at ByteWorks monitored the number of sync failures in each cloud backup they received.\n\nHow many cloud backups had at least 40 sync failures but not more than 70 sync failures?",
-    "image_tag": "Gr4_44_5_17",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "10",
-      "4",
-      "7",
-      "9"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of cloud backups that had at least 40 sync failures but not more than 70 sync failures, we need to count all numbers from 40 to 70."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 4, 5, 6, 7."
-      ],
-      [
-        "3/3",
-        "There are 7 leaves, which are highlighted in the stem-and-leaf plot above. 7 cloud backups had at least 40 sync failures but not more than 70 sync failures."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_17_step_1",
-        "A stem-and-leaf plot titled 'Data backup' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-70."
-      ]
-    ],
-    "question_number": "5_17",
-    "backend_description": "A stem-and-leaf plot showing the distribution of sync failures. The stem column shows values 3-8, and the leaf column shows: 3|5, 4|2 2 5 9, 5|0 7 8, 6|, 7|7, 8|."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at CodeCraft monitored the number of sync failures in each cloud backup they received.\n\nHow many cloud backups had at least 60 sync failures but less than 90 sync failures?",
-    "image_tag": "Gr4_44_5_18",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "7",
-      "3",
-      "6",
-      "5"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of cloud backups that had at least 60 sync failures but less than 90 sync failures, we need to count all numbers from 60 to 89."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 5 leaves, which are highlighted in the stem-and-leaf plot above. 5 cloud backups had at least 60 sync failures but less than 90 sync failures."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_18_step_1",
-        "A stem-and-leaf plot titled 'Data backup' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-90."
-      ]
-    ],
-    "question_number": "5_18",
-    "backend_description": "A stem-and-leaf plot showing the distribution of sync failures. The stem column shows values 3-8, and the leaf column shows: 3|2 8, 4|2 3 3 4, 5|1, 6|1, 7|3 6 7 8, 8|."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at CodeCraft monitored the number of render errors in each video export they received.\n\nHow many video exports had at least 50 render errors but less than 80 render errors?",
-    "image_tag": "Gr4_44_5_19",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "9",
-      "5",
-      "4",
-      "7"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of video exports that had at least 50 render errors but less than 80 render errors, we need to count all numbers from 50 to 79."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 5, 6, 7."
-      ],
-      [
-        "3/3",
-        "There are 7 leaves, which are highlighted in the stem-and-leaf plot above. 7 video exports had at least 50 render errors but less than 80 render errors."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_19_step_1",
-        "A stem-and-leaf plot titled 'Video production' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-80."
-      ]
-    ],
-    "question_number": "5_19",
-    "backend_description": "A stem-and-leaf plot showing the distribution of render errors. The stem column shows values 3-8, and the leaf column shows: 3|1, 4|1 1 5 6, 5|4 9, 6|0 1 8, 7|7 9, 8|3."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at StreamLine monitored the number of dropped calls in each hour they received.\n\nHow many hours had at least 60 dropped calls but less than 110 dropped calls?",
-    "image_tag": "Gr4_44_5_20",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "6",
-      "7",
-      "10",
-      "8"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of hours that had at least 60 dropped calls but less than 110 dropped calls, we need to count all numbers from 60 to 109."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 7 leaves, which are highlighted in the stem-and-leaf plot above. 7 hours had at least 60 dropped calls but less than 110 dropped calls."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_20_step_1",
-        "A stem-and-leaf plot titled 'Call center metrics' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-110."
-      ]
-    ],
-    "question_number": "5_20",
-    "backend_description": "A stem-and-leaf plot showing the distribution of dropped calls. The stem column shows values 3-8, and the leaf column shows: 3|, 4|1 5 6, 5|, 6|0 1 5, 7|9 9, 8|0 0."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at StreamLine monitored the number of stream interruptions in each broadcast they received.\n\nHow many broadcasts had at least 40 stream interruptions but less than 90 stream interruptions?",
-    "image_tag": "Gr4_44_5_21",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "9",
-      "10",
-      "8",
-      "7"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of broadcasts that had at least 40 stream interruptions but less than 90 stream interruptions, we need to count all numbers from 40 to 89."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 4, 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 7 leaves, which are highlighted in the stem-and-leaf plot above. 7 broadcasts had at least 40 stream interruptions but less than 90 stream interruptions."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_21_step_1",
-        "A stem-and-leaf plot titled 'Live streaming' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-90."
-      ]
-    ],
-    "question_number": "5_21",
-    "backend_description": "A stem-and-leaf plot showing the distribution of stream interruptions. The stem column shows values 3-8, and the leaf column shows: 3|4 5 8 9, 4|0 3, 5|4, 6|7, 7|, 8|0 1 7."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at StreamLine monitored the number of login attempts failed in each hour they received.\n\nHow many hours had at least 40 login attempts failed but not more than 70 login attempts failed?",
-    "image_tag": "Gr4_44_5_22",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "11",
-      "8",
-      "9",
-      "10"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of hours that had at least 40 login attempts failed but not more than 70 login attempts failed, we need to count all numbers from 40 to 70."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 4, 5, 6, 7."
-      ],
-      [
-        "3/3",
-        "There are 8 leaves, which are highlighted in the stem-and-leaf plot above. 8 hours had at least 40 login attempts failed but not more than 70 login attempts failed."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_22_step_1",
-        "A stem-and-leaf plot titled 'Security monitoring' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-70."
-      ]
-    ],
-    "question_number": "5_22",
-    "backend_description": "A stem-and-leaf plot showing the distribution of login attempts failed. The stem column shows values 3-8, and the leaf column shows: 3|1 5 7 9, 4|0, 5|2 8 9, 6|4 5 6 6, 7|4 6 9, 8|2 6 7."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at NetForge monitored the number of render errors in each video export they received.\n\nHow many video exports had at least 50 render errors but less than 100 render errors?",
-    "image_tag": "Gr4_44_5_23",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "3",
-      "6",
-      "5",
-      "2"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of video exports that had at least 50 render errors but less than 100 render errors, we need to count all numbers from 50 to 99."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 3 leaves, which are highlighted in the stem-and-leaf plot above. 3 video exports had at least 50 render errors but less than 100 render errors."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_23_step_1",
-        "A stem-and-leaf plot titled 'Video production' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-100."
-      ]
-    ],
-    "question_number": "5_23",
-    "backend_description": "A stem-and-leaf plot showing the distribution of render errors. The stem column shows values 3-8, and the leaf column shows: 3|, 4|2 3 4, 5|, 6|1 5, 7|8, 8|."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at PixelPerfect monitored the number of sync failures in each cloud backup they received.\n\nHow many cloud backups had at least 50 sync failures but less than 90 sync failures?",
-    "image_tag": "Gr4_44_5_24",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "13",
-      "12",
-      "10",
-      "11"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of cloud backups that had at least 50 sync failures but less than 90 sync failures, we need to count all numbers from 50 to 89."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 12 leaves, which are highlighted in the stem-and-leaf plot above. 12 cloud backups had at least 50 sync failures but less than 90 sync failures."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_24_step_1",
-        "A stem-and-leaf plot titled 'Data backup' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-90."
-      ]
-    ],
-    "question_number": "5_24",
-    "backend_description": "A stem-and-leaf plot showing the distribution of sync failures. The stem column shows values 3-8, and the leaf column shows: 3|1 5, 4|1 5 9, 5|1 3 4, 6|0 5, 7|0 4 4 9, 8|0 2 4."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at ByteWorks monitored the number of lag spikes in each gaming session they received.\n\nHow many gaming sessions had at least 60 lag spikes but less than 110 lag spikes?",
-    "image_tag": "Gr4_44_5_25",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "9",
-      "11",
-      "5",
-      "8"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of gaming sessions that had at least 60 lag spikes but less than 110 lag spikes, we need to count all numbers from 60 to 109."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 8 leaves, which are highlighted in the stem-and-leaf plot above. 8 gaming sessions had at least 60 lag spikes but less than 110 lag spikes."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_25_step_1",
-        "A stem-and-leaf plot titled 'Network performance' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-110."
-      ]
-    ],
-    "question_number": "5_25",
-    "backend_description": "A stem-and-leaf plot showing the distribution of lag spikes. The stem column shows values 3-8, and the leaf column shows: 3|, 4|2 3 4 7, 5|1 2 4 9, 6|, 7|1 1 2 8, 8|0 1 7 9."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at CodeCraft monitored the number of tweets flagged in each moderation queue they received.\n\nHow many moderation queues had at least 60 tweets flagged but not more than 100 tweets flagged?",
-    "image_tag": "Gr4_44_5_26",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "5",
-      "7",
-      "9",
-      "8"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of moderation queues that had at least 60 tweets flagged but not more than 100 tweets flagged, we need to count all numbers from 60 to 100."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 8 leaves, which are highlighted in the stem-and-leaf plot above. 8 moderation queues had at least 60 tweets flagged but not more than 100 tweets flagged."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_26_step_1",
-        "A stem-and-leaf plot titled 'Content moderation' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-100."
-      ]
-    ],
-    "question_number": "5_26",
-    "backend_description": "A stem-and-leaf plot showing the distribution of tweets flagged. The stem column shows values 3-8, and the leaf column shows: 3|3 5 8 9, 4|0 1 5 7, 5|2 2 6, 6|4 6, 7|1 6 9 9, 8|3 5."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at AppMaster monitored the number of error messages in each software deployment they received.\n\nHow many software deployments had at least 60 error messages but less than 110 error messages?",
-    "image_tag": "Gr4_44_5_27",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "6",
-      "5",
-      "3",
-      "7"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of software deployments that had at least 60 error messages but less than 110 error messages, we need to count all numbers from 60 to 109."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 5 leaves, which are highlighted in the stem-and-leaf plot above. 5 software deployments had at least 60 error messages but less than 110 error messages."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_27_step_1",
-        "A stem-and-leaf plot titled 'Software testing' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-110."
-      ]
-    ],
-    "question_number": "5_27",
-    "backend_description": "A stem-and-leaf plot showing the distribution of error messages. The stem column shows values 3-8, and the leaf column shows: 3|6 8, 4|0, 5|2 7 8 9, 6|1 3 7 7, 7|, 8|1."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at AppMaster monitored the number of sync failures in each cloud backup they received.\n\nHow many cloud backups had at least 50 sync failures but not more than 80 sync failures?",
-    "image_tag": "Gr4_44_5_28",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "4",
-      "6",
-      "2",
-      "5"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of cloud backups that had at least 50 sync failures but not more than 80 sync failures, we need to count all numbers from 50 to 80."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 4 leaves, which are highlighted in the stem-and-leaf plot above. 4 cloud backups had at least 50 sync failures but not more than 80 sync failures."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_28_step_1",
-        "A stem-and-leaf plot titled 'Data backup' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-80."
-      ]
-    ],
-    "question_number": "5_28",
-    "backend_description": "A stem-and-leaf plot showing the distribution of sync failures. The stem column shows values 3-8, and the leaf column shows: 3|, 4|3, 5|, 6|5, 7|0 7 9, 8|2 3 4."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at DataSoft monitored the number of damaged items in each shipment they received.\n\nHow many shipments had at least 50 damaged items but not more than 90 damaged items?",
-    "image_tag": "Gr4_44_5_29",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "11",
-      "9",
-      "8",
-      "5"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of shipments that had at least 50 damaged items but not more than 90 damaged items, we need to count all numbers from 50 to 90."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 8 leaves, which are highlighted in the stem-and-leaf plot above. 8 shipments had at least 50 damaged items but not more than 90 damaged items."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_29_step_1",
-        "A stem-and-leaf plot titled 'Quality control' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-90."
-      ]
-    ],
-    "question_number": "5_29",
-    "backend_description": "A stem-and-leaf plot showing the distribution of damaged items. The stem column shows values 3-8, and the leaf column shows: 3|9, 4|6, 5|, 6|0 1, 7|1 2 6 8, 8|8 9."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at CodeCraft monitored the number of dropped calls in each hour they received.\n\nHow many hours had at least 40 dropped calls but less than 90 dropped calls?",
-    "image_tag": "Gr4_44_5_30",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "10",
-      "11",
-      "12",
-      "9"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of hours that had at least 40 dropped calls but less than 90 dropped calls, we need to count all numbers from 40 to 89."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 4, 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 9 leaves, which are highlighted in the stem-and-leaf plot above. 9 hours had at least 40 dropped calls but less than 90 dropped calls."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_30_step_1",
-        "A stem-and-leaf plot titled 'Call center metrics' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-90."
-      ]
-    ],
-    "question_number": "5_30",
-    "backend_description": "A stem-and-leaf plot showing the distribution of dropped calls. The stem column shows values 3-8, and the leaf column shows: 3|7 7, 4|1 6 9, 5|0 9, 6|, 7|, 8|0 6 6 9."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at CloudNet monitored the number of customer complaints in each week they received.\n\nHow many weeks had at least 40 customer complaints but less than 80 customer complaints?",
-    "image_tag": "Gr4_44_5_31",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "9",
-      "8",
-      "3",
-      "6"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of weeks that had at least 40 customer complaints but less than 80 customer complaints, we need to count all numbers from 40 to 79."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 4, 5, 6, 7."
-      ],
-      [
-        "3/3",
-        "There are 6 leaves, which are highlighted in the stem-and-leaf plot above. 6 weeks had at least 40 customer complaints but less than 80 customer complaints."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_31_step_1",
-        "A stem-and-leaf plot titled 'Customer service' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-80."
-      ]
-    ],
-    "question_number": "5_31",
-    "backend_description": "A stem-and-leaf plot showing the distribution of customer complaints. The stem column shows values 3-8, and the leaf column shows: 3|0 2, 4|0, 5|5, 6|, 7|0 3 6 9, 8|0 5 6."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at PixelPerfect monitored the number of rejected parts in each batch they received.\n\nHow many batchs had at least 40 rejected parts but not more than 80 rejected parts?",
-    "image_tag": "Gr4_44_5_32",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "4",
-      "8",
-      "6",
-      "5"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of batchs that had at least 40 rejected parts but not more than 80 rejected parts, we need to count all numbers from 40 to 80."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 4, 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 5 leaves, which are highlighted in the stem-and-leaf plot above. 5 batchs had at least 40 rejected parts but not more than 80 rejected parts."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_32_step_1",
-        "A stem-and-leaf plot titled 'Manufacturing QC' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-80."
-      ]
-    ],
-    "question_number": "5_32",
-    "backend_description": "A stem-and-leaf plot showing the distribution of rejected parts. The stem column shows values 3-8, and the leaf column shows: 3|2 6, 4|2, 5|3 4 5, 6|7, 7|, 8|."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at PixelPerfect monitored the number of damaged items in each shipment they received.\n\nHow many shipments had at least 40 damaged items but less than 90 damaged items?",
-    "image_tag": "Gr4_44_5_33",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "10",
-      "9",
-      "7",
-      "4"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of shipments that had at least 40 damaged items but less than 90 damaged items, we need to count all numbers from 40 to 89."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 4, 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 7 leaves, which are highlighted in the stem-and-leaf plot above. 7 shipments had at least 40 damaged items but less than 90 damaged items."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_33_step_1",
-        "A stem-and-leaf plot titled 'Quality control' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-90."
-      ]
-    ],
-    "question_number": "5_33",
-    "backend_description": "A stem-and-leaf plot showing the distribution of damaged items. The stem column shows values 3-8, and the leaf column shows: 3|, 4|, 5|3 8, 6|3 6 8, 7|0 7, 8|."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at DigiFlow monitored the number of rejected parts in each batch they received.\n\nHow many batchs had at least 60 rejected parts but less than 90 rejected parts?",
-    "image_tag": "Gr4_44_5_34",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "4",
-      "2",
-      "5",
-      "1"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of batchs that had at least 60 rejected parts but less than 90 rejected parts, we need to count all numbers from 60 to 89."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 2 leaves, which are highlighted in the stem-and-leaf plot above. 2 batchs had at least 60 rejected parts but less than 90 rejected parts."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_34_step_1",
-        "A stem-and-leaf plot titled 'Manufacturing QC' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-90."
-      ]
-    ],
-    "question_number": "5_34",
-    "backend_description": "A stem-and-leaf plot showing the distribution of rejected parts. The stem column shows values 3-8, and the leaf column shows: 3|0 3 3 4, 4|3 4 9, 5|0 5 7 9, 6|8, 7|, 8|2."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at CodeCraft monitored the number of customer complaints in each week they received.\n\nHow many weeks had at least 60 customer complaints but less than 110 customer complaints?",
-    "image_tag": "Gr4_44_5_35",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "0",
-      "2",
-      "3",
-      "4"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of weeks that had at least 60 customer complaints but less than 110 customer complaints, we need to count all numbers from 60 to 109."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 2 leaves, which are highlighted in the stem-and-leaf plot above. 2 weeks had at least 60 customer complaints but less than 110 customer complaints."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_35_step_1",
-        "A stem-and-leaf plot titled 'Customer service' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-110."
-      ]
-    ],
-    "question_number": "5_35",
-    "backend_description": "A stem-and-leaf plot showing the distribution of customer complaints. The stem column shows values 3-8, and the leaf column shows: 3|5, 4|0 9, 5|4 6 8, 6|, 7|1 2, 8|."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at CodeCraft monitored the number of stream interruptions in each broadcast they received.\n\nHow many broadcasts had at least 60 stream interruptions but less than 100 stream interruptions?",
-    "image_tag": "Gr4_44_5_36",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "0",
-      "3",
-      "6",
-      "2"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of broadcasts that had at least 60 stream interruptions but less than 100 stream interruptions, we need to count all numbers from 60 to 99."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 3 leaves, which are highlighted in the stem-and-leaf plot above. 3 broadcasts had at least 60 stream interruptions but less than 100 stream interruptions."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_36_step_1",
-        "A stem-and-leaf plot titled 'Live streaming' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-100."
-      ]
-    ],
-    "question_number": "5_36",
-    "backend_description": "A stem-and-leaf plot showing the distribution of stream interruptions. The stem column shows values 3-8, and the leaf column shows: 3|, 4|1, 5|8, 6|, 7|, 8|2 5 9."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at NetForge monitored the number of customer complaints in each week they received.\n\nHow many weeks had at least 60 customer complaints but not more than 110 customer complaints?",
-    "image_tag": "Gr4_44_5_37",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "3",
-      "1",
-      "4",
-      "2"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of weeks that had at least 60 customer complaints but not more than 110 customer complaints, we need to count all numbers from 60 to 110."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 1 leaves, which are highlighted in the stem-and-leaf plot above. 1 weeks had at least 60 customer complaints but not more than 110 customer complaints."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_37_step_1",
-        "A stem-and-leaf plot titled 'Customer service' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-110."
-      ]
-    ],
-    "question_number": "5_37",
-    "backend_description": "A stem-and-leaf plot showing the distribution of customer complaints. The stem column shows values 3-8, and the leaf column shows: 3|1, 4|6 9, 5|3 6 6 7, 6|4, 7|, 8|."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at AppMaster monitored the number of tweets flagged in each moderation queue they received.\n\nHow many moderation queues had at least 60 tweets flagged but not more than 100 tweets flagged?",
-    "image_tag": "Gr4_44_5_38",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "5",
-      "6",
-      "3",
-      "1"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of moderation queues that had at least 60 tweets flagged but not more than 100 tweets flagged, we need to count all numbers from 60 to 100."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 3 leaves, which are highlighted in the stem-and-leaf plot above. 3 moderation queues had at least 60 tweets flagged but not more than 100 tweets flagged."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_38_step_1",
-        "A stem-and-leaf plot titled 'Content moderation' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-100."
-      ]
-    ],
-    "question_number": "5_38",
-    "backend_description": "A stem-and-leaf plot showing the distribution of tweets flagged. The stem column shows values 3-8, and the leaf column shows: 3|3, 4|3 4 5, 5|1 3 3, 6|7, 7|0 7, 8|."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at TechCorp monitored the number of error messages in each software deployment they received.\n\nHow many software deployments had at least 60 error messages but less than 100 error messages?",
-    "image_tag": "Gr4_44_5_39",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "8",
-      "9",
-      "7",
-      "4"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of software deployments that had at least 60 error messages but less than 100 error messages, we need to count all numbers from 60 to 99."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 7 leaves, which are highlighted in the stem-and-leaf plot above. 7 software deployments had at least 60 error messages but less than 100 error messages."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_39_step_1",
-        "A stem-and-leaf plot titled 'Software testing' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-100."
-      ]
-    ],
-    "question_number": "5_39",
-    "backend_description": "A stem-and-leaf plot showing the distribution of error messages. The stem column shows values 3-8, and the leaf column shows: 3|2 3, 4|7 9, 5|2 5 8, 6|3 7 8, 7|, 8|2 4 6 8."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at ByteWorks monitored the number of damaged items in each shipment they received.\n\nHow many shipments had at least 40 damaged items but less than 70 damaged items?",
-    "image_tag": "Gr4_44_5_40",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "2",
-      "1",
-      "4",
-      "3"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of shipments that had at least 40 damaged items but less than 70 damaged items, we need to count all numbers from 40 to 69."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 4, 5, 6."
-      ],
-      [
-        "3/3",
-        "There are 4 leaves, which are highlighted in the stem-and-leaf plot above. 4 shipments had at least 40 damaged items but less than 70 damaged items."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_40_step_1",
-        "A stem-and-leaf plot titled 'Quality control' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-70."
-      ]
-    ],
-    "question_number": "5_40",
-    "backend_description": "A stem-and-leaf plot showing the distribution of damaged items. The stem column shows values 3-8, and the leaf column shows: 3|1 2 2 3, 4|0 8, 5|, 6|3 9, 7|, 8|3."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at CloudNet monitored the number of bugs found in each code review they received.\n\nHow many code reviews had at least 50 bugs found but not more than 90 bugs found?",
-    "image_tag": "Gr4_44_5_41",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "6",
-      "8",
-      "9",
-      "7"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of code reviews that had at least 50 bugs found but not more than 90 bugs found, we need to count all numbers from 50 to 90."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 8 leaves, which are highlighted in the stem-and-leaf plot above. 8 code reviews had at least 50 bugs found but not more than 90 bugs found."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_41_step_1",
-        "A stem-and-leaf plot titled 'Software development' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-90."
-      ]
-    ],
-    "question_number": "5_41",
-    "backend_description": "A stem-and-leaf plot showing the distribution of bugs found. The stem column shows values 3-8, and the leaf column shows: 3|, 4|1 6 7 9, 5|2 5, 6|2 3 5, 7|1 8 9, 8|."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at CloudNet monitored the number of spam emails in each mail server they received.\n\nHow many mail servers had at least 50 spam emails but less than 90 spam emails?",
-    "image_tag": "Gr4_44_5_42",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "6",
-      "8",
-      "7",
-      "9"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of mail servers that had at least 50 spam emails but less than 90 spam emails, we need to count all numbers from 50 to 89."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 8 leaves, which are highlighted in the stem-and-leaf plot above. 8 mail servers had at least 50 spam emails but less than 90 spam emails."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_42_step_1",
-        "A stem-and-leaf plot titled 'Email filtering' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-90."
-      ]
-    ],
-    "question_number": "5_42",
-    "backend_description": "A stem-and-leaf plot showing the distribution of spam emails. The stem column shows values 3-8, and the leaf column shows: 3|1 2 3, 4|1 2 8 9, 5|0 1 3, 6|6, 7|3, 8|0 0 7."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at PixelPerfect monitored the number of spam emails in each mail server they received.\n\nHow many mail servers had at least 40 spam emails but less than 70 spam emails?",
-    "image_tag": "Gr4_44_5_43",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "4",
-      "7",
-      "5",
-      "8"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of mail servers that had at least 40 spam emails but less than 70 spam emails, we need to count all numbers from 40 to 69."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 4, 5, 6."
-      ],
-      [
-        "3/3",
-        "There are 7 leaves, which are highlighted in the stem-and-leaf plot above. 7 mail servers had at least 40 spam emails but less than 70 spam emails."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_43_step_1",
-        "A stem-and-leaf plot titled 'Email filtering' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-70."
-      ]
-    ],
-    "question_number": "5_43",
-    "backend_description": "A stem-and-leaf plot showing the distribution of spam emails. The stem column shows values 3-8, and the leaf column shows: 3|, 4|6 8, 5|2 6 7 8, 6|6, 7|0, 8|."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at DataSoft monitored the number of sync failures in each cloud backup they received.\n\nHow many cloud backups had at least 50 sync failures but not more than 80 sync failures?",
-    "image_tag": "Gr4_44_5_44",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "5",
-      "6",
-      "3",
-      "4"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of cloud backups that had at least 50 sync failures but not more than 80 sync failures, we need to count all numbers from 50 to 80."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 5 leaves, which are highlighted in the stem-and-leaf plot above. 5 cloud backups had at least 50 sync failures but not more than 80 sync failures."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_44_step_1",
-        "A stem-and-leaf plot titled 'Data backup' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-80."
-      ]
-    ],
-    "question_number": "5_44",
-    "backend_description": "A stem-and-leaf plot showing the distribution of sync failures. The stem column shows values 3-8, and the leaf column shows: 3|3, 4|4, 5|0 5 6 8, 6|, 7|8, 8|."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at CloudNet monitored the number of login attempts failed in each hour they received.\n\nHow many hours had at least 50 login attempts failed but less than 90 login attempts failed?",
-    "image_tag": "Gr4_44_5_45",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "4",
-      "6",
-      "2",
-      "5"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of hours that had at least 50 login attempts failed but less than 90 login attempts failed, we need to count all numbers from 50 to 89."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 5 leaves, which are highlighted in the stem-and-leaf plot above. 5 hours had at least 50 login attempts failed but less than 90 login attempts failed."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_45_step_1",
-        "A stem-and-leaf plot titled 'Security monitoring' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-90."
-      ]
-    ],
-    "question_number": "5_45",
-    "backend_description": "A stem-and-leaf plot showing the distribution of login attempts failed. The stem column shows values 3-8, and the leaf column shows: 3|, 4|1 3 7 8, 5|8, 6|1 3, 7|4, 8|6."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at NetForge monitored the number of render errors in each video export they received.\n\nHow many video exports had at least 40 render errors but less than 90 render errors?",
-    "image_tag": "Gr4_44_5_46",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "17",
-      "19",
-      "16",
-      "22"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of video exports that had at least 40 render errors but less than 90 render errors, we need to count all numbers from 40 to 89."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 4, 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 19 leaves, which are highlighted in the stem-and-leaf plot above. 19 video exports had at least 40 render errors but less than 90 render errors."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_46_step_1",
-        "A stem-and-leaf plot titled 'Video production' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-90."
-      ]
-    ],
-    "question_number": "5_46",
-    "backend_description": "A stem-and-leaf plot showing the distribution of render errors. The stem column shows values 3-8, and the leaf column shows: 3|0 1, 4|1 6 6 9, 5|4 6 7, 6|0 3 4 6, 7|0 2 3 4, 8|0 4 5 8."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at AppMaster monitored the number of rejected parts in each batch they received.\n\nHow many batchs had at least 40 rejected parts but not more than 80 rejected parts?",
-    "image_tag": "Gr4_44_5_47",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "7",
-      "5",
-      "3",
-      "6"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of batchs that had at least 40 rejected parts but not more than 80 rejected parts, we need to count all numbers from 40 to 80."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 4, 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 6 leaves, which are highlighted in the stem-and-leaf plot above. 6 batchs had at least 40 rejected parts but not more than 80 rejected parts."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_47_step_1",
-        "A stem-and-leaf plot titled 'Manufacturing QC' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-80."
-      ]
-    ],
-    "question_number": "5_47",
-    "backend_description": "A stem-and-leaf plot showing the distribution of rejected parts. The stem column shows values 3-8, and the leaf column shows: 3|2 3 8 9, 4|3 5, 5|5 6, 6|, 7|7 7, 8|4 5 8 8."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at DataSoft monitored the number of customer complaints in each week they received.\n\nHow many weeks had at least 40 customer complaints but not more than 80 customer complaints?",
-    "image_tag": "Gr4_44_5_48",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "7",
-      "1",
-      "4",
-      "5"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of weeks that had at least 40 customer complaints but not more than 80 customer complaints, we need to count all numbers from 40 to 80."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 4, 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 4 leaves, which are highlighted in the stem-and-leaf plot above. 4 weeks had at least 40 customer complaints but not more than 80 customer complaints."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_48_step_1",
-        "A stem-and-leaf plot titled 'Customer service' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-80."
-      ]
-    ],
-    "question_number": "5_48",
-    "backend_description": "A stem-and-leaf plot showing the distribution of customer complaints. The stem column shows values 3-8, and the leaf column shows: 3|0 2 5, 4|6 7 8 9, 5|, 6|, 7|, 8|5 8 9."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at StreamLine monitored the number of rejected parts in each batch they received.\n\nHow many batchs had at least 50 rejected parts but less than 100 rejected parts?",
-    "image_tag": "Gr4_44_5_49",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "11",
-      "14",
-      "12",
-      "9"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of batchs that had at least 50 rejected parts but less than 100 rejected parts, we need to count all numbers from 50 to 99."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 12 leaves, which are highlighted in the stem-and-leaf plot above. 12 batchs had at least 50 rejected parts but less than 100 rejected parts."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_49_step_1",
-        "A stem-and-leaf plot titled 'Manufacturing QC' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-100."
-      ]
-    ],
-    "question_number": "5_49",
-    "backend_description": "A stem-and-leaf plot showing the distribution of rejected parts. The stem column shows values 3-8, and the leaf column shows: 3|6, 4|, 5|0 5 6 8, 6|6, 7|0 2 3 4, 8|4 6 7."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at CodeCraft monitored the number of spam emails in each mail server they received.\n\nHow many mail servers had at least 60 spam emails but less than 110 spam emails?",
-    "image_tag": "Gr4_44_5_50",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "10",
-      "7",
-      "8",
-      "9"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of mail servers that had at least 60 spam emails but less than 110 spam emails, we need to count all numbers from 60 to 109."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 10 leaves, which are highlighted in the stem-and-leaf plot above. 10 mail servers had at least 60 spam emails but less than 110 spam emails."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_50_step_1",
-        "A stem-and-leaf plot titled 'Email filtering' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-110."
-      ]
-    ],
-    "question_number": "5_50",
-    "backend_description": "A stem-and-leaf plot showing the distribution of spam emails. The stem column shows values 3-8, and the leaf column shows: 3|0 4 7 8, 4|, 5|0 5 7, 6|2 3 4 7, 7|4 7, 8|0 1 3 6."
-  },
-  {
-    "skills": "interpret-stem-and-leaf-plots",
-    "question_text": "The employees at StreamLine monitored the number of spam emails in each mail server they received.\n\nHow many mail servers had at least 60 spam emails but less than 110 spam emails?",
-    "image_tag": "Gr4_44_5_51",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_44_E5",
-    "choices": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the amount of mail servers that had at least 60 spam emails but less than 110 spam emails, we need to count all numbers from 60 to 109."
-      ],
-      [
-        "2/3",
-        "We need to count all the leaves in the rows with stems 6, 7, 8."
-      ],
-      [
-        "3/3",
-        "There are 4 leaves, which are highlighted in the stem-and-leaf plot above. 4 mail servers had at least 60 spam emails but less than 110 spam emails."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr4_44_5_51_step_1",
-        "A stem-and-leaf plot titled 'Email filtering' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-110."
-      ]
-    ],
-    "question_number": "5_51",
-    "backend_description": "A stem-and-leaf plot showing the distribution of spam emails. The stem column shows values 3-8, and the leaf column shows: 3|3 9, 4|8, 5|0 1 1 8, 6|0 4 8, 7|, 8|1."
-  }
-]
+{
+  "quizzes": [
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at Linda's Construction monitored the number of cracked window panes in each shipment they received.\n\nHow many shipments had at least 50 cracked window panes but less than 90 cracked window panes?",
+      "image_tag": "Gr4_44_5_1",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "12",
+        "15",
+        "13",
+        "14"
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of shipments that had at least 50, but less than 90 cracked window panes, we need to count all numbers from 50 to 89."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 5, 6, 7, and 8."
+        ],
+        [
+          "3/3",
+          "There are 14 leaves, which are blue in the stem-and-leaf plot above. 14 shipments had at least 50 cracked window panes but less than 90 cracked window panes."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_1_step_1",
+          "A stem-and-leaf plot titled 'Cracked window panes per shipment' with stems 3-8 and their corresponding leaves. Blue numbers indicate specific data points: Stem 3: Leaf 6; Stem 4: Leaf 6; Stem 5: Leaves 1, 2, 4, 4, 5, 7; Stem 6: Leaves 5, 5, 7, 8; Stem 7: Leaf 7; Stem 8: Leaves 1, 3, 6."
+        ]
+      ],
+      "question_number": "5_1",
+      "backend_description": "A stem-and-leaf plot showing the distribution of cracked window panes. The stem column shows values 3-8, and the leaf column shows: 3|6, 4|6, 5|1 2 4 4 5 7, 6|5 5 7 8, 7|7, 8|1 3 6."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at AppMaster monitored the number of error messages in each software deployment they received.\n\nHow many software deployments had at least 60 error messages but less than 90 error messages?",
+      "image_tag": "Gr4_44_5_2",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "6",
+        "3",
+        "8",
+        "9"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of software deployments that had at least 60 error messages but less than 90 error messages, we need to count all numbers from 60 to 89."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 6 leaves, which are highlighted in the stem-and-leaf plot above. 6 software deployments had at least 60 error messages but less than 90 error messages."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_2_step_1",
+          "A stem-and-leaf plot titled 'Software testing' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-90."
+        ]
+      ],
+      "question_number": "5_2",
+      "backend_description": "A stem-and-leaf plot showing the distribution of error messages. The stem column shows values 3-8, and the leaf column shows: 3|6, 4|0 0 7 8, 5|1, 6|3 9, 7|, 8|2 5 8 9."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at ByteWorks monitored the number of rejected parts in each batch they received.\n\nHow many batchs had at least 40 rejected parts but not more than 90 rejected parts?",
+      "image_tag": "Gr4_44_5_3",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "8",
+        "6",
+        "9",
+        "7"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of batchs that had at least 40 rejected parts but not more than 90 rejected parts, we need to count all numbers from 40 to 90."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 4, 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 9 leaves, which are highlighted in the stem-and-leaf plot above. 9 batchs had at least 40 rejected parts but not more than 90 rejected parts."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_3_step_1",
+          "A stem-and-leaf plot titled 'Manufacturing QC' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-90."
+        ]
+      ],
+      "question_number": "5_3",
+      "backend_description": "A stem-and-leaf plot showing the distribution of rejected parts. The stem column shows values 3-8, and the leaf column shows: 3|5 6 7 8, 4|6, 5|4 6 9 9, 6|1 2, 7|, 8|1 7."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at CloudNet monitored the number of tweets flagged in each moderation queue they received.\n\nHow many moderation queues had at least 60 tweets flagged but less than 90 tweets flagged?",
+      "image_tag": "Gr4_44_5_4",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "2",
+        "5",
+        "3",
+        "6"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of moderation queues that had at least 60 tweets flagged but less than 90 tweets flagged, we need to count all numbers from 60 to 89."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 5 leaves, which are highlighted in the stem-and-leaf plot above. 5 moderation queues had at least 60 tweets flagged but less than 90 tweets flagged."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_4_step_1",
+          "A stem-and-leaf plot titled 'Content moderation' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-90."
+        ]
+      ],
+      "question_number": "5_4",
+      "backend_description": "A stem-and-leaf plot showing the distribution of tweets flagged. The stem column shows values 3-8, and the leaf column shows: 3|, 4|0 4 9, 5|1 9, 6|3 6, 7|9, 8|4 8."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at CloudNet monitored the number of stream interruptions in each broadcast they received.\n\nHow many broadcasts had at least 60 stream interruptions but less than 100 stream interruptions?",
+      "image_tag": "Gr4_44_5_5",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "12",
+        "8",
+        "11",
+        "10"
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of broadcasts that had at least 60 stream interruptions but less than 100 stream interruptions, we need to count all numbers from 60 to 99."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 10 leaves, which are highlighted in the stem-and-leaf plot above. 10 broadcasts had at least 60 stream interruptions but less than 100 stream interruptions."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_5_step_1",
+          "A stem-and-leaf plot titled 'Live streaming' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-100."
+        ]
+      ],
+      "question_number": "5_5",
+      "backend_description": "A stem-and-leaf plot showing the distribution of stream interruptions. The stem column shows values 3-8, and the leaf column shows: 3|0 4 7 9, 4|, 5|0 7 8 9, 6|2 2 5 6, 7|0 1 4, 8|1 2 6."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at DataSoft monitored the number of failed tests in each exam session they received.\n\nHow many exam sessions had at least 40 failed tests but not more than 90 failed tests?",
+      "image_tag": "Gr4_44_5_6",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "8",
+        "11",
+        "12",
+        "10"
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of exam sessions that had at least 40 failed tests but not more than 90 failed tests, we need to count all numbers from 40 to 90."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 4, 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 10 leaves, which are highlighted in the stem-and-leaf plot above. 10 exam sessions had at least 40 failed tests but not more than 90 failed tests."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_6_step_1",
+          "A stem-and-leaf plot titled 'Academic testing' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-90."
+        ]
+      ],
+      "question_number": "5_6",
+      "backend_description": "A stem-and-leaf plot showing the distribution of failed tests. The stem column shows values 3-8, and the leaf column shows: 3|2 6 8, 4|6 7, 5|2 6 8, 6|2 7 9, 7|, 8|3 7."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at CodeCraft monitored the number of dropped calls in each hour they received.\n\nHow many hours had at least 50 dropped calls but not more than 80 dropped calls?",
+      "image_tag": "Gr4_44_5_7",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "5",
+        "6",
+        "3",
+        "8"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of hours that had at least 50 dropped calls but not more than 80 dropped calls, we need to count all numbers from 50 to 80."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 6 leaves, which are highlighted in the stem-and-leaf plot above. 6 hours had at least 50 dropped calls but not more than 80 dropped calls."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_7_step_1",
+          "A stem-and-leaf plot titled 'Call center metrics' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-80."
+        ]
+      ],
+      "question_number": "5_7",
+      "backend_description": "A stem-and-leaf plot showing the distribution of dropped calls. The stem column shows values 3-8, and the leaf column shows: 3|8, 4|, 5|9, 6|0 1 4, 7|1 5, 8|6 7 9."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at ByteWorks monitored the number of damaged items in each shipment they received.\n\nHow many shipments had at least 50 damaged items but less than 80 damaged items?",
+      "image_tag": "Gr4_44_5_8",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "12",
+        "10",
+        "8",
+        "7"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of shipments that had at least 50 damaged items but less than 80 damaged items, we need to count all numbers from 50 to 79."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 5, 6, 7."
+        ],
+        [
+          "3/3",
+          "There are 10 leaves, which are highlighted in the stem-and-leaf plot above. 10 shipments had at least 50 damaged items but less than 80 damaged items."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_8_step_1",
+          "A stem-and-leaf plot titled 'Quality control' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-80."
+        ]
+      ],
+      "question_number": "5_8",
+      "backend_description": "A stem-and-leaf plot showing the distribution of damaged items. The stem column shows values 3-8, and the leaf column shows: 3|1 1 7 8, 4|0 6 8, 5|0 0 3 4, 6|2 5, 7|1 1 3 4, 8|2 4."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at DataSoft monitored the number of stream interruptions in each broadcast they received.\n\nHow many broadcasts had at least 50 stream interruptions but not more than 80 stream interruptions?",
+      "image_tag": "Gr4_44_5_9",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "0",
+        "1",
+        "4",
+        "3"
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of broadcasts that had at least 50 stream interruptions but not more than 80 stream interruptions, we need to count all numbers from 50 to 80."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 3 leaves, which are highlighted in the stem-and-leaf plot above. 3 broadcasts had at least 50 stream interruptions but not more than 80 stream interruptions."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_9_step_1",
+          "A stem-and-leaf plot titled 'Live streaming' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-80."
+        ]
+      ],
+      "question_number": "5_9",
+      "backend_description": "A stem-and-leaf plot showing the distribution of stream interruptions. The stem column shows values 3-8, and the leaf column shows: 3|0 1 5 9, 4|, 5|, 6|, 7|1 2 4, 8|1 3."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at DataSoft monitored the number of bugs found in each code review they received.\n\nHow many code reviews had at least 50 bugs found but not more than 100 bugs found?",
+      "image_tag": "Gr4_44_5_10",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "7",
+        "10",
+        "9",
+        "12"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of code reviews that had at least 50 bugs found but not more than 100 bugs found, we need to count all numbers from 50 to 100."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 9 leaves, which are highlighted in the stem-and-leaf plot above. 9 code reviews had at least 50 bugs found but not more than 100 bugs found."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_10_step_1",
+          "A stem-and-leaf plot titled 'Software development' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-100."
+        ]
+      ],
+      "question_number": "5_10",
+      "backend_description": "A stem-and-leaf plot showing the distribution of bugs found. The stem column shows values 3-8, and the leaf column shows: 3|0 4, 4|0 5, 5|6 9, 6|3, 7|7 9 9, 8|1 2 7."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at CodeCraft monitored the number of dropped calls in each hour they received.\n\nHow many hours had at least 60 dropped calls but less than 100 dropped calls?",
+      "image_tag": "Gr4_44_5_11",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "4",
+        "6",
+        "7",
+        "5"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of hours that had at least 60 dropped calls but less than 100 dropped calls, we need to count all numbers from 60 to 99."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 7 leaves, which are highlighted in the stem-and-leaf plot above. 7 hours had at least 60 dropped calls but less than 100 dropped calls."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_11_step_1",
+          "A stem-and-leaf plot titled 'Call center metrics' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-100."
+        ]
+      ],
+      "question_number": "5_11",
+      "backend_description": "A stem-and-leaf plot showing the distribution of dropped calls. The stem column shows values 3-8, and the leaf column shows: 3|0 5 8, 4|1 5 5 5, 5|3 6 7, 6|, 7|1 5 8, 8|0 5 9 9."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at CloudNet monitored the number of stream interruptions in each broadcast they received.\n\nHow many broadcasts had at least 50 stream interruptions but less than 80 stream interruptions?",
+      "image_tag": "Gr4_44_5_12",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "5",
+        "8",
+        "3",
+        "6"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of broadcasts that had at least 50 stream interruptions but less than 80 stream interruptions, we need to count all numbers from 50 to 79."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 5, 6, 7."
+        ],
+        [
+          "3/3",
+          "There are 5 leaves, which are highlighted in the stem-and-leaf plot above. 5 broadcasts had at least 50 stream interruptions but less than 80 stream interruptions."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_12_step_1",
+          "A stem-and-leaf plot titled 'Live streaming' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-80."
+        ]
+      ],
+      "question_number": "5_12",
+      "backend_description": "A stem-and-leaf plot showing the distribution of stream interruptions. The stem column shows values 3-8, and the leaf column shows: 3|2 6 6, 4|, 5|7, 6|0 9, 7|9 9, 8|3 7 9."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at StreamLine monitored the number of bugs found in each code review they received.\n\nHow many code reviews had at least 50 bugs found but less than 80 bugs found?",
+      "image_tag": "Gr4_44_5_13",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "14",
+        "12",
+        "11",
+        "9"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of code reviews that had at least 50 bugs found but less than 80 bugs found, we need to count all numbers from 50 to 79."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 5, 6, 7."
+        ],
+        [
+          "3/3",
+          "There are 11 leaves, which are highlighted in the stem-and-leaf plot above. 11 code reviews had at least 50 bugs found but less than 80 bugs found."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_13_step_1",
+          "A stem-and-leaf plot titled 'Software development' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-80."
+        ]
+      ],
+      "question_number": "5_13",
+      "backend_description": "A stem-and-leaf plot showing the distribution of bugs found. The stem column shows values 3-8, and the leaf column shows: 3|5, 4|8, 5|4 4 9, 6|2 5 6 7, 7|3 5 6 6, 8|7 7."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at DigiFlow monitored the number of rejected parts in each batch they received.\n\nHow many batchs had at least 50 rejected parts but not more than 80 rejected parts?",
+      "image_tag": "Gr4_44_5_14",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "10",
+        "5",
+        "9",
+        "7"
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of batchs that had at least 50 rejected parts but not more than 80 rejected parts, we need to count all numbers from 50 to 80."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 7 leaves, which are highlighted in the stem-and-leaf plot above. 7 batchs had at least 50 rejected parts but not more than 80 rejected parts."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_14_step_1",
+          "A stem-and-leaf plot titled 'Manufacturing QC' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-80."
+        ]
+      ],
+      "question_number": "5_14",
+      "backend_description": "A stem-and-leaf plot showing the distribution of rejected parts. The stem column shows values 3-8, and the leaf column shows: 3|4, 4|9, 5|0 1 8, 6|4 6 7, 7|8, 8|."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at DigiFlow monitored the number of damaged items in each shipment they received.\n\nHow many shipments had at least 60 damaged items but less than 100 damaged items?",
+      "image_tag": "Gr4_44_5_15",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "7",
+        "6",
+        "4",
+        "9"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of shipments that had at least 60 damaged items but less than 100 damaged items, we need to count all numbers from 60 to 99."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 7 leaves, which are highlighted in the stem-and-leaf plot above. 7 shipments had at least 60 damaged items but less than 100 damaged items."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_15_step_1",
+          "A stem-and-leaf plot titled 'Quality control' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-100."
+        ]
+      ],
+      "question_number": "5_15",
+      "backend_description": "A stem-and-leaf plot showing the distribution of damaged items. The stem column shows values 3-8, and the leaf column shows: 3|3 6, 4|, 5|6, 6|2 3 4 6, 7|1 2 5, 8|."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at StreamLine monitored the number of render errors in each video export they received.\n\nHow many video exports had at least 40 render errors but less than 90 render errors?",
+      "image_tag": "Gr4_44_5_16",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "11",
+        "12",
+        "10",
+        "15"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of video exports that had at least 40 render errors but less than 90 render errors, we need to count all numbers from 40 to 89."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 4, 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 12 leaves, which are highlighted in the stem-and-leaf plot above. 12 video exports had at least 40 render errors but less than 90 render errors."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_16_step_1",
+          "A stem-and-leaf plot titled 'Video production' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-90."
+        ]
+      ],
+      "question_number": "5_16",
+      "backend_description": "A stem-and-leaf plot showing the distribution of render errors. The stem column shows values 3-8, and the leaf column shows: 3|1 3 6 9, 4|5 8 9, 5|5 8 8, 6|, 7|3 3 5 9, 8|1 9."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at ByteWorks monitored the number of sync failures in each cloud backup they received.\n\nHow many cloud backups had at least 40 sync failures but not more than 70 sync failures?",
+      "image_tag": "Gr4_44_5_17",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "10",
+        "4",
+        "7",
+        "9"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of cloud backups that had at least 40 sync failures but not more than 70 sync failures, we need to count all numbers from 40 to 70."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 4, 5, 6, 7."
+        ],
+        [
+          "3/3",
+          "There are 7 leaves, which are highlighted in the stem-and-leaf plot above. 7 cloud backups had at least 40 sync failures but not more than 70 sync failures."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_17_step_1",
+          "A stem-and-leaf plot titled 'Data backup' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-70."
+        ]
+      ],
+      "question_number": "5_17",
+      "backend_description": "A stem-and-leaf plot showing the distribution of sync failures. The stem column shows values 3-8, and the leaf column shows: 3|5, 4|2 2 5 9, 5|0 7 8, 6|, 7|7, 8|."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at CodeCraft monitored the number of sync failures in each cloud backup they received.\n\nHow many cloud backups had at least 60 sync failures but less than 90 sync failures?",
+      "image_tag": "Gr4_44_5_18",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "7",
+        "3",
+        "6",
+        "5"
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of cloud backups that had at least 60 sync failures but less than 90 sync failures, we need to count all numbers from 60 to 89."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 5 leaves, which are highlighted in the stem-and-leaf plot above. 5 cloud backups had at least 60 sync failures but less than 90 sync failures."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_18_step_1",
+          "A stem-and-leaf plot titled 'Data backup' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-90."
+        ]
+      ],
+      "question_number": "5_18",
+      "backend_description": "A stem-and-leaf plot showing the distribution of sync failures. The stem column shows values 3-8, and the leaf column shows: 3|2 8, 4|2 3 3 4, 5|1, 6|1, 7|3 6 7 8, 8|."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at CodeCraft monitored the number of render errors in each video export they received.\n\nHow many video exports had at least 50 render errors but less than 80 render errors?",
+      "image_tag": "Gr4_44_5_19",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "9",
+        "5",
+        "4",
+        "7"
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of video exports that had at least 50 render errors but less than 80 render errors, we need to count all numbers from 50 to 79."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 5, 6, 7."
+        ],
+        [
+          "3/3",
+          "There are 7 leaves, which are highlighted in the stem-and-leaf plot above. 7 video exports had at least 50 render errors but less than 80 render errors."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_19_step_1",
+          "A stem-and-leaf plot titled 'Video production' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-80."
+        ]
+      ],
+      "question_number": "5_19",
+      "backend_description": "A stem-and-leaf plot showing the distribution of render errors. The stem column shows values 3-8, and the leaf column shows: 3|1, 4|1 1 5 6, 5|4 9, 6|0 1 8, 7|7 9, 8|3."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at StreamLine monitored the number of dropped calls in each hour they received.\n\nHow many hours had at least 60 dropped calls but less than 110 dropped calls?",
+      "image_tag": "Gr4_44_5_20",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "6",
+        "7",
+        "10",
+        "8"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of hours that had at least 60 dropped calls but less than 110 dropped calls, we need to count all numbers from 60 to 109."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 7 leaves, which are highlighted in the stem-and-leaf plot above. 7 hours had at least 60 dropped calls but less than 110 dropped calls."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_20_step_1",
+          "A stem-and-leaf plot titled 'Call center metrics' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-110."
+        ]
+      ],
+      "question_number": "5_20",
+      "backend_description": "A stem-and-leaf plot showing the distribution of dropped calls. The stem column shows values 3-8, and the leaf column shows: 3|, 4|1 5 6, 5|, 6|0 1 5, 7|9 9, 8|0 0."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at StreamLine monitored the number of stream interruptions in each broadcast they received.\n\nHow many broadcasts had at least 40 stream interruptions but less than 90 stream interruptions?",
+      "image_tag": "Gr4_44_5_21",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "9",
+        "10",
+        "8",
+        "7"
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of broadcasts that had at least 40 stream interruptions but less than 90 stream interruptions, we need to count all numbers from 40 to 89."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 4, 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 7 leaves, which are highlighted in the stem-and-leaf plot above. 7 broadcasts had at least 40 stream interruptions but less than 90 stream interruptions."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_21_step_1",
+          "A stem-and-leaf plot titled 'Live streaming' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-90."
+        ]
+      ],
+      "question_number": "5_21",
+      "backend_description": "A stem-and-leaf plot showing the distribution of stream interruptions. The stem column shows values 3-8, and the leaf column shows: 3|4 5 8 9, 4|0 3, 5|4, 6|7, 7|, 8|0 1 7."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at StreamLine monitored the number of login attempts failed in each hour they received.\n\nHow many hours had at least 40 login attempts failed but not more than 70 login attempts failed?",
+      "image_tag": "Gr4_44_5_22",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "11",
+        "8",
+        "9",
+        "10"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of hours that had at least 40 login attempts failed but not more than 70 login attempts failed, we need to count all numbers from 40 to 70."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 4, 5, 6, 7."
+        ],
+        [
+          "3/3",
+          "There are 8 leaves, which are highlighted in the stem-and-leaf plot above. 8 hours had at least 40 login attempts failed but not more than 70 login attempts failed."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_22_step_1",
+          "A stem-and-leaf plot titled 'Security monitoring' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-70."
+        ]
+      ],
+      "question_number": "5_22",
+      "backend_description": "A stem-and-leaf plot showing the distribution of login attempts failed. The stem column shows values 3-8, and the leaf column shows: 3|1 5 7 9, 4|0, 5|2 8 9, 6|4 5 6 6, 7|4 6 9, 8|2 6 7."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at NetForge monitored the number of render errors in each video export they received.\n\nHow many video exports had at least 50 render errors but less than 100 render errors?",
+      "image_tag": "Gr4_44_5_23",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "3",
+        "6",
+        "5",
+        "2"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of video exports that had at least 50 render errors but less than 100 render errors, we need to count all numbers from 50 to 99."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 3 leaves, which are highlighted in the stem-and-leaf plot above. 3 video exports had at least 50 render errors but less than 100 render errors."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_23_step_1",
+          "A stem-and-leaf plot titled 'Video production' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-100."
+        ]
+      ],
+      "question_number": "5_23",
+      "backend_description": "A stem-and-leaf plot showing the distribution of render errors. The stem column shows values 3-8, and the leaf column shows: 3|, 4|2 3 4, 5|, 6|1 5, 7|8, 8|."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at PixelPerfect monitored the number of sync failures in each cloud backup they received.\n\nHow many cloud backups had at least 50 sync failures but less than 90 sync failures?",
+      "image_tag": "Gr4_44_5_24",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "13",
+        "12",
+        "10",
+        "11"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of cloud backups that had at least 50 sync failures but less than 90 sync failures, we need to count all numbers from 50 to 89."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 12 leaves, which are highlighted in the stem-and-leaf plot above. 12 cloud backups had at least 50 sync failures but less than 90 sync failures."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_24_step_1",
+          "A stem-and-leaf plot titled 'Data backup' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-90."
+        ]
+      ],
+      "question_number": "5_24",
+      "backend_description": "A stem-and-leaf plot showing the distribution of sync failures. The stem column shows values 3-8, and the leaf column shows: 3|1 5, 4|1 5 9, 5|1 3 4, 6|0 5, 7|0 4 4 9, 8|0 2 4."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at ByteWorks monitored the number of lag spikes in each gaming session they received.\n\nHow many gaming sessions had at least 60 lag spikes but less than 110 lag spikes?",
+      "image_tag": "Gr4_44_5_25",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "9",
+        "11",
+        "5",
+        "8"
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of gaming sessions that had at least 60 lag spikes but less than 110 lag spikes, we need to count all numbers from 60 to 109."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 8 leaves, which are highlighted in the stem-and-leaf plot above. 8 gaming sessions had at least 60 lag spikes but less than 110 lag spikes."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_25_step_1",
+          "A stem-and-leaf plot titled 'Network performance' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-110."
+        ]
+      ],
+      "question_number": "5_25",
+      "backend_description": "A stem-and-leaf plot showing the distribution of lag spikes. The stem column shows values 3-8, and the leaf column shows: 3|, 4|2 3 4 7, 5|1 2 4 9, 6|, 7|1 1 2 8, 8|0 1 7 9."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at CodeCraft monitored the number of tweets flagged in each moderation queue they received.\n\nHow many moderation queues had at least 60 tweets flagged but not more than 100 tweets flagged?",
+      "image_tag": "Gr4_44_5_26",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "5",
+        "7",
+        "9",
+        "8"
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of moderation queues that had at least 60 tweets flagged but not more than 100 tweets flagged, we need to count all numbers from 60 to 100."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 8 leaves, which are highlighted in the stem-and-leaf plot above. 8 moderation queues had at least 60 tweets flagged but not more than 100 tweets flagged."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_26_step_1",
+          "A stem-and-leaf plot titled 'Content moderation' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-100."
+        ]
+      ],
+      "question_number": "5_26",
+      "backend_description": "A stem-and-leaf plot showing the distribution of tweets flagged. The stem column shows values 3-8, and the leaf column shows: 3|3 5 8 9, 4|0 1 5 7, 5|2 2 6, 6|4 6, 7|1 6 9 9, 8|3 5."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at AppMaster monitored the number of error messages in each software deployment they received.\n\nHow many software deployments had at least 60 error messages but less than 110 error messages?",
+      "image_tag": "Gr4_44_5_27",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "6",
+        "5",
+        "3",
+        "7"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of software deployments that had at least 60 error messages but less than 110 error messages, we need to count all numbers from 60 to 109."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 5 leaves, which are highlighted in the stem-and-leaf plot above. 5 software deployments had at least 60 error messages but less than 110 error messages."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_27_step_1",
+          "A stem-and-leaf plot titled 'Software testing' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-110."
+        ]
+      ],
+      "question_number": "5_27",
+      "backend_description": "A stem-and-leaf plot showing the distribution of error messages. The stem column shows values 3-8, and the leaf column shows: 3|6 8, 4|0, 5|2 7 8 9, 6|1 3 7 7, 7|, 8|1."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at AppMaster monitored the number of sync failures in each cloud backup they received.\n\nHow many cloud backups had at least 50 sync failures but not more than 80 sync failures?",
+      "image_tag": "Gr4_44_5_28",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "4",
+        "6",
+        "2",
+        "5"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of cloud backups that had at least 50 sync failures but not more than 80 sync failures, we need to count all numbers from 50 to 80."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 4 leaves, which are highlighted in the stem-and-leaf plot above. 4 cloud backups had at least 50 sync failures but not more than 80 sync failures."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_28_step_1",
+          "A stem-and-leaf plot titled 'Data backup' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-80."
+        ]
+      ],
+      "question_number": "5_28",
+      "backend_description": "A stem-and-leaf plot showing the distribution of sync failures. The stem column shows values 3-8, and the leaf column shows: 3|, 4|3, 5|, 6|5, 7|0 7 9, 8|2 3 4."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at DataSoft monitored the number of damaged items in each shipment they received.\n\nHow many shipments had at least 50 damaged items but not more than 90 damaged items?",
+      "image_tag": "Gr4_44_5_29",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "11",
+        "9",
+        "8",
+        "5"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of shipments that had at least 50 damaged items but not more than 90 damaged items, we need to count all numbers from 50 to 90."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 8 leaves, which are highlighted in the stem-and-leaf plot above. 8 shipments had at least 50 damaged items but not more than 90 damaged items."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_29_step_1",
+          "A stem-and-leaf plot titled 'Quality control' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-90."
+        ]
+      ],
+      "question_number": "5_29",
+      "backend_description": "A stem-and-leaf plot showing the distribution of damaged items. The stem column shows values 3-8, and the leaf column shows: 3|9, 4|6, 5|, 6|0 1, 7|1 2 6 8, 8|8 9."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at CodeCraft monitored the number of dropped calls in each hour they received.\n\nHow many hours had at least 40 dropped calls but less than 90 dropped calls?",
+      "image_tag": "Gr4_44_5_30",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "10",
+        "11",
+        "12",
+        "9"
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of hours that had at least 40 dropped calls but less than 90 dropped calls, we need to count all numbers from 40 to 89."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 4, 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 9 leaves, which are highlighted in the stem-and-leaf plot above. 9 hours had at least 40 dropped calls but less than 90 dropped calls."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_30_step_1",
+          "A stem-and-leaf plot titled 'Call center metrics' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-90."
+        ]
+      ],
+      "question_number": "5_30",
+      "backend_description": "A stem-and-leaf plot showing the distribution of dropped calls. The stem column shows values 3-8, and the leaf column shows: 3|7 7, 4|1 6 9, 5|0 9, 6|, 7|, 8|0 6 6 9."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at CloudNet monitored the number of customer complaints in each week they received.\n\nHow many weeks had at least 40 customer complaints but less than 80 customer complaints?",
+      "image_tag": "Gr4_44_5_31",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "9",
+        "8",
+        "3",
+        "6"
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of weeks that had at least 40 customer complaints but less than 80 customer complaints, we need to count all numbers from 40 to 79."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 4, 5, 6, 7."
+        ],
+        [
+          "3/3",
+          "There are 6 leaves, which are highlighted in the stem-and-leaf plot above. 6 weeks had at least 40 customer complaints but less than 80 customer complaints."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_31_step_1",
+          "A stem-and-leaf plot titled 'Customer service' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-80."
+        ]
+      ],
+      "question_number": "5_31",
+      "backend_description": "A stem-and-leaf plot showing the distribution of customer complaints. The stem column shows values 3-8, and the leaf column shows: 3|0 2, 4|0, 5|5, 6|, 7|0 3 6 9, 8|0 5 6."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at PixelPerfect monitored the number of rejected parts in each batch they received.\n\nHow many batchs had at least 40 rejected parts but not more than 80 rejected parts?",
+      "image_tag": "Gr4_44_5_32",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "4",
+        "8",
+        "6",
+        "5"
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of batchs that had at least 40 rejected parts but not more than 80 rejected parts, we need to count all numbers from 40 to 80."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 4, 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 5 leaves, which are highlighted in the stem-and-leaf plot above. 5 batchs had at least 40 rejected parts but not more than 80 rejected parts."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_32_step_1",
+          "A stem-and-leaf plot titled 'Manufacturing QC' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-80."
+        ]
+      ],
+      "question_number": "5_32",
+      "backend_description": "A stem-and-leaf plot showing the distribution of rejected parts. The stem column shows values 3-8, and the leaf column shows: 3|2 6, 4|2, 5|3 4 5, 6|7, 7|, 8|."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at PixelPerfect monitored the number of damaged items in each shipment they received.\n\nHow many shipments had at least 40 damaged items but less than 90 damaged items?",
+      "image_tag": "Gr4_44_5_33",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "10",
+        "9",
+        "7",
+        "4"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of shipments that had at least 40 damaged items but less than 90 damaged items, we need to count all numbers from 40 to 89."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 4, 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 7 leaves, which are highlighted in the stem-and-leaf plot above. 7 shipments had at least 40 damaged items but less than 90 damaged items."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_33_step_1",
+          "A stem-and-leaf plot titled 'Quality control' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-90."
+        ]
+      ],
+      "question_number": "5_33",
+      "backend_description": "A stem-and-leaf plot showing the distribution of damaged items. The stem column shows values 3-8, and the leaf column shows: 3|, 4|, 5|3 8, 6|3 6 8, 7|0 7, 8|."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at DigiFlow monitored the number of rejected parts in each batch they received.\n\nHow many batchs had at least 60 rejected parts but less than 90 rejected parts?",
+      "image_tag": "Gr4_44_5_34",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "4",
+        "2",
+        "5",
+        "1"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of batchs that had at least 60 rejected parts but less than 90 rejected parts, we need to count all numbers from 60 to 89."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 2 leaves, which are highlighted in the stem-and-leaf plot above. 2 batchs had at least 60 rejected parts but less than 90 rejected parts."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_34_step_1",
+          "A stem-and-leaf plot titled 'Manufacturing QC' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-90."
+        ]
+      ],
+      "question_number": "5_34",
+      "backend_description": "A stem-and-leaf plot showing the distribution of rejected parts. The stem column shows values 3-8, and the leaf column shows: 3|0 3 3 4, 4|3 4 9, 5|0 5 7 9, 6|8, 7|, 8|2."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at CodeCraft monitored the number of customer complaints in each week they received.\n\nHow many weeks had at least 60 customer complaints but less than 110 customer complaints?",
+      "image_tag": "Gr4_44_5_35",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "0",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of weeks that had at least 60 customer complaints but less than 110 customer complaints, we need to count all numbers from 60 to 109."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 2 leaves, which are highlighted in the stem-and-leaf plot above. 2 weeks had at least 60 customer complaints but less than 110 customer complaints."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_35_step_1",
+          "A stem-and-leaf plot titled 'Customer service' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-110."
+        ]
+      ],
+      "question_number": "5_35",
+      "backend_description": "A stem-and-leaf plot showing the distribution of customer complaints. The stem column shows values 3-8, and the leaf column shows: 3|5, 4|0 9, 5|4 6 8, 6|, 7|1 2, 8|."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at CodeCraft monitored the number of stream interruptions in each broadcast they received.\n\nHow many broadcasts had at least 60 stream interruptions but less than 100 stream interruptions?",
+      "image_tag": "Gr4_44_5_36",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "0",
+        "3",
+        "6",
+        "2"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of broadcasts that had at least 60 stream interruptions but less than 100 stream interruptions, we need to count all numbers from 60 to 99."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 3 leaves, which are highlighted in the stem-and-leaf plot above. 3 broadcasts had at least 60 stream interruptions but less than 100 stream interruptions."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_36_step_1",
+          "A stem-and-leaf plot titled 'Live streaming' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-100."
+        ]
+      ],
+      "question_number": "5_36",
+      "backend_description": "A stem-and-leaf plot showing the distribution of stream interruptions. The stem column shows values 3-8, and the leaf column shows: 3|, 4|1, 5|8, 6|, 7|, 8|2 5 9."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at NetForge monitored the number of customer complaints in each week they received.\n\nHow many weeks had at least 60 customer complaints but not more than 110 customer complaints?",
+      "image_tag": "Gr4_44_5_37",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of weeks that had at least 60 customer complaints but not more than 110 customer complaints, we need to count all numbers from 60 to 110."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 1 leaves, which are highlighted in the stem-and-leaf plot above. 1 weeks had at least 60 customer complaints but not more than 110 customer complaints."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_37_step_1",
+          "A stem-and-leaf plot titled 'Customer service' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-110."
+        ]
+      ],
+      "question_number": "5_37",
+      "backend_description": "A stem-and-leaf plot showing the distribution of customer complaints. The stem column shows values 3-8, and the leaf column shows: 3|1, 4|6 9, 5|3 6 6 7, 6|4, 7|, 8|."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at AppMaster monitored the number of tweets flagged in each moderation queue they received.\n\nHow many moderation queues had at least 60 tweets flagged but not more than 100 tweets flagged?",
+      "image_tag": "Gr4_44_5_38",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "5",
+        "6",
+        "3",
+        "1"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of moderation queues that had at least 60 tweets flagged but not more than 100 tweets flagged, we need to count all numbers from 60 to 100."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 3 leaves, which are highlighted in the stem-and-leaf plot above. 3 moderation queues had at least 60 tweets flagged but not more than 100 tweets flagged."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_38_step_1",
+          "A stem-and-leaf plot titled 'Content moderation' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-100."
+        ]
+      ],
+      "question_number": "5_38",
+      "backend_description": "A stem-and-leaf plot showing the distribution of tweets flagged. The stem column shows values 3-8, and the leaf column shows: 3|3, 4|3 4 5, 5|1 3 3, 6|7, 7|0 7, 8|."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at TechCorp monitored the number of error messages in each software deployment they received.\n\nHow many software deployments had at least 60 error messages but less than 100 error messages?",
+      "image_tag": "Gr4_44_5_39",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "8",
+        "9",
+        "7",
+        "4"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of software deployments that had at least 60 error messages but less than 100 error messages, we need to count all numbers from 60 to 99."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 7 leaves, which are highlighted in the stem-and-leaf plot above. 7 software deployments had at least 60 error messages but less than 100 error messages."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_39_step_1",
+          "A stem-and-leaf plot titled 'Software testing' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-100."
+        ]
+      ],
+      "question_number": "5_39",
+      "backend_description": "A stem-and-leaf plot showing the distribution of error messages. The stem column shows values 3-8, and the leaf column shows: 3|2 3, 4|7 9, 5|2 5 8, 6|3 7 8, 7|, 8|2 4 6 8."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at ByteWorks monitored the number of damaged items in each shipment they received.\n\nHow many shipments had at least 40 damaged items but less than 70 damaged items?",
+      "image_tag": "Gr4_44_5_40",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of shipments that had at least 40 damaged items but less than 70 damaged items, we need to count all numbers from 40 to 69."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 4, 5, 6."
+        ],
+        [
+          "3/3",
+          "There are 4 leaves, which are highlighted in the stem-and-leaf plot above. 4 shipments had at least 40 damaged items but less than 70 damaged items."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_40_step_1",
+          "A stem-and-leaf plot titled 'Quality control' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-70."
+        ]
+      ],
+      "question_number": "5_40",
+      "backend_description": "A stem-and-leaf plot showing the distribution of damaged items. The stem column shows values 3-8, and the leaf column shows: 3|1 2 2 3, 4|0 8, 5|, 6|3 9, 7|, 8|3."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at CloudNet monitored the number of bugs found in each code review they received.\n\nHow many code reviews had at least 50 bugs found but not more than 90 bugs found?",
+      "image_tag": "Gr4_44_5_41",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "6",
+        "8",
+        "9",
+        "7"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of code reviews that had at least 50 bugs found but not more than 90 bugs found, we need to count all numbers from 50 to 90."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 8 leaves, which are highlighted in the stem-and-leaf plot above. 8 code reviews had at least 50 bugs found but not more than 90 bugs found."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_41_step_1",
+          "A stem-and-leaf plot titled 'Software development' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-90."
+        ]
+      ],
+      "question_number": "5_41",
+      "backend_description": "A stem-and-leaf plot showing the distribution of bugs found. The stem column shows values 3-8, and the leaf column shows: 3|, 4|1 6 7 9, 5|2 5, 6|2 3 5, 7|1 8 9, 8|."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at CloudNet monitored the number of spam emails in each mail server they received.\n\nHow many mail servers had at least 50 spam emails but less than 90 spam emails?",
+      "image_tag": "Gr4_44_5_42",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "6",
+        "8",
+        "7",
+        "9"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of mail servers that had at least 50 spam emails but less than 90 spam emails, we need to count all numbers from 50 to 89."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 8 leaves, which are highlighted in the stem-and-leaf plot above. 8 mail servers had at least 50 spam emails but less than 90 spam emails."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_42_step_1",
+          "A stem-and-leaf plot titled 'Email filtering' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-90."
+        ]
+      ],
+      "question_number": "5_42",
+      "backend_description": "A stem-and-leaf plot showing the distribution of spam emails. The stem column shows values 3-8, and the leaf column shows: 3|1 2 3, 4|1 2 8 9, 5|0 1 3, 6|6, 7|3, 8|0 0 7."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at PixelPerfect monitored the number of spam emails in each mail server they received.\n\nHow many mail servers had at least 40 spam emails but less than 70 spam emails?",
+      "image_tag": "Gr4_44_5_43",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "4",
+        "7",
+        "5",
+        "8"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of mail servers that had at least 40 spam emails but less than 70 spam emails, we need to count all numbers from 40 to 69."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 4, 5, 6."
+        ],
+        [
+          "3/3",
+          "There are 7 leaves, which are highlighted in the stem-and-leaf plot above. 7 mail servers had at least 40 spam emails but less than 70 spam emails."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_43_step_1",
+          "A stem-and-leaf plot titled 'Email filtering' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-70."
+        ]
+      ],
+      "question_number": "5_43",
+      "backend_description": "A stem-and-leaf plot showing the distribution of spam emails. The stem column shows values 3-8, and the leaf column shows: 3|, 4|6 8, 5|2 6 7 8, 6|6, 7|0, 8|."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at DataSoft monitored the number of sync failures in each cloud backup they received.\n\nHow many cloud backups had at least 50 sync failures but not more than 80 sync failures?",
+      "image_tag": "Gr4_44_5_44",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "5",
+        "6",
+        "3",
+        "4"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of cloud backups that had at least 50 sync failures but not more than 80 sync failures, we need to count all numbers from 50 to 80."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 5 leaves, which are highlighted in the stem-and-leaf plot above. 5 cloud backups had at least 50 sync failures but not more than 80 sync failures."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_44_step_1",
+          "A stem-and-leaf plot titled 'Data backup' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-80."
+        ]
+      ],
+      "question_number": "5_44",
+      "backend_description": "A stem-and-leaf plot showing the distribution of sync failures. The stem column shows values 3-8, and the leaf column shows: 3|3, 4|4, 5|0 5 6 8, 6|, 7|8, 8|."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at CloudNet monitored the number of login attempts failed in each hour they received.\n\nHow many hours had at least 50 login attempts failed but less than 90 login attempts failed?",
+      "image_tag": "Gr4_44_5_45",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "4",
+        "6",
+        "2",
+        "5"
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of hours that had at least 50 login attempts failed but less than 90 login attempts failed, we need to count all numbers from 50 to 89."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 5 leaves, which are highlighted in the stem-and-leaf plot above. 5 hours had at least 50 login attempts failed but less than 90 login attempts failed."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_45_step_1",
+          "A stem-and-leaf plot titled 'Security monitoring' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-90."
+        ]
+      ],
+      "question_number": "5_45",
+      "backend_description": "A stem-and-leaf plot showing the distribution of login attempts failed. The stem column shows values 3-8, and the leaf column shows: 3|, 4|1 3 7 8, 5|8, 6|1 3, 7|4, 8|6."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at NetForge monitored the number of render errors in each video export they received.\n\nHow many video exports had at least 40 render errors but less than 90 render errors?",
+      "image_tag": "Gr4_44_5_46",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "17",
+        "19",
+        "16",
+        "22"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of video exports that had at least 40 render errors but less than 90 render errors, we need to count all numbers from 40 to 89."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 4, 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 19 leaves, which are highlighted in the stem-and-leaf plot above. 19 video exports had at least 40 render errors but less than 90 render errors."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_46_step_1",
+          "A stem-and-leaf plot titled 'Video production' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-90."
+        ]
+      ],
+      "question_number": "5_46",
+      "backend_description": "A stem-and-leaf plot showing the distribution of render errors. The stem column shows values 3-8, and the leaf column shows: 3|0 1, 4|1 6 6 9, 5|4 6 7, 6|0 3 4 6, 7|0 2 3 4, 8|0 4 5 8."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at AppMaster monitored the number of rejected parts in each batch they received.\n\nHow many batchs had at least 40 rejected parts but not more than 80 rejected parts?",
+      "image_tag": "Gr4_44_5_47",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "7",
+        "5",
+        "3",
+        "6"
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of batchs that had at least 40 rejected parts but not more than 80 rejected parts, we need to count all numbers from 40 to 80."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 4, 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 6 leaves, which are highlighted in the stem-and-leaf plot above. 6 batchs had at least 40 rejected parts but not more than 80 rejected parts."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_47_step_1",
+          "A stem-and-leaf plot titled 'Manufacturing QC' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-80."
+        ]
+      ],
+      "question_number": "5_47",
+      "backend_description": "A stem-and-leaf plot showing the distribution of rejected parts. The stem column shows values 3-8, and the leaf column shows: 3|2 3 8 9, 4|3 5, 5|5 6, 6|, 7|7 7, 8|4 5 8 8."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at DataSoft monitored the number of customer complaints in each week they received.\n\nHow many weeks had at least 40 customer complaints but not more than 80 customer complaints?",
+      "image_tag": "Gr4_44_5_48",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "7",
+        "1",
+        "4",
+        "5"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of weeks that had at least 40 customer complaints but not more than 80 customer complaints, we need to count all numbers from 40 to 80."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 4, 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 4 leaves, which are highlighted in the stem-and-leaf plot above. 4 weeks had at least 40 customer complaints but not more than 80 customer complaints."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_48_step_1",
+          "A stem-and-leaf plot titled 'Customer service' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 40-80."
+        ]
+      ],
+      "question_number": "5_48",
+      "backend_description": "A stem-and-leaf plot showing the distribution of customer complaints. The stem column shows values 3-8, and the leaf column shows: 3|0 2 5, 4|6 7 8 9, 5|, 6|, 7|, 8|5 8 9."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at StreamLine monitored the number of rejected parts in each batch they received.\n\nHow many batchs had at least 50 rejected parts but less than 100 rejected parts?",
+      "image_tag": "Gr4_44_5_49",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "11",
+        "14",
+        "12",
+        "9"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of batchs that had at least 50 rejected parts but less than 100 rejected parts, we need to count all numbers from 50 to 99."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 5, 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 12 leaves, which are highlighted in the stem-and-leaf plot above. 12 batchs had at least 50 rejected parts but less than 100 rejected parts."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_49_step_1",
+          "A stem-and-leaf plot titled 'Manufacturing QC' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 50-100."
+        ]
+      ],
+      "question_number": "5_49",
+      "backend_description": "A stem-and-leaf plot showing the distribution of rejected parts. The stem column shows values 3-8, and the leaf column shows: 3|6, 4|, 5|0 5 6 8, 6|6, 7|0 2 3 4, 8|4 6 7."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at CodeCraft monitored the number of spam emails in each mail server they received.\n\nHow many mail servers had at least 60 spam emails but less than 110 spam emails?",
+      "image_tag": "Gr4_44_5_50",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "10",
+        "7",
+        "8",
+        "9"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of mail servers that had at least 60 spam emails but less than 110 spam emails, we need to count all numbers from 60 to 109."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 10 leaves, which are highlighted in the stem-and-leaf plot above. 10 mail servers had at least 60 spam emails but less than 110 spam emails."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_50_step_1",
+          "A stem-and-leaf plot titled 'Email filtering' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-110."
+        ]
+      ],
+      "question_number": "5_50",
+      "backend_description": "A stem-and-leaf plot showing the distribution of spam emails. The stem column shows values 3-8, and the leaf column shows: 3|0 4 7 8, 4|, 5|0 5 7, 6|2 3 4 7, 7|4 7, 8|0 1 3 6."
+    },
+    {
+      "skills": "interpret-stem-and-leaf-plots",
+      "question_text": "The employees at StreamLine monitored the number of spam emails in each mail server they received.\n\nHow many mail servers had at least 60 spam emails but less than 110 spam emails?",
+      "image_tag": "Gr4_44_5_51",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_44_E5",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the amount of mail servers that had at least 60 spam emails but less than 110 spam emails, we need to count all numbers from 60 to 109."
+        ],
+        [
+          "2/3",
+          "We need to count all the leaves in the rows with stems 6, 7, 8."
+        ],
+        [
+          "3/3",
+          "There are 4 leaves, which are highlighted in the stem-and-leaf plot above. 4 mail servers had at least 60 spam emails but less than 110 spam emails."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/3",
+          "Gr4_44_5_51_step_1",
+          "A stem-and-leaf plot titled 'Email filtering' with stems 3-8 and their corresponding leaves. Highlighted numbers indicate specific data points in the range 60-110."
+        ]
+      ],
+      "question_number": "5_51",
+      "backend_description": "A stem-and-leaf plot showing the distribution of spam emails. The stem column shows values 3-8, and the leaf column shows: 3|3 9, 4|8, 5|0 1 1 8, 6|0 4 8, 7|, 8|1."
+    }
+  ]
+}

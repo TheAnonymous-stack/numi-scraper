@@ -1,1175 +1,1177 @@
-[
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favourite vegetables in order to decide which ones to plant in the new school garden.\n\n\nHow many more students voted for celery than carrots?\n _",
-    "image_tag": "Gr4_44_1_1",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "4"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like celery and the number of students in total who like carrots.\nCelery: 11 + 10 = 21\nCarrots: 13 + 4 = 17"
+{
+  "quizzes": [
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favourite vegetables in order to decide which ones to plant in the new school garden.\n\n\nHow many more students voted for celery than carrots?\n _",
+      "image_tag": "Gr4_44_1_1",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "4"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for celery than carrots:\n\n21 - 17 = 4\n\n4 more students voted for celery than carrots."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_1",
-    "backend_description": "A table with a pale yellow background showing vegetable preferences among students. The table has three columns: 'Vegetable' (listing Spinach, Carrots, Onions, Celery), 'Lower elementary students', and 'Upper elementary students'. The data shows: Spinach: 17 (lower), 18 (upper); Carrots: 13 (lower), 4 (upper); Onions: 14 (lower), 6 (upper); Celery: 11 (lower), 10 (upper)."
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite sports in order to decide which ones to feature in the new school season.\n\n\nHow many more students voted for Soccer than Swimming?\n _",
-    "image_tag": "Gr4_44_1_2",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "5"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Soccer and the number of students in total who like Swimming.\nSoccer: 6 + 18 = 24\nSwimming: 9 + 10 = 19"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like celery and the number of students in total who like carrots.\nCelery: 11 + 10 = 21\nCarrots: 13 + 4 = 17"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for celery than carrots:\n\n21 - 17 = 4\n\n4 more students voted for celery than carrots."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Soccer than Swimming:\n\n24 - 19 = 5\n\n5 more students voted for Soccer than Swimming."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_2",
-    "backend_description": "A table with a pale yellow background showing favorite sports among students. The table has three columns: 'Season' (listing Basketball, Soccer, Baseball, Swimming), 'Lower grade students', and 'Upper grade students'. The data shows: Basketball: 19 (lower), 19 (upper); Soccer: 6 (lower), 18 (upper); Baseball: 6 (lower), 9 (upper); Swimming: 9 (lower), 10 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite streaming services in order to decide which ones to feature in the new school content genre.\n\n\nHow many more students voted for YouTube than Disney+?\n _",
-    "image_tag": "Gr4_44_1_3",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "19"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like YouTube and the number of students in total who like Disney+.\nYouTube: 14 + 20 = 34\nDisney+: 9 + 6 = 15"
+      "solution_image_tag": [],
+      "question_number": "1_1",
+      "backend_description": "A table with a pale yellow background showing vegetable preferences among students. The table has three columns: 'Vegetable' (listing Spinach, Carrots, Onions, Celery), 'Lower elementary students', and 'Upper elementary students'. The data shows: Spinach: 17 (lower), 18 (upper); Carrots: 13 (lower), 4 (upper); Onions: 14 (lower), 6 (upper); Celery: 11 (lower), 10 (upper)."
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite sports in order to decide which ones to feature in the new school season.\n\n\nHow many more students voted for Soccer than Swimming?\n _",
+      "image_tag": "Gr4_44_1_2",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "5"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for YouTube than Disney+:\n\n34 - 15 = 19\n\n19 more students voted for YouTube than Disney+."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_3",
-    "backend_description": "A table with a pale yellow background showing favorite streaming services among students. The table has three columns: 'Content Genre' (listing Netflix, Disney+, YouTube, Hulu), 'Lower grade students', and 'Upper grade students'. The data shows: Netflix: 16 (lower), 13 (upper); Disney+: 9 (lower), 6 (upper); YouTube: 14 (lower), 20 (upper); Hulu: 12 (lower), 6 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite pizza toppings in order to decide which ones to feature in the new school restaurant chain.\n\n\nHow many more students voted for Pepperoni than Hawaiian?\n _",
-    "image_tag": "Gr4_44_1_4",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "14"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Pepperoni and the number of students in total who like Hawaiian.\nPepperoni: 15 + 19 = 34\nHawaiian: 11 + 9 = 20"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Soccer and the number of students in total who like Swimming.\nSoccer: 6 + 18 = 24\nSwimming: 9 + 10 = 19"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Soccer than Swimming:\n\n24 - 19 = 5\n\n5 more students voted for Soccer than Swimming."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Pepperoni than Hawaiian:\n\n34 - 20 = 14\n\n14 more students voted for Pepperoni than Hawaiian."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_4",
-    "backend_description": "A table with a pale yellow background showing favorite pizza toppings among students. The table has three columns: 'Restaurant Chain' (listing Pepperoni, Cheese, Hawaiian, Veggie), 'Lower grade students', and 'Upper grade students'. The data shows: Pepperoni: 15 (lower), 19 (upper); Cheese: 13 (lower), 19 (upper); Hawaiian: 11 (lower), 9 (upper); Veggie: 20 (lower), 17 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite music genres in order to decide which ones to feature in the new school music app.\n\n\nHow many more students voted for Hip-Hop than K-Pop?\n _",
-    "image_tag": "Gr4_44_1_5",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "10"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Hip-Hop and the number of students in total who like K-Pop.\nHip-Hop: 16 + 14 = 30\nK-Pop: 7 + 13 = 20"
+      "solution_image_tag": [],
+      "question_number": "1_2",
+      "backend_description": "A table with a pale yellow background showing favorite sports among students. The table has three columns: 'Season' (listing Basketball, Soccer, Baseball, Swimming), 'Lower grade students', and 'Upper grade students'. The data shows: Basketball: 19 (lower), 19 (upper); Soccer: 6 (lower), 18 (upper); Baseball: 6 (lower), 9 (upper); Swimming: 9 (lower), 10 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite streaming services in order to decide which ones to feature in the new school content genre.\n\n\nHow many more students voted for YouTube than Disney+?\n _",
+      "image_tag": "Gr4_44_1_3",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "19"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Hip-Hop than K-Pop:\n\n30 - 20 = 10\n\n10 more students voted for Hip-Hop than K-Pop."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_5",
-    "backend_description": "A table with a pale yellow background showing favorite music genres among students. The table has three columns: 'Music App' (listing Pop, Rock, Hip-Hop, K-Pop), 'Lower grade students', and 'Upper grade students'. The data shows: Pop: 5 (lower), 7 (upper); Rock: 7 (lower), 7 (upper); Hip-Hop: 16 (lower), 14 (upper); K-Pop: 7 (lower), 13 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite anime genres in order to decide which ones to feature in the new school streaming platform.\n\n\nHow many more students voted for Sports than Shonen?\n _",
-    "image_tag": "Gr4_44_1_6",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "6"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Sports and the number of students in total who like Shonen.\nSports: 6 + 17 = 23\nShonen: 6 + 11 = 17"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like YouTube and the number of students in total who like Disney+.\nYouTube: 14 + 20 = 34\nDisney+: 9 + 6 = 15"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for YouTube than Disney+:\n\n34 - 15 = 19\n\n19 more students voted for YouTube than Disney+."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Sports than Shonen:\n\n23 - 17 = 6\n\n6 more students voted for Sports than Shonen."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_6",
-    "backend_description": "A table with a pale yellow background showing favorite anime genres among students. The table has three columns: 'Streaming Platform' (listing Shonen, Slice of Life, Sports, Fantasy), 'Lower grade students', and 'Upper grade students'. The data shows: Shonen: 6 (lower), 11 (upper); Slice of Life: 5 (lower), 5 (upper); Sports: 6 (lower), 17 (upper); Fantasy: 17 (lower), 9 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite mobile games in order to decide which ones to feature in the new school game category.\n\n\nHow many more students voted for Clash Royale than Candy Crush?\n _",
-    "image_tag": "Gr4_44_1_7",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "2"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Clash Royale and the number of students in total who like Candy Crush.\nClash Royale: 10 + 17 = 27\nCandy Crush: 20 + 5 = 25"
+      "solution_image_tag": [],
+      "question_number": "1_3",
+      "backend_description": "A table with a pale yellow background showing favorite streaming services among students. The table has three columns: 'Content Genre' (listing Netflix, Disney+, YouTube, Hulu), 'Lower grade students', and 'Upper grade students'. The data shows: Netflix: 16 (lower), 13 (upper); Disney+: 9 (lower), 6 (upper); YouTube: 14 (lower), 20 (upper); Hulu: 12 (lower), 6 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite pizza toppings in order to decide which ones to feature in the new school restaurant chain.\n\n\nHow many more students voted for Pepperoni than Hawaiian?\n _",
+      "image_tag": "Gr4_44_1_4",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "14"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Clash Royale than Candy Crush:\n\n27 - 25 = 2\n\n2 more students voted for Clash Royale than Candy Crush."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_7",
-    "backend_description": "A table with a pale yellow background showing favorite mobile games among students. The table has three columns: 'Game Category' (listing Candy Crush, Subway Surfers, Pokemon GO, Clash Royale), 'Lower grade students', and 'Upper grade students'. The data shows: Candy Crush: 20 (lower), 5 (upper); Subway Surfers: 5 (lower), 14 (upper); Pokemon GO: 15 (lower), 11 (upper); Clash Royale: 10 (lower), 17 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite YouTube channels in order to decide which ones to feature in the new school content type.\n\n\nHow many more students voted for Comedy than Science?\n _",
-    "image_tag": "Gr4_44_1_8",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "14"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Comedy and the number of students in total who like Science.\nComedy: 20 + 16 = 36\nScience: 11 + 11 = 22"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Pepperoni and the number of students in total who like Hawaiian.\nPepperoni: 15 + 19 = 34\nHawaiian: 11 + 9 = 20"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Pepperoni than Hawaiian:\n\n34 - 20 = 14\n\n14 more students voted for Pepperoni than Hawaiian."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Comedy than Science:\n\n36 - 22 = 14\n\n14 more students voted for Comedy than Science."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_8",
-    "backend_description": "A table with a pale yellow background showing favorite YouTube channels among students. The table has three columns: 'Content Type' (listing Gaming, Science, Comedy, Music), 'Lower grade students', and 'Upper grade students'. The data shows: Gaming: 5 (lower), 9 (upper); Science: 11 (lower), 11 (upper); Comedy: 20 (lower), 16 (upper); Music: 11 (lower), 18 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite sports in order to decide which ones to feature in the new school season.\n\n\nHow many more students voted for Swimming than Basketball?\n _",
-    "image_tag": "Gr4_44_1_9",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "6"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Swimming and the number of students in total who like Basketball.\nSwimming: 10 + 17 = 27\nBasketball: 12 + 9 = 21"
+      "solution_image_tag": [],
+      "question_number": "1_4",
+      "backend_description": "A table with a pale yellow background showing favorite pizza toppings among students. The table has three columns: 'Restaurant Chain' (listing Pepperoni, Cheese, Hawaiian, Veggie), 'Lower grade students', and 'Upper grade students'. The data shows: Pepperoni: 15 (lower), 19 (upper); Cheese: 13 (lower), 19 (upper); Hawaiian: 11 (lower), 9 (upper); Veggie: 20 (lower), 17 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite music genres in order to decide which ones to feature in the new school music app.\n\n\nHow many more students voted for Hip-Hop than K-Pop?\n _",
+      "image_tag": "Gr4_44_1_5",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "10"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Swimming than Basketball:\n\n27 - 21 = 6\n\n6 more students voted for Swimming than Basketball."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_9",
-    "backend_description": "A table with a pale yellow background showing favorite sports among students. The table has three columns: 'Season' (listing Basketball, Soccer, Baseball, Swimming), 'Lower grade students', and 'Upper grade students'. The data shows: Basketball: 12 (lower), 9 (upper); Soccer: 15 (lower), 5 (upper); Baseball: 14 (lower), 19 (upper); Swimming: 10 (lower), 17 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite streaming services in order to decide which ones to feature in the new school content genre.\n\n\nHow many more students voted for Hulu than Netflix?\n _",
-    "image_tag": "Gr4_44_1_10",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "3"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Hulu and the number of students in total who like Netflix.\nHulu: 19 + 13 = 32\nNetflix: 11 + 18 = 29"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Hip-Hop and the number of students in total who like K-Pop.\nHip-Hop: 16 + 14 = 30\nK-Pop: 7 + 13 = 20"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Hip-Hop than K-Pop:\n\n30 - 20 = 10\n\n10 more students voted for Hip-Hop than K-Pop."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Hulu than Netflix:\n\n32 - 29 = 3\n\n3 more students voted for Hulu than Netflix."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_10",
-    "backend_description": "A table with a pale yellow background showing favorite streaming services among students. The table has three columns: 'Content Genre' (listing Netflix, Disney+, YouTube, Hulu), 'Lower grade students', and 'Upper grade students'. The data shows: Netflix: 11 (lower), 18 (upper); Disney+: 6 (lower), 7 (upper); YouTube: 19 (lower), 9 (upper); Hulu: 19 (lower), 13 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite snacks in order to decide which ones to feature in the new school meal time.\n\n\nHow many more students voted for Chips than Fruit?\n _",
-    "image_tag": "Gr4_44_1_11",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "3"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Chips and the number of students in total who like Fruit.\nChips: 6 + 9 = 15\nFruit: 7 + 5 = 12"
+      "solution_image_tag": [],
+      "question_number": "1_5",
+      "backend_description": "A table with a pale yellow background showing favorite music genres among students. The table has three columns: 'Music App' (listing Pop, Rock, Hip-Hop, K-Pop), 'Lower grade students', and 'Upper grade students'. The data shows: Pop: 5 (lower), 7 (upper); Rock: 7 (lower), 7 (upper); Hip-Hop: 16 (lower), 14 (upper); K-Pop: 7 (lower), 13 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite anime genres in order to decide which ones to feature in the new school streaming platform.\n\n\nHow many more students voted for Sports than Shonen?\n _",
+      "image_tag": "Gr4_44_1_6",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "6"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Chips than Fruit:\n\n15 - 12 = 3\n\n3 more students voted for Chips than Fruit."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_11",
-    "backend_description": "A table with a pale yellow background showing favorite snacks among students. The table has three columns: 'Meal Time' (listing Chips, Cookies, Fruit, Popcorn), 'Lower grade students', and 'Upper grade students'. The data shows: Chips: 6 (lower), 9 (upper); Cookies: 16 (lower), 9 (upper); Fruit: 7 (lower), 5 (upper); Popcorn: 8 (lower), 14 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite snacks in order to decide which ones to feature in the new school meal time.\n\n\nHow many more students voted for Cookies than Popcorn?\n _",
-    "image_tag": "Gr4_44_1_12",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "10"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Cookies and the number of students in total who like Popcorn.\nCookies: 17 + 15 = 32\nPopcorn: 9 + 13 = 22"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Sports and the number of students in total who like Shonen.\nSports: 6 + 17 = 23\nShonen: 6 + 11 = 17"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Sports than Shonen:\n\n23 - 17 = 6\n\n6 more students voted for Sports than Shonen."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Cookies than Popcorn:\n\n32 - 22 = 10\n\n10 more students voted for Cookies than Popcorn."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_12",
-    "backend_description": "A table with a pale yellow background showing favorite snacks among students. The table has three columns: 'Meal Time' (listing Chips, Cookies, Fruit, Popcorn), 'Lower grade students', and 'Upper grade students'. The data shows: Chips: 12 (lower), 6 (upper); Cookies: 17 (lower), 15 (upper); Fruit: 9 (lower), 19 (upper); Popcorn: 9 (lower), 13 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite music genres in order to decide which ones to feature in the new school music app.\n\n\nHow many more students voted for K-Pop than Rock?\n _",
-    "image_tag": "Gr4_44_1_13",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "10"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like K-Pop and the number of students in total who like Rock.\nK-Pop: 20 + 20 = 40\nRock: 15 + 15 = 30"
+      "solution_image_tag": [],
+      "question_number": "1_6",
+      "backend_description": "A table with a pale yellow background showing favorite anime genres among students. The table has three columns: 'Streaming Platform' (listing Shonen, Slice of Life, Sports, Fantasy), 'Lower grade students', and 'Upper grade students'. The data shows: Shonen: 6 (lower), 11 (upper); Slice of Life: 5 (lower), 5 (upper); Sports: 6 (lower), 17 (upper); Fantasy: 17 (lower), 9 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite mobile games in order to decide which ones to feature in the new school game category.\n\n\nHow many more students voted for Clash Royale than Candy Crush?\n _",
+      "image_tag": "Gr4_44_1_7",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "2"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for K-Pop than Rock:\n\n40 - 30 = 10\n\n10 more students voted for K-Pop than Rock."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_13",
-    "backend_description": "A table with a pale yellow background showing favorite music genres among students. The table has three columns: 'Music App' (listing Pop, Rock, Hip-Hop, K-Pop), 'Lower grade students', and 'Upper grade students'. The data shows: Pop: 14 (lower), 14 (upper); Rock: 15 (lower), 15 (upper); Hip-Hop: 17 (lower), 13 (upper); K-Pop: 20 (lower), 20 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite Pokemon types in order to decide which ones to feature in the new school generation.\n\n\nHow many more students voted for Water than Electric?\n _",
-    "image_tag": "Gr4_44_1_14",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "13"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Water and the number of students in total who like Electric.\nWater: 17 + 12 = 29\nElectric: 7 + 9 = 16"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Clash Royale and the number of students in total who like Candy Crush.\nClash Royale: 10 + 17 = 27\nCandy Crush: 20 + 5 = 25"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Clash Royale than Candy Crush:\n\n27 - 25 = 2\n\n2 more students voted for Clash Royale than Candy Crush."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Water than Electric:\n\n29 - 16 = 13\n\n13 more students voted for Water than Electric."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_14",
-    "backend_description": "A table with a pale yellow background showing favorite Pokemon types among students. The table has three columns: 'Generation' (listing Fire, Water, Electric, Psychic), 'Lower grade students', and 'Upper grade students'. The data shows: Fire: 17 (lower), 18 (upper); Water: 17 (lower), 12 (upper); Electric: 7 (lower), 9 (upper); Psychic: 11 (lower), 13 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite Pokemon types in order to decide which ones to feature in the new school generation.\n\n\nHow many more students voted for Water than Electric?\n _",
-    "image_tag": "Gr4_44_1_15",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "16"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Water and the number of students in total who like Electric.\nWater: 20 + 18 = 38\nElectric: 9 + 13 = 22"
+      "solution_image_tag": [],
+      "question_number": "1_7",
+      "backend_description": "A table with a pale yellow background showing favorite mobile games among students. The table has three columns: 'Game Category' (listing Candy Crush, Subway Surfers, Pokemon GO, Clash Royale), 'Lower grade students', and 'Upper grade students'. The data shows: Candy Crush: 20 (lower), 5 (upper); Subway Surfers: 5 (lower), 14 (upper); Pokemon GO: 15 (lower), 11 (upper); Clash Royale: 10 (lower), 17 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite YouTube channels in order to decide which ones to feature in the new school content type.\n\n\nHow many more students voted for Comedy than Science?\n _",
+      "image_tag": "Gr4_44_1_8",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "14"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Water than Electric:\n\n38 - 22 = 16\n\n16 more students voted for Water than Electric."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_15",
-    "backend_description": "A table with a pale yellow background showing favorite Pokemon types among students. The table has three columns: 'Generation' (listing Fire, Water, Electric, Psychic), 'Lower grade students', and 'Upper grade students'. The data shows: Fire: 6 (lower), 17 (upper); Water: 20 (lower), 18 (upper); Electric: 9 (lower), 13 (upper); Psychic: 6 (lower), 15 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite music genres in order to decide which ones to feature in the new school music app.\n\n\nHow many more students voted for Hip-Hop than K-Pop?\n _",
-    "image_tag": "Gr4_44_1_16",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "10"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Hip-Hop and the number of students in total who like K-Pop.\nHip-Hop: 19 + 17 = 36\nK-Pop: 16 + 10 = 26"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Comedy and the number of students in total who like Science.\nComedy: 20 + 16 = 36\nScience: 11 + 11 = 22"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Comedy than Science:\n\n36 - 22 = 14\n\n14 more students voted for Comedy than Science."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Hip-Hop than K-Pop:\n\n36 - 26 = 10\n\n10 more students voted for Hip-Hop than K-Pop."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_16",
-    "backend_description": "A table with a pale yellow background showing favorite music genres among students. The table has three columns: 'Music App' (listing Pop, Rock, Hip-Hop, K-Pop), 'Lower grade students', and 'Upper grade students'. The data shows: Pop: 13 (lower), 13 (upper); Rock: 9 (lower), 16 (upper); Hip-Hop: 19 (lower), 17 (upper); K-Pop: 16 (lower), 10 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite book genres in order to decide which ones to feature in the new school reading time.\n\n\nHow many more students voted for Mystery than Adventure?\n _",
-    "image_tag": "Gr4_44_1_17",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "4"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Mystery and the number of students in total who like Adventure.\nMystery: 11 + 19 = 30\nAdventure: 10 + 16 = 26"
+      "solution_image_tag": [],
+      "question_number": "1_8",
+      "backend_description": "A table with a pale yellow background showing favorite YouTube channels among students. The table has three columns: 'Content Type' (listing Gaming, Science, Comedy, Music), 'Lower grade students', and 'Upper grade students'. The data shows: Gaming: 5 (lower), 9 (upper); Science: 11 (lower), 11 (upper); Comedy: 20 (lower), 16 (upper); Music: 11 (lower), 18 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite sports in order to decide which ones to feature in the new school season.\n\n\nHow many more students voted for Swimming than Basketball?\n _",
+      "image_tag": "Gr4_44_1_9",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "6"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Mystery than Adventure:\n\n30 - 26 = 4\n\n4 more students voted for Mystery than Adventure."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_17",
-    "backend_description": "A table with a pale yellow background showing favorite book genres among students. The table has three columns: 'Reading Time' (listing Fantasy, Mystery, Adventure, Science Fiction), 'Lower grade students', and 'Upper grade students'. The data shows: Fantasy: 7 (lower), 20 (upper); Mystery: 11 (lower), 19 (upper); Adventure: 10 (lower), 16 (upper); Science Fiction: 17 (lower), 10 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite social media apps in order to decide which ones to feature in the new school device type.\n\n\nHow many more students voted for Discord than Snapchat?\n _",
-    "image_tag": "Gr4_44_1_18",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "9"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Discord and the number of students in total who like Snapchat.\nDiscord: 11 + 19 = 30\nSnapchat: 15 + 6 = 21"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Swimming and the number of students in total who like Basketball.\nSwimming: 10 + 17 = 27\nBasketball: 12 + 9 = 21"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Swimming than Basketball:\n\n27 - 21 = 6\n\n6 more students voted for Swimming than Basketball."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Discord than Snapchat:\n\n30 - 21 = 9\n\n9 more students voted for Discord than Snapchat."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_18",
-    "backend_description": "A table with a pale yellow background showing favorite social media apps among students. The table has three columns: 'Device Type' (listing Instagram, TikTok, Snapchat, Discord), 'Lower grade students', and 'Upper grade students'. The data shows: Instagram: 8 (lower), 12 (upper); TikTok: 9 (lower), 15 (upper); Snapchat: 15 (lower), 6 (upper); Discord: 11 (lower), 19 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite Pokemon types in order to decide which ones to feature in the new school generation.\n\n\nHow many more students voted for Water than Electric?\n _",
-    "image_tag": "Gr4_44_1_19",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "2"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Water and the number of students in total who like Electric.\nWater: 19 + 15 = 34\nElectric: 12 + 20 = 32"
+      "solution_image_tag": [],
+      "question_number": "1_9",
+      "backend_description": "A table with a pale yellow background showing favorite sports among students. The table has three columns: 'Season' (listing Basketball, Soccer, Baseball, Swimming), 'Lower grade students', and 'Upper grade students'. The data shows: Basketball: 12 (lower), 9 (upper); Soccer: 15 (lower), 5 (upper); Baseball: 14 (lower), 19 (upper); Swimming: 10 (lower), 17 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite streaming services in order to decide which ones to feature in the new school content genre.\n\n\nHow many more students voted for Hulu than Netflix?\n _",
+      "image_tag": "Gr4_44_1_10",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "3"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Water than Electric:\n\n34 - 32 = 2\n\n2 more students voted for Water than Electric."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_19",
-    "backend_description": "A table with a pale yellow background showing favorite Pokemon types among students. The table has three columns: 'Generation' (listing Fire, Water, Electric, Psychic), 'Lower grade students', and 'Upper grade students'. The data shows: Fire: 7 (lower), 9 (upper); Water: 19 (lower), 15 (upper); Electric: 12 (lower), 20 (upper); Psychic: 9 (lower), 12 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite social media apps in order to decide which ones to feature in the new school device type.\n\n\nHow many more students voted for TikTok than Snapchat?\n _",
-    "image_tag": "Gr4_44_1_20",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "6"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like TikTok and the number of students in total who like Snapchat.\nTikTok: 19 + 11 = 30\nSnapchat: 19 + 5 = 24"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Hulu and the number of students in total who like Netflix.\nHulu: 19 + 13 = 32\nNetflix: 11 + 18 = 29"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Hulu than Netflix:\n\n32 - 29 = 3\n\n3 more students voted for Hulu than Netflix."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for TikTok than Snapchat:\n\n30 - 24 = 6\n\n6 more students voted for TikTok than Snapchat."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_20",
-    "backend_description": "A table with a pale yellow background showing favorite social media apps among students. The table has three columns: 'Device Type' (listing Instagram, TikTok, Snapchat, Discord), 'Lower grade students', and 'Upper grade students'. The data shows: Instagram: 19 (lower), 5 (upper); TikTok: 19 (lower), 11 (upper); Snapchat: 19 (lower), 5 (upper); Discord: 11 (lower), 19 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite mobile games in order to decide which ones to feature in the new school game category.\n\n\nHow many more students voted for Clash Royale than Pokemon GO?\n _",
-    "image_tag": "Gr4_44_1_21",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "5"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Clash Royale and the number of students in total who like Pokemon GO.\nClash Royale: 10 + 9 = 19\nPokemon GO: 5 + 9 = 14"
+      "solution_image_tag": [],
+      "question_number": "1_10",
+      "backend_description": "A table with a pale yellow background showing favorite streaming services among students. The table has three columns: 'Content Genre' (listing Netflix, Disney+, YouTube, Hulu), 'Lower grade students', and 'Upper grade students'. The data shows: Netflix: 11 (lower), 18 (upper); Disney+: 6 (lower), 7 (upper); YouTube: 19 (lower), 9 (upper); Hulu: 19 (lower), 13 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite snacks in order to decide which ones to feature in the new school meal time.\n\n\nHow many more students voted for Chips than Fruit?\n _",
+      "image_tag": "Gr4_44_1_11",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "3"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Clash Royale than Pokemon GO:\n\n19 - 14 = 5\n\n5 more students voted for Clash Royale than Pokemon GO."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_21",
-    "backend_description": "A table with a pale yellow background showing favorite mobile games among students. The table has three columns: 'Game Category' (listing Candy Crush, Subway Surfers, Pokemon GO, Clash Royale), 'Lower grade students', and 'Upper grade students'. The data shows: Candy Crush: 19 (lower), 10 (upper); Subway Surfers: 5 (lower), 19 (upper); Pokemon GO: 5 (lower), 9 (upper); Clash Royale: 10 (lower), 9 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite coding languages in order to decide which ones to feature in the new school project type.\n\n\nHow many more students voted for Scratch than JavaScript?\n _",
-    "image_tag": "Gr4_44_1_22",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "18"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Scratch and the number of students in total who like JavaScript.\nScratch: 20 + 17 = 37\nJavaScript: 6 + 13 = 19"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Chips and the number of students in total who like Fruit.\nChips: 6 + 9 = 15\nFruit: 7 + 5 = 12"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Chips than Fruit:\n\n15 - 12 = 3\n\n3 more students voted for Chips than Fruit."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Scratch than JavaScript:\n\n37 - 19 = 18\n\n18 more students voted for Scratch than JavaScript."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_22",
-    "backend_description": "A table with a pale yellow background showing favorite coding languages among students. The table has three columns: 'Project Type' (listing Python, JavaScript, Java, Scratch), 'Lower grade students', and 'Upper grade students'. The data shows: Python: 7 (lower), 8 (upper); JavaScript: 6 (lower), 13 (upper); Java: 18 (lower), 7 (upper); Scratch: 20 (lower), 17 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite sports in order to decide which ones to feature in the new school season.\n\n\nHow many more students voted for Basketball than Baseball?\n _",
-    "image_tag": "Gr4_44_1_23",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "9"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Basketball and the number of students in total who like Baseball.\nBasketball: 15 + 19 = 34\nBaseball: 5 + 20 = 25"
+      "solution_image_tag": [],
+      "question_number": "1_11",
+      "backend_description": "A table with a pale yellow background showing favorite snacks among students. The table has three columns: 'Meal Time' (listing Chips, Cookies, Fruit, Popcorn), 'Lower grade students', and 'Upper grade students'. The data shows: Chips: 6 (lower), 9 (upper); Cookies: 16 (lower), 9 (upper); Fruit: 7 (lower), 5 (upper); Popcorn: 8 (lower), 14 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite snacks in order to decide which ones to feature in the new school meal time.\n\n\nHow many more students voted for Cookies than Popcorn?\n _",
+      "image_tag": "Gr4_44_1_12",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "10"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Basketball than Baseball:\n\n34 - 25 = 9\n\n9 more students voted for Basketball than Baseball."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_23",
-    "backend_description": "A table with a pale yellow background showing favorite sports among students. The table has three columns: 'Season' (listing Basketball, Soccer, Baseball, Swimming), 'Lower grade students', and 'Upper grade students'. The data shows: Basketball: 15 (lower), 19 (upper); Soccer: 13 (lower), 5 (upper); Baseball: 5 (lower), 20 (upper); Swimming: 19 (lower), 19 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite K-pop groups in order to decide which ones to feature in the new school entertainment company.\n\n\nHow many more students voted for BTS than TWICE?\n _",
-    "image_tag": "Gr4_44_1_24",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "6"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like BTS and the number of students in total who like TWICE.\nBTS: 17 + 17 = 34\nTWICE: 14 + 14 = 28"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Cookies and the number of students in total who like Popcorn.\nCookies: 17 + 15 = 32\nPopcorn: 9 + 13 = 22"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Cookies than Popcorn:\n\n32 - 22 = 10\n\n10 more students voted for Cookies than Popcorn."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for BTS than TWICE:\n\n34 - 28 = 6\n\n6 more students voted for BTS than TWICE."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_24",
-    "backend_description": "A table with a pale yellow background showing favorite K-pop groups among students. The table has three columns: 'Entertainment Company' (listing BTS, Blackpink, Stray Kids, TWICE), 'Lower grade students', and 'Upper grade students'. The data shows: BTS: 17 (lower), 17 (upper); Blackpink: 10 (lower), 13 (upper); Stray Kids: 9 (lower), 13 (upper); TWICE: 14 (lower), 14 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite K-pop groups in order to decide which ones to feature in the new school entertainment company.\n\n\nHow many more students voted for TWICE than Blackpink?\n _",
-    "image_tag": "Gr4_44_1_25",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "22"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like TWICE and the number of students in total who like Blackpink.\nTWICE: 19 + 19 = 38\nBlackpink: 9 + 7 = 16"
+      "solution_image_tag": [],
+      "question_number": "1_12",
+      "backend_description": "A table with a pale yellow background showing favorite snacks among students. The table has three columns: 'Meal Time' (listing Chips, Cookies, Fruit, Popcorn), 'Lower grade students', and 'Upper grade students'. The data shows: Chips: 12 (lower), 6 (upper); Cookies: 17 (lower), 15 (upper); Fruit: 9 (lower), 19 (upper); Popcorn: 9 (lower), 13 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite music genres in order to decide which ones to feature in the new school music app.\n\n\nHow many more students voted for K-Pop than Rock?\n _",
+      "image_tag": "Gr4_44_1_13",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "10"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for TWICE than Blackpink:\n\n38 - 16 = 22\n\n22 more students voted for TWICE than Blackpink."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_25",
-    "backend_description": "A table with a pale yellow background showing favorite K-pop groups among students. The table has three columns: 'Entertainment Company' (listing BTS, Blackpink, Stray Kids, TWICE), 'Lower grade students', and 'Upper grade students'. The data shows: BTS: 11 (lower), 9 (upper); Blackpink: 9 (lower), 7 (upper); Stray Kids: 13 (lower), 19 (upper); TWICE: 19 (lower), 19 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite Marvel heroes in order to decide which ones to feature in the new school movie phase.\n\n\nHow many more students voted for Spider-Man than Iron Man?\n _",
-    "image_tag": "Gr4_44_1_26",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "1"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Spider-Man and the number of students in total who like Iron Man.\nSpider-Man: 10 + 16 = 26\nIron Man: 17 + 8 = 25"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like K-Pop and the number of students in total who like Rock.\nK-Pop: 20 + 20 = 40\nRock: 15 + 15 = 30"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for K-Pop than Rock:\n\n40 - 30 = 10\n\n10 more students voted for K-Pop than Rock."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Spider-Man than Iron Man:\n\n26 - 25 = 1\n\n1 more students voted for Spider-Man than Iron Man."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_26",
-    "backend_description": "A table with a pale yellow background showing favorite Marvel heroes among students. The table has three columns: 'Movie Phase' (listing Spider-Man, Iron Man, Black Panther, Captain America), 'Lower grade students', and 'Upper grade students'. The data shows: Spider-Man: 10 (lower), 16 (upper); Iron Man: 17 (lower), 8 (upper); Black Panther: 19 (lower), 11 (upper); Captain America: 8 (lower), 20 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite Marvel heroes in order to decide which ones to feature in the new school movie phase.\n\n\nHow many more students voted for Iron Man than Spider-Man?\n _",
-    "image_tag": "Gr4_44_1_27",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "12"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Iron Man and the number of students in total who like Spider-Man.\nIron Man: 14 + 12 = 26\nSpider-Man: 5 + 9 = 14"
+      "solution_image_tag": [],
+      "question_number": "1_13",
+      "backend_description": "A table with a pale yellow background showing favorite music genres among students. The table has three columns: 'Music App' (listing Pop, Rock, Hip-Hop, K-Pop), 'Lower grade students', and 'Upper grade students'. The data shows: Pop: 14 (lower), 14 (upper); Rock: 15 (lower), 15 (upper); Hip-Hop: 17 (lower), 13 (upper); K-Pop: 20 (lower), 20 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite Pokemon types in order to decide which ones to feature in the new school generation.\n\n\nHow many more students voted for Water than Electric?\n _",
+      "image_tag": "Gr4_44_1_14",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "13"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Iron Man than Spider-Man:\n\n26 - 14 = 12\n\n12 more students voted for Iron Man than Spider-Man."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_27",
-    "backend_description": "A table with a pale yellow background showing favorite Marvel heroes among students. The table has three columns: 'Movie Phase' (listing Spider-Man, Iron Man, Black Panther, Captain America), 'Lower grade students', and 'Upper grade students'. The data shows: Spider-Man: 5 (lower), 9 (upper); Iron Man: 14 (lower), 12 (upper); Black Panther: 17 (lower), 5 (upper); Captain America: 17 (lower), 8 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite Pokemon types in order to decide which ones to feature in the new school generation.\n\n\nHow many more students voted for Water than Fire?\n _",
-    "image_tag": "Gr4_44_1_28",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "19"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Water and the number of students in total who like Fire.\nWater: 19 + 14 = 33\nFire: 8 + 6 = 14"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Water and the number of students in total who like Electric.\nWater: 17 + 12 = 29\nElectric: 7 + 9 = 16"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Water than Electric:\n\n29 - 16 = 13\n\n13 more students voted for Water than Electric."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Water than Fire:\n\n33 - 14 = 19\n\n19 more students voted for Water than Fire."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_28",
-    "backend_description": "A table with a pale yellow background showing favorite Pokemon types among students. The table has three columns: 'Generation' (listing Fire, Water, Electric, Psychic), 'Lower grade students', and 'Upper grade students'. The data shows: Fire: 8 (lower), 6 (upper); Water: 19 (lower), 14 (upper); Electric: 11 (lower), 9 (upper); Psychic: 5 (lower), 16 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite coding languages in order to decide which ones to feature in the new school project type.\n\n\nHow many more students voted for JavaScript than Scratch?\n _",
-    "image_tag": "Gr4_44_1_29",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "16"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like JavaScript and the number of students in total who like Scratch.\nJavaScript: 17 + 12 = 29\nScratch: 8 + 5 = 13"
+      "solution_image_tag": [],
+      "question_number": "1_14",
+      "backend_description": "A table with a pale yellow background showing favorite Pokemon types among students. The table has three columns: 'Generation' (listing Fire, Water, Electric, Psychic), 'Lower grade students', and 'Upper grade students'. The data shows: Fire: 17 (lower), 18 (upper); Water: 17 (lower), 12 (upper); Electric: 7 (lower), 9 (upper); Psychic: 11 (lower), 13 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite Pokemon types in order to decide which ones to feature in the new school generation.\n\n\nHow many more students voted for Water than Electric?\n _",
+      "image_tag": "Gr4_44_1_15",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "16"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for JavaScript than Scratch:\n\n29 - 13 = 16\n\n16 more students voted for JavaScript than Scratch."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_29",
-    "backend_description": "A table with a pale yellow background showing favorite coding languages among students. The table has three columns: 'Project Type' (listing Python, JavaScript, Java, Scratch), 'Lower grade students', and 'Upper grade students'. The data shows: Python: 18 (lower), 19 (upper); JavaScript: 17 (lower), 12 (upper); Java: 18 (lower), 20 (upper); Scratch: 8 (lower), 5 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite coding languages in order to decide which ones to feature in the new school project type.\n\n\nHow many more students voted for Scratch than Python?\n _",
-    "image_tag": "Gr4_44_1_30",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "13"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Scratch and the number of students in total who like Python.\nScratch: 19 + 13 = 32\nPython: 7 + 12 = 19"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Water and the number of students in total who like Electric.\nWater: 20 + 18 = 38\nElectric: 9 + 13 = 22"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Water than Electric:\n\n38 - 22 = 16\n\n16 more students voted for Water than Electric."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Scratch than Python:\n\n32 - 19 = 13\n\n13 more students voted for Scratch than Python."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_30",
-    "backend_description": "A table with a pale yellow background showing favorite coding languages among students. The table has three columns: 'Project Type' (listing Python, JavaScript, Java, Scratch), 'Lower grade students', and 'Upper grade students'. The data shows: Python: 7 (lower), 12 (upper); JavaScript: 6 (lower), 12 (upper); Java: 19 (lower), 15 (upper); Scratch: 19 (lower), 13 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite video games in order to decide which ones to feature in the new school game console.\n\n\nHow many more students voted for Fortnite than Roblox?\n _",
-    "image_tag": "Gr4_44_1_31",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "6"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Fortnite and the number of students in total who like Roblox.\nFortnite: 5 + 16 = 21\nRoblox: 6 + 9 = 15"
+      "solution_image_tag": [],
+      "question_number": "1_15",
+      "backend_description": "A table with a pale yellow background showing favorite Pokemon types among students. The table has three columns: 'Generation' (listing Fire, Water, Electric, Psychic), 'Lower grade students', and 'Upper grade students'. The data shows: Fire: 6 (lower), 17 (upper); Water: 20 (lower), 18 (upper); Electric: 9 (lower), 13 (upper); Psychic: 6 (lower), 15 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite music genres in order to decide which ones to feature in the new school music app.\n\n\nHow many more students voted for Hip-Hop than K-Pop?\n _",
+      "image_tag": "Gr4_44_1_16",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "10"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Fortnite than Roblox:\n\n21 - 15 = 6\n\n6 more students voted for Fortnite than Roblox."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_31",
-    "backend_description": "A table with a pale yellow background showing favorite video games among students. The table has three columns: 'Game Console' (listing Minecraft, Fortnite, Roblox, Among Us), 'Lower grade students', and 'Upper grade students'. The data shows: Minecraft: 6 (lower), 13 (upper); Fortnite: 5 (lower), 16 (upper); Roblox: 6 (lower), 9 (upper); Among Us: 17 (lower), 18 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite coding languages in order to decide which ones to feature in the new school project type.\n\n\nHow many more students voted for Java than Python?\n _",
-    "image_tag": "Gr4_44_1_32",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "7"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Java and the number of students in total who like Python.\nJava: 7 + 19 = 26\nPython: 13 + 6 = 19"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Hip-Hop and the number of students in total who like K-Pop.\nHip-Hop: 19 + 17 = 36\nK-Pop: 16 + 10 = 26"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Hip-Hop than K-Pop:\n\n36 - 26 = 10\n\n10 more students voted for Hip-Hop than K-Pop."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Java than Python:\n\n26 - 19 = 7\n\n7 more students voted for Java than Python."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_32",
-    "backend_description": "A table with a pale yellow background showing favorite coding languages among students. The table has three columns: 'Project Type' (listing Python, JavaScript, Java, Scratch), 'Lower grade students', and 'Upper grade students'. The data shows: Python: 13 (lower), 6 (upper); JavaScript: 7 (lower), 8 (upper); Java: 7 (lower), 19 (upper); Scratch: 14 (lower), 10 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite coding languages in order to decide which ones to feature in the new school project type.\n\n\nHow many more students voted for Python than Java?\n _",
-    "image_tag": "Gr4_44_1_33",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "20"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Python and the number of students in total who like Java.\nPython: 16 + 18 = 34\nJava: 8 + 6 = 14"
+      "solution_image_tag": [],
+      "question_number": "1_16",
+      "backend_description": "A table with a pale yellow background showing favorite music genres among students. The table has three columns: 'Music App' (listing Pop, Rock, Hip-Hop, K-Pop), 'Lower grade students', and 'Upper grade students'. The data shows: Pop: 13 (lower), 13 (upper); Rock: 9 (lower), 16 (upper); Hip-Hop: 19 (lower), 17 (upper); K-Pop: 16 (lower), 10 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite book genres in order to decide which ones to feature in the new school reading time.\n\n\nHow many more students voted for Mystery than Adventure?\n _",
+      "image_tag": "Gr4_44_1_17",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "4"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Python than Java:\n\n34 - 14 = 20\n\n20 more students voted for Python than Java."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_33",
-    "backend_description": "A table with a pale yellow background showing favorite coding languages among students. The table has three columns: 'Project Type' (listing Python, JavaScript, Java, Scratch), 'Lower grade students', and 'Upper grade students'. The data shows: Python: 16 (lower), 18 (upper); JavaScript: 17 (lower), 7 (upper); Java: 8 (lower), 6 (upper); Scratch: 17 (lower), 11 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite Pokemon types in order to decide which ones to feature in the new school generation.\n\n\nHow many more students voted for Water than Psychic?\n _",
-    "image_tag": "Gr4_44_1_34",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "3"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Water and the number of students in total who like Psychic.\nWater: 15 + 8 = 23\nPsychic: 7 + 13 = 20"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Mystery and the number of students in total who like Adventure.\nMystery: 11 + 19 = 30\nAdventure: 10 + 16 = 26"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Mystery than Adventure:\n\n30 - 26 = 4\n\n4 more students voted for Mystery than Adventure."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Water than Psychic:\n\n23 - 20 = 3\n\n3 more students voted for Water than Psychic."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_34",
-    "backend_description": "A table with a pale yellow background showing favorite Pokemon types among students. The table has three columns: 'Generation' (listing Fire, Water, Electric, Psychic), 'Lower grade students', and 'Upper grade students'. The data shows: Fire: 19 (lower), 12 (upper); Water: 15 (lower), 8 (upper); Electric: 8 (lower), 11 (upper); Psychic: 7 (lower), 13 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite YouTube channels in order to decide which ones to feature in the new school content type.\n\n\nHow many more students voted for Gaming than Comedy?\n _",
-    "image_tag": "Gr4_44_1_35",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "7"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Gaming and the number of students in total who like Comedy.\nGaming: 5 + 17 = 22\nComedy: 10 + 5 = 15"
+      "solution_image_tag": [],
+      "question_number": "1_17",
+      "backend_description": "A table with a pale yellow background showing favorite book genres among students. The table has three columns: 'Reading Time' (listing Fantasy, Mystery, Adventure, Science Fiction), 'Lower grade students', and 'Upper grade students'. The data shows: Fantasy: 7 (lower), 20 (upper); Mystery: 11 (lower), 19 (upper); Adventure: 10 (lower), 16 (upper); Science Fiction: 17 (lower), 10 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite social media apps in order to decide which ones to feature in the new school device type.\n\n\nHow many more students voted for Discord than Snapchat?\n _",
+      "image_tag": "Gr4_44_1_18",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "9"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Gaming than Comedy:\n\n22 - 15 = 7\n\n7 more students voted for Gaming than Comedy."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_35",
-    "backend_description": "A table with a pale yellow background showing favorite YouTube channels among students. The table has three columns: 'Content Type' (listing Gaming, Science, Comedy, Music), 'Lower grade students', and 'Upper grade students'. The data shows: Gaming: 5 (lower), 17 (upper); Science: 16 (lower), 5 (upper); Comedy: 10 (lower), 5 (upper); Music: 16 (lower), 8 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite coding languages in order to decide which ones to feature in the new school project type.\n\n\nHow many more students voted for Java than JavaScript?\n _",
-    "image_tag": "Gr4_44_1_36",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "1"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Java and the number of students in total who like JavaScript.\nJava: 7 + 18 = 25\nJavaScript: 15 + 9 = 24"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Discord and the number of students in total who like Snapchat.\nDiscord: 11 + 19 = 30\nSnapchat: 15 + 6 = 21"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Discord than Snapchat:\n\n30 - 21 = 9\n\n9 more students voted for Discord than Snapchat."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Java than JavaScript:\n\n25 - 24 = 1\n\n1 more students voted for Java than JavaScript."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_36",
-    "backend_description": "A table with a pale yellow background showing favorite coding languages among students. The table has three columns: 'Project Type' (listing Python, JavaScript, Java, Scratch), 'Lower grade students', and 'Upper grade students'. The data shows: Python: 18 (lower), 14 (upper); JavaScript: 15 (lower), 9 (upper); Java: 7 (lower), 18 (upper); Scratch: 16 (lower), 18 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite Pokemon types in order to decide which ones to feature in the new school generation.\n\n\nHow many more students voted for Water than Fire?\n _",
-    "image_tag": "Gr4_44_1_37",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "19"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Water and the number of students in total who like Fire.\nWater: 18 + 19 = 37\nFire: 13 + 5 = 18"
+      "solution_image_tag": [],
+      "question_number": "1_18",
+      "backend_description": "A table with a pale yellow background showing favorite social media apps among students. The table has three columns: 'Device Type' (listing Instagram, TikTok, Snapchat, Discord), 'Lower grade students', and 'Upper grade students'. The data shows: Instagram: 8 (lower), 12 (upper); TikTok: 9 (lower), 15 (upper); Snapchat: 15 (lower), 6 (upper); Discord: 11 (lower), 19 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite Pokemon types in order to decide which ones to feature in the new school generation.\n\n\nHow many more students voted for Water than Electric?\n _",
+      "image_tag": "Gr4_44_1_19",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "2"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Water than Fire:\n\n37 - 18 = 19\n\n19 more students voted for Water than Fire."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_37",
-    "backend_description": "A table with a pale yellow background showing favorite Pokemon types among students. The table has three columns: 'Generation' (listing Fire, Water, Electric, Psychic), 'Lower grade students', and 'Upper grade students'. The data shows: Fire: 13 (lower), 5 (upper); Water: 18 (lower), 19 (upper); Electric: 17 (lower), 8 (upper); Psychic: 20 (lower), 11 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite YouTube channels in order to decide which ones to feature in the new school content type.\n\n\nHow many more students voted for Comedy than Music?\n _",
-    "image_tag": "Gr4_44_1_38",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "14"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Comedy and the number of students in total who like Music.\nComedy: 12 + 19 = 31\nMusic: 5 + 12 = 17"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Water and the number of students in total who like Electric.\nWater: 19 + 15 = 34\nElectric: 12 + 20 = 32"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Water than Electric:\n\n34 - 32 = 2\n\n2 more students voted for Water than Electric."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Comedy than Music:\n\n31 - 17 = 14\n\n14 more students voted for Comedy than Music."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_38",
-    "backend_description": "A table with a pale yellow background showing favorite YouTube channels among students. The table has three columns: 'Content Type' (listing Gaming, Science, Comedy, Music), 'Lower grade students', and 'Upper grade students'. The data shows: Gaming: 19 (lower), 11 (upper); Science: 12 (lower), 14 (upper); Comedy: 12 (lower), 19 (upper); Music: 5 (lower), 12 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite social media apps in order to decide which ones to feature in the new school device type.\n\n\nHow many more students voted for Discord than Instagram?\n _",
-    "image_tag": "Gr4_44_1_39",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "8"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Discord and the number of students in total who like Instagram.\nDiscord: 18 + 19 = 37\nInstagram: 16 + 13 = 29"
+      "solution_image_tag": [],
+      "question_number": "1_19",
+      "backend_description": "A table with a pale yellow background showing favorite Pokemon types among students. The table has three columns: 'Generation' (listing Fire, Water, Electric, Psychic), 'Lower grade students', and 'Upper grade students'. The data shows: Fire: 7 (lower), 9 (upper); Water: 19 (lower), 15 (upper); Electric: 12 (lower), 20 (upper); Psychic: 9 (lower), 12 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite social media apps in order to decide which ones to feature in the new school device type.\n\n\nHow many more students voted for TikTok than Snapchat?\n _",
+      "image_tag": "Gr4_44_1_20",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "6"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Discord than Instagram:\n\n37 - 29 = 8\n\n8 more students voted for Discord than Instagram."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_39",
-    "backend_description": "A table with a pale yellow background showing favorite social media apps among students. The table has three columns: 'Device Type' (listing Instagram, TikTok, Snapchat, Discord), 'Lower grade students', and 'Upper grade students'. The data shows: Instagram: 16 (lower), 13 (upper); TikTok: 20 (lower), 13 (upper); Snapchat: 8 (lower), 15 (upper); Discord: 18 (lower), 19 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite snacks in order to decide which ones to feature in the new school meal time.\n\n\nHow many more students voted for Fruit than Popcorn?\n _",
-    "image_tag": "Gr4_44_1_40",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "2"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Fruit and the number of students in total who like Popcorn.\nFruit: 12 + 10 = 22\nPopcorn: 6 + 14 = 20"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like TikTok and the number of students in total who like Snapchat.\nTikTok: 19 + 11 = 30\nSnapchat: 19 + 5 = 24"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for TikTok than Snapchat:\n\n30 - 24 = 6\n\n6 more students voted for TikTok than Snapchat."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Fruit than Popcorn:\n\n22 - 20 = 2\n\n2 more students voted for Fruit than Popcorn."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_40",
-    "backend_description": "A table with a pale yellow background showing favorite snacks among students. The table has three columns: 'Meal Time' (listing Chips, Cookies, Fruit, Popcorn), 'Lower grade students', and 'Upper grade students'. The data shows: Chips: 17 (lower), 6 (upper); Cookies: 11 (lower), 5 (upper); Fruit: 12 (lower), 10 (upper); Popcorn: 6 (lower), 14 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite pizza toppings in order to decide which ones to feature in the new school restaurant chain.\n\n\nHow many more students voted for Hawaiian than Veggie?\n _",
-    "image_tag": "Gr4_44_1_41",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "2"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Hawaiian and the number of students in total who like Veggie.\nHawaiian: 8 + 14 = 22\nVeggie: 11 + 9 = 20"
+      "solution_image_tag": [],
+      "question_number": "1_20",
+      "backend_description": "A table with a pale yellow background showing favorite social media apps among students. The table has three columns: 'Device Type' (listing Instagram, TikTok, Snapchat, Discord), 'Lower grade students', and 'Upper grade students'. The data shows: Instagram: 19 (lower), 5 (upper); TikTok: 19 (lower), 11 (upper); Snapchat: 19 (lower), 5 (upper); Discord: 11 (lower), 19 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite mobile games in order to decide which ones to feature in the new school game category.\n\n\nHow many more students voted for Clash Royale than Pokemon GO?\n _",
+      "image_tag": "Gr4_44_1_21",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "5"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Hawaiian than Veggie:\n\n22 - 20 = 2\n\n2 more students voted for Hawaiian than Veggie."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_41",
-    "backend_description": "A table with a pale yellow background showing favorite pizza toppings among students. The table has three columns: 'Restaurant Chain' (listing Pepperoni, Cheese, Hawaiian, Veggie), 'Lower grade students', and 'Upper grade students'. The data shows: Pepperoni: 16 (lower), 14 (upper); Cheese: 7 (lower), 19 (upper); Hawaiian: 8 (lower), 14 (upper); Veggie: 11 (lower), 9 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite Marvel heroes in order to decide which ones to feature in the new school movie phase.\n\n\nHow many more students voted for Black Panther than Spider-Man?\n _",
-    "image_tag": "Gr4_44_1_42",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "4"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Black Panther and the number of students in total who like Spider-Man.\nBlack Panther: 12 + 6 = 18\nSpider-Man: 6 + 8 = 14"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Clash Royale and the number of students in total who like Pokemon GO.\nClash Royale: 10 + 9 = 19\nPokemon GO: 5 + 9 = 14"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Clash Royale than Pokemon GO:\n\n19 - 14 = 5\n\n5 more students voted for Clash Royale than Pokemon GO."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Black Panther than Spider-Man:\n\n18 - 14 = 4\n\n4 more students voted for Black Panther than Spider-Man."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_42",
-    "backend_description": "A table with a pale yellow background showing favorite Marvel heroes among students. The table has three columns: 'Movie Phase' (listing Spider-Man, Iron Man, Black Panther, Captain America), 'Lower grade students', and 'Upper grade students'. The data shows: Spider-Man: 6 (lower), 8 (upper); Iron Man: 6 (lower), 10 (upper); Black Panther: 12 (lower), 6 (upper); Captain America: 11 (lower), 19 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite social media apps in order to decide which ones to feature in the new school device type.\n\n\nHow many more students voted for Snapchat than Discord?\n _",
-    "image_tag": "Gr4_44_1_43",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "8"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Snapchat and the number of students in total who like Discord.\nSnapchat: 17 + 20 = 37\nDiscord: 13 + 16 = 29"
+      "solution_image_tag": [],
+      "question_number": "1_21",
+      "backend_description": "A table with a pale yellow background showing favorite mobile games among students. The table has three columns: 'Game Category' (listing Candy Crush, Subway Surfers, Pokemon GO, Clash Royale), 'Lower grade students', and 'Upper grade students'. The data shows: Candy Crush: 19 (lower), 10 (upper); Subway Surfers: 5 (lower), 19 (upper); Pokemon GO: 5 (lower), 9 (upper); Clash Royale: 10 (lower), 9 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite coding languages in order to decide which ones to feature in the new school project type.\n\n\nHow many more students voted for Scratch than JavaScript?\n _",
+      "image_tag": "Gr4_44_1_22",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "18"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Snapchat than Discord:\n\n37 - 29 = 8\n\n8 more students voted for Snapchat than Discord."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_43",
-    "backend_description": "A table with a pale yellow background showing favorite social media apps among students. The table has three columns: 'Device Type' (listing Instagram, TikTok, Snapchat, Discord), 'Lower grade students', and 'Upper grade students'. The data shows: Instagram: 20 (lower), 18 (upper); TikTok: 20 (lower), 7 (upper); Snapchat: 17 (lower), 20 (upper); Discord: 13 (lower), 16 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite streaming services in order to decide which ones to feature in the new school content genre.\n\n\nHow many more students voted for YouTube than Hulu?\n _",
-    "image_tag": "Gr4_44_1_44",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "5"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like YouTube and the number of students in total who like Hulu.\nYouTube: 15 + 5 = 20\nHulu: 7 + 8 = 15"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Scratch and the number of students in total who like JavaScript.\nScratch: 20 + 17 = 37\nJavaScript: 6 + 13 = 19"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Scratch than JavaScript:\n\n37 - 19 = 18\n\n18 more students voted for Scratch than JavaScript."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for YouTube than Hulu:\n\n20 - 15 = 5\n\n5 more students voted for YouTube than Hulu."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_44",
-    "backend_description": "A table with a pale yellow background showing favorite streaming services among students. The table has three columns: 'Content Genre' (listing Netflix, Disney+, YouTube, Hulu), 'Lower grade students', and 'Upper grade students'. The data shows: Netflix: 10 (lower), 18 (upper); Disney+: 12 (lower), 9 (upper); YouTube: 15 (lower), 5 (upper); Hulu: 7 (lower), 8 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite coding languages in order to decide which ones to feature in the new school project type.\n\n\nHow many more students voted for JavaScript than Python?\n _",
-    "image_tag": "Gr4_44_1_45",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "4"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like JavaScript and the number of students in total who like Python.\nJavaScript: 17 + 16 = 33\nPython: 17 + 12 = 29"
+      "solution_image_tag": [],
+      "question_number": "1_22",
+      "backend_description": "A table with a pale yellow background showing favorite coding languages among students. The table has three columns: 'Project Type' (listing Python, JavaScript, Java, Scratch), 'Lower grade students', and 'Upper grade students'. The data shows: Python: 7 (lower), 8 (upper); JavaScript: 6 (lower), 13 (upper); Java: 18 (lower), 7 (upper); Scratch: 20 (lower), 17 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite sports in order to decide which ones to feature in the new school season.\n\n\nHow many more students voted for Basketball than Baseball?\n _",
+      "image_tag": "Gr4_44_1_23",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "9"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for JavaScript than Python:\n\n33 - 29 = 4\n\n4 more students voted for JavaScript than Python."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_45",
-    "backend_description": "A table with a pale yellow background showing favorite coding languages among students. The table has three columns: 'Project Type' (listing Python, JavaScript, Java, Scratch), 'Lower grade students', and 'Upper grade students'. The data shows: Python: 17 (lower), 12 (upper); JavaScript: 17 (lower), 16 (upper); Java: 6 (lower), 19 (upper); Scratch: 5 (lower), 19 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite music genres in order to decide which ones to feature in the new school music app.\n\n\nHow many more students voted for Rock than Hip-Hop?\n _",
-    "image_tag": "Gr4_44_1_46",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "2"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Rock and the number of students in total who like Hip-Hop.\nRock: 17 + 12 = 29\nHip-Hop: 11 + 16 = 27"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Basketball and the number of students in total who like Baseball.\nBasketball: 15 + 19 = 34\nBaseball: 5 + 20 = 25"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Basketball than Baseball:\n\n34 - 25 = 9\n\n9 more students voted for Basketball than Baseball."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Rock than Hip-Hop:\n\n29 - 27 = 2\n\n2 more students voted for Rock than Hip-Hop."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_46",
-    "backend_description": "A table with a pale yellow background showing favorite music genres among students. The table has three columns: 'Music App' (listing Pop, Rock, Hip-Hop, K-Pop), 'Lower grade students', and 'Upper grade students'. The data shows: Pop: 12 (lower), 5 (upper); Rock: 17 (lower), 12 (upper); Hip-Hop: 11 (lower), 16 (upper); K-Pop: 9 (lower), 11 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite book genres in order to decide which ones to feature in the new school reading time.\n\n\nHow many more students voted for Science Fiction than Fantasy?\n _",
-    "image_tag": "Gr4_44_1_47",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "6"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Science Fiction and the number of students in total who like Fantasy.\nScience Fiction: 9 + 10 = 19\nFantasy: 7 + 6 = 13"
+      "solution_image_tag": [],
+      "question_number": "1_23",
+      "backend_description": "A table with a pale yellow background showing favorite sports among students. The table has three columns: 'Season' (listing Basketball, Soccer, Baseball, Swimming), 'Lower grade students', and 'Upper grade students'. The data shows: Basketball: 15 (lower), 19 (upper); Soccer: 13 (lower), 5 (upper); Baseball: 5 (lower), 20 (upper); Swimming: 19 (lower), 19 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite K-pop groups in order to decide which ones to feature in the new school entertainment company.\n\n\nHow many more students voted for BTS than TWICE?\n _",
+      "image_tag": "Gr4_44_1_24",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "6"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Science Fiction than Fantasy:\n\n19 - 13 = 6\n\n6 more students voted for Science Fiction than Fantasy."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_47",
-    "backend_description": "A table with a pale yellow background showing favorite book genres among students. The table has three columns: 'Reading Time' (listing Fantasy, Mystery, Adventure, Science Fiction), 'Lower grade students', and 'Upper grade students'. The data shows: Fantasy: 7 (lower), 6 (upper); Mystery: 12 (lower), 19 (upper); Adventure: 19 (lower), 16 (upper); Science Fiction: 9 (lower), 10 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite sports in order to decide which ones to feature in the new school season.\n\n\nHow many more students voted for Soccer than Baseball?\n _",
-    "image_tag": "Gr4_44_1_48",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "13"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Soccer and the number of students in total who like Baseball.\nSoccer: 10 + 18 = 28\nBaseball: 6 + 9 = 15"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like BTS and the number of students in total who like TWICE.\nBTS: 17 + 17 = 34\nTWICE: 14 + 14 = 28"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for BTS than TWICE:\n\n34 - 28 = 6\n\n6 more students voted for BTS than TWICE."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Soccer than Baseball:\n\n28 - 15 = 13\n\n13 more students voted for Soccer than Baseball."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_48",
-    "backend_description": "A table with a pale yellow background showing favorite sports among students. The table has three columns: 'Season' (listing Basketball, Soccer, Baseball, Swimming), 'Lower grade students', and 'Upper grade students'. The data shows: Basketball: 9 (lower), 12 (upper); Soccer: 10 (lower), 18 (upper); Baseball: 6 (lower), 9 (upper); Swimming: 13 (lower), 12 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite snacks in order to decide which ones to feature in the new school meal time.\n\n\nHow many more students voted for Popcorn than Cookies?\n _",
-    "image_tag": "Gr4_44_1_49",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "7"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Popcorn and the number of students in total who like Cookies.\nPopcorn: 13 + 13 = 26\nCookies: 5 + 14 = 19"
+      "solution_image_tag": [],
+      "question_number": "1_24",
+      "backend_description": "A table with a pale yellow background showing favorite K-pop groups among students. The table has three columns: 'Entertainment Company' (listing BTS, Blackpink, Stray Kids, TWICE), 'Lower grade students', and 'Upper grade students'. The data shows: BTS: 17 (lower), 17 (upper); Blackpink: 10 (lower), 13 (upper); Stray Kids: 9 (lower), 13 (upper); TWICE: 14 (lower), 14 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite K-pop groups in order to decide which ones to feature in the new school entertainment company.\n\n\nHow many more students voted for TWICE than Blackpink?\n _",
+      "image_tag": "Gr4_44_1_25",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "22"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Popcorn than Cookies:\n\n26 - 19 = 7\n\n7 more students voted for Popcorn than Cookies."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_49",
-    "backend_description": "A table with a pale yellow background showing favorite snacks among students. The table has three columns: 'Meal Time' (listing Chips, Cookies, Fruit, Popcorn), 'Lower grade students', and 'Upper grade students'. The data shows: Chips: 9 (lower), 19 (upper); Cookies: 5 (lower), 14 (upper); Fruit: 14 (lower), 9 (upper); Popcorn: 13 (lower), 13 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite snacks in order to decide which ones to feature in the new school meal time.\n\n\nHow many more students voted for Fruit than Popcorn?\n _",
-    "image_tag": "Gr4_44_1_50",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "2"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Fruit and the number of students in total who like Popcorn.\nFruit: 17 + 12 = 29\nPopcorn: 20 + 7 = 27"
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like TWICE and the number of students in total who like Blackpink.\nTWICE: 19 + 19 = 38\nBlackpink: 9 + 7 = 16"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for TWICE than Blackpink:\n\n38 - 16 = 22\n\n22 more students voted for TWICE than Blackpink."
+        ]
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Fruit than Popcorn:\n\n29 - 27 = 2\n\n2 more students voted for Fruit than Popcorn."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_50",
-    "backend_description": "A table with a pale yellow background showing favorite snacks among students. The table has three columns: 'Meal Time' (listing Chips, Cookies, Fruit, Popcorn), 'Lower grade students', and 'Upper grade students'. The data shows: Chips: 17 (lower), 9 (upper); Cookies: 9 (lower), 7 (upper); Fruit: 17 (lower), 12 (upper); Popcorn: 20 (lower), 7 (upper); "
-  },
-  {
-    "skills": "read-a-table",
-    "question_text": "The table shows the result of a poll asking students about their favorite snacks in order to decide which ones to feature in the new school meal time.\n\n\nHow many more students voted for Chips than Cookies?\n _",
-    "image_tag": "Gr4_44_1_51",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_44_E1",
-    "correct_answers": [
-      "2"
-    ],
-    "solution": [
-      [
-        "1/2",
-        "We need to first find the number of students in total who like Chips and the number of students in total who like Cookies.\nChips: 16 + 11 = 27\nCookies: 6 + 19 = 25"
+      "solution_image_tag": [],
+      "question_number": "1_25",
+      "backend_description": "A table with a pale yellow background showing favorite K-pop groups among students. The table has three columns: 'Entertainment Company' (listing BTS, Blackpink, Stray Kids, TWICE), 'Lower grade students', and 'Upper grade students'. The data shows: BTS: 11 (lower), 9 (upper); Blackpink: 9 (lower), 7 (upper); Stray Kids: 13 (lower), 19 (upper); TWICE: 19 (lower), 19 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite Marvel heroes in order to decide which ones to feature in the new school movie phase.\n\n\nHow many more students voted for Spider-Man than Iron Man?\n _",
+      "image_tag": "Gr4_44_1_26",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "1"
       ],
-      [
-        "2/2",
-        "Now subtract to find how many more students voted for Chips than Cookies:\n\n27 - 25 = 2\n\n2 more students voted for Chips than Cookies."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "1_51",
-    "backend_description": "A table with a pale yellow background showing favorite snacks among students. The table has three columns: 'Meal Time' (listing Chips, Cookies, Fruit, Popcorn), 'Lower grade students', and 'Upper grade students'. The data shows: Chips: 16 (lower), 11 (upper); Cookies: 6 (lower), 19 (upper); Fruit: 5 (lower), 8 (upper); Popcorn: 11 (lower), 20 (upper); "
-  }
-]
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Spider-Man and the number of students in total who like Iron Man.\nSpider-Man: 10 + 16 = 26\nIron Man: 17 + 8 = 25"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Spider-Man than Iron Man:\n\n26 - 25 = 1\n\n1 more students voted for Spider-Man than Iron Man."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_26",
+      "backend_description": "A table with a pale yellow background showing favorite Marvel heroes among students. The table has three columns: 'Movie Phase' (listing Spider-Man, Iron Man, Black Panther, Captain America), 'Lower grade students', and 'Upper grade students'. The data shows: Spider-Man: 10 (lower), 16 (upper); Iron Man: 17 (lower), 8 (upper); Black Panther: 19 (lower), 11 (upper); Captain America: 8 (lower), 20 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite Marvel heroes in order to decide which ones to feature in the new school movie phase.\n\n\nHow many more students voted for Iron Man than Spider-Man?\n _",
+      "image_tag": "Gr4_44_1_27",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "12"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Iron Man and the number of students in total who like Spider-Man.\nIron Man: 14 + 12 = 26\nSpider-Man: 5 + 9 = 14"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Iron Man than Spider-Man:\n\n26 - 14 = 12\n\n12 more students voted for Iron Man than Spider-Man."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_27",
+      "backend_description": "A table with a pale yellow background showing favorite Marvel heroes among students. The table has three columns: 'Movie Phase' (listing Spider-Man, Iron Man, Black Panther, Captain America), 'Lower grade students', and 'Upper grade students'. The data shows: Spider-Man: 5 (lower), 9 (upper); Iron Man: 14 (lower), 12 (upper); Black Panther: 17 (lower), 5 (upper); Captain America: 17 (lower), 8 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite Pokemon types in order to decide which ones to feature in the new school generation.\n\n\nHow many more students voted for Water than Fire?\n _",
+      "image_tag": "Gr4_44_1_28",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "19"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Water and the number of students in total who like Fire.\nWater: 19 + 14 = 33\nFire: 8 + 6 = 14"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Water than Fire:\n\n33 - 14 = 19\n\n19 more students voted for Water than Fire."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_28",
+      "backend_description": "A table with a pale yellow background showing favorite Pokemon types among students. The table has three columns: 'Generation' (listing Fire, Water, Electric, Psychic), 'Lower grade students', and 'Upper grade students'. The data shows: Fire: 8 (lower), 6 (upper); Water: 19 (lower), 14 (upper); Electric: 11 (lower), 9 (upper); Psychic: 5 (lower), 16 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite coding languages in order to decide which ones to feature in the new school project type.\n\n\nHow many more students voted for JavaScript than Scratch?\n _",
+      "image_tag": "Gr4_44_1_29",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "16"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like JavaScript and the number of students in total who like Scratch.\nJavaScript: 17 + 12 = 29\nScratch: 8 + 5 = 13"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for JavaScript than Scratch:\n\n29 - 13 = 16\n\n16 more students voted for JavaScript than Scratch."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_29",
+      "backend_description": "A table with a pale yellow background showing favorite coding languages among students. The table has three columns: 'Project Type' (listing Python, JavaScript, Java, Scratch), 'Lower grade students', and 'Upper grade students'. The data shows: Python: 18 (lower), 19 (upper); JavaScript: 17 (lower), 12 (upper); Java: 18 (lower), 20 (upper); Scratch: 8 (lower), 5 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite coding languages in order to decide which ones to feature in the new school project type.\n\n\nHow many more students voted for Scratch than Python?\n _",
+      "image_tag": "Gr4_44_1_30",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "13"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Scratch and the number of students in total who like Python.\nScratch: 19 + 13 = 32\nPython: 7 + 12 = 19"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Scratch than Python:\n\n32 - 19 = 13\n\n13 more students voted for Scratch than Python."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_30",
+      "backend_description": "A table with a pale yellow background showing favorite coding languages among students. The table has three columns: 'Project Type' (listing Python, JavaScript, Java, Scratch), 'Lower grade students', and 'Upper grade students'. The data shows: Python: 7 (lower), 12 (upper); JavaScript: 6 (lower), 12 (upper); Java: 19 (lower), 15 (upper); Scratch: 19 (lower), 13 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite video games in order to decide which ones to feature in the new school game console.\n\n\nHow many more students voted for Fortnite than Roblox?\n _",
+      "image_tag": "Gr4_44_1_31",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "6"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Fortnite and the number of students in total who like Roblox.\nFortnite: 5 + 16 = 21\nRoblox: 6 + 9 = 15"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Fortnite than Roblox:\n\n21 - 15 = 6\n\n6 more students voted for Fortnite than Roblox."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_31",
+      "backend_description": "A table with a pale yellow background showing favorite video games among students. The table has three columns: 'Game Console' (listing Minecraft, Fortnite, Roblox, Among Us), 'Lower grade students', and 'Upper grade students'. The data shows: Minecraft: 6 (lower), 13 (upper); Fortnite: 5 (lower), 16 (upper); Roblox: 6 (lower), 9 (upper); Among Us: 17 (lower), 18 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite coding languages in order to decide which ones to feature in the new school project type.\n\n\nHow many more students voted for Java than Python?\n _",
+      "image_tag": "Gr4_44_1_32",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "7"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Java and the number of students in total who like Python.\nJava: 7 + 19 = 26\nPython: 13 + 6 = 19"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Java than Python:\n\n26 - 19 = 7\n\n7 more students voted for Java than Python."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_32",
+      "backend_description": "A table with a pale yellow background showing favorite coding languages among students. The table has three columns: 'Project Type' (listing Python, JavaScript, Java, Scratch), 'Lower grade students', and 'Upper grade students'. The data shows: Python: 13 (lower), 6 (upper); JavaScript: 7 (lower), 8 (upper); Java: 7 (lower), 19 (upper); Scratch: 14 (lower), 10 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite coding languages in order to decide which ones to feature in the new school project type.\n\n\nHow many more students voted for Python than Java?\n _",
+      "image_tag": "Gr4_44_1_33",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "20"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Python and the number of students in total who like Java.\nPython: 16 + 18 = 34\nJava: 8 + 6 = 14"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Python than Java:\n\n34 - 14 = 20\n\n20 more students voted for Python than Java."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_33",
+      "backend_description": "A table with a pale yellow background showing favorite coding languages among students. The table has three columns: 'Project Type' (listing Python, JavaScript, Java, Scratch), 'Lower grade students', and 'Upper grade students'. The data shows: Python: 16 (lower), 18 (upper); JavaScript: 17 (lower), 7 (upper); Java: 8 (lower), 6 (upper); Scratch: 17 (lower), 11 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite Pokemon types in order to decide which ones to feature in the new school generation.\n\n\nHow many more students voted for Water than Psychic?\n _",
+      "image_tag": "Gr4_44_1_34",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "3"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Water and the number of students in total who like Psychic.\nWater: 15 + 8 = 23\nPsychic: 7 + 13 = 20"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Water than Psychic:\n\n23 - 20 = 3\n\n3 more students voted for Water than Psychic."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_34",
+      "backend_description": "A table with a pale yellow background showing favorite Pokemon types among students. The table has three columns: 'Generation' (listing Fire, Water, Electric, Psychic), 'Lower grade students', and 'Upper grade students'. The data shows: Fire: 19 (lower), 12 (upper); Water: 15 (lower), 8 (upper); Electric: 8 (lower), 11 (upper); Psychic: 7 (lower), 13 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite YouTube channels in order to decide which ones to feature in the new school content type.\n\n\nHow many more students voted for Gaming than Comedy?\n _",
+      "image_tag": "Gr4_44_1_35",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "7"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Gaming and the number of students in total who like Comedy.\nGaming: 5 + 17 = 22\nComedy: 10 + 5 = 15"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Gaming than Comedy:\n\n22 - 15 = 7\n\n7 more students voted for Gaming than Comedy."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_35",
+      "backend_description": "A table with a pale yellow background showing favorite YouTube channels among students. The table has three columns: 'Content Type' (listing Gaming, Science, Comedy, Music), 'Lower grade students', and 'Upper grade students'. The data shows: Gaming: 5 (lower), 17 (upper); Science: 16 (lower), 5 (upper); Comedy: 10 (lower), 5 (upper); Music: 16 (lower), 8 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite coding languages in order to decide which ones to feature in the new school project type.\n\n\nHow many more students voted for Java than JavaScript?\n _",
+      "image_tag": "Gr4_44_1_36",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "1"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Java and the number of students in total who like JavaScript.\nJava: 7 + 18 = 25\nJavaScript: 15 + 9 = 24"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Java than JavaScript:\n\n25 - 24 = 1\n\n1 more students voted for Java than JavaScript."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_36",
+      "backend_description": "A table with a pale yellow background showing favorite coding languages among students. The table has three columns: 'Project Type' (listing Python, JavaScript, Java, Scratch), 'Lower grade students', and 'Upper grade students'. The data shows: Python: 18 (lower), 14 (upper); JavaScript: 15 (lower), 9 (upper); Java: 7 (lower), 18 (upper); Scratch: 16 (lower), 18 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite Pokemon types in order to decide which ones to feature in the new school generation.\n\n\nHow many more students voted for Water than Fire?\n _",
+      "image_tag": "Gr4_44_1_37",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "19"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Water and the number of students in total who like Fire.\nWater: 18 + 19 = 37\nFire: 13 + 5 = 18"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Water than Fire:\n\n37 - 18 = 19\n\n19 more students voted for Water than Fire."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_37",
+      "backend_description": "A table with a pale yellow background showing favorite Pokemon types among students. The table has three columns: 'Generation' (listing Fire, Water, Electric, Psychic), 'Lower grade students', and 'Upper grade students'. The data shows: Fire: 13 (lower), 5 (upper); Water: 18 (lower), 19 (upper); Electric: 17 (lower), 8 (upper); Psychic: 20 (lower), 11 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite YouTube channels in order to decide which ones to feature in the new school content type.\n\n\nHow many more students voted for Comedy than Music?\n _",
+      "image_tag": "Gr4_44_1_38",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "14"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Comedy and the number of students in total who like Music.\nComedy: 12 + 19 = 31\nMusic: 5 + 12 = 17"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Comedy than Music:\n\n31 - 17 = 14\n\n14 more students voted for Comedy than Music."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_38",
+      "backend_description": "A table with a pale yellow background showing favorite YouTube channels among students. The table has three columns: 'Content Type' (listing Gaming, Science, Comedy, Music), 'Lower grade students', and 'Upper grade students'. The data shows: Gaming: 19 (lower), 11 (upper); Science: 12 (lower), 14 (upper); Comedy: 12 (lower), 19 (upper); Music: 5 (lower), 12 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite social media apps in order to decide which ones to feature in the new school device type.\n\n\nHow many more students voted for Discord than Instagram?\n _",
+      "image_tag": "Gr4_44_1_39",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "8"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Discord and the number of students in total who like Instagram.\nDiscord: 18 + 19 = 37\nInstagram: 16 + 13 = 29"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Discord than Instagram:\n\n37 - 29 = 8\n\n8 more students voted for Discord than Instagram."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_39",
+      "backend_description": "A table with a pale yellow background showing favorite social media apps among students. The table has three columns: 'Device Type' (listing Instagram, TikTok, Snapchat, Discord), 'Lower grade students', and 'Upper grade students'. The data shows: Instagram: 16 (lower), 13 (upper); TikTok: 20 (lower), 13 (upper); Snapchat: 8 (lower), 15 (upper); Discord: 18 (lower), 19 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite snacks in order to decide which ones to feature in the new school meal time.\n\n\nHow many more students voted for Fruit than Popcorn?\n _",
+      "image_tag": "Gr4_44_1_40",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "2"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Fruit and the number of students in total who like Popcorn.\nFruit: 12 + 10 = 22\nPopcorn: 6 + 14 = 20"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Fruit than Popcorn:\n\n22 - 20 = 2\n\n2 more students voted for Fruit than Popcorn."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_40",
+      "backend_description": "A table with a pale yellow background showing favorite snacks among students. The table has three columns: 'Meal Time' (listing Chips, Cookies, Fruit, Popcorn), 'Lower grade students', and 'Upper grade students'. The data shows: Chips: 17 (lower), 6 (upper); Cookies: 11 (lower), 5 (upper); Fruit: 12 (lower), 10 (upper); Popcorn: 6 (lower), 14 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite pizza toppings in order to decide which ones to feature in the new school restaurant chain.\n\n\nHow many more students voted for Hawaiian than Veggie?\n _",
+      "image_tag": "Gr4_44_1_41",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "2"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Hawaiian and the number of students in total who like Veggie.\nHawaiian: 8 + 14 = 22\nVeggie: 11 + 9 = 20"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Hawaiian than Veggie:\n\n22 - 20 = 2\n\n2 more students voted for Hawaiian than Veggie."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_41",
+      "backend_description": "A table with a pale yellow background showing favorite pizza toppings among students. The table has three columns: 'Restaurant Chain' (listing Pepperoni, Cheese, Hawaiian, Veggie), 'Lower grade students', and 'Upper grade students'. The data shows: Pepperoni: 16 (lower), 14 (upper); Cheese: 7 (lower), 19 (upper); Hawaiian: 8 (lower), 14 (upper); Veggie: 11 (lower), 9 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite Marvel heroes in order to decide which ones to feature in the new school movie phase.\n\n\nHow many more students voted for Black Panther than Spider-Man?\n _",
+      "image_tag": "Gr4_44_1_42",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "4"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Black Panther and the number of students in total who like Spider-Man.\nBlack Panther: 12 + 6 = 18\nSpider-Man: 6 + 8 = 14"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Black Panther than Spider-Man:\n\n18 - 14 = 4\n\n4 more students voted for Black Panther than Spider-Man."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_42",
+      "backend_description": "A table with a pale yellow background showing favorite Marvel heroes among students. The table has three columns: 'Movie Phase' (listing Spider-Man, Iron Man, Black Panther, Captain America), 'Lower grade students', and 'Upper grade students'. The data shows: Spider-Man: 6 (lower), 8 (upper); Iron Man: 6 (lower), 10 (upper); Black Panther: 12 (lower), 6 (upper); Captain America: 11 (lower), 19 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite social media apps in order to decide which ones to feature in the new school device type.\n\n\nHow many more students voted for Snapchat than Discord?\n _",
+      "image_tag": "Gr4_44_1_43",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "8"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Snapchat and the number of students in total who like Discord.\nSnapchat: 17 + 20 = 37\nDiscord: 13 + 16 = 29"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Snapchat than Discord:\n\n37 - 29 = 8\n\n8 more students voted for Snapchat than Discord."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_43",
+      "backend_description": "A table with a pale yellow background showing favorite social media apps among students. The table has three columns: 'Device Type' (listing Instagram, TikTok, Snapchat, Discord), 'Lower grade students', and 'Upper grade students'. The data shows: Instagram: 20 (lower), 18 (upper); TikTok: 20 (lower), 7 (upper); Snapchat: 17 (lower), 20 (upper); Discord: 13 (lower), 16 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite streaming services in order to decide which ones to feature in the new school content genre.\n\n\nHow many more students voted for YouTube than Hulu?\n _",
+      "image_tag": "Gr4_44_1_44",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "5"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like YouTube and the number of students in total who like Hulu.\nYouTube: 15 + 5 = 20\nHulu: 7 + 8 = 15"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for YouTube than Hulu:\n\n20 - 15 = 5\n\n5 more students voted for YouTube than Hulu."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_44",
+      "backend_description": "A table with a pale yellow background showing favorite streaming services among students. The table has three columns: 'Content Genre' (listing Netflix, Disney+, YouTube, Hulu), 'Lower grade students', and 'Upper grade students'. The data shows: Netflix: 10 (lower), 18 (upper); Disney+: 12 (lower), 9 (upper); YouTube: 15 (lower), 5 (upper); Hulu: 7 (lower), 8 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite coding languages in order to decide which ones to feature in the new school project type.\n\n\nHow many more students voted for JavaScript than Python?\n _",
+      "image_tag": "Gr4_44_1_45",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "4"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like JavaScript and the number of students in total who like Python.\nJavaScript: 17 + 16 = 33\nPython: 17 + 12 = 29"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for JavaScript than Python:\n\n33 - 29 = 4\n\n4 more students voted for JavaScript than Python."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_45",
+      "backend_description": "A table with a pale yellow background showing favorite coding languages among students. The table has three columns: 'Project Type' (listing Python, JavaScript, Java, Scratch), 'Lower grade students', and 'Upper grade students'. The data shows: Python: 17 (lower), 12 (upper); JavaScript: 17 (lower), 16 (upper); Java: 6 (lower), 19 (upper); Scratch: 5 (lower), 19 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite music genres in order to decide which ones to feature in the new school music app.\n\n\nHow many more students voted for Rock than Hip-Hop?\n _",
+      "image_tag": "Gr4_44_1_46",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "2"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Rock and the number of students in total who like Hip-Hop.\nRock: 17 + 12 = 29\nHip-Hop: 11 + 16 = 27"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Rock than Hip-Hop:\n\n29 - 27 = 2\n\n2 more students voted for Rock than Hip-Hop."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_46",
+      "backend_description": "A table with a pale yellow background showing favorite music genres among students. The table has three columns: 'Music App' (listing Pop, Rock, Hip-Hop, K-Pop), 'Lower grade students', and 'Upper grade students'. The data shows: Pop: 12 (lower), 5 (upper); Rock: 17 (lower), 12 (upper); Hip-Hop: 11 (lower), 16 (upper); K-Pop: 9 (lower), 11 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite book genres in order to decide which ones to feature in the new school reading time.\n\n\nHow many more students voted for Science Fiction than Fantasy?\n _",
+      "image_tag": "Gr4_44_1_47",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "6"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Science Fiction and the number of students in total who like Fantasy.\nScience Fiction: 9 + 10 = 19\nFantasy: 7 + 6 = 13"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Science Fiction than Fantasy:\n\n19 - 13 = 6\n\n6 more students voted for Science Fiction than Fantasy."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_47",
+      "backend_description": "A table with a pale yellow background showing favorite book genres among students. The table has three columns: 'Reading Time' (listing Fantasy, Mystery, Adventure, Science Fiction), 'Lower grade students', and 'Upper grade students'. The data shows: Fantasy: 7 (lower), 6 (upper); Mystery: 12 (lower), 19 (upper); Adventure: 19 (lower), 16 (upper); Science Fiction: 9 (lower), 10 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite sports in order to decide which ones to feature in the new school season.\n\n\nHow many more students voted for Soccer than Baseball?\n _",
+      "image_tag": "Gr4_44_1_48",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "13"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Soccer and the number of students in total who like Baseball.\nSoccer: 10 + 18 = 28\nBaseball: 6 + 9 = 15"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Soccer than Baseball:\n\n28 - 15 = 13\n\n13 more students voted for Soccer than Baseball."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_48",
+      "backend_description": "A table with a pale yellow background showing favorite sports among students. The table has three columns: 'Season' (listing Basketball, Soccer, Baseball, Swimming), 'Lower grade students', and 'Upper grade students'. The data shows: Basketball: 9 (lower), 12 (upper); Soccer: 10 (lower), 18 (upper); Baseball: 6 (lower), 9 (upper); Swimming: 13 (lower), 12 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite snacks in order to decide which ones to feature in the new school meal time.\n\n\nHow many more students voted for Popcorn than Cookies?\n _",
+      "image_tag": "Gr4_44_1_49",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "7"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Popcorn and the number of students in total who like Cookies.\nPopcorn: 13 + 13 = 26\nCookies: 5 + 14 = 19"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Popcorn than Cookies:\n\n26 - 19 = 7\n\n7 more students voted for Popcorn than Cookies."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_49",
+      "backend_description": "A table with a pale yellow background showing favorite snacks among students. The table has three columns: 'Meal Time' (listing Chips, Cookies, Fruit, Popcorn), 'Lower grade students', and 'Upper grade students'. The data shows: Chips: 9 (lower), 19 (upper); Cookies: 5 (lower), 14 (upper); Fruit: 14 (lower), 9 (upper); Popcorn: 13 (lower), 13 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite snacks in order to decide which ones to feature in the new school meal time.\n\n\nHow many more students voted for Fruit than Popcorn?\n _",
+      "image_tag": "Gr4_44_1_50",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "2"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Fruit and the number of students in total who like Popcorn.\nFruit: 17 + 12 = 29\nPopcorn: 20 + 7 = 27"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Fruit than Popcorn:\n\n29 - 27 = 2\n\n2 more students voted for Fruit than Popcorn."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_50",
+      "backend_description": "A table with a pale yellow background showing favorite snacks among students. The table has three columns: 'Meal Time' (listing Chips, Cookies, Fruit, Popcorn), 'Lower grade students', and 'Upper grade students'. The data shows: Chips: 17 (lower), 9 (upper); Cookies: 9 (lower), 7 (upper); Fruit: 17 (lower), 12 (upper); Popcorn: 20 (lower), 7 (upper); "
+    },
+    {
+      "skills": "read-a-table",
+      "question_text": "The table shows the result of a poll asking students about their favorite snacks in order to decide which ones to feature in the new school meal time.\n\n\nHow many more students voted for Chips than Cookies?\n _",
+      "image_tag": "Gr4_44_1_51",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_44_E1",
+      "correct_answers": [
+        "2"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We need to first find the number of students in total who like Chips and the number of students in total who like Cookies.\nChips: 16 + 11 = 27\nCookies: 6 + 19 = 25"
+        ],
+        [
+          "2/2",
+          "Now subtract to find how many more students voted for Chips than Cookies:\n\n27 - 25 = 2\n\n2 more students voted for Chips than Cookies."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "1_51",
+      "backend_description": "A table with a pale yellow background showing favorite snacks among students. The table has three columns: 'Meal Time' (listing Chips, Cookies, Fruit, Popcorn), 'Lower grade students', and 'Upper grade students'. The data shows: Chips: 16 (lower), 11 (upper); Cookies: 6 (lower), 19 (upper); Fruit: 5 (lower), 8 (upper); Popcorn: 11 (lower), 20 (upper); "
+    }
+  ]
+}

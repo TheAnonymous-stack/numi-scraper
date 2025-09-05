@@ -1,1587 +1,1589 @@
-[
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "A crayon factory monitored the number of broken crayons per box during the past day. What is the mean of the numbers?\n _",
-    "image_tag": "Gr4_43_4_1",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "39"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n24, 32, 33, 34, 37, 38, 40, 42, 43, 43, 45, 45, 51."
-      ],
-      [
-        "2/3",
-        "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 13 numbers."
-      ],
-      [
-        "3/3",
-        "Now add all the numbers together:\n\n24 + 32 + 33 + 34 + 37 + 38 + 40 + 42 + 43 + 43 + 45 + 45 + 51 = 507\n\nNow divide the sum by the number of numbers:\n\n507 ÷ 13 = 39\n\nThe mean is 39."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_1",
-    "backend_description": "A compact stem-and-leaf plot titled 'Broken crayons per box' showing data for stems 2-5. The leaf values show the distribution of broken crayons, with stem 3 having values 2, 3, 4, 7, 8 and stem 4 having values 0, 2, 3, 3, 5, 5."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "The parks department compared how many basketball hoops there are at each park. What is the mode of the numbers?\n _",
-    "image_tag": "Gr4_43_4_2",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "16"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. To get the data, read the numbers from the tally chart. Count the tally marks in each row: 15, 16, 8, 16, 16, 8, 15, 16."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 8, 8, 15, 15, 16, 16, 16, 16."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n8 appears 2 times.\n15 appears 2 times.\n16 appears 4 times."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 16."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_2",
-    "backend_description": "A large table with a peach-colored header titled 'Basketball hoops'. The table lists 8 different parks with their basketball hoop counts shown using purple tally marks. Each group of 5 is shown with 4 vertical lines and 1 diagonal line crossing them. Crestview Park and Palm Park have 15 hoops each, while Otter Park and Linden Park have the least with 8 hoops each."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Clara wrote down how many pages she read over the past 7 days. What is the mode of the numbers?\n _",
-    "image_tag": "Gr4_43_4_3",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "100"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the numer for each bar: 100, 60, 60, 90, 100, 100, 90."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 60, 60, 90, 90, 100, 100, 100."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n60 appears 2 times.\n90 appears 2 times.\n100 appears 3 times."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 100. The mode is 100."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_3",
-    "backend_description": "A horizontal bar chart titled 'Pages read' showing reading data for each day of the week. Each day has a colored bar extending to show the number of pages read (scale 0-100). Wednesday (purple), Sunday (pink), and Monday (blue) show the longest bars reaching about 100 pages, while Thursday (yellow) and Friday (orange) show medium-length bars around 60 pages."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "A farm equipment company kept a record of the number of tractors made each month. What is the mean of the numbers?\n _",
-    "image_tag": "Gr4_43_4_4",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "47"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
-      ],
-      [
-        "2/5",
-        "Read the numbers from the table: 53, 45, 48, 46, 49, 47, 34, 54."
-      ],
-      [
-        "3/5",
-        "First, verify by counting that there are 8 numbers in the group."
-      ],
-      [
-        "4/5",
-        "Now add all the numbers together: 53 + 45 + 48 + 46 + 49 + 47 + 34 + 54 = 376."
-      ],
-      [
-        "5/5",
-        "Now divide the sum by the number of values: 376 ÷ 8 = 47. The mean is 47."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_4",
-    "backend_description": "A data table with a purple header 'Tractors made' showing monthly tractor production from May to December. The table has two columns: 'Month' and 'Number of tractors'. December shows the highest production (54 tractors) while November shows the lowest (34 tractors)."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Mr. McLean's art class counted the number of finger puppets they had made. What is the mean of the numbers?\n _",
-    "image_tag": "Gr4_43_4_5",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "3"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
-      ],
-      [
-        "2/5",
-        "Read the numbers from the line plot. Each X represents one number: 0, 1, 2, 2, 3, 3, 4, 4, 4, 5, 5."
-      ],
-      [
-        "3/5",
-        "First, verify by counting that there are 11 numbers."
-      ],
-      [
-        "4/5",
-        "Now, add all the numbers together: 0 + 1 + 2 + 2 + 3 + 3 + 4 + 4 + 4 + 5 + 5 = 33."
-      ],
-      [
-        "5/5",
-        "Now divide the sum by the number of values: 33 ÷ 11 = 3. The mean is 3."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_5",
-    "backend_description": "A line plot titled 'Making finger puppets' with a horizontal number line from 0 to 6. Green X marks show the frequency distribution, with 1 X at position 0, 2 X's at position 1, 3 X's at position 2, 2 X's at position 3, 3 X's at position 4, and 2 X's at position 5."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Abigail recalled how many minutes she had spent at choir rehearsal in the past 7 days. What is the mode of the numbers?\n _",
-    "image_tag": "Gr4_43_4_6",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "39"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that the mode refers to the number that appears most often in the data set. Read the numbers from the line graph. Read the line graph by finding the minutes for each dot: 50, 100, 50, 100, 20, 20, 20."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 20, 20, 20, 50, 50, 100, 100."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n20 appears 3 times.\n50 appears 2 times.\n100 appears 2 times."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 20. The mode is 20."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_6",
-    "backend_description": "A line graph showing rehearsal time across a week. The graph has a light gray grid background with the y-axis labeled 'Minutes' (ranging from 0 to 100 in increments of 10) and the x-axis labeled 'Day' (showing Wednesday through Tuesday). The data is plotted with purple dots connected by purple lines. The pattern shows: Wednesday: 50 minutes, Thursday: 100 minutes (peak), Friday: 50 minutes, Saturday: 100 minutes (second peak), Sunday: 20 minutes (sharp drop), Monday: 20 minutes (remains low), Tuesday: 20 minutes (stays constant)."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "A quality control team monitored the number of bugs found per code review. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_7",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "42"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n29, 31, 31, 31, 32, 33, 34, 35, 37, 37, 41, 49, 51, 52, 52, 54, 85."
-      ],
-      [
-        "2/3",
-        "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 17 numbers."
-      ],
-      [
-        "3/3",
-        "Now add all the numbers together:\n\n29 + 31 + 31 + 31 + 32 + 33 + 34 + 35 + 37 + 37 + 41 + 49 + 51 + 52 + 52 + 54 + 85 = 714\n\nNow divide the sum by the number of numbers:\n\n714 ÷ 17 = 42\n\nThe mean is 42."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_7",
-    "backend_description": "A compact stem-and-leaf plot titled 'The Numbers' showing data for stems 2-5. The leaf values show the distribution, with stem 2 having values 1, 5 and stem 3 having values 5, 6 and stem 4 having values 1, 4, 4, 6 and stem 5 having values 5, 9."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "The city council compared how many skateboard ramps there are at each park. What is the mode of The Numbers\n _",
-    "image_tag": "Gr4_43_4_8",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "20"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. To get the data, read the numbers from the tally chart. Count the tally marks in each row: 20, 20, 20, 20, 25, 30, 38, 46."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 20, 20, 20, 20, 25, 30, 38, 46."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n20 appears 4 times.\n25 appears 1 time.\n30 appears 1 time.\n38 appears 1 time.\n46 appears 1 time."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 20."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_8",
-    "backend_description": "A large table with a coral-colored header titled 'Skateboard Ramps'. The table lists 7 different entries with their counts shown using orange tally marks. Each group of 5 is shown with 4 vertical lines and 1 diagonal line crossing them."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Riley tracked their Instagram posts made over the past 7 days. What is the mode of The Numbers\n _",
-    "image_tag": "Gr4_43_4_9",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "80"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 63, 70, 80, 80, 80, 82, 87."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 63, 70, 80, 80, 80, 82, 87."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n63 appears 1 time.\n70 appears 1 time.\n80 appears 3 times.\n82 appears 1 time.\n87 appears 1 time."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 80. The mode is 80."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_9",
-    "backend_description": "A horizontal bar chart titled 'Instagram Posts Made' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-100). Friday (blue), Saturday (red), Wednesday (green) show the longest bars reaching about 80."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "A Gaming platform kept a record of the number of games downloaded each month. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_10",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "63"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
-      ],
-      [
-        "2/5",
-        "Read the numbers from the table: 49, 52, 57, 63, 67, 71, 71, 74."
-      ],
-      [
-        "3/5",
-        "First, verify by counting that there are 8 numbers in the group."
-      ],
-      [
-        "4/5",
-        "Now add all the numbers together: 49 + 52 + 57 + 63 + 67 + 71 + 71 + 74 = 504."
-      ],
-      [
-        "5/5",
-        "Now divide the sum by the number of values: 504 ÷ 8 = 63. The mean is 63."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_10",
-    "backend_description": "A data table with a orange header 'The Numbers' showing monthly data. The table has two columns: 'Month' and 'Number'. July shows the highest value (70) while October shows the lowest (54)."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Ms. Chen's craft class counted the number of digital drawings they had made. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_11",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "4"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
-      ],
-      [
-        "2/5",
-        "Read the numbers from the line plot. Each X represents one number: 0, 1, 2, 2, 3, 4, 4, 5, 6, 8, 9."
-      ],
-      [
-        "3/5",
-        "First, verify by counting that there are 11 numbers."
-      ],
-      [
-        "4/5",
-        "Now, add all the numbers together: 0 + 1 + 2 + 2 + 3 + 4 + 4 + 5 + 6 + 8 + 9 = 44."
-      ],
-      [
-        "5/5",
-        "Now divide the sum by the number of values: 44 ÷ 11 = 4. The mean is 4."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_11",
-    "backend_description": "A line plot titled 'The Numbers' with a horizontal number line from 0 to 7. Purple X marks show the frequency distribution, with 1 X at position 0, 1 X at position 1, 1 X at position 2, 3 X's at position 4, 3 X's at position 5, 1 X at position 6."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Quinn tracked their Videos Edited In The Past 7 Days\n _",
-    "image_tag": "Gr4_43_4_12",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "60"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 36, 49, 56, 60, 60, 60, 60."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 36, 49, 56, 60, 60, 60, 60."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n36 appears 1 time.\n49 appears 1 time.\n56 appears 1 time.\n60 appears 4 times."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 60. The mode is 60."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_12",
-    "backend_description": "A horizontal bar chart titled 'Videos Edited In The Past 7 Days' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-80). Saturday (blue), Monday (red), Tuesday (green) show the longest bars reaching about 60."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "A warehouse manager monitored the number of damaged items per shipment. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_13",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "57"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n19, 52, 53, 54, 58, 58, 59, 59, 62, 63, 66, 66, 72."
-      ],
-      [
-        "2/3",
-        "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 13 numbers."
-      ],
-      [
-        "3/3",
-        "Now add all the numbers together:\n\n19 + 52 + 53 + 54 + 58 + 58 + 59 + 59 + 62 + 63 + 66 + 66 + 72 = 741\n\nNow divide the sum by the number of numbers:\n\n741 ÷ 13 = 57\n\nThe mean is 57."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_13",
-    "backend_description": "A compact stem-and-leaf plot titled 'The Numbers' showing data for stems 3-7. The leaf values show the distribution, with stem 3 having values 1, 2, 8 and stem 4 having values 1, 5, 6, 7, 9 and stem 5 having values 0, 5, 9 and stem 6 having values 4 and stem 7 having values 0, 5, 9."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "The city council compared how many electric scooters there are at each station. What is the mode of The Numbers\n _",
-    "image_tag": "Gr4_43_4_14",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "15"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. To get the data, read the numbers from the tally chart. Count the tally marks in each row: 15, 15, 15, 16, 19, 25, 30, 36."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 15, 15, 15, 16, 19, 25, 30, 36."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n15 appears 3 times.\n16 appears 1 time.\n19 appears 1 time.\n25 appears 1 time.\n30 appears 1 time.\n36 appears 1 time."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 15."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_14",
-    "backend_description": "A large table with a lavender-colored header titled 'Electric Scooters'. The table lists 10 different entries with their counts shown using purple tally marks. Each group of 5 is shown with 4 vertical lines and 1 diagonal line crossing them."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Jordan tracked their YouTube videos uploaded over the past 7 days. What is the mode of The Numbers\n _",
-    "image_tag": "Gr4_43_4_15",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "80"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 64, 66, 80, 80, 80, 80, 97."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 64, 66, 80, 80, 80, 80, 97."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n64 appears 1 time.\n66 appears 1 time.\n80 appears 4 times.\n97 appears 1 time."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 80. The mode is 80."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_15",
-    "backend_description": "A horizontal bar chart titled 'Youtube Videos Uploaded' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-100). Thursday (blue), Friday (red), Sunday (green) show the longest bars reaching about 80."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "A Online store kept a record of the number of orders processed each month. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_16",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "62"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
-      ],
-      [
-        "2/5",
-        "Read the numbers from the table: 51, 51, 53, 64, 65, 65, 72, 75."
-      ],
-      [
-        "3/5",
-        "First, verify by counting that there are 8 numbers in the group."
-      ],
-      [
-        "4/5",
-        "Now add all the numbers together: 51 + 51 + 53 + 64 + 65 + 65 + 72 + 75 = 496."
-      ],
-      [
-        "5/5",
-        "Now divide the sum by the number of values: 496 ÷ 8 = 62. The mean is 62."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_16",
-    "backend_description": "A data table with a blue header 'The Numbers' showing monthly data. The table has two columns: 'Month' and 'Number'. December shows the highest value (76) while May shows the lowest (50)."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Mr. Rodriguez's science club counted the number of paper airplanes they had made. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_17",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "2"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 10."
-      ],
-      [
-        "2/3",
-        "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 11 numbers."
-      ],
-      [
-        "3/3",
-        "Now add all the numbers together:\n\n1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 2 + 2 + 10 = 22\n\nNow divide the sum by the number of numbers:\n\n22 ÷ 11 = 2\n\nThe mean is 2."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_17",
-    "backend_description": "A stem-and-leaf plot titled 'paper airplanes' with stems 0-0. The plot shows: Stem 0 | Leaves: 2, 2, 2, 2, 2, 2, 2, 2, 2, 2. (Total data points: 10)"
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Jordan tracked their Videos Edited In The Past 7 Days\n _",
-    "image_tag": "Gr4_43_4_18",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "50"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 40, 50, 50, 50, 50, 51, 70."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 40, 50, 50, 50, 50, 51, 70."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n40 appears 1 time.\n50 appears 4 times.\n51 appears 1 time.\n70 appears 1 time."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 50. The mode is 50."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_18",
-    "backend_description": "A horizontal bar chart titled 'Videos Edited In The Past 7 Days' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-70). Saturday (blue), Wednesday (red), Tuesday (green) show the longest bars reaching about 50."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "A quality control team monitored the number of defective products per batch. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_19",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "33"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n28, 28, 30, 30, 31, 31, 32, 32, 33, 34, 36, 38, 46."
-      ],
-      [
-        "2/3",
-        "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 13 numbers."
-      ],
-      [
-        "3/3",
-        "Now add all the numbers together:\n\n28 + 28 + 30 + 30 + 31 + 31 + 32 + 32 + 33 + 34 + 36 + 38 + 46 = 429\n\nNow divide the sum by the number of numbers:\n\n429 ÷ 13 = 33\n\nThe mean is 33."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_19",
-    "backend_description": "A compact stem-and-leaf plot titled 'The Numbers' showing data for stems 2-5. The leaf values show the distribution, with stem 2 having values 3, 4, 6 and stem 3 having values 9 and stem 4 having values 7, 8, 8, 9, 9 and stem 5 having values 0, 0, 2, 3, 5."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "The city council compared how many skateboard ramps there are at each park. What is the mode of The Numbers\n _",
-    "image_tag": "Gr4_43_4_20",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "8"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. To get the data, read the numbers from the tally chart. Count the tally marks in each row: 6, 8, 8, 8, 10, 13, 17, 36."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 6, 8, 8, 8, 10, 13, 17, 36."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n6 appears 1 time.\n8 appears 3 times.\n10 appears 1 time.\n13 appears 1 time.\n17 appears 1 time.\n36 appears 1 time."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 8."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_20",
-    "backend_description": "A large table with a coral-colored header titled 'Skateboard Ramps'. The table lists 10 different entries with their counts shown using blue tally marks. Each group of 5 is shown with 4 vertical lines and 1 diagonal line crossing them."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Jordan tracked their YouTube videos uploaded over the past 7 days. What is the mode of The Numbers\n _",
-    "image_tag": "Gr4_43_4_21",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "40"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 28, 40, 40, 40, 48, 49, 62."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 28, 40, 40, 40, 48, 49, 62."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n28 appears 1 time.\n40 appears 3 times.\n48 appears 1 time.\n49 appears 1 time.\n62 appears 1 time."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 40. The mode is 40."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_21",
-    "backend_description": "A horizontal bar chart titled 'Youtube Videos Uploaded' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-60). Sunday (blue), Saturday (red), Monday (green) show the longest bars reaching about 40."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "A Event company kept a record of the number of tickets sold each month. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_22",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "44"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
-      ],
-      [
-        "2/5",
-        "Read the numbers from the table: 35, 36, 37, 46, 46, 47, 52, 53."
-      ],
-      [
-        "3/5",
-        "First, verify by counting that there are 8 numbers in the group."
-      ],
-      [
-        "4/5",
-        "Now add all the numbers together: 35 + 36 + 37 + 46 + 46 + 47 + 52 + 53 = 352."
-      ],
-      [
-        "5/5",
-        "Now divide the sum by the number of values: 352 ÷ 8 = 44. The mean is 44."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_22",
-    "backend_description": "A data table with a orange header 'The Numbers' showing monthly data. The table has two columns: 'Month' and 'Number'. July shows the highest value (52) while October shows the lowest (32)."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Ms. Chen's craft class counted the number of painted rocks they had made. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_23",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "4"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
-      ],
-      [
-        "2/5",
-        "Read the numbers from the line plot. Each X represents one number: 0, 1, 2, 2, 3, 4, 4, 5, 6, 8, 9."
-      ],
-      [
-        "3/5",
-        "First, verify by counting that there are 11 numbers."
-      ],
-      [
-        "4/5",
-        "Now, add all the numbers together: 0 + 1 + 2 + 2 + 3 + 4 + 4 + 5 + 6 + 8 + 9 = 44."
-      ],
-      [
-        "5/5",
-        "Now divide the sum by the number of values: 44 ÷ 11 = 4. The mean is 4."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_23",
-    "backend_description": "A line plot titled 'The Numbers' with a horizontal number line from 0 to 9. Green X marks show the frequency distribution, with 1 X at position 0, 1 X at position 1, 2 X's at position 2, 1 X at position 3, 2 X's at position 4, 1 X at position 5, 1 X at position 6, 1 X at position 8, 1 X at position 9."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Avery tracked their screenshots taken in the past 7 days. What is the mode of The Numbers\n _",
-    "image_tag": "Gr4_43_4_24",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "50"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 25, 34, 50, 50, 50, 71, 77."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 25, 34, 50, 50, 50, 71, 77."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n25 appears 1 time.\n34 appears 1 time.\n50 appears 3 times.\n71 appears 1 time.\n77 appears 1 time."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 50. The mode is 50."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_24",
-    "backend_description": "A horizontal bar chart titled 'Screenshots Taken In The Past 7 Days. What Is The Mode Of The Numbers' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-70). Saturday (blue), Sunday (red), Monday (green) show the longest bars reaching about 50."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "A production team monitored the number of rejected parts per batch. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_25",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "56"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n50, 51, 51, 52, 53, 54, 55, 56, 56, 57, 58, 58, 59, 59, 59, 59, 60, 61."
-      ],
-      [
-        "2/3",
-        "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 18 numbers."
-      ],
-      [
-        "3/3",
-        "Now add all the numbers together:\n\n50 + 51 + 51 + 52 + 53 + 54 + 55 + 56 + 56 + 57 + 58 + 58 + 59 + 59 + 59 + 59 + 60 + 61 = 1008\n\nNow divide the sum by the number of numbers:\n\n1008 ÷ 18 = 56\n\nThe mean is 56."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_25",
-    "backend_description": "A compact stem-and-leaf plot titled 'The Numbers' showing data for stems 3-7. The leaf values show the distribution, with stem 3 having values 1, 2, 3, 4, 6 and stem 4 having values 1, 5, 9 and stem 5 having values 6 and stem 6 having values 0, 1, 2, 8 and stem 7 having values 7, 8."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "The city council compared how many skateboard ramps there are at each park. What is the mode of The Numbers\n _",
-    "image_tag": "Gr4_43_4_26",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "8"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. To get the data, read the numbers from the tally chart. Count the tally marks in each row: 6, 8, 8, 8, 8, 22, 36, 37."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 6, 8, 8, 8, 8, 22, 36, 37."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n6 appears 1 time.\n8 appears 4 times.\n22 appears 1 time.\n36 appears 1 time.\n37 appears 1 time."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 8."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_26",
-    "backend_description": "A large table with a coral-colored header titled 'Skateboard Ramps'. The table lists 8 different entries with their counts shown using purple tally marks. Each group of 5 is shown with 4 vertical lines and 1 diagonal line crossing them."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Jordan tracked their Instagram posts made over the past 7 days. What is the mode of The Numbers\n _",
-    "image_tag": "Gr4_43_4_27",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "40"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 27, 40, 40, 40, 49, 65, 69."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 27, 40, 40, 40, 49, 65, 69."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n27 appears 1 time.\n40 appears 3 times.\n49 appears 1 time.\n65 appears 1 time.\n69 appears 1 time."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 40. The mode is 40."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_27",
-    "backend_description": "A horizontal bar chart titled 'Instagram Posts Made' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-60). Saturday (blue), Friday (red), Sunday (green) show the longest bars reaching about 40."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "A App developer kept a record of the number of downloads recorded each month. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_28",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "56"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
-      ],
-      [
-        "2/5",
-        "Read the numbers from the table: 30, 41, 54, 56, 62, 67, 68, 70."
-      ],
-      [
-        "3/5",
-        "First, verify by counting that there are 8 numbers in the group."
-      ],
-      [
-        "4/5",
-        "Now add all the numbers together: 30 + 41 + 54 + 56 + 62 + 67 + 68 + 70 = 448."
-      ],
-      [
-        "5/5",
-        "Now divide the sum by the number of values: 448 ÷ 8 = 56. The mean is 56."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_28",
-    "backend_description": "A data table with a blue header 'The Numbers' showing monthly data. The table has two columns: 'Month' and 'Number'. August shows the highest value (71) while July shows the lowest (46)."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Mr. Rodriguez's art class counted the number of origami cranes they had made. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_29",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "3"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
-      ],
-      [
-        "2/5",
-        "Read the numbers from the line plot. Each X represents one number: 0, 1, 1, 2, 2, 3, 3, 4, 5, 6, 6."
-      ],
-      [
-        "3/5",
-        "First, verify by counting that there are 11 numbers."
-      ],
-      [
-        "4/5",
-        "Now, add all the numbers together: 0 + 1 + 1 + 2 + 2 + 3 + 3 + 4 + 5 + 6 + 6 = 33."
-      ],
-      [
-        "5/5",
-        "Now divide the sum by the number of values: 33 ÷ 11 = 3. The mean is 3."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_29",
-    "backend_description": "A line plot titled 'The Numbers' with a horizontal number line from 0 to 6. Green X marks show the frequency distribution, with 1 X at position 0, 2 X's at position 1, 2 X's at position 2, 2 X's at position 3, 1 X at position 4, 1 X at position 5, 2 X's at position 6."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Jamie tracked their Words Written In The Past 7 Days\n _",
-    "image_tag": "Gr4_43_4_30",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "40"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 30, 40, 40, 40, 40, 52, 61."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 30, 40, 40, 40, 40, 52, 61."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n30 appears 1 time.\n40 appears 4 times.\n52 appears 1 time.\n61 appears 1 time."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 40. The mode is 40."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_30",
-    "backend_description": "A horizontal bar chart titled 'Words Written In The Past 7 Days' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-60). Wednesday (blue), Sunday (red), Tuesday (green) show the longest bars reaching about 40."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "A quality control team monitored the number of bugs found per code review. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_31",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "60"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n50, 50, 52, 52, 52, 53, 61, 62, 63, 64, 71, 75, 75."
-      ],
-      [
-        "2/3",
-        "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 13 numbers."
-      ],
-      [
-        "3/3",
-        "Now add all the numbers together:\n\n50 + 50 + 52 + 52 + 52 + 53 + 61 + 62 + 63 + 64 + 71 + 75 + 75 = 780\n\nNow divide the sum by the number of numbers:\n\n780 ÷ 13 = 60\n\nThe mean is 60."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_31",
-    "backend_description": "A compact stem-and-leaf plot titled 'The Numbers' showing data for stems 3-7. The leaf values show the distribution, with stem 3 having values 7, 9 and stem 4 having values 7, 7, 9, 9, 9 and stem 5 having values 0, 2, 4, 7, 8 and stem 6 having values 2, 3 and stem 7 having values 0, 0, 1, 8."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "The city council compared how many skateboard ramps there are at each park. What is the mode of The Numbers\n _",
-    "image_tag": "Gr4_43_4_32",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "6"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. To get the data, read the numbers from the tally chart. Count the tally marks in each row: 1, 6, 6, 6, 6, 14, 20, 24."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 1, 6, 6, 6, 6, 14, 20, 24."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n1 appears 1 time.\n6 appears 4 times.\n14 appears 1 time.\n20 appears 1 time.\n24 appears 1 time."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 6."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_32",
-    "backend_description": "A large table with a lavender-colored header titled 'Skateboard Ramps'. The table lists 8 different entries with their counts shown using orange tally marks. Each group of 5 is shown with 4 vertical lines and 1 diagonal line crossing them."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Riley tracked their Discord messages sent over the past 7 days. What is the mode of The Numbers\n _",
-    "image_tag": "Gr4_43_4_33",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "100"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 78, 84, 84, 97, 100, 100, 100."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 78, 84, 84, 97, 100, 100, 100."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n78 appears 1 time.\n84 appears 2 times.\n97 appears 1 time.\n100 appears 3 times."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 100. The mode is 100."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_33",
-    "backend_description": "A horizontal bar chart titled 'Discord Messages Sent' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-120). Saturday (blue), Thursday (red), Tuesday (green) show the longest bars reaching about 100."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "A Streaming service kept a record of the number of movies watched each month. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_34",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "58"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
-      ],
-      [
-        "2/5",
-        "Read the numbers from the table: 41, 44, 46, 55, 61, 72, 72, 73."
-      ],
-      [
-        "3/5",
-        "First, verify by counting that there are 8 numbers in the group."
-      ],
-      [
-        "4/5",
-        "Now add all the numbers together: 41 + 44 + 46 + 55 + 61 + 72 + 72 + 73 = 464."
-      ],
-      [
-        "5/5",
-        "Now divide the sum by the number of values: 464 ÷ 8 = 58. The mean is 58."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_34",
-    "backend_description": "A data table with a purple header 'The Numbers' showing monthly data. The table has two columns: 'Month' and 'Number'. December shows the highest value (66) while May shows the lowest (49)."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Mr. Johnson's math team counted the number of friendship bracelets they had made. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_35",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "4"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4."
-      ],
-      [
-        "2/3",
-        "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 13 numbers."
-      ],
-      [
-        "3/3",
-        "Now add all the numbers together:\n\n4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 = 52\n\nNow divide the sum by the number of numbers:\n\n52 ÷ 13 = 4\n\nThe mean is 4."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_35",
-    "backend_description": "A stem-and-leaf plot titled 'friendship bracelets' with stems 0-0. The plot shows: Stem 0 | Leaves: 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4. (Total data points: 13)"
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Sam tracked their emails sent in the past 7 days. What is the mode of The Numbers\n _",
-    "image_tag": "Gr4_43_4_36",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "60"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 46, 60, 60, 60, 60, 80, 81."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 46, 60, 60, 60, 60, 80, 81."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n46 appears 1 time.\n60 appears 4 times.\n80 appears 1 time.\n81 appears 1 time."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 60. The mode is 60."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_36",
-    "backend_description": "A horizontal bar chart titled 'Emails Sent In The Past 7 Days. What Is The Mode Of The Numbers' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-80). Friday (blue), Wednesday (red), Monday (green) show the longest bars reaching about 60."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "A quality control team monitored the number of customer complaints per week. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_37",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "39"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n24, 26, 26, 29, 30, 33, 33, 35, 36, 40, 40, 42, 43, 45, 46, 53, 82."
-      ],
-      [
-        "2/3",
-        "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 17 numbers."
-      ],
-      [
-        "3/3",
-        "Now add all the numbers together:\n\n24 + 26 + 26 + 29 + 30 + 33 + 33 + 35 + 36 + 40 + 40 + 42 + 43 + 45 + 46 + 53 + 82 = 663\n\nNow divide the sum by the number of numbers:\n\n663 ÷ 17 = 39\n\nThe mean is 39."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_37",
-    "backend_description": "A compact stem-and-leaf plot titled 'The Numbers' showing data for stems 2-5. The leaf values show the distribution, with stem 2 having values 6, 7, 7, 8 and stem 3 having values 4, 8, 9 and stem 4 having values 4, 9 and stem 5 having values 3, 3, 6."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "The school board compared how many tablets there are at each classroom. What is the mode of The Numbers\n _",
-    "image_tag": "Gr4_43_4_38",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "8"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. To get the data, read the numbers from the tally chart. Count the tally marks in each row: 8, 8, 8, 16, 27, 30, 31, 35."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 8, 8, 8, 16, 27, 30, 31, 35."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n8 appears 3 times.\n16 appears 1 time.\n27 appears 1 time.\n30 appears 1 time.\n31 appears 1 time.\n35 appears 1 time."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 8."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_38",
-    "backend_description": "A large table with a light blue-colored header titled 'Tablets'. The table lists 9 different entries with their counts shown using purple tally marks. Each group of 5 is shown with 4 vertical lines and 1 diagonal line crossing them."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Riley tracked their anime episodes watched over the past 7 days. What is the mode of The Numbers\n _",
-    "image_tag": "Gr4_43_4_39",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "80"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 58, 73, 80, 80, 80, 80, 99."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 58, 73, 80, 80, 80, 80, 99."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n58 appears 1 time.\n73 appears 1 time.\n80 appears 4 times.\n99 appears 1 time."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 80. The mode is 80."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_39",
-    "backend_description": "A horizontal bar chart titled 'Anime Episodes Watched' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-100). Wednesday (blue), Saturday (red), Friday (green) show the longest bars reaching about 80."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "A Gaming platform kept a record of the number of games downloaded each month. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_40",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "44"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
-      ],
-      [
-        "2/5",
-        "Read the numbers from the table: 33, 36, 41, 42, 45, 50, 51, 54."
-      ],
-      [
-        "3/5",
-        "First, verify by counting that there are 8 numbers in the group."
-      ],
-      [
-        "4/5",
-        "Now add all the numbers together: 33 + 36 + 41 + 42 + 45 + 50 + 51 + 54 = 352."
-      ],
-      [
-        "5/5",
-        "Now divide the sum by the number of values: 352 ÷ 8 = 44. The mean is 44."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_40",
-    "backend_description": "A data table with a yellow header 'The Numbers' showing monthly data. The table has two columns: 'Month' and 'Number'. December shows the highest value (51) while June shows the lowest (38)."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Ms. Chen's science club counted the number of painted rocks they had made. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_41",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "3"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3."
-      ],
-      [
-        "2/3",
-        "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 15 numbers."
-      ],
-      [
-        "3/3",
-        "Now add all the numbers together:\n\n3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 = 45\n\nNow divide the sum by the number of numbers:\n\n45 ÷ 15 = 3\n\nThe mean is 3."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_41",
-    "backend_description": "A stem-and-leaf plot titled 'painted rocks' with stems 0-0. The plot shows: Stem 0 | Leaves: 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3. (Total data points: 15)"
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Jamie tracked their Words Written In The Past 7 Days\n _",
-    "image_tag": "Gr4_43_4_42",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "30"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 8, 18, 24, 30, 30, 30, 42."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 8, 18, 24, 30, 30, 30, 42."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n8 appears 1 time.\n18 appears 1 time.\n24 appears 1 time.\n30 appears 3 times.\n42 appears 1 time."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 30. The mode is 30."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_42",
-    "backend_description": "A horizontal bar chart titled 'Words Written In The Past 7 Days' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-50). Friday (blue), Monday (red), Saturday (green) show the longest bars reaching about 30."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "A quality control team monitored the number of errors detected per test. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_43",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "53"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n39, 40, 41, 41, 43, 51, 53, 53, 54, 56, 61, 65, 66, 66, 66."
-      ],
-      [
-        "2/3",
-        "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 15 numbers."
-      ],
-      [
-        "3/3",
-        "Now add all the numbers together:\n\n39 + 40 + 41 + 41 + 43 + 51 + 53 + 53 + 54 + 56 + 61 + 65 + 66 + 66 + 66 = 795\n\nNow divide the sum by the number of numbers:\n\n795 ÷ 15 = 53\n\nThe mean is 53."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_43",
-    "backend_description": "A compact stem-and-leaf plot titled 'The Numbers' showing data for stems 3-7. The leaf values show the distribution, with stem 3 having values 0, 1, 7 and stem 4 having values 7 and stem 5 having values 3, 8 and stem 6 having values 3, 8 and stem 7 having values 2, 5, 5, 9."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "The city council compared how many electric scooters there are at each station. What is the mode of The Numbers\n _",
-    "image_tag": "Gr4_43_4_44",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "6"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. To get the data, read the numbers from the tally chart. Count the tally marks in each row: 6, 6, 6, 6, 21, 24, 28, 32."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 6, 6, 6, 6, 21, 24, 28, 32."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n6 appears 4 times.\n21 appears 1 time.\n24 appears 1 time.\n28 appears 1 time.\n32 appears 1 time."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 6."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_44",
-    "backend_description": "A large table with a light blue-colored header titled 'Electric Scooters'. The table lists 10 different entries with their counts shown using purple tally marks. Each group of 5 is shown with 4 vertical lines and 1 diagonal line crossing them."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Taylor tracked their YouTube videos uploaded over the past 7 days. What is the mode of The Numbers\n _",
-    "image_tag": "Gr4_43_4_45",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "100"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 84, 85, 93, 100, 100, 100, 100."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 84, 85, 93, 100, 100, 100, 100."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n84 appears 1 time.\n85 appears 1 time.\n93 appears 1 time.\n100 appears 4 times."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 100. The mode is 100."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_45",
-    "backend_description": "A horizontal bar chart titled 'Youtube Videos Uploaded' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-120). Thursday (blue), Wednesday (red), Sunday (green) show the longest bars reaching about 100."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "A Event company kept a record of the number of tickets sold each month. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_46",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "44"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
-      ],
-      [
-        "2/5",
-        "Read the numbers from the table: 33, 35, 38, 42, 43, 52, 52, 57."
-      ],
-      [
-        "3/5",
-        "First, verify by counting that there are 8 numbers in the group."
-      ],
-      [
-        "4/5",
-        "Now add all the numbers together: 33 + 35 + 38 + 42 + 43 + 52 + 52 + 57 = 352."
-      ],
-      [
-        "5/5",
-        "Now divide the sum by the number of values: 352 ÷ 8 = 44. The mean is 44."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_46",
-    "backend_description": "A data table with a orange header 'The Numbers' showing monthly data. The table has two columns: 'Month' and 'Number'. November shows the highest value (54) while October shows the lowest (30)."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Mr. Johnson's craft class counted the number of paper airplanes they had made. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_47",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "3"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
-      ],
-      [
-        "2/5",
-        "Read the numbers from the line plot. Each X represents one number: 0, 0, 1, 2, 2, 3, 3, 5, 5, 6, 6."
-      ],
-      [
-        "3/5",
-        "First, verify by counting that there are 11 numbers."
-      ],
-      [
-        "4/5",
-        "Now, add all the numbers together: 0 + 0 + 1 + 2 + 2 + 3 + 3 + 5 + 5 + 6 + 6 = 33."
-      ],
-      [
-        "5/5",
-        "Now divide the sum by the number of values: 33 ÷ 11 = 3. The mean is 3."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_47",
-    "backend_description": "A line plot titled 'The Numbers' with a horizontal number line from 0 to 6. Red X marks show the frequency distribution, with 2 X's at position 0, 1 X at position 1, 2 X's at position 2, 2 X's at position 3, 2 X's at position 5, 2 X's at position 6."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Quinn tracked their Videos Edited In The Past 7 Days\n _",
-    "image_tag": "Gr4_43_4_48",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "40"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 24, 40, 40, 40, 41, 50, 69."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 24, 40, 40, 40, 41, 50, 69."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n24 appears 1 time.\n40 appears 3 times.\n41 appears 1 time.\n50 appears 1 time.\n69 appears 1 time."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 40. The mode is 40."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_48",
-    "backend_description": "A horizontal bar chart titled 'Videos Edited In The Past 7 Days' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-60). Friday (blue), Thursday (red), Wednesday (green) show the longest bars reaching about 40."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "A quality control team monitored the number of bugs found per code review. What is the mean of The Numbers\n _",
-    "image_tag": "Gr4_43_4_49",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "39"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n32, 34, 34, 35, 36, 36, 38, 39, 39, 40, 40, 41, 42, 42, 43, 43, 44, 44."
-      ],
-      [
-        "2/3",
-        "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 18 numbers."
-      ],
-      [
-        "3/3",
-        "Now add all the numbers together:\n\n32 + 34 + 34 + 35 + 36 + 36 + 38 + 39 + 39 + 40 + 40 + 41 + 42 + 42 + 43 + 43 + 44 + 44 = 702\n\nNow divide the sum by the number of numbers:\n\n702 ÷ 18 = 39\n\nThe mean is 39."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_49",
-    "backend_description": "A compact stem-and-leaf plot titled 'The Numbers' showing data for stems 2-5. The leaf values show the distribution, with stem 2 having values 0, 5, 7, 8, 9 and stem 3 having values 0, 7, 8, 9 and stem 4 having values 2, 5, 7, 7 and stem 5 having values 7."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "The sports league compared how many team jerseys there are at each store. What is the mode of The Numbers\n _",
-    "image_tag": "Gr4_43_4_50",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "10"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. To get the data, read the numbers from the tally chart. Count the tally marks in each row: 1, 7, 10, 10, 10, 10, 21, 33."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 1, 7, 10, 10, 10, 10, 21, 33."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n1 appears 1 time.\n7 appears 1 time.\n10 appears 4 times.\n21 appears 1 time.\n33 appears 1 time."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 10."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_50",
-    "backend_description": "A large table with a coral-colored header titled 'Team Jerseys'. The table lists 8 different entries with their counts shown using pink tally marks. Each group of 5 is shown with 4 vertical lines and 1 diagonal line crossing them."
-  },
-  {
-    "skills": "interpret-charts-to-find-mean-and-mode",
-    "question_text": "Taylor tracked their anime episodes watched over the past 7 days. What is the mode of The Numbers\n _",
-    "image_tag": "Gr4_43_4_51",
-    "question_type": "Fill in the blank",
-    "tag": "Gr4_43_E4",
-    "correct_answers": [
-      "20"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 1, 2, 20, 20, 20, 20, 49."
-      ],
-      [
-        "2/4",
-        "First, arrange the numbers from least to greatest: 1, 2, 20, 20, 20, 20, 49."
-      ],
-      [
-        "3/4",
-        "Now count how many times each number appears.\n1 appears 1 time.\n2 appears 1 time.\n20 appears 4 times.\n49 appears 1 time."
-      ],
-      [
-        "4/4",
-        "The number that appears most often is 20. The mode is 20."
-      ]
-    ],
-    "solution_image_tag": [],
-    "question_number": "4_51",
-    "backend_description": "A horizontal bar chart titled 'Anime Episodes Watched' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-40). Monday (blue), Friday (red), Wednesday (green) show the longest bars reaching about 20."
-  }
-]
+{
+  "quizzes": [
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "A crayon factory monitored the number of broken crayons per box during the past day. What is the mean of the numbers?\n _",
+      "image_tag": "Gr4_43_4_1",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "39"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n24, 32, 33, 34, 37, 38, 40, 42, 43, 43, 45, 45, 51."
+        ],
+        [
+          "2/3",
+          "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 13 numbers."
+        ],
+        [
+          "3/3",
+          "Now add all the numbers together:\n\n24 + 32 + 33 + 34 + 37 + 38 + 40 + 42 + 43 + 43 + 45 + 45 + 51 = 507\n\nNow divide the sum by the number of numbers:\n\n507 ÷ 13 = 39\n\nThe mean is 39."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_1",
+      "backend_description": "A compact stem-and-leaf plot titled 'Broken crayons per box' showing data for stems 2-5. The leaf values show the distribution of broken crayons, with stem 3 having values 2, 3, 4, 7, 8 and stem 4 having values 0, 2, 3, 3, 5, 5."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "The parks department compared how many basketball hoops there are at each park. What is the mode of the numbers?\n _",
+      "image_tag": "Gr4_43_4_2",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "16"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. To get the data, read the numbers from the tally chart. Count the tally marks in each row: 15, 16, 8, 16, 16, 8, 15, 16."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 8, 8, 15, 15, 16, 16, 16, 16."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n8 appears 2 times.\n15 appears 2 times.\n16 appears 4 times."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 16."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_2",
+      "backend_description": "A large table with a peach-colored header titled 'Basketball hoops'. The table lists 8 different parks with their basketball hoop counts shown using purple tally marks. Each group of 5 is shown with 4 vertical lines and 1 diagonal line crossing them. Crestview Park and Palm Park have 15 hoops each, while Otter Park and Linden Park have the least with 8 hoops each."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Clara wrote down how many pages she read over the past 7 days. What is the mode of the numbers?\n _",
+      "image_tag": "Gr4_43_4_3",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "100"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the numer for each bar: 100, 60, 60, 90, 100, 100, 90."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 60, 60, 90, 90, 100, 100, 100."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n60 appears 2 times.\n90 appears 2 times.\n100 appears 3 times."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 100. The mode is 100."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_3",
+      "backend_description": "A horizontal bar chart titled 'Pages read' showing reading data for each day of the week. Each day has a colored bar extending to show the number of pages read (scale 0-100). Wednesday (purple), Sunday (pink), and Monday (blue) show the longest bars reaching about 100 pages, while Thursday (yellow) and Friday (orange) show medium-length bars around 60 pages."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "A farm equipment company kept a record of the number of tractors made each month. What is the mean of the numbers?\n _",
+      "image_tag": "Gr4_43_4_4",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "47"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
+        ],
+        [
+          "2/5",
+          "Read the numbers from the table: 53, 45, 48, 46, 49, 47, 34, 54."
+        ],
+        [
+          "3/5",
+          "First, verify by counting that there are 8 numbers in the group."
+        ],
+        [
+          "4/5",
+          "Now add all the numbers together: 53 + 45 + 48 + 46 + 49 + 47 + 34 + 54 = 376."
+        ],
+        [
+          "5/5",
+          "Now divide the sum by the number of values: 376 ÷ 8 = 47. The mean is 47."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_4",
+      "backend_description": "A data table with a purple header 'Tractors made' showing monthly tractor production from May to December. The table has two columns: 'Month' and 'Number of tractors'. December shows the highest production (54 tractors) while November shows the lowest (34 tractors)."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Mr. McLean's art class counted the number of finger puppets they had made. What is the mean of the numbers?\n _",
+      "image_tag": "Gr4_43_4_5",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "3"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
+        ],
+        [
+          "2/5",
+          "Read the numbers from the line plot. Each X represents one number: 0, 1, 2, 2, 3, 3, 4, 4, 4, 5, 5."
+        ],
+        [
+          "3/5",
+          "First, verify by counting that there are 11 numbers."
+        ],
+        [
+          "4/5",
+          "Now, add all the numbers together: 0 + 1 + 2 + 2 + 3 + 3 + 4 + 4 + 4 + 5 + 5 = 33."
+        ],
+        [
+          "5/5",
+          "Now divide the sum by the number of values: 33 ÷ 11 = 3. The mean is 3."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_5",
+      "backend_description": "A line plot titled 'Making finger puppets' with a horizontal number line from 0 to 6. Green X marks show the frequency distribution, with 1 X at position 0, 2 X's at position 1, 3 X's at position 2, 2 X's at position 3, 3 X's at position 4, and 2 X's at position 5."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Abigail recalled how many minutes she had spent at choir rehearsal in the past 7 days. What is the mode of the numbers?\n _",
+      "image_tag": "Gr4_43_4_6",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "39"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that the mode refers to the number that appears most often in the data set. Read the numbers from the line graph. Read the line graph by finding the minutes for each dot: 50, 100, 50, 100, 20, 20, 20."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 20, 20, 20, 50, 50, 100, 100."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n20 appears 3 times.\n50 appears 2 times.\n100 appears 2 times."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 20. The mode is 20."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_6",
+      "backend_description": "A line graph showing rehearsal time across a week. The graph has a light gray grid background with the y-axis labeled 'Minutes' (ranging from 0 to 100 in increments of 10) and the x-axis labeled 'Day' (showing Wednesday through Tuesday). The data is plotted with purple dots connected by purple lines. The pattern shows: Wednesday: 50 minutes, Thursday: 100 minutes (peak), Friday: 50 minutes, Saturday: 100 minutes (second peak), Sunday: 20 minutes (sharp drop), Monday: 20 minutes (remains low), Tuesday: 20 minutes (stays constant)."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "A quality control team monitored the number of bugs found per code review. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_7",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "42"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n29, 31, 31, 31, 32, 33, 34, 35, 37, 37, 41, 49, 51, 52, 52, 54, 85."
+        ],
+        [
+          "2/3",
+          "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 17 numbers."
+        ],
+        [
+          "3/3",
+          "Now add all the numbers together:\n\n29 + 31 + 31 + 31 + 32 + 33 + 34 + 35 + 37 + 37 + 41 + 49 + 51 + 52 + 52 + 54 + 85 = 714\n\nNow divide the sum by the number of numbers:\n\n714 ÷ 17 = 42\n\nThe mean is 42."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_7",
+      "backend_description": "A compact stem-and-leaf plot titled 'The Numbers' showing data for stems 2-5. The leaf values show the distribution, with stem 2 having values 1, 5 and stem 3 having values 5, 6 and stem 4 having values 1, 4, 4, 6 and stem 5 having values 5, 9."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "The city council compared how many skateboard ramps there are at each park. What is the mode of The Numbers\n _",
+      "image_tag": "Gr4_43_4_8",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "20"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. To get the data, read the numbers from the tally chart. Count the tally marks in each row: 20, 20, 20, 20, 25, 30, 38, 46."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 20, 20, 20, 20, 25, 30, 38, 46."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n20 appears 4 times.\n25 appears 1 time.\n30 appears 1 time.\n38 appears 1 time.\n46 appears 1 time."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 20."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_8",
+      "backend_description": "A large table with a coral-colored header titled 'Skateboard Ramps'. The table lists 7 different entries with their counts shown using orange tally marks. Each group of 5 is shown with 4 vertical lines and 1 diagonal line crossing them."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Riley tracked their Instagram posts made over the past 7 days. What is the mode of The Numbers\n _",
+      "image_tag": "Gr4_43_4_9",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "80"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 63, 70, 80, 80, 80, 82, 87."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 63, 70, 80, 80, 80, 82, 87."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n63 appears 1 time.\n70 appears 1 time.\n80 appears 3 times.\n82 appears 1 time.\n87 appears 1 time."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 80. The mode is 80."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_9",
+      "backend_description": "A horizontal bar chart titled 'Instagram Posts Made' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-100). Friday (blue), Saturday (red), Wednesday (green) show the longest bars reaching about 80."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "A Gaming platform kept a record of the number of games downloaded each month. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_10",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "63"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
+        ],
+        [
+          "2/5",
+          "Read the numbers from the table: 49, 52, 57, 63, 67, 71, 71, 74."
+        ],
+        [
+          "3/5",
+          "First, verify by counting that there are 8 numbers in the group."
+        ],
+        [
+          "4/5",
+          "Now add all the numbers together: 49 + 52 + 57 + 63 + 67 + 71 + 71 + 74 = 504."
+        ],
+        [
+          "5/5",
+          "Now divide the sum by the number of values: 504 ÷ 8 = 63. The mean is 63."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_10",
+      "backend_description": "A data table with a orange header 'The Numbers' showing monthly data. The table has two columns: 'Month' and 'Number'. July shows the highest value (70) while October shows the lowest (54)."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Ms. Chen's craft class counted the number of digital drawings they had made. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_11",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "4"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
+        ],
+        [
+          "2/5",
+          "Read the numbers from the line plot. Each X represents one number: 0, 1, 2, 2, 3, 4, 4, 5, 6, 8, 9."
+        ],
+        [
+          "3/5",
+          "First, verify by counting that there are 11 numbers."
+        ],
+        [
+          "4/5",
+          "Now, add all the numbers together: 0 + 1 + 2 + 2 + 3 + 4 + 4 + 5 + 6 + 8 + 9 = 44."
+        ],
+        [
+          "5/5",
+          "Now divide the sum by the number of values: 44 ÷ 11 = 4. The mean is 4."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_11",
+      "backend_description": "A line plot titled 'The Numbers' with a horizontal number line from 0 to 7. Purple X marks show the frequency distribution, with 1 X at position 0, 1 X at position 1, 1 X at position 2, 3 X's at position 4, 3 X's at position 5, 1 X at position 6."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Quinn tracked their Videos Edited In The Past 7 Days\n _",
+      "image_tag": "Gr4_43_4_12",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "60"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 36, 49, 56, 60, 60, 60, 60."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 36, 49, 56, 60, 60, 60, 60."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n36 appears 1 time.\n49 appears 1 time.\n56 appears 1 time.\n60 appears 4 times."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 60. The mode is 60."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_12",
+      "backend_description": "A horizontal bar chart titled 'Videos Edited In The Past 7 Days' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-80). Saturday (blue), Monday (red), Tuesday (green) show the longest bars reaching about 60."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "A warehouse manager monitored the number of damaged items per shipment. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_13",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "57"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n19, 52, 53, 54, 58, 58, 59, 59, 62, 63, 66, 66, 72."
+        ],
+        [
+          "2/3",
+          "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 13 numbers."
+        ],
+        [
+          "3/3",
+          "Now add all the numbers together:\n\n19 + 52 + 53 + 54 + 58 + 58 + 59 + 59 + 62 + 63 + 66 + 66 + 72 = 741\n\nNow divide the sum by the number of numbers:\n\n741 ÷ 13 = 57\n\nThe mean is 57."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_13",
+      "backend_description": "A compact stem-and-leaf plot titled 'The Numbers' showing data for stems 3-7. The leaf values show the distribution, with stem 3 having values 1, 2, 8 and stem 4 having values 1, 5, 6, 7, 9 and stem 5 having values 0, 5, 9 and stem 6 having values 4 and stem 7 having values 0, 5, 9."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "The city council compared how many electric scooters there are at each station. What is the mode of The Numbers\n _",
+      "image_tag": "Gr4_43_4_14",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "15"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. To get the data, read the numbers from the tally chart. Count the tally marks in each row: 15, 15, 15, 16, 19, 25, 30, 36."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 15, 15, 15, 16, 19, 25, 30, 36."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n15 appears 3 times.\n16 appears 1 time.\n19 appears 1 time.\n25 appears 1 time.\n30 appears 1 time.\n36 appears 1 time."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 15."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_14",
+      "backend_description": "A large table with a lavender-colored header titled 'Electric Scooters'. The table lists 10 different entries with their counts shown using purple tally marks. Each group of 5 is shown with 4 vertical lines and 1 diagonal line crossing them."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Jordan tracked their YouTube videos uploaded over the past 7 days. What is the mode of The Numbers\n _",
+      "image_tag": "Gr4_43_4_15",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "80"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 64, 66, 80, 80, 80, 80, 97."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 64, 66, 80, 80, 80, 80, 97."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n64 appears 1 time.\n66 appears 1 time.\n80 appears 4 times.\n97 appears 1 time."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 80. The mode is 80."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_15",
+      "backend_description": "A horizontal bar chart titled 'Youtube Videos Uploaded' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-100). Thursday (blue), Friday (red), Sunday (green) show the longest bars reaching about 80."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "A Online store kept a record of the number of orders processed each month. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_16",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "62"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
+        ],
+        [
+          "2/5",
+          "Read the numbers from the table: 51, 51, 53, 64, 65, 65, 72, 75."
+        ],
+        [
+          "3/5",
+          "First, verify by counting that there are 8 numbers in the group."
+        ],
+        [
+          "4/5",
+          "Now add all the numbers together: 51 + 51 + 53 + 64 + 65 + 65 + 72 + 75 = 496."
+        ],
+        [
+          "5/5",
+          "Now divide the sum by the number of values: 496 ÷ 8 = 62. The mean is 62."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_16",
+      "backend_description": "A data table with a blue header 'The Numbers' showing monthly data. The table has two columns: 'Month' and 'Number'. December shows the highest value (76) while May shows the lowest (50)."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Mr. Rodriguez's science club counted the number of paper airplanes they had made. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_17",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "2"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 10."
+        ],
+        [
+          "2/3",
+          "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 11 numbers."
+        ],
+        [
+          "3/3",
+          "Now add all the numbers together:\n\n1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 2 + 2 + 10 = 22\n\nNow divide the sum by the number of numbers:\n\n22 ÷ 11 = 2\n\nThe mean is 2."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_17",
+      "backend_description": "A stem-and-leaf plot titled 'paper airplanes' with stems 0-0. The plot shows: Stem 0 | Leaves: 2, 2, 2, 2, 2, 2, 2, 2, 2, 2. (Total data points: 10)"
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Jordan tracked their Videos Edited In The Past 7 Days\n _",
+      "image_tag": "Gr4_43_4_18",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "50"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 40, 50, 50, 50, 50, 51, 70."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 40, 50, 50, 50, 50, 51, 70."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n40 appears 1 time.\n50 appears 4 times.\n51 appears 1 time.\n70 appears 1 time."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 50. The mode is 50."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_18",
+      "backend_description": "A horizontal bar chart titled 'Videos Edited In The Past 7 Days' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-70). Saturday (blue), Wednesday (red), Tuesday (green) show the longest bars reaching about 50."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "A quality control team monitored the number of defective products per batch. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_19",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "33"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n28, 28, 30, 30, 31, 31, 32, 32, 33, 34, 36, 38, 46."
+        ],
+        [
+          "2/3",
+          "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 13 numbers."
+        ],
+        [
+          "3/3",
+          "Now add all the numbers together:\n\n28 + 28 + 30 + 30 + 31 + 31 + 32 + 32 + 33 + 34 + 36 + 38 + 46 = 429\n\nNow divide the sum by the number of numbers:\n\n429 ÷ 13 = 33\n\nThe mean is 33."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_19",
+      "backend_description": "A compact stem-and-leaf plot titled 'The Numbers' showing data for stems 2-5. The leaf values show the distribution, with stem 2 having values 3, 4, 6 and stem 3 having values 9 and stem 4 having values 7, 8, 8, 9, 9 and stem 5 having values 0, 0, 2, 3, 5."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "The city council compared how many skateboard ramps there are at each park. What is the mode of The Numbers\n _",
+      "image_tag": "Gr4_43_4_20",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "8"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. To get the data, read the numbers from the tally chart. Count the tally marks in each row: 6, 8, 8, 8, 10, 13, 17, 36."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 6, 8, 8, 8, 10, 13, 17, 36."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n6 appears 1 time.\n8 appears 3 times.\n10 appears 1 time.\n13 appears 1 time.\n17 appears 1 time.\n36 appears 1 time."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 8."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_20",
+      "backend_description": "A large table with a coral-colored header titled 'Skateboard Ramps'. The table lists 10 different entries with their counts shown using blue tally marks. Each group of 5 is shown with 4 vertical lines and 1 diagonal line crossing them."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Jordan tracked their YouTube videos uploaded over the past 7 days. What is the mode of The Numbers\n _",
+      "image_tag": "Gr4_43_4_21",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "40"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 28, 40, 40, 40, 48, 49, 62."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 28, 40, 40, 40, 48, 49, 62."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n28 appears 1 time.\n40 appears 3 times.\n48 appears 1 time.\n49 appears 1 time.\n62 appears 1 time."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 40. The mode is 40."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_21",
+      "backend_description": "A horizontal bar chart titled 'Youtube Videos Uploaded' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-60). Sunday (blue), Saturday (red), Monday (green) show the longest bars reaching about 40."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "A Event company kept a record of the number of tickets sold each month. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_22",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "44"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
+        ],
+        [
+          "2/5",
+          "Read the numbers from the table: 35, 36, 37, 46, 46, 47, 52, 53."
+        ],
+        [
+          "3/5",
+          "First, verify by counting that there are 8 numbers in the group."
+        ],
+        [
+          "4/5",
+          "Now add all the numbers together: 35 + 36 + 37 + 46 + 46 + 47 + 52 + 53 = 352."
+        ],
+        [
+          "5/5",
+          "Now divide the sum by the number of values: 352 ÷ 8 = 44. The mean is 44."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_22",
+      "backend_description": "A data table with a orange header 'The Numbers' showing monthly data. The table has two columns: 'Month' and 'Number'. July shows the highest value (52) while October shows the lowest (32)."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Ms. Chen's craft class counted the number of painted rocks they had made. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_23",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "4"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
+        ],
+        [
+          "2/5",
+          "Read the numbers from the line plot. Each X represents one number: 0, 1, 2, 2, 3, 4, 4, 5, 6, 8, 9."
+        ],
+        [
+          "3/5",
+          "First, verify by counting that there are 11 numbers."
+        ],
+        [
+          "4/5",
+          "Now, add all the numbers together: 0 + 1 + 2 + 2 + 3 + 4 + 4 + 5 + 6 + 8 + 9 = 44."
+        ],
+        [
+          "5/5",
+          "Now divide the sum by the number of values: 44 ÷ 11 = 4. The mean is 4."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_23",
+      "backend_description": "A line plot titled 'The Numbers' with a horizontal number line from 0 to 9. Green X marks show the frequency distribution, with 1 X at position 0, 1 X at position 1, 2 X's at position 2, 1 X at position 3, 2 X's at position 4, 1 X at position 5, 1 X at position 6, 1 X at position 8, 1 X at position 9."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Avery tracked their screenshots taken in the past 7 days. What is the mode of The Numbers\n _",
+      "image_tag": "Gr4_43_4_24",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "50"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 25, 34, 50, 50, 50, 71, 77."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 25, 34, 50, 50, 50, 71, 77."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n25 appears 1 time.\n34 appears 1 time.\n50 appears 3 times.\n71 appears 1 time.\n77 appears 1 time."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 50. The mode is 50."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_24",
+      "backend_description": "A horizontal bar chart titled 'Screenshots Taken In The Past 7 Days. What Is The Mode Of The Numbers' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-70). Saturday (blue), Sunday (red), Monday (green) show the longest bars reaching about 50."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "A production team monitored the number of rejected parts per batch. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_25",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "56"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n50, 51, 51, 52, 53, 54, 55, 56, 56, 57, 58, 58, 59, 59, 59, 59, 60, 61."
+        ],
+        [
+          "2/3",
+          "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 18 numbers."
+        ],
+        [
+          "3/3",
+          "Now add all the numbers together:\n\n50 + 51 + 51 + 52 + 53 + 54 + 55 + 56 + 56 + 57 + 58 + 58 + 59 + 59 + 59 + 59 + 60 + 61 = 1008\n\nNow divide the sum by the number of numbers:\n\n1008 ÷ 18 = 56\n\nThe mean is 56."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_25",
+      "backend_description": "A compact stem-and-leaf plot titled 'The Numbers' showing data for stems 3-7. The leaf values show the distribution, with stem 3 having values 1, 2, 3, 4, 6 and stem 4 having values 1, 5, 9 and stem 5 having values 6 and stem 6 having values 0, 1, 2, 8 and stem 7 having values 7, 8."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "The city council compared how many skateboard ramps there are at each park. What is the mode of The Numbers\n _",
+      "image_tag": "Gr4_43_4_26",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "8"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. To get the data, read the numbers from the tally chart. Count the tally marks in each row: 6, 8, 8, 8, 8, 22, 36, 37."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 6, 8, 8, 8, 8, 22, 36, 37."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n6 appears 1 time.\n8 appears 4 times.\n22 appears 1 time.\n36 appears 1 time.\n37 appears 1 time."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 8."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_26",
+      "backend_description": "A large table with a coral-colored header titled 'Skateboard Ramps'. The table lists 8 different entries with their counts shown using purple tally marks. Each group of 5 is shown with 4 vertical lines and 1 diagonal line crossing them."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Jordan tracked their Instagram posts made over the past 7 days. What is the mode of The Numbers\n _",
+      "image_tag": "Gr4_43_4_27",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "40"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 27, 40, 40, 40, 49, 65, 69."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 27, 40, 40, 40, 49, 65, 69."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n27 appears 1 time.\n40 appears 3 times.\n49 appears 1 time.\n65 appears 1 time.\n69 appears 1 time."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 40. The mode is 40."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_27",
+      "backend_description": "A horizontal bar chart titled 'Instagram Posts Made' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-60). Saturday (blue), Friday (red), Sunday (green) show the longest bars reaching about 40."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "A App developer kept a record of the number of downloads recorded each month. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_28",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "56"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
+        ],
+        [
+          "2/5",
+          "Read the numbers from the table: 30, 41, 54, 56, 62, 67, 68, 70."
+        ],
+        [
+          "3/5",
+          "First, verify by counting that there are 8 numbers in the group."
+        ],
+        [
+          "4/5",
+          "Now add all the numbers together: 30 + 41 + 54 + 56 + 62 + 67 + 68 + 70 = 448."
+        ],
+        [
+          "5/5",
+          "Now divide the sum by the number of values: 448 ÷ 8 = 56. The mean is 56."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_28",
+      "backend_description": "A data table with a blue header 'The Numbers' showing monthly data. The table has two columns: 'Month' and 'Number'. August shows the highest value (71) while July shows the lowest (46)."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Mr. Rodriguez's art class counted the number of origami cranes they had made. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_29",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "3"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
+        ],
+        [
+          "2/5",
+          "Read the numbers from the line plot. Each X represents one number: 0, 1, 1, 2, 2, 3, 3, 4, 5, 6, 6."
+        ],
+        [
+          "3/5",
+          "First, verify by counting that there are 11 numbers."
+        ],
+        [
+          "4/5",
+          "Now, add all the numbers together: 0 + 1 + 1 + 2 + 2 + 3 + 3 + 4 + 5 + 6 + 6 = 33."
+        ],
+        [
+          "5/5",
+          "Now divide the sum by the number of values: 33 ÷ 11 = 3. The mean is 3."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_29",
+      "backend_description": "A line plot titled 'The Numbers' with a horizontal number line from 0 to 6. Green X marks show the frequency distribution, with 1 X at position 0, 2 X's at position 1, 2 X's at position 2, 2 X's at position 3, 1 X at position 4, 1 X at position 5, 2 X's at position 6."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Jamie tracked their Words Written In The Past 7 Days\n _",
+      "image_tag": "Gr4_43_4_30",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "40"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 30, 40, 40, 40, 40, 52, 61."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 30, 40, 40, 40, 40, 52, 61."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n30 appears 1 time.\n40 appears 4 times.\n52 appears 1 time.\n61 appears 1 time."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 40. The mode is 40."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_30",
+      "backend_description": "A horizontal bar chart titled 'Words Written In The Past 7 Days' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-60). Wednesday (blue), Sunday (red), Tuesday (green) show the longest bars reaching about 40."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "A quality control team monitored the number of bugs found per code review. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_31",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "60"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n50, 50, 52, 52, 52, 53, 61, 62, 63, 64, 71, 75, 75."
+        ],
+        [
+          "2/3",
+          "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 13 numbers."
+        ],
+        [
+          "3/3",
+          "Now add all the numbers together:\n\n50 + 50 + 52 + 52 + 52 + 53 + 61 + 62 + 63 + 64 + 71 + 75 + 75 = 780\n\nNow divide the sum by the number of numbers:\n\n780 ÷ 13 = 60\n\nThe mean is 60."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_31",
+      "backend_description": "A compact stem-and-leaf plot titled 'The Numbers' showing data for stems 3-7. The leaf values show the distribution, with stem 3 having values 7, 9 and stem 4 having values 7, 7, 9, 9, 9 and stem 5 having values 0, 2, 4, 7, 8 and stem 6 having values 2, 3 and stem 7 having values 0, 0, 1, 8."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "The city council compared how many skateboard ramps there are at each park. What is the mode of The Numbers\n _",
+      "image_tag": "Gr4_43_4_32",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "6"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. To get the data, read the numbers from the tally chart. Count the tally marks in each row: 1, 6, 6, 6, 6, 14, 20, 24."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 1, 6, 6, 6, 6, 14, 20, 24."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n1 appears 1 time.\n6 appears 4 times.\n14 appears 1 time.\n20 appears 1 time.\n24 appears 1 time."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 6."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_32",
+      "backend_description": "A large table with a lavender-colored header titled 'Skateboard Ramps'. The table lists 8 different entries with their counts shown using orange tally marks. Each group of 5 is shown with 4 vertical lines and 1 diagonal line crossing them."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Riley tracked their Discord messages sent over the past 7 days. What is the mode of The Numbers\n _",
+      "image_tag": "Gr4_43_4_33",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "100"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 78, 84, 84, 97, 100, 100, 100."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 78, 84, 84, 97, 100, 100, 100."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n78 appears 1 time.\n84 appears 2 times.\n97 appears 1 time.\n100 appears 3 times."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 100. The mode is 100."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_33",
+      "backend_description": "A horizontal bar chart titled 'Discord Messages Sent' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-120). Saturday (blue), Thursday (red), Tuesday (green) show the longest bars reaching about 100."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "A Streaming service kept a record of the number of movies watched each month. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_34",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "58"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
+        ],
+        [
+          "2/5",
+          "Read the numbers from the table: 41, 44, 46, 55, 61, 72, 72, 73."
+        ],
+        [
+          "3/5",
+          "First, verify by counting that there are 8 numbers in the group."
+        ],
+        [
+          "4/5",
+          "Now add all the numbers together: 41 + 44 + 46 + 55 + 61 + 72 + 72 + 73 = 464."
+        ],
+        [
+          "5/5",
+          "Now divide the sum by the number of values: 464 ÷ 8 = 58. The mean is 58."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_34",
+      "backend_description": "A data table with a purple header 'The Numbers' showing monthly data. The table has two columns: 'Month' and 'Number'. December shows the highest value (66) while May shows the lowest (49)."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Mr. Johnson's math team counted the number of friendship bracelets they had made. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_35",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "4"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4."
+        ],
+        [
+          "2/3",
+          "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 13 numbers."
+        ],
+        [
+          "3/3",
+          "Now add all the numbers together:\n\n4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 = 52\n\nNow divide the sum by the number of numbers:\n\n52 ÷ 13 = 4\n\nThe mean is 4."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_35",
+      "backend_description": "A stem-and-leaf plot titled 'friendship bracelets' with stems 0-0. The plot shows: Stem 0 | Leaves: 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4. (Total data points: 13)"
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Sam tracked their emails sent in the past 7 days. What is the mode of The Numbers\n _",
+      "image_tag": "Gr4_43_4_36",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "60"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 46, 60, 60, 60, 60, 80, 81."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 46, 60, 60, 60, 60, 80, 81."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n46 appears 1 time.\n60 appears 4 times.\n80 appears 1 time.\n81 appears 1 time."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 60. The mode is 60."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_36",
+      "backend_description": "A horizontal bar chart titled 'Emails Sent In The Past 7 Days. What Is The Mode Of The Numbers' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-80). Friday (blue), Wednesday (red), Monday (green) show the longest bars reaching about 60."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "A quality control team monitored the number of customer complaints per week. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_37",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "39"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n24, 26, 26, 29, 30, 33, 33, 35, 36, 40, 40, 42, 43, 45, 46, 53, 82."
+        ],
+        [
+          "2/3",
+          "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 17 numbers."
+        ],
+        [
+          "3/3",
+          "Now add all the numbers together:\n\n24 + 26 + 26 + 29 + 30 + 33 + 33 + 35 + 36 + 40 + 40 + 42 + 43 + 45 + 46 + 53 + 82 = 663\n\nNow divide the sum by the number of numbers:\n\n663 ÷ 17 = 39\n\nThe mean is 39."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_37",
+      "backend_description": "A compact stem-and-leaf plot titled 'The Numbers' showing data for stems 2-5. The leaf values show the distribution, with stem 2 having values 6, 7, 7, 8 and stem 3 having values 4, 8, 9 and stem 4 having values 4, 9 and stem 5 having values 3, 3, 6."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "The school board compared how many tablets there are at each classroom. What is the mode of The Numbers\n _",
+      "image_tag": "Gr4_43_4_38",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "8"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. To get the data, read the numbers from the tally chart. Count the tally marks in each row: 8, 8, 8, 16, 27, 30, 31, 35."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 8, 8, 8, 16, 27, 30, 31, 35."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n8 appears 3 times.\n16 appears 1 time.\n27 appears 1 time.\n30 appears 1 time.\n31 appears 1 time.\n35 appears 1 time."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 8."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_38",
+      "backend_description": "A large table with a light blue-colored header titled 'Tablets'. The table lists 9 different entries with their counts shown using purple tally marks. Each group of 5 is shown with 4 vertical lines and 1 diagonal line crossing them."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Riley tracked their anime episodes watched over the past 7 days. What is the mode of The Numbers\n _",
+      "image_tag": "Gr4_43_4_39",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "80"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 58, 73, 80, 80, 80, 80, 99."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 58, 73, 80, 80, 80, 80, 99."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n58 appears 1 time.\n73 appears 1 time.\n80 appears 4 times.\n99 appears 1 time."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 80. The mode is 80."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_39",
+      "backend_description": "A horizontal bar chart titled 'Anime Episodes Watched' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-100). Wednesday (blue), Saturday (red), Friday (green) show the longest bars reaching about 80."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "A Gaming platform kept a record of the number of games downloaded each month. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_40",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "44"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
+        ],
+        [
+          "2/5",
+          "Read the numbers from the table: 33, 36, 41, 42, 45, 50, 51, 54."
+        ],
+        [
+          "3/5",
+          "First, verify by counting that there are 8 numbers in the group."
+        ],
+        [
+          "4/5",
+          "Now add all the numbers together: 33 + 36 + 41 + 42 + 45 + 50 + 51 + 54 = 352."
+        ],
+        [
+          "5/5",
+          "Now divide the sum by the number of values: 352 ÷ 8 = 44. The mean is 44."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_40",
+      "backend_description": "A data table with a yellow header 'The Numbers' showing monthly data. The table has two columns: 'Month' and 'Number'. December shows the highest value (51) while June shows the lowest (38)."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Ms. Chen's science club counted the number of painted rocks they had made. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_41",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "3"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3."
+        ],
+        [
+          "2/3",
+          "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 15 numbers."
+        ],
+        [
+          "3/3",
+          "Now add all the numbers together:\n\n3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 = 45\n\nNow divide the sum by the number of numbers:\n\n45 ÷ 15 = 3\n\nThe mean is 3."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_41",
+      "backend_description": "A stem-and-leaf plot titled 'painted rocks' with stems 0-0. The plot shows: Stem 0 | Leaves: 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3. (Total data points: 15)"
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Jamie tracked their Words Written In The Past 7 Days\n _",
+      "image_tag": "Gr4_43_4_42",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "30"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 8, 18, 24, 30, 30, 30, 42."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 8, 18, 24, 30, 30, 30, 42."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n8 appears 1 time.\n18 appears 1 time.\n24 appears 1 time.\n30 appears 3 times.\n42 appears 1 time."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 30. The mode is 30."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_42",
+      "backend_description": "A horizontal bar chart titled 'Words Written In The Past 7 Days' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-50). Friday (blue), Monday (red), Saturday (green) show the longest bars reaching about 30."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "A quality control team monitored the number of errors detected per test. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_43",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "53"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n39, 40, 41, 41, 43, 51, 53, 53, 54, 56, 61, 65, 66, 66, 66."
+        ],
+        [
+          "2/3",
+          "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 15 numbers."
+        ],
+        [
+          "3/3",
+          "Now add all the numbers together:\n\n39 + 40 + 41 + 41 + 43 + 51 + 53 + 53 + 54 + 56 + 61 + 65 + 66 + 66 + 66 = 795\n\nNow divide the sum by the number of numbers:\n\n795 ÷ 15 = 53\n\nThe mean is 53."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_43",
+      "backend_description": "A compact stem-and-leaf plot titled 'The Numbers' showing data for stems 3-7. The leaf values show the distribution, with stem 3 having values 0, 1, 7 and stem 4 having values 7 and stem 5 having values 3, 8 and stem 6 having values 3, 8 and stem 7 having values 2, 5, 5, 9."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "The city council compared how many electric scooters there are at each station. What is the mode of The Numbers\n _",
+      "image_tag": "Gr4_43_4_44",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "6"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. To get the data, read the numbers from the tally chart. Count the tally marks in each row: 6, 6, 6, 6, 21, 24, 28, 32."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 6, 6, 6, 6, 21, 24, 28, 32."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n6 appears 4 times.\n21 appears 1 time.\n24 appears 1 time.\n28 appears 1 time.\n32 appears 1 time."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 6."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_44",
+      "backend_description": "A large table with a light blue-colored header titled 'Electric Scooters'. The table lists 10 different entries with their counts shown using purple tally marks. Each group of 5 is shown with 4 vertical lines and 1 diagonal line crossing them."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Taylor tracked their YouTube videos uploaded over the past 7 days. What is the mode of The Numbers\n _",
+      "image_tag": "Gr4_43_4_45",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "100"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 84, 85, 93, 100, 100, 100, 100."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 84, 85, 93, 100, 100, 100, 100."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n84 appears 1 time.\n85 appears 1 time.\n93 appears 1 time.\n100 appears 4 times."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 100. The mode is 100."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_45",
+      "backend_description": "A horizontal bar chart titled 'Youtube Videos Uploaded' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-120). Thursday (blue), Wednesday (red), Sunday (green) show the longest bars reaching about 100."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "A Event company kept a record of the number of tickets sold each month. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_46",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "44"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
+        ],
+        [
+          "2/5",
+          "Read the numbers from the table: 33, 35, 38, 42, 43, 52, 52, 57."
+        ],
+        [
+          "3/5",
+          "First, verify by counting that there are 8 numbers in the group."
+        ],
+        [
+          "4/5",
+          "Now add all the numbers together: 33 + 35 + 38 + 42 + 43 + 52 + 52 + 57 = 352."
+        ],
+        [
+          "5/5",
+          "Now divide the sum by the number of values: 352 ÷ 8 = 44. The mean is 44."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_46",
+      "backend_description": "A data table with a orange header 'The Numbers' showing monthly data. The table has two columns: 'Month' and 'Number'. November shows the highest value (54) while October shows the lowest (30)."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Mr. Johnson's craft class counted the number of paper airplanes they had made. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_47",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "3"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "Remember that the mean is obtained by adding all the values in a data set together then divide it by how many numbers there are in the set."
+        ],
+        [
+          "2/5",
+          "Read the numbers from the line plot. Each X represents one number: 0, 0, 1, 2, 2, 3, 3, 5, 5, 6, 6."
+        ],
+        [
+          "3/5",
+          "First, verify by counting that there are 11 numbers."
+        ],
+        [
+          "4/5",
+          "Now, add all the numbers together: 0 + 0 + 1 + 2 + 2 + 3 + 3 + 5 + 5 + 6 + 6 = 33."
+        ],
+        [
+          "5/5",
+          "Now divide the sum by the number of values: 33 ÷ 11 = 3. The mean is 3."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_47",
+      "backend_description": "A line plot titled 'The Numbers' with a horizontal number line from 0 to 6. Red X marks show the frequency distribution, with 2 X's at position 0, 1 X at position 1, 2 X's at position 2, 2 X's at position 3, 2 X's at position 5, 2 X's at position 6."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Quinn tracked their Videos Edited In The Past 7 Days\n _",
+      "image_tag": "Gr4_43_4_48",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "40"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 24, 40, 40, 40, 41, 50, 69."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 24, 40, 40, 40, 41, 50, 69."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n24 appears 1 time.\n40 appears 3 times.\n41 appears 1 time.\n50 appears 1 time.\n69 appears 1 time."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 40. The mode is 40."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_48",
+      "backend_description": "A horizontal bar chart titled 'Videos Edited In The Past 7 Days' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-60). Friday (blue), Thursday (red), Wednesday (green) show the longest bars reaching about 40."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "A quality control team monitored the number of bugs found per code review. What is the mean of The Numbers\n _",
+      "image_tag": "Gr4_43_4_49",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "39"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "Read the numbers from the stem-and-leaf plot. The stem is the first part of the number, and the leaf is the last digit. You can construct the following sequence from the plot:\n32, 34, 34, 35, 36, 36, 38, 39, 39, 40, 40, 41, 42, 42, 43, 43, 44, 44."
+        ],
+        [
+          "2/3",
+          "Remember, the mean is the \"average\" number, which is found by adding all data points and dividing the sum by the number of data points.\nFirst, count how many numbers are in the group. There are 18 numbers."
+        ],
+        [
+          "3/3",
+          "Now add all the numbers together:\n\n32 + 34 + 34 + 35 + 36 + 36 + 38 + 39 + 39 + 40 + 40 + 41 + 42 + 42 + 43 + 43 + 44 + 44 = 702\n\nNow divide the sum by the number of numbers:\n\n702 ÷ 18 = 39\n\nThe mean is 39."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_49",
+      "backend_description": "A compact stem-and-leaf plot titled 'The Numbers' showing data for stems 2-5. The leaf values show the distribution, with stem 2 having values 0, 5, 7, 8, 9 and stem 3 having values 0, 7, 8, 9 and stem 4 having values 2, 5, 7, 7 and stem 5 having values 7."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "The sports league compared how many team jerseys there are at each store. What is the mode of The Numbers\n _",
+      "image_tag": "Gr4_43_4_50",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "10"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. To get the data, read the numbers from the tally chart. Count the tally marks in each row: 1, 7, 10, 10, 10, 10, 21, 33."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 1, 7, 10, 10, 10, 10, 21, 33."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n1 appears 1 time.\n7 appears 1 time.\n10 appears 4 times.\n21 appears 1 time.\n33 appears 1 time."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 10."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_50",
+      "backend_description": "A large table with a coral-colored header titled 'Team Jerseys'. The table lists 8 different entries with their counts shown using pink tally marks. Each group of 5 is shown with 4 vertical lines and 1 diagonal line crossing them."
+    },
+    {
+      "skills": "interpret-charts-to-find-mean-and-mode",
+      "question_text": "Taylor tracked their anime episodes watched over the past 7 days. What is the mode of The Numbers\n _",
+      "image_tag": "Gr4_43_4_51",
+      "question_type": "Fill in the blank",
+      "tag": "Gr4_43_E4",
+      "correct_answers": [
+        "20"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "Remember that mode refers to the number that appears most frequently in a data set. Read the numbers from the bar graph. Find the number for each bar: 1, 2, 20, 20, 20, 20, 49."
+        ],
+        [
+          "2/4",
+          "First, arrange the numbers from least to greatest: 1, 2, 20, 20, 20, 20, 49."
+        ],
+        [
+          "3/4",
+          "Now count how many times each number appears.\n1 appears 1 time.\n2 appears 1 time.\n20 appears 4 times.\n49 appears 1 time."
+        ],
+        [
+          "4/4",
+          "The number that appears most often is 20. The mode is 20."
+        ]
+      ],
+      "solution_image_tag": [],
+      "question_number": "4_51",
+      "backend_description": "A horizontal bar chart titled 'Anime Episodes Watched' showing data for each day of the week. Each day has a colored bar extending to show the value (scale 0-40). Monday (blue), Friday (red), Wednesday (green) show the longest bars reaching about 20."
+    }
+  ]
+}

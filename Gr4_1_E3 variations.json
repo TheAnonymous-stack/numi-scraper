@@ -1,1834 +1,1836 @@
-[
-  {
-    "skills": "compare-numbers",
-    "question_text": "Which number is smallest?",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "1955",
-      "1957",
-      "5951"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/3",
-        "All numbers have 4 digits. Look at the thousands place: 1955 and 1957 both start with 1, but 5951 starts with 5. Since 1 is smaller than 5, both 1955 and 1957 are smaller than 5951."
-      ],
-      [
-        "3/3",
-        "Now compare 1955 and 1957. The first three digits are the same (195), so look at the ones place: 5 vs 7. Since 5 is smaller than 7, the smallest number is 1955."
-      ]
-    ],
-    "question_number": "3_1",
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Which number is largest?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_2",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "7945",
-      "7943",
-      "7549"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/4",
-        "All numbers have 4 digits. Look at the thousands place: all three numbers start with 7, so they're the same. Move to the hundreds place."
-      ],
-      [
-        "3/4",
-        "Compare hundreds place: 7945 has 9, 7943 has 9, and 7549 has 5. Since 9 is bigger than 5, both 7945 and 7943 are larger than 7549."
-      ],
-      [
-        "4/4",
-        "Now compare 7945 and 7943. The first three digits are the same (794), so look at the ones place: 5 vs 3. Since 5 is bigger than 3, 7945 is the largest number."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Some dealerships compared their vehicle sales. Which dealership sold the most vehicles?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_3",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_3",
-    "choices": [
-      "Affordable Cars",
-      "RV City",
-      "Cars of Pryor Falls",
-      "Ledbetter Auto Mall"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This is a word problem asking us to find which dealership sold the most vehicles. Look at the table to find the numbers for each dealership."
-      ],
-      [
-        "2/5",
-        "From the table: Affordable Cars sold 141, RV City sold 114, Cars of Pryor Falls sold 171, and Ledbetter Auto Mall sold 174. To find the most vehicles sold, compare these numbers to find the largest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place: all have 1 in the hundreds place, so they are the same."
-      ],
-      [
-        "4/5",
-        "Compare the tens place: 141 has 4, 114 has 1, 171 has 7, and 174 has 7. Since 7 is bigger than 4 and 1, both 171 and 174 are larger than the others."
-      ],
-      [
-        "5/5",
-        "Now compare 171 and 174. They both have 17 in the tens and hundreds places, so look at the ones place: 1 vs 4. Since 4 is bigger than 1, 174 is the largest number. Therefore, Ledbetter Auto Mall sold the most vehicles."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A data table with a light purple header titled 'Vehicle sales'. The table has two columns: 'Dealership' and 'Number of vehicles'. It contains four rows of data: Affordable Cars: 141 vehicles, RV City: 114 vehicles, Cars of Pryor Falls: 171 vehicles, Ledbetter Auto Mall: 174 vehicles. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
-  },
-  {
-    "question_text": "Roxanne kept a log of how many pages she read each month. In which month did Roxanne read the fewest pages?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_4",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_4",
-    "choices": [
-      "July",
-      "August",
-      "September",
-      "October"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This word problem asks us to find which month Roxanne read the fewest pages. Look at the table to find the numbers for each month."
-      ],
-      [
-        "2/5",
-        "From the table: July had 629 pages, August had 662 pages, September had 699 pages, and October had 692 pages. To find the fewest pages, compare these numbers to find the smallest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place: all numbers have 6 in the hundreds place, so they are the same. Move to the tens place."
-      ],
-      [
-        "4/5",
-        "Compare the tens place: 629 has 2, 662 has 6, 699 has 9, and 692 has 9. Since 2 is smaller than 6 and 9, the number 629 is the smallest."
-      ],
-      [
-        "5/5",
-        "629 is the smallest number, which corresponds to July. Therefore, Roxanne read the fewest pages in July."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A pink-themed data table titled 'Pages read'. The table has two columns: 'Month' and 'Number of pages', showing reading progress over four months: July: 629 pages, August: 662 pages, September: 699 pages, October: 692 pages. The table features a pink header row and black text on white cells with black borders throughout."
-  },
-  {
-    "skills": "compare-numbers",
-    "question_text": "Which number is smallest?",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "3935",
-      "3998",
-      "8276"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/3",
-        "All numbers have 4 digits. Look at the thousands place: 3998 starts with 3, 3935 starts with 3, 8276 starts with 8. Since 3 is smaller, 3998 and 3935 are smaller than 8276."
-      ],
-      [
-        "3/3",
-        "After comparing all place values, the smallest number is 3935."
-      ]
-    ],
-    "question_number": "3_5",
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Carlos tracked how many minutes he practiced piano each day. On which day did Carlos practice the fewest minutes?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_6",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_6",
-    "choices": [
-      "Tuesday",
-      "Thursday",
-      "Monday",
-      "Wednesday"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This word problem asks us to find which day had the fewest minutes. Look at the table to find the numbers for each day."
-      ],
-      [
-        "2/5",
-        "From the table: Monday had 368, Tuesday had 152, Wednesday had 291, and Thursday had 692. To find the fewest, compare these numbers to find the smallest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place."
-      ],
-      [
-        "4/5",
-        "Compare the digits systematically from left to right to find the smallest number."
-      ],
-      [
-        "5/5",
-        "152 is the smallest number, which corresponds to Tuesday. Therefore, Tuesday had the fewest minutes."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A pink-themed data table titled 'Piano practice'. The table has two columns: 'Day' and 'Number of minutes', showing data over four rows: Monday: 368, Tuesday: 152, Wednesday: 291, Thursday: 692. The table features a pink header row and black text on white cells with black borders throughout."
-  },
-  {
-    "question_text": "Which number is largest?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_7",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "1183",
-      "3517",
-      "3246"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/4",
-        "All numbers have 4 digits. Look at the thousands place: 1183 starts with 1, 3246 starts with 3, 3517 starts with 3. Since 3 is bigger, focus on numbers starting with 3."
-      ],
-      [
-        "3/4",
-        "Continue comparing the remaining place values to find the largest."
-      ],
-      [
-        "4/4",
-        "After comparing all place values, 3517 is the largest number."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Four stores compared their weekend sales. Which store had the most sales?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_8",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_8",
-    "choices": [
-      "Quick Shop",
-      "Mega Mart",
-      "Value Store",
-      "Express Market"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This is a word problem asking us to find which store had the most items sold. Look at the table to find the numbers for each store."
-      ],
-      [
-        "2/5",
-        "From the table: Mega Mart had 714, Quick Shop had 345, Value Store had 149, and Express Market had 114. To find the most, compare these numbers to find the largest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place."
-      ],
-      [
-        "4/5",
-        "Compare the digits systematically from left to right to find the largest number."
-      ],
-      [
-        "5/5",
-        "714 is the largest number. Therefore, Mega Mart most the most items sold."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A data table with a light purple header titled 'Weekend sales'. The table has two columns: 'Store' and 'Number of items sold'. It contains four rows of data: Mega Mart: 714, Quick Shop: 345, Value Store: 149, Express Market: 114. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
-  },
-  {
-    "skills": "compare-numbers",
-    "question_text": "Which number is smallest?",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "6407",
-      "2264",
-      "2642"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/3",
-        "All numbers have 4 digits. Look at the thousands place: 2642 starts with 2, 6407 starts with 6, 2264 starts with 2. Since 2 is smaller, 2642 and 2264 are smaller than 6407."
-      ],
-      [
-        "3/3",
-        "After comparing all place values, the smallest number is 2264."
-      ]
-    ],
-    "question_number": "3_9",
-    "solution_image_tag": []
-  },
-  {
-    "skills": "compare-numbers",
-    "question_text": "Which number is smallest?",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "5330",
-      "9059",
-      "4075"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/3",
-        "All numbers have 4 digits. Look at the thousands place: 9059 starts with 9, 5330 starts with 5, 4075 starts with 4. Since 4 is smaller, 4075 is smaller than 9059 and 5330."
-      ],
-      [
-        "3/3",
-        "After comparing all place values, the smallest number is 4075."
-      ]
-    ],
-    "question_number": "3_10",
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Emma counted the birds she saw at different parks. At which park did Emma see the fewest birds?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_11",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_11",
-    "choices": [
-      "Birch Trail",
-      "Pine Grove",
-      "Oak Park",
-      "Maple Woods"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This word problem asks us to find which park had the fewest birds. Look at the table to find the numbers for each park."
-      ],
-      [
-        "2/5",
-        "From the table: Oak Park had 122, Pine Grove had 839, Maple Woods had 287, and Birch Trail had 297. To find the fewest, compare these numbers to find the smallest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place."
-      ],
-      [
-        "4/5",
-        "Compare the digits systematically from left to right to find the smallest number."
-      ],
-      [
-        "5/5",
-        "122 is the smallest number, which corresponds to Oak Park. Therefore, Oak Park had the fewest birds."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A pink-themed data table titled 'Bird sightings'. The table has two columns: 'Park' and 'Number of birds', showing data over four rows: Oak Park: 122, Pine Grove: 839, Maple Woods: 287, Birch Trail: 297. The table features a pink header row and black text on white cells with black borders throughout."
-  },
-  {
-    "question_text": "Which number is largest?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_12",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "3028",
-      "8426",
-      "2291"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/4",
-        "All numbers have 4 digits. Look at the thousands place: 8426 starts with 8, 3028 starts with 3, 2291 starts with 2. Since 8 is bigger, focus on numbers starting with 8."
-      ],
-      [
-        "3/4",
-        "Continue comparing the remaining place values to find the largest."
-      ],
-      [
-        "4/4",
-        "After comparing all place values, 8426 is the largest number."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "compare-numbers",
-    "question_text": "Which number is smallest?",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "8674",
-      "2111",
-      "3398"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/3",
-        "All numbers have 4 digits. Look at the thousands place: 8674 starts with 8, 2111 starts with 2, 3398 starts with 3. Since 2 is smaller, 2111 is smaller than 8674 and 3398."
-      ],
-      [
-        "3/3",
-        "After comparing all place values, the smallest number is 2111."
-      ]
-    ],
-    "question_number": "3_13",
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Which number is largest?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_14",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "2392",
-      "2898",
-      "2176"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/4",
-        "All numbers have 4 digits. Look at the thousands place: all three numbers start with 2, so they're the same. Move to the hundreds place."
-      ],
-      [
-        "3/4",
-        "Compare hundreds place: 2898 has 8, 2392 has 3, 2176 has 1. Find the largest digit in this place."
-      ],
-      [
-        "4/4",
-        "After comparing all place values, 2898 is the largest number."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Four schools compared their student enrollment. Which school has the most students?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_15",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_15",
-    "choices": [
-      "Washington Primary",
-      "Roosevelt School",
-      "Lincoln Elementary",
-      "Jefferson Academy"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This is a word problem asking us to find which school had the most students. Look at the table to find the numbers for each school."
-      ],
-      [
-        "2/5",
-        "From the table: Lincoln Elementary had 645, Washington Primary had 669, Jefferson Academy had 850, and Roosevelt School had 144. To find the most, compare these numbers to find the largest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place."
-      ],
-      [
-        "4/5",
-        "Compare the digits systematically from left to right to find the largest number."
-      ],
-      [
-        "5/5",
-        "850 is the largest number. Therefore, Jefferson Academy most the most students."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A data table with a light purple header titled 'Student enrollment'. The table has two columns: 'School' and 'Number of students'. It contains four rows of data: Lincoln Elementary: 645, Washington Primary: 669, Jefferson Academy: 850, Roosevelt School: 144. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
-  },
-  {
-    "skills": "compare-numbers",
-    "question_text": "Which number is smallest?",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "5622",
-      "4116",
-      "7847"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/3",
-        "All numbers have 4 digits. Look at the thousands place: 4116 starts with 4, 7847 starts with 7, 5622 starts with 5. Since 4 is smaller, 4116 is smaller than 7847 and 5622."
-      ],
-      [
-        "3/3",
-        "After comparing all place values, the smallest number is 4116."
-      ]
-    ],
-    "question_number": "3_16",
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Which number is largest?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_17",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "1207",
-      "2807",
-      "5043"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/4",
-        "All numbers have 4 digits. Look at the thousands place: 2807 starts with 2, 5043 starts with 5, 1207 starts with 1. Since 5 is bigger, focus on numbers starting with 5."
-      ],
-      [
-        "3/4",
-        "Continue comparing the remaining place values to find the largest."
-      ],
-      [
-        "4/4",
-        "After comparing all place values, 5043 is the largest number."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Some bakeries compared their donut sales. Which bakery sold the most donuts?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_18",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_18",
-    "choices": [
-      "Donut Palace",
-      "Morning Glory",
-      "Baker's Dozen",
-      "Sweet Treats"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This is a word problem asking us to find which bakery had the most donuts. Look at the table to find the numbers for each bakery."
-      ],
-      [
-        "2/5",
-        "From the table: Sweet Treats had 908, Donut Palace had 318, Morning Glory had 691, and Baker's Dozen had 885. To find the most, compare these numbers to find the largest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place."
-      ],
-      [
-        "4/5",
-        "Compare the digits systematically from left to right to find the largest number."
-      ],
-      [
-        "5/5",
-        "908 is the largest number. Therefore, Sweet Treats most the most donuts."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A data table with a light purple header titled 'Donut sales'. The table has two columns: 'Bakery' and 'Number of donuts'. It contains four rows of data: Sweet Treats: 908, Donut Palace: 318, Morning Glory: 691, Baker's Dozen: 885. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
-  },
-  {
-    "question_text": "Which number is largest?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_19",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "4817",
-      "7712",
-      "5094"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/4",
-        "All numbers have 4 digits. Look at the thousands place: 7712 starts with 7, 5094 starts with 5, 4817 starts with 4. Since 7 is bigger, focus on numbers starting with 7."
-      ],
-      [
-        "3/4",
-        "Continue comparing the remaining place values to find the largest."
-      ],
-      [
-        "4/4",
-        "After comparing all place values, 7712 is the largest number."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "A farmer counted eggs collected from different coops. Which coop had the fewest eggs?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_20",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_20",
-    "choices": [
-      "Coop B",
-      "Coop A",
-      "Coop D",
-      "Coop C"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This word problem asks us to find which coop had the fewest eggs. Look at the table to find the numbers for each coop."
-      ],
-      [
-        "2/5",
-        "From the table: Coop A had 362, Coop B had 978, Coop C had 665, and Coop D had 452. To find the fewest, compare these numbers to find the smallest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place."
-      ],
-      [
-        "4/5",
-        "Compare the digits systematically from left to right to find the smallest number."
-      ],
-      [
-        "5/5",
-        "362 is the smallest number, which corresponds to Coop A. Therefore, Coop A had the fewest eggs."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A pink-themed data table titled 'Egg collection'. The table has two columns: 'Coop' and 'Number of eggs', showing data over four rows: Coop A: 362, Coop B: 978, Coop C: 665, Coop D: 452. The table features a pink header row and black text on white cells with black borders throughout."
-  },
-  {
-    "question_text": "Carlos tracked how many minutes he practiced piano each day. On which day did Carlos practice the fewest minutes?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_21",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_21",
-    "choices": [
-      "Tuesday",
-      "Wednesday",
-      "Monday",
-      "Thursday"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This word problem asks us to find which day had the fewest minutes. Look at the table to find the numbers for each day."
-      ],
-      [
-        "2/5",
-        "From the table: Monday had 781, Tuesday had 227, Wednesday had 236, and Thursday had 246. To find the fewest, compare these numbers to find the smallest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place."
-      ],
-      [
-        "4/5",
-        "Compare the digits systematically from left to right to find the smallest number."
-      ],
-      [
-        "5/5",
-        "227 is the smallest number, which corresponds to Tuesday. Therefore, Tuesday had the fewest minutes."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A pink-themed data table titled 'Piano practice'. The table has two columns: 'Day' and 'Number of minutes', showing data over four rows: Monday: 781, Tuesday: 227, Wednesday: 236, Thursday: 246. The table features a pink header row and black text on white cells with black borders throughout."
-  },
-  {
-    "skills": "compare-numbers",
-    "question_text": "Which number is smallest?",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "7933",
-      "4381",
-      "4857"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/3",
-        "All numbers have 4 digits. Look at the thousands place: 4381 starts with 4, 7933 starts with 7, 4857 starts with 4. Since 4 is smaller, 4381 and 4857 are smaller than 7933."
-      ],
-      [
-        "3/3",
-        "After comparing all place values, the smallest number is 4381."
-      ]
-    ],
-    "question_number": "3_22",
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Which number is largest?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_23",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "8342",
-      "7369",
-      "8969"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/4",
-        "All numbers have 4 digits. Look at the thousands place: 8969 starts with 8, 8342 starts with 8, 7369 starts with 7. Since 8 is bigger, focus on numbers starting with 8."
-      ],
-      [
-        "3/4",
-        "Continue comparing the remaining place values to find the largest."
-      ],
-      [
-        "4/4",
-        "After comparing all place values, 8969 is the largest number."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "compare-numbers",
-    "question_text": "Which number is smallest?",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "5140",
-      "1300",
-      "3315"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/3",
-        "All numbers have 4 digits. Look at the thousands place: 5140 starts with 5, 3315 starts with 3, 1300 starts with 1. Since 1 is smaller, 1300 is smaller than 5140 and 3315."
-      ],
-      [
-        "3/3",
-        "After comparing all place values, the smallest number is 1300."
-      ]
-    ],
-    "question_number": "3_24",
-    "solution_image_tag": []
-  },
-  {
-    "skills": "compare-numbers",
-    "question_text": "Which number is smallest?",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "1021",
-      "1511",
-      "1954"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/3",
-        "All numbers have 4 digits. Look at the thousands place: all start with 1. In the hundreds place: 1021 has 0, 1954 has 9, 1511 has 5."
-      ],
-      [
-        "3/3",
-        "After comparing all place values, the smallest number is 1021."
-      ]
-    ],
-    "question_number": "3_25",
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Which number is largest?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_26",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "8893",
-      "1988",
-      "2982"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/4",
-        "All numbers have 4 digits. Look at the thousands place: 8893 starts with 8, 2982 starts with 2, 1988 starts with 1. Since 8 is bigger, focus on numbers starting with 8."
-      ],
-      [
-        "3/4",
-        "Continue comparing the remaining place values to find the largest."
-      ],
-      [
-        "4/4",
-        "After comparing all place values, 8893 is the largest number."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Four schools compared their student enrollment. Which school has the most students?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_27",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_27",
-    "choices": [
-      "Roosevelt School",
-      "Washington Primary",
-      "Jefferson Academy",
-      "Lincoln Elementary"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This is a word problem asking us to find which school had the most students. Look at the table to find the numbers for each school."
-      ],
-      [
-        "2/5",
-        "From the table: Lincoln Elementary had 698, Washington Primary had 840, Jefferson Academy had 847, and Roosevelt School had 542. To find the most, compare these numbers to find the largest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place."
-      ],
-      [
-        "4/5",
-        "Compare the digits systematically from left to right to find the largest number."
-      ],
-      [
-        "5/5",
-        "847 is the largest number. Therefore, Jefferson Academy most the most students."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A data table with a light purple header titled 'Student enrollment'. The table has two columns: 'School' and 'Number of students'. It contains four rows of data: Lincoln Elementary: 698, Washington Primary: 840, Jefferson Academy: 847, Roosevelt School: 542. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
-  },
-  {
-    "question_text": "Emma counted the birds she saw at different parks. At which park did Emma see the fewest birds?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_28",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_28",
-    "choices": [
-      "Maple Woods",
-      "Pine Grove",
-      "Oak Park",
-      "Birch Trail"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This word problem asks us to find which park had the fewest birds. Look at the table to find the numbers for each park."
-      ],
-      [
-        "2/5",
-        "From the table: Oak Park had 724, Pine Grove had 455, Maple Woods had 910, and Birch Trail had 820. To find the fewest, compare these numbers to find the smallest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place."
-      ],
-      [
-        "4/5",
-        "Compare the digits systematically from left to right to find the smallest number."
-      ],
-      [
-        "5/5",
-        "455 is the smallest number, which corresponds to Pine Grove. Therefore, Pine Grove had the fewest birds."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A pink-themed data table titled 'Bird sightings'. The table has two columns: 'Park' and 'Number of birds', showing data over four rows: Oak Park: 724, Pine Grove: 455, Maple Woods: 910, Birch Trail: 820. The table features a pink header row and black text on white cells with black borders throughout."
-  },
-  {
-    "question_text": "Which number is largest?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_29",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "6073",
-      "3277",
-      "4976"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/4",
-        "All numbers have 4 digits. Look at the thousands place: 3277 starts with 3, 4976 starts with 4, 6073 starts with 6. Since 6 is bigger, focus on numbers starting with 6."
-      ],
-      [
-        "3/4",
-        "Continue comparing the remaining place values to find the largest."
-      ],
-      [
-        "4/4",
-        "After comparing all place values, 6073 is the largest number."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Which number is largest?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_30",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "1541",
-      "3334",
-      "9647"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/4",
-        "All numbers have 4 digits. Look at the thousands place: 1541 starts with 1, 9647 starts with 9, 3334 starts with 3. Since 9 is bigger, focus on numbers starting with 9."
-      ],
-      [
-        "3/4",
-        "Continue comparing the remaining place values to find the largest."
-      ],
-      [
-        "4/4",
-        "After comparing all place values, 9647 is the largest number."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "compare-numbers",
-    "question_text": "Which number is smallest?",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "1932",
-      "4594",
-      "9075"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/3",
-        "All numbers have 4 digits. Look at the thousands place: 9075 starts with 9, 1932 starts with 1, 4594 starts with 4. Since 1 is smaller, 1932 is smaller than 9075 and 4594."
-      ],
-      [
-        "3/3",
-        "After comparing all place values, the smallest number is 1932."
-      ]
-    ],
-    "question_number": "3_31",
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "A teacher recorded homework scores for different subjects. Which subject had the fewest points?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_32",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_32",
-    "choices": [
-      "Science",
-      "Reading",
-      "Math",
-      "History"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This word problem asks us to find which subject had the fewest points. Look at the table to find the numbers for each subject."
-      ],
-      [
-        "2/5",
-        "From the table: Math had 950, Science had 707, Reading had 985, and History had 459. To find the fewest, compare these numbers to find the smallest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place."
-      ],
-      [
-        "4/5",
-        "Compare the digits systematically from left to right to find the smallest number."
-      ],
-      [
-        "5/5",
-        "459 is the smallest number, which corresponds to History. Therefore, History had the fewest points."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A pink-themed data table titled 'Homework scores'. The table has two columns: 'Subject' and 'Number of points', showing data over four rows: Math: 950, Science: 707, Reading: 985, History: 459. The table features a pink header row and black text on white cells with black borders throughout."
-  },
-  {
-    "question_text": "Some bakeries compared their donut sales. Which bakery sold the most donuts?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_33",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_33",
-    "choices": [
-      "Morning Glory",
-      "Sweet Treats",
-      "Donut Palace",
-      "Baker's Dozen"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This is a word problem asking us to find which bakery had the most donuts. Look at the table to find the numbers for each bakery."
-      ],
-      [
-        "2/5",
-        "From the table: Sweet Treats had 525, Donut Palace had 757, Morning Glory had 323, and Baker's Dozen had 463. To find the most, compare these numbers to find the largest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place."
-      ],
-      [
-        "4/5",
-        "Compare the digits systematically from left to right to find the largest number."
-      ],
-      [
-        "5/5",
-        "757 is the largest number. Therefore, Donut Palace most the most donuts."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A data table with a light purple header titled 'Donut sales'. The table has two columns: 'Bakery' and 'Number of donuts'. It contains four rows of data: Sweet Treats: 525, Donut Palace: 757, Morning Glory: 323, Baker's Dozen: 463. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
-  },
-  {
-    "question_text": "Which number is largest?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_34",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "8908",
-      "2139",
-      "1592"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/4",
-        "All numbers have 4 digits. Look at the thousands place: 8908 starts with 8, 1592 starts with 1, 2139 starts with 2. Since 8 is bigger, focus on numbers starting with 8."
-      ],
-      [
-        "3/4",
-        "Continue comparing the remaining place values to find the largest."
-      ],
-      [
-        "4/4",
-        "After comparing all place values, 8908 is the largest number."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "A farmer counted eggs collected from different coops. Which coop had the fewest eggs?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_35",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_35",
-    "choices": [
-      "Coop B",
-      "Coop C",
-      "Coop A",
-      "Coop D"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This word problem asks us to find which coop had the fewest eggs. Look at the table to find the numbers for each coop."
-      ],
-      [
-        "2/5",
-        "From the table: Coop A had 354, Coop B had 543, Coop C had 182, and Coop D had 250. To find the fewest, compare these numbers to find the smallest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place."
-      ],
-      [
-        "4/5",
-        "Compare the digits systematically from left to right to find the smallest number."
-      ],
-      [
-        "5/5",
-        "182 is the smallest number, which corresponds to Coop C. Therefore, Coop C had the fewest eggs."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A pink-themed data table titled 'Egg collection'. The table has two columns: 'Coop' and 'Number of eggs', showing data over four rows: Coop A: 354, Coop B: 543, Coop C: 182, Coop D: 250. The table features a pink header row and black text on white cells with black borders throughout."
-  },
-  {
-    "question_text": "Carlos tracked how many minutes he practiced piano each day. On which day did Carlos practice the fewest minutes?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_36",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_36",
-    "choices": [
-      "Tuesday",
-      "Monday",
-      "Thursday",
-      "Wednesday"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This word problem asks us to find which day had the fewest minutes. Look at the table to find the numbers for each day."
-      ],
-      [
-        "2/5",
-        "From the table: Monday had 291, Tuesday had 343, Wednesday had 290, and Thursday had 861. To find the fewest, compare these numbers to find the smallest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place."
-      ],
-      [
-        "4/5",
-        "Compare the digits systematically from left to right to find the smallest number."
-      ],
-      [
-        "5/5",
-        "290 is the smallest number, which corresponds to Wednesday. Therefore, Wednesday had the fewest minutes."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A pink-themed data table titled 'Piano practice'. The table has two columns: 'Day' and 'Number of minutes', showing data over four rows: Monday: 291, Tuesday: 343, Wednesday: 290, Thursday: 861. The table features a pink header row and black text on white cells with black borders throughout."
-  },
-  {
-    "question_text": "Some bakeries compared their donut sales. Which bakery sold the most donuts?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_37",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_37",
-    "choices": [
-      "Sweet Treats",
-      "Baker's Dozen",
-      "Morning Glory",
-      "Donut Palace"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This is a word problem asking us to find which bakery had the most donuts. Look at the table to find the numbers for each bakery."
-      ],
-      [
-        "2/5",
-        "From the table: Sweet Treats had 893, Donut Palace had 605, Morning Glory had 466, and Baker's Dozen had 517. To find the most, compare these numbers to find the largest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place."
-      ],
-      [
-        "4/5",
-        "Compare the digits systematically from left to right to find the largest number."
-      ],
-      [
-        "5/5",
-        "893 is the largest number. Therefore, Sweet Treats most the most donuts."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A data table with a light purple header titled 'Donut sales'. The table has two columns: 'Bakery' and 'Number of donuts'. It contains four rows of data: Sweet Treats: 893, Donut Palace: 605, Morning Glory: 466, Baker's Dozen: 517. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
-  },
-  {
-    "question_text": "Which number is largest?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_38",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "3405",
-      "8525",
-      "1682"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/4",
-        "All numbers have 4 digits. Look at the thousands place: 8525 starts with 8, 3405 starts with 3, 1682 starts with 1. Since 8 is bigger, focus on numbers starting with 8."
-      ],
-      [
-        "3/4",
-        "Continue comparing the remaining place values to find the largest."
-      ],
-      [
-        "4/4",
-        "After comparing all place values, 8525 is the largest number."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Some libraries tracked their book checkouts. Which library had the most checkouts?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_39",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_39",
-    "choices": [
-      "West End Branch",
-      "Eastside Library",
-      "North Branch",
-      "Central Library"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This is a word problem asking us to find which library had the most books. Look at the table to find the numbers for each library."
-      ],
-      [
-        "2/5",
-        "From the table: Central Library had 391, North Branch had 484, Eastside Library had 848, and West End Branch had 289. To find the most, compare these numbers to find the largest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place."
-      ],
-      [
-        "4/5",
-        "Compare the digits systematically from left to right to find the largest number."
-      ],
-      [
-        "5/5",
-        "848 is the largest number. Therefore, Eastside Library most the most books."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A data table with a light purple header titled 'Book checkouts'. The table has two columns: 'Library' and 'Number of books'. It contains four rows of data: Central Library: 391, North Branch: 484, Eastside Library: 848, West End Branch: 289. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
-  },
-  {
-    "skills": "compare-numbers",
-    "question_text": "Which number is smallest?",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "4682",
-      "9821",
-      "2060"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/3",
-        "All numbers have 4 digits. Look at the thousands place: 4682 starts with 4, 9821 starts with 9, 2060 starts with 2. Since 2 is smaller, 2060 is smaller than 4682 and 9821."
-      ],
-      [
-        "3/3",
-        "After comparing all place values, the smallest number is 2060."
-      ]
-    ],
-    "question_number": "3_40",
-    "solution_image_tag": []
-  },
-  {
-    "skills": "compare-numbers",
-    "question_text": "Which number is smallest?",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "8677",
-      "9699",
-      "5855"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/3",
-        "All numbers have 4 digits. Look at the thousands place: 8677 starts with 8, 5855 starts with 5, 9699 starts with 9. Since 5 is smaller, 5855 is smaller than 8677 and 9699."
-      ],
-      [
-        "3/3",
-        "After comparing all place values, the smallest number is 5855."
-      ]
-    ],
-    "question_number": "3_41",
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Four schools compared their student enrollment. Which school has the most students?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_42",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_42",
-    "choices": [
-      "Roosevelt School",
-      "Washington Primary",
-      "Jefferson Academy",
-      "Lincoln Elementary"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This is a word problem asking us to find which school had the most students. Look at the table to find the numbers for each school."
-      ],
-      [
-        "2/5",
-        "From the table: Lincoln Elementary had 140, Washington Primary had 431, Jefferson Academy had 142, and Roosevelt School had 972. To find the most, compare these numbers to find the largest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place."
-      ],
-      [
-        "4/5",
-        "Compare the digits systematically from left to right to find the largest number."
-      ],
-      [
-        "5/5",
-        "972 is the largest number. Therefore, Roosevelt School most the most students."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A data table with a light purple header titled 'Student enrollment'. The table has two columns: 'School' and 'Number of students'. It contains four rows of data: Lincoln Elementary: 140, Washington Primary: 431, Jefferson Academy: 142, Roosevelt School: 972. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
-  },
-  {
-    "skills": "compare-numbers",
-    "question_text": "Which number is smallest?",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "8455",
-      "9566",
-      "7719"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/3",
-        "All numbers have 4 digits. Look at the thousands place: 9566 starts with 9, 7719 starts with 7, 8455 starts with 8. Since 7 is smaller, 7719 is smaller than 9566 and 8455."
-      ],
-      [
-        "3/3",
-        "After comparing all place values, the smallest number is 7719."
-      ]
-    ],
-    "question_number": "3_43",
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Which number is largest?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_44",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "2045",
-      "8510",
-      "7122"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/4",
-        "All numbers have 4 digits. Look at the thousands place: 8510 starts with 8, 2045 starts with 2, 7122 starts with 7. Since 8 is bigger, focus on numbers starting with 8."
-      ],
-      [
-        "3/4",
-        "Continue comparing the remaining place values to find the largest."
-      ],
-      [
-        "4/4",
-        "After comparing all place values, 8510 is the largest number."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Some libraries tracked their book checkouts. Which library had the most checkouts?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_45",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_45",
-    "choices": [
-      "Central Library",
-      "North Branch",
-      "West End Branch",
-      "Eastside Library"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This is a word problem asking us to find which library had the most books. Look at the table to find the numbers for each library."
-      ],
-      [
-        "2/5",
-        "From the table: Central Library had 688, North Branch had 384, Eastside Library had 582, and West End Branch had 299. To find the most, compare these numbers to find the largest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place."
-      ],
-      [
-        "4/5",
-        "Compare the digits systematically from left to right to find the largest number."
-      ],
-      [
-        "5/5",
-        "688 is the largest number. Therefore, Central Library most the most books."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A data table with a light purple header titled 'Book checkouts'. The table has two columns: 'Library' and 'Number of books'. It contains four rows of data: Central Library: 688, North Branch: 384, Eastside Library: 582, West End Branch: 299. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
-  },
-  {
-    "question_text": "Which number is largest?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_46",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "5201",
-      "2929",
-      "9573"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/4",
-        "All numbers have 4 digits. Look at the thousands place: 9573 starts with 9, 5201 starts with 5, 2929 starts with 2. Since 9 is bigger, focus on numbers starting with 9."
-      ],
-      [
-        "3/4",
-        "Continue comparing the remaining place values to find the largest."
-      ],
-      [
-        "4/4",
-        "After comparing all place values, 9573 is the largest number."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "question_text": "Carlos tracked how many minutes he practiced piano each day. On which day did Carlos practice the fewest minutes?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_47",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_47",
-    "choices": [
-      "Wednesday",
-      "Thursday",
-      "Tuesday",
-      "Monday"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This word problem asks us to find which day had the fewest minutes. Look at the table to find the numbers for each day."
-      ],
-      [
-        "2/5",
-        "From the table: Monday had 757, Tuesday had 892, Wednesday had 475, and Thursday had 661. To find the fewest, compare these numbers to find the smallest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place."
-      ],
-      [
-        "4/5",
-        "Compare the digits systematically from left to right to find the smallest number."
-      ],
-      [
-        "5/5",
-        "475 is the smallest number, which corresponds to Wednesday. Therefore, Wednesday had the fewest minutes."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A pink-themed data table titled 'Piano practice'. The table has two columns: 'Day' and 'Number of minutes', showing data over four rows: Monday: 757, Tuesday: 892, Wednesday: 475, Thursday: 661. The table features a pink header row and black text on white cells with black borders throughout."
-  },
-  {
-    "question_text": "A farmer counted eggs collected from different coops. Which coop had the fewest eggs?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_48",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_48",
-    "choices": [
-      "Coop D",
-      "Coop C",
-      "Coop A",
-      "Coop B"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This word problem asks us to find which coop had the fewest eggs. Look at the table to find the numbers for each coop."
-      ],
-      [
-        "2/5",
-        "From the table: Coop A had 323, Coop B had 401, Coop C had 754, and Coop D had 196. To find the fewest, compare these numbers to find the smallest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place."
-      ],
-      [
-        "4/5",
-        "Compare the digits systematically from left to right to find the smallest number."
-      ],
-      [
-        "5/5",
-        "196 is the smallest number, which corresponds to Coop D. Therefore, Coop D had the fewest eggs."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A pink-themed data table titled 'Egg collection'. The table has two columns: 'Coop' and 'Number of eggs', showing data over four rows: Coop A: 323, Coop B: 401, Coop C: 754, Coop D: 196. The table features a pink header row and black text on white cells with black borders throughout."
-  },
-  {
-    "question_text": "Some libraries tracked their book checkouts. Which library had the most checkouts?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_49",
-    "tag": "Gr4_1_E3",
-    "image_tag": "Gr4_1_3_49",
-    "choices": [
-      "Central Library",
-      "West End Branch",
-      "Eastside Library",
-      "North Branch"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/5",
-        "This is a word problem asking us to find which library had the most books. Look at the table to find the numbers for each library."
-      ],
-      [
-        "2/5",
-        "From the table: Central Library had 179, North Branch had 167, Eastside Library had 631, and West End Branch had 299. To find the most, compare these numbers to find the largest."
-      ],
-      [
-        "3/5",
-        "All numbers have 3 digits. Start comparing from the hundreds place."
-      ],
-      [
-        "4/5",
-        "Compare the digits systematically from left to right to find the largest number."
-      ],
-      [
-        "5/5",
-        "631 is the largest number. Therefore, Eastside Library most the most books."
-      ]
-    ],
-    "solution_image_tag": [],
-    "backend_description": "A data table with a light purple header titled 'Book checkouts'. The table has two columns: 'Library' and 'Number of books'. It contains four rows of data: Central Library: 179, North Branch: 167, Eastside Library: 631, West End Branch: 299. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
-  },
-  {
-    "question_text": "Which number is largest?",
-    "skills": "compare-numbers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "3_50",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "7137",
-      "8982",
-      "6879"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/4",
-        "All numbers have 4 digits. Look at the thousands place: 7137 starts with 7, 8982 starts with 8, 6879 starts with 6. Since 8 is bigger, focus on numbers starting with 8."
-      ],
-      [
-        "3/4",
-        "Continue comparing the remaining place values to find the largest."
-      ],
-      [
-        "4/4",
-        "After comparing all place values, 8982 is the largest number."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "compare-numbers",
-    "question_text": "Which number is smallest?",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "tag": "Gr4_1_E3",
-    "choices": [
-      "3095",
-      "8494",
-      "5506"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
-      ],
-      [
-        "2/3",
-        "All numbers have 4 digits. Look at the thousands place: 5506 starts with 5, 8494 starts with 8, 3095 starts with 3. Since 3 is smaller, 3095 is smaller than 5506 and 8494."
-      ],
-      [
-        "3/3",
-        "After comparing all place values, the smallest number is 3095."
-      ]
-    ],
-    "question_number": "3_51",
-    "solution_image_tag": []
-  }
-]
+{
+  "quizzes": [
+    {
+      "skills": "compare-numbers",
+      "question_text": "Which number is smallest?",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "1955",
+        "1957",
+        "5951"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/3",
+          "All numbers have 4 digits. Look at the thousands place: 1955 and 1957 both start with 1, but 5951 starts with 5. Since 1 is smaller than 5, both 1955 and 1957 are smaller than 5951."
+        ],
+        [
+          "3/3",
+          "Now compare 1955 and 1957. The first three digits are the same (195), so look at the ones place: 5 vs 7. Since 5 is smaller than 7, the smallest number is 1955."
+        ]
+      ],
+      "question_number": "3_1",
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Which number is largest?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_2",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "7945",
+        "7943",
+        "7549"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/4",
+          "All numbers have 4 digits. Look at the thousands place: all three numbers start with 7, so they're the same. Move to the hundreds place."
+        ],
+        [
+          "3/4",
+          "Compare hundreds place: 7945 has 9, 7943 has 9, and 7549 has 5. Since 9 is bigger than 5, both 7945 and 7943 are larger than 7549."
+        ],
+        [
+          "4/4",
+          "Now compare 7945 and 7943. The first three digits are the same (794), so look at the ones place: 5 vs 3. Since 5 is bigger than 3, 7945 is the largest number."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Some dealerships compared their vehicle sales. Which dealership sold the most vehicles?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_3",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_3",
+      "choices": [
+        "Affordable Cars",
+        "RV City",
+        "Cars of Pryor Falls",
+        "Ledbetter Auto Mall"
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This is a word problem asking us to find which dealership sold the most vehicles. Look at the table to find the numbers for each dealership."
+        ],
+        [
+          "2/5",
+          "From the table: Affordable Cars sold 141, RV City sold 114, Cars of Pryor Falls sold 171, and Ledbetter Auto Mall sold 174. To find the most vehicles sold, compare these numbers to find the largest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place: all have 1 in the hundreds place, so they are the same."
+        ],
+        [
+          "4/5",
+          "Compare the tens place: 141 has 4, 114 has 1, 171 has 7, and 174 has 7. Since 7 is bigger than 4 and 1, both 171 and 174 are larger than the others."
+        ],
+        [
+          "5/5",
+          "Now compare 171 and 174. They both have 17 in the tens and hundreds places, so look at the ones place: 1 vs 4. Since 4 is bigger than 1, 174 is the largest number. Therefore, Ledbetter Auto Mall sold the most vehicles."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A data table with a light purple header titled 'Vehicle sales'. The table has two columns: 'Dealership' and 'Number of vehicles'. It contains four rows of data: Affordable Cars: 141 vehicles, RV City: 114 vehicles, Cars of Pryor Falls: 171 vehicles, Ledbetter Auto Mall: 174 vehicles. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
+    },
+    {
+      "question_text": "Roxanne kept a log of how many pages she read each month. In which month did Roxanne read the fewest pages?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_4",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_4",
+      "choices": [
+        "July",
+        "August",
+        "September",
+        "October"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This word problem asks us to find which month Roxanne read the fewest pages. Look at the table to find the numbers for each month."
+        ],
+        [
+          "2/5",
+          "From the table: July had 629 pages, August had 662 pages, September had 699 pages, and October had 692 pages. To find the fewest pages, compare these numbers to find the smallest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place: all numbers have 6 in the hundreds place, so they are the same. Move to the tens place."
+        ],
+        [
+          "4/5",
+          "Compare the tens place: 629 has 2, 662 has 6, 699 has 9, and 692 has 9. Since 2 is smaller than 6 and 9, the number 629 is the smallest."
+        ],
+        [
+          "5/5",
+          "629 is the smallest number, which corresponds to July. Therefore, Roxanne read the fewest pages in July."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A pink-themed data table titled 'Pages read'. The table has two columns: 'Month' and 'Number of pages', showing reading progress over four months: July: 629 pages, August: 662 pages, September: 699 pages, October: 692 pages. The table features a pink header row and black text on white cells with black borders throughout."
+    },
+    {
+      "skills": "compare-numbers",
+      "question_text": "Which number is smallest?",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "3935",
+        "3998",
+        "8276"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/3",
+          "All numbers have 4 digits. Look at the thousands place: 3998 starts with 3, 3935 starts with 3, 8276 starts with 8. Since 3 is smaller, 3998 and 3935 are smaller than 8276."
+        ],
+        [
+          "3/3",
+          "After comparing all place values, the smallest number is 3935."
+        ]
+      ],
+      "question_number": "3_5",
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Carlos tracked how many minutes he practiced piano each day. On which day did Carlos practice the fewest minutes?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_6",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_6",
+      "choices": [
+        "Tuesday",
+        "Thursday",
+        "Monday",
+        "Wednesday"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This word problem asks us to find which day had the fewest minutes. Look at the table to find the numbers for each day."
+        ],
+        [
+          "2/5",
+          "From the table: Monday had 368, Tuesday had 152, Wednesday had 291, and Thursday had 692. To find the fewest, compare these numbers to find the smallest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place."
+        ],
+        [
+          "4/5",
+          "Compare the digits systematically from left to right to find the smallest number."
+        ],
+        [
+          "5/5",
+          "152 is the smallest number, which corresponds to Tuesday. Therefore, Tuesday had the fewest minutes."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A pink-themed data table titled 'Piano practice'. The table has two columns: 'Day' and 'Number of minutes', showing data over four rows: Monday: 368, Tuesday: 152, Wednesday: 291, Thursday: 692. The table features a pink header row and black text on white cells with black borders throughout."
+    },
+    {
+      "question_text": "Which number is largest?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_7",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "1183",
+        "3517",
+        "3246"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/4",
+          "All numbers have 4 digits. Look at the thousands place: 1183 starts with 1, 3246 starts with 3, 3517 starts with 3. Since 3 is bigger, focus on numbers starting with 3."
+        ],
+        [
+          "3/4",
+          "Continue comparing the remaining place values to find the largest."
+        ],
+        [
+          "4/4",
+          "After comparing all place values, 3517 is the largest number."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Four stores compared their weekend sales. Which store had the most sales?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_8",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_8",
+      "choices": [
+        "Quick Shop",
+        "Mega Mart",
+        "Value Store",
+        "Express Market"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This is a word problem asking us to find which store had the most items sold. Look at the table to find the numbers for each store."
+        ],
+        [
+          "2/5",
+          "From the table: Mega Mart had 714, Quick Shop had 345, Value Store had 149, and Express Market had 114. To find the most, compare these numbers to find the largest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place."
+        ],
+        [
+          "4/5",
+          "Compare the digits systematically from left to right to find the largest number."
+        ],
+        [
+          "5/5",
+          "714 is the largest number. Therefore, Mega Mart most the most items sold."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A data table with a light purple header titled 'Weekend sales'. The table has two columns: 'Store' and 'Number of items sold'. It contains four rows of data: Mega Mart: 714, Quick Shop: 345, Value Store: 149, Express Market: 114. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
+    },
+    {
+      "skills": "compare-numbers",
+      "question_text": "Which number is smallest?",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "6407",
+        "2264",
+        "2642"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/3",
+          "All numbers have 4 digits. Look at the thousands place: 2642 starts with 2, 6407 starts with 6, 2264 starts with 2. Since 2 is smaller, 2642 and 2264 are smaller than 6407."
+        ],
+        [
+          "3/3",
+          "After comparing all place values, the smallest number is 2264."
+        ]
+      ],
+      "question_number": "3_9",
+      "solution_image_tag": []
+    },
+    {
+      "skills": "compare-numbers",
+      "question_text": "Which number is smallest?",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "5330",
+        "9059",
+        "4075"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/3",
+          "All numbers have 4 digits. Look at the thousands place: 9059 starts with 9, 5330 starts with 5, 4075 starts with 4. Since 4 is smaller, 4075 is smaller than 9059 and 5330."
+        ],
+        [
+          "3/3",
+          "After comparing all place values, the smallest number is 4075."
+        ]
+      ],
+      "question_number": "3_10",
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Emma counted the birds she saw at different parks. At which park did Emma see the fewest birds?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_11",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_11",
+      "choices": [
+        "Birch Trail",
+        "Pine Grove",
+        "Oak Park",
+        "Maple Woods"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This word problem asks us to find which park had the fewest birds. Look at the table to find the numbers for each park."
+        ],
+        [
+          "2/5",
+          "From the table: Oak Park had 122, Pine Grove had 839, Maple Woods had 287, and Birch Trail had 297. To find the fewest, compare these numbers to find the smallest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place."
+        ],
+        [
+          "4/5",
+          "Compare the digits systematically from left to right to find the smallest number."
+        ],
+        [
+          "5/5",
+          "122 is the smallest number, which corresponds to Oak Park. Therefore, Oak Park had the fewest birds."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A pink-themed data table titled 'Bird sightings'. The table has two columns: 'Park' and 'Number of birds', showing data over four rows: Oak Park: 122, Pine Grove: 839, Maple Woods: 287, Birch Trail: 297. The table features a pink header row and black text on white cells with black borders throughout."
+    },
+    {
+      "question_text": "Which number is largest?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_12",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "3028",
+        "8426",
+        "2291"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/4",
+          "All numbers have 4 digits. Look at the thousands place: 8426 starts with 8, 3028 starts with 3, 2291 starts with 2. Since 8 is bigger, focus on numbers starting with 8."
+        ],
+        [
+          "3/4",
+          "Continue comparing the remaining place values to find the largest."
+        ],
+        [
+          "4/4",
+          "After comparing all place values, 8426 is the largest number."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "compare-numbers",
+      "question_text": "Which number is smallest?",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "8674",
+        "2111",
+        "3398"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/3",
+          "All numbers have 4 digits. Look at the thousands place: 8674 starts with 8, 2111 starts with 2, 3398 starts with 3. Since 2 is smaller, 2111 is smaller than 8674 and 3398."
+        ],
+        [
+          "3/3",
+          "After comparing all place values, the smallest number is 2111."
+        ]
+      ],
+      "question_number": "3_13",
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Which number is largest?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_14",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "2392",
+        "2898",
+        "2176"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/4",
+          "All numbers have 4 digits. Look at the thousands place: all three numbers start with 2, so they're the same. Move to the hundreds place."
+        ],
+        [
+          "3/4",
+          "Compare hundreds place: 2898 has 8, 2392 has 3, 2176 has 1. Find the largest digit in this place."
+        ],
+        [
+          "4/4",
+          "After comparing all place values, 2898 is the largest number."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Four schools compared their student enrollment. Which school has the most students?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_15",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_15",
+      "choices": [
+        "Washington Primary",
+        "Roosevelt School",
+        "Lincoln Elementary",
+        "Jefferson Academy"
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This is a word problem asking us to find which school had the most students. Look at the table to find the numbers for each school."
+        ],
+        [
+          "2/5",
+          "From the table: Lincoln Elementary had 645, Washington Primary had 669, Jefferson Academy had 850, and Roosevelt School had 144. To find the most, compare these numbers to find the largest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place."
+        ],
+        [
+          "4/5",
+          "Compare the digits systematically from left to right to find the largest number."
+        ],
+        [
+          "5/5",
+          "850 is the largest number. Therefore, Jefferson Academy most the most students."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A data table with a light purple header titled 'Student enrollment'. The table has two columns: 'School' and 'Number of students'. It contains four rows of data: Lincoln Elementary: 645, Washington Primary: 669, Jefferson Academy: 850, Roosevelt School: 144. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
+    },
+    {
+      "skills": "compare-numbers",
+      "question_text": "Which number is smallest?",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "5622",
+        "4116",
+        "7847"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/3",
+          "All numbers have 4 digits. Look at the thousands place: 4116 starts with 4, 7847 starts with 7, 5622 starts with 5. Since 4 is smaller, 4116 is smaller than 7847 and 5622."
+        ],
+        [
+          "3/3",
+          "After comparing all place values, the smallest number is 4116."
+        ]
+      ],
+      "question_number": "3_16",
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Which number is largest?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_17",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "1207",
+        "2807",
+        "5043"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/4",
+          "All numbers have 4 digits. Look at the thousands place: 2807 starts with 2, 5043 starts with 5, 1207 starts with 1. Since 5 is bigger, focus on numbers starting with 5."
+        ],
+        [
+          "3/4",
+          "Continue comparing the remaining place values to find the largest."
+        ],
+        [
+          "4/4",
+          "After comparing all place values, 5043 is the largest number."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Some bakeries compared their donut sales. Which bakery sold the most donuts?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_18",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_18",
+      "choices": [
+        "Donut Palace",
+        "Morning Glory",
+        "Baker's Dozen",
+        "Sweet Treats"
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This is a word problem asking us to find which bakery had the most donuts. Look at the table to find the numbers for each bakery."
+        ],
+        [
+          "2/5",
+          "From the table: Sweet Treats had 908, Donut Palace had 318, Morning Glory had 691, and Baker's Dozen had 885. To find the most, compare these numbers to find the largest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place."
+        ],
+        [
+          "4/5",
+          "Compare the digits systematically from left to right to find the largest number."
+        ],
+        [
+          "5/5",
+          "908 is the largest number. Therefore, Sweet Treats most the most donuts."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A data table with a light purple header titled 'Donut sales'. The table has two columns: 'Bakery' and 'Number of donuts'. It contains four rows of data: Sweet Treats: 908, Donut Palace: 318, Morning Glory: 691, Baker's Dozen: 885. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
+    },
+    {
+      "question_text": "Which number is largest?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_19",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "4817",
+        "7712",
+        "5094"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/4",
+          "All numbers have 4 digits. Look at the thousands place: 7712 starts with 7, 5094 starts with 5, 4817 starts with 4. Since 7 is bigger, focus on numbers starting with 7."
+        ],
+        [
+          "3/4",
+          "Continue comparing the remaining place values to find the largest."
+        ],
+        [
+          "4/4",
+          "After comparing all place values, 7712 is the largest number."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "A farmer counted eggs collected from different coops. Which coop had the fewest eggs?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_20",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_20",
+      "choices": [
+        "Coop B",
+        "Coop A",
+        "Coop D",
+        "Coop C"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This word problem asks us to find which coop had the fewest eggs. Look at the table to find the numbers for each coop."
+        ],
+        [
+          "2/5",
+          "From the table: Coop A had 362, Coop B had 978, Coop C had 665, and Coop D had 452. To find the fewest, compare these numbers to find the smallest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place."
+        ],
+        [
+          "4/5",
+          "Compare the digits systematically from left to right to find the smallest number."
+        ],
+        [
+          "5/5",
+          "362 is the smallest number, which corresponds to Coop A. Therefore, Coop A had the fewest eggs."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A pink-themed data table titled 'Egg collection'. The table has two columns: 'Coop' and 'Number of eggs', showing data over four rows: Coop A: 362, Coop B: 978, Coop C: 665, Coop D: 452. The table features a pink header row and black text on white cells with black borders throughout."
+    },
+    {
+      "question_text": "Carlos tracked how many minutes he practiced piano each day. On which day did Carlos practice the fewest minutes?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_21",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_21",
+      "choices": [
+        "Tuesday",
+        "Wednesday",
+        "Monday",
+        "Thursday"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This word problem asks us to find which day had the fewest minutes. Look at the table to find the numbers for each day."
+        ],
+        [
+          "2/5",
+          "From the table: Monday had 781, Tuesday had 227, Wednesday had 236, and Thursday had 246. To find the fewest, compare these numbers to find the smallest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place."
+        ],
+        [
+          "4/5",
+          "Compare the digits systematically from left to right to find the smallest number."
+        ],
+        [
+          "5/5",
+          "227 is the smallest number, which corresponds to Tuesday. Therefore, Tuesday had the fewest minutes."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A pink-themed data table titled 'Piano practice'. The table has two columns: 'Day' and 'Number of minutes', showing data over four rows: Monday: 781, Tuesday: 227, Wednesday: 236, Thursday: 246. The table features a pink header row and black text on white cells with black borders throughout."
+    },
+    {
+      "skills": "compare-numbers",
+      "question_text": "Which number is smallest?",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "7933",
+        "4381",
+        "4857"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/3",
+          "All numbers have 4 digits. Look at the thousands place: 4381 starts with 4, 7933 starts with 7, 4857 starts with 4. Since 4 is smaller, 4381 and 4857 are smaller than 7933."
+        ],
+        [
+          "3/3",
+          "After comparing all place values, the smallest number is 4381."
+        ]
+      ],
+      "question_number": "3_22",
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Which number is largest?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_23",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "8342",
+        "7369",
+        "8969"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/4",
+          "All numbers have 4 digits. Look at the thousands place: 8969 starts with 8, 8342 starts with 8, 7369 starts with 7. Since 8 is bigger, focus on numbers starting with 8."
+        ],
+        [
+          "3/4",
+          "Continue comparing the remaining place values to find the largest."
+        ],
+        [
+          "4/4",
+          "After comparing all place values, 8969 is the largest number."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "compare-numbers",
+      "question_text": "Which number is smallest?",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "5140",
+        "1300",
+        "3315"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/3",
+          "All numbers have 4 digits. Look at the thousands place: 5140 starts with 5, 3315 starts with 3, 1300 starts with 1. Since 1 is smaller, 1300 is smaller than 5140 and 3315."
+        ],
+        [
+          "3/3",
+          "After comparing all place values, the smallest number is 1300."
+        ]
+      ],
+      "question_number": "3_24",
+      "solution_image_tag": []
+    },
+    {
+      "skills": "compare-numbers",
+      "question_text": "Which number is smallest?",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "1021",
+        "1511",
+        "1954"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/3",
+          "All numbers have 4 digits. Look at the thousands place: all start with 1. In the hundreds place: 1021 has 0, 1954 has 9, 1511 has 5."
+        ],
+        [
+          "3/3",
+          "After comparing all place values, the smallest number is 1021."
+        ]
+      ],
+      "question_number": "3_25",
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Which number is largest?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_26",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "8893",
+        "1988",
+        "2982"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/4",
+          "All numbers have 4 digits. Look at the thousands place: 8893 starts with 8, 2982 starts with 2, 1988 starts with 1. Since 8 is bigger, focus on numbers starting with 8."
+        ],
+        [
+          "3/4",
+          "Continue comparing the remaining place values to find the largest."
+        ],
+        [
+          "4/4",
+          "After comparing all place values, 8893 is the largest number."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Four schools compared their student enrollment. Which school has the most students?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_27",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_27",
+      "choices": [
+        "Roosevelt School",
+        "Washington Primary",
+        "Jefferson Academy",
+        "Lincoln Elementary"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This is a word problem asking us to find which school had the most students. Look at the table to find the numbers for each school."
+        ],
+        [
+          "2/5",
+          "From the table: Lincoln Elementary had 698, Washington Primary had 840, Jefferson Academy had 847, and Roosevelt School had 542. To find the most, compare these numbers to find the largest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place."
+        ],
+        [
+          "4/5",
+          "Compare the digits systematically from left to right to find the largest number."
+        ],
+        [
+          "5/5",
+          "847 is the largest number. Therefore, Jefferson Academy most the most students."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A data table with a light purple header titled 'Student enrollment'. The table has two columns: 'School' and 'Number of students'. It contains four rows of data: Lincoln Elementary: 698, Washington Primary: 840, Jefferson Academy: 847, Roosevelt School: 542. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
+    },
+    {
+      "question_text": "Emma counted the birds she saw at different parks. At which park did Emma see the fewest birds?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_28",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_28",
+      "choices": [
+        "Maple Woods",
+        "Pine Grove",
+        "Oak Park",
+        "Birch Trail"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This word problem asks us to find which park had the fewest birds. Look at the table to find the numbers for each park."
+        ],
+        [
+          "2/5",
+          "From the table: Oak Park had 724, Pine Grove had 455, Maple Woods had 910, and Birch Trail had 820. To find the fewest, compare these numbers to find the smallest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place."
+        ],
+        [
+          "4/5",
+          "Compare the digits systematically from left to right to find the smallest number."
+        ],
+        [
+          "5/5",
+          "455 is the smallest number, which corresponds to Pine Grove. Therefore, Pine Grove had the fewest birds."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A pink-themed data table titled 'Bird sightings'. The table has two columns: 'Park' and 'Number of birds', showing data over four rows: Oak Park: 724, Pine Grove: 455, Maple Woods: 910, Birch Trail: 820. The table features a pink header row and black text on white cells with black borders throughout."
+    },
+    {
+      "question_text": "Which number is largest?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_29",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "6073",
+        "3277",
+        "4976"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/4",
+          "All numbers have 4 digits. Look at the thousands place: 3277 starts with 3, 4976 starts with 4, 6073 starts with 6. Since 6 is bigger, focus on numbers starting with 6."
+        ],
+        [
+          "3/4",
+          "Continue comparing the remaining place values to find the largest."
+        ],
+        [
+          "4/4",
+          "After comparing all place values, 6073 is the largest number."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Which number is largest?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_30",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "1541",
+        "3334",
+        "9647"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/4",
+          "All numbers have 4 digits. Look at the thousands place: 1541 starts with 1, 9647 starts with 9, 3334 starts with 3. Since 9 is bigger, focus on numbers starting with 9."
+        ],
+        [
+          "3/4",
+          "Continue comparing the remaining place values to find the largest."
+        ],
+        [
+          "4/4",
+          "After comparing all place values, 9647 is the largest number."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "compare-numbers",
+      "question_text": "Which number is smallest?",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "1932",
+        "4594",
+        "9075"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/3",
+          "All numbers have 4 digits. Look at the thousands place: 9075 starts with 9, 1932 starts with 1, 4594 starts with 4. Since 1 is smaller, 1932 is smaller than 9075 and 4594."
+        ],
+        [
+          "3/3",
+          "After comparing all place values, the smallest number is 1932."
+        ]
+      ],
+      "question_number": "3_31",
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "A teacher recorded homework scores for different subjects. Which subject had the fewest points?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_32",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_32",
+      "choices": [
+        "Science",
+        "Reading",
+        "Math",
+        "History"
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This word problem asks us to find which subject had the fewest points. Look at the table to find the numbers for each subject."
+        ],
+        [
+          "2/5",
+          "From the table: Math had 950, Science had 707, Reading had 985, and History had 459. To find the fewest, compare these numbers to find the smallest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place."
+        ],
+        [
+          "4/5",
+          "Compare the digits systematically from left to right to find the smallest number."
+        ],
+        [
+          "5/5",
+          "459 is the smallest number, which corresponds to History. Therefore, History had the fewest points."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A pink-themed data table titled 'Homework scores'. The table has two columns: 'Subject' and 'Number of points', showing data over four rows: Math: 950, Science: 707, Reading: 985, History: 459. The table features a pink header row and black text on white cells with black borders throughout."
+    },
+    {
+      "question_text": "Some bakeries compared their donut sales. Which bakery sold the most donuts?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_33",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_33",
+      "choices": [
+        "Morning Glory",
+        "Sweet Treats",
+        "Donut Palace",
+        "Baker's Dozen"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This is a word problem asking us to find which bakery had the most donuts. Look at the table to find the numbers for each bakery."
+        ],
+        [
+          "2/5",
+          "From the table: Sweet Treats had 525, Donut Palace had 757, Morning Glory had 323, and Baker's Dozen had 463. To find the most, compare these numbers to find the largest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place."
+        ],
+        [
+          "4/5",
+          "Compare the digits systematically from left to right to find the largest number."
+        ],
+        [
+          "5/5",
+          "757 is the largest number. Therefore, Donut Palace most the most donuts."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A data table with a light purple header titled 'Donut sales'. The table has two columns: 'Bakery' and 'Number of donuts'. It contains four rows of data: Sweet Treats: 525, Donut Palace: 757, Morning Glory: 323, Baker's Dozen: 463. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
+    },
+    {
+      "question_text": "Which number is largest?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_34",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "8908",
+        "2139",
+        "1592"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/4",
+          "All numbers have 4 digits. Look at the thousands place: 8908 starts with 8, 1592 starts with 1, 2139 starts with 2. Since 8 is bigger, focus on numbers starting with 8."
+        ],
+        [
+          "3/4",
+          "Continue comparing the remaining place values to find the largest."
+        ],
+        [
+          "4/4",
+          "After comparing all place values, 8908 is the largest number."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "A farmer counted eggs collected from different coops. Which coop had the fewest eggs?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_35",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_35",
+      "choices": [
+        "Coop B",
+        "Coop C",
+        "Coop A",
+        "Coop D"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This word problem asks us to find which coop had the fewest eggs. Look at the table to find the numbers for each coop."
+        ],
+        [
+          "2/5",
+          "From the table: Coop A had 354, Coop B had 543, Coop C had 182, and Coop D had 250. To find the fewest, compare these numbers to find the smallest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place."
+        ],
+        [
+          "4/5",
+          "Compare the digits systematically from left to right to find the smallest number."
+        ],
+        [
+          "5/5",
+          "182 is the smallest number, which corresponds to Coop C. Therefore, Coop C had the fewest eggs."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A pink-themed data table titled 'Egg collection'. The table has two columns: 'Coop' and 'Number of eggs', showing data over four rows: Coop A: 354, Coop B: 543, Coop C: 182, Coop D: 250. The table features a pink header row and black text on white cells with black borders throughout."
+    },
+    {
+      "question_text": "Carlos tracked how many minutes he practiced piano each day. On which day did Carlos practice the fewest minutes?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_36",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_36",
+      "choices": [
+        "Tuesday",
+        "Monday",
+        "Thursday",
+        "Wednesday"
+      ],
+      "correct_answers": [
+        "D"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This word problem asks us to find which day had the fewest minutes. Look at the table to find the numbers for each day."
+        ],
+        [
+          "2/5",
+          "From the table: Monday had 291, Tuesday had 343, Wednesday had 290, and Thursday had 861. To find the fewest, compare these numbers to find the smallest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place."
+        ],
+        [
+          "4/5",
+          "Compare the digits systematically from left to right to find the smallest number."
+        ],
+        [
+          "5/5",
+          "290 is the smallest number, which corresponds to Wednesday. Therefore, Wednesday had the fewest minutes."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A pink-themed data table titled 'Piano practice'. The table has two columns: 'Day' and 'Number of minutes', showing data over four rows: Monday: 291, Tuesday: 343, Wednesday: 290, Thursday: 861. The table features a pink header row and black text on white cells with black borders throughout."
+    },
+    {
+      "question_text": "Some bakeries compared their donut sales. Which bakery sold the most donuts?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_37",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_37",
+      "choices": [
+        "Sweet Treats",
+        "Baker's Dozen",
+        "Morning Glory",
+        "Donut Palace"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This is a word problem asking us to find which bakery had the most donuts. Look at the table to find the numbers for each bakery."
+        ],
+        [
+          "2/5",
+          "From the table: Sweet Treats had 893, Donut Palace had 605, Morning Glory had 466, and Baker's Dozen had 517. To find the most, compare these numbers to find the largest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place."
+        ],
+        [
+          "4/5",
+          "Compare the digits systematically from left to right to find the largest number."
+        ],
+        [
+          "5/5",
+          "893 is the largest number. Therefore, Sweet Treats most the most donuts."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A data table with a light purple header titled 'Donut sales'. The table has two columns: 'Bakery' and 'Number of donuts'. It contains four rows of data: Sweet Treats: 893, Donut Palace: 605, Morning Glory: 466, Baker's Dozen: 517. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
+    },
+    {
+      "question_text": "Which number is largest?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_38",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "3405",
+        "8525",
+        "1682"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/4",
+          "All numbers have 4 digits. Look at the thousands place: 8525 starts with 8, 3405 starts with 3, 1682 starts with 1. Since 8 is bigger, focus on numbers starting with 8."
+        ],
+        [
+          "3/4",
+          "Continue comparing the remaining place values to find the largest."
+        ],
+        [
+          "4/4",
+          "After comparing all place values, 8525 is the largest number."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Some libraries tracked their book checkouts. Which library had the most checkouts?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_39",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_39",
+      "choices": [
+        "West End Branch",
+        "Eastside Library",
+        "North Branch",
+        "Central Library"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This is a word problem asking us to find which library had the most books. Look at the table to find the numbers for each library."
+        ],
+        [
+          "2/5",
+          "From the table: Central Library had 391, North Branch had 484, Eastside Library had 848, and West End Branch had 289. To find the most, compare these numbers to find the largest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place."
+        ],
+        [
+          "4/5",
+          "Compare the digits systematically from left to right to find the largest number."
+        ],
+        [
+          "5/5",
+          "848 is the largest number. Therefore, Eastside Library most the most books."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A data table with a light purple header titled 'Book checkouts'. The table has two columns: 'Library' and 'Number of books'. It contains four rows of data: Central Library: 391, North Branch: 484, Eastside Library: 848, West End Branch: 289. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
+    },
+    {
+      "skills": "compare-numbers",
+      "question_text": "Which number is smallest?",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "4682",
+        "9821",
+        "2060"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/3",
+          "All numbers have 4 digits. Look at the thousands place: 4682 starts with 4, 9821 starts with 9, 2060 starts with 2. Since 2 is smaller, 2060 is smaller than 4682 and 9821."
+        ],
+        [
+          "3/3",
+          "After comparing all place values, the smallest number is 2060."
+        ]
+      ],
+      "question_number": "3_40",
+      "solution_image_tag": []
+    },
+    {
+      "skills": "compare-numbers",
+      "question_text": "Which number is smallest?",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "8677",
+        "9699",
+        "5855"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/3",
+          "All numbers have 4 digits. Look at the thousands place: 8677 starts with 8, 5855 starts with 5, 9699 starts with 9. Since 5 is smaller, 5855 is smaller than 8677 and 9699."
+        ],
+        [
+          "3/3",
+          "After comparing all place values, the smallest number is 5855."
+        ]
+      ],
+      "question_number": "3_41",
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Four schools compared their student enrollment. Which school has the most students?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_42",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_42",
+      "choices": [
+        "Roosevelt School",
+        "Washington Primary",
+        "Jefferson Academy",
+        "Lincoln Elementary"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This is a word problem asking us to find which school had the most students. Look at the table to find the numbers for each school."
+        ],
+        [
+          "2/5",
+          "From the table: Lincoln Elementary had 140, Washington Primary had 431, Jefferson Academy had 142, and Roosevelt School had 972. To find the most, compare these numbers to find the largest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place."
+        ],
+        [
+          "4/5",
+          "Compare the digits systematically from left to right to find the largest number."
+        ],
+        [
+          "5/5",
+          "972 is the largest number. Therefore, Roosevelt School most the most students."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A data table with a light purple header titled 'Student enrollment'. The table has two columns: 'School' and 'Number of students'. It contains four rows of data: Lincoln Elementary: 140, Washington Primary: 431, Jefferson Academy: 142, Roosevelt School: 972. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
+    },
+    {
+      "skills": "compare-numbers",
+      "question_text": "Which number is smallest?",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "8455",
+        "9566",
+        "7719"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/3",
+          "All numbers have 4 digits. Look at the thousands place: 9566 starts with 9, 7719 starts with 7, 8455 starts with 8. Since 7 is smaller, 7719 is smaller than 9566 and 8455."
+        ],
+        [
+          "3/3",
+          "After comparing all place values, the smallest number is 7719."
+        ]
+      ],
+      "question_number": "3_43",
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Which number is largest?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_44",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "2045",
+        "8510",
+        "7122"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/4",
+          "All numbers have 4 digits. Look at the thousands place: 8510 starts with 8, 2045 starts with 2, 7122 starts with 7. Since 8 is bigger, focus on numbers starting with 8."
+        ],
+        [
+          "3/4",
+          "Continue comparing the remaining place values to find the largest."
+        ],
+        [
+          "4/4",
+          "After comparing all place values, 8510 is the largest number."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Some libraries tracked their book checkouts. Which library had the most checkouts?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_45",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_45",
+      "choices": [
+        "Central Library",
+        "North Branch",
+        "West End Branch",
+        "Eastside Library"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This is a word problem asking us to find which library had the most books. Look at the table to find the numbers for each library."
+        ],
+        [
+          "2/5",
+          "From the table: Central Library had 688, North Branch had 384, Eastside Library had 582, and West End Branch had 299. To find the most, compare these numbers to find the largest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place."
+        ],
+        [
+          "4/5",
+          "Compare the digits systematically from left to right to find the largest number."
+        ],
+        [
+          "5/5",
+          "688 is the largest number. Therefore, Central Library most the most books."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A data table with a light purple header titled 'Book checkouts'. The table has two columns: 'Library' and 'Number of books'. It contains four rows of data: Central Library: 688, North Branch: 384, Eastside Library: 582, West End Branch: 299. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
+    },
+    {
+      "question_text": "Which number is largest?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_46",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "5201",
+        "2929",
+        "9573"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/4",
+          "All numbers have 4 digits. Look at the thousands place: 9573 starts with 9, 5201 starts with 5, 2929 starts with 2. Since 9 is bigger, focus on numbers starting with 9."
+        ],
+        [
+          "3/4",
+          "Continue comparing the remaining place values to find the largest."
+        ],
+        [
+          "4/4",
+          "After comparing all place values, 9573 is the largest number."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Carlos tracked how many minutes he practiced piano each day. On which day did Carlos practice the fewest minutes?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_47",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_47",
+      "choices": [
+        "Wednesday",
+        "Thursday",
+        "Tuesday",
+        "Monday"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This word problem asks us to find which day had the fewest minutes. Look at the table to find the numbers for each day."
+        ],
+        [
+          "2/5",
+          "From the table: Monday had 757, Tuesday had 892, Wednesday had 475, and Thursday had 661. To find the fewest, compare these numbers to find the smallest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place."
+        ],
+        [
+          "4/5",
+          "Compare the digits systematically from left to right to find the smallest number."
+        ],
+        [
+          "5/5",
+          "475 is the smallest number, which corresponds to Wednesday. Therefore, Wednesday had the fewest minutes."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A pink-themed data table titled 'Piano practice'. The table has two columns: 'Day' and 'Number of minutes', showing data over four rows: Monday: 757, Tuesday: 892, Wednesday: 475, Thursday: 661. The table features a pink header row and black text on white cells with black borders throughout."
+    },
+    {
+      "question_text": "A farmer counted eggs collected from different coops. Which coop had the fewest eggs?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_48",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_48",
+      "choices": [
+        "Coop D",
+        "Coop C",
+        "Coop A",
+        "Coop B"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This word problem asks us to find which coop had the fewest eggs. Look at the table to find the numbers for each coop."
+        ],
+        [
+          "2/5",
+          "From the table: Coop A had 323, Coop B had 401, Coop C had 754, and Coop D had 196. To find the fewest, compare these numbers to find the smallest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place."
+        ],
+        [
+          "4/5",
+          "Compare the digits systematically from left to right to find the smallest number."
+        ],
+        [
+          "5/5",
+          "196 is the smallest number, which corresponds to Coop D. Therefore, Coop D had the fewest eggs."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A pink-themed data table titled 'Egg collection'. The table has two columns: 'Coop' and 'Number of eggs', showing data over four rows: Coop A: 323, Coop B: 401, Coop C: 754, Coop D: 196. The table features a pink header row and black text on white cells with black borders throughout."
+    },
+    {
+      "question_text": "Some libraries tracked their book checkouts. Which library had the most checkouts?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_49",
+      "tag": "Gr4_1_E3",
+      "image_tag": "Gr4_1_3_49",
+      "choices": [
+        "Central Library",
+        "West End Branch",
+        "Eastside Library",
+        "North Branch"
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "This is a word problem asking us to find which library had the most books. Look at the table to find the numbers for each library."
+        ],
+        [
+          "2/5",
+          "From the table: Central Library had 179, North Branch had 167, Eastside Library had 631, and West End Branch had 299. To find the most, compare these numbers to find the largest."
+        ],
+        [
+          "3/5",
+          "All numbers have 3 digits. Start comparing from the hundreds place."
+        ],
+        [
+          "4/5",
+          "Compare the digits systematically from left to right to find the largest number."
+        ],
+        [
+          "5/5",
+          "631 is the largest number. Therefore, Eastside Library most the most books."
+        ]
+      ],
+      "solution_image_tag": [],
+      "backend_description": "A data table with a light purple header titled 'Book checkouts'. The table has two columns: 'Library' and 'Number of books'. It contains four rows of data: Central Library: 179, North Branch: 167, Eastside Library: 631, West End Branch: 299. The table has a clean layout with black text on white cells, bordered by thin black lines. The header row has a lavender/light purple background."
+    },
+    {
+      "question_text": "Which number is largest?",
+      "skills": "compare-numbers",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "3_50",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "7137",
+        "8982",
+        "6879"
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "To find the largest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/4",
+          "All numbers have 4 digits. Look at the thousands place: 7137 starts with 7, 8982 starts with 8, 6879 starts with 6. Since 8 is bigger, focus on numbers starting with 8."
+        ],
+        [
+          "3/4",
+          "Continue comparing the remaining place values to find the largest."
+        ],
+        [
+          "4/4",
+          "After comparing all place values, 8982 is the largest number."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "compare-numbers",
+      "question_text": "Which number is smallest?",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "tag": "Gr4_1_E3",
+      "choices": [
+        "3095",
+        "8494",
+        "5506"
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "To find the smallest number, compare the numbers starting from the left digit (the biggest place value)."
+        ],
+        [
+          "2/3",
+          "All numbers have 4 digits. Look at the thousands place: 5506 starts with 5, 8494 starts with 8, 3095 starts with 3. Since 3 is smaller, 3095 is smaller than 5506 and 8494."
+        ],
+        [
+          "3/3",
+          "After comparing all place values, the smallest number is 3095."
+        ]
+      ],
+      "question_number": "3_51",
+      "solution_image_tag": []
+    }
+  ]
+}

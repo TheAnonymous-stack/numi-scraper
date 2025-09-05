@@ -1,4144 +1,4146 @@
-[
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_1",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_1_A",
-        "backend_description": "A square filled with vibrant green color (like fresh grass) on a white card background. This reinforces the concept of regular quadrilaterals while introducing color variety, helping students understand that color is not a defining property of geometric shapes.",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_1_B",
-        "backend_description": "A circle filled with golden-yellow color on a white card background. When paired with the green square, this creates a clear shape contrast between angular (square) and curved (circle) forms, reinforcing circle recognition and helping students practice categorizing shapes based on their fundamental properties rather than color or size.",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the squares in each row. Notice that the number of squares before the circle is increasing by 1 as the level of rows increases."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 squares before the circle."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_2",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_2_A",
-        "backend_description": "A circle filled with violet color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_2_B",
-        "backend_description": "A regular hexagon filled with bright orange color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the circles in each row. Notice that the number of circles before the hexagon is increasing by 1 as the level of rows increases."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 circles before the hexagon."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_3",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_3_A",
-        "backend_description": "A diamond shape (rotated square) filled with deep purple color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_3_B",
-        "backend_description": "A circle filled with maroon color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "B",
-        "A"
-      ],
-      [
-        "B",
-        "A",
-        "A"
-      ],
-      [
-        "B",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "B",
-        "A",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "B",
-        "A",
-        "A",
-        "A",
-        "A",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the diamonds in each row. Notice that the number of diamonds after the circle is increasing by 1 as the level of rows increases."
-      ],
-      [
-        "2/2",
-        "So, the next row will have the circle followed by 5 diamonds."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_4",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_4_A",
-        "backend_description": "An oval shape filled with coral color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_4_B",
-        "backend_description": "A square filled with navy blue color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "A",
-        "A",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that each row has a square in the middle with equal numbers of ovals on both sides, increasing by 1 each row."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 ovals, then a square, then 5 more ovals."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_5",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_5_A",
-        "backend_description": "A regular hexagon filled with royal blue color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_5_B",
-        "backend_description": "A heart shape filled with lime green color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A"
-      ],
-      [
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "B",
-        "A",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "B",
-        "A",
-        "B",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that the shapes alternate between hexagon and heart, with the total number increasing by 1 each row."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 shapes alternating between hexagon and heart."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_6",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_6_A",
-        "backend_description": "A horizontally-oriented rectangle filled with magenta color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_6_B",
-        "backend_description": "A square filled with violet color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "B",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "B",
-        "B",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "B",
-        "B",
-        "B",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the shapes in each row. Notice that each row has equal numbers of rectangles and squares, with the count of each increasing by 1."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 rectangles followed by 5 squares."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_7",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_7_A",
-        "backend_description": "A regular hexagon filled with teal color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_7_B",
-        "backend_description": "A circle filled with deep purple color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "B",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "B",
-        "B",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "B",
-        "B",
-        "B",
-        "B",
-        "A"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "B",
-        "B",
-        "B",
-        "B",
-        "B",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that each row starts with a hexagon, has an increasing number of circles in the middle, and ends with a hexagon."
-      ],
-      [
-        "2/2",
-        "So, the next row will have a hexagon, then 5 circles, then another hexagon."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_8",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_8_A",
-        "backend_description": "An oval shape filled with navy blue color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_8_B",
-        "backend_description": "A square filled with maroon color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "B",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that each row consists of pairs of oval and square, with the number of pairs increasing by 1 each row."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 pairs of ovalsquare."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_9",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_9_A",
-        "backend_description": "A diamond shape (rotated square) filled with magenta color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_9_B",
-        "backend_description": "A regular hexagon filled with bright orange color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that each row repeats the pattern diamonddiamondhexagon, with the repetitions increasing by 1 each row."
-      ],
-      [
-        "2/2",
-        "So, the next row will have the pattern diamonddiamondhexagon repeated 5 times."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_10",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_10_A",
-        "backend_description": "A regular hexagon filled with navy blue color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_10_B",
-        "backend_description": "A five-pointed star filled with amber color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the shapes in each row. Notice that the number of hexagons is increasing by 1 while there are always 2 stars at the end."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 hexagons followed by 2 stars."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_11",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_11_A",
-        "backend_description": "A circle filled with forest green color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_11_B",
-        "backend_description": "A heart shape filled with crimson red color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "B",
-        "B",
-        "A"
-      ],
-      [
-        "B",
-        "B",
-        "A",
-        "A"
-      ],
-      [
-        "B",
-        "B",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "B",
-        "B",
-        "A",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "B",
-        "B",
-        "A",
-        "A",
-        "A",
-        "A",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the shapes in each row. Notice that there are always 2 hearts at the start while the number of circles is increasing by 1."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 2 hearts followed by 5 circles."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_12",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_12_A",
-        "backend_description": "A circle filled with cyan color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_12_B",
-        "backend_description": "A five-pointed star filled with navy blue color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the circles in each row. Notice that the number of circles before the star is increasing by 1 as the level of rows increases."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 circles before the star."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_13",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_13_A",
-        "backend_description": "A square filled with magenta color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_13_B",
-        "backend_description": "A regular pentagon filled with bright orange color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "B",
-        "A"
-      ],
-      [
-        "B",
-        "A",
-        "A"
-      ],
-      [
-        "B",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "B",
-        "A",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "B",
-        "A",
-        "A",
-        "A",
-        "A",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the squares in each row. Notice that the number of squares after the pentagon is increasing by 1 as the level of rows increases."
-      ],
-      [
-        "2/2",
-        "So, the next row will have the pentagon followed by 5 squares."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_14",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_14_A",
-        "backend_description": "An equilateral triangle filled with maroon color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_14_B",
-        "backend_description": "A regular hexagon filled with forest green color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "A",
-        "A",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that each row has a hexagon in the middle with equal numbers of triangles on both sides, increasing by 1 each row."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 triangles, then a hexagon, then 5 more triangles."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_15",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_15_A",
-        "backend_description": "A diamond shape (rotated square) filled with coral color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_15_B",
-        "backend_description": "A heart shape filled with turquoise color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A"
-      ],
-      [
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "B",
-        "A",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "B",
-        "A",
-        "B",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that the shapes alternate between diamond and heart, with the total number increasing by 1 each row."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 shapes alternating between diamond and heart."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_16",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_16_A",
-        "backend_description": "A five-pointed star filled with scarlet color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_16_B",
-        "backend_description": "A regular pentagon filled with teal color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "B",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "B",
-        "B",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "B",
-        "B",
-        "B",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the shapes in each row. Notice that each row has equal numbers of stars and pentagons, with the count of each increasing by 1."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 stars followed by 5 pentagons."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_17",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_17_A",
-        "backend_description": "A circle filled with navy blue color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_17_B",
-        "backend_description": "A heart shape filled with deep purple color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "B",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "B",
-        "B",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "B",
-        "B",
-        "B",
-        "B",
-        "A"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "B",
-        "B",
-        "B",
-        "B",
-        "B",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that each row starts with a circle, has an increasing number of hearts in the middle, and ends with a circle."
-      ],
-      [
-        "2/2",
-        "So, the next row will have a circle, then 5 hearts, then another circle."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_18",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_18_A",
-        "backend_description": "A five-pointed star filled with forest green color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_18_B",
-        "backend_description": "A square filled with deep purple color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "B",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that each row consists of pairs of star and square, with the number of pairs increasing by 1 each row."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 pairs of starsquare."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_19",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_19_A",
-        "backend_description": "An oval shape filled with cyan color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_19_B",
-        "backend_description": "A heart shape filled with turquoise color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that each row repeats the pattern ovalovalheart, with the repetitions increasing by 1 each row."
-      ],
-      [
-        "2/2",
-        "So, the next row will have the pattern ovalovalheart repeated 5 times."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_20",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_20_A",
-        "backend_description": "A circle filled with amber color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_20_B",
-        "backend_description": "A heart shape filled with lime green color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the shapes in each row. Notice that the number of circles is increasing by 1 while there are always 2 hearts at the end."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 circles followed by 2 hearts."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_21",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_21_A",
-        "backend_description": "A heart shape filled with maroon color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_21_B",
-        "backend_description": "An equilateral triangle filled with indigo color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "B",
-        "B",
-        "A"
-      ],
-      [
-        "B",
-        "B",
-        "A",
-        "A"
-      ],
-      [
-        "B",
-        "B",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "B",
-        "B",
-        "A",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "B",
-        "B",
-        "A",
-        "A",
-        "A",
-        "A",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the shapes in each row. Notice that there are always 2 triangles at the start while the number of hearts is increasing by 1."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 2 triangles followed by 5 hearts."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_22",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_22_A",
-        "backend_description": "A circle filled with magenta color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_22_B",
-        "backend_description": "A horizontally-oriented rectangle filled with crimson red color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the circles in each row. Notice that the number of circles before the rectangle is increasing by 1 as the level of rows increases."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 circles before the rectangle."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_23",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_23_A",
-        "backend_description": "A heart shape filled with crimson red color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_23_B",
-        "backend_description": "A diamond shape (rotated square) filled with coral color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "B",
-        "A"
-      ],
-      [
-        "B",
-        "A",
-        "A"
-      ],
-      [
-        "B",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "B",
-        "A",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "B",
-        "A",
-        "A",
-        "A",
-        "A",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the hearts in each row. Notice that the number of hearts after the diamond is increasing by 1 as the level of rows increases."
-      ],
-      [
-        "2/2",
-        "So, the next row will have the diamond followed by 5 hearts."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_24",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_24_A",
-        "backend_description": "An equilateral triangle filled with scarlet color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_24_B",
-        "backend_description": "A diamond shape (rotated square) filled with forest green color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "A",
-        "A",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that each row has a diamond in the middle with equal numbers of triangles on both sides, increasing by 1 each row."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 triangles, then a diamond, then 5 more triangles."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_25",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_25_A",
-        "backend_description": "A regular hexagon filled with royal blue color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_25_B",
-        "backend_description": "A square filled with hot pink color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A"
-      ],
-      [
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "B",
-        "A",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "B",
-        "A",
-        "B",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that the shapes alternate between hexagon and square, with the total number increasing by 1 each row."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 shapes alternating between hexagon and square."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_26",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_26_A",
-        "backend_description": "An equilateral triangle filled with violet color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_26_B",
-        "backend_description": "A square filled with crimson red color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "B",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "B",
-        "B",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "B",
-        "B",
-        "B",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the shapes in each row. Notice that each row has equal numbers of triangles and squares, with the count of each increasing by 1."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 triangles followed by 5 squares."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_27",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_27_A",
-        "backend_description": "An equilateral triangle filled with scarlet color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_27_B",
-        "backend_description": "A regular hexagon filled with cyan color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "B",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "B",
-        "B",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "B",
-        "B",
-        "B",
-        "B",
-        "A"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "B",
-        "B",
-        "B",
-        "B",
-        "B",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that each row starts with a triangle, has an increasing number of hexagons in the middle, and ends with a triangle."
-      ],
-      [
-        "2/2",
-        "So, the next row will have a triangle, then 5 hexagons, then another triangle."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_28",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_28_A",
-        "backend_description": "A square filled with coral color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_28_B",
-        "backend_description": "A horizontally-oriented rectangle filled with indigo color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "B",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that each row consists of pairs of square and rectangle, with the number of pairs increasing by 1 each row."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 pairs of squarerectangle."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_29",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_29_A",
-        "backend_description": "An oval shape filled with bright orange color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_29_B",
-        "backend_description": "A heart shape filled with indigo color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that each row repeats the pattern ovalovalheart, with the repetitions increasing by 1 each row."
-      ],
-      [
-        "2/2",
-        "So, the next row will have the pattern ovalovalheart repeated 5 times."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_30",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_30_A",
-        "backend_description": "A regular pentagon filled with maroon color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_30_B",
-        "backend_description": "A regular hexagon filled with deep purple color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the shapes in each row. Notice that the number of pentagons is increasing by 1 while there are always 2 hexagons at the end."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 pentagons followed by 2 hexagons."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_31",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_31_A",
-        "backend_description": "A regular pentagon filled with coral color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_31_B",
-        "backend_description": "An oval shape filled with navy blue color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "B",
-        "B",
-        "A"
-      ],
-      [
-        "B",
-        "B",
-        "A",
-        "A"
-      ],
-      [
-        "B",
-        "B",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "B",
-        "B",
-        "A",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "B",
-        "B",
-        "A",
-        "A",
-        "A",
-        "A",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the shapes in each row. Notice that there are always 2 ovals at the start while the number of pentagons is increasing by 1."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 2 ovals followed by 5 pentagons."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_32",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_32_A",
-        "backend_description": "An oval shape filled with navy blue color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_32_B",
-        "backend_description": "A circle filled with forest green color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the ovals in each row. Notice that the number of ovals before the circle is increasing by 1 as the level of rows increases."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 ovals before the circle."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_33",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_33_A",
-        "backend_description": "A heart shape filled with navy blue color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_33_B",
-        "backend_description": "A square filled with indigo color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "B",
-        "A"
-      ],
-      [
-        "B",
-        "A",
-        "A"
-      ],
-      [
-        "B",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "B",
-        "A",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "B",
-        "A",
-        "A",
-        "A",
-        "A",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the hearts in each row. Notice that the number of hearts after the square is increasing by 1 as the level of rows increases."
-      ],
-      [
-        "2/2",
-        "So, the next row will have the square followed by 5 hearts."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_34",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_34_A",
-        "backend_description": "A regular pentagon filled with hot pink color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_34_B",
-        "backend_description": "A diamond shape (rotated square) filled with indigo color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "A",
-        "A",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that each row has a diamond in the middle with equal numbers of pentagons on both sides, increasing by 1 each row."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 pentagons, then a diamond, then 5 more pentagons."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_35",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_35_A",
-        "backend_description": "A horizontally-oriented rectangle filled with deep purple color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_35_B",
-        "backend_description": "A diamond shape (rotated square) filled with coral color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A"
-      ],
-      [
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "B",
-        "A",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "B",
-        "A",
-        "B",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that the shapes alternate between rectangle and diamond, with the total number increasing by 1 each row."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 shapes alternating between rectangle and diamond."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_36",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_36_A",
-        "backend_description": "A circle filled with navy blue color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_36_B",
-        "backend_description": "A five-pointed star filled with royal blue color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "B",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "B",
-        "B",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "B",
-        "B",
-        "B",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the shapes in each row. Notice that each row has equal numbers of circles and stars, with the count of each increasing by 1."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 circles followed by 5 stars."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_37",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_37_A",
-        "backend_description": "An oval shape filled with crimson red color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_37_B",
-        "backend_description": "A square filled with hot pink color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "B",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "B",
-        "B",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "B",
-        "B",
-        "B",
-        "B",
-        "A"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "B",
-        "B",
-        "B",
-        "B",
-        "B",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that each row starts with a oval, has an increasing number of squares in the middle, and ends with a oval."
-      ],
-      [
-        "2/2",
-        "So, the next row will have a oval, then 5 squares, then another oval."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_38",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_38_A",
-        "backend_description": "A diamond shape (rotated square) filled with magenta color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_38_B",
-        "backend_description": "An equilateral triangle filled with turquoise color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "B",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that each row consists of pairs of diamond and triangle, with the number of pairs increasing by 1 each row."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 pairs of diamondtriangle."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_39",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_39_A",
-        "backend_description": "A square filled with forest green color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_39_B",
-        "backend_description": "A circle filled with cyan color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that each row repeats the pattern squaresquarecircle, with the repetitions increasing by 1 each row."
-      ],
-      [
-        "2/2",
-        "So, the next row will have the pattern squaresquarecircle repeated 5 times."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_40",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_40_A",
-        "backend_description": "A horizontally-oriented rectangle filled with violet color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_40_B",
-        "backend_description": "A square filled with indigo color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the shapes in each row. Notice that the number of rectangles is increasing by 1 while there are always 2 squares at the end."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 rectangles followed by 2 squares."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_41",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_41_A",
-        "backend_description": "A regular hexagon filled with vibrant green color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_41_B",
-        "backend_description": "A horizontally-oriented rectangle filled with crimson red color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "B",
-        "B",
-        "A"
-      ],
-      [
-        "B",
-        "B",
-        "A",
-        "A"
-      ],
-      [
-        "B",
-        "B",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "B",
-        "B",
-        "A",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "B",
-        "B",
-        "A",
-        "A",
-        "A",
-        "A",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the shapes in each row. Notice that there are always 2 rectangles at the start while the number of hexagons is increasing by 1."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 2 rectangles followed by 5 hexagons."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_42",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_42_A",
-        "backend_description": "An equilateral triangle filled with royal blue color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_42_B",
-        "backend_description": "A circle filled with cyan color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the triangles in each row. Notice that the number of triangles before the circle is increasing by 1 as the level of rows increases."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 triangles before the circle."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_43",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_43_A",
-        "backend_description": "A diamond shape (rotated square) filled with teal color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_43_B",
-        "backend_description": "A square filled with royal blue color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "B",
-        "A"
-      ],
-      [
-        "B",
-        "A",
-        "A"
-      ],
-      [
-        "B",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "B",
-        "A",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "B",
-        "A",
-        "A",
-        "A",
-        "A",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the diamonds in each row. Notice that the number of diamonds after the square is increasing by 1 as the level of rows increases."
-      ],
-      [
-        "2/2",
-        "So, the next row will have the square followed by 5 diamonds."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_44",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_44_A",
-        "backend_description": "An equilateral triangle filled with forest green color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_44_B",
-        "backend_description": "A square filled with golden-yellow color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "A",
-        "A",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that each row has a square in the middle with equal numbers of triangles on both sides, increasing by 1 each row."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 triangles, then a square, then 5 more triangles."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_45",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_45_A",
-        "backend_description": "A five-pointed star filled with royal blue color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_45_B",
-        "backend_description": "A diamond shape (rotated square) filled with golden-yellow color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A"
-      ],
-      [
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "B",
-        "A",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "B",
-        "A",
-        "B",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that the shapes alternate between star and diamond, with the total number increasing by 1 each row."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 shapes alternating between star and diamond."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_46",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_46_A",
-        "backend_description": "A diamond shape (rotated square) filled with indigo color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_46_B",
-        "backend_description": "An equilateral triangle filled with golden-yellow color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "B",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "B",
-        "B",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "B",
-        "B",
-        "B",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the shapes in each row. Notice that each row has equal numbers of diamonds and triangles, with the count of each increasing by 1."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 diamonds followed by 5 triangles."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_47",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_47_A",
-        "backend_description": "A horizontally-oriented rectangle filled with vibrant green color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_47_B",
-        "backend_description": "A five-pointed star filled with navy blue color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "B",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "B",
-        "B",
-        "B",
-        "A"
-      ],
-      [
-        "A",
-        "B",
-        "B",
-        "B",
-        "B",
-        "A"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "B",
-        "B",
-        "B",
-        "B",
-        "B",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that each row starts with a rectangle, has an increasing number of stars in the middle, and ends with a rectangle."
-      ],
-      [
-        "2/2",
-        "So, the next row will have a rectangle, then 5 stars, then another rectangle."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_48",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_48_A",
-        "backend_description": "A horizontally-oriented rectangle filled with amber color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_48_B",
-        "backend_description": "An oval shape filled with coral color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "B",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B",
-        "A",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that each row consists of pairs of rectangle and oval, with the number of pairs increasing by 1 each row."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 pairs of rectangleoval."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_49",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_49_A",
-        "backend_description": "An oval shape filled with hot pink color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_49_B",
-        "backend_description": "A circle filled with navy blue color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B",
-        "A",
-        "A",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Notice that each row repeats the pattern ovalovalcircle, with the repetitions increasing by 1 each row."
-      ],
-      [
-        "2/2",
-        "So, the next row will have the pattern ovalovalcircle repeated 5 times."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_50",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_50_A",
-        "backend_description": "A horizontally-oriented rectangle filled with amber color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_50_B",
-        "backend_description": "A square filled with turquoise color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "B"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "A",
-        "A",
-        "A",
-        "A",
-        "A",
-        "B",
-        "B"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the shapes in each row. Notice that the number of rectangles is increasing by 1 while there are always 2 squares at the end."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 5 rectangles followed by 2 squares."
-      ]
-    ],
-    "solution_image_tag": []
-  },
-  {
-    "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
-    "question_text": "What row comes next in the pattern?",
-    "question_type": "Pattern Drag and Drop",
-    "tag": "Gr4_34_E1",
-    "question_number": "1_51",
-    "shape_image_tags": [
-      {
-        "tag": "Gr4_34_1_51_A",
-        "backend_description": "A regular pentagon filled with coral color on a white card background",
-        "id": "A"
-      },
-      {
-        "tag": "Gr4_34_1_51_B",
-        "backend_description": "A heart shape filled with golden-yellow color on a white card background",
-        "id": "B"
-      }
-    ],
-    "sequence": [
-      [
-        "B",
-        "B",
-        "A"
-      ],
-      [
-        "B",
-        "B",
-        "A",
-        "A"
-      ],
-      [
-        "B",
-        "B",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "B",
-        "B",
-        "A",
-        "A",
-        "A",
-        "A"
-      ],
-      [
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty",
-        "empty"
-      ]
-    ],
-    "correct_answers": [
-      [
-        "B",
-        "B",
-        "A",
-        "A",
-        "A",
-        "A",
-        "A"
-      ]
-    ],
-    "solution": [
-      [
-        "1/2",
-        "Count the shapes in each row. Notice that there are always 2 hearts at the start while the number of pentagons is increasing by 1."
-      ],
-      [
-        "2/2",
-        "So, the next row will have 2 hearts followed by 5 pentagons."
-      ]
-    ],
-    "solution_image_tag": []
-  }
-]
+{
+  "quizzes": [
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_1",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_1_A",
+          "backend_description": "A square filled with vibrant green color (like fresh grass) on a white card background. This reinforces the concept of regular quadrilaterals while introducing color variety, helping students understand that color is not a defining property of geometric shapes.",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_1_B",
+          "backend_description": "A circle filled with golden-yellow color on a white card background. When paired with the green square, this creates a clear shape contrast between angular (square) and curved (circle) forms, reinforcing circle recognition and helping students practice categorizing shapes based on their fundamental properties rather than color or size.",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the squares in each row. Notice that the number of squares before the circle is increasing by 1 as the level of rows increases."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 squares before the circle."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_2",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_2_A",
+          "backend_description": "A circle filled with violet color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_2_B",
+          "backend_description": "A regular hexagon filled with bright orange color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the circles in each row. Notice that the number of circles before the hexagon is increasing by 1 as the level of rows increases."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 circles before the hexagon."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_3",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_3_A",
+          "backend_description": "A diamond shape (rotated square) filled with deep purple color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_3_B",
+          "backend_description": "A circle filled with maroon color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "B",
+          "A"
+        ],
+        [
+          "B",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "A",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "B",
+          "A",
+          "A",
+          "A",
+          "A",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the diamonds in each row. Notice that the number of diamonds after the circle is increasing by 1 as the level of rows increases."
+        ],
+        [
+          "2/2",
+          "So, the next row will have the circle followed by 5 diamonds."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_4",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_4_A",
+          "backend_description": "An oval shape filled with coral color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_4_B",
+          "backend_description": "A square filled with navy blue color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that each row has a square in the middle with equal numbers of ovals on both sides, increasing by 1 each row."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 ovals, then a square, then 5 more ovals."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_5",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_5_A",
+          "backend_description": "A regular hexagon filled with royal blue color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_5_B",
+          "backend_description": "A heart shape filled with lime green color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A"
+        ],
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "B",
+          "A",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "B",
+          "A",
+          "B",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that the shapes alternate between hexagon and heart, with the total number increasing by 1 each row."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 shapes alternating between hexagon and heart."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_6",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_6_A",
+          "backend_description": "A horizontally-oriented rectangle filled with magenta color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_6_B",
+          "backend_description": "A square filled with violet color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "B",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "B",
+          "B",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "B",
+          "B",
+          "B",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the shapes in each row. Notice that each row has equal numbers of rectangles and squares, with the count of each increasing by 1."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 rectangles followed by 5 squares."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_7",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_7_A",
+          "backend_description": "A regular hexagon filled with teal color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_7_B",
+          "backend_description": "A circle filled with deep purple color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "B",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "B",
+          "B",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "B",
+          "B",
+          "B",
+          "B",
+          "A"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "B",
+          "B",
+          "B",
+          "B",
+          "B",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that each row starts with a hexagon, has an increasing number of circles in the middle, and ends with a hexagon."
+        ],
+        [
+          "2/2",
+          "So, the next row will have a hexagon, then 5 circles, then another hexagon."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_8",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_8_A",
+          "backend_description": "An oval shape filled with navy blue color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_8_B",
+          "backend_description": "A square filled with maroon color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that each row consists of pairs of oval and square, with the number of pairs increasing by 1 each row."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 pairs of ovalsquare."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_9",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_9_A",
+          "backend_description": "A diamond shape (rotated square) filled with magenta color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_9_B",
+          "backend_description": "A regular hexagon filled with bright orange color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that each row repeats the pattern diamonddiamondhexagon, with the repetitions increasing by 1 each row."
+        ],
+        [
+          "2/2",
+          "So, the next row will have the pattern diamonddiamondhexagon repeated 5 times."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_10",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_10_A",
+          "backend_description": "A regular hexagon filled with navy blue color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_10_B",
+          "backend_description": "A five-pointed star filled with amber color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the shapes in each row. Notice that the number of hexagons is increasing by 1 while there are always 2 stars at the end."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 hexagons followed by 2 stars."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_11",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_11_A",
+          "backend_description": "A circle filled with forest green color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_11_B",
+          "backend_description": "A heart shape filled with crimson red color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "B",
+          "B",
+          "A"
+        ],
+        [
+          "B",
+          "B",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "B",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the shapes in each row. Notice that there are always 2 hearts at the start while the number of circles is increasing by 1."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 2 hearts followed by 5 circles."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_12",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_12_A",
+          "backend_description": "A circle filled with cyan color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_12_B",
+          "backend_description": "A five-pointed star filled with navy blue color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the circles in each row. Notice that the number of circles before the star is increasing by 1 as the level of rows increases."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 circles before the star."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_13",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_13_A",
+          "backend_description": "A square filled with magenta color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_13_B",
+          "backend_description": "A regular pentagon filled with bright orange color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "B",
+          "A"
+        ],
+        [
+          "B",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "A",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "B",
+          "A",
+          "A",
+          "A",
+          "A",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the squares in each row. Notice that the number of squares after the pentagon is increasing by 1 as the level of rows increases."
+        ],
+        [
+          "2/2",
+          "So, the next row will have the pentagon followed by 5 squares."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_14",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_14_A",
+          "backend_description": "An equilateral triangle filled with maroon color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_14_B",
+          "backend_description": "A regular hexagon filled with forest green color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that each row has a hexagon in the middle with equal numbers of triangles on both sides, increasing by 1 each row."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 triangles, then a hexagon, then 5 more triangles."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_15",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_15_A",
+          "backend_description": "A diamond shape (rotated square) filled with coral color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_15_B",
+          "backend_description": "A heart shape filled with turquoise color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A"
+        ],
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "B",
+          "A",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "B",
+          "A",
+          "B",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that the shapes alternate between diamond and heart, with the total number increasing by 1 each row."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 shapes alternating between diamond and heart."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_16",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_16_A",
+          "backend_description": "A five-pointed star filled with scarlet color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_16_B",
+          "backend_description": "A regular pentagon filled with teal color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "B",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "B",
+          "B",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "B",
+          "B",
+          "B",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the shapes in each row. Notice that each row has equal numbers of stars and pentagons, with the count of each increasing by 1."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 stars followed by 5 pentagons."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_17",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_17_A",
+          "backend_description": "A circle filled with navy blue color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_17_B",
+          "backend_description": "A heart shape filled with deep purple color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "B",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "B",
+          "B",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "B",
+          "B",
+          "B",
+          "B",
+          "A"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "B",
+          "B",
+          "B",
+          "B",
+          "B",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that each row starts with a circle, has an increasing number of hearts in the middle, and ends with a circle."
+        ],
+        [
+          "2/2",
+          "So, the next row will have a circle, then 5 hearts, then another circle."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_18",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_18_A",
+          "backend_description": "A five-pointed star filled with forest green color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_18_B",
+          "backend_description": "A square filled with deep purple color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that each row consists of pairs of star and square, with the number of pairs increasing by 1 each row."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 pairs of starsquare."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_19",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_19_A",
+          "backend_description": "An oval shape filled with cyan color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_19_B",
+          "backend_description": "A heart shape filled with turquoise color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that each row repeats the pattern ovalovalheart, with the repetitions increasing by 1 each row."
+        ],
+        [
+          "2/2",
+          "So, the next row will have the pattern ovalovalheart repeated 5 times."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_20",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_20_A",
+          "backend_description": "A circle filled with amber color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_20_B",
+          "backend_description": "A heart shape filled with lime green color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the shapes in each row. Notice that the number of circles is increasing by 1 while there are always 2 hearts at the end."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 circles followed by 2 hearts."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_21",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_21_A",
+          "backend_description": "A heart shape filled with maroon color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_21_B",
+          "backend_description": "An equilateral triangle filled with indigo color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "B",
+          "B",
+          "A"
+        ],
+        [
+          "B",
+          "B",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "B",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the shapes in each row. Notice that there are always 2 triangles at the start while the number of hearts is increasing by 1."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 2 triangles followed by 5 hearts."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_22",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_22_A",
+          "backend_description": "A circle filled with magenta color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_22_B",
+          "backend_description": "A horizontally-oriented rectangle filled with crimson red color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the circles in each row. Notice that the number of circles before the rectangle is increasing by 1 as the level of rows increases."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 circles before the rectangle."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_23",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_23_A",
+          "backend_description": "A heart shape filled with crimson red color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_23_B",
+          "backend_description": "A diamond shape (rotated square) filled with coral color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "B",
+          "A"
+        ],
+        [
+          "B",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "A",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "B",
+          "A",
+          "A",
+          "A",
+          "A",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the hearts in each row. Notice that the number of hearts after the diamond is increasing by 1 as the level of rows increases."
+        ],
+        [
+          "2/2",
+          "So, the next row will have the diamond followed by 5 hearts."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_24",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_24_A",
+          "backend_description": "An equilateral triangle filled with scarlet color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_24_B",
+          "backend_description": "A diamond shape (rotated square) filled with forest green color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that each row has a diamond in the middle with equal numbers of triangles on both sides, increasing by 1 each row."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 triangles, then a diamond, then 5 more triangles."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_25",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_25_A",
+          "backend_description": "A regular hexagon filled with royal blue color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_25_B",
+          "backend_description": "A square filled with hot pink color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A"
+        ],
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "B",
+          "A",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "B",
+          "A",
+          "B",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that the shapes alternate between hexagon and square, with the total number increasing by 1 each row."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 shapes alternating between hexagon and square."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_26",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_26_A",
+          "backend_description": "An equilateral triangle filled with violet color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_26_B",
+          "backend_description": "A square filled with crimson red color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "B",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "B",
+          "B",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "B",
+          "B",
+          "B",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the shapes in each row. Notice that each row has equal numbers of triangles and squares, with the count of each increasing by 1."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 triangles followed by 5 squares."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_27",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_27_A",
+          "backend_description": "An equilateral triangle filled with scarlet color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_27_B",
+          "backend_description": "A regular hexagon filled with cyan color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "B",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "B",
+          "B",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "B",
+          "B",
+          "B",
+          "B",
+          "A"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "B",
+          "B",
+          "B",
+          "B",
+          "B",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that each row starts with a triangle, has an increasing number of hexagons in the middle, and ends with a triangle."
+        ],
+        [
+          "2/2",
+          "So, the next row will have a triangle, then 5 hexagons, then another triangle."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_28",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_28_A",
+          "backend_description": "A square filled with coral color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_28_B",
+          "backend_description": "A horizontally-oriented rectangle filled with indigo color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that each row consists of pairs of square and rectangle, with the number of pairs increasing by 1 each row."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 pairs of squarerectangle."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_29",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_29_A",
+          "backend_description": "An oval shape filled with bright orange color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_29_B",
+          "backend_description": "A heart shape filled with indigo color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that each row repeats the pattern ovalovalheart, with the repetitions increasing by 1 each row."
+        ],
+        [
+          "2/2",
+          "So, the next row will have the pattern ovalovalheart repeated 5 times."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_30",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_30_A",
+          "backend_description": "A regular pentagon filled with maroon color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_30_B",
+          "backend_description": "A regular hexagon filled with deep purple color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the shapes in each row. Notice that the number of pentagons is increasing by 1 while there are always 2 hexagons at the end."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 pentagons followed by 2 hexagons."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_31",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_31_A",
+          "backend_description": "A regular pentagon filled with coral color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_31_B",
+          "backend_description": "An oval shape filled with navy blue color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "B",
+          "B",
+          "A"
+        ],
+        [
+          "B",
+          "B",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "B",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the shapes in each row. Notice that there are always 2 ovals at the start while the number of pentagons is increasing by 1."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 2 ovals followed by 5 pentagons."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_32",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_32_A",
+          "backend_description": "An oval shape filled with navy blue color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_32_B",
+          "backend_description": "A circle filled with forest green color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the ovals in each row. Notice that the number of ovals before the circle is increasing by 1 as the level of rows increases."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 ovals before the circle."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_33",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_33_A",
+          "backend_description": "A heart shape filled with navy blue color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_33_B",
+          "backend_description": "A square filled with indigo color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "B",
+          "A"
+        ],
+        [
+          "B",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "A",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "B",
+          "A",
+          "A",
+          "A",
+          "A",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the hearts in each row. Notice that the number of hearts after the square is increasing by 1 as the level of rows increases."
+        ],
+        [
+          "2/2",
+          "So, the next row will have the square followed by 5 hearts."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_34",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_34_A",
+          "backend_description": "A regular pentagon filled with hot pink color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_34_B",
+          "backend_description": "A diamond shape (rotated square) filled with indigo color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that each row has a diamond in the middle with equal numbers of pentagons on both sides, increasing by 1 each row."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 pentagons, then a diamond, then 5 more pentagons."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_35",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_35_A",
+          "backend_description": "A horizontally-oriented rectangle filled with deep purple color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_35_B",
+          "backend_description": "A diamond shape (rotated square) filled with coral color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A"
+        ],
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "B",
+          "A",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "B",
+          "A",
+          "B",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that the shapes alternate between rectangle and diamond, with the total number increasing by 1 each row."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 shapes alternating between rectangle and diamond."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_36",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_36_A",
+          "backend_description": "A circle filled with navy blue color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_36_B",
+          "backend_description": "A five-pointed star filled with royal blue color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "B",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "B",
+          "B",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "B",
+          "B",
+          "B",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the shapes in each row. Notice that each row has equal numbers of circles and stars, with the count of each increasing by 1."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 circles followed by 5 stars."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_37",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_37_A",
+          "backend_description": "An oval shape filled with crimson red color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_37_B",
+          "backend_description": "A square filled with hot pink color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "B",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "B",
+          "B",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "B",
+          "B",
+          "B",
+          "B",
+          "A"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "B",
+          "B",
+          "B",
+          "B",
+          "B",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that each row starts with a oval, has an increasing number of squares in the middle, and ends with a oval."
+        ],
+        [
+          "2/2",
+          "So, the next row will have a oval, then 5 squares, then another oval."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_38",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_38_A",
+          "backend_description": "A diamond shape (rotated square) filled with magenta color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_38_B",
+          "backend_description": "An equilateral triangle filled with turquoise color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that each row consists of pairs of diamond and triangle, with the number of pairs increasing by 1 each row."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 pairs of diamondtriangle."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_39",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_39_A",
+          "backend_description": "A square filled with forest green color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_39_B",
+          "backend_description": "A circle filled with cyan color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that each row repeats the pattern squaresquarecircle, with the repetitions increasing by 1 each row."
+        ],
+        [
+          "2/2",
+          "So, the next row will have the pattern squaresquarecircle repeated 5 times."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_40",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_40_A",
+          "backend_description": "A horizontally-oriented rectangle filled with violet color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_40_B",
+          "backend_description": "A square filled with indigo color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the shapes in each row. Notice that the number of rectangles is increasing by 1 while there are always 2 squares at the end."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 rectangles followed by 2 squares."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_41",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_41_A",
+          "backend_description": "A regular hexagon filled with vibrant green color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_41_B",
+          "backend_description": "A horizontally-oriented rectangle filled with crimson red color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "B",
+          "B",
+          "A"
+        ],
+        [
+          "B",
+          "B",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "B",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the shapes in each row. Notice that there are always 2 rectangles at the start while the number of hexagons is increasing by 1."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 2 rectangles followed by 5 hexagons."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_42",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_42_A",
+          "backend_description": "An equilateral triangle filled with royal blue color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_42_B",
+          "backend_description": "A circle filled with cyan color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the triangles in each row. Notice that the number of triangles before the circle is increasing by 1 as the level of rows increases."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 triangles before the circle."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_43",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_43_A",
+          "backend_description": "A diamond shape (rotated square) filled with teal color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_43_B",
+          "backend_description": "A square filled with royal blue color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "B",
+          "A"
+        ],
+        [
+          "B",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "A",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "B",
+          "A",
+          "A",
+          "A",
+          "A",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the diamonds in each row. Notice that the number of diamonds after the square is increasing by 1 as the level of rows increases."
+        ],
+        [
+          "2/2",
+          "So, the next row will have the square followed by 5 diamonds."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_44",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_44_A",
+          "backend_description": "An equilateral triangle filled with forest green color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_44_B",
+          "backend_description": "A square filled with golden-yellow color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that each row has a square in the middle with equal numbers of triangles on both sides, increasing by 1 each row."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 triangles, then a square, then 5 more triangles."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_45",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_45_A",
+          "backend_description": "A five-pointed star filled with royal blue color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_45_B",
+          "backend_description": "A diamond shape (rotated square) filled with golden-yellow color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A"
+        ],
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "B",
+          "A",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "B",
+          "A",
+          "B",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that the shapes alternate between star and diamond, with the total number increasing by 1 each row."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 shapes alternating between star and diamond."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_46",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_46_A",
+          "backend_description": "A diamond shape (rotated square) filled with indigo color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_46_B",
+          "backend_description": "An equilateral triangle filled with golden-yellow color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "B",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "B",
+          "B",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "B",
+          "B",
+          "B",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the shapes in each row. Notice that each row has equal numbers of diamonds and triangles, with the count of each increasing by 1."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 diamonds followed by 5 triangles."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_47",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_47_A",
+          "backend_description": "A horizontally-oriented rectangle filled with vibrant green color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_47_B",
+          "backend_description": "A five-pointed star filled with navy blue color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "B",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "B",
+          "B",
+          "B",
+          "A"
+        ],
+        [
+          "A",
+          "B",
+          "B",
+          "B",
+          "B",
+          "A"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "B",
+          "B",
+          "B",
+          "B",
+          "B",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that each row starts with a rectangle, has an increasing number of stars in the middle, and ends with a rectangle."
+        ],
+        [
+          "2/2",
+          "So, the next row will have a rectangle, then 5 stars, then another rectangle."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_48",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_48_A",
+          "backend_description": "A horizontally-oriented rectangle filled with amber color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_48_B",
+          "backend_description": "An oval shape filled with coral color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B",
+          "A",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that each row consists of pairs of rectangle and oval, with the number of pairs increasing by 1 each row."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 pairs of rectangleoval."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_49",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_49_A",
+          "backend_description": "An oval shape filled with hot pink color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_49_B",
+          "backend_description": "A circle filled with navy blue color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Notice that each row repeats the pattern ovalovalcircle, with the repetitions increasing by 1 each row."
+        ],
+        [
+          "2/2",
+          "So, the next row will have the pattern ovalovalcircle repeated 5 times."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_50",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_50_A",
+          "backend_description": "A horizontally-oriented rectangle filled with amber color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_50_B",
+          "backend_description": "A square filled with turquoise color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "B"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the shapes in each row. Notice that the number of rectangles is increasing by 1 while there are always 2 squares at the end."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 5 rectangles followed by 2 squares."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "find-the-next-row-in-a-growing-pattern-of-shapes",
+      "question_text": "What row comes next in the pattern?",
+      "question_type": "Pattern Drag and Drop",
+      "tag": "Gr4_34_E1",
+      "question_number": "1_51",
+      "shape_image_tags": [
+        {
+          "tag": "Gr4_34_1_51_A",
+          "backend_description": "A regular pentagon filled with coral color on a white card background",
+          "id": "A"
+        },
+        {
+          "tag": "Gr4_34_1_51_B",
+          "backend_description": "A heart shape filled with golden-yellow color on a white card background",
+          "id": "B"
+        }
+      ],
+      "sequence": [
+        [
+          "B",
+          "B",
+          "A"
+        ],
+        [
+          "B",
+          "B",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A"
+        ],
+        [
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty",
+          "empty"
+        ]
+      ],
+      "correct_answers": [
+        [
+          "B",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A",
+          "A"
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Count the shapes in each row. Notice that there are always 2 hearts at the start while the number of pentagons is increasing by 1."
+        ],
+        [
+          "2/2",
+          "So, the next row will have 2 hearts followed by 5 pentagons."
+        ]
+      ],
+      "solution_image_tag": []
+    }
+  ]
+}
