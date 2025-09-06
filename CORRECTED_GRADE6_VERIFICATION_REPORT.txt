@@ -1,0 +1,94 @@
+================================================================================
+COMPREHENSIVE GRADE 6 FILES VERIFICATION REPORT
+================================================================================
+
+SUMMARY STATISTICS:
+----------------------------------------
+Total JSON files found: 168
+JSON files compliant: 130
+JSON files with issues: 38
+Total properly named HTML files: 3348
+HTML files compliant: 3222
+HTML files with issues: 126
+Questions with images found: 59
+HTML files found for image questions: 2046
+Missing HTML files: 963
+
+OVERALL COMPLIANCE:
+----------------------------------------
+JSON Files Compliance: 77.4%
+HTML Files Compliance: 96.2%
+
+JSON FILES WITH ISSUES (Top 5):
+----------------------------------------
+
+File: Gr6_10_E1_variations.json
+  - Variation 1: Underscore count (1) != answer count (3)
+  - Variation 2: Underscore count (1) != answer count (3)
+
+File: Gr6_10_E3_variations.json
+  - Variation 1: Underscore count (1) != answer count (3)
+  - Variation 2: Underscore count (1) != answer count (3)
+  - Variation 3: Underscore count (1) != answer count (3)
+  ... and 44 more issues
+
+File: Gr6_12_E2_variations.json
+  - Variation 1: Underscore count (5) != answer count (1)
+  - Variation 1: 'orderMatter' should be boolean, found str
+  - Variation 2: Underscore count (5) != answer count (1)
+  ... and 99 more issues
+
+File: Gr6_19_E1_variations.json
+  - Variation 1: Underscore count (1) != answer count (3)
+  - Variation 50: Underscore count (1) != answer count (3)
+  - Variation 51: Underscore count (1) != answer count (3)
+
+File: Gr6_20_E1_variations.json
+  - Variation 1: Underscore count (1) != answer count (3)
+  - Variation 50: Underscore count (1) != answer count (3)
+  - Variation 51: Underscore count (1) != answer count (3)
+
+... and 33 more files with issues
+
+HTML FILES WITH ISSUES (Top 5):
+----------------------------------------
+
+File: Gr6_33_E3_3_10.html
+  - Missing proper div structure with class='item' and style='display:inline-block'
+
+File: Gr6_33_E3_3_11.html
+  - Missing proper div structure with class='item' and style='display:inline-block'
+
+File: Gr6_33_E3_3_12.html
+  - Missing proper div structure with class='item' and style='display:inline-block'
+
+File: Gr6_33_E3_3_13.html
+  - Missing proper div structure with class='item' and style='display:inline-block'
+
+File: Gr6_33_E3_3_14.html
+  - Missing proper div structure with class='item' and style='display:inline-block'
+
+... and 121 more files with issues
+
+MISSING HTML FILES (Sample):
+----------------------------------------
+  - HTML/Gr6_15_E5_1_9.html
+  - HTML/Gr6_15_E5_1_22.html
+  - HTML/Gr6_15_E5_1_32.html
+  - HTML/Gr6_15_E5_1_34.html
+  - HTML/Gr6_15_E5_1_35.html
+  - HTML/Gr6_15_E5_1_37.html
+  - HTML/Gr6_15_E5_1_44.html
+  - HTML/Gr6_15_E5_1_47.html
+  - HTML/Gr6_15_E5_1_48.html
+  - HTML/Gr6_15_E5_1_50.html
+  ... and 953 more missing files
+
+FINAL ASSESSMENT:
+----------------------------------------
+ISSUES FOUND - COMPLIANCE NOT FULLY MET
+ISSUE: 38 JSON files have formatting issues
+ISSUE: 126 HTML files have structure issues
+ISSUE: 963 HTML files are missing
+
+================================================================================

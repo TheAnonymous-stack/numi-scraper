@@ -1,12 +1,14 @@
 [
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 5 + 2$",
+    "question_text": "Evaluate the expression. $6 \\cdot 4 + 1$=_",
     "tag": "Gr6_8_E3",
     "question_number": "3_3",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "17"
+      [
+        "25"
+      ]
     ],
     "solution": [
       [
@@ -15,38 +17,41 @@
       ],
       [
         "2/7",
-        "$3 \\cdot 5 + 2$"
+        "$6 \\cdot 4 + 1$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$3 \\cdot 5 + 2$"
+        "First: Multiply. $6 \\cdot 4 + 1$"
       ],
       [
         "4/7",
-        "$= 15 + 2$"
+        "$= 24 + 1$"
       ],
       [
         "5/7",
-        "Second: Add. \n$15 + 2$ "
+        "Second: Add. $24 + 1$"
       ],
       [
         "6/7",
-        "$=17$"
+        "$=25$"
       ],
       [
         "7/7",
-        "The value of the expression is 17."
+        "The value of the expression is 25."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 16 + 2$",
+    "question_text": "Evaluate the expression. $1 + 8 \\div 8$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_2",
+    "question_number": "3_4",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "50"
+      [
+        "2"
+      ]
     ],
     "solution": [
       [
@@ -55,19 +60,750 @@
       ],
       [
         "2/7",
-        "$3 \\cdot 16 + 2$"
+        "$1 + 8 \\div 8$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$3 \\cdot 16 + 2$"
+        "First: Divide. $1 + 8 \\div 8$"
       ],
       [
         "4/7",
-        "$= 48 + 2$"
+        "$= 1 + 1$"
       ],
       [
         "5/7",
-        "Second: Add. \n$48 + 2$ "
+        "Second: Add. $1 + 1$"
+      ],
+      [
+        "6/7",
+        "$=2$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 2."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $66 - 10 \\cdot 2$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_5",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "46"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$66 - 10 \\cdot 2$"
+      ],
+      [
+        "3/7",
+        "First: Multiply. $66 - 10 \\cdot 2$"
+      ],
+      [
+        "4/7",
+        "$= 66 - 20$"
+      ],
+      [
+        "5/7",
+        "Second: Subtract. $66 - 20$"
+      ],
+      [
+        "6/7",
+        "$=46$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 46."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $95 \\div 5 - 6$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_6",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "13"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$95 \\div 5 - 6$"
+      ],
+      [
+        "3/7",
+        "First: Divide. $95 \\div 5 - 6$"
+      ],
+      [
+        "4/7",
+        "$= 19 - 6$"
+      ],
+      [
+        "5/7",
+        "Second: Subtract. $19 - 6$"
+      ],
+      [
+        "6/7",
+        "$=13$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 13."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $11 \\cdot 9 + 29 - 7$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_7",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "121"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$11 \\cdot 9 + 29 - 7$"
+      ],
+      [
+        "3/7",
+        "First: Multiply. $11 \\cdot 9 = 99$"
+      ],
+      [
+        "4/7",
+        "$= 99 + 29 - 7$"
+      ],
+      [
+        "5/7",
+        "Second: Add and subtract from left to right. $99 + 29 = 128$"
+      ],
+      [
+        "6/7",
+        "$128 - 7 = 121$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 121."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $10 \\cdot 12 + 18$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_8",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "138"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$10 \\cdot 12 + 18$"
+      ],
+      [
+        "3/7",
+        "First: Multiply. $10 \\cdot 12 + 18$"
+      ],
+      [
+        "4/7",
+        "$= 120 + 18$"
+      ],
+      [
+        "5/7",
+        "Second: Add. $120 + 18$"
+      ],
+      [
+        "6/7",
+        "$=138$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 138."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $75 + 120 \\div 5$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_9",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "99"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$75 + 120 \\div 5$"
+      ],
+      [
+        "3/7",
+        "First: Divide. $75 + 120 \\div 5$"
+      ],
+      [
+        "4/7",
+        "$= 75 + 24$"
+      ],
+      [
+        "5/7",
+        "Second: Add. $75 + 24$"
+      ],
+      [
+        "6/7",
+        "$=99$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 99."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $187 - 2 \\cdot 9$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_10",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "169"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$187 - 2 \\cdot 9$"
+      ],
+      [
+        "3/7",
+        "First: Multiply. $187 - 2 \\cdot 9$"
+      ],
+      [
+        "4/7",
+        "$= 187 - 18$"
+      ],
+      [
+        "5/7",
+        "Second: Subtract. $187 - 18$"
+      ],
+      [
+        "6/7",
+        "$=169$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 169."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $75 \\div 5 - 2$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_11",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "13"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$75 \\div 5 - 2$"
+      ],
+      [
+        "3/7",
+        "First: Divide. $75 \\div 5 - 2$"
+      ],
+      [
+        "4/7",
+        "$= 15 - 2$"
+      ],
+      [
+        "5/7",
+        "Second: Subtract. $15 - 2$"
+      ],
+      [
+        "6/7",
+        "$=13$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 13."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $(30 + 26) \\div 3$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_12",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "18"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$(30 + 26) \\div 3$"
+      ],
+      [
+        "3/7",
+        "First: Evaluate parentheses. $30 + 26 = 54$"
+      ],
+      [
+        "4/7",
+        "$= 54 \\div 3$"
+      ],
+      [
+        "5/7",
+        "Second: Divide. $54 \\div 3$"
+      ],
+      [
+        "6/7",
+        "$=18$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 18."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $44 \\cdot 20 + 86$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_13",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "966"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$44 \\cdot 20 + 86$"
+      ],
+      [
+        "3/7",
+        "First: Multiply. $44 \\cdot 20 + 86$"
+      ],
+      [
+        "4/7",
+        "$= 880 + 86$"
+      ],
+      [
+        "5/7",
+        "Second: Add. $880 + 86$"
+      ],
+      [
+        "6/7",
+        "$=966$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 966."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $33 + 75 \\div 5$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_14",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "48"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$33 + 75 \\div 5$"
+      ],
+      [
+        "3/7",
+        "First: Divide. $33 + 75 \\div 5$"
+      ],
+      [
+        "4/7",
+        "$= 33 + 15$"
+      ],
+      [
+        "5/7",
+        "Second: Add. $33 + 15$"
+      ],
+      [
+        "6/7",
+        "$=48$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 48."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $143 - 11 \\cdot 4$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_15",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "99"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$143 - 11 \\cdot 4$"
+      ],
+      [
+        "3/7",
+        "First: Multiply. $143 - 11 \\cdot 4$"
+      ],
+      [
+        "4/7",
+        "$= 143 - 44$"
+      ],
+      [
+        "5/7",
+        "Second: Subtract. $143 - 44$"
+      ],
+      [
+        "6/7",
+        "$=99$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 99."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $336 \\div 4 - 14$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_16",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "70"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$336 \\div 4 - 14$"
+      ],
+      [
+        "3/7",
+        "First: Divide. $336 \\div 4 - 14$"
+      ],
+      [
+        "4/7",
+        "$= 84 - 14$"
+      ],
+      [
+        "5/7",
+        "Second: Subtract. $84 - 14$"
+      ],
+      [
+        "6/7",
+        "$=70$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 70."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $12 \\cdot 11 + 20 - 12$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_17",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "140"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$12 \\cdot 11 + 20 - 12$"
+      ],
+      [
+        "3/7",
+        "First: Multiply. $12 \\cdot 11 = 132$"
+      ],
+      [
+        "4/7",
+        "$= 132 + 20 - 12$"
+      ],
+      [
+        "5/7",
+        "Second: Add and subtract from left to right. $132 + 20 = 152$"
+      ],
+      [
+        "6/7",
+        "$152 - 12 = 140$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 140."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $35 \\cdot 8 + 16$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_18",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "296"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$35 \\cdot 8 + 16$"
+      ],
+      [
+        "3/7",
+        "First: Multiply. $35 \\cdot 8 + 16$"
+      ],
+      [
+        "4/7",
+        "$= 280 + 16$"
+      ],
+      [
+        "5/7",
+        "Second: Add. $280 + 16$"
+      ],
+      [
+        "6/7",
+        "$=296$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 296."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $58 + 108 \\div 6$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_19",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "76"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$58 + 108 \\div 6$"
+      ],
+      [
+        "3/7",
+        "First: Divide. $58 + 108 \\div 6$"
+      ],
+      [
+        "4/7",
+        "$= 58 + 18$"
+      ],
+      [
+        "5/7",
+        "Second: Add. $58 + 18$"
+      ],
+      [
+        "6/7",
+        "$=76$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 76."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $200 - 5 \\cdot 10$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_20",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "150"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$200 - 5 \\cdot 10$"
+      ],
+      [
+        "3/7",
+        "First: Multiply. $200 - 5 \\cdot 10$"
+      ],
+      [
+        "4/7",
+        "$= 200 - 50$"
+      ],
+      [
+        "5/7",
+        "Second: Subtract. $200 - 50$"
+      ],
+      [
+        "6/7",
+        "$=150$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 150."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $498 \\div 6 - 33$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_21",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "50"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$498 \\div 6 - 33$"
+      ],
+      [
+        "3/7",
+        "First: Divide. $498 \\div 6 - 33$"
+      ],
+      [
+        "4/7",
+        "$= 83 - 33$"
+      ],
+      [
+        "5/7",
+        "Second: Subtract. $83 - 33$"
       ],
       [
         "6/7",
@@ -77,16 +813,19 @@
         "7/7",
         "The value of the expression is 50."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 53 + 2$",
+    "question_text": "Evaluate the expression. $63 \\div 3 \\cdot 3 + 18$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_3",
+    "question_number": "3_22",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "161"
+      [
+        "81"
+      ]
     ],
     "solution": [
       [
@@ -95,38 +834,41 @@
       ],
       [
         "2/7",
-        "$3 \\cdot 53 + 2$"
+        "$63 \\div 3 \\cdot 3 + 18$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$3 \\cdot 53 + 2$"
+        "First: Divide and multiply from left to right. $63 \\div 3 = 21$"
       ],
       [
         "4/7",
-        "$= 159 + 2$"
+        "$21 \\cdot 3 = 63$"
       ],
       [
         "5/7",
-        "Second: Add. \n$159 + 2$ "
+        "Second: Add. $63 + 18$"
       ],
       [
         "6/7",
-        "$=161$"
+        "$=81$"
       ],
       [
         "7/7",
-        "The value of the expression is 161."
+        "The value of the expression is 81."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 5 + 2$",
+    "question_text": "Evaluate the expression. $12 \\cdot 6 + 15$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_4",
+    "question_number": "3_23",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "17"
+      [
+        "87"
+      ]
     ],
     "solution": [
       [
@@ -135,38 +877,41 @@
       ],
       [
         "2/7",
-        "$3 \\cdot 5 + 2$"
+        "$12 \\cdot 6 + 15$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$3 \\cdot 5 + 2$"
+        "First: Multiply. $12 \\cdot 6 + 15$"
       ],
       [
         "4/7",
-        "$= 15 + 2$"
+        "$= 72 + 15$"
       ],
       [
         "5/7",
-        "Second: Add. \n$15 + 2$ "
+        "Second: Add. $72 + 15$"
       ],
       [
         "6/7",
-        "$=17$"
+        "$=87$"
       ],
       [
         "7/7",
-        "The value of the expression is 17."
+        "The value of the expression is 87."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$154 \\cdot 5 + 2$",
+    "question_text": "Evaluate the expression. $3 + 333 \\div 9$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_5",
+    "question_number": "3_24",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "772"
+      [
+        "40"
+      ]
     ],
     "solution": [
       [
@@ -175,38 +920,41 @@
       ],
       [
         "2/7",
-        "$154 \\cdot 5 + 2$"
+        "$3 + 333 \\div 9$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$154 \\cdot 5 + 2$"
+        "First: Divide. $3 + 333 \\div 9$"
       ],
       [
         "4/7",
-        "$= 770 + 2$"
+        "$= 3 + 37$"
       ],
       [
         "5/7",
-        "Second: Add. \n$770 + 2$ "
+        "Second: Add. $3 + 37$"
       ],
       [
         "6/7",
-        "$=772$"
+        "$=40$"
       ],
       [
         "7/7",
-        "The value of the expression is 772."
+        "The value of the expression is 40."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$13 \\cdot 52 + 2$",
+    "question_text": "Evaluate the expression. $119 - 12 \\cdot 3$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_6",
+    "question_number": "3_25",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "678"
+      [
+        "83"
+      ]
     ],
     "solution": [
       [
@@ -215,38 +963,41 @@
       ],
       [
         "2/7",
-        "$13 \\cdot 52 + 2$"
+        "$119 - 12 \\cdot 3$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$13 \\cdot 52 + 2$"
+        "First: Multiply. $119 - 12 \\cdot 3$"
       ],
       [
         "4/7",
-        "$= 676 + 2$"
+        "$= 119 - 36$"
       ],
       [
         "5/7",
-        "Second: Add. \n$676 + 2$ "
+        "Second: Subtract. $119 - 36$"
       ],
       [
         "6/7",
-        "$=678$"
+        "$=83$"
       ],
       [
         "7/7",
-        "The value of the expression is 678."
+        "The value of the expression is 83."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$25 \\cdot 5 + 2$",
+    "question_text": "Evaluate the expression. $276 \\div 3 - 36$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_7",
+    "question_number": "3_26",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "127"
+      [
+        "56"
+      ]
     ],
     "solution": [
       [
@@ -255,19 +1006,148 @@
       ],
       [
         "2/7",
-        "$25 \\cdot 5 + 2$"
+        "$276 \\div 3 - 36$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$25 \\cdot 5 + 2$"
+        "First: Divide. $276 \\div 3 - 36$"
       ],
       [
         "4/7",
-        "$= 125 + 2$"
+        "$= 92 - 36$"
       ],
       [
         "5/7",
-        "Second: Add. \n$125 + 2$ "
+        "Second: Subtract. $92 - 36$"
+      ],
+      [
+        "6/7",
+        "$=56$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 56."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $40 \\div 4 \\cdot 7 + 11$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_27",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "81"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$40 \\div 4 \\cdot 7 + 11$"
+      ],
+      [
+        "3/7",
+        "First: Divide and multiply from left to right. $40 \\div 4 = 10$"
+      ],
+      [
+        "4/7",
+        "$10 \\cdot 7 = 70$"
+      ],
+      [
+        "5/7",
+        "Second: Add. $70 + 11$"
+      ],
+      [
+        "6/7",
+        "$=81$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 81."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $25 \\cdot 7 + 82$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_28",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "257"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$25 \\cdot 7 + 82$"
+      ],
+      [
+        "3/7",
+        "First: Multiply. $25 \\cdot 7 + 82$"
+      ],
+      [
+        "4/7",
+        "$= 175 + 82$"
+      ],
+      [
+        "5/7",
+        "Second: Add. $175 + 82$"
+      ],
+      [
+        "6/7",
+        "$=257$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 257."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $93 + 238 \\div 7$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_29",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "127"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$93 + 238 \\div 7$"
+      ],
+      [
+        "3/7",
+        "First: Divide. $93 + 238 \\div 7$"
+      ],
+      [
+        "4/7",
+        "$= 93 + 34$"
+      ],
+      [
+        "5/7",
+        "Second: Add. $93 + 34$"
       ],
       [
         "6/7",
@@ -277,16 +1157,19 @@
         "7/7",
         "The value of the expression is 127."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 37 + 2$",
+    "question_text": "Evaluate the expression. $62 - 5 \\cdot 7$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_8",
+    "question_number": "3_30",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "113"
+      [
+        "27"
+      ]
     ],
     "solution": [
       [
@@ -295,38 +1178,41 @@
       ],
       [
         "2/7",
-        "$3 \\cdot 37 + 2$"
+        "$62 - 5 \\cdot 7$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$3 \\cdot 37 + 2$"
+        "First: Multiply. $62 - 5 \\cdot 7$"
       ],
       [
         "4/7",
-        "$= 111 + 2$"
+        "$= 62 - 35$"
       ],
       [
         "5/7",
-        "Second: Add. \n$111 + 2$ "
+        "Second: Subtract. $62 - 35$"
       ],
       [
         "6/7",
-        "$=113$"
+        "$=27$"
       ],
       [
         "7/7",
-        "The value of the expression is 113."
+        "The value of the expression is 27."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 338 + 2$",
+    "question_text": "Evaluate the expression. $160 \\div 8 - 8$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_9",
+    "question_number": "3_31",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "1016"
+      [
+        "12"
+      ]
     ],
     "solution": [
       [
@@ -335,38 +1221,41 @@
       ],
       [
         "2/7",
-        "$3 \\cdot 338 + 2$"
+        "$160 \\div 8 - 8$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$3 \\cdot 338 + 2$"
+        "First: Divide. $160 \\div 8 - 8$"
       ],
       [
         "4/7",
-        "$= 1014 + 2$"
+        "$= 20 - 8$"
       ],
       [
         "5/7",
-        "Second: Add. \n$1014 + 2$ "
+        "Second: Subtract. $20 - 8$"
       ],
       [
         "6/7",
-        "$=1016$"
+        "$=12$"
       ],
       [
         "7/7",
-        "The value of the expression is 1016."
+        "The value of the expression is 12."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$6 \\cdot 5 + 2$",
+    "question_text": "Evaluate the expression. $8 \\cdot 8 + 23 - 17$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_10",
+    "question_number": "3_32",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "32"
+      [
+        "70"
+      ]
     ],
     "solution": [
       [
@@ -375,38 +1264,41 @@
       ],
       [
         "2/7",
-        "$6 \\cdot 5 + 2$"
+        "$8 \\cdot 8 + 23 - 17$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$6 \\cdot 5 + 2$"
+        "First: Multiply. $8 \\cdot 8 = 64$"
       ],
       [
         "4/7",
-        "$= 30 + 2$"
+        "$= 64 + 23 - 17$"
       ],
       [
         "5/7",
-        "Second: Add. \n$30 + 2$ "
+        "Second: Add and subtract from left to right. $64 + 23 = 87$"
       ],
       [
         "6/7",
-        "$=32$"
+        "$87 - 17 = 70$"
       ],
       [
         "7/7",
-        "The value of the expression is 32."
+        "The value of the expression is 70."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 5 + 2$",
+    "question_text": "Evaluate the expression. $5 \\cdot 3 + 3$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_11",
+    "question_number": "3_33",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "17"
+      [
+        "18"
+      ]
     ],
     "solution": [
       [
@@ -415,38 +1307,41 @@
       ],
       [
         "2/7",
-        "$3 \\cdot 5 + 2$"
+        "$5 \\cdot 3 + 3$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$3 \\cdot 5 + 2$"
+        "First: Multiply. $5 \\cdot 3 + 3$"
       ],
       [
         "4/7",
-        "$= 15 + 2$"
+        "$= 15 + 3$"
       ],
       [
         "5/7",
-        "Second: Add. \n$15 + 2$ "
+        "Second: Add. $15 + 3$"
       ],
       [
         "6/7",
-        "$=17$"
+        "$=18$"
       ],
       [
         "7/7",
-        "The value of the expression is 17."
+        "The value of the expression is 18."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$5 \\cdot 24 + 2$",
+    "question_text": "Evaluate the expression. $1 + 36 \\div 6$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_12",
+    "question_number": "3_34",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "122"
+      [
+        "7"
+      ]
     ],
     "solution": [
       [
@@ -455,38 +1350,41 @@
       ],
       [
         "2/7",
-        "$5 \\cdot 24 + 2$"
+        "$1 + 36 \\div 6$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$5 \\cdot 24 + 2$"
+        "First: Divide. $1 + 36 \\div 6$"
       ],
       [
         "4/7",
-        "$= 120 + 2$"
+        "$= 1 + 6$"
       ],
       [
         "5/7",
-        "Second: Add. \n$120 + 2$ "
+        "Second: Add. $1 + 6$"
       ],
       [
         "6/7",
-        "$=122$"
+        "$=7$"
       ],
       [
         "7/7",
-        "The value of the expression is 122."
+        "The value of the expression is 7."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 34 + 5$",
+    "question_text": "Evaluate the expression. $86 - 2 \\cdot 7$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_13",
+    "question_number": "3_35",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "107"
+      [
+        "72"
+      ]
     ],
     "solution": [
       [
@@ -495,38 +1393,41 @@
       ],
       [
         "2/7",
-        "$3 \\cdot 34 + 5$"
+        "$86 - 2 \\cdot 7$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$3 \\cdot 34 + 5$"
+        "First: Multiply. $86 - 2 \\cdot 7$"
       ],
       [
         "4/7",
-        "$= 102 + 5$"
+        "$= 86 - 14$"
       ],
       [
         "5/7",
-        "Second: Add. \n$102 + 5$ "
+        "Second: Subtract. $86 - 14$"
       ],
       [
         "6/7",
-        "$=107$"
+        "$=72$"
       ],
       [
         "7/7",
-        "The value of the expression is 107."
+        "The value of the expression is 72."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$217 \\cdot 48 + 2$",
+    "question_text": "Evaluate the expression. $158 \\div 2 - 34$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_14",
+    "question_number": "3_36",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "10418"
+      [
+        "45"
+      ]
     ],
     "solution": [
       [
@@ -535,38 +1436,41 @@
       ],
       [
         "2/7",
-        "$217 \\cdot 48 + 2$"
+        "$158 \\div 2 - 34$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$217 \\cdot 48 + 2$"
+        "First: Divide. $158 \\div 2 - 34$"
       ],
       [
         "4/7",
-        "$= 10416 + 2$"
+        "$= 79 - 34$"
       ],
       [
         "5/7",
-        "Second: Add. \n$10416 + 2$ "
+        "Second: Subtract. $79 - 34$"
       ],
       [
         "6/7",
-        "$=10418$"
+        "$=45$"
       ],
       [
         "7/7",
-        "The value of the expression is 10418."
+        "The value of the expression is 45."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 8 + 2$",
+    "question_text": "Evaluate the expression. $9 \\cdot 12 + 27 - 25$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_15",
+    "question_number": "3_37",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "26"
+      [
+        "110"
+      ]
     ],
     "solution": [
       [
@@ -575,38 +1479,41 @@
       ],
       [
         "2/7",
-        "$3 \\cdot 8 + 2$"
+        "$9 \\cdot 12 + 27 - 25$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$3 \\cdot 8 + 2$"
+        "First: Multiply. $9 \\cdot 12 = 108$"
       ],
       [
         "4/7",
-        "$= 24 + 2$"
+        "$= 108 + 27 - 25$"
       ],
       [
         "5/7",
-        "Second: Add. \n$24 + 2$ "
+        "Second: Add and subtract from left to right. $108 + 27 = 135$"
       ],
       [
         "6/7",
-        "$=26$"
+        "$135 - 25 = 110$"
       ],
       [
         "7/7",
-        "The value of the expression is 26."
+        "The value of the expression is 110."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 5 + 2$",
+    "question_text": "Evaluate the expression. $23 \\cdot 2 + 21$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_16",
+    "question_number": "3_38",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "17"
+      [
+        "67"
+      ]
     ],
     "solution": [
       [
@@ -615,99 +1522,19 @@
       ],
       [
         "2/7",
-        "$3 \\cdot 5 + 2$"
+        "$23 \\cdot 2 + 21$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$3 \\cdot 5 + 2$"
+        "First: Multiply. $23 \\cdot 2 + 21$"
       ],
       [
         "4/7",
-        "$= 15 + 2$"
+        "$= 46 + 21$"
       ],
       [
         "5/7",
-        "Second: Add. \n$15 + 2$ "
-      ],
-      [
-        "6/7",
-        "$=17$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 17."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$268 \\cdot 31 + 2$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_17",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "8310"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$268 \\cdot 31 + 2$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$268 \\cdot 31 + 2$"
-      ],
-      [
-        "4/7",
-        "$= 8308 + 2$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$8308 + 2$ "
-      ],
-      [
-        "6/7",
-        "$=8310$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 8310."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 5 + 52$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_18",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "67"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$3 \\cdot 5 + 52$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$3 \\cdot 5 + 52$"
-      ],
-      [
-        "4/7",
-        "$= 15 + 52$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$15 + 52$ "
+        "Second: Add. $46 + 21$"
       ],
       [
         "6/7",
@@ -717,16 +1544,19 @@
         "7/7",
         "The value of the expression is 67."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$20 \\cdot 5 + 2$",
+    "question_text": "Evaluate the expression. $13 + 66 \\div 6$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_19",
+    "question_number": "3_39",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "102"
+      [
+        "24"
+      ]
     ],
     "solution": [
       [
@@ -735,38 +1565,41 @@
       ],
       [
         "2/7",
-        "$20 \\cdot 5 + 2$"
+        "$13 + 66 \\div 6$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$20 \\cdot 5 + 2$"
+        "First: Divide. $13 + 66 \\div 6$"
       ],
       [
         "4/7",
-        "$= 100 + 2$"
+        "$= 13 + 11$"
       ],
       [
         "5/7",
-        "Second: Add. \n$100 + 2$ "
+        "Second: Add. $13 + 11$"
       ],
       [
         "6/7",
-        "$=102$"
+        "$=24$"
       ],
       [
         "7/7",
-        "The value of the expression is 102."
+        "The value of the expression is 24."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 14 + 21$",
+    "question_text": "Evaluate the expression. $187 - 6 \\cdot 2$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_20",
+    "question_number": "3_40",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "63"
+      [
+        "175"
+      ]
     ],
     "solution": [
       [
@@ -775,38 +1608,41 @@
       ],
       [
         "2/7",
-        "$3 \\cdot 14 + 21$"
+        "$187 - 6 \\cdot 2$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$3 \\cdot 14 + 21$"
+        "First: Multiply. $187 - 6 \\cdot 2$"
       ],
       [
         "4/7",
-        "$= 42 + 21$"
+        "$= 187 - 12$"
       ],
       [
         "5/7",
-        "Second: Add. \n$42 + 21$ "
+        "Second: Subtract. $187 - 12$"
       ],
       [
         "6/7",
-        "$=63$"
+        "$=175$"
       ],
       [
         "7/7",
-        "The value of the expression is 63."
+        "The value of the expression is 175."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 52 + 2$",
+    "question_text": "Evaluate the expression. $201 \\div 3 - 33$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_21",
+    "question_number": "3_41",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "158"
+      [
+        "34"
+      ]
     ],
     "solution": [
       [
@@ -815,38 +1651,41 @@
       ],
       [
         "2/7",
-        "$3 \\cdot 52 + 2$"
+        "$201 \\div 3 - 33$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$3 \\cdot 52 + 2$"
+        "First: Divide. $201 \\div 3 - 33$"
       ],
       [
         "4/7",
-        "$= 156 + 2$"
+        "$= 67 - 33$"
       ],
       [
         "5/7",
-        "Second: Add. \n$156 + 2$ "
+        "Second: Subtract. $67 - 33$"
       ],
       [
         "6/7",
-        "$=158$"
+        "$=34$"
       ],
       [
         "7/7",
-        "The value of the expression is 158."
+        "The value of the expression is 34."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 50 + 18$",
+    "question_text": "Evaluate the expression. $(35 + 47) \\div 6$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_22",
+    "question_number": "3_42",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "168"
+      [
+        "13"
+      ]
     ],
     "solution": [
       [
@@ -855,38 +1694,41 @@
       ],
       [
         "2/7",
-        "$3 \\cdot 50 + 18$"
+        "$(35 + 47) \\div 6$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$3 \\cdot 50 + 18$"
+        "First: Evaluate parentheses. $35 + 47 = 78$"
       ],
       [
         "4/7",
-        "$= 150 + 18$"
+        "$= 78 \\div 6$"
       ],
       [
         "5/7",
-        "Second: Add. \n$150 + 18$ "
+        "Second: Divide. $78 \\div 6$"
       ],
       [
         "6/7",
-        "$=168$"
+        "$=13$"
       ],
       [
         "7/7",
-        "The value of the expression is 168."
+        "The value of the expression is 13."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 5 + 2$",
+    "question_text": "Evaluate the expression. $18 \\cdot 8 + 8$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_23",
+    "question_number": "3_43",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "17"
+      [
+        "152"
+      ]
     ],
     "solution": [
       [
@@ -895,779 +1737,19 @@
       ],
       [
         "2/7",
-        "$3 \\cdot 5 + 2$"
+        "$18 \\cdot 8 + 8$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$3 \\cdot 5 + 2$"
+        "First: Multiply. $18 \\cdot 8 + 8$"
       ],
       [
         "4/7",
-        "$= 15 + 2$"
+        "$= 144 + 8$"
       ],
       [
         "5/7",
-        "Second: Add. \n$15 + 2$ "
-      ],
-      [
-        "6/7",
-        "$=17$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 17."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$50 \\cdot 5 + 17$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_24",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "267"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$50 \\cdot 5 + 17$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$50 \\cdot 5 + 17$"
-      ],
-      [
-        "4/7",
-        "$= 250 + 17$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$250 + 17$ "
-      ],
-      [
-        "6/7",
-        "$=267$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 267."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 46 + 15$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_25",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "153"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$3 \\cdot 46 + 15$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$3 \\cdot 46 + 15$"
-      ],
-      [
-        "4/7",
-        "$= 138 + 15$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$138 + 15$ "
-      ],
-      [
-        "6/7",
-        "$=153$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 153."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 5 + 2$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_26",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "17"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$3 \\cdot 5 + 2$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$3 \\cdot 5 + 2$"
-      ],
-      [
-        "4/7",
-        "$= 15 + 2$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$15 + 2$ "
-      ],
-      [
-        "6/7",
-        "$=17$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 17."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$482 \\cdot 1 + 2$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_27",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "484"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$482 \\cdot 1 + 2$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$482 \\cdot 1 + 2$"
-      ],
-      [
-        "4/7",
-        "$= 482 + 2$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$482 + 2$ "
-      ],
-      [
-        "6/7",
-        "$=484$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 484."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$32 \\cdot 5 + 2$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_28",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "162"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$32 \\cdot 5 + 2$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$32 \\cdot 5 + 2$"
-      ],
-      [
-        "4/7",
-        "$= 160 + 2$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$160 + 2$ "
-      ],
-      [
-        "6/7",
-        "$=162$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 162."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 5 + 52$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_29",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "67"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$3 \\cdot 5 + 52$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$3 \\cdot 5 + 52$"
-      ],
-      [
-        "4/7",
-        "$= 15 + 52$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$15 + 52$ "
-      ],
-      [
-        "6/7",
-        "$=67$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 67."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 5 + 2$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_30",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "17"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$3 \\cdot 5 + 2$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$3 \\cdot 5 + 2$"
-      ],
-      [
-        "4/7",
-        "$= 15 + 2$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$15 + 2$ "
-      ],
-      [
-        "6/7",
-        "$=17$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 17."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 4 + 2$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_31",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "14"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$3 \\cdot 4 + 2$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$3 \\cdot 4 + 2$"
-      ],
-      [
-        "4/7",
-        "$= 12 + 2$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$12 + 2$ "
-      ],
-      [
-        "6/7",
-        "$=14$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 14."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 51 + 2$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_32",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "155"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$3 \\cdot 51 + 2$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$3 \\cdot 51 + 2$"
-      ],
-      [
-        "4/7",
-        "$= 153 + 2$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$153 + 2$ "
-      ],
-      [
-        "6/7",
-        "$=155$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 155."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 5 + 2$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_33",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "17"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$3 \\cdot 5 + 2$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$3 \\cdot 5 + 2$"
-      ],
-      [
-        "4/7",
-        "$= 15 + 2$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$15 + 2$ "
-      ],
-      [
-        "6/7",
-        "$=17$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 17."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$1241 \\cdot 5 + 2$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_34",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "6207"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$1241 \\cdot 5 + 2$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$1241 \\cdot 5 + 2$"
-      ],
-      [
-        "4/7",
-        "$= 6205 + 2$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$6205 + 2$ "
-      ],
-      [
-        "6/7",
-        "$=6207$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 6207."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$13 \\cdot 5 + 2$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_35",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "67"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$13 \\cdot 5 + 2$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$13 \\cdot 5 + 2$"
-      ],
-      [
-        "4/7",
-        "$= 65 + 2$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$65 + 2$ "
-      ],
-      [
-        "6/7",
-        "$=67$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 67."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 6 + 2$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_36",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "20"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$3 \\cdot 6 + 2$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$3 \\cdot 6 + 2$"
-      ],
-      [
-        "4/7",
-        "$= 18 + 2$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$18 + 2$ "
-      ],
-      [
-        "6/7",
-        "$=20$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 20."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 32 + 2$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_37",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "98"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$3 \\cdot 32 + 2$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$3 \\cdot 32 + 2$"
-      ],
-      [
-        "4/7",
-        "$= 96 + 2$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$96 + 2$ "
-      ],
-      [
-        "6/7",
-        "$=98$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 98."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$9 \\cdot 41 + 23$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_38",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "392"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$9 \\cdot 41 + 23$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$9 \\cdot 41 + 23$"
-      ],
-      [
-        "4/7",
-        "$= 369 + 23$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$369 + 23$ "
-      ],
-      [
-        "6/7",
-        "$=392$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 392."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 55 + 18$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_39",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "183"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$3 \\cdot 55 + 18$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$3 \\cdot 55 + 18$"
-      ],
-      [
-        "4/7",
-        "$= 165 + 18$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$165 + 18$ "
-      ],
-      [
-        "6/7",
-        "$=183$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 183."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$10 \\cdot 4 + 2$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_40",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "42"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$10 \\cdot 4 + 2$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$10 \\cdot 4 + 2$"
-      ],
-      [
-        "4/7",
-        "$= 40 + 2$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$40 + 2$ "
-      ],
-      [
-        "6/7",
-        "$=42$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 42."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$38 \\cdot 5 + 2$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_41",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "192"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$38 \\cdot 5 + 2$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$38 \\cdot 5 + 2$"
-      ],
-      [
-        "4/7",
-        "$= 190 + 2$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$190 + 2$ "
-      ],
-      [
-        "6/7",
-        "$=192$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 192."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$30 \\cdot 5 + 2$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_42",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "152"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$30 \\cdot 5 + 2$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$30 \\cdot 5 + 2$"
-      ],
-      [
-        "4/7",
-        "$= 150 + 2$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$150 + 2$ "
+        "Second: Add. $144 + 8$"
       ],
       [
         "6/7",
@@ -1677,16 +1759,19 @@
         "7/7",
         "The value of the expression is 152."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 49 + 2$",
+    "question_text": "Evaluate the expression. $15 + 287 \\div 7$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_43",
+    "question_number": "3_44",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "149"
+      [
+        "56"
+      ]
     ],
     "solution": [
       [
@@ -1695,38 +1780,41 @@
       ],
       [
         "2/7",
-        "$3 \\cdot 49 + 2$"
+        "$15 + 287 \\div 7$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$3 \\cdot 49 + 2$"
+        "First: Divide. $15 + 287 \\div 7$"
       ],
       [
         "4/7",
-        "$= 147 + 2$"
+        "$= 15 + 41$"
       ],
       [
         "5/7",
-        "Second: Add. \n$147 + 2$ "
+        "Second: Add. $15 + 41$"
       ],
       [
         "6/7",
-        "$=149$"
+        "$=56$"
       ],
       [
         "7/7",
-        "The value of the expression is 149."
+        "The value of the expression is 56."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$9 \\cdot 5 + 2$",
+    "question_text": "Evaluate the expression. $114 - 9 \\cdot 8$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_44",
+    "question_number": "3_45",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "47"
+      [
+        "42"
+      ]
     ],
     "solution": [
       [
@@ -1735,19 +1823,277 @@
       ],
       [
         "2/7",
-        "$9 \\cdot 5 + 2$"
+        "$114 - 9 \\cdot 8$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$9 \\cdot 5 + 2$"
+        "First: Multiply. $114 - 9 \\cdot 8$"
       ],
       [
         "4/7",
-        "$= 45 + 2$"
+        "$= 114 - 72$"
       ],
       [
         "5/7",
-        "Second: Add. \n$45 + 2$ "
+        "Second: Subtract. $114 - 72$"
+      ],
+      [
+        "6/7",
+        "$=42$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 42."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $36 \\div 3 - 6$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_46",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "6"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$36 \\div 3 - 6$"
+      ],
+      [
+        "3/7",
+        "First: Divide. $36 \\div 3 - 6$"
+      ],
+      [
+        "4/7",
+        "$= 12 - 6$"
+      ],
+      [
+        "5/7",
+        "Second: Subtract. $12 - 6$"
+      ],
+      [
+        "6/7",
+        "$=6$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 6."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $11 \\cdot 5 + 12 - 19$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_47",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "48"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$11 \\cdot 5 + 12 - 19$"
+      ],
+      [
+        "3/7",
+        "First: Multiply. $11 \\cdot 5 = 55$"
+      ],
+      [
+        "4/7",
+        "$= 55 + 12 - 19$"
+      ],
+      [
+        "5/7",
+        "Second: Add and subtract from left to right. $55 + 12 = 67$"
+      ],
+      [
+        "6/7",
+        "$67 - 19 = 48$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 48."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $9 \\cdot 9 + 6$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_48",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "87"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$9 \\cdot 9 + 6$"
+      ],
+      [
+        "3/7",
+        "First: Multiply. $9 \\cdot 9 + 6$"
+      ],
+      [
+        "4/7",
+        "$= 81 + 6$"
+      ],
+      [
+        "5/7",
+        "Second: Add. $81 + 6$"
+      ],
+      [
+        "6/7",
+        "$=87$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 87."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $46 + 150 \\div 15$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_49",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "56"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$46 + 150 \\div 15$"
+      ],
+      [
+        "3/7",
+        "First: Divide. $46 + 150 \\div 15$"
+      ],
+      [
+        "4/7",
+        "$= 46 + 10$"
+      ],
+      [
+        "5/7",
+        "Second: Add. $46 + 10$"
+      ],
+      [
+        "6/7",
+        "$=56$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 56."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $139 - 8 \\cdot 2$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_50",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "123"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$139 - 8 \\cdot 2$"
+      ],
+      [
+        "3/7",
+        "First: Multiply. $139 - 8 \\cdot 2$"
+      ],
+      [
+        "4/7",
+        "$= 139 - 16$"
+      ],
+      [
+        "5/7",
+        "Second: Subtract. $139 - 16$"
+      ],
+      [
+        "6/7",
+        "$=123$"
+      ],
+      [
+        "7/7",
+        "The value of the expression is 123."
+      ]
+    ],
+    "has_alternate_answers": false
+  },
+  {
+    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
+    "question_text": "Evaluate the expression. $200 \\div 4 - 3$=_",
+    "tag": "Gr6_8_E3",
+    "question_number": "3_51",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      [
+        "47"
+      ]
+    ],
+    "solution": [
+      [
+        "1/7",
+        "To evaluate the expression, follow the order of operations."
+      ],
+      [
+        "2/7",
+        "$200 \\div 4 - 3$"
+      ],
+      [
+        "3/7",
+        "First: Divide. $200 \\div 4 - 3$"
+      ],
+      [
+        "4/7",
+        "$= 50 - 3$"
+      ],
+      [
+        "5/7",
+        "Second: Subtract. $50 - 3$"
       ],
       [
         "6/7",
@@ -1757,16 +2103,19 @@
         "7/7",
         "The value of the expression is 47."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$10 \\cdot 55 + 27$",
+    "question_text": "Evaluate the expression. $34 \\cdot 4 + 4$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_45",
+    "question_number": "3_3_v1",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "577"
+      [
+        "25"
+      ]
     ],
     "solution": [
       [
@@ -1775,38 +2124,41 @@
       ],
       [
         "2/7",
-        "$10 \\cdot 55 + 27$"
+        "$6 \\cdot 4 + 1$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$10 \\cdot 55 + 27$"
+        "First: Multiply. $6 \\cdot 4 + 1$"
       ],
       [
         "4/7",
-        "$= 550 + 27$"
+        "$= 24 + 1$"
       ],
       [
         "5/7",
-        "Second: Add. \n$550 + 27$ "
+        "Second: Add. $24 + 1$"
       ],
       [
         "6/7",
-        "$=577$"
+        "$=25$"
       ],
       [
         "7/7",
-        "The value of the expression is 577."
+        "The value of the expression is 25."
       ]
-    ]
+    ],
+    "has_alternate_answers": false
   },
   {
     "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$3 \\cdot 5 + 7$",
+    "question_text": "Evaluate the expression. $3 \\cdot 9 + 3$=_",
     "tag": "Gr6_8_E3",
-    "question_number": "1_46",
+    "question_number": "3_4_v2",
     "question_type": "Fill in the blank",
     "correct_answers": [
-      "22"
+      [
+        "25"
+      ]
     ],
     "solution": [
       [
@@ -1815,148 +2167,29 @@
       ],
       [
         "2/7",
-        "$3 \\cdot 5 + 7$"
+        "$6 \\cdot 4 + 1$"
       ],
       [
         "3/7",
-        "First: Multiply. \n$3 \\cdot 5 + 7$"
+        "First: Multiply. $6 \\cdot 4 + 1$"
       ],
       [
         "4/7",
-        "$= 15 + 7$"
+        "$= 24 + 1$"
       ],
       [
         "5/7",
-        "Second: Add. \n$15 + 7$ "
+        "Second: Add. $24 + 1$"
       ],
       [
         "6/7",
-        "$=22$"
+        "$=25$"
       ],
       [
         "7/7",
-        "The value of the expression is 22."
+        "The value of the expression is 25."
       ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$58 \\cdot 5 + 2$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_47",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "292"
     ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$58 \\cdot 5 + 2$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$58 \\cdot 5 + 2$"
-      ],
-      [
-        "4/7",
-        "$= 290 + 2$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$290 + 2$ "
-      ],
-      [
-        "6/7",
-        "$=292$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 292."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$10 \\cdot 51 + 2$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_48",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "512"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$10 \\cdot 51 + 2$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$10 \\cdot 51 + 2$"
-      ],
-      [
-        "4/7",
-        "$= 510 + 2$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$510 + 2$ "
-      ],
-      [
-        "6/7",
-        "$=512$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 512."
-      ]
-    ]
-  },
-  {
-    "skills": "evaluate-numerical-expressions-involving-whole-numbers",
-    "question_text": "Evaluate the expression.\n$4 \\cdot 5 + 10$",
-    "tag": "Gr6_8_E3",
-    "question_number": "1_49",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "30"
-    ],
-    "solution": [
-      [
-        "1/7",
-        "To evaluate the expression, follow the order of operations."
-      ],
-      [
-        "2/7",
-        "$4 \\cdot 5 + 10$"
-      ],
-      [
-        "3/7",
-        "First: Multiply. \n$4 \\cdot 5 + 10$"
-      ],
-      [
-        "4/7",
-        "$= 20 + 10$"
-      ],
-      [
-        "5/7",
-        "Second: Add. \n$20 + 10$ "
-      ],
-      [
-        "6/7",
-        "$=30$"
-      ],
-      [
-        "7/7",
-        "The value of the expression is 30."
-      ]
-    ]
+    "has_alternate_answers": false
   }
 ]

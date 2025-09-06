@@ -1,0 +1,497 @@
+import json
+
+# Manually create the complete templates list based on what we can extract
+templates = [
+  {
+    "question_text": "Complete the sentence.\nEvery quadrilateral has ___.",
+    "skills": "properties-of-polygons",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_1",
+    "tag": "Gr6_46_E2",
+    "choices": [
+      "2 pairs of parallel sides",
+      "3 congruent angles",
+      "4 sides",
+      "5 congruent sides"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/1",
+        "Every quadrilateral has 4 sides."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/1",
+        "Gr6_46_2_1_step_1",
+        "This image shows a quadrilateral with 4 sides. The sides are not all the same length, and the angles are not all right angles, and there are no parallel sides."
+      ]
+    ]
+  },
+  {
+    "skills": "properties-of-polygons",
+    "question_text": "Complete the sentence.\nAll ___ have 4 right angles.",
+    "tag": "Gr6_46_E2",
+    "question_number": "2_2",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "trapezoids",
+      "rhombuses",
+      "parallelograms",
+      "rectangles"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution_image_tag": [
+      [
+        "1/2",
+        "Gr6_46_2_2_step_1",
+        "This image shows a rectangle with 4 right angles indicated by the small squares at the corners."
+      ]
+    ],
+    "solution": [
+      [
+        "1/2",
+        "All rectangles have 4 right angles."
+      ],
+      [
+        "2/2",
+        "The other answer choices are not correct.\nTrapezoids have exactly 1 pair of parallel sides. They do not need to have any right angles.\nRhombuses have 4 congruent sides. They do not need to have any right angles.\nParallelograms have 2 pairs of parallel sides. They do not need to have any right angles."
+      ]
+    ]
+  },
+  {
+    "skills": "front-side-and-top-view",
+    "question_text": "If you look at this object from the top, what will you see?",
+    "image_tag": "Gr6_46_3_1",
+    "backend_description": "The image shows a 3D rectangular prism made up of small pink and purple cubes. The prism has a length of 3 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 2 cubes from left to right. The top face shows a 3 by 2 arrangement of pink cubes, the front face shows a 3 by 2 grid of darker purple cubes, and the side face shows a 2 by 2 grid of even darker purple cubes.",
+    "tag": "Gr6_46_E3",
+    "question_number": "3_1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "image_choice_tags": [
+      "Gr6_46_3_1_A",
+      "Gr6_46_3_1_B"
+    ],
+    "image_choice_backend_description": [
+      "The image shows a flat 2D grid made up of 3 rows and 3 columns of pink squares, arranged in a 3 by 3 layout.",
+      "The image shows a flat 2D grid made up of 3 rows and 2 columns of pink squares, arranged in a 3 by 2 layout."
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution_image_tag": [
+      [
+        "1/2",
+        "Gr6_46_3_1_step_1",
+        "The image shows a 3D rectangular prism made up of small pink and purple cubes. The prism has a length of 3 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 2 cubes from left to right. The top face shows a 3 by 2 arrangement of pink cubes, and the top face is highlighted with a bold black border."
+      ],
+      [
+        "2/2",
+        "Gr6_46_3_1_step_2",
+        "The image shows a flat 2D grid made up of 3 rows and 2 columns of pink squares, arranged in a 3 by 2 layout."
+      ]
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Imagine you are looking at this object from the top. You will see the squares highlighted below:"
+      ],
+      [
+        "2/2",
+        "If you look at this object from the top, you will see:"
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the y-coordinate of point Z?\ny-coordinate: ___ ",
+    "skills": "objects-on-a-coordinate-plane-positive-numbers-only",
+    "image_tag": "Gr6_47_1_1",
+    "backend_description": "This image shows a coordinate plane with x-axis is labeled 'x' and the y-axis is labeled 'y'. Point Y is labeled 'Y' with a pink dot and is located at the point (2,10). Point Z is labeled 'Z' with a yellow dot and is located at the point (7,7).",
+    "question_type": "Fill in the blank",
+    "question_number": "1_1",
+    "tag": "Gr6_47_E1",
+    "correct_answers": [
+      "7"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Start at point Z and move left until you reach the y-axis."
+      ],
+      [
+        "2/3",
+        "This position on the y-axis is 7 units above the origin."
+      ],
+      [
+        "3/3",
+        "So, the y-coordinate of point Z is 7."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr6_47_1_1_step_1",
+        "This image shows a coordinate plane with x-axis is labeled 'x' and the y-axis is labeled 'y'. Point Y is faded out, labeled 'Y' and located at the point (2,10). Point Z is labeled with a yellow dot and is located at the point (7,7). There is a dashed red horizontal line connecting point Z to the y-axis, ending at the point (0, 7). "
+      ]
+    ]
+  },
+  {
+    "skills": "objects-on-a-coordinate-plane-positive-numbers-only",
+    "question_text": "What is the x-coordinate of point D? \nx-coordinate: ___",
+    "image_tag": "Gr6_47_1_2",
+    "backend_description": "This image shows a coordinate plane with x-axis is labeled 'x' and the y-axis is labeled 'y'. Point D is labeled 'D' with a pink dot and is located at the point (8, 1). Point E is labeled 'E' with a green dot and is located at the point (4, 4).",
+    "tag": "Gr6_47_E1",
+    "question_number": "1_2",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "8"
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr6_47_1_2_step_1",
+        "This image shows a coordinate plane with x-axis is labeled 'x' and the y-axis is labeled 'y'. Point E is faded out, labeled 'E' and located at the point (4, 4). Point D is labeled 'D' with a pink dot and is located at the point (8, 1). There is a dashed red vertical line connecting point D to the x-axis, ending at the point (8, 0)."
+      ]
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Start at point D and move down until you reach the x-axis."
+      ],
+      [
+        "2/3",
+        "This position on the x-axis is 8 units to the right of the origin."
+      ],
+      [
+        "3/3",
+        "So, the x-coordinate of point D is 8."
+      ]
+    ]
+  },
+  {
+    "question_text": "What is the y-coordinate of point Y?\ny-coordinate: ___",
+    "skills": "objects-on-a-coordinate-plane-positive-and-negative-numbers",
+    "image_tag": "Gr6_47_2_1",
+    "backend_description": "This image shows a coordinate plane with x-axis is labeled 'x' and the y-axis is labeled 'y'. Point V is labeled 'V' with a purple dot and is located at the point (2, -5). Point W is labeled 'W' with a pink dot and is located at the point (4, 1). Point X is labeled 'X' with a blue dot and is located at the point (-2, 4). Point Y is labeled 'Y' with a green dot and is located at the point (-5, -3).",
+    "question_type": "Fill in the blank",
+    "question_number": "2_1",
+    "tag": "Gr6_47_E2",
+    "correct_answers": [
+      "-3"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Start at point Y and move right until you reach the y-axis."
+      ],
+      [
+        "2/3",
+        "This position on the y-axis is 3 units below the origin. All y-coordinates below the origin are negative."
+      ],
+      [
+        "3/3",
+        "So, the y-coordinate of point Y is -3."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr6_47_2_1_step_1",
+        "This image shows a coordinate plane with x-axis is labeled 'x' and the y-axis is labeled 'y'. Point V is faded out, labeled 'V' and is located at the point (2, -5). Point W is faded out, labeled 'W' and is located at the point (4, 1). Point X is faded out, labeled 'X' and is located at the point (-2, 4). Point Y is labeled 'Y' with a green dot and is located at the point (-5, -3). There is a dashed red horizontal line connecting point Y to the y-axis, ending at the point (0, -3)."
+      ]
+    ]
+  },
+  {
+    "skills": "objects-on-a-coordinate-plane-positive-and-negative-numbers",
+    "question_text": "What is the x-coordinate of point V?\nx-coordinate: ___",
+    "image_tag": "Gr6_47_2_2",
+    "backend_description": "This image shows a coordinate plane with x-axis is labeled 'x' and the y-axis is labeled 'y'. Point T is labeled 'T' with a green dot and is located at the point (2, -1). Point U is labeled 'U' with a yellow dot and is located at the point (0, 4). Point V is labeled 'V' with a blue dot and is located at the point (-4, 5). Point W is labeled 'W' with a pink dot and is located at the point (2, -4).",
+    "tag": "Gr6_47_E2",
+    "question_type": "Fill in the blank",
+    "question_number": "2_2",
+    "correct_answers": [
+      "-4"
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr6_47_2_2_step_1",
+        "This image shows a coordinate plane with x-axis is labeled 'x' and the y-axis is labeled 'y'. Point T is faded out, labeled 'T' and is located at the point (2, -1). Point U is faded out, labeled 'U' and is located at the point (0, 4). Point W is faded out, labeled 'W' and is located at the point (2, -4). Point V is labeled 'V' with a blue dot and is located at the point (-4, 5). There is a dashed red vertical line connecting point V to the x-axis, ending at the point (-4, 0)."
+      ]
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Start at point V and move down until you reach the x-axis."
+      ],
+      [
+        "2/3",
+        "This position on the x-axis is 4 units to the left of the origin. All x-coordinates to the left of the origin are negative."
+      ],
+      [
+        "3/3",
+        "So, the x-coordinate of point V is -4"
+      ]
+    ]
+  },
+  {
+    "skills": "follow-directions-on-a-coordinate-plane",
+    "question_text": "You start at (9, 3). You move left 3 units. Where do you end?\n(__, __)",
+    "image_tag": "Gr6_47_3_1",
+    "backend_description": "The image shows a blank coordinate plane. The x-axis is labeled 'x' and runs horizontally from 0 to 10. The y-axis is labeled 'y' and runs vertically from 0 to 10. The grid is marked with equal intervals, forming a 10-by-10 square grid.",
+    "tag": "Gr6_47_E3",
+    "question_type": "Multiple Fill in the blank",
+    "question_number": "3_1",
+    "correct_answers": [
+      "6",
+      "3"
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr6_47_3_1_step_1",
+        "The image shows a coordinate plane. The x-axis is labeled 'x' and runs horizontally from 0 to 10. The y-axis is labeled 'y' and runs vertically from 0 to 10. The grid is marked with equal intervals, forming a 10-by-10 square grid. A red point is plotted at the coordinates (9, 3)."
+      ],
+      [
+        "2/3",
+        "Gr6_47_3_1_step_2",
+        "The image shows a coordinate plane. The x-axis is labeled 'x' and runs horizontally from 0 to 10, while the y-axis is labeled 'y' and runs vertically from 0 to 10. The grid is marked with equal intervals, forming a 10-by-10 square grid. A red point is plotted at the coordinates (9, 3). A dashed red horizontal line extends leftward from the point (9, 3) to the point (6, 3), showing a horizontal movement of 3 units to the left."
+      ]
+    ],
+    "solution": [
+      [
+        "1/3",
+        "First find the starting point, (9, 3)."
+      ],
+      [
+        "2/3",
+        "Now follow the path. You move left 3 units to (6, 3)."
+      ],
+      [
+        "3/3",
+        "You end at (6, 3)."
+      ]
+    ]
+  },
+  {
+    "skills": "reflection-rotation-and-translation",
+    "question_text": "Look at this shape:\nWhich image shows a reflection?",
+    "image_tag": "Gr6_48_1_1",
+    "backend_description": "This image shows a green trapezoid in the top-left corner of a grid. The trapezoid slants to the left. It is shaded light green with a bold green outline.",
+    "tag": "Gr6_48_E1",
+    "question_number": "1_1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "image_choice_tags": [
+      "Gr6_48_1_1_A",
+      "Gr6_48_1_1_B",
+      "Gr6_48_1_1_C"
+    ],
+    "image_choice_tags_backend_description": [
+      "This image shows the same green trapezoid as in the image 'Gr6_41_4_1', but it has been rotated 180°. The shape now appears in the bottom-right corner of the grid.",
+      "This image shows the same green trapezoid as in the image 'Gr6_41_4_1', but it has been translated 3 units down and 2 units to the right. The shape is now located in the bottom-right corner of the grid.",
+      "This image shows the same green trapezoid as in the image 'Gr6_41_4_1', but it has been reflected/flipped horizontally. The reflected trapezoid is now in the bottom-left corner of the grid."
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution_image_tag": [
+      [
+        "1/5",
+        "Gr6_48_1_1_step_1",
+        "This image shows a green trapezoid in the top-left corner of a grid. The trapezoid slants to the left. It is shaded light green with a bold green outline."
+      ],
+      [
+        "3/5",
+        "Gr6_48_1_1_step_3",
+        "This image shows the same green trapezoid as in step 1 ('Gr6_41_4_1_step_1'), but it has been rotated 180°. The shape now appears in the bottom-right corner of the grid."
+      ],
+      [
+        "4/5",
+        "Gr6_48_1_1_step_4",
+        "This image shows the same green trapezoid as in step 1 ('Gr6_41_4_1_step_1'), translated 3 units down and 2 units to the right. The shape is now located in the bottom-right corner of the grid."
+      ],
+      [
+        "5/5",
+        "Gr6_48_1_1_step_5",
+        "This image shows the same green trapezoid as in step 1 ('Gr6_41_4_1_step_1'), but it has been reflected horizontally across a red horizontal line. The reflected trapezoid is now in the bottom-left corner of the grid, below the red line."
+      ]
+    ],
+    "solution": [
+      [
+        "1/5",
+        "Look at the first shape:"
+      ],
+      [
+        "2/5",
+        "Now find the image that shows a reflection."
+      ],
+      [
+        "3/5",
+        "Image A shows a rotation. Rotate the shape 180°."
+      ],
+      [
+        "4/5",
+        "Image B shows a translation. Translate the shape down 3 and right 2."
+      ],
+      [
+        "5/5",
+        "Image C shows a reflection. Reflect the shape across a horizontal line. \nImage C is the correct image."
+      ]
+    ]
+  },
+  {
+    "question_text": "Look at this shape:\nWhich image shows a rotation?",
+    "skills": "reflection-rotation-and-translation",
+    "image_tag": "Gr6_48_1_2",
+    "backend_description": "This image shows a green trapezoid in the bottom-left corner of a grid. The trapezoid points down and to the left. It is shaded light green with a bold green outline.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_2",
+    "tag": "Gr6_48_E1",
+    "image_choice_tags": [
+      "Gr6_48_1_2_A",
+      "Gr6_48_1_2_B",
+      "Gr6_48_1_2_C"
+    ],
+    "image_choice_tags_backend_description": [
+      "This image shows the same green trapezoid as in the image 'Gr6_41_4_2', but it has been translated 1 unit up and 3 units to the right. The shape now appears in the middle-right corner of the grid.",
+      "This image shows the same green trapezoid as in the image 'Gr6_41_4_2', but it has been reflected/flipped vertically. The reflected trapezoid is now in the bottom-right corner of the grid.",
+      "This image shows the same green trapezoid as in the image 'Gr6_41_4_2', but it has been rotated 180°. The shape now appears in the top-right corner of the grid."
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution_image_tag": [
+      [
+        "1/5",
+        "Gr6_48_1_2_step_1",
+        "This image shows a green trapezoid in the bottom-left corner of a grid. The trapezoid points down and to the left. It is shaded light green with a bold green outline."
+      ],
+      [
+        "3/5",
+        "Gr6_48_1_2_step_3",
+        "This image shows the same green trapezoid as in step 1 ('Gr6_41_4_2_step_1'), but it has been translated 1 unit up and 3 units to the right. The shape now appears in the middle-right corner of the grid."
+      ],
+      [
+        "4/5",
+        "Gr6_48_1_2_step_4",
+        "This image shows the same green trapezoid as in step 1 ('Gr6_41_4_2_step_1'), but it has been reflected vertically across a red vertical line. The reflected trapezoid is now in the bottom-right corner of the grid, on the right side of the red line."
+      ],
+      [
+        "5/5",
+        "Gr6_48_1_2_step_5",
+        "This image shows the same green trapezoid as in step 1 ('Gr6_41_4_2_step_1'), but it has been rotated 180°. The shape now appears in the top-right corner of the grid."
+      ]
+    ],
+    "solution": [
+      [
+        "1/5",
+        "Look at the first shape:"
+      ],
+      [
+        "2/5",
+        "Now find the image that shows a rotation."
+      ],
+      [
+        "3/5",
+        "Image A shows a translation. Translate the shape up 1 and right 3."
+      ],
+      [
+        "4/5",
+        "Image B shows a reflection. Reflect the shape across a vertical line."
+      ],
+      [
+        "5/5",
+        "Image C shows a rotation. Rotate the shape 180°. \nImage C is the correct image."
+      ]
+    ]
+  },
+  {
+    "question_text": "Look at this shape:\nWhich image shows a translation?",
+    "skills": "reflection-rotation-and-translation",
+    "image_tag": "Gr6_48_1_3",
+    "backend_description": "This image shows a purple triangle located at the bottom area of a square grid. The triangle is shaded in light purple with a bold purple outline, and it points upward.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_3",
+    "tag": "Gr6_48_E1",
+    "image_choice_tags": [
+      "Gr6_48_1_3_A",
+      "Gr6_48_1_3_B",
+      "Gr6_48_1_3_C"
+    ],
+    "image_choice_tags_backend_description": [
+      "This image shows the same purple triangle as in the image 'Gr6_41_4_3', but it has been reflected/flipped vertically. The reflected triangle is still located at the bottom of the grid.",
+      "This image shows the same purple triangle as in the image 'Gr6_41_4_3', but it has been translated 1 unit up and 1 unit to the right. The shape now appears in the middle of the grid, slightly to the right.",
+      "This image shows the same purple triangle as in the image 'Gr6_41_4_3', but it has been rotated 180°. The shape now appears at the top of the grid."
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution_image_tag": [
+      [
+        "1/5",
+        "Gr6_48_1_3_step_1",
+        "This image shows a purple triangle located at the bottom area of a square grid. The triangle is shaded in light purple with a bold purple outline and points upward."
+      ],
+      [
+        "3/5",
+        "Gr6_48_1_3_step_3",
+        "This image shows the same purple triangle as in step 1 ('Gr6_41_4_3_step_1'), but it has been reflected vertically across a red vertical line. The reflected triangle is still located at the bottom of the grid."
+      ],
+      [
+        "4/5",
+        "Gr6_48_1_3_step_4",
+        "This image shows the same purple triangle as in step 1 ('Gr6_41_4_3_step_1'), but it has been translated 1 unit up and 1 unit to the right. The shape now appears in the middle of the grid, slightly to the right."
+      ],
+      [
+        "5/5",
+        "Gr6_48_1_3_step_5",
+        "This image shows the same purple triangle as in step 1 ('Gr6_41_4_3_step_1'), but it has been rotated 180°. The shape now appears at the top of the grid."
+      ]
+    ],
+    "solution": [
+      [
+        "1/5",
+        "Look at the first shape:"
+      ],
+      [
+        "2/5",
+        "Now find the image that shows a translation."
+      ],
+      [
+        "3/5",
+        "Image A shows a reflection. Reflect the shape across a vertical line."
+      ],
+      [
+        "4/5",
+        "Image B shows a translation. Translate the shape up 1 and right 1."
+      ],
+      [
+        "5/5",
+        "Image C shows a rotation. Rotate the shape 180°.\nImage B is the correct image."
+      ]
+    ]
+  }
+]
+
+# Save the clean templates
+with open('templates.json', 'w', encoding='utf-8') as f:
+    json.dump(templates, f, indent=2)
+
+print(f"Created templates.json with {len(templates)} questions")
+
+# Analyze tags
+tags = {}
+for q in templates:
+    tag = q.get('tag', 'NO_TAG')
+    if tag not in tags:
+        tags[tag] = []
+    tags[tag].append(q)
+
+print("\nUnique tags found:")
+for tag in sorted(tags.keys()):
+    template_numbers = [q.get('question_number', '1_1') for q in tags[tag]]
+    print(f"  {tag}: {len(tags[tag])} templates (question_numbers: {template_numbers})")
