@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<style>
+        .item {
+            display: inline-block;
+            margin: 10px;
+        }
+        svg {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<!-- Question 1_34: Map from Lakewood to Georgetown via Oakville -->
+<div class="item" label="Gr6_15_1_34">
+<svg height="300" width="400" xmlns="http://www.w3.org/2000/svg">
+<!-- Background -->
+<rect fill="#f8f8f8" height="300" stroke="#ddd" stroke-width="1" width="400"></rect>
+<!-- Location: Lakewood -->
+<circle cx="80" cy="150" fill="#4169E1" r="5"></circle>
+<text font-family="Arial" font-size="14" text-anchor="middle" x="80" y="140">Lakewood</text>
+<!-- Location: Oakville -->
+<circle cx="200" cy="80" fill="#4169E1" r="5"></circle>
+<text font-family="Arial" font-size="14" text-anchor="middle" x="200" y="70">Oakville</text>
+<!-- Location: Georgetown -->
+<circle cx="320" cy="200" fill="#4169E1" r="5"></circle>
+<text font-family="Arial" font-size="14" text-anchor="middle" x="320" y="190">Georgetown</text>
+<!-- Path from Lakewood to Oakville -->
+<line stroke="#FF69B4" stroke-width="2" x1="80" x2="200" y1="150" y2="80"></line>
+<text fill="#FF1493" font-family="Arial" font-size="12" text-anchor="middle" x="140" y="110">6.5 km</text>
+<!-- Path from Oakville to Georgetown -->
+<line stroke="#FF69B4" stroke-width="2" x1="200" x2="320" y1="80" y2="200"></line>
+<text fill="#FF1493" font-family="Arial" font-size="12" text-anchor="middle" x="260" y="140">8.7 km</text>
+</svg>
+</div>
+</body>
+</html>
