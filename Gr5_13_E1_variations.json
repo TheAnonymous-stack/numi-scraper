@@ -1,6 +1,31 @@
 [
   {
     "skills": "evaluate-numerical-expressions",
+    "question_text": "Evaluate the expression.\n\n4 + 3 - 1",
+    "question_type": "Fill in the blank",
+    "question_number": "1_1",
+    "tag": "Gr5_13_E1",
+    "correct_answers": [
+      "6"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "To evaluate the expression, follow the order of operations.\n\n4 + 3 - 1"
+      ],
+      [
+        "2/3",
+        "Add and subtract from left to right."
+      ],
+      [
+        "3/3",
+        "4 + 3 - 1\n= 7 - 1\n= 6\n\nThe value of the expression is 6."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "skills": "evaluate-numerical-expressions",
     "question_text": "Evaluate the expression.\n\n18 + 8 × 4 - 2",
     "question_type": "Fill in the blank",
     "question_number": "1_2",

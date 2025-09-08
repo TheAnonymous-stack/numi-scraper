@@ -1,5 +1,60 @@
 [
   {
+    "question_text": "Which sign makes the statement true?\n9414 ___ 9413",
+    "skills": "compare-numbers-up-to-100-000",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_1",
+    "tag": "Gr5_2_E1",
+    "choices": [
+      "$>$",
+      "$<$",
+      "$=$"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Compare the numbers from left to right. The digits are the same until the last one: 4 is greater than 3."
+      ],
+      [
+        "2/2",
+        "9414 is greater than 9413, so the correct sign is $>$."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "The owner of an orchard kept records about how many apples were picked in the past 4 days.\nOn which day were the fewest apples picked?",
+    "skills": "compare-numbers-up-to-100-000",
+    "image_tag": "Gr5_2_1_2",
+    "backend_description": "The image is a table titled Apples picked. It has two columns: 'Day' and 'Number of apples'. The rows show the following data. On Saturday, 596 apples were picked. On Sunday, 591 apples were picked. On Monday, 562 apples were picked. On Tuesday, 556 apples were picked.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_2",
+    "tag": "Gr5_2_E1",
+    "choices": [
+      "Saturday",
+      "Sunday",
+      "Monday",
+      "Tuesday"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Find the least number in the table. Remember to compare the numbers starting with the highest place value. The least number is 556."
+      ],
+      [
+        "2/2",
+        "Now find the corresponding day. Tuesday corresponds to 556."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
     "question_text": "A library kept records about how many books were read in the past 4 days.\nOn which day were the fewest books read?",
     "skills": "compare-numbers-up-to-100-000",
     "image_tag": "Gr5_2_1_3",

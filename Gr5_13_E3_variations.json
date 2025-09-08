@@ -1,5 +1,95 @@
 [
   {
+    "question_text": "Mona tried to evaluate the expression $12 + 18 \\div 3 \\times 2$. Here is her work:\n\n$12 + 18 \\div 3 \\times 2$\n= $12 + 18 \\div 6$ (Step 1)\n= $12 + 3$ (Step 2)\n= $15$ (Step 3)\n\nIs Mona's work correct?",
+    "skills": "identify-mistakes-involving-the-order-of-operations",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "3_1",
+    "tag": "Gr5_13_E3",
+    "choices": [
+      "No, Mona made a mistake in Step 1. Mona should have divided before multiplying. The order of operations says to multiply and divide from left to right.",
+      "No, Mona made a mistake in Step 1. Mona should have added before multiplying. The order of operations says to work from left to right.",
+      "Yes, Mona's work is correct."
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Mona made a mistake in Step 1. She multiplied before dividing:\n\n$12 + 18 \\div 3 \\times 2 = 12 + 18 \\div 6 = 12 + 3 = 15$"
+      ],
+      [
+        "2/2",
+        "According to order of operations, multiply and divide from left to right.\n\nCorrect work:\n\n$12 + 18 \\div 3 \\times 2 = 12 + 6 \\times 2 = 12 + 12 = 24$"
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "Santiago tried to evaluate the expression $18 \\div 6 + 3 \\times 4$. Here is his work:\n\n$18 \\div 6 + 3 \\times 4$\n= $3 + 3 \\times 4$ (Step 1)\n= $6 \\times 4$ (Step 2)\n= $24$ (Step 3)\n\nIs Santiago's work correct?",
+    "skills": "identify-mistakes-involving-the-order-of-operations",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "3_2",
+    "tag": "Gr5_13_E3",
+    "choices": [
+      "No, Santiago made a mistake in Step 1. Santiago should have multiplied instead of dividing. The order of operations says to multiply before you divide.",
+      "No, Santiago made a mistake in Step 2. Santiago should have multiplied before he added. The order of operations says to multiply before you add.",
+      "Yes, Santiago's work is correct."
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Santiago made a mistake in Step 2 by adding before multiplying:\n\n$18 \\div 6 + 3 \\times 4 = 3 + 3 \\times 4 = 6 \\times 4 = 24$"
+      ],
+      [
+        "2/2",
+        "The correct order is to multiply before adding:\n\n$18 \\div 6 + 3 \\times 4 = 3 + 12 = 15$"
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "Michael tried to evaluate the expression $12 - 8 + 10 \\times 4$. Here is his work:\n\n$12 - 8 + 10 \\times 4$\n= $12 - 8 + 40$ (Step 1)\n= $4 + 40$ (Step 2)\n= $44$ (Step 3)\n\nIs Michael's work correct?",
+    "skills": "identify-mistakes-involving-the-order-of-operations",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "3_3",
+    "tag": "Gr5_13_E3",
+    "choices": [
+      "No, Michael made a mistake in Step 1. Michael should have subtracted first. The order of operations says to work from left to right.",
+      "No, Michael made a mistake in Step 2. Michael should have added before he subtracted. The order of operations says to add before you subtract.",
+      "Yes, Michael's work is correct."
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/5",
+        "Michael's work is correct. Let's check it step-by-step."
+      ],
+      [
+        "2/5",
+        "Multiply first: $12 - 8 + 10 \\times 4 = 12 - 8 + 40$"
+      ],
+      [
+        "3/5",
+        "Then subtract and add from left to right: $12 - 8 + 40 = 4 + 40$"
+      ],
+      [
+        "4/5",
+        "Finally, add: $4 + 40 = 44$"
+      ],
+      [
+        "5/5",
+        "So, Michael followed the order of operations correctly."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
     "question_text": "Ichigo tried to evaluate the expression $17 \\div 4 + 24 - 11$. Here is ichigo's work:\n\n$17 \\div 4 + 24 - 11$\n= $17 \\div 4 + 13$ (Step 1)\n= $4 + 13$ (Step 2)\n= $17$ (Step 3)\n\nIs Ichigo's work correct?",
     "skills": "identify-mistakes-involving-the-order-of-operations",
     "question_type": "Multiple Choice Question with Single Answer",

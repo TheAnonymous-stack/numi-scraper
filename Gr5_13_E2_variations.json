@@ -1,5 +1,38 @@
 [
   {
+    "question_text": "Which expression has a value of 55?\n$5 \\times (3 + 8)$\n$(5 \\times 3) + 8$",
+    "skills": "evaluate-numerical-expressions-with-parentheses-in-different-places",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_1",
+    "tag": "Gr5_13_E2",
+    "choices": [
+      "$5 \\times (3 + 8)$",
+      "$(5 \\times 3) + 8$"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "Calculate $5 \\times (3 + 8)$: First, add inside parentheses: $3 + 8 = 11$."
+      ],
+      [
+        "2/4",
+        "Multiply: $5 \\times 11 = 55$. So, $5 \\times (3 + 8) = 55$."
+      ],
+      [
+        "3/4",
+        "Calculate $(5 \\times 3) + 8$: Multiply inside parentheses: $5 \\times 3 = 15$."
+      ],
+      [
+        "4/4",
+        "Add: $15 + 8 = 23$. So, $(5 \\times 3) + 8 = 23$, which is not 55."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
     "question_text": "Which expression has a value of 11?\n$14 ÷ (2 + 4)$\n$(14 ÷ 2) + 4$",
     "skills": "evaluate-numerical-expressions-with-parentheses-in-different-places",
     "question_type": "Multiple Choice Question with Single Answer",

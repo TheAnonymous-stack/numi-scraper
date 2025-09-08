@@ -3,6 +3,34 @@
     "skills": "order-fractions-with-unlike-denominators",
     "question_text": "Put these fractions in order from least to greatest.",
     "question_type": "Ordering Items",
+    "choices": [
+      "2/4",
+      "1/6",
+      "11/12"
+    ],
+    "question_number": "3_1",
+    "tag": "Gr5_5_E3",
+    "correct_answers": [
+      "1/6",
+      "2/4",
+      "11/12"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Convert all fractions to have a common denominator. Use 12:\n$\\frac{1}{6} = \\frac{2}{12}$,\n$\\frac{2}{4} = \\frac{6}{12}$,\n$\\frac{11}{12} = \\frac{11}{12}$."
+      ],
+      [
+        "2/2",
+        "$\\frac{2}{12} < \\frac{6}{12} < \\frac{11}{12}$\n\nSo, the correct order is:\n$\\frac{1}{6}$, $\\frac{2}{4}$, $\\frac{11}{12}$."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "skills": "order-fractions-with-unlike-denominators",
+    "question_text": "Put these fractions in order from least to greatest.",
+    "question_type": "Ordering Items",
     "tag": "Gr5_5_E3",
     "solution_image_tag": [],
     "question_number": "3_2",
