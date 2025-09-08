@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .item {
+            display: inline-block;
+            width: fit-content;
+            height: fit-content;
+        }
+        .circles-grid {
+            display: inline-block;
+            padding: 2px;
+        }
+        .circle-row {
+            display: flex;
+            margin: 1px 0;
+        }
+        .circle {
+            width: 16px;
+            height: 16px;
+            background-color: green;
+            border-radius: 50%;
+            margin: 1px;
+        }
+        .number-line {
+            position: relative;
+            width: 1010px;
+            height: 85px;
+            padding: 0;
+        }
+        .line {
+            position: absolute;
+            top: 50px;
+            height: 2px;
+            background-color: black;
+            width: 1000px;
+            left: 5px;
+        }
+        .tick {
+            position: absolute;
+            top: 45px;
+            width: 2px;
+            height: 10px;
+            background-color: black;
+        }
+        .number {
+            position: absolute;
+            top: 60px;
+            font-size: 12px;
+            transform: translateX(-50%);
+        }
+        .arrow {
+            position: absolute;
+            top: 20px;
+            width: 100px;
+            height: 25px;
+            border: 2px solid blue;
+            border-bottom: none;
+            border-radius: 25px 25px 0 0;
+        }
+        .result-box {
+            position: absolute;
+            top: 55px;
+            transform: translateX(-50%);
+            padding: 2px 6px;
+            border: 2px solid blue;
+            background-color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Step 1: 4 rows of 10 circles -->
+    <div class="item" label="Gr5_15_1_41_step_1">
+        <div class="circles-grid">
+            <div class="circle-row">
+                <div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div>
+                <div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div>
+            </div>
+            <div class="circle-row">
+                <div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div>
+                <div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div>
+            </div>
+            <div class="circle-row">
+                <div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div>
+                <div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div>
+            </div>
+            <div class="circle-row">
+                <div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div>
+                <div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Step 2: Number line with 4 jumps of 10 -->
+    <div class="item" label="Gr5_15_1_41_step_2">
+        <div class="number-line">
+            <div class="line"></div>
+            <!-- Ticks and numbers -->
+            <div class="tick" style="left: 5px;"></div>
+            <div class="number" style="left: 5px;">0</div>
+            <div class="tick" style="left: 105px;"></div>
+            <div class="number" style="left: 105px;">10</div>
+            <div class="tick" style="left: 205px;"></div>
+            <div class="number" style="left: 205px;">20</div>
+            <div class="tick" style="left: 305px;"></div>
+            <div class="number" style="left: 305px;">30</div>
+            <div class="tick" style="left: 405px;"></div>
+            <div class="number" style="left: 405px;">40</div>
+            <div class="tick" style="left: 505px;"></div>
+            <div class="number" style="left: 505px;">50</div>
+            <div class="tick" style="left: 605px;"></div>
+            <div class="number" style="left: 605px;">60</div>
+            <div class="tick" style="left: 705px;"></div>
+            <div class="number" style="left: 705px;">70</div>
+            <div class="tick" style="left: 805px;"></div>
+            <div class="number" style="left: 805px;">80</div>
+            <div class="tick" style="left: 905px;"></div>
+            <div class="number" style="left: 905px;">90</div>
+            <div class="tick" style="left: 1005px;"></div>
+            <div class="number" style="left: 1005px;">100</div>
+            <!-- Arrows showing jumps -->
+            <div class="arrow" style="left: 5px;"></div>
+            <div class="arrow" style="left: 105px;"></div>
+            <div class="arrow" style="left: 205px;"></div>
+            <div class="arrow" style="left: 305px;"></div>
+            <!-- Result box at 40 -->
+            <div class="result-box" style="left: 405px;">40</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .item {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+        }
+        .shape-container {
+            display: inline-flex;
+            gap: 5px;
+            align-items: center;
+        }
+        .square {
+            width: 40px;
+            height: 40px;
+            display: inline-flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+        .square.full {
+            background-color: #ff6b35;
+        }
+        .part {
+            width: 50%;
+            height: 50%;
+            box-sizing: border-box;
+            border: 0.5px solid #333;
+        }
+        .part.shaded {
+            background-color: #ff6b35;
+        }
+    </style>
+</head>
+<body>
+    <!-- Question 4_7: Naruto jutsu scrolls - 5 squares, 4 fully shaded, last with 3/4 parts shaded -->
+    <div class="item" label="Gr5_4_4_7">
+        <div class="shape-container">
+            <div class="square full"></div>
+            <div class="square full"></div>
+            <div class="square full"></div>
+            <div class="square full"></div>
+            <div class="square">
+                <div class="part shaded"></div>
+                <div class="part shaded"></div>
+                <div class="part shaded"></div>
+                <div class="part"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

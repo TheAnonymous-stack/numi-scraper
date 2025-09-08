@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: white;
+        }
+        .visualization-container {
+            margin-bottom: 30px;
+        }
+        .viz-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .item {
+            display: inline-block;
+            margin: 10px;
+        }
+        svg {
+            background: white;
+        }
+        .tick-mark {
+            stroke: #333;
+            stroke-width: 2;
+        }
+        .number-line {
+            stroke: #333;
+            stroke-width: 2;
+        }
+        .tick-label {
+            font-size: 12px;
+            text-anchor: middle;
+            fill: #333;
+        }
+        .highlight-fraction {
+            font-size: 16px;
+            font-weight: bold;
+            fill: #0066cc;
+            text-anchor: middle;
+        }
+        .arrow-path {
+            fill: none;
+            stroke: #0066cc;
+            stroke-width: 2;
+            marker-end: url(#arrowhead);
+        }
+        .arrow-text {
+            font-size: 14px;
+            fill: #0066cc;
+            text-anchor: middle;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="visualization-container">
+        <div class="viz-title">Main Question Visual</div>
+        <div class="item" label="Gr5_23_2_24">
+        <svg width="700" height="180" viewBox="0 0 700 180">
+            <defs>
+                <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#0066cc" />
+                </marker>
+            </defs>
+            
+            <!-- Number line -->
+            <line x1="50" y1="120" x2="650" y2="120" class="number-line"/>
+            
+            <!-- Tick marks and labels -->
+            <line x1="50.0" y1="115" x2="50.0" y2="125" class="tick-mark"/>
+            <text x="50.0" y="145" class="tick-label">0/5</text>
+            <line x1="170.0" y1="115" x2="170.0" y2="125" class="tick-mark"/>
+            <text x="170.0" y="145" class="tick-label">1/5</text>
+            <line x1="290.0" y1="115" x2="290.0" y2="125" class="tick-mark"/>
+            <text x="290.0" y="145" class="tick-label">2/5</text>
+            <line x1="410.0" y1="115" x2="410.0" y2="125" class="tick-mark"/>
+            <text x="410.0" y="145" class="tick-label">3/5</text>
+            <line x1="530.0" y1="115" x2="530.0" y2="125" class="tick-mark"/>
+            <text x="530.0" y="145" class="tick-label">4/5</text>
+            <line x1="650.0" y1="115" x2="650.0" y2="125" class="tick-mark"/>
+            <text x="650.0" y="145" class="tick-label">5/5</text>
+            <text x="170.0" y="95" class="highlight-fraction">1/5</text>
+            <text x="410.0" y="95" class="highlight-fraction">3/5</text>
+            <text x="530.0" y="95" class="highlight-fraction">4/5</text>
+            <path d="M 410.0 105 Q 470.0 50 530.0 105" class="arrow-path"/>
+            <text x="470.0" y="60" class="arrow-text">+1/5</text>
+            <text x="50" y="165" class="tick-label" style="font-weight: bold;">0</text>
+            <text x="650" y="165" class="tick-label" style="font-weight: bold;">1</text>
+        </svg>
+    </div>
+    </div>
+    <div class="visualization-container">
+        <div class="viz-title">Solution Step Visual</div>
+        <div class="item" label="Gr5_23_2_24_step_1">
+        <svg width="700" height="180" viewBox="0 0 700 180">
+            <defs>
+                <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#0066cc" />
+                </marker>
+            </defs>
+            
+            <!-- Number line -->
+            <line x1="50" y1="120" x2="650" y2="120" class="number-line"/>
+            
+            <!-- Tick marks and labels -->
+            <line x1="50.0" y1="115" x2="50.0" y2="125" class="tick-mark"/>
+            <text x="50.0" y="145" class="tick-label">0/5</text>
+            <line x1="170.0" y1="115" x2="170.0" y2="125" class="tick-mark"/>
+            <text x="170.0" y="145" class="tick-label">1/5</text>
+            <line x1="290.0" y1="115" x2="290.0" y2="125" class="tick-mark"/>
+            <text x="290.0" y="145" class="tick-label">2/5</text>
+            <line x1="410.0" y1="115" x2="410.0" y2="125" class="tick-mark"/>
+            <text x="410.0" y="145" class="tick-label">3/5</text>
+            <line x1="530.0" y1="115" x2="530.0" y2="125" class="tick-mark"/>
+            <text x="530.0" y="145" class="tick-label">4/5</text>
+            <line x1="650.0" y1="115" x2="650.0" y2="125" class="tick-mark"/>
+            <text x="650.0" y="145" class="tick-label">5/5</text>
+            <text x="410.0" y="95" class="highlight-fraction">3/5</text>
+            <text x="50" y="165" class="tick-label" style="font-weight: bold;">0</text>
+            <text x="650" y="165" class="tick-label" style="font-weight: bold;">1</text>
+        </svg>
+    </div>
+    </div>
+    <div class="visualization-container">
+        <div class="viz-title">Solution Step Visual</div>
+        <div class="item" label="Gr5_23_2_24_step_2">
+        <svg width="700" height="180" viewBox="0 0 700 180">
+            <defs>
+                <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#0066cc" />
+                </marker>
+            </defs>
+            
+            <!-- Number line -->
+            <line x1="50" y1="120" x2="650" y2="120" class="number-line"/>
+            
+            <!-- Tick marks and labels -->
+            <line x1="50.0" y1="115" x2="50.0" y2="125" class="tick-mark"/>
+            <text x="50.0" y="145" class="tick-label">0/5</text>
+            <line x1="170.0" y1="115" x2="170.0" y2="125" class="tick-mark"/>
+            <text x="170.0" y="145" class="tick-label">1/5</text>
+            <line x1="290.0" y1="115" x2="290.0" y2="125" class="tick-mark"/>
+            <text x="290.0" y="145" class="tick-label">2/5</text>
+            <line x1="410.0" y1="115" x2="410.0" y2="125" class="tick-mark"/>
+            <text x="410.0" y="145" class="tick-label">3/5</text>
+            <line x1="530.0" y1="115" x2="530.0" y2="125" class="tick-mark"/>
+            <text x="530.0" y="145" class="tick-label">4/5</text>
+            <line x1="650.0" y1="115" x2="650.0" y2="125" class="tick-mark"/>
+            <text x="650.0" y="145" class="tick-label">5/5</text>
+            <text x="170.0" y="95" class="highlight-fraction">1/5</text>
+            <text x="410.0" y="95" class="highlight-fraction">3/5</text>
+            <text x="530.0" y="95" class="highlight-fraction">4/5</text>
+            <path d="M 410.0 105 Q 470.0 50 530.0 105" class="arrow-path"/>
+            <text x="470.0" y="60" class="arrow-text">+1/5</text>
+            <text x="50" y="165" class="tick-label" style="font-weight: bold;">0</text>
+            <text x="650" y="165" class="tick-label" style="font-weight: bold;">1</text>
+        </svg>
+    </div>
+    </div>
+</body>
+</html>

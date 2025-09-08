@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .item {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+        }
+        .shape-container {
+            display: inline-flex;
+            gap: 5px;
+            align-items: center;
+            flex-wrap: wrap;
+            max-width: 400px;
+        }
+        .hexagon {
+            width: 40px;
+            height: 35px;
+            position: relative;
+            margin: 11px 2px;
+        }
+        .hexagon.full {
+            background-color: #4a90e2;
+        }
+        .hexagon.full:before,
+        .hexagon.full:after {
+            background-color: #4a90e2;
+        }
+        .hexagon:before,
+        .hexagon:after {
+            content: "";
+            position: absolute;
+            width: 0;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+        }
+        .hexagon:before {
+            bottom: 100%;
+            border-bottom: 11px solid #4a90e2;
+        }
+        .hexagon:after {
+            top: 100%;
+            border-top: 11px solid #4a90e2;
+        }
+        .hexagon.divided {
+            background: conic-gradient(from 30deg, #4a90e2 0deg, #4a90e2 300deg, white 300deg);
+            clip-path: polygon(30% 0%, 70% 0%, 100% 50%, 70% 100%, 30% 100%, 0% 50%);
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Question 4_5: 8 hexagons, 7 fully shaded, last with 5/6 parts shaded -->
+    <div class="item" label="Gr5_4_4_5">
+        <div class="shape-container">
+            <svg width="40" height="40" class="hexagon">
+                <polygon points="20,2 35,10 35,30 20,38 5,30 5,10" fill="#4a90e2" stroke="black" stroke-width="1"/>
+            </svg>
+            <svg width="40" height="40" class="hexagon">
+                <polygon points="20,2 35,10 35,30 20,38 5,30 5,10" fill="#4a90e2" stroke="black" stroke-width="1"/>
+            </svg>
+            <svg width="40" height="40" class="hexagon">
+                <polygon points="20,2 35,10 35,30 20,38 5,30 5,10" fill="#4a90e2" stroke="black" stroke-width="1"/>
+            </svg>
+            <svg width="40" height="40" class="hexagon">
+                <polygon points="20,2 35,10 35,30 20,38 5,30 5,10" fill="#4a90e2" stroke="black" stroke-width="1"/>
+            </svg>
+            <svg width="40" height="40" class="hexagon">
+                <polygon points="20,2 35,10 35,30 20,38 5,30 5,10" fill="#4a90e2" stroke="black" stroke-width="1"/>
+            </svg>
+            <svg width="40" height="40" class="hexagon">
+                <polygon points="20,2 35,10 35,30 20,38 5,30 5,10" fill="#4a90e2" stroke="black" stroke-width="1"/>
+            </svg>
+            <svg width="40" height="40" class="hexagon">
+                <polygon points="20,2 35,10 35,30 20,38 5,30 5,10" fill="#4a90e2" stroke="black" stroke-width="1"/>
+            </svg>
+            <svg width="40" height="40" class="hexagon">
+                <polygon points="20,2 35,10 35,30 20,38 5,30 5,10" fill="white" stroke="black" stroke-width="1"/>
+                <path d="M 20,20 L 20,2 L 35,10 Z" fill="black" stroke="black" stroke-width="1"/>
+                <path d="M 20,20 L 35,10 L 35,30 Z" fill="black" stroke="black" stroke-width="1"/>
+                <path d="M 20,20 L 35,30 L 20,38 Z" fill="black" stroke="black" stroke-width="1"/>
+                <path d="M 20,20 L 20,38 L 5,30 Z" fill="black" stroke="black" stroke-width="1"/>
+                <path d="M 20,20 L 5,30 L 5,10 Z" fill="black" stroke="black" stroke-width="1"/>
+                <path d="M 20,20 L 5,10 L 20,2 Z" fill="black" stroke="black" stroke-width="1"/>
+                
+                
+                
+                
+                
+                
+                <path d="M 20,20 L 20,2 L 35,10 L 35,30 L 20,38 L 5,30 Z" fill="#4a90e2"/>
+            </svg>
+        </div>
+    </div>
+</body>
+</html>

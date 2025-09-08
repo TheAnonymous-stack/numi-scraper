@@ -1,0 +1,109 @@
+<div class="item" label="Gr5_49_3_21">
+    <svg width="350" height="300" viewBox="0 0 350 300">
+        <!-- Triangle -->
+        <polygon points="50,250 130,250 90.0,190" 
+                 fill="#4A90E2" 
+                 stroke="#2C3E50" 
+                 stroke-width="2"/>
+        
+        <!-- Height line (dotted) -->
+        <line x1="90.0" y1="250" 
+              x2="90.0" y2="190"
+              stroke="#333" 
+              stroke-width="1.5" 
+              stroke-dasharray="5,3"/>
+        
+        <!-- Right angle symbol -->
+        <rect x="86.0" y="242" 
+              width="8" height="8" 
+              fill="none" 
+              stroke="#333" 
+              stroke-width="1.5"/>
+        
+        <!-- Base measurement -->
+        <text x="90.0" y="270" 
+              text-anchor="middle" 
+              font-size="14" 
+              fill="#2C3E50">8 cm</text>
+        
+        <!-- Height measurement -->
+        <text x="145.0" y="220.0" 
+              text-anchor="start" 
+              font-size="14" 
+              fill="#2C3E50">6 cm</text>
+    </svg>
+</div>
+
+<!-- Correct Choice: Double-flip transformation forms rectangle -->
+<div class="item" label="Gr5_49_3_21_A">
+    <svg width="350" height="350" viewBox="0 0 350 350">
+        <!-- Original triangle (left side) -->
+        
+        
+        <!-- Rectangle formed by tessellation (right side) -->
+        <g >
+            
+            <!-- Original triangle (bottom) -->
+            <polygon points="50,250 130,250 90.0,190" 
+                     fill="#4A90E2" 
+                     stroke="#2C3E50" 
+                     stroke-width="2"/>
+            
+            <!-- Left piece after double flip (vertical then horizontal) -->
+            <!-- This piece was originally left half: (x1,y1)-(mid_x,y1)-(x3,y3) -->
+            <!-- After vertical flip: becomes upside down -->
+            <!-- After horizontal flip: mirror image -->
+            <!-- Result: fills top-right corner of rectangle -->
+            <polygon points="90.0,190 130,190 130,250" 
+                     fill="#B8E0FF" 
+                     opacity="0.8"
+                     stroke="#2C3E50" 
+                     stroke-width="1.5"/>
+            
+            <!-- Right piece after double flip -->
+            <!-- This piece was originally right half: (mid_x,y1)-(x2,y2)-(x3,y3) -->
+            <!-- After vertical flip: becomes upside down -->
+            <!-- After horizontal flip: mirror image -->
+            <!-- Result: fills top-left corner of rectangle -->
+            <polygon points="50,190 90.0,190 50,250" 
+                     fill="#B8E0FF" 
+                     opacity="0.8"
+                     stroke="#2C3E50" 
+                     stroke-width="1.5"/>
+            
+        
+        </g>
+        
+    </svg>
+</div>
+<!-- Incorrect Choice: Does not form rectangle -->
+<div class="item" label="Gr5_49_3_21_B">
+    <svg width="350" height="350" viewBox="0 0 350 350">
+        <!-- Original triangle (left side) -->
+        
+        
+        <!-- Incorrect transformation (right side) -->
+        <g >
+            
+            <!-- Original triangle -->
+            <polygon points="50,250 130,250 90.0,190" 
+                     fill="#4A90E2" 
+                     stroke="#2C3E50" 
+                     stroke-width="2"/>
+            
+            <!-- Left piece - quadrilateral extending above triangle -->
+            <polygon points="90.0,170.0 130.0,170.0 130.0,250.0 90.0,190.0"
+                     fill="#B8E0FF" 
+                     opacity="0.8"
+                     stroke="#2C3E50" 
+                     stroke-width="1.5"/>
+                  
+            <!-- Right piece - quadrilateral extending above triangle -->
+            <polygon points="50.0,170.0 90.0,170.0 90.0,190.0 50.0,250.0"
+                     fill="#B8E0FF" 
+                     opacity="0.8"
+                     stroke="#2C3E50" 
+                     stroke-width="1.5"/>
+</g>
+    </svg>
+</div>

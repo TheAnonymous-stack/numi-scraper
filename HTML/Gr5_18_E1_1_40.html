@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr5_18_E1 Question 1_40 Images</title>
+    <style>
+        .item {
+            display: inline-block;
+            width: fit-content;
+            height: fit-content;
+            margin: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 18px;
+            line-height: 1.2;
+        }
+        
+        .addition-problem {
+            display: inline-block;
+            text-align: right;
+            padding: 10px;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        .number {
+            margin: 2px 0;
+        }
+        
+        .operator {
+            text-align: left;
+            margin-right: 10px;
+        }
+        
+        .line {
+            border-top: 2px solid black;
+            margin: 5px 0;
+        }
+        
+        .carry {
+            font-size: 12px;
+            color: #666;
+            vertical-align: super;
+            margin-right: -8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Step 1: Initial problem setup -->
+    <div class="item" label="Gr5_18_1_40_step_1">
+        <div class="addition-problem">
+            <div class="number">294.98</div>
+            <div class="number"><span class="operator">+</span> 851.06</div>
+            <div class="line"></div>
+            <div class="number" style="color: transparent;">0000.00</div>
+        </div>
+    </div>
+
+    <!-- Step 5: Complete solution with answer and carry marks -->
+    <div class="item" label="Gr5_18_1_40_step_5">
+        <div class="addition-problem">
+            <div style="position: relative;">
+                <span class="carry" style="position: absolute; left: 50px; top: -5px;">1</span>
+                <div class="number">294.98</div>
+            </div>
+            <div class="number"><span class="operator">+</span> 851.06</div>
+            <div class="line"></div>
+            <div class="number">1146.04</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .item {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+        }
+        .shape-container {
+            display: inline-flex;
+            gap: 5px;
+            align-items: center;
+            
+        }
+        .shape {
+            width: 40px;
+            height: 40px;
+            display: inline-flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+        .shape.full {
+            background-color: #4a90e2;
+        }
+        .part {
+            box-sizing: border-box;
+            border: 0.5px solid #333;
+        }
+        .part.shaded {
+            background-color: #4a90e2;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr5_4_4_21">
+        <div class="shape-container">
+            <div class="shape full"></div>
+            <div class="shape full"></div>
+            <div class="shape full"></div>
+            <div class="shape full"></div>
+            <div class="shape" style="display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(4, 1fr);">
+                <div class="part shaded"></div>
+                <div class="part shaded"></div>
+                <div class="part shaded"></div>
+                <div class="part shaded"></div>
+                <div class="part shaded"></div>
+                <div class="part shaded"></div>
+                <div class="part shaded"></div>
+                <div class="part shaded"></div>
+                <div class="part shaded"></div>
+                <div class="part"></div>
+                <div class="part"></div>
+                <div class="part"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

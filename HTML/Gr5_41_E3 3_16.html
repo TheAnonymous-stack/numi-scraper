@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr5_41_E3 3_16</title>
+    <style>
+        .item {
+            display: inline-block;
+            position: relative;
+        }
+        
+        /* Ensure divs are only as large as their content */
+        .item svg {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Question 3_16: Spinner with orange and purple -->
+    <div class="item" label="Gr5_41_3_16">
+        <svg width="200" height="200" viewBox="0 0 200 200">
+            <!-- Black outline circle -->
+            <circle cx="100" cy="100" r="90" fill="none" stroke="black" stroke-width="2"/>
+            
+            <!-- orange section (approximately 86%) -->
+            <path d="M 100 100 L 100 10 A 90 90 0 1 1 30.7 42.6 Z" fill="orange" stroke="black" stroke-width="1"/>
+            
+            <!-- purple section (approximately 14%) -->
+            <path d="M 100 100 L 30.7 42.6 A 90 90 0 0 1 100 10 Z" fill="purple" stroke="black" stroke-width="1"/>
+            
+            
+            <!-- Center point -->
+            <circle cx="100" cy="100" r="4" fill="black"/>
+            
+            <!-- Arrow/pointer -->
+            <polygon points="100,100 95,85 105,85" fill="gray" transform="rotate(45 100 100)"/>
+        </svg>
+    </div>
+</body>
+</html>

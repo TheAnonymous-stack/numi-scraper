@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .item {
+            display: inline-block;
+            width: fit-content;
+            height: fit-content;
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            font-family: monospace;
+            font-size: 18px;
+        }
+        .calculation {
+            display: inline-block;
+            vertical-align: top;
+            margin: 0 5px;
+        }
+        .number {
+            text-align: right;
+            margin: 2px 0;
+        }
+        .line {
+            border-top: 2px solid black;
+            margin: 5px 0;
+        }
+        .highlight {
+            background-color: #ffeb3b;
+            padding: 0 2px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Question 1_5: Addition problem 5021 + 3527 -->
+    
+    <!-- Step 1: Calculation for the ones place -->
+    <div class="item" label="Gr5_17_1_5_step_1">
+        <div class="calculation">
+            <div class="number">5,021</div>
+            <div class="number">+ 3,527</div>
+            <div class="line"></div>
+            <div class="number"><span class="highlight">8</span></div>
+        </div>
+    </div>
+    
+    <!-- Step 2: Calculation for the tens place -->
+    <div class="item" label="Gr5_17_1_5_step_2">
+        <div class="calculation">
+            <div class="number">5,021</div>
+            <div class="number">+ 3,527</div>
+            <div class="line"></div>
+            <div class="number">5<span class="highlight">4</span>8</div>
+        </div>
+    </div>
+</body>
+</html>

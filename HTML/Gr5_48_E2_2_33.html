@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade 5 - Week 48 - Exercise 2 - Question 2_33</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .item {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+<div class="item" label="Gr5_48_2_7" style="width: 320px; height: 320px; display: inline-block;">
+    <svg width="320" height="320" xmlns="http://www.w3.org/2000/svg">
+        <!-- Angle sector (filled area) -->
+        <path d="M 160 160
+                 L 184.7 135.3
+                 A 35 35 0 0 0 135.3 135.3
+                 Z"
+              fill="#3F51B5" opacity="0.2"/>
+        
+        <!-- Right angle indicator (small square) -->
+        <rect x="157.1" 
+              y="142.9"
+              width="20" height="20"
+              fill="none" stroke="#666" stroke-width="1.5"
+              transform="rotate(315 160 160)" opacity="0.5"/>
+        
+        <!-- Starting ray -->
+        <line x1="160" y1="160" x2="230.7" y2="89.3" 
+              stroke="#333" stroke-width="3"/>
+        
+        <!-- Ending ray -->
+        <line x1="160" y1="160" x2="89.3" y2="89.3" 
+              stroke="#333" stroke-width="3"/>
+        
+        <!-- Arc showing the angle -->
+        <path d="M 230.7 89.3
+                 A 100 100 0 0 0 89.3 89.3"
+              fill="none" stroke="#3F51B5" stroke-width="3" opacity="0.7"/>
+        
+        <!-- Center point -->
+        <circle cx="160" cy="160" r="4" fill="#333"/>
+        
+        <!-- Arrow marker -->
+        <defs>
+            <marker id="arrow_33" markerWidth="10" markerHeight="7" 
+                    refX="9" refY="3.5" orient="auto">
+                <polygon points="0 0, 10 3.5, 0 7" fill="#3F51B5"/>
+            </marker>
+        </defs>
+        
+        <!-- Arrow on arc -->
+        <path d="M 214.6 101.5
+                 A 80 80 0 0 0 105.4 101.5"
+              fill="none" stroke="#3F51B5" stroke-width="2" marker-end="url(#arrow_33)" opacity="0.8"/>
+    </svg>
+</div>
+</body>
+</html>

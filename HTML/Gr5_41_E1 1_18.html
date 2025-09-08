@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr5_41_E1 1_18</title>
+    <style>
+        .item {
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+        }
+        table {
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+        th {
+            background-color: #00ACC1;
+            color: white;
+            padding: 10px;
+            text-align: left;
+            font-weight: bold;
+        }
+        td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        tr {
+            background-color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .highlight {
+            background-color: #FFEB3B;
+            font-weight: bold;
+        }
+        .highlight-row {
+            background-color: #FFEB3B !important;
+        }
+        .calculation {
+            font-size: 24px;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main image -->
+    <div class="item" label="Gr5_41_1_18">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Books borrowed</th>
+                </tr>
+                <tr style="background-color: #00ACC1;">
+                    <th>Item</th>
+                    <th>Frequency</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>horror</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td>science fiction</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>poetry</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>fantasy</td>
+                    <td>46</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Solution image Gr5_41_1_18_step_1 -->
+    <div class="item" label="Gr5_41_1_18_step_1">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Books borrowed</th>
+                </tr>
+                <tr style="background-color: #00ACC1;">
+                    <th>Item</th>
+                    <th>Frequency</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="highlight-row">
+                    <td>horror</td>
+                    <td>32</td>
+                </tr>
+                <tr >
+                    <td>science fiction</td>
+                    <td>21</td>
+                </tr>
+                <tr class="highlight-row">
+                    <td>poetry</td>
+                    <td>35</td>
+                </tr>
+                <tr >
+                    <td>fantasy</td>
+                    <td>46</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Solution image Gr5_41_1_18_step_2 -->
+    <div class="item" label="Gr5_41_1_18_step_2">
+        <div class="calculation">
+            35 + 32 = 67
+        </div>
+    </div>
+</body>
+</html>

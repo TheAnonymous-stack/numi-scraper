@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr5_27_E1 Question 51 Visual Components</title>
+    <style>
+        .item {
+            margin: 20px;
+            display: inline-block;
+        }
+        .number-line {
+            position: relative;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Question Image: Number line for 8 x 1/4 -->
+<div class="item" label="Gr5_27_1_51">
+    <svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
+        <!-- Main number line -->
+        <line x1="50" y1="100" x2="550" y2="100" stroke="black" stroke-width="2"/>
+        
+        <!-- Tick marks and labels for fractional divisions -->
+        <!-- 0 -->
+        <line x1="50" y1="95" x2="50" y2="105" stroke="black" stroke-width="2"/>
+        <text x="50" y="120" text-anchor="middle" font-size="12">0</text>
+        
+        <!-- 1/4 -->
+        <line x1="81.25" y1="95" x2="81.25" y2="105" stroke="black" stroke-width="1"/>
+        <text x="81.25" y="120" text-anchor="middle" font-size="10">1/4</text>
+        
+        <!-- 2/4 -->
+        <line x1="112.5" y1="95" x2="112.5" y2="105" stroke="black" stroke-width="1"/>
+        <text x="112.5" y="120" text-anchor="middle" font-size="10">2/4</text>
+        
+        <!-- 3/4 -->
+        <line x1="143.75" y1="95" x2="143.75" y2="105" stroke="black" stroke-width="1"/>
+        <text x="143.75" y="120" text-anchor="middle" font-size="10">3/4</text>
+        
+        <!-- 4/4 (1) -->
+        <line x1="175" y1="95" x2="175" y2="105" stroke="black" stroke-width="2"/>
+        <text x="175" y="120" text-anchor="middle" font-size="10">4/4</text>
+        
+        <!-- 5/4 -->
+        <line x1="206.25" y1="95" x2="206.25" y2="105" stroke="black" stroke-width="1"/>
+        <text x="206.25" y="120" text-anchor="middle" font-size="10">5/4</text>
+        
+        <!-- 6/4 -->
+        <line x1="237.5" y1="95" x2="237.5" y2="105" stroke="black" stroke-width="1"/>
+        <text x="237.5" y="120" text-anchor="middle" font-size="10">6/4</text>
+        
+        <!-- 7/4 -->
+        <line x1="268.75" y1="95" x2="268.75" y2="105" stroke="black" stroke-width="1"/>
+        <text x="268.75" y="120" text-anchor="middle" font-size="10">7/4</text>
+        
+        <!-- 8/4 (2) -->
+        <line x1="300" y1="95" x2="300" y2="105" stroke="black" stroke-width="2"/>
+        <text x="300" y="120" text-anchor="middle" font-size="10">8/4</text>
+        
+        <!-- 9/4 -->
+        <line x1="331.25" y1="95" x2="331.25" y2="105" stroke="black" stroke-width="1"/>
+        <text x="331.25" y="120" text-anchor="middle" font-size="10">9/4</text>
+        
+        <!-- 10/4 -->
+        <line x1="362.5" y1="95" x2="362.5" y2="105" stroke="black" stroke-width="1"/>
+        <text x="362.5" y="120" text-anchor="middle" font-size="10">10/4</text>
+        
+        <!-- 11/4 -->
+        <line x1="393.75" y1="95" x2="393.75" y2="105" stroke="black" stroke-width="1"/>
+        <text x="393.75" y="120" text-anchor="middle" font-size="10">11/4</text>
+        
+        <!-- 12/4 (3) -->
+        <line x1="425" y1="95" x2="425" y2="105" stroke="black" stroke-width="2"/>
+        <text x="425" y="120" text-anchor="middle" font-size="10">12/4</text>
+        
+        <!-- 13/4 -->
+        <line x1="456.25" y1="95" x2="456.25" y2="105" stroke="black" stroke-width="1"/>
+        <text x="456.25" y="120" text-anchor="middle" font-size="10">13/4</text>
+        
+        <!-- 14/4 -->
+        <line x1="487.5" y1="95" x2="487.5" y2="105" stroke="black" stroke-width="1"/>
+        <text x="487.5" y="120" text-anchor="middle" font-size="10">14/4</text>
+        
+        <!-- 15/4 -->
+        <line x1="518.75" y1="95" x2="518.75" y2="105" stroke="black" stroke-width="1"/>
+        <text x="518.75" y="120" text-anchor="middle" font-size="10">15/4</text>
+        
+        <!-- 16/4 (4) -->
+        <line x1="550" y1="95" x2="550" y2="105" stroke="black" stroke-width="2"/>
+        <text x="550" y="120" text-anchor="middle" font-size="10">16/4</text>
+    </svg>
+</div>
+
+<!-- Solution Image: Number line with blue curved arrows showing 8 jumps -->
+<div class="item" label="Gr5_27_1_51_step_1">
+    <svg width="600" height="200" xmlns="http://www.w3.org/2000/svg">
+        <!-- Main number line -->
+        <line x1="50" y1="150" x2="550" y2="150" stroke="black" stroke-width="2"/>
+        
+        <!-- Tick marks and labels (same as above) -->
+        <!-- 0 -->
+        <line x1="50" y1="145" x2="50" y2="155" stroke="black" stroke-width="2"/>
+        <text x="50" y="170" text-anchor="middle" font-size="12">0</text>
+        
+        <!-- Fractional markings every 1/4 -->
+        <line x1="81.25" y1="145" x2="81.25" y2="155" stroke="black" stroke-width="1"/>
+        <text x="81.25" y="170" text-anchor="middle" font-size="10">1/4</text>
+        
+        <line x1="112.5" y1="145" x2="112.5" y2="155" stroke="black" stroke-width="1"/>
+        <text x="112.5" y="170" text-anchor="middle" font-size="10">2/4</text>
+        
+        <line x1="143.75" y1="145" x2="143.75" y2="155" stroke="black" stroke-width="1"/>
+        <text x="143.75" y="170" text-anchor="middle" font-size="10">3/4</text>
+        
+        <line x1="175" y1="145" x2="175" y2="155" stroke="black" stroke-width="2"/>
+        <text x="175" y="170" text-anchor="middle" font-size="10">4/4</text>
+        
+        <line x1="206.25" y1="145" x2="206.25" y2="155" stroke="black" stroke-width="1"/>
+        <text x="206.25" y="170" text-anchor="middle" font-size="10">5/4</text>
+        
+        <line x1="237.5" y1="145" x2="237.5" y2="155" stroke="black" stroke-width="1"/>
+        <text x="237.5" y="170" text-anchor="middle" font-size="10">6/4</text>
+        
+        <line x1="268.75" y1="145" x2="268.75" y2="155" stroke="black" stroke-width="1"/>
+        <text x="268.75" y="170" text-anchor="middle" font-size="10">7/4</text>
+        
+        <line x1="300" y1="145" x2="300" y2="155" stroke="black" stroke-width="2"/>
+        <text x="300" y="170" text-anchor="middle" font-size="10">8/4</text>
+        
+        <line x1="331.25" y1="145" x2="331.25" y2="155" stroke="black" stroke-width="1"/>
+        <text x="331.25" y="170" text-anchor="middle" font-size="10">9/4</text>
+        
+        <line x1="362.5" y1="145" x2="362.5" y2="155" stroke="black" stroke-width="1"/>
+        <text x="362.5" y="170" text-anchor="middle" font-size="10">10/4</text>
+        
+        <line x1="393.75" y1="145" x2="393.75" y2="155" stroke="black" stroke-width="1"/>
+        <text x="393.75" y="170" text-anchor="middle" font-size="10">11/4</text>
+        
+        <line x1="425" y1="145" x2="425" y2="155" stroke="black" stroke-width="2"/>
+        <text x="425" y="170" text-anchor="middle" font-size="10">12/4</text>
+        
+        <line x1="456.25" y1="145" x2="456.25" y2="155" stroke="black" stroke-width="1"/>
+        <text x="456.25" y="170" text-anchor="middle" font-size="10">13/4</text>
+        
+        <line x1="487.5" y1="145" x2="487.5" y2="155" stroke="black" stroke-width="1"/>
+        <text x="487.5" y="170" text-anchor="middle" font-size="10">14/4</text>
+        
+        <line x1="518.75" y1="145" x2="518.75" y2="155" stroke="black" stroke-width="1"/>
+        <text x="518.75" y="170" text-anchor="middle" font-size="10">15/4</text>
+        
+        <line x1="550" y1="145" x2="550" y2="155" stroke="black" stroke-width="2"/>
+        <text x="550" y="170" text-anchor="middle" font-size="10">16/4</text>
+        
+        <!-- Blue curved arrows showing 8 jumps of 1/4 each -->
+        <!-- Jump 1: 0 to 1/4 -->
+        <path d="M 50,130 Q 65,110 81.25,130" stroke="blue" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+        <text x="65" y="105" text-anchor="middle" font-size="12" fill="blue">1</text>
+        
+        <!-- Jump 2: 1/4 to 2/4 -->
+        <path d="M 81.25,130 Q 97,110 112.5,130" stroke="blue" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+        <text x="97" y="105" text-anchor="middle" font-size="12" fill="blue">2</text>
+        
+        <!-- Jump 3: 2/4 to 3/4 -->
+        <path d="M 112.5,130 Q 128,110 143.75,130" stroke="blue" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+        <text x="128" y="105" text-anchor="middle" font-size="12" fill="blue">3</text>
+        
+        <!-- Jump 4: 3/4 to 4/4 -->
+        <path d="M 143.75,130 Q 159,110 175,130" stroke="blue" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+        <text x="159" y="105" text-anchor="middle" font-size="12" fill="blue">4</text>
+        
+        <!-- Jump 5: 4/4 to 5/4 -->
+        <path d="M 175,130 Q 190,110 206.25,130" stroke="blue" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+        <text x="190" y="105" text-anchor="middle" font-size="12" fill="blue">5</text>
+        
+        <!-- Jump 6: 5/4 to 6/4 -->
+        <path d="M 206.25,130 Q 222,110 237.5,130" stroke="blue" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+        <text x="222" y="105" text-anchor="middle" font-size="12" fill="blue">6</text>
+        
+        <!-- Jump 7: 6/4 to 7/4 -->
+        <path d="M 237.5,130 Q 253,110 268.75,130" stroke="blue" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+        <text x="253" y="105" text-anchor="middle" font-size="12" fill="blue">7</text>
+        
+        <!-- Jump 8: 7/4 to 8/4 -->
+        <path d="M 268.75,130 Q 284,110 300,130" stroke="blue" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+        <text x="284" y="105" text-anchor="middle" font-size="12" fill="blue">8</text>
+        
+        <!-- Arrow marker definition -->
+        <defs>
+            <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto" markerUnits="strokeWidth" fill="blue">
+                <path d="M 0,0 L 0,6 L 5,3 z"/>
+            </marker>
+        </defs>
+        
+        <!-- Blue box highlighting 8/4 -->
+        <rect x="285" y="140" width="30" height="20" fill="none" stroke="blue" stroke-width="2" rx="2"/>
+    </svg>
+</div>
+
+</body>
+</html>

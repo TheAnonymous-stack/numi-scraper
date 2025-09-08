@@ -123,13 +123,14 @@
     "question_number": "2_1"
   },
   {
-    "question_text": "Convert:\n\n 7 kilograms = \\__ grams",
+    "question_text": "Convert:\n\n 7 kilograms = _ grams",
     "skills": "compare-and-convert-metric-units-of-mass",
     "question_type": "Fill in the blank",
     "tag": "Gr5_47_E2",
+    "has_alternate_answers": true,
     "correct_answers": [
-      "7000",
-      "7,000"
+      ["7000"],
+      ["7,000"]
     ],
     "solution": [
       [
@@ -251,15 +252,13 @@
     "backend_description": "A straight angle formed by two brown rays pointing in opposite directions, creating a straight line that measures 180 degrees."
   },
   {
-    "question_text": "What is the measurement of this angle?\n\n\\__°",
+    "question_text": "What is the measurement of this angle?\n\n _°",
     "skills": "measure-angles-with-a-protractor",
     "image_tag": "Gr5_48_3_1",
     "question_type": "Fill in the blank",
     "tag": "Gr5_48_E3",
     "correct_answers": [
-      "165",
-      "165degrees",
-      "165°"
+      "165"
     ],
     "solution": [
       [
@@ -276,7 +275,7 @@
     "backend_description": "A yellow protractor showing an angle measurement. One ray points to 0 degrees on the protractor scale, and the other ray points to 165 degrees, creating an obtuse angle of 165 degrees."
   },
   {
-    "question_text": "What is the area?\n\n \\__ square kilometres",
+    "question_text": "What is the area?\n\n _ square kilometres",
     "skills": "area-of-parallelograms",
     "image_tag": "Gr5_49_2_1",
     "question_type": "Fill in the blank",
@@ -338,7 +337,7 @@
     ]
   },
   {
-    "question_text": "What is the area?\n\n \\__ square millimetres",
+    "question_text": "What is the area?\n\n _ square millimetres",
     "skills": "area-of-triangles",
     "image_tag": "Gr5_49_4_1",
     "question_type": "Fill in the blank",
@@ -373,7 +372,7 @@
     "backend_description": "A light purple right triangle with base 7 mm and height 14 mm. The right angle is marked with a small square in the corner."
   },
   {
-    "question_text": "The rectangles below have the same area.\n\n\n\nIf the perimeter of the orange rectangle is 16 metres, what are its dimensions?\n\n\n​ \\__ metres by \\__ metres",
+    "question_text": "The rectangles below have the same area.\n\n\n\nIf the perimeter of the orange rectangle is 16 metres, what are its dimensions?\n\n\n​ _ metres by _ metres",
     "skills": "rectangles-relationship-between-perimeter-and-area",
     "image_tag": "Gr5_49_5_1",
     "question_type": "Multiple fill in the blank",
@@ -447,46 +446,48 @@
     "question_number": "1_1"
   },
   {
-    "question_text": "Jared wants to buy a young pig to raise for the fall fair. The pig costs $75, and there is a $1.50 processing fee to pay with a cheque.\n\nWhat is the total cost of buying the pig with a cheque?\n\n$\\__",
+    "question_text": "Jared wants to buy a young pig to raise for the fall fair. The pig costs 75 dollars, and there is a 1.50 dollars processing fee to pay with a cheque.\n\nWhat is the total cost of buying the pig with a cheque?\n\n _ dollars",
     "skills": "evaluate-payment-methods",
     "question_type": "Fill in the blank",
     "tag": "Gr5_50_E2",
+    "has_alternate_answers": true,
     "correct_answers": [
-      "76.50"
+      ["76.50"],
+      ["76.5"]
     ],
     "solution": [
       [
         "1/2",
-        "The pig costs $75. If Jared uses a cheque, he will also pay a fee of $1.50. Add to find the total cost."
+        "The pig costs 75 dollars. If Jared uses a cheque, he will also pay a fee of 1.50 dollars. Add to find the total cost."
       ],
       [
         "2/2",
-        "$75 + $1.50 = $76.50\n\nThe total cost of buying the pig with a cheque is $76.50."
+        "$75 + 1.50 = 76.50$\n\nThe total cost of buying the pig with a cheque is 76.50 dollars."
       ]
     ],
     "solution_image_tag": [],
     "question_number": "2_1"
   },
   {
-    "question_text": "How much money does Wesley need to buy a cookbook, a baking dish, and a large plate?\n\n$\\__",
+    "question_text": "How much money does Wesley need to buy a cookbook, a baking dish, and a large plate?\n\n _ dollars",
     "skills": "price-lists-with-addition-and-subtraction",
     "image_tag": "Gr5_20_3_1",
     "question_type": "Fill in the blank",
     "tag": "Gr5_20_E3",
+    "has_alternate_answers": true,
     "correct_answers": [
-      "18",
-      "18.00",
-      "$18",
-      "$18.00"
+      ["18"],
+      ["18.0"],
+      ["18.00"]
     ],
     "solution": [
       [
         "1/2",
-        "Find the prices of a cookbook, a baking dish, and a large plate. The prices are $9.00, $5.00, and $4.00."
+        "Find the prices of a cookbook, a baking dish, and a large plate. The prices are 9.00 dolalrs, 5.00 dollars, and 4.00 dollars."
       ],
       [
         "2/2",
-        "Adding all the prices together, Wesley needs $18.00."
+        "Adding all the prices together, Wesley needs 18.00 dollars."
       ]
     ],
     "solution_image_tag": [
@@ -500,25 +501,25 @@
     "question_number": "3_1"
   },
   {
-    "question_text": "How much more does a large plate cost than an ice cream scoop?\n\n$\\__",
+    "question_text": "How much more does a large plate cost than an ice cream scoop?\n\n _ dollars",
     "skills": "price-lists-with-addition-and-subtraction",
     "image_tag": "Gr5_20_3_2",
     "question_type": "Fill in the blank",
     "tag": "Gr5_20_E3",
+    "has_alternate_answers": true,
     "correct_answers": [
-      "5",
-      "5.00",
-      "$5",
-      "$5.00"
+      ["5"],
+      ["5.0"],
+      ["5.00"]
     ],
     "solution": [
       [
         "1/2",
-        "Find the prices of a large plate and an ice cream scoop. The prices are $8.00 and $3.00. \n\nTo find how much more a large plate costs, subtract the price of an ice cream scoop from the price of a large plate."
+        "Find the prices of a large plate and an ice cream scoop. The prices are 8.00 dollars and 3.00 dollars. \n\nTo find how much more a large plate costs, subtract the price of an ice cream scoop from the price of a large plate."
       ],
       [
         "2/2",
-        "A large plate costs $5.00 more than an ice cream scoop."
+        "A large plate costs 5.00 dollars more than an ice cream scoop."
       ]
     ],
     "solution_image_tag": [
@@ -532,14 +533,14 @@
     "question_number": "3_2"
   },
   {
-    "question_text": "Kristen reads her credit card statement at the end of the month. She has a balance of $115, and her interest rate is 18%. Kristen decides to make the minimum payment of $25.\nWhich statement is true?",
+    "question_text": "Kristen reads her credit card statement at the end of the month. She has a balance of 115 dollars, and her interest rate is 18%. Kristen decides to make the minimum payment of 25 dollars.\nWhich statement is true?",
     "skills": "debit-cards-and-credit-cards",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr5_50_E3",
     "choices": [
       "Kristen will not be charged any interest.",
-      "Kristen will be charged interest on the $90 she still owes.",
-      "Kristen will be charged interest on the $115 she spent."
+      "Kristen will be charged interest on the 90 dollars she still owes.",
+      "Kristen will be charged interest on the 115 dollars she spent."
     ],
     "correct_answers": [
       "B"
@@ -547,14 +548,14 @@
     "solution": [
       [
         "1/1",
-        "Kristen's credit card balance is $115. She makes the minimum payment of $25. \n\nSo, she will be charged interest on her remaining balance of $90."
+        "Kristen's credit card balance is 115 dollars. She makes the minimum payment of 25 dollars. \n\nSo, she will be charged interest on her remaining balance of 90 dollars."
       ]
     ],
     "solution_image_tag": [],
     "question_number": "3_1"
   },
   {
-    "question_text": "Luther downloaded a photo editing app for $4.95. He paid using his debit card.\nWill $4.95 be taken out of Luther's bank account the same day?",
+    "question_text": "Luther downloaded a photo editing app for 4.95 dollars. He paid using his debit card.\nWill 4.95 dollars be taken out of Luther's bank account the same day?",
     "skills": "debit-cards-and-credit-cards",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr5_50_E3",
@@ -575,11 +576,12 @@
     "question_number": "3_2"
   },
   {
-    "question_text": "This table shows Sanjay's March budget. How much money does he need to earn at the gas station to balance his budget? Complete the table.\n",
+    "question_text": "This table shows Sanjay's March budget. How much money does he need to earn at the gas station to balance his budget? Complete the table.\n _ \n _ \n _",
     "skills": "balance-a-budget",
     "image_tag": "Gr5_51_1_1",
-    "question_type": "Fill in the blank",
+    "question_type": "Multiple fill in the blank",
     "tag": "Gr5_51_E1",
+    "orderMatter": true,
     "correct_answers": [
       "145",
       "245",
@@ -588,27 +590,27 @@
     "solution": [
       [
         "1/6",
-        "First, add all expenses to find Sanjay's total expenses: $20 + $220 + $5 = $245\nThe total expenses are $245."
+        "First, add all expenses to find Sanjay's total expenses: $20 + 220 + 5 = 245$\nThe total expenses are 245 dollars."
       ],
       [
         "2/6",
-        "Next, find the total income. In a balanced budget, the total income equals the total expenses. So, put $245 for the total income."
+        "Next, find the total income. In a balanced budget, the total income equals the total expenses. So, put 245 for the total income."
       ],
       [
         "3/6",
-        "Finally, find how much money Sanjay needs to earn at the gas station. His income needs to add up to $245."
+        "Finally, find how much money Sanjay needs to earn at the gas station. His income needs to add up to 245."
       ],
       [
         "4/6",
-        "Start by adding the income from dog walking and pet sitting: $40 + $60 = $100"
+        "Start by adding the income from dog walking and pet sitting: $40 + 60 = 100$"
       ],
       [
         "5/6",
-        "Now, find how much more he needs to earn working at the gas station, to bring his income to $245. Subtract to find the difference: $245 - $100 = $145"
+        "Now, find how much more he needs to earn working at the gas station, to bring his income to 245 dollars. Subtract to find the difference: $245 - 100 = 145$"
       ],
       [
         "6/6",
-        "Sanjay needs to earn $145 working at the gas station to balance his budget."
+        "Sanjay needs to earn 145 dollars working at the gas station to balance his budget."
       ]
     ],
     "solution_image_tag": [],
@@ -629,27 +631,27 @@
     "solution": [
       [
         "1/6",
-        "First, add all incomes to find Peter's total income: $210 + $50 + $15 = $275.\nThe total income is $275."
+        "First, add all incomes to find Peter's total income: $210 + 50 + 15 = 275$.\nThe total income is 275 dollars."
       ],
       [
         "2/6",
-        "Next, find the total expenses. In a balanced budget, the total income equals the total expenses. So, put $275 for the total expenses."
+        "Next, find the total expenses. In a balanced budget, the total income equals the total expenses. So, put 275 for the total expenses."
       ],
       [
         "3/6",
-        "Finally, find how much money Peter can spend on his ski lift tickets. His expenses need to add up to $275."
+        "Finally, find how much money Peter can spend on his ski lift tickets. His expenses need to add up to 275."
       ],
       [
         "4/6",
-        "Start by adding how much he spends on snowboard goggles and a snowboard: $55 + $180 = $235"
+        "Start by adding how much he spends on snowboard goggles and a snowboard: $55 + 180 = 235$"
       ],
       [
         "5/6",
-        "Now, find how much more money he can spend on ski lift tickets, to bring his expenses to $235. Subtract to find the difference: $275 - $235 = $40"
+        "Now, find how much more money he can spend on ski lift tickets, to bring his expenses to 235 dollars. Subtract to find the difference: $275 - 235 = 40$"
       ],
       [
         "6/6",
-        "Peter can spend $40 on ski lift tickets to keep his budget balanced."
+        "Peter can spend 40 dollars on ski lift tickets to keep his budget balanced."
       ]
     ],
     "solution_image_tag": [],
@@ -663,10 +665,10 @@
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr5_51_E2",
     "choices": [
-      "Walk dogs to earn an extra $20",
-      "Increase income from teaching water sports to $60",
-      "Use only $85 for vacation spending money",
-      "Save only $190 for a kayak"
+      "Walk dogs to earn an extra 20 dollars",
+      "Increase income from teaching water sports to 60 dollars",
+      "Use only 85 dollars for vacation spending money",
+      "Save only 190 dollars for a kayak"
     ],
     "correct_answers": [
       "A"
@@ -678,15 +680,15 @@
       ],
       [
         "2/4",
-        "Next, add Amy's expenses to find her total expenses: $100 + $35 + $200 = $335"
+        "Next, add Amy's expenses to find her total expenses: $100 + 35 + 200 = 335$"
       ],
       [
         "3/4",
-        "Amy's expenses are more than her income. Subtract to find the difference: $335 - $315 = $20"
+        "Amy's expenses are more than her income. Subtract to find the difference: $335 - 315 = 20$"
       ],
       [
         "4/4",
-        "The difference is $20, so Amy needs an extra $20 to balance her budget. Walking dogs for $20 will help her balance her budget."
+        "The difference is 20, so Amy needs an extra 20 dollars to balance her budget. Walking dogs for 20 dollars will help her balance her budget."
       ]
     ],
     "solution_image_tag": [],
@@ -700,10 +702,10 @@
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr5_51_E2",
     "choices": [
-      "Increase spending on gifts for Mom and Nana by $10",
-      "Put $25 less in his savings account",
-      "Return bottles to earn an extra $5",
-      "Decrease amount of gas money to $30"
+      "Increase spending on gifts for Mom and Nana by 10 dollars",
+      "Put 25 dollars less in his savings account",
+      "Return bottles to earn an extra 5 dollars",
+      "Decrease amount of gas money to 30 dollars"
     ],
     "correct_answers": [
       "B"
@@ -711,19 +713,19 @@
     "solution": [
       [
         "1/4",
-        "Find how much money Mitch needs to balance his budget. First, add Mitch's sources of income to find his total income: $20 + $35 + $105 = $160"
+        "Find how much money Mitch needs to balance his budget. First, add Mitch's sources of income to find his total income: $20 + 35 + 105 = 160$"
       ],
       [
         "2/4",
-        "Next, add Mitch's expenses to find his total expenses: $40 + $45 + $100 = $185"
+        "Next, add Mitch's expenses to find his total expenses: $40 + 45 + 100 = 185$"
       ],
       [
         "3/4",
-        "Mitch's expenses are more than his income. Subtract to find the difference: $185 - $160 = $25"
+        "Mitch's expenses are more than his income. Subtract to find the difference: $185 - 160 = 25$"
       ],
       [
         "4/4",
-        "The difference is $25, so Mitch needs an extra $25 to balance his budget. Putting $25 less in his savings account will help Mitch balance his budget."
+        "The difference is 25, so Mitch needs an extra 25 dollars to balance his budget. Putting 25 dollars less in his savings account will help Mitch balance his budget."
       ]
     ],
     "solution_image_tag": [],
@@ -731,7 +733,7 @@
     "backend_description": "A budget table titled 'Mitch's May budget' with blue header. Income column shows: Mowing lawns: $20, Babysitting: $35, Bagging groceries at Hall's Market: $105. Expenses column shows: Gifts for Mom and Nana: $40, Gas money: $45, Savings account: $100"
   },
   {
-    "question_text": "This is Akira's complete financial record for August:\n\nHow much money did Akira receive on August 22?\n\n$\\__",
+    "question_text": "This is Akira's complete financial record for August:\n\nHow much money did Akira receive on August 22?\n _ dollars",
     "skills": "reading-financial-records",
     "image_tag": "Gr5_51_3_1",
     "question_type": "Fill in the blank",
@@ -749,18 +751,19 @@
       [
         "1/1",
         "Gr5_51_3_1_step_1",
-        "A financial record table with blue header showing the same data as the main image, with the row for 8/22 highlighted, showing paycheque received of $58.65"
+        "A financial record table with blue header showing the same data as the main image, with the row for 8/22 highlighted, showing paycheque received of 58.65 dollars"
       ]
     ],
     "backend_description": "A financial record table with blue header. Columns: Date, Description, Received, Expenses, Available Funds. Data shows: Balance end of July $260.85; 8/15 tote bag expense $6.50, available $254.35; 8/16 farmers' market expense $23.40, available $230.95; 8/22 paycheque received $58.65, available $289.60",
     "question_number": "3_1"
   },
   {
-    "question_text": "Felix keeps this financial record:\n\nOn June 21, Felix cleaned the stables at the Hills' farm and received $30.00. Complete that row in the record.",
+    "question_text": "Felix keeps this financial record:\n\nOn June 21, Felix cleaned the stables at the Hills' farm and received 30.00 dollars. Complete that row in the record.\n _ \n _",
     "skills": "keeping-financial-records",
     "image_tag": "Gr5_51_4_1",
-    "question_type": "Fill in the blank",
+    "question_type": "Multiple fill in the blank",
     "tag": "Gr5_51_E4",
+    "orderMatter": true,
     "correct_answers": [
       "30.00",
       "89.65"
@@ -768,15 +771,15 @@
     "solution": [
       [
         "1/3",
-        "On June 21, Felix cleaned the stables at the Hills' farm and received $30.00. That is income. So, find the row for 6/21 and enter $30.00 in the Received column."
+        "On June 21, Felix cleaned the stables at the Hills' farm and received 30.00 dollars. That is income. So, find the row for 6/21 and enter 30.00 dollars in the Received column."
       ],
       [
         "2/3",
-        "Before cleaning the stables, Felix had $59.65 in available funds. Add $30.00 to find the available funds afterward: $59.65 + $30.00 = $89.65"
+        "Before cleaning the stables, Felix had 59.65 dollars in available funds. Add 30.00 dollars to find the available funds afterward: $59.65 + 30.00 = 89.65$"
       ],
       [
         "3/3",
-        "Now, complete the Available Funds column by adding the income earned on June 21 to the available funds on June 17: $59.65 + $30.00 = $89.65"
+        "Now, complete the Available Funds column by adding the income earned on June 21 to the available funds on June 17: $59.65 + 30.00 = 89.65$"
       ]
     ],
     "solution_image_tag": [],
@@ -784,7 +787,7 @@
     "backend_description": "A financial record table with green header. Columns: Date, Description, Received, Expenses, Available Funds. Data shows: Balance end of May $101.00; 6/5 rain boots expense $34.55, available $66.45; 6/17 mac & cheese expense $6.80, available $59.65; 6/21 cleaning stables with blank fields for Received and Available Funds"
   },
   {
-    "question_text": "Find the unit rate.\n\n18 seats in 3 rows = \\__ seats per row",
+    "question_text": "Find the unit rate.\n\n18 seats in 3 rows = _ seats per row",
     "skills": "unit-rates",
     "question_type": "Fill in the blank",
     "tag": "Gr5_51_E5",

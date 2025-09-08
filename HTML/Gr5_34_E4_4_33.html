@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr5_34_E4 4_33</title>
+    <style>
+        .item {
+            display: inline-block;
+            margin: 20px;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+        }
+        .line-segment {
+            position: relative;
+            margin: 20px 0;
+        }
+        .green-line {
+            height: 4px;
+            background-color: #28a745;
+            position: relative;
+            margin-bottom: 30px;
+        }
+        .green-label {
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .black-line {
+            height: 4px;
+            background-color: #000;
+            position: relative;
+            display: flex;
+        }
+        .segment {
+            height: 100%;
+            position: relative;
+            border-right: 2px solid #fff;
+        }
+        .segment:last-child {
+            border-right: none;
+        }
+        .segment-label {
+            position: absolute;
+            bottom: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Image for question 4_33 -->
+    <div class="item" label="Gr5_34_4_33" style="width: 300px; height: 120px;">
+        <div class="line-segment">
+            <!-- Green line with length 16 -->
+            <div class="green-line" style="width: 240px;">
+                <span class="green-label">16</span>
+            </div>
+            <!-- Black line divided into segments: s and 6 -->
+            <div class="black-line" style="width: 240px;">
+                <div class="segment" style="width: 62.50%; background-color: #000;">
+                    <span class="segment-label">s</span>
+                </div>
+                <div class="segment" style="width: 37.50%; background-color: #000;">
+                    <span class="segment-label">6</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

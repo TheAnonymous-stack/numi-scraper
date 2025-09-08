@@ -1,0 +1,110 @@
+<div class="item" label="Gr5_49_3_35">
+    <svg width="350" height="300" viewBox="0 0 350 300">
+        <!-- Triangle -->
+        <polygon points="50,250 180,250 115.0,180" 
+                 fill="#4A90E2" 
+                 stroke="#2C3E50" 
+                 stroke-width="2"/>
+        
+        <!-- Height line (dotted) -->
+        <line x1="115.0" y1="250" 
+              x2="115.0" y2="180" 
+              stroke="#333" 
+              stroke-width="1.5" 
+              stroke-dasharray="5,3"/>
+        
+        <!-- Right angle symbol -->
+        <rect x="111.0" y="242" 
+              width="8" height="8" 
+              fill="none" 
+              stroke="#333" 
+              stroke-width="1.5"/>
+        
+        <!-- Base measurement -->
+        <text x="115.0" y="270" 
+              text-anchor="middle" 
+              font-size="14" 
+              fill="#2C3E50">13 cm</text>
+        
+        <!-- Height measurement -->
+        <text x="195" y="215" 
+              text-anchor="start" 
+              font-size="14" 
+              fill="#2C3E50">7 cm</text>
+    </svg>
+</div>
+
+<!-- Incorrect Choice: Does not form rectangle -->
+<div class="item" label="Gr5_49_3_35_A">
+    <svg width="350" height="350" viewBox="0 0 350 350">
+        <!-- Original triangle (left side) -->
+        
+        
+        <!-- Incorrect transformation (right side) -->
+        <g >
+            <!-- Rectangle outline -->
+            
+            <!-- Original triangle -->
+            <polygon points="50,250 180,250 115.0,180" 
+                     fill="#4A90E2" 
+                     stroke="#2C3E50" 
+                     stroke-width="2"/>
+            
+            <!-- Left piece - extends past right edge -->
+            <polygon points="115.0,180.0 195.0,180.0 195.0,250.0 180.0,250.0"
+                     fill="#B8E0FF" 
+                     opacity="0.8"
+                     stroke="#2C3E50" 
+                     stroke-width="1.5"/>
+            
+            <!-- Right piece - extends past left edge -->
+            <polygon points="35.0,180.0 115.0,180.0 50.0,250.0 35.0,250.0"
+                     fill="#B8E0FF" 
+                     opacity="0.8"
+                     stroke="#2C3E50" 
+                     stroke-width="1.5"/>
+</g>
+    </svg>
+</div>
+<!-- Correct Choice: Double-flip transformation forms rectangle -->
+<div class="item" label="Gr5_49_3_35_B">
+    <svg width="350" height="350" viewBox="0 0 350 350">
+        <!-- Original triangle (left side) -->
+        
+        
+        <!-- Rectangle formed by tessellation (right side) -->
+        <g >
+            
+            <!-- Original triangle (bottom) -->
+            <polygon points="50,250 180,250 115.0,180" 
+                     fill="#4A90E2" 
+                     stroke="#2C3E50" 
+                     stroke-width="2"/>
+            
+            <!-- Left piece after double flip (vertical then horizontal) -->
+            <!-- This piece was originally left half: (x1,y1)-(mid_x,y1)-(x3,y3) -->
+            <!-- After vertical flip: becomes upside down -->
+            <!-- After horizontal flip: mirror image -->
+            <!-- Result: fills top-right corner of rectangle -->
+            <polygon points="115.0,180 180,180 180,250" 
+                     fill="#B8E0FF" 
+                     opacity="0.8"
+                     stroke="#2C3E50" 
+                     stroke-width="1.5"/>
+            
+            <!-- Right piece after double flip -->
+            <!-- This piece was originally right half: (mid_x,y1)-(x2,y2)-(x3,y3) -->
+            <!-- After vertical flip: becomes upside down -->
+            <!-- After horizontal flip: mirror image -->
+            <!-- Result: fills top-left corner of rectangle -->
+            <polygon points="50,180 115.0,180 50,250" 
+                     fill="#B8E0FF" 
+                     opacity="0.8"
+                     stroke="#2C3E50" 
+                     stroke-width="1.5"/>
+            
+        
+        </g>
+        
+    </svg>
+</div>

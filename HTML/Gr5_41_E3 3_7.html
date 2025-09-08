@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr5_41_E3 3_7</title>
+    <style>
+        .item {
+            display: inline-block;
+            position: relative;
+        }
+        
+        /* Ensure divs are only as large as their content */
+        .item svg {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Question 3_7: Decision spinner with first (80%) and second (20%) sections -->
+    <div class="item" label="Gr5_41_3_7">
+        <svg width="200" height="200" viewBox="0 0 200 200">
+            <!-- Black outline circle -->
+            <circle cx="100" cy="100" r="90" fill="none" stroke="black" stroke-width="2"/>
+            
+            <!-- First section (approximately 80% = 288 degrees) -->
+            <path d="M 100 100 L 100 10 A 90 90 0 1 1 26 74 Z" fill="#E6E6FA" stroke="black" stroke-width="1"/>
+            
+            <!-- Second section (approximately 20% = 72 degrees) -->
+            <path d="M 100 100 L 26 74 A 90 90 0 0 1 100 10 Z" fill="#FFE4E1" stroke="black" stroke-width="1"/>
+            
+            <!-- Labels -->
+            <text x="70" y="90" font-family="Arial" font-size="14" fill="black">first</text>
+            <text x="90" y="40" font-family="Arial" font-size="14" fill="black">second</text>
+            
+            <!-- Center point -->
+            <circle cx="100" cy="100" r="4" fill="black"/>
+            
+            <!-- Arrow/pointer -->
+            <polygon points="100,100 95,85 105,85" fill="gray" transform="rotate(45 100 100)"/>
+        </svg>
+    </div>
+</body>
+</html>

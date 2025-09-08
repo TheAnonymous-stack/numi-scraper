@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .item {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+        }
+        .shape-container {
+            display: inline-flex;
+            gap: 5px;
+            align-items: center;
+            
+        }
+        .square {
+            width: 40px;
+            height: 40px;
+            display: inline-flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+        .square.full {
+            background-color: #4a90e2;
+        }
+        .part {
+            width: 50%;
+            height: 50%;
+            box-sizing: border-box;
+            border: 0.5px solid #333;
+        }
+        .part.shaded {
+            background-color: #4a90e2;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr5_4_4_37">
+        <div class="shape-container">
+            <div class="square full"></div>
+            <div class="square full"></div>
+            <div class="square full"></div>
+            <div class="square">
+                <div class="part shaded"></div>
+                <div class="part"></div>
+                <div class="part"></div>
+                <div class="part"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

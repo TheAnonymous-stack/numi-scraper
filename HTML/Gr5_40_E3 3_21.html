@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr5_40_E3 3_21</title>
+    <style>
+        .item {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+        }
+        .chart-container {
+            background: #f5f5f5;
+            padding: 15px;
+            display: inline-block;
+        }
+        .chart-title {
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        svg {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Question 3_21: Box office (millions) -->
+    <div class="item" label="Gr5_40_3_21">
+        <div class="chart-container">
+            <div class="chart-title">Box office (millions)</div>
+            <svg width="450" height="320" xmlns="http://www.w3.org/2000/svg">
+                <!-- Background -->
+                <rect x="50" y="30" width="380" height="250" fill="white" stroke="#ddd" stroke-width="1"/>
+                
+                <!-- Grid lines -->
+                <g stroke="#e0e0e0" stroke-width="0.5">
+                    <line x1="50" y1="30.0" x2="430" y2="30.0"/>
+                    <line x1="50" y1="80.0" x2="430" y2="80.0"/>
+                    <line x1="50" y1="130.0" x2="430" y2="130.0"/>
+                    <line x1="50" y1="180.0" x2="430" y2="180.0"/>
+                    <line x1="50" y1="230.0" x2="430" y2="230.0"/>
+                    <line x1="50" y1="280.0" x2="430" y2="280.0"/>
+                </g>
+                
+                <!-- Axes -->
+                <line x1="50" y1="30" x2="50" y2="280" stroke="#333" stroke-width="2"/>
+                <line x1="50" y1="280" x2="430" y2="280" stroke="#333" stroke-width="2"/>
+                
+                <!-- Y-axis labels -->
+                <text x="40" y="283.0" text-anchor="end" font-size="11">0</text>
+                <text x="40" y="233.0" text-anchor="end" font-size="11">99</text>
+                <text x="40" y="183.0" text-anchor="end" font-size="11">198</text>
+                <text x="40" y="133.0" text-anchor="end" font-size="11">298</text>
+                <text x="40" y="83.0" text-anchor="end" font-size="11">397</text>
+                <text x="40" y="33.0" text-anchor="end" font-size="11">497</text>
+
+                <!-- X-axis labels -->
+                <text x="145.0" y="300" text-anchor="middle" font-size="11">Doctor Strange</text>
+                <text x="240.0" y="300" text-anchor="middle" font-size="11">Captain America</text>
+                <text x="335.0" y="300" text-anchor="middle" font-size="11">Thor</text>
+
+                <!-- Bars -->
+                <rect x="108.33333333333333" y="226.68008048289738" width="31.666666666666668" height="53.31991951710261" fill="#FF8C00" opacity="0.8"/>
+                <rect x="150.0" y="153.23943661971833" width="31.666666666666668" height="126.76056338028168" fill="#4169E1" opacity="0.8"/>
+                <rect x="203.33333333333334" y="173.8631790744467" width="31.666666666666668" height="106.13682092555331" fill="#FF8C00" opacity="0.8"/>
+                <rect x="245.0" y="35.03018108651912" width="31.666666666666668" height="244.96981891348088" fill="#4169E1" opacity="0.8"/>
+                <rect x="298.3333333333333" y="111.48893360160966" width="31.666666666666668" height="168.51106639839034" fill="#FF8C00" opacity="0.8"/>
+                <rect x="340.0" y="194.98993963782698" width="31.666666666666668" height="85.01006036217304" fill="#4169E1" opacity="0.8"/>
+
+                <!-- Legend -->
+                <rect x="60" y="10" width="15" height="10" fill="#FF8C00" opacity="0.8"/>
+                <text x="80" y="19" font-size="11">2020</text>
+                <rect x="150" y="10" width="15" height="10" fill="#4169E1" opacity="0.8"/>
+                <text x="170" y="19" font-size="11">2024</text>
+            </svg>
+        </div>
+    </div>
+</body>
+</html>

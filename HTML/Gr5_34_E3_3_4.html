@@ -3,210 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grade 5 Math - Gr5_34_E3</title>
+    <title>Gr5_34_E3_4 - Algebra Tiles</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
             background-color: #f5f5f5;
         }
-        
-        .exercise-container {
+        .item {
             background: white;
-            padding: 30px;
+            padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
+            text-align: center;
         }
-        
-        .exercise-header {
-            background: #4a90e2;
+        .tiles-area {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px 0;
+            gap: 20px;
+        }
+        .side {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            padding: 10px;
+            border: 2px dashed #ccc;
+            min-height: 100px;
+            min-width: 150px;
+            align-items: center;
+            justify-content: center;
+        }
+        .equals {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .x-tile {
+            width: 60px;
+            height: 30px;
+            background-color: #4CAF50;
             color: white;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
-        
-        .question {
-            font-size: 18px;
-            margin-bottom: 20px;
-            color: #333;
-        }
-        
-        .image-placeholder {
-            width: 100%;
-            max-width: 600px;
-            height: 300px;
-            background: #e8f4fd;
-            border: 2px dashed #4a90e2;
-            border-radius: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 20px 0;
-            font-size: 14px;
-            color: #666;
-            text-align: center;
-        }
-        
-        .choices {
-            margin: 20px 0;
-        }
-        
-        .choice {
-            background: #f8f9fa;
-            padding: 10px 15px;
-            margin: 8px 0;
-            border-radius: 5px;
-            border: 2px solid #e9ecef;
-            cursor: pointer;
-            transition: all 0.3s;
-        }
-        
-        .choice:hover {
-            background: #e3f2fd;
-            border-color: #4a90e2;
-        }
-        
-        .choice.correct {
-            background: #d4edda;
-            border-color: #28a745;
-        }
-        
-        .solution {
-            background: #fff3cd;
-            border: 1px solid #ffc107;
-            padding: 15px;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
-        
-        .solution h3 {
-            color: #856404;
-            margin-top: 0;
-        }
-        
-        .metadata {
-            font-size: 12px;
-            color: #666;
-            border-top: 1px solid #eee;
-            padding-top: 15px;
-            margin-top: 20px;
-        }
-        
-        .table-container {
-            margin: 20px 0;
-            overflow-x: auto;
-        }
-        
-        .data-table {
-            width: 100%;
-            border-collapse: collapse;
-            background: white;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        
-        .data-table th, .data-table td {
-            padding: 12px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-        
-        .data-table th {
-            background: #4a90e2;
-            color: white;
+            border-radius: 3px;
             font-weight: bold;
         }
-        
-        .data-table tr:nth-child(even) {
-            background: #f8f9fa;
-        }
-        
-        .pictograph {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin: 20px 0;
-        }
-        
-        .pictograph-item {
-            display: flex;
-            align-items: center;
-            background: #f8f9fa;
-            padding: 10px;
-            border-radius: 5px;
-            border: 1px solid #e9ecef;
-        }
-        
-        .pictograph-symbols {
-            margin-left: 10px;
-        }
-        
-        .symbol {
-            display: inline-block;
+        .unit-tile {
             width: 20px;
             height: 20px;
-            background: #4a90e2;
-            margin: 2px;
+            background-color: #2196F3;
             border-radius: 3px;
+            margin: 1px;
+            color: white;
+            font-weight: bold;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .negative-tile {
+            width: 20px;
+            height: 20px;
+            background-color: #f44336;
+            border-radius: 3px;
+            margin: 1px;
+            color: white;
+            font-weight: bold;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .equation {
+            font-size: 18px;
+            font-weight: bold;
+            color: #666;
+            margin-top: 15px;
         }
     </style>
 </head>
 <body>
-    <div class="exercise-container">
-        <div class="exercise-header">
-            <h1>Grade 5 Math - Gr5_34_E3</h1>
-            <div>Question: 3_4 | Skills: model-and-solve-equations-using-algebra-tiles | Type: Multiple Choice Question with Single Answer</div>
-        </div>
-        
-        <div class="question">
-            Which equation does this set of algebra tiles represent?
-        </div>
-        
-        <div class="image-placeholder">Visual representation for Gr5_34_E3_1<br><br>Algebra tiles showing 1 x-tile (green rectangle) minus 4 unit tiles (red squares) on the left side, equals 8 unit tiles (yellow squares) on the right side. The x-tiles are positive (green) and represent the variable. The 4 unit tiles being subtracted are negative (red). The 8 unit tiles on the right are positive (yellow).</div>
-        
-        <div class="choices"><h3>Choices:</h3>
-        <div class="choice" data-choice="A">
-            <strong>A.</strong> 2x - 4 = 8
-        </div>
-        
-        <div class="choice" data-choice="B">
-            <strong>B.</strong> x - 4 = 9
-        </div>
-        
-        <div class="choice" data-choice="C">
-            <strong>C.</strong> x - 5 = 8
-        </div>
-        
-        <div class="choice correct" data-choice="D">
-            <strong>D.</strong> x - 4 = 8
-        </div>
-        </div>
-        
-        <div class="solution"><h3>Solution:</h3><p><strong>Step text:</strong> Let me analyze the algebra tiles shown.</p><p><strong>Step text:</strong> On the left side, I see:</p><p><strong>Step text:</strong> • 1 x-tile (green rectangle) representing x</p><p><strong>Step text:</strong> • 4 negative unit tiles (red squares) representing -4</p><p><strong>Step text:</strong> On the right side, I see:</p><p><strong>Step text:</strong> • 8 positive unit tiles (yellow squares) representing 8</p><p><strong>Step text:</strong> Therefore, the equation represented is: x - 4 = 8</p><p><strong>Step text:</strong> To verify, let's solve for x:</p><p><strong>Step text:</strong> x - 4 = 8</p><p><strong>Step text:</strong> x = 8 + 4</p><p><strong>Step text:</strong> x = 12</p></div>
-        
-        <div class="metadata">
-            <strong>Tag:</strong> Gr5_34_E3<br>
-            <strong>Image Tag:</strong> Gr5_34_E3_1<br>
-            <strong>Backend Description:</strong> Algebra tiles showing 1 x-tile (green rectangle) minus 4 unit tiles (red squares) on the left side, equals 8 unit tiles (yellow squares) on the right side. The x-tiles are positive (green) and represent the variable. The 4 unit tiles being subtracted are negative (red). The 8 unit tiles on the right are positive (yellow).
+    <div class="item" label="Gr5_34_3_4">
+        <div class="tiles-area">
+            <div class="side" id="left-side">
+                <!-- Left side tiles will be generated by JavaScript -->
+            </div>
+            <div class="equals">=</div>
+            <div class="side" id="right-side">
+                <!-- Right side tiles will be generated by JavaScript -->
+            </div>
         </div>
     </div>
     
     <script>
-        // Add interactivity for multiple choice questions
-        document.querySelectorAll('.choice').forEach(function(choice) {
-            choice.addEventListener('click', function() {
-                // Remove previous selections
-                document.querySelectorAll('.choice').forEach(c => c.classList.remove('selected'));
-                // Add selection to clicked choice
-                this.classList.add('selected');
-            });
-        });
+        // Generate tiles based on equation
+        function generateTiles() {
+            const leftSide = document.getElementById('left-side');
+            const rightSide = document.getElementById('right-side');
+            
+            // Generate 1 x-tile(s)
+            for(let i = 0; i < 1; i++) {
+                const xTile = document.createElement('div');
+                xTile.className = 'x-tile';
+                xTile.textContent = 'x';
+                leftSide.appendChild(xTile);
+            }
+            
+            // Generate 4 unit tiles (positive)
+            for(let i = 0; i < 4; i++) {
+                const unitTile = document.createElement('div');
+                unitTile.className = 'unit-tile';
+                unitTile.textContent = '1';
+                leftSide.appendChild(unitTile);
+            }
+            
+            // Generate 10 unit tiles on right
+            for(let i = 0; i < 10; i++) {
+                const unitTile = document.createElement('div');
+                unitTile.className = 'unit-tile';
+                unitTile.textContent = '1';
+                rightSide.appendChild(unitTile);
+            }
+        }
+        
+        generateTiles();
     </script>
 </body>
 </html>

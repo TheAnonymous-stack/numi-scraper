@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr5_43_E2 2_24</title>
+    <style>
+        .item {
+            display: inline-block;
+            margin: 10px;
+            padding: 0;
+            width: fit-content;
+            height: fit-content;
+        }
+        
+        .triangle-container {
+            position: relative;
+            width: 190px;
+            height: 190px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .triangle {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            position: relative;
+        }
+        
+        .triangle-equilateral {
+            border-left: 75px solid transparent;
+            border-right: 75px solid transparent;
+            border-bottom: 129px solid #FFA500;
+        }
+        
+        .side-label {
+            position: absolute;
+            font-size: 12px;
+            font-weight: bold;
+            background: white;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        
+        .label-left {
+            top: 50%;
+            left: -105px;
+            transform: translateY(-50%);
+        }
+        
+        .label-right {
+            top: 50%;
+            right: -105px;
+            transform: translateY(-50%);
+        }
+        
+        .label-bottom {
+            bottom: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+    <!-- Question image -->
+    <div class="item" label="Gr5_43_2_24">
+        <div class="triangle-container">
+            <div class="triangle triangle-equilateral">
+                <span class="side-label label-left">10</span>
+                <span class="side-label label-right">10</span>
+                <span class="side-label label-bottom">10</span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Solution image -->
+    <div class="item" label="Gr5_43_2_24_step_1">
+        <div class="triangle-container">
+            <div class="triangle triangle-equilateral">
+                <span class="side-label label-left">10</span>
+                <span class="side-label label-right">10</span>
+                <span class="side-label label-bottom">10</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

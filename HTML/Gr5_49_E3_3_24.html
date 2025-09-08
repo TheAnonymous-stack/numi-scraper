@@ -1,0 +1,87 @@
+<div class="item" label="Gr5_49_3_24">
+    <svg width="350" height="300" viewBox="0 0 350 300">
+        <!-- Triangle -->
+        <polygon points="50,250 170,250 132,180" 
+                 fill="#4A90E2" 
+                 stroke="#2C3E50" 
+                 stroke-width="2"/>
+        
+        <!-- Height line (dotted) -->
+        <line x1="132" y1="250" 
+              x2="132" y2="180" 
+              stroke="#333" 
+              stroke-width="1.5" 
+              stroke-dasharray="5,3"/>
+        
+        <!-- Right angle symbol -->
+        <rect x="128" y="242" 
+              width="8" height="8" 
+              fill="none" 
+              stroke="#333" 
+              stroke-width="1.5"/>
+        
+        <!-- Base measurement -->
+        <text x="110" y="270" 
+              text-anchor="middle" 
+              font-size="14" 
+              fill="#2C3E50">12 cm</text>
+        
+        <!-- Height measurement -->
+        <text x="52.0" y="215.0" 
+              text-anchor="start" 
+              font-size="14" 
+              fill="#2C3E50">7 cm</text>
+    </svg>
+</div>
+
+<!-- Incorrect Choice: Does not form rectangle -->
+<div class="item" label="Gr5_49_3_24_A">
+    <svg width="350" height="350" viewBox="0 0 350 350">
+        <!-- Incorrect transformation (right side) -->
+        <g>
+            <!-- Original triangle -->
+            <polygon points="50,250 170,250 132,180" 
+                     fill="#4A90E2" 
+                     stroke="#2C3E50" 
+                     stroke-width="2"/>
+            
+            <!-- Duplicate triangle (flush edge contact, no overlap) -->
+            <polygon points="50,250 170,250 132,320"
+                     fill="#B8E0FF"
+                     opacity="0.7"
+                     stroke="#2C3E50"
+                     stroke-width="2"/>
+            
+</g>
+    </svg>
+</div><!-- Correct Choice: Double-flip transformation forms rectangle -->
+<div class="item" label="Gr5_49_3_24_B">
+    <svg width="350" height="350" viewBox="0 0 350 350">
+        <!-- Rectangle formed by tessellation -->
+        <g>
+            
+            <!-- Original triangle (bottom) -->
+            <polygon points="50,250 170,250 132,180" 
+                     fill="#4A90E2" 
+                     stroke="#2C3E50" 
+                     stroke-width="2"/>
+            
+            <!-- Left piece after cut and flip -->
+            <polygon points="50,180 132,180 50,250" 
+                     fill="#B8E0FF" 
+                     opacity="0.8"
+                     stroke="#2C3E50" 
+                     stroke-width="1.5"/>
+            
+            <!-- Right piece after cut and flip -->
+            <polygon points="132,180 170,180 170,250" 
+                     fill="#B8E0FF" 
+                     opacity="0.8"
+                     stroke="#2C3E50" 
+                     stroke-width="1.5"/>
+            
+        
+        </g>
+        
+    </svg>
+</div>

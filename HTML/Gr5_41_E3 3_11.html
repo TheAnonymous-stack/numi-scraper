@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr5_41_E3 3_11</title>
+    <style>
+        .item {
+            display: inline-block;
+            position: relative;
+        }
+        
+        /* Ensure divs are only as large as their content */
+        .item svg {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Question 3_11: Spinner with maroon (88%) and silver (12%) sections -->
+    <div class="item" label="Gr5_41_3_11">
+        <svg width="200" height="200" viewBox="0 0 200 200">
+            <!-- Black outline circle -->
+            <circle cx="100" cy="100" r="90" fill="none" stroke="black" stroke-width="2"/>
+            
+            <!-- Maroon section (approximately 88% = 316.8 degrees) -->
+            <path d="M 100 100 L 100 10 A 90 90 0 1 1 121 187 Z" fill="maroon" stroke="black" stroke-width="1"/>
+            
+            <!-- Silver section (approximately 12% = 43.2 degrees) -->
+            <path d="M 100 100 L 121 187 A 90 90 0 0 1 100 10 Z" fill="silver" stroke="black" stroke-width="1"/>
+            
+            <!-- Center point -->
+            <circle cx="100" cy="100" r="4" fill="black"/>
+            
+            <!-- Gray arrow/pointer -->
+            <polygon points="100,100 95,85 105,85" fill="gray" transform="rotate(45 100 100)"/>
+        </svg>
+    </div>
+</body>
+</html>

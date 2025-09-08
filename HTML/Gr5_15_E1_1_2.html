@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .item {
+            display: inline-block;
+            width: fit-content;
+            height: fit-content;
+        }
+        .circles-grid {
+            display: inline-block;
+            padding: 2px;
+        }
+        .circle-row {
+            display: flex;
+            margin: 1px 0;
+        }
+        .circle {
+            width: 16px;
+            height: 16px;
+            background-color: green;
+            border-radius: 50%;
+            margin: 1px;
+        }
+        .number-line {
+            position: relative;
+            width: 610px;
+            height: 85px;
+            padding: 0;
+        }
+        .line {
+            position: absolute;
+            top: 50px;
+            height: 2px;
+            background-color: black;
+            width: 600px;
+            left: 5px;
+        }
+        .tick {
+            position: absolute;
+            top: 45px;
+            width: 2px;
+            height: 10px;
+            background-color: black;
+        }
+        .number {
+            position: absolute;
+            top: 60px;
+            font-size: 12px;
+            transform: translateX(-50%);
+        }
+        .arrow {
+            position: absolute;
+            top: 20px;
+            width: 60px;
+            height: 25px;
+            border: 2px solid blue;
+            border-bottom: none;
+            border-radius: 25px 25px 0 0;
+        }
+        .result-box {
+            position: absolute;
+            top: 55px;
+            transform: translateX(-50%);
+            padding: 2px 6px;
+            border: 2px solid blue;
+            background-color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Step 1: 6 rows of 6 circles -->
+    <div class="item" label="Gr5_15_1_2_step_1">
+        <div class="circles-grid">
+            <div class="circle-row">
+                <div class="circle"></div><div class="circle"></div><div class="circle"></div>
+                <div class="circle"></div><div class="circle"></div><div class="circle"></div>
+            </div>
+            <div class="circle-row">
+                <div class="circle"></div><div class="circle"></div><div class="circle"></div>
+                <div class="circle"></div><div class="circle"></div><div class="circle"></div>
+            </div>
+            <div class="circle-row">
+                <div class="circle"></div><div class="circle"></div><div class="circle"></div>
+                <div class="circle"></div><div class="circle"></div><div class="circle"></div>
+            </div>
+            <div class="circle-row">
+                <div class="circle"></div><div class="circle"></div><div class="circle"></div>
+                <div class="circle"></div><div class="circle"></div><div class="circle"></div>
+            </div>
+            <div class="circle-row">
+                <div class="circle"></div><div class="circle"></div><div class="circle"></div>
+                <div class="circle"></div><div class="circle"></div><div class="circle"></div>
+            </div>
+            <div class="circle-row">
+                <div class="circle"></div><div class="circle"></div><div class="circle"></div>
+                <div class="circle"></div><div class="circle"></div><div class="circle"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Step 2: Number line with 6 jumps of 6 -->
+    <div class="item" label="Gr5_15_1_2_step_2">
+        <div class="number-line">
+            <div class="line"></div>
+            <!-- Ticks and numbers -->
+            <div class="tick" style="left: 5px;"></div>
+            <div class="number" style="left: 5px;">0</div>
+            <div class="tick" style="left: 65px;"></div>
+            <div class="number" style="left: 65px;">6</div>
+            <div class="tick" style="left: 125px;"></div>
+            <div class="number" style="left: 125px;">12</div>
+            <div class="tick" style="left: 185px;"></div>
+            <div class="number" style="left: 185px;">18</div>
+            <div class="tick" style="left: 245px;"></div>
+            <div class="number" style="left: 245px;">24</div>
+            <div class="tick" style="left: 305px;"></div>
+            <div class="number" style="left: 305px;">30</div>
+            <div class="tick" style="left: 365px;"></div>
+            <div class="number" style="left: 365px;">36</div>
+            <div class="tick" style="left: 425px;"></div>
+            <div class="number" style="left: 425px;">42</div>
+            <div class="tick" style="left: 485px;"></div>
+            <div class="number" style="left: 485px;">48</div>
+            <div class="tick" style="left: 545px;"></div>
+            <div class="number" style="left: 545px;">54</div>
+            <div class="tick" style="left: 605px;"></div>
+            <div class="number" style="left: 605px;">60</div>
+            <!-- Arrows -->
+            <div class="arrow" style="left: 5px;"></div>
+            <div class="arrow" style="left: 65px;"></div>
+            <div class="arrow" style="left: 125px;"></div>
+            <div class="arrow" style="left: 185px;"></div>
+            <div class="arrow" style="left: 245px;"></div>
+            <div class="arrow" style="left: 305px;"></div>
+            <!-- Result box -->
+            <div class="result-box" style="left: 365px;">36</div>
+        </div>
+    </div>
+</body>
+</html>

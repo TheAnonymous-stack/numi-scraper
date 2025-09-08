@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr5_40_E3 3_40</title>
+    <style>
+        .item {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+        }
+        .chart-container {
+            background: #f5f5f5;
+            padding: 15px;
+            display: inline-block;
+        }
+        .chart-title {
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        svg {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Question 3_40: Books borrowed -->
+    <div class="item" label="Gr5_40_3_40">
+        <div class="chart-container">
+            <div class="chart-title">Books borrowed</div>
+            <svg width="450" height="320" xmlns="http://www.w3.org/2000/svg">
+                <!-- Background -->
+                <rect x="50" y="30" width="380" height="250" fill="white" stroke="#ddd" stroke-width="1"/>
+                
+                <!-- Grid lines -->
+                <g stroke="#e0e0e0" stroke-width="0.5">
+                    <line x1="50" y1="30.0" x2="430" y2="30.0"/>
+                    <line x1="50" y1="80.0" x2="430" y2="80.0"/>
+                    <line x1="50" y1="130.0" x2="430" y2="130.0"/>
+                    <line x1="50" y1="180.0" x2="430" y2="180.0"/>
+                    <line x1="50" y1="230.0" x2="430" y2="230.0"/>
+                    <line x1="50" y1="280.0" x2="430" y2="280.0"/>
+                </g>
+                
+                <!-- Axes -->
+                <line x1="50" y1="30" x2="50" y2="280" stroke="#333" stroke-width="2"/>
+                <line x1="50" y1="280" x2="430" y2="280" stroke="#333" stroke-width="2"/>
+                
+                <!-- Y-axis labels -->
+                <text x="40" y="283.0" text-anchor="end" font-size="11">0</text>
+                <text x="40" y="233.0" text-anchor="end" font-size="11">121</text>
+                <text x="40" y="183.0" text-anchor="end" font-size="11">242</text>
+                <text x="40" y="133.0" text-anchor="end" font-size="11">363</text>
+                <text x="40" y="83.0" text-anchor="end" font-size="11">484</text>
+                <text x="40" y="33.0" text-anchor="end" font-size="11">606</text>
+
+                <!-- X-axis labels -->
+                <text x="145.0" y="300" text-anchor="middle" font-size="11">Downtown Library</text>
+                <text x="240.0" y="300" text-anchor="middle" font-size="11">South Branch</text>
+                <text x="335.0" y="300" text-anchor="middle" font-size="11">North Branch</text>
+
+                <!-- Bars -->
+                <rect x="108.33333333333333" y="197.9042904290429" width="31.666666666666668" height="82.0957095709571" fill="#FF8C00" opacity="0.8"/>
+                <rect x="150.0" y="152.1122112211221" width="31.666666666666668" height="127.88778877887789" fill="#4169E1" opacity="0.8"/>
+                <rect x="203.33333333333334" y="75.37953795379539" width="31.666666666666668" height="204.6204620462046" fill="#FF8C00" opacity="0.8"/>
+                <rect x="245.0" y="34.12541254125412" width="31.666666666666668" height="245.87458745874588" fill="#4169E1" opacity="0.8"/>
+                <rect x="298.3333333333333" y="175.62706270627064" width="31.666666666666668" height="104.37293729372938" fill="#FF8C00" opacity="0.8"/>
+                <rect x="340.0" y="98.48184818481849" width="31.666666666666668" height="181.5181518151815" fill="#4169E1" opacity="0.8"/>
+
+                <!-- Legend -->
+                <rect x="60" y="10" width="15" height="10" fill="#FF8C00" opacity="0.8"/>
+                <text x="80" y="19" font-size="11">January</text>
+                <rect x="150" y="10" width="15" height="10" fill="#4169E1" opacity="0.8"/>
+                <text x="170" y="19" font-size="11">June</text>
+            </svg>
+        </div>
+    </div>
+</body>
+</html>
