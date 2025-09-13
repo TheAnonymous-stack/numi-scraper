@@ -1,33 +1,61 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Gr6_51_E4 Question 4_36</title>
-<style>
-        .item {
-            display: inline-block;
-            margin: 10px;
-            vertical-align: top;
-        }
+    <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
         }
-        svg {
-            border: 1px solid #ddd;
+        .question {
+            font-size: 18px;
+            margin-bottom: 20px;
+            font-weight: bold;
         }
-        table {
-            border-collapse: collapse;
+        .polygon-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .given-angles {
+            font-size: 14px;
+            margin-top: 15px;
+            color: #333;
         }
     </style>
 </head>
 <body>
-<div class="item" label="Gr6_51_4_2" style="display:inline-block">
-<svg height="80" viewBox="0 0 120 80" width="120">
-<rect fill="#ffcccc" height="60" stroke="black" stroke-width="2" width="100" x="10" y="10"></rect>
-</svg>
-</div>
+    <div class="question">In this polygon, the angles are 41° and one angle marked as x. Find x.
+x = °</div>
+    
+    <div class="polygon-container">
+        <svg width="400" height="300" viewBox="0 0 400 300">
+            <!-- Polygon with 4 sides -->
+            <polygon points="200,50 300,150 200,250 100,150" fill="lightyellow" fill-opacity="0.3" stroke="black" stroke-width="2"/>
+            
+            <!-- Angle labels and vertices -->
+            
+                <circle cx="200" cy="50" r="3" fill="black"/>
+                <text x="200" y="80" font-size="14" text-anchor="middle" fill="black">
+                    41°
+                </text>
+                <circle cx="300" cy="150" r="3" fill="black"/>
+                <text x="270" y="150" font-size="14" text-anchor="middle" fill="black">
+                    90°
+                </text>
+                <circle cx="200" cy="250" r="3" fill="red"/>
+                <text x="200" y="220" font-size="16" text-anchor="middle" fill="red" font-weight="bold">
+                    x
+                </text>
+                <circle cx="100" cy="150" r="3" fill="red"/>
+                <text x="130" y="150" font-size="16" text-anchor="middle" fill="red" font-weight="bold">
+                    x
+                </text>
+        </svg>
+    </div>
+    
+    <div class="given-angles">
+        Given angles: 41°, 90°
+    </div>
 </body>
 </html>

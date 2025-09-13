@@ -1,0 +1,256 @@
+import json
+
+# Ice cream table template
+ice_cream_template = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Flavours - Frequency Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #0099ff;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        table {
+            border-collapse: collapse;
+            margin: 0 auto;
+            font-size: 18px;
+        }
+        th, td {
+            border: 2px solid #0099ff;
+            padding: 12px 20px;
+            text-align: center;
+        }
+        th {
+            background-color: #e6f3ff;
+            color: #0099ff;
+            font-weight: bold;
+        }
+        td {
+            background-color: white;
+        }
+        .item {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr6_42_E2_variations_image_tag">
+        <div class="container">
+            <h2>Ice cream flavours</h2>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Strawberry</th>
+                    <th>Mint</th>
+                    <th>Toffee</th>
+                    <th>Chocolate</th>
+                    <th>Vanilla</th>
+                </tr>
+                <tr>
+                    <th>Frequency</th>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>4</td>
+                    <td>8</td>
+                    <td>8</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>'''
+
+# Animal exhibit bar chart template
+animal_template = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite Animal Exhibits - Bar Chart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            width: 600px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+        .chart-container {
+            position: relative;
+            height: 400px;
+            margin: 20px 0;
+        }
+        .chart {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+            height: 350px;
+            border-left: 2px solid #333;
+            border-bottom: 2px solid #333;
+            padding: 10px;
+            position: relative;
+        }
+        .bar-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 80px;
+        }
+        .bar {
+            width: 60px;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        .bar:hover {
+            opacity: 0.8;
+        }
+        .bar-label {
+            margin-top: 10px;
+            font-size: 12px;
+            text-align: center;
+            transform: rotate(-45deg);
+            width: 100px;
+            position: relative;
+            left: -20px;
+        }
+        .y-axis {
+            position: absolute;
+            left: -40px;
+            top: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+        }
+        .y-label {
+            font-size: 12px;
+            text-align: right;
+        }
+        .axis-label {
+            font-weight: bold;
+            text-align: center;
+            margin: 10px 0;
+        }
+        .x-axis-label {
+            margin-top: 40px;
+        }
+        .y-axis-label {
+            position: absolute;
+            left: -80px;
+            top: 50%;
+            transform: rotate(-90deg);
+            transform-origin: center;
+        }
+        .item {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr6_42_E2_variations_image_tag">
+        <div class="container">
+            <h2>Favourite animal exhibits</h2>
+            <div class="chart-container">
+                <div class="y-axis-label axis-label">Relative frequency (%)</div>
+                <div class="y-axis">
+                    <div class="y-label">50%</div>
+                    <div class="y-label">45%</div>
+                    <div class="y-label">40%</div>
+                    <div class="y-label">35%</div>
+                    <div class="y-label">30%</div>
+                    <div class="y-label">25%</div>
+                    <div class="y-label">20%</div>
+                    <div class="y-label">15%</div>
+                    <div class="y-label">10%</div>
+                    <div class="y-label">5%</div>
+                    <div class="y-label">0%</div>
+                </div>
+                <div class="chart">
+                    <div class="bar-wrapper">
+                        <div class="bar" style="height: 30%; background-color: #90EE90;"></div>
+                        <div class="bar-label">Penguins</div>
+                    </div>
+                    <div class="bar-wrapper">
+                        <div class="bar" style="height: 20%; background-color: #FF6B6B;"></div>
+                        <div class="bar-label">Sea otters</div>
+                    </div>
+                    <div class="bar-wrapper">
+                        <div class="bar" style="height: 25%; background-color: #4CAF50;"></div>
+                        <div class="bar-label">Jellyfish</div>
+                    </div>
+                    <div class="bar-wrapper">
+                        <div class="bar" style="height: 15%; background-color: #9C27B0;"></div>
+                        <div class="bar-label">Seahorse</div>
+                    </div>
+                    <div class="bar-wrapper">
+                        <div class="bar" style="height: 10%; background-color: #FF9800;"></div>
+                        <div class="bar-label">Stingrays</div>
+                    </div>
+                </div>
+            </div>
+            <div class="x-axis-label axis-label">Animal</div>
+        </div>
+    </div>
+</body>
+</html>'''
+
+# Load JSON data
+with open('C:/Users/kapil/numi-scraper/Gr6_42_E2_variations.json', 'r') as f:
+    data = json.load(f)
+
+# Questions with images and their types
+questions_with_images = {
+    '2_3': 'ice_cream',
+    '2_5': 'animal',
+    '2_7': 'ice_cream',
+    '2_10': 'ice_cream',
+    '2_11': 'animal',
+    '2_12': 'ice_cream',
+    '2_13': 'animal',
+    '2_14': 'animal',
+    '2_15': 'ice_cream',
+    '2_16': 'animal',
+    '2_17': 'ice_cream',
+    '2_18': 'animal',
+    '2_19': 'ice_cream',
+    '2_23': 'animal',
+    '2_25': 'ice_cream',
+    '2_27': 'animal',
+    '2_28': 'ice_cream',
+    '2_29': 'animal',
+    '2_30': 'animal',
+    '2_31': 

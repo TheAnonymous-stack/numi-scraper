@@ -1,38 +1,59 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Gr6_51_E2 Question 2_34</title>
-<style>
-        .item {
-            display: inline-block;
-            margin: 10px;
-            vertical-align: top;
-        }
+    <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
         }
-        svg {
-            border: 1px solid #ddd;
+        .question {
+            font-size: 18px;
+            margin-bottom: 20px;
+            font-weight: bold;
         }
-        table {
-            border-collapse: collapse;
+        .polygon-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .info {
+            font-size: 14px;
+            color: #666;
+            margin-top: 15px;
         }
     </style>
 </head>
 <body>
-<div class="item" label="Gr6_51_2_2" style="display:inline-block">
-<svg height="100" viewBox="0 0 100 100" width="100">
-<polygon fill="#e6f3ff" points="50,10 10,90 90,90" stroke="black" stroke-width="2"></polygon>
-</svg>
-</div>
-<div class="item" label="Gr6_51_2_2" style="display:inline-block">
-<svg height="80" viewBox="0 0 120 80" width="120">
-<rect fill="#e6f3ff" height="60" stroke="black" stroke-width="2" width="100" x="10" y="10"></rect>
-</svg>
-</div>
+    <div class="question">What is the sum of the exterior angle measures of this pentagon?</div>
+    
+    <div class="polygon-container">
+        <svg width="400" height="300" viewBox="0 0 400 300">
+            <!-- Pentagon -->
+            <polygon points="200,70 276,125 247,215 153,215 124,125" fill="lightblue" fill-opacity="0.3" stroke="black" stroke-width="2"/>
+            
+            <!-- Exterior angle indicators -->
+            
+            <path d="M 190 70 A 15 15 0 0 1 200 60" 
+                  fill="none" stroke="red" stroke-width="1.5" opacity="0.7"/>
+            <path d="M 266 125 A 15 15 0 0 1 276 115" 
+                  fill="none" stroke="red" stroke-width="1.5" opacity="0.7"/>
+            <path d="M 237 215 A 15 15 0 0 1 247 205" 
+                  fill="none" stroke="red" stroke-width="1.5" opacity="0.7"/>
+            <path d="M 143 215 A 15 15 0 0 1 153 205" 
+                  fill="none" stroke="red" stroke-width="1.5" opacity="0.7"/>
+            <path d="M 114 125 A 15 15 0 0 1 124 115" 
+                  fill="none" stroke="red" stroke-width="1.5" opacity="0.7"/>
+            
+            <!-- Label -->
+            <text x="200" y="250" font-size="16" text-anchor="middle" font-weight="bold">
+                Sum of exterior angles = 360°
+            </text>
+        </svg>
+    </div>
+    
+    <div class="info">
+        For any convex polygon, the sum of exterior angles is always 360°
+    </div>
 </body>
 </html>

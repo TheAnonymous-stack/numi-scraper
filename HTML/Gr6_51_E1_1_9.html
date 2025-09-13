@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .question {
+            font-size: 18px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .polygon-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .given-angles {
+            font-size: 14px;
+            margin-top: 15px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="question">In this nonagon, the angles are 124, 139, 100, 131, 160, 137, 155° and one angle marked as x. Find x.
+x = °</div>
+    
+    <div class="polygon-container">
+        <svg width="400" height="300" viewBox="0 0 400 300">
+            <!-- Nonagon with 9 sides -->
+            <polygon points="200,50 264,73 298,133 287,200 234,244 166,244 113,200 102,133 136,73" fill="lightyellow" fill-opacity="0.3" stroke="black" stroke-width="2"/>
+            
+            <!-- Angle labels and vertices -->
+            
+                <circle cx="200" cy="50" r="3" fill="black"/>
+                <text x="200" y="80" font-size="14" text-anchor="middle" fill="black">
+                    124°
+                </text>
+                <circle cx="264" cy="73" r="3" fill="black"/>
+                <text x="245" y="96" font-size="14" text-anchor="middle" fill="black">
+                    139°
+                </text>
+                <circle cx="298" cy="133" r="3" fill="black"/>
+                <text x="269" y="138" font-size="14" text-anchor="middle" fill="black">
+                    100°
+                </text>
+                <circle cx="287" cy="200" r="3" fill="black"/>
+                <text x="261" y="185" font-size="14" text-anchor="middle" fill="black">
+                    131°
+                </text>
+                <circle cx="234" cy="244" r="3" fill="black"/>
+                <text x="224" y="216" font-size="14" text-anchor="middle" fill="black">
+                    160°
+                </text>
+                <circle cx="166" cy="244" r="3" fill="black"/>
+                <text x="176" y="216" font-size="14" text-anchor="middle" fill="black">
+                    137°
+                </text>
+                <circle cx="113" cy="200" r="3" fill="black"/>
+                <text x="139" y="185" font-size="14" text-anchor="middle" fill="black">
+                    155°
+                </text>
+                <circle cx="102" cy="133" r="3" fill="black"/>
+                <text x="131" y="138" font-size="14" text-anchor="middle" fill="black">
+                    146°
+                </text>
+                <circle cx="136" cy="73" r="3" fill="red"/>
+                <text x="155" y="96" font-size="16" text-anchor="middle" fill="red" font-weight="bold">
+                    x
+                </text>
+        </svg>
+    </div>
+    
+    <div class="given-angles">
+        Given angles: 124°, 139°, 100°, 131°, 160°, 137°, 155°, 146°
+    </div>
+</body>
+</html>

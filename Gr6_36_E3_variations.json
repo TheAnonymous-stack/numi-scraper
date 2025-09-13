@@ -1,9 +1,8 @@
 {
-  "quizzes":
-[
+  "quizzes": [
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.8996 \\div = _ = 0.08996$ $0.8996 \\div = _ = 0.008996$ $0.8996 \\div = _ = 0.0008996$ $0.8996 \\div = _ = 0.00008996$=_",
+      "question_text": "Complete the pattern: $0.8996 \\div$ _ $= 0.08996$, $0.8996 \\div$ _ $= 0.008996$, $0.8996 \\div$ _ $= 0.0008996$, $0.8996 \\div$ _ $= 0.00008996$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_1",
       "question_type": "Multiple fill in the blank",
@@ -16,15 +15,15 @@
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.8996 \\div _ = 0.08996$. Compare the original number $0.8996$ with the answer $0.08996$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.8996 \\div _ = 0.08996$. To find the divisor, divide $0.8996$ by $0.08996$, which gives us 10."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.8996$ to $0.008996$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 10, 100, 1000, 10000. Each divisor is obtained by multiply by 10 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0008996$, so we divide by 1000. The decimal moves 4 places to get $0.00008996$, so we divide by 10000."
+          "We can verify: $0.8996 \\div 10 = 0.08996$, $0.8996 \\div 100 = 0.008996$, $0.8996 \\div 1000 = 0.0008996$, $0.8996 \\div 10000 = 0.00008996$."
         ],
         [
           "4/4",
@@ -36,32 +35,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.2459 \\div = _ = 0.02459$ $0.2459 \\div = _ = 0.002459$ $0.2459 \\div = _ = 0.0002459$ $0.2459 \\div = _ = 0.00002459$=_",
+      "question_text": "Complete the pattern: $0.2459 \\div$ _ $= 0.123$, $0.2459 \\div$ _ $= 0.06148$, $0.2459 \\div$ _ $= 0.03074$, $0.2459 \\div$ _ $= 0.01537$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_2",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "2",
+        "4",
+        "8",
+        "16"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.2459 \\div _ = 0.02459$. Compare the original number $0.2459$ with the answer $0.02459$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.2459 \\div _ = 0.123$. To find the divisor, divide $0.2459$ by $0.123$, which gives us 2."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.2459$ to $0.002459$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 2, 4, 8, 16. Each divisor is obtained by double each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0002459$, so we divide by 1000. The decimal moves 4 places to get $0.00002459$, so we divide by 10000."
+          "We can verify: $0.2459 \\div 2 = 0.123$, $0.2459 \\div 4 = 0.06148$, $0.2459 \\div 8 = 0.03074$, $0.2459 \\div 16 = 0.01537$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 2, 4, 8, and 16."
         ]
       ],
       "has_alternate_answers": true,
@@ -69,32 +68,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.8519 \\div = _ = 0.08519$ $0.8519 \\div = _ = 0.008519$ $0.8519 \\div = _ = 0.0008519$ $0.8519 \\div = _ = 0.00008519$=_",
+      "question_text": "Complete the pattern: $0.8519 \\div$ _ $= 0.1704$, $0.8519 \\div$ _ $= 0.03408$, $0.8519 \\div$ _ $= 0.006815$, $0.8519 \\div$ _ $= 0.001363$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_3",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "5",
+        "25",
+        "125",
+        "625"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.8519 \\div _ = 0.08519$. Compare the original number $0.8519$ with the answer $0.08519$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.8519 \\div _ = 0.1704$. To find the divisor, divide $0.8519$ by $0.1704$, which gives us 5."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.8519$ to $0.008519$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 5, 25, 125, 625. Each divisor is obtained by multiply by 5 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0008519$, so we divide by 1000. The decimal moves 4 places to get $0.00008519$, so we divide by 10000."
+          "We can verify: $0.8519 \\div 5 = 0.1704$, $0.8519 \\div 25 = 0.03408$, $0.8519 \\div 125 = 0.006815$, $0.8519 \\div 625 = 0.001363$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 5, 25, 125, and 625."
         ]
       ],
       "has_alternate_answers": true,
@@ -102,7 +101,7 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.4631 \\div = _ = 0.04631$ $0.4631 \\div = _ = 0.004631$ $0.4631 \\div = _ = 0.0004631$ $0.4631 \\div = _ = 0.00004631$=_",
+      "question_text": "Complete the pattern: $0.4631 \\div$ _ $= 0.04631$, $0.4631 \\div$ _ $= 0.004631$, $0.4631 \\div$ _ $= 0.0004631$, $0.4631 \\div$ _ $= 0.00004631$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_4",
       "question_type": "Multiple fill in the blank",
@@ -115,15 +114,15 @@
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.4631 \\div _ = 0.04631$. Compare the original number $0.4631$ with the answer $0.04631$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.4631 \\div _ = 0.04631$. To find the divisor, divide $0.4631$ by $0.04631$, which gives us 10."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.4631$ to $0.004631$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 10, 100, 1000, 10000. Each divisor is obtained by multiply by 10 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0004631$, so we divide by 1000. The decimal moves 4 places to get $0.00004631$, so we divide by 10000."
+          "We can verify: $0.4631 \\div 10 = 0.04631$, $0.4631 \\div 100 = 0.004631$, $0.4631 \\div 1000 = 0.0004631$, $0.4631 \\div 10000 = 0.00004631$."
         ],
         [
           "4/4",
@@ -135,32 +134,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.8173 \\div = _ = 0.08173$ $0.8173 \\div = _ = 0.008173$ $0.8173 \\div = _ = 0.0008173$ $0.8173 \\div = _ = 0.00008173$=_",
+      "question_text": "Complete the pattern: $0.8173 \\div$ _ $= 0.2724$, $0.8173 \\div$ _ $= 0.09081$, $0.8173 \\div$ _ $= 0.03027$, $0.8173 \\div$ _ $= 0.01009$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_5",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "3",
+        "9",
+        "27",
+        "81"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.8173 \\div _ = 0.08173$. Compare the original number $0.8173$ with the answer $0.08173$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.8173 \\div _ = 0.2724$. To find the divisor, divide $0.8173$ by $0.2724$, which gives us 3."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.8173$ to $0.008173$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 3, 9, 27, 81. Each divisor is obtained by multiply by 3 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0008173$, so we divide by 1000. The decimal moves 4 places to get $0.00008173$, so we divide by 10000."
+          "We can verify: $0.8173 \\div 3 = 0.2724$, $0.8173 \\div 9 = 0.09081$, $0.8173 \\div 27 = 0.03027$, $0.8173 \\div 81 = 0.01009$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 3, 9, 27, and 81."
         ]
       ],
       "has_alternate_answers": true,
@@ -168,32 +167,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.1275 \\div = _ = 0.01275$ $0.1275 \\div = _ = 0.001275$ $0.1275 \\div = _ = 0.0001275$ $0.1275 \\div = _ = 0.00001275$=_",
+      "question_text": "Complete the pattern: $0.1275 \\div$ _ $= 0.06375$, $0.1275 \\div$ _ $= 0.01594$, $0.1275 \\div$ _ $= 0.003984$, $0.1275 \\div$ _ $= 0.0009961$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_6",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "2",
+        "8",
+        "32",
+        "128"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.1275 \\div _ = 0.01275$. Compare the original number $0.1275$ with the answer $0.01275$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.1275 \\div _ = 0.06375$. To find the divisor, divide $0.1275$ by $0.06375$, which gives us 2."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.1275$ to $0.001275$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 2, 8, 32, 128. Each divisor is obtained by multiply by 4 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0001275$, so we divide by 1000. The decimal moves 4 places to get $0.00001275$, so we divide by 10000."
+          "We can verify: $0.1275 \\div 2 = 0.06375$, $0.1275 \\div 8 = 0.01594$, $0.1275 \\div 32 = 0.003984$, $0.1275 \\div 128 = 0.0009961$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 2, 8, 32, and 128."
         ]
       ],
       "has_alternate_answers": true,
@@ -201,7 +200,7 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.3235 \\div = _ = 0.03235$ $0.3235 \\div = _ = 0.003235$ $0.3235 \\div = _ = 0.0003235$ $0.3235 \\div = _ = 0.00003235$=_",
+      "question_text": "Complete the pattern: $0.3235 \\div$ _ $= 0.03235$, $0.3235 \\div$ _ $= 0.003235$, $0.3235 \\div$ _ $= 0.0003235$, $0.3235 \\div$ _ $= 0.00003235$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_7",
       "question_type": "Multiple fill in the blank",
@@ -214,15 +213,15 @@
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.3235 \\div _ = 0.03235$. Compare the original number $0.3235$ with the answer $0.03235$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.3235 \\div _ = 0.03235$. To find the divisor, divide $0.3235$ by $0.03235$, which gives us 10."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.3235$ to $0.003235$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 10, 100, 1000, 10000. Each divisor is obtained by multiply by 10 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0003235$, so we divide by 1000. The decimal moves 4 places to get $0.00003235$, so we divide by 10000."
+          "We can verify: $0.3235 \\div 10 = 0.03235$, $0.3235 \\div 100 = 0.003235$, $0.3235 \\div 1000 = 0.0003235$, $0.3235 \\div 10000 = 0.00003235$."
         ],
         [
           "4/4",
@@ -234,32 +233,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.7657 \\div = _ = 0.07657$ $0.7657 \\div = _ = 0.007657$ $0.7657 \\div = _ = 0.0007657$ $0.7657 \\div = _ = 0.00007657$=_",
+      "question_text": "Complete the pattern: $0.7657 \\div$ _ $= 0.1914$, $0.7657 \\div$ _ $= 0.04786$, $0.7657 \\div$ _ $= 0.01196$, $0.7657 \\div$ _ $= 0.002991$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_8",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "4",
+        "16",
+        "64",
+        "256"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.7657 \\div _ = 0.07657$. Compare the original number $0.7657$ with the answer $0.07657$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.7657 \\div _ = 0.1914$. To find the divisor, divide $0.7657$ by $0.1914$, which gives us 4."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.7657$ to $0.007657$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 4, 16, 64, 256. Each divisor is obtained by multiply by 4 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0007657$, so we divide by 1000. The decimal moves 4 places to get $0.00007657$, so we divide by 10000."
+          "We can verify: $0.7657 \\div 4 = 0.1914$, $0.7657 \\div 16 = 0.04786$, $0.7657 \\div 64 = 0.01196$, $0.7657 \\div 256 = 0.002991$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 4, 16, 64, and 256."
         ]
       ],
       "has_alternate_answers": true,
@@ -267,32 +266,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.4553 \\div = _ = 0.04553$ $0.4553 \\div = _ = 0.004553$ $0.4553 \\div = _ = 0.0004553$ $0.4553 \\div = _ = 0.00004553$=_",
+      "question_text": "Complete the pattern: $0.4553 \\div$ _ $= 0.09106$, $0.4553 \\div$ _ $= 0.04553$, $0.4553 \\div$ _ $= 0.02277$, $0.4553 \\div$ _ $= 0.01138$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_9",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
+        "5",
         "10",
-        "100",
-        "1000",
-        "10000"
+        "20",
+        "40"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.4553 \\div _ = 0.04553$. Compare the original number $0.4553$ with the answer $0.04553$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.4553 \\div _ = 0.09106$. To find the divisor, divide $0.4553$ by $0.09106$, which gives us 5."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.4553$ to $0.004553$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 5, 10, 20, 40. Each divisor is obtained by double each time starting from 5."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0004553$, so we divide by 1000. The decimal moves 4 places to get $0.00004553$, so we divide by 10000."
+          "We can verify: $0.4553 \\div 5 = 0.09106$, $0.4553 \\div 10 = 0.04553$, $0.4553 \\div 20 = 0.02277$, $0.4553 \\div 40 = 0.01138$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 5, 10, 20, and 40."
         ]
       ],
       "has_alternate_answers": true,
@@ -300,7 +299,7 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.1649 \\div = _ = 0.01649$ $0.1649 \\div = _ = 0.001649$ $0.1649 \\div = _ = 0.0001649$ $0.1649 \\div = _ = 0.00001649$=_",
+      "question_text": "Complete the pattern: $0.1649 \\div$ _ $= 0.01649$, $0.1649 \\div$ _ $= 0.001649$, $0.1649 \\div$ _ $= 0.0001649$, $0.1649 \\div$ _ $= 0.00001649$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_10",
       "question_type": "Multiple fill in the blank",
@@ -313,15 +312,15 @@
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.1649 \\div _ = 0.01649$. Compare the original number $0.1649$ with the answer $0.01649$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.1649 \\div _ = 0.01649$. To find the divisor, divide $0.1649$ by $0.01649$, which gives us 10."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.1649$ to $0.001649$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 10, 100, 1000, 10000. Each divisor is obtained by multiply by 10 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0001649$, so we divide by 1000. The decimal moves 4 places to get $0.00001649$, so we divide by 10000."
+          "We can verify: $0.1649 \\div 10 = 0.01649$, $0.1649 \\div 100 = 0.001649$, $0.1649 \\div 1000 = 0.0001649$, $0.1649 \\div 10000 = 0.00001649$."
         ],
         [
           "4/4",
@@ -333,7 +332,7 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.2994 \\div = _ = 0.02994$ $0.2994 \\div = _ = 0.002994$ $0.2994 \\div = _ = 0.0002994$ $0.2994 \\div = _ = 0.00002994$=_",
+      "question_text": "Complete the pattern: $0.2994 \\div$ _ $= 0.02994$, $0.2994 \\div$ _ $= 0.002994$, $0.2994 \\div$ _ $= 0.0002994$, $0.2994 \\div$ _ $= 0.00002994$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_11",
       "question_type": "Multiple fill in the blank",
@@ -346,15 +345,15 @@
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.2994 \\div _ = 0.02994$. Compare the original number $0.2994$ with the answer $0.02994$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.2994 \\div _ = 0.02994$. To find the divisor, divide $0.2994$ by $0.02994$, which gives us 10."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.2994$ to $0.002994$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 10, 100, 1000, 10000. Each divisor is obtained by multiply by 10 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0002994$, so we divide by 1000. The decimal moves 4 places to get $0.00002994$, so we divide by 10000."
+          "We can verify: $0.2994 \\div 10 = 0.02994$, $0.2994 \\div 100 = 0.002994$, $0.2994 \\div 1000 = 0.0002994$, $0.2994 \\div 10000 = 0.00002994$."
         ],
         [
           "4/4",
@@ -366,32 +365,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.5411 \\div = _ = 0.05411$ $0.5411 \\div = _ = 0.005411$ $0.5411 \\div = _ = 0.0005411$ $0.5411 \\div = _ = 0.00005411$=_",
+      "question_text": "Complete the pattern: $0.5411 \\div$ _ $= 0.2706$, $0.5411 \\div$ _ $= 0.1353$, $0.5411 \\div$ _ $= 0.06764$, $0.5411 \\div$ _ $= 0.03382$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_12",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "2",
+        "4",
+        "8",
+        "16"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.5411 \\div _ = 0.05411$. Compare the original number $0.5411$ with the answer $0.05411$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.5411 \\div _ = 0.2706$. To find the divisor, divide $0.5411$ by $0.2706$, which gives us 2."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.5411$ to $0.005411$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 2, 4, 8, 16. Each divisor is obtained by double each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0005411$, so we divide by 1000. The decimal moves 4 places to get $0.00005411$, so we divide by 10000."
+          "We can verify: $0.5411 \\div 2 = 0.2706$, $0.5411 \\div 4 = 0.1353$, $0.5411 \\div 8 = 0.06764$, $0.5411 \\div 16 = 0.03382$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 2, 4, 8, and 16."
         ]
       ],
       "has_alternate_answers": true,
@@ -399,32 +398,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.7724 \\div = _ = 0.07724$ $0.7724 \\div = _ = 0.007724$ $0.7724 \\div = _ = 0.0007724$ $0.7724 \\div = _ = 0.00007724$=_",
+      "question_text": "Complete the pattern: $0.7724 \\div$ _ $= 0.1545$, $0.7724 \\div$ _ $= 0.0309$, $0.7724 \\div$ _ $= 0.006179$, $0.7724 \\div$ _ $= 0.001236$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_13",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "5",
+        "25",
+        "125",
+        "625"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.7724 \\div _ = 0.07724$. Compare the original number $0.7724$ with the answer $0.07724$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.7724 \\div _ = 0.1545$. To find the divisor, divide $0.7724$ by $0.1545$, which gives us 5."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.7724$ to $0.007724$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 5, 25, 125, 625. Each divisor is obtained by multiply by 5 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0007724$, so we divide by 1000. The decimal moves 4 places to get $0.00007724$, so we divide by 10000."
+          "We can verify: $0.7724 \\div 5 = 0.1545$, $0.7724 \\div 25 = 0.0309$, $0.7724 \\div 125 = 0.006179$, $0.7724 \\div 625 = 0.001236$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 5, 25, 125, and 625."
         ]
       ],
       "has_alternate_answers": true,
@@ -432,7 +431,7 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.7137 \\div = _ = 0.07137$ $0.7137 \\div = _ = 0.007137$ $0.7137 \\div = _ = 0.0007137$ $0.7137 \\div = _ = 0.00007137$=_",
+      "question_text": "Complete the pattern: $0.7137 \\div$ _ $= 0.07137$, $0.7137 \\div$ _ $= 0.007137$, $0.7137 \\div$ _ $= 0.0007137$, $0.7137 \\div$ _ $= 0.00007137$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_14",
       "question_type": "Multiple fill in the blank",
@@ -445,15 +444,15 @@
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.7137 \\div _ = 0.07137$. Compare the original number $0.7137$ with the answer $0.07137$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.7137 \\div _ = 0.07137$. To find the divisor, divide $0.7137$ by $0.07137$, which gives us 10."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.7137$ to $0.007137$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 10, 100, 1000, 10000. Each divisor is obtained by multiply by 10 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0007137$, so we divide by 1000. The decimal moves 4 places to get $0.00007137$, so we divide by 10000."
+          "We can verify: $0.7137 \\div 10 = 0.07137$, $0.7137 \\div 100 = 0.007137$, $0.7137 \\div 1000 = 0.0007137$, $0.7137 \\div 10000 = 0.00007137$."
         ],
         [
           "4/4",
@@ -465,32 +464,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.2954 \\div = _ = 0.02954$ $0.2954 \\div = _ = 0.002954$ $0.2954 \\div = _ = 0.0002954$ $0.2954 \\div = _ = 0.00002954$=_",
+      "question_text": "Complete the pattern: $0.2954 \\div$ _ $= 0.09847$, $0.2954 \\div$ _ $= 0.03282$, $0.2954 \\div$ _ $= 0.01094$, $0.2954 \\div$ _ $= 0.003647$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_15",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "3",
+        "9",
+        "27",
+        "81"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.2954 \\div _ = 0.02954$. Compare the original number $0.2954$ with the answer $0.02954$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.2954 \\div _ = 0.09847$. To find the divisor, divide $0.2954$ by $0.09847$, which gives us 3."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.2954$ to $0.002954$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 3, 9, 27, 81. Each divisor is obtained by multiply by 3 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0002954$, so we divide by 1000. The decimal moves 4 places to get $0.00002954$, so we divide by 10000."
+          "We can verify: $0.2954 \\div 3 = 0.09847$, $0.2954 \\div 9 = 0.03282$, $0.2954 \\div 27 = 0.01094$, $0.2954 \\div 81 = 0.003647$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 3, 9, 27, and 81."
         ]
       ],
       "has_alternate_answers": true,
@@ -498,32 +497,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.3663 \\div = _ = 0.03663$ $0.3663 \\div = _ = 0.003663$ $0.3663 \\div = _ = 0.0003663$ $0.3663 \\div = _ = 0.00003663$=_",
+      "question_text": "Complete the pattern: $0.3663 \\div$ _ $= 0.1832$, $0.3663 \\div$ _ $= 0.04579$, $0.3663 \\div$ _ $= 0.01145$, $0.3663 \\div$ _ $= 0.002862$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_16",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "2",
+        "8",
+        "32",
+        "128"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.3663 \\div _ = 0.03663$. Compare the original number $0.3663$ with the answer $0.03663$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.3663 \\div _ = 0.1832$. To find the divisor, divide $0.3663$ by $0.1832$, which gives us 2."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.3663$ to $0.003663$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 2, 8, 32, 128. Each divisor is obtained by multiply by 4 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0003663$, so we divide by 1000. The decimal moves 4 places to get $0.00003663$, so we divide by 10000."
+          "We can verify: $0.3663 \\div 2 = 0.1832$, $0.3663 \\div 8 = 0.04579$, $0.3663 \\div 32 = 0.01145$, $0.3663 \\div 128 = 0.002862$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 2, 8, 32, and 128."
         ]
       ],
       "has_alternate_answers": true,
@@ -531,7 +530,7 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.8537 \\div = _ = 0.08537$ $0.8537 \\div = _ = 0.008537$ $0.8537 \\div = _ = 0.0008537$ $0.8537 \\div = _ = 0.00008537$=_",
+      "question_text": "Complete the pattern: $0.8537 \\div$ _ $= 0.08537$, $0.8537 \\div$ _ $= 0.008537$, $0.8537 \\div$ _ $= 0.0008537$, $0.8537 \\div$ _ $= 0.00008537$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_17",
       "question_type": "Multiple fill in the blank",
@@ -544,15 +543,15 @@
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.8537 \\div _ = 0.08537$. Compare the original number $0.8537$ with the answer $0.08537$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.8537 \\div _ = 0.08537$. To find the divisor, divide $0.8537$ by $0.08537$, which gives us 10."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.8537$ to $0.008537$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 10, 100, 1000, 10000. Each divisor is obtained by multiply by 10 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0008537$, so we divide by 1000. The decimal moves 4 places to get $0.00008537$, so we divide by 10000."
+          "We can verify: $0.8537 \\div 10 = 0.08537$, $0.8537 \\div 100 = 0.008537$, $0.8537 \\div 1000 = 0.0008537$, $0.8537 \\div 10000 = 0.00008537$."
         ],
         [
           "4/4",
@@ -564,32 +563,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.2414 \\div = _ = 0.02414$ $0.2414 \\div = _ = 0.002414$ $0.2414 \\div = _ = 0.0002414$ $0.2414 \\div = _ = 0.00002414$=_",
+      "question_text": "Complete the pattern: $0.2414 \\div$ _ $= 0.06035$, $0.2414 \\div$ _ $= 0.01509$, $0.2414 \\div$ _ $= 0.003772$, $0.2414 \\div$ _ $= 0.000943$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_18",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "4",
+        "16",
+        "64",
+        "256"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.2414 \\div _ = 0.02414$. Compare the original number $0.2414$ with the answer $0.02414$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.2414 \\div _ = 0.06035$. To find the divisor, divide $0.2414$ by $0.06035$, which gives us 4."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.2414$ to $0.002414$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 4, 16, 64, 256. Each divisor is obtained by multiply by 4 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0002414$, so we divide by 1000. The decimal moves 4 places to get $0.00002414$, so we divide by 10000."
+          "We can verify: $0.2414 \\div 4 = 0.06035$, $0.2414 \\div 16 = 0.01509$, $0.2414 \\div 64 = 0.003772$, $0.2414 \\div 256 = 0.000943$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 4, 16, 64, and 256."
         ]
       ],
       "has_alternate_answers": true,
@@ -597,32 +596,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.9131 \\div = _ = 0.09131$ $0.9131 \\div = _ = 0.009131$ $0.9131 \\div = _ = 0.0009131$ $0.9131 \\div = _ = 0.00009131$=_",
+      "question_text": "Complete the pattern: $0.9131 \\div$ _ $= 0.1826$, $0.9131 \\div$ _ $= 0.09131$, $0.9131 \\div$ _ $= 0.04566$, $0.9131 \\div$ _ $= 0.02283$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_19",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
+        "5",
         "10",
-        "100",
-        "1000",
-        "10000"
+        "20",
+        "40"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.9131 \\div _ = 0.09131$. Compare the original number $0.9131$ with the answer $0.09131$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.9131 \\div _ = 0.1826$. To find the divisor, divide $0.9131$ by $0.1826$, which gives us 5."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.9131$ to $0.009131$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 5, 10, 20, 40. Each divisor is obtained by double each time starting from 5."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0009131$, so we divide by 1000. The decimal moves 4 places to get $0.00009131$, so we divide by 10000."
+          "We can verify: $0.9131 \\div 5 = 0.1826$, $0.9131 \\div 10 = 0.09131$, $0.9131 \\div 20 = 0.04566$, $0.9131 \\div 40 = 0.02283$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 5, 10, 20, and 40."
         ]
       ],
       "has_alternate_answers": true,
@@ -630,7 +629,7 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.4289 \\div = _ = 0.04289$ $0.4289 \\div = _ = 0.004289$ $0.4289 \\div = _ = 0.0004289$ $0.4289 \\div = _ = 0.00004289$=_",
+      "question_text": "Complete the pattern: $0.4289 \\div$ _ $= 0.04289$, $0.4289 \\div$ _ $= 0.004289$, $0.4289 \\div$ _ $= 0.0004289$, $0.4289 \\div$ _ $= 0.00004289$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_20",
       "question_type": "Multiple fill in the blank",
@@ -643,15 +642,15 @@
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.4289 \\div _ = 0.04289$. Compare the original number $0.4289$ with the answer $0.04289$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.4289 \\div _ = 0.04289$. To find the divisor, divide $0.4289$ by $0.04289$, which gives us 10."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.4289$ to $0.004289$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 10, 100, 1000, 10000. Each divisor is obtained by multiply by 10 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0004289$, so we divide by 1000. The decimal moves 4 places to get $0.00004289$, so we divide by 10000."
+          "We can verify: $0.4289 \\div 10 = 0.04289$, $0.4289 \\div 100 = 0.004289$, $0.4289 \\div 1000 = 0.0004289$, $0.4289 \\div 10000 = 0.00004289$."
         ],
         [
           "4/4",
@@ -663,7 +662,7 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.8426 \\div = _ = 0.08426$ $0.8426 \\div = _ = 0.008426$ $0.8426 \\div = _ = 0.0008426$ $0.8426 \\div = _ = 0.00008426$=_",
+      "question_text": "Complete the pattern: $0.8426 \\div$ _ $= 0.08426$, $0.8426 \\div$ _ $= 0.008426$, $0.8426 \\div$ _ $= 0.0008426$, $0.8426 \\div$ _ $= 0.00008426$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_21",
       "question_type": "Multiple fill in the blank",
@@ -676,15 +675,15 @@
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.8426 \\div _ = 0.08426$. Compare the original number $0.8426$ with the answer $0.08426$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.8426 \\div _ = 0.08426$. To find the divisor, divide $0.8426$ by $0.08426$, which gives us 10."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.8426$ to $0.008426$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 10, 100, 1000, 10000. Each divisor is obtained by multiply by 10 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0008426$, so we divide by 1000. The decimal moves 4 places to get $0.00008426$, so we divide by 10000."
+          "We can verify: $0.8426 \\div 10 = 0.08426$, $0.8426 \\div 100 = 0.008426$, $0.8426 \\div 1000 = 0.0008426$, $0.8426 \\div 10000 = 0.00008426$."
         ],
         [
           "4/4",
@@ -696,32 +695,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.1414 \\div = _ = 0.01414$ $0.1414 \\div = _ = 0.001414$ $0.1414 \\div = _ = 0.0001414$ $0.1414 \\div = _ = 0.00001414$=_",
+      "question_text": "Complete the pattern: $0.1414 \\div$ _ $= 0.0707$, $0.1414 \\div$ _ $= 0.03535$, $0.1414 \\div$ _ $= 0.01767$, $0.1414 \\div$ _ $= 0.008837$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_22",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "2",
+        "4",
+        "8",
+        "16"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.1414 \\div _ = 0.01414$. Compare the original number $0.1414$ with the answer $0.01414$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.1414 \\div _ = 0.0707$. To find the divisor, divide $0.1414$ by $0.0707$, which gives us 2."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.1414$ to $0.001414$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 2, 4, 8, 16. Each divisor is obtained by double each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0001414$, so we divide by 1000. The decimal moves 4 places to get $0.00001414$, so we divide by 10000."
+          "We can verify: $0.1414 \\div 2 = 0.0707$, $0.1414 \\div 4 = 0.03535$, $0.1414 \\div 8 = 0.01767$, $0.1414 \\div 16 = 0.008837$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 2, 4, 8, and 16."
         ]
       ],
       "has_alternate_answers": true,
@@ -729,32 +728,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.1682 \\div = _ = 0.01682$ $0.1682 \\div = _ = 0.001682$ $0.1682 \\div = _ = 0.0001682$ $0.1682 \\div = _ = 0.00001682$=_",
+      "question_text": "Complete the pattern: $0.1682 \\div$ _ $= 0.03364$, $0.1682 \\div$ _ $= 0.006728$, $0.1682 \\div$ _ $= 0.001346$, $0.1682 \\div$ _ $= 0.0002691$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_23",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "5",
+        "25",
+        "125",
+        "625"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.1682 \\div _ = 0.01682$. Compare the original number $0.1682$ with the answer $0.01682$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.1682 \\div _ = 0.03364$. To find the divisor, divide $0.1682$ by $0.03364$, which gives us 5."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.1682$ to $0.001682$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 5, 25, 125, 625. Each divisor is obtained by multiply by 5 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0001682$, so we divide by 1000. The decimal moves 4 places to get $0.00001682$, so we divide by 10000."
+          "We can verify: $0.1682 \\div 5 = 0.03364$, $0.1682 \\div 25 = 0.006728$, $0.1682 \\div 125 = 0.001346$, $0.1682 \\div 625 = 0.0002691$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 5, 25, 125, and 625."
         ]
       ],
       "has_alternate_answers": true,
@@ -762,7 +761,7 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.6395 \\div = _ = 0.06395$ $0.6395 \\div = _ = 0.006395$ $0.6395 \\div = _ = 0.0006395$ $0.6395 \\div = _ = 0.00006395$=_",
+      "question_text": "Complete the pattern: $0.6395 \\div$ _ $= 0.06395$, $0.6395 \\div$ _ $= 0.006395$, $0.6395 \\div$ _ $= 0.0006395$, $0.6395 \\div$ _ $= 0.00006395$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_24",
       "question_type": "Multiple fill in the blank",
@@ -775,15 +774,15 @@
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.6395 \\div _ = 0.06395$. Compare the original number $0.6395$ with the answer $0.06395$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.6395 \\div _ = 0.06395$. To find the divisor, divide $0.6395$ by $0.06395$, which gives us 10."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.6395$ to $0.006395$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 10, 100, 1000, 10000. Each divisor is obtained by multiply by 10 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0006395$, so we divide by 1000. The decimal moves 4 places to get $0.00006395$, so we divide by 10000."
+          "We can verify: $0.6395 \\div 10 = 0.06395$, $0.6395 \\div 100 = 0.006395$, $0.6395 \\div 1000 = 0.0006395$, $0.6395 \\div 10000 = 0.00006395$."
         ],
         [
           "4/4",
@@ -795,32 +794,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.8361 \\div = _ = 0.08361$ $0.8361 \\div = _ = 0.008361$ $0.8361 \\div = _ = 0.0008361$ $0.8361 \\div = _ = 0.00008361$=_",
+      "question_text": "Complete the pattern: $0.8361 \\div$ _ $= 0.2787$, $0.8361 \\div$ _ $= 0.0929$, $0.8361 \\div$ _ $= 0.03097$, $0.8361 \\div$ _ $= 0.01032$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_25",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "3",
+        "9",
+        "27",
+        "81"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.8361 \\div _ = 0.08361$. Compare the original number $0.8361$ with the answer $0.08361$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.8361 \\div _ = 0.2787$. To find the divisor, divide $0.8361$ by $0.2787$, which gives us 3."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.8361$ to $0.008361$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 3, 9, 27, 81. Each divisor is obtained by multiply by 3 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0008361$, so we divide by 1000. The decimal moves 4 places to get $0.00008361$, so we divide by 10000."
+          "We can verify: $0.8361 \\div 3 = 0.2787$, $0.8361 \\div 9 = 0.0929$, $0.8361 \\div 27 = 0.03097$, $0.8361 \\div 81 = 0.01032$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 3, 9, 27, and 81."
         ]
       ],
       "has_alternate_answers": true,
@@ -828,32 +827,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.6184 \\div = _ = 0.06184$ $0.6184 \\div = _ = 0.006184$ $0.6184 \\div = _ = 0.0006184$ $0.6184 \\div = _ = 0.00006184$=_",
+      "question_text": "Complete the pattern: $0.6184 \\div$ _ $= 0.3092$, $0.6184 \\div$ _ $= 0.0773$, $0.6184 \\div$ _ $= 0.01932$, $0.6184 \\div$ _ $= 0.004831$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_26",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "2",
+        "8",
+        "32",
+        "128"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.6184 \\div _ = 0.06184$. Compare the original number $0.6184$ with the answer $0.06184$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.6184 \\div _ = 0.3092$. To find the divisor, divide $0.6184$ by $0.3092$, which gives us 2."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.6184$ to $0.006184$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 2, 8, 32, 128. Each divisor is obtained by multiply by 4 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0006184$, so we divide by 1000. The decimal moves 4 places to get $0.00006184$, so we divide by 10000."
+          "We can verify: $0.6184 \\div 2 = 0.3092$, $0.6184 \\div 8 = 0.0773$, $0.6184 \\div 32 = 0.01932$, $0.6184 \\div 128 = 0.004831$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 2, 8, 32, and 128."
         ]
       ],
       "has_alternate_answers": true,
@@ -861,7 +860,7 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.1889 \\div = _ = 0.01889$ $0.1889 \\div = _ = 0.001889$ $0.1889 \\div = _ = 0.0001889$ $0.1889 \\div = _ = 0.00001889$=_",
+      "question_text": "Complete the pattern: $0.1889 \\div$ _ $= 0.01889$, $0.1889 \\div$ _ $= 0.001889$, $0.1889 \\div$ _ $= 0.0001889$, $0.1889 \\div$ _ $= 0.00001889$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_27",
       "question_type": "Multiple fill in the blank",
@@ -874,15 +873,15 @@
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.1889 \\div _ = 0.01889$. Compare the original number $0.1889$ with the answer $0.01889$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.1889 \\div _ = 0.01889$. To find the divisor, divide $0.1889$ by $0.01889$, which gives us 10."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.1889$ to $0.001889$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 10, 100, 1000, 10000. Each divisor is obtained by multiply by 10 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0001889$, so we divide by 1000. The decimal moves 4 places to get $0.00001889$, so we divide by 10000."
+          "We can verify: $0.1889 \\div 10 = 0.01889$, $0.1889 \\div 100 = 0.001889$, $0.1889 \\div 1000 = 0.0001889$, $0.1889 \\div 10000 = 0.00001889$."
         ],
         [
           "4/4",
@@ -894,32 +893,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.9624 \\div = _ = 0.09624$ $0.9624 \\div = _ = 0.009624$ $0.9624 \\div = _ = 0.0009624$ $0.9624 \\div = _ = 0.00009624$=_",
+      "question_text": "Complete the pattern: $0.9624 \\div$ _ $= 0.2406$, $0.9624 \\div$ _ $= 0.06015$, $0.9624 \\div$ _ $= 0.01504$, $0.9624 \\div$ _ $= 0.003759$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_28",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "4",
+        "16",
+        "64",
+        "256"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.9624 \\div _ = 0.09624$. Compare the original number $0.9624$ with the answer $0.09624$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.9624 \\div _ = 0.2406$. To find the divisor, divide $0.9624$ by $0.2406$, which gives us 4."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.9624$ to $0.009624$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 4, 16, 64, 256. Each divisor is obtained by multiply by 4 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0009624$, so we divide by 1000. The decimal moves 4 places to get $0.00009624$, so we divide by 10000."
+          "We can verify: $0.9624 \\div 4 = 0.2406$, $0.9624 \\div 16 = 0.06015$, $0.9624 \\div 64 = 0.01504$, $0.9624 \\div 256 = 0.003759$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 4, 16, 64, and 256."
         ]
       ],
       "has_alternate_answers": true,
@@ -927,32 +926,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.7854 \\div = _ = 0.07854$ $0.7854 \\div = _ = 0.007854$ $0.7854 \\div = _ = 0.0007854$ $0.7854 \\div = _ = 0.00007854$=_",
+      "question_text": "Complete the pattern: $0.7854 \\div$ _ $= 0.1571$, $0.7854 \\div$ _ $= 0.07854$, $0.7854 \\div$ _ $= 0.03927$, $0.7854 \\div$ _ $= 0.01963$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_29",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
+        "5",
         "10",
-        "100",
-        "1000",
-        "10000"
+        "20",
+        "40"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.7854 \\div _ = 0.07854$. Compare the original number $0.7854$ with the answer $0.07854$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.7854 \\div _ = 0.1571$. To find the divisor, divide $0.7854$ by $0.1571$, which gives us 5."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.7854$ to $0.007854$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 5, 10, 20, 40. Each divisor is obtained by double each time starting from 5."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0007854$, so we divide by 1000. The decimal moves 4 places to get $0.00007854$, so we divide by 10000."
+          "We can verify: $0.7854 \\div 5 = 0.1571$, $0.7854 \\div 10 = 0.07854$, $0.7854 \\div 20 = 0.03927$, $0.7854 \\div 40 = 0.01963$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 5, 10, 20, and 40."
         ]
       ],
       "has_alternate_answers": true,
@@ -960,7 +959,7 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.7149 \\div = _ = 0.07149$ $0.7149 \\div = _ = 0.007149$ $0.7149 \\div = _ = 0.0007149$ $0.7149 \\div = _ = 0.00007149$=_",
+      "question_text": "Complete the pattern: $0.7149 \\div$ _ $= 0.07149$, $0.7149 \\div$ _ $= 0.007149$, $0.7149 \\div$ _ $= 0.0007149$, $0.7149 \\div$ _ $= 0.00007149$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_30",
       "question_type": "Multiple fill in the blank",
@@ -973,15 +972,15 @@
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.7149 \\div _ = 0.07149$. Compare the original number $0.7149$ with the answer $0.07149$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.7149 \\div _ = 0.07149$. To find the divisor, divide $0.7149$ by $0.07149$, which gives us 10."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.7149$ to $0.007149$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 10, 100, 1000, 10000. Each divisor is obtained by multiply by 10 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0007149$, so we divide by 1000. The decimal moves 4 places to get $0.00007149$, so we divide by 10000."
+          "We can verify: $0.7149 \\div 10 = 0.07149$, $0.7149 \\div 100 = 0.007149$, $0.7149 \\div 1000 = 0.0007149$, $0.7149 \\div 10000 = 0.00007149$."
         ],
         [
           "4/4",
@@ -993,7 +992,7 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.3947 \\div = _ = 0.03947$ $0.3947 \\div = _ = 0.003947$ $0.3947 \\div = _ = 0.0003947$ $0.3947 \\div = _ = 0.00003947$=_",
+      "question_text": "Complete the pattern: $0.3947 \\div$ _ $= 0.03947$, $0.3947 \\div$ _ $= 0.003947$, $0.3947 \\div$ _ $= 0.0003947$, $0.3947 \\div$ _ $= 0.00003947$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_31",
       "question_type": "Multiple fill in the blank",
@@ -1006,15 +1005,15 @@
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.3947 \\div _ = 0.03947$. Compare the original number $0.3947$ with the answer $0.03947$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.3947 \\div _ = 0.03947$. To find the divisor, divide $0.3947$ by $0.03947$, which gives us 10."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.3947$ to $0.003947$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 10, 100, 1000, 10000. Each divisor is obtained by multiply by 10 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0003947$, so we divide by 1000. The decimal moves 4 places to get $0.00003947$, so we divide by 10000."
+          "We can verify: $0.3947 \\div 10 = 0.03947$, $0.3947 \\div 100 = 0.003947$, $0.3947 \\div 1000 = 0.0003947$, $0.3947 \\div 10000 = 0.00003947$."
         ],
         [
           "4/4",
@@ -1026,32 +1025,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.2134 \\div = _ = 0.02134$ $0.2134 \\div = _ = 0.002134$ $0.2134 \\div = _ = 0.0002134$ $0.2134 \\div = _ = 0.00002134$=_",
+      "question_text": "Complete the pattern: $0.2134 \\div$ _ $= 0.1067$, $0.2134 \\div$ _ $= 0.05335$, $0.2134 \\div$ _ $= 0.02668$, $0.2134 \\div$ _ $= 0.01334$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_32",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "2",
+        "4",
+        "8",
+        "16"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.2134 \\div _ = 0.02134$. Compare the original number $0.2134$ with the answer $0.02134$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.2134 \\div _ = 0.1067$. To find the divisor, divide $0.2134$ by $0.1067$, which gives us 2."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.2134$ to $0.002134$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 2, 4, 8, 16. Each divisor is obtained by double each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0002134$, so we divide by 1000. The decimal moves 4 places to get $0.00002134$, so we divide by 10000."
+          "We can verify: $0.2134 \\div 2 = 0.1067$, $0.2134 \\div 4 = 0.05335$, $0.2134 \\div 8 = 0.02668$, $0.2134 \\div 16 = 0.01334$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 2, 4, 8, and 16."
         ]
       ],
       "has_alternate_answers": true,
@@ -1059,32 +1058,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.3665 \\div = _ = 0.03665$ $0.3665 \\div = _ = 0.003665$ $0.3665 \\div = _ = 0.0003665$ $0.3665 \\div = _ = 0.00003665$=_",
+      "question_text": "Complete the pattern: $0.3665 \\div$ _ $= 0.0733$, $0.3665 \\div$ _ $= 0.01466$, $0.3665 \\div$ _ $= 0.002932$, $0.3665 \\div$ _ $= 0.0005864$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_33",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "5",
+        "25",
+        "125",
+        "625"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.3665 \\div _ = 0.03665$. Compare the original number $0.3665$ with the answer $0.03665$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.3665 \\div _ = 0.0733$. To find the divisor, divide $0.3665$ by $0.0733$, which gives us 5."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.3665$ to $0.003665$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 5, 25, 125, 625. Each divisor is obtained by multiply by 5 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0003665$, so we divide by 1000. The decimal moves 4 places to get $0.00003665$, so we divide by 10000."
+          "We can verify: $0.3665 \\div 5 = 0.0733$, $0.3665 \\div 25 = 0.01466$, $0.3665 \\div 125 = 0.002932$, $0.3665 \\div 625 = 0.0005864$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 5, 25, 125, and 625."
         ]
       ],
       "has_alternate_answers": true,
@@ -1092,7 +1091,7 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.6577 \\div = _ = 0.06577$ $0.6577 \\div = _ = 0.006577$ $0.6577 \\div = _ = 0.0006577$ $0.6577 \\div = _ = 0.00006577$=_",
+      "question_text": "Complete the pattern: $0.6577 \\div$ _ $= 0.06577$, $0.6577 \\div$ _ $= 0.006577$, $0.6577 \\div$ _ $= 0.0006577$, $0.6577 \\div$ _ $= 0.00006577$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_34",
       "question_type": "Multiple fill in the blank",
@@ -1105,15 +1104,15 @@
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.6577 \\div _ = 0.06577$. Compare the original number $0.6577$ with the answer $0.06577$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.6577 \\div _ = 0.06577$. To find the divisor, divide $0.6577$ by $0.06577$, which gives us 10."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.6577$ to $0.006577$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 10, 100, 1000, 10000. Each divisor is obtained by multiply by 10 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0006577$, so we divide by 1000. The decimal moves 4 places to get $0.00006577$, so we divide by 10000."
+          "We can verify: $0.6577 \\div 10 = 0.06577$, $0.6577 \\div 100 = 0.006577$, $0.6577 \\div 1000 = 0.0006577$, $0.6577 \\div 10000 = 0.00006577$."
         ],
         [
           "4/4",
@@ -1125,32 +1124,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.2198 \\div = _ = 0.02198$ $0.2198 \\div = _ = 0.002198$ $0.2198 \\div = _ = 0.0002198$ $0.2198 \\div = _ = 0.00002198$=_",
+      "question_text": "Complete the pattern: $0.2198 \\div$ _ $= 0.07327$, $0.2198 \\div$ _ $= 0.02442$, $0.2198 \\div$ _ $= 0.008141$, $0.2198 \\div$ _ $= 0.002714$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_35",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "3",
+        "9",
+        "27",
+        "81"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.2198 \\div _ = 0.02198$. Compare the original number $0.2198$ with the answer $0.02198$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.2198 \\div _ = 0.07327$. To find the divisor, divide $0.2198$ by $0.07327$, which gives us 3."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.2198$ to $0.002198$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 3, 9, 27, 81. Each divisor is obtained by multiply by 3 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0002198$, so we divide by 1000. The decimal moves 4 places to get $0.00002198$, so we divide by 10000."
+          "We can verify: $0.2198 \\div 3 = 0.07327$, $0.2198 \\div 9 = 0.02442$, $0.2198 \\div 27 = 0.008141$, $0.2198 \\div 81 = 0.002714$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 3, 9, 27, and 81."
         ]
       ],
       "has_alternate_answers": true,
@@ -1158,32 +1157,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.5395 \\div = _ = 0.05395$ $0.5395 \\div = _ = 0.005395$ $0.5395 \\div = _ = 0.0005395$ $0.5395 \\div = _ = 0.00005395$=_",
+      "question_text": "Complete the pattern: $0.5395 \\div$ _ $= 0.2697$, $0.5395 \\div$ _ $= 0.06744$, $0.5395 \\div$ _ $= 0.01686$, $0.5395 \\div$ _ $= 0.004215$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_36",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "2",
+        "8",
+        "32",
+        "128"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.5395 \\div _ = 0.05395$. Compare the original number $0.5395$ with the answer $0.05395$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.5395 \\div _ = 0.2697$. To find the divisor, divide $0.5395$ by $0.2697$, which gives us 2."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.5395$ to $0.005395$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 2, 8, 32, 128. Each divisor is obtained by multiply by 4 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0005395$, so we divide by 1000. The decimal moves 4 places to get $0.00005395$, so we divide by 10000."
+          "We can verify: $0.5395 \\div 2 = 0.2697$, $0.5395 \\div 8 = 0.06744$, $0.5395 \\div 32 = 0.01686$, $0.5395 \\div 128 = 0.004215$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 2, 8, 32, and 128."
         ]
       ],
       "has_alternate_answers": true,
@@ -1191,7 +1190,7 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.1743 \\div = _ = 0.01743$ $0.1743 \\div = _ = 0.001743$ $0.1743 \\div = _ = 0.0001743$ $0.1743 \\div = _ = 0.00001743$=_",
+      "question_text": "Complete the pattern: $0.1743 \\div$ _ $= 0.01743$, $0.1743 \\div$ _ $= 0.001743$, $0.1743 \\div$ _ $= 0.0001743$, $0.1743 \\div$ _ $= 0.00001743$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_37",
       "question_type": "Multiple fill in the blank",
@@ -1204,15 +1203,15 @@
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.1743 \\div _ = 0.01743$. Compare the original number $0.1743$ with the answer $0.01743$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.1743 \\div _ = 0.01743$. To find the divisor, divide $0.1743$ by $0.01743$, which gives us 10."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.1743$ to $0.001743$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 10, 100, 1000, 10000. Each divisor is obtained by multiply by 10 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0001743$, so we divide by 1000. The decimal moves 4 places to get $0.00001743$, so we divide by 10000."
+          "We can verify: $0.1743 \\div 10 = 0.01743$, $0.1743 \\div 100 = 0.001743$, $0.1743 \\div 1000 = 0.0001743$, $0.1743 \\div 10000 = 0.00001743$."
         ],
         [
           "4/4",
@@ -1224,32 +1223,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.1498 \\div = _ = 0.01498$ $0.1498 \\div = _ = 0.001498$ $0.1498 \\div = _ = 0.0001498$ $0.1498 \\div = _ = 0.00001498$=_",
+      "question_text": "Complete the pattern: $0.1498 \\div$ _ $= 0.03745$, $0.1498 \\div$ _ $= 0.009362$, $0.1498 \\div$ _ $= 0.002341$, $0.1498 \\div$ _ $= 0.0005852$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_38",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "4",
+        "16",
+        "64",
+        "256"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.1498 \\div _ = 0.01498$. Compare the original number $0.1498$ with the answer $0.01498$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.1498 \\div _ = 0.03745$. To find the divisor, divide $0.1498$ by $0.03745$, which gives us 4."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.1498$ to $0.001498$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 4, 16, 64, 256. Each divisor is obtained by multiply by 4 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0001498$, so we divide by 1000. The decimal moves 4 places to get $0.00001498$, so we divide by 10000."
+          "We can verify: $0.1498 \\div 4 = 0.03745$, $0.1498 \\div 16 = 0.009362$, $0.1498 \\div 64 = 0.002341$, $0.1498 \\div 256 = 0.0005852$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 4, 16, 64, and 256."
         ]
       ],
       "has_alternate_answers": true,
@@ -1257,32 +1256,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.9783 \\div = _ = 0.09783$ $0.9783 \\div = _ = 0.009783$ $0.9783 \\div = _ = 0.0009783$ $0.9783 \\div = _ = 0.00009783$=_",
+      "question_text": "Complete the pattern: $0.9783 \\div$ _ $= 0.1957$, $0.9783 \\div$ _ $= 0.09783$, $0.9783 \\div$ _ $= 0.04892$, $0.9783 \\div$ _ $= 0.02446$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_39",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
+        "5",
         "10",
-        "100",
-        "1000",
-        "10000"
+        "20",
+        "40"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.9783 \\div _ = 0.09783$. Compare the original number $0.9783$ with the answer $0.09783$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.9783 \\div _ = 0.1957$. To find the divisor, divide $0.9783$ by $0.1957$, which gives us 5."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.9783$ to $0.009783$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 5, 10, 20, 40. Each divisor is obtained by double each time starting from 5."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0009783$, so we divide by 1000. The decimal moves 4 places to get $0.00009783$, so we divide by 10000."
+          "We can verify: $0.9783 \\div 5 = 0.1957$, $0.9783 \\div 10 = 0.09783$, $0.9783 \\div 20 = 0.04892$, $0.9783 \\div 40 = 0.02446$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 5, 10, 20, and 40."
         ]
       ],
       "has_alternate_answers": true,
@@ -1290,7 +1289,7 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.9357 \\div = _ = 0.09357$ $0.9357 \\div = _ = 0.009357$ $0.9357 \\div = _ = 0.0009357$ $0.9357 \\div = _ = 0.00009357$=_",
+      "question_text": "Complete the pattern: $0.9357 \\div$ _ $= 0.09357$, $0.9357 \\div$ _ $= 0.009357$, $0.9357 \\div$ _ $= 0.0009357$, $0.9357 \\div$ _ $= 0.00009357$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_40",
       "question_type": "Multiple fill in the blank",
@@ -1303,15 +1302,15 @@
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.9357 \\div _ = 0.09357$. Compare the original number $0.9357$ with the answer $0.09357$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.9357 \\div _ = 0.09357$. To find the divisor, divide $0.9357$ by $0.09357$, which gives us 10."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.9357$ to $0.009357$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 10, 100, 1000, 10000. Each divisor is obtained by multiply by 10 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0009357$, so we divide by 1000. The decimal moves 4 places to get $0.00009357$, so we divide by 10000."
+          "We can verify: $0.9357 \\div 10 = 0.09357$, $0.9357 \\div 100 = 0.009357$, $0.9357 \\div 1000 = 0.0009357$, $0.9357 \\div 10000 = 0.00009357$."
         ],
         [
           "4/4",
@@ -1323,7 +1322,7 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.8572 \\div = _ = 0.08572$ $0.8572 \\div = _ = 0.008572$ $0.8572 \\div = _ = 0.0008572$ $0.8572 \\div = _ = 0.00008572$=_",
+      "question_text": "Complete the pattern: $0.8572 \\div$ _ $= 0.08572$, $0.8572 \\div$ _ $= 0.008572$, $0.8572 \\div$ _ $= 0.0008572$, $0.8572 \\div$ _ $= 0.00008572$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_41",
       "question_type": "Multiple fill in the blank",
@@ -1336,15 +1335,15 @@
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.8572 \\div _ = 0.08572$. Compare the original number $0.8572$ with the answer $0.08572$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.8572 \\div _ = 0.08572$. To find the divisor, divide $0.8572$ by $0.08572$, which gives us 10."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.8572$ to $0.008572$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 10, 100, 1000, 10000. Each divisor is obtained by multiply by 10 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0008572$, so we divide by 1000. The decimal moves 4 places to get $0.00008572$, so we divide by 10000."
+          "We can verify: $0.8572 \\div 10 = 0.08572$, $0.8572 \\div 100 = 0.008572$, $0.8572 \\div 1000 = 0.0008572$, $0.8572 \\div 10000 = 0.00008572$."
         ],
         [
           "4/4",
@@ -1356,32 +1355,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.1218 \\div = _ = 0.01218$ $0.1218 \\div = _ = 0.001218$ $0.1218 \\div = _ = 0.0001218$ $0.1218 \\div = _ = 0.00001218$=_",
+      "question_text": "Complete the pattern: $0.1218 \\div$ _ $= 0.0609$, $0.1218 \\div$ _ $= 0.03045$, $0.1218 \\div$ _ $= 0.01523$, $0.1218 \\div$ _ $= 0.007613$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_42",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "2",
+        "4",
+        "8",
+        "16"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.1218 \\div _ = 0.01218$. Compare the original number $0.1218$ with the answer $0.01218$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.1218 \\div _ = 0.0609$. To find the divisor, divide $0.1218$ by $0.0609$, which gives us 2."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.1218$ to $0.001218$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 2, 4, 8, 16. Each divisor is obtained by double each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0001218$, so we divide by 1000. The decimal moves 4 places to get $0.00001218$, so we divide by 10000."
+          "We can verify: $0.1218 \\div 2 = 0.0609$, $0.1218 \\div 4 = 0.03045$, $0.1218 \\div 8 = 0.01523$, $0.1218 \\div 16 = 0.007613$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 2, 4, 8, and 16."
         ]
       ],
       "has_alternate_answers": true,
@@ -1389,32 +1388,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.4612 \\div = _ = 0.04612$ $0.4612 \\div = _ = 0.004612$ $0.4612 \\div = _ = 0.0004612$ $0.4612 \\div = _ = 0.00004612$=_",
+      "question_text": "Complete the pattern: $0.4612 \\div$ _ $= 0.09224$, $0.4612 \\div$ _ $= 0.01845$, $0.4612 \\div$ _ $= 0.00369$, $0.4612 \\div$ _ $= 0.0007379$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_43",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "5",
+        "25",
+        "125",
+        "625"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.4612 \\div _ = 0.04612$. Compare the original number $0.4612$ with the answer $0.04612$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.4612 \\div _ = 0.09224$. To find the divisor, divide $0.4612$ by $0.09224$, which gives us 5."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.4612$ to $0.004612$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 5, 25, 125, 625. Each divisor is obtained by multiply by 5 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0004612$, so we divide by 1000. The decimal moves 4 places to get $0.00004612$, so we divide by 10000."
+          "We can verify: $0.4612 \\div 5 = 0.09224$, $0.4612 \\div 25 = 0.01845$, $0.4612 \\div 125 = 0.00369$, $0.4612 \\div 625 = 0.0007379$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 5, 25, 125, and 625."
         ]
       ],
       "has_alternate_answers": true,
@@ -1422,7 +1421,7 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.8145 \\div = _ = 0.08145$ $0.8145 \\div = _ = 0.008145$ $0.8145 \\div = _ = 0.0008145$ $0.8145 \\div = _ = 0.00008145$=_",
+      "question_text": "Complete the pattern: $0.8145 \\div$ _ $= 0.08145$, $0.8145 \\div$ _ $= 0.008145$, $0.8145 \\div$ _ $= 0.0008145$, $0.8145 \\div$ _ $= 0.00008145$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_44",
       "question_type": "Multiple fill in the blank",
@@ -1435,15 +1434,15 @@
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.8145 \\div _ = 0.08145$. Compare the original number $0.8145$ with the answer $0.08145$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.8145 \\div _ = 0.08145$. To find the divisor, divide $0.8145$ by $0.08145$, which gives us 10."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.8145$ to $0.008145$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 10, 100, 1000, 10000. Each divisor is obtained by multiply by 10 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0008145$, so we divide by 1000. The decimal moves 4 places to get $0.00008145$, so we divide by 10000."
+          "We can verify: $0.8145 \\div 10 = 0.08145$, $0.8145 \\div 100 = 0.008145$, $0.8145 \\div 1000 = 0.0008145$, $0.8145 \\div 10000 = 0.00008145$."
         ],
         [
           "4/4",
@@ -1455,32 +1454,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.2133 \\div = _ = 0.02133$ $0.2133 \\div = _ = 0.002133$ $0.2133 \\div = _ = 0.0002133$ $0.2133 \\div = _ = 0.00002133$=_",
+      "question_text": "Complete the pattern: $0.2133 \\div$ _ $= 0.0711$, $0.2133 \\div$ _ $= 0.0237$, $0.2133 \\div$ _ $= 0.0079$, $0.2133 \\div$ _ $= 0.002633$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_45",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "3",
+        "9",
+        "27",
+        "81"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.2133 \\div _ = 0.02133$. Compare the original number $0.2133$ with the answer $0.02133$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.2133 \\div _ = 0.0711$. To find the divisor, divide $0.2133$ by $0.0711$, which gives us 3."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.2133$ to $0.002133$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 3, 9, 27, 81. Each divisor is obtained by multiply by 3 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0002133$, so we divide by 1000. The decimal moves 4 places to get $0.00002133$, so we divide by 10000."
+          "We can verify: $0.2133 \\div 3 = 0.0711$, $0.2133 \\div 9 = 0.0237$, $0.2133 \\div 27 = 0.0079$, $0.2133 \\div 81 = 0.002633$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 3, 9, 27, and 81."
         ]
       ],
       "has_alternate_answers": true,
@@ -1488,32 +1487,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.5824 \\div = _ = 0.05824$ $0.5824 \\div = _ = 0.005824$ $0.5824 \\div = _ = 0.0005824$ $0.5824 \\div = _ = 0.00005824$=_",
+      "question_text": "Complete the pattern: $0.5824 \\div$ _ $= 0.2912$, $0.5824 \\div$ _ $= 0.0728$, $0.5824 \\div$ _ $= 0.0182$, $0.5824 \\div$ _ $= 0.00455$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_46",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "2",
+        "8",
+        "32",
+        "128"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.5824 \\div _ = 0.05824$. Compare the original number $0.5824$ with the answer $0.05824$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.5824 \\div _ = 0.2912$. To find the divisor, divide $0.5824$ by $0.2912$, which gives us 2."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.5824$ to $0.005824$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 2, 8, 32, 128. Each divisor is obtained by multiply by 4 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0005824$, so we divide by 1000. The decimal moves 4 places to get $0.00005824$, so we divide by 10000."
+          "We can verify: $0.5824 \\div 2 = 0.2912$, $0.5824 \\div 8 = 0.0728$, $0.5824 \\div 32 = 0.0182$, $0.5824 \\div 128 = 0.00455$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 2, 8, 32, and 128."
         ]
       ],
       "has_alternate_answers": true,
@@ -1521,7 +1520,7 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.3526 \\div = _ = 0.03526$ $0.3526 \\div = _ = 0.003526$ $0.3526 \\div = _ = 0.0003526$ $0.3526 \\div = _ = 0.00003526$=_",
+      "question_text": "Complete the pattern: $0.3526 \\div$ _ $= 0.03526$, $0.3526 \\div$ _ $= 0.003526$, $0.3526 \\div$ _ $= 0.0003526$, $0.3526 \\div$ _ $= 0.00003526$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_47",
       "question_type": "Multiple fill in the blank",
@@ -1534,15 +1533,15 @@
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.3526 \\div _ = 0.03526$. Compare the original number $0.3526$ with the answer $0.03526$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.3526 \\div _ = 0.03526$. To find the divisor, divide $0.3526$ by $0.03526$, which gives us 10."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.3526$ to $0.003526$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 10, 100, 1000, 10000. Each divisor is obtained by multiply by 10 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0003526$, so we divide by 1000. The decimal moves 4 places to get $0.00003526$, so we divide by 10000."
+          "We can verify: $0.3526 \\div 10 = 0.03526$, $0.3526 \\div 100 = 0.003526$, $0.3526 \\div 1000 = 0.0003526$, $0.3526 \\div 10000 = 0.00003526$."
         ],
         [
           "4/4",
@@ -1554,32 +1553,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.5223 \\div = _ = 0.05223$ $0.5223 \\div = _ = 0.005223$ $0.5223 \\div = _ = 0.0005223$ $0.5223 \\div = _ = 0.00005223$=_",
+      "question_text": "Complete the pattern: $0.5223 \\div$ _ $= 0.1306$, $0.5223 \\div$ _ $= 0.03264$, $0.5223 \\div$ _ $= 0.008161$, $0.5223 \\div$ _ $= 0.00204$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_48",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
-        "10",
-        "100",
-        "1000",
-        "10000"
+        "4",
+        "16",
+        "64",
+        "256"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.5223 \\div _ = 0.05223$. Compare the original number $0.5223$ with the answer $0.05223$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.5223 \\div _ = 0.1306$. To find the divisor, divide $0.5223$ by $0.1306$, which gives us 4."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.5223$ to $0.005223$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 4, 16, 64, 256. Each divisor is obtained by multiply by 4 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0005223$, so we divide by 1000. The decimal moves 4 places to get $0.00005223$, so we divide by 10000."
+          "We can verify: $0.5223 \\div 4 = 0.1306$, $0.5223 \\div 16 = 0.03264$, $0.5223 \\div 64 = 0.008161$, $0.5223 \\div 256 = 0.00204$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 4, 16, 64, and 256."
         ]
       ],
       "has_alternate_answers": true,
@@ -1587,32 +1586,32 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.2347 \\div = _ = 0.02347$ $0.2347 \\div = _ = 0.002347$ $0.2347 \\div = _ = 0.0002347$ $0.2347 \\div = _ = 0.00002347$=_",
+      "question_text": "Complete the pattern: $0.2347 \\div$ _ $= 0.04694$, $0.2347 \\div$ _ $= 0.02347$, $0.2347 \\div$ _ $= 0.01173$, $0.2347 \\div$ _ $= 0.005867$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_49",
       "question_type": "Multiple fill in the blank",
       "correct_answers": [
+        "5",
         "10",
-        "100",
-        "1000",
-        "10000"
+        "20",
+        "40"
       ],
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.2347 \\div _ = 0.02347$. Compare the original number $0.2347$ with the answer $0.02347$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.2347 \\div _ = 0.04694$. To find the divisor, divide $0.2347$ by $0.04694$, which gives us 5."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.2347$ to $0.002347$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 5, 10, 20, 40. Each divisor is obtained by double each time starting from 5."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0002347$, so we divide by 1000. The decimal moves 4 places to get $0.00002347$, so we divide by 10000."
+          "We can verify: $0.2347 \\div 5 = 0.04694$, $0.2347 \\div 10 = 0.02347$, $0.2347 \\div 20 = 0.01173$, $0.2347 \\div 40 = 0.005867$."
         ],
         [
           "4/4",
-          "Therefore, the missing numbers are 10, 100, 1000, and 10000."
+          "Therefore, the missing numbers are 5, 10, 20, and 40."
         ]
       ],
       "has_alternate_answers": true,
@@ -1620,7 +1619,7 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.4121 \\div = _ = 0.04121$ $0.4121 \\div = _ = 0.004121$ $0.4121 \\div = _ = 0.0004121$ $0.4121 \\div = _ = 0.00004121$=_",
+      "question_text": "Complete the pattern: $0.4121 \\div$ _ $= 0.04121$, $0.4121 \\div$ _ $= 0.004121$, $0.4121 \\div$ _ $= 0.0004121$, $0.4121 \\div$ _ $= 0.00004121$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_50",
       "question_type": "Multiple fill in the blank",
@@ -1633,15 +1632,15 @@
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.4121 \\div _ = 0.04121$. Compare the original number $0.4121$ with the answer $0.04121$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.4121 \\div _ = 0.04121$. To find the divisor, divide $0.4121$ by $0.04121$, which gives us 10."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.4121$ to $0.004121$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 10, 100, 1000, 10000. Each divisor is obtained by multiply by 10 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0004121$, so we divide by 1000. The decimal moves 4 places to get $0.00004121$, so we divide by 10000."
+          "We can verify: $0.4121 \\div 10 = 0.04121$, $0.4121 \\div 100 = 0.004121$, $0.4121 \\div 1000 = 0.0004121$, $0.4121 \\div 10000 = 0.00004121$."
         ],
         [
           "4/4",
@@ -1653,7 +1652,7 @@
     },
     {
       "skills": "decimal-division-patterns-over-increasing-place-values",
-      "question_text": "Complete the pattern: $0.1543 \\div = _ = 0.01543$ $0.1543 \\div = _ = 0.001543$ $0.1543 \\div = _ = 0.0001543$ $0.1543 \\div = _ = 0.00001543$=_",
+      "question_text": "Complete the pattern: $0.1543 \\div$ _ $= 0.01543$, $0.1543 \\div$ _ $= 0.001543$, $0.1543 \\div$ _ $= 0.0001543$, $0.1543 \\div$ _ $= 0.00001543$=_",
       "tag": "Gr6_36_E3",
       "question_number": "3_51",
       "question_type": "Multiple fill in the blank",
@@ -1666,15 +1665,15 @@
       "solution": [
         [
           "1/4",
-          "Look at the first equation: $0.1543 \\div _ = 0.01543$. Compare the original number $0.1543$ with the answer $0.01543$. The decimal point moved 1 place to the right, which means we divided by 10."
+          "Look at the first equation: $0.1543 \\div _ = 0.01543$. To find the divisor, divide $0.1543$ by $0.01543$, which gives us 10."
         ],
         [
           "2/4",
-          "In the second equation, the decimal point moves 2 places to the right from $0.1543$ to $0.001543$. When the decimal moves 2 places, we divide by 100. Notice how when we add another zero to 10, the decimal moves one more place."
+          "Notice the pattern in the divisors: 10, 100, 1000, 10000. Each divisor is obtained by multiply by 10 each time."
         ],
         [
           "3/4",
-          "Continue the pattern: the decimal moves 3 places to get $0.0001543$, so we divide by 1000. The decimal moves 4 places to get $0.00001543$, so we divide by 10000."
+          "We can verify: $0.1543 \\div 10 = 0.01543$, $0.1543 \\div 100 = 0.001543$, $0.1543 \\div 1000 = 0.0001543$, $0.1543 \\div 10000 = 0.00001543$."
         ],
         [
           "4/4",

@@ -1,37 +1,89 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Gr6_23_E2 Question 2_16</title>
-<style>
-        .item {
-            display: inline-block;
-            margin: 10px;
-            vertical-align: top;
-        }
-        body {
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Grade 6 Math Exercise
+  </title>
+  <style>
+   body {
             font-family: Arial, sans-serif;
             margin: 20px;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
         }
-        svg {
-            border: 1px solid #ddd;
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 1000px;
         }
-        table {
-            border-collapse: collapse;
+        .visual-element {
+            margin: 20px auto;
+            display: inline-block;
+            padding: 10px;
         }
-    </style>
-</head>
-<body>
-<div class="item" label="Gr6_23_E2_2_16_image_tag" style="display:inline-block">
-<svg height="50" viewBox="0 0 300 50" width="300">
-<line stroke="black" stroke-width="2" x1="20" x2="280" y1="25" y2="25"></line><line stroke="black" x1="20.0" x2="20.0" y1="20" y2="30"></line><text font-size="10" text-anchor="middle" x="20.0" y="42">0</text><line stroke="black" x1="48.888888888888886" x2="48.888888888888886" y1="20" y2="30"></line><text font-size="10" text-anchor="middle" x="48.888888888888886" y="42">1</text><line stroke="black" x1="77.77777777777777" x2="77.77777777777777" y1="20" y2="30"></line><text font-size="10" text-anchor="middle" x="77.77777777777777" y="42">2</text><line stroke="black" x1="106.66666666666666" x2="106.66666666666666" y1="20" y2="30"></line><text font-size="10" text-anchor="middle" x="106.66666666666666" y="42">3</text><line stroke="black" x1="135.55555555555554" x2="135.55555555555554" y1="20" y2="30"></line><text font-size="10" text-anchor="middle" x="135.55555555555554" y="42">4</text><line stroke="black" x1="164.44444444444446" x2="164.44444444444446" y1="20" y2="30"></line><text font-size="10" text-anchor="middle" x="164.44444444444446" y="42">5</text><line stroke="black" x1="193.33333333333331" x2="193.33333333333331" y1="20" y2="30"></line><text font-size="10" text-anchor="middle" x="193.33333333333331" y="42">6</text><line stroke="black" x1="222.22222222222223" x2="222.22222222222223" y1="20" y2="30"></line><text font-size="10" text-anchor="middle" x="222.22222222222223" y="42">7</text><line stroke="black" x1="251.1111111111111" x2="251.1111111111111" y1="20" y2="30"></line><text font-size="10" text-anchor="middle" x="251.1111111111111" y="42">8</text><line stroke="black" x1="280.0" x2="280.0" y1="20" y2="30"></line><text font-size="10" text-anchor="middle" x="280.0" y="42">9</text></svg>
-</div>
-<div class="item" label="Gr6_23_E2_2_16_image_tag" style="display:inline-block">
-<svg height="80" viewBox="0 0 120 80" width="120">
-<rect fill="#e6f3ff" height="60" stroke="black" stroke-width="2" width="100" x="10" y="10"></rect>
-</svg>
-</div>
-</body>
+        .grid-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="visual-element item" label="Gr6_23_E2_variations_image_tag">
+    <svg height="120" viewBox="0 0 600 120" width="600">
+     <!-- Fraction number line in eighths -->
+     <line stroke="#000" stroke-width="2" x1="50" x2="550" y1="60" y2="60"></line>
+     
+     <!-- Tick marks and labels -->
+     <g stroke="#000" stroke-width="1" fill="#000" font-family="Arial" font-size="10" text-anchor="middle">
+       <line x1="50.0" x2="50.0" y1="50" y2="70"></line>
+       <text x="50.0" y="85">0/8</text>
+       <line x1="81.2" x2="81.2" y1="50" y2="70"></line>
+       <text x="81.2" y="85">1/8</text>
+       <line x1="112.5" x2="112.5" y1="50" y2="70"></line>
+       <text x="112.5" y="85">2/8</text>
+       <line x1="143.8" x2="143.8" y1="50" y2="70"></line>
+       <text x="143.8" y="85">3/8</text>
+       <line x1="175.0" x2="175.0" y1="50" y2="70"></line>
+       <text x="175.0" y="85">4/8</text>
+       <line x1="206.2" x2="206.2" y1="50" y2="70"></line>
+       <text x="206.2" y="85">5/8</text>
+       <line x1="237.5" x2="237.5" y1="50" y2="70"></line>
+       <text x="237.5" y="85">6/8</text>
+       <line x1="268.8" x2="268.8" y1="50" y2="70"></line>
+       <text x="268.8" y="85">7/8</text>
+       <line x1="300.0" x2="300.0" y1="50" y2="70"></line>
+       <text x="300.0" y="85">8/8</text>
+       <line x1="331.2" x2="331.2" y1="50" y2="70"></line>
+       <text x="331.2" y="85">9/8</text>
+       <line x1="362.5" x2="362.5" y1="50" y2="70"></line>
+       <text x="362.5" y="85">10/8</text>
+       <line x1="393.8" x2="393.8" y1="50" y2="70"></line>
+       <text x="393.8" y="85">11/8</text>
+       <line x1="425.0" x2="425.0" y1="50" y2="70"></line>
+       <text x="425.0" y="85">12/8</text>
+       <line x1="456.2" x2="456.2" y1="50" y2="70"></line>
+       <text x="456.2" y="85">13/8</text>
+       <line x1="487.5" x2="487.5" y1="50" y2="70"></line>
+       <text x="487.5" y="85">14/8</text>
+       <line x1="518.8" x2="518.8" y1="50" y2="70"></line>
+       <text x="518.8" y="85">15/8</text>
+       <line x1="550.0" x2="550.0" y1="50" y2="70"></line>
+       <text x="550.0" y="85">16/8</text>
+     </g>
+     </svg>
+   </div>
+  </div>
+ </body>
 </html>

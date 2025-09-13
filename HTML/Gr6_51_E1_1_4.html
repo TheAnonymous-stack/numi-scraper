@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .question {
+            font-size: 18px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .polygon-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .given-angles {
+            font-size: 14px;
+            margin-top: 15px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="question">In this hexagon, the angles are 129, 99, 117, 124° and one angle marked as q. Find q.
+q = °</div>
+    
+    <div class="polygon-container">
+        <svg width="400" height="300" viewBox="0 0 400 300">
+            <!-- Hexagon with 6 sides -->
+            <polygon points="200,50 287,100 287,200 200,250 113,200 113,100" fill="lightyellow" fill-opacity="0.3" stroke="black" stroke-width="2"/>
+            
+            <!-- Angle labels and vertices -->
+            
+                <circle cx="200" cy="50" r="3" fill="black"/>
+                <text x="200" y="80" font-size="14" text-anchor="middle" fill="black">
+                    129°
+                </text>
+                <circle cx="287" cy="100" r="3" fill="black"/>
+                <text x="261" y="115" font-size="14" text-anchor="middle" fill="black">
+                    99°
+                </text>
+                <circle cx="287" cy="200" r="3" fill="black"/>
+                <text x="261" y="185" font-size="14" text-anchor="middle" fill="black">
+                    117°
+                </text>
+                <circle cx="200" cy="250" r="3" fill="black"/>
+                <text x="200" y="220" font-size="14" text-anchor="middle" fill="black">
+                    124°
+                </text>
+                <circle cx="113" cy="200" r="3" fill="black"/>
+                <text x="139" y="185" font-size="14" text-anchor="middle" fill="black">
+                    139°
+                </text>
+                <circle cx="113" cy="100" r="3" fill="red"/>
+                <text x="139" y="115" font-size="16" text-anchor="middle" fill="red" font-weight="bold">
+                    q
+                </text>
+        </svg>
+    </div>
+    
+    <div class="given-angles">
+        Given angles: 129°, 99°, 117°, 124°, 139°
+    </div>
+</body>
+</html>
