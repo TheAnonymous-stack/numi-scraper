@@ -2,7 +2,7 @@ import os
 import re
 import json
 
-directory = "./HTML"
+directory = "./html"
 for file in os.listdir(directory):
     # Check naming convention first
     matchUnderscore = re.match(r"Gr6_(\d+)_E(\d+)_(\d+)_(\d+)\.html", file)
@@ -30,26 +30,28 @@ for file in os.listdir(directory):
         if "image_choice_tags" in question:
             for choice in question['image_choice_tags']:
                 imagesToCreate[choice] = 0
-        if len(question["solution_image_tag"]) > 0:
-            for step in question['solution_image_tag']:
+        if "solution_image_tag" in question and len(question["solution_image_tag"]) > 0:
+            for step in question["solution_image_tag"]:
                 img = step[1]
                 imagesToCreate[img] = 0
+
         if "shape_image_tags" in question:
             for shape in question['shape_image_tags']:
                 img = shape['tag']
                 imagesToCreate[img] = 0
         # Read the HTML file and search for divs with class="item" and expected labels
         html_file_path = os.path.join(directory, file)
-        with open(html_file_path, "r") as html_file:
+        with open(html_file_path, "r", encoding="utf-8", errors="replace") as html_file:
             html_content = html_file.read()
+
             
         # Check for each expected image label
         missing_labels = []
         found_labels = []
         
         for label in imagesToCreate:
-            # Search for div with class="item" and the specific label
-            pattern = rf'<div[^>]*class="item"[^>]*label="{re.escape(label)}"'
+            # Search for div with class containing "item" and the specific label
+            pattern = rf'<div[^>]*class="[^"]*item[^"]*"[^>]*label="{re.escape(label)}"'
             if re.search(pattern, html_content):
                 imagesToCreate[label] = 1
         

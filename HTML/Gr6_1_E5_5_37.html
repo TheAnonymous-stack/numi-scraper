@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Grade 6 Math Exercise - Compare Numbers</title>
-    <style>
-        body {
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Grade 6 Math Exercise - Compare Numbers
+  </title>
+  <style>
+   body {
             font-family: Arial, sans-serif;
             margin: 20px;
             background-color: #f5f5f5;
@@ -27,90 +29,189 @@
             display: inline-block;
             padding: 10px;
         }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="visual-element">
-            <svg height="150" viewBox="0 0 800 150" width="800">
-                <!-- Number line -->
-                <line stroke="#000" stroke-width="2" x1="50" x2="750" y1="75" y2="75"></line>
-                
-                <!-- Tick marks and labels -->
-                <g stroke="#000" stroke-width="1" fill="#000" font-family="Arial" font-size="12" text-anchor="middle">
-                    <line x1="50.0" x2="50.0" y1="70" y2="80"></line>
-                    <text x="50.0" y="95">40</text>
-                    <line x1="67.5" x2="67.5" y1="70" y2="80"></line>
-                    <line x1="85.0" x2="85.0" y1="70" y2="80"></line>
-                    <text x="85.0" y="95">42</text>
-                    <line x1="102.5" x2="102.5" y1="70" y2="80"></line>
-                    <line x1="120.0" x2="120.0" y1="70" y2="80"></line>
-                    <text x="120.0" y="95">44</text>
-                    <line x1="137.5" x2="137.5" y1="70" y2="80"></line>
-                    <text x="137.5" y="95">45</text>
-                    <line x1="155.0" x2="155.0" y1="70" y2="80"></line>
-                    <text x="155.0" y="95">46</text>
-                    <line x1="172.5" x2="172.5" y1="70" y2="80"></line>
-                    <line x1="190.0" x2="190.0" y1="70" y2="80"></line>
-                    <text x="190.0" y="95">48</text>
-                    <line x1="207.5" x2="207.5" y1="70" y2="80"></line>
-                    <line x1="225.0" x2="225.0" y1="70" y2="80"></line>
-                    <text x="225.0" y="95">50</text>
-                    <line x1="242.5" x2="242.5" y1="70" y2="80"></line>
-                    <line x1="260.0" x2="260.0" y1="70" y2="80"></line>
-                    <text x="260.0" y="95">52</text>
-                    <line x1="277.5" x2="277.5" y1="70" y2="80"></line>
-                    <line x1="295.0" x2="295.0" y1="70" y2="80"></line>
-                    <text x="295.0" y="95">54</text>
-                    <line x1="312.5" x2="312.5" y1="70" y2="80"></line>
-                    <text x="312.5" y="95">55</text>
-                    <line x1="330.0" x2="330.0" y1="70" y2="80"></line>
-                    <text x="330.0" y="95">56</text>
-                    <line x1="347.5" x2="347.5" y1="70" y2="80"></line>
-                    <line x1="365.0" x2="365.0" y1="70" y2="80"></line>
-                    <text x="365.0" y="95">58</text>
-                    <line x1="382.5" x2="382.5" y1="70" y2="80"></line>
-                    <line x1="400.0" x2="400.0" y1="70" y2="80"></line>
-                    <text x="400.0" y="95">60</text>
-                    <line x1="417.5" x2="417.5" y1="70" y2="80"></line>
-                    <line x1="435.0" x2="435.0" y1="70" y2="80"></line>
-                    <text x="435.0" y="95">62</text>
-                    <line x1="452.5" x2="452.5" y1="70" y2="80"></line>
-                    <line x1="470.0" x2="470.0" y1="70" y2="80"></line>
-                    <text x="470.0" y="95">64</text>
-                    <line x1="487.5" x2="487.5" y1="70" y2="80"></line>
-                    <text x="487.5" y="95">65</text>
-                    <line x1="505.0" x2="505.0" y1="70" y2="80"></line>
-                    <text x="505.0" y="95">66</text>
-                    <line x1="522.5" x2="522.5" y1="70" y2="80"></line>
-                    <line x1="540.0" x2="540.0" y1="70" y2="80"></line>
-                    <text x="540.0" y="95">68</text>
-                    <line x1="557.5" x2="557.5" y1="70" y2="80"></line>
-                    <line x1="575.0" x2="575.0" y1="70" y2="80"></line>
-                    <text x="575.0" y="95">70</text>
-                    <line x1="592.5" x2="592.5" y1="70" y2="80"></line>
-                    <line x1="610.0" x2="610.0" y1="70" y2="80"></line>
-                    <text x="610.0" y="95">72</text>
-                    <line x1="627.5" x2="627.5" y1="70" y2="80"></line>
-                    <line x1="645.0" x2="645.0" y1="70" y2="80"></line>
-                    <text x="645.0" y="95">74</text>
-                    <line x1="662.5" x2="662.5" y1="70" y2="80"></line>
-                    <text x="662.5" y="95">75</text>
-                    <line x1="680.0" x2="680.0" y1="70" y2="80"></line>
-                    <text x="680.0" y="95">76</text>
-                    <line x1="697.5" x2="697.5" y1="70" y2="80"></line>
-                    <line x1="715.0" x2="715.0" y1="70" y2="80"></line>
-                    <text x="715.0" y="95">78</text>
-                    <line x1="732.5" x2="732.5" y1="70" y2="80"></line>
-                    <line x1="750.0" x2="750.0" y1="70" y2="80"></line>
-                    <text x="750.0" y="95">80</text>
-                    <circle cx="85.0" cy="75" r="8" fill="#4CAF50" stroke="#000" stroke-width="2"></circle>
-                    <text x="85.0" y="55" font-size="14" font-weight="bold" fill="#4CAF50">42</text>
-                    <circle cx="627.5" cy="75" r="8" fill="#2196F3" stroke="#000" stroke-width="2"></circle>
-                    <text x="627.5" y="120" font-size="14" font-weight="bold" fill="#2196F3">73</text>
-                </g>
-            </svg>
-        </div>
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="visual-element">
+    <div class="visual-element item" label="Gr5_1_5_37_step_1">
+     <svg height="150" viewbox="0 0 800 150" width="800">
+      <!-- Number line -->
+      <line stroke="#000" stroke-width="2" x1="50" x2="750" y1="75" y2="75">
+      </line>
+      <!-- Tick marks and labels -->
+      <g fill="#000" font-family="Arial" font-size="12" stroke="#000" stroke-width="1" text-anchor="middle">
+       <line x1="50.0" x2="50.0" y1="70" y2="80">
+       </line>
+       <text x="50.0" y="95">
+        40
+       </text>
+       <line x1="67.5" x2="67.5" y1="70" y2="80">
+       </line>
+       <line x1="85.0" x2="85.0" y1="70" y2="80">
+       </line>
+       <text x="85.0" y="95">
+        42
+       </text>
+       <line x1="102.5" x2="102.5" y1="70" y2="80">
+       </line>
+       <line x1="120.0" x2="120.0" y1="70" y2="80">
+       </line>
+       <text x="120.0" y="95">
+        44
+       </text>
+       <line x1="137.5" x2="137.5" y1="70" y2="80">
+       </line>
+       <text x="137.5" y="95">
+        45
+       </text>
+       <line x1="155.0" x2="155.0" y1="70" y2="80">
+       </line>
+       <text x="155.0" y="95">
+        46
+       </text>
+       <line x1="172.5" x2="172.5" y1="70" y2="80">
+       </line>
+       <line x1="190.0" x2="190.0" y1="70" y2="80">
+       </line>
+       <text x="190.0" y="95">
+        48
+       </text>
+       <line x1="207.5" x2="207.5" y1="70" y2="80">
+       </line>
+       <line x1="225.0" x2="225.0" y1="70" y2="80">
+       </line>
+       <text x="225.0" y="95">
+        50
+       </text>
+       <line x1="242.5" x2="242.5" y1="70" y2="80">
+       </line>
+       <line x1="260.0" x2="260.0" y1="70" y2="80">
+       </line>
+       <text x="260.0" y="95">
+        52
+       </text>
+       <line x1="277.5" x2="277.5" y1="70" y2="80">
+       </line>
+       <line x1="295.0" x2="295.0" y1="70" y2="80">
+       </line>
+       <text x="295.0" y="95">
+        54
+       </text>
+       <line x1="312.5" x2="312.5" y1="70" y2="80">
+       </line>
+       <text x="312.5" y="95">
+        55
+       </text>
+       <line x1="330.0" x2="330.0" y1="70" y2="80">
+       </line>
+       <text x="330.0" y="95">
+        56
+       </text>
+       <line x1="347.5" x2="347.5" y1="70" y2="80">
+       </line>
+       <line x1="365.0" x2="365.0" y1="70" y2="80">
+       </line>
+       <text x="365.0" y="95">
+        58
+       </text>
+       <line x1="382.5" x2="382.5" y1="70" y2="80">
+       </line>
+       <line x1="400.0" x2="400.0" y1="70" y2="80">
+       </line>
+       <text x="400.0" y="95">
+        60
+       </text>
+       <line x1="417.5" x2="417.5" y1="70" y2="80">
+       </line>
+       <line x1="435.0" x2="435.0" y1="70" y2="80">
+       </line>
+       <text x="435.0" y="95">
+        62
+       </text>
+       <line x1="452.5" x2="452.5" y1="70" y2="80">
+       </line>
+       <line x1="470.0" x2="470.0" y1="70" y2="80">
+       </line>
+       <text x="470.0" y="95">
+        64
+       </text>
+       <line x1="487.5" x2="487.5" y1="70" y2="80">
+       </line>
+       <text x="487.5" y="95">
+        65
+       </text>
+       <line x1="505.0" x2="505.0" y1="70" y2="80">
+       </line>
+       <text x="505.0" y="95">
+        66
+       </text>
+       <line x1="522.5" x2="522.5" y1="70" y2="80">
+       </line>
+       <line x1="540.0" x2="540.0" y1="70" y2="80">
+       </line>
+       <text x="540.0" y="95">
+        68
+       </text>
+       <line x1="557.5" x2="557.5" y1="70" y2="80">
+       </line>
+       <line x1="575.0" x2="575.0" y1="70" y2="80">
+       </line>
+       <text x="575.0" y="95">
+        70
+       </text>
+       <line x1="592.5" x2="592.5" y1="70" y2="80">
+       </line>
+       <line x1="610.0" x2="610.0" y1="70" y2="80">
+       </line>
+       <text x="610.0" y="95">
+        72
+       </text>
+       <line x1="627.5" x2="627.5" y1="70" y2="80">
+       </line>
+       <line x1="645.0" x2="645.0" y1="70" y2="80">
+       </line>
+       <text x="645.0" y="95">
+        74
+       </text>
+       <line x1="662.5" x2="662.5" y1="70" y2="80">
+       </line>
+       <text x="662.5" y="95">
+        75
+       </text>
+       <line x1="680.0" x2="680.0" y1="70" y2="80">
+       </line>
+       <text x="680.0" y="95">
+        76
+       </text>
+       <line x1="697.5" x2="697.5" y1="70" y2="80">
+       </line>
+       <line x1="715.0" x2="715.0" y1="70" y2="80">
+       </line>
+       <text x="715.0" y="95">
+        78
+       </text>
+       <line x1="732.5" x2="732.5" y1="70" y2="80">
+       </line>
+       <line x1="750.0" x2="750.0" y1="70" y2="80">
+       </line>
+       <text x="750.0" y="95">
+        80
+       </text>
+       <circle cx="85.0" cy="75" fill="#4CAF50" r="8" stroke="#000" stroke-width="2">
+       </circle>
+       <text fill="#4CAF50" font-size="14" font-weight="bold" x="85.0" y="55">
+        42
+       </text>
+       <circle cx="627.5" cy="75" fill="#2196F3" r="8" stroke="#000" stroke-width="2">
+       </circle>
+       <text fill="#2196F3" font-size="14" font-weight="bold" x="627.5" y="120">
+        73
+       </text>
+      </g>
+     </svg>
     </div>
-</body>
+   </div>
+  </div>
+ </body>
 </html>

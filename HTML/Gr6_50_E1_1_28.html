@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <style>
-        body {
+ <head>
+  <style>
+   body {
             font-family: Arial, sans-serif;
             padding: 20px;
             max-width: 800px;
@@ -17,79 +17,134 @@
             margin: 20px 0;
             text-align: center;
         }
-    </style>
-</head>
-<body>
-    <div class="question">What is the measurement of the angle shown on the protractor?</div>
-    
-    <div class="protractor-container">
-        <svg width="400" height="250" viewBox="0 0 400 250">
-            <!-- Protractor background -->
-            <path d="M 60 200 A 140 140 0 0 1 340 200 Z" fill="#f9f9f9" stroke="black" stroke-width="2"/>
-            
-            <!-- Degree markings -->
-            <line x1="340" y1="200" x2="330" y2="200" stroke="black" stroke-width="1.5"/>
-            <text x="355" y="204" font-size="11" text-anchor="middle">0°</text>
-            <line x1="339" y1="188" x2="334" y2="188" stroke="black" stroke-width="0.5"/>
-            <line x1="338" y1="176" x2="328" y2="177" stroke="black" stroke-width="1.5"/>
-            <line x1="335" y1="164" x2="330" y2="165" stroke="black" stroke-width="0.5"/>
-            <line x1="332" y1="152" x2="322" y2="156" stroke="black" stroke-width="1.5"/>
-            <line x1="327" y1="141" x2="322" y2="143" stroke="black" stroke-width="0.5"/>
-            <line x1="321" y1="130" x2="313" y2="135" stroke="black" stroke-width="1.5"/>
-            <text x="334" y="127" font-size="11" text-anchor="middle">30°</text>
-            <line x1="315" y1="120" x2="311" y2="123" stroke="black" stroke-width="0.5"/>
-            <line x1="307" y1="110" x2="300" y2="116" stroke="black" stroke-width="1.5"/>
-            <line x1="299" y1="101" x2="295" y2="105" stroke="black" stroke-width="0.5"/>
-            <line x1="290" y1="93" x2="284" y2="100" stroke="black" stroke-width="1.5"/>
-            <line x1="280" y1="85" x2="277" y2="89" stroke="black" stroke-width="0.5"/>
-            <line x1="270" y1="79" x2="265" y2="87" stroke="black" stroke-width="1.5"/>
-            <text x="278" y="70" font-size="11" text-anchor="middle">60°</text>
-            <line x1="259" y1="73" x2="257" y2="78" stroke="black" stroke-width="0.5"/>
-            <line x1="248" y1="68" x2="244" y2="78" stroke="black" stroke-width="1.5"/>
-            <line x1="236" y1="65" x2="235" y2="70" stroke="black" stroke-width="0.5"/>
-            <line x1="224" y1="62" x2="223" y2="72" stroke="black" stroke-width="1.5"/>
-            <line x1="212" y1="61" x2="212" y2="66" stroke="black" stroke-width="0.5"/>
-            <line x1="200" y1="60" x2="200" y2="70" stroke="black" stroke-width="1.5"/>
-            <text x="200" y="49" font-size="11" text-anchor="middle">90°</text>
-            <line x1="188" y1="61" x2="188" y2="66" stroke="black" stroke-width="0.5"/>
-            <line x1="176" y1="62" x2="177" y2="72" stroke="black" stroke-width="1.5"/>
-            <line x1="164" y1="65" x2="165" y2="70" stroke="black" stroke-width="0.5"/>
-            <line x1="152" y1="68" x2="156" y2="78" stroke="black" stroke-width="1.5"/>
-            <line x1="141" y1="73" x2="143" y2="78" stroke="black" stroke-width="0.5"/>
-            <line x1="130" y1="79" x2="135" y2="87" stroke="black" stroke-width="1.5"/>
-            <text x="123" y="70" font-size="11" text-anchor="middle">120°</text>
-            <line x1="120" y1="85" x2="123" y2="89" stroke="black" stroke-width="0.5"/>
-            <line x1="110" y1="93" x2="116" y2="100" stroke="black" stroke-width="1.5"/>
-            <line x1="101" y1="101" x2="105" y2="105" stroke="black" stroke-width="0.5"/>
-            <line x1="93" y1="110" x2="100" y2="116" stroke="black" stroke-width="1.5"/>
-            <line x1="85" y1="120" x2="89" y2="123" stroke="black" stroke-width="0.5"/>
-            <line x1="79" y1="130" x2="87" y2="135" stroke="black" stroke-width="1.5"/>
-            <text x="66" y="127" font-size="11" text-anchor="middle">150°</text>
-            <line x1="73" y1="141" x2="78" y2="143" stroke="black" stroke-width="0.5"/>
-            <line x1="68" y1="152" x2="78" y2="156" stroke="black" stroke-width="1.5"/>
-            <line x1="65" y1="164" x2="70" y2="165" stroke="black" stroke-width="0.5"/>
-            <line x1="62" y1="176" x2="72" y2="177" stroke="black" stroke-width="1.5"/>
-            <line x1="61" y1="188" x2="66" y2="188" stroke="black" stroke-width="0.5"/>
-            <line x1="60" y1="200" x2="70" y2="200" stroke="black" stroke-width="1.5"/>
-            <text x="45" y="204" font-size="11" text-anchor="middle">180°</text>
-            
-            <!-- Center point -->
-            <circle cx="200" cy="200" r="4" fill="black"/>
-            
-            <!-- Base ray -->
-            <line x1="200" y1="200" x2="340" y2="200" stroke="blue" stroke-width="3"/>
-            
-            <!-- Angle ray -->
-            <line x1="200" y1="200" x2="212" y2="61" stroke="blue" stroke-width="3"/>
-            
-            <!-- Angle arc -->
-            <path d="M 260 200 A 60 60 0 0 0 205 140" 
-                  fill="none" stroke="red" stroke-width="2.5"/>
-            
-            <!-- Angle measurement display -->
-            <rect x="160" y="220" width="80" height="25" fill="white" stroke="black" stroke-width="1" rx="3"/>
-            <text x="200" y="237" font-size="16" font-weight="bold" text-anchor="middle">85°</text>
-        </svg>
-    </div>
-</body>
+  </style>
+ </head>
+ <body>
+  <div class="question">
+   What is the measurement of the angle shown on the protractor?
+  </div>
+  <div class="protractor-container">
+   <div class="visual-element item" label="Gr6_50_1_29">
+    <svg height="250" viewbox="0 0 400 250" width="400">
+     <!-- Protractor background -->
+     <path d="M 60 200 A 140 140 0 0 1 340 200 Z" fill="#f9f9f9" stroke="black" stroke-width="2">
+     </path>
+     <!-- Degree markings -->
+     <line stroke="black" stroke-width="1.5" x1="340" x2="330" y1="200" y2="200">
+     </line>
+     <text font-size="11" text-anchor="middle" x="355" y="204">
+      0°
+     </text>
+     <line stroke="black" stroke-width="0.5" x1="339" x2="334" y1="188" y2="188">
+     </line>
+     <line stroke="black" stroke-width="1.5" x1="338" x2="328" y1="176" y2="177">
+     </line>
+     <line stroke="black" stroke-width="0.5" x1="335" x2="330" y1="164" y2="165">
+     </line>
+     <line stroke="black" stroke-width="1.5" x1="332" x2="322" y1="152" y2="156">
+     </line>
+     <line stroke="black" stroke-width="0.5" x1="327" x2="322" y1="141" y2="143">
+     </line>
+     <line stroke="black" stroke-width="1.5" x1="321" x2="313" y1="130" y2="135">
+     </line>
+     <text font-size="11" text-anchor="middle" x="334" y="127">
+      30°
+     </text>
+     <line stroke="black" stroke-width="0.5" x1="315" x2="311" y1="120" y2="123">
+     </line>
+     <line stroke="black" stroke-width="1.5" x1="307" x2="300" y1="110" y2="116">
+     </line>
+     <line stroke="black" stroke-width="0.5" x1="299" x2="295" y1="101" y2="105">
+     </line>
+     <line stroke="black" stroke-width="1.5" x1="290" x2="284" y1="93" y2="100">
+     </line>
+     <line stroke="black" stroke-width="0.5" x1="280" x2="277" y1="85" y2="89">
+     </line>
+     <line stroke="black" stroke-width="1.5" x1="270" x2="265" y1="79" y2="87">
+     </line>
+     <text font-size="11" text-anchor="middle" x="278" y="70">
+      60°
+     </text>
+     <line stroke="black" stroke-width="0.5" x1="259" x2="257" y1="73" y2="78">
+     </line>
+     <line stroke="black" stroke-width="1.5" x1="248" x2="244" y1="68" y2="78">
+     </line>
+     <line stroke="black" stroke-width="0.5" x1="236" x2="235" y1="65" y2="70">
+     </line>
+     <line stroke="black" stroke-width="1.5" x1="224" x2="223" y1="62" y2="72">
+     </line>
+     <line stroke="black" stroke-width="0.5" x1="212" x2="212" y1="61" y2="66">
+     </line>
+     <line stroke="black" stroke-width="1.5" x1="200" x2="200" y1="60" y2="70">
+     </line>
+     <text font-size="11" text-anchor="middle" x="200" y="49">
+      90°
+     </text>
+     <line stroke="black" stroke-width="0.5" x1="188" x2="188" y1="61" y2="66">
+     </line>
+     <line stroke="black" stroke-width="1.5" x1="176" x2="177" y1="62" y2="72">
+     </line>
+     <line stroke="black" stroke-width="0.5" x1="164" x2="165" y1="65" y2="70">
+     </line>
+     <line stroke="black" stroke-width="1.5" x1="152" x2="156" y1="68" y2="78">
+     </line>
+     <line stroke="black" stroke-width="0.5" x1="141" x2="143" y1="73" y2="78">
+     </line>
+     <line stroke="black" stroke-width="1.5" x1="130" x2="135" y1="79" y2="87">
+     </line>
+     <text font-size="11" text-anchor="middle" x="123" y="70">
+      120°
+     </text>
+     <line stroke="black" stroke-width="0.5" x1="120" x2="123" y1="85" y2="89">
+     </line>
+     <line stroke="black" stroke-width="1.5" x1="110" x2="116" y1="93" y2="100">
+     </line>
+     <line stroke="black" stroke-width="0.5" x1="101" x2="105" y1="101" y2="105">
+     </line>
+     <line stroke="black" stroke-width="1.5" x1="93" x2="100" y1="110" y2="116">
+     </line>
+     <line stroke="black" stroke-width="0.5" x1="85" x2="89" y1="120" y2="123">
+     </line>
+     <line stroke="black" stroke-width="1.5" x1="79" x2="87" y1="130" y2="135">
+     </line>
+     <text font-size="11" text-anchor="middle" x="66" y="127">
+      150°
+     </text>
+     <line stroke="black" stroke-width="0.5" x1="73" x2="78" y1="141" y2="143">
+     </line>
+     <line stroke="black" stroke-width="1.5" x1="68" x2="78" y1="152" y2="156">
+     </line>
+     <line stroke="black" stroke-width="0.5" x1="65" x2="70" y1="164" y2="165">
+     </line>
+     <line stroke="black" stroke-width="1.5" x1="62" x2="72" y1="176" y2="177">
+     </line>
+     <line stroke="black" stroke-width="0.5" x1="61" x2="66" y1="188" y2="188">
+     </line>
+     <line stroke="black" stroke-width="1.5" x1="60" x2="70" y1="200" y2="200">
+     </line>
+     <text font-size="11" text-anchor="middle" x="45" y="204">
+      180°
+     </text>
+     <!-- Center point -->
+     <circle cx="200" cy="200" fill="black" r="4">
+     </circle>
+     <!-- Base ray -->
+     <line stroke="blue" stroke-width="3" x1="200" x2="340" y1="200" y2="200">
+     </line>
+     <!-- Angle ray -->
+     <line stroke="blue" stroke-width="3" x1="200" x2="212" y1="200" y2="61">
+     </line>
+     <!-- Angle arc -->
+     <path d="M 260 200 A 60 60 0 0 0 205 140" fill="none" stroke="red" stroke-width="2.5">
+     </path>
+     <!-- Angle measurement display -->
+     <rect fill="white" height="25" rx="3" stroke="black" stroke-width="1" width="80" x="160" y="220">
+     </rect>
+     <text font-size="16" font-weight="bold" text-anchor="middle" x="200" y="237">
+      85°
+     </text>
+    </svg>
+   </div>
+  </div>
+ </body>
 </html>

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <style>
-        body {
+ <head>
+  <style>
+   body {
             font-family: Arial, sans-serif;
             padding: 20px;
             max-width: 800px;
@@ -22,52 +22,60 @@
             margin-top: 15px;
             color: #333;
         }
-    </style>
-</head>
-<body>
-    <div class="question">In this heptagon, the angles are 170, 108, 111, 128, 133° and one angle marked as y. Find y.
-y = °</div>
-    
-    <div class="polygon-container">
-        <svg width="400" height="300" viewBox="0 0 400 300">
-            <!-- Heptagon with 7 sides -->
-            <polygon points="200,50 278,88 297,172 243,240 157,240 103,172 122,88" fill="lightyellow" fill-opacity="0.3" stroke="black" stroke-width="2"/>
-            
-            <!-- Angle labels and vertices -->
-            
-                <circle cx="200" cy="50" r="3" fill="black"/>
-                <text x="200" y="80" font-size="14" text-anchor="middle" fill="black">
-                    170°
-                </text>
-                <circle cx="278" cy="88" r="3" fill="black"/>
-                <text x="255" y="106" font-size="14" text-anchor="middle" fill="black">
-                    108°
-                </text>
-                <circle cx="297" cy="172" r="3" fill="black"/>
-                <text x="268" y="166" font-size="14" text-anchor="middle" fill="black">
-                    111°
-                </text>
-                <circle cx="243" cy="240" r="3" fill="black"/>
-                <text x="230" y="213" font-size="14" text-anchor="middle" fill="black">
-                    128°
-                </text>
-                <circle cx="157" cy="240" r="3" fill="black"/>
-                <text x="170" y="213" font-size="14" text-anchor="middle" fill="black">
-                    133°
-                </text>
-                <circle cx="103" cy="172" r="3" fill="black"/>
-                <text x="132" y="166" font-size="14" text-anchor="middle" fill="black">
-                    134°
-                </text>
-                <circle cx="122" cy="88" r="3" fill="red"/>
-                <text x="145" y="106" font-size="16" text-anchor="middle" fill="red" font-weight="bold">
-                    y
-                </text>
-        </svg>
-    </div>
-    
-    <div class="given-angles">
-        Given angles: 170°, 108°, 111°, 128°, 133°, 134°
-    </div>
-</body>
+  </style>
+ </head>
+ <body>
+  <div class="question">
+   In this heptagon, the angles are 170, 108, 111, 128, 133° and one angle marked as y. Find y.
+y = °
+  </div>
+  <div class="polygon-container">
+   <div class="visual-element item" label="Gr6_51_1_4">
+    <svg height="300" viewbox="0 0 400 300" width="400">
+     <!-- Heptagon with 7 sides -->
+     <polygon fill="lightyellow" fill-opacity="0.3" points="200,50 278,88 297,172 243,240 157,240 103,172 122,88" stroke="black" stroke-width="2">
+     </polygon>
+     <!-- Angle labels and vertices -->
+     <circle cx="200" cy="50" fill="black" r="3">
+     </circle>
+     <text fill="black" font-size="14" text-anchor="middle" x="200" y="80">
+      170°
+     </text>
+     <circle cx="278" cy="88" fill="black" r="3">
+     </circle>
+     <text fill="black" font-size="14" text-anchor="middle" x="255" y="106">
+      108°
+     </text>
+     <circle cx="297" cy="172" fill="black" r="3">
+     </circle>
+     <text fill="black" font-size="14" text-anchor="middle" x="268" y="166">
+      111°
+     </text>
+     <circle cx="243" cy="240" fill="black" r="3">
+     </circle>
+     <text fill="black" font-size="14" text-anchor="middle" x="230" y="213">
+      128°
+     </text>
+     <circle cx="157" cy="240" fill="black" r="3">
+     </circle>
+     <text fill="black" font-size="14" text-anchor="middle" x="170" y="213">
+      133°
+     </text>
+     <circle cx="103" cy="172" fill="black" r="3">
+     </circle>
+     <text fill="black" font-size="14" text-anchor="middle" x="132" y="166">
+      134°
+     </text>
+     <circle cx="122" cy="88" fill="red" r="3">
+     </circle>
+     <text fill="red" font-size="16" font-weight="bold" text-anchor="middle" x="145" y="106">
+      y
+     </text>
+    </svg>
+   </div>
+  </div>
+  <div class="given-angles">
+   Given angles: 170°, 108°, 111°, 128°, 133°, 134°
+  </div>
+ </body>
 </html>

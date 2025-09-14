@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <style>
-        body {
+ <head>
+  <style>
+   body {
             font-family: Arial, sans-serif;
             padding: 20px;
             max-width: 800px;
@@ -22,42 +22,42 @@
             color: #666;
             margin-top: 15px;
         }
-    </style>
-</head>
-<body>
-    <div class="question">What is the sum of the exterior angle measures of this heptagon?</div>
-    
-    <div class="polygon-container">
-        <svg width="400" height="300" viewBox="0 0 400 300">
-            <!-- Heptagon -->
-            <polygon points="200,70 263,100 278,168 235,222 165,222 122,168 137,100" fill="lightblue" fill-opacity="0.3" stroke="black" stroke-width="2"/>
-            
-            <!-- Exterior angle indicators -->
-            
-            <path d="M 190 70 A 15 15 0 0 1 200 60" 
-                  fill="none" stroke="red" stroke-width="1.5" opacity="0.7"/>
-            <path d="M 253 100 A 15 15 0 0 1 263 90" 
-                  fill="none" stroke="red" stroke-width="1.5" opacity="0.7"/>
-            <path d="M 268 168 A 15 15 0 0 1 278 158" 
-                  fill="none" stroke="red" stroke-width="1.5" opacity="0.7"/>
-            <path d="M 225 222 A 15 15 0 0 1 235 212" 
-                  fill="none" stroke="red" stroke-width="1.5" opacity="0.7"/>
-            <path d="M 155 222 A 15 15 0 0 1 165 212" 
-                  fill="none" stroke="red" stroke-width="1.5" opacity="0.7"/>
-            <path d="M 112 168 A 15 15 0 0 1 122 158" 
-                  fill="none" stroke="red" stroke-width="1.5" opacity="0.7"/>
-            <path d="M 127 100 A 15 15 0 0 1 137 90" 
-                  fill="none" stroke="red" stroke-width="1.5" opacity="0.7"/>
-            
-            <!-- Label -->
-            <text x="200" y="250" font-size="16" text-anchor="middle" font-weight="bold">
-                Sum of exterior angles = 360°
-            </text>
-        </svg>
-    </div>
-    
-    <div class="info">
-        For any convex polygon, the sum of exterior angles is always 360°
-    </div>
-</body>
+  </style>
+ </head>
+ <body>
+  <div class="question">
+   What is the sum of the exterior angle measures of this heptagon?
+  </div>
+  <div class="polygon-container">
+   <div class="visual-element item" label="Gr6_51_2_2">
+    <svg height="300" viewbox="0 0 400 300" width="400">
+     <!-- Heptagon -->
+     <polygon fill="lightblue" fill-opacity="0.3" points="200,70 263,100 278,168 235,222 165,222 122,168 137,100" stroke="black" stroke-width="2">
+     </polygon>
+     <!-- Exterior angle indicators -->
+     <path d="M 190 70 A 15 15 0 0 1 200 60" fill="none" opacity="0.7" stroke="red" stroke-width="1.5">
+     </path>
+     <path d="M 253 100 A 15 15 0 0 1 263 90" fill="none" opacity="0.7" stroke="red" stroke-width="1.5">
+     </path>
+     <path d="M 268 168 A 15 15 0 0 1 278 158" fill="none" opacity="0.7" stroke="red" stroke-width="1.5">
+     </path>
+     <path d="M 225 222 A 15 15 0 0 1 235 212" fill="none" opacity="0.7" stroke="red" stroke-width="1.5">
+     </path>
+     <path d="M 155 222 A 15 15 0 0 1 165 212" fill="none" opacity="0.7" stroke="red" stroke-width="1.5">
+     </path>
+     <path d="M 112 168 A 15 15 0 0 1 122 158" fill="none" opacity="0.7" stroke="red" stroke-width="1.5">
+     </path>
+     <path d="M 127 100 A 15 15 0 0 1 137 90" fill="none" opacity="0.7" stroke="red" stroke-width="1.5">
+     </path>
+     <!-- Label -->
+     <text font-size="16" font-weight="bold" text-anchor="middle" x="200" y="250">
+      Sum of exterior angles = 360°
+     </text>
+    </svg>
+   </div>
+  </div>
+  <div class="info">
+   For any convex polygon, the sum of exterior angles is always 360°
+  </div>
+ </body>
 </html>
