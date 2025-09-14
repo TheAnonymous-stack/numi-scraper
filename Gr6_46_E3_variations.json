@@ -3,18 +3,61 @@
     {
       "skills": "front-side-and-top-view",
       "question_text": "Look at the 3D object below made of cubes. When viewing from the front (facing the object directly), which 2D grid shows what you would see?=_",
-      "image_tag": "Gr6_46_3_2",
+      "image_tag": "Gr6_46_3_1",
       "backend_description": "The image shows a 3D rectangular prism made up of small pink and purple cubes. The prism has a length of 8 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
       "tag": "Gr6_46_E3",
       "question_number": "3_1",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "image_choice_tags": [
+        "Gr6_46_3_1_A",
+        "Gr6_46_3_1_B"
+      ],
+      "image_choice_backend_description": [
+        "The image shows a flat 2D grid made up of 8 rows and 2 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 9 rows and 2 columns of colored squares."
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution_image_tag": [
+        [
+          "1/2",
+          "Gr6_46_3_1_step_1",
+          "The image shows a 3D rectangular prism made up of small pink and purple cubes. The prism has a length of 3 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 2 cubes from left to right. The top face shows a 3 by 2 arrangement of pink cubes, and the top face is highlighted with a bold black border."
+        ],
+        [
+          "2/2",
+          "Gr6_46_3_1_step_2",
+          "The image shows a flat 2D grid made up of 3 rows and 2 columns of pink squares, arranged in a 3 by 2 layout."
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "Imagine you are looking at this object from the top. You will see the squares highlighted below:"
+        ],
+        [
+          "2/2",
+          "If you look at this object from the front, you will see:"
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "skills": "front-side-and-top-view",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the top (looking down at the object), which 2D grid shows what you would see?=_",
+      "image_tag": "Gr6_46_3_2",
+      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 3 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 6 cubes from left to right.",
+      "tag": "Gr6_46_E3",
+      "question_number": "3_2",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_2_A",
         "Gr6_46_3_2_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 8 rows and 2 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 9 rows and 2 columns of colored squares."
+        "The image shows a flat 2D grid made up of 3 rows and 6 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 3 rows and 7 columns of colored squares."
       ],
       "correct_answers": [
         "A"
@@ -38,7 +81,7 @@
         ],
         [
           "2/2",
-          "If you look at this object from the front, you will see:"
+          "If you look at this object from the top, you will see:"
         ]
       ],
       "has_alternate_answers": false
@@ -47,20 +90,20 @@
       "skills": "front-side-and-top-view",
       "question_text": "Look at the 3D object below made of cubes. When viewing from the top (looking down at the object), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_3",
-      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 3 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 6 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small cyan and magenta cubes. The prism has a length of 4 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 5 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_2",
+      "question_number": "3_3",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_3_A",
         "Gr6_46_3_3_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 3 rows and 6 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 3 rows and 7 columns of colored squares."
+        "The image shows a flat 2D grid made up of 5 rows and 5 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 4 rows and 5 columns of colored squares."
       ],
       "correct_answers": [
-        "A"
+        "B"
       ],
       "solution_image_tag": [
         [
@@ -88,19 +131,19 @@
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the top (looking down at the object), which 2D grid shows what you would see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the side (looking at the object from the right), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_4",
-      "backend_description": "The image shows a 3D rectangular prism made up of small cyan and magenta cubes. The prism has a length of 4 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 5 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 8 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 2 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_3",
+      "question_number": "3_4",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_4_A",
         "Gr6_46_3_4_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 5 rows and 5 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 4 rows and 5 columns of colored squares."
+        "The image shows a flat 2D grid made up of 2 rows and 3 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 2 rows and 2 columns of colored squares."
       ],
       "correct_answers": [
         "B"
@@ -124,7 +167,7 @@
         ],
         [
           "2/2",
-          "If you look at this object from the top, you will see:"
+          "If you look at this object from the side, you will see:"
         ]
       ],
       "has_alternate_answers": false
@@ -133,20 +176,20 @@
       "skills": "front-side-and-top-view",
       "question_text": "Look at the 3D object below made of cubes. When viewing from the side (looking at the object from the right), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_5",
-      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 8 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 2 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small blue and green cubes. The prism has a length of 4 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_4",
+      "question_number": "3_5",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_5_A",
         "Gr6_46_3_5_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 2 rows and 3 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 2 rows and 2 columns of colored squares."
+        "The image shows a flat 2D grid made up of 3 rows and 2 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 4 rows and 2 columns of colored squares."
       ],
       "correct_answers": [
-        "B"
+        "A"
       ],
       "solution_image_tag": [
         [
@@ -174,19 +217,19 @@
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the side (looking at the object from the right), which 2D grid shows what you would see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the front (facing the object directly), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_6",
-      "backend_description": "The image shows a 3D rectangular prism made up of small blue and green cubes. The prism has a length of 4 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
+      "backend_description": "The image shows a 3D cube tower made up of small cyan and magenta cubes. The prism has a length of 2 cubes from front to back, a height of 5 cubes from bottom to top, and a width of 2 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_5",
+      "question_number": "3_6",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_6_A",
         "Gr6_46_3_6_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 3 rows and 2 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 4 rows and 2 columns of colored squares."
+        "The image shows a flat 2D grid made up of 2 rows and 5 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 2 rows and 6 columns of colored squares."
       ],
       "correct_answers": [
         "A"
@@ -210,26 +253,26 @@
         ],
         [
           "2/2",
-          "If you look at this object from the side, you will see:"
+          "If you look at this object from the front, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the front (facing the object directly), which 2D grid shows what you would see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the top (looking down at the object), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_7",
-      "backend_description": "The image shows a 3D cube tower made up of small cyan and magenta cubes. The prism has a length of 2 cubes from front to back, a height of 5 cubes from bottom to top, and a width of 2 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 8 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_6",
+      "question_number": "3_7",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_7_A",
         "Gr6_46_3_7_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 2 rows and 5 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 2 rows and 6 columns of colored squares."
+        "The image shows a flat 2D grid made up of 8 rows and 3 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 9 rows and 3 columns of colored squares."
       ],
       "correct_answers": [
         "A"
@@ -253,29 +296,29 @@
         ],
         [
           "2/2",
-          "If you look at this object from the front, you will see:"
+          "If you look at this object from the top, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the top (looking down at the object), which 2D grid shows what you would see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the front (facing the object directly), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_8",
-      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 8 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
+      "backend_description": "The image shows a 3D cube arrangement made up of small orange and gray cubes. The prism has a length of 4 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 6 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_7",
+      "question_number": "3_8",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_8_A",
         "Gr6_46_3_8_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 8 rows and 3 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 9 rows and 3 columns of colored squares."
+        "The image shows a flat 2D grid made up of 4 rows and 3 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 4 rows and 2 columns of colored squares."
       ],
       "correct_answers": [
-        "A"
+        "B"
       ],
       "solution_image_tag": [
         [
@@ -296,29 +339,29 @@
         ],
         [
           "2/2",
-          "If you look at this object from the top, you will see:"
+          "If you look at this object from the front, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the front (facing the object directly), which 2D grid shows what you would see?=_",
+      "question_text": "If you look at this object from the bottom, what will you see?=_",
       "image_tag": "Gr6_46_3_9",
-      "backend_description": "The image shows a 3D cube arrangement made up of small orange and gray cubes. The prism has a length of 4 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 6 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small pink and purple cubes. The prism has a length of 3 cubes from front to back, a height of 4 cubes from bottom to top, and a width of 3 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_8",
+      "question_number": "3_9",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_9_A",
         "Gr6_46_3_9_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 4 rows and 3 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 4 rows and 2 columns of colored squares."
+        "The image shows a flat 2D grid made up of 3 rows and 4 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 4 rows and 4 columns of colored squares."
       ],
       "correct_answers": [
-        "B"
+        "A"
       ],
       "solution_image_tag": [
         [
@@ -339,26 +382,26 @@
         ],
         [
           "2/2",
-          "If you look at this object from the front, you will see:"
+          "If you look at this object from the bottom, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "If you look at this object from the bottom, what will you see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the side (looking at the object from the right), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_10",
-      "backend_description": "The image shows a 3D rectangular prism made up of small pink and purple cubes. The prism has a length of 3 cubes from front to back, a height of 4 cubes from bottom to top, and a width of 3 cubes from left to right.",
+      "backend_description": "The image shows a 3D cube tower made up of small blue and green cubes. The prism has a length of 4 cubes from front to back, a height of 4 cubes from bottom to top, and a width of 4 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_9",
+      "question_number": "3_10",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_10_A",
         "Gr6_46_3_10_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 3 rows and 4 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 4 rows and 4 columns of colored squares."
+        "The image shows a flat 2D grid made up of 4 rows and 4 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 4 rows and 5 columns of colored squares."
       ],
       "correct_answers": [
         "A"
@@ -382,7 +425,7 @@
         ],
         [
           "2/2",
-          "If you look at this object from the bottom, you will see:"
+          "If you look at this object from the side, you will see:"
         ]
       ],
       "has_alternate_answers": false
@@ -391,17 +434,17 @@
       "skills": "front-side-and-top-view",
       "question_text": "Look at the 3D object below made of cubes. When viewing from the side (looking at the object from the right), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_11",
-      "backend_description": "The image shows a 3D cube tower made up of small blue and green cubes. The prism has a length of 4 cubes from front to back, a height of 4 cubes from bottom to top, and a width of 4 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small orange and gray cubes. The prism has a length of 4 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 5 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_10",
+      "question_number": "3_11",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_11_A",
         "Gr6_46_3_11_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 4 rows and 4 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 4 rows and 5 columns of colored squares."
+        "The image shows a flat 2D grid made up of 5 rows and 2 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 6 rows and 2 columns of colored squares."
       ],
       "correct_answers": [
         "A"
@@ -432,22 +475,22 @@
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the side (looking at the object from the right), which 2D grid shows what you would see?=_",
+      "question_text": "If you look at this object from the left side, what will you see?=_",
       "image_tag": "Gr6_46_3_12",
-      "backend_description": "The image shows a 3D rectangular prism made up of small orange and gray cubes. The prism has a length of 4 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 5 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small pink and purple cubes. The prism has a length of 6 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 2 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_11",
+      "question_number": "3_12",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_12_A",
         "Gr6_46_3_12_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 5 rows and 2 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 6 rows and 2 columns of colored squares."
+        "The image shows a flat 2D grid made up of 2 rows and 3 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 2 rows and 2 columns of colored squares."
       ],
       "correct_answers": [
-        "A"
+        "B"
       ],
       "solution_image_tag": [
         [
@@ -468,26 +511,26 @@
         ],
         [
           "2/2",
-          "If you look at this object from the side, you will see:"
+          "If you look at this object from the left side, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "If you look at this object from the left side, what will you see?=_",
+      "question_text": "If you look at this object from the right side, what will you see?=_",
       "image_tag": "Gr6_46_3_13",
-      "backend_description": "The image shows a 3D rectangular prism made up of small pink and purple cubes. The prism has a length of 6 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 2 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small blue and green cubes. The prism has a length of 4 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 4 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_12",
+      "question_number": "3_13",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_13_A",
         "Gr6_46_3_13_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 2 rows and 3 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 2 rows and 2 columns of colored squares."
+        "The image shows a flat 2D grid made up of 5 rows and 3 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 4 rows and 3 columns of colored squares."
       ],
       "correct_answers": [
         "B"
@@ -511,26 +554,26 @@
         ],
         [
           "2/2",
-          "If you look at this object from the left side, you will see:"
+          "If you look at this object from the right side, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "If you look at this object from the right side, what will you see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the top (looking down at the object), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_14",
-      "backend_description": "The image shows a 3D rectangular prism made up of small blue and green cubes. The prism has a length of 4 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 4 cubes from left to right.",
+      "backend_description": "The image shows a 3D cube tower made up of small cyan and magenta cubes. The prism has a length of 4 cubes from front to back, a height of 4 cubes from bottom to top, and a width of 4 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_13",
+      "question_number": "3_14",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_14_A",
         "Gr6_46_3_14_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 5 rows and 3 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 4 rows and 3 columns of colored squares."
+        "The image shows a flat 2D grid made up of 4 rows and 5 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 4 rows and 4 columns of colored squares."
       ],
       "correct_answers": [
         "B"
@@ -554,26 +597,26 @@
         ],
         [
           "2/2",
-          "If you look at this object from the right side, you will see:"
+          "If you look at this object from the top, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the top (looking down at the object), which 2D grid shows what you would see?=_",
+      "question_text": "If you look at this object from the left side, what will you see?=_",
       "image_tag": "Gr6_46_3_15",
-      "backend_description": "The image shows a 3D cube tower made up of small cyan and magenta cubes. The prism has a length of 4 cubes from front to back, a height of 4 cubes from bottom to top, and a width of 4 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small blue and green cubes. The prism has a length of 8 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 2 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_14",
+      "question_number": "3_15",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_15_A",
         "Gr6_46_3_15_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 4 rows and 5 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 4 rows and 4 columns of colored squares."
+        "The image shows a flat 2D grid made up of 3 rows and 2 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 2 rows and 2 columns of colored squares."
       ],
       "correct_answers": [
         "B"
@@ -597,25 +640,25 @@
         ],
         [
           "2/2",
-          "If you look at this object from the top, you will see:"
+          "If you look at this object from the left side, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "If you look at this object from the left side, what will you see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the side (looking at the object from the right), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_16",
-      "backend_description": "The image shows a 3D rectangular prism made up of small blue and green cubes. The prism has a length of 8 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 2 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 6 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 2 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_15",
+      "question_number": "3_16",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_16_A",
         "Gr6_46_3_16_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 3 rows and 2 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 2 rows and 3 columns of colored squares.",
         "The image shows a flat 2D grid made up of 2 rows and 2 columns of colored squares."
       ],
       "correct_answers": [
@@ -640,29 +683,29 @@
         ],
         [
           "2/2",
-          "If you look at this object from the left side, you will see:"
+          "If you look at this object from the side, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the side (looking at the object from the right), which 2D grid shows what you would see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the front (facing the object directly), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_17",
-      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 6 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 2 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small pink and purple cubes. The prism has a length of 5 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 2 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_16",
+      "question_number": "3_17",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_17_A",
         "Gr6_46_3_17_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 2 rows and 3 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 2 rows and 2 columns of colored squares."
+        "The image shows a flat 2D grid made up of 5 rows and 3 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 6 rows and 3 columns of colored squares."
       ],
       "correct_answers": [
-        "B"
+        "A"
       ],
       "solution_image_tag": [
         [
@@ -683,29 +726,29 @@
         ],
         [
           "2/2",
-          "If you look at this object from the side, you will see:"
+          "If you look at this object from the front, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the front (facing the object directly), which 2D grid shows what you would see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the top (looking down at the object), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_18",
-      "backend_description": "The image shows a 3D rectangular prism made up of small pink and purple cubes. The prism has a length of 5 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 2 cubes from left to right.",
+      "backend_description": "The image shows a 3D cube arrangement made up of small blue and green cubes. The prism has a length of 4 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 6 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_17",
+      "question_number": "3_18",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_18_A",
         "Gr6_46_3_18_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 5 rows and 3 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 6 rows and 3 columns of colored squares."
+        "The image shows a flat 2D grid made up of 4 rows and 7 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 4 rows and 6 columns of colored squares."
       ],
       "correct_answers": [
-        "A"
+        "B"
       ],
       "solution_image_tag": [
         [
@@ -726,7 +769,7 @@
         ],
         [
           "2/2",
-          "If you look at this object from the front, you will see:"
+          "If you look at this object from the top, you will see:"
         ]
       ],
       "has_alternate_answers": false
@@ -735,17 +778,17 @@
       "skills": "front-side-and-top-view",
       "question_text": "Look at the 3D object below made of cubes. When viewing from the top (looking down at the object), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_19",
-      "backend_description": "The image shows a 3D cube arrangement made up of small blue and green cubes. The prism has a length of 4 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 6 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 3 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 5 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_18",
+      "question_number": "3_19",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_19_A",
         "Gr6_46_3_19_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 4 rows and 7 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 4 rows and 6 columns of colored squares."
+        "The image shows a flat 2D grid made up of 4 rows and 5 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 3 rows and 5 columns of colored squares."
       ],
       "correct_answers": [
         "B"
@@ -776,19 +819,19 @@
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the top (looking down at the object), which 2D grid shows what you would see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the side (looking at the object from the right), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_20",
-      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 3 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 5 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small orange and gray cubes. The prism has a length of 5 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 2 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_19",
+      "question_number": "3_20",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_20_A",
         "Gr6_46_3_20_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 4 rows and 5 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 3 rows and 5 columns of colored squares."
+        "The image shows a flat 2D grid made up of 2 rows and 4 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 2 rows and 3 columns of colored squares."
       ],
       "correct_answers": [
         "B"
@@ -812,29 +855,29 @@
         ],
         [
           "2/2",
-          "If you look at this object from the top, you will see:"
+          "If you look at this object from the side, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the side (looking at the object from the right), which 2D grid shows what you would see?=_",
+      "question_text": "If you look at this object from the left side, what will you see?=_",
       "image_tag": "Gr6_46_3_21",
-      "backend_description": "The image shows a 3D rectangular prism made up of small orange and gray cubes. The prism has a length of 5 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 2 cubes from left to right.",
+      "backend_description": "The image shows a 3D cube tower made up of small orange and gray cubes. The prism has a length of 2 cubes from front to back, a height of 5 cubes from bottom to top, and a width of 2 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_20",
+      "question_number": "3_21",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_21_A",
         "Gr6_46_3_21_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 2 rows and 4 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 2 rows and 3 columns of colored squares."
+        "The image shows a flat 2D grid made up of 2 rows and 5 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 3 rows and 5 columns of colored squares."
       ],
       "correct_answers": [
-        "B"
+        "A"
       ],
       "solution_image_tag": [
         [
@@ -855,26 +898,26 @@
         ],
         [
           "2/2",
-          "If you look at this object from the side, you will see:"
+          "If you look at this object from the left side, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "If you look at this object from the left side, what will you see?=_",
+      "question_text": "If you look at this object from the right side, what will you see?=_",
       "image_tag": "Gr6_46_3_22",
-      "backend_description": "The image shows a 3D cube tower made up of small orange and gray cubes. The prism has a length of 2 cubes from front to back, a height of 5 cubes from bottom to top, and a width of 2 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small blue and green cubes. The prism has a length of 8 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_21",
+      "question_number": "3_22",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_22_A",
         "Gr6_46_3_22_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 2 rows and 5 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 3 rows and 5 columns of colored squares."
+        "The image shows a flat 2D grid made up of 3 rows and 2 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 3 rows and 3 columns of colored squares."
       ],
       "correct_answers": [
         "A"
@@ -898,29 +941,29 @@
         ],
         [
           "2/2",
-          "If you look at this object from the left side, you will see:"
+          "If you look at this object from the right side, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "If you look at this object from the right side, what will you see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the top (looking down at the object), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_23",
-      "backend_description": "The image shows a 3D rectangular prism made up of small blue and green cubes. The prism has a length of 8 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
+      "backend_description": "The image shows a 3D cube arrangement made up of small blue and green cubes. The prism has a length of 6 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_22",
+      "question_number": "3_23",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_23_A",
         "Gr6_46_3_23_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 3 rows and 2 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 3 rows and 3 columns of colored squares."
+        "The image shows a flat 2D grid made up of 7 rows and 3 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 6 rows and 3 columns of colored squares."
       ],
       "correct_answers": [
-        "A"
+        "B"
       ],
       "solution_image_tag": [
         [
@@ -941,29 +984,29 @@
         ],
         [
           "2/2",
-          "If you look at this object from the right side, you will see:"
+          "If you look at this object from the top, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the top (looking down at the object), which 2D grid shows what you would see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the side (looking at the object from the right), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_24",
-      "backend_description": "The image shows a 3D cube arrangement made up of small blue and green cubes. The prism has a length of 6 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small cyan and magenta cubes. The prism has a length of 4 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 4 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_23",
+      "question_number": "3_24",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_24_A",
         "Gr6_46_3_24_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 7 rows and 3 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 6 rows and 3 columns of colored squares."
+        "The image shows a flat 2D grid made up of 4 rows and 3 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 4 rows and 4 columns of colored squares."
       ],
       "correct_answers": [
-        "B"
+        "A"
       ],
       "solution_image_tag": [
         [
@@ -984,29 +1027,29 @@
         ],
         [
           "2/2",
-          "If you look at this object from the top, you will see:"
+          "If you look at this object from the side, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the side (looking at the object from the right), which 2D grid shows what you would see?=_",
+      "question_text": "If you look at this object from the right side, what will you see?=_",
       "image_tag": "Gr6_46_3_25",
-      "backend_description": "The image shows a 3D rectangular prism made up of small cyan and magenta cubes. The prism has a length of 4 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 4 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small blue and green cubes. The prism has a length of 2 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 8 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_24",
+      "question_number": "3_25",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_25_A",
         "Gr6_46_3_25_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 4 rows and 3 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 4 rows and 4 columns of colored squares."
+        "The image shows a flat 2D grid made up of 9 rows and 2 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 8 rows and 2 columns of colored squares."
       ],
       "correct_answers": [
-        "A"
+        "B"
       ],
       "solution_image_tag": [
         [
@@ -1027,29 +1070,29 @@
         ],
         [
           "2/2",
-          "If you look at this object from the side, you will see:"
+          "If you look at this object from the right side, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "If you look at this object from the right side, what will you see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the side (looking at the object from the right), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_26",
-      "backend_description": "The image shows a 3D rectangular prism made up of small blue and green cubes. The prism has a length of 2 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 8 cubes from left to right.",
+      "backend_description": "The image shows a 3D cube tower made up of small pink and purple cubes. The prism has a length of 4 cubes from front to back, a height of 4 cubes from bottom to top, and a width of 4 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_25",
+      "question_number": "3_26",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_26_A",
         "Gr6_46_3_26_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 9 rows and 2 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 8 rows and 2 columns of colored squares."
+        "The image shows a flat 2D grid made up of 4 rows and 4 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 4 rows and 5 columns of colored squares."
       ],
       "correct_answers": [
-        "B"
+        "A"
       ],
       "solution_image_tag": [
         [
@@ -1070,29 +1113,29 @@
         ],
         [
           "2/2",
-          "If you look at this object from the right side, you will see:"
+          "If you look at this object from the side, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the side (looking at the object from the right), which 2D grid shows what you would see?=_",
+      "question_text": "If you look at this object from the left side, what will you see?=_",
       "image_tag": "Gr6_46_3_27",
-      "backend_description": "The image shows a 3D cube tower made up of small pink and purple cubes. The prism has a length of 4 cubes from front to back, a height of 4 cubes from bottom to top, and a width of 4 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small pink and purple cubes. The prism has a length of 5 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 5 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_26",
+      "question_number": "3_27",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_27_A",
         "Gr6_46_3_27_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 4 rows and 4 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 4 rows and 5 columns of colored squares."
+        "The image shows a flat 2D grid made up of 6 rows and 3 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 5 rows and 3 columns of colored squares."
       ],
       "correct_answers": [
-        "A"
+        "B"
       ],
       "solution_image_tag": [
         [
@@ -1113,29 +1156,29 @@
         ],
         [
           "2/2",
-          "If you look at this object from the side, you will see:"
+          "If you look at this object from the left side, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "If you look at this object from the left side, what will you see?=_",
+      "question_text": "If you look at this object from the bottom, what will you see?=_",
       "image_tag": "Gr6_46_3_28",
-      "backend_description": "The image shows a 3D rectangular prism made up of small pink and purple cubes. The prism has a length of 5 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 5 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small pink and purple cubes. The prism has a length of 5 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 2 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_27",
+      "question_number": "3_28",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_28_A",
         "Gr6_46_3_28_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 6 rows and 3 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 5 rows and 3 columns of colored squares."
+        "The image shows a flat 2D grid made up of 2 rows and 3 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 2 rows and 4 columns of colored squares."
       ],
       "correct_answers": [
-        "B"
+        "A"
       ],
       "solution_image_tag": [
         [
@@ -1156,26 +1199,26 @@
         ],
         [
           "2/2",
-          "If you look at this object from the left side, you will see:"
+          "If you look at this object from the bottom, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "If you look at this object from the bottom, what will you see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the front (facing the object directly), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_29",
-      "backend_description": "The image shows a 3D rectangular prism made up of small pink and purple cubes. The prism has a length of 5 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 2 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small pink and purple cubes. The prism has a length of 5 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 5 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_28",
+      "question_number": "3_29",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_29_A",
         "Gr6_46_3_29_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 2 rows and 3 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 2 rows and 4 columns of colored squares."
+        "The image shows a flat 2D grid made up of 5 rows and 3 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 6 rows and 3 columns of colored squares."
       ],
       "correct_answers": [
         "A"
@@ -1199,26 +1242,26 @@
         ],
         [
           "2/2",
-          "If you look at this object from the bottom, you will see:"
+          "If you look at this object from the front, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the front (facing the object directly), which 2D grid shows what you would see?=_",
+      "question_text": "If you look at this object from the left side, what will you see?=_",
       "image_tag": "Gr6_46_3_30",
-      "backend_description": "The image shows a 3D rectangular prism made up of small pink and purple cubes. The prism has a length of 5 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 5 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small cyan and magenta cubes. The prism has a length of 5 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 2 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_29",
+      "question_number": "3_30",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_30_A",
         "Gr6_46_3_30_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 5 rows and 3 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 6 rows and 3 columns of colored squares."
+        "The image shows a flat 2D grid made up of 2 rows and 3 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 2 rows and 4 columns of colored squares."
       ],
       "correct_answers": [
         "A"
@@ -1242,29 +1285,29 @@
         ],
         [
           "2/2",
-          "If you look at this object from the front, you will see:"
+          "If you look at this object from the left side, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "If you look at this object from the left side, what will you see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the side (looking at the object from the right), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_31",
-      "backend_description": "The image shows a 3D rectangular prism made up of small cyan and magenta cubes. The prism has a length of 5 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 2 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 5 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 2 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_30",
+      "question_number": "3_31",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_31_A",
         "Gr6_46_3_31_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 2 rows and 3 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 2 rows and 4 columns of colored squares."
+        "The image shows a flat 2D grid made up of 3 rows and 3 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 2 rows and 3 columns of colored squares."
       ],
       "correct_answers": [
-        "A"
+        "B"
       ],
       "solution_image_tag": [
         [
@@ -1285,26 +1328,26 @@
         ],
         [
           "2/2",
-          "If you look at this object from the left side, you will see:"
+          "If you look at this object from the side, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the side (looking at the object from the right), which 2D grid shows what you would see?=_",
+      "question_text": "If you look at this object from the left side, what will you see?=_",
       "image_tag": "Gr6_46_3_32",
-      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 5 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 2 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small blue and green cubes. The prism has a length of 4 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 5 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_31",
+      "question_number": "3_32",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_32_A",
         "Gr6_46_3_32_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 3 rows and 3 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 2 rows and 3 columns of colored squares."
+        "The image shows a flat 2D grid made up of 5 rows and 3 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 5 rows and 2 columns of colored squares."
       ],
       "correct_answers": [
         "B"
@@ -1328,26 +1371,26 @@
         ],
         [
           "2/2",
-          "If you look at this object from the side, you will see:"
+          "If you look at this object from the left side, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "If you look at this object from the left side, what will you see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the side (looking at the object from the right), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_33",
-      "backend_description": "The image shows a 3D rectangular prism made up of small blue and green cubes. The prism has a length of 4 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 5 cubes from left to right.",
+      "backend_description": "The image shows a 3D cube arrangement made up of small pink and purple cubes. The prism has a length of 5 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_32",
+      "question_number": "3_33",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_33_A",
         "Gr6_46_3_33_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 5 rows and 3 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 5 rows and 2 columns of colored squares."
+        "The image shows a flat 2D grid made up of 4 rows and 2 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 3 rows and 2 columns of colored squares."
       ],
       "correct_answers": [
         "B"
@@ -1371,29 +1414,29 @@
         ],
         [
           "2/2",
-          "If you look at this object from the left side, you will see:"
+          "If you look at this object from the side, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the side (looking at the object from the right), which 2D grid shows what you would see?=_",
+      "question_text": "If you look at this object from the bottom, what will you see?=_",
       "image_tag": "Gr6_46_3_34",
-      "backend_description": "The image shows a 3D cube arrangement made up of small pink and purple cubes. The prism has a length of 5 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
+      "backend_description": "The image shows a 3D cube arrangement made up of small cyan and magenta cubes. The prism has a length of 5 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_33",
+      "question_number": "3_34",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_34_A",
         "Gr6_46_3_34_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 4 rows and 2 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 3 rows and 2 columns of colored squares."
+        "The image shows a flat 2D grid made up of 3 rows and 2 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 3 rows and 3 columns of colored squares."
       ],
       "correct_answers": [
-        "B"
+        "A"
       ],
       "solution_image_tag": [
         [
@@ -1414,25 +1457,25 @@
         ],
         [
           "2/2",
-          "If you look at this object from the side, you will see:"
+          "If you look at this object from the bottom, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "If you look at this object from the bottom, what will you see?=_",
+      "question_text": "If you look at this object from the left side, what will you see?=_",
       "image_tag": "Gr6_46_3_35",
-      "backend_description": "The image shows a 3D cube arrangement made up of small cyan and magenta cubes. The prism has a length of 5 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 5 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 2 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_34",
+      "question_number": "3_35",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_35_A",
         "Gr6_46_3_35_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 3 rows and 2 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 2 rows and 3 columns of colored squares.",
         "The image shows a flat 2D grid made up of 3 rows and 3 columns of colored squares."
       ],
       "correct_answers": [
@@ -1457,7 +1500,7 @@
         ],
         [
           "2/2",
-          "If you look at this object from the bottom, you will see:"
+          "If you look at this object from the left side, you will see:"
         ]
       ],
       "has_alternate_answers": false
@@ -1466,17 +1509,17 @@
       "skills": "front-side-and-top-view",
       "question_text": "If you look at this object from the left side, what will you see?=_",
       "image_tag": "Gr6_46_3_36",
-      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 5 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 2 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small cyan and magenta cubes. The prism has a length of 3 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 5 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_35",
+      "question_number": "3_36",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_36_A",
         "Gr6_46_3_36_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 2 rows and 3 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 3 rows and 3 columns of colored squares."
+        "The image shows a flat 2D grid made up of 5 rows and 2 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 5 rows and 3 columns of colored squares."
       ],
       "correct_answers": [
         "A"
@@ -1507,22 +1550,22 @@
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "If you look at this object from the left side, what will you see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the front (facing the object directly), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_37",
-      "backend_description": "The image shows a 3D rectangular prism made up of small cyan and magenta cubes. The prism has a length of 3 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 5 cubes from left to right.",
+      "backend_description": "The image shows a 3D cube arrangement made up of small blue and green cubes. The prism has a length of 5 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_36",
+      "question_number": "3_37",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_37_A",
         "Gr6_46_3_37_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 5 rows and 2 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 5 rows and 3 columns of colored squares."
+        "The image shows a flat 2D grid made up of 6 rows and 2 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 5 rows and 2 columns of colored squares."
       ],
       "correct_answers": [
-        "A"
+        "B"
       ],
       "solution_image_tag": [
         [
@@ -1543,29 +1586,29 @@
         ],
         [
           "2/2",
-          "If you look at this object from the left side, you will see:"
+          "If you look at this object from the front, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the front (facing the object directly), which 2D grid shows what you would see?=_",
+      "question_text": "If you look at this object from the right side, what will you see?=_",
       "image_tag": "Gr6_46_3_38",
-      "backend_description": "The image shows a 3D cube arrangement made up of small blue and green cubes. The prism has a length of 5 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 4 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_37",
+      "question_number": "3_38",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_38_A",
         "Gr6_46_3_38_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 6 rows and 2 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 5 rows and 2 columns of colored squares."
+        "The image shows a flat 2D grid made up of 3 rows and 2 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 3 rows and 3 columns of colored squares."
       ],
       "correct_answers": [
-        "B"
+        "A"
       ],
       "solution_image_tag": [
         [
@@ -1586,7 +1629,7 @@
         ],
         [
           "2/2",
-          "If you look at this object from the front, you will see:"
+          "If you look at this object from the right side, you will see:"
         ]
       ],
       "has_alternate_answers": false
@@ -1595,20 +1638,20 @@
       "skills": "front-side-and-top-view",
       "question_text": "If you look at this object from the right side, what will you see?=_",
       "image_tag": "Gr6_46_3_39",
-      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 4 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 5 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 4 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_38",
+      "question_number": "3_39",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_39_A",
         "Gr6_46_3_39_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 3 rows and 2 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 3 rows and 3 columns of colored squares."
+        "The image shows a flat 2D grid made up of 5 rows and 3 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 4 rows and 3 columns of colored squares."
       ],
       "correct_answers": [
-        "A"
+        "B"
       ],
       "solution_image_tag": [
         [
@@ -1636,22 +1679,22 @@
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "If you look at this object from the right side, what will you see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the front (facing the object directly), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_40",
-      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 5 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 4 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 6 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 2 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_39",
+      "question_number": "3_40",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_40_A",
         "Gr6_46_3_40_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 5 rows and 3 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 4 rows and 3 columns of colored squares."
+        "The image shows a flat 2D grid made up of 6 rows and 2 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 6 rows and 3 columns of colored squares."
       ],
       "correct_answers": [
-        "B"
+        "A"
       ],
       "solution_image_tag": [
         [
@@ -1672,7 +1715,7 @@
         ],
         [
           "2/2",
-          "If you look at this object from the right side, you will see:"
+          "If you look at this object from the front, you will see:"
         ]
       ],
       "has_alternate_answers": false
@@ -1681,17 +1724,17 @@
       "skills": "front-side-and-top-view",
       "question_text": "Look at the 3D object below made of cubes. When viewing from the front (facing the object directly), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_41",
-      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 6 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 2 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 7 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_40",
+      "question_number": "3_41",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_41_A",
         "Gr6_46_3_41_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 6 rows and 2 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 6 rows and 3 columns of colored squares."
+        "The image shows a flat 2D grid made up of 7 rows and 2 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 8 rows and 2 columns of colored squares."
       ],
       "correct_answers": [
         "A"
@@ -1722,22 +1765,22 @@
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the front (facing the object directly), which 2D grid shows what you would see?=_",
+      "question_text": "If you look at this object from the right side, what will you see?=_",
       "image_tag": "Gr6_46_3_42",
-      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 7 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small blue and green cubes. The prism has a length of 3 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 6 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_41",
+      "question_number": "3_42",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_42_A",
         "Gr6_46_3_42_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 7 rows and 2 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 8 rows and 2 columns of colored squares."
+        "The image shows a flat 2D grid made up of 6 rows and 3 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 6 rows and 2 columns of colored squares."
       ],
       "correct_answers": [
-        "A"
+        "B"
       ],
       "solution_image_tag": [
         [
@@ -1758,26 +1801,26 @@
         ],
         [
           "2/2",
-          "If you look at this object from the front, you will see:"
+          "If you look at this object from the right side, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "If you look at this object from the right side, what will you see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the front (facing the object directly), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_43",
-      "backend_description": "The image shows a 3D rectangular prism made up of small blue and green cubes. The prism has a length of 3 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 6 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small pink and purple cubes. The prism has a length of 4 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 5 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_42",
+      "question_number": "3_43",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_43_A",
         "Gr6_46_3_43_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 6 rows and 3 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 6 rows and 2 columns of colored squares."
+        "The image shows a flat 2D grid made up of 5 rows and 2 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 4 rows and 2 columns of colored squares."
       ],
       "correct_answers": [
         "B"
@@ -1801,26 +1844,26 @@
         ],
         [
           "2/2",
-          "If you look at this object from the right side, you will see:"
+          "If you look at this object from the front, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the front (facing the object directly), which 2D grid shows what you would see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the top (looking down at the object), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_44",
-      "backend_description": "The image shows a 3D rectangular prism made up of small pink and purple cubes. The prism has a length of 4 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 5 cubes from left to right.",
+      "backend_description": "The image shows a 3D cube tower made up of small orange and gray cubes. The prism has a length of 2 cubes from front to back, a height of 5 cubes from bottom to top, and a width of 2 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_43",
+      "question_number": "3_44",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_44_A",
         "Gr6_46_3_44_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 5 rows and 2 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 4 rows and 2 columns of colored squares."
+        "The image shows a flat 2D grid made up of 2 rows and 3 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 2 rows and 2 columns of colored squares."
       ],
       "correct_answers": [
         "B"
@@ -1844,29 +1887,29 @@
         ],
         [
           "2/2",
-          "If you look at this object from the front, you will see:"
+          "If you look at this object from the top, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the top (looking down at the object), which 2D grid shows what you would see?=_",
+      "question_text": "If you look at this object from the left side, what will you see?=_",
       "image_tag": "Gr6_46_3_45",
-      "backend_description": "The image shows a 3D cube tower made up of small orange and gray cubes. The prism has a length of 2 cubes from front to back, a height of 5 cubes from bottom to top, and a width of 2 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small blue and green cubes. The prism has a length of 4 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_44",
+      "question_number": "3_45",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_45_A",
         "Gr6_46_3_45_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 2 rows and 3 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 2 rows and 2 columns of colored squares."
+        "The image shows a flat 2D grid made up of 3 rows and 2 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 4 rows and 2 columns of colored squares."
       ],
       "correct_answers": [
-        "B"
+        "A"
       ],
       "solution_image_tag": [
         [
@@ -1887,26 +1930,26 @@
         ],
         [
           "2/2",
-          "If you look at this object from the top, you will see:"
+          "If you look at this object from the left side, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "If you look at this object from the left side, what will you see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the side (looking at the object from the right), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_46",
-      "backend_description": "The image shows a 3D rectangular prism made up of small blue and green cubes. The prism has a length of 4 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 6 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 4 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_45",
+      "question_number": "3_46",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_46_A",
         "Gr6_46_3_46_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 3 rows and 2 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 4 rows and 2 columns of colored squares."
+        "The image shows a flat 2D grid made up of 4 rows and 2 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 4 rows and 3 columns of colored squares."
       ],
       "correct_answers": [
         "A"
@@ -1930,29 +1973,29 @@
         ],
         [
           "2/2",
-          "If you look at this object from the left side, you will see:"
+          "If you look at this object from the side, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the side (looking at the object from the right), which 2D grid shows what you would see?=_",
+      "question_text": "If you look at this object from the right side, what will you see?=_",
       "image_tag": "Gr6_46_3_47",
-      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 6 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 4 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 2 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 8 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_46",
+      "question_number": "3_47",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_47_A",
         "Gr6_46_3_47_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 4 rows and 2 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 4 rows and 3 columns of colored squares."
+        "The image shows a flat 2D grid made up of 9 rows and 2 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 8 rows and 2 columns of colored squares."
       ],
       "correct_answers": [
-        "A"
+        "B"
       ],
       "solution_image_tag": [
         [
@@ -1973,29 +2016,29 @@
         ],
         [
           "2/2",
-          "If you look at this object from the side, you will see:"
+          "If you look at this object from the right side, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "If you look at this object from the right side, what will you see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the top (looking down at the object), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_48",
-      "backend_description": "The image shows a 3D rectangular prism made up of small red and yellow cubes. The prism has a length of 2 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 8 cubes from left to right.",
+      "backend_description": "The image shows a 3D cube tower made up of small orange and gray cubes. The prism has a length of 3 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 3 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_47",
+      "question_number": "3_48",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_48_A",
         "Gr6_46_3_48_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 9 rows and 2 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 8 rows and 2 columns of colored squares."
+        "The image shows a flat 2D grid made up of 3 rows and 3 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 3 rows and 4 columns of colored squares."
       ],
       "correct_answers": [
-        "B"
+        "A"
       ],
       "solution_image_tag": [
         [
@@ -2016,29 +2059,29 @@
         ],
         [
           "2/2",
-          "If you look at this object from the right side, you will see:"
+          "If you look at this object from the top, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the top (looking down at the object), which 2D grid shows what you would see?=_",
+      "question_text": "If you look at this object from the left side, what will you see?=_",
       "image_tag": "Gr6_46_3_49",
-      "backend_description": "The image shows a 3D cube tower made up of small orange and gray cubes. The prism has a length of 3 cubes from front to back, a height of 3 cubes from bottom to top, and a width of 3 cubes from left to right.",
+      "backend_description": "The image shows a 3D cube arrangement made up of small orange and gray cubes. The prism has a length of 3 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 4 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_48",
+      "question_number": "3_49",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_49_A",
         "Gr6_46_3_49_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 3 rows and 3 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 3 rows and 4 columns of colored squares."
+        "The image shows a flat 2D grid made up of 5 rows and 2 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 4 rows and 2 columns of colored squares."
       ],
       "correct_answers": [
-        "A"
+        "B"
       ],
       "solution_image_tag": [
         [
@@ -2059,29 +2102,29 @@
         ],
         [
           "2/2",
-          "If you look at this object from the top, you will see:"
+          "If you look at this object from the left side, you will see:"
         ]
       ],
       "has_alternate_answers": false
     },
     {
       "skills": "front-side-and-top-view",
-      "question_text": "If you look at this object from the left side, what will you see?=_",
+      "question_text": "Look at the 3D object below made of cubes. When viewing from the front (facing the object directly), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_50",
-      "backend_description": "The image shows a 3D cube arrangement made up of small orange and gray cubes. The prism has a length of 3 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 4 cubes from left to right.",
+      "backend_description": "The image shows a 3D cube tower made up of small pink and purple cubes. The prism has a length of 2 cubes from front to back, a height of 5 cubes from bottom to top, and a width of 2 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_49",
+      "question_number": "3_50",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_50_A",
         "Gr6_46_3_50_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 5 rows and 2 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 4 rows and 2 columns of colored squares."
+        "The image shows a flat 2D grid made up of 2 rows and 5 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 2 rows and 6 columns of colored squares."
       ],
       "correct_answers": [
-        "B"
+        "A"
       ],
       "solution_image_tag": [
         [
@@ -2102,7 +2145,7 @@
         ],
         [
           "2/2",
-          "If you look at this object from the left side, you will see:"
+          "If you look at this object from the front, you will see:"
         ]
       ],
       "has_alternate_answers": false
@@ -2111,17 +2154,17 @@
       "skills": "front-side-and-top-view",
       "question_text": "Look at the 3D object below made of cubes. When viewing from the front (facing the object directly), which 2D grid shows what you would see?=_",
       "image_tag": "Gr6_46_3_51",
-      "backend_description": "The image shows a 3D cube tower made up of small pink and purple cubes. The prism has a length of 2 cubes from front to back, a height of 5 cubes from bottom to top, and a width of 2 cubes from left to right.",
+      "backend_description": "The image shows a 3D rectangular prism made up of small pink and purple cubes. The prism has a length of 8 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
       "tag": "Gr6_46_E3",
-      "question_number": "3_50",
+      "question_number": "3_51",
       "question_type": "Multiple Choice Question with Single Answer",
       "image_choice_tags": [
         "Gr6_46_3_51_A",
         "Gr6_46_3_51_B"
       ],
       "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 2 rows and 5 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 2 rows and 6 columns of colored squares."
+        "The image shows a flat 2D grid made up of 8 rows and 2 columns of colored squares.",
+        "The image shows a flat 2D grid made up of 9 rows and 2 columns of colored squares."
       ],
       "correct_answers": [
         "A"
@@ -2135,49 +2178,6 @@
         [
           "2/2",
           "Gr6_46_3_51_step_2",
-          "The image shows a flat 2D grid made up of 3 rows and 2 columns of pink squares, arranged in a 3 by 2 layout."
-        ]
-      ],
-      "solution": [
-        [
-          "1/2",
-          "Imagine you are looking at this object from the top. You will see the squares highlighted below:"
-        ],
-        [
-          "2/2",
-          "If you look at this object from the front, you will see:"
-        ]
-      ],
-      "has_alternate_answers": false
-    },
-    {
-      "skills": "front-side-and-top-view",
-      "question_text": "Look at the 3D object below made of cubes. When viewing from the front (facing the object directly), which 2D grid shows what you would see?=_",
-      "image_tag": "Gr6_46_3_2",
-      "backend_description": "The image shows a 3D rectangular prism made up of small pink and purple cubes. The prism has a length of 8 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 3 cubes from left to right.",
-      "tag": "Gr6_46_E3",
-      "question_number": "3_51",
-      "question_type": "Multiple Choice Question with Single Answer",
-      "image_choice_tags": [
-        "Gr6_46_3_2_A",
-        "Gr6_46_3_2_B"
-      ],
-      "image_choice_backend_description": [
-        "The image shows a flat 2D grid made up of 8 rows and 2 columns of colored squares.",
-        "The image shows a flat 2D grid made up of 9 rows and 2 columns of colored squares."
-      ],
-      "correct_answers": [
-        "A"
-      ],
-      "solution_image_tag": [
-        [
-          "1/2",
-          "Gr6_46_3_2_step_1",
-          "The image shows a 3D rectangular prism made up of small pink and purple cubes. The prism has a length of 3 cubes from front to back, a height of 2 cubes from bottom to top, and a width of 2 cubes from left to right. The top face shows a 3 by 2 arrangement of pink cubes, and the top face is highlighted with a bold black border."
-        ],
-        [
-          "2/2",
-          "Gr6_46_3_2_step_2",
           "The image shows a flat 2D grid made up of 3 rows and 2 columns of pink squares, arranged in a 3 by 2 layout."
         ]
       ],
