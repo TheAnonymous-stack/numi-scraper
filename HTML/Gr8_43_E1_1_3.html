@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+        
+        .question {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #333;
+        }
+        
+        .svg-container {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .quadrilateral {
+            fill: rgba(135, 206, 250, 0.3);
+            stroke: #1e40af;
+            stroke-width: 2;
+        }
+        
+        .angle-text {
+            font-size: 16px;
+            font-weight: bold;
+            fill: #1e40af;
+        }
+        
+        .angle-text.unknown {
+            fill: #dc2626;
+            font-size: 20px;
+        }
+        
+        .info {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f0f9ff;
+            border-left: 4px solid #0ea5e9;
+            border-radius: 4px;
+        }
+        
+        .angles-list {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .answer {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f0fdf4;
+            border: 1px solid #bbf7d0;
+            border-radius: 6px;
+            text-align: center;
+        }
+        
+        .answer-label {
+            font-weight: bold;
+            color: #166534;
+            margin-bottom: 5px;
+        }
+        
+        .answer-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #16a34a;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr8_43_1_3" style="display: inline-block">
+        <div class="svg-container">
+            <svg width="350" height="250" viewBox="0 0 350 250">
+                <!-- Quadrilateral -->
+                <path d="M 10 10 L 290 70 L 340 240 L 100 240 Z" class="quadrilateral"/>
+                
+                <!-- Angle labels -->
+                <text x="40" y="40" text-anchor="middle" class="angle-text">76°</text><text x="260" y="110" text-anchor="middle" class="angle-text">91°</text><text x="300" y="220" text-anchor="middle" class="angle-text">52°</text><text x="130" y="220" text-anchor="middle" class="angle-text unknown">?</text>
+                
+                <!-- Vertices (small circles) -->
+                <circle cx="10" cy="10" r="3" fill="#1e40af"/>
+                <circle cx="290" cy="70" r="3" fill="#1e40af"/>
+                <circle cx="340" cy="240" r="3" fill="#1e40af"/>
+                <circle cx="100" cy="240" r="3" fill="#1e40af"/>
+            </svg>
+        </div>
+        
+    </div>
+</body>
+</html>
