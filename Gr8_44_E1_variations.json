@@ -1,79 +1,116 @@
 [
   {
-    "question_text": "Which angles are vertical angles?",
+    "question_text": "Which angle is complementary to $\\angle$5?",
+    "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
+    "image_tag": "Gr8_44_1_1",
+    "backend_description": "A geometric diagram showing two intersecting lines forming numbered angles. The diagram consists of a horizontal line and a vertical line that intersect at the center, along with a diagonal line that passes through the intersection point. The angles formed by these intersecting lines are labeled with numbers 1 through 6. Angle 1 is in the upper right quadrant, angle 2 is in the upper right area, angle 3 is in the upper left quadrant, angle 4 is in the lower left quadrant, angle 5 is in the lower left area along the diagonal line, and angle 6 is in the lower right quadrant. This appears to be a mathematical diagram used for teaching concepts related to angles formed by intersecting lines, such as vertical angles, adjacent angles, or linear pairs.",
+    "question_number": "1_1",
+    "tag": "Gr8_44_E1",
+    "choices": [
+      "$\\angle$1",
+      "$\\angle$2",
+      "$\\angle$3",
+      "$\\angle$4"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/1",
+        "$\\angle$4 is complementary to $\\angle$5. Together, they form an angle that is vertical to a right angle."
+      ]
+    ],
+    "solution_image_tag": [],
+    "template": 2
+  },
+  {
+    "question_text": "Which angle is congruent to $\\angle$6?",
+    "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
+    "image_tag": "Gr8_44_1_2",
+    "backend_description": "The image shows six rays meeting at a central point, forming six labeled angles. A horizontal line runs left to right, with angles 2 and 3 on the left side and angles 5 and 6 on the right side. Two additional rays extend upward and downward from the center, creating angles 1 and 4. Angle 2 is positioned in the lower left, angle 3 in the upper left, angle 4 in the upper section between two upward rays, angle 5 in the upper right, angle 6 in the lower right, and angle 1 in the lower section between two downward rays. The angles are formed by the intersecting rays creating vertical angles (2&5, 3&6, 1&4) and adjacent angles along the intersecting lines.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_2",
+    "tag": "Gr8_44_E1",
+    "choices": [
+      "$\\angle$1",
+      "$\\angle$4",
+      "$\\angle$5",
+      "$\\angle$3"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/1",
+        "$\\angle$3 and $\\angle$6 are congruent. They are opposite angles, which have the same measure."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "Which angle is supplementary to $\\angle$CGB?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_3",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays labeled A through F meeting at a central point labeled G. Rays AG and GD form a straight horizontal line, while rays BG and EG, and CG and FG, form intersecting lines that create multiple angles around point G. The angle AGC lies between rays AG and CG.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_3",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$BGF",
+      "$\\angle$CGB",
+      "$\\angle$EGB",
+      "$\\angle$AGE"
     ],
     "correct_answers": [
-      "C"
+      "A"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are vertical angles. They are formed by intersecting lines and are not adjacent."
+        "Look at $\\angle$BGF and $\\angle$CGB.\n$\\angle$BGF is supplementary to $\\angle$CGB. Together they form a straight line, which has a measure of 180°. So, their angles add up to 180°."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_3_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are adjacent angles?",
+    "question_text": "Which angle is vertical to $\\angle$4?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_4",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows two intersecting lines creating four angles at their intersection point. The angles are labeled 1, 2, 3, 4. A diagonal line runs from upper left to lower right, and another line runs from upper right to lower left, with a small horizontal extension to the right. Angle 4 is positioned in the upper left area, angle 3 is in the left area, angle 2 is in the lower area marked with a small red square at the vertex, angle 5 is in the upper right area, and angle 1 is in the right area. The intersection creates vertical angle pairs where opposite angles are congruent.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_4",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$3",
+      "$\\angle$5",
+      "$\\angle$1",
+      "$\\angle$2"
     ],
     "correct_answers": [
-      "C"
+      "D"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are adjacent angles. They share a common side."
+        "Vertical angles are pairs of opposite angles formed when 2 liens intersect. They are always congruent (equal in measure). In this case, $\\angle$2 and $\\angle$4 are vertical angles."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_4_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angle is complementary to $\\angle$AGC?",
+    "question_text": "Which angle is complementary to $\\angle$1?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_5",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
-    "question_type": "Multiple Choice Question with Single Answer",
+    "backend_description": "A geometric diagram showing a horizontal line intersected by a vertical line, creating a perpendicular intersection marked with a small blue square. Six angles are labeled around the intersection point. Angle 1 is in the upper left quadrant between two diagonal rays, angle 2 is in the upper left area along a diagonal line, angle 3 is in the upper right quadrant, angle 4 is in the upper right area along a diagonal line, angle 5 is in the lower right quadrant, and angle 6 is in the lower left quadrant. The perpendicular lines create right angles at the intersection, and the configuration shows complementary angle relationships where pairs of angles sum to 90 degrees.",
     "question_number": "1_5",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$3",
+      "$\\angle$4",
+      "$\\angle$2",
+      "$\\angle$5"
     ],
     "correct_answers": [
       "C"
@@ -81,92 +118,74 @@
     "solution": [
       [
         "1/1",
-        "$\\angle$BGC is complementary to $\\angle$AGC. Together they form a right angle, which has a measure of 90 degrees. So, their angles add up to 90 degrees."
+        "$\\angle$2 is complementary to $\\angle$1. Together, they form an angle that is vertical to a right angle."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_5_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": [],
+    "template": 1
   },
   {
-    "question_text": "Which angles are vertical angles?",
+    "question_text": "Which angle is adjacent to $\\angle$2?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_6",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays emanating from a central point, creating six labeled angles numbered 1 through 6. A vertical line extends upward and downward through the center. From left to right along a diagonal line, there are angles 3, 6, and 1. Angle 4 is positioned in the upper left area, angle 5 is in the upper right area between the vertical line and the diagonal ray, angle 2 is in the lower left area along the vertical line, and the angles are formed by the intersecting rays. The configuration shows various angle relationships including adjacent angles that share a common ray and vertex.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_6",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$5",
+      "$\\angle$3",
+      "$\\angle$6",
+      "$\\angle$4"
     ],
     "correct_answers": [
-      "C"
+      "B"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are vertical angles. They are formed by intersecting lines and are not adjacent."
+        "$\\angle$3 is adjacent to $\\angle$2. $\\angle$1 is actually also adjacent to $\\angle$2 but it is not one of the available options."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_6_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angle is complementary to $\\angle$AGC?",
+    "question_text": "Which angle is congruent to $\\angle$1?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_7",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays meeting at a central point, forming six labeled angles. A horizontal line runs left to right, with angles 2 and 3 on the left side and angles 5 and 6 on the right side. Two additional rays extend upward and downward from the center, creating angles 1 and 4. Angle 2 is positioned in the lower left, angle 3 in the upper left, angle 4 in the upper section between two upward rays, angle 5 in the upper right, angle 6 in the lower right, and angle 1 in the lower section between two downward rays. The angles are formed by the intersecting rays creating vertical angles (2&5, 3&6, 1&4) and adjacent angles along the intersecting lines.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_7",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$2",
+      "$\\angle$5",
+      "$\\angle$6",
+      "$\\angle$4"
     ],
     "correct_answers": [
-      "C"
+      "D"
     ],
     "solution": [
       [
         "1/1",
-        "$\\angle$BGC is complementary to $\\angle$AGC. Together they form a right angle, which has a measure of 90 degrees. So, their angles add up to 90 degrees."
+        "$\\angle$4 and $\\angle$1 are congruent. They are vertical angles, which have the same measure."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_7_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are vertical angles?",
+    "question_text": "Which angle is complementary to $\\angle$2?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_8",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
-    "question_type": "Multiple Choice Question with Single Answer",
+    "backend_description": "A geometric diagram showing two intersecting lines forming numbered angles. The diagram consists of a horizontal line and a vertical line that intersect at the center, along with a diagonal line that passes through the intersection point. The angles formed by these intersecting lines are labeled with numbers 1 through 6. Angle 1 is in the upper right quadrant, angle 2 is in the upper right area, angle 3 is in the upper left quadrant, angle 4 is in the lower left quadrant, angle 5 is in the lower left area along the diagonal line, and angle 6 is in the lower right quadrant. This appears to be a mathematical diagram used for teaching concepts related to angles formed by intersecting lines, such as vertical angles, adjacent angles, or linear pairs.",
     "question_number": "1_8",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$6",
+      "$\\angle$5",
+      "$\\angle$1",
+      "$\\angle$4"
     ],
     "correct_answers": [
       "C"
@@ -174,247 +193,200 @@
     "solution": [
       [
         "1/1",
-        "These angles are vertical angles. They are formed by intersecting lines and are not adjacent."
+        "$\\angle$1 is complementary to $\\angle$2. Together, they form an angle that is vertical to a right angle."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_8_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": [],
+    "template": 2
   },
   {
-    "question_text": "Which angles are vertical angles?",
+    "question_text": "Which angle is complementary to $\\angle$1?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_9",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
-    "question_type": "Multiple Choice Question with Single Answer",
+    "backend_description": "A geometric diagram showing two intersecting lines forming numbered angles. The diagram consists of a horizontal line and a vertical line that intersect at the center, along with a diagonal line that passes through the intersection point. The angles formed by these intersecting lines are labeled with numbers 1 through 6. Angle 1 is in the upper right quadrant, angle 2 is in the upper right area, angle 3 is in the upper left quadrant, angle 4 is in the lower left quadrant, angle 5 is in the lower left area along the diagonal line, and angle 6 is in the lower right quadrant. This appears to be a mathematical diagram used for teaching concepts related to angles formed by intersecting lines, such as vertical angles, adjacent angles, or linear pairs.",
     "question_number": "1_9",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$2",
+      "$\\angle$4",
+      "$\\angle$3",
+      "$\\angle$5"
     ],
     "correct_answers": [
-      "C"
+      "A"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are vertical angles. They are formed by intersecting lines and are not adjacent."
+        "$\\angle$2 is complementary to $\\angle$1. Together, they form an angle that is vertical to a right angle."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_9_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": [],
+    "template": 2
   },
   {
-    "question_text": "Which angle is complementary to $\\angle$AGC?",
+    "question_text": "Which angle is adjacent to $\\angle$5?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_10",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays emanating from a central point, creating six labeled angles numbered 1 through 6. A vertical line extends upward and downward through the center. From left to right along a diagonal line, there are angles 3, 6, and 1. Angle 4 is positioned in the upper left area, angle 5 is in the upper right area between the vertical line and the diagonal ray, angle 2 is in the lower left area along the vertical line, and the angles are formed by the intersecting rays. The configuration shows various angle relationships including adjacent angles that share a common ray and vertex.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_10",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$1",
+      "$\\angle$4",
+      "$\\angle$2",
+      "$\\angle$3"
     ],
     "correct_answers": [
-      "C"
+      "B"
     ],
     "solution": [
       [
         "1/1",
-        "$\\angle$BGC is complementary to $\\angle$AGC. Together they form a right angle, which has a measure of 90 degrees. So, their angles add up to 90 degrees."
+        "$\\angle$4 is adjacent to $\\angle$5. $\\angle$6 is actually also adjacent to $\\angle$5 but it is not one of the available options."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_10_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angle is supplementary to $\\angle$AGC?",
+    "question_text": "Which angle is congruent to $\\angle$3?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_11",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays meeting at a central point, forming six labeled angles. A horizontal line runs left to right, with angles 2 and 3 on the left side and angles 5 and 6 on the right side. Two additional rays extend upward and downward from the center, creating angles 1 and 4. Angle 2 is positioned in the lower left, angle 3 in the upper left, angle 4 in the upper section between two upward rays, angle 5 in the upper right, angle 6 in the lower right, and angle 1 in the lower section between two downward rays. The angles are formed by the intersecting rays creating vertical angles (2&5, 3&6, 1&4) and adjacent angles along the intersecting lines.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_11",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$6",
+      "$\\angle$1",
+      "$\\angle$5",
+      "$\\angle$2"
     ],
     "correct_answers": [
-      "C"
+      "A"
     ],
     "solution": [
       [
         "1/1",
-        "$\\angle$FGA is supplementary to $\\angle$AGC. Together they form a straight line, which has a measure of 180 degrees. So, their angles add up to 180 degrees."
+        "$\\angle$6 and $\\angle$3 are congruent. They are opposite angles, which have the same measure."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_11_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angle is complementary to $\\angle$AGC?",
+    "question_text": "Which angle is vertical to $\\angle$5?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_12",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows two intersecting lines creating four angles at their intersection point. The angles are labeled 1, 2, 3, 4. A diagonal line runs from upper left to lower right, and another line runs from upper right to lower left, with a small horizontal extension to the right. Angle 4 is positioned in the upper left area, angle 3 is in the left area, angle 2 is in the lower area marked with a small red square at the vertex, angle 5 is in the upper right area, and angle 1 is in the right area. The intersection creates vertical angle pairs where opposite angles are congruent.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_12",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$1",
+      "$\\angle$3",
+      "$\\angle$2",
+      "$\\angle$4"
     ],
     "correct_answers": [
-      "C"
+      "B"
     ],
     "solution": [
       [
         "1/1",
-        "$\\angle$BGC is complementary to $\\angle$AGC. Together they form a right angle, which has a measure of 90 degrees. So, their angles add up to 90 degrees."
+        "Vertical angles are pairs of opposite angles formed when 2 lines intersect. They are always congruent (equal in measure). In this case, $\\angle$3 and $\\angle$5 are vertical angles."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_12_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are adjacent angles?",
+    "question_text": "Which angle is congruent to $\\angle$2?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_13",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays meeting at a central point, forming six labeled angles. A horizontal line runs left to right, with angles 2 and 3 on the left side and angles 5 and 6 on the right side. Two additional rays extend upward and downward from the center, creating angles 1 and 4. Angle 2 is positioned in the lower left, angle 3 in the upper left, angle 4 in the upper section between two upward rays, angle 5 in the upper right, angle 6 in the lower right, and angle 1 in the lower section between two downward rays. The angles are formed by the intersecting rays creating vertical angles (2&5, 3&6, 1&4) and adjacent angles along the intersecting lines.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_13",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$1",
+      "$\\angle$5",
+      "$\\angle$4",
+      "$\\angle$6"
     ],
     "correct_answers": [
-      "C"
+      "B"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are adjacent angles. They share a common side."
+        "$\\angle$5 and $\\angle$2 are congruent. They are opposite angles, which have the same measure."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_13_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angle is complementary to $\\angle$AGC?",
+    "question_text": "Which angle is supplementary to $\\angle$DGB?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_14",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays labeled A through F meeting at a central point labeled G. Rays AG and GD form a straight horizontal line, while rays BG and EG, and CG and FG, form intersecting lines that create multiple angles around point G. The angle AGC lies between rays AG and CG.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_14",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
+      "$\\angle$DGB",
       "$\\angle$CGE",
       "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$BGA"
     ],
     "correct_answers": [
-      "C"
+      "D"
     ],
     "solution": [
       [
         "1/1",
-        "$\\angle$BGC is complementary to $\\angle$AGC. Together they form a right angle, which has a measure of 90 degrees. So, their angles add up to 90 degrees."
+        "Look at $\\angle$BGA and $\\angle$DGB.\n$\\angle$BGA is supplementary to $\\angle$DGB. Together they form a straight line, which has a measure of 180°. So, their angles add up to 180°."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_14_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are vertical angles?",
+    "question_text": "Which angle is adjacent to $\\angle$1?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_15",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays emanating from a central point, creating six labeled angles numbered 1 through 6. A vertical line extends upward and downward through the center. From left to right along a diagonal line, there are angles 3, 6, and 1. Angle 4 is positioned in the upper left area, angle 5 is in the upper right area between the vertical line and the diagonal ray, angle 2 is in the lower left area along the vertical line, and the angles are formed by the intersecting rays. The configuration shows various angle relationships including adjacent angles that share a common ray and vertex.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_15",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$5",
+      "$\\angle$3",
+      "$\\angle$4",
+      "$\\angle$6"
     ],
     "correct_answers": [
-      "C"
+      "D"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are vertical angles. They are formed by intersecting lines and are not adjacent."
+        "$\\angle$6 is adjacent to $\\angle$1. $\\angle$2 is actually also adjacent to $\\angle$1 but it is not one of the available options."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_15_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angle is supplementary to $\\angle$AGC?",
+    "question_text": "Which angle is adjacent to $\\angle$3?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_16",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays emanating from a central point, creating six labeled angles numbered 1 through 6. A vertical line extends upward and downward through the center. From left to right along a diagonal line, there are angles 3, 6, and 1. Angle 4 is positioned in the upper left area, angle 5 is in the upper right area between the vertical line and the diagonal ray, angle 2 is in the lower left area along the vertical line, and the angles are formed by the intersecting rays. The configuration shows various angle relationships including adjacent angles that share a common ray and vertex.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_16",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$6",
+      "$\\angle$5",
+      "$\\angle$4",
+      "$\\angle$1"
     ],
     "correct_answers": [
       "C"
@@ -422,61 +394,49 @@
     "solution": [
       [
         "1/1",
-        "$\\angle$FGA is supplementary to $\\angle$AGC. Together they form a straight line, which has a measure of 180 degrees. So, their angles add up to 180 degrees."
+        "$\\angle$4 is adjacent to $\\angle$3. $\\angle$2 is actually also adjacent to $\\angle$3 but it is not one of the available options."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_16_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angle is supplementary to $\\angle$AGC?",
+    "question_text": "Which angle is congruent to $\\angle$3?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_17",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays meeting at a central point, forming six labeled angles. A horizontal line runs left to right, with angles 2 and 3 on the left side and angles 5 and 6 on the right side. Two additional rays extend upward and downward from the center, creating angles 1 and 4. Angle 2 is positioned in the lower left, angle 3 in the upper left, angle 4 in the upper section between two upward rays, angle 5 in the upper right, angle 6 in the lower right, and angle 1 in the lower section between two downward rays. The angles are formed by the intersecting rays creating vertical angles (2&5, 3&6, 1&4) and adjacent angles along the intersecting lines.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_17",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$5",
+      "$\\angle$4",
+      "$\\angle$1",
+      "$\\angle$6"
     ],
     "correct_answers": [
-      "C"
+      "D"
     ],
     "solution": [
       [
         "1/1",
-        "$\\angle$FGA is supplementary to $\\angle$AGC. Together they form a straight line, which has a measure of 180 degrees. So, their angles add up to 180 degrees."
+        "$\\angle$6 and $\\angle$3 are congruent. They are opposite angles, which have the same measure."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_17_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are adjacent angles?",
+    "question_text": "Which angle is supplementary to $\\angle$FGE?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_18",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays labeled A through F meeting at a central point labeled G. Rays AG and GD form a straight horizontal line, while rays BG and EG, and CG and FG, form intersecting lines that create multiple angles around point G. The angle AGC lies between rays AG and CG.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_18",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$EGA",
+      "$\\angle$AGE",
+      "$\\angle$EGC",
+      "$\\angle$BGD"
     ],
     "correct_answers": [
       "C"
@@ -484,30 +444,24 @@
     "solution": [
       [
         "1/1",
-        "These angles are adjacent angles. They share a common side."
+        "Look at $\\angle$FGE and $\\angle$EGC.\n$\\angle$EGC is supplementary to $\\angle$FGE. Together they form a straight line, which has a measure of 180°. So, their angles add up to 180°."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_18_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are adjacent angles?",
+    "question_text": "Which angle is vertical to $\\angle$1?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_19",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows two intersecting lines creating four angles at their intersection point. The angles are labeled 1, 2, 3, 4. A diagonal line runs from upper left to lower right, and another line runs from upper right to lower left, with a small horizontal extension to the right. Angle 4 is positioned in the upper left area, angle 3 is in the left area, angle 2 is in the lower area marked with a small red square at the vertex, angle 5 is in the upper right area, and angle 1 is in the right area. The intersection creates vertical angle pairs where opposite angles are congruent.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_19",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$2",
+      "$\\angle$4",
+      "$\\angle$3",
+      "$\\angle$1"
     ],
     "correct_answers": [
       "C"
@@ -515,123 +469,99 @@
     "solution": [
       [
         "1/1",
-        "These angles are adjacent angles. They share a common side."
+        "Vertical angles are pairs of opposite angles formed when 2 lines intersect. They are always congruent (equal in measure). In this case, $\\angle$3 and $\\angle$1 are vertical angles."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_19_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are vertical angles?",
+    "question_text": "Which angle is vertical to $\\angle$1?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_20",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows two intersecting lines creating four angles at their intersection point. The angles are labeled 1, 2, 3, 4. A diagonal line runs from upper left to lower right, and another line runs from upper right to lower left, with a small horizontal extension to the right. Angle 4 is positioned in the upper left area, angle 3 is in the left area, angle 2 is in the lower area marked with a small red square at the vertex, angle 5 is in the upper right area, and angle 1 is in the right area. The intersection creates vertical angle pairs where opposite angles are congruent.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_20",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$4",
+      "$\\angle$2",
+      "$\\angle$5",
+      "$\\angle$3"
     ],
     "correct_answers": [
-      "C"
+      "D"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are vertical angles. They are formed by intersecting lines and are not adjacent."
+        "Vertical angles are pairs of opposite angles formed when 2 lines intersect. They are always congruent (equal in measure). In this case, $\\angle$3 and $\\angle$1 are vertical angles."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_20_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are adjacent angles?",
+    "question_text": "Which angle is congruent to $\\angle$4?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_21",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays meeting at a central point, forming six labeled angles. A horizontal line runs left to right, with angles 2 and 3 on the left side and angles 5 and 6 on the right side. Two additional rays extend upward and downward from the center, creating angles 1 and 4. Angle 2 is positioned in the lower left, angle 3 in the upper left, angle 4 in the upper section between two upward rays, angle 5 in the upper right, angle 6 in the lower right, and angle 1 in the lower section between two downward rays. The angles are formed by the intersecting rays creating vertical angles (2&5, 3&6, 1&4) and adjacent angles along the intersecting lines.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_21",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$1",
+      "$\\angle$5",
+      "$\\angle$3",
+      "$\\angle$6"
     ],
     "correct_answers": [
-      "C"
+      "A"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are adjacent angles. They share a common side."
+        "$\\angle$1 and $\\angle$4 are congruent. They are vertical angles, which have the same measure."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_21_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angle is supplementary to $\\angle$AGC?",
+    "question_text": "Which angle is vertical to $\\angle$2?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_22",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows two intersecting lines creating four angles at their intersection point. The angles are labeled 1, 2, 3, 4. A diagonal line runs from upper left to lower right, and another line runs from upper right to lower left, with a small horizontal extension to the right. Angle 4 is positioned in the upper left area, angle 3 is in the left area, angle 2 is in the lower area marked with a small red square at the vertex, angle 5 is in the upper right area, and angle 1 is in the right area. The intersection creates vertical angle pairs where opposite angles are congruent.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_22",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$3",
+      "$\\angle$5",
+      "$\\angle$1",
+      "$\\angle$4"
     ],
     "correct_answers": [
-      "C"
+      "D"
     ],
     "solution": [
       [
         "1/1",
-        "$\\angle$FGA is supplementary to $\\angle$AGC. Together they form a straight line, which has a measure of 180 degrees. So, their angles add up to 180 degrees."
+        "Vertical angles are pairs of opposite angles formed when 2 lines intersect. They are always congruent (equal in measure). In this case, $\\angle$4 and $\\angle$2 are vertical angles."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_22_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angle is complementary to $\\angle$AGC?",
+    "question_text": "Which angle is adjacent to $\\angle$5?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_23",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays emanating from a central point, creating six labeled angles numbered 1 through 6. A vertical line extends upward and downward through the center. From left to right along a diagonal line, there are angles 3, 6, and 1. Angle 4 is positioned in the upper left area, angle 5 is in the upper right area between the vertical line and the diagonal ray, angle 2 is in the lower left area along the vertical line, and the angles are formed by the intersecting rays. The configuration shows various angle relationships including adjacent angles that share a common ray and vertex.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_23",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$1",
+      "$\\angle$3",
+      "$\\angle$6",
+      "$\\angle$2"
     ],
     "correct_answers": [
       "C"
@@ -639,185 +569,149 @@
     "solution": [
       [
         "1/1",
-        "$\\angle$BGC is complementary to $\\angle$AGC. Together they form a right angle, which has a measure of 90 degrees. So, their angles add up to 90 degrees."
+        "$\\angle$6 is adjacent to $\\angle$5. $\\angle$4 is actually also adjacent to $\\angle$5 but it is not one of the available options."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_23_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are adjacent angles?",
+    "question_text": "Which angle is adjacent to $\\angle$3?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_24",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays emanating from a central point, creating six labeled angles numbered 1 through 6. A vertical line extends upward and downward through the center. From left to right along a diagonal line, there are angles 3, 6, and 1. Angle 4 is positioned in the upper left area, angle 5 is in the upper right area between the vertical line and the diagonal ray, angle 2 is in the lower left area along the vertical line, and the angles are formed by the intersecting rays. The configuration shows various angle relationships including adjacent angles that share a common ray and vertex.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_24",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$2",
+      "$\\angle$6",
+      "$\\angle$5",
+      "$\\angle$1"
     ],
     "correct_answers": [
-      "C"
+      "A"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are adjacent angles. They share a common side."
+        "$\\angle$2 is adjacent to $\\angle$3. $\\angle$4 is actually also adjacent to $\\angle$3 but it is not one of the available options."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_24_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are vertical angles?",
+    "question_text": "Which angle is vertical to $\\angle$4?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_25",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows two intersecting lines creating four angles at their intersection point. The angles are labeled 1, 2, 3, 4. A diagonal line runs from upper left to lower right, and another line runs from upper right to lower left, with a small horizontal extension to the right. Angle 4 is positioned in the upper left area, angle 3 is in the left area, angle 2 is in the lower area marked with a small red square at the vertex, angle 5 is in the upper right area, and angle 1 is in the right area. The intersection creates vertical angle pairs where opposite angles are congruent.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_25",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$3",
+      "$\\angle$2",
+      "$\\angle$4",
+      "$\\angle$1"
     ],
     "correct_answers": [
-      "C"
+      "B"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are vertical angles. They are formed by intersecting lines and are not adjacent."
+        "Vertical angles are pairs of opposite angles formed when 2 lines intersect. They are always congruent (equal in measure). In this case, $\\angle$2 and $\\angle$4 are vertical angles."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_25_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are vertical angles?",
+    "question_text": "Which angle is vertical to $\\angle$3?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_26",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows two intersecting lines creating four angles at their intersection point. The angles are labeled 1, 2, 3, 4. A diagonal line runs from upper left to lower right, and another line runs from upper right to lower left, with a small horizontal extension to the right. Angle 4 is positioned in the upper left area, angle 3 is in the left area, angle 2 is in the lower area marked with a small red square at the vertex, angle 5 is in the upper right area, and angle 1 is in the right area. The intersection creates vertical angle pairs where opposite angles are congruent.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_26",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$1",
+      "$\\angle$2",
+      "$\\angle$4",
+      "$\\angle$3"
     ],
     "correct_answers": [
-      "C"
+      "A"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are vertical angles. They are formed by intersecting lines and are not adjacent."
+        "Vertical angles are pairs of opposite angles formed when 2 lines intersect. They are always congruent (equal in measure). In this case, $\\angle$1 and $\\angle$3 are vertical angles."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_26_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are adjacent angles?",
+    "question_text": "Which angle is adjacent to $\\angle$1?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_27",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays emanating from a central point, creating six labeled angles numbered 1 through 6. A vertical line extends upward and downward through the center. From left to right along a diagonal line, there are angles 3, 6, and 1. Angle 4 is positioned in the upper left area, angle 5 is in the upper right area between the vertical line and the diagonal ray, angle 2 is in the lower left area along the vertical line, and the angles are formed by the intersecting rays. The configuration shows various angle relationships including adjacent angles that share a common ray and vertex.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_27",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$3",
+      "$\\angle$2",
+      "$\\angle$5",
+      "$\\angle$4"
     ],
     "correct_answers": [
-      "C"
+      "B"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are adjacent angles. They share a common side."
+        "$\\angle$2 is adjacent to $\\angle$1. $\\angle$6 is actually also adjacent to $\\angle$1 but it is not one of the available options."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_27_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are adjacent angles?",
+    "question_text": "Which angle is supplementary to $\\angle$FGD?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_28",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays labeled A through F meeting at a central point labeled G. Rays AG and GD form a straight horizontal line, while rays BG and EG, and CG and FG, form intersecting lines that create multiple angles around point G. The angle AGC lies between rays AG and CG.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_28",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$EGC",
+      "$\\angle$DGC",
+      "$\\angle$DGA",
+      "$\\angle$BGF"
     ],
     "correct_answers": [
-      "C"
+      "B"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are adjacent angles. They share a common side."
+        "Look at $\\angle$DGC and $\\angle$FGD.\n$\\angle$DGC is supplementary to $\\angle$FGD. Together they form a straight line, which has a measure of 180°. So, their angles add up to 180°."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_28_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are adjacent angles?",
+    "question_text": "Which angle is supplementary to $\\angle$FGE?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_29",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays labeled A through F meeting at a central point labeled G. Rays AG and GD form a straight horizontal line, while rays BG and EG, and CG and FG, form intersecting lines that create multiple angles around point G. The angle AGC lies between rays AG and CG.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_29",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$AGD",
+      "$\\angle$CGA",
+      "$\\angle$EGC",
+      "$\\angle$FGE"
     ],
     "correct_answers": [
       "C"
@@ -825,61 +719,49 @@
     "solution": [
       [
         "1/1",
-        "These angles are adjacent angles. They share a common side."
+        "Look at $\\angle$EGC and $\\angle$FGE.\n$\\angle$EGC is supplementary to $\\angle$FGE. Together they form a straight line, which has a measure of 180°. So, their angles add up to 180°."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_29_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are vertical angles?",
+    "question_text": "Which angle is vertical to $\\angle$4?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_30",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows two intersecting lines creating four angles at their intersection point. The angles are labeled 1, 2, 3, 4. A diagonal line runs from upper left to lower right, and another line runs from upper right to lower left, with a small horizontal extension to the right. Angle 4 is positioned in the upper left area, angle 3 is in the left area, angle 2 is in the lower area marked with a small red square at the vertex, angle 5 is in the upper right area, and angle 1 is in the right area. The intersection creates vertical angle pairs where opposite angles are congruent.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_30",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$2",
+      "$\\angle$5",
+      "$\\angle$3",
+      "$\\angle$1"
     ],
     "correct_answers": [
-      "C"
+      "A"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are vertical angles. They are formed by intersecting lines and are not adjacent."
+        "Vertical angles are pairs of opposite angles formed when 2 lines intersect. They are always congruent (equal in measure). In this case, $\\angle$2 and $\\angle$4 are vertical angles."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_30_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angle is supplementary to $\\angle$AGC?",
+    "question_text": "Which angle is adjacent to $\\angle$4?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_31",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays emanating from a central point, creating six labeled angles numbered 1 through 6. A vertical line extends upward and downward through the center. From left to right along a diagonal line, there are angles 3, 6, and 1. Angle 4 is positioned in the upper left area, angle 5 is in the upper right area between the vertical line and the diagonal ray, angle 2 is in the lower left area along the vertical line, and the angles are formed by the intersecting rays. The configuration shows various angle relationships including adjacent angles that share a common ray and vertex.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_31",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$1",
+      "$\\angle$6",
+      "$\\angle$5",
+      "$\\angle$2"
     ],
     "correct_answers": [
       "C"
@@ -887,115 +769,91 @@
     "solution": [
       [
         "1/1",
-        "$\\angle$FGA is supplementary to $\\angle$AGC. Together they form a straight line, which has a measure of 180 degrees. So, their angles add up to 180 degrees."
+        "$\\angle$5 is adjacent to $\\angle$4. $\\angle$3 is actually also adjacent to $\\angle$4 but it is not one of the available options."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_31_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are adjacent angles?",
+    "question_text": "Which angle is complementary to $\\angle$4?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_32",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
-    "question_type": "Multiple Choice Question with Single Answer",
+    "backend_description": "A geometric diagram showing two intersecting lines forming numbered angles. The diagram consists of a horizontal line and a vertical line that intersect at the center, along with a diagonal line that passes through the intersection point. The angles formed by these intersecting lines are labeled with numbers 1 through 6. Angle 1 is in the upper right quadrant, angle 2 is in the upper right area, angle 3 is in the upper left quadrant, angle 4 is in the lower left quadrant, angle 5 is in the lower left area along the diagonal line, and angle 6 is in the lower right quadrant. This appears to be a mathematical diagram used for teaching concepts related to angles formed by intersecting lines, such as vertical angles, adjacent angles, or linear pairs.",
     "question_number": "1_32",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$5",
+      "$\\angle$2",
+      "$\\angle$1",
+      "$\\angle$3"
     ],
     "correct_answers": [
-      "C"
+      "A"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are adjacent angles. They share a common side."
+        "$\\angle$5 is complementary to $\\angle$4. Together, they form an angle that is vertical to a right angle."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_32_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": [],
+    "template": 2
   },
   {
-    "question_text": "Which angle is complementary to $\\angle$AGC?",
+    "question_text": "Which angle is congruent to $\\angle$6?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_33",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays meeting at a central point, forming six labeled angles. A horizontal line runs left to right, with angles 2 and 3 on the left side and angles 5 and 6 on the right side. Two additional rays extend upward and downward from the center, creating angles 1 and 4. Angle 2 is positioned in the lower left, angle 3 in the upper left, angle 4 in the upper section between two upward rays, angle 5 in the upper right, angle 6 in the lower right, and angle 1 in the lower section between two downward rays. The angles are formed by the intersecting rays creating vertical angles (2&5, 3&6, 1&4) and adjacent angles along the intersecting lines.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_33",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$5",
+      "$\\angle$3",
+      "$\\angle$4",
+      "$\\angle$1"
     ],
     "correct_answers": [
-      "C"
+      "B"
     ],
     "solution": [
       [
         "1/1",
-        "$\\angle$BGC is complementary to $\\angle$AGC. Together they form a right angle, which has a measure of 90 degrees. So, their angles add up to 90 degrees."
+        "$\\angle$3 and $\\angle$6 are congruent. They are opposite angles, which have the same measure."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_33_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are adjacent angles?",
+    "question_text": "Which angle is congruent to $\\angle$4?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_34",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays meeting at a central point, forming six labeled angles. A horizontal line runs left to right, with angles 2 and 3 on the left side and angles 5 and 6 on the right side. Two additional rays extend upward and downward from the center, creating angles 1 and 4. Angle 2 is positioned in the lower left, angle 3 in the upper left, angle 4 in the upper section between two upward rays, angle 5 in the upper right, angle 6 in the lower right, and angle 1 in the lower section between two downward rays. The angles are formed by the intersecting rays creating vertical angles (2&5, 3&6, 1&4) and adjacent angles along the intersecting lines.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_34",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$1",
+      "$\\angle$6",
+      "$\\angle$2",
+      "$\\angle$5"
     ],
     "correct_answers": [
-      "C"
+      "A"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are adjacent angles. They share a common side."
+        "$\\angle$1 and $\\angle$4 are congruent. They are vertical angles, which have the same measure."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_34_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are adjacent angles?",
+    "question_text": "Which angle is supplementary to $\\angle$AGC?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_35",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays labeled A through F meeting at a central point labeled G. Rays AG and GD form a straight horizontal line, while rays BG and EG, and CG and FG, form intersecting lines that create multiple angles around point G. The angle AGC lies between rays AG and CG.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_35",
     "tag": "Gr8_44_E1",
@@ -1011,154 +869,124 @@
     "solution": [
       [
         "1/1",
-        "These angles are adjacent angles. They share a common side."
+        "Look at $\\angle$AGC and $\\angle$FGA.\n$\\angle$FGA is supplementary to $\\angle$AGC. Together they form a straight line, which has a measure of 180°. So, their angles add up to 180°."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_35_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angle is supplementary to $\\angle$AGC?",
+    "question_text": "Which angle is congruent to $\\angle$5?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_36",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays meeting at a central point, forming six labeled angles. A horizontal line runs left to right, with angles 2 and 3 on the left side and angles 5 and 6 on the right side. Two additional rays extend upward and downward from the center, creating angles 1 and 4. Angle 2 is positioned in the lower left, angle 3 in the upper left, angle 4 in the upper section between two upward rays, angle 5 in the upper right, angle 6 in the lower right, and angle 1 in the lower section between two downward rays. The angles are formed by the intersecting rays creating vertical angles (2&5, 3&6, 1&4) and adjacent angles along the intersecting lines.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_36",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$2",
+      "$\\angle$4",
+      "$\\angle$1",
+      "$\\angle$3"
     ],
     "correct_answers": [
-      "C"
+      "A"
     ],
     "solution": [
       [
         "1/1",
-        "$\\angle$FGA is supplementary to $\\angle$AGC. Together they form a straight line, which has a measure of 180 degrees. So, their angles add up to 180 degrees."
+        "$\\angle$2 and $\\angle$5 are congruent. They are opposite angles, which have the same measure."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_36_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angle is supplementary to $\\angle$AGC?",
+    "question_text": "Which angle is complementary to $\\angle$3?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_37",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
-    "question_type": "Multiple Choice Question with Single Answer",
+    "backend_description": "A geometric diagram showing a horizontal line intersected by a vertical line, creating a perpendicular intersection marked with a small blue square. Six angles are labeled around the intersection point. Angle 1 is in the upper left quadrant between two diagonal rays, angle 2 is in the upper left area along a diagonal line, angle 3 is in the upper right quadrant, angle 4 is in the upper right area along a diagonal line, angle 5 is in the lower right quadrant, and angle 6 is in the lower left quadrant. The perpendicular lines create right angles at the intersection, and the configuration shows complementary angle relationships where pairs of angles sum to 90 degrees.",
     "question_number": "1_37",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$1",
+      "$\\angle$4",
+      "$\\angle$6",
+      "$\\angle$5"
     ],
     "correct_answers": [
-      "C"
+      "B"
     ],
     "solution": [
       [
         "1/1",
-        "$\\angle$FGA is supplementary to $\\angle$AGC. Together they form a straight line, which has a measure of 180 degrees. So, their angles add up to 180 degrees."
+        "$\\angle$4 is complementary to $\\angle$3. Together, they form an angle that is vertical to a right angle."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_37_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": [],
+    "template": 1
   },
   {
-    "question_text": "Which angles are adjacent angles?",
+    "question_text": "Which angle is complementary to $\\angle$4?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_38",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "1_38",
+    "backend_description": "A geometric diagram showing a horizontal line intersected by a vertical line, creating a perpendicular intersection marked with a small blue square. Six angles are labeled around the intersection point. Angle 1 is in the upper left quadrant between two diagonal rays, angle 2 is in the upper left area along a diagonal line, angle 3 is in the upper right quadrant, angle 4 is in the upper right area along a diagonal line, angle 5 is in the lower right quadrant, and angle 6 is in the lower left quadrant. The perpendicular lines create right angles at the intersection, and the configuration shows complementary angle relationships where pairs of angles sum to 90 degrees.",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$1",
+      "$\\angle$3",
+      "$\\angle$2",
+      "$\\angle$5"
     ],
     "correct_answers": [
-      "C"
+      "B"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are adjacent angles. They share a common side."
+        "$\\angle$3 is complementary to $\\angle$4. Together, they form an angle that is vertical to a right angle."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_38_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": [],
+    "question_number": "1_38",
+    "template": 1
   },
   {
-    "question_text": "Which angles are vertical angles?",
+    "question_text": "Which angle is adjacent to $\\angle$4?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_39",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays emanating from a central point, creating six labeled angles numbered 1 through 6. A vertical line extends upward and downward through the center. From left to right along a diagonal line, there are angles 3, 6, and 1. Angle 4 is positioned in the upper left area, angle 5 is in the upper right area between the vertical line and the diagonal ray, angle 2 is in the lower left area along the vertical line, and the angles are formed by the intersecting rays. The configuration shows various angle relationships including adjacent angles that share a common ray and vertex.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_39",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$3",
+      "$\\angle$2",
+      "$\\angle$1",
+      "$\\angle$6"
     ],
     "correct_answers": [
-      "C"
+      "A"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are vertical angles. They are formed by intersecting lines and are not adjacent."
+        "$\\angle$3 is adjacent to $\\angle$4. $\\angle$5 is actually also adjacent to $\\angle$4 but it is not one of the available options."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_39_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are vertical angles?",
+    "question_text": "Which angle is supplementary to $\\angle$CGD?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_40",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays labeled A through F meeting at a central point labeled G. Rays AG and GD form a straight horizontal line, while rays BG and EG, and CG and FG, form intersecting lines that create multiple angles around point G. The angle AGC lies between rays AG and CG.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_40",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$DGA",
+      "$\\angle$DGE",
+      "$\\angle$DGF",
+      "$\\angle$EGB"
     ],
     "correct_answers": [
       "C"
@@ -1166,216 +994,173 @@
     "solution": [
       [
         "1/1",
-        "These angles are vertical angles. They are formed by intersecting lines and are not adjacent."
+        "Look at $\\angle$CGD and $\\angle$DGF.\n$\\angle$DGF is supplementary to $\\angle$CGD. Together they form a straight line, which has a measure of 180°. So, their angles add up to 180°."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_40_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angle is complementary to $\\angle$AGC?",
+    "question_text": "Which angle is complementary to $\\angle$4?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_41",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
-    "question_type": "Multiple Choice Question with Single Answer",
+    "backend_description": "The image shows a horizontal line intersected by a vertical line, creating a perpendicular intersection marked with a small red square. Five angles are labeled around the intersection point. Angle 1 is in the lower left quadrant, angle 2 is in the upper left quadrant, angle 3 is in the upper area between two upward rays, angle 4 is in the upper right quadrant, and angle 5 is in the lower right quadrant. The perpendicular lines create right angles, and the configuration shows complementary angle relationships where pairs of angles sum to 90 degrees.",
     "question_number": "1_41",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$2",
+      "$\\angle$3",
+      "$\\angle$1",
+      "$\\angle$5"
     ],
     "correct_answers": [
-      "C"
+      "B"
     ],
     "solution": [
       [
         "1/1",
-        "$\\angle$BGC is complementary to $\\angle$AGC. Together they form a right angle, which has a measure of 90 degrees. So, their angles add up to 90 degrees."
+        "$\\angle$3 is complementary to $\\angle$4. Together, they form an angle that is vertical to a right angle."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_41_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angle is supplementary to $\\angle$AGC?",
+    "question_text": "Which angle is congruent to $\\angle$2?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_42",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays meeting at a central point, forming six labeled angles. A horizontal line runs left to right, with angles 2 and 3 on the left side and angles 5 and 6 on the right side. Two additional rays extend upward and downward from the center, creating angles 1 and 4. Angle 2 is positioned in the lower left, angle 3 in the upper left, angle 4 in the upper section between two upward rays, angle 5 in the upper right, angle 6 in the lower right, and angle 1 in the lower section between two downward rays. The angles are formed by the intersecting rays creating vertical angles (2&5, 3&6, 1&4) and adjacent angles along the intersecting lines.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_42",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$4",
+      "$\\angle$5",
+      "$\\angle$6",
+      "$\\angle$1"
     ],
     "correct_answers": [
-      "C"
+      "B"
     ],
     "solution": [
       [
         "1/1",
-        "$\\angle$FGA is supplementary to $\\angle$AGC. Together they form a straight line, which has a measure of 180 degrees. So, their angles add up to 180 degrees."
+        "$\\angle$5 and $\\angle$2 are congruent. They are vertical angles, which have the same measure."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_42_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are vertical angles?",
+    "question_text": "Which angle is supplementary to $\\angle$DGF?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_43",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays labeled A through F meeting at a central point labeled G. Rays AG and GD form a straight horizontal line, while rays BG and EG, and CG and FG, form intersecting lines that create multiple angles around point G. The angle AGC lies between rays AG and CG.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_43",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
       "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$AGB",
+      "$\\angle$CGE",
+      "$\\angle$DGF"
     ],
     "correct_answers": [
-      "C"
+      "A"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are vertical angles. They are formed by intersecting lines and are not adjacent."
+        "Look at $\\angle$DGF and $\\angle$FGA.\n$\\angle$FGA is supplementary to $\\angle$DGF. Together they form a straight line, which has a measure of 180°. So, their angles add up to 180°."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_43_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angle is complementary to $\\angle$AGC?",
+    "question_text": "Which angle is adjacent to $\\angle$6?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_44",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays emanating from a central point, creating six labeled angles numbered 1 through 6. A vertical line extends upward and downward through the center. From left to right along a diagonal line, there are angles 3, 6, and 1. Angle 4 is positioned in the upper left area, angle 5 is in the upper right area between the vertical line and the diagonal ray, angle 2 is in the lower left area along the vertical line, and the angles are formed by the intersecting rays. The configuration shows various angle relationships including adjacent angles that share a common ray and vertex.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_44",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$5",
+      "$\\angle$3",
+      "$\\angle$4",
+      "$\\angle$2"
     ],
     "correct_answers": [
-      "C"
+      "A"
     ],
     "solution": [
       [
         "1/1",
-        "$\\angle$BGC is complementary to $\\angle$AGC. Together they form a right angle, which has a measure of 90 degrees. So, their angles add up to 90 degrees."
+        "$\\angle$5 is adjacent to $\\angle$6. $\\angle$1 is actually also adjacent to $\\angle$6 but it is not one of the available options."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_44_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angle is complementary to $\\angle$AGC?",
+    "question_text": "Which angle is complementary to $\\angle$4?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_45",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
-    "question_type": "Multiple Choice Question with Single Answer",
+    "backend_description": "A geometric diagram showing two intersecting lines forming numbered angles. The diagram consists of a horizontal line and a vertical line that intersect at the center, along with a diagonal line that passes through the intersection point. The angles formed by these intersecting lines are labeled with numbers 1 through 6. Angle 1 is in the upper right quadrant, angle 2 is in the upper right area, angle 3 is in the upper left quadrant, angle 4 is in the lower left quadrant, angle 5 is in the lower left area along the diagonal line, and angle 6 is in the lower right quadrant. This appears to be a mathematical diagram used for teaching concepts related to angles formed by intersecting lines, such as vertical angles, adjacent angles, or linear pairs.",
     "question_number": "1_45",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$4",
+      "$\\angle$1",
+      "$\\angle$2",
+      "$\\angle$5"
     ],
     "correct_answers": [
-      "C"
+      "D"
     ],
     "solution": [
       [
         "1/1",
-        "$\\angle$BGC is complementary to $\\angle$AGC. Together they form a right angle, which has a measure of 90 degrees. So, their angles add up to 90 degrees."
+        "$\\angle$5 is complementary to $\\angle$4. Together, they form an angle that is vertical to a right angle."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_45_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": [],
+    "template": 2
   },
   {
-    "question_text": "Which angles are vertical angles?",
+    "question_text": "Which angle is vertical to $\\angle$2?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_46",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows two intersecting lines creating four angles at their intersection point. The angles are labeled 1, 2, 3, 4. A diagonal line runs from upper left to lower right, and another line runs from upper right to lower left, with a small horizontal extension to the right. Angle 4 is positioned in the upper left area, angle 3 is in the left area, angle 2 is in the lower area marked with a small red square at the vertex, angle 5 is in the upper right area, and angle 1 is in the right area. The intersection creates vertical angle pairs where opposite angles are congruent.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_46",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$1",
+      "$\\angle$4",
+      "$\\angle$2",
+      "$\\angle$3"
     ],
     "correct_answers": [
-      "C"
+      "B"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are vertical angles. They are formed by intersecting lines and are not adjacent."
+        "Vertical angles are pairs of opposite angles formed when 2 lines intersect. They are always congruent (equal in measure). In this case, $\\angle$4 and $\\angle$2 are vertical angles."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_46_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angle is complementary to $\\angle$AGC?",
+    "question_text": "Which angle is vertical to $\\angle$3?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_47",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows two intersecting lines creating four angles at their intersection point. The angles are labeled 1, 2, 3, 4. A diagonal line runs from upper left to lower right, and another line runs from upper right to lower left, with a small horizontal extension to the right. Angle 4 is positioned in the upper left area, angle 3 is in the left area, angle 2 is in the lower area marked with a small red square at the vertex, angle 5 is in the upper right area, and angle 1 is in the right area. The intersection creates vertical angle pairs where opposite angles are congruent.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_47",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$4",
+      "$\\angle$2",
+      "$\\angle$1",
+      "$\\angle$5"
     ],
     "correct_answers": [
       "C"
@@ -1383,170 +1168,109 @@
     "solution": [
       [
         "1/1",
-        "$\\angle$BGC is complementary to $\\angle$AGC. Together they form a right angle, which has a measure of 90 degrees. So, their angles add up to 90 degrees."
+        "Vertical angles are pairs of opposite angles formed when 2 lines intersect. They are always congruent (equal in measure). In this case, $\\angle$1 and $\\angle$3 are vertical angles."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_47_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are vertical angles?",
+    "question_text": "Which angle is complementary to $\\angle$2?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_48",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
-    "question_type": "Multiple Choice Question with Single Answer",
+    "backend_description": "A geometric diagram showing a horizontal line intersected by a vertical line, creating a perpendicular intersection marked with a small blue square. Six angles are labeled around the intersection point. Angle 1 is in the upper left quadrant between two diagonal rays, angle 2 is in the upper left area along a diagonal line, angle 3 is in the upper right quadrant, angle 4 is in the upper right area along a diagonal line, angle 5 is in the lower right quadrant, and angle 6 is in the lower left quadrant. The perpendicular lines create right angles at the intersection, and the configuration shows complementary angle relationships where pairs of angles sum to 90 degrees.",
     "question_number": "1_48",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$4",
+      "$\\angle$6",
+      "$\\angle$2",
+      "$\\angle$3"
     ],
     "correct_answers": [
-      "C"
+      "D"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are vertical angles. They are formed by intersecting lines and are not adjacent."
+        "$\\angle$3 is complementary to $\\angle$2. Together, they form an angle that is vertical to a right angle."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_48_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": [],
+    "template": 1
   },
   {
-    "question_text": "Which angles are vertical angles?",
+    "question_text": "Which angle is supplementary to $\\angle$AGE?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_49",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays labeled A through F meeting at a central point labeled G. Rays AG and GD form a straight horizontal line, while rays BG and EG, and CG and FG, form intersecting lines that create multiple angles around point G. The angle AGC lies between rays AG and CG.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_49",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$BGD",
+      "$\\angle$EGD",
+      "$\\angle$AGD",
+      "$\\angle$CGF"
     ],
     "correct_answers": [
-      "C"
+      "B"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are vertical angles. They are formed by intersecting lines and are not adjacent."
+        "Look at $\\angle$AGE and $\\angle$EGD.\n$\\angle$EGD is supplementary to $\\angle$AGE. Together they form a straight line, which has a measure of 180°. So, their angles add up to 180°."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_49_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angles are vertical angles?",
+    "question_text": "Which angle is supplementary to $\\angle$CGA?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_50",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays labeled A through F meeting at a central point labeled G. Rays AG and GD form a straight horizontal line, while rays BG and EG, and CG and FG, form intersecting lines that create multiple angles around point G. The angle AGC lies between rays AG and CG.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_50",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$DGE",
+      "$\\angle$BGF",
+      "$\\angle$CGA",
+      "$\\angle$CGD"
     ],
     "correct_answers": [
-      "C"
+      "D"
     ],
     "solution": [
       [
         "1/1",
-        "These angles are vertical angles. They are formed by intersecting lines and are not adjacent."
+        "Look at $\\angle$CGA and $\\angle$CGD.\n$\\angle$CGD is supplementary to $\\angle$CGA. Together they form a straight line, which has a measure of 180°. So, their angles add up to 180°."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_50_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "Which angle is supplementary to $\\angle$AGC?",
+    "question_text": "Which angle is supplementary to $\\angle$BGD?",
     "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
     "image_tag": "Gr8_44_1_51",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
+    "backend_description": "The image shows six rays labeled A through F meeting at a central point labeled G. Rays AG and GD form a straight horizontal line, while rays BG and EG, and CG and FG, form intersecting lines that create multiple angles around point G. The angle AGC lies between rays AG and CG.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "1_51",
     "tag": "Gr8_44_E1",
     "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
+      "$\\angle$AGE",
+      "$\\angle$DGB",
+      "$\\angle$BGD",
+      "$\\angle$AGB"
     ],
     "correct_answers": [
-      "C"
+      "D"
     ],
     "solution": [
       [
         "1/1",
-        "$\\angle$FGA is supplementary to $\\angle$AGC. Together they form a straight line, which has a measure of 180 degrees. So, their angles add up to 180 degrees."
+        "Look at $\\angle$BGD and $\\angle$AGB.\n$\\angle$AGB is supplementary to $\\angle$BGD. Together they form a straight line, which has a measure of 180°. So, their angles add up to 180°."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_51_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
-  },
-  {
-    "question_text": "Which angle is supplementary to $\\angle$AGC?",
-    "skills": "identify-complementary-supplementary-vertical-adjacent-and-congruent-angles",
-    "image_tag": "Gr8_44_1_52",
-    "backend_description": "The image shows multiple rays meeting at a central point G, forming various angles. The specific angle relationships vary based on the configuration.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "question_number": "1_52",
-    "tag": "Gr8_44_E1",
-    "choices": [
-      "$\\angle$EGF",
-      "$\\angle$CGE",
-      "$\\angle$FGA",
-      "$\\angle$FGB"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/1",
-        "$\\angle$FGA is supplementary to $\\angle$AGC. Together they form a straight line, which has a measure of 180 degrees. So, their angles add up to 180 degrees."
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/1",
-        "Gr8_44_1_52_step_1",
-        "The image shows the angle relationship with appropriate markings."
-      ]
-    ]
+    "solution_image_tag": []
   }
 ]
