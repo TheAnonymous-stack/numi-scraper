@@ -1,0 +1,667 @@
+{
+  "quizzes": [
+    {
+      "skills": "add-and-subtract-mixed-numbers",
+      "question_text": "Add. Write your answer as a fraction or as a whole or mixed number. __/_",
+      "image_tag": "Gr7_17_1_1",
+      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
+      "question_type": "Fill in the blank",
+      "question_number": "1_1",
+      "has_alternative_answers": true,
+      "correct_answers": [
+        [
+          "11 5/11"
+        ],
+        [
+          "126/11"
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "4/6",
+          "Gr7_17_1_1_step_4",
+          "Shows the intermediate calculation: 10 + 16/11. The whole numbers have been added (2 + 8 = 10) and the fractions added (8/11 + 8/11 = 16/11), demonstrating the next step is to convert the improper fraction."
+        ]
+      ],
+      "solution": [
+        [
+          "1/6",
+          "We are adding two mixed numbers: 2 dollars \\frac{8}{11} + 8 \\frac{8}{11}$."
+        ],
+        [
+          "2/6",
+          "First, add the whole numbers: 2 + 8 = 10."
+        ],
+        [
+          "3/6",
+          "Next, add the fractions: $\\frac{8}{11} + \\frac{8}{11} = \\frac{16}{11}$."
+        ],
+        [
+          "4/6",
+          "Now we have the following equation:\n"
+        ],
+        [
+          "5/6",
+          "Since $\\frac{16}{11}$ is an improper fraction, convert it to a mixed number:\n\n $\\frac{16}{11} = 1 \\frac{5}{11}$."
+        ],
+        [
+          "6/6",
+          "Now add the whole numbers: 10 + 1 = 11.\n\n So the final answer is 11 dollars \\frac{5}{11}$."
+        ]
+      ],
+      "tag": "Gr7_17_E1"
+    },
+    {
+      "question_text": "Subtract. Write your answer as a fraction or as a whole or mixed number.\n\n",
+      "skills": "add-and-subtract-mixed-numbers",
+      "image_tag": "Gr7_17_1_2",
+      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
+      "tag": "Gr7_17_E1",
+      "question_type": "Fill in the blank",
+      "question_number": "1_2",
+      "has_alternative_answers": true,
+      "correct_answers": [
+        [
+          "8 4/11"
+        ],
+        [
+          "92/11"
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/6",
+          "Gr7_17_1_2_step_1",
+          "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
+        ],
+        [
+          "2/6",
+          "Gr7_17_1_2_step_2",
+          "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
+        ],
+        [
+          "5/6",
+          "Gr7_17_1_2_step_5",
+          "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
+        ]
+      ],
+      "solution": [
+        [
+          "1/6",
+          "We are subtracting two mixed numbers:\n"
+        ],
+        [
+          "2/6",
+          "We can't subtract $\\frac{8}{11}$ from $\\frac{1}{11}$, so we need to borrow 1 from the whole number part of 15 dollars \\frac{1}{11}$:\n"
+        ],
+        [
+          "3/6",
+          "Rewrite 15 dollars \\frac{1}{11}$ as 14 dollars \\frac{12}{11}$. Now we can subtract 6 dollars \\frac{8}{11}$."
+        ],
+        [
+          "4/6",
+          "Subtract the whole numbers: 14 âˆ’ 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} âˆ’ \\frac{8}{11} = \\frac{4}{11}$."
+        ],
+        [
+          "5/6",
+          "Now add the whole number and the fraction:\n"
+        ],
+        [
+          "6/6",
+          "The final answer is 8 dollars \\frac{4}{11}$."
+        ]
+      ]
+    },
+    {
+      "question_text": "Yesterday, The Sweet Slice Cafe sold 6 dollars \\frac{1}{4}$ carafes of caffeinated coffee and 2 dollars \\frac{1}{4}$ carafes of decaffeinated coffee. How many carafes of coffee did they sell in all?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n",
+      "skills": "add-and-subtract-mixed-numbers-word-problems",
+      "tag": "Gr7_17_E2",
+      "question_type": "Fill in the blank",
+      "question_number": "2_1",
+      "has_alternative_answers": true,
+      "correct_answers": [
+        [
+          "8 1/2"
+        ],
+        [
+          "17/2"
+        ],
+        [
+          "34/4"
+        ],
+        [
+          "8 2/4"
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "3/5",
+          "Gr7_17_2_1_step_3",
+          "Shows the addition calculation: 8 + 1/4 + 1/4 = 8 2/4. The whole numbers are added first, then the fractions with the same denominator are combined."
+        ],
+        [
+          "4/5",
+          "Gr7_17_2_1_step_4",
+          "Shows the simplification of the fraction: 8 2/4 = 8 1/2. The fraction 2/4 is reduced to its simplest form by dividing both numerator and denominator by 2."
+        ]
+      ],
+      "solution": [
+        [
+          "1/5",
+          "Find total number of carafes of coffee by adding 6 dollars \\frac{1}{4}$ and 2 dollars \\frac{1}{4}$."
+        ],
+        [
+          "2/5",
+          "First, add the whole numbers: 6 + 2 = 8."
+        ],
+        [
+          "3/5",
+          "Next, add the fractions: $\\frac{1}{4} + \\frac{1}{4} = \\frac{2}{4}$. Putting this together, we have:\n"
+        ],
+        [
+          "4/5",
+          "Now simplify the fraction by dividing the numerator and denominator by 2:\n"
+        ],
+        [
+          "5/5",
+          "So, a total of 8 dollars \\frac{1}{2}$ carafes of coffee were sold. This is also equal to the improper fraction $\\frac{17}{2}$."
+        ]
+      ]
+    },
+    {
+      "skills": "add-and-subtract-mixed-numbers-word-problems",
+      "question_text": "Leo's drive to work is 12 dollars \\frac{3}{4}$ hours, whereas Mitch's is 10 dollars \\frac{1}{4}$ hours. How much longer is Leo's drive than Mitch's?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n",
+      "question_type": "Fill in the blank",
+      "question_number": "2_2",
+      "has_alternative_answers": true,
+      "correct_answers": [
+        [
+          "2 1/2"
+        ],
+        [
+          "5/2"
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "3/4",
+          "Gr7_17_2_2_step_3",
+          "Shows the subtraction: 12 3/4 - 10 1/4 = 2 2/4. The whole numbers and fractions are subtracted separately since no borrowing is needed."
+        ],
+        [
+          "4/4",
+          "Gr7_17_2_2_step_4",
+          "Shows the final simplified answer: 2 1/2. The fraction 2/4 has been reduced to 1/2 by dividing both numerator and denominator by 2."
+        ]
+      ],
+      "solution": [
+        [
+          "1/4",
+          "To find how much longer Leo's drive is, subtract Mitch's time from Leo's."
+        ],
+        [
+          "2/4",
+          "Subtract the whole numbers from whole numbers and fractions from fractions.\n\n12 - 10 = 2\n\n$\\frac{3}{4} - \\frac{1}{4} = \\frac{2}{4}$"
+        ],
+        [
+          "3/4",
+          "Now simplify the fraction by dividing the numerator and denominator by 2:\n"
+        ],
+        [
+          "4/4",
+          "Leo's drive is 2 dollars \\frac{1}{2}$ hours longer than Mitch's:\n"
+        ]
+      ],
+      "tag": "Gr7_17_E2"
+    },
+    {
+      "skills": "greatest-common-factor",
+      "question_text": "What is the greatest common factor of 8 and 4?\n\n",
+      "question_type": "Fill in the blank",
+      "correct_answers": [
+        "4"
+      ],
+      "solution_image_tag": [
+        [
+          "1/5",
+          "Gr7_18_1_1_step_1",
+          "Shows the prime factorization of both numbers. 8 is broken down as 8 = 2 x 2 x 2 (with each 2 shown in red), and 4 is broken down as 4 = 2 x 2 (with each 2 shown in red)."
+        ],
+        [
+          "2/5",
+          "Gr7_18_1_1_step_2",
+          "Highlights the common factors between the two numbers. Both 8 and 4 share 2 x 2 as common factors, with the shared factors shown in red to make the comparison clear."
+        ]
+      ],
+      "solution": [
+        [
+          "1/5",
+          "Write the prime factorization for each number."
+        ],
+        [
+          "2/5",
+          "Next, find the common factors shared by both of the numbers."
+        ],
+        [
+          "3/5",
+          "Finally, multiply the common factors to find the greatest common factor."
+        ],
+        [
+          "4/5",
+          "2 x 2 = 4"
+        ],
+        [
+          "5/5",
+          "The greatest common factor of 8 and 4 is 4."
+        ]
+      ],
+      "tag": "Gr7_18_E1",
+      "question_number": "1_1"
+    },
+    {
+      "skills": "least-common-multiple",
+      "question_text": "What is the least common multiple of 5 and 10?\n\n",
+      "question_type": "Fill in the blank",
+      "correct_answers": [
+        "10"
+      ],
+      "solution": [
+        [
+          "1/5",
+          "To find the least common multiple (LCM) of 5 and 10, list the multiples of each number."
+        ],
+        [
+          "2/5",
+          "Multiples of 5: 5, 10, 15, 20, ..."
+        ],
+        [
+          "3/5",
+          "Multiples of 10: 10, 20, 30, ..."
+        ],
+        [
+          "4/5",
+          "The first multiple that both numbers share is 10."
+        ],
+        [
+          "5/5",
+          "So, the least common multiple of 5 and 10 is 10."
+        ]
+      ],
+      "tag": "Gr7_18_E2",
+      "question_number": "2_1",
+      "solution_image_tag": []
+    },
+    {
+      "skills": "gcf-and-lcm-word-problems",
+      "question_text": "In preparation for a conference, Karen is setting up some stations where people can create their own name tags. She has 18 name tags and 9 pens, which she wants to distribute evenly among the name tag stations with none left over. \n\nWhat is the greatest number of name tag stations that Karen can set up?\n\n",
+      "question_type": "Fill in the blank",
+      "correct_answers": [
+        "9"
+      ],
+      "solution": [
+        [
+          "1/6",
+          "Karen wants to divide 18 name tags and 9 pens into equal groups with no extras."
+        ],
+        [
+          "2/6",
+          "We need to find the greatest number that can divide both 18 and 9 evenly."
+        ],
+        [
+          "3/6",
+          "The factors of 18 are: 1, 2, 3, 6, 9, 18."
+        ],
+        [
+          "4/6",
+          "The factors of 9 are: 1, 3, 9."
+        ],
+        [
+          "5/6",
+          "The greatest common factor is 9. That means Karen can make 9 name tag stations."
+        ],
+        [
+          "6/6",
+          "Each station would have 2 name tags and 1 pen. So, the greatest number of stations is 9."
+        ]
+      ],
+      "tag": "Gr7_18_E3",
+      "question_number": "3_1",
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Over the next two days, Madison Employment Agency is interviewing clients who wish to find jobs. On the first day, the agency plans to interview clients in groups of 2. On the second day, the agency will interview clients in groups of 10. If the employment agency will interview the same number of clients on each day, what is the smallest number of clients that could be interviewed each day?\n",
+      "skills": "gcf-and-lcm-word-problems",
+      "tag": "Gr7_18_E3",
+      "question_type": "Fill in the blank",
+      "question_number": "3_2",
+      "correct_answers": [
+        "10"
+      ],
+      "solution": [
+        [
+          "1/6",
+          "The agency plans to interview clients in groups of 2 on the first day and in groups of 10 on the second day."
+        ],
+        [
+          "2/6",
+          "We are told the number of clients interviewed each day must be the same. So, we need to find the smallest number that both 2 and 10 can divide into evenly."
+        ],
+        [
+          "3/6",
+          "The multiples of 2 are: 2, 4, 6, 8, 10, 12..."
+        ],
+        [
+          "4/6",
+          "The multiples of 10 are: 10, 20, 30..."
+        ],
+        [
+          "5/6",
+          "The least common multiple (LCM) of 2 and 10 is 10. That means 10 is the smallest number of clients that works for both grouping methods."
+        ],
+        [
+          "6/6",
+          "So, the smallest number of clients that could be interviewed each day is 10."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "skills": "understanding-exponents",
+      "question_text": "Write the expression using an exponent.\n\n2 dollars x 2 = = \\_\\_\\_\\_^{\\_\\_\\_\\_}$",
+      "question_type": "Fill in the blank",
+      "correct_answers": [
+        "2^2"
+      ],
+      "solution": [
+        [
+          "1/2",
+          "We are multiplying 2 x 2. That means we are using 2 (the base) as a factor two times."
+        ],
+        [
+          "2/2",
+          "So, we can write this as an exponent.\n\n2 dollars x 2 = 2^{2}$."
+        ]
+      ],
+      "tag": "Gr7_19_E1",
+      "question_number": "1_1",
+      "solution_image_tag": []
+    },
+    {
+      "skills": "evaluate-powers",
+      "question_text": "Evaluate.\n\n8 dollars^{2} = \\_\\_\\_\\_$\n\n",
+      "question_type": "Fill in the blank",
+      "correct_answers": [
+        "64"
+      ],
+      "solution_image_tag": [
+        [
+          "2/2",
+          "Gr7_19_2_1_step_2",
+          "Shows the calculation 8Â² = 8 x 8 = 64. The exponent notation is expanded to show multiplication, then the final result."
+        ]
+      ],
+      "solution": [
+        [
+          "1/2",
+          "The base is 8 and the exponent is 2. This means we multiply 8 by itself 2 times."
+        ],
+        [
+          "2/2",
+          "Therefore:"
+        ]
+      ],
+      "tag": "Gr7_19_E2",
+      "question_number": "2_1"
+    },
+    {
+      "skills": "solve-equations-with-variable-exponents",
+      "question_text": "Solve for s.\n\n2 dollars^{s} = 8$\n\n$s = \\_\\_\\_\\_$",
+      "question_type": "Fill in the blank",
+      "correct_answers": [
+        "3"
+      ],
+      "solution_image_tag": [
+        [
+          "4/5",
+          "Gr7_19_3_1_step_4",
+          "Shows a table with three columns: 'Power of 2', 'Repeated multiplication', and 'Value'. The table demonstrates the pattern of how each power of 2 is calculated, with arrows indicating multiplication by 2 to get from one value to the next."
+        ]
+      ],
+      "solution": [
+        [
+          "1/5",
+          "We are given the equation: 2 dollars^{s} = 8$."
+        ],
+        [
+          "2/5",
+          "This means we need to figure out how many times we multiply 2 by itself to get 8."
+        ],
+        [
+          "3/5",
+          "First try 2 dollars^{2} = 2 x 2 = 4$, this does not equal 8."
+        ],
+        [
+          "4/5",
+          "Now try 2 dollars^{3} = 2 x 2 x 2 = 4 x 2 = 8$\n"
+        ],
+        [
+          "5/5",
+          "Therefore, s = 3."
+        ]
+      ],
+      "tag": "Gr7_19_E3",
+      "question_number": "3_1"
+    },
+    {
+      "skills": "multiply-fractions",
+      "question_text": "Multiply.\n\n",
+      "image_tag": "Gr7_20_2_1",
+      "backend_description": "Shows the multiplication problem 1/5 x 1/4 with an empty box for the answer.",
+      "question_type": "Fill in the blank",
+      "correct_answers": [
+        "1/20"
+      ],
+      "solution_image_tag": [
+        [
+          "3/4",
+          "Gr7_20_2_1_step_3",
+          "Shows the complete multiplication: (1 x 1)/(5 x 4) = 1/20. The numerators are multiplied together (1 x 1 = 1) and the denominators are multiplied together (5 x 4 = 20)."
+        ]
+      ],
+      "solution": [
+        [
+          "1/4",
+          "We are multiplying two fractions.\n$\\frac{1}{5} x \\frac{1}{4}$"
+        ],
+        [
+          "2/4",
+          "First, multiply the numerators.\n1 x 1 = 1"
+        ],
+        [
+          "3/4",
+          "Now multiply the denominators:\n5 x 4 = 20\n"
+        ],
+        [
+          "4/4",
+          "So, $\\frac{1}{5} x \\frac{1}{4} = \\frac{1}{20}$."
+        ]
+      ],
+      "tag": "Gr7_20_E2",
+      "question_number": "2_1"
+    },
+    {
+      "skills": "multiply-fractions-word-problems",
+      "question_text": "At Putnam High School, $\\frac{1}{4}$ of the students play a sport. Of the students who play a sport, $\\frac{1}{3}$ play football.\n\nWhat fraction of the students at Putnam High School play football?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n",
+      "question_type": "Fill in the blank",
+      "correct_answers": [
+        "1/12"
+      ],
+      "solution_image_tag": [
+        [
+          "2/5",
+          "Gr7_20_3_1_step_2",
+          "Shows the multiplication of two fractions: 1/4 x 1/3. The calculation is set up to multiply numerators and denominators separately."
+        ],
+        [
+          "4/5",
+          "Gr7_20_3_1_step_4",
+          "Shows the complete calculation: 1/4 x 1/3 = (1 x 1)/(4 x 3) = 1/12. The numerators (1 x 1 = 1) and denominators (4 x 3 = 12) are multiplied to get the final answer."
+        ]
+      ],
+      "solution": [
+        [
+          "1/5",
+          "We are trying to find what fraction of all students play football."
+        ],
+        [
+          "2/5",
+          "We know that $\\frac{1}{4}$ of the students play a sport, and $\\frac{1}{3}$ of those students play football. So we multiply the two fractions.\n"
+        ],
+        [
+          "3/5",
+          "First, multiply the numerators.\n1 x 1 = 1"
+        ],
+        [
+          "4/5",
+          "Now multiply the denominators.\n4 x 3 = 12\n"
+        ],
+        [
+          "5/5",
+          "This means $\\frac{1}{12}$ of the students at Putnam High School play football."
+        ]
+      ],
+      "tag": "Gr7_20_E3",
+      "question_number": "3_1"
+    },
+    {
+      "skills": "multiply-mixed-numbers",
+      "question_text": "Multiply. Write your answer as a fraction or as a whole or mixed number.\n",
+      "image_tag": "Gr7_21_1_1",
+      "backend_description": "Shows the multiplication of two mixed numbers: 4 1/3 x 2 1/4 with an empty box for the answer.",
+      "question_type": "Fill in the blank",
+      "has_alternative_answers": true,
+      "correct_answers": [
+        [
+          "9 3/4"
+        ],
+        [
+          "39/4"
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "3/7",
+          "Gr7_21_1_1_step_3",
+          "Shows the conversion of 4 1/3 to an improper fraction: 4 1/3 = (4 x 3 + 1)/3 = 13/3. The calculation demonstrates multiplying the whole number by the denominator and adding the numerator."
+        ],
+        [
+          "4/7",
+          "Gr7_21_1_1_step_4",
+          "Shows the conversion of 2 1/4 to an improper fraction: 2 1/4 = (2 x 4 + 1)/4 = 9/4. The same process is used to convert the second mixed number."
+        ],
+        [
+          "5/7",
+          "Gr7_21_1_1_step_5",
+          "Shows the multiplication of the improper fractions: 13/3 x 9/4 = (13 x 9)/(3 x 4) = 117/12. The numerators and denominators are multiplied separately."
+        ],
+        [
+          "6/7",
+          "Gr7_21_1_1_step_6",
+          "Shows the conversion back to a mixed number: 117/12 = 9 9/12 = 9 3/4. First, 117 Ã· 12 = 9 remainder 9, giving 9 9/12. Then the fraction 9/12 is simplified to 3/4 by dividing both numerator and denominator by 3."
+        ]
+      ],
+      "solution": [
+        [
+          "1/7",
+          "We are multiplying 4 dollars \\frac{1}{3} x 2 \\frac{1}{4}$."
+        ],
+        [
+          "2/7",
+          "First, change the mixed numbers to improper fractions."
+        ],
+        [
+          "3/7",
+          "Convert 4 1/3 to an improper fraction:\n"
+        ],
+        [
+          "4/7",
+          "Convert 2 1/4 to an improper fraction:\n"
+        ],
+        [
+          "5/7",
+          "Multiply the improper fractions:\n"
+        ],
+        [
+          "6/7",
+          "Convert the improper fraction answer back to a mixed number and simplify the fraction:\n"
+        ],
+        [
+          "7/7",
+          "The final answer is 9 dollars \\frac{3}{4}$."
+        ]
+      ],
+      "tag": "Gr7_21_E1",
+      "question_number": "1_1"
+    },
+    {
+      "skills": "multiply-mixed-numbers-word-problems",
+      "question_text": "Gabe's lemon cookie recipe calls for 3 dollars$ cups of sugar.\n\nHow much sugar would Gabe use to make $\\frac{4}{5}$ of a batch of cookies?\n\nWrite your answer as a fraction or as a whole or mixed number.\n",
+      "question_type": "Fill in the blank",
+      "has_alternative_answers": true,
+      "correct_answers": [
+        [
+          "2 2/5"
+        ],
+        [
+          "12/5"
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/5",
+          "Gr7_21_2_1_step_1",
+          "Shows the multiplication setup: 3 x 4/5. The whole number 3 is to be multiplied by the fraction 4/5."
+        ],
+        [
+          "2/5",
+          "Gr7_21_2_1_step_2",
+          "Shows converting 3 to a fraction: 3 = 3/1. This allows the multiplication to be performed as fraction x fraction."
+        ],
+        [
+          "3/5",
+          "Gr7_21_2_1_step_3",
+          "Shows the multiplication: 3/1 x 4/5 = (3 x 4)/(1 x 5) = 12/5. The numerators and denominators are multiplied to get the improper fraction result."
+        ],
+        [
+          "5/5",
+          "Gr7_21_2_1_step_5",
+          "Shows the conversion to a mixed number: 12/5 = 2 2/5. Since 12 Ã· 5 = 2 remainder 2, the result is 2 2/5 cups of sugar."
+        ]
+      ],
+      "solution": [
+        [
+          "1/5",
+          "To find out how much sugar Gabe uses for $\\frac{4}{5}$ of a batch, multiply:\n"
+        ],
+        [
+          "2/5",
+          "Write 3 as a fraction:\n"
+        ],
+        [
+          "3/5",
+          "Multiply the numerators and multiply the denominators:\n"
+        ],
+        [
+          "4/5",
+          "Gabe would use $\\frac{12}{5}$ cups of sugar."
+        ],
+        [
+          "5/5",
+          "This can also be expressed as mix number.\n"
+        ]
+      ],
+      "tag": "Gr7_21_E2",
+      "question_number": "2_1"
+    }
+  ]
+}

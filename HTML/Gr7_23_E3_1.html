@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr7_23_E3_1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .item {
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .grid-model {
+            width: 300px;
+            height: 300px;
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            grid-template-rows: repeat(10, 1fr);
+            border: 2px solid #333;
+            background-color: white;
+        }
+        .grid-cell {
+            border: 0.5px solid #ddd;
+        }
+        .row-shaded {
+            background-color: rgba(200, 180, 220, 0.3);
+        }
+        .col-shaded {
+            background-color: rgba(150, 130, 200, 0.4);
+        }
+        .overlap-shaded {
+            background-color: rgba(120, 100, 180, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Main problem visualization -->
+        <div class="item" label="Gr7_23_3_2">
+            <div class="grid-model">
+                <script>
+                    // Create 100 cells (10x10 grid)
+                    for(let row = 0; row < 10; row++) {
+                        for(let col = 0; col < 10; col++) {
+                            const cell = document.createElement('div');
+                            cell.className = 'grid-cell';
+
+                            // Shade first 4 rows (0.4)
+                            if(row < 4) {
+                                cell.classList.add('row-shaded');
+                            }
+
+                            // Shade first 2 columns (0.2)
+                            if(col < 2) {
+                                cell.classList.add('col-shaded');
+                            }
+
+                            // Overlap area (8 squares)
+                            if(row < 4 && col < 2) {
+                                cell.className.add('overlap-shaded');
+                            }
+
+                            document.currentScript.parentElement.appendChild(cell);
+                        }
+                    }
+                </script>
+            </div>
+            <div style="text-align: center; margin-top: 10px; font-size: 16px;">
+                0.4 × 0.2 = <span style="display: inline-block; width: 60px; height: 30px; border: 2px solid #333; background: #f0f0f0; vertical-align: middle;"></span>
+            </div>
+        </div>
+
+        <!-- Solution visualization -->
+        <div class="item" label="Gr7_23_3_1_step_2">
+            <div class="grid-model">
+                <script>
+                    // Create 100 cells with clear overlap highlighting
+                    for(let row = 0; row < 10; row++) {
+                        for(let col = 0; col < 10; col++) {
+                            const cell = document.createElement('div');
+                            cell.className = 'grid-cell';
+
+                            // Highlight the overlap area (first 4 rows and first 2 columns)
+                            if(row < 4 && col < 2) {
+                                cell.style.backgroundColor = 'rgba(100, 80, 160, 0.9)';
+                                cell.style.border = '1px solid #444';
+                            }
+
+                            document.currentScript.parentElement.appendChild(cell);
+                        }
+                    }
+                </script>
+            </div>
+            <div style="text-align: center; margin-top: 10px; font-size: 16px; color: #666;">
+                8 out of 100 squares = 0.08
+            </div>
+        </div>
+    </div>
+</body>
+</html>

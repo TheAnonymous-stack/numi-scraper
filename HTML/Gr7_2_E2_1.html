@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr7_2_E2 2_1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .item {
+            margin: 20px 0;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr7_2_2_2">
+        <svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
+            <style>
+                .number-line { stroke: black; stroke-width: 2; }
+                .tick { stroke: black; stroke-width: 2; }
+                .number { font-size: 14px; text-anchor: middle; }
+                .variable { font-size: 16px; text-anchor: middle; font-style: italic; }
+                .point { fill: red; }
+            </style>
+
+            <!-- Number line from 0 to 1 -->
+            <line x1="50" y1="75" x2="550" y2="75" class="number-line"/>
+
+            <!-- Tick marks for 10 equal intervals (11 ticks total) -->
+            <!-- 0 -->
+            <line x1="50" y1="65" x2="50" y2="85" class="tick"/>
+            <text x="50" y="100" class="number">0</text>
+
+            <!-- 0.1 -->
+            <line x1="100" y1="70" x2="100" y2="80" class="tick"/>
+
+            <!-- 0.2 -->
+            <line x1="150" y1="70" x2="150" y2="80" class="tick"/>
+
+            <!-- 0.3 -->
+            <line x1="200" y1="70" x2="200" y2="80" class="tick"/>
+
+            <!-- 0.4 -->
+            <line x1="250" y1="70" x2="250" y2="80" class="tick"/>
+
+            <!-- 0.5 (z position) -->
+            <line x1="300" y1="70" x2="300" y2="80" class="tick"/>
+            <circle cx="300" cy="75" r="4" class="point"/>
+            <text x="300" y="55" class="variable">z</text>
+
+            <!-- 0.6 -->
+            <line x1="350" y1="70" x2="350" y2="80" class="tick"/>
+
+            <!-- 0.7 -->
+            <line x1="400" y1="70" x2="400" y2="80" class="tick"/>
+
+            <!-- 0.8 -->
+            <line x1="450" y1="70" x2="450" y2="80" class="tick"/>
+
+            <!-- 0.9 -->
+            <line x1="500" y1="70" x2="500" y2="80" class="tick"/>
+
+            <!-- 1 -->
+            <line x1="550" y1="65" x2="550" y2="85" class="tick"/>
+            <text x="550" y="100" class="number">1</text>
+        </svg>
+    </div>
+
+    <div class="item" label="Gr7_2_2_1_step_2">
+        <svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
+            <style>
+                .number-line { stroke: black; stroke-width: 2; }
+                .tick { stroke: black; stroke-width: 2; }
+                .number { font-size: 14px; text-anchor: middle; }
+                .variable { font-size: 16px; text-anchor: middle; font-style: italic; }
+                .answer { font-size: 14px; text-anchor: middle; fill: blue; font-weight: bold; }
+                .point { fill: red; }
+            </style>
+
+            <!-- Number line from 0 to 1 -->
+            <line x1="50" y1="75" x2="550" y2="75" class="number-line"/>
+
+            <!-- Tick marks for 10 equal intervals with values -->
+            <!-- 0 -->
+            <line x1="50" y1="65" x2="50" y2="85" class="tick"/>
+            <text x="50" y="100" class="number">0</text>
+
+            <!-- 0.1 -->
+            <line x1="100" y1="70" x2="100" y2="80" class="tick"/>
+            <text x="100" y="100" class="number">0.1</text>
+
+            <!-- 0.2 -->
+            <line x1="150" y1="70" x2="150" y2="80" class="tick"/>
+            <text x="150" y="100" class="number">0.2</text>
+
+            <!-- 0.3 -->
+            <line x1="200" y1="70" x2="200" y2="80" class="tick"/>
+            <text x="200" y="100" class="number">0.3</text>
+
+            <!-- 0.4 -->
+            <line x1="250" y1="70" x2="250" y2="80" class="tick"/>
+            <text x="250" y="100" class="number">0.4</text>
+
+            <!-- 0.5 (z position) -->
+            <line x1="300" y1="70" x2="300" y2="80" class="tick"/>
+            <circle cx="300" cy="75" r="4" class="point"/>
+            <text x="300" y="55" class="variable">z</text>
+            <text x="300" y="100" class="answer">0.5</text>
+
+            <!-- 0.6 -->
+            <line x1="350" y1="70" x2="350" y2="80" class="tick"/>
+            <text x="350" y="100" class="number">0.6</text>
+
+            <!-- 0.7 -->
+            <line x1="400" y1="70" x2="400" y2="80" class="tick"/>
+            <text x="400" y="100" class="number">0.7</text>
+
+            <!-- 0.8 -->
+            <line x1="450" y1="70" x2="450" y2="80" class="tick"/>
+            <text x="450" y="100" class="number">0.8</text>
+
+            <!-- 0.9 -->
+            <line x1="500" y1="70" x2="500" y2="80" class="tick"/>
+            <text x="500" y="100" class="number">0.9</text>
+
+            <!-- 1 -->
+            <line x1="550" y1="65" x2="550" y2="85" class="tick"/>
+            <text x="550" y="100" class="number">1</text>
+        </svg>
+    </div>
+</body>
+</html>

@@ -1,0 +1,576 @@
+[
+  {
+    "skills": "add-and-subtract-integers-using-counters",
+    "question_text": "Use counters to add -1 + 4.\n\nWhich picture shows the sum?\n",
+    "image_tag": "Gr7_12_1_2",
+    "backend_description": "Shows a visual representation for adding -1 + 4 using counter symbols. Multiple choice options display different combinations of positive and negative counters.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "image_choice_tags": [
+      "Gr7_12_1_2_A",
+      "Gr7_12_1_2_B",
+      "Gr7_12_1_2_C",
+      "Gr7_12_1_2_D"
+    ],
+    "image_choice_tags_backend_description": [
+      "Shows five yellow circles with plus signs, representing +5",
+      "Shows one red circle with minus sign, representing -1",
+      "Shows three yellow circles with plus signs, representing +3",
+      "Shows three red circles with minus signs, representing -3"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution_image_tag": [
+      [
+        "2/6",
+        "Gr7_12_1_2_step_2",
+        "Shows one red circle with a minus sign, representing the starting value of -1."
+      ],
+      [
+        "3/6",
+        "Gr7_12_1_2_step_3",
+        "Shows one red circle (-1) and four yellow circles (+4) together, representing -1 + 4."
+      ],
+      [
+        "4/6",
+        "Gr7_12_1_2_step_4",
+        "Shows one red and one yellow circle grouped together with an arrow, demonstrating how a positive and negative counter cancel each other out as a zero pair."
+      ],
+      [
+        "5/6",
+        "Gr7_12_1_2_step_5",
+        "Shows three yellow circles with plus signs remaining after removing the zero pair, giving the final answer of +3."
+      ]
+    ],
+    "solution": [
+      [
+        "1/6",
+        "We are solving –1 + 4 using counters."
+      ],
+      [
+        "2/6",
+        "Start with 1 negative counter to represent –1."
+      ],
+      [
+        "3/6",
+        "Add 4 positive counters to represent +4."
+      ],
+      [
+        "4/6",
+        "Pair 1 negative and 1 positive counter together to make a zero pair, then remove them."
+      ],
+      [
+        "5/6",
+        "3 positive counters remain."
+      ],
+      [
+        "6/6",
+        "So -1 + 4 = 3.\nOption C is correct because it shows 3 positive counters."
+      ]
+    ],
+    "tag": "Gr7_12_E1",
+    "question_number": "1_2"
+  },
+  {
+    "skills": "add-and-subtract-integers",
+    "question_text": "Subtract:\n\n2 dollars - (-3) = \\_\\_\\_\\_$\n\n",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "5"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "We are subtracting a negative number: 2 – (–3)."
+      ],
+      [
+        "2/4",
+        "Subtracting a negative is the same as adding: 2 – (–3) = 2 + 3."
+      ],
+      [
+        "3/4",
+        "Now add: 2 + 3 = 5."
+      ],
+      [
+        "4/4",
+        "So, 2 – (–3) = 5."
+      ]
+    ],
+    "tag": "Gr7_12_E2",
+    "question_number": "2_1",
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "Add:\n\n-4 + 3 = ____\n",
+    "skills": "add-and-subtract-integers",
+    "tag": "Gr7_12_E2",
+    "question_type": "Fill in the blank",
+    "question_number": "2_2",
+    "correct_answers": [
+      "-1"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "We are solving –4 + 3."
+      ],
+      [
+        "2/4",
+        "One number is negative (–4) and one is positive (3).\nTo solve, find the difference between 4 and 3: 4 – 3 = 1."
+      ],
+      [
+        "3/4",
+        "Since 4 is bigger than 3 and it’s negative, the final answer will be negative."
+      ],
+      [
+        "4/4",
+        "So, –4 + 3 = –1."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "Dominic deposited 300 dollars he made from helping out with chores. If Dominic's bank account started out with a balance of 300 dollars, which integer represents the final balance?",
+    "skills": "add-and-subtract-integers-word-problems",
+    "tag": "Gr7_12_E3",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "3_1",
+    "choices": [
+      "500",
+      "700",
+      "600",
+      "0"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Add Dominic's starting balance (300 dollars) plus the amount deposited (300 dollars) to find the final balance"
+      ],
+      [
+        "2/3",
+        "300 dollars + 300 dollars = 600 dollars"
+      ],
+      [
+        "3/3",
+        "Dominic's final balance is 600 dollars. So, option C is correct."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "skills": "add-and-subtract-integers-word-problems",
+    "question_text": "According to his bank statement, Emilio spent 10000 dollars on a fancy watch. If Emilio's bank account started out with a balance of 10000 dollars, which integer represents the final balance?",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "0",
+      "1",
+      "10000",
+      "20000"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Subtract Emilio's the amount spent (10000 dollars) from his starting balance (10000 dollars) to find the final balance"
+      ],
+      [
+        "2/3",
+        "10000 dollars - 10000 dollars = 0 dollars"
+      ],
+      [
+        "3/3",
+        "Emilio's final balance is 0 dollars. So, option A is correct."
+      ]
+    ],
+    "tag": "Gr7_12_E3",
+    "question_number": "3_2",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "add-and-subtract-fractions-with-like-denominators",
+    "question_text": "Add.\n",
+    "image_tag": "Gr7_13_1_1",
+    "backend_description": "Shows the addition of 1/3 + 1/3 with an empty box for the answer.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_1",
+    "correct_answers": [
+      "2/3"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Since the denominators are the same, just add the numerators: 1 + 1 = 2."
+      ],
+      [
+        "2/2",
+        "So, $\\frac{1}{3} + \\frac{1}{3} = \\frac{2}{3}$."
+      ]
+    ],
+    "tag": "Gr7_13_E1",
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "Subtract.\n",
+    "skills": "add-and-subtract-fractions-with-like-denominators",
+    "image_tag": "Gr7_13_1_2",
+    "backend_description": "Shows the subtraction of 7/9 - 3/9 with an empty box for the answer.",
+    "tag": "Gr7_13_E1",
+    "question_type": "Fill in the blank",
+    "question_number": "1_2",
+    "correct_answers": [
+      "4/9"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "Since the denominators are the same, just subtract the numerators: 7 - 3 = 4."
+      ],
+      [
+        "2/2",
+        "So, $\\frac{7}{9} - \\frac{3}{9} = \\frac{4}{9}$."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "skills": "add-and-subtract-fractions-with-like-denominators-word-problems",
+    "question_text": "In Mr. McKenzie's mathematics class, $\\frac{1}{5}$ of the students received A's and $\\frac{3}{5}$ received B's. What fraction of the students received either A's or B's?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "4/5"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "The whole class is represented by $\\frac{5}{5}$. We know that $\\frac{1}{5}$ of the students got A's and $\\frac{3}{5}$ got B's."
+      ],
+      [
+        "2/3",
+        "To find how many students received either an A or a B, we add the two groups together. Since the denominators are the same, just add the numerators:\n\n1 + 3 = 4.\n\nSo, $\\frac{1}{5} + \\frac{3}{5} = \\frac{4}{5}$"
+      ],
+      [
+        "3/3",
+        "Therefore, $\\frac{4}{5}$ of the students received either A's or B's."
+      ]
+    ],
+    "tag": "Gr7_13_E2",
+    "question_number": "2_1",
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "At a pie-eating contest, Amelia got through $\\frac{3}{5}$ of a pie before time was called; Dalton finished just $\\frac{2}{5}$ of a pie.\n\nHow much more pie did Amelia eat than Dalton?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n",
+    "skills": "add-and-subtract-fractions-with-like-denominators-word-problems",
+    "tag": "Gr7_13_E2",
+    "question_type": "Fill in the blank",
+    "question_number": "2_2",
+    "correct_answers": [
+      "1/5"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Find how much more pie Amelia ate by subtracting $\\frac{2}{5}$ from $\\frac{3}{5}$."
+      ],
+      [
+        "2/3",
+        "Since the denominators are the same, subtract the numerators:\n\n3 - 2 = 1.\n\nSo, $\\frac{3}{5} - \\frac{2}{5} = \\frac{1}{5}$"
+      ],
+      [
+        "3/3",
+        "Therefore, Amelia ate $\\frac{1}{5}$ of a pie more than Dalton."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "skills": "add-fractions-with-unlike-denominators-using-models",
+    "question_text": "Add.\n\n$\\frac{2}{3} + \\frac{1}{6} = \\_\\_\\_\\_$\n\nUse the model to help you.\n",
+    "question_type": "Fill in the blank",
+    "image_tag": "Gr7_14_1_1",
+    "backend_description": "Visual model showing 2/3 + 1/6 using rectangular bars. The top bar is divided into thirds with two sections shaded blue, and the bottom bar is divided into sixths with one section shaded green.",
+    "correct_answers": [
+      "5/6"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "The model shows $\\frac{2}{3} + \\frac{1}{6}$."
+      ],
+      [
+        "2/4",
+        "Rewrite the fractions so they share a common denominator. $\\frac{2}{3}$ is equivalent to $\\frac{4}{6}$."
+      ],
+      [
+        "3/4",
+        "So, $\\frac{2}{3} + \\frac{1}{6}$ is the same as $\\frac{4}{6} + \\frac{1}{6}$.\n\nNow add: $\\frac{4}{6} + \\frac{1}{6} = \\frac{5}{6}$"
+      ],
+      [
+        "4/4",
+        "Therefore, $\\frac{2}{3} + \\frac{1}{6} = \\frac{5}{6}$."
+      ]
+    ],
+    "tag": "Gr7_14_E1",
+    "question_number": "1_1",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "add-fractions-with-unlike-denominators",
+    "question_text": "Add.\n",
+    "image_tag": "Gr7_14_2_1",
+    "backend_description": "Shows the addition problem 1/6 + 1/2 with an empty box for the answer.",
+    "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
+    "correct_answers": [
+      [
+        "4/6"
+      ],
+      [
+        "2/3"
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/4",
+        "Gr7_14_2_1_step_2",
+        "Shows the conversion of 1/2 to 3/6 by multiplying both numerator and denominator by 3. The calculation 1x3/2x3 = 3/6 is displayed."
+      ],
+      [
+        "3/4",
+        "Gr7_14_2_1_step_3",
+        "Shows the final addition with common denominators: 1/6 + 3/6 = 4/6. Both fractions now have the same denominator, making addition straightforward."
+      ]
+    ],
+    "solution": [
+      [
+        "1/4",
+        "We are adding $\\frac{1}{6} + \\frac{1}{2}$. Since the denominators are different, we need to find a common denominator."
+      ],
+      [
+        "2/4",
+        "The least common denominator of 6 and 2 is 6. Rewrite $\\frac{1}{2}$ using a denominator of 6 by multiplying the numerator and denominator by 3:\n"
+      ],
+      [
+        "3/4",
+        "So, $\\frac{1}{6} + \\frac{1}{2}$ is the same as $\\frac{1}{6} + \\frac{3}{6}$.\n\nNow add:\n"
+      ],
+      [
+        "4/4",
+        "So, $\\frac{1}{6} + \\frac{1}{2} = \\frac{4}{6}$.\n\nThis can be simplified to $\\frac{2}{3}$."
+      ]
+    ],
+    "tag": "Gr7_14_E2",
+    "question_number": "2_1"
+  },
+  {
+    "skills": "subtract-fractions-with-unlike-denominators-using-models",
+    "question_text": "Subtract the fractions.\n\n$\\frac{4}{6} - \\frac{1}{2} = \\_\\_\\_\\_$\n\nUse the model to help you.\n",
+    "image_tag": "Gr7_15_1_1",
+    "backend_description": "Visual model showing 4/6 - 1/2 using rectangular bars. One bar shows 4 out of 6 sections shaded, and another shows 1 out of 2 sections shaded.",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "1/6"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "The model shows $\\frac{4}{6} - \\frac{1}{2}$."
+      ],
+      [
+        "2/4",
+        "Rewrite the fractions so they share a common denominator. $\\frac{1}{2}$ is the same as $\\frac{3}{6}$."
+      ],
+      [
+        "3/4",
+        "So, $\\frac{4}{6} - \\frac{1}{2}$ is the same as $\\frac{4}{6} - \\frac{3}{6}$.\n\nNow subtract: $\\frac{4}{6} - \\frac{3}{6} = \\frac{1}{6}$"
+      ],
+      [
+        "4/4",
+        "Therefore, $\\frac{4}{6} - \\frac{1}{2} = \\frac{1}{6}$"
+      ]
+    ],
+    "tag": "Gr7_15_E1",
+    "question_number": "1_1",
+    "solution_image_tag": []
+  },
+  {
+    "skills": "subtract-fractions-with-unlike-denominators",
+    "question_text": "Subtract.\n",
+    "image_tag": "Gr7_15_2_1",
+    "backend_description": "Shows the subtraction problem 2/4 - 2/8 with an empty box for the answer.",
+    "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
+    "correct_answers": [
+      [
+        "2/8"
+      ],
+      [
+        "1/4"
+      ]
+    ],
+    "solution_image_tag": [],
+    "solution": [
+      [
+        "1/4",
+        "We are subtracting $\\frac{2}{4} - \\frac{2}{8}$. The denominators are different, so we need a common denominator."
+      ],
+      [
+        "2/4",
+        "Rewrite $\\frac{2}{4}$ with a denominator of 8 by multiplying the numerator and denominator by 2:\n$\\frac{2 x 2}{4 x 2}=\\frac{4}{8}$"
+      ],
+      [
+        "3/4",
+        "Now subtract the fractions:\n$\\frac{4}{8} - \\frac{2}{8} = \\frac{2}{8}$"
+      ],
+      [
+        "4/4",
+        "So, $\\frac{2}{4} - \\frac{2}{8} = \\frac{2}{8}$\n\nThis can be simplified to $\\frac{1}{4}$."
+      ]
+    ],
+    "tag": "Gr7_15_E2",
+    "question_number": "2_1"
+  },
+  {
+    "question_text": "Subtract.\n",
+    "image_tag": "Gr7_16_1_1",
+    "backend_description": "Shows the subtraction problem 5/6 - 1/12 with an empty box for the answer.",
+    "skills": "add-and-subtract-fractions-with-unlike-denominators",
+    "tag": "Gr7_16_E1",
+    "question_type": "Fill in the blank",
+    "question_number": "1_1",
+    "has_alternative_answers": true,
+    "correct_answers": [
+      [
+        "9/12"
+      ],
+      [
+        "3/4"
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/4",
+        "Gr7_16_1_1_step_2",
+        "Shows the conversion of 5/6 to 10/12 by multiplying both numerator and denominator by 2. The equation clearly displays: 5/6 x 2/2 = 10/12, demonstrating how to find a common denominator."
+      ],
+      [
+        "3/4",
+        "Gr7_16_1_1_step_3",
+        "Shows the final subtraction: 10/12 - 1/12 = 9/12. With both fractions having the same denominator, the numerators are subtracted while keeping the denominator the same."
+      ]
+    ],
+    "solution": [
+      [
+        "1/4",
+        "We are subtracting $\\frac{5}{6} − \\frac{1}{12}$. The denominators are different, so we need a common denominator."
+      ],
+      [
+        "2/4",
+        "Find a common denominator for 6 and 12. The least common denominator is 12. Rewrite $\\frac{5}{6}$ as an equivalent fraction with a denominator of 12 by multiplying the numerator and denominator by 2:\n"
+      ],
+      [
+        "3/4",
+        "Now subtract the fractions:\n"
+      ],
+      [
+        "4/4",
+        "So, $\\frac{5}{6} − \\frac{1}{12} = \\frac{9}{12}$.\n\nThis can be simplified to $\\frac{3}{4}$."
+      ]
+    ]
+  },
+  {
+    "skills": "add-and-subtract-fractions-with-unlike-denominators",
+    "question_text": "Add.\n",
+    "image_tag": "Gr7_16_1_2",
+    "backend_description": "Shows the addition problem 5/9 + 1/3 with an empty box for the answer.",
+    "question_type": "Fill in the blank",
+    "question_number": "1_2",
+    "correct_answers": [
+      "8/9"
+    ],
+    "solution_image_tag": [
+      [
+        "2/4",
+        "Gr7_16_1_2_step_2",
+        "Shows the conversion of 1/3 to 3/9 by multiplying both numerator and denominator by 3. The equation displays: 1/3 x 3/3 = 3/9, demonstrating how to create a common denominator with 5/9."
+      ],
+      [
+        "3/4",
+        "Gr7_16_1_2_step_3",
+        "Shows the final addition: 5/9 + 3/9 = 8/9. With both fractions having the same denominator, the numerators are added while keeping the denominator unchanged."
+      ]
+    ],
+    "solution": [
+      [
+        "1/4",
+        "We are adding $\\frac{5}{9} + \\frac{1}{3}$. Since the denominators are different, we need to find a common denominator."
+      ],
+      [
+        "2/4",
+        "The least common denominator of 9 and 3 is 9. Rewrite $\\frac{1}{3}$ as an equivalent fraction with a denominator of 9 by multiplying the numerator and denominator by 3:\n"
+      ],
+      [
+        "3/4",
+        "Now add the fractions:\n"
+      ],
+      [
+        "4/4",
+        "So, $\\frac{5}{9} + \\frac{1}{3} = \\frac{8}{9}$."
+      ]
+    ],
+    "tag": "Gr7_16_E1"
+  },
+  {
+    "skills": "add-and-subtract-fractions-with-unlike-denominators-word-problems",
+    "question_text": "Rita began her pizza delivery route with $\\frac{1}{2}$ of a tank of gas in her car. When she made it back to the pizzeria, $\\frac{1}{6}$ of a tank of gas was left. How much gas did Rita use?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n",
+    "question_type": "Fill in the blank",
+    "has_alternative_answers": true,
+    "correct_answers": [
+      [
+        "2/6"
+      ],
+      [
+        "1/3"
+      ],
+      [
+        "4/12"
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "2/4",
+        "Gr7_16_2_1_step_2",
+        "Shows the conversion of 1/2 to 3/6 by multiplying both numerator and denominator by 3. The visual demonstrates finding a common denominator to enable fraction subtraction."
+      ],
+      [
+        "3/4",
+        "Gr7_16_2_1_step_3",
+        "Shows the subtraction calculation: 3/6 - 1/6 = 2/6. With the same denominator, the numerators are simply subtracted while keeping the denominator unchanged."
+      ]
+    ],
+    "solution": [
+      [
+        "1/4",
+        "To find how much gas Rita used, subtract the amount she had left from the amount she started with: $\\frac{1}{2} − \\frac{1}{6}$."
+      ],
+      [
+        "2/4",
+        "The least common denominator of 2 and 6 is 6. Rewrite $\\frac{1}{2}$ as an equivalent fraction with a denominator of 6: $\\frac{1}{2} = \\frac{3}{6}$."
+      ],
+      [
+        "3/4",
+        "Now subtract the fractions: $\\frac{3}{6} - \\frac{1}{6} = \\frac{2}{6}$."
+      ],
+      [
+        "4/4",
+        "So, Rita used $\\frac{2}{6}$ of a tank of gas.\n\nThis can be simplified to $\\frac{1}{3}$."
+      ]
+    ],
+    "tag": "Gr7_16_E2",
+    "question_number": "2_1"
+  }
+]

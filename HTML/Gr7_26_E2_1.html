@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr7_26_E2_1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .item {
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        table {
+            border-collapse: collapse;
+            font-size: 18px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        th {
+            background-color: #f0f0f0;
+            font-weight: bold;
+        }
+        .highlight-column {
+            background-color: #e8f4f8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Main problem table -->
+        <div class="item" label="Gr7_26_2_2">
+            <table>
+                <thead>
+                    <tr>
+                        <th>x (cans of peach juice concentrate)</th>
+                        <th>y (bottles of lemon-lime soda)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>16</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Solution table with ratio column -->
+        <div class="item" label="Gr7_26_2_1_step_2">
+            <table>
+                <thead>
+                    <tr>
+                        <th>x</th>
+                        <th>y</th>
+                        <th class="highlight-column">y ÷ x</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>4</td>
+                        <td class="highlight-column">4 ÷ 1 = 4</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>8</td>
+                        <td class="highlight-column">8 ÷ 2 = 4</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>12</td>
+                        <td class="highlight-column">12 ÷ 3 = 4</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>16</td>
+                        <td class="highlight-column">16 ÷ 4 = 4</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div style="margin-top: 10px; text-align: center; font-size: 16px; color: #666;">
+                Constant of proportionality = 4
+            </div>
+        </div>
+    </div>
+</body>
+</html>

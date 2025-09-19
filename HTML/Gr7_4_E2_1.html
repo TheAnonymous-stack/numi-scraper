@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr7_4_E2 2_1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .item {
+            margin: 20px 0;
+            display: inline-block;
+        }
+        .fraction {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            line-height: 0.8;
+            vertical-align: middle;
+        }
+        .numerator {
+            border-bottom: 1px solid black;
+            padding: 0 4px;
+        }
+        .denominator {
+            padding: 0 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr7_4_2_2">
+        <svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
+            <style>
+                .number-line { stroke: black; stroke-width: 2; }
+                .tick { stroke: black; stroke-width: 2; }
+                .number { font-size: 14px; text-anchor: middle; }
+                .fraction-text { font-size: 12px; text-anchor: middle; }
+                .point { fill: purple; }
+            </style>
+
+            <!-- Number line from -1 to 0 -->
+            <line x1="50" y1="75" x2="550" y2="75" class="number-line"/>
+
+            <!-- Endpoints -->
+            <line x1="50" y1="65" x2="50" y2="85" class="tick"/>
+            <text x="50" y="100" class="number">-1</text>
+
+            <line x1="550" y1="65" x2="550" y2="85" class="tick"/>
+            <text x="550" y="100" class="number">0</text>
+
+            <!-- Mark -9/10 position (at 1/10 from left) -->
+            <line x1="100" y1="70" x2="100" y2="80" class="tick"/>
+            <circle cx="100" cy="75" r="4" class="point" transform="rotate(45 100 75)">
+                <rect x="96" y="71" width="8" height="8" fill="purple" transform="rotate(45 100 75)"/>
+            </circle>
+            <path d="M 96 71 L 104 79 M 104 71 L 96 79" stroke="purple" stroke-width="2" fill="none"/>
+            <text x="100" y="55" class="fraction-text">-9/10</text>
+
+            <!-- Mark -7/10 position (at 3/10 from left) -->
+            <line x1="200" y1="70" x2="200" y2="80" class="tick"/>
+            <path d="M 196 71 L 204 79 M 204 71 L 196 79" stroke="purple" stroke-width="2" fill="none"/>
+            <text x="200" y="55" class="fraction-text">-7/10</text>
+
+            <!-- Additional tick marks for tenths -->
+            <line x1="150" y1="72" x2="150" y2="78" class="tick" opacity="0.3"/>
+            <line x1="250" y1="72" x2="250" y2="78" class="tick" opacity="0.3"/>
+            <line x1="300" y1="72" x2="300" y2="78" class="tick" opacity="0.3"/>
+            <line x1="350" y1="72" x2="350" y2="78" class="tick" opacity="0.3"/>
+            <line x1="400" y1="72" x2="400" y2="78" class="tick" opacity="0.3"/>
+            <line x1="450" y1="72" x2="450" y2="78" class="tick" opacity="0.3"/>
+            <line x1="500" y1="72" x2="500" y2="78" class="tick" opacity="0.3"/>
+        </svg>
+    </div>
+
+    <div class="item" label="Gr7_4_2_1_step_2">
+        <svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
+            <style>
+                .number-line { stroke: black; stroke-width: 2; }
+                .tick { stroke: black; stroke-width: 2; }
+                .number { font-size: 14px; text-anchor: middle; }
+                .fraction-text { font-size: 12px; text-anchor: middle; font-weight: bold; }
+                .point { fill: purple; }
+                .arrow { stroke: blue; stroke-width: 2; fill: none; }
+            </style>
+
+            <!-- Number line from -1 to 0 -->
+            <line x1="50" y1="75" x2="550" y2="75" class="number-line"/>
+
+            <!-- Endpoints -->
+            <line x1="50" y1="65" x2="50" y2="85" class="tick"/>
+            <text x="50" y="100" class="number">-1</text>
+
+            <line x1="550" y1="65" x2="550" y2="85" class="tick"/>
+            <text x="550" y="100" class="number">0</text>
+
+            <!-- Mark -9/10 position (highlighted) -->
+            <line x1="100" y1="70" x2="100" y2="80" class="tick"/>
+            <path d="M 96 71 L 104 79 M 104 71 L 96 79" stroke="purple" stroke-width="3" fill="none"/>
+            <text x="100" y="55" class="fraction-text" fill="purple">-9/10</text>
+
+            <!-- Mark -7/10 position (highlighted) -->
+            <line x1="200" y1="70" x2="200" y2="80" class="tick"/>
+            <path d="M 196 71 L 204 79 M 204 71 L 196 79" stroke="purple" stroke-width="3" fill="none"/>
+            <text x="200" y="55" class="fraction-text" fill="purple">-7/10</text>
+
+            <!-- Arrow showing -9/10 is to the left of -7/10 -->
+            <path d="M 100 40 C 100 30, 200 30, 200 40" class="arrow" marker-end="url(#arrowhead)"/>
+            <text x="150" y="25" style="font-size: 12px; text-anchor: middle; fill: blue;">-9/10 &lt; -7/10</text>
+
+            <defs>
+                <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto">
+                    <polygon points="0 0, 6 3, 0 6" fill="blue"/>
+                </marker>
+            </defs>
+
+            <!-- Additional tick marks for tenths -->
+            <line x1="150" y1="72" x2="150" y2="78" class="tick" opacity="0.3"/>
+            <line x1="250" y1="72" x2="250" y2="78" class="tick" opacity="0.3"/>
+            <line x1="300" y1="72" x2="300" y2="78" class="tick" opacity="0.3"/>
+            <line x1="350" y1="72" x2="350" y2="78" class="tick" opacity="0.3"/>
+            <line x1="400" y1="72" x2="400" y2="78" class="tick" opacity="0.3"/>
+            <line x1="450" y1="72" x2="450" y2="78" class="tick" opacity="0.3"/>
+            <line x1="500" y1="72" x2="500" y2="78" class="tick" opacity="0.3"/>
+        </svg>
+    </div>
+</body>
+</html>

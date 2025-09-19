@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr7_24_E3_1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .item {
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .division-problem {
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 20px;
+        }
+        .answer-box {
+            width: 80px;
+            height: 40px;
+            border: 2px solid #333;
+            background: #f0f0f0;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .long-division {
+            font-family: 'Courier New', monospace;
+            font-size: 20px;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .division-line {
+            border-top: 2px solid black;
+            margin: 5px 0;
+        }
+        .equals {
+            margin: 0 10px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Main problem -->
+        <div class="item" label="Gr7_24_3_2">
+            <div class="division-problem">
+                <span>45.6 ÷ 4</span>
+                <span class="equals">=</span>
+                <div class="answer-box"></div>
+            </div>
+        </div>
+
+        <!-- Long division solution -->
+        <div class="item" label="Gr7_24_3_1_step_2">
+            <div class="long-division">
+                <pre style="margin: 0; line-height: 1.2;">
+        11.4
+      ______
+    4 ) 45.6
+        4↓
+        --
+        05
+         4
+        --
+         16
+         16
+        ---
+          0
+                </pre>
+                <div style="margin-top: 10px; font-size: 16px; color: #666;">
+                    45.6 ÷ 4 = 11.4
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

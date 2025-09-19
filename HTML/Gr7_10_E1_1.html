@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr7_10_E1 1_1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .item {
+            margin: 20px 0;
+            display: inline-block;
+        }
+        .counter {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin: 5px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .positive {
+            background-color: #ffd700;
+            border: 2px solid #ffb300;
+        }
+        .negative {
+            background-color: #ff6b6b;
+            border: 2px solid #ff4444;
+        }
+        .counter-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 10px;
+        }
+        .arrow {
+            font-size: 24px;
+            margin: 0 10px;
+        }
+        .zero-pair {
+            border: 2px dashed #666;
+            padding: 5px;
+            border-radius: 25px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr7_10_1_2">
+        <div class="counter-group">
+            <div class="counter negative">-</div>
+            <span class="arrow">+</span>
+            <div class="counter positive">+</div>
+        </div>
+    </div>
+
+    <div class="item" label="Gr7_10_1_1_2">
+        <!-- Option A: Four negative counters -->
+        <div class="counter-group">
+            <div class="counter negative">-</div>
+            <div class="counter negative">-</div>
+            <div class="counter negative">-</div>
+            <div class="counter negative">-</div>
+        </div>
+    </div>
+
+    <div class="item" label="Gr7_10_1_1_step_2">
+        <!-- Step 1: Single negative counter -->
+        <div class="counter-group">
+            <div class="counter negative">-</div>
+        </div>
+
+        <!-- Step 2: Negative and positive counter side by side -->
+        <div class="counter-group">
+            <div class="counter negative">-</div>
+            <div class="counter positive">+</div>
+        </div>
+
+        <!-- Step 3: Zero pair demonstration -->
+        <div class="counter-group">
+            <div class="zero-pair">
+                <div class="counter negative" style="display: inline-block;">-</div>
+                <div class="counter positive" style="display: inline-block;">+</div>
+            </div>
+            <span style="margin-left: 20px; font-size: 18px;">= 0</span>
+        </div>
+    </div>
+</body>
+</html>

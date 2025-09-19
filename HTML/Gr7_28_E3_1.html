@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr7_28_E3_1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .item {
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .graph-container {
+            width: 500px;
+            height: 500px;
+            position: relative;
+        }
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+        .graph-title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Main problem graph -->
+        <div class="item" label="Gr7_28_3_3">
+            <div class="graph-title">Stamps in Dakota's collection</div>
+            <div class="graph-container">
+                <svg viewBox="0 0 500 500">
+                    <!-- Grid lines -->
+                    <defs>
+                        <pattern id="grid283" width="40" height="40" patternUnits="userSpaceOnUse">
+                            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+                        </pattern>
+                    </defs>
+                    <rect width="500" height="500" fill="white"/>
+                    <rect width="500" height="500" fill="url(#grid283)" />
+
+                    <!-- Axes -->
+                    <line x1="60" y1="440" x2="480" y2="440" stroke="black" stroke-width="2"/>
+                    <line x1="60" y1="20" x2="60" y2="440" stroke="black" stroke-width="2"/>
+
+                    <!-- Arrow heads -->
+                    <polygon points="480,440 475,435 475,445" fill="black"/>
+                    <polygon points="60,20 55,25 65,25" fill="black"/>
+
+                    <!-- Axis labels -->
+                    <text x="270" y="480" text-anchor="middle" font-size="14">Money spent on additional stamps (dollars)</text>
+                    <text x="25" y="230" text-anchor="middle" font-size="14" transform="rotate(-90 25 230)">Total number of stamps</text>
+
+                    <!-- Scale marks and numbers on x-axis -->
+                    <text x="60" y="460" text-anchor="middle" font-size="12">0</text>
+                    <text x="144" y="460" text-anchor="middle" font-size="12">100</text>
+                    <text x="228" y="460" text-anchor="middle" font-size="12">200</text>
+                    <text x="312" y="460" text-anchor="middle" font-size="12">300</text>
+                    <text x="396" y="460" text-anchor="middle" font-size="12">400</text>
+                    <text x="480" y="460" text-anchor="middle" font-size="12">500</text>
+
+                    <!-- Scale marks and numbers on y-axis -->
+                    <text x="45" y="445" text-anchor="end" font-size="12">0</text>
+                    <text x="45" y="361" text-anchor="end" font-size="12">100</text>
+                    <text x="45" y="277" text-anchor="end" font-size="12">200</text>
+                    <text x="45" y="193" text-anchor="end" font-size="12">300</text>
+                    <text x="45" y="109" text-anchor="end" font-size="12">400</text>
+                    <text x="45" y="25" text-anchor="end" font-size="12">500</text>
+
+                    <!-- Line starting at (0, 50) and going to (500, 300) -->
+                    <!-- y = 0.5x + 50 -->
+                    <line x1="60" y1="398" x2="480" y2="193" stroke="#4169E1" stroke-width="2"/>
+
+                    <!-- Highlight point at x=500, y=300 -->
+                    <circle cx="480" cy="193" r="5" fill="#FF6347"/>
+
+                    <!-- Dotted lines to show the reading -->
+                    <line x1="480" y1="193" x2="480" y2="440" stroke="#888" stroke-width="1" stroke-dasharray="5,5"/>
+                    <line x1="480" y1="193" x2="60" y2="193" stroke="#888" stroke-width="1" stroke-dasharray="5,5"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

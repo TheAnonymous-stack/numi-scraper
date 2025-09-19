@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr7_4_E3 3_1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .item {
+            margin: 20px 0;
+            display: inline-block;
+        }
+        .comparison {
+            font-size: 28px;
+            margin: 20px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .mixed-number {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .fraction {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            line-height: 0.8;
+        }
+        .numerator {
+            border-bottom: 2px solid black;
+            padding: 2px 8px;
+        }
+        .denominator {
+            padding: 2px 8px;
+        }
+        .box {
+            width: 50px;
+            height: 50px;
+            border: 2px solid black;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr7_4_3_2">
+        <div class="comparison">
+            <div class="mixed-number">
+                <span>-9</span>
+                <div class="fraction">
+                    <span class="numerator">1</span>
+                    <span class="denominator">2</span>
+                </div>
+            </div>
+            <div class="box"></div>
+            <div class="mixed-number">
+                <span>-7</span>
+                <div class="fraction">
+                    <span class="numerator">3</span>
+                    <span class="denominator">4</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="item" label="Gr7_4_3_1_step_2">
+        <div style="margin: 20px;">
+            <div class="comparison">
+                <div class="mixed-number">
+                    <span>-9</span>
+                    <div class="fraction">
+                        <span class="numerator">1</span>
+                        <span class="denominator">2</span>
+                    </div>
+                </div>
+                <div class="box" style="color: red; font-weight: bold;">?</div>
+                <div class="mixed-number">
+                    <span>-7</span>
+                    <div class="fraction">
+                        <span class="numerator">3</span>
+                        <span class="denominator">4</span>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 30px; font-size: 20px;">
+                <p>Comparing whole number parts:</p>
+                <p style="color: blue;">-9 &lt; -7</p>
+            </div>
+        </div>
+        <div style="margin: 20px;">
+            <div class="comparison" style="color: blue; font-weight: bold;">
+                <div class="mixed-number">
+                    <span>-9</span>
+                    <div class="fraction">
+                        <span class="numerator">1</span>
+                        <span class="denominator">2</span>
+                    </div>
+                </div>
+                <span style="font-size: 32px;">&lt;</span>
+                <div class="mixed-number">
+                    <span>-7</span>
+                    <div class="fraction">
+                        <span class="numerator">3</span>
+                        <span class="denominator">4</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
