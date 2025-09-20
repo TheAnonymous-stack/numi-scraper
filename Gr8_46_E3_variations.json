@@ -1,6 +1,124 @@
 [
   {
+    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "skills": "area-between-two-shapes",
+    "image_tag": "Gr8_46_3_1",
+    "backend_description": "The image shows a large blue square with a smaller white square centered inside it. The side length of the outer square is 40 cm on the left and 39 cm on the bottom. The inner square has a top side labeled 29 cm and a right side labeled 27 cm. The blue region represents the area between the two squares.",
+    "question_type": "Fill in the blank",
+    "question_number": "3_1",
+    "tag": "Gr8_46_E3",
+    "correct_answers": [
+      "777"
+    ],
+    "solution": [
+      [
+        "1/12",
+        "To find the area of the shaded region, subtract the area of the inner shape from the area of the outer shape. Start by finding the area of the inner shape."
+      ],
+      [
+        "2/12",
+        "Find the base and height of the inner rectangle. base: 29 cm, height: 27 cm"
+      ],
+      [
+        "3/12",
+        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 29  \\cdot 27$\n= 783"
+      ],
+      [
+        "4/12",
+        "Now find the units. The lengths are measured in centimetres, so the area is measured in square centimetres."
+      ],
+      [
+        "5/12",
+        "The area of the inner rectangle is 783 square centimetres."
+      ],
+      [
+        "6/12",
+        "Next, find the area of the outer shape."
+      ],
+      [
+        "7/12",
+        "Find the base and height of the outer rectangle. base: 39 cm, height: 40 cm"
+      ],
+      [
+        "8/12",
+        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 39  \\cdot 40$\n= 1560"
+      ],
+      [
+        "9/12",
+        "As with the inner rectangle, the lengths of the outer rectangle are measured in centimetres. So, the area is measured in square centimetres."
+      ],
+      [
+        "10/12",
+        "The area of the outer rectangle is 1560 square centimetres."
+      ],
+      [
+        "11/12",
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1560 - 783\n= 777"
+      ],
+      [
+        "12/12",
+        "The area of the shaded region is 777 square centimetres."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
     "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "skills": "area-between-two-shapes",
+    "image_tag": "Gr8_46_3_2",
+    "backend_description": "The image displays a large blue circle with a smaller white circle inside it, both sharing the same center. The inner circle has a diameter labeled d = 24 m. A red dashed segment from the edge of the inner circle to the edge of the outer circle is labeled 17 m, representing the difference in radii between the two circles. The shaded blue region shows the area between the two concentric circles.",
+    "question_type": "Fill in the blank",
+    "question_number": "3_2",
+    "tag": "Gr8_46_E3",
+    "correct_answers": [
+      "2188.58"
+    ],
+    "solution": [
+      [
+        "1/10",
+        "To find the area of the shaded region, subtract the area of the inner circle from the area of the outer circle. Start by finding the area of the inner circle."
+      ],
+      [
+        "2/10",
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 24 $\\div$ 2 = 12"
+      ],
+      [
+        "3/10",
+        "The radius of the inner circle is 12 metres. Replace $r$ by 12 in the formula."
+      ],
+      [
+        "4/10",
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 12^2$ $\\approx 3.14 \\cdot 12 \\cdot 12$ $\\approx$ 452.16. The area of the inner circle is about 452.16 square metres."
+      ],
+      [
+        "5/10",
+        "Next, find the area of the outer shape."
+      ],
+      [
+        "6/10",
+        "When two circles share a centre, the radius of the outer circle is equal to the radius of the inner circle plus the distance between the circles."
+      ],
+      [
+        "7/10",
+        "outer radius=12+17=29. The radius of the outer circle is 29 metres. Replace $r$ by 29 in the formula."
+      ],
+      [
+        "8/10",
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 29^2 $ $\\approx 3.14 \\cdot 29 \\cdot 29$ $\\approx 2640.74.$ The area of the outer circle is about 2640.74 square metres."
+      ],
+      [
+        "9/10",
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 2640.74 - 452.16 = 2188.58"
+      ],
+      [
+        "10/10",
+        "The area of the shaded region is about 2188.58 square metres."
+      ]
+    ],
+    "solution_image_tag": []
+  },
+  {
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_3",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 24 m. The distance from the inner circle to the outer circle is 17 m.",
@@ -17,7 +135,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 24 $\\div$ 2 = 12"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 24 $\\div$ 2 = 12"
       ],
       [
         "3/10",
@@ -25,7 +143,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 12^2$\n$\\approx 3.14 \\cdot 12 \\cdot 12$\n$\\approx$ 452.16. \nThe area of the inner circle is about 452.16 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 12^2$ $\\approx 3.14 \\cdot 12 \\cdot 12$ $\\approx$ 452.16. The area of the inner circle is about 452.16 square metres."
       ],
       [
         "5/10",
@@ -37,31 +155,25 @@
       ],
       [
         "7/10",
-        "outer radius=12+17=29\nThe radius of the outer circle is 29 metres. Replace $r$ by 29 in the formula."
+        "outer radius=12+17=29. The radius of the outer circle is 29 metres. Replace $r$ by 29 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 29^2 $\n$\\approx 3.14 \\cdot 29 \\cdot 29$\n$\\approx 2640.74.$\nThe area of the outer circle is about 2640.74 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 29^2 $ $\\approx 3.14 \\cdot 29 \\cdot 29$ $\\approx 2640.74.$ The area of the outer circle is about 2640.74 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 2640.74 - 452.16\n= 2188.58"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 2640.74 - 452.16 = 2188.58"
       ],
       [
         "10/10",
         "The area of the shaded region is about 2188.58 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_3_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_4",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 49 cm by 50 cm. The inner rectangle has dimensions 31 cm by 37 cm.",
@@ -78,11 +190,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 31 cm\nheight: 37 cm"
+        "Find the base and height of the inner rectangle. base: 31 cm, height: 37 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 31  \\cdot 37$\n= 1147"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 31  \\cdot 37$ = 1147"
       ],
       [
         "4/12",
@@ -98,11 +210,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 49 cm\nheight: 50 cm"
+        "Find the base and height of the outer rectangle. base: 49 cm, height: 50 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 49  \\cdot 50$\n= 2450"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 49  \\cdot 50$ = 2450"
       ],
       [
         "9/12",
@@ -114,7 +226,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 2450 - 1147\n= 1303"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 2450 - 1147 = 1303"
       ],
       [
         "12/12",
@@ -124,7 +236,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_5",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 21 m. The distance from the inner circle to the outer circle is 7 m.",
@@ -141,7 +253,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 21 $\\div$ 2 = 10"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 21 $\\div$ 2 = 10"
       ],
       [
         "3/10",
@@ -149,7 +261,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 10^2$\n$\\approx 3.14 \\cdot 10 \\cdot 10$\n$\\approx$ 314.0. \nThe area of the inner circle is about 314.0 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 10^2$ $\\approx 3.14 \\cdot 10 \\cdot 10$ $\\approx$ 314.0. The area of the inner circle is about 314.0 square metres."
       ],
       [
         "5/10",
@@ -161,31 +273,25 @@
       ],
       [
         "7/10",
-        "outer radius=10+7=17\nThe radius of the outer circle is 17 metres. Replace $r$ by 17 in the formula."
+        "outer radius=10+7=17. The radius of the outer circle is 17 metres. Replace $r$ by 17 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 17^2 $\n$\\approx 3.14 \\cdot 17 \\cdot 17$\n$\\approx 907.46.$\nThe area of the outer circle is about 907.46 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 17^2 $ $\\approx 3.14 \\cdot 17 \\cdot 17$ $\\approx 907.46.$ The area of the outer circle is about 907.46 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 907.46 - 314.0\n= 593.46"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 907.46 - 314.0 = 593.46"
       ],
       [
         "10/10",
         "The area of the shaded region is about 593.46 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_5_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_6",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 38 cm by 39 cm. The inner rectangle has dimensions 24 cm by 28 cm.",
@@ -202,11 +308,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 24 cm\nheight: 28 cm"
+        "Find the base and height of the inner rectangle. base: 24 cm, height: 28 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 24  \\cdot 28$\n= 672"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 24  \\cdot 28$ = 672"
       ],
       [
         "4/12",
@@ -222,11 +328,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 38 cm\nheight: 39 cm"
+        "Find the base and height of the outer rectangle. base: 38 cm, height: 39 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 38  \\cdot 39$\n= 1482"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 38  \\cdot 39$ = 1482"
       ],
       [
         "9/12",
@@ -238,7 +344,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1482 - 672\n= 810"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1482 - 672 = 810"
       ],
       [
         "12/12",
@@ -248,7 +354,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_7",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 29 m. The distance from the inner circle to the outer circle is 8 m.",
@@ -265,7 +371,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 29 $\\div$ 2 = 14"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 29 $\\div$ 2 = 14"
       ],
       [
         "3/10",
@@ -273,7 +379,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 14^2$\n$\\approx 3.14 \\cdot 14 \\cdot 14$\n$\\approx$ 615.44. \nThe area of the inner circle is about 615.44 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 14^2$ $\\approx 3.14 \\cdot 14 \\cdot 14$ $\\approx$ 615.44. The area of the inner circle is about 615.44 square metres."
       ],
       [
         "5/10",
@@ -285,31 +391,25 @@
       ],
       [
         "7/10",
-        "outer radius=14+8=22\nThe radius of the outer circle is 22 metres. Replace $r$ by 22 in the formula."
+        "outer radius=14+8=22. The radius of the outer circle is 22 metres. Replace $r$ by 22 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 22^2 $\n$\\approx 3.14 \\cdot 22 \\cdot 22$\n$\\approx 1519.76.$\nThe area of the outer circle is about 1519.76 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 22^2 $ $\\approx 3.14 \\cdot 22 \\cdot 22$ $\\approx 1519.76.$ The area of the outer circle is about 1519.76 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1519.76 - 615.44\n= 904.32"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1519.76 - 615.44 = 904.32"
       ],
       [
         "10/10",
         "The area of the shaded region is about 904.32 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_7_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_8",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 46 cm by 43 cm. The inner rectangle has dimensions 27 cm by 32 cm.",
@@ -326,11 +426,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 27 cm\nheight: 32 cm"
+        "Find the base and height of the inner rectangle. base: 27 cm, height: 32 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 27  \\cdot 32$\n= 864"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 27  \\cdot 32$ = 864"
       ],
       [
         "4/12",
@@ -346,11 +446,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 46 cm\nheight: 43 cm"
+        "Find the base and height of the outer rectangle. base: 46 cm, height: 43 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 46  \\cdot 43$\n= 1978"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 46  \\cdot 43$ = 1978"
       ],
       [
         "9/12",
@@ -362,7 +462,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1978 - 864\n= 1114"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1978 - 864 = 1114"
       ],
       [
         "12/12",
@@ -372,7 +472,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_9",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 18 m. The distance from the inner circle to the outer circle is 8 m.",
@@ -389,7 +489,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 18 $\\div$ 2 = 9"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 18 $\\div$ 2 = 9"
       ],
       [
         "3/10",
@@ -397,7 +497,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 9^2$\n$\\approx 3.14 \\cdot 9 \\cdot 9$\n$\\approx$ 254.34. \nThe area of the inner circle is about 254.34 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 9^2$ $\\approx 3.14 \\cdot 9 \\cdot 9$ $\\approx$ 254.34. The area of the inner circle is about 254.34 square metres."
       ],
       [
         "5/10",
@@ -409,31 +509,25 @@
       ],
       [
         "7/10",
-        "outer radius=9+8=17\nThe radius of the outer circle is 17 metres. Replace $r$ by 17 in the formula."
+        "outer radius=9+8=17. The radius of the outer circle is 17 metres. Replace $r$ by 17 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 17^2 $\n$\\approx 3.14 \\cdot 17 \\cdot 17$\n$\\approx 907.46.$\nThe area of the outer circle is about 907.46 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 17^2 $ $\\approx 3.14 \\cdot 17 \\cdot 17$ $\\approx 907.46.$ The area of the outer circle is about 907.46 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 907.46 - 254.34\n= 653.12"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 907.46 - 254.34 = 653.12"
       ],
       [
         "10/10",
         "The area of the shaded region is about 653.12 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_9_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_10",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 42 cm by 40 cm. The inner rectangle has dimensions 32 cm by 23 cm.",
@@ -450,11 +544,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 32 cm\nheight: 23 cm"
+        "Find the base and height of the inner rectangle. base: 32 cm, height: 23 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 32  \\cdot 23$\n= 736"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 32  \\cdot 23$ = 736"
       ],
       [
         "4/12",
@@ -470,11 +564,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 42 cm\nheight: 40 cm"
+        "Find the base and height of the outer rectangle. base: 42 cm, height: 40 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 42  \\cdot 40$\n= 1680"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 42  \\cdot 40$ = 1680"
       ],
       [
         "9/12",
@@ -486,7 +580,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1680 - 736\n= 944"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1680 - 736 = 944"
       ],
       [
         "12/12",
@@ -496,7 +590,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_11",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 28 m. The distance from the inner circle to the outer circle is 7 m.",
@@ -513,7 +607,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 28 $\\div$ 2 = 14"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 28 $\\div$ 2 = 14"
       ],
       [
         "3/10",
@@ -521,7 +615,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 14^2$\n$\\approx 3.14 \\cdot 14 \\cdot 14$\n$\\approx$ 615.44. \nThe area of the inner circle is about 615.44 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 14^2$ $\\approx 3.14 \\cdot 14 \\cdot 14$ $\\approx$ 615.44. The area of the inner circle is about 615.44 square metres."
       ],
       [
         "5/10",
@@ -533,31 +627,25 @@
       ],
       [
         "7/10",
-        "outer radius=14+7=21\nThe radius of the outer circle is 21 metres. Replace $r$ by 21 in the formula."
+        "outer radius=14+7=21. The radius of the outer circle is 21 metres. Replace $r$ by 21 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 21^2 $\n$\\approx 3.14 \\cdot 21 \\cdot 21$\n$\\approx 1384.74.$\nThe area of the outer circle is about 1384.74 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 21^2 $ $\\approx 3.14 \\cdot 21 \\cdot 21$ $\\approx 1384.74.$ The area of the outer circle is about 1384.74 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1384.74 - 615.44\n= 769.3"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1384.74 - 615.44 = 769.3"
       ],
       [
         "10/10",
         "The area of the shaded region is about 769.3 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_11_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_12",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 36 cm by 38 cm. The inner rectangle has dimensions 24 cm by 20 cm.",
@@ -574,11 +662,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 24 cm\nheight: 20 cm"
+        "Find the base and height of the inner rectangle. base: 24 cm, height: 20 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 24  \\cdot 20$\n= 480"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 24  \\cdot 20$ = 480"
       ],
       [
         "4/12",
@@ -594,11 +682,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 36 cm\nheight: 38 cm"
+        "Find the base and height of the outer rectangle. base: 36 cm, height: 38 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 36  \\cdot 38$\n= 1368"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 36  \\cdot 38$ = 1368"
       ],
       [
         "9/12",
@@ -610,7 +698,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1368 - 480\n= 888"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1368 - 480 = 888"
       ],
       [
         "12/12",
@@ -620,7 +708,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_13",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 25 m. The distance from the inner circle to the outer circle is 19 m.",
@@ -637,7 +725,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 25 $\\div$ 2 = 12"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 25 $\\div$ 2 = 12"
       ],
       [
         "3/10",
@@ -645,7 +733,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 12^2$\n$\\approx 3.14 \\cdot 12 \\cdot 12$\n$\\approx$ 452.16. \nThe area of the inner circle is about 452.16 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 12^2$ $\\approx 3.14 \\cdot 12 \\cdot 12$ $\\approx$ 452.16. The area of the inner circle is about 452.16 square metres."
       ],
       [
         "5/10",
@@ -657,31 +745,25 @@
       ],
       [
         "7/10",
-        "outer radius=12+19=31\nThe radius of the outer circle is 31 metres. Replace $r$ by 31 in the formula."
+        "outer radius=12+19=31. The radius of the outer circle is 31 metres. Replace $r$ by 31 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 31^2 $\n$\\approx 3.14 \\cdot 31 \\cdot 31$\n$\\approx 3017.54.$\nThe area of the outer circle is about 3017.54 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 31^2 $ $\\approx 3.14 \\cdot 31 \\cdot 31$ $\\approx 3017.54.$ The area of the outer circle is about 3017.54 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 3017.54 - 452.16\n= 2565.38"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 3017.54 - 452.16 = 2565.38"
       ],
       [
         "10/10",
         "The area of the shaded region is about 2565.38 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_13_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_14",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 38 cm by 50 cm. The inner rectangle has dimensions 25 cm by 38 cm.",
@@ -698,11 +780,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 25 cm\nheight: 38 cm"
+        "Find the base and height of the inner rectangle. base: 25 cm, height: 38 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 25  \\cdot 38$\n= 950"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 25  \\cdot 38$ = 950"
       ],
       [
         "4/12",
@@ -718,11 +800,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 38 cm\nheight: 50 cm"
+        "Find the base and height of the outer rectangle. base: 38 cm, height: 50 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 38  \\cdot 50$\n= 1900"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 38  \\cdot 50$ = 1900"
       ],
       [
         "9/12",
@@ -734,7 +816,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1900 - 950\n= 950"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1900 - 950 = 950"
       ],
       [
         "12/12",
@@ -744,7 +826,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_15",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 30 m. The distance from the inner circle to the outer circle is 13 m.",
@@ -761,7 +843,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 30 $\\div$ 2 = 15"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 30 $\\div$ 2 = 15"
       ],
       [
         "3/10",
@@ -769,7 +851,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 15^2$\n$\\approx 3.14 \\cdot 15 \\cdot 15$\n$\\approx$ 706.5. \nThe area of the inner circle is about 706.5 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 15^2$ $\\approx 3.14 \\cdot 15 \\cdot 15$ $\\approx$ 706.5. The area of the inner circle is about 706.5 square metres."
       ],
       [
         "5/10",
@@ -781,31 +863,25 @@
       ],
       [
         "7/10",
-        "outer radius=15+13=28\nThe radius of the outer circle is 28 metres. Replace $r$ by 28 in the formula."
+        "outer radius=15+13=28. The radius of the outer circle is 28 metres. Replace $r$ by 28 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 28^2 $\n$\\approx 3.14 \\cdot 28 \\cdot 28$\n$\\approx 2461.76.$\nThe area of the outer circle is about 2461.76 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 28^2 $ $\\approx 3.14 \\cdot 28 \\cdot 28$ $\\approx 2461.76.$ The area of the outer circle is about 2461.76 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 2461.76 - 706.5\n= 1755.26"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 2461.76 - 706.5 = 1755.26"
       ],
       [
         "10/10",
         "The area of the shaded region is about 1755.26 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_15_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_16",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 49 cm by 43 cm. The inner rectangle has dimensions 34 cm by 31 cm.",
@@ -822,11 +898,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 34 cm\nheight: 31 cm"
+        "Find the base and height of the inner rectangle. base: 34 cm, height: 31 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 34  \\cdot 31$\n= 1054"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 34  \\cdot 31$ = 1054"
       ],
       [
         "4/12",
@@ -842,11 +918,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 49 cm\nheight: 43 cm"
+        "Find the base and height of the outer rectangle. base: 49 cm, height: 43 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 49  \\cdot 43$\n= 2107"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 49  \\cdot 43$ = 2107"
       ],
       [
         "9/12",
@@ -858,7 +934,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 2107 - 1054\n= 1053"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 2107 - 1054 = 1053"
       ],
       [
         "12/12",
@@ -868,7 +944,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_17",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 29 m. The distance from the inner circle to the outer circle is 19 m.",
@@ -885,7 +961,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 29 $\\div$ 2 = 14"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 29 $\\div$ 2 = 14"
       ],
       [
         "3/10",
@@ -893,7 +969,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 14^2$\n$\\approx 3.14 \\cdot 14 \\cdot 14$\n$\\approx$ 615.44. \nThe area of the inner circle is about 615.44 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 14^2$ $\\approx 3.14 \\cdot 14 \\cdot 14$ $\\approx$ 615.44. The area of the inner circle is about 615.44 square metres."
       ],
       [
         "5/10",
@@ -905,31 +981,25 @@
       ],
       [
         "7/10",
-        "outer radius=14+19=33\nThe radius of the outer circle is 33 metres. Replace $r$ by 33 in the formula."
+        "outer radius=14+19=33. The radius of the outer circle is 33 metres. Replace $r$ by 33 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 33^2 $\n$\\approx 3.14 \\cdot 33 \\cdot 33$\n$\\approx 3419.46.$\nThe area of the outer circle is about 3419.46 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 33^2 $ $\\approx 3.14 \\cdot 33 \\cdot 33$ $\\approx 3419.46.$ The area of the outer circle is about 3419.46 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 3419.46 - 615.44\n= 2804.02"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 3419.46 - 615.44 = 2804.02"
       ],
       [
         "10/10",
         "The area of the shaded region is about 2804.02 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_17_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_18",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 36 cm by 41 cm. The inner rectangle has dimensions 24 cm by 21 cm.",
@@ -946,11 +1016,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 24 cm\nheight: 21 cm"
+        "Find the base and height of the inner rectangle. base: 24 cm, height: 21 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 24  \\cdot 21$\n= 504"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 24  \\cdot 21$ = 504"
       ],
       [
         "4/12",
@@ -966,11 +1036,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 36 cm\nheight: 41 cm"
+        "Find the base and height of the outer rectangle. base: 36 cm, height: 41 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 36  \\cdot 41$\n= 1476"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 36  \\cdot 41$ = 1476"
       ],
       [
         "9/12",
@@ -982,7 +1052,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1476 - 504\n= 972"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1476 - 504 = 972"
       ],
       [
         "12/12",
@@ -992,7 +1062,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_19",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 10 m. The distance from the inner circle to the outer circle is 17 m.",
@@ -1009,7 +1079,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 10 $\\div$ 2 = 5"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 10 $\\div$ 2 = 5"
       ],
       [
         "3/10",
@@ -1017,7 +1087,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 5^2$\n$\\approx 3.14 \\cdot 5 \\cdot 5$\n$\\approx$ 78.5. \nThe area of the inner circle is about 78.5 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 5^2$ $\\approx 3.14 \\cdot 5 \\cdot 5$ $\\approx$ 78.5. The area of the inner circle is about 78.5 square metres."
       ],
       [
         "5/10",
@@ -1029,31 +1099,25 @@
       ],
       [
         "7/10",
-        "outer radius=5+17=22\nThe radius of the outer circle is 22 metres. Replace $r$ by 22 in the formula."
+        "outer radius=5+17=22. The radius of the outer circle is 22 metres. Replace $r$ by 22 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 22^2 $\n$\\approx 3.14 \\cdot 22 \\cdot 22$\n$\\approx 1519.76.$\nThe area of the outer circle is about 1519.76 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 22^2 $ $\\approx 3.14 \\cdot 22 \\cdot 22$ $\\approx 1519.76.$ The area of the outer circle is about 1519.76 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1519.76 - 78.5\n= 1441.26"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1519.76 - 78.5 = 1441.26"
       ],
       [
         "10/10",
         "The area of the shaded region is about 1441.26 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_19_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_20",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 49 cm by 49 cm. The inner rectangle has dimensions 28 cm by 35 cm.",
@@ -1070,11 +1134,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 28 cm\nheight: 35 cm"
+        "Find the base and height of the inner rectangle. base: 28 cm, height: 35 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 28  \\cdot 35$\n= 980"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 28  \\cdot 35$ = 980"
       ],
       [
         "4/12",
@@ -1090,11 +1154,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 49 cm\nheight: 49 cm"
+        "Find the base and height of the outer rectangle. base: 49 cm, height: 49 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 49  \\cdot 49$\n= 2401"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 49  \\cdot 49$ = 2401"
       ],
       [
         "9/12",
@@ -1106,7 +1170,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 2401 - 980\n= 1421"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 2401 - 980 = 1421"
       ],
       [
         "12/12",
@@ -1116,7 +1180,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_21",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 23 m. The distance from the inner circle to the outer circle is 7 m.",
@@ -1133,7 +1197,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 23 $\\div$ 2 = 11"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 23 $\\div$ 2 = 11"
       ],
       [
         "3/10",
@@ -1141,7 +1205,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 11^2$\n$\\approx 3.14 \\cdot 11 \\cdot 11$\n$\\approx$ 379.94. \nThe area of the inner circle is about 379.94 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 11^2$ $\\approx 3.14 \\cdot 11 \\cdot 11$ $\\approx$ 379.94. The area of the inner circle is about 379.94 square metres."
       ],
       [
         "5/10",
@@ -1153,31 +1217,25 @@
       ],
       [
         "7/10",
-        "outer radius=11+7=18\nThe radius of the outer circle is 18 metres. Replace $r$ by 18 in the formula."
+        "outer radius=11+7=18. The radius of the outer circle is 18 metres. Replace $r$ by 18 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 18^2 $\n$\\approx 3.14 \\cdot 18 \\cdot 18$\n$\\approx 1017.36.$\nThe area of the outer circle is about 1017.36 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 18^2 $ $\\approx 3.14 \\cdot 18 \\cdot 18$ $\\approx 1017.36.$ The area of the outer circle is about 1017.36 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1017.36 - 379.94\n= 637.42"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1017.36 - 379.94 = 637.42"
       ],
       [
         "10/10",
         "The area of the shaded region is about 637.42 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_21_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_22",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 45 cm by 35 cm. The inner rectangle has dimensions 30 cm by 22 cm.",
@@ -1194,11 +1252,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 30 cm\nheight: 22 cm"
+        "Find the base and height of the inner rectangle. base: 30 cm, height: 22 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 30  \\cdot 22$\n= 660"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 30  \\cdot 22$ = 660"
       ],
       [
         "4/12",
@@ -1214,11 +1272,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 45 cm\nheight: 35 cm"
+        "Find the base and height of the outer rectangle. base: 45 cm, height: 35 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 45  \\cdot 35$\n= 1575"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 45  \\cdot 35$ = 1575"
       ],
       [
         "9/12",
@@ -1230,7 +1288,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1575 - 660\n= 915"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1575 - 660 = 915"
       ],
       [
         "12/12",
@@ -1240,7 +1298,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_23",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 24 m. The distance from the inner circle to the outer circle is 10 m.",
@@ -1257,7 +1315,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 24 $\\div$ 2 = 12"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 24 $\\div$ 2 = 12"
       ],
       [
         "3/10",
@@ -1265,7 +1323,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 12^2$\n$\\approx 3.14 \\cdot 12 \\cdot 12$\n$\\approx$ 452.16. \nThe area of the inner circle is about 452.16 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 12^2$ $\\approx 3.14 \\cdot 12 \\cdot 12$ $\\approx$ 452.16. The area of the inner circle is about 452.16 square metres."
       ],
       [
         "5/10",
@@ -1277,31 +1335,25 @@
       ],
       [
         "7/10",
-        "outer radius=12+10=22\nThe radius of the outer circle is 22 metres. Replace $r$ by 22 in the formula."
+        "outer radius=12+10=22. The radius of the outer circle is 22 metres. Replace $r$ by 22 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 22^2 $\n$\\approx 3.14 \\cdot 22 \\cdot 22$\n$\\approx 1519.76.$\nThe area of the outer circle is about 1519.76 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 22^2 $ $\\approx 3.14 \\cdot 22 \\cdot 22$ $\\approx 1519.76.$ The area of the outer circle is about 1519.76 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1519.76 - 452.16\n= 1067.6"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1519.76 - 452.16 = 1067.6"
       ],
       [
         "10/10",
         "The area of the shaded region is about 1067.6 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_23_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_24",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 38 cm by 39 cm. The inner rectangle has dimensions 28 cm by 25 cm.",
@@ -1318,11 +1370,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 28 cm\nheight: 25 cm"
+        "Find the base and height of the inner rectangle. base: 28 cm, height: 25 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 28  \\cdot 25$\n= 700"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 28  \\cdot 25$ = 700"
       ],
       [
         "4/12",
@@ -1338,11 +1390,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 38 cm\nheight: 39 cm"
+        "Find the base and height of the outer rectangle. base: 38 cm, height: 39 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 38  \\cdot 39$\n= 1482"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 38  \\cdot 39$ = 1482"
       ],
       [
         "9/12",
@@ -1354,7 +1406,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1482 - 700\n= 782"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1482 - 700 = 782"
       ],
       [
         "12/12",
@@ -1364,7 +1416,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_25",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 30 m. The distance from the inner circle to the outer circle is 6 m.",
@@ -1381,7 +1433,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 30 $\\div$ 2 = 15"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 30 $\\div$ 2 = 15"
       ],
       [
         "3/10",
@@ -1389,7 +1441,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 15^2$\n$\\approx 3.14 \\cdot 15 \\cdot 15$\n$\\approx$ 706.5. \nThe area of the inner circle is about 706.5 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 15^2$ $\\approx 3.14 \\cdot 15 \\cdot 15$ $\\approx$ 706.5. The area of the inner circle is about 706.5 square metres."
       ],
       [
         "5/10",
@@ -1401,31 +1453,25 @@
       ],
       [
         "7/10",
-        "outer radius=15+6=21\nThe radius of the outer circle is 21 metres. Replace $r$ by 21 in the formula."
+        "outer radius=15+6=21. The radius of the outer circle is 21 metres. Replace $r$ by 21 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 21^2 $\n$\\approx 3.14 \\cdot 21 \\cdot 21$\n$\\approx 1384.74.$\nThe area of the outer circle is about 1384.74 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 21^2 $ $\\approx 3.14 \\cdot 21 \\cdot 21$ $\\approx 1384.74.$ The area of the outer circle is about 1384.74 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1384.74 - 706.5\n= 678.24"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1384.74 - 706.5 = 678.24"
       ],
       [
         "10/10",
         "The area of the shaded region is about 678.24 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_25_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_26",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 38 cm by 48 cm. The inner rectangle has dimensions 27 cm by 35 cm.",
@@ -1442,11 +1488,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 27 cm\nheight: 35 cm"
+        "Find the base and height of the inner rectangle. base: 27 cm, height: 35 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 27  \\cdot 35$\n= 945"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 27  \\cdot 35$ = 945"
       ],
       [
         "4/12",
@@ -1462,11 +1508,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 38 cm\nheight: 48 cm"
+        "Find the base and height of the outer rectangle. base: 38 cm, height: 48 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 38  \\cdot 48$\n= 1824"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 38  \\cdot 48$ = 1824"
       ],
       [
         "9/12",
@@ -1478,7 +1524,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1824 - 945\n= 879"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1824 - 945 = 879"
       ],
       [
         "12/12",
@@ -1488,7 +1534,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_27",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 30 m. The distance from the inner circle to the outer circle is 9 m.",
@@ -1505,7 +1551,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 30 $\\div$ 2 = 15"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 30 $\\div$ 2 = 15"
       ],
       [
         "3/10",
@@ -1513,7 +1559,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 15^2$\n$\\approx 3.14 \\cdot 15 \\cdot 15$\n$\\approx$ 706.5. \nThe area of the inner circle is about 706.5 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 15^2$ $\\approx 3.14 \\cdot 15 \\cdot 15$ $\\approx$ 706.5. The area of the inner circle is about 706.5 square metres."
       ],
       [
         "5/10",
@@ -1525,31 +1571,25 @@
       ],
       [
         "7/10",
-        "outer radius=15+9=24\nThe radius of the outer circle is 24 metres. Replace $r$ by 24 in the formula."
+        "outer radius=15+9=24. The radius of the outer circle is 24 metres. Replace $r$ by 24 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 24^2 $\n$\\approx 3.14 \\cdot 24 \\cdot 24$\n$\\approx 1808.64.$\nThe area of the outer circle is about 1808.64 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 24^2 $ $\\approx 3.14 \\cdot 24 \\cdot 24$ $\\approx 1808.64.$ The area of the outer circle is about 1808.64 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1808.64 - 706.5\n= 1102.14"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1808.64 - 706.5 = 1102.14"
       ],
       [
         "10/10",
         "The area of the shaded region is about 1102.14 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_27_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_28",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 39 cm by 38 cm. The inner rectangle has dimensions 28 cm by 22 cm.",
@@ -1566,11 +1606,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 28 cm\nheight: 22 cm"
+        "Find the base and height of the inner rectangle. base: 28 cm, height: 22 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 28  \\cdot 22$\n= 616"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 28  \\cdot 22$ = 616"
       ],
       [
         "4/12",
@@ -1586,11 +1626,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 39 cm\nheight: 38 cm"
+        "Find the base and height of the outer rectangle. base: 39 cm, height: 38 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 39  \\cdot 38$\n= 1482"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 39  \\cdot 38$ = 1482"
       ],
       [
         "9/12",
@@ -1602,7 +1642,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1482 - 616\n= 866"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1482 - 616 = 866"
       ],
       [
         "12/12",
@@ -1612,7 +1652,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_29",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 24 m. The distance from the inner circle to the outer circle is 16 m.",
@@ -1629,7 +1669,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 24 $\\div$ 2 = 12"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 24 $\\div$ 2 = 12"
       ],
       [
         "3/10",
@@ -1637,7 +1677,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 12^2$\n$\\approx 3.14 \\cdot 12 \\cdot 12$\n$\\approx$ 452.16. \nThe area of the inner circle is about 452.16 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 12^2$ $\\approx 3.14 \\cdot 12 \\cdot 12$ $\\approx$ 452.16. The area of the inner circle is about 452.16 square metres."
       ],
       [
         "5/10",
@@ -1649,31 +1689,25 @@
       ],
       [
         "7/10",
-        "outer radius=12+16=28\nThe radius of the outer circle is 28 metres. Replace $r$ by 28 in the formula."
+        "outer radius=12+16=28. The radius of the outer circle is 28 metres. Replace $r$ by 28 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 28^2 $\n$\\approx 3.14 \\cdot 28 \\cdot 28$\n$\\approx 2461.76.$\nThe area of the outer circle is about 2461.76 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 28^2 $ $\\approx 3.14 \\cdot 28 \\cdot 28$ $\\approx 2461.76.$ The area of the outer circle is about 2461.76 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 2461.76 - 452.16\n= 2009.6"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 2461.76 - 452.16 = 2009.6"
       ],
       [
         "10/10",
         "The area of the shaded region is about 2009.6 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_29_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_30",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 38 cm by 49 cm. The inner rectangle has dimensions 27 cm by 28 cm.",
@@ -1690,11 +1724,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 27 cm\nheight: 28 cm"
+        "Find the base and height of the inner rectangle. base: 27 cm, height: 28 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 27  \\cdot 28$\n= 756"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 27  \\cdot 28$ = 756"
       ],
       [
         "4/12",
@@ -1710,11 +1744,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 38 cm\nheight: 49 cm"
+        "Find the base and height of the outer rectangle. base: 38 cm, height: 49 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 38  \\cdot 49$\n= 1862"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 38  \\cdot 49$ = 1862"
       ],
       [
         "9/12",
@@ -1726,7 +1760,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1862 - 756\n= 1106"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1862 - 756 = 1106"
       ],
       [
         "12/12",
@@ -1736,7 +1770,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_31",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 30 m. The distance from the inner circle to the outer circle is 11 m.",
@@ -1753,7 +1787,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 30 $\\div$ 2 = 15"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 30 $\\div$ 2 = 15"
       ],
       [
         "3/10",
@@ -1761,7 +1795,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 15^2$\n$\\approx 3.14 \\cdot 15 \\cdot 15$\n$\\approx$ 706.5. \nThe area of the inner circle is about 706.5 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 15^2$ $\\approx 3.14 \\cdot 15 \\cdot 15$ $\\approx$ 706.5. The area of the inner circle is about 706.5 square metres."
       ],
       [
         "5/10",
@@ -1773,31 +1807,25 @@
       ],
       [
         "7/10",
-        "outer radius=15+11=26\nThe radius of the outer circle is 26 metres. Replace $r$ by 26 in the formula."
+        "outer radius=15+11=26. The radius of the outer circle is 26 metres. Replace $r$ by 26 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 26^2 $\n$\\approx 3.14 \\cdot 26 \\cdot 26$\n$\\approx 2122.64.$\nThe area of the outer circle is about 2122.64 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 26^2 $ $\\approx 3.14 \\cdot 26 \\cdot 26$ $\\approx 2122.64.$ The area of the outer circle is about 2122.64 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 2122.64 - 706.5\n= 1416.14"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 2122.64 - 706.5 = 1416.14"
       ],
       [
         "10/10",
         "The area of the shaded region is about 1416.14 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_31_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_32",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 35 cm by 45 cm. The inner rectangle has dimensions 21 cm by 32 cm.",
@@ -1814,11 +1842,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 21 cm\nheight: 32 cm"
+        "Find the base and height of the inner rectangle. base: 21 cm, height: 32 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 21  \\cdot 32$\n= 672"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 21  \\cdot 32$ = 672"
       ],
       [
         "4/12",
@@ -1834,11 +1862,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 35 cm\nheight: 45 cm"
+        "Find the base and height of the outer rectangle. base: 35 cm, height: 45 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 35  \\cdot 45$\n= 1575"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 35  \\cdot 45$ = 1575"
       ],
       [
         "9/12",
@@ -1850,7 +1878,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1575 - 672\n= 903"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1575 - 672 = 903"
       ],
       [
         "12/12",
@@ -1860,7 +1888,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_33",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 18 m. The distance from the inner circle to the outer circle is 8 m.",
@@ -1877,7 +1905,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 18 $\\div$ 2 = 9"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 18 $\\div$ 2 = 9"
       ],
       [
         "3/10",
@@ -1885,7 +1913,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 9^2$\n$\\approx 3.14 \\cdot 9 \\cdot 9$\n$\\approx$ 254.34. \nThe area of the inner circle is about 254.34 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 9^2$ $\\approx 3.14 \\cdot 9 \\cdot 9$ $\\approx$ 254.34. The area of the inner circle is about 254.34 square metres."
       ],
       [
         "5/10",
@@ -1897,31 +1925,25 @@
       ],
       [
         "7/10",
-        "outer radius=9+8=17\nThe radius of the outer circle is 17 metres. Replace $r$ by 17 in the formula."
+        "outer radius=9+8=17. The radius of the outer circle is 17 metres. Replace $r$ by 17 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 17^2 $\n$\\approx 3.14 \\cdot 17 \\cdot 17$\n$\\approx 907.46.$\nThe area of the outer circle is about 907.46 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 17^2 $ $\\approx 3.14 \\cdot 17 \\cdot 17$ $\\approx 907.46.$ The area of the outer circle is about 907.46 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 907.46 - 254.34\n= 653.12"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 907.46 - 254.34 = 653.12"
       ],
       [
         "10/10",
         "The area of the shaded region is about 653.12 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_33_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_34",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 42 cm by 42 cm. The inner rectangle has dimensions 20 cm by 32 cm.",
@@ -1938,11 +1960,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 20 cm\nheight: 32 cm"
+        "Find the base and height of the inner rectangle. base: 20 cm, height: 32 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 20  \\cdot 32$\n= 640"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 20  \\cdot 32$ = 640"
       ],
       [
         "4/12",
@@ -1958,11 +1980,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 42 cm\nheight: 42 cm"
+        "Find the base and height of the outer rectangle. base: 42 cm, height: 42 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 42  \\cdot 42$\n= 1764"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 42  \\cdot 42$ = 1764"
       ],
       [
         "9/12",
@@ -1974,7 +1996,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1764 - 640\n= 1124"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1764 - 640 = 1124"
       ],
       [
         "12/12",
@@ -1984,7 +2006,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_35",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 27 m. The distance from the inner circle to the outer circle is 8 m.",
@@ -2001,7 +2023,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 27 $\\div$ 2 = 13"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 27 $\\div$ 2 = 13"
       ],
       [
         "3/10",
@@ -2009,7 +2031,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 13^2$\n$\\approx 3.14 \\cdot 13 \\cdot 13$\n$\\approx$ 530.66. \nThe area of the inner circle is about 530.66 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 13^2$ $\\approx 3.14 \\cdot 13 \\cdot 13$ $\\approx$ 530.66. The area of the inner circle is about 530.66 square metres."
       ],
       [
         "5/10",
@@ -2021,31 +2043,25 @@
       ],
       [
         "7/10",
-        "outer radius=13+8=21\nThe radius of the outer circle is 21 metres. Replace $r$ by 21 in the formula."
+        "outer radius=13+8=21. The radius of the outer circle is 21 metres. Replace $r$ by 21 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 21^2 $\n$\\approx 3.14 \\cdot 21 \\cdot 21$\n$\\approx 1384.74.$\nThe area of the outer circle is about 1384.74 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 21^2 $ $\\approx 3.14 \\cdot 21 \\cdot 21$ $\\approx 1384.74.$ The area of the outer circle is about 1384.74 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1384.74 - 530.66\n= 854.08"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1384.74 - 530.66 = 854.08"
       ],
       [
         "10/10",
         "The area of the shaded region is about 854.08 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_35_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_36",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 45 cm by 48 cm. The inner rectangle has dimensions 21 cm by 26 cm.",
@@ -2062,11 +2078,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 21 cm\nheight: 26 cm"
+        "Find the base and height of the inner rectangle. base: 21 cm, height: 26 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 21  \\cdot 26$\n= 546"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 21  \\cdot 26$ = 546"
       ],
       [
         "4/12",
@@ -2082,11 +2098,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 45 cm\nheight: 48 cm"
+        "Find the base and height of the outer rectangle. base: 45 cm, height: 48 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 45  \\cdot 48$\n= 2160"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 45  \\cdot 48$ = 2160"
       ],
       [
         "9/12",
@@ -2098,7 +2114,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 2160 - 546\n= 1614"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 2160 - 546 = 1614"
       ],
       [
         "12/12",
@@ -2108,7 +2124,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_37",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 17 m. The distance from the inner circle to the outer circle is 6 m.",
@@ -2125,7 +2141,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 17 $\\div$ 2 = 8"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 17 $\\div$ 2 = 8"
       ],
       [
         "3/10",
@@ -2133,7 +2149,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 8^2$\n$\\approx 3.14 \\cdot 8 \\cdot 8$\n$\\approx$ 200.96. \nThe area of the inner circle is about 200.96 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 8^2$ $\\approx 3.14 \\cdot 8 \\cdot 8$ $\\approx$ 200.96. The area of the inner circle is about 200.96 square metres."
       ],
       [
         "5/10",
@@ -2145,31 +2161,25 @@
       ],
       [
         "7/10",
-        "outer radius=8+6=14\nThe radius of the outer circle is 14 metres. Replace $r$ by 14 in the formula."
+        "outer radius=8+6=14. The radius of the outer circle is 14 metres. Replace $r$ by 14 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 14^2 $\n$\\approx 3.14 \\cdot 14 \\cdot 14$\n$\\approx 615.44.$\nThe area of the outer circle is about 615.44 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 14^2 $ $\\approx 3.14 \\cdot 14 \\cdot 14$ $\\approx 615.44.$ The area of the outer circle is about 615.44 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 615.44 - 200.96\n= 414.48"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 615.44 - 200.96 = 414.48"
       ],
       [
         "10/10",
         "The area of the shaded region is about 414.48 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_37_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_38",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 38 cm by 44 cm. The inner rectangle has dimensions 25 cm by 33 cm.",
@@ -2186,11 +2196,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 25 cm\nheight: 33 cm"
+        "Find the base and height of the inner rectangle. base: 25 cm, height: 33 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 25  \\cdot 33$\n= 825"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 25  \\cdot 33$ = 825"
       ],
       [
         "4/12",
@@ -2206,11 +2216,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 38 cm\nheight: 44 cm"
+        "Find the base and height of the outer rectangle. base: 38 cm, height: 44 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 38  \\cdot 44$\n= 1672"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 38  \\cdot 44$ = 1672"
       ],
       [
         "9/12",
@@ -2222,7 +2232,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1672 - 825\n= 847"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1672 - 825 = 847"
       ],
       [
         "12/12",
@@ -2232,7 +2242,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_39",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 21 m. The distance from the inner circle to the outer circle is 10 m.",
@@ -2249,7 +2259,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 21 $\\div$ 2 = 10"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 21 $\\div$ 2 = 10"
       ],
       [
         "3/10",
@@ -2257,7 +2267,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 10^2$\n$\\approx 3.14 \\cdot 10 \\cdot 10$\n$\\approx$ 314.0. \nThe area of the inner circle is about 314.0 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 10^2$ $\\approx 3.14 \\cdot 10 \\cdot 10$ $\\approx$ 314.0. The area of the inner circle is about 314.0 square metres."
       ],
       [
         "5/10",
@@ -2269,31 +2279,25 @@
       ],
       [
         "7/10",
-        "outer radius=10+10=20\nThe radius of the outer circle is 20 metres. Replace $r$ by 20 in the formula."
+        "outer radius=10+10=20. The radius of the outer circle is 20 metres. Replace $r$ by 20 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 20^2 $\n$\\approx 3.14 \\cdot 20 \\cdot 20$\n$\\approx 1256.0.$\nThe area of the outer circle is about 1256.0 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 20^2 $ $\\approx 3.14 \\cdot 20 \\cdot 20$ $\\approx 1256.0.$ The area of the outer circle is about 1256.0 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1256.0 - 314.0\n= 942.0"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1256.0 - 314.0 = 942.0"
       ],
       [
         "10/10",
         "The area of the shaded region is about 942.0 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_39_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_40",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 39 cm by 40 cm. The inner rectangle has dimensions 26 cm by 24 cm.",
@@ -2310,11 +2314,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 26 cm\nheight: 24 cm"
+        "Find the base and height of the inner rectangle. base: 26 cm, height: 24 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 26  \\cdot 24$\n= 624"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 26  \\cdot 24$ = 624"
       ],
       [
         "4/12",
@@ -2330,11 +2334,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 39 cm\nheight: 40 cm"
+        "Find the base and height of the outer rectangle. base: 39 cm, height: 40 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 39  \\cdot 40$\n= 1560"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 39  \\cdot 40$ = 1560"
       ],
       [
         "9/12",
@@ -2346,7 +2350,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1560 - 624\n= 936"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1560 - 624 = 936"
       ],
       [
         "12/12",
@@ -2356,7 +2360,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_41",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 27 m. The distance from the inner circle to the outer circle is 12 m.",
@@ -2373,7 +2377,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 27 $\\div$ 2 = 13"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 27 $\\div$ 2 = 13"
       ],
       [
         "3/10",
@@ -2381,7 +2385,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 13^2$\n$\\approx 3.14 \\cdot 13 \\cdot 13$\n$\\approx$ 530.66. \nThe area of the inner circle is about 530.66 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 13^2$ $\\approx 3.14 \\cdot 13 \\cdot 13$ $\\approx$ 530.66. The area of the inner circle is about 530.66 square metres."
       ],
       [
         "5/10",
@@ -2393,31 +2397,25 @@
       ],
       [
         "7/10",
-        "outer radius=13+12=25\nThe radius of the outer circle is 25 metres. Replace $r$ by 25 in the formula."
+        "outer radius=13+12=25. The radius of the outer circle is 25 metres. Replace $r$ by 25 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 25^2 $\n$\\approx 3.14 \\cdot 25 \\cdot 25$\n$\\approx 1962.5.$\nThe area of the outer circle is about 1962.5 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 25^2 $ $\\approx 3.14 \\cdot 25 \\cdot 25$ $\\approx 1962.5.$ The area of the outer circle is about 1962.5 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1962.5 - 530.66\n= 1431.84"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1962.5 - 530.66 = 1431.84"
       ],
       [
         "10/10",
         "The area of the shaded region is about 1431.84 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_41_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_42",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 43 cm by 36 cm. The inner rectangle has dimensions 33 cm by 25 cm.",
@@ -2434,11 +2432,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 33 cm\nheight: 25 cm"
+        "Find the base and height of the inner rectangle. base: 33 cm, height: 25 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 33  \\cdot 25$\n= 825"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 33  \\cdot 25$ = 825"
       ],
       [
         "4/12",
@@ -2454,11 +2452,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 43 cm\nheight: 36 cm"
+        "Find the base and height of the outer rectangle. base: 43 cm, height: 36 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 43  \\cdot 36$\n= 1548"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 43  \\cdot 36$ = 1548"
       ],
       [
         "9/12",
@@ -2470,7 +2468,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1548 - 825\n= 723"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1548 - 825 = 723"
       ],
       [
         "12/12",
@@ -2480,7 +2478,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_43",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 24 m. The distance from the inner circle to the outer circle is 17 m.",
@@ -2497,7 +2495,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 24 $\\div$ 2 = 12"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 24 $\\div$ 2 = 12"
       ],
       [
         "3/10",
@@ -2505,7 +2503,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 12^2$\n$\\approx 3.14 \\cdot 12 \\cdot 12$\n$\\approx$ 452.16. \nThe area of the inner circle is about 452.16 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 12^2$ $\\approx 3.14 \\cdot 12 \\cdot 12$ $\\approx$ 452.16. The area of the inner circle is about 452.16 square metres."
       ],
       [
         "5/10",
@@ -2517,31 +2515,25 @@
       ],
       [
         "7/10",
-        "outer radius=12+17=29\nThe radius of the outer circle is 29 metres. Replace $r$ by 29 in the formula."
+        "outer radius=12+17=29. The radius of the outer circle is 29 metres. Replace $r$ by 29 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 29^2 $\n$\\approx 3.14 \\cdot 29 \\cdot 29$\n$\\approx 2640.74.$\nThe area of the outer circle is about 2640.74 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 29^2 $ $\\approx 3.14 \\cdot 29 \\cdot 29$ $\\approx 2640.74.$ The area of the outer circle is about 2640.74 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 2640.74 - 452.16\n= 2188.58"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 2640.74 - 452.16 = 2188.58"
       ],
       [
         "10/10",
         "The area of the shaded region is about 2188.58 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_43_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_44",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 43 cm by 35 cm. The inner rectangle has dimensions 32 cm by 20 cm.",
@@ -2558,11 +2550,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 32 cm\nheight: 20 cm"
+        "Find the base and height of the inner rectangle. base: 32 cm, height: 20 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 32  \\cdot 20$\n= 640"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 32  \\cdot 20$ = 640"
       ],
       [
         "4/12",
@@ -2578,11 +2570,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 43 cm\nheight: 35 cm"
+        "Find the base and height of the outer rectangle. base: 43 cm, height: 35 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 43  \\cdot 35$\n= 1505"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 43  \\cdot 35$ = 1505"
       ],
       [
         "9/12",
@@ -2594,7 +2586,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1505 - 640\n= 865"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1505 - 640 = 865"
       ],
       [
         "12/12",
@@ -2604,7 +2596,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_45",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 11 m. The distance from the inner circle to the outer circle is 14 m.",
@@ -2621,7 +2613,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 11 $\\div$ 2 = 5"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 11 $\\div$ 2 = 5"
       ],
       [
         "3/10",
@@ -2629,7 +2621,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 5^2$\n$\\approx 3.14 \\cdot 5 \\cdot 5$\n$\\approx$ 78.5. \nThe area of the inner circle is about 78.5 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 5^2$ $\\approx 3.14 \\cdot 5 \\cdot 5$ $\\approx$ 78.5. The area of the inner circle is about 78.5 square metres."
       ],
       [
         "5/10",
@@ -2641,31 +2633,25 @@
       ],
       [
         "7/10",
-        "outer radius=5+14=19\nThe radius of the outer circle is 19 metres. Replace $r$ by 19 in the formula."
+        "outer radius=5+14=19. The radius of the outer circle is 19 metres. Replace $r$ by 19 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 19^2 $\n$\\approx 3.14 \\cdot 19 \\cdot 19$\n$\\approx 1133.54.$\nThe area of the outer circle is about 1133.54 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 19^2 $ $\\approx 3.14 \\cdot 19 \\cdot 19$ $\\approx 1133.54.$ The area of the outer circle is about 1133.54 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1133.54 - 78.5\n= 1055.04"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1133.54 - 78.5 = 1055.04"
       ],
       [
         "10/10",
         "The area of the shaded region is about 1055.04 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_45_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_46",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 42 cm by 42 cm. The inner rectangle has dimensions 28 cm by 29 cm.",
@@ -2682,11 +2668,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 28 cm\nheight: 29 cm"
+        "Find the base and height of the inner rectangle. base: 28 cm, height: 29 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 28  \\cdot 29$\n= 812"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 28  \\cdot 29$ = 812"
       ],
       [
         "4/12",
@@ -2702,11 +2688,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 42 cm\nheight: 42 cm"
+        "Find the base and height of the outer rectangle. base: 42 cm, height: 42 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 42  \\cdot 42$\n= 1764"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 42  \\cdot 42$ = 1764"
       ],
       [
         "9/12",
@@ -2718,7 +2704,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1764 - 812\n= 952"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1764 - 812 = 952"
       ],
       [
         "12/12",
@@ -2728,7 +2714,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_47",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 13 m. The distance from the inner circle to the outer circle is 11 m.",
@@ -2745,7 +2731,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 13 $\\div$ 2 = 6"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 13 $\\div$ 2 = 6"
       ],
       [
         "3/10",
@@ -2753,7 +2739,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 6^2$\n$\\approx 3.14 \\cdot 6 \\cdot 6$\n$\\approx$ 113.04. \nThe area of the inner circle is about 113.04 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 6^2$ $\\approx 3.14 \\cdot 6 \\cdot 6$ $\\approx$ 113.04. The area of the inner circle is about 113.04 square metres."
       ],
       [
         "5/10",
@@ -2765,31 +2751,25 @@
       ],
       [
         "7/10",
-        "outer radius=6+11=17\nThe radius of the outer circle is 17 metres. Replace $r$ by 17 in the formula."
+        "outer radius=6+11=17. The radius of the outer circle is 17 metres. Replace $r$ by 17 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 17^2 $\n$\\approx 3.14 \\cdot 17 \\cdot 17$\n$\\approx 907.46.$\nThe area of the outer circle is about 907.46 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 17^2 $ $\\approx 3.14 \\cdot 17 \\cdot 17$ $\\approx 907.46.$ The area of the outer circle is about 907.46 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 907.46 - 113.04\n= 794.42"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 907.46 - 113.04 = 794.42"
       ],
       [
         "10/10",
         "The area of the shaded region is about 794.42 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_47_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_48",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 38 cm by 50 cm. The inner rectangle has dimensions 28 cm by 22 cm.",
@@ -2806,11 +2786,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 28 cm\nheight: 22 cm"
+        "Find the base and height of the inner rectangle. base: 28 cm, height: 22 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 28  \\cdot 22$\n= 616"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 28  \\cdot 22$ = 616"
       ],
       [
         "4/12",
@@ -2826,11 +2806,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 38 cm\nheight: 50 cm"
+        "Find the base and height of the outer rectangle. base: 38 cm, height: 50 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 38  \\cdot 50$\n= 1900"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 38  \\cdot 50$ = 1900"
       ],
       [
         "9/12",
@@ -2842,7 +2822,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1900 - 616\n= 1284"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1900 - 616 = 1284"
       ],
       [
         "12/12",
@@ -2852,7 +2832,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_49",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 15 m. The distance from the inner circle to the outer circle is 16 m.",
@@ -2869,7 +2849,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 15 $\\div$ 2 = 7"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 15 $\\div$ 2 = 7"
       ],
       [
         "3/10",
@@ -2877,7 +2857,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 7^2$\n$\\approx 3.14 \\cdot 7 \\cdot 7$\n$\\approx$ 153.86. \nThe area of the inner circle is about 153.86 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 7^2$ $\\approx 3.14 \\cdot 7 \\cdot 7$ $\\approx$ 153.86. The area of the inner circle is about 153.86 square metres."
       ],
       [
         "5/10",
@@ -2889,31 +2869,25 @@
       ],
       [
         "7/10",
-        "outer radius=7+16=23\nThe radius of the outer circle is 23 metres. Replace $r$ by 23 in the formula."
+        "outer radius=7+16=23. The radius of the outer circle is 23 metres. Replace $r$ by 23 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 23^2 $\n$\\approx 3.14 \\cdot 23 \\cdot 23$\n$\\approx 1661.06.$\nThe area of the outer circle is about 1661.06 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 23^2 $ $\\approx 3.14 \\cdot 23 \\cdot 23$ $\\approx 1661.06.$ The area of the outer circle is about 1661.06 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1661.06 - 153.86\n= 1507.2"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1661.06 - 153.86 = 1507.2"
       ],
       [
         "10/10",
         "The area of the shaded region is about 1507.2 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_49_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   },
   {
-    "question_text": "What is the area of the shaded region?\n___ square centimetres",
+    "question_text": "What is the area of the shaded region? Find X such that the shaded region is X square centimetres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_50",
     "backend_description": "The image shows a large rectangle with a smaller rectangle centered inside it. The outer rectangle has dimensions 40 cm by 44 cm. The inner rectangle has dimensions 24 cm by 25 cm.",
@@ -2930,11 +2904,11 @@
       ],
       [
         "2/12",
-        "Find the base and height of the inner rectangle.\nbase: 24 cm\nheight: 25 cm"
+        "Find the base and height of the inner rectangle. base: 24 cm, height: 25 cm"
       ],
       [
         "3/12",
-        "Use these numbers in the formula.\ninner area = base $\\cdot$ height\n$= 24  \\cdot 25$\n= 600"
+        "Use these numbers in the formula. inner area = base $\\cdot$ height $= 24  \\cdot 25$ = 600"
       ],
       [
         "4/12",
@@ -2950,11 +2924,11 @@
       ],
       [
         "7/12",
-        "Find the base and height of the outer rectangle.\nbase: 40 cm\nheight: 44 cm"
+        "Find the base and height of the outer rectangle. base: 40 cm, height: 44 cm"
       ],
       [
         "8/12",
-        "Use these numbers in the formula.\nouter area = base $\\cdot$ height\n$= 40  \\cdot 44$\n= 1760"
+        "Use these numbers in the formula. outer area = base $\\cdot$ height $= 40  \\cdot 44$ = 1760"
       ],
       [
         "9/12",
@@ -2966,7 +2940,7 @@
       ],
       [
         "11/12",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1760 - 600\n= 1160"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1760 - 600 = 1160"
       ],
       [
         "12/12",
@@ -2976,7 +2950,7 @@
     "solution_image_tag": []
   },
   {
-    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth.\n___ square metres",
+    "question_text": "Both circles have the same centre. What is the area of the shaded region?\n\nUse 3.14 for $\\pi$. Write your answer as a whole number or a decimal rounded to the nearest hundredth. Find X such that the area of the shaded region is X square metres.",
     "skills": "area-between-two-shapes",
     "image_tag": "Gr8_46_3_51",
     "backend_description": "The image displays concentric circles. The inner circle has a diameter of 21 m. The distance from the inner circle to the outer circle is 15 m.",
@@ -2993,7 +2967,7 @@
       ],
       [
         "2/10",
-        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2.\ninner radius = 21 $\\div$ 2 = 10"
+        "First, find the radius of the inner circle. The radius is equal to the diameter divided by 2. inner radius = 21 $\\div$ 2 = 10"
       ],
       [
         "3/10",
@@ -3001,7 +2975,7 @@
       ],
       [
         "4/10",
-        "Inner area = $\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 10^2$\n$\\approx 3.14 \\cdot 10 \\cdot 10$\n$\\approx$ 314.0. \nThe area of the inner circle is about 314.0 square metres."
+        "Inner area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 10^2$ $\\approx 3.14 \\cdot 10 \\cdot 10$ $\\approx$ 314.0. The area of the inner circle is about 314.0 square metres."
       ],
       [
         "5/10",
@@ -3013,27 +2987,21 @@
       ],
       [
         "7/10",
-        "outer radius=10+15=25\nThe radius of the outer circle is 25 metres. Replace $r$ by 25 in the formula."
+        "outer radius=10+15=25. The radius of the outer circle is 25 metres. Replace $r$ by 25 in the formula."
       ],
       [
         "8/10",
-        "outer area\n=$\\pi \\cdot r^2$\n$\\approx 3.14 \\cdot 25^2 $\n$\\approx 3.14 \\cdot 25 \\cdot 25$\n$\\approx 1962.5.$\nThe area of the outer circle is about 1962.5 square metres."
+        "outer area = $\\pi \\cdot r^2$ $\\approx 3.14 \\cdot 25^2 $ $\\approx 3.14 \\cdot 25 \\cdot 25$ $\\approx 1962.5.$ The area of the outer circle is about 1962.5 square metres."
       ],
       [
         "9/10",
-        "Finally, subtract the inner area from the outer area to find the area of the shaded region.\nshaded area = outer area - inner area\n= 1962.5 - 314.0\n= 1648.5"
+        "Finally, subtract the inner area from the outer area to find the area of the shaded region. shaded area = outer area - inner area = 1962.5 - 314.0 = 1648.5"
       ],
       [
         "10/10",
         "The area of the shaded region is about 1648.5 square metres."
       ]
     ],
-    "solution_image_tag": [
-      [
-        "1/10",
-        "Gr8_46_3_51_step_1",
-        "Shows concentric circles with radius labels"
-      ]
-    ]
+    "solution_image_tag": []
   }
 ]
