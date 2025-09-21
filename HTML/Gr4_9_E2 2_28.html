@@ -1,119 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gr4_9_E2 Visual Components</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f5f5f5;
-        }
         .item {
             display: inline-block;
             margin: 10px;
             padding: 10px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            width: auto;
-            height: auto;
-        }
-        .item svg {
-            display: block;
+            border: 1px solid #ccc;
         }
     </style>
 </head>
 <body>
-
     <div class="item" label="Gr4_9_2_28_step_2">
-        <svg width="200" height="200" viewBox="0 0 200 200">
-        <defs>
-            <clipPath id="circle-clip-12">
-                <circle cx="100" cy="100" r="90"/>
-            </clipPath>
-        </defs>
-        
-        <!-- Circle background -->
-        <circle cx="100" cy="100" r="90" fill="white" stroke="black" stroke-width="2"/>
-        
-        <!-- Wedges group -->
-        <g clip-path="url(#circle-clip-12)">
-            <path d="M 100 100 L 100.00 10.00 A 90 90 0 0 1 145.00 22.06 Z"
-                  fill="#9B7EDE" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 145.00 22.06 A 90 90 0 0 1 177.94 55.00 Z"
-                  fill="#9B7EDE" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 177.94 55.00 A 90 90 0 0 1 190.00 100.00 Z"
-                  fill="#9B7EDE" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 190.00 100.00 A 90 90 0 0 1 177.94 145.00 Z"
-                  fill="#9B7EDE" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 177.94 145.00 A 90 90 0 0 1 145.00 177.94 Z"
-                  fill="#9B7EDE" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 145.00 177.94 A 90 90 0 0 1 100.00 190.00 Z"
-                  fill="#9B7EDE" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 100.00 190.00 A 90 90 0 0 1 55.00 177.94 Z"
-                  fill="#9B7EDE" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 55.00 177.94 A 90 90 0 0 1 22.06 145.00 Z"
-                  fill="#9B7EDE" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 22.06 145.00 A 90 90 0 0 1 10.00 100.00 Z"
-                  fill="white" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 10.00 100.00 A 90 90 0 0 1 22.06 55.00 Z"
-                  fill="white" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 22.06 55.00 A 90 90 0 0 1 55.00 22.06 Z"
-                  fill="white" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 55.00 22.06 A 90 90 0 0 1 100.00 10.00 Z"
-                  fill="white" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-        </g>
-        
-        <!-- Redraw circle border -->
-        <circle cx="100" cy="100" r="90" fill="none" stroke="black" stroke-width="2"/>
-    </svg>
+        <svg width="200" height="200" viewBox="0 0 200 200"><path d="M 100.0 100.0 L 100.00008 20.0 A 80 80 0 0 1 140.00008 30.71799999999999 Z" fill="#9B7EDE" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 140.00008 30.71799999999999 A 80 80 0 0 1 169.28208 60.0 Z" fill="#9B7EDE" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 169.28208 60.0 A 80 80 0 0 1 180.0 100.0 Z" fill="#9B7EDE" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 180.0 100.0 A 80 80 0 0 1 169.28208 140.0 Z" fill="#9B7EDE" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 169.28208 140.0 A 80 80 0 0 1 140.00008 169.282 Z" fill="#9B7EDE" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 140.00008 169.282 A 80 80 0 0 1 100.00008 180.0 Z" fill="#9B7EDE" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 100.00008 180.0 A 80 80 0 0 1 60.00016 169.28208 Z" fill="#9B7EDE" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 60.00016 169.28208 A 80 80 0 0 1 30.71808 140.00016 Z" fill="#9B7EDE" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 30.71808 140.00016 A 80 80 0 0 1 20.0 100.00024 Z" fill="#f0f0f0" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 20.0 100.00024 A 80 80 0 0 1 30.717839999999995 60.00024 Z" fill="#f0f0f0" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 30.717839999999995 60.00024 A 80 80 0 0 1 59.99976 30.71808 Z" fill="#f0f0f0" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 59.99976 30.71808 A 80 80 0 0 1 99.99968 20.0 Z" fill="#f0f0f0" stroke="#333" stroke-width="1.5"/></svg>
     </div>
-
     <div class="item" label="Gr4_9_2_28_step_3">
-        <svg width="200" height="200" viewBox="0 0 200 200">
-        <defs>
-            <clipPath id="circle-clip-12">
-                <circle cx="100" cy="100" r="90"/>
-            </clipPath>
-        </defs>
-        
-        <!-- Circle background -->
-        <circle cx="100" cy="100" r="90" fill="white" stroke="black" stroke-width="2"/>
-        
-        <!-- Wedges group -->
-        <g clip-path="url(#circle-clip-12)">
-            <path d="M 100 100 L 100.00 10.00 A 90 90 0 0 1 145.00 22.06 Z"
-                  fill="#B19CD9" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 145.00 22.06 A 90 90 0 0 1 177.94 55.00 Z"
-                  fill="#B19CD9" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 177.94 55.00 A 90 90 0 0 1 190.00 100.00 Z"
-                  fill="#B19CD9" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 190.00 100.00 A 90 90 0 0 1 177.94 145.00 Z"
-                  fill="#B19CD9" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 177.94 145.00 A 90 90 0 0 1 145.00 177.94 Z"
-                  fill="#B19CD9" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 145.00 177.94 A 90 90 0 0 1 100.00 190.00 Z"
-                  fill="#B19CD9" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 100.00 190.00 A 90 90 0 0 1 55.00 177.94 Z"
-                  fill="#B19CD9" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 55.00 177.94 A 90 90 0 0 1 22.06 145.00 Z"
-                  fill="#B19CD9" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 22.06 145.00 A 90 90 0 0 1 10.00 100.00 Z"
-                  fill="#B19CD9" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 10.00 100.00 A 90 90 0 0 1 22.06 55.00 Z"
-                  fill="white" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 22.06 55.00 A 90 90 0 0 1 55.00 22.06 Z"
-                  fill="white" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-            <path d="M 100 100 L 55.00 22.06 A 90 90 0 0 1 100.00 10.00 Z"
-                  fill="white" fill-opacity="0.8" stroke="black" stroke-width="0.5"/>
-        </g>
-        
-        <!-- Redraw circle border -->
-        <circle cx="100" cy="100" r="90" fill="none" stroke="black" stroke-width="2"/>
-    </svg>
+        <svg width="200" height="200" viewBox="0 0 200 200"><path d="M 100.0 100.0 L 100.00008 20.0 A 80 80 0 0 1 140.00008 30.71799999999999 Z" fill="#C4B5FD" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 140.00008 30.71799999999999 A 80 80 0 0 1 169.28208 60.0 Z" fill="#C4B5FD" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 169.28208 60.0 A 80 80 0 0 1 180.0 100.0 Z" fill="#C4B5FD" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 180.0 100.0 A 80 80 0 0 1 169.28208 140.0 Z" fill="#C4B5FD" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 169.28208 140.0 A 80 80 0 0 1 140.00008 169.282 Z" fill="#C4B5FD" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 140.00008 169.282 A 80 80 0 0 1 100.00008 180.0 Z" fill="#C4B5FD" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 100.00008 180.0 A 80 80 0 0 1 60.00016 169.28208 Z" fill="#C4B5FD" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 60.00016 169.28208 A 80 80 0 0 1 30.71808 140.00016 Z" fill="#C4B5FD" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 30.71808 140.00016 A 80 80 0 0 1 20.0 100.00024 Z" fill="#C4B5FD" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 20.0 100.00024 A 80 80 0 0 1 30.717839999999995 60.00024 Z" fill="#f0f0f0" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 30.717839999999995 60.00024 A 80 80 0 0 1 59.99976 30.71808 Z" fill="#f0f0f0" stroke="#333" stroke-width="1.5"/><path d="M 100.0 100.0 L 59.99976 30.71808 A 80 80 0 0 1 99.99968 20.0 Z" fill="#f0f0f0" stroke="#333" stroke-width="1.5"/></svg>
     </div>
-
 </body>
 </html>
