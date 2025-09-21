@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { font-family: Arial; padding: 40px; background: #f5f5f5; }
+.container { background: white; padding: 30px; border-radius: 10px; max-width: 800px; margin: 0 auto; }
+.question { font-size: 18px; margin-bottom: 30px; }
+.number-line { position: relative; width: 700px; height: 120px; margin: 40px auto; }
+.line { position: absolute; top: 60px; left: 50px; right: 50px; height: 3px; background: #333; }
+.arrow-left { position: absolute; top: 57px; left: 40px; width: 0; height: 0; border-right: 10px solid #333; border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
+.arrow-right { position: absolute; top: 57px; right: 40px; width: 0; height: 0; border-left: 10px solid #333; border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
+.tick { position: absolute; top: 55px; width: 2px; height: 10px; background: #333; }
+.tick-label { position: absolute; top: 75px; font-size: 12px; transform: translateX(-50%); }
+.point { position: absolute; top: 54px; width: 12px; height: 12px; background: #e74c3c; border-radius: 50%; transform: translateX(-50%); }
+.point-label { position: absolute; top: 30px; font-size: 16px; font-weight: bold; color: #e74c3c; transform: translateX(-50%); }
+.answer-section { margin-top: 40px; padding: 20px; background: #f9f9f9; border-radius: 5px; }
+.answer-input { width: 100px; height: 40px; font-size: 18px; padding: 5px; border: 2px solid #2196F3; border-radius: 5px; text-align: center; }
+.correct-answer { color: #4CAF50; font-weight: bold; margin-top: 10px; }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="question">Find the value of z. Write your answer as a decimal number.</div>
+<div class="number-line">
+<div class="line"></div>
+<div class="arrow-left"></div>
+<div class="arrow-right"></div>
+<div class="tick" style="left: 50px;"></div>
+<div class="tick-label" style="left: 50px;">50</div>
+<div class="tick" style="left: 110px;"></div>
+<div class="tick-label" style="left: 110px;">51</div>
+<div class="tick" style="left: 170px;"></div>
+<div class="tick-label" style="left: 170px;">52</div>
+<div class="tick" style="left: 230px;"></div>
+<div class="tick-label" style="left: 230px;">53</div>
+<div class="tick" style="left: 290px;"></div>
+<div class="tick-label" style="left: 290px;">54</div>
+<div class="tick" style="left: 350px;"></div>
+<div class="tick-label" style="left: 350px;">55</div>
+<div class="tick" style="left: 410px;"></div>
+<div class="tick-label" style="left: 410px;">56</div>
+<div class="tick" style="left: 470px;"></div>
+<div class="tick-label" style="left: 470px;">57</div>
+<div class="tick" style="left: 530px;"></div>
+<div class="tick-label" style="left: 530px;">58</div>
+<div class="tick" style="left: 590px;"></div>
+<div class="tick-label" style="left: 590px;">59</div>
+<div class="tick" style="left: 650px;"></div>
+<div class="tick-label" style="left: 650px;">60</div>
+<div class="point" style="left: 230px;"></div>
+<div class="point-label" style="left: 230px;">z</div>
+
+</div>
+<div class="answer-section">
+<strong>z = </strong>
+<input type="text" class="answer-input" placeholder="?">
+<div class="correct-answer">Correct answer: 53</div>
+</div>
+</div>
+</body>
+</html>

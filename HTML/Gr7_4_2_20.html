@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Line - Question 2_20</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        svg {
+            display: block;
+            margin: 20px auto;
+        }
+        .title {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .fraction {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .point {
+            fill: #6b46c1;
+        }
+        .label {
+            font-size: 14px;
+            fill: #333;
+        }
+        .axis-label {
+            font-size: 12px;
+            fill: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">Compare:
+            <span class="fraction">5/8</span> ___
+            <span class="fraction">3/4</span>
+        </h2>
+        <svg width="600" height="200" viewBox="0 0 600 200">
+            <!-- Number line -->
+            <line x1="50" y1="100" x2="550" y2="100" stroke="black" stroke-width="2"/>
+
+            <!-- Tick marks -->
+            <line x1="50" y1="90" x2="50" y2="110" stroke="black" stroke-width="2"/>
+            <line x1="550" y1="90" x2="550" y2="110" stroke="black" stroke-width="2"/>
+
+            <!-- Labels for endpoints -->
+            <text x="50" y="130" class="axis-label" text-anchor="middle">0</text>
+            <text x="550" y="130" class="axis-label" text-anchor="middle">1</text>
+
+            <!-- Calculate positions for fractions -->
+            <!-- Position for first fraction -->
+            <circle cx="362.5" cy="100" r="6" class="point"/>
+            <text x="362.5" y="80" class="label" text-anchor="middle">
+                5/8
+            </text>
+
+            <!-- Position for second fraction -->
+            <circle cx="425.0" cy="100" r="6" class="point"/>
+            <text x="425.0" y="160" class="label" text-anchor="middle">
+                3/4
+            </text>
+
+            <!-- Add intermediate tick marks if space allows -->
+            <line x1="150" y1="95" x2="150" y2="105" stroke="gray" stroke-width="1"/><line x1="250" y1="95" x2="250" y2="105" stroke="gray" stroke-width="1"/><line x1="350" y1="95" x2="350" y2="105" stroke="gray" stroke-width="1"/><line x1="450" y1="95" x2="450" y2="105" stroke="gray" stroke-width="1"/>
+        </svg>
+    </div>
+</body>
+</html>
