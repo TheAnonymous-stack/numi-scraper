@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question 1_23</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .question { margin-bottom: 20px; }
+        .image-container { margin: 20px 0; }
+        .choices { display: flex; flex-wrap: wrap; gap: 20px; }
+        .choice { border: 2px solid #ddd; padding: 10px; cursor: pointer; }
+        .choice:hover { border-color: #007bff; }
+        .choice.correct { border-color: #28a745; background-color: #d4edda; }
+        .solution { margin-top: 30px; border-top: 2px solid #ccc; padding-top: 20px; }
+        .solution-step { margin: 15px 0; }
+        .solution-image { margin: 10px 0; }
+        .item { display: inline-block; margin: 10px; }
+    </style>
+</head>
+<body>
+    <div class="question">
+        <h2>Question 1_23</h2>
+        <p>Use counters to compute 2 - 7. Each red circle with a minus sign represents -1 while each yellow circle with a plus sign represents 1.<br>Which picture shows the difference?</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice">
+            <div class="item" label="Gr7_11_1_23_A">
+                <!-- Shows 9 yellow circles with plus signs (positive counters), representing 9 as an incorrect positive result. -->
+                <img src="Gr7_11_1_23_A.png" alt="Choice A">
+            </div>
+        </div>
+        <div class="choice correct">
+            <div class="item" label="Gr7_11_1_23_B">
+                <!-- Shows 5 red circles with minus signs (negative counters), representing -5 as the final result after subtracting 7 from 2. -->
+                <img src="Gr7_11_1_23_B.png" alt="Choice B">
+            </div>
+        </div>
+        <div class="choice">
+            <div class="item" label="Gr7_11_1_23_C">
+                <!-- Shows 2 yellow circles with plus signs (positive counters), representing 2 as an incorrect positive result. -->
+                <img src="Gr7_11_1_23_C.png" alt="Choice C">
+            </div>
+        </div>
+        <div class="choice">
+            <div class="item" label="Gr7_11_1_23_D">
+                <!-- Shows 3 red circles with minus signs (negative counters), representing -3 as an incorrect result. -->
+                <img src="Gr7_11_1_23_D.png" alt="Choice D">
+            </div>
+        </div>
+    </div>
+
+    <div class="solution">
+        <h3>Solution</h3>
+        <div class="solution-step">
+            <h4>Step 1/5</h4>
+            <p>You are trying to calculate 2 - 7.</p>
+        </div>
+        <div class="solution-step">
+            <h4>Step 2/5</h4>
+            <p>Start out with 2 positive counters, which represent 2:</p>
+        </div>
+        <div class="solution-step">
+            <h4>Step 3/5</h4>
+            <p>You would like to take away 7 positive counters. Since you have positive counters, you need to think about this as adding negative value. Add 7 negative counters to represent subtracting 7:</p>
+        </div>
+        <div class="solution-step">
+            <h4>Step 4/5</h4>
+            <p>Now take away 7 positive counters:</p>
+        </div>
+        <div class="solution-step">
+            <h4>Step 5/5</h4>
+            <p>5 negative counters remain. So 2 - 7 = -5.</p>
+        </div>
+    </div>
+</body>
+</html>

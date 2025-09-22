@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question 21</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .question { margin-bottom: 20px; }
+        .image-container { margin: 20px 0; }
+        .choices { display: flex; flex-wrap: wrap; gap: 20px; }
+        .choice { border: 2px solid #ddd; padding: 10px; cursor: pointer; position: relative; min-width: 150px; }
+        .choice:hover { border-color: #007bff; }
+        .choice.correct { border-color: #28a745; background-color: #d4edda; }
+        .choice-label { position: absolute; top: -10px; left: 10px; background: white; padding: 2px 6px; font-weight: bold; }
+        .solution { margin-top: 30px; border-top: 2px solid #ccc; padding-top: 20px; }
+        .solution-step { margin: 15px 0; }
+        .solution-image { margin: 10px 0; }
+        .item { display: inline-block; margin: 10px; }
+    </style>
+</head>
+<body>
+    <div class="question">
+        <h2>Question 21</h2>
+        <p>Calculate: 26 + -23 = ?</p>
+        <div class="image-container">
+            <div class="item" label="Gr7_12_1_22">
+                <!-- Question image content for Gr7_12_1_22 would go here -->
+            </div>
+        </div>
+    </div>
+
+    <div class="choices">
+        <div class="choice">
+            <div class="choice-label">A</div>
+            <div class="item" label="Gr7_12_1_2_22">
+                <!-- Shows five yellow circles with plus signs, representing +5 -->
+            </div>
+        </div>
+        <div class="choice">
+            <div class="choice-label">B</div>
+            <div class="item" label="Gr7_12_1_2_22">
+                <!-- Shows one red circle with minus sign, representing -1 -->
+            </div>
+        </div>
+        <div class="choice correct">
+            <div class="choice-label">C</div>
+            <div class="item" label="Gr7_12_1_2_22">
+                <!-- Shows three yellow circles with plus signs, representing +3 -->
+            </div>
+        </div>
+        <div class="choice">
+            <div class="choice-label">D</div>
+            <div class="item" label="Gr7_12_1_2_22">
+                <!-- Shows three red circles with minus signs, representing -3 -->
+            </div>
+        </div>
+    </div>
+
+    <div class="solution">
+        <h3>Solution</h3>
+        <div class="solution-step">
+            <p><strong>Step 1/6:</strong> We are solving –1 + 4 using counters.</p>
+        </div>
+        <div class="solution-step">
+            <p><strong>Step 2/6:</strong> Start with 1 negative counter to represent –1.</p>
+            <div class="solution-image">
+                <div class="item" label="Gr7_12_1_2_step_22">
+                    <!-- Shows one red circle with a minus sign, representing the starting value of -1. -->
+                </div>
+            </div>
+        </div>
+        <div class="solution-step">
+            <p><strong>Step 3/6:</strong> Add 4 positive counters to represent +4.</p>
+            <div class="solution-image">
+                <div class="item" label="Gr7_12_1_2_step_22">
+                    <!-- Shows one red circle (-1) and four yellow circles (+4) together, representing -1 + 4. -->
+                </div>
+            </div>
+        </div>
+        <div class="solution-step">
+            <p><strong>Step 4/6:</strong> Pair 1 negative and 1 positive counter together to make a zero pair, then remove them.</p>
+            <div class="solution-image">
+                <div class="item" label="Gr7_12_1_2_step_22">
+                    <!-- Shows one red and one yellow circle grouped together with an arrow, demonstrating how a positive and negative counter cancel each other out as a zero pair. -->
+                </div>
+            </div>
+        </div>
+        <div class="solution-step">
+            <p><strong>Step 5/6:</strong> 3 positive counters remain.</p>
+            <div class="solution-image">
+                <div class="item" label="Gr7_12_1_2_step_22">
+                    <!-- Shows three yellow circles with plus signs remaining after removing the zero pair, giving the final answer of +3. -->
+                </div>
+            </div>
+        </div>
+        <div class="solution-step">
+            <p><strong>Step 6/6:</strong> So -1 + 4 = 3.
+Option C is correct because it shows 3 positive counters.</p>
+        </div>
+    </div>
+</body>
+</html>

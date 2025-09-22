@@ -2,9 +2,7 @@
   "quizzes": [
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $1/3$ + $11/3$ = ?",
-      "image_tag": "Gr7_3_4_2",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$1 \\frac{1}{6}$ ___ $\\frac{11}{4}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -12,34 +10,12 @@
         "="
       ],
       "correct_answers": [
-        "4"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_2",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_2",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_2",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_2",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 1, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -47,19 +23,60 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{1}{6}$, we must multiply its numerator (1) and denominator (6) by 4."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{11}{4}$, we must multiply its numerator (11) and denominator (4) by 6."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{4}{24}$ and $\\frac{66}{24}$\n4 < 66"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $1 \\frac{1}{6}$ < $\\frac{11}{4}$"
+        ]
+      ],
+      "tag": "Gr7_3_E4",
+      "question_number": "4_1"
+    },
+    {
+      "skills": "compare-mixed-numbers-and-improper-fractions",
+      "question_text": "Which sign makes the statement true?\n\n$1 \\frac{1}{2}$ ___ $1 \\frac{2}{5}$",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        ">",
+        "<",
+        "="
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/6",
+          "Compare the whole-number parts. The whole-number part of the first number is 1, and the whole-number part of the second number is 1."
+        ],
+        [
+          "2/6",
+          "To compare the fraction parts, first write the fractions with a common denominator.\n\nTo find a common denominator, multiply the denominators of the two fractions together."
+        ],
+        [
+          "3/6",
+          "For $\\frac{1}{2}$, we must multiply its numerator (1) and denominator (2) by 5."
+        ],
+        [
+          "4/6",
+          "For $\\frac{2}{5}$, we must multiply its numerator (2) and denominator (5) by 2."
+        ],
+        [
+          "5/6",
+          "Now compare the fractions with common denominators.\n$\\frac{5}{10}$ and $\\frac{4}{10}$\n5 > 4"
+        ],
+        [
+          "6/6",
+          "Therefore: $1 \\frac{1}{2}$ > $1 \\frac{2}{5}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -67,9 +84,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $5/3$ + $5/12$ = ?",
-      "image_tag": "Gr7_3_4_3",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$1 \\frac{4}{8}$ ___ $\\frac{17}{6}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -77,34 +92,12 @@
         "="
       ],
       "correct_answers": [
-        "25/12"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_3",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_3",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_3",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_3",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 1, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -112,19 +105,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{4}{8}$, we must multiply its numerator (4) and denominator (8) by 6."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{17}{6}$, we must multiply its numerator (17) and denominator (6) by 8."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{24}{48}$ and $\\frac{136}{48}$\n24 < 136"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $1 \\frac{4}{8}$ < $\\frac{17}{6}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -132,9 +125,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $5/4$ + $8/9$ = ?",
-      "image_tag": "Gr7_3_4_4",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$1 \\frac{3}{8}$ ___ $3 \\frac{3}{4}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -142,34 +133,12 @@
         "="
       ],
       "correct_answers": [
-        "77/36"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_4",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_4",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_4",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_4",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 1, and the whole-number part of the second number is 3."
         ],
         [
           "2/6",
@@ -177,19 +146,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{3}{8}$, we must multiply its numerator (3) and denominator (8) by 4."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{3}{4}$, we must multiply its numerator (3) and denominator (4) by 8."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{12}{32}$ and $\\frac{24}{32}$\n12 < 24"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $1 \\frac{3}{8}$ < $3 \\frac{3}{4}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -197,9 +166,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $3/4$ + $3/4$ = ?",
-      "image_tag": "Gr7_3_4_5",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$3 \\frac{2}{3}$ ___ $\\frac{30}{7}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -207,34 +174,12 @@
         "="
       ],
       "correct_answers": [
-        "3/2"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_5",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_5",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_5",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_5",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 3, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -242,19 +187,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{2}{3}$, we must multiply its numerator (2) and denominator (3) by 7."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{30}{7}$, we must multiply its numerator (30) and denominator (7) by 3."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{14}{21}$ and $\\frac{90}{21}$\n14 < 90"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $3 \\frac{2}{3}$ < $\\frac{30}{7}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -262,9 +207,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $5/3$ + $3$ = ?",
-      "image_tag": "Gr7_3_4_6",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$3 \\frac{1}{9}$ ___ $\\frac{5}{3}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -272,34 +215,12 @@
         "="
       ],
       "correct_answers": [
-        "14/3"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_6",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_6",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_6",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_6",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 3, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -307,19 +228,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{1}{9}$, we must multiply its numerator (1) and denominator (9) by 3."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{5}{3}$, we must multiply its numerator (5) and denominator (3) by 9."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{3}{27}$ and $\\frac{45}{27}$\n3 > 45"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $3 \\frac{1}{9}$ > $\\frac{5}{3}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -327,9 +248,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $4/3$ + $3/4$ = ?",
-      "image_tag": "Gr7_3_4_7",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$3 \\frac{2}{3}$ ___ $\\frac{10}{6}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -337,34 +256,12 @@
         "="
       ],
       "correct_answers": [
-        "25/12"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_7",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_7",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_7",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_7",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 3, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -372,19 +269,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{2}{3}$, we must multiply its numerator (2) and denominator (3) by 6."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{10}{6}$, we must multiply its numerator (10) and denominator (6) by 3."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{12}{18}$ and $\\frac{30}{18}$\n12 > 30"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $3 \\frac{2}{3}$ > $\\frac{10}{6}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -392,9 +289,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $4/5$ + $11/7$ = ?",
-      "image_tag": "Gr7_3_4_8",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$2 \\frac{2}{8}$ ___ $3 \\frac{6}{7}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -402,34 +297,12 @@
         "="
       ],
       "correct_answers": [
-        "83/35"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_8",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_8",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_8",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_8",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 2, and the whole-number part of the second number is 3."
         ],
         [
           "2/6",
@@ -437,19 +310,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{2}{8}$, we must multiply its numerator (2) and denominator (8) by 7."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{6}{7}$, we must multiply its numerator (6) and denominator (7) by 8."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{14}{56}$ and $\\frac{48}{56}$\n14 < 48"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $2 \\frac{2}{8}$ < $3 \\frac{6}{7}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -457,9 +330,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $5/9$ + $1$ = ?",
-      "image_tag": "Gr7_3_4_9",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$3 \\frac{4}{6}$ ___ $1 \\frac{3}{5}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -467,34 +338,12 @@
         "="
       ],
       "correct_answers": [
-        "14/9"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_9",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_9",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_9",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_9",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 3, and the whole-number part of the second number is 1."
         ],
         [
           "2/6",
@@ -502,19 +351,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{4}{6}$, we must multiply its numerator (4) and denominator (6) by 5."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{3}{5}$, we must multiply its numerator (3) and denominator (5) by 6."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{20}{30}$ and $\\frac{18}{30}$\n20 > 18"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $3 \\frac{4}{6}$ > $1 \\frac{3}{5}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -522,9 +371,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $3/2$ + $1/3$ = ?",
-      "image_tag": "Gr7_3_4_10",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$4 \\frac{4}{5}$ ___ $\\frac{16}{5}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -532,34 +379,12 @@
         "="
       ],
       "correct_answers": [
-        "11/6"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_10",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_10",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_10",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_10",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 4, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -567,19 +392,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{4}{5}$, we must multiply its numerator (4) and denominator (5) by 5."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{16}{5}$, we must multiply its numerator (16) and denominator (5) by 5."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{20}{25}$ and $\\frac{80}{25}$\n20 > 80"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $4 \\frac{4}{5}$ > $\\frac{16}{5}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -587,9 +412,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $2$ + $3/8$ = ?",
-      "image_tag": "Gr7_3_4_11",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$3 \\frac{5}{6}$ ___ $1 \\frac{4}{7}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -597,34 +420,12 @@
         "="
       ],
       "correct_answers": [
-        "19/8"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_11",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_11",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_11",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_11",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 3, and the whole-number part of the second number is 1."
         ],
         [
           "2/6",
@@ -632,19 +433,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{5}{6}$, we must multiply its numerator (5) and denominator (6) by 7."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{4}{7}$, we must multiply its numerator (4) and denominator (7) by 6."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{35}{42}$ and $\\frac{24}{42}$\n35 > 24"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $3 \\frac{5}{6}$ > $1 \\frac{4}{7}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -652,9 +453,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $4/5$ + $11/8$ = ?",
-      "image_tag": "Gr7_3_4_12",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$4 \\frac{7}{9}$ ___ $2 \\frac{3}{4}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -662,34 +461,12 @@
         "="
       ],
       "correct_answers": [
-        "87/40"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_12",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_12",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_12",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_12",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 4, and the whole-number part of the second number is 2."
         ],
         [
           "2/6",
@@ -697,19 +474,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{7}{9}$, we must multiply its numerator (7) and denominator (9) by 4."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{3}{4}$, we must multiply its numerator (3) and denominator (4) by 9."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{28}{36}$ and $\\frac{27}{36}$\n28 > 27"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $4 \\frac{7}{9}$ > $2 \\frac{3}{4}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -717,9 +494,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $11/9$ + $1$ = ?",
-      "image_tag": "Gr7_3_4_13",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$3 \\frac{7}{8}$ ___ $\\frac{15}{4}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -727,34 +502,12 @@
         "="
       ],
       "correct_answers": [
-        "20/9"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_13",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_13",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_13",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_13",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 3, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -762,19 +515,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{7}{8}$, we must multiply its numerator (7) and denominator (8) by 4."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{15}{4}$, we must multiply its numerator (15) and denominator (4) by 8."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{28}{32}$ and $\\frac{120}{32}$\n28 > 120"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $3 \\frac{7}{8}$ > $\\frac{15}{4}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -782,9 +535,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $1$ + $1$ = ?",
-      "image_tag": "Gr7_3_4_14",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$1 \\frac{1}{3}$ ___ $\\frac{19}{8}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -792,34 +543,12 @@
         "="
       ],
       "correct_answers": [
-        "2"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_14",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_14",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_14",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_14",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 1, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -827,19 +556,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{1}{3}$, we must multiply its numerator (1) and denominator (3) by 8."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{19}{8}$, we must multiply its numerator (19) and denominator (8) by 3."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{8}{24}$ and $\\frac{57}{24}$\n8 < 57"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $1 \\frac{1}{3}$ < $\\frac{19}{8}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -847,9 +576,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $7/10$ + $9/5$ = ?",
-      "image_tag": "Gr7_3_4_15",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$4 \\frac{7}{9}$ ___ $\\frac{10}{3}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -857,34 +584,12 @@
         "="
       ],
       "correct_answers": [
-        "5/2"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_15",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_15",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_15",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_15",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 4, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -892,19 +597,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{7}{9}$, we must multiply its numerator (7) and denominator (9) by 3."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{10}{3}$, we must multiply its numerator (10) and denominator (3) by 9."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{21}{27}$ and $\\frac{90}{27}$\n21 > 90"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $4 \\frac{7}{9}$ > $\\frac{10}{3}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -912,9 +617,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $7/5$ + $3/2$ = ?",
-      "image_tag": "Gr7_3_4_16",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$3 \\frac{2}{3}$ ___ $3 \\frac{3}{4}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -922,34 +625,12 @@
         "="
       ],
       "correct_answers": [
-        "29/10"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_16",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_16",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_16",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_16",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 3, and the whole-number part of the second number is 3."
         ],
         [
           "2/6",
@@ -957,19 +638,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{2}{3}$, we must multiply its numerator (2) and denominator (3) by 4."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{3}{4}$, we must multiply its numerator (3) and denominator (4) by 3."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{8}{12}$ and $\\frac{9}{12}$\n8 < 9"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $3 \\frac{2}{3}$ < $3 \\frac{3}{4}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -977,9 +658,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $8/11$ + $1$ = ?",
-      "image_tag": "Gr7_3_4_17",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$3 \\frac{2}{3}$ ___ $3 \\frac{3}{4}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -987,34 +666,12 @@
         "="
       ],
       "correct_answers": [
-        "19/11"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_17",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_17",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_17",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_17",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 3, and the whole-number part of the second number is 3."
         ],
         [
           "2/6",
@@ -1022,19 +679,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{2}{3}$, we must multiply its numerator (2) and denominator (3) by 4."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{3}{4}$, we must multiply its numerator (3) and denominator (4) by 3."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{8}{12}$ and $\\frac{9}{12}$\n8 < 9"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $3 \\frac{2}{3}$ < $3 \\frac{3}{4}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -1042,9 +699,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $1/4$ + $1/2$ = ?",
-      "image_tag": "Gr7_3_4_18",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$2 \\frac{1}{7}$ ___ $\\frac{13}{3}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -1052,34 +707,12 @@
         "="
       ],
       "correct_answers": [
-        "3/4"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_18",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_18",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_18",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_18",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 2, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -1087,19 +720,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{1}{7}$, we must multiply its numerator (1) and denominator (7) by 3."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{13}{3}$, we must multiply its numerator (13) and denominator (3) by 7."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{3}{21}$ and $\\frac{91}{21}$\n3 < 91"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $2 \\frac{1}{7}$ < $\\frac{13}{3}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -1107,9 +740,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $4/7$ + $11/2$ = ?",
-      "image_tag": "Gr7_3_4_19",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$3 \\frac{1}{2}$ ___ $\\frac{8}{3}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -1117,34 +748,12 @@
         "="
       ],
       "correct_answers": [
-        "85/14"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_19",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_19",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_19",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_19",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 3, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -1152,19 +761,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{1}{2}$, we must multiply its numerator (1) and denominator (2) by 3."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{8}{3}$, we must multiply its numerator (8) and denominator (3) by 2."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{3}{6}$ and $\\frac{16}{6}$\n3 > 16"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $3 \\frac{1}{2}$ > $\\frac{8}{3}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -1172,9 +781,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $1/6$ + $1$ = ?",
-      "image_tag": "Gr7_3_4_20",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$1 \\frac{3}{4}$ ___ $\\frac{27}{6}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -1182,34 +789,12 @@
         "="
       ],
       "correct_answers": [
-        "7/6"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_20",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_20",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_20",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_20",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 1, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -1217,19 +802,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{3}{4}$, we must multiply its numerator (3) and denominator (4) by 6."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{27}{6}$, we must multiply its numerator (27) and denominator (6) by 4."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{18}{24}$ and $\\frac{108}{24}$\n18 < 108"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $1 \\frac{3}{4}$ < $\\frac{27}{6}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -1237,9 +822,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $1/12$ + $9/4$ = ?",
-      "image_tag": "Gr7_3_4_21",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$4 \\frac{4}{5}$ ___ $3 \\frac{6}{7}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -1247,34 +830,12 @@
         "="
       ],
       "correct_answers": [
-        "7/3"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_21",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_21",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_21",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_21",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 4, and the whole-number part of the second number is 3."
         ],
         [
           "2/6",
@@ -1282,19 +843,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{4}{5}$, we must multiply its numerator (4) and denominator (5) by 7."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{6}{7}$, we must multiply its numerator (6) and denominator (7) by 5."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{28}{35}$ and $\\frac{30}{35}$\n28 > 30"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $4 \\frac{4}{5}$ > $3 \\frac{6}{7}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -1302,9 +863,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $8/11$ + $6/5$ = ?",
-      "image_tag": "Gr7_3_4_22",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$4 \\frac{2}{5}$ ___ $2 \\frac{2}{7}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -1312,34 +871,12 @@
         "="
       ],
       "correct_answers": [
-        "106/55"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_22",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_22",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_22",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_22",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 4, and the whole-number part of the second number is 2."
         ],
         [
           "2/6",
@@ -1347,19 +884,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{2}{5}$, we must multiply its numerator (2) and denominator (5) by 7."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{2}{7}$, we must multiply its numerator (2) and denominator (7) by 5."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{14}{35}$ and $\\frac{10}{35}$\n14 > 10"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $4 \\frac{2}{5}$ > $2 \\frac{2}{7}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -1367,9 +904,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $2$ + $7/11$ = ?",
-      "image_tag": "Gr7_3_4_23",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$2 \\frac{1}{2}$ ___ $1 \\frac{1}{5}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -1377,34 +912,12 @@
         "="
       ],
       "correct_answers": [
-        "29/11"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_23",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_23",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_23",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_23",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 2, and the whole-number part of the second number is 1."
         ],
         [
           "2/6",
@@ -1412,19 +925,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{1}{2}$, we must multiply its numerator (1) and denominator (2) by 5."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{1}{5}$, we must multiply its numerator (1) and denominator (5) by 2."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{5}{10}$ and $\\frac{2}{10}$\n5 > 2"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $2 \\frac{1}{2}$ > $1 \\frac{1}{5}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -1432,9 +945,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $1/4$ + $2/5$ = ?",
-      "image_tag": "Gr7_3_4_24",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$1 \\frac{2}{3}$ ___ $2 \\frac{5}{9}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -1442,34 +953,12 @@
         "="
       ],
       "correct_answers": [
-        "13/20"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_24",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_24",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_24",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_24",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 1, and the whole-number part of the second number is 2."
         ],
         [
           "2/6",
@@ -1477,19 +966,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{2}{3}$, we must multiply its numerator (2) and denominator (3) by 9."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{5}{9}$, we must multiply its numerator (5) and denominator (9) by 3."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{18}{27}$ and $\\frac{15}{27}$\n18 < 15"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $1 \\frac{2}{3}$ < $2 \\frac{5}{9}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -1497,9 +986,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $12/7$ + $3/7$ = ?",
-      "image_tag": "Gr7_3_4_25",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$2 \\frac{4}{5}$ ___ $4 \\frac{4}{5}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -1507,34 +994,12 @@
         "="
       ],
       "correct_answers": [
-        "15/7"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_25",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_25",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_25",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_25",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 2, and the whole-number part of the second number is 4."
         ],
         [
           "2/6",
@@ -1542,19 +1007,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{4}{5}$, we must multiply its numerator (4) and denominator (5) by 5."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{4}{5}$, we must multiply its numerator (4) and denominator (5) by 5."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{20}{25}$ and $\\frac{20}{25}$\n20 < 20"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $2 \\frac{4}{5}$ < $4 \\frac{4}{5}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -1562,9 +1027,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $4/5$ + $11/3$ = ?",
-      "image_tag": "Gr7_3_4_26",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$4 \\frac{6}{8}$ ___ $\\frac{9}{2}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -1572,34 +1035,12 @@
         "="
       ],
       "correct_answers": [
-        "67/15"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_26",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_26",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_26",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_26",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 4, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -1607,19 +1048,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{6}{8}$, we must multiply its numerator (6) and denominator (8) by 2."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{9}{2}$, we must multiply its numerator (9) and denominator (2) by 8."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{12}{16}$ and $\\frac{72}{16}$\n12 > 72"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $4 \\frac{6}{8}$ > $\\frac{9}{2}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -1627,9 +1068,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $9/4$ + $7/9$ = ?",
-      "image_tag": "Gr7_3_4_27",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$1 \\frac{1}{8}$ ___ $3 \\frac{2}{5}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -1637,34 +1076,12 @@
         "="
       ],
       "correct_answers": [
-        "109/36"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_27",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_27",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_27",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_27",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 1, and the whole-number part of the second number is 3."
         ],
         [
           "2/6",
@@ -1672,19 +1089,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{1}{8}$, we must multiply its numerator (1) and denominator (8) by 5."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{2}{5}$, we must multiply its numerator (2) and denominator (5) by 8."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{5}{40}$ and $\\frac{16}{40}$\n5 < 16"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $1 \\frac{1}{8}$ < $3 \\frac{2}{5}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -1692,9 +1109,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $1/5$ + $4$ = ?",
-      "image_tag": "Gr7_3_4_28",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$4 \\frac{3}{8}$ ___ $2 \\frac{5}{9}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -1702,34 +1117,12 @@
         "="
       ],
       "correct_answers": [
-        "21/5"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_28",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_28",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_28",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_28",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 4, and the whole-number part of the second number is 2."
         ],
         [
           "2/6",
@@ -1737,19 +1130,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{3}{8}$, we must multiply its numerator (3) and denominator (8) by 9."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{5}{9}$, we must multiply its numerator (5) and denominator (9) by 8."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{27}{72}$ and $\\frac{40}{72}$\n27 > 40"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $4 \\frac{3}{8}$ > $2 \\frac{5}{9}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -1757,9 +1150,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $3/4$ + $11/8$ = ?",
-      "image_tag": "Gr7_3_4_29",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$1 \\frac{2}{3}$ ___ $\\frac{4}{3}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -1767,34 +1158,12 @@
         "="
       ],
       "correct_answers": [
-        "17/8"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_29",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_29",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_29",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_29",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 1, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -1802,19 +1171,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{2}{3}$, we must multiply its numerator (2) and denominator (3) by 3."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{4}{3}$, we must multiply its numerator (4) and denominator (3) by 3."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{6}{9}$ and $\\frac{12}{9}$\n6 > 12"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $1 \\frac{2}{3}$ > $\\frac{4}{3}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -1822,9 +1191,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $1$ + $1$ = ?",
-      "image_tag": "Gr7_3_4_30",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$2 \\frac{3}{8}$ ___ $\\frac{24}{5}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -1832,34 +1199,12 @@
         "="
       ],
       "correct_answers": [
-        "2"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_30",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_30",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_30",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_30",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 2, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -1867,19 +1212,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{3}{8}$, we must multiply its numerator (3) and denominator (8) by 5."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{24}{5}$, we must multiply its numerator (24) and denominator (5) by 8."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{15}{40}$ and $\\frac{192}{40}$\n15 < 192"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $2 \\frac{3}{8}$ < $\\frac{24}{5}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -1887,9 +1232,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $3/2$ + $3/2$ = ?",
-      "image_tag": "Gr7_3_4_31",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$1 \\frac{3}{8}$ ___ $\\frac{11}{6}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -1897,34 +1240,12 @@
         "="
       ],
       "correct_answers": [
-        "3"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_31",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_31",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_31",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_31",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 1, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -1932,19 +1253,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{3}{8}$, we must multiply its numerator (3) and denominator (8) by 6."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{11}{6}$, we must multiply its numerator (11) and denominator (6) by 8."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{18}{48}$ and $\\frac{88}{48}$\n18 < 88"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $1 \\frac{3}{8}$ < $\\frac{11}{6}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -1952,9 +1273,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $3/4$ + $12/11$ = ?",
-      "image_tag": "Gr7_3_4_32",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$4 \\frac{5}{8}$ ___ $4 \\frac{3}{5}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -1962,34 +1281,12 @@
         "="
       ],
       "correct_answers": [
-        "81/44"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_32",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_32",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_32",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_32",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 4, and the whole-number part of the second number is 4."
         ],
         [
           "2/6",
@@ -1997,19 +1294,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{5}{8}$, we must multiply its numerator (5) and denominator (8) by 5."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{3}{5}$, we must multiply its numerator (3) and denominator (5) by 8."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{25}{40}$ and $\\frac{24}{40}$\n25 > 24"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $4 \\frac{5}{8}$ > $4 \\frac{3}{5}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -2017,9 +1314,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $1$ + $3/11$ = ?",
-      "image_tag": "Gr7_3_4_33",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$1 \\frac{1}{7}$ ___ $\\frac{10}{9}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -2027,34 +1322,12 @@
         "="
       ],
       "correct_answers": [
-        "14/11"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_33",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_33",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_33",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_33",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 1, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -2062,19 +1335,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{1}{7}$, we must multiply its numerator (1) and denominator (7) by 9."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{10}{9}$, we must multiply its numerator (10) and denominator (9) by 7."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{9}{63}$ and $\\frac{70}{63}$\n9 > 70"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $1 \\frac{1}{7}$ > $\\frac{10}{9}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -2082,9 +1355,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $9/10$ + $9/4$ = ?",
-      "image_tag": "Gr7_3_4_34",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$2 \\frac{1}{3}$ ___ $\\frac{8}{3}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -2092,34 +1363,12 @@
         "="
       ],
       "correct_answers": [
-        "63/20"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_34",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_34",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_34",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_34",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 2, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -2127,19 +1376,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{1}{3}$, we must multiply its numerator (1) and denominator (3) by 3."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{8}{3}$, we must multiply its numerator (8) and denominator (3) by 3."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{3}{9}$ and $\\frac{24}{9}$\n3 < 24"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $2 \\frac{1}{3}$ < $\\frac{8}{3}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -2147,9 +1396,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $2/9$ + $5/9$ = ?",
-      "image_tag": "Gr7_3_4_35",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$2 \\frac{2}{3}$ ___ $2 \\frac{1}{3}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -2157,34 +1404,12 @@
         "="
       ],
       "correct_answers": [
-        "7/9"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_35",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_35",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_35",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_35",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 2, and the whole-number part of the second number is 2."
         ],
         [
           "2/6",
@@ -2192,19 +1417,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{2}{3}$, we must multiply its numerator (2) and denominator (3) by 3."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{1}{3}$, we must multiply its numerator (1) and denominator (3) by 3."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{6}{9}$ and $\\frac{3}{9}$\n6 > 3"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $2 \\frac{2}{3}$ > $2 \\frac{1}{3}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -2212,9 +1437,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $11/10$ + $1/10$ = ?",
-      "image_tag": "Gr7_3_4_36",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$3 \\frac{4}{5}$ ___ $3 \\frac{4}{6}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -2222,34 +1445,12 @@
         "="
       ],
       "correct_answers": [
-        "6/5"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_36",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_36",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_36",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_36",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 3, and the whole-number part of the second number is 3."
         ],
         [
           "2/6",
@@ -2257,19 +1458,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{4}{5}$, we must multiply its numerator (4) and denominator (5) by 6."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{4}{6}$, we must multiply its numerator (4) and denominator (6) by 5."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{24}{30}$ and $\\frac{20}{30}$\n24 > 20"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $3 \\frac{4}{5}$ > $3 \\frac{4}{6}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -2277,9 +1478,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $3/8$ + $11/7$ = ?",
-      "image_tag": "Gr7_3_4_37",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$3 \\frac{6}{7}$ ___ $\\frac{10}{9}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -2287,34 +1486,12 @@
         "="
       ],
       "correct_answers": [
-        "109/56"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_37",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_37",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_37",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_37",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 3, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -2322,19 +1499,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{6}{7}$, we must multiply its numerator (6) and denominator (7) by 9."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{10}{9}$, we must multiply its numerator (10) and denominator (9) by 7."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{54}{63}$ and $\\frac{70}{63}$\n54 > 70"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $3 \\frac{6}{7}$ > $\\frac{10}{9}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -2342,9 +1519,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $9/11$ + $11/12$ = ?",
-      "image_tag": "Gr7_3_4_38",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$1 \\frac{2}{5}$ ___ $\\frac{24}{7}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -2352,34 +1527,12 @@
         "="
       ],
       "correct_answers": [
-        "229/132"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_38",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_38",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_38",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_38",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 1, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -2387,19 +1540,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{2}{5}$, we must multiply its numerator (2) and denominator (5) by 7."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{24}{7}$, we must multiply its numerator (24) and denominator (7) by 5."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{14}{35}$ and $\\frac{120}{35}$\n14 < 120"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $1 \\frac{2}{5}$ < $\\frac{24}{7}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -2407,9 +1560,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $5/3$ + $2/5$ = ?",
-      "image_tag": "Gr7_3_4_39",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$2 \\frac{5}{6}$ ___ $\\frac{17}{6}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -2417,34 +1568,12 @@
         "="
       ],
       "correct_answers": [
-        "31/15"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_39",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_39",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_39",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_39",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "C"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 2, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -2452,19 +1581,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{5}{6}$, we must multiply its numerator (5) and denominator (6) by 6."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{17}{6}$, we must multiply its numerator (17) and denominator (6) by 6."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{30}{36}$ and $\\frac{102}{36}$\n30 = 102"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $2 \\frac{5}{6}$ = $\\frac{17}{6}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -2472,9 +1601,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $1/2$ + $12/5$ = ?",
-      "image_tag": "Gr7_3_4_40",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$1 \\frac{2}{3}$ ___ $\\frac{8}{3}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -2482,34 +1609,12 @@
         "="
       ],
       "correct_answers": [
-        "29/10"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_40",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_40",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_40",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_40",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 1, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -2517,19 +1622,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{2}{3}$, we must multiply its numerator (2) and denominator (3) by 3."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{8}{3}$, we must multiply its numerator (8) and denominator (3) by 3."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{6}{9}$ and $\\frac{24}{9}$\n6 < 24"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $1 \\frac{2}{3}$ < $\\frac{8}{3}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -2537,9 +1642,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $4$ + $2/5$ = ?",
-      "image_tag": "Gr7_3_4_41",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$2 \\frac{5}{6}$ ___ $\\frac{14}{5}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -2547,34 +1650,12 @@
         "="
       ],
       "correct_answers": [
-        "22/5"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_41",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_41",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_41",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_41",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 2, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -2582,19 +1663,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{5}{6}$, we must multiply its numerator (5) and denominator (6) by 5."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{14}{5}$, we must multiply its numerator (14) and denominator (5) by 6."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{25}{30}$ and $\\frac{84}{30}$\n25 > 84"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $2 \\frac{5}{6}$ > $\\frac{14}{5}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -2602,9 +1683,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $1/2$ + $1$ = ?",
-      "image_tag": "Gr7_3_4_42",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$3 \\frac{5}{6}$ ___ $\\frac{10}{8}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -2612,34 +1691,12 @@
         "="
       ],
       "correct_answers": [
-        "3/2"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_42",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_42",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_42",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_42",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 3, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -2647,19 +1704,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{5}{6}$, we must multiply its numerator (5) and denominator (6) by 8."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{10}{8}$, we must multiply its numerator (10) and denominator (8) by 6."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{40}{48}$ and $\\frac{60}{48}$\n40 > 60"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $3 \\frac{5}{6}$ > $\\frac{10}{8}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -2667,9 +1724,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $2/3$ + $4$ = ?",
-      "image_tag": "Gr7_3_4_43",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$1 \\frac{1}{7}$ ___ $\\frac{11}{4}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -2677,34 +1732,12 @@
         "="
       ],
       "correct_answers": [
-        "14/3"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_43",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_43",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_43",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_43",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 1, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -2712,19 +1745,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{1}{7}$, we must multiply its numerator (1) and denominator (7) by 4."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{11}{4}$, we must multiply its numerator (11) and denominator (4) by 7."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{4}{28}$ and $\\frac{77}{28}$\n4 < 77"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $1 \\frac{1}{7}$ < $\\frac{11}{4}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -2732,9 +1765,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $6/7$ + $11/4$ = ?",
-      "image_tag": "Gr7_3_4_44",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$4 \\frac{1}{3}$ ___ $\\frac{3}{2}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -2742,34 +1773,12 @@
         "="
       ],
       "correct_answers": [
-        "101/28"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_44",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_44",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_44",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_44",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 4, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -2777,19 +1786,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{1}{3}$, we must multiply its numerator (1) and denominator (3) by 2."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{3}{2}$, we must multiply its numerator (3) and denominator (2) by 3."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{2}{6}$ and $\\frac{9}{6}$\n2 > 9"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $4 \\frac{1}{3}$ > $\\frac{3}{2}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -2797,9 +1806,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $12/5$ + $2/7$ = ?",
-      "image_tag": "Gr7_3_4_45",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$2 \\frac{3}{4}$ ___ $\\frac{12}{7}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -2807,34 +1814,12 @@
         "="
       ],
       "correct_answers": [
-        "94/35"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_45",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_45",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_45",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_45",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 2, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -2842,19 +1827,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{3}{4}$, we must multiply its numerator (3) and denominator (4) by 7."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{12}{7}$, we must multiply its numerator (12) and denominator (7) by 4."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{21}{28}$ and $\\frac{48}{28}$\n21 > 48"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $2 \\frac{3}{4}$ > $\\frac{12}{7}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -2862,9 +1847,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $1/4$ + $8/5$ = ?",
-      "image_tag": "Gr7_3_4_46",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$1 \\frac{4}{5}$ ___ $\\frac{16}{7}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -2872,34 +1855,12 @@
         "="
       ],
       "correct_answers": [
-        "37/20"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_46",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_46",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_46",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_46",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 1, and the whole-number part of the second number is 0."
         ],
         [
           "2/6",
@@ -2907,19 +1868,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{4}{5}$, we must multiply its numerator (4) and denominator (5) by 7."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{16}{7}$, we must multiply its numerator (16) and denominator (7) by 5."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{28}{35}$ and $\\frac{80}{35}$\n28 < 80"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $1 \\frac{4}{5}$ < $\\frac{16}{7}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -2927,9 +1888,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $2/7$ + $6$ = ?",
-      "image_tag": "Gr7_3_4_47",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$4 \\frac{3}{5}$ ___ $2 \\frac{3}{8}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -2937,34 +1896,12 @@
         "="
       ],
       "correct_answers": [
-        "44/7"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_47",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_47",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_47",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_47",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 4, and the whole-number part of the second number is 2."
         ],
         [
           "2/6",
@@ -2972,19 +1909,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{3}{5}$, we must multiply its numerator (3) and denominator (5) by 8."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{3}{8}$, we must multiply its numerator (3) and denominator (8) by 5."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{24}{40}$ and $\\frac{15}{40}$\n24 > 15"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $4 \\frac{3}{5}$ > $2 \\frac{3}{8}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -2992,9 +1929,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $1/4$ + $4/7$ = ?",
-      "image_tag": "Gr7_3_4_48",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$3 \\frac{4}{5}$ ___ $3 \\frac{2}{3}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -3002,34 +1937,12 @@
         "="
       ],
       "correct_answers": [
-        "23/28"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_48",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_48",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_48",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_48",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "A"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 3, and the whole-number part of the second number is 3."
         ],
         [
           "2/6",
@@ -3037,19 +1950,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{4}{5}$, we must multiply its numerator (4) and denominator (5) by 3."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{2}{3}$, we must multiply its numerator (2) and denominator (3) by 5."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{12}{15}$ and $\\frac{10}{15}$\n12 > 10"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $3 \\frac{4}{5}$ > $3 \\frac{2}{3}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -3057,9 +1970,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $1/8$ + $3$ = ?",
-      "image_tag": "Gr7_3_4_49",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$1 \\frac{4}{5}$ ___ $2 \\frac{6}{7}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -3067,34 +1978,12 @@
         "="
       ],
       "correct_answers": [
-        "25/8"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_49",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_49",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_49",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_49",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 1, and the whole-number part of the second number is 2."
         ],
         [
           "2/6",
@@ -3102,19 +1991,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{4}{5}$, we must multiply its numerator (4) and denominator (5) by 7."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{6}{7}$, we must multiply its numerator (6) and denominator (7) by 5."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{28}{35}$ and $\\frac{30}{35}$\n28 < 30"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $1 \\frac{4}{5}$ < $2 \\frac{6}{7}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -3122,9 +2011,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $1/9$ + $9/5$ = ?",
-      "image_tag": "Gr7_3_4_50",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$2 \\frac{1}{2}$ ___ $2 \\frac{6}{7}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -3132,34 +2019,12 @@
         "="
       ],
       "correct_answers": [
-        "86/45"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_50",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_50",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_50",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_50",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 2, and the whole-number part of the second number is 2."
         ],
         [
           "2/6",
@@ -3167,19 +2032,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{1}{2}$, we must multiply its numerator (1) and denominator (2) by 7."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{6}{7}$, we must multiply its numerator (6) and denominator (7) by 2."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{7}{14}$ and $\\frac{12}{14}$\n7 < 12"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $2 \\frac{1}{2}$ < $2 \\frac{6}{7}$"
         ]
       ],
       "tag": "Gr7_3_E4",
@@ -3187,9 +2052,7 @@
     },
     {
       "skills": "compare-mixed-numbers-and-improper-fractions",
-      "question_text": "Calculate: $5$ + $2/3$ = ?",
-      "image_tag": "Gr7_3_4_51",
-      "backend_description": "Shows the comparison between mixed numbers 1 2/9 and 1 1/2 using visual representations and mathematical symbols.",
+      "question_text": "Which sign makes the statement true?\n\n$1 \\frac{5}{7}$ ___ $4 \\frac{1}{2}$",
       "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
         ">",
@@ -3197,34 +2060,12 @@
         "="
       ],
       "correct_answers": [
-        "17/3"
-      ],
-      "solution_image_tag": [
-        [
-          "3/6",
-          "Gr7_3_4_1_step_51",
-          "Shows the conversion of 2/9 to 4/18 by multiplying both numerator and denominator by 2. The equation clearly displays: 2/9 x 2/2 = 4/18."
-        ],
-        [
-          "4/6",
-          "Gr7_3_4_1_step_51",
-          "Shows the conversion of 1/2 to 9/18 by multiplying both numerator and denominator by 9. The equation clearly displays: 1/2 x 9/9 = 9/18."
-        ],
-        [
-          "5/6",
-          "Gr7_3_4_1_step_51",
-          "Compares the two fractions with common denominators: 4/18 and 9/18. The comparison 4 < 9 is highlighted, making it clear which fraction is smaller."
-        ],
-        [
-          "6/6",
-          "Gr7_3_4_1_step_51",
-          "Shows the final comparison: 1 2/9 < 1 1/2, with both mixed numbers written clearly to reinforce the conclusion."
-        ]
+        "B"
       ],
       "solution": [
         [
           "1/6",
-          "Compare the whole-number parts. The whole-number part of each number is 1, so the whole-number parts are the same."
+          "Compare the whole-number parts. The whole-number part of the first number is 1, and the whole-number part of the second number is 4."
         ],
         [
           "2/6",
@@ -3232,19 +2073,19 @@
         ],
         [
           "3/6",
-          "For $\\frac{2}{9}$, we must multiply it's numerator (2) and denominator (9) by the denominator of $\\frac{1}{2}$ (2)."
+          "For $\\frac{5}{7}$, we must multiply its numerator (5) and denominator (7) by 2."
         ],
         [
           "4/6",
-          "For $\\frac{1}{2}$, we must multiply it's numerator (1) and denominator (2) by the denominator of $\\frac{2}{9}$ (9)."
+          "For $\\frac{1}{2}$, we must multiply its numerator (1) and denominator (2) by 7."
         ],
         [
           "5/6",
-          "Now compare the numerators.\n4 < 9"
+          "Now compare the fractions with common denominators.\n$\\frac{10}{14}$ and $\\frac{7}{14}$\n10 < 7"
         ],
         [
           "6/6",
-          "Therefore:"
+          "Therefore: $1 \\frac{5}{7}$ < $4 \\frac{1}{2}$"
         ]
       ],
       "tag": "Gr7_3_E4",

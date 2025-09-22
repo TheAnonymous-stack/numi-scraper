@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question 1_24</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .question { margin-bottom: 20px; }
+        .image-container { margin: 20px 0; }
+        .choices { display: flex; flex-wrap: wrap; gap: 20px; }
+        .choice { border: 2px solid #ddd; padding: 10px; cursor: pointer; }
+        .choice:hover { border-color: #007bff; }
+        .choice.correct { border-color: #28a745; background-color: #d4edda; }
+        .solution { margin-top: 30px; border-top: 2px solid #ccc; padding-top: 20px; }
+        .solution-step { margin: 15px 0; }
+        .solution-image { margin: 10px 0; }
+        .item { display: inline-block; margin: 10px; }
+    </style>
+</head>
+<body>
+    <div class="question">
+        <h2>Question 1_24</h2>
+        <p>Use counters to compute -8 - 2. Each red circle with a minus sign represents -1 while each yellow circle with a plus sign represents 1.<br>Which picture shows the difference?</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice">
+            <div class="item" label="Gr7_11_1_24_A">
+                <!-- Shows 8 red circles with minus signs (negative counters), representing -8 as an incorrect result. -->
+                <img src="Gr7_11_1_24_A.png" alt="Choice A">
+            </div>
+        </div>
+        <div class="choice correct">
+            <div class="item" label="Gr7_11_1_24_B">
+                <!-- Shows 10 red circles with minus signs (negative counters), representing -10 as the final result after subtracting 2 from -8. -->
+                <img src="Gr7_11_1_24_B.png" alt="Choice B">
+            </div>
+        </div>
+        <div class="choice">
+            <div class="item" label="Gr7_11_1_24_C">
+                <!-- Shows 10 yellow circles with plus signs (positive counters), representing 10 as an incorrect positive result. -->
+                <img src="Gr7_11_1_24_C.png" alt="Choice C">
+            </div>
+        </div>
+        <div class="choice">
+            <div class="item" label="Gr7_11_1_24_D">
+                <!-- Shows 6 red circles with minus signs (negative counters), representing -6 as an incorrect result. -->
+                <img src="Gr7_11_1_24_D.png" alt="Choice D">
+            </div>
+        </div>
+    </div>
+
+    <div class="solution">
+        <h3>Solution</h3>
+        <div class="solution-step">
+            <h4>Step 1/5</h4>
+            <p>You are trying to calculate -8 - 2.</p>
+        </div>
+        <div class="solution-step">
+            <h4>Step 2/5</h4>
+            <p>Start out with 8 negative counters, which represent -8:</p>
+        </div>
+        <div class="solution-step">
+            <h4>Step 3/5</h4>
+            <p>You would like to take away 2 positive counters. However, it's not possible to take away 2 positive counters, because there aren't enough positive counters in the first group. You can fix this problem by adding 2 pairs of positive and negative counters to the first group, so that you have the 2 positive counters that are needed:</p>
+        </div>
+        <div class="solution-step">
+            <h4>Step 4/5</h4>
+            <p>Now remove 2 positive counters:</p>
+        </div>
+        <div class="solution-step">
+            <h4>Step 5/5</h4>
+            <p>10 negative counters remain. So -8 - 2 = -10.</p>
+        </div>
+    </div>
+</body>
+</html>

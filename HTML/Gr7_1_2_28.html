@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { font-family: Arial; padding: 40px; background: #f5f5f5; }
+.container { background: white; padding: 30px; border-radius: 10px; max-width: 800px; margin: 0 auto; }
+.question { font-size: 18px; margin-bottom: 30px; }
+.number-line { position: relative; width: 700px; height: 120px; margin: 40px auto; }
+.line { position: absolute; top: 60px; left: 50px; right: 50px; height: 3px; background: #333; }
+.arrow-left { position: absolute; top: 57px; left: 40px; width: 0; height: 0; border-right: 10px solid #333; border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
+.arrow-right { position: absolute; top: 57px; right: 40px; width: 0; height: 0; border-left: 10px solid #333; border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
+.tick { position: absolute; top: 55px; width: 2px; height: 10px; background: #333; }
+.tick-label { position: absolute; top: 70px; font-size: 12px; transform: translateX(-50%); }
+.point { position: absolute; top: 54px; width: 12px; height: 12px; background: #e74c3c; border-radius: 50%; transform: translateX(-50%); }
+.point-label { position: absolute; top: 30px; font-size: 16px; font-weight: bold; color: #e74c3c; transform: translateX(-50%); }
+.answer-section { margin-top: 40px; padding: 20px; background: #f9f9f9; border-radius: 5px; }
+.choice { padding: 10px; margin: 8px 0; background: white; border: 2px solid #ddd; border-radius: 5px; cursor: pointer; display: flex; align-items: center; }
+.choice:hover { background: #e3f2fd; border-color: #2196F3; }
+.choice-letter { font-weight: bold; margin-right: 15px; width: 30px; height: 30px; background: #f0f0f0; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+.correct { background: #c8e6c9; border-color: #4CAF50; }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="question">Which number is less than the other?<br><br>-46 or 94?<br><br>It may help to locate the points on a number line.<br></div>
+<div class="number-line">
+<div class="line"></div>
+<div class="arrow-left"></div>
+<div class="arrow-right"></div>
+<div class="tick" style="left: 50px;"></div>
+<div class="tick-label" style="left: 50px;">-74</div>
+<div class="tick" style="left: 81px;"></div>
+<div class="tick-label" style="left: 81px;">-64</div>
+<div class="tick" style="left: 111px;"></div>
+<div class="tick-label" style="left: 111px;">-54</div>
+<div class="tick" style="left: 142px;"></div>
+<div class="tick-label" style="left: 142px;">-44</div>
+<div class="tick" style="left: 172px;"></div>
+<div class="tick-label" style="left: 172px;">-34</div>
+<div class="tick" style="left: 203px;"></div>
+<div class="tick-label" style="left: 203px;">-24</div>
+<div class="tick" style="left: 234px;"></div>
+<div class="tick-label" style="left: 234px;">-14</div>
+<div class="tick" style="left: 264px;"></div>
+<div class="tick-label" style="left: 264px;">-4</div>
+<div class="tick" style="left: 277px;"></div>
+<div class="tick-label" style="left: 277px;">0</div>
+<div class="tick" style="left: 295px;"></div>
+<div class="tick-label" style="left: 295px;">6</div>
+<div class="tick" style="left: 326px;"></div>
+<div class="tick-label" style="left: 326px;">16</div>
+<div class="tick" style="left: 356px;"></div>
+<div class="tick-label" style="left: 356px;">26</div>
+<div class="tick" style="left: 387px;"></div>
+<div class="tick-label" style="left: 387px;">36</div>
+<div class="tick" style="left: 417px;"></div>
+<div class="tick-label" style="left: 417px;">46</div>
+<div class="tick" style="left: 448px;"></div>
+<div class="tick-label" style="left: 448px;">56</div>
+<div class="tick" style="left: 479px;"></div>
+<div class="tick-label" style="left: 479px;">66</div>
+<div class="tick" style="left: 509px;"></div>
+<div class="tick-label" style="left: 509px;">76</div>
+<div class="tick" style="left: 540px;"></div>
+<div class="tick-label" style="left: 540px;">86</div>
+<div class="tick" style="left: 570px;"></div>
+<div class="tick-label" style="left: 570px;">96</div>
+<div class="tick" style="left: 601px;"></div>
+<div class="tick-label" style="left: 601px;">106</div>
+<div class="tick" style="left: 632px;"></div>
+<div class="tick-label" style="left: 632px;">116</div>
+<div class="point" style="left: 136px;"></div>
+<div class="point-label" style="left: 136px;">-46</div>
+<div class="point" style="left: 564px;"></div>
+<div class="point-label" style="left: 564px;">94</div>
+</div>
+<div class="answer-section">
+<strong>Select your answer:</strong><br><br>
+<div class="choice correct"><span class="choice-letter">A</span> -46</div>
+<div class="choice"><span class="choice-letter">B</span> 94</div>
+</div>
+</div>
+</body>
+</html>

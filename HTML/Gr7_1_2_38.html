@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { font-family: Arial; padding: 40px; background: #f5f5f5; }
+.container { background: white; padding: 30px; border-radius: 10px; max-width: 800px; margin: 0 auto; }
+.question { font-size: 18px; margin-bottom: 30px; }
+.number-line { position: relative; width: 700px; height: 120px; margin: 40px auto; }
+.line { position: absolute; top: 60px; left: 50px; right: 50px; height: 3px; background: #333; }
+.arrow-left { position: absolute; top: 57px; left: 40px; width: 0; height: 0; border-right: 10px solid #333; border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
+.arrow-right { position: absolute; top: 57px; right: 40px; width: 0; height: 0; border-left: 10px solid #333; border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
+.tick { position: absolute; top: 55px; width: 2px; height: 10px; background: #333; }
+.tick-label { position: absolute; top: 70px; font-size: 12px; transform: translateX(-50%); }
+.point { position: absolute; top: 54px; width: 12px; height: 12px; background: #e74c3c; border-radius: 50%; transform: translateX(-50%); }
+.point-label { position: absolute; top: 30px; font-size: 16px; font-weight: bold; color: #e74c3c; transform: translateX(-50%); }
+.answer-section { margin-top: 40px; padding: 20px; background: #f9f9f9; border-radius: 5px; }
+.choice { padding: 10px; margin: 8px 0; background: white; border: 2px solid #ddd; border-radius: 5px; cursor: pointer; display: flex; align-items: center; }
+.choice:hover { background: #e3f2fd; border-color: #2196F3; }
+.choice-letter { font-weight: bold; margin-right: 15px; width: 30px; height: 30px; background: #f0f0f0; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+.correct { background: #c8e6c9; border-color: #4CAF50; }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="question">Which number is less than the other?<br><br>-12 or 78?<br><br>It may help to locate the points on a number line.<br></div>
+<div class="number-line">
+<div class="line"></div>
+<div class="arrow-left"></div>
+<div class="arrow-right"></div>
+<div class="tick" style="left: 50px;"></div>
+<div class="tick-label" style="left: 50px;">-39</div>
+<div class="tick" style="left: 94px;"></div>
+<div class="tick-label" style="left: 94px;">-29</div>
+<div class="tick" style="left: 138px;"></div>
+<div class="tick-label" style="left: 138px;">-19</div>
+<div class="tick" style="left: 182px;"></div>
+<div class="tick-label" style="left: 182px;">-9</div>
+<div class="tick" style="left: 222px;"></div>
+<div class="tick-label" style="left: 222px;">0</div>
+<div class="tick" style="left: 226px;"></div>
+<div class="tick-label" style="left: 226px;">1</div>
+<div class="tick" style="left: 271px;"></div>
+<div class="tick-label" style="left: 271px;">11</div>
+<div class="tick" style="left: 315px;"></div>
+<div class="tick-label" style="left: 315px;">21</div>
+<div class="tick" style="left: 359px;"></div>
+<div class="tick-label" style="left: 359px;">31</div>
+<div class="tick" style="left: 403px;"></div>
+<div class="tick-label" style="left: 403px;">41</div>
+<div class="tick" style="left: 447px;"></div>
+<div class="tick-label" style="left: 447px;">51</div>
+<div class="tick" style="left: 491px;"></div>
+<div class="tick-label" style="left: 491px;">61</div>
+<div class="tick" style="left: 535px;"></div>
+<div class="tick-label" style="left: 535px;">71</div>
+<div class="tick" style="left: 579px;"></div>
+<div class="tick-label" style="left: 579px;">81</div>
+<div class="tick" style="left: 624px;"></div>
+<div class="tick-label" style="left: 624px;">91</div>
+<div class="point" style="left: 169px;"></div>
+<div class="point-label" style="left: 169px;">-12</div>
+<div class="point" style="left: 566px;"></div>
+<div class="point-label" style="left: 566px;">78</div>
+</div>
+<div class="answer-section">
+<strong>Select your answer:</strong><br><br>
+<div class="choice correct"><span class="choice-letter">A</span> -12</div>
+<div class="choice"><span class="choice-letter">B</span> 78</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question 1_42</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .question { margin-bottom: 20px; }
+        .image-container { margin: 20px 0; }
+        .choices { display: flex; flex-wrap: wrap; gap: 20px; }
+        .choice { border: 2px solid #ddd; padding: 10px; cursor: pointer; }
+        .choice:hover { border-color: #007bff; }
+        .choice.correct { border-color: #28a745; background-color: #d4edda; }
+        .solution { margin-top: 30px; border-top: 2px solid #ccc; padding-top: 20px; }
+        .solution-step { margin: 15px 0; }
+        .solution-image { margin: 10px 0; }
+        .item { display: inline-block; margin: 10px; }
+    </style>
+</head>
+<body>
+    <div class="question">
+        <h2>Question 1_42</h2>
+        <p>Use counters to compute -6 - 7. Each red circle with a minus sign represents -1 while each yellow circle with a plus sign represents 1.<br>Which picture shows the difference?</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice">
+            <div class="item" label="Gr7_11_1_42_A">
+                <!-- Shows 1 yellow circles with plus signs (positive counters), representing 1 as an incorrect positive result. -->
+                <img src="Gr7_11_1_42_A.png" alt="Choice A">
+            </div>
+        </div>
+        <div class="choice">
+            <div class="item" label="Gr7_11_1_42_B">
+                <!-- Shows 6 red circles with minus signs (negative counters), representing -6 as an incorrect result. -->
+                <img src="Gr7_11_1_42_B.png" alt="Choice B">
+            </div>
+        </div>
+        <div class="choice correct">
+            <div class="item" label="Gr7_11_1_42_C">
+                <!-- Shows 13 red circles with minus signs (negative counters), representing -13 as the final result after subtracting 7 from -6. -->
+                <img src="Gr7_11_1_42_C.png" alt="Choice C">
+            </div>
+        </div>
+        <div class="choice">
+            <div class="item" label="Gr7_11_1_42_D">
+                <!-- Shows 11 red circles with minus signs (negative counters), representing -11 as an incorrect result. -->
+                <img src="Gr7_11_1_42_D.png" alt="Choice D">
+            </div>
+        </div>
+    </div>
+
+    <div class="solution">
+        <h3>Solution</h3>
+        <div class="solution-step">
+            <h4>Step 1/5</h4>
+            <p>You are trying to calculate -6 - 7.</p>
+        </div>
+        <div class="solution-step">
+            <h4>Step 2/5</h4>
+            <p>Start out with 6 negative counters, which represent -6:</p>
+        </div>
+        <div class="solution-step">
+            <h4>Step 3/5</h4>
+            <p>You would like to take away 7 positive counters. However, it's not possible to take away 7 positive counters, because there aren't enough positive counters in the first group. You can fix this problem by adding 7 pairs of positive and negative counters to the first group, so that you have the 7 positive counters that are needed:</p>
+        </div>
+        <div class="solution-step">
+            <h4>Step 4/5</h4>
+            <p>Now remove 7 positive counters:</p>
+        </div>
+        <div class="solution-step">
+            <h4>Step 5/5</h4>
+            <p>13 negative counters remain. So -6 - 7 = -13.</p>
+        </div>
+    </div>
+</body>
+</html>
