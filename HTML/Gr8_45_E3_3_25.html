@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            display: inline-block;
+            min-width: 240px;
+        }
+        .item {
+            margin: 20px 0;
+            position: relative;
+            display: inline-block;
+        }
+        .line {
+            width: 200px;
+            height: 4px;
+            background-color: #333;
+            margin: 0 auto;
+            position: relative;
+        }
+        .bisector {
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            width: 2px;
+            height: 24px;
+            background-color: #ff6b6b;
+            transform: translateX(-50%);
+        }
+        .label {
+            position: absolute;
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+        }
+        .segment-label {
+            top: 30px;
+            transform: translateX(-50%);
+            color: #ff6b6b;
+        }
+        .total-label {
+            top: -40px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #2196F3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" label="Gr8_45_3_25">
+            <div class="line">
+                <div class="bisector"></div>
+                <div class="label segment-label" style="left: 25%;">9 cm</div>
+                <div class="label segment-label" style="left: 75%;">9 cm</div>
+                <div class="label total-label">? cm</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

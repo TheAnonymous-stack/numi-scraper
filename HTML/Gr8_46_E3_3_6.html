@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            display: inline-block;
+            min-width: 320px;
+        }
+        .item {
+            margin: 20px 0;
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+        .outer-rectangle {
+            fill: rgba(135, 206, 235, 0.7);
+            stroke: #333;
+            stroke-width: 2;
+        }
+        .inner-rectangle {
+            fill: white;
+            stroke: #333;
+            stroke-width: 2;
+        }
+        .measurement-line {
+            stroke: #666;
+            stroke-width: 1;
+        }
+        .label {
+            font-size: 12px;
+            font-weight: bold;
+            fill: #333;
+        }
+        .dimension-label {
+            fill: #333;
+        }
+        .outer-label {
+            fill: #2196F3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" label="Gr8_46_3_6">
+            <svg width="300" height="240" viewBox="0 0 300 240">
+                <!-- Outer rectangle (fixed coordinates) -->
+                <rect x="50" y="40" width="200" height="160" class="outer-rectangle"/>
+                
+                <!-- Inner rectangle (fixed coordinates, centered) -->
+                <rect x="90" y="70" width="120" height="100" class="inner-rectangle"/>
+                
+                <!-- Outer rectangle dimension lines -->
+                <line x1="50" y1="220" x2="250" y2="220" class="measurement-line"/>
+                <line x1="50" y1="215" x2="50" y2="225" class="measurement-line"/>
+                <line x1="250" y1="215" x2="250" y2="225" class="measurement-line"/>
+                
+                <line x1="30" y1="40" x2="30" y2="200" class="measurement-line"/>
+                <line x1="25" y1="40" x2="35" y2="40" class="measurement-line"/>
+                <line x1="25" y1="200" x2="35" y2="200" class="measurement-line"/>
+                
+                <!-- Inner rectangle dimension lines (with adequate space) -->
+                <line x1="90" y1="180" x2="210" y2="180" class="measurement-line"/>
+                <line x1="90" y1="175" x2="90" y2="185" class="measurement-line"/>
+                <line x1="210" y1="175" x2="210" y2="185" class="measurement-line"/>
+                
+                <line x1="270" y1="70" x2="270" y2="170" class="measurement-line"/>
+                <line x1="265" y1="70" x2="275" y2="70" class="measurement-line"/>
+                <line x1="265" y1="170" x2="275" y2="170" class="measurement-line"/>
+                
+                <!-- Labels -->
+                <text x="150" y="235" text-anchor="middle" class="outer-label">38 cm</text>
+                <text x="15" y="125" text-anchor="middle" class="outer-label" transform="rotate(-90 15 125)">39 cm</text>
+                
+                <text x="150" y="196" text-anchor="middle" class="dimension-label">24 cm</text>
+                <text x="285" y="125" text-anchor="middle" class="dimension-label" transform="rotate(-90 285 125)">28 cm</text>
+                
+                
+            </svg>
+        </div>
+    </div>
+</body>
+</html>

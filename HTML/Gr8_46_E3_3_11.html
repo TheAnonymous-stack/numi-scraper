@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            display: inline-block;
+            min-width: 300px;
+        }
+        .item {
+            margin: 20px 0;
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+        .outer-circle {
+            fill: rgba(135, 206, 235, 0.7);
+            stroke: #333;
+            stroke-width: 2;
+        }
+        .inner-circle {
+            fill: white;
+            stroke: #333;
+            stroke-width: 2;
+        }
+        .measurement-line {
+            stroke: #333;
+            stroke-width: 2;
+            marker-end: url(#arrowhead);
+        }
+        .measurement-text {
+            font-size: 14px;
+            font-weight: bold;
+            fill: #ff6b6b;
+        }
+        .diameter-line {
+            stroke: #666;
+            stroke-width: 1;
+            stroke-dasharray: 3,3;
+        }
+        .distance-line{
+            stroke: #333;
+            stroke-width: 1;
+            stroke-dasharray: 3,3;
+        }
+        .label {
+            font-size: 14px;
+            font-weight: bold;
+            fill: #333;
+        }
+        .distance-label {
+            fill: #333;
+        }
+        .center-dot {
+            fill: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" label="Gr8_46_3_11">
+            <svg width="320" height="280" viewBox="0 0 320 280">
+                
+                <!-- Outer circle (fixed coordinates) -->
+                <circle cx="160" cy="140" r="100" class="outer-circle"/>
+                
+                <!-- Inner circle (fixed coordinates) -->
+                <circle cx="160" cy="140" r="60" class="inner-circle"/>
+                
+                <!-- Center dot -->
+                <circle cx="160" cy="140" r="2" class="center-dot"/>
+                
+                <!-- Radius lines (dashed) -->
+                <line x1="100" y1="140" x2="220" y2="140" class="diameter-line"/>
+                
+                
+                <!-- Distance measurement arrow -->
+                <line x1="220" y1="140" x2="260" y2="140" class="measurement-line"/>
+                
+                <!-- Distance measurement lines (vertical markers) -->
+                <line x1="220" y1="130" x2="220" y2="150" stroke="#333" stroke-width="1"/>
+                <line x1="260" y1="130" x2="260" y2="150" stroke="#333" stroke-width="1"/>
+                
+                <!-- Labels -->
+                <text x="160" y="135" text-anchor="middle" class="measurement-text">d = 28 m</text>
+                <text x="237" y="125" text-anchor="middle" class="distance-label">7m</text>
+                
+            </svg>
+        </div>
+    </div>
+</body>
+</html>
