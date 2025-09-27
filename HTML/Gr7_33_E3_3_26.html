@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .item {
+      margin: 30px auto;
+      padding: 25px;
+      border: 2px solid #ddd;
+      border-radius: 5px;
+      display: block;
+      max-width: 600px;
+      background-color: white;
+    }
+    .line-segments {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      padding: 20px;
+      background-color: #fafafa;
+      border-radius: 8px;
+    }
+    .green-line {
+      width: 300px;
+      height: 40px;
+      background: linear-gradient(to right, #4CAF50, #45a049);
+      border: 2px solid #2E7D32;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      position: relative;
+    }
+    .green-line::before {
+      content: 'Green line';
+      position: absolute;
+      top: -25px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: #2E7D32;
+      font-size: 14px;
+      font-weight: normal;
+    }
+    .black-line {
+      width: 300px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+    .black-line::before {
+      content: 'Black line';
+      position: absolute;
+      top: -25px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: #333;
+      font-size: 14px;
+    }
+    .black-segment {
+      height: 40px;
+      background: linear-gradient(to bottom, #555, #333);
+      border: 2px solid #111;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    .black-segment.variable {
+      flex: 3;
+      background: linear-gradient(to bottom, #666, #444);
+      border-radius: 4px 0 0 4px;
+      border-right: none;
+    }
+    .black-segment.constant {
+      flex: 1;
+      background: linear-gradient(to bottom, #444, #222);
+      border-radius: 0 4px 4px 0;
+    }
+    /* Solution styles */
+    .solution-template, .solution-filled {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      background-color: #f0f8ff;
+      border-radius: 8px;
+    }
+    .equation-box {
+      padding: 12px 20px;
+      border: 2px dashed #999;
+      border-radius: 4px;
+      background-color: white;
+      min-width: 120px;
+      text-align: center;
+    }
+    .equation-box.filled {
+      border: 2px solid #4CAF50;
+      background-color: #e8f5e9;
+    }
+    .placeholder {
+      color: #999;
+      font-style: italic;
+    }
+    .equals-sign {
+      font-size: 32px;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Question Image -->
+    <div class="item" label="Gr7_33_3_26">
+      <div class="line-segments">
+        <div class="green-line">
+          55
+        </div>
+        <div class="black-line">
+          <div class="black-segment variable">c</div>
+          <div class="black-segment constant">38</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
