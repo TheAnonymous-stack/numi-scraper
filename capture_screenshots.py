@@ -18,7 +18,7 @@ driver = webdriver.Chrome(options=chrome_options)
 
 # Get all HTML files in the HTML directory
 grade = 8
-html_files = glob.glob("HTML/Gr8_50_E1_1_*.html")
+html_files = glob.glob("HTML/Gr8_49_E2_2_*.html")
 html_files.sort()
 
 print(f"Found {len(html_files)} HTML files to process")
