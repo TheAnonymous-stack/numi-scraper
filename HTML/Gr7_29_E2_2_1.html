@@ -1,122 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gr7_29_E2_2_1</title>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-        }
-        .item {
-            border: 1px solid #ddd;
-            padding: 10px;
-            border-radius: 5px;
-            display: inline-block;
-        }
-        svg {
-            display: block;
-        }
-        .fraction-model {
-            width: 200px;
-            height: 200px;
-        }
-        .number-line {
-            width: 600px;
-            height: 100px;
-        }
-        .area-model {
-            width: 400px;
-            height: 300px;
-        }
-        .geometric-shape {
-            width: 300px;
-            height: 300px;
-        }
-        .table {
-            border-collapse: collapse;
-            margin: 10px;
-        }
-        .table td, .table th {
-            border: 1px solid #333;
-            padding: 8px;
-            text-align: center;
-        }
-    </style>
+  <style>
+    .item {
+      margin: 20px;
+      display: inline-block;
+    }
+  </style>
 </head>
 <body>
-    <h1>Grade 7 - Week 29 - Exercise 2 - Question 2_1</h1>
-    <div class="container">
+  <!-- Question 2_1 from Gr7_29_E2 -->
 
-        <div class="item" label="Gr7_29_2_1">
-            <svg viewBox="0 0 400 400" class="geometric-shape">
-                <!-- Coordinate axes -->
-                <line x1="200" y1="20" x2="200" y2="380" stroke="black" stroke-width="2"/>
-                <line x1="20" y1="200" x2="380" y2="200" stroke="black" stroke-width="2"/>
-                <!-- Grid lines -->
-                <g stroke="lightgray" stroke-width="0.5">
-                    <!-- Vertical grid lines -->
-                    <line x1="40" y1="20" x2="40" y2="380"/>
-                    <line x1="80" y1="20" x2="80" y2="380"/>
-                    <line x1="120" y1="20" x2="120" y2="380"/>
-                    <line x1="160" y1="20" x2="160" y2="380"/>
-                    <line x1="240" y1="20" x2="240" y2="380"/>
-                    <line x1="280" y1="20" x2="280" y2="380"/>
-                    <line x1="320" y1="20" x2="320" y2="380"/>
-                    <line x1="360" y1="20" x2="360" y2="380"/>
-                    <!-- Horizontal grid lines -->
-                    <line x1="20" y1="40" x2="380" y2="40"/>
-                    <line x1="20" y1="80" x2="380" y2="80"/>
-                    <line x1="20" y1="120" x2="380" y2="120"/>
-                    <line x1="20" y1="160" x2="380" y2="160"/>
-                    <line x1="20" y1="240" x2="380" y2="240"/>
-                    <line x1="20" y1="280" x2="380" y2="280"/>
-                    <line x1="20" y1="320" x2="380" y2="320"/>
-                    <line x1="20" y1="360" x2="380" y2="360"/>
-                </g>
-            </svg>
-        </div>
+<!-- Main image: Gr7_29_2_1 -->
+<div class="item" label="Gr7_29_2_1">
+  <svg width="400" height="400" viewBox="0 0 400 400">
+    <!-- Graph background -->
+    <rect x="0" y="0" width="400" height="400" fill="white" stroke="black" stroke-width="2"/>
 
-        <div class="item" label="Gr7_29_2_1_step_1">
-            <svg viewBox="0 0 400 400" class="geometric-shape">
-                <!-- Coordinate axes -->
-                <line x1="200" y1="20" x2="200" y2="380" stroke="black" stroke-width="2"/>
-                <line x1="20" y1="200" x2="380" y2="200" stroke="black" stroke-width="2"/>
-                <!-- Grid lines -->
-                <g stroke="lightgray" stroke-width="0.5">
-                    <!-- Vertical grid lines -->
-                    <line x1="40" y1="20" x2="40" y2="380"/>
-                    <line x1="80" y1="20" x2="80" y2="380"/>
-                    <line x1="120" y1="20" x2="120" y2="380"/>
-                    <line x1="160" y1="20" x2="160" y2="380"/>
-                    <line x1="240" y1="20" x2="240" y2="380"/>
-                    <line x1="280" y1="20" x2="280" y2="380"/>
-                    <line x1="320" y1="20" x2="320" y2="380"/>
-                    <line x1="360" y1="20" x2="360" y2="380"/>
-                    <!-- Horizontal grid lines -->
-                    <line x1="20" y1="40" x2="380" y2="40"/>
-                    <line x1="20" y1="80" x2="380" y2="80"/>
-                    <line x1="20" y1="120" x2="380" y2="120"/>
-                    <line x1="20" y1="160" x2="380" y2="160"/>
-                    <line x1="20" y1="240" x2="380" y2="240"/>
-                    <line x1="20" y1="280" x2="380" y2="280"/>
-                    <line x1="20" y1="320" x2="380" y2="320"/>
-                    <line x1="20" y1="360" x2="380" y2="360"/>
-                </g>
-            </svg>
-        </div>
+    <!-- Grid lines -->
+    <defs>
+      <pattern id="grid_Gr7_29_2_1" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="lightgray" stroke-width="0.5"/>
+      </pattern>
+    </defs>
+    <rect width="400" height="400" fill="url(#grid_Gr7_29_2_1)"/>
 
-    </div>
+    <!-- Axes -->
+    <line x1="50" y1="350" x2="370" y2="350" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="50" y1="350" x2="50" y2="30" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+    <!-- Arrow markers -->
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="black"/>
+      </marker>
+    </defs>
+
+    <!-- Axis labels -->
+    <text x="210" y="390" text-anchor="middle" font-size="12" font-family="Arial">Time swimming freestyle (seconds)</text>
+    <text x="20" y="190" text-anchor="middle" font-size="12" font-family="Arial" transform="rotate(-90 20 190)">Distance traveled (feet)</text>
+
+    <!-- Origin label -->
+    <text x="40" y="365" text-anchor="end" font-size="10" font-family="Arial">0</text>
+
+    <!-- X-axis tick marks and labels -->
+    <line x1="50" y1="350" x2="50" y2="355" stroke="black" stroke-width="1"/>
+    <text x="130" y="365" text-anchor="middle" font-size="10" font-family="Arial">1</text>
+    <line x1="130" y1="350" x2="130" y2="355" stroke="black" stroke-width="1"/>
+    <text x="210" y="365" text-anchor="middle" font-size="10" font-family="Arial">2</text>
+    <line x1="210" y1="350" x2="210" y2="355" stroke="black" stroke-width="1"/>
+    <text x="290" y="365" text-anchor="middle" font-size="10" font-family="Arial">3</text>
+    <line x1="290" y1="350" x2="290" y2="355" stroke="black" stroke-width="1"/>
+
+    <!-- Y-axis tick marks and labels -->
+    <text x="40" y="255" text-anchor="end" font-size="10" font-family="Arial">3</text>
+    <line x1="45" y1="254" x2="50" y2="254" stroke="black" stroke-width="1"/>
+    <text x="40" y="159" text-anchor="end" font-size="10" font-family="Arial">6</text>
+    <line x1="45" y1="158" x2="50" y2="158" stroke="black" stroke-width="1"/>
+    <text x="40" y="63" text-anchor="end" font-size="10" font-family="Arial">9</text>
+    <line x1="45" y1="62" x2="50" y2="62" stroke="black" stroke-width="1"/>
+
+    <!-- Proportional line through origin and (1,3) -->
+    <line x1="50" y1="350" x2="290" y2="62" stroke="blue" stroke-width="2"/>
+
+    <!-- Points on the line -->
+    <circle cx="50" cy="350" r="4" fill="blue"/>
+    <circle cx="130" cy="254" r="4" fill="blue"/>
+    <circle cx="210" cy="158" r="4" fill="blue"/>
+  </svg>
+</div>
+<!-- Solution step: Gr7_29_2_1_step_1 -->
+<div class="item" label="Gr7_29_2_1_step_1">
+  <svg width="400" height="400" viewBox="0 0 400 400">
+    <!-- Graph background -->
+    <rect x="0" y="0" width="400" height="400" fill="white" stroke="black" stroke-width="2"/>
+
+    <!-- Grid lines -->
+    <defs>
+      <pattern id="grid_Gr7_29_2_1_step_1" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="lightgray" stroke-width="0.5"/>
+      </pattern>
+    </defs>
+    <rect width="400" height="400" fill="url(#grid_Gr7_29_2_1_step_1)"/>
+
+    <!-- Axes -->
+    <line x1="50" y1="350" x2="370" y2="350" stroke="black" stroke-width="2" marker-end="url(#arrowhead_sol)"/>
+    <line x1="50" y1="350" x2="50" y2="30" stroke="black" stroke-width="2" marker-end="url(#arrowhead_sol)"/>
+
+    <!-- Arrow markers -->
+    <defs>
+      <marker id="arrowhead_sol" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="black"/>
+      </marker>
+    </defs>
+
+    <!-- Axis labels -->
+    <text x="210" y="390" text-anchor="middle" font-size="12" font-family="Arial">Time swimming freestyle (seconds)</text>
+    <text x="20" y="190" text-anchor="middle" font-size="12" font-family="Arial" transform="rotate(-90 20 190)">Distance traveled (feet)</text>
+
+    <!-- Origin label -->
+    <text x="40" y="365" text-anchor="end" font-size="10" font-family="Arial">0</text>
+
+    <!-- X-axis tick marks and labels -->
+    <line x1="50" y1="350" x2="50" y2="355" stroke="black" stroke-width="1"/>
+    <text x="130" y="365" text-anchor="middle" font-size="10" font-family="Arial">1</text>
+    <line x1="130" y1="350" x2="130" y2="355" stroke="black" stroke-width="1"/>
+    <text x="210" y="365" text-anchor="middle" font-size="10" font-family="Arial">2</text>
+    <line x1="210" y1="350" x2="210" y2="355" stroke="black" stroke-width="1"/>
+
+    <!-- Y-axis tick marks and labels -->
+    <text x="40" y="255" text-anchor="end" font-size="10" font-family="Arial">3</text>
+    <line x1="45" y1="254" x2="50" y2="254" stroke="black" stroke-width="1"/>
+    <text x="40" y="159" text-anchor="end" font-size="10" font-family="Arial">6</text>
+    <line x1="45" y1="158" x2="50" y2="158" stroke="black" stroke-width="1"/>
+    <text x="40" y="63" text-anchor="end" font-size="10" font-family="Arial">9</text>
+    <line x1="45" y1="62" x2="50" y2="62" stroke="black" stroke-width="1"/>
+
+    <!-- Proportional line through origin and point -->
+    <line x1="50" y1="350" x2="290" y2="62" stroke="blue" stroke-width="2"/>
+
+    <!-- Points on the line -->
+    <circle cx="50" cy="350" r="4" fill="blue"/>
+
+    <!-- Highlighted point (1,3) with coordinate label -->
+    <circle cx="130" cy="254" r="6" fill="red" stroke="darkred" stroke-width="2"/>
+
+    <!-- Coordinate label with background -->
+    <rect x="138" y="234" width="50" height="20" fill="yellow" opacity="0.8" rx="3"/>
+    <text x="140" y="249" font-size="14" font-family="Arial" font-weight="bold">(1, 3)</text>
+
+    <!-- Dotted lines to axes for clarity -->
+    <line x1="130" y1="254" x2="130" y2="350" stroke="red" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+    <line x1="130" y1="254" x2="50" y2="254" stroke="red" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+  </svg>
+</div>
+
 </body>
 </html>

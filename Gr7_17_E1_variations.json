@@ -2,14 +2,13 @@
   "quizzes": [
     {
       "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $6/11$ + $7/4$ = ?",
-      "image_tag": "Gr7_17_1_2",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
+      "question_text": "Calculate: $4 1/6$ - $4 8/11$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 4 1/6 - 4 8/11 with an empty box for the answer.",
       "question_type": "Fill in the blank",
-      "question_number": "1_2",
+      "question_number": "1_1",
       "has_alternative_answers": true,
       "correct_answers": [
-        "101/44"
+        "-37/66"
       ],
       "solution_image_tag": [
         [
@@ -48,14 +47,13 @@
     },
     {
       "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $3/2$ + $10/11$ = ?",
-      "image_tag": "Gr7_17_1_3",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
+      "question_text": "Calculate: $2 4/7$ + $4 2/2$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the addition of two mixed numbers: 2 4/7 + 4 2/2 with an empty box for the answer.",
       "question_type": "Fill in the blank",
-      "question_number": "1_3",
+      "question_number": "1_2",
       "has_alternative_answers": true,
       "correct_answers": [
-        "53/22"
+        "7 4/7"
       ],
       "solution_image_tag": [
         [
@@ -93,31 +91,85 @@
       "tag": "Gr7_17_E1"
     },
     {
-      "question_text": "Calculate: $9/7$ + $9/10$ = ?",
+      "question_text": "Calculate: $4 5/2$ + $2 2/3$ = ? Answer as a mixed fraction Express your answer in simplest form.",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_4",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
+      "backend_description": "Shows the addition of two mixed numbers: 4 5/2 + 2 2/3 with an empty box for the answer.",
+      "tag": "Gr7_17_E1",
+      "question_type": "Fill in the blank",
+      "question_number": "1_3",
+      "has_alternative_answers": true,
+      "correct_answers": [
+        "9 1/6"
+      ],
+      "solution_image_tag": [
+        [
+          "1/6",
+          "Gr7_17_1_2_step_4",
+          "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
+        ],
+        [
+          "2/6",
+          "Gr7_17_1_2_step_4",
+          "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
+        ],
+        [
+          "5/6",
+          "Gr7_17_1_2_step_4",
+          "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
+        ]
+      ],
+      "solution": [
+        [
+          "1/6",
+          "We are subtracting two mixed numbers:\n"
+        ],
+        [
+          "2/6",
+          "We can't subtract $\\frac{8}{11}$ from $\\frac{1}{11}$, so we need to borrow 1 from the whole number part of 15 dollars \\frac{1}{11}$:\n"
+        ],
+        [
+          "3/6",
+          "Rewrite 15 dollars \\frac{1}{11}$ as 14 dollars \\frac{12}{11}$. Now we can subtract 6 dollars \\frac{8}{11}$."
+        ],
+        [
+          "4/6",
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
+        ],
+        [
+          "5/6",
+          "Now add the whole number and the fraction:\n"
+        ],
+        [
+          "6/6",
+          "The final answer is 8 dollars \\frac{4}{11}$."
+        ]
+      ]
+    },
+    {
+      "question_text": "Calculate: $5 1/3$ + $7 5/5$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "skills": "add-and-subtract-mixed-numbers",
+      "backend_description": "Shows the addition of two mixed numbers: 5 1/3 + 7 5/5 with an empty box for the answer.",
       "tag": "Gr7_17_E1",
       "question_type": "Fill in the blank",
       "question_number": "1_4",
       "has_alternative_answers": true,
       "correct_answers": [
-        "153/70"
+        "13 1/3"
       ],
       "solution_image_tag": [
         [
           "1/6",
-          "Gr7_17_1_2_step_4",
+          "Gr7_17_1_2_step_5",
           "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
         ],
         [
           "2/6",
-          "Gr7_17_1_2_step_4",
+          "Gr7_17_1_2_step_5",
           "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
         ],
         [
           "5/6",
-          "Gr7_17_1_2_step_4",
+          "Gr7_17_1_2_step_5",
           "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
         ]
       ],
@@ -136,7 +188,7 @@
         ],
         [
           "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
         ],
         [
           "5/6",
@@ -149,31 +201,30 @@
       ]
     },
     {
-      "question_text": "Calculate: $11/4$ + $1/6$ = ?",
+      "question_text": "Calculate: $8 7/2$ - $6 4/4$ = ? Answer as a mixed fraction Express your answer in simplest form.",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_5",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 8 7/2 - 6 4/4 with an empty box for the answer.",
       "tag": "Gr7_17_E1",
       "question_type": "Fill in the blank",
       "question_number": "1_5",
       "has_alternative_answers": true,
       "correct_answers": [
-        "35/12"
+        "4 1/2"
       ],
       "solution_image_tag": [
         [
           "1/6",
-          "Gr7_17_1_2_step_5",
+          "Gr7_17_1_2_step_6",
           "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
         ],
         [
           "2/6",
-          "Gr7_17_1_2_step_5",
+          "Gr7_17_1_2_step_6",
           "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
         ],
         [
           "5/6",
-          "Gr7_17_1_2_step_5",
+          "Gr7_17_1_2_step_6",
           "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
         ]
       ],
@@ -192,7 +243,7 @@
         ],
         [
           "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
         ],
         [
           "5/6",
@@ -205,71 +256,14 @@
       ]
     },
     {
-      "question_text": "Calculate: $1/8$ + $5/11$ = ?",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_6",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
-      "tag": "Gr7_17_E1",
+      "question_text": "Calculate: $4 8/6$ - $3 8/3$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 4 8/6 - 3 8/3 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "question_number": "1_6",
       "has_alternative_answers": true,
       "correct_answers": [
-        "51/88"
-      ],
-      "solution_image_tag": [
-        [
-          "1/6",
-          "Gr7_17_1_2_step_6",
-          "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
-        ],
-        [
-          "2/6",
-          "Gr7_17_1_2_step_6",
-          "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
-        ],
-        [
-          "5/6",
-          "Gr7_17_1_2_step_6",
-          "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
-        ]
-      ],
-      "solution": [
-        [
-          "1/6",
-          "We are subtracting two mixed numbers:\n"
-        ],
-        [
-          "2/6",
-          "We can't subtract $\\frac{8}{11}$ from $\\frac{1}{11}$, so we need to borrow 1 from the whole number part of 15 dollars \\frac{1}{11}$:\n"
-        ],
-        [
-          "3/6",
-          "Rewrite 15 dollars \\frac{1}{11}$ as 14 dollars \\frac{12}{11}$. Now we can subtract 6 dollars \\frac{8}{11}$."
-        ],
-        [
-          "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
-        ],
-        [
-          "5/6",
-          "Now add the whole number and the fraction:\n"
-        ],
-        [
-          "6/6",
-          "The final answer is 8 dollars \\frac{4}{11}$."
-        ]
-      ]
-    },
-    {
-      "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $1/3$ + $7/4$ = ?",
-      "image_tag": "Gr7_17_1_7",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
-      "question_type": "Fill in the blank",
-      "question_number": "1_7",
-      "has_alternative_answers": true,
-      "correct_answers": [
-        "25/12"
+        "-1/3"
       ],
       "solution_image_tag": [
         [
@@ -308,14 +302,13 @@
     },
     {
       "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $1/3$ + $1$ = ?",
-      "image_tag": "Gr7_17_1_8",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
+      "question_text": "Calculate: $7 3/10$ - $7 4/4$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 7 3/10 - 7 4/4 with an empty box for the answer.",
       "question_type": "Fill in the blank",
-      "question_number": "1_8",
+      "question_number": "1_7",
       "has_alternative_answers": true,
       "correct_answers": [
-        "4/3"
+        "-7/10"
       ],
       "solution_image_tag": [
         [
@@ -353,16 +346,15 @@
       "tag": "Gr7_17_E1"
     },
     {
-      "question_text": "Calculate: $2/3$ + $1/4$ = ?",
+      "question_text": "Calculate: $7 8/6$ - $3 1/11$ = ? Answer as a mixed fraction Express your answer in simplest form.",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_9",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 7 8/6 - 3 1/11 with an empty box for the answer.",
       "tag": "Gr7_17_E1",
       "question_type": "Fill in the blank",
-      "question_number": "1_9",
+      "question_number": "1_8",
       "has_alternative_answers": true,
       "correct_answers": [
-        "11/12"
+        "5 8/33"
       ],
       "solution_image_tag": [
         [
@@ -396,7 +388,7 @@
         ],
         [
           "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
         ],
         [
           "5/6",
@@ -410,14 +402,13 @@
     },
     {
       "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $7/3$ + $3/2$ = ?",
-      "image_tag": "Gr7_17_1_10",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
+      "question_text": "Calculate: $7 9/2$ + $2 3/9$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the addition of two mixed numbers: 7 9/2 + 2 3/9 with an empty box for the answer.",
       "question_type": "Fill in the blank",
-      "question_number": "1_10",
+      "question_number": "1_9",
       "has_alternative_answers": true,
       "correct_answers": [
-        "23/6"
+        "13 5/6"
       ],
       "solution_image_tag": [
         [
@@ -455,31 +446,85 @@
       "tag": "Gr7_17_E1"
     },
     {
-      "question_text": "Calculate: $9/10$ + $9/5$ = ?",
+      "question_text": "Calculate: $4 8/3$ + $7 3/2$ = ? Answer as a mixed fraction Express your answer in simplest form.",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_11",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
+      "backend_description": "Shows the addition of two mixed numbers: 4 8/3 + 7 3/2 with an empty box for the answer.",
+      "tag": "Gr7_17_E1",
+      "question_type": "Fill in the blank",
+      "question_number": "1_10",
+      "has_alternative_answers": true,
+      "correct_answers": [
+        "15 1/6"
+      ],
+      "solution_image_tag": [
+        [
+          "1/6",
+          "Gr7_17_1_2_step_11",
+          "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
+        ],
+        [
+          "2/6",
+          "Gr7_17_1_2_step_11",
+          "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
+        ],
+        [
+          "5/6",
+          "Gr7_17_1_2_step_11",
+          "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
+        ]
+      ],
+      "solution": [
+        [
+          "1/6",
+          "We are subtracting two mixed numbers:\n"
+        ],
+        [
+          "2/6",
+          "We can't subtract $\\frac{8}{11}$ from $\\frac{1}{11}$, so we need to borrow 1 from the whole number part of 15 dollars \\frac{1}{11}$:\n"
+        ],
+        [
+          "3/6",
+          "Rewrite 15 dollars \\frac{1}{11}$ as 14 dollars \\frac{12}{11}$. Now we can subtract 6 dollars \\frac{8}{11}$."
+        ],
+        [
+          "4/6",
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
+        ],
+        [
+          "5/6",
+          "Now add the whole number and the fraction:\n"
+        ],
+        [
+          "6/6",
+          "The final answer is 8 dollars \\frac{4}{11}$."
+        ]
+      ]
+    },
+    {
+      "question_text": "Calculate: $7 9/2$ + $2 6/10$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "skills": "add-and-subtract-mixed-numbers",
+      "backend_description": "Shows the addition of two mixed numbers: 7 9/2 + 2 6/10 with an empty box for the answer.",
       "tag": "Gr7_17_E1",
       "question_type": "Fill in the blank",
       "question_number": "1_11",
       "has_alternative_answers": true,
       "correct_answers": [
-        "27/10"
+        "14 1/10"
       ],
       "solution_image_tag": [
         [
           "1/6",
-          "Gr7_17_1_2_step_11",
+          "Gr7_17_1_2_step_12",
           "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
         ],
         [
           "2/6",
-          "Gr7_17_1_2_step_11",
+          "Gr7_17_1_2_step_12",
           "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
         ],
         [
           "5/6",
-          "Gr7_17_1_2_step_11",
+          "Gr7_17_1_2_step_12",
           "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
         ]
       ],
@@ -498,7 +543,7 @@
         ],
         [
           "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
         ],
         [
           "5/6",
@@ -511,31 +556,30 @@
       ]
     },
     {
-      "question_text": "Calculate: $11/3$ + $5/9$ = ?",
+      "question_text": "Calculate: $1 1/2$ + $7 4/9$ = ? Answer as a mixed fraction Express your answer in simplest form.",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_12",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
+      "backend_description": "Shows the addition of two mixed numbers: 1 1/2 + 7 4/9 with an empty box for the answer.",
       "tag": "Gr7_17_E1",
       "question_type": "Fill in the blank",
       "question_number": "1_12",
       "has_alternative_answers": true,
       "correct_answers": [
-        "38/9"
+        "8 17/18"
       ],
       "solution_image_tag": [
         [
           "1/6",
-          "Gr7_17_1_2_step_12",
+          "Gr7_17_1_2_step_13",
           "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
         ],
         [
           "2/6",
-          "Gr7_17_1_2_step_12",
+          "Gr7_17_1_2_step_13",
           "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
         ],
         [
           "5/6",
-          "Gr7_17_1_2_step_12",
+          "Gr7_17_1_2_step_13",
           "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
         ]
       ],
@@ -554,7 +598,7 @@
         ],
         [
           "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
         ],
         [
           "5/6",
@@ -567,31 +611,30 @@
       ]
     },
     {
-      "question_text": "Calculate: $6/11$ + $6/11$ = ?",
+      "question_text": "Calculate: $6 4/2$ + $2 1/12$ = ? Answer as a mixed fraction Express your answer in simplest form.",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_13",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
+      "backend_description": "Shows the addition of two mixed numbers: 6 4/2 + 2 1/12 with an empty box for the answer.",
       "tag": "Gr7_17_E1",
       "question_type": "Fill in the blank",
       "question_number": "1_13",
       "has_alternative_answers": true,
       "correct_answers": [
-        "12/11"
+        "10 1/12"
       ],
       "solution_image_tag": [
         [
           "1/6",
-          "Gr7_17_1_2_step_13",
+          "Gr7_17_1_2_step_14",
           "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
         ],
         [
           "2/6",
-          "Gr7_17_1_2_step_13",
+          "Gr7_17_1_2_step_14",
           "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
         ],
         [
           "5/6",
-          "Gr7_17_1_2_step_13",
+          "Gr7_17_1_2_step_14",
           "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
         ]
       ],
@@ -610,7 +653,7 @@
         ],
         [
           "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
         ],
         [
           "5/6",
@@ -623,31 +666,30 @@
       ]
     },
     {
-      "question_text": "Calculate: $4/3$ + $10/3$ = ?",
+      "question_text": "Calculate: $4 2/3$ - $4 3/11$ = ? Answer as a mixed fraction Express your answer in simplest form.",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_14",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 4 2/3 - 4 3/11 with an empty box for the answer.",
       "tag": "Gr7_17_E1",
       "question_type": "Fill in the blank",
       "question_number": "1_14",
       "has_alternative_answers": true,
       "correct_answers": [
-        "14/3"
+        "13/33"
       ],
       "solution_image_tag": [
         [
           "1/6",
-          "Gr7_17_1_2_step_14",
+          "Gr7_17_1_2_step_15",
           "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
         ],
         [
           "2/6",
-          "Gr7_17_1_2_step_14",
+          "Gr7_17_1_2_step_15",
           "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
         ],
         [
           "5/6",
-          "Gr7_17_1_2_step_14",
+          "Gr7_17_1_2_step_15",
           "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
         ]
       ],
@@ -666,7 +708,7 @@
         ],
         [
           "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
         ],
         [
           "5/6",
@@ -679,71 +721,14 @@
       ]
     },
     {
-      "question_text": "Calculate: $1/3$ + $3$ = ?",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_15",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
-      "tag": "Gr7_17_E1",
+      "question_text": "Calculate: $6 7/12$ - $3 1/2$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 6 7/12 - 3 1/2 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "question_number": "1_15",
       "has_alternative_answers": true,
       "correct_answers": [
-        "10/3"
-      ],
-      "solution_image_tag": [
-        [
-          "1/6",
-          "Gr7_17_1_2_step_15",
-          "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
-        ],
-        [
-          "2/6",
-          "Gr7_17_1_2_step_15",
-          "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
-        ],
-        [
-          "5/6",
-          "Gr7_17_1_2_step_15",
-          "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
-        ]
-      ],
-      "solution": [
-        [
-          "1/6",
-          "We are subtracting two mixed numbers:\n"
-        ],
-        [
-          "2/6",
-          "We can't subtract $\\frac{8}{11}$ from $\\frac{1}{11}$, so we need to borrow 1 from the whole number part of 15 dollars \\frac{1}{11}$:\n"
-        ],
-        [
-          "3/6",
-          "Rewrite 15 dollars \\frac{1}{11}$ as 14 dollars \\frac{12}{11}$. Now we can subtract 6 dollars \\frac{8}{11}$."
-        ],
-        [
-          "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
-        ],
-        [
-          "5/6",
-          "Now add the whole number and the fraction:\n"
-        ],
-        [
-          "6/6",
-          "The final answer is 8 dollars \\frac{4}{11}$."
-        ]
-      ]
-    },
-    {
-      "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $7/2$ + $10/3$ = ?",
-      "image_tag": "Gr7_17_1_16",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
-      "question_type": "Fill in the blank",
-      "question_number": "1_16",
-      "has_alternative_answers": true,
-      "correct_answers": [
-        "41/6"
+        "3 1/12"
       ],
       "solution_image_tag": [
         [
@@ -782,14 +767,13 @@
     },
     {
       "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $3/5$ + $4/5$ = ?",
-      "image_tag": "Gr7_17_1_17",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
+      "question_text": "Calculate: $5 5/2$ - $3 8/5$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 5 5/2 - 3 8/5 with an empty box for the answer.",
       "question_type": "Fill in the blank",
-      "question_number": "1_17",
+      "question_number": "1_16",
       "has_alternative_answers": true,
       "correct_answers": [
-        "7/5"
+        "2 9/10"
       ],
       "solution_image_tag": [
         [
@@ -827,31 +811,85 @@
       "tag": "Gr7_17_E1"
     },
     {
-      "question_text": "Calculate: $1$ + $7/11$ = ?",
+      "question_text": "Calculate: $6 1/8$ - $1 4/12$ = ? Answer as a mixed fraction Express your answer in simplest form.",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_18",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 6 1/8 - 1 4/12 with an empty box for the answer.",
+      "tag": "Gr7_17_E1",
+      "question_type": "Fill in the blank",
+      "question_number": "1_17",
+      "has_alternative_answers": true,
+      "correct_answers": [
+        "4 19/24"
+      ],
+      "solution_image_tag": [
+        [
+          "1/6",
+          "Gr7_17_1_2_step_18",
+          "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
+        ],
+        [
+          "2/6",
+          "Gr7_17_1_2_step_18",
+          "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
+        ],
+        [
+          "5/6",
+          "Gr7_17_1_2_step_18",
+          "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
+        ]
+      ],
+      "solution": [
+        [
+          "1/6",
+          "We are subtracting two mixed numbers:\n"
+        ],
+        [
+          "2/6",
+          "We can't subtract $\\frac{8}{11}$ from $\\frac{1}{11}$, so we need to borrow 1 from the whole number part of 15 dollars \\frac{1}{11}$:\n"
+        ],
+        [
+          "3/6",
+          "Rewrite 15 dollars \\frac{1}{11}$ as 14 dollars \\frac{12}{11}$. Now we can subtract 6 dollars \\frac{8}{11}$."
+        ],
+        [
+          "4/6",
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
+        ],
+        [
+          "5/6",
+          "Now add the whole number and the fraction:\n"
+        ],
+        [
+          "6/6",
+          "The final answer is 8 dollars \\frac{4}{11}$."
+        ]
+      ]
+    },
+    {
+      "question_text": "Calculate: $8 2/7$ + $5 7/4$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "skills": "add-and-subtract-mixed-numbers",
+      "backend_description": "Shows the addition of two mixed numbers: 8 2/7 + 5 7/4 with an empty box for the answer.",
       "tag": "Gr7_17_E1",
       "question_type": "Fill in the blank",
       "question_number": "1_18",
       "has_alternative_answers": true,
       "correct_answers": [
-        "18/11"
+        "15 1/28"
       ],
       "solution_image_tag": [
         [
           "1/6",
-          "Gr7_17_1_2_step_18",
+          "Gr7_17_1_2_step_19",
           "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
         ],
         [
           "2/6",
-          "Gr7_17_1_2_step_18",
+          "Gr7_17_1_2_step_19",
           "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
         ],
         [
           "5/6",
-          "Gr7_17_1_2_step_18",
+          "Gr7_17_1_2_step_19",
           "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
         ]
       ],
@@ -870,7 +908,7 @@
         ],
         [
           "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
         ],
         [
           "5/6",
@@ -883,71 +921,14 @@
       ]
     },
     {
-      "question_text": "Calculate: $5/2$ + $1/2$ = ?",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_19",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
-      "tag": "Gr7_17_E1",
+      "question_text": "Calculate: $4 7/3$ + $3 4/6$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the addition of two mixed numbers: 4 7/3 + 3 4/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "question_number": "1_19",
       "has_alternative_answers": true,
       "correct_answers": [
-        "3"
-      ],
-      "solution_image_tag": [
-        [
-          "1/6",
-          "Gr7_17_1_2_step_19",
-          "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
-        ],
-        [
-          "2/6",
-          "Gr7_17_1_2_step_19",
-          "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
-        ],
-        [
-          "5/6",
-          "Gr7_17_1_2_step_19",
-          "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
-        ]
-      ],
-      "solution": [
-        [
-          "1/6",
-          "We are subtracting two mixed numbers:\n"
-        ],
-        [
-          "2/6",
-          "We can't subtract $\\frac{8}{11}$ from $\\frac{1}{11}$, so we need to borrow 1 from the whole number part of 15 dollars \\frac{1}{11}$:\n"
-        ],
-        [
-          "3/6",
-          "Rewrite 15 dollars \\frac{1}{11}$ as 14 dollars \\frac{12}{11}$. Now we can subtract 6 dollars \\frac{8}{11}$."
-        ],
-        [
-          "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
-        ],
-        [
-          "5/6",
-          "Now add the whole number and the fraction:\n"
-        ],
-        [
-          "6/6",
-          "The final answer is 8 dollars \\frac{4}{11}$."
-        ]
-      ]
-    },
-    {
-      "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $9/11$ + $1/3$ = ?",
-      "image_tag": "Gr7_17_1_20",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
-      "question_type": "Fill in the blank",
-      "question_number": "1_20",
-      "has_alternative_answers": true,
-      "correct_answers": [
-        "38/33"
+        "10"
       ],
       "solution_image_tag": [
         [
@@ -985,31 +966,85 @@
       "tag": "Gr7_17_E1"
     },
     {
-      "question_text": "Calculate: $3/2$ + $7/11$ = ?",
+      "question_text": "Calculate: $4 5/9$ - $1 7/10$ = ? Answer as a mixed fraction Express your answer in simplest form.",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_21",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 4 5/9 - 1 7/10 with an empty box for the answer.",
+      "tag": "Gr7_17_E1",
+      "question_type": "Fill in the blank",
+      "question_number": "1_20",
+      "has_alternative_answers": true,
+      "correct_answers": [
+        "2 77/90"
+      ],
+      "solution_image_tag": [
+        [
+          "1/6",
+          "Gr7_17_1_2_step_21",
+          "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
+        ],
+        [
+          "2/6",
+          "Gr7_17_1_2_step_21",
+          "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
+        ],
+        [
+          "5/6",
+          "Gr7_17_1_2_step_21",
+          "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
+        ]
+      ],
+      "solution": [
+        [
+          "1/6",
+          "We are subtracting two mixed numbers:\n"
+        ],
+        [
+          "2/6",
+          "We can't subtract $\\frac{8}{11}$ from $\\frac{1}{11}$, so we need to borrow 1 from the whole number part of 15 dollars \\frac{1}{11}$:\n"
+        ],
+        [
+          "3/6",
+          "Rewrite 15 dollars \\frac{1}{11}$ as 14 dollars \\frac{12}{11}$. Now we can subtract 6 dollars \\frac{8}{11}$."
+        ],
+        [
+          "4/6",
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
+        ],
+        [
+          "5/6",
+          "Now add the whole number and the fraction:\n"
+        ],
+        [
+          "6/6",
+          "The final answer is 8 dollars \\frac{4}{11}$."
+        ]
+      ]
+    },
+    {
+      "question_text": "Calculate: $5 2/4$ - $4 4/3$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "skills": "add-and-subtract-mixed-numbers",
+      "backend_description": "Shows the subtraction of two mixed numbers: 5 2/4 - 4 4/3 with an empty box for the answer.",
       "tag": "Gr7_17_E1",
       "question_type": "Fill in the blank",
       "question_number": "1_21",
       "has_alternative_answers": true,
       "correct_answers": [
-        "47/22"
+        "1/6"
       ],
       "solution_image_tag": [
         [
           "1/6",
-          "Gr7_17_1_2_step_21",
+          "Gr7_17_1_2_step_22",
           "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
         ],
         [
           "2/6",
-          "Gr7_17_1_2_step_21",
+          "Gr7_17_1_2_step_22",
           "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
         ],
         [
           "5/6",
-          "Gr7_17_1_2_step_21",
+          "Gr7_17_1_2_step_22",
           "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
         ]
       ],
@@ -1028,7 +1063,7 @@
         ],
         [
           "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
         ],
         [
           "5/6",
@@ -1041,31 +1076,30 @@
       ]
     },
     {
-      "question_text": "Calculate: $3/11$ + $2/3$ = ?",
+      "question_text": "Calculate: $5 7/12$ - $4 5/8$ = ? Answer as a mixed fraction Express your answer in simplest form.",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_22",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 5 7/12 - 4 5/8 with an empty box for the answer.",
       "tag": "Gr7_17_E1",
       "question_type": "Fill in the blank",
       "question_number": "1_22",
       "has_alternative_answers": true,
       "correct_answers": [
-        "31/33"
+        "23/24"
       ],
       "solution_image_tag": [
         [
           "1/6",
-          "Gr7_17_1_2_step_22",
+          "Gr7_17_1_2_step_23",
           "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
         ],
         [
           "2/6",
-          "Gr7_17_1_2_step_22",
+          "Gr7_17_1_2_step_23",
           "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
         ],
         [
           "5/6",
-          "Gr7_17_1_2_step_22",
+          "Gr7_17_1_2_step_23",
           "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
         ]
       ],
@@ -1084,7 +1118,7 @@
         ],
         [
           "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
         ],
         [
           "5/6",
@@ -1097,31 +1131,30 @@
       ]
     },
     {
-      "question_text": "Calculate: $7/5$ + $1/2$ = ?",
+      "question_text": "Calculate: $5 2/5$ + $1 3/10$ = ? Answer as a mixed fraction Express your answer in simplest form.",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_23",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
+      "backend_description": "Shows the addition of two mixed numbers: 5 2/5 + 1 3/10 with an empty box for the answer.",
       "tag": "Gr7_17_E1",
       "question_type": "Fill in the blank",
       "question_number": "1_23",
       "has_alternative_answers": true,
       "correct_answers": [
-        "19/10"
+        "6 7/10"
       ],
       "solution_image_tag": [
         [
           "1/6",
-          "Gr7_17_1_2_step_23",
+          "Gr7_17_1_2_step_24",
           "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
         ],
         [
           "2/6",
-          "Gr7_17_1_2_step_23",
+          "Gr7_17_1_2_step_24",
           "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
         ],
         [
           "5/6",
-          "Gr7_17_1_2_step_23",
+          "Gr7_17_1_2_step_24",
           "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
         ]
       ],
@@ -1140,7 +1173,7 @@
         ],
         [
           "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
         ],
         [
           "5/6",
@@ -1153,71 +1186,14 @@
       ]
     },
     {
-      "question_text": "Calculate: $7/5$ + $1/2$ = ?",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_24",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
-      "tag": "Gr7_17_E1",
+      "question_text": "Calculate: $5 1/8$ - $4 5/12$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 5 1/8 - 4 5/12 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "question_number": "1_24",
       "has_alternative_answers": true,
       "correct_answers": [
-        "19/10"
-      ],
-      "solution_image_tag": [
-        [
-          "1/6",
-          "Gr7_17_1_2_step_24",
-          "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
-        ],
-        [
-          "2/6",
-          "Gr7_17_1_2_step_24",
-          "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
-        ],
-        [
-          "5/6",
-          "Gr7_17_1_2_step_24",
-          "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
-        ]
-      ],
-      "solution": [
-        [
-          "1/6",
-          "We are subtracting two mixed numbers:\n"
-        ],
-        [
-          "2/6",
-          "We can't subtract $\\frac{8}{11}$ from $\\frac{1}{11}$, so we need to borrow 1 from the whole number part of 15 dollars \\frac{1}{11}$:\n"
-        ],
-        [
-          "3/6",
-          "Rewrite 15 dollars \\frac{1}{11}$ as 14 dollars \\frac{12}{11}$. Now we can subtract 6 dollars \\frac{8}{11}$."
-        ],
-        [
-          "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
-        ],
-        [
-          "5/6",
-          "Now add the whole number and the fraction:\n"
-        ],
-        [
-          "6/6",
-          "The final answer is 8 dollars \\frac{4}{11}$."
-        ]
-      ]
-    },
-    {
-      "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $1/2$ + $1$ = ?",
-      "image_tag": "Gr7_17_1_25",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
-      "question_type": "Fill in the blank",
-      "question_number": "1_25",
-      "has_alternative_answers": true,
-      "correct_answers": [
-        "3/2"
+        "17/24"
       ],
       "solution_image_tag": [
         [
@@ -1255,31 +1231,85 @@
       "tag": "Gr7_17_E1"
     },
     {
-      "question_text": "Calculate: $6/5$ + $6/5$ = ?",
+      "question_text": "Calculate: $7 1/10$ + $6 5/7$ = ? Answer as a mixed fraction Express your answer in simplest form.",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_26",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
+      "backend_description": "Shows the addition of two mixed numbers: 7 1/10 + 6 5/7 with an empty box for the answer.",
+      "tag": "Gr7_17_E1",
+      "question_type": "Fill in the blank",
+      "question_number": "1_25",
+      "has_alternative_answers": true,
+      "correct_answers": [
+        "13 57/70"
+      ],
+      "solution_image_tag": [
+        [
+          "1/6",
+          "Gr7_17_1_2_step_26",
+          "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
+        ],
+        [
+          "2/6",
+          "Gr7_17_1_2_step_26",
+          "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
+        ],
+        [
+          "5/6",
+          "Gr7_17_1_2_step_26",
+          "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
+        ]
+      ],
+      "solution": [
+        [
+          "1/6",
+          "We are subtracting two mixed numbers:\n"
+        ],
+        [
+          "2/6",
+          "We can't subtract $\\frac{8}{11}$ from $\\frac{1}{11}$, so we need to borrow 1 from the whole number part of 15 dollars \\frac{1}{11}$:\n"
+        ],
+        [
+          "3/6",
+          "Rewrite 15 dollars \\frac{1}{11}$ as 14 dollars \\frac{12}{11}$. Now we can subtract 6 dollars \\frac{8}{11}$."
+        ],
+        [
+          "4/6",
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
+        ],
+        [
+          "5/6",
+          "Now add the whole number and the fraction:\n"
+        ],
+        [
+          "6/6",
+          "The final answer is 8 dollars \\frac{4}{11}$."
+        ]
+      ]
+    },
+    {
+      "question_text": "Calculate: $6 6/3$ + $5 6/4$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "skills": "add-and-subtract-mixed-numbers",
+      "backend_description": "Shows the addition of two mixed numbers: 6 6/3 + 5 6/4 with an empty box for the answer.",
       "tag": "Gr7_17_E1",
       "question_type": "Fill in the blank",
       "question_number": "1_26",
       "has_alternative_answers": true,
       "correct_answers": [
-        "12/5"
+        "14 1/2"
       ],
       "solution_image_tag": [
         [
           "1/6",
-          "Gr7_17_1_2_step_26",
+          "Gr7_17_1_2_step_27",
           "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
         ],
         [
           "2/6",
-          "Gr7_17_1_2_step_26",
+          "Gr7_17_1_2_step_27",
           "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
         ],
         [
           "5/6",
-          "Gr7_17_1_2_step_26",
+          "Gr7_17_1_2_step_27",
           "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
         ]
       ],
@@ -1298,7 +1328,7 @@
         ],
         [
           "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
         ],
         [
           "5/6",
@@ -1311,31 +1341,30 @@
       ]
     },
     {
-      "question_text": "Calculate: $3$ + $1/6$ = ?",
+      "question_text": "Calculate: $4 2/4$ - $2 9/12$ = ? Answer as a mixed fraction Express your answer in simplest form.",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_27",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 4 2/4 - 2 9/12 with an empty box for the answer.",
       "tag": "Gr7_17_E1",
       "question_type": "Fill in the blank",
       "question_number": "1_27",
       "has_alternative_answers": true,
       "correct_answers": [
-        "19/6"
+        "1 3/4"
       ],
       "solution_image_tag": [
         [
           "1/6",
-          "Gr7_17_1_2_step_27",
+          "Gr7_17_1_2_step_28",
           "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
         ],
         [
           "2/6",
-          "Gr7_17_1_2_step_27",
+          "Gr7_17_1_2_step_28",
           "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
         ],
         [
           "5/6",
-          "Gr7_17_1_2_step_27",
+          "Gr7_17_1_2_step_28",
           "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
         ]
       ],
@@ -1354,7 +1383,7 @@
         ],
         [
           "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
         ],
         [
           "5/6",
@@ -1367,71 +1396,14 @@
       ]
     },
     {
-      "question_text": "Calculate: $7/12$ + $9/7$ = ?",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_28",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
-      "tag": "Gr7_17_E1",
+      "question_text": "Calculate: $4 8/10$ + $5 1/10$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the addition of two mixed numbers: 4 8/10 + 5 1/10 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "question_number": "1_28",
       "has_alternative_answers": true,
       "correct_answers": [
-        "157/84"
-      ],
-      "solution_image_tag": [
-        [
-          "1/6",
-          "Gr7_17_1_2_step_28",
-          "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
-        ],
-        [
-          "2/6",
-          "Gr7_17_1_2_step_28",
-          "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
-        ],
-        [
-          "5/6",
-          "Gr7_17_1_2_step_28",
-          "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
-        ]
-      ],
-      "solution": [
-        [
-          "1/6",
-          "We are subtracting two mixed numbers:\n"
-        ],
-        [
-          "2/6",
-          "We can't subtract $\\frac{8}{11}$ from $\\frac{1}{11}$, so we need to borrow 1 from the whole number part of 15 dollars \\frac{1}{11}$:\n"
-        ],
-        [
-          "3/6",
-          "Rewrite 15 dollars \\frac{1}{11}$ as 14 dollars \\frac{12}{11}$. Now we can subtract 6 dollars \\frac{8}{11}$."
-        ],
-        [
-          "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
-        ],
-        [
-          "5/6",
-          "Now add the whole number and the fraction:\n"
-        ],
-        [
-          "6/6",
-          "The final answer is 8 dollars \\frac{4}{11}$."
-        ]
-      ]
-    },
-    {
-      "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $2$ + $3/4$ = ?",
-      "image_tag": "Gr7_17_1_29",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
-      "question_type": "Fill in the blank",
-      "question_number": "1_29",
-      "has_alternative_answers": true,
-      "correct_answers": [
-        "11/4"
+        "9 9/10"
       ],
       "solution_image_tag": [
         [
@@ -1470,14 +1442,13 @@
     },
     {
       "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $2/3$ + $1/9$ = ?",
-      "image_tag": "Gr7_17_1_30",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
+      "question_text": "Calculate: $3 3/9$ - $2 4/3$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 3 3/9 - 2 4/3 with an empty box for the answer.",
       "question_type": "Fill in the blank",
-      "question_number": "1_30",
+      "question_number": "1_29",
       "has_alternative_answers": true,
       "correct_answers": [
-        "7/9"
+        "0/1"
       ],
       "solution_image_tag": [
         [
@@ -1516,14 +1487,13 @@
     },
     {
       "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $11/4$ + $2$ = ?",
-      "image_tag": "Gr7_17_1_31",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
+      "question_text": "Calculate: $8 2/5$ - $4 9/11$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 8 2/5 - 4 9/11 with an empty box for the answer.",
       "question_type": "Fill in the blank",
-      "question_number": "1_31",
+      "question_number": "1_30",
       "has_alternative_answers": true,
       "correct_answers": [
-        "19/4"
+        "3 32/55"
       ],
       "solution_image_tag": [
         [
@@ -1562,14 +1532,13 @@
     },
     {
       "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $1/4$ + $9/11$ = ?",
-      "image_tag": "Gr7_17_1_32",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
+      "question_text": "Calculate: $7 4/9$ + $6 2/7$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the addition of two mixed numbers: 7 4/9 + 6 2/7 with an empty box for the answer.",
       "question_type": "Fill in the blank",
-      "question_number": "1_32",
+      "question_number": "1_31",
       "has_alternative_answers": true,
       "correct_answers": [
-        "47/44"
+        "13 46/63"
       ],
       "solution_image_tag": [
         [
@@ -1608,14 +1577,13 @@
     },
     {
       "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $2$ + $7/2$ = ?",
-      "image_tag": "Gr7_17_1_33",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
+      "question_text": "Calculate: $5 5/3$ + $5 2/5$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the addition of two mixed numbers: 5 5/3 + 5 2/5 with an empty box for the answer.",
       "question_type": "Fill in the blank",
-      "question_number": "1_33",
+      "question_number": "1_32",
       "has_alternative_answers": true,
       "correct_answers": [
-        "11/2"
+        "12 1/15"
       ],
       "solution_image_tag": [
         [
@@ -1654,14 +1622,13 @@
     },
     {
       "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $7/11$ + $7/5$ = ?",
-      "image_tag": "Gr7_17_1_34",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
+      "question_text": "Calculate: $3 2/8$ - $2 9/10$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 3 2/8 - 2 9/10 with an empty box for the answer.",
       "question_type": "Fill in the blank",
-      "question_number": "1_34",
+      "question_number": "1_33",
       "has_alternative_answers": true,
       "correct_answers": [
-        "112/55"
+        "7/20"
       ],
       "solution_image_tag": [
         [
@@ -1699,16 +1666,15 @@
       "tag": "Gr7_17_E1"
     },
     {
-      "question_text": "Calculate: $4$ + $1$ = ?",
+      "question_text": "Calculate: $4 7/12$ + $5 1/6$ = ? Answer as a mixed fraction Express your answer in simplest form.",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_35",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
+      "backend_description": "Shows the addition of two mixed numbers: 4 7/12 + 5 1/6 with an empty box for the answer.",
       "tag": "Gr7_17_E1",
       "question_type": "Fill in the blank",
-      "question_number": "1_35",
+      "question_number": "1_34",
       "has_alternative_answers": true,
       "correct_answers": [
-        "5"
+        "9 3/4"
       ],
       "solution_image_tag": [
         [
@@ -1742,7 +1708,7 @@
         ],
         [
           "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
         ],
         [
           "5/6",
@@ -1756,14 +1722,13 @@
     },
     {
       "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $9/11$ + $1$ = ?",
-      "image_tag": "Gr7_17_1_36",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
+      "question_text": "Calculate: $6 4/8$ - $4 7/10$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 6 4/8 - 4 7/10 with an empty box for the answer.",
       "question_type": "Fill in the blank",
-      "question_number": "1_36",
+      "question_number": "1_35",
       "has_alternative_answers": true,
       "correct_answers": [
-        "20/11"
+        "1 4/5"
       ],
       "solution_image_tag": [
         [
@@ -1802,14 +1767,13 @@
     },
     {
       "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $2/7$ + $10/11$ = ?",
-      "image_tag": "Gr7_17_1_37",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
+      "question_text": "Calculate: $1 8/3$ + $3 4/5$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the addition of two mixed numbers: 1 8/3 + 3 4/5 with an empty box for the answer.",
       "question_type": "Fill in the blank",
-      "question_number": "1_37",
+      "question_number": "1_36",
       "has_alternative_answers": true,
       "correct_answers": [
-        "92/77"
+        "7 7/15"
       ],
       "solution_image_tag": [
         [
@@ -1847,31 +1811,85 @@
       "tag": "Gr7_17_E1"
     },
     {
-      "question_text": "Calculate: $2/3$ + $4$ = ?",
+      "question_text": "Calculate: $5 7/4$ - $3 5/5$ = ? Answer as a mixed fraction Express your answer in simplest form.",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_38",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 5 7/4 - 3 5/5 with an empty box for the answer.",
+      "tag": "Gr7_17_E1",
+      "question_type": "Fill in the blank",
+      "question_number": "1_37",
+      "has_alternative_answers": true,
+      "correct_answers": [
+        "2 3/4"
+      ],
+      "solution_image_tag": [
+        [
+          "1/6",
+          "Gr7_17_1_2_step_38",
+          "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
+        ],
+        [
+          "2/6",
+          "Gr7_17_1_2_step_38",
+          "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
+        ],
+        [
+          "5/6",
+          "Gr7_17_1_2_step_38",
+          "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
+        ]
+      ],
+      "solution": [
+        [
+          "1/6",
+          "We are subtracting two mixed numbers:\n"
+        ],
+        [
+          "2/6",
+          "We can't subtract $\\frac{8}{11}$ from $\\frac{1}{11}$, so we need to borrow 1 from the whole number part of 15 dollars \\frac{1}{11}$:\n"
+        ],
+        [
+          "3/6",
+          "Rewrite 15 dollars \\frac{1}{11}$ as 14 dollars \\frac{12}{11}$. Now we can subtract 6 dollars \\frac{8}{11}$."
+        ],
+        [
+          "4/6",
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
+        ],
+        [
+          "5/6",
+          "Now add the whole number and the fraction:\n"
+        ],
+        [
+          "6/6",
+          "The final answer is 8 dollars \\frac{4}{11}$."
+        ]
+      ]
+    },
+    {
+      "question_text": "Calculate: $4 1/9$ - $1 6/4$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "skills": "add-and-subtract-mixed-numbers",
+      "backend_description": "Shows the subtraction of two mixed numbers: 4 1/9 - 1 6/4 with an empty box for the answer.",
       "tag": "Gr7_17_E1",
       "question_type": "Fill in the blank",
       "question_number": "1_38",
       "has_alternative_answers": true,
       "correct_answers": [
-        "14/3"
+        "1 11/18"
       ],
       "solution_image_tag": [
         [
           "1/6",
-          "Gr7_17_1_2_step_38",
+          "Gr7_17_1_2_step_39",
           "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
         ],
         [
           "2/6",
-          "Gr7_17_1_2_step_38",
+          "Gr7_17_1_2_step_39",
           "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
         ],
         [
           "5/6",
-          "Gr7_17_1_2_step_38",
+          "Gr7_17_1_2_step_39",
           "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
         ]
       ],
@@ -1890,7 +1908,7 @@
         ],
         [
           "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
         ],
         [
           "5/6",
@@ -1903,31 +1921,30 @@
       ]
     },
     {
-      "question_text": "Calculate: $1$ + $2/5$ = ?",
+      "question_text": "Calculate: $7 3/12$ - $5 7/2$ = ? Answer as a mixed fraction Express your answer in simplest form.",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_39",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 7 3/12 - 5 7/2 with an empty box for the answer.",
       "tag": "Gr7_17_E1",
       "question_type": "Fill in the blank",
       "question_number": "1_39",
       "has_alternative_answers": true,
       "correct_answers": [
-        "7/5"
+        "-1 1/4"
       ],
       "solution_image_tag": [
         [
           "1/6",
-          "Gr7_17_1_2_step_39",
+          "Gr7_17_1_2_step_40",
           "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
         ],
         [
           "2/6",
-          "Gr7_17_1_2_step_39",
+          "Gr7_17_1_2_step_40",
           "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
         ],
         [
           "5/6",
-          "Gr7_17_1_2_step_39",
+          "Gr7_17_1_2_step_40",
           "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
         ]
       ],
@@ -1946,7 +1963,7 @@
         ],
         [
           "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
         ],
         [
           "5/6",
@@ -1959,71 +1976,14 @@
       ]
     },
     {
-      "question_text": "Calculate: $5/3$ + $4/11$ = ?",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_40",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
-      "tag": "Gr7_17_E1",
+      "question_text": "Calculate: $1 7/11$ - $1 8/6$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 1 7/11 - 1 8/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "question_number": "1_40",
       "has_alternative_answers": true,
       "correct_answers": [
-        "67/33"
-      ],
-      "solution_image_tag": [
-        [
-          "1/6",
-          "Gr7_17_1_2_step_40",
-          "Shows the subtraction problem 15 1/11 - 6 8/11 set up vertically, preparing for the borrowing process since 1/11 is smaller than 8/11."
-        ],
-        [
-          "2/6",
-          "Gr7_17_1_2_step_40",
-          "Demonstrates the borrowing process: 15 1/11 is rewritten as 14 12/11 by borrowing 1 from the whole number (which equals 11/11) and adding it to 1/11."
-        ],
-        [
-          "5/6",
-          "Gr7_17_1_2_step_40",
-          "Shows the final answer: 8 4/11, after subtracting both the whole numbers (14 - 6 = 8) and the fractions (12/11 - 8/11 = 4/11)."
-        ]
-      ],
-      "solution": [
-        [
-          "1/6",
-          "We are subtracting two mixed numbers:\n"
-        ],
-        [
-          "2/6",
-          "We can't subtract $\\frac{8}{11}$ from $\\frac{1}{11}$, so we need to borrow 1 from the whole number part of 15 dollars \\frac{1}{11}$:\n"
-        ],
-        [
-          "3/6",
-          "Rewrite 15 dollars \\frac{1}{11}$ as 14 dollars \\frac{12}{11}$. Now we can subtract 6 dollars \\frac{8}{11}$."
-        ],
-        [
-          "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
-        ],
-        [
-          "5/6",
-          "Now add the whole number and the fraction:\n"
-        ],
-        [
-          "6/6",
-          "The final answer is 8 dollars \\frac{4}{11}$."
-        ]
-      ]
-    },
-    {
-      "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $1$ + $2$ = ?",
-      "image_tag": "Gr7_17_1_41",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
-      "question_type": "Fill in the blank",
-      "question_number": "1_41",
-      "has_alternative_answers": true,
-      "correct_answers": [
-        "3"
+        "-23/33"
       ],
       "solution_image_tag": [
         [
@@ -2062,14 +2022,13 @@
     },
     {
       "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $7/5$ + $1/2$ = ?",
-      "image_tag": "Gr7_17_1_42",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
+      "question_text": "Calculate: $3 8/3$ + $1 2/10$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the addition of two mixed numbers: 3 8/3 + 1 2/10 with an empty box for the answer.",
       "question_type": "Fill in the blank",
-      "question_number": "1_42",
+      "question_number": "1_41",
       "has_alternative_answers": true,
       "correct_answers": [
-        "19/10"
+        "6 13/15"
       ],
       "solution_image_tag": [
         [
@@ -2108,14 +2067,13 @@
     },
     {
       "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $2/3$ + $2/5$ = ?",
-      "image_tag": "Gr7_17_1_43",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
+      "question_text": "Calculate: $2 7/12$ + $4 8/12$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the addition of two mixed numbers: 2 7/12 + 4 8/12 with an empty box for the answer.",
       "question_type": "Fill in the blank",
-      "question_number": "1_43",
+      "question_number": "1_42",
       "has_alternative_answers": true,
       "correct_answers": [
-        "16/15"
+        "7 1/4"
       ],
       "solution_image_tag": [
         [
@@ -2153,16 +2111,15 @@
       "tag": "Gr7_17_E1"
     },
     {
-      "question_text": "Calculate: $6/5$ + $2/3$ = ?",
+      "question_text": "Calculate: $7 9/8$ - $5 3/10$ = ? Answer as a mixed fraction Express your answer in simplest form.",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_44",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 7 9/8 - 5 3/10 with an empty box for the answer.",
       "tag": "Gr7_17_E1",
       "question_type": "Fill in the blank",
-      "question_number": "1_44",
+      "question_number": "1_43",
       "has_alternative_answers": true,
       "correct_answers": [
-        "28/15"
+        "2 33/40"
       ],
       "solution_image_tag": [
         [
@@ -2196,7 +2153,7 @@
         ],
         [
           "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
         ],
         [
           "5/6",
@@ -2210,14 +2167,13 @@
     },
     {
       "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $1/6$ + $1$ = ?",
-      "image_tag": "Gr7_17_1_45",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
+      "question_text": "Calculate: $4 2/2$ + $4 1/2$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the addition of two mixed numbers: 4 2/2 + 4 1/2 with an empty box for the answer.",
       "question_type": "Fill in the blank",
-      "question_number": "1_45",
+      "question_number": "1_44",
       "has_alternative_answers": true,
       "correct_answers": [
-        "7/6"
+        "9 1/2"
       ],
       "solution_image_tag": [
         [
@@ -2255,16 +2211,15 @@
       "tag": "Gr7_17_E1"
     },
     {
-      "question_text": "Calculate: $1/3$ + $5/12$ = ?",
+      "question_text": "Calculate: $8 3/9$ - $2 1/8$ = ? Answer as a mixed fraction Express your answer in simplest form.",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_46",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 8 3/9 - 2 1/8 with an empty box for the answer.",
       "tag": "Gr7_17_E1",
       "question_type": "Fill in the blank",
-      "question_number": "1_46",
+      "question_number": "1_45",
       "has_alternative_answers": true,
       "correct_answers": [
-        "3/4"
+        "6 5/24"
       ],
       "solution_image_tag": [
         [
@@ -2298,7 +2253,7 @@
         ],
         [
           "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
         ],
         [
           "5/6",
@@ -2312,14 +2267,13 @@
     },
     {
       "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $3/4$ + $11/4$ = ?",
-      "image_tag": "Gr7_17_1_47",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
+      "question_text": "Calculate: $7 4/11$ + $4 9/9$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the addition of two mixed numbers: 7 4/11 + 4 9/9 with an empty box for the answer.",
       "question_type": "Fill in the blank",
-      "question_number": "1_47",
+      "question_number": "1_46",
       "has_alternative_answers": true,
       "correct_answers": [
-        "7/2"
+        "12 4/11"
       ],
       "solution_image_tag": [
         [
@@ -2358,14 +2312,13 @@
     },
     {
       "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $1$ + $11/2$ = ?",
-      "image_tag": "Gr7_17_1_48",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
+      "question_text": "Calculate: $3 2/3$ + $7 1/8$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the addition of two mixed numbers: 3 2/3 + 7 1/8 with an empty box for the answer.",
       "question_type": "Fill in the blank",
-      "question_number": "1_48",
+      "question_number": "1_47",
       "has_alternative_answers": true,
       "correct_answers": [
-        "13/2"
+        "10 19/24"
       ],
       "solution_image_tag": [
         [
@@ -2403,16 +2356,15 @@
       "tag": "Gr7_17_E1"
     },
     {
-      "question_text": "Calculate: $11/3$ + $3/5$ = ?",
+      "question_text": "Calculate: $3 9/9$ + $2 8/2$ = ? Answer as a mixed fraction Express your answer in simplest form.",
       "skills": "add-and-subtract-mixed-numbers",
-      "image_tag": "Gr7_17_1_49",
-      "backend_description": "Shows the subtraction of two mixed numbers: 15 1/11 - 6 8/11 with an empty box for the answer.",
+      "backend_description": "Shows the addition of two mixed numbers: 3 9/9 + 2 8/2 with an empty box for the answer.",
       "tag": "Gr7_17_E1",
       "question_type": "Fill in the blank",
-      "question_number": "1_49",
+      "question_number": "1_48",
       "has_alternative_answers": true,
       "correct_answers": [
-        "64/15"
+        "10"
       ],
       "solution_image_tag": [
         [
@@ -2446,7 +2398,7 @@
         ],
         [
           "4/6",
-          "Subtract the whole numbers: 14 − 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} − \\frac{8}{11} = \\frac{4}{11}$."
+          "Subtract the whole numbers: 14 \u2212 6 = 8.\n\nSubtract the fractions: $\\frac{12}{11} \u2212 \\frac{8}{11} = \\frac{4}{11}$."
         ],
         [
           "5/6",
@@ -2460,14 +2412,13 @@
     },
     {
       "skills": "add-and-subtract-mixed-numbers",
-      "question_text": "Calculate: $6/11$ + $8/3$ = ?",
-      "image_tag": "Gr7_17_1_50",
-      "backend_description": "Shows the addition of two mixed numbers: 2 8/11 + 8 8/11 with an empty box for the answer.",
+      "question_text": "Calculate: $7 5/10$ - $6 7/7$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 7 5/10 - 6 7/7 with an empty box for the answer.",
       "question_type": "Fill in the blank",
-      "question_number": "1_50",
+      "question_number": "1_49",
       "has_alternative_answers": true,
       "correct_answers": [
-        "106/33"
+        "1/2"
       ],
       "solution_image_tag": [
         [
@@ -2496,6 +2447,96 @@
         [
           "5/6",
           "Since $\\frac{16}{11}$ is an improper fraction, convert it to a mixed number:\n\n $\\frac{16}{11} = 1 \\frac{5}{11}$."
+        ],
+        [
+          "6/6",
+          "Now add the whole numbers: 10 + 1 = 11.\n\n So the final answer is 11 dollars \\frac{5}{11}$."
+        ]
+      ],
+      "tag": "Gr7_17_E1"
+    },
+    {
+      "skills": "add-and-subtract-mixed-numbers",
+      "question_text": "Calculate: $6 6/2$ - $2 5/9$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the subtraction of two mixed numbers: 6 6/2 - 2 5/9 with an empty box for the answer.",
+      "question_type": "Fill in the blank",
+      "question_number": "1_50",
+      "has_alternative_answers": true,
+      "correct_answers": [
+        "6 4/9"
+      ],
+      "solution_image_tag": [
+        [
+          "4/6",
+          "Gr7_17_1_1_step_51",
+          "Shows the intermediate calculation: 10 + 16/11. The whole numbers have been added (2 + 8 = 10) and the fractions added (8/11 + 8/11 = 16/11), demonstrating the next step is to convert the improper fraction."
+        ]
+      ],
+      "solution": [
+        [
+          "1/6",
+          "We are adding two mixed numbers: 2 dollars \\frac{8}{11} + 8 \\frac{8}{11}$."
+        ],
+        [
+          "2/6",
+          "First, add the whole numbers: 2 + 8 = 10."
+        ],
+        [
+          "3/6",
+          "Next, add the fractions: $\\frac{8}{11} + \\frac{8}{11} = \\frac{17}{11}$."
+        ],
+        [
+          "4/6",
+          "Now we have the following equation:\n"
+        ],
+        [
+          "5/6",
+          "Since $\\frac{17}{11}$ is an improper fraction, convert it to a mixed number:\n\n $\\frac{16}{11} = 1 \\frac{5}{11}$."
+        ],
+        [
+          "6/6",
+          "Now add the whole numbers: 10 + 1 = 11.\n\n So the final answer is 11 dollars \\frac{5}{11}$."
+        ]
+      ],
+      "tag": "Gr7_17_E1"
+    },
+    {
+      "skills": "add-and-subtract-mixed-numbers",
+      "question_text": "Calculate: $8 5/3$ + $4 4/2$ = ? Answer as a mixed fraction Express your answer in simplest form.",
+      "backend_description": "Shows the addition of two mixed numbers: 8 5/3 + 4 4/2 with an empty box for the answer.",
+      "question_type": "Fill in the blank",
+      "question_number": "1_51",
+      "has_alternative_answers": true,
+      "correct_answers": [
+        "15 2/3"
+      ],
+      "solution_image_tag": [
+        [
+          "4/6",
+          "Gr7_17_1_1_step_52",
+          "Shows the intermediate calculation: 10 + 16/11. The whole numbers have been added (2 + 8 = 10) and the fractions added (8/11 + 8/11 = 16/11), demonstrating the next step is to convert the improper fraction."
+        ]
+      ],
+      "solution": [
+        [
+          "1/6",
+          "We are adding two mixed numbers: 2 dollars \\frac{8}{11} + 8 \\frac{8}{11}$."
+        ],
+        [
+          "2/6",
+          "First, add the whole numbers: 2 + 8 = 10."
+        ],
+        [
+          "3/6",
+          "Next, add the fractions: $\\frac{8}{11} + \\frac{8}{11} = \\frac{18}{11}$."
+        ],
+        [
+          "4/6",
+          "Now we have the following equation:\n"
+        ],
+        [
+          "5/6",
+          "Since $\\frac{18}{11}$ is an improper fraction, convert it to a mixed number:\n\n $\\frac{16}{11} = 1 \\frac{5}{11}$."
         ],
         [
           "6/6",

@@ -2,35 +2,42 @@
   "quizzes": [
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $2/5$ ÷ $11/7$ = ?",
-      "image_tag": "Gr7_22_3_2",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $2/5$ \u00f7 $11/7$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
         "14/55"
       ],
-      "solution_image_tag": [
+      "solution": [
         [
           "1/4",
-          "Gr7_22_3_1_step_2",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
+          "Convert the mixed number 1 dollar \\frac{1}{3}$ to an improper fraction:\n"
         ],
         [
           "2/4",
-          "Gr7_22_3_1_step_2",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
+          "Now change the division to multiplication by using the reciprocal of $\\frac{5}{6}$ ($\\frac{6}{5}$):\n"
         ],
         [
           "3/4",
-          "Gr7_22_3_1_step_2",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
+          "Multiply the numerators and denominators:\n"
         ],
         [
           "4/4",
-          "Gr7_22_3_1_step_2",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
+          "Simplify $\\frac{24}{15}$. Divide both by 3 to get $\\frac{8}{5}$, which is 1 dollar \\frac{3}{5}$ as a mixed number.\n"
         ]
+      ],
+      "tag": "Gr7_22_E3",
+      "question_number": "3_1"
+    },
+    {
+      "skills": "divide-fractions-and-mixed-numbers",
+      "question_text": "Calculate: $11/8$ \u00f7 $9/7$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
+      "question_type": "Fill in the blank",
+      "has_alternative_answers": true,
+      "correct_answers": [
+        "77/72"
       ],
       "solution": [
         [
@@ -55,35 +62,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $11/8$ ÷ $9/7$ = ?",
-      "image_tag": "Gr7_22_3_3",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $4/3$ \u00f7 $11/2$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "77/72"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_3",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_3",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_3",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_3",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "8/33"
       ],
       "solution": [
         [
@@ -108,35 +92,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $4/3$ ÷ $11/2$ = ?",
-      "image_tag": "Gr7_22_3_4",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $1$ \u00f7 $1/8$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "8/33"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_4",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_4",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_4",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_4",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "8"
       ],
       "solution": [
         [
@@ -161,35 +122,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $1$ ÷ $1/8$ = ?",
-      "image_tag": "Gr7_22_3_5",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $5/6$ \u00f7 $1$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "8"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_5",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_5",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_5",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_5",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "5/6"
       ],
       "solution": [
         [
@@ -214,35 +152,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $5/6$ ÷ $1$ = ?",
-      "image_tag": "Gr7_22_3_6",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $1/2$ \u00f7 $4/7$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "5/6"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_6",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_6",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_6",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_6",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "7/8"
       ],
       "solution": [
         [
@@ -267,35 +182,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $1/2$ ÷ $4/7$ = ?",
-      "image_tag": "Gr7_22_3_7",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $3/2$ \u00f7 $1/2$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "7/8"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_7",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_7",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_7",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_7",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "3"
       ],
       "solution": [
         [
@@ -320,35 +212,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $3/2$ ÷ $1/2$ = ?",
-      "image_tag": "Gr7_22_3_8",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $6/5$ \u00f7 $4$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "3"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_8",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_8",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_8",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_8",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "3/10"
       ],
       "solution": [
         [
@@ -373,35 +242,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $6/5$ ÷ $4$ = ?",
-      "image_tag": "Gr7_22_3_9",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $1/2$ \u00f7 $1/6$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "3/10"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_9",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_9",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_9",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_9",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "3"
       ],
       "solution": [
         [
@@ -426,35 +272,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $1/2$ ÷ $1/6$ = ?",
-      "image_tag": "Gr7_22_3_10",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $7/8$ \u00f7 $1/8$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "3"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_10",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_10",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_10",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_10",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "7"
       ],
       "solution": [
         [
@@ -479,35 +302,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $7/8$ ÷ $1/8$ = ?",
-      "image_tag": "Gr7_22_3_11",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $3/11$ \u00f7 $11/3$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "7"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_11",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_11",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_11",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_11",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "9/121"
       ],
       "solution": [
         [
@@ -532,35 +332,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $3/11$ ÷ $11/3$ = ?",
-      "image_tag": "Gr7_22_3_12",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $7/12$ \u00f7 $1/4$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "9/121"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_12",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_12",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_12",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_12",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "7/3"
       ],
       "solution": [
         [
@@ -585,35 +362,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $7/12$ ÷ $1/4$ = ?",
-      "image_tag": "Gr7_22_3_13",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $1/2$ \u00f7 $1/8$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "7/3"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_13",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_13",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_13",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_13",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "4"
       ],
       "solution": [
         [
@@ -638,35 +392,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $1/2$ ÷ $1/8$ = ?",
-      "image_tag": "Gr7_22_3_14",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $3$ \u00f7 $10/7$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "4"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_14",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_14",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_14",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_14",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "21/10"
       ],
       "solution": [
         [
@@ -691,35 +422,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $3$ ÷ $10/7$ = ?",
-      "image_tag": "Gr7_22_3_15",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $5$ \u00f7 $2$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "21/10"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_15",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_15",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_15",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_15",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "5/2"
       ],
       "solution": [
         [
@@ -744,35 +452,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $5$ ÷ $2$ = ?",
-      "image_tag": "Gr7_22_3_16",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $10/9$ \u00f7 $9/8$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "5/2"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_16",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_16",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_16",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_16",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "80/81"
       ],
       "solution": [
         [
@@ -797,35 +482,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $10/9$ ÷ $9/8$ = ?",
-      "image_tag": "Gr7_22_3_17",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $5/12$ \u00f7 $3/11$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "80/81"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_17",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_17",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_17",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_17",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "55/36"
       ],
       "solution": [
         [
@@ -850,35 +512,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $5/12$ ÷ $3/11$ = ?",
-      "image_tag": "Gr7_22_3_18",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $1/2$ \u00f7 $11/9$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "55/36"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_18",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_18",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_18",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_18",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "9/22"
       ],
       "solution": [
         [
@@ -903,35 +542,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $1/2$ ÷ $11/9$ = ?",
-      "image_tag": "Gr7_22_3_19",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $4/5$ \u00f7 $5/2$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "9/22"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_19",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_19",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_19",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_19",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "8/25"
       ],
       "solution": [
         [
@@ -956,35 +572,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $4/5$ ÷ $5/2$ = ?",
-      "image_tag": "Gr7_22_3_20",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $1/6$ \u00f7 $9/4$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "8/25"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_20",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_20",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_20",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_20",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "2/27"
       ],
       "solution": [
         [
@@ -1009,35 +602,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $1/6$ ÷ $9/4$ = ?",
-      "image_tag": "Gr7_22_3_21",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $5/6$ \u00f7 $2$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "2/27"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_21",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_21",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_21",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_21",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "5/12"
       ],
       "solution": [
         [
@@ -1062,35 +632,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $5/6$ ÷ $2$ = ?",
-      "image_tag": "Gr7_22_3_22",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $11/12$ \u00f7 $4$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "5/12"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_22",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_22",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_22",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_22",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "11/48"
       ],
       "solution": [
         [
@@ -1115,35 +662,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $11/12$ ÷ $4$ = ?",
-      "image_tag": "Gr7_22_3_23",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $2$ \u00f7 $8/9$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "11/48"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_23",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_23",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_23",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_23",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "9/4"
       ],
       "solution": [
         [
@@ -1168,35 +692,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $2$ ÷ $8/9$ = ?",
-      "image_tag": "Gr7_22_3_24",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $9/4$ \u00f7 $2/11$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "9/4"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_24",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_24",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_24",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_24",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "99/8"
       ],
       "solution": [
         [
@@ -1221,35 +722,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $9/4$ ÷ $2/11$ = ?",
-      "image_tag": "Gr7_22_3_25",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $4/5$ \u00f7 $6$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "99/8"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_25",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_25",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_25",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_25",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "2/15"
       ],
       "solution": [
         [
@@ -1274,35 +752,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $4/5$ ÷ $6$ = ?",
-      "image_tag": "Gr7_22_3_26",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $3/2$ \u00f7 $8/3$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "2/15"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_26",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_26",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_26",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_26",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "9/16"
       ],
       "solution": [
         [
@@ -1327,35 +782,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $3/2$ ÷ $8/3$ = ?",
-      "image_tag": "Gr7_22_3_27",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $3$ \u00f7 $5/2$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "9/16"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_27",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_27",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_27",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_27",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "6/5"
       ],
       "solution": [
         [
@@ -1380,35 +812,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $3$ ÷ $5/2$ = ?",
-      "image_tag": "Gr7_22_3_28",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $1$ \u00f7 $1/9$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "6/5"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_28",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_28",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_28",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_28",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "9"
       ],
       "solution": [
         [
@@ -1433,35 +842,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $1$ ÷ $1/9$ = ?",
-      "image_tag": "Gr7_22_3_29",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $9/2$ \u00f7 $7/12$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "9"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_29",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_29",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_29",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_29",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "54/7"
       ],
       "solution": [
         [
@@ -1486,35 +872,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $9/2$ ÷ $7/12$ = ?",
-      "image_tag": "Gr7_22_3_30",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $9/8$ \u00f7 $1$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "54/7"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_30",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_30",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_30",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_30",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "9/8"
       ],
       "solution": [
         [
@@ -1539,35 +902,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $9/8$ ÷ $1$ = ?",
-      "image_tag": "Gr7_22_3_31",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $3/11$ \u00f7 $2/3$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "9/8"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_31",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_31",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_31",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_31",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "9/22"
       ],
       "solution": [
         [
@@ -1592,35 +932,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $3/11$ ÷ $2/3$ = ?",
-      "image_tag": "Gr7_22_3_32",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $8/9$ \u00f7 $7/9$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "9/22"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_32",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_32",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_32",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_32",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "8/7"
       ],
       "solution": [
         [
@@ -1645,35 +962,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $8/9$ ÷ $7/9$ = ?",
-      "image_tag": "Gr7_22_3_33",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $5/4$ \u00f7 $3/7$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "8/7"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_33",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_33",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_33",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_33",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "35/12"
       ],
       "solution": [
         [
@@ -1698,35 +992,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $5/4$ ÷ $3/7$ = ?",
-      "image_tag": "Gr7_22_3_34",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $3/5$ \u00f7 $2/7$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "35/12"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_34",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_34",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_34",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_34",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "21/10"
       ],
       "solution": [
         [
@@ -1751,35 +1022,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $3/5$ ÷ $2/7$ = ?",
-      "image_tag": "Gr7_22_3_35",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $1/2$ \u00f7 $9/7$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "21/10"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_35",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_35",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_35",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_35",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "7/18"
       ],
       "solution": [
         [
@@ -1804,35 +1052,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $1/2$ ÷ $9/7$ = ?",
-      "image_tag": "Gr7_22_3_36",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $7/5$ \u00f7 $5/6$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "7/18"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_36",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_36",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_36",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_36",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "42/25"
       ],
       "solution": [
         [
@@ -1857,35 +1082,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $7/5$ ÷ $5/6$ = ?",
-      "image_tag": "Gr7_22_3_37",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $8/3$ \u00f7 $4/9$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "42/25"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_37",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_37",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_37",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_37",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "6"
       ],
       "solution": [
         [
@@ -1910,35 +1112,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $8/3$ ÷ $4/9$ = ?",
-      "image_tag": "Gr7_22_3_38",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $9/11$ \u00f7 $10/9$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "6"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_38",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_38",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_38",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_38",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "81/110"
       ],
       "solution": [
         [
@@ -1963,35 +1142,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $9/11$ ÷ $10/9$ = ?",
-      "image_tag": "Gr7_22_3_39",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $5/3$ \u00f7 $1/2$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "81/110"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_39",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_39",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_39",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_39",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "10/3"
       ],
       "solution": [
         [
@@ -2016,35 +1172,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $5/3$ ÷ $1/2$ = ?",
-      "image_tag": "Gr7_22_3_40",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $6/5$ \u00f7 $4/3$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "10/3"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_40",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_40",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_40",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_40",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "9/10"
       ],
       "solution": [
         [
@@ -2069,35 +1202,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $6/5$ ÷ $4/3$ = ?",
-      "image_tag": "Gr7_22_3_41",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $4/11$ \u00f7 $4/3$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "9/10"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_41",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_41",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_41",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_41",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "3/11"
       ],
       "solution": [
         [
@@ -2122,35 +1232,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $4/11$ ÷ $4/3$ = ?",
-      "image_tag": "Gr7_22_3_42",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $1$ \u00f7 $3/2$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "3/11"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_42",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_42",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_42",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_42",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "2/3"
       ],
       "solution": [
         [
@@ -2175,35 +1262,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $1$ ÷ $3/2$ = ?",
-      "image_tag": "Gr7_22_3_43",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $5/3$ \u00f7 $9/4$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "2/3"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_43",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_43",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_43",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_43",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "20/27"
       ],
       "solution": [
         [
@@ -2228,35 +1292,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $5/3$ ÷ $9/4$ = ?",
-      "image_tag": "Gr7_22_3_44",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $1/9$ \u00f7 $8/7$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "20/27"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_44",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_44",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_44",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_44",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "7/72"
       ],
       "solution": [
         [
@@ -2281,35 +1322,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $1/9$ ÷ $8/7$ = ?",
-      "image_tag": "Gr7_22_3_45",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $9/11$ \u00f7 $11/5$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "7/72"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_45",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_45",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_45",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_45",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "45/121"
       ],
       "solution": [
         [
@@ -2334,35 +1352,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $9/11$ ÷ $11/5$ = ?",
-      "image_tag": "Gr7_22_3_46",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $1/10$ \u00f7 $3/5$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "45/121"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_46",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_46",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_46",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_46",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "1/6"
       ],
       "solution": [
         [
@@ -2387,35 +1382,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $1/10$ ÷ $3/5$ = ?",
-      "image_tag": "Gr7_22_3_47",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $1/4$ \u00f7 $2$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "1/6"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_47",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_47",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_47",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_47",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "1/8"
       ],
       "solution": [
         [
@@ -2440,35 +1412,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $1/4$ ÷ $2$ = ?",
-      "image_tag": "Gr7_22_3_48",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $4/11$ \u00f7 $10/11$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "1/8"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_48",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_48",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_48",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_48",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "2/5"
       ],
       "solution": [
         [
@@ -2493,35 +1442,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $4/11$ ÷ $10/11$ = ?",
-      "image_tag": "Gr7_22_3_49",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $4/11$ \u00f7 $5/3$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "2/5"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_49",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_49",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_49",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_49",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "12/55"
       ],
       "solution": [
         [
@@ -2546,35 +1472,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $4/11$ ÷ $5/3$ = ?",
-      "image_tag": "Gr7_22_3_50",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $8/5$ \u00f7 $9/2$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
-        "12/55"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_50",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_50",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_50",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_50",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
+        "16/45"
       ],
       "solution": [
         [
@@ -2599,35 +1502,12 @@
     },
     {
       "skills": "divide-fractions-and-mixed-numbers",
-      "question_text": "Calculate: $8/5$ ÷ $9/2$ = ?",
-      "image_tag": "Gr7_22_3_51",
-      "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+      "question_text": "Calculate: $9/5$ \u00f7 $9/2$ = ? Express your answer in simplest form.",
+      "backend_description": "Shows the division problem 1 1/3 \u00f7 5/6 with an empty box for the answer.",
       "question_type": "Fill in the blank",
       "has_alternative_answers": true,
       "correct_answers": [
         "16/45"
-      ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_22_3_1_step_51",
-          "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-        ],
-        [
-          "2/4",
-          "Gr7_22_3_1_step_51",
-          "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-        ],
-        [
-          "3/4",
-          "Gr7_22_3_1_step_51",
-          "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-        ],
-        [
-          "4/4",
-          "Gr7_22_3_1_step_51",
-          "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-        ]
       ],
       "solution": [
         [
@@ -2644,7 +1524,7 @@
         ],
         [
           "4/4",
-          "Simplify $\\frac{24}{15}$. Divide both by 3 to get $\\frac{8}{5}$, which is 1 dollar \\frac{3}{5}$ as a mixed number.\n"
+          "Simplify $\\frac{24}{15}$. Divide both by 3 to get $\\frac{9}{5}$, which is 1 dollar \\frac{3}{5}$ as a mixed number.\n"
         ]
       ],
       "tag": "Gr7_22_E3",

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 30px;
+    }
+    .item {
+      margin: 20px;
+      padding: 15px;
+      border: 2px solid #ddd;
+      border-radius: 5px;
+      display: inline-block;
+      vertical-align: top;
+      background-color: white;
+    }
+    .item:hover {
+      border-color: #007bff;
+      box-shadow: 0 2px 8px rgba(0,123,255,0.2);
+    }
+    .choice-label {
+      font-weight: bold;
+      font-size: 18px;
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+    .equation-area {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      min-height: 100px;
+      background-color: #fafafa;
+      border: 1px solid #e0e0e0;
+      border-radius: 4px;
+      padding: 10px;
+    }
+    .tiles-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      align-items: center;
+      padding: 10px;
+    }
+    .x-tile {
+      width: 40px;
+      height: 60px;
+      background-color: #4CAF50;
+      border: 2px solid #388E3C;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .one-tile {
+      width: 25px;
+      height: 25px;
+      background-color: #FFC107;
+      border: 1px solid #F57C00;
+      border-radius: 2px;
+      display: inline-block;
+      margin: 2px;
+    }
+    .equals {
+      font-size: 30px;
+      font-weight: bold;
+      color: #333;
+      margin: 0 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Question 2_1: Which set of algebra tiles represents the equation 3x = 15?</h2>
+
+    <!-- Choice A -->
+    <div class="item" label="Gr7_33_2_1_A">
+      <div class="choice-label">A</div>
+      <div class="equation-area">
+        <div class="tiles-group">
+          <!-- 3 green x tiles -->
+          <div class="x-tile">x</div>
+          <div class="x-tile">x</div>
+          <div class="x-tile">x</div>
+        </div>
+        <div class="equals">=</div>
+        <div class="tiles-group">
+          <!-- 15 yellow 1 tiles arranged in rows -->
+          <div style="display: flex; flex-wrap: wrap; width: 130px;">
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Choice B -->
+    <div class="item" label="Gr7_33_2_1_B">
+      <div class="choice-label">B</div>
+      <div class="equation-area">
+        <div class="tiles-group">
+          <!-- 3 green x tiles plus 5 yellow 1 tiles -->
+          <div class="x-tile">x</div>
+          <div class="x-tile">x</div>
+          <div class="x-tile">x</div>
+          <span style="margin: 0 10px; font-size: 24px;">+</span>
+          <div style="display: flex; flex-wrap: wrap;">
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+          </div>
+        </div>
+        <div class="equals">=</div>
+        <div class="tiles-group">
+          <!-- 20 yellow 1 tiles -->
+          <div style="display: flex; flex-wrap: wrap; width: 130px;">
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Choice C -->
+    <div class="item" label="Gr7_33_2_1_C">
+      <div class="choice-label">C</div>
+      <div class="equation-area">
+        <div class="tiles-group">
+          <!-- 3 green x tiles -->
+          <div class="x-tile">x</div>
+          <div class="x-tile">x</div>
+          <div class="x-tile">x</div>
+        </div>
+        <div class="equals">=</div>
+        <div class="tiles-group">
+          <!-- 15 yellow 1 tiles arranged in three rows of 5 -->
+          <div style="display: flex; flex-direction: column; gap: 5px;">
+            <div style="display: flex;">
+              <div class="one-tile"></div>
+              <div class="one-tile"></div>
+              <div class="one-tile"></div>
+              <div class="one-tile"></div>
+              <div class="one-tile"></div>
+            </div>
+            <div style="display: flex;">
+              <div class="one-tile"></div>
+              <div class="one-tile"></div>
+              <div class="one-tile"></div>
+              <div class="one-tile"></div>
+              <div class="one-tile"></div>
+            </div>
+            <div style="display: flex;">
+              <div class="one-tile"></div>
+              <div class="one-tile"></div>
+              <div class="one-tile"></div>
+              <div class="one-tile"></div>
+              <div class="one-tile"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Choice D -->
+    <div class="item" label="Gr7_33_2_1_D">
+      <div class="choice-label">D</div>
+      <div class="equation-area">
+        <div class="tiles-group">
+          <!-- 4 green x tiles -->
+          <div class="x-tile">x</div>
+          <div class="x-tile">x</div>
+          <div class="x-tile">x</div>
+          <div class="x-tile">x</div>
+        </div>
+        <div class="equals">=</div>
+        <div class="tiles-group">
+          <!-- 16 yellow 1 tiles arranged in rows -->
+          <div style="display: flex; flex-wrap: wrap; width: 110px;">
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+            <div class="one-tile"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

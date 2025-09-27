@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question 12</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .question { margin-bottom: 20px; }
+        .image-container { margin: 20px 0; }
+        .choices { display: flex; flex-wrap: wrap; gap: 20px; }
+        .choice { border: 2px solid #ddd; padding: 10px; cursor: pointer; position: relative; min-width: 150px; }
+        .choice:hover { border-color: #007bff; }
+        .choice.correct { border-color: #28a745; background-color: #d4edda; }
+        .choice-label { position: absolute; top: -10px; left: 10px; background: white; padding: 2px 6px; font-weight: bold; }
+        .solution { margin-top: 30px; border-top: 2px solid #ccc; padding-top: 20px; }
+        .solution-step { margin: 15px 0; }
+        .solution-image { margin: 10px 0; }
+        .item { display: inline-block; margin: 10px; }
+    </style>
+</head>
+<body>
+    <div class="question">
+        <h2>Question 12</h2>
+        <p>Calculate: -26 + 19 = ?</p>
+        <div class="image-container">
+            <div class="item" label="Gr7_12_1_13">
+                <!-- Question image content for Gr7_12_1_13 would go here -->
+            </div>
+        </div>
+    </div>
+
+    <div class="choices">
+        <div class="choice">
+            <div class="choice-label">A</div>
+            <div class="item" label="Gr7_12_1_1_13">
+                <!-- Shows four yellow circles with plus signs, representing +4 -->
+            </div>
+        </div>
+        <div class="choice">
+            <div class="choice-label">B</div>
+            <div class="item" label="Gr7_12_1_1_13">
+                <!-- Shows three yellow circles with plus signs, representing +3 -->
+            </div>
+        </div>
+        <div class="choice">
+            <div class="choice-label">C</div>
+            <div class="item" label="Gr7_12_1_1_13">
+                <!-- Shows two red circles with minus signs, representing -2 -->
+            </div>
+        </div>
+        <div class="choice correct">
+            <div class="choice-label">D</div>
+            <div class="item" label="Gr7_12_1_1_13">
+                <!-- Shows four red circles with minus signs, representing -4 -->
+            </div>
+        </div>
+    </div>
+
+    <div class="solution">
+        <h3>Solution</h3>
+        <div class="solution-step">
+            <p><strong>Step 1/6:</strong> We are trying to solve –2 − 2 using counters.</p>
+        </div>
+        <div class="solution-step">
+            <p><strong>Step 2/6:</strong> Start with 2 negative counters to represent –2.</p>
+            <div class="solution-image">
+                <div class="item" label="Gr7_12_1_1_step_13">
+                    <!-- Shows two red circles with minus signs, representing the starting value of -2. -->
+                </div>
+            </div>
+        </div>
+        <div class="solution-step">
+            <p><strong>Step 3/6:</strong> Now we must subtract another 2 counters. Since there are no positive counters, we can add another 2 negative counters.</p>
+            <div class="solution-image">
+                <div class="item" label="Gr7_12_1_1_step_13">
+                    <!-- Shows the original two red circles (-2) plus two additional yellow circles with plus signs (+2), demonstrating the need to add zero pairs to perform the subtraction. -->
+                </div>
+            </div>
+        </div>
+        <div class="solution-step">
+            <p><strong>Step 4/6:</strong> We are left with 4 negative counters.</p>
+            <div class="solution-image">
+                <div class="item" label="Gr7_12_1_1_step_13">
+                    <!-- Shows four red circles with minus signs and two yellow circles with plus signs crossed out, indicating the removal of the two positive counters, leaving four negative counters (-4). -->
+                </div>
+            </div>
+        </div>
+        <div class="solution-step">
+            <p><strong>Step 5/6:</strong> Now take away 2 positive counters:</p>
+        </div>
+        <div class="solution-step">
+            <p><strong>Step 6/6:</strong> So, –2 − 2 = –4.
+
+Option D is correct because it shows 4 negative counters.</p>
+        </div>
+    </div>
+</body>
+</html>

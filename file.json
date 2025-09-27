@@ -1,630 +1,110 @@
-  {
-    "skills": "divide-fractions",
-    "question_text": "Divide.\n\n2 dollars ÷ 1/2 = \\_\\_\\_\\_ $\n\n",
+ {
+    "skills": "add-fractions-with-unlike-denominators-using-models",
+    "question_text": "Add.\n\n$\\frac{2}{3} + \\frac{1}{6} = \\_\\_\\_\\_$\n\nUse the model to help you.\n",
     "question_type": "Fill in the blank",
-    "has_alternative_answers": true,
+    "image_tag": "Gr7_14_1_1",
+    "backend_description": "Visual model showing 2/3 + 1/6 using rectangular bars. The top bar is divided into thirds with two sections shaded blue, and the bottom bar is divided into sixths with one section shaded green.",
     "correct_answers": [
-      [
-        "4"
-      ],
-      [
-        "4/1"
-      ],
-      [
-        "4.0"
-      ]
+      "5/6"
     ],
     "solution": [
       [
         "1/4",
-        "You are dividing 2 by $\\frac{1}{2}$.\n2 dollars ÷ \\frac{1}{2}$."
+        "The model shows $\\frac{2}{3} + \\frac{1}{6}$."
       ],
       [
         "2/4",
-        "To divide by a fraction, multiply by its reciprocal. The reciprocal of $\\frac{1}{2}$ is $\\frac{2}{1}$."
+        "Rewrite the fractions so they share a common denominator. $\\frac{2}{3}$ is equivalent to $\\frac{4}{6}$."
       ],
       [
         "3/4",
-        "So, 2 dollars ÷ \\frac{1}{2} = 2 x \\frac{2}{1} = 4$."
+        "So, $\\frac{2}{3} + \\frac{1}{6}$ is the same as $\\frac{4}{6} + \\frac{1}{6}$.\n\nNow add: $\\frac{4}{6} + \\frac{1}{6} = \\frac{5}{6}$"
       ],
       [
         "4/4",
-        "Therefore, 2 dollars ÷ \\frac{1}{2} = 4$."
+        "Therefore, $\\frac{2}{3} + \\frac{1}{6} = \\frac{5}{6}$."
       ]
     ],
-    "tag": "Gr7_22_E1",
+    "tag": "Gr7_14_E1",
     "question_number": "1_1",
     "solution_image_tag": []
   },
   {
-    "skills": "divide-fractions-word-problems",
-    "question_text": "A gardener spread $\\frac{1}{2}$ of a bag of mulch evenly over her 4 equal-sized vegetable beds.\n\nHow much mulch did she put on each vegetable bed?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n",
+    "skills": "add-fractions-with-unlike-denominators",
+    "question_text": "Add.\n",
+    "image_tag": "Gr7_14_2_1",
+    "backend_description": "Shows the addition problem 1/6 + 1/2 with an empty box for the answer.",
     "question_type": "Fill in the blank",
     "has_alternative_answers": true,
     "correct_answers": [
       [
-        "1/8"
+        "4/6"
       ],
       [
-        "0.125"
+        "2/3"
       ]
     ],
     "solution_image_tag": [
       [
-        "1/4",
-        "Gr7_22_2_1_step_1",
-        "Shows the division problem: 1/2 ÷ 4. The gardener is dividing 1/2 bag of mulch among 4 beds."
-      ],
-      [
         "2/4",
-        "Gr7_22_2_1_step_2",
-        "Shows converting 4 to a fraction: 4 = 4/1. This allows the division to be rewritten as fraction ÷ fraction."
+        "Gr7_14_2_1_step_2",
+        "Shows the conversion of 1/2 to 3/6 by multiplying both numerator and denominator by 3. The calculation 1x3/2x3 = 3/6 is displayed."
       ],
       [
         "3/4",
-        "Gr7_22_2_1_step_3",
-        "Shows converting division to multiplication by the reciprocal: 1/2 ÷ 4/1 = 1/2 x 1/4. The reciprocal of 4/1 is 1/4."
-      ],
-      [
-        "4/4",
-        "Gr7_22_2_1_step_4",
-        "Shows the final multiplication: 1/2 x 1/4 = 1/8. Multiplying the numerators (1 x 1 = 1) and denominators (2 x 4 = 8) gives the answer."
+        "Gr7_14_2_1_step_3",
+        "Shows the final addition with common denominators: 1/6 + 3/6 = 4/6. Both fractions now have the same denominator, making addition straightforward."
       ]
     ],
     "solution": [
       [
         "1/4",
-        "The gardener used 1/2 of a bag of mulch and spread it evenly over 4 beds. So we divide:."
+        "We are adding $\\frac{1}{6} + \\frac{1}{2}$. Since the denominators are different, we need to find a common denominator."
       ],
       [
         "2/4",
-        "To divide by a whole number, turn it into a fraction:\n"
+        "The least common denominator of 6 and 2 is 6. Rewrite $\\frac{1}{2}$ using a denominator of 6 by multiplying the numerator and denominator by 3:\n"
       ],
       [
         "3/4",
-        "Now multiply by the reciprocal of 4/1, which is 1/4:\n"
+        "So, $\\frac{1}{6} + \\frac{1}{2}$ is the same as $\\frac{1}{6} + \\frac{3}{6}$.\n\nNow add:\n"
       ],
       [
         "4/4",
-        "So, the gardener used 1/8 of a bag of mulch for each vegetable bed.\n"
+        "So, $\\frac{1}{6} + \\frac{1}{2} = \\frac{4}{6}$.\n\nThis can be simplified to $\\frac{2}{3}$."
       ]
     ],
-    "tag": "Gr7_22_E2",
+    "tag": "Gr7_14_E2",
     "question_number": "2_1"
   },
   {
-    "skills": "divide-fractions-and-mixed-numbers",
-    "question_text": "Divide.\n",
-    "image_tag": "Gr7_22_3_1",
-    "backend_description": "Shows the division problem 1 1/3 ÷ 5/6 with an empty box for the answer.",
+    "skills": "subtract-fractions-with-unlike-denominators-using-models",
+    "question_text": "Subtract the fractions.\n\n$\\frac{4}{6} - \\frac{1}{2} = \\_\\_\\_\\_$\n\nUse the model to help you.\n",
+    "image_tag": "Gr7_15_1_1",
+    "backend_description": "Visual model showing 4/6 - 1/2 using rectangular bars. One bar shows 4 out of 6 sections shaded, and another shows 1 out of 2 sections shaded.",
     "question_type": "Fill in the blank",
-    "has_alternative_answers": true,
     "correct_answers": [
-      [
-        "1 3/5"
-      ],
-      [
-        "8/5"
-      ],
-      [
-        "24/15"
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr7_22_3_1_step_1",
-        "Shows converting the mixed number 1 1/3 to an improper fraction: 1 1/3 = 4/3. The calculation shows (1 x 3 + 1)/3 = 4/3."
-      ],
-      [
-        "2/4",
-        "Gr7_22_3_1_step_2",
-        "Shows converting division to multiplication by the reciprocal: 4/3 ÷ 5/6 = 4/3 x 6/5. The reciprocal of 5/6 is 6/5."
-      ],
-      [
-        "3/4",
-        "Gr7_22_3_1_step_3",
-        "Shows the multiplication with simplification: The 3 in the denominator and 6 in the numerator can be simplified. 6 ÷ 3 = 2, giving us (4 x 2)/(1 x 5) = 8/5."
-      ],
-      [
-        "4/4",
-        "Gr7_22_3_1_step_4",
-        "Shows converting the improper fraction to a mixed number: 8/5 = 1 3/5. Since 8 ÷ 5 = 1 remainder 3, the answer is 1 3/5."
-      ]
+      "1/6"
     ],
     "solution": [
       [
         "1/4",
-        "Convert the mixed number 1 dollar \\frac{1}{3}$ to an improper fraction:\n"
+        "The model shows $\\frac{4}{6} - \\frac{1}{2}$."
       ],
       [
         "2/4",
-        "Now change the division to multiplication by using the reciprocal of $\\frac{5}{6}$ ($\\frac{6}{5}$):\n"
+        "Rewrite the fractions so they share a common denominator. $\\frac{1}{2}$ is the same as $\\frac{3}{6}$."
       ],
       [
         "3/4",
-        "Multiply the numerators and denominators:\n"
+        "So, $\\frac{4}{6} - \\frac{1}{2}$ is the same as $\\frac{4}{6} - \\frac{3}{6}$.\n\nNow subtract: $\\frac{4}{6} - \\frac{3}{6} = \\frac{1}{6}$"
       ],
       [
         "4/4",
-        "Simplify $\\frac{24}{15}$. Divide both by 3 to get $\\frac{8}{5}$, which is 1 dollar \\frac{3}{5}$ as a mixed number.\n"
+        "Therefore, $\\frac{4}{6} - \\frac{1}{2} = \\frac{1}{6}$"
       ]
     ],
-    "tag": "Gr7_22_E3",
-    "question_number": "3_1"
-  },
-  {
-    "skills": "divide-fractions-and-mixed-numbers-word-problems",
-    "question_text": "A veterinarian divided $\\frac{3}{5}$ of a bottle of medicine equally among 3 dollars$ sick cats. How much did she give each sick cat?\n\nWrite your answer as a fraction or as a whole or mixed number.\n\n",
-    "question_type": "Fill in the blank",
-    "has_alternative_answers": true,
-    "correct_answers": [
-      [
-        "1/5"
-      ],
-      [
-        "0.2"
-      ],
-      [
-        "0.20"
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/4",
-        "Gr7_22_4_1_step_1",
-        "Shows the division problem: 3/5 ÷ 3. The veterinarian is dividing 3/5 of a bottle among 3 cats."
-      ],
-      [
-        "2/4",
-        "Gr7_22_4_1_step_2",
-        "Shows converting to multiplication by the reciprocal: 3/5 ÷ 3 = 3/5 x 1/3. When dividing by 3, multiply by 1/3."
-      ],
-      [
-        "3/4",
-        "Gr7_22_4_1_step_3",
-        "Shows the simplification: The 3 in the numerator of the first fraction cancels with the 3 in the denominator of the second fraction, leaving 1/5 x 1/1 = 1/5."
-      ],
-      [
-        "4/4",
-        "Gr7_22_4_1_step_4",
-        "Shows the final answer: 1/5. Each cat receives 1/5 of a bottle of medicine."
-      ]
-    ],
-    "solution": [
-      [
-        "1/4",
-        "Divide the total amount of bottles of medicine by the number of cats:\n"
-      ],
-      [
-        "2/4",
-        "Turn this from a division problem into a multiplication problem by multiplying by the reciprocal:\n"
-      ],
-      [
-        "3/4",
-        "Cancel common factors, then multiply:\n"
-      ],
-      [
-        "4/4",
-        "The veterinarian gave $\\frac{1}{5}$ of a bottle to each cat.\n"
-      ]
-    ],
-    "tag": "Gr7_22_E4",
-    "question_number": "4_1"
-  },
-  {
-    "skills": "multiply-decimals-and-whole-numbers-word-problems",
-    "question_text": "Each metal ball weighs 0.6 grams. How much do 2 metal balls weigh in all?\n\n",
-    "question_type": "Fill in the blank",
-    "has_alternative_answers": true,
-    "correct_answers": [
-      [
-        "1.2"
-      ],
-      [
-        "1.20"
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "2/5",
-        "Gr7_23_2_1_step_2",
-        "Shows the multiplication calculation: 0.6 x 2. First multiply ignoring the decimal: 6 x 2 = 12. Then place the decimal point based on the total decimal places in the factors."
-      ]
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Multiply the weight of each metal ball by the number of balls."
-      ],
-      [
-        "2/5",
-        "Multiply as you would multiply whole numbers:\n"
-      ],
-      [
-        "3/5",
-        "Since 0.6 has 1 decimal place, move the decimal 1 place to the left in the answer."
-      ],
-      [
-        "4/5",
-        "So, 12 becomes 1.2."
-      ],
-      [
-        "5/5",
-        "The 2 metal balls weigh 1.2 grams in all."
-      ]
-    ],
-    "tag": "Gr7_23_E2",
-    "question_number": "2_1"
-  },
-  {
-    "skills": "multiply-decimals",
-    "question_text": "The model shows 0.4 x 0.2.\n\nMultiply.\n\n0.4 dollars x 0.2 = \\_\\_\\_\\_$",
-    "image_tag": "Gr7_23_3_1",
-    "backend_description": "Shows a 10x10 grid representing 1 whole. The visual model displays 0.4 x 0.2 with 4 rows (representing 0.4) shaded in light purple and 2 columns (representing 0.2) shaded more prominently. The overlapping area of 8 small squares represents the product.",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "0.08"
-    ],
-    "solution_image_tag": [
-      [
-        "1/5",
-        "Gr7_23_3_1_step_1",
-        "Shows a 10x10 grid where the overlapping area of 0.4 (4 rows) and 0.2 (2 columns) creates 8 darkly shaded squares out of 100 total squares, visually demonstrating that 0.4 x 0.2 = 0.08."
-      ]
-    ],
-    "solution": [
-      [
-        "1/5",
-        "The large square represents 1 whole. It is divided into 100 small squares."
-      ],
-      [
-        "2/5",
-        "0.2 is shown by shading 2 out of 10 columns. That covers 20 out of 100 squares."
-      ],
-      [
-        "3/5",
-        "0.4 of 0.2 is shown by shading 4 out of 10 rows in those 2 columns. This overlaps in 8 small squares."
-      ],
-      [
-        "4/5",
-        "The double-shaded area represents 8 out of 100 squares. That equals 0.08."
-      ],
-      [
-        "5/5",
-        "So, 0.4 x 0.2 = 0.08"
-      ]
-    ],
-    "tag": "Gr7_23_E3",
-    "question_number": "3_1"
-  },
-  {
-    "skills": "divide-decimals-by-whole-numbers",
-    "question_text": "Divide. Give the exact answer, written as a decimal.\n\n372.33 dollars ÷ 2 = \\_\\_\\_\\_$\n\n",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "186.165"
-    ],
-    "solution_image_tag": [
-      [
-        "1/8",
-        "Gr7_24_1_1_step_1",
-        "Shows the long division setup for 372.33 ÷ 2. The division is worked out step by step: 186.165 appears above the division bracket as the quotient. The work shows dividing each digit systematically, bringing down digits and placing the decimal point correctly in the answer."
-      ]
-    ],
-    "solution": [
-      [
-        "1/8",
-        "We are dividing 372.33 by using long division. Use the image below as a guide while reading through the steps.\n"
-      ],
-      [
-        "2/8",
-        "Start by dividing 2 into the first digit, which is 3. 2 goes into 3 one time. Write 1 above the 3. 1 x 2 = 2. Subtract 2 from 3, which gives 1. Now bring down the next digit, 7, to make 17"
-      ],
-      [
-        "3/8",
-        "2 goes into 17 eight times. Write 8 above the 7. 8 x 2 = 16. Subtract 16 from 17 to get 1. Bring down the next digit, 2, to make 12."
-      ],
-      [
-        "4/8",
-        "2 goes into 12 six times. Write 6 above the 2. 6 x 2 = 12. Subtract 12 from 12 to get 0. Now bring down the decimal point and the 3 after it. Place a decimal point in your answer and continue."
-      ],
-      [
-        "5/8",
-        "2 goes into 3 one time. Write 1 after the decimal point in your answer. 1 x 2 = 2. Subtract 2 from 3 to get 1. Bring down the next digit, 3, to make 13."
-      ],
-      [
-        "6/8",
-        "2 goes into 13 six times. Write 6 in your answer. 6 x 2 = 12. Subtract 12 from 13 to get 1. Bring down the next digit, 0, to make 10."
-      ],
-      [
-        "7/8",
-        "2 goes into 10 five times. Write 5 in your answer. 5 x 2 = 10. Subtract 10 from 10 and you get 0. Now there is nothing left to bring down, so we are done."
-      ],
-      [
-        "8/8",
-        "The final answer is 186.165."
-      ]
-    ],
-    "tag": "Gr7_24_E1",
-    "question_number": "1_1"
-  },
-  {
-    "skills": "divide-decimals-by-whole-numbers-word-problems",
-    "question_text": "A cafeteria used 360.82 kilograms of beans to make 8 batches of chili. What quantity of beans went into each one?\n",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "45.1025"
-    ],
-    "solution_image_tag": [
-      [
-        "1/8",
-        "Gr7_24_2_1_step_1",
-        "Shows the complete long division of 360.82 ÷ 8 = 45.1025. The division process is shown step by step with proper decimal point placement, demonstrating how each digit is divided and remainders are handled."
-      ]
-    ],
-    "solution": [
-      [
-        "1/8",
-        "We are dividing 360.82 by 8 using long division. Use the image below as a guide while reading through the steps.\n"
-      ],
-      [
-        "2/8",
-        "Start by dividing 8 into the first digit, which is 3. 8 doesn't go into 3, so write 0 above the 3. Now look at the next two digits, 36. 8 goes into 36 four times. Write 4 above the 6. 4 x 8 = 32. Subtract 32 from 36 to get 4. Bring down the next digit, 0, to make 40."
-      ],
-      [
-        "3/8",
-        "8 goes into 40 five times. Write 5 above the 0. 5 x 8 = 40. Subtract 40 from 40 to get 0. Bring down the next digit, 8."
-      ],
-      [
-        "4/8",
-        "8 goes into 8 one time. Write 1 above the 8. 1 x 8 = 8. Subtract 8 from 8 to get 0. Now bring down the decimal point and the next digit, 2. Place a decimal point in your answer and continue."
-      ],
-      [
-        "5/8",
-        "8 goes into 2 zero times. Write 0 after the decimal point in your answer. 0 x 8 = 0. Subtract 0 from 2 to get 2. Bring down the next digit, which is 5, to make 25."
-      ],
-      [
-        "6/8",
-        "8 goes into 25 three times. Write 3 in your answer. 3 x 8 = 24. Subtract 24 from 25 to get 1. Bring down the next digit, which is 0, to make 10."
-      ],
-      [
-        "7/8",
-        "8 goes into 10 one time. Write 1 in your answer. 1 x 8 = 8. Subtract 8 from 10 to get 2. Bring down the next digit, which is 0, to make 20."
-      ],
-      [
-        "8/8",
-        "8 goes into 20 two times. Write 2 in your answer. 2 x 8 = 16. Subtract 16 from 20 to get 4. Bring down the next digit, which is 0, to make 40. 8 goes into 40 five times. Write 5. Now the remainder is 0, so we’re done.\n\nThe final answer is 45.1025."
-      ]
-    ],
-    "tag": "Gr7_24_E2",
-    "question_number": "2_1"
-  },
-  {
-    "skills": "divide-decimals",
-    "question_text": "Divide. Give the exact answer, written as a decimal.\n",
-    "image_tag": "Gr7_24_3_1",
-    "backend_description": "Shows the division problem 45.6 ÷ 4 with an empty box for the answer.",
-    "question_type": "Fill in the blank",
-    "has_alternative_answers": true,
-    "correct_answers": [
-      [
-        "11.4"
-      ],
-      [
-        "11.40"
-      ]
-    ],
-    "solution_image_tag": [
-      [
-        "1/5",
-        "Gr7_24_3_1_step_1",
-        "Shows the long division of 45.6 ÷ 4 = 11.4. The step-by-step process shows 4 going into 45 eleven times with proper handling of the decimal point and the final division of 16 by 4 to get 4 in the tenths place."
-      ]
-    ],
-    "solution": [
-      [
-        "1/5",
-        "We are dividing 45.6 by 4 using long division. Use the image below as a guide while reading through the steps."
-      ],
-      [
-        "2/5",
-        "Start by dividing 4 into 4. 4 goes into 4 one time. Write 1 above the 4. 1 x 4 = 4. Subtract 4 from 4 to get 0. Bring down the next digit, which is 5."
-      ],
-      [
-        "3/5",
-        "4 goes into 5 one time. Write 1 above the 5. 1 x 4 = 4. Subtract 4 from 5 to get 1. Now bring down the next digit, which is 6. Don’t forget to place a decimal point in your answer."
-      ],
-      [
-        "4/5",
-        "Now you are dividing 4 into 16. 4 goes into 16 exactly four times. Write 4 after the decimal point."
-      ],
-      [
-        "5/5",
-        "4 x 4 = 16. Subtract 16 from 16 to get 0. There is nothing left to bring down.\n\nThe final answer is 11.4."
-      ]
-    ],
-    "tag": "Gr7_24_E3",
-    "question_number": "3_1"
-  },
-  {
-    "skills": "do-the-ratios-form-a-proportion",
-    "question_text": "Do the ratios $\\frac{4}{1}$ and $\\frac{6}{4}$ form a proportion?",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "yes",
-      "no"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/4",
-        "To determine whether the two ratios $\\frac{4}{1}$ and $\\frac{6}{4}$ form a proportion, you can compare them using a common denominator."
-      ],
-      [
-        "2/4",
-        "The denominators are 1 and 4. You can use 4 as the common denominator since 4 is a multiple of 1."
-      ],
-      [
-        "3/4",
-        "Write $\\frac{4}{1}$ as a fraction with a denominator of 4 by multiplying the numerator and denominator by 4.\n\n$\\frac{4}{1} = \\frac{4 x 4}{4 x 1} = \\frac{16}{4}$."
-      ],
-      [
-        "4/4",
-        "Since $\\frac{16}{4}$ and $\\frac{6}{4}$ are not equal. This means that the ratios $\\frac{4}{1}$ and $\\frac{6}{4}$ do not form a proportion.\n\nTherefore, the correct answer is no."
-      ]
-    ],
-    "tag": "Gr7_25_E1",
+    "tag": "Gr7_15_E1",
     "question_number": "1_1",
     "solution_image_tag": []
-  },
-  {
-    "skills": "do-the-ratios-form-a-proportion-word-problems",
-    "question_text": "Do these ratios form a proportion?\n\n9 rakes to 6 lawnmowers\n6 rakes to 4 lawnmowers",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "yes",
-      "no"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution_image_tag": [
-      [
-        "1/3",
-        "Gr7_25_2_1_step_1",
-        "Shows the ratios written as fractions: 9 rakes/6 lawnmowers = 9/6 and 6 rakes/4 lawnmowers = 6/4. This converts the word ratios into mathematical fractions for comparison."
-      ],
-      [
-        "2/3",
-        "Gr7_25_2_1_step_2",
-        "Shows the cross multiplication check: 9 x 4 = 36 and 6 x 6 = 36. Since the cross products are equal, the ratios form a proportion."
-      ]
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Write the ratios as fractions."
-      ],
-      [
-        "2/3",
-        "Compare the two fractions to see if they are equivalent."
-      ],
-      [
-        "3/3",
-        "The cross products are equal, so the ratios form a proportion."
-      ]
-    ],
-    "tag": "Gr7_25_E2",
-    "question_number": "2_1"
-  },
-  {
-    "skills": "solve-proportions",
-    "question_text": "Solve for $s$ in the proportion:\n\n$\\frac{22}{s} = \\frac{11}{8}$\n\n$s = \\_\\_\\_\\_$",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "16"
-    ],
-    "solution_image_tag": [
-      [
-        "1/5",
-        "Gr7_25_3_1_step_1",
-        "Shows the proportion equation: 22/s = 11/8, with s as the unknown value to solve for."
-      ],
-      [
-        "2/5",
-        "Gr7_25_3_1_step_2",
-        "Shows the cross multiplication setup: 22 x 8 = 11 x s, demonstrating the method to solve the proportion."
-      ],
-      [
-        "3/5",
-        "Gr7_25_3_1_step_3",
-        "Shows the simplified equation: 176 = 11s, after multiplying 22 x 8."
-      ],
-      [
-        "4/5",
-        "Gr7_25_3_1_step_4",
-        "Shows solving for s by division: s = 176 ÷ 11 = 16, giving the final answer."
-      ]
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Start with the proportion.\n\n$\\frac{22}{s} = \\frac{11}{8}$"
-      ],
-      [
-        "2/5",
-        "Use cross multiplication.\n\n22 dollars x 8 = 11 x s$"
-      ],
-      [
-        "3/5",
-        "Simplify both sides.\n\n176 dollars = 11s$"
-      ],
-      [
-        "4/5",
-        "Solve for $s$ by dividing both sides by 11.\n\n$s = 176 ÷ 11 = 16$"
-      ],
-      [
-        "5/5",
-        "Therefore, $s = 16$"
-      ]
-    ],
-    "tag": "Gr7_25_E3",
-    "question_number": "3_1"
-  },
-  {
-    "skills": "solve-proportions-word-problems",
-    "question_text": "Dirk took a total of 18 pages of notes during 9 hours of class.\n\nIn all, how many hours will Dirk have to spend in class before he will have a total of 20 pages of notes in his notebook?\n\nAssume the relationship is directly proportional.\n",
-    "question_type": "Fill in the blank",
-    "correct_answers": [
-      "10"
-    ],
-    "solution_image_tag": [
-      [
-        "1/5",
-        "Gr7_25_4_1_step_1",
-        "Shows setting up the proportion: 18 pages/9 hours = 20 pages/n hours, where n represents the unknown number of hours needed."
-      ],
-      [
-        "2/5",
-        "Gr7_25_4_1_step_2",
-        "Shows the cross multiplication: 18 x n = 9 x 20, setting up the equation to solve for n."
-      ],
-      [
-        "3/5",
-        "Gr7_25_4_1_step_3",
-        "Shows simplifying the equation: 18n = 180, preparing to isolate the variable n."
-      ],
-      [
-        "4/5",
-        "Gr7_25_4_1_step_4",
-        "Shows solving for n: n = 180 ÷ 18 = 10. The division gives the final answer of 10 hours."
-      ]
-    ],
-    "solution": [
-      [
-        "1/5",
-        "Write the proportion using pages/hours.\n\n$\\frac{18}{9} = \\frac{10}{n}$"
-      ],
-      [
-        "2/5",
-        "Use cross multiplication.\n\n18 dollars x n = 9 x 20$"
-      ],
-      [
-        "3/5",
-        "Simplify the multiplication.\n\n18 dollarsn = 180$"
-      ],
-      [
-        "4/5",
-        "Solve for $n$ by dividing both sides by 18.\n\n$n = 180 ÷ 18 = 10$"
-      ],
-      [
-        "5/5",
-        "$n = 10$. Therefore, Dirk will need to spend 10 hours in class to have 20 pages of notes."
-      ]
-    ],
-    "tag": "Gr7_25_E4",
-    "question_number": "4_1"
-  },
+  }
