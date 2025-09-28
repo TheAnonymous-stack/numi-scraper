@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr7_10_E2 2_3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .item {
+            margin: 30px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #f9f9f9;
+        }
+        .number-line {
+            position: relative;
+            width: 100%;
+            height: 100px;
+            margin: 30px 0;
+        }
+        .line {
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            right: 10%;
+            height: 2px;
+            background: #333;
+        }
+        .tick {
+            position: absolute;
+            top: 45%;
+            width: 2px;
+            height: 10px;
+            background: #333;
+        }
+        .number {
+            position: absolute;
+            top: 60%;
+            transform: translateX(-50%);
+            font-size: 14px;
+        }
+        .arrow {
+            position: absolute;
+            top: 30%;
+            height: 30px;
+        }
+        .arrow-path {
+            stroke: #4169E1;
+            stroke-width: 2;
+            fill: none;
+            marker-end: url(#arrowhead);
+        }
+        .point {
+            position: absolute;
+            top: 48%;
+            width: 8px;
+            height: 8px;
+            background: #FF0000;
+            border-radius: 50%;
+            transform: translateX(-50%);
+        }
+        .operation {
+            font-size: 24px;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        label {
+            font-weight: bold;
+            color: #333;
+            display: block;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h2>Addition with Number Lines</h2>
+    <div class="operation">-49 + -45 = ?</div>
+    
+    <div class="item" label="Gr7_10_2_3)">
+        <label>Visualizing -49 + -45 on the number line:</label>
+        <div class="number-line">
+            <div class="line"></div>
+            <!-- Create tick marks and numbers -->
+            <div class="tick" style="left: 10.0%;"></div>
+            <div class="number" style="left: 10.0%;">-99</div>
+            <div class="tick" style="left: 17.272727272727273%;"></div>
+            <div class="number" style="left: 17.272727272727273%;">-94</div>
+            <div class="tick" style="left: 24.545454545454547%;"></div>
+            <div class="number" style="left: 24.545454545454547%;">-89</div>
+            <div class="tick" style="left: 31.818181818181817%;"></div>
+            <div class="number" style="left: 31.818181818181817%;">-84</div>
+            <div class="tick" style="left: 39.09090909090909%;"></div>
+            <div class="number" style="left: 39.09090909090909%;">-79</div>
+            <div class="tick" style="left: 46.36363636363637%;"></div>
+            <div class="number" style="left: 46.36363636363637%;">-74</div>
+            <div class="tick" style="left: 53.63636363636363%;"></div>
+            <div class="number" style="left: 53.63636363636363%;">-69</div>
+            <div class="tick" style="left: 60.90909090909091%;"></div>
+            <div class="number" style="left: 60.90909090909091%;">-64</div>
+            <div class="tick" style="left: 68.18181818181819%;"></div>
+            <div class="number" style="left: 68.18181818181819%;">-59</div>
+            <div class="tick" style="left: 75.45454545454545%;"></div>
+            <div class="number" style="left: 75.45454545454545%;">-54</div>
+            <div class="tick" style="left: 82.72727272727273%;"></div>
+            <div class="number" style="left: 82.72727272727273%;">-49</div>
+            <div class="tick" style="left: 90.0%;"></div>
+            <div class="number" style="left: 90.0%;">-44</div>
+            <div class="point" style="left: 82.72727272727273%;"></div>
+            <svg class="arrow" style="left: 17.272727272727273%; width: 65.45454545454547%;">
+                <defs>
+                    <marker id="arrowhead" markerWidth="10" markerHeight="10" 
+                            refX="9" refY="3" orient="auto">
+                        <polygon points="0 0, 10 3, 0 6" fill="#4169E1" />
+                    </marker>
+                </defs>
+                <path class="arrow-path" d="M 100% 15 
+                                              Q 50% 0 
+                                                0% 15" />
+            </svg>
+        </div>
+        <p>Starting at -49, move 45 units to the left to reach -94</p>
+    </div>
+    <h3>Solution Steps:</h3>
+    <div class="item" label="Gr7_10_2_3_step_2)">
+        <label>Step 1: Number line with a point marked at -49</label>
+    </div>
+    <div class="item" label="Gr7_10_2_3_step_3)">
+        <label>Step 2: Number line with an arrow from -49 moving left 45 units to -94</label>
+    </div>
+</body>
+</html>
