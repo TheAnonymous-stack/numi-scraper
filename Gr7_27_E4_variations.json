@@ -2,40 +2,27 @@
   "quizzes": [
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the first three terms of the sequence $2^n$, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "2",
+        "4",
+        "8"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_2",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_2",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_2",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 1st term, plug in n = 1: $2^1 = 2$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 2nd term, plug in n = 2: $2^2 = 4$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 3rd term, plug in n = 3: $2^3 = 8$"
         ],
         [
           "4/4",
@@ -47,44 +34,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 2nd, 4th, and 7th terms of the sequence $10 + 5(n - 2)$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "60",
+        "62",
+        "65"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_3",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_3",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_3",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $10 + 5(2 - 2) = 60$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 4th term, plug in n = 4: $10 + 5(4 - 2) = 62$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 7th term, plug in n = 7: $10 + 5(7 - 2) = 65$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 4th, and 7th terms of the sequence are 60, 62, 65."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -92,44 +66,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 5th, 6th, and 7th terms of the sequence $10 + 7(n - 2)$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "83",
+        "84",
+        "85"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_4",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_4",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_4",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 5th term, plug in n = 5: $10 + 7(5 - 2) = 83$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 6th term, plug in n = 6: $10 + 7(6 - 2) = 84$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 7th term, plug in n = 7: $10 + 7(7 - 2) = 85$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 5th, 6th, and 7th terms of the sequence are 83, 84, 85."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -137,44 +98,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the first three terms of the sequence $6 + 6(n - 2)$, where $n$ represents the position of a term in the sequence. Start with $n = 2$.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "66",
+        "67",
+        "68"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_5",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_5",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_5",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $6 + 6(2 - 2) = 66$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 3rd term, plug in n = 3: $6 + 6(3 - 2) = 67$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 4th term, plug in n = 4: $6 + 6(4 - 2) = 68$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 3rd, and 4th terms of the sequence are 66, 67, 68."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -182,44 +130,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 1st, 3rd, and 6th terms of the sequence $9 + 8(n - 1)$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "89",
+        "91",
+        "94"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_6",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_6",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_6",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 1st term, plug in n = 1: $9 + 8(1 - 1) = 89$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 3rd term, plug in n = 3: $9 + 8(3 - 1) = 91$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $9 + 8(6 - 1) = 94$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 1st, 3rd, and 6th terms of the sequence are 89, 91, 94."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -227,44 +162,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the first three terms of the sequence $4 + 6(n - 1)$, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "64",
+        "65",
+        "66"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_7",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_7",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_7",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 1st term, plug in n = 1: $4 + 6(1 - 1) = 64$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 2nd term, plug in n = 2: $4 + 6(2 - 1) = 65$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 3rd term, plug in n = 3: $4 + 6(3 - 1) = 66$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 1st, 2nd, and 3rd terms of the sequence are 64, 65, 66."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -272,44 +194,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 2nd, 4th, and 6th terms of the sequence $6 + 4(n - 2)$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "46",
+        "48",
+        "50"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_8",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_8",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_8",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $6 + 4(2 - 2) = 46$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 4th term, plug in n = 4: $6 + 4(4 - 2) = 48$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $6 + 4(6 - 2) = 50$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 4th, and 6th terms of the sequence are 46, 48, 50."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -317,44 +226,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 2nd, 3rd, and 4th terms of the sequence $2 + 7(n - 1)$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "73",
+        "74",
+        "75"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_9",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_9",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_9",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $2 + 7(2 - 1) = 73$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 3rd term, plug in n = 3: $2 + 7(3 - 1) = 74$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 4th term, plug in n = 4: $2 + 7(4 - 1) = 75$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 3rd, and 4th terms of the sequence are 73, 74, 75."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -362,44 +258,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 2nd, 4th, and 6th terms of the sequence $9 + 2(n - 2)$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "29",
+        "31",
+        "33"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_10",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_10",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_10",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $9 + 2(2 - 2) = 29$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 4th term, plug in n = 4: $9 + 2(4 - 2) = 31$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $9 + 2(6 - 2) = 33$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 4th, and 6th terms of the sequence are 29, 31, 33."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -407,44 +290,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 1st, 3rd, and 6th terms of the sequence $2 + 8(n - 1)$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "82",
+        "84",
+        "87"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_11",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_11",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_11",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 1st term, plug in n = 1: $2 + 8(1 - 1) = 82$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 3rd term, plug in n = 3: $2 + 8(3 - 1) = 84$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $2 + 8(6 - 1) = 87$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 1st, 3rd, and 6th terms of the sequence are 82, 84, 87."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -452,44 +322,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 3rd, 4th, and 5th terms of the sequence $6 + 4(n - 1)$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "48",
+        "49",
+        "50"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_12",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_12",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_12",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 3rd term, plug in n = 3: $6 + 4(3 - 1) = 48$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 4th term, plug in n = 4: $6 + 4(4 - 1) = 49$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 5th term, plug in n = 5: $6 + 4(5 - 1) = 50$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 3rd, 4th, and 5th terms of the sequence are 48, 49, 50."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -497,44 +354,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 3rd, 4th, and 5th terms of the sequence $4 \\cdot 3^{n - 1}$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "36",
+        "108",
+        "324"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_13",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_13",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_13",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 3rd term, plug in n = 3: $4 \\cdot 3^{2} = 36$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 4th term, plug in n = 4: $4 \\cdot 3^{3} = 108$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 5th term, plug in n = 5: $4 \\cdot 3^{4} = 324$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 3rd, 4th, and 5th terms of the sequence are 36, 108, 324."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -542,44 +386,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 1st, 3rd, and 5th terms of the sequence $2 \\cdot 2^{n - 1}$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "2",
+        "8",
+        "32"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_14",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_14",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_14",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 1st term, plug in n = 1: $2 \\cdot 2^{0} = 2$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 3rd term, plug in n = 3: $2 \\cdot 2^{2} = 8$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 5th term, plug in n = 5: $2 \\cdot 2^{4} = 32$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 1st, 3rd, and 5th terms of the sequence are 2, 8, 32."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -587,44 +418,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 1st, 4th, and 6th terms of the sequence $3 \\cdot 4^{n - 1}$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "3",
+        "192",
+        "3072"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_15",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_15",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_15",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 1st term, plug in n = 1: $3 \\cdot 4^{0} = 3$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 4th term, plug in n = 4: $3 \\cdot 4^{3} = 192$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $3 \\cdot 4^{5} = 3072$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 1st, 4th, and 6th terms of the sequence are 3, 192, 3072."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -632,44 +450,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 2nd, 3rd, and 6th terms of the sequence $2^{n - 1}$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "2",
+        "4",
+        "32"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_16",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_16",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_16",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $2^{1} = 2$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 3rd term, plug in n = 3: $2^{2} = 4$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $2^{5} = 32$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 3rd, and 6th terms of the sequence are 2, 4, 32."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -677,44 +482,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 1st, 3rd, and 5th terms of the sequence $5 \\cdot 3^{n - 1}$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "5",
+        "45",
+        "405"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_17",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_17",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_17",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 1st term, plug in n = 1: $5 \\cdot 3^{0} = 5$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 3rd term, plug in n = 3: $5 \\cdot 3^{2} = 45$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 5th term, plug in n = 5: $5 \\cdot 3^{4} = 405$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 1st, 3rd, and 5th terms of the sequence are 5, 45, 405."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -722,44 +514,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 2nd, 3rd, and 4th terms of the sequence $3 \\cdot 2^{n - 1}$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "6",
+        "12",
+        "24"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_18",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_18",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_18",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $3 \\cdot 2^{1} = 6$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 3rd term, plug in n = 3: $3 \\cdot 2^{2} = 12$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 4th term, plug in n = 4: $3 \\cdot 2^{3} = 24$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 3rd, and 4th terms of the sequence are 6, 12, 24."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -767,44 +546,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 1st, 4th, and 6th terms of the sequence $4 \\cdot 4^{n - 1}$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "4",
+        "256",
+        "4096"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_19",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_19",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_19",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 1st term, plug in n = 1: $4 \\cdot 4^{0} = 4$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 4th term, plug in n = 4: $4 \\cdot 4^{3} = 256$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $4 \\cdot 4^{5} = 4096$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 1st, 4th, and 6th terms of the sequence are 4, 256, 4096."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -812,44 +578,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 1st, 4th, and 6th terms of the sequence $3 \\cdot 3^{n - 1}$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "3",
+        "81",
+        "729"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_20",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_20",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_20",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 1st term, plug in n = 1: $3 \\cdot 3^{0} = 3$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 4th term, plug in n = 4: $3 \\cdot 3^{3} = 81$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $3 \\cdot 3^{5} = 729$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 1st, 4th, and 6th terms of the sequence are 3, 81, 729."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -857,44 +610,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 2nd, 4th, and 6th terms of the sequence $3^n$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "9",
+        "81",
+        "729"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_21",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_21",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_21",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $3^2 = 9$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 4th term, plug in n = 4: $3^4 = 81$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $3^6 = 729$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 4th, and 6th terms of the sequence are 9, 81, 729."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -902,44 +642,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 1st, 3rd, and 6th terms of the sequence $4^n$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "4",
+        "64",
+        "4096"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_22",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_22",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_22",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 1st term, plug in n = 1: $4^1 = 4$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 3rd term, plug in n = 3: $4^3 = 64$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $4^6 = 4096$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 1st, 3rd, and 6th terms of the sequence are 4, 64, 4096."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -947,44 +674,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 4th, 5th, and 6th terms of the sequence $3^n$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "81",
+        "243",
+        "729"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_23",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_23",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_23",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 4th term, plug in n = 4: $3^4 = 81$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 5th term, plug in n = 5: $3^5 = 243$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $3^6 = 729$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 4th, 5th, and 6th terms of the sequence are 81, 243, 729."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -992,44 +706,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 2nd, 3rd, and 4th terms of the sequence $5^n$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "25",
+        "125",
+        "625"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_24",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_24",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_24",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $5^2 = 25$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 3rd term, plug in n = 3: $5^3 = 125$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 4th term, plug in n = 4: $5^4 = 625$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 3rd, and 4th terms of the sequence are 25, 125, 625."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1037,44 +738,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 4th, 5th, and 6th terms of the sequence $4^n$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "256",
+        "1024",
+        "4096"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_25",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_25",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_25",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 4th term, plug in n = 4: $4^4 = 256$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 5th term, plug in n = 5: $4^5 = 1024$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $4^6 = 4096$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 4th, 5th, and 6th terms of the sequence are 256, 1024, 4096."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1082,44 +770,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 5th, 6th, and 7th terms of the sequence $5n + 10$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "65",
+        "66",
+        "67"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_26",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_26",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_26",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 5th term, plug in n = 5: $55 + 10 = 65$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 6th term, plug in n = 6: $56 + 10 = 66$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 7th term, plug in n = 7: $57 + 10 = 67$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 5th, 6th, and 7th terms of the sequence are 65, 66, 67."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1127,44 +802,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 3rd, 5th, and 7th terms of the sequence $2n + 10$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "33",
+        "35",
+        "37"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_27",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_27",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_27",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 3rd term, plug in n = 3: $23 + 10 = 33$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 5th term, plug in n = 5: $25 + 10 = 35$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 7th term, plug in n = 7: $27 + 10 = 37$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 3rd, 5th, and 7th terms of the sequence are 33, 35, 37."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1172,44 +834,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the first three terms of the sequence $5n + 6$, where $n$ represents the position of a term in the sequence. Start with $n = 2$.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "58",
+        "59",
+        "60"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_28",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_28",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_28",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $52 + 6 = 58$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 3rd term, plug in n = 3: $53 + 6 = 59$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 4th term, plug in n = 4: $54 + 6 = 60$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 3rd, and 4th terms of the sequence are 58, 59, 60."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1217,44 +866,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 2nd, 4th, and 6th terms of the sequence $4n - 3$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "39",
+        "41",
+        "43"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_29",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_29",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_29",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $42 - 3 = 39$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 4th term, plug in n = 4: $44 - 3 = 41$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $46 - 3 = 43$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 4th, and 6th terms of the sequence are 39, 41, 43."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1262,44 +898,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 2nd, 4th, and 7th terms of the sequence $2n - 1$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "21",
+        "23",
+        "26"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_30",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_30",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_30",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $22 - 1 = 21$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 4th term, plug in n = 4: $24 - 1 = 23$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 7th term, plug in n = 7: $27 - 1 = 26$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 4th, and 7th terms of the sequence are 21, 23, 26."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1307,44 +930,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the first three terms of the sequence $4n + 2$, where $n$ represents the position of a term in the sequence. Start with $n = 2$.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "44",
+        "45",
+        "46"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_31",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_31",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_31",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $42 + 2 = 44$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 3rd term, plug in n = 3: $43 + 2 = 45$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 4th term, plug in n = 4: $44 + 2 = 46$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 3rd, and 4th terms of the sequence are 44, 45, 46."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1352,44 +962,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 2nd, 4th, and 6th terms of the sequence $10n + 4$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "106",
+        "108",
+        "110"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_32",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_32",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_32",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $102 + 4 = 106$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 4th term, plug in n = 4: $104 + 4 = 108$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $106 + 4 = 110$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 4th, and 6th terms of the sequence are 106, 108, 110."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1397,44 +994,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 2nd, 4th, and 6th terms of the sequence $2n + 8$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "30",
+        "32",
+        "34"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_33",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_33",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_33",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $22 + 8 = 30$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 4th term, plug in n = 4: $24 + 8 = 32$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $26 + 8 = 34$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 4th, and 6th terms of the sequence are 30, 32, 34."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1442,44 +1026,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 2nd, 3rd, and 6th terms of the sequence $10n + 1$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "103",
+        "104",
+        "107"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_34",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_34",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_34",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $102 + 1 = 103$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 3rd term, plug in n = 3: $103 + 1 = 104$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $106 + 1 = 107$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 3rd, and 6th terms of the sequence are 103, 104, 107."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1487,44 +1058,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 1st, 4th, and 6th terms of the sequence $7n + 2$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "73",
+        "76",
+        "78"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_35",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_35",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_35",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 1st term, plug in n = 1: $71 + 2 = 73$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 4th term, plug in n = 4: $74 + 2 = 76$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $76 + 2 = 78$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 1st, 4th, and 6th terms of the sequence are 73, 76, 78."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1532,44 +1090,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 1st, 3rd, and 5th terms of the sequence $n^2 + 3n - 4$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "28",
+        "38",
+        "56"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_36",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_36",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_36",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 1st term, plug in n = 1: $1^2 + 31 - 4 = 28$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 3rd term, plug in n = 3: $3^2 + 33 - 4 = 38$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 5th term, plug in n = 5: $5^2 + 35 - 4 = 56$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 1st, 3rd, and 5th terms of the sequence are 28, 38, 56."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1577,44 +1122,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 1st, 3rd, and 6th terms of the sequence $2n^2 + 3$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "444",
+        "532",
+        "679"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_37",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_37",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_37",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 1st term, plug in n = 1: $21^2 + 3 = 444$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 3rd term, plug in n = 3: $23^2 + 3 = 532$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $26^2 + 3 = 679$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 1st, 3rd, and 6th terms of the sequence are 444, 532, 679."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1622,44 +1154,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 1st, 3rd, and 6th terms of the sequence $n^2 + 5$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "6",
+        "14",
+        "41"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_38",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_38",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_38",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 1st term, plug in n = 1: $1^2 + 5 = 6$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 3rd term, plug in n = 3: $3^2 + 5 = 14$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $6^2 + 5 = 41$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 1st, 3rd, and 6th terms of the sequence are 6, 14, 41."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1667,44 +1186,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 2nd, 4th, and 6th terms of the sequence $2n^2 + 3n - 1$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "515",
+        "609",
+        "711"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_39",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_39",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_39",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $22^2 + 32 - 1 = 515$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 4th term, plug in n = 4: $24^2 + 34 - 1 = 609$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $26^2 + 36 - 1 = 711$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 4th, and 6th terms of the sequence are 515, 609, 711."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1712,44 +1218,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 3rd, 4th, and 5th terms of the sequence $2n^2 - 5$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "524",
+        "571",
+        "620"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_40",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_40",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_40",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 3rd term, plug in n = 3: $23^2 - 5 = 524$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 4th term, plug in n = 4: $24^2 - 5 = 571$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 5th term, plug in n = 5: $25^2 - 5 = 620$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 3rd, 4th, and 5th terms of the sequence are 524, 571, 620."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1757,44 +1250,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the first three terms of the sequence $n^2 - n + 3$, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "3",
+        "5",
+        "9"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_41",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_41",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_41",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 1st term, plug in n = 1: $1^2 - 1 + 3 = 3$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 2nd term, plug in n = 2: $2^2 - 2 + 3 = 5$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 3rd term, plug in n = 3: $3^2 - 3 + 3 = 9$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 1st, 2nd, and 3rd terms of the sequence are 3, 5, 9."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1802,44 +1282,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 4th, 5th, and 6th terms of the sequence $2n^2 - 2n + 2$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "554",
+        "602",
+        "652"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_42",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_42",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_42",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 4th term, plug in n = 4: $24^2 - 24 + 2 = 554$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 5th term, plug in n = 5: $25^2 - 25 + 2 = 602$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $26^2 - 26 + 2 = 652$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 4th, 5th, and 6th terms of the sequence are 554, 602, 652."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1847,44 +1314,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 1st, 3rd, and 5th terms of the sequence $n \\cdot 2^n$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "2",
+        "24",
+        "160"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_43",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_43",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_43",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 1st term, plug in n = 1: $1 \\cdot 2^1 = 2$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 3rd term, plug in n = 3: $3 \\cdot 2^3 = 24$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 5th term, plug in n = 5: $5 \\cdot 2^5 = 160$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 1st, 3rd, and 5th terms of the sequence are 2, 24, 160."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1892,44 +1346,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 2nd, 3rd, and 4th terms of the sequence $3 \\cdot 3^n$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "27",
+        "81",
+        "243"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_44",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_44",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_44",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $3 \\cdot 3^2 = 27$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 3rd term, plug in n = 3: $3 \\cdot 3^3 = 81$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 4th term, plug in n = 4: $3 \\cdot 3^4 = 243$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 3rd, and 4th terms of the sequence are 27, 81, 243."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1937,44 +1378,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 3rd, 4th, and 5th terms of the sequence $2 \\cdot 2^n$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "16",
+        "32",
+        "64"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_45",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_45",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_45",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 3rd term, plug in n = 3: $2 \\cdot 2^3 = 16$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 4th term, plug in n = 4: $2 \\cdot 2^4 = 32$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 5th term, plug in n = 5: $2 \\cdot 2^5 = 64$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 3rd, 4th, and 5th terms of the sequence are 16, 32, 64."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -1982,44 +1410,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 2nd, 3rd, and 4th terms of the sequence $4 \\cdot 2^n$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "16",
+        "32",
+        "64"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_46",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_46",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_46",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $4 \\cdot 2^2 = 16$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 3rd term, plug in n = 3: $4 \\cdot 2^3 = 32$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 4th term, plug in n = 4: $4 \\cdot 2^4 = 64$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 3rd, and 4th terms of the sequence are 16, 32, 64."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -2027,44 +1442,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 2nd, 4th, and 6th terms of the sequence $20n + 14$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "216",
+        "218",
+        "220"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_47",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_47",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_47",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $202 + 14 = 216$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 4th term, plug in n = 4: $204 + 14 = 218$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $206 + 14 = 220$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 4th, and 6th terms of the sequence are 216, 218, 220."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -2072,44 +1474,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 1st, 4th, and 6th terms of the sequence $20n + 8$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "209",
+        "212",
+        "214"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_48",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_48",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_48",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 1st term, plug in n = 1: $201 + 8 = 209$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 4th term, plug in n = 4: $204 + 8 = 212$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $206 + 8 = 214$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 1st, 4th, and 6th terms of the sequence are 209, 212, 214."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -2117,44 +1506,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 2nd, 3rd, and 6th terms of the sequence $18n + 11$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "193",
+        "194",
+        "197"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_49",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_49",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_49",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $182 + 11 = 193$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 3rd term, plug in n = 3: $183 + 11 = 194$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $186 + 11 = 197$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 3rd, and 6th terms of the sequence are 193, 194, 197."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -2162,44 +1538,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 3rd, 4th, and 5th terms of the sequence $19n - 10$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "183",
+        "184",
+        "185"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_50",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_50",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_50",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 3rd term, plug in n = 3: $193 - 10 = 183$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 4th term, plug in n = 4: $194 - 10 = 184$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 5th term, plug in n = 5: $195 - 10 = 185$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 3rd, 4th, and 5th terms of the sequence are 183, 184, 185."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -2207,44 +1570,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 1$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 2nd, 4th, and 6th terms of the sequence $12n + 7$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "129",
+        "131",
+        "133"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_51",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_51",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_51",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 1st term, plug in n = 1.\n"
+          "To find the 2nd term, plug in n = 2: $122 + 7 = 129$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 4th term, plug in n = 4: $124 + 7 = 131$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 6th term, plug in n = 6: $126 + 7 = 133$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 2nd, 4th, and 6th terms of the sequence are 129, 131, 133."
         ]
       ],
       "tag": "Gr7_27_E4",
@@ -2252,44 +1602,31 @@
     },
     {
       "skills": "evaluate-variable-expressions-for-number-sequences",
-      "question_text": "Find the first three terms of the sequence defined below, where $n$ represents the position of a term in the sequence. Start with $n = 2$.\n\n2 dollars^{n}$\n\n$\\_\\_\\_\\_, \\_\\_\\_\\_, \\_\\_\\_\\_$",
-      "question_type": "Fill in the blank",
+      "question_text": "Find the 6th, 7th, and 8th terms of the sequence $16n + 4$, where $n$ represents the position of a term in the sequence.\n\n _ , _ , _",
+      "question_type": "Multiple fill in the blank",
+      "orderMatter": true,
       "correct_answers": [
-        "2,4,8"
+        "170",
+        "171",
+        "172"
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr7_27_4_1_step_52",
-          "Shows the calculation for n = 1: 2\u00b9 = 2. This gives the first term of the sequence."
-        ],
-        [
-          "2/4",
-          "Gr7_27_4_1_step_52",
-          "Shows the calculation for n = 2: 2\u00b2 = 2 x 2 = 4. This gives the second term of the sequence."
-        ],
-        [
-          "3/4",
-          "Gr7_27_4_1_step_52",
-          "Shows the calculation for n = 3: 2\u00b3 = 2 x 2 x 2 = 8. This gives the third term of the sequence."
-        ]
-      ],
+      "solution_image_tag": [],
       "solution": [
         [
           "1/4",
-          "To find the 2st term, plug in n = 1.\n"
+          "To find the 6th term, plug in n = 6: $166 + 4 = 170$"
         ],
         [
           "2/4",
-          "To find the 2nd term, plug in n = 2.\n"
+          "To find the 7th term, plug in n = 7: $167 + 4 = 171$"
         ],
         [
           "3/4",
-          "To find the 3rd term, plug in n = 3.\n"
+          "To find the 8th term, plug in n = 8: $168 + 4 = 172$"
         ],
         [
           "4/4",
-          "The first three terms of the sequence are 2, 4, 8."
+          "The 6th, 7th, and 8th terms of the sequence are 170, 171, 172."
         ]
       ],
       "tag": "Gr7_27_E4",

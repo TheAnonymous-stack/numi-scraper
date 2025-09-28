@@ -1,36 +1,36 @@
 {
   "quizzes": [
     {
-      "question_text": "This graph shows how the total number of stamps Dakota has in her collection is related to the amount of money she spends on additional stamps.\n\nWith 500 dollars to spend on new stamps, how many total stamps will Dakota have in her collection?",
       "skills": "interpret-a-graph-word-problems",
-      "image_tag": "Gr7_28_3_3",
-      "backend_description": "A graph titled 'Stamps in Dakota's collection' with x-axis labeled 'Money spent on additional stamps' (0-500) and y-axis labeled 'Total number of stamps' (0-500). The line doesn't start at the origin but begins at approximately (0, 50), showing Dakota already had stamps before buying more. Students need to find that spending 500 dollars gives 300 total stamps.",
-      "tag": "Gr7_28_E3",
-      "question_type": "Multiple Choice Question with Single Answer",
+      "question_text": "The graph below shows how the number of plants Evelyn can have in her backyard is related to the number of seed packets she purchases.\n\nHow many seed packets does Evelyn need to have a total of 400 plants in her backyard?",
+      "image_tag": "Gr7_28_3_1",
+      "backend_description": "A graph titled 'Plants in Evelyn's backyard' with x-axis labeled 'Number of seed packets' (0-100) and y-axis labeled 'Total number of plants' (0-1000). A straight line starts from the origin and shows a proportional relationship. Students need to find that 400 plants corresponds to 40 seed packets.",
       "question_number": "3_1",
+      "question_type": "Multiple Choice Question with Single Answer",
       "choices": [
-        "200 stamps",
-        "400 stamps",
-        "300 stamps",
-        "100 stamps"
+        "10 seed packets",
+        "40 seed packets",
+        "30 seed packets",
+        "50 seed packets"
       ],
       "correct_answers": [
-        "C"
+        "B"
       ],
       "solution": [
         [
           "1/3",
-          "Find 500 dollars on the x-axis (horizontal axis). Move up until you intersect the graph."
+          "Look at the y-axis to find where 400 plants is marked. From there, move horizontally to the right until you meet the line on the graph."
         ],
         [
           "2/3",
-          "Now move left until you intersect the y-axis (vertical axis)."
+          "From the point where you hit the line, move straight down to the x-axis. This tells you the number of seed packets she needs."
         ],
         [
           "3/3",
-          "You intersect the y-axis at 300 stamps. With 500 dollars to spend on new stamps, Dakota will have a total of 300 stamps in her collection."
+          "You land at 40 seed packets. So, Evelyn needs 40 seed packets to have 400 plants."
         ]
       ],
+      "tag": "Gr7_28_E3",
       "solution_image_tag": []
     },
     {
