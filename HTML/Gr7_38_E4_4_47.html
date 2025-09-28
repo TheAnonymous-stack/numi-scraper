@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .item { display: inline-block; margin: 20px; }
+        svg { border: 1px solid #ccc; }
+        .grid-line { stroke: #e0e0e0; stroke-width: 1; }
+        .axis-line { stroke: black; stroke-width: 2; }
+        .line-graph { stroke: #4285f4; stroke-width: 2; fill: none; }
+        .data-point { fill: #4285f4; }
+        text { font-size: 12px; }
+        .title { font-size: 14px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr7_38_4_47"><svg width="400" height="300" id="Gr7_38_4_47">
+            <!-- Title -->
+            <text x="200" y="20" text-anchor="middle" class="title">Comic books sold</text>
+
+            <!-- Grid lines -->
+            <line x1="60" y1="250" x2="350" y2="250" class="axis-line"/>
+            <line x1="60" y1="50" x2="60" y2="250" class="axis-line"/>
+
+            <!-- Horizontal grid lines and y-axis labels -->
+            <g id="y-axis">
+                <line x1="60" y1="250" x2="350" y2="250" class="grid-line"/>
+                <text x="45" y="255" text-anchor="end">0</text>
+                <line x1="60" y1="230" x2="350" y2="230" class="grid-line"/>
+                <text x="45" y="235" text-anchor="end">1</text>
+                <line x1="60" y1="210" x2="350" y2="210" class="grid-line"/>
+                <text x="45" y="215" text-anchor="end">2</text>
+                <line x1="60" y1="190" x2="350" y2="190" class="grid-line"/>
+                <text x="45" y="195" text-anchor="end">3</text>
+                <line x1="60" y1="170" x2="350" y2="170" class="grid-line"/>
+                <text x="45" y="175" text-anchor="end">4</text>
+                <line x1="60" y1="150" x2="350" y2="150" class="grid-line"/>
+                <text x="45" y="155" text-anchor="end">5</text>
+                <line x1="60" y1="130" x2="350" y2="130" class="grid-line"/>
+                <text x="45" y="135" text-anchor="end">6</text>
+                <line x1="60" y1="110" x2="350" y2="110" class="grid-line"/>
+                <text x="45" y="115" text-anchor="end">7</text>
+                <line x1="60" y1="90" x2="350" y2="90" class="grid-line"/>
+                <text x="45" y="95" text-anchor="end">8</text>
+                <line x1="60" y1="70" x2="350" y2="70" class="grid-line"/>
+                <text x="45" y="75" text-anchor="end">9</text>
+                <line x1="60" y1="50" x2="350" y2="50" class="grid-line"/>
+                <text x="45" y="55" text-anchor="end">10</text>
+            </g>
+
+            <!-- X-axis labels -->
+            <text x="100" y="270" text-anchor="middle">Thu</text>
+            <text x="145" y="270" text-anchor="middle">Fri</text>
+            <text x="190" y="270" text-anchor="middle">Sat</text>
+            <text x="235" y="270" text-anchor="middle">Sun</text>
+            <text x="280" y="270" text-anchor="middle">Mon</text>
+            <text x="325" y="270" text-anchor="middle">Tue</text>
+            <text x="370" y="270" text-anchor="middle">Wed</text>
+
+            <!-- Line graph data points and line: 9, 7, 9, 7, 7, 2, 4 -->
+            <polyline class="line-graph" points="100,70 145,110 190,70 235,110 280,110 325,210 370,170"/>
+
+            <!-- Data points -->
+            <circle cx="100" cy="70" r="4" class="data-point"/>
+            <circle cx="145" cy="110" r="4" class="data-point"/>
+            <circle cx="190" cy="70" r="4" class="data-point"/>
+            <circle cx="235" cy="110" r="4" class="data-point"/>
+            <circle cx="280" cy="110" r="4" class="data-point"/>
+            <circle cx="325" cy="210" r="4" class="data-point"/>
+            <circle cx="370" cy="170" r="4" class="data-point"/>
+
+            <!-- Y-axis label -->
+            <text x="25" y="150" text-anchor="middle" transform="rotate(-90 25 150)">Number of comics</text>
+        </svg>
+    </div>
+</body>
+</html>
