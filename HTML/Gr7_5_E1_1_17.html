@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade 7 Week 5 Exercise 1 Variation 17</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .item {
+            font-size: 48px;
+            display: inline-flex;
+            align-items: center;
+            gap: 30px;
+            margin: 20px 0;
+        }
+        .fraction {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            vertical-align: middle;
+            position: relative;
+        }
+        .numerator, .denominator {
+            padding: 15px 25px;
+            text-align: center;
+            min-width: 80px;
+            font-size: 48px;
+            line-height: 1;
+        }
+        .numerator {
+            border-bottom: 4px solid black;
+        }
+        .missing {
+            background-color: #e3f2fd;
+            border: 3px solid #2196F3;
+            border-radius: 8px;
+            color: #2196F3;
+            font-weight: bold;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .missing::before {
+            content: "?";
+            font-size: 48px;
+        }
+        .equals {
+            font-size: 60px;
+            margin: 0 30px;
+            font-weight: normal;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+            font-size: 28px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Type the missing number that makes these fractions equal:</h2>
+        <div class="item" label="Gr7_5_1_17">
+            <div class="fraction">
+                <div class="numerator">21</div>
+                <div class="denominator">12</div>
+            </div>
+            <span class="equals">=</span>
+            <div class="fraction">
+                <div class="numerator missing"></div>
+                <div class="denominator">4</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
