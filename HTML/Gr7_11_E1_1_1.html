@@ -8,50 +8,49 @@
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             padding: 20px;
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
         }
         .container {
             display: flex;
             flex-wrap: wrap;
             gap: 20px;
             justify-content: center;
+            margin-top: 20px;
         }
         .item {
-            border: 1px solid #ddd;
-            padding: 10px;
-            border-radius: 5px;
+            background: white;
+            border: 2px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
             display: inline-block;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .something {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        .nothing {
+            content: attr(label);
+            display: block;
+            font-size: 12px;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
         svg {
             display: block;
-        }
-        .fraction-model {
-            width: 200px;
-            height: 200px;
-        }
-        .number-line {
-            width: 600px;
-            height: 100px;
-        }
-        .area-model {
-            width: 400px;
-            height: 300px;
-        }
-        .geometric-shape {
-            width: 300px;
-            height: 300px;
-        }
-        .table {
-            border-collapse: collapse;
-            margin: 10px;
-        }
-        .table td, .table th {
-            border: 1px solid #333;
-            padding: 8px;
-            text-align: center;
         }
     </style>
 </head>
@@ -60,31 +59,49 @@
     <div class="container">
 
         <div class="item" label="Gr7_11_1_1_A">
-            <svg viewBox="0 0 200 200" class="fraction-model">
-                <circle cx="100" cy="100" r="80" fill="white" stroke="black" stroke-width="2"/>
-                <!-- Fraction visualization will be based on description -->
-            </svg>
+            <svg viewBox="0 0 220 70" style="width: 220px; height: 70px;">
+        <circle cx="35" cy="35" r="18" fill="#ff6b6b" stroke="#cc0000" stroke-width="2"/>
+        <line x1="25" y1="35" x2="45" y2="35" stroke="white" stroke-width="3"/>
+        <circle cx="85" cy="35" r="18" fill="#ff6b6b" stroke="#cc0000" stroke-width="2"/>
+        <line x1="75" y1="35" x2="95" y2="35" stroke="white" stroke-width="3"/>
+        <circle cx="135" cy="35" r="18" fill="#ff6b6b" stroke="#cc0000" stroke-width="2"/>
+        <line x1="125" y1="35" x2="145" y2="35" stroke="white" stroke-width="3"/>
+        <circle cx="185" cy="35" r="18" fill="#ff6b6b" stroke="#cc0000" stroke-width="2"/>
+        <line x1="175" y1="35" x2="195" y2="35" stroke="white" stroke-width="3"/></svg>
         </div>
 
         <div class="item" label="Gr7_11_1_1_B">
-            <svg viewBox="0 0 200 200" class="fraction-model">
-                <circle cx="100" cy="100" r="80" fill="white" stroke="black" stroke-width="2"/>
-                <!-- Fraction visualization will be based on description -->
-            </svg>
+            <svg viewBox="0 0 120 70" style="width: 120px; height: 70px;">
+        <circle cx="35" cy="35" r="18" fill="#ff6b6b" stroke="#cc0000" stroke-width="2"/>
+        <line x1="25" y1="35" x2="45" y2="35" stroke="white" stroke-width="3"/>
+        <circle cx="85" cy="35" r="18" fill="#ff6b6b" stroke="#cc0000" stroke-width="2"/>
+        <line x1="75" y1="35" x2="95" y2="35" stroke="white" stroke-width="3"/></svg>
         </div>
 
         <div class="item" label="Gr7_11_1_1_C">
-            <svg viewBox="0 0 200 200" class="fraction-model">
-                <circle cx="100" cy="100" r="80" fill="white" stroke="black" stroke-width="2"/>
-                <!-- Fraction visualization will be based on description -->
-            </svg>
+            <svg viewBox="0 0 220 70" style="width: 220px; height: 70px;">
+        <circle cx="35" cy="35" r="18" fill="#ffd93d" stroke="#ffb300" stroke-width="2"/>
+        <line x1="25" y1="35" x2="45" y2="35" stroke="#333" stroke-width="3"/>
+        <line x1="35" y1="25" x2="35" y2="45" stroke="#333" stroke-width="3"/>
+        <circle cx="85" cy="35" r="18" fill="#ffd93d" stroke="#ffb300" stroke-width="2"/>
+        <line x1="75" y1="35" x2="95" y2="35" stroke="#333" stroke-width="3"/>
+        <line x1="85" y1="25" x2="85" y2="45" stroke="#333" stroke-width="3"/>
+        <circle cx="135" cy="35" r="18" fill="#ffd93d" stroke="#ffb300" stroke-width="2"/>
+        <line x1="125" y1="35" x2="145" y2="35" stroke="#333" stroke-width="3"/>
+        <line x1="135" y1="25" x2="135" y2="45" stroke="#333" stroke-width="3"/>
+        <circle cx="185" cy="35" r="18" fill="#ffd93d" stroke="#ffb300" stroke-width="2"/>
+        <line x1="175" y1="35" x2="195" y2="35" stroke="#333" stroke-width="3"/>
+        <line x1="185" y1="25" x2="185" y2="45" stroke="#333" stroke-width="3"/></svg>
         </div>
 
         <div class="item" label="Gr7_11_1_1_D">
-            <svg viewBox="0 0 200 200" class="fraction-model">
-                <circle cx="100" cy="100" r="80" fill="white" stroke="black" stroke-width="2"/>
-                <!-- Fraction visualization will be based on description -->
-            </svg>
+            <svg viewBox="0 0 120 70" style="width: 120px; height: 70px;">
+        <circle cx="35" cy="35" r="18" fill="#ffd93d" stroke="#ffb300" stroke-width="2"/>
+        <line x1="25" y1="35" x2="45" y2="35" stroke="#333" stroke-width="3"/>
+        <line x1="35" y1="25" x2="35" y2="45" stroke="#333" stroke-width="3"/>
+        <circle cx="85" cy="35" r="18" fill="#ffd93d" stroke="#ffb300" stroke-width="2"/>
+        <line x1="75" y1="35" x2="95" y2="35" stroke="#333" stroke-width="3"/>
+        <line x1="85" y1="25" x2="85" y2="45" stroke="#333" stroke-width="3"/></svg>
         </div>
 
     </div>
