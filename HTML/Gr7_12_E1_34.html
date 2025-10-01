@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr7_12_E1 1_34</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .item {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #f9f9f9;
+        }
+        .counters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+            min-height: 60px;
+        }
+        .counter {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        .counter.positive {
+            background-color: #FFD700;
+            color: #333;
+        }
+        .counter.negative {
+            background-color: #FF6B6B;
+            color: white;
+        }
+        .empty-space {
+            color: #666;
+            font-style: italic;
+            padding: 10px;
+        }
+        .more {
+            color: #666;
+            font-style: italic;
+            margin-left: 10px;
+        }
+        .operation {
+            font-size: 24px;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        label {
+            font-weight: bold;
+            color: #333;
+            display: block;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #333;
+        }
+        h3 {
+            color: #555;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Addition with Integer Counters</h2>
+    <div class="operation">-10 + 10 = ?</div>
+
+    <h3>Problem Visualization:</h3>
+<div class="item" label="Gr7_12_1_34)">
+    <div class="counters">
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+    </div>
+</div>
+
+    <h3>Choose the correct answer:</h3>
+    <label>Option A:</label>
+<div class="item" label="Gr7_12_1_34_a)">
+    <div class="counters">
+        <span class="counter positive">+</span>
+        <span class="counter positive">+</span>
+        <span class="counter positive">+</span>
+        <span class="counter positive">+</span>
+    </div>
+</div>
+    <label>Option B:</label>
+<div class="item" label="Gr7_12_1_34_b)">
+    <div class="counters">
+        <div class="empty-space">No counters (0)</div>
+    </div>
+</div>
+    <label>Option C:</label>
+<div class="item" label="Gr7_12_1_34_c)">
+    <div class="counters">
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+    </div>
+</div>
+    <label>Option D:</label>
+<div class="item" label="Gr7_12_1_34_d)">
+    <div class="counters">
+        <span class="counter positive">+</span>
+        <span class="counter positive">+</span>
+        <span class="counter positive">+</span>
+    </div>
+</div>
+
+    <h3>Solution Steps:</h3>
+    <label>Step 1: Start with -10</label>
+<div class="item" label="Gr7_12_1_34_step_2)">
+    <div class="counters">
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+    </div>
+</div>
+    <label>Step 2: Add 10</label>
+<div class="item" label="Gr7_12_1_34_step_3)">
+    <div class="counters">
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span class="counter negative">-</span>
+        <span style="margin: 0 20px; font-size: 24px;">+</span>
+        <span class="counter positive">+</span>
+        <span class="counter positive">+</span>
+        <span class="counter positive">+</span>
+        <span class="counter positive">+</span>
+        <span class="counter positive">+</span>
+        <span class="counter positive">+</span>
+        <span class="counter positive">+</span>
+        <span class="counter positive">+</span>
+    </div>
+</div>
+    <label>Step 3: Result = 0</label>
+<div class="item" label="Gr7_12_1_34_step_4)">
+    <div class="counters">
+        <div class="empty-space">No counters (0)</div>
+    </div>
+</div>
+
+</body>
+</html>

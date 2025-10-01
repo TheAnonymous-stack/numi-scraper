@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr7_10_E2 2_47</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .item {
+            margin: 30px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #f9f9f9;
+        }
+        .number-line {
+            position: relative;
+            width: 100%;
+            height: 100px;
+            margin: 30px 0;
+        }
+        .line {
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            right: 10%;
+            height: 2px;
+            background: #333;
+        }
+        .tick {
+            position: absolute;
+            top: 45%;
+            width: 2px;
+            height: 10px;
+            background: #333;
+        }
+        .number {
+            position: absolute;
+            top: 60%;
+            transform: translateX(-50%);
+            font-size: 14px;
+        }
+        .arrow {
+            position: absolute;
+            top: 30%;
+            height: 30px;
+        }
+        .arrow-path {
+            stroke: #4169E1;
+            stroke-width: 2;
+            fill: none;
+            marker-end: url(#arrowhead);
+        }
+        .point {
+            position: absolute;
+            top: 48%;
+            width: 8px;
+            height: 8px;
+            background: #FF0000;
+            border-radius: 50%;
+            transform: translateX(-50%);
+        }
+        .operation {
+            font-size: 24px;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        label {
+            font-weight: bold;
+            color: #333;
+            display: block;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h2>Addition with Number Lines</h2>
+    <div class="operation">37 + 13 = ?</div>
+    
+    <div class="item" label="Gr7_10_2_47)">
+        <label>Visualizing 37 + 13 on the number line:</label>
+        <div class="number-line">
+            <div class="line"></div>
+            <!-- Create tick marks and numbers -->
+            <div class="tick" style="left: 10.0%;"></div>
+            <div class="number" style="left: 10.0%;">32</div>
+            <div class="tick" style="left: 27.391304347826086%;"></div>
+            <div class="number" style="left: 27.391304347826086%;">37</div>
+            <div class="tick" style="left: 44.78260869565217%;"></div>
+            <div class="number" style="left: 44.78260869565217%;">42</div>
+            <div class="tick" style="left: 62.17391304347826%;"></div>
+            <div class="number" style="left: 62.17391304347826%;">47</div>
+            <div class="tick" style="left: 79.56521739130434%;"></div>
+            <div class="number" style="left: 79.56521739130434%;">52</div>
+            <div class="point" style="left: 27.391304347826086%;"></div>
+            <svg class="arrow" style="left: 27.391304347826086%; width: 45.21739130434782%;">
+                <defs>
+                    <marker id="arrowhead" markerWidth="10" markerHeight="10" 
+                            refX="9" refY="3" orient="auto">
+                        <polygon points="0 0, 10 3, 0 6" fill="#4169E1" />
+                    </marker>
+                </defs>
+                <path class="arrow-path" d="M 0 15 
+                                              Q 50% 0 
+                                                100% 15" />
+            </svg>
+        </div>
+        <p>Starting at 37, move 13 units to the right to reach 50</p>
+    </div>
+    <h3>Solution Steps:</h3>
+    <div class="item" label="Gr7_10_2_47_step_2)">
+        <label>Step 1: Number line with a point marked at 37</label>
+    </div>
+    <div class="item" label="Gr7_10_2_47_step_3)">
+        <label>Step 2: Number line with an arrow from 37 moving right 13 units to 50</label>
+    </div>
+</body>
+</html>
