@@ -16,12 +16,12 @@ chrome_options.add_argument("--window-size=1920,1080")
 # Initialize the driver
 driver = webdriver.Chrome(options=chrome_options)
 
-tags = []
-with open("tagsToUpload.csv", newline="") as f:
-    reader = csv.reader(f)
-    for row in reader:
-        tag = row[0]
-        tags.append(tag)
+tags = ["Gr7_44_E2"]
+# with open("tagsToUpload.csv", newline="") as f:
+#     reader = csv.reader(f)
+#     for row in reader:
+#         tag = row[0]
+#         tags.append(tag)
 
 
 
