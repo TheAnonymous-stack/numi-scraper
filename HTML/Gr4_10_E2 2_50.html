@@ -1,56 +1,154 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr4_10_E2 2_50</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: #f0f0f0;
             padding: 20px;
+        }
+        .container {
             background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            max-width: 90%;
         }
         .item {
             display: inline-block;
             margin: 20px;
-            border: 1px solid #ccc;
-            padding: 15px;
-            background: white;
         }
-        .fraction-visual {
-            text-align: center;
-            margin: 0 10px;
-        }
-        .fraction-label {
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-        .circle-wrapper {
-            width: 90px;
-            height: 90px;
-            display: inline-block;
+        .circles-row {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
         }
     </style>
 </head>
 <body>
-    <div class="item" label="Gr4_10_2_50_step_2">
-    <div style="display: flex; gap: 15px; align-items: center;">
-        <div class="fraction-visual">
-            <div class="fraction-label">2/12</div>
-            <div class="circle-wrapper">
-                <svg width="90" height="90" viewBox="-5 -5 90 90" style="display: block;"><path d="M 40 40 L 40.0 0.0 A 40 40 0 0 1 60.0 5.358983848622458 Z" fill="#FF8C00" stroke="none"/><path d="M 40 40 L 60.0 5.358983848622458 A 40 40 0 0 1 74.64101615137756 20.000000000000004 Z" fill="#FF8C00" stroke="none"/><circle cx="40" cy="40" r="40" fill="none" stroke="black" stroke-width="2"/><line x1="40" y1="40" x2="40.0" y2="0.0" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="60.0" y2="5.358983848622458" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="74.64101615137756" y2="20.000000000000004" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="80.0" y2="40.0" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="74.64101615137756" y2="60.0" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="60.0" y2="74.64101615137754" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="40.0" y2="80.0" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="20.000000000000007" y2="74.64101615137756" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="5.358983848622451" y2="60.0" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="0.0" y2="40.00000000000001" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="5.358983848622458" y2="19.999999999999996" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="19.999999999999982" y2="5.358983848622465" stroke="black" stroke-width="1"/></svg>
-            </div>
-        </div>
-        <div class="fraction-visual">
-            <div class="fraction-label">8/12</div>
-            <div class="circle-wrapper">
-                <svg width="90" height="90" viewBox="-5 -5 90 90" style="display: block;"><path d="M 40 40 L 40.0 0.0 A 40 40 0 0 1 60.0 5.358983848622458 Z" fill="#FF8C00" stroke="none"/><path d="M 40 40 L 60.0 5.358983848622458 A 40 40 0 0 1 74.64101615137756 20.000000000000004 Z" fill="#FF8C00" stroke="none"/><path d="M 40 40 L 74.64101615137756 20.000000000000004 A 40 40 0 0 1 80.0 40.0 Z" fill="#FF8C00" stroke="none"/><path d="M 40 40 L 80.0 40.0 A 40 40 0 0 1 74.64101615137756 60.0 Z" fill="#FF8C00" stroke="none"/><path d="M 40 40 L 74.64101615137756 60.0 A 40 40 0 0 1 60.0 74.64101615137754 Z" fill="#FF8C00" stroke="none"/><path d="M 40 40 L 60.0 74.64101615137754 A 40 40 0 0 1 40.0 80.0 Z" fill="#FF8C00" stroke="none"/><path d="M 40 40 L 40.0 80.0 A 40 40 0 0 1 20.000000000000007 74.64101615137756 Z" fill="#FF8C00" stroke="none"/><path d="M 40 40 L 20.000000000000007 74.64101615137756 A 40 40 0 0 1 5.358983848622451 60.0 Z" fill="#FF8C00" stroke="none"/><circle cx="40" cy="40" r="40" fill="none" stroke="black" stroke-width="2"/><line x1="40" y1="40" x2="40.0" y2="0.0" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="60.0" y2="5.358983848622458" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="74.64101615137756" y2="20.000000000000004" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="80.0" y2="40.0" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="74.64101615137756" y2="60.0" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="60.0" y2="74.64101615137754" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="40.0" y2="80.0" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="20.000000000000007" y2="74.64101615137756" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="5.358983848622451" y2="60.0" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="0.0" y2="40.00000000000001" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="5.358983848622458" y2="19.999999999999996" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="19.999999999999982" y2="5.358983848622465" stroke="black" stroke-width="1"/></svg>
-            </div>
-        </div>
-        <div class="fraction-visual">
-            <div class="fraction-label">5/12</div>
-            <div class="circle-wrapper">
-                <svg width="90" height="90" viewBox="-5 -5 90 90" style="display: block;"><path d="M 40 40 L 40.0 0.0 A 40 40 0 0 1 60.0 5.358983848622458 Z" fill="#FF8C00" stroke="none"/><path d="M 40 40 L 60.0 5.358983848622458 A 40 40 0 0 1 74.64101615137756 20.000000000000004 Z" fill="#FF8C00" stroke="none"/><path d="M 40 40 L 74.64101615137756 20.000000000000004 A 40 40 0 0 1 80.0 40.0 Z" fill="#FF8C00" stroke="none"/><path d="M 40 40 L 80.0 40.0 A 40 40 0 0 1 74.64101615137756 60.0 Z" fill="#FF8C00" stroke="none"/><path d="M 40 40 L 74.64101615137756 60.0 A 40 40 0 0 1 60.0 74.64101615137754 Z" fill="#FF8C00" stroke="none"/><circle cx="40" cy="40" r="40" fill="none" stroke="black" stroke-width="2"/><line x1="40" y1="40" x2="40.0" y2="0.0" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="60.0" y2="5.358983848622458" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="74.64101615137756" y2="20.000000000000004" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="80.0" y2="40.0" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="74.64101615137756" y2="60.0" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="60.0" y2="74.64101615137754" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="40.0" y2="80.0" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="20.000000000000007" y2="74.64101615137756" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="5.358983848622451" y2="60.0" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="0.0" y2="40.00000000000001" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="5.358983848622458" y2="19.999999999999996" stroke="black" stroke-width="1"/><line x1="40" y1="40" x2="19.999999999999982" y2="5.358983848622465" stroke="black" stroke-width="1"/></svg>
+    <div class="container">
+        <div class="item" label="Gr4_10_2_50_step_2">
+            <div class="circles-row">
+                <svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background circle -->
+    <circle cx="75" cy="75" r="60" fill="white" stroke="black" stroke-width="2"/>
+
+    <!-- Partition lines -->
+    <line x1="75" y1="75" x2="135.00" y2="75.00" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="129.81" y2="99.40" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="115.15" y2="119.59" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="93.54" y2="132.06" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="68.73" y2="134.67" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="45.00" y2="126.96" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="26.46" y2="110.27" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="16.31" y2="87.47" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="16.31" y2="62.53" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="26.46" y2="39.73" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="45.00" y2="23.04" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="68.73" y2="15.33" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="93.54" y2="17.94" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="115.15" y2="30.41" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="129.81" y2="50.60" stroke="black" stroke-width="1.5"/>
+    <path d="M 75 75 L 75.00 15.00 A 60 60 0 0 1 99.40 20.19 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+    <path d="M 75 75 L 99.40 20.19 A 60 60 0 0 1 119.59 34.85 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+</svg>
+                <svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background circle -->
+    <circle cx="75" cy="75" r="60" fill="white" stroke="black" stroke-width="2"/>
+
+    <!-- Partition lines -->
+    <line x1="75" y1="75" x2="135.00" y2="75.00" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="129.81" y2="99.40" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="115.15" y2="119.59" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="93.54" y2="132.06" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="68.73" y2="134.67" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="45.00" y2="126.96" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="26.46" y2="110.27" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="16.31" y2="87.47" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="16.31" y2="62.53" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="26.46" y2="39.73" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="45.00" y2="23.04" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="68.73" y2="15.33" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="93.54" y2="17.94" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="115.15" y2="30.41" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="129.81" y2="50.60" stroke="black" stroke-width="1.5"/>
+    <path d="M 75 75 L 75.00 15.00 A 60 60 0 0 1 99.40 20.19 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+    <path d="M 75 75 L 99.40 20.19 A 60 60 0 0 1 119.59 34.85 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+    <path d="M 75 75 L 119.59 34.85 A 60 60 0 0 1 132.06 56.46 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+    <path d="M 75 75 L 132.06 56.46 A 60 60 0 0 1 134.67 81.27 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+    <path d="M 75 75 L 134.67 81.27 A 60 60 0 0 1 126.96 105.00 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+    <path d="M 75 75 L 126.96 105.00 A 60 60 0 0 1 110.27 123.54 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+    <path d="M 75 75 L 110.27 123.54 A 60 60 0 0 1 87.47 133.69 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+    <path d="M 75 75 L 87.47 133.69 A 60 60 0 0 1 62.53 133.69 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+    <path d="M 75 75 L 62.53 133.69 A 60 60 0 0 1 39.73 123.54 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+</svg>
+                <svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background circle -->
+    <circle cx="75" cy="75" r="60" fill="white" stroke="black" stroke-width="2"/>
+
+    <!-- Partition lines -->
+    <line x1="75" y1="75" x2="135.00" y2="75.00" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="129.81" y2="99.40" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="115.15" y2="119.59" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="93.54" y2="132.06" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="68.73" y2="134.67" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="45.00" y2="126.96" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="26.46" y2="110.27" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="16.31" y2="87.47" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="16.31" y2="62.53" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="26.46" y2="39.73" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="45.00" y2="23.04" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="68.73" y2="15.33" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="93.54" y2="17.94" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="115.15" y2="30.41" stroke="black" stroke-width="1.5"/>
+    <line x1="75" y1="75" x2="129.81" y2="50.60" stroke="black" stroke-width="1.5"/>
+    <path d="M 75 75 L 75.00 15.00 A 60 60 0 0 1 99.40 20.19 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+    <path d="M 75 75 L 99.40 20.19 A 60 60 0 0 1 119.59 34.85 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+    <path d="M 75 75 L 119.59 34.85 A 60 60 0 0 1 132.06 56.46 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+    <path d="M 75 75 L 132.06 56.46 A 60 60 0 0 1 134.67 81.27 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+    <path d="M 75 75 L 134.67 81.27 A 60 60 0 0 1 126.96 105.00 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+    <path d="M 75 75 L 126.96 105.00 A 60 60 0 0 1 110.27 123.54 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+    <path d="M 75 75 L 110.27 123.54 A 60 60 0 0 1 87.47 133.69 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+    <path d="M 75 75 L 87.47 133.69 A 60 60 0 0 1 62.53 133.69 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+    <path d="M 75 75 L 62.53 133.69 A 60 60 0 0 1 39.73 123.54 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+    <path d="M 75 75 L 39.73 123.54 A 60 60 0 0 1 23.04 105.00 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+    <path d="M 75 75 L 23.04 105.00 A 60 60 0 0 1 15.33 81.27 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+    <path d="M 75 75 L 15.33 81.27 A 60 60 0 0 1 17.94 56.46 Z"
+          fill="#4A90E2" fill-opacity="0.7" stroke="black" stroke-width="1"/>
+</svg>
             </div>
         </div>
     </div>
-</div>
 </body>
 </html>
