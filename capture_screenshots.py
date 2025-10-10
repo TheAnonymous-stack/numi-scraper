@@ -18,7 +18,7 @@ driver = webdriver.Chrome(options=chrome_options)
 
 # Get all HTML files in the HTML directory
 grade = 8
-html_files = glob.glob("HTML/Gr8_49_E2_2_*.html")
+html_files = glob.glob("HTML/Gr8_39_E4_4_*.html")
 html_files.sort()
 
 print(f"Found {len(html_files)} HTML files to process")
@@ -54,9 +54,21 @@ for html_file in html_files:
         # Find ALL items with class="item"
         item_divs = driver.find_elements(By.CLASS_NAME, "item")
         
-        for item_div in item_divs:
+        for i, item_div in enumerate(item_divs):
             # Get the label attribute
             label = item_div.get_attribute("label")
+            
+            # Debug: Print item div info
+            size = item_div.size
+            location = item_div.location
+            print(f"Item {i}: {label} - Size: {size}, Location: {location}")
+            
+            # Scroll the element into view to ensure it's fully visible
+            driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", item_div)
+            
+            # Add a small delay to ensure rendering is complete
+            import time
+            time.sleep(0.5)
             
             # Take screenshot and save with label as filename in the appropriate directory
             screenshot_path = os.path.join(save_dir, f"{label}.png")
