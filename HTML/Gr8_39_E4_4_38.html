@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coordinate Planes with Shapes</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .item {
+            border: 2px solid #333;
+            background-color: white;
+            padding: 10px;
+        }
+        canvas {
+            border: 1px solid #ccc;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="item" label="Gr8_39_4_38">
+            <canvas id="coordinatePlane0" width="400" height="400"></canvas>
+        </div>
+
+        <div class="item" label="Gr8_39_4_38_step_3">
+            <canvas id="coordinatePlane1" width="400" height="400"></canvas>
+        </div>
+
+        <div class="item" label="Gr8_39_4_38_step_5">
+            <canvas id="coordinatePlane2" width="400" height="400"></canvas>
+        </div>
+
+    </div>
+    
+    <script>
+        function drawCoordinatePlane(canvasId, shapes) {
+            const canvas = document.getElementById(canvasId);
+            const ctx = canvas.getContext('2d');
+            
+            // Clear canvas
+            ctx.clearRect(0, 0, 400, 400);
+            
+            // Draw grid lines
+            ctx.strokeStyle = '#e0e0e0';
+            ctx.lineWidth = 0.5;
+            
+            // Vertical grid lines
+            for (let x = 0; x <= 400; x += 20) {
+                ctx.beginPath();
+                ctx.moveTo(x, 0);
+                ctx.lineTo(x, 400);
+                ctx.stroke();
+            }
+            
+            // Horizontal grid lines
+            for (let y = 0; y <= 400; y += 20) {
+                ctx.beginPath();
+                ctx.moveTo(0, y);
+                ctx.lineTo(400, y);
+                ctx.stroke();
+            }
+            
+            // Function to draw arrow
+            function drawArrow(fromX, fromY, toX, toY, arrowLength = 10) {
+                const angle = Math.atan2(toY - fromY, toX - fromX);
+                
+                // Draw main line
+                ctx.beginPath();
+                ctx.moveTo(fromX, fromY);
+                ctx.lineTo(toX, toY);
+                ctx.stroke();
+                
+                // Draw arrowhead
+                ctx.beginPath();
+                ctx.moveTo(toX, toY);
+                ctx.lineTo(toX - arrowLength * Math.cos(angle - Math.PI / 6), toY - arrowLength * Math.sin(angle - Math.PI / 6));
+                ctx.moveTo(toX, toY);
+                ctx.lineTo(toX - arrowLength * Math.cos(angle + Math.PI / 6), toY - arrowLength * Math.sin(angle + Math.PI / 6));
+                ctx.stroke();
+            }
+            
+            // Draw main axes with arrows
+            ctx.strokeStyle = '#333';
+            ctx.lineWidth = 2;
+            
+            // X-axis with arrows
+            drawArrow(15, 200.0, 0, 200.0); // Left arrow
+            ctx.beginPath();
+            ctx.moveTo(0, 200.0);
+            ctx.lineTo(400, 200.0);
+            ctx.stroke();
+            drawArrow(385, 200.0, 400, 200.0); // Right arrow
+            
+            // Y-axis with arrows
+            drawArrow(200.0, 15, 200.0, 0); // Up arrow
+            ctx.beginPath();
+            ctx.moveTo(200.0, 0);
+            ctx.lineTo(200.0, 400);
+            ctx.stroke();
+            drawArrow(200.0, 385, 200.0, 400); // Down arrow
+            
+            // Draw axis labels and ticks
+            ctx.fillStyle = '#333';
+            ctx.font = '16px Arial';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'top';
+            
+            // X-axis ticks and labels
+            for (let x = -9; x <= 9; x++) {
+                if (x !== 0) {
+                    const pixelX = 200.0 + x * 20.0;
+                    
+                    // Draw tick
+                    ctx.beginPath();
+                    ctx.moveTo(pixelX, 200.0 - 5);
+                    ctx.lineTo(pixelX, 200.0 + 5);
+                    ctx.stroke();
+                    
+                    // Draw label
+                    ctx.fillText(x.toString(), pixelX, 200.0 + 8);
+                }
+            }
+            
+            // Y-axis ticks and labels
+            ctx.textAlign = 'right';
+            ctx.textBaseline = 'middle';
+            for (let y = -9; y <= 9; y++) {
+                if (y !== 0) {
+                    const pixelY = 200.0 - y * 20.0;
+                    
+                    // Draw tick
+                    ctx.beginPath();
+                    ctx.moveTo(200.0 - 5, pixelY);
+                    ctx.lineTo(200.0 + 5, pixelY);
+                    ctx.stroke();
+                    
+                    // Draw label
+                    ctx.fillText(y.toString(), 200.0 - 8, pixelY);
+                }
+            }
+            
+            // Function to convert coordinate to pixel
+            function coordToPixel(x, y) {
+                return [
+                    200.0 + x * 20.0,
+                    200.0 - y * 20.0
+                ];
+            }
+            
+            // Draw shapes
+            shapes.forEach((shape, i) => {
+                if (shape.points.length < 2) return;
+                
+                ctx.strokeStyle = shape.color;
+                // Make yellow highlighting lines thicker and more visible
+                if (shape.color === 'yellow') {
+                    ctx.lineWidth = 4;
+                    ctx.globalAlpha = 0.8;
+                } else {
+                    ctx.lineWidth = 2;
+                    ctx.globalAlpha = 1.0;
+                }
+                
+                ctx.beginPath();
+                
+                const [startX, startY] = coordToPixel(shape.points[0][0], shape.points[0][1]);
+                ctx.moveTo(startX, startY);
+                
+                for (let j = 1; j < shape.points.length; j++) {
+                    const [px, py] = coordToPixel(shape.points[j][0], shape.points[j][1]);
+                    ctx.lineTo(px, py);
+                }
+                
+                ctx.stroke();
+                
+                // Add dots at the endpoints for yellow lines to make them more visible
+                if (shape.color === 'yellow') {
+                    ctx.fillStyle = 'yellow';
+                    shape.points.forEach(point => {
+                        const [px, py] = coordToPixel(point[0], point[1]);
+                        ctx.beginPath();
+                        ctx.arc(px, py, 4, 0, 2 * Math.PI);
+                        ctx.fill();
+                    });
+                }
+                
+                // Reset alpha
+                ctx.globalAlpha = 1.0;
+            });
+        }
+
+        drawCoordinatePlane('coordinatePlane0', [{"points": [[-3, -4], [6, -4], [0, 2], [-3, -4]], "color": "black"}, {"points": [[-4, -5], [8, -5], [0, 3], [-4, -5]], "color": "red"}]);
+        drawCoordinatePlane('coordinatePlane1', [{"points": [[-3, -4], [6, -4], [0, 2], [-3, -4]], "color": "black"}, {"points": [[-4, -5], [8, -5], [0, 3], [-4, -5]], "color": "red"}, {"points": [[-3, -4], [6, -4]], "color": "yellow"}]);
+        drawCoordinatePlane('coordinatePlane2', [{"points": [[-3, -4], [6, -4], [0, 2], [-3, -4]], "color": "black"}, {"points": [[-4, -5], [8, -5], [0, 3], [-4, -5]], "color": "red"}, {"points": [[-4, -5], [8, -5]], "color": "yellow"}]);
+    </script>
+</body>
+</html>
