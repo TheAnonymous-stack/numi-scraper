@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            padding: 20px;
+        }
+        .item {
+            border: 2px solid #333;
+            background-color: white;
+            padding: 15px;
+            margin: 10px 0;
+            width: fit-content;
+            text-align: center;
+        }
+        canvas {
+            border: 1px solid #ccc;
+            background-color: white;
+        }
+        .problem {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .instruction {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        <!-- Multiple Choice Options -->
+        <div class="item" label="Gr7_10_1_15_A">
+            <canvas id="Gr7_10_1_15_A" width="400" height="150"></canvas>
+        </div>
+        <div class="item" label="Gr7_10_1_15_B">
+            <canvas id="Gr7_10_1_15_B" width="400" height="150"></canvas>
+        </div>
+        <div class="item" label="Gr7_10_1_15_C">
+            <canvas id="Gr7_10_1_15_C" width="400" height="150"></canvas>
+        </div>
+        <div class="item" label="Gr7_10_1_15_D">
+            <canvas id="Gr7_10_1_15_D" width="400" height="150"></canvas>
+        </div>
+        
+        <!-- Solution Step Images -->
+        <div class="item" label="Gr7_10_1_15_step_2">
+            <canvas id="Gr7_10_1_15_step_2" width="400" height="150"></canvas>
+        </div>
+        
+        <div class="item" label="Gr7_10_1_15_step_3">
+            <canvas id="Gr7_10_1_15_step_3" width="400" height="150"></canvas>
+        </div>
+        
+        <div class="item" label="Gr7_10_1_15_step_5">
+            <canvas id="Gr7_10_1_15_step_5" width="400" height="150"></canvas>
+        </div>
+        
+    </div>
+    
+    <script>
+        
+        // Canvas Gr7_10_1_15_A - 10
+        const canvasGr7_10_1_15_A = document.getElementById('Gr7_10_1_15_A');
+        const ctxGr7_10_1_15_A = canvasGr7_10_1_15_A.getContext('2d');
+        ctxGr7_10_1_15_A.clearRect(0, 0, 400, 150);
+        
+        const startXGr7_10_1_15_A = 68.75;
+        const startYGr7_10_1_15_A = 37.5;
+        const circleRadiusGr7_10_1_15_A = 25;
+        const circleSpacingGr7_10_1_15_A = 62.5;
+        const circlesPerRowGr7_10_1_15_A = 5;
+        
+        for (let i = 0; i < 10; i++) {
+            const row = Math.floor(i / circlesPerRowGr7_10_1_15_A);
+            const col = i % circlesPerRowGr7_10_1_15_A;
+            
+            const x = startXGr7_10_1_15_A + col * circleSpacingGr7_10_1_15_A;
+            const y = startYGr7_10_1_15_A + row * circleSpacingGr7_10_1_15_A;
+            
+            // Draw circle
+            ctxGr7_10_1_15_A.beginPath();
+            ctxGr7_10_1_15_A.arc(x, y, circleRadiusGr7_10_1_15_A, 0, 2 * Math.PI);
+            ctxGr7_10_1_15_A.fillStyle = '#FFD700';
+            ctxGr7_10_1_15_A.fill();
+            ctxGr7_10_1_15_A.strokeStyle = '#333';
+            ctxGr7_10_1_15_A.lineWidth = 2;
+            ctxGr7_10_1_15_A.stroke();
+            
+            // Draw sign
+            ctxGr7_10_1_15_A.fillStyle = '#000';
+            ctxGr7_10_1_15_A.font = 'bold 30px Arial';
+            ctxGr7_10_1_15_A.textAlign = 'center';
+            ctxGr7_10_1_15_A.textBaseline = 'middle';
+            ctxGr7_10_1_15_A.fillText('+', x, y);
+        }
+        
+        // Canvas Gr7_10_1_15_B - -10
+        const canvasGr7_10_1_15_B = document.getElementById('Gr7_10_1_15_B');
+        const ctxGr7_10_1_15_B = canvasGr7_10_1_15_B.getContext('2d');
+        ctxGr7_10_1_15_B.clearRect(0, 0, 400, 150);
+        
+        const startXGr7_10_1_15_B = 68.75;
+        const startYGr7_10_1_15_B = 37.5;
+        const circleRadiusGr7_10_1_15_B = 25;
+        const circleSpacingGr7_10_1_15_B = 62.5;
+        const circlesPerRowGr7_10_1_15_B = 5;
+        
+        for (let i = 0; i < 10; i++) {
+            const row = Math.floor(i / circlesPerRowGr7_10_1_15_B);
+            const col = i % circlesPerRowGr7_10_1_15_B;
+            
+            const x = startXGr7_10_1_15_B + col * circleSpacingGr7_10_1_15_B;
+            const y = startYGr7_10_1_15_B + row * circleSpacingGr7_10_1_15_B;
+            
+            // Draw circle
+            ctxGr7_10_1_15_B.beginPath();
+            ctxGr7_10_1_15_B.arc(x, y, circleRadiusGr7_10_1_15_B, 0, 2 * Math.PI);
+            ctxGr7_10_1_15_B.fillStyle = '#FF6B6B';
+            ctxGr7_10_1_15_B.fill();
+            ctxGr7_10_1_15_B.strokeStyle = '#333';
+            ctxGr7_10_1_15_B.lineWidth = 2;
+            ctxGr7_10_1_15_B.stroke();
+            
+            // Draw sign
+            ctxGr7_10_1_15_B.fillStyle = '#000';
+            ctxGr7_10_1_15_B.font = 'bold 30px Arial';
+            ctxGr7_10_1_15_B.textAlign = 'center';
+            ctxGr7_10_1_15_B.textBaseline = 'middle';
+            ctxGr7_10_1_15_B.fillText('-', x, y);
+        }
+        
+        // Canvas Gr7_10_1_15_C - -9
+        const canvasGr7_10_1_15_C = document.getElementById('Gr7_10_1_15_C');
+        const ctxGr7_10_1_15_C = canvasGr7_10_1_15_C.getContext('2d');
+        ctxGr7_10_1_15_C.clearRect(0, 0, 400, 150);
+        
+        const startXGr7_10_1_15_C = 68.75;
+        const startYGr7_10_1_15_C = 37.5;
+        const circleRadiusGr7_10_1_15_C = 25;
+        const circleSpacingGr7_10_1_15_C = 62.5;
+        const circlesPerRowGr7_10_1_15_C = 5;
+        
+        for (let i = 0; i < 9; i++) {
+            const row = Math.floor(i / circlesPerRowGr7_10_1_15_C);
+            const col = i % circlesPerRowGr7_10_1_15_C;
+            
+            const x = startXGr7_10_1_15_C + col * circleSpacingGr7_10_1_15_C;
+            const y = startYGr7_10_1_15_C + row * circleSpacingGr7_10_1_15_C;
+            
+            // Draw circle
+            ctxGr7_10_1_15_C.beginPath();
+            ctxGr7_10_1_15_C.arc(x, y, circleRadiusGr7_10_1_15_C, 0, 2 * Math.PI);
+            ctxGr7_10_1_15_C.fillStyle = '#FF6B6B';
+            ctxGr7_10_1_15_C.fill();
+            ctxGr7_10_1_15_C.strokeStyle = '#333';
+            ctxGr7_10_1_15_C.lineWidth = 2;
+            ctxGr7_10_1_15_C.stroke();
+            
+            // Draw sign
+            ctxGr7_10_1_15_C.fillStyle = '#000';
+            ctxGr7_10_1_15_C.font = 'bold 30px Arial';
+            ctxGr7_10_1_15_C.textAlign = 'center';
+            ctxGr7_10_1_15_C.textBaseline = 'middle';
+            ctxGr7_10_1_15_C.fillText('-', x, y);
+        }
+        
+        // Canvas Gr7_10_1_15_D - -8
+        const canvasGr7_10_1_15_D = document.getElementById('Gr7_10_1_15_D');
+        const ctxGr7_10_1_15_D = canvasGr7_10_1_15_D.getContext('2d');
+        ctxGr7_10_1_15_D.clearRect(0, 0, 400, 150);
+        
+        const startXGr7_10_1_15_D = 68.75;
+        const startYGr7_10_1_15_D = 37.5;
+        const circleRadiusGr7_10_1_15_D = 25;
+        const circleSpacingGr7_10_1_15_D = 62.5;
+        const circlesPerRowGr7_10_1_15_D = 5;
+        
+        for (let i = 0; i < 8; i++) {
+            const row = Math.floor(i / circlesPerRowGr7_10_1_15_D);
+            const col = i % circlesPerRowGr7_10_1_15_D;
+            
+            const x = startXGr7_10_1_15_D + col * circleSpacingGr7_10_1_15_D;
+            const y = startYGr7_10_1_15_D + row * circleSpacingGr7_10_1_15_D;
+            
+            // Draw circle
+            ctxGr7_10_1_15_D.beginPath();
+            ctxGr7_10_1_15_D.arc(x, y, circleRadiusGr7_10_1_15_D, 0, 2 * Math.PI);
+            ctxGr7_10_1_15_D.fillStyle = '#FF6B6B';
+            ctxGr7_10_1_15_D.fill();
+            ctxGr7_10_1_15_D.strokeStyle = '#333';
+            ctxGr7_10_1_15_D.lineWidth = 2;
+            ctxGr7_10_1_15_D.stroke();
+            
+            // Draw sign
+            ctxGr7_10_1_15_D.fillStyle = '#000';
+            ctxGr7_10_1_15_D.font = 'bold 30px Arial';
+            ctxGr7_10_1_15_D.textAlign = 'center';
+            ctxGr7_10_1_15_D.textBaseline = 'middle';
+            ctxGr7_10_1_15_D.fillText('-', x, y);
+        }
+        
+        
+        // Canvas Gr7_10_1_15_step_2 - -6
+        const canvasGr7_10_1_15_step_2 = document.getElementById('Gr7_10_1_15_step_2');
+        const ctxGr7_10_1_15_step_2 = canvasGr7_10_1_15_step_2.getContext('2d');
+        ctxGr7_10_1_15_step_2.clearRect(0, 0, 400, 150);
+        
+        const startXGr7_10_1_15_step_2 = 68.75;
+        const startYGr7_10_1_15_step_2 = 37.5;
+        const circleRadiusGr7_10_1_15_step_2 = 25;
+        const circleSpacingGr7_10_1_15_step_2 = 62.5;
+        const circlesPerRowGr7_10_1_15_step_2 = 5;
+        
+        for (let i = 0; i < 6; i++) {
+            const row = Math.floor(i / circlesPerRowGr7_10_1_15_step_2);
+            const col = i % circlesPerRowGr7_10_1_15_step_2;
+            
+            const x = startXGr7_10_1_15_step_2 + col * circleSpacingGr7_10_1_15_step_2;
+            const y = startYGr7_10_1_15_step_2 + row * circleSpacingGr7_10_1_15_step_2;
+            
+            // Draw circle
+            ctxGr7_10_1_15_step_2.beginPath();
+            ctxGr7_10_1_15_step_2.arc(x, y, circleRadiusGr7_10_1_15_step_2, 0, 2 * Math.PI);
+            ctxGr7_10_1_15_step_2.fillStyle = '#FF6B6B';
+            ctxGr7_10_1_15_step_2.fill();
+            ctxGr7_10_1_15_step_2.strokeStyle = '#333';
+            ctxGr7_10_1_15_step_2.lineWidth = 2;
+            ctxGr7_10_1_15_step_2.stroke();
+            
+            // Draw sign
+            ctxGr7_10_1_15_step_2.fillStyle = '#000';
+            ctxGr7_10_1_15_step_2.font = 'bold 30px Arial';
+            ctxGr7_10_1_15_step_2.textAlign = 'center';
+            ctxGr7_10_1_15_step_2.textBaseline = 'middle';
+            ctxGr7_10_1_15_step_2.fillText('-', x, y);
+        }
+        
+        
+        // Canvas Gr7_10_1_15_step_3 - -4
+        const canvasGr7_10_1_15_step_3 = document.getElementById('Gr7_10_1_15_step_3');
+        const ctxGr7_10_1_15_step_3 = canvasGr7_10_1_15_step_3.getContext('2d');
+        ctxGr7_10_1_15_step_3.clearRect(0, 0, 400, 150);
+        
+        const startXGr7_10_1_15_step_3 = 100.0;
+        const startYGr7_10_1_15_step_3 = 68.75;
+        const circleRadiusGr7_10_1_15_step_3 = 25;
+        const circleSpacingGr7_10_1_15_step_3 = 62.5;
+        const circlesPerRowGr7_10_1_15_step_3 = 4;
+        
+        for (let i = 0; i < 4; i++) {
+            const row = Math.floor(i / circlesPerRowGr7_10_1_15_step_3);
+            const col = i % circlesPerRowGr7_10_1_15_step_3;
+            
+            const x = startXGr7_10_1_15_step_3 + col * circleSpacingGr7_10_1_15_step_3;
+            const y = startYGr7_10_1_15_step_3 + row * circleSpacingGr7_10_1_15_step_3;
+            
+            // Draw circle
+            ctxGr7_10_1_15_step_3.beginPath();
+            ctxGr7_10_1_15_step_3.arc(x, y, circleRadiusGr7_10_1_15_step_3, 0, 2 * Math.PI);
+            ctxGr7_10_1_15_step_3.fillStyle = '#FF6B6B';
+            ctxGr7_10_1_15_step_3.fill();
+            ctxGr7_10_1_15_step_3.strokeStyle = '#333';
+            ctxGr7_10_1_15_step_3.lineWidth = 2;
+            ctxGr7_10_1_15_step_3.stroke();
+            
+            // Draw sign
+            ctxGr7_10_1_15_step_3.fillStyle = '#000';
+            ctxGr7_10_1_15_step_3.font = 'bold 30px Arial';
+            ctxGr7_10_1_15_step_3.textAlign = 'center';
+            ctxGr7_10_1_15_step_3.textBaseline = 'middle';
+            ctxGr7_10_1_15_step_3.fillText('-', x, y);
+        }
+        
+        
+        // Canvas Gr7_10_1_15_step_5 - -10
+        const canvasGr7_10_1_15_step_5 = document.getElementById('Gr7_10_1_15_step_5');
+        const ctxGr7_10_1_15_step_5 = canvasGr7_10_1_15_step_5.getContext('2d');
+        ctxGr7_10_1_15_step_5.clearRect(0, 0, 400, 150);
+        
+        const startXGr7_10_1_15_step_5 = 68.75;
+        const startYGr7_10_1_15_step_5 = 37.5;
+        const circleRadiusGr7_10_1_15_step_5 = 25;
+        const circleSpacingGr7_10_1_15_step_5 = 62.5;
+        const circlesPerRowGr7_10_1_15_step_5 = 5;
+        
+        for (let i = 0; i < 10; i++) {
+            const row = Math.floor(i / circlesPerRowGr7_10_1_15_step_5);
+            const col = i % circlesPerRowGr7_10_1_15_step_5;
+            
+            const x = startXGr7_10_1_15_step_5 + col * circleSpacingGr7_10_1_15_step_5;
+            const y = startYGr7_10_1_15_step_5 + row * circleSpacingGr7_10_1_15_step_5;
+            
+            // Draw circle
+            ctxGr7_10_1_15_step_5.beginPath();
+            ctxGr7_10_1_15_step_5.arc(x, y, circleRadiusGr7_10_1_15_step_5, 0, 2 * Math.PI);
+            ctxGr7_10_1_15_step_5.fillStyle = '#FF6B6B';
+            ctxGr7_10_1_15_step_5.fill();
+            ctxGr7_10_1_15_step_5.strokeStyle = '#333';
+            ctxGr7_10_1_15_step_5.lineWidth = 2;
+            ctxGr7_10_1_15_step_5.stroke();
+            
+            // Draw sign
+            ctxGr7_10_1_15_step_5.fillStyle = '#000';
+            ctxGr7_10_1_15_step_5.font = 'bold 30px Arial';
+            ctxGr7_10_1_15_step_5.textAlign = 'center';
+            ctxGr7_10_1_15_step_5.textBaseline = 'middle';
+            ctxGr7_10_1_15_step_5.fillText('-', x, y);
+        }
+        
+    </script>
+</body>
+</html>
