@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            padding: 20px;
+        }
+        .item {
+            border: 2px solid #333;
+            background-color: white;
+            padding: 15px;
+            margin: 10px 0;
+            width: fit-content;
+            text-align: center;
+        }
+        canvas {
+            border: 1px solid #ccc;
+            background-color: white;
+        }
+        .problem {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        
+        <!-- Main Question Image -->
+        <div class="item" label="Gr7_10_2_13">
+            <canvas id="Gr7_10_2_13" width="800" height="200"></canvas>
+        </div>
+        
+        <!-- Solution Image -->
+        <div class="item" label="Gr7_10_2_13_step_4">
+            <canvas id="Gr7_10_2_13_step_4" width="800" height="200"></canvas>
+        </div>
+        
+    </div>
+    
+    <script>
+        
+        // Canvas Gr7_10_2_13 - Number Line
+        const canvas_Gr7_10_2_13 = document.getElementById('Gr7_10_2_13');
+        const ctx_Gr7_10_2_13 = canvas_Gr7_10_2_13.getContext('2d');
+        ctx_Gr7_10_2_13.clearRect(0, 0, 800, 200);
+        
+        const lineStartX_Gr7_10_2_13 = 50;
+        const lineEndX_Gr7_10_2_13 = 750;
+        const lineY_Gr7_10_2_13 = 100;
+        const tickHeight_Gr7_10_2_13 = 15;
+        const spacing_Gr7_10_2_13 = 35.0;
+        
+        // Draw main number line
+        ctx_Gr7_10_2_13.strokeStyle = '#333';
+        ctx_Gr7_10_2_13.lineWidth = 2;
+        ctx_Gr7_10_2_13.beginPath();
+        ctx_Gr7_10_2_13.moveTo(lineStartX_Gr7_10_2_13, lineY_Gr7_10_2_13);
+        ctx_Gr7_10_2_13.lineTo(lineEndX_Gr7_10_2_13, lineY_Gr7_10_2_13);
+        ctx_Gr7_10_2_13.stroke();
+        
+        // Draw tick marks and numbers
+        ctx_Gr7_10_2_13.fillStyle = '#333';
+        ctx_Gr7_10_2_13.font = '18px Arial';
+        ctx_Gr7_10_2_13.textAlign = 'center';
+        ctx_Gr7_10_2_13.textBaseline = 'top';
+        
+        for (let i = 0; i < 21; i++) {
+            const x = lineStartX_Gr7_10_2_13 + i * spacing_Gr7_10_2_13;
+            const number = i - 10; // Numbers from -10 to 10
+            
+            // Draw tick mark
+            ctx_Gr7_10_2_13.beginPath();
+            ctx_Gr7_10_2_13.moveTo(x, lineY_Gr7_10_2_13 - tickHeight_Gr7_10_2_13/2);
+            ctx_Gr7_10_2_13.lineTo(x, lineY_Gr7_10_2_13 + tickHeight_Gr7_10_2_13/2);
+            ctx_Gr7_10_2_13.stroke();
+            
+            // Draw number labels for all integers
+            ctx_Gr7_10_2_13.fillText(number.toString(), x, lineY_Gr7_10_2_13 + tickHeight_Gr7_10_2_13 + 2);
+        }
+        
+        // Helper function to get x position for a number
+        function getXForNumber_Gr7_10_2_13(num) {
+            return lineStartX_Gr7_10_2_13 + (num + 10) * spacing_Gr7_10_2_13;
+        }
+        
+        // Highlight starting position
+        const startX_Gr7_10_2_13 = getXForNumber_Gr7_10_2_13(2);
+        ctx_Gr7_10_2_13.fillStyle = '#FF0000';
+        ctx_Gr7_10_2_13.beginPath();
+        ctx_Gr7_10_2_13.arc(startX_Gr7_10_2_13, lineY_Gr7_10_2_13, 6, 0, 2 * Math.PI);
+        ctx_Gr7_10_2_13.fill();
+        
+    
+        
+        // Canvas Gr7_10_2_13_step_4 - Number Line
+        const canvas_Gr7_10_2_13_step_4 = document.getElementById('Gr7_10_2_13_step_4');
+        const ctx_Gr7_10_2_13_step_4 = canvas_Gr7_10_2_13_step_4.getContext('2d');
+        ctx_Gr7_10_2_13_step_4.clearRect(0, 0, 800, 200);
+        
+        const lineStartX_Gr7_10_2_13_step_4 = 50;
+        const lineEndX_Gr7_10_2_13_step_4 = 750;
+        const lineY_Gr7_10_2_13_step_4 = 100;
+        const tickHeight_Gr7_10_2_13_step_4 = 15;
+        const spacing_Gr7_10_2_13_step_4 = 35.0;
+        
+        // Draw main number line
+        ctx_Gr7_10_2_13_step_4.strokeStyle = '#333';
+        ctx_Gr7_10_2_13_step_4.lineWidth = 2;
+        ctx_Gr7_10_2_13_step_4.beginPath();
+        ctx_Gr7_10_2_13_step_4.moveTo(lineStartX_Gr7_10_2_13_step_4, lineY_Gr7_10_2_13_step_4);
+        ctx_Gr7_10_2_13_step_4.lineTo(lineEndX_Gr7_10_2_13_step_4, lineY_Gr7_10_2_13_step_4);
+        ctx_Gr7_10_2_13_step_4.stroke();
+        
+        // Draw tick marks and numbers
+        ctx_Gr7_10_2_13_step_4.fillStyle = '#333';
+        ctx_Gr7_10_2_13_step_4.font = '18px Arial';
+        ctx_Gr7_10_2_13_step_4.textAlign = 'center';
+        ctx_Gr7_10_2_13_step_4.textBaseline = 'top';
+        
+        for (let i = 0; i < 21; i++) {
+            const x = lineStartX_Gr7_10_2_13_step_4 + i * spacing_Gr7_10_2_13_step_4;
+            const number = i - 10; // Numbers from -10 to 10
+            
+            // Draw tick mark
+            ctx_Gr7_10_2_13_step_4.beginPath();
+            ctx_Gr7_10_2_13_step_4.moveTo(x, lineY_Gr7_10_2_13_step_4 - tickHeight_Gr7_10_2_13_step_4/2);
+            ctx_Gr7_10_2_13_step_4.lineTo(x, lineY_Gr7_10_2_13_step_4 + tickHeight_Gr7_10_2_13_step_4/2);
+            ctx_Gr7_10_2_13_step_4.stroke();
+            
+            // Draw number labels for all integers
+            ctx_Gr7_10_2_13_step_4.fillText(number.toString(), x, lineY_Gr7_10_2_13_step_4 + tickHeight_Gr7_10_2_13_step_4 + 2);
+        }
+        
+        // Helper function to get x position for a number
+        function getXForNumber_Gr7_10_2_13_step_4(num) {
+            return lineStartX_Gr7_10_2_13_step_4 + (num + 10) * spacing_Gr7_10_2_13_step_4;
+        }
+        
+        // Highlight starting position
+        const startX_Gr7_10_2_13_step_4 = getXForNumber_Gr7_10_2_13_step_4(2);
+        ctx_Gr7_10_2_13_step_4.fillStyle = '#FF0000';
+        ctx_Gr7_10_2_13_step_4.beginPath();
+        ctx_Gr7_10_2_13_step_4.arc(startX_Gr7_10_2_13_step_4, lineY_Gr7_10_2_13_step_4, 6, 0, 2 * Math.PI);
+        ctx_Gr7_10_2_13_step_4.fill();
+        
+    
+        // Highlight final result at 4
+        const resultX_Gr7_10_2_13_step_4 = getXForNumber_Gr7_10_2_13_step_4(4);
+        ctx_Gr7_10_2_13_step_4.fillStyle = '#00AA00';
+        ctx_Gr7_10_2_13_step_4.beginPath();
+        ctx_Gr7_10_2_13_step_4.arc(resultX_Gr7_10_2_13_step_4, lineY_Gr7_10_2_13_step_4, 8, 0, 2 * Math.PI);
+        ctx_Gr7_10_2_13_step_4.fill();
+        
+        // Draw down arrow above the final result marker
+        ctx_Gr7_10_2_13_step_4.fillStyle = '#00AA00';
+        ctx_Gr7_10_2_13_step_4.beginPath();
+        ctx_Gr7_10_2_13_step_4.moveTo(resultX_Gr7_10_2_13_step_4, lineY_Gr7_10_2_13_step_4 - 30);
+        ctx_Gr7_10_2_13_step_4.lineTo(resultX_Gr7_10_2_13_step_4 - 8, lineY_Gr7_10_2_13_step_4 - 45);
+        ctx_Gr7_10_2_13_step_4.lineTo(resultX_Gr7_10_2_13_step_4 + 8, lineY_Gr7_10_2_13_step_4 - 45);
+        ctx_Gr7_10_2_13_step_4.closePath();
+        ctx_Gr7_10_2_13_step_4.fill();
+        
+        
+    </script>
+</body>
+</html>
