@@ -3,83 +3,242 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gr7_28_E2_2_18</title>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <title>Linear Equation Graphs</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            padding: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
+            margin: 20px;
+            background-color: #f5f5f5;
         }
         .item {
-            border: 1px solid #ddd;
-            padding: 10px;
-            border-radius: 5px;
-            display: inline-block;
+            max-width: 700px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
-        svg {
-            display: block;
+        .graphs-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            gap: 20px;
         }
-        .fraction-model {
-            width: 200px;
-            height: 200px;
-        }
-        .number-line {
-            width: 600px;
-            height: 100px;
-        }
-        .area-model {
-            width: 400px;
-            height: 300px;
-        }
-        .geometric-shape {
-            width: 300px;
-            height: 300px;
-        }
-        .table {
-            border-collapse: collapse;
-            margin: 10px;
-        }
-        .table td, .table th {
-            border: 1px solid #333;
-            padding: 8px;
+        .graph {
+            flex: 1;
             text-align: center;
+        }
+        .axis {
+            stroke: #333;
+            stroke-width: 2;
+        }
+        .grid {
+            stroke: #e0e0e0;
+            stroke-width: 0.5;
+        }
+        .tick {
+            stroke: #333;
+            stroke-width: 1;
+        }
+        .label {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            fill: #333;
+            text-anchor: middle;
+        }
+        .line {
+            stroke: #ff4444;
+            stroke-width: 3;
+            fill: none;
         }
     </style>
 </head>
 <body>
-    <h1>Grade 7 - Week 28 - Exercise 2 - Question 2_18</h1>
-    <div class="container">
-
-        <div class="item" label="Gr7_28_2_18">
-            <table class="table">
-                <tr><td>Cell 1</td><td>Cell 2</td></tr>
-                <tr><td>Cell 3</td><td>Cell 4</td></tr>
-            </table>
+    <div class="item" label="Gr7_28_2_18">
+        <div class="graphs-container">
+            <div class="graph">
+                <div style="text-align: center; margin-bottom: 10px;">
+            <div style="font-size: 24px; font-weight: bold; margin-bottom: 5px;">A</div>
         </div>
-
-        <div class="item" label="Gr7_28_2_1_18">
-            <table class="table">
-                <tr><td>Cell 1</td><td>Cell 2</td></tr>
-                <tr><td>Cell 3</td><td>Cell 4</td></tr>
-            </table>
+        <svg width="300" height="300" style="border: 1px solid #ddd; background: white;">
+            <!-- Grid lines -->
+            <line x1="50.0" y1="50" x2="50.0" y2="250" class="grid"/>
+            <line x1="50" y1="250.0" x2="250" y2="250.0" class="grid"/>
+            <line x1="70.0" y1="50" x2="70.0" y2="250" class="grid"/>
+            <line x1="50" y1="230.0" x2="250" y2="230.0" class="grid"/>
+            <line x1="90.0" y1="50" x2="90.0" y2="250" class="grid"/>
+            <line x1="50" y1="210.0" x2="250" y2="210.0" class="grid"/>
+            <line x1="110.0" y1="50" x2="110.0" y2="250" class="grid"/>
+            <line x1="50" y1="190.0" x2="250" y2="190.0" class="grid"/>
+            <line x1="130.0" y1="50" x2="130.0" y2="250" class="grid"/>
+            <line x1="50" y1="170.0" x2="250" y2="170.0" class="grid"/>
+            <line x1="170.0" y1="50" x2="170.0" y2="250" class="grid"/>
+            <line x1="50" y1="130.0" x2="250" y2="130.0" class="grid"/>
+            <line x1="190.0" y1="50" x2="190.0" y2="250" class="grid"/>
+            <line x1="50" y1="110.0" x2="250" y2="110.0" class="grid"/>
+            <line x1="210.0" y1="50" x2="210.0" y2="250" class="grid"/>
+            <line x1="50" y1="90.0" x2="250" y2="90.0" class="grid"/>
+            <line x1="230.0" y1="50" x2="230.0" y2="250" class="grid"/>
+            <line x1="50" y1="70.0" x2="250" y2="70.0" class="grid"/>
+            <line x1="250.0" y1="50" x2="250.0" y2="250" class="grid"/>
+            <line x1="50" y1="50.0" x2="250" y2="50.0" class="grid"/>
+            
+            <!-- Main axes -->
+            <line x1="50" y1="150.0" x2="250" y2="150.0" class="axis"/>
+            <line x1="150.0" y1="50" x2="150.0" y2="250" class="axis"/>
+            
+            <!-- Tick marks and labels -->
+            <line x1="50.0" y1="145.0" x2="50.0" y2="155.0" class="tick"/>
+            <text x="50.0" y="170.0" class="label">-5</text>
+            
+            <line x1="145.0" y1="250.0" x2="155.0" y2="250.0" class="tick"/>
+            <text x="135.0" y="254.0" class="label">-5</text>
+            <line x1="70.0" y1="145.0" x2="70.0" y2="155.0" class="tick"/>
+            <text x="70.0" y="170.0" class="label">-4</text>
+            
+            <line x1="145.0" y1="230.0" x2="155.0" y2="230.0" class="tick"/>
+            <text x="135.0" y="234.0" class="label">-4</text>
+            <line x1="90.0" y1="145.0" x2="90.0" y2="155.0" class="tick"/>
+            <text x="90.0" y="170.0" class="label">-3</text>
+            
+            <line x1="145.0" y1="210.0" x2="155.0" y2="210.0" class="tick"/>
+            <text x="135.0" y="214.0" class="label">-3</text>
+            <line x1="110.0" y1="145.0" x2="110.0" y2="155.0" class="tick"/>
+            <text x="110.0" y="170.0" class="label">-2</text>
+            
+            <line x1="145.0" y1="190.0" x2="155.0" y2="190.0" class="tick"/>
+            <text x="135.0" y="194.0" class="label">-2</text>
+            <line x1="130.0" y1="145.0" x2="130.0" y2="155.0" class="tick"/>
+            <text x="130.0" y="170.0" class="label">-1</text>
+            
+            <line x1="145.0" y1="170.0" x2="155.0" y2="170.0" class="tick"/>
+            <text x="135.0" y="174.0" class="label">-1</text>
+            <line x1="170.0" y1="145.0" x2="170.0" y2="155.0" class="tick"/>
+            <text x="170.0" y="170.0" class="label">1</text>
+            
+            <line x1="145.0" y1="130.0" x2="155.0" y2="130.0" class="tick"/>
+            <text x="135.0" y="134.0" class="label">1</text>
+            <line x1="190.0" y1="145.0" x2="190.0" y2="155.0" class="tick"/>
+            <text x="190.0" y="170.0" class="label">2</text>
+            
+            <line x1="145.0" y1="110.0" x2="155.0" y2="110.0" class="tick"/>
+            <text x="135.0" y="114.0" class="label">2</text>
+            <line x1="210.0" y1="145.0" x2="210.0" y2="155.0" class="tick"/>
+            <text x="210.0" y="170.0" class="label">3</text>
+            
+            <line x1="145.0" y1="90.0" x2="155.0" y2="90.0" class="tick"/>
+            <text x="135.0" y="94.0" class="label">3</text>
+            <line x1="230.0" y1="145.0" x2="230.0" y2="155.0" class="tick"/>
+            <text x="230.0" y="170.0" class="label">4</text>
+            
+            <line x1="145.0" y1="70.0" x2="155.0" y2="70.0" class="tick"/>
+            <text x="135.0" y="74.0" class="label">4</text>
+            <line x1="250.0" y1="145.0" x2="250.0" y2="155.0" class="tick"/>
+            <text x="250.0" y="170.0" class="label">5</text>
+            
+            <line x1="145.0" y1="50.0" x2="155.0" y2="50.0" class="tick"/>
+            <text x="135.0" y="54.0" class="label">5</text>
+            
+            <!-- Axis labels -->
+            <text x="280" y="140.0" class="label" style="font-weight: bold;">x</text>
+            <text x="165.0" y="40" class="label" style="font-weight: bold;">y</text>
+            
+            <!-- Linear equation line -->
+            <line x1="90.0" y1="50.0" x2="190.0" y2="250.0" class="line"/>
+        </svg>
+            </div>
+            <div class="graph">
+                <div style="text-align: center; margin-bottom: 10px;">
+            <div style="font-size: 24px; font-weight: bold; margin-bottom: 5px;">B</div>
         </div>
-
-        <div class="item" label="Gr7_28_2_1_18">
-            <table class="table">
-                <tr><td>Cell 1</td><td>Cell 2</td></tr>
-                <tr><td>Cell 3</td><td>Cell 4</td></tr>
-            </table>
+        <svg width="300" height="300" style="border: 1px solid #ddd; background: white;">
+            <!-- Grid lines -->
+            <line x1="50.0" y1="50" x2="50.0" y2="250" class="grid"/>
+            <line x1="50" y1="250.0" x2="250" y2="250.0" class="grid"/>
+            <line x1="70.0" y1="50" x2="70.0" y2="250" class="grid"/>
+            <line x1="50" y1="230.0" x2="250" y2="230.0" class="grid"/>
+            <line x1="90.0" y1="50" x2="90.0" y2="250" class="grid"/>
+            <line x1="50" y1="210.0" x2="250" y2="210.0" class="grid"/>
+            <line x1="110.0" y1="50" x2="110.0" y2="250" class="grid"/>
+            <line x1="50" y1="190.0" x2="250" y2="190.0" class="grid"/>
+            <line x1="130.0" y1="50" x2="130.0" y2="250" class="grid"/>
+            <line x1="50" y1="170.0" x2="250" y2="170.0" class="grid"/>
+            <line x1="170.0" y1="50" x2="170.0" y2="250" class="grid"/>
+            <line x1="50" y1="130.0" x2="250" y2="130.0" class="grid"/>
+            <line x1="190.0" y1="50" x2="190.0" y2="250" class="grid"/>
+            <line x1="50" y1="110.0" x2="250" y2="110.0" class="grid"/>
+            <line x1="210.0" y1="50" x2="210.0" y2="250" class="grid"/>
+            <line x1="50" y1="90.0" x2="250" y2="90.0" class="grid"/>
+            <line x1="230.0" y1="50" x2="230.0" y2="250" class="grid"/>
+            <line x1="50" y1="70.0" x2="250" y2="70.0" class="grid"/>
+            <line x1="250.0" y1="50" x2="250.0" y2="250" class="grid"/>
+            <line x1="50" y1="50.0" x2="250" y2="50.0" class="grid"/>
+            
+            <!-- Main axes -->
+            <line x1="50" y1="150.0" x2="250" y2="150.0" class="axis"/>
+            <line x1="150.0" y1="50" x2="150.0" y2="250" class="axis"/>
+            
+            <!-- Tick marks and labels -->
+            <line x1="50.0" y1="145.0" x2="50.0" y2="155.0" class="tick"/>
+            <text x="50.0" y="170.0" class="label">-5</text>
+            
+            <line x1="145.0" y1="250.0" x2="155.0" y2="250.0" class="tick"/>
+            <text x="135.0" y="254.0" class="label">-5</text>
+            <line x1="70.0" y1="145.0" x2="70.0" y2="155.0" class="tick"/>
+            <text x="70.0" y="170.0" class="label">-4</text>
+            
+            <line x1="145.0" y1="230.0" x2="155.0" y2="230.0" class="tick"/>
+            <text x="135.0" y="234.0" class="label">-4</text>
+            <line x1="90.0" y1="145.0" x2="90.0" y2="155.0" class="tick"/>
+            <text x="90.0" y="170.0" class="label">-3</text>
+            
+            <line x1="145.0" y1="210.0" x2="155.0" y2="210.0" class="tick"/>
+            <text x="135.0" y="214.0" class="label">-3</text>
+            <line x1="110.0" y1="145.0" x2="110.0" y2="155.0" class="tick"/>
+            <text x="110.0" y="170.0" class="label">-2</text>
+            
+            <line x1="145.0" y1="190.0" x2="155.0" y2="190.0" class="tick"/>
+            <text x="135.0" y="194.0" class="label">-2</text>
+            <line x1="130.0" y1="145.0" x2="130.0" y2="155.0" class="tick"/>
+            <text x="130.0" y="170.0" class="label">-1</text>
+            
+            <line x1="145.0" y1="170.0" x2="155.0" y2="170.0" class="tick"/>
+            <text x="135.0" y="174.0" class="label">-1</text>
+            <line x1="170.0" y1="145.0" x2="170.0" y2="155.0" class="tick"/>
+            <text x="170.0" y="170.0" class="label">1</text>
+            
+            <line x1="145.0" y1="130.0" x2="155.0" y2="130.0" class="tick"/>
+            <text x="135.0" y="134.0" class="label">1</text>
+            <line x1="190.0" y1="145.0" x2="190.0" y2="155.0" class="tick"/>
+            <text x="190.0" y="170.0" class="label">2</text>
+            
+            <line x1="145.0" y1="110.0" x2="155.0" y2="110.0" class="tick"/>
+            <text x="135.0" y="114.0" class="label">2</text>
+            <line x1="210.0" y1="145.0" x2="210.0" y2="155.0" class="tick"/>
+            <text x="210.0" y="170.0" class="label">3</text>
+            
+            <line x1="145.0" y1="90.0" x2="155.0" y2="90.0" class="tick"/>
+            <text x="135.0" y="94.0" class="label">3</text>
+            <line x1="230.0" y1="145.0" x2="230.0" y2="155.0" class="tick"/>
+            <text x="230.0" y="170.0" class="label">4</text>
+            
+            <line x1="145.0" y1="70.0" x2="155.0" y2="70.0" class="tick"/>
+            <text x="135.0" y="74.0" class="label">4</text>
+            <line x1="250.0" y1="145.0" x2="250.0" y2="155.0" class="tick"/>
+            <text x="250.0" y="170.0" class="label">5</text>
+            
+            <line x1="145.0" y1="50.0" x2="155.0" y2="50.0" class="tick"/>
+            <text x="135.0" y="54.0" class="label">5</text>
+            
+            <!-- Axis labels -->
+            <text x="280" y="140.0" class="label" style="font-weight: bold;">x</text>
+            <text x="165.0" y="40" class="label" style="font-weight: bold;">y</text>
+            
+            <!-- Linear equation line -->
+            <line x1="210.0" y1="250.0" x2="110.0" y2="50.0" class="line"/>
+        </svg>
+            </div>
         </div>
-
     </div>
 </body>
 </html>
