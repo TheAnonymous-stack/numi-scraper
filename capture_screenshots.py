@@ -16,7 +16,7 @@ chrome_options.add_argument("--window-size=1920,1080")
 # Initialize the driver
 driver = webdriver.Chrome(options=chrome_options)
 
-tags = ["Gr7_44_E2"]
+tags = ["Gr7_28_E2"]
 # with open("tagsToUpload.csv", newline="") as f:
 #     reader = csv.reader(f)
 #     for row in reader:
@@ -30,7 +30,7 @@ tags = ["Gr7_44_E2"]
 grade = 7
 for tag in tags:
 
-    html_files = glob.glob(f"HTML/{tag}*.html")
+    html_files = glob.glob(f"HTML/{tag}_2_*.html")
     html_files.sort()
 
     print(f"Found {len(html_files)} HTML files to process")
