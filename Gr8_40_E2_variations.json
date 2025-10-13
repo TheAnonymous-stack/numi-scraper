@@ -1,11 +1,187 @@
 [
   {
-    "question_text": "What combination of transformations is shown below?",
+    "question_text": "Which combination of transformations is shown below?",
     "skills": "describe-a-sequence-of-transformations",
     "image_tag": "Gr8_40_2_1",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid. Shape 1 (green) is rotated 180° to produce Shape 2 (light blue), which appears below it and upside down. Then, Shape 2 is reflected across a horizontal line to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves a rotation followed by a reflection.",
+    "backend_description": "The image shows a sequence of transformations: first a translation followed by a rotation. The rotation is 90° counterclockwise. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "2_1",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "translation, then rotation",
+      "rotation, then reflection",
+      "rotation, then translation",
+      "translation, then reflection"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation."
+      ],
+      [
+        "2/3",
+        "Translate the shape down 4 and left 5. Use a rotation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a rotation. Rotate the shape 90° counterclockwise."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_1_step_1",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_1_step_2",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_2",
+    "backend_description": "The image shows a sequence of transformations: first a translation followed by a rotation. The rotation is 90° counterclockwise. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_2",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "translation, then rotation",
+      "rotation, then translation",
+      "rotation, then reflection",
+      "translation, then reflection"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation."
+      ],
+      [
+        "2/3",
+        "Translate the shape up 1 and right 5. Use a rotation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a rotation. Rotate the shape 90° counterclockwise."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_2_step_1",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_2_step_2",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_3",
+    "backend_description": "The image shows a sequence of transformations: reflection then translation. The translation moves the shape as described:  the shape down 5 and right 6. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_3",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "rotation, then translation",
+      "rotation, then reflection",
+      "reflection, then translation",
+      "reflection, then rotation"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
+      ],
+      [
+        "2/3",
+        "Reflect the shape across a vertical line. Use a translation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a translation. Translate the shape down 5 and right 6."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_3_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_3_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_4",
+    "backend_description": "The image shows a sequence of transformations: rotation then translation. The translation moves the shape as described:  the shape up 4 and right 6. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_4",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then rotation",
+      "rotation, then reflection",
+      "rotation, then translation",
+      "reflection, then translation"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation."
+      ],
+      [
+        "2/3",
+        "Rotate the shape 90° clockwise. Use a translation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a translation. Translate the shape up 4 and right 6."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_4_step_1",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_4_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_5",
+    "backend_description": "The image shows a sequence of transformations: reflection then rotation. The rotation is 90° clockwise. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_5",
     "tag": "Gr8_40_E2",
     "choices": [
       "reflection, then translation",
@@ -14,537 +190,223 @@
       "rotation, then reflection"
     ],
     "correct_answers": [
-      "D"
+      "C"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180°."
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Reflect the shape across a vertical line. Use a rotation to turn Shape 2 into Shape 3."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "This image shows a rotation. Rotate the shape 90° clockwise."
       ]
     ],
     "solution_image_tag": [
       [
         "1/3",
-        "Gr8_40_2_1_step_1",
-        "The image shows two triangles, labeled 1 and 2, on a coordinate grid. Triangle 1 is green and located above Triangle 2, which is light blue. Triangle 2 is a 180° rotation of Triangle 1 around the shared vertex where the two triangles meet. After the rotation, the triangle points downward, creating a vertically flipped position relative to Triangle 1."
+        "Gr8_40_2_5_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
       ],
       [
         "2/3",
-        "Gr8_40_2_1_step_2",
-        "The image shows Triangles 2 (light blue) and 3 (dark blue), on a coordinate grid. Triangle 3 is a reflection of Triangle 2 across a horizontal red line. The two triangles are mirror images across that line, confirming that a reflection has occurred after the initial rotation."
+        "Gr8_40_2_5_step_2",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
       ]
     ]
   },
   {
-    "question_text": "Which transformations created this final result?",
+    "question_text": "Which combination of transformations is shown below?",
     "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three pentagons labeled 1, 2, and 3 on a coordinate grid, representing Pokemon evolution stages. Shape 1 (red) undergoes a reflection to produce Shape 2 (orange). Then, Shape 2 undergoes a rotation to produce Shape 3 (yellow). The full transformation from Shape 1 to Shape 3 involves reflection, then rotation, evolving through different stages.",
+    "image_tag": "Gr8_40_2_6",
+    "backend_description": "The image shows a sequence of transformations: rotation then translation. The translation moves the shape as described:  the shape down 2 and right 5. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
     "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_6",
+    "tag": "Gr8_40_E2",
     "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° counterclockwise."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "Determine which transformations took place.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three hexagons labeled 1, 2, and 3 on a coordinate grid, representing Zelda item upgrades. Shape 1 (lime) undergoes a rotation to produce Shape 2 (emerald). Then, Shape 2 undergoes a reflection to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves rotation, then reflection, upgrading through different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 270° clockwise."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ]
-  },
-  {
-    "question_text": "Which transformations map the figure to its final position?",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Marvel hero transformations. Shape 1 (lime) undergoes a translation to produce Shape 2 (emerald). Then, Shape 2 undergoes a rotation to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves translation, then rotation, transforming via different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
+      "rotation, then reflection",
       "translation, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape right 2 units."
-      ],
-      [
-        "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° counterclockwise."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "Describe each transformation in the sequence.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three parallelograms labeled 1, 2, and 3 on a coordinate grid, representing Minecraft crafting stages. Shape 1 (red) undergoes a rotation to produce Shape 2 (orange). Then, Shape 2 undergoes a translation to produce Shape 3 (yellow). The full transformation from Shape 1 to Shape 3 involves rotation, then translation, crafting through different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
       "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 270° clockwise."
-      ],
-      [
-        "2/3",
-        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape left 3 units."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a translation."
-      ]
-    ]
-  },
-  {
-    "question_text": "Identify the combination of transformations below.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid, representing Naruto jutsu stages. Shape 1 (green) undergoes a rotation to produce Shape 2 (light blue). Then, Shape 2 undergoes a translation to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves rotation, then translation, performing different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180° clockwise."
-      ],
-      [
-        "2/3",
-        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape left 6 units."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a translation."
-      ]
-    ]
-  },
-  {
-    "question_text": "Name each transformation in the sequence.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three pentagons labeled 1, 2, and 3 on a coordinate grid, representing Overwatch ultimate charge. Shape 1 (lime) undergoes a rotation to produce Shape 2 (emerald). Then, Shape 2 undergoes a reflection to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves rotation, then reflection, charging through different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 270° counterclockwise."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a diagonal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ]
-  },
-  {
-    "question_text": "What series of transformations is demonstrated?",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three parallelograms labeled 1, 2, and 3 on a coordinate grid, representing Zelda item upgrades. Shape 1 (purple) undergoes a translation to produce Shape 2 (pink). Then, Shape 2 undergoes a reflection to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves translation, then reflection, upgrading through different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
       "translation, then reflection"
     ],
     "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape down 6 units."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a diagonal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a reflection."
-      ]
-    ]
-  },
-  {
-    "question_text": "Name the transformation steps demonstrated.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three hexagons labeled 1, 2, and 3 on a coordinate grid, representing Among Us sabotage sequence. Shape 1 (purple) undergoes a reflection to produce Shape 2 (pink). Then, Shape 2 undergoes a translation to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves reflection, then translation, sabotaging via different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a diagonal line."
-      ],
-      [
-        "2/3",
-        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape down 5 units."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a translation."
-      ]
-    ]
-  },
-  {
-    "question_text": "Determine the transformations applied in this diagram.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Zelda item upgrades. Shape 1 (cyan) undergoes a translation to produce Shape 2 (teal). Then, Shape 2 undergoes a reflection to produce Shape 3 (aqua). The full transformation from Shape 1 to Shape 3 involves translation, then reflection, upgrading through different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "translation, then reflection",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape right 6 units."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a diagonal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a reflection."
-      ]
-    ]
-  },
-  {
-    "question_text": "Name all transformations in this sequence.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three parallelograms labeled 1, 2, and 3 on a coordinate grid, representing Star Wars force techniques. Shape 1 (lime) undergoes a reflection to produce Shape 2 (emerald). Then, Shape 2 undergoes a translation to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves reflection, then translation, channeling different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a diagonal line."
-      ],
-      [
-        "2/3",
-        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape left 6 units."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a translation."
-      ]
-    ]
-  },
-  {
-    "question_text": "Identify the ordered transformations below.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three pentagons labeled 1, 2, and 3 on a coordinate grid, representing Overwatch ultimate charge. Shape 1 (purple) undergoes a reflection to produce Shape 2 (pink). Then, Shape 2 undergoes a translation to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves reflection, then translation, charging through different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a diagonal line."
-      ],
-      [
-        "2/3",
-        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape right 2 units."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a translation."
-      ]
-    ]
-  },
-  {
-    "question_text": "Describe the complete transformation sequence.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid, representing Mario power-up sequence. Shape 1 (lime) undergoes a reflection to produce Shape 2 (emerald). Then, Shape 2 undergoes a translation to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves reflection, then translation, transforming via different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a diagonal line."
-      ],
-      [
-        "2/3",
-        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape right 6 units."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a translation."
-      ]
-    ]
-  },
-  {
-    "question_text": "What combination of transformations is shown below?",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three parallelograms labeled 1, 2, and 3 on a coordinate grid, representing Avatar element mastery. Shape 1 (cyan) undergoes a rotation to produce Shape 2 (teal). Then, Shape 2 undergoes a reflection to produce Shape 3 (aqua). The full transformation from Shape 1 to Shape 3 involves rotation, then reflection, mastering through different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 90° counterclockwise."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a vertical line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ]
-  },
-  {
-    "question_text": "Identify the transformation process shown.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three parallelograms labeled 1, 2, and 3 on a coordinate grid, representing Portal test chambers. Shape 1 (purple) undergoes a reflection to produce Shape 2 (pink). Then, Shape 2 undergoes a translation to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves reflection, then translation, navigating through different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a vertical line."
-      ],
-      [
-        "2/3",
-        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape down 5 units."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a translation."
-      ]
-    ]
-  },
-  {
-    "question_text": "What transformations occurred in sequence?",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Fortnite building sequence. Shape 1 (cyan) undergoes a translation to produce Shape 2 (teal). Then, Shape 2 undergoes a reflection to produce Shape 3 (aqua). The full transformation from Shape 1 to Shape 3 involves translation, then reflection, building through different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "translation, then reflection",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
       "C"
     ],
     "solution": [
       [
         "1/3",
-        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape up 3 units."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a diagonal line."
+        "Rotate the shape 90° counterclockwise. Use a translation to turn Shape 2 into Shape 3."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a reflection."
+        "This image shows a translation. Translate the shape down 2 and right 5."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_6_step_1",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_6_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
       ]
     ]
   },
   {
-    "question_text": "What series of transformations produced this result?",
+    "question_text": "Which combination of transformations is shown below?",
     "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three quadrilaterals labeled 1, 2, and 3 on a coordinate grid, representing Overwatch ultimate charge. Shape 1 (purple) undergoes a translation to produce Shape 2 (pink). Then, Shape 2 undergoes a rotation to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves translation, then rotation, charging through different stages.",
+    "image_tag": "Gr8_40_2_7",
+    "backend_description": "The image shows a sequence of transformations: first a translation followed by a rotation. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
     "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_7",
+    "tag": "Gr8_40_E2",
     "choices": [
-      "reflection, then translation",
       "translation, then rotation",
       "reflection, then rotation",
-      "rotation, then reflection"
+      "translation, then reflection",
+      "reflection, then translation"
     ],
     "correct_answers": [
-      "B"
+      "A"
     ],
     "solution": [
       [
         "1/3",
-        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape up 6 units."
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation."
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 180° counterclockwise."
+        "Translate the shape down 3 and left 4. Use a rotation to turn Shape 2 into Shape 3."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a rotation."
+        "This image shows a rotation. Rotate the shape 180°."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_7_step_1",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_7_step_2",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
       ]
     ]
   },
   {
-    "question_text": "Identify each transformation in the sequence shown.",
+    "question_text": "Which combination of transformations is shown below?",
     "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid, representing Mario power-up sequence. Shape 1 (brown) undergoes a rotation to produce Shape 2 (tan). Then, Shape 2 undergoes a reflection to produce Shape 3 (beige). The full transformation from Shape 1 to Shape 3 involves rotation, then reflection, transforming via different stages.",
+    "image_tag": "Gr8_40_2_8",
+    "backend_description": "The image shows a sequence of transformations: translation then reflection. The translation moves the shape as described:  the shape up 6 and left 5. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
     "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_8",
+    "tag": "Gr8_40_E2",
     "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
+      "rotation, then reflection",
+      "translation, then rotation",
+      "translation, then reflection",
+      "rotation, then translation"
     ],
     "correct_answers": [
-      "D"
+      "C"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 270° clockwise."
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Translate the shape up 6 and left 5. Use a reflection to turn Shape 2 into Shape 3."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "This image shows a reflection. Reflect the shape across a horizontal line."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_8_step_1",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_8_step_2",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
       ]
     ]
   },
   {
-    "question_text": "Determine the sequence of transformations applied.",
+    "question_text": "Which combination of transformations is shown below?",
     "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three parallelograms labeled 1, 2, and 3 on a coordinate grid, representing Zelda item upgrades. Shape 1 (purple) undergoes a reflection to produce Shape 2 (pink). Then, Shape 2 undergoes a rotation to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves reflection, then rotation, upgrading through different stages.",
+    "image_tag": "Gr8_40_2_9",
+    "backend_description": "The image shows a sequence of transformations: reflection then translation. The translation moves the shape as described:  the shape up 3. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
     "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_9",
+    "tag": "Gr8_40_E2",
     "choices": [
+      "translation, then rotation",
+      "translation, then reflection",
       "reflection, then translation",
+      "reflection, then rotation"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
+      ],
+      [
+        "2/3",
+        "Reflect the shape across a vertical line. Use a translation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a translation. Translate the shape up 3."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_9_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_9_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_10",
+    "backend_description": "The image shows a sequence of transformations: reflection then translation. The translation moves the shape as described:  the shape down 1 and right 5. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_10",
+    "tag": "Gr8_40_E2",
+    "choices": [
       "rotation, then translation",
       "reflection, then rotation",
+      "reflection, then translation",
       "rotation, then reflection"
     ],
     "correct_answers": [
@@ -553,318 +415,219 @@
     "solution": [
       [
         "1/3",
-        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a diagonal line."
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 180° clockwise."
+        "Reflect the shape across a horizontal line. Use a translation to turn Shape 2 into Shape 3."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a rotation."
+        "This image shows a translation. Translate the shape down 1 and right 5."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_10_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_10_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
       ]
     ]
   },
   {
-    "question_text": "What combination of moves is shown here?",
+    "question_text": "Which combination of transformations is shown below?",
     "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three quadrilaterals labeled 1, 2, and 3 on a coordinate grid, representing Overwatch ultimate charge. Shape 1 (brown) undergoes a rotation to produce Shape 2 (tan). Then, Shape 2 undergoes a translation to produce Shape 3 (beige). The full transformation from Shape 1 to Shape 3 involves rotation, then translation, charging through different stages.",
+    "image_tag": "Gr8_40_2_11",
+    "backend_description": "The image shows a sequence of transformations: translation then reflection. The translation moves the shape as described:  the shape up 3. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
     "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_11",
+    "tag": "Gr8_40_E2",
     "choices": [
-      "reflection, then translation",
+      "translation, then reflection",
+      "rotation, then reflection",
       "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
+      "translation, then rotation"
     ],
     "correct_answers": [
-      "B"
+      "A"
     ],
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180° counterclockwise."
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation."
       ],
       [
         "2/3",
-        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape down 5 units."
+        "Translate the shape up 3. Use a reflection to turn Shape 2 into Shape 3."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a translation."
+        "This image shows a reflection. Reflect the shape across a vertical line."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_11_step_1",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_11_step_2",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
       ]
     ]
   },
   {
-    "question_text": "Identify all transformations shown in sequence.",
+    "question_text": "Which combination of transformations is shown below?",
     "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Portal test chambers. Shape 1 (purple) undergoes a translation to produce Shape 2 (pink). Then, Shape 2 undergoes a reflection to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves translation, then reflection, navigating through different stages.",
+    "image_tag": "Gr8_40_2_12",
+    "backend_description": "The image shows a sequence of transformations: reflection then translation. The translation moves the shape as described:  the shape down 5 and right 4. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
     "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_12",
+    "tag": "Gr8_40_E2",
     "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
+      "rotation, then reflection",
       "reflection, then rotation",
+      "reflection, then translation",
+      "rotation, then translation"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
+      ],
+      [
+        "2/3",
+        "Reflect the shape across a vertical line. Use a translation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a translation. Translate the shape down 5 and right 4."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_12_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_12_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_13",
+    "backend_description": "The image shows a sequence of transformations: reflection then translation. The translation moves the shape as described:  the shape down 2 and right 4. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_13",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "translation, then reflection",
+      "translation, then rotation",
+      "reflection, then rotation",
+      "reflection, then translation"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
+      ],
+      [
+        "2/3",
+        "Reflect the shape across a vertical line. Use a translation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a translation. Translate the shape down 2 and right 4."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_13_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_13_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_14",
+    "backend_description": "The image shows a sequence of transformations: rotation then reflection. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_14",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "rotation, then translation",
+      "rotation, then reflection",
+      "translation, then rotation",
       "translation, then reflection"
     ],
     "correct_answers": [
-      "D"
+      "B"
     ],
     "solution": [
       [
         "1/3",
-        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape right 2 units."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a vertical line."
+        "Rotate the shape 180°. Use a reflection to turn Shape 2 into Shape 3."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a reflection."
+        "This image shows a reflection. Reflect the shape across a horizontal line."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_14_step_1",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_14_step_2",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
       ]
     ]
   },
   {
-    "question_text": "What transformation sequence is illustrated here?",
+    "question_text": "Which combination of transformations is shown below?",
     "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three parallelograms labeled 1, 2, and 3 on a coordinate grid, representing Overwatch ultimate charge. Shape 1 (purple) undergoes a rotation to produce Shape 2 (pink). Then, Shape 2 undergoes a reflection to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves rotation, then reflection, charging through different stages.",
+    "image_tag": "Gr8_40_2_15",
+    "backend_description": "The image shows a sequence of transformations: reflection then rotation. The rotation is 90° clockwise. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
     "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_15",
+    "tag": "Gr8_40_E2",
     "choices": [
       "reflection, then translation",
-      "rotation, then translation",
       "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180° counterclockwise."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a vertical line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ]
-  },
-  {
-    "question_text": "List all transformations that were performed.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid, representing Star Wars force techniques. Shape 1 (red) undergoes a reflection to produce Shape 2 (orange). Then, Shape 2 undergoes a translation to produce Shape 3 (yellow). The full transformation from Shape 1 to Shape 3 involves reflection, then translation, channeling different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a diagonal line."
-      ],
-      [
-        "2/3",
-        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape left 6 units."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a translation."
-      ]
-    ]
-  },
-  {
-    "question_text": "Name the transformations that occurred in order.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three pentagons labeled 1, 2, and 3 on a coordinate grid, representing Minecraft crafting stages. Shape 1 (purple) undergoes a reflection to produce Shape 2 (pink). Then, Shape 2 undergoes a translation to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves reflection, then translation, crafting through different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a vertical line."
-      ],
-      [
-        "2/3",
-        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape right 5 units."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a translation."
-      ]
-    ]
-  },
-  {
-    "question_text": "List the transformations applied to the figure.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Fortnite building sequence. Shape 1 (cyan) undergoes a rotation to produce Shape 2 (teal). Then, Shape 2 undergoes a reflection to produce Shape 3 (aqua). The full transformation from Shape 1 to Shape 3 involves rotation, then reflection, building through different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 90° counterclockwise."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a vertical line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ]
-  },
-  {
-    "question_text": "What transformations map the original to the final position?",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three pentagons labeled 1, 2, and 3 on a coordinate grid, representing Sonic speed boost stages. Shape 1 (red) undergoes a translation to produce Shape 2 (orange). Then, Shape 2 undergoes a reflection to produce Shape 3 (yellow). The full transformation from Shape 1 to Shape 3 involves translation, then reflection, accelerating through different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "translation, then reflection"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape up 4 units."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a diagonal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a reflection."
-      ]
-    ]
-  },
-  {
-    "question_text": "Identify the order of transformations shown.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three pentagons labeled 1, 2, and 3 on a coordinate grid, representing Among Us sabotage sequence. Shape 1 (lime) undergoes a translation to produce Shape 2 (emerald). Then, Shape 2 undergoes a reflection to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves translation, then reflection, sabotaging via different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "translation, then reflection",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape left 4 units."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a diagonal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a reflection."
-      ]
-    ]
-  },
-  {
-    "question_text": "Describe the transformation sequence displayed.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three hexagons labeled 1, 2, and 3 on a coordinate grid, representing Naruto jutsu stages. Shape 1 (lime) undergoes a reflection to produce Shape 2 (emerald). Then, Shape 2 undergoes a rotation to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves reflection, then rotation, performing different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a diagonal line."
-      ],
-      [
-        "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° clockwise."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "List the transformations from original to final.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three quadrilaterals labeled 1, 2, and 3 on a coordinate grid, representing Marvel hero transformations. Shape 1 (purple) undergoes a translation to produce Shape 2 (pink). Then, Shape 2 undergoes a rotation to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves translation, then rotation, transforming via different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "translation, then rotation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape left 2 units."
-      ],
-      [
-        "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° clockwise."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "Describe the sequence of transformations below.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three pentagons labeled 1, 2, and 3 on a coordinate grid, representing Fortnite building sequence. Shape 1 (green) undergoes a rotation to produce Shape 2 (light blue). Then, Shape 2 undergoes a translation to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves rotation, then translation, building through different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
+      "rotation, then reflection",
+      "rotation, then translation"
     ],
     "correct_answers": [
       "B"
@@ -872,27 +635,218 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180° clockwise."
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
       ],
       [
         "2/3",
-        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape up 2 units."
+        "Reflect the shape across a vertical line. Use a rotation to turn Shape 2 into Shape 3."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a translation."
+        "This image shows a rotation. Rotate the shape 90° clockwise."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_15_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_15_step_2",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
       ]
     ]
   },
   {
-    "question_text": "List each transformation that was applied.",
+    "question_text": "Which combination of transformations is shown below?",
     "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid, representing Naruto jutsu stages. Shape 1 (cyan) undergoes a translation to produce Shape 2 (teal). Then, Shape 2 undergoes a rotation to produce Shape 3 (aqua). The full transformation from Shape 1 to Shape 3 involves translation, then rotation, performing different stages.",
+    "image_tag": "Gr8_40_2_16",
+    "backend_description": "The image shows a sequence of transformations: first a translation followed by a rotation. The rotation is 90° counterclockwise. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
     "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_16",
+    "tag": "Gr8_40_E2",
     "choices": [
-      "reflection, then translation",
       "rotation, then translation",
+      "rotation, then reflection",
+      "translation, then rotation",
+      "translation, then reflection"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation."
+      ],
+      [
+        "2/3",
+        "Translate the shape down 5 and right 3. Use a rotation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a rotation. Rotate the shape 90° counterclockwise."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_16_step_1",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_16_step_2",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_17",
+    "backend_description": "The image shows a sequence of transformations: first a translation followed by a rotation. The rotation is 90° clockwise. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_17",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "translation, then rotation",
+      "rotation, then reflection",
+      "rotation, then translation",
+      "translation, then reflection"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation."
+      ],
+      [
+        "2/3",
+        "Translate the shape up 6 and right 5. Use a rotation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a rotation. Rotate the shape 90° clockwise."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_17_step_1",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_17_step_2",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_18",
+    "backend_description": "The image shows a sequence of transformations: translation then reflection. The translation moves the shape as described:  the shape down 1 and right 5. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_18",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "translation, then reflection",
+      "translation, then rotation",
+      "rotation, then reflection",
+      "rotation, then translation"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation."
+      ],
+      [
+        "2/3",
+        "Translate the shape down 1 and right 5. Use a reflection to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a reflection. Reflect the shape across a horizontal line."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_18_step_1",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_18_step_2",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_19",
+    "backend_description": "The image shows a sequence of transformations: reflection then translation. The translation moves the shape as described:  the shape down 3 and right 6. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_19",
+    "tag": "Gr8_40_E2",
+    "choices": [
       "reflection, then rotation",
+      "rotation, then reflection",
+      "reflection, then translation",
+      "rotation, then translation"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
+      ],
+      [
+        "2/3",
+        "Reflect the shape across a vertical line. Use a translation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a translation. Translate the shape down 3 and right 6."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_19_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_19_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_20",
+    "backend_description": "The image shows a sequence of transformations: first a translation followed by a rotation. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_20",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "translation, then reflection",
+      "rotation, then translation",
+      "rotation, then reflection",
       "translation, then rotation"
     ],
     "correct_answers": [
@@ -901,28 +855,175 @@
     "solution": [
       [
         "1/3",
-        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape left 5 units."
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation."
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° counterclockwise."
+        "Translate the shape down 4 and left 6. Use a rotation to turn Shape 2 into Shape 3."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a rotation."
+        "This image shows a rotation. Rotate the shape 180°."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_20_step_1",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_20_step_2",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
       ]
     ]
   },
   {
-    "question_text": "Describe all transformations in order.",
+    "question_text": "Which combination of transformations is shown below?",
     "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Overwatch ultimate charge. Shape 1 (lime) undergoes a translation to produce Shape 2 (emerald). Then, Shape 2 undergoes a rotation to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves translation, then rotation, charging through different stages.",
+    "image_tag": "Gr8_40_2_21",
+    "backend_description": "The image shows a sequence of transformations: reflection then rotation. The rotation is 90° clockwise. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
     "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_21",
+    "tag": "Gr8_40_E2",
     "choices": [
+      "reflection, then rotation",
+      "rotation, then reflection",
       "reflection, then translation",
-      "rotation, then translation",
+      "rotation, then translation"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
+      ],
+      [
+        "2/3",
+        "Reflect the shape across a vertical line. Use a rotation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a rotation. Rotate the shape 90° clockwise."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_21_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_21_step_2",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_22",
+    "backend_description": "The image shows a sequence of transformations: rotation then reflection. The rotation is 90° counterclockwise. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_22",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "rotation, then reflection",
       "translation, then rotation",
-      "rotation, then reflection"
+      "rotation, then translation",
+      "translation, then reflection"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation."
+      ],
+      [
+        "2/3",
+        "Rotate the shape 90° counterclockwise. Use a reflection to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a reflection. Reflect the shape across a vertical line."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_22_step_1",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_22_step_2",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_23",
+    "backend_description": "The image shows a sequence of transformations: rotation then translation. The translation moves the shape as described:  the shape up 4 and left 2. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_23",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "rotation, then reflection",
+      "translation, then rotation",
+      "translation, then reflection",
+      "rotation, then translation"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation."
+      ],
+      [
+        "2/3",
+        "Rotate the shape 180°. Use a translation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a translation. Translate the shape up 4 and left 2."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_23_step_1",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_23_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_24",
+    "backend_description": "The image shows a sequence of transformations: translation then reflection. The translation moves the shape as described:  the shape up 4 and left 3. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_24",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "rotation, then translation",
+      "rotation, then reflection",
+      "translation, then reflection",
+      "translation, then rotation"
     ],
     "correct_answers": [
       "C"
@@ -930,26 +1031,129 @@
     "solution": [
       [
         "1/3",
-        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape down 4 units."
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation."
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° clockwise."
+        "Translate the shape up 4 and left 3. Use a reflection to turn Shape 2 into Shape 3."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a rotation."
+        "This image shows a reflection. Reflect the shape across a horizontal line."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_24_step_1",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_24_step_2",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
       ]
     ]
   },
   {
-    "question_text": "What transformations took place in this image?",
+    "question_text": "Which combination of transformations is shown below?",
     "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three pentagons labeled 1, 2, and 3 on a coordinate grid, representing Pokemon evolution stages. Shape 1 (brown) undergoes a reflection to produce Shape 2 (tan). Then, Shape 2 undergoes a rotation to produce Shape 3 (beige). The full transformation from Shape 1 to Shape 3 involves reflection, then rotation, evolving through different stages.",
+    "image_tag": "Gr8_40_2_25",
+    "backend_description": "The image shows a sequence of transformations: rotation then translation. The translation moves the shape as described:  the shape down 5 and left 4. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
     "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_25",
+    "tag": "Gr8_40_E2",
     "choices": [
       "reflection, then translation",
+      "rotation, then reflection",
+      "reflection, then rotation",
+      "rotation, then translation"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation."
+      ],
+      [
+        "2/3",
+        "Rotate the shape 180°. Use a translation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a translation. Translate the shape down 5 and left 4."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_25_step_1",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_25_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_26",
+    "backend_description": "The image shows a sequence of transformations: rotation then translation. The translation moves the shape as described:  the shape down 1 and right 3. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_26",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then translation",
+      "rotation, then reflection",
+      "reflection, then rotation",
+      "rotation, then translation"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation."
+      ],
+      [
+        "2/3",
+        "Rotate the shape 90° clockwise. Use a translation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a translation. Translate the shape down 1 and right 3."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_26_step_1",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_26_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_27",
+    "backend_description": "The image shows a sequence of transformations: reflection then rotation. The rotation is 90° counterclockwise. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_27",
+    "tag": "Gr8_40_E2",
+    "choices": [
       "rotation, then translation",
+      "reflection, then translation",
       "reflection, then rotation",
       "rotation, then reflection"
     ],
@@ -959,26 +1163,613 @@
     "solution": [
       [
         "1/3",
-        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a diagonal line."
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° clockwise."
+        "Reflect the shape across a horizontal line. Use a rotation to turn Shape 2 into Shape 3."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a rotation."
+        "This image shows a rotation. Rotate the shape 90° counterclockwise."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_27_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_27_step_2",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
       ]
     ]
   },
   {
-    "question_text": "What transformation steps are demonstrated?",
+    "question_text": "Which combination of transformations is shown below?",
     "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three hexagons labeled 1, 2, and 3 on a coordinate grid, representing Zelda item upgrades. Shape 1 (brown) undergoes a rotation to produce Shape 2 (tan). Then, Shape 2 undergoes a translation to produce Shape 3 (beige). The full transformation from Shape 1 to Shape 3 involves rotation, then translation, upgrading through different stages.",
+    "image_tag": "Gr8_40_2_28",
+    "backend_description": "The image shows a sequence of transformations: reflection then translation. The translation moves the shape as described:  the shape down 4 and left 1. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
     "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_28",
+    "tag": "Gr8_40_E2",
     "choices": [
       "reflection, then translation",
+      "reflection, then rotation",
+      "translation, then reflection",
+      "translation, then rotation"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
+      ],
+      [
+        "2/3",
+        "Reflect the shape across a vertical line. Use a translation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a translation. Translate the shape down 4 and left 1."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_28_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_28_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_29",
+    "backend_description": "The image shows a sequence of transformations: reflection then rotation. The rotation is 90° counterclockwise. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_29",
+    "tag": "Gr8_40_E2",
+    "choices": [
       "rotation, then translation",
+      "reflection, then translation",
+      "rotation, then reflection",
+      "reflection, then rotation"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
+      ],
+      [
+        "2/3",
+        "Reflect the shape across a vertical line. Use a rotation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a rotation. Rotate the shape 90° counterclockwise."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_29_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_29_step_2",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_30",
+    "backend_description": "The image shows a sequence of transformations: translation then reflection. The translation moves the shape as described:  the shape down 2 and left 5. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_30",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "rotation, then translation",
+      "translation, then reflection",
+      "translation, then rotation",
+      "rotation, then reflection"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation."
+      ],
+      [
+        "2/3",
+        "Translate the shape down 2 and left 5. Use a reflection to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a reflection. Reflect the shape across a vertical line."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_30_step_1",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_30_step_2",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_31",
+    "backend_description": "The image shows a sequence of transformations: reflection then translation. The translation moves the shape as described:  the shape down 2 and left 4. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_31",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "rotation, then reflection",
+      "rotation, then translation",
+      "reflection, then rotation",
+      "reflection, then translation"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
+      ],
+      [
+        "2/3",
+        "Reflect the shape across a horizontal line. Use a translation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a translation. Translate the shape down 2 and left 4."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_31_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_31_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_32",
+    "backend_description": "The image shows a sequence of transformations: rotation then translation. The translation moves the shape as described:  the shape down 5 and right 3. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_32",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "rotation, then reflection",
+      "reflection, then translation",
+      "rotation, then translation",
+      "reflection, then rotation"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation."
+      ],
+      [
+        "2/3",
+        "Rotate the shape 90° clockwise. Use a translation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a translation. Translate the shape down 5 and right 3."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_32_step_1",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_32_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_33",
+    "backend_description": "The image shows a sequence of transformations: reflection then rotation. The rotation is 90° counterclockwise. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_33",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "translation, then rotation",
+      "reflection, then translation",
+      "translation, then reflection",
+      "reflection, then rotation"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
+      ],
+      [
+        "2/3",
+        "Reflect the shape across a vertical line. Use a rotation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a rotation. Rotate the shape 90° counterclockwise."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_33_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_33_step_2",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_34",
+    "backend_description": "The image shows a sequence of transformations: reflection then rotation. The rotation is 90° counterclockwise. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_34",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "rotation, then reflection",
+      "reflection, then rotation",
+      "rotation, then translation",
+      "reflection, then translation"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
+      ],
+      [
+        "2/3",
+        "Reflect the shape across a vertical line. Use a rotation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a rotation. Rotate the shape 90° counterclockwise."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_34_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_34_step_2",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_35",
+    "backend_description": "The image shows a sequence of transformations: reflection then translation. The translation moves the shape as described:  the shape left 4. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_35",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "rotation, then translation",
+      "reflection, then rotation",
+      "reflection, then translation",
+      "rotation, then reflection"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
+      ],
+      [
+        "2/3",
+        "Reflect the shape across a horizontal line. Use a translation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a translation. Translate the shape left 4."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_35_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_35_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_36",
+    "backend_description": "The image shows a sequence of transformations: reflection then rotation. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_36",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "translation, then reflection",
+      "translation, then rotation",
+      "reflection, then translation",
+      "reflection, then rotation"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
+      ],
+      [
+        "2/3",
+        "Reflect the shape across a horizontal line. Use a rotation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a rotation. Rotate the shape 180°."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_36_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_36_step_2",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_37",
+    "backend_description": "The image shows a sequence of transformations: reflection then translation. The translation moves the shape as described:  the shape up 7 and right 5. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_37",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "rotation, then reflection",
+      "reflection, then rotation",
+      "reflection, then translation",
+      "rotation, then translation"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
+      ],
+      [
+        "2/3",
+        "Reflect the shape across a vertical line. Use a translation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a translation. Translate the shape up 7 and right 5."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_37_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_37_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_38",
+    "backend_description": "The image shows a sequence of transformations: rotation then translation. The translation moves the shape as described:  the shape down 6 and left 1. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_38",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then rotation",
+      "rotation, then reflection",
+      "reflection, then translation",
+      "rotation, then translation"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation."
+      ],
+      [
+        "2/3",
+        "Rotate the shape 90° clockwise. Use a translation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a translation. Translate the shape down 6 and left 1."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_38_step_1",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_38_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_39",
+    "backend_description": "The image shows a sequence of transformations: reflection then translation. The translation moves the shape as described:  the shape up 4 and left 6. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_39",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection",
+      "reflection, then translation"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
+      ],
+      [
+        "2/3",
+        "Reflect the shape across a horizontal line. Use a translation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a translation. Translate the shape up 4 and left 6."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_39_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_39_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_40",
+    "backend_description": "The image shows a sequence of transformations: rotation then reflection. The rotation is 90° counterclockwise. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_40",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "rotation, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection",
+      "reflection, then translation"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation."
+      ],
+      [
+        "2/3",
+        "Rotate the shape 90° counterclockwise. Use a reflection to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a reflection. Reflect the shape across a vertical line."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_40_step_1",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_40_step_2",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_41",
+    "backend_description": "The image shows a sequence of transformations: reflection then translation. The translation moves the shape as described:  the shape down 5 and right 6. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_41",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "rotation, then translation",
+      "reflection, then translation",
       "reflection, then rotation",
       "rotation, then reflection"
     ],
@@ -988,57 +1779,43 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 90° counterclockwise."
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
       ],
       [
         "2/3",
-        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape up 3 units."
+        "Reflect the shape across a horizontal line. Use a translation to turn Shape 2 into Shape 3."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a translation."
+        "This image shows a translation. Translate the shape down 5 and right 6."
       ]
-    ]
-  },
-  {
-    "question_text": "Identify the transformation sequence illustrated.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid, representing Among Us sabotage sequence. Shape 1 (purple) undergoes a reflection to produce Shape 2 (pink). Then, Shape 2 undergoes a rotation to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves reflection, then rotation, sabotaging via different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
     ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
+    "solution_image_tag": [
       [
         "1/3",
-        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a vertical line."
+        "Gr8_40_2_41_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° counterclockwise."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a rotation."
+        "Gr8_40_2_41_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
       ]
     ]
   },
   {
-    "question_text": "What transformations mapped the original figure?",
+    "question_text": "Which combination of transformations is shown below?",
     "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three parallelograms labeled 1, 2, and 3 on a coordinate grid, representing Overwatch ultimate charge. Shape 1 (lime) undergoes a translation to produce Shape 2 (emerald). Then, Shape 2 undergoes a rotation to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves translation, then rotation, charging through different stages.",
+    "image_tag": "Gr8_40_2_42",
+    "backend_description": "The image shows a sequence of transformations: reflection then translation. The translation moves the shape as described:  the shape down 1 and right 7. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
     "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_42",
+    "tag": "Gr8_40_E2",
     "choices": [
-      "translation, then rotation",
-      "rotation, then translation",
+      "reflection, then translation",
       "reflection, then rotation",
-      "rotation, then reflection"
+      "translation, then reflection",
+      "translation, then rotation"
     ],
     "correct_answers": [
       "A"
@@ -1046,28 +1823,131 @@
     "solution": [
       [
         "1/3",
-        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape down 4 units."
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 180° counterclockwise."
+        "Reflect the shape across a horizontal line. Use a translation to turn Shape 2 into Shape 3."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a rotation."
+        "This image shows a translation. Translate the shape down 1 and right 7."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_42_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_42_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
       ]
     ]
   },
   {
-    "question_text": "Which combination of transformations occurred?",
+    "question_text": "Which combination of transformations is shown below?",
     "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three pentagons labeled 1, 2, and 3 on a coordinate grid, representing Naruto jutsu stages. Shape 1 (green) undergoes a translation to produce Shape 2 (light blue). Then, Shape 2 undergoes a rotation to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves translation, then rotation, performing different stages.",
+    "image_tag": "Gr8_40_2_43",
+    "backend_description": "The image shows a sequence of transformations: reflection then translation. The translation moves the shape as described:  the shape down 5 and right 1. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
     "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_43",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "rotation, then reflection",
+      "rotation, then translation",
+      "reflection, then translation",
+      "reflection, then rotation"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
+      ],
+      [
+        "2/3",
+        "Reflect the shape across a vertical line. Use a translation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a translation. Translate the shape down 5 and right 1."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_43_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_43_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_44",
+    "backend_description": "The image shows a sequence of transformations: reflection then rotation. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_44",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "reflection, then rotation",
+      "reflection, then translation",
+      "translation, then rotation",
+      "translation, then reflection"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
+      ],
+      [
+        "2/3",
+        "Reflect the shape across a horizontal line. Use a rotation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a rotation. Rotate the shape 180°."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_44_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_44_step_2",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_45",
+    "backend_description": "The image shows a sequence of transformations: rotation then reflection. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_45",
+    "tag": "Gr8_40_E2",
     "choices": [
       "reflection, then translation",
-      "rotation, then translation",
       "reflection, then rotation",
-      "translation, then rotation"
+      "rotation, then translation",
+      "rotation, then reflection"
     ],
     "correct_answers": [
       "D"
@@ -1075,25 +1955,172 @@
     "solution": [
       [
         "1/3",
-        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape up 5 units."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation."
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° counterclockwise."
+        "Rotate the shape 180°. Use a reflection to turn Shape 2 into Shape 3."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a rotation."
+        "This image shows a reflection. Reflect the shape across a horizontal line."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_45_step_1",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_45_step_2",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
       ]
     ]
   },
   {
-    "question_text": "What transformations created this arrangement?",
+    "question_text": "Which combination of transformations is shown below?",
     "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three hexagons labeled 1, 2, and 3 on a coordinate grid, representing Marvel hero transformations. Shape 1 (brown) undergoes a translation to produce Shape 2 (tan). Then, Shape 2 undergoes a reflection to produce Shape 3 (beige). The full transformation from Shape 1 to Shape 3 involves translation, then reflection, transforming via different stages.",
+    "image_tag": "Gr8_40_2_46",
+    "backend_description": "The image shows a sequence of transformations: rotation then reflection. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
     "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_46",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "translation, then rotation",
+      "rotation, then translation",
+      "translation, then reflection",
+      "rotation, then reflection"
+    ],
+    "correct_answers": [
+      "D"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation."
+      ],
+      [
+        "2/3",
+        "Rotate the shape 180°. Use a reflection to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a reflection. Reflect the shape across a horizontal line."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_46_step_1",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_46_step_2",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_47",
+    "backend_description": "The image shows a sequence of transformations: reflection then translation. The translation moves the shape as described:  the shape up 2 and left 5. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_47",
+    "tag": "Gr8_40_E2",
     "choices": [
       "reflection, then translation",
+      "reflection, then rotation",
+      "rotation, then reflection",
+      "rotation, then translation"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection."
+      ],
+      [
+        "2/3",
+        "Reflect the shape across a horizontal line. Use a translation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a translation. Translate the shape up 2 and left 5."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_47_step_1",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_47_step_2",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_48",
+    "backend_description": "The image shows a sequence of transformations: first a translation followed by a rotation. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_48",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "translation, then reflection",
+      "translation, then rotation",
+      "rotation, then reflection",
+      "rotation, then translation"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution": [
+      [
+        "1/3",
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation."
+      ],
+      [
+        "2/3",
+        "Translate the shape up 4 and left 4. Use a rotation to turn Shape 2 into Shape 3."
+      ],
+      [
+        "3/3",
+        "This image shows a rotation. Rotate the shape 180°."
+      ]
+    ],
+    "solution_image_tag": [
+      [
+        "1/3",
+        "Gr8_40_2_48_step_1",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
+      ],
+      [
+        "2/3",
+        "Gr8_40_2_48_step_2",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
+      ]
+    ]
+  },
+  {
+    "question_text": "Which combination of transformations is shown below?",
+    "skills": "describe-a-sequence-of-transformations",
+    "image_tag": "Gr8_40_2_49",
+    "backend_description": "The image shows a sequence of transformations: translation then reflection. The translation moves the shape as described:  the shape right 5. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_49",
+    "tag": "Gr8_40_E2",
+    "choices": [
+      "translation, then rotation",
       "rotation, then translation",
       "translation, then reflection",
       "rotation, then reflection"
@@ -1104,115 +2131,43 @@
     "solution": [
       [
         "1/3",
-        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape down 6 units."
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Translate the shape right 5. Use a reflection to turn Shape 2 into Shape 3."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a reflection."
+        "This image shows a reflection. Reflect the shape across a horizontal line."
       ]
-    ]
-  },
-  {
-    "question_text": "Identify the transformations shown in this diagram.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three quadrilaterals labeled 1, 2, and 3 on a coordinate grid, representing Naruto jutsu stages. Shape 1 (cyan) undergoes a reflection to produce Shape 2 (teal). Then, Shape 2 undergoes a rotation to produce Shape 3 (aqua). The full transformation from Shape 1 to Shape 3 involves reflection, then rotation, performing different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
     ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
+    "solution_image_tag": [
       [
         "1/3",
-        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a horizontal line."
+        "Gr8_40_2_49_step_1",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° clockwise."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a rotation."
+        "Gr8_40_2_49_step_2",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
       ]
     ]
   },
   {
-    "question_text": "What sequence of transformations is presented?",
+    "question_text": "Which combination of transformations is shown below?",
     "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Pokemon evolution stages. Shape 1 (lime) undergoes a reflection to produce Shape 2 (emerald). Then, Shape 2 undergoes a rotation to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves reflection, then rotation, evolving through different stages.",
+    "image_tag": "Gr8_40_2_50",
+    "backend_description": "The image shows a sequence of transformations: rotation then reflection. The rotation is 90° counterclockwise. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
     "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_50",
+    "tag": "Gr8_40_E2",
     "choices": [
-      "reflection, then translation",
+      "rotation, then reflection",
       "rotation, then translation",
       "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° counterclockwise."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "Name the sequence of transformations below.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three pentagons labeled 1, 2, and 3 on a coordinate grid, representing Pokemon evolution stages. Shape 1 (cyan) undergoes a reflection to produce Shape 2 (teal). Then, Shape 2 undergoes a rotation to produce Shape 3 (aqua). The full transformation from Shape 1 to Shape 3 involves reflection, then rotation, evolving through different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a vertical line."
-      ],
-      [
-        "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° counterclockwise."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "Which transformations produced this outcome?",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Overwatch ultimate charge. Shape 1 (lime) undergoes a reflection to produce Shape 2 (emerald). Then, Shape 2 undergoes a translation to produce Shape 3 (forest green). The full transformation from Shape 1 to Shape 3 involves reflection, then translation, charging through different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
+      "reflection, then translation"
     ],
     "correct_answers": [
       "A"
@@ -1220,202 +2175,43 @@
     "solution": [
       [
         "1/3",
-        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a vertical line."
+        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation."
       ],
       [
         "2/3",
-        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape up 5 units."
+        "Rotate the shape 90° counterclockwise. Use a reflection to turn Shape 2 into Shape 3."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a translation."
+        "This image shows a reflection. Reflect the shape across a horizontal line."
       ]
-    ]
-  },
-  {
-    "question_text": "Which series of transformations is displayed?",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three quadrilaterals labeled 1, 2, and 3 on a coordinate grid, representing Marvel hero transformations. Shape 1 (brown) undergoes a rotation to produce Shape 2 (tan). Then, Shape 2 undergoes a reflection to produce Shape 3 (beige). The full transformation from Shape 1 to Shape 3 involves rotation, then reflection, transforming via different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
     ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
+    "solution_image_tag": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180° clockwise."
+        "Gr8_40_2_50_step_1",
+        "This step image shows the rotation transformation, highlighting how the shape turns from Shape 2 to Shape 3."
       ],
       [
         "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a diagonal line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
+        "Gr8_40_2_50_step_2",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
       ]
     ]
   },
   {
-    "question_text": "List the transformations shown from start to finish.",
+    "question_text": "Which combination of transformations is shown below?",
     "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Naruto jutsu stages. Shape 1 (purple) undergoes a rotation to produce Shape 2 (pink). Then, Shape 2 undergoes a reflection to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves rotation, then reflection, performing different stages.",
+    "image_tag": "Gr8_40_2_51",
+    "backend_description": "The image shows a sequence of transformations: translation then reflection. The translation moves the shape as described:  the shape down 6 and left 6. Three shapes are shown to demonstrate the sequence of transformations from the original shape to the final position.",
     "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_51",
+    "tag": "Gr8_40_E2",
     "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
       "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 180° counterclockwise."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a vertical line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a reflection."
-      ]
-    ]
-  },
-  {
-    "question_text": "Identify each step in the transformation process.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three parallelograms labeled 1, 2, and 3 on a coordinate grid, representing Naruto jutsu stages. Shape 1 (purple) undergoes a reflection to produce Shape 2 (pink). Then, Shape 2 undergoes a rotation to produce Shape 3 (magenta). The full transformation from Shape 1 to Shape 3 involves reflection, then rotation, performing different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° counterclockwise."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "Name the transformations in the correct order.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid, representing Among Us sabotage sequence. Shape 1 (red) undergoes a rotation to produce Shape 2 (orange). Then, Shape 2 undergoes a translation to produce Shape 3 (yellow). The full transformation from Shape 1 to Shape 3 involves rotation, then translation, sabotaging via different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "B"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 90° counterclockwise."
-      ],
-      [
-        "2/3",
-        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape right 6 units."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a translation."
-      ]
-    ]
-  },
-  {
-    "question_text": "What transformations were used in this diagram?",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three triangles labeled 1, 2, and 3 on a coordinate grid, representing Mario power-up sequence. Shape 1 (green) undergoes a translation to produce Shape 2 (light blue). Then, Shape 2 undergoes a reflection to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves translation, then reflection, transforming via different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
       "translation, then reflection",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape up 2 units."
-      ],
-      [
-        "2/3",
-        "Use a reflection to turn Shape 2 into Shape 3. This image shows a reflection. Reflect the shape across a vertical line."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a reflection."
-      ]
-    ]
-  },
-  {
-    "question_text": "Which sequence of transformations is displayed?",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Avatar element mastery. Shape 1 (cyan) undergoes a reflection to produce Shape 2 (teal). Then, Shape 2 undergoes a rotation to produce Shape 3 (aqua). The full transformation from Shape 1 to Shape 3 involves reflection, then rotation, mastering through different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "C"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a horizontal line."
-      ],
-      [
-        "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° clockwise."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "Determine the transformation combination shown.",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Pokemon evolution stages. Shape 1 (green) undergoes a rotation to produce Shape 2 (light blue). Then, Shape 2 undergoes a translation to produce Shape 3 (dark blue). The full transformation from Shape 1 to Shape 3 involves rotation, then translation, evolving through different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
+      "translation, then rotation",
+      "reflection, then translation"
     ],
     "correct_answers": [
       "B"
@@ -1423,73 +2219,27 @@
     "solution": [
       [
         "1/3",
-        "Use a rotation to turn Shape 1 into Shape 2. This image shows a rotation. Rotate the shape 270° counterclockwise."
+        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation."
       ],
       [
         "2/3",
-        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape left 6 units."
+        "Translate the shape down 6 and left 6. Use a reflection to turn Shape 2 into Shape 3."
       ],
       [
         "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a rotation and then a translation."
+        "This image shows a reflection. Reflect the shape across a vertical line."
       ]
-    ]
-  },
-  {
-    "question_text": "What transformations occurred from start to end?",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three squares labeled 1, 2, and 3 on a coordinate grid, representing Sonic speed boost stages. Shape 1 (brown) undergoes a translation to produce Shape 2 (tan). Then, Shape 2 undergoes a rotation to produce Shape 3 (beige). The full transformation from Shape 1 to Shape 3 involves translation, then rotation, accelerating through different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "translation, then rotation"
     ],
-    "correct_answers": [
-      "D"
-    ],
-    "solution": [
+    "solution_image_tag": [
       [
         "1/3",
-        "Use a translation to turn Shape 1 into Shape 2. This image shows a translation. Translate the shape left 6 units."
+        "Gr8_40_2_51_step_1",
+        "This step image shows the translation transformation, highlighting the movement of the shape from its original position to the new position."
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 270° clockwise."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a translation and then a rotation."
-      ]
-    ]
-  },
-  {
-    "question_text": "Which transformations were applied to create this image?",
-    "skills": "describe-a-sequence-of-transformations",
-    "backend_description": "The image shows three parallelograms labeled 1, 2, and 3 on a coordinate grid, representing Star Wars force techniques. Shape 1 (cyan) undergoes a reflection to produce Shape 2 (teal). Then, Shape 2 undergoes a translation to produce Shape 3 (aqua). The full transformation from Shape 1 to Shape 3 involves reflection, then translation, channeling different stages.",
-    "question_type": "Multiple Choice Question with Single Answer",
-    "choices": [
-      "reflection, then translation",
-      "rotation, then translation",
-      "reflection, then rotation",
-      "rotation, then reflection"
-    ],
-    "correct_answers": [
-      "A"
-    ],
-    "solution": [
-      [
-        "1/3",
-        "Use a reflection to turn Shape 1 into Shape 2. This image shows a reflection. Reflect the shape across a vertical line."
-      ],
-      [
-        "2/3",
-        "Use a translation to turn Shape 2 into Shape 3. This image shows a translation. Translate the shape right 2 units."
-      ],
-      [
-        "3/3",
-        "To go from Shape 1 to Shape 2 to Shape 3, use a reflection and then a translation."
+        "Gr8_40_2_51_step_2",
+        "This step image shows the reflection transformation, demonstrating how the shape is flipped to create the final position."
       ]
     ]
   }
