@@ -1,93 +1,62 @@
-<!DOCTYPE html>
 
-<html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>
-   Grade 6 Math Exercise
-  </title>
-<style>
-   body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f5f5f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            text-align: center;
-            max-width: 1000px;
-        }
-        .visual-element {
-            margin: 20px auto;
-            display: inline-block;
-            padding: 10px;
-        }
-        .grid-container {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            flex-wrap: wrap;
-            align-items: center;
-        }
-  </style>
-</head>
-<body>
-<div class="container">
-<div class="visual-element item" label="Gr6_23_E2_variations_image_tag">
-<svg height="120" viewbox="0 0 600 120" width="600">
-<!-- Fraction number line in sixths -->
-<line stroke="#000" stroke-width="2" x1="50" x2="550" y1="60" y2="60"></line>
-<!-- Tick marks and labels -->
-<g fill="#000" font-family="Arial" font-size="10" stroke="#000" stroke-width="1" text-anchor="middle">
-<line x1="50.0" x2="50.0" y1="50" y2="70"></line>
-<text x="50.0" y="85">0/6</text>
-<line x1="77.8" x2="77.8" y1="50" y2="70"></line>
-<text x="77.8" y="85">1/6</text>
-<line x1="105.6" x2="105.6" y1="50" y2="70"></line>
-<text x="105.6" y="85">2/6</text>
-<line x1="133.3" x2="133.3" y1="50" y2="70"></line>
-<text x="133.3" y="85">3/6</text>
-<line x1="161.1" x2="161.1" y1="50" y2="70"></line>
-<text x="161.1" y="85">4/6</text>
-<line x1="188.9" x2="188.9" y1="50" y2="70"></line>
-<text x="188.9" y="85">5/6</text>
-<line x1="216.7" x2="216.7" y1="50" y2="70"></line>
-<text x="216.7" y="85">6/6</text>
-<line x1="244.4" x2="244.4" y1="50" y2="70"></line>
-<text x="244.4" y="85">7/6</text>
-<line x1="272.2" x2="272.2" y1="50" y2="70"></line>
-<text x="272.2" y="85">8/6</text>
-<line x1="300.0" x2="300.0" y1="50" y2="70"></line>
-<text x="300.0" y="85">9/6</text>
-<line x1="327.8" x2="327.8" y1="50" y2="70"></line>
-<text x="327.8" y="85">10/6</text>
-<line x1="355.6" x2="355.6" y1="50" y2="70"></line>
-<text x="355.6" y="85">11/6</text>
-<line x1="383.3" x2="383.3" y1="50" y2="70"></line>
-<text x="383.3" y="85">12/6</text>
-<line x1="411.1" x2="411.1" y1="50" y2="70"></line>
-<text x="411.1" y="85">13/6</text>
-<line x1="438.9" x2="438.9" y1="50" y2="70"></line>
-<text x="438.9" y="85">14/6</text>
-<line x1="466.7" x2="466.7" y1="50" y2="70"></line>
-<text x="466.7" y="85">15/6</text>
-<line x1="494.4" x2="494.4" y1="50" y2="70"></line>
-<text x="494.4" y="85">16/6</text>
-<line x1="522.2" x2="522.2" y1="50" y2="70"></line>
-<text x="522.2" y="85">17/6</text>
-<line x1="550.0" x2="550.0" y1="50" y2="70"></line>
-<text x="550.0" y="85">18/6</text>
-</g>
-</svg>
-</div>
-<div class="visual-element item solution-step" label="Gr6_23_2_30_step_1" style="display: none;"></div></div>
-</body>
-</html>
+    <html>
+    <head>
+        <style>
+            .item {
+                position: relative;
+                display: inline-block;
+                width: 820px;
+                padding: 0 10px;
+            }
+            .line {
+                width: 800px;
+                height: 2px;
+                background-color: black;
+                position: relative;
+                margin: 40px 0;
+            }
+            .tick {
+                position: absolute;
+                width: 2px;
+                height: 20px;
+                background-color: black;
+                top: -9px;
+            }
+            .tick-label {
+                position: absolute;
+                top: 15px;
+                font-family: Arial, sans-serif;
+                font-size: 16px;
+                text-align: center;
+                width: 60px;
+                margin-left: -30px;
+            }
+            .arrow {
+                position: absolute;
+                top: -9px;
+                width: 0;
+                height: 0;
+            }
+            .arrow-left {
+                left: -10px;
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                border-right: 15px solid black;
+            }
+            .arrow-right {
+                right: -10px;
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                border-left: 15px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="item" label=Gr6_23_2_30>
+            <div class="line">
+                <div class="arrow arrow-left"></div>
+                <div class="arrow arrow-right"></div><div class="tick" style="left: 20.0px;"></div><div class="tick-label" style="left: 20.0px;">0</div><div class="tick" style="left: 115.0px;"></div><div class="tick-label" style="left: 115.0px;">1/8</div><div class="tick" style="left: 210.0px;"></div><div class="tick-label" style="left: 210.0px;">1/4</div><div class="tick" style="left: 305.0px;"></div><div class="tick-label" style="left: 305.0px;">3/8</div><div class="tick" style="left: 400.0px;"></div><div class="tick-label" style="left: 400.0px;">1/2</div><div class="tick" style="left: 495.0px;"></div><div class="tick-label" style="left: 495.0px;">5/8</div><div class="tick" style="left: 590.0px;"></div><div class="tick-label" style="left: 590.0px;">3/4</div><div class="tick" style="left: 685.0px;"></div><div class="tick-label" style="left: 685.0px;">7/8</div><div class="tick" style="left: 780.0px;"></div><div class="tick-label" style="left: 780.0px;">1</div>
+            </div>
+        </div>
+    </body>
+    </html>
