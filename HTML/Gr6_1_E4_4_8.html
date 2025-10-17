@@ -1,79 +1,62 @@
-<!DOCTYPE html>
 
-<html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>
-   Grade 6 Math Exercise
-  </title>
-<style>
-   body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f5f5f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            text-align: center;
-            max-width: 1000px;
-        }
-        .visual-element {
-            margin: 20px auto;
-            display: inline-block;
-            padding: 10px;
-        }
-        .grid-container {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            flex-wrap: wrap;
-            align-items: center;
-        }
-  </style>
-</head>
-<body>
-<div class="container">
-<div class="visual-element item" label="Gr6_1_E4_variations_image_tag">
-<svg height="120" viewbox="0 0 850 120" width="850">
-<!-- Number line from -25 to 25 -->
-<line stroke="#000" stroke-width="2" x1="50" x2="800" y1="60" y2="60"></line>
-<!-- Tick marks and labels -->
-<g fill="#000" font-family="Arial" font-size="12" stroke="#000" stroke-width="1" text-anchor="middle">
-<line x1="50.0" x2="50.0" y1="50" y2="70"></line>
-<text x="50.0" y="85">-25</text>
-<line x1="125.0" x2="125.0" y1="50" y2="70"></line>
-<text x="125.0" y="85">-20</text>
-<line x1="200.0" x2="200.0" y1="50" y2="70"></line>
-<text x="200.0" y="85">-15</text>
-<line x1="275.0" x2="275.0" y1="50" y2="70"></line>
-<text x="275.0" y="85">-10</text>
-<line x1="350.0" x2="350.0" y1="50" y2="70"></line>
-<text x="350.0" y="85">-5</text>
-<line x1="425.0" x2="425.0" y1="50" y2="70"></line>
-<text x="425.0" y="85">0</text>
-<line x1="500.0" x2="500.0" y1="50" y2="70"></line>
-<text x="500.0" y="85">5</text>
-<line x1="575.0" x2="575.0" y1="50" y2="70"></line>
-<text x="575.0" y="85">10</text>
-<line x1="650.0" x2="650.0" y1="50" y2="70"></line>
-<text x="650.0" y="85">15</text>
-<line x1="725.0" x2="725.0" y1="50" y2="70"></line>
-<text x="725.0" y="85">20</text>
-<line x1="800.0" x2="800.0" y1="50" y2="70"></line>
-<text x="800.0" y="85">25</text>
-<line x1="560.0" x2="560.0" y1="55" y2="65"></line>
-</g>
-<rect fill="white" height="20" stroke="#000" stroke-width="2" width="20" x="550.0" y="35"></rect>
-</svg>
-</div>
-<div class="visual-element item solution-step" label="Gr5_1_4_8_step_2" style="display: none;"></div></div>
-</body>
-</html>
+    <html>
+    <head>
+        <style>
+            .item {
+                position: relative;
+                display: inline-block;
+                width: 820px;
+                padding: 0 10px;
+            }
+            .line {
+                width: 800px;
+                height: 2px;
+                background-color: black;
+                position: relative;
+                margin: 40px 0;
+            }
+            .tick {
+                position: absolute;
+                width: 2px;
+                height: 20px;
+                background-color: black;
+                top: -9px;
+            }
+            .tick-label {
+                position: absolute;
+                top: 15px;
+                font-family: Arial, sans-serif;
+                font-size: 18px;
+                text-align: center;
+                width: 20px;
+                margin-left: -10px;
+            }
+            .arrow {
+                position: absolute;
+                top: -9px;
+                width: 0;
+                height: 0;
+            }
+            .arrow-left {
+                left: -10px;
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                border-right: 15px solid black;
+            }
+            .arrow-right {
+                right: -10px;
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                border-left: 15px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="item" label=Gr6_1_4_8>
+            <div class="line">
+                <div class="arrow arrow-left"></div>
+                <div class="arrow arrow-right"></div><div class="tick" style="left: 20.0px;"></div><div class="tick-label" style="left: 20.0px;">-35</div><div class="tick" style="left: 58.0px;"></div><div class="tick-label" style="left: 58.0px;">-32</div><div class="tick" style="left: 96.0px;"></div><div class="tick-label" style="left: 96.0px;">-29</div><div class="tick" style="left: 134.0px;"></div><div class="tick-label" style="left: 134.0px;">-26</div><div class="tick" style="left: 172.0px;"></div><div class="tick-label" style="left: 172.0px;">?</div><div class="tick" style="left: 210.0px;"></div><div class="tick-label" style="left: 210.0px;">-20</div><div class="tick" style="left: 248.0px;"></div><div class="tick-label" style="left: 248.0px;">-17</div><div class="tick" style="left: 286.0px;"></div><div class="tick-label" style="left: 286.0px;">-14</div><div class="tick" style="left: 324.0px;"></div><div class="tick-label" style="left: 324.0px;">-11</div><div class="tick" style="left: 362.0px;"></div><div class="tick-label" style="left: 362.0px;">-8</div><div class="tick" style="left: 400.0px;"></div><div class="tick-label" style="left: 400.0px;">-5</div><div class="tick" style="left: 438.00000000000006px;"></div><div class="tick-label" style="left: 438.00000000000006px;">-2</div><div class="tick" style="left: 476.0px;"></div><div class="tick-label" style="left: 476.0px;">1</div><div class="tick" style="left: 514.0px;"></div><div class="tick-label" style="left: 514.0px;">4</div><div class="tick" style="left: 552.0px;"></div><div class="tick-label" style="left: 552.0px;">7</div><div class="tick" style="left: 590.0px;"></div><div class="tick-label" style="left: 590.0px;">10</div><div class="tick" style="left: 628.0px;"></div><div class="tick-label" style="left: 628.0px;">13</div><div class="tick" style="left: 666.0px;"></div><div class="tick-label" style="left: 666.0px;">16</div><div class="tick" style="left: 704.0px;"></div><div class="tick-label" style="left: 704.0px;">19</div><div class="tick" style="left: 742.0px;"></div><div class="tick-label" style="left: 742.0px;">22</div><div class="tick" style="left: 780.0px;"></div><div class="tick-label" style="left: 780.0px;">25</div>
+            </div>
+        </div>
+    </body>
+    </html>
