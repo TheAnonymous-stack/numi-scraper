@@ -1,193 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Grade 6 Math Exercise - Compare Numbers
-  </title>
-  <style>
-   body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f5f5f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            text-align: center;
-            max-width: 1000px;
-        }
-        .visual-element {
-            margin: 20px auto;
-            display: inline-block;
-            padding: 10px;
-        }
-  </style>
- </head>
- <body>
-  <div class="container">
-   <div class="visual-element">
-    <div class="visual-element item" label="Gr5_1_5_7_step_1">
-     <svg height="150" viewbox="0 0 800 150" width="800">
-      <!-- Number line -->
-      <line stroke="#000" stroke-width="2" x1="50" x2="750" y1="75" y2="75">
-      </line>
-      <!-- Tick marks and labels -->
-      <g fill="#000" font-family="Arial" font-size="12" stroke="#000" stroke-width="1" text-anchor="middle">
-       <line x1="50.0" x2="50.0" y1="70" y2="80">
-       </line>
-       <text x="50.0" y="95">
-        26
-       </text>
-       <line x1="70.58823529411765" x2="70.58823529411765" y1="70" y2="80">
-       </line>
-       <line x1="91.1764705882353" x2="91.1764705882353" y1="70" y2="80">
-       </line>
-       <text x="91.1764705882353" y="95">
-        28
-       </text>
-       <line x1="111.76470588235294" x2="111.76470588235294" y1="70" y2="80">
-       </line>
-       <line x1="132.3529411764706" x2="132.3529411764706" y1="70" y2="80">
-       </line>
-       <text x="132.3529411764706" y="95">
-        30
-       </text>
-       <line x1="152.94117647058823" x2="152.94117647058823" y1="70" y2="80">
-       </line>
-       <line x1="173.52941176470588" x2="173.52941176470588" y1="70" y2="80">
-       </line>
-       <text x="173.52941176470588" y="95">
-        32
-       </text>
-       <line x1="194.11764705882354" x2="194.11764705882354" y1="70" y2="80">
-       </line>
-       <line x1="214.7058823529412" x2="214.7058823529412" y1="70" y2="80">
-       </line>
-       <text x="214.7058823529412" y="95">
-        34
-       </text>
-       <line x1="235.29411764705884" x2="235.29411764705884" y1="70" y2="80">
-       </line>
-       <text x="235.29411764705884" y="95">
-        35
-       </text>
-       <line x1="255.8823529411765" x2="255.8823529411765" y1="70" y2="80">
-       </line>
-       <text x="255.8823529411765" y="95">
-        36
-       </text>
-       <line x1="276.47058823529414" x2="276.47058823529414" y1="70" y2="80">
-       </line>
-       <line x1="297.05882352941177" x2="297.05882352941177" y1="70" y2="80">
-       </line>
-       <text x="297.05882352941177" y="95">
-        38
-       </text>
-       <line x1="317.64705882352945" x2="317.64705882352945" y1="70" y2="80">
-       </line>
-       <line x1="338.2352941176471" x2="338.2352941176471" y1="70" y2="80">
-       </line>
-       <text x="338.2352941176471" y="95">
-        40
-       </text>
-       <line x1="358.82352941176475" x2="358.82352941176475" y1="70" y2="80">
-       </line>
-       <line x1="379.4117647058824" x2="379.4117647058824" y1="70" y2="80">
-       </line>
-       <text x="379.4117647058824" y="95">
-        42
-       </text>
-       <line x1="400.0" x2="400.0" y1="70" y2="80">
-       </line>
-       <line x1="420.5882352941177" x2="420.5882352941177" y1="70" y2="80">
-       </line>
-       <text x="420.5882352941177" y="95">
-        44
-       </text>
-       <line x1="441.1764705882353" x2="441.1764705882353" y1="70" y2="80">
-       </line>
-       <text x="441.1764705882353" y="95">
-        45
-       </text>
-       <line x1="461.764705882353" x2="461.764705882353" y1="70" y2="80">
-       </line>
-       <text x="461.764705882353" y="95">
-        46
-       </text>
-       <line x1="482.3529411764706" x2="482.3529411764706" y1="70" y2="80">
-       </line>
-       <line x1="502.9411764705883" x2="502.9411764705883" y1="70" y2="80">
-       </line>
-       <text x="502.9411764705883" y="95">
-        48
-       </text>
-       <line x1="523.5294117647059" x2="523.5294117647059" y1="70" y2="80">
-       </line>
-       <line x1="544.1176470588235" x2="544.1176470588235" y1="70" y2="80">
-       </line>
-       <text x="544.1176470588235" y="95">
-        50
-       </text>
-       <line x1="564.7058823529412" x2="564.7058823529412" y1="70" y2="80">
-       </line>
-       <line x1="585.2941176470589" x2="585.2941176470589" y1="70" y2="80">
-       </line>
-       <text x="585.2941176470589" y="95">
-        52
-       </text>
-       <line x1="605.8823529411765" x2="605.8823529411765" y1="70" y2="80">
-       </line>
-       <line x1="626.4705882352941" x2="626.4705882352941" y1="70" y2="80">
-       </line>
-       <text x="626.4705882352941" y="95">
-        54
-       </text>
-       <line x1="647.0588235294118" x2="647.0588235294118" y1="70" y2="80">
-       </line>
-       <text x="647.0588235294118" y="95">
-        55
-       </text>
-       <line x1="667.6470588235295" x2="667.6470588235295" y1="70" y2="80">
-       </line>
-       <text x="667.6470588235295" y="95">
-        56
-       </text>
-       <line x1="688.2352941176471" x2="688.2352941176471" y1="70" y2="80">
-       </line>
-       <line x1="708.8235294117648" x2="708.8235294117648" y1="70" y2="80">
-       </line>
-       <text x="708.8235294117648" y="95">
-        58
-       </text>
-       <line x1="729.4117647058824" x2="729.4117647058824" y1="70" y2="80">
-       </line>
-       <line x1="750.0" x2="750.0" y1="70" y2="80">
-       </line>
-       <text x="750.0" y="95">
-        60
-       </text>
-       <circle cx="91.1764705882353" cy="75" fill="#4CAF50" r="8" stroke="#000" stroke-width="2">
-       </circle>
-       <text fill="#4CAF50" font-size="14" font-weight="bold" x="91.1764705882353" y="55">
-        28
-       </text>
-       <circle cx="688.2352941176471" cy="75" fill="#2196F3" r="8" stroke="#000" stroke-width="2">
-       </circle>
-       <text fill="#2196F3" font-size="14" font-weight="bold" x="688.2352941176471" y="120">
-        57
-       </text>
-      </g>
-     </svg>
-    </div>
-   </div>
-  </div>
- </body>
-</html>
+
+    <html>
+    <head>
+        <style>
+            .item {
+                position: relative;
+                display: inline-block;
+                width: 820px;
+                padding: 0 10px;
+            }
+            .line {
+                width: 800px;
+                height: 2px;
+                background-color: black;
+                position: relative;
+                margin: 40px 0;
+            }
+            .tick {
+                position: absolute;
+                width: 2px;
+                height: 20px;
+                background-color: black;
+                top: -9px;
+            }
+            .tick-label {
+                position: absolute;
+                top: 15px;
+                font-family: Arial, sans-serif;
+                font-size: 18px;
+                text-align: center;
+                width: 20px;
+                margin-left: -10px;
+            }
+            .arrow {
+                position: absolute;
+                top: -9px;
+                width: 0;
+                height: 0;
+            }
+            .arrow-left {
+                left: -10px;
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                border-right: 15px solid black;
+            }
+            .arrow-right {
+                right: -10px;
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                border-left: 15px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="item" label=Gr6_1_5_7>
+            <div class="line">
+                <div class="arrow arrow-left"></div>
+                <div class="arrow arrow-right"></div><div class="tick" style="left: 20.0px;"></div><div class="tick-label" style="left: 20.0px;">-40</div><div class="tick" style="left: 96.0px;"></div><div class="tick-label" style="left: 96.0px;">-37</div><div class="tick" style="left: 172.0px;"></div><div class="tick-label" style="left: 172.0px;">-34</div><div class="tick" style="left: 248.0px;"></div><div class="tick-label" style="left: 248.0px;">-31</div><div class="tick" style="left: 324.0px;"></div><div class="tick-label" style="left: 324.0px;">-28</div><div class="tick" style="left: 400.0px;"></div><div class="tick-label" style="left: 400.0px;">-25</div><div class="tick" style="left: 476.0px;"></div><div class="tick-label" style="left: 476.0px;">-22</div><div class="tick" style="left: 552.0px;"></div><div class="tick-label" style="left: 552.0px;">-19</div><div class="tick" style="left: 628.0px;"></div><div class="tick-label" style="left: 628.0px;">-16</div><div class="tick" style="left: 704.0px;"></div><div class="tick-label" style="left: 704.0px;">-13</div><div class="tick" style="left: 780.0px;"></div><div class="tick-label" style="left: 780.0px;">-10</div>
+            </div>
+        </div>
+    </body>
+    </html>

@@ -1,241 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Grade 6 Math Exercise - Compare Numbers
-  </title>
-  <style>
-   body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f5f5f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            text-align: center;
-            max-width: 1000px;
-        }
-        .visual-element {
-            margin: 20px auto;
-            display: inline-block;
-            padding: 10px;
-        }
-  </style>
- </head>
- <body>
-  <div class="container">
-   <div class="visual-element">
-    <div class="visual-element item" label="Gr5_1_5_39_step_1">
-     <svg height="150" viewbox="0 0 800 150" width="800">
-      <!-- Number line -->
-      <line stroke="#000" stroke-width="2" x1="50" x2="750" y1="75" y2="75">
-      </line>
-      <!-- Tick marks and labels -->
-      <g fill="#000" font-family="Arial" font-size="12" stroke="#000" stroke-width="1" text-anchor="middle">
-       <line x1="50.0" x2="50.0" y1="70" y2="80">
-       </line>
-       <text x="50.0" y="95">
-        64
-       </text>
-       <line x1="65.21739130434783" x2="65.21739130434783" y1="70" y2="80">
-       </line>
-       <text x="65.21739130434783" y="95">
-        65
-       </text>
-       <line x1="80.43478260869566" x2="80.43478260869566" y1="70" y2="80">
-       </line>
-       <text x="80.43478260869566" y="95">
-        66
-       </text>
-       <line x1="95.65217391304347" x2="95.65217391304347" y1="70" y2="80">
-       </line>
-       <line x1="110.86956521739131" x2="110.86956521739131" y1="70" y2="80">
-       </line>
-       <text x="110.86956521739131" y="95">
-        68
-       </text>
-       <line x1="126.08695652173913" x2="126.08695652173913" y1="70" y2="80">
-       </line>
-       <line x1="141.30434782608694" x2="141.30434782608694" y1="70" y2="80">
-       </line>
-       <text x="141.30434782608694" y="95">
-        70
-       </text>
-       <line x1="156.52173913043478" x2="156.52173913043478" y1="70" y2="80">
-       </line>
-       <line x1="171.73913043478262" x2="171.73913043478262" y1="70" y2="80">
-       </line>
-       <text x="171.73913043478262" y="95">
-        72
-       </text>
-       <line x1="186.95652173913044" x2="186.95652173913044" y1="70" y2="80">
-       </line>
-       <line x1="202.17391304347825" x2="202.17391304347825" y1="70" y2="80">
-       </line>
-       <text x="202.17391304347825" y="95">
-        74
-       </text>
-       <line x1="217.3913043478261" x2="217.3913043478261" y1="70" y2="80">
-       </line>
-       <text x="217.3913043478261" y="95">
-        75
-       </text>
-       <line x1="232.6086956521739" x2="232.6086956521739" y1="70" y2="80">
-       </line>
-       <text x="232.6086956521739" y="95">
-        76
-       </text>
-       <line x1="247.82608695652175" x2="247.82608695652175" y1="70" y2="80">
-       </line>
-       <line x1="263.04347826086956" x2="263.04347826086956" y1="70" y2="80">
-       </line>
-       <text x="263.04347826086956" y="95">
-        78
-       </text>
-       <line x1="278.2608695652174" x2="278.2608695652174" y1="70" y2="80">
-       </line>
-       <line x1="293.47826086956525" x2="293.47826086956525" y1="70" y2="80">
-       </line>
-       <text x="293.47826086956525" y="95">
-        80
-       </text>
-       <line x1="308.69565217391306" x2="308.69565217391306" y1="70" y2="80">
-       </line>
-       <line x1="323.9130434782609" x2="323.9130434782609" y1="70" y2="80">
-       </line>
-       <text x="323.9130434782609" y="95">
-        82
-       </text>
-       <line x1="339.1304347826087" x2="339.1304347826087" y1="70" y2="80">
-       </line>
-       <line x1="354.3478260869565" x2="354.3478260869565" y1="70" y2="80">
-       </line>
-       <text x="354.3478260869565" y="95">
-        84
-       </text>
-       <line x1="369.5652173913044" x2="369.5652173913044" y1="70" y2="80">
-       </line>
-       <text x="369.5652173913044" y="95">
-        85
-       </text>
-       <line x1="384.7826086956522" x2="384.7826086956522" y1="70" y2="80">
-       </line>
-       <text x="384.7826086956522" y="95">
-        86
-       </text>
-       <line x1="400.0" x2="400.0" y1="70" y2="80">
-       </line>
-       <line x1="415.2173913043478" x2="415.2173913043478" y1="70" y2="80">
-       </line>
-       <text x="415.2173913043478" y="95">
-        88
-       </text>
-       <line x1="430.4347826086956" x2="430.4347826086956" y1="70" y2="80">
-       </line>
-       <line x1="445.6521739130435" x2="445.6521739130435" y1="70" y2="80">
-       </line>
-       <text x="445.6521739130435" y="95">
-        90
-       </text>
-       <line x1="460.8695652173913" x2="460.8695652173913" y1="70" y2="80">
-       </line>
-       <line x1="476.0869565217391" x2="476.0869565217391" y1="70" y2="80">
-       </line>
-       <text x="476.0869565217391" y="95">
-        92
-       </text>
-       <line x1="491.30434782608694" x2="491.30434782608694" y1="70" y2="80">
-       </line>
-       <line x1="506.5217391304348" x2="506.5217391304348" y1="70" y2="80">
-       </line>
-       <text x="506.5217391304348" y="95">
-        94
-       </text>
-       <line x1="521.7391304347826" x2="521.7391304347826" y1="70" y2="80">
-       </line>
-       <text x="521.7391304347826" y="95">
-        95
-       </text>
-       <line x1="536.9565217391305" x2="536.9565217391305" y1="70" y2="80">
-       </line>
-       <text x="536.9565217391305" y="95">
-        96
-       </text>
-       <line x1="552.1739130434783" x2="552.1739130434783" y1="70" y2="80">
-       </line>
-       <line x1="567.3913043478261" x2="567.3913043478261" y1="70" y2="80">
-       </line>
-       <text x="567.3913043478261" y="95">
-        98
-       </text>
-       <line x1="582.6086956521739" x2="582.6086956521739" y1="70" y2="80">
-       </line>
-       <line x1="597.8260869565217" x2="597.8260869565217" y1="70" y2="80">
-       </line>
-       <text x="597.8260869565217" y="95">
-        100
-       </text>
-       <line x1="613.0434782608696" x2="613.0434782608696" y1="70" y2="80">
-       </line>
-       <line x1="628.2608695652174" x2="628.2608695652174" y1="70" y2="80">
-       </line>
-       <text x="628.2608695652174" y="95">
-        102
-       </text>
-       <line x1="643.4782608695652" x2="643.4782608695652" y1="70" y2="80">
-       </line>
-       <line x1="658.695652173913" x2="658.695652173913" y1="70" y2="80">
-       </line>
-       <text x="658.695652173913" y="95">
-        104
-       </text>
-       <line x1="673.9130434782609" x2="673.9130434782609" y1="70" y2="80">
-       </line>
-       <text x="673.9130434782609" y="95">
-        105
-       </text>
-       <line x1="689.1304347826087" x2="689.1304347826087" y1="70" y2="80">
-       </line>
-       <text x="689.1304347826087" y="95">
-        106
-       </text>
-       <line x1="704.3478260869565" x2="704.3478260869565" y1="70" y2="80">
-       </line>
-       <line x1="719.5652173913044" x2="719.5652173913044" y1="70" y2="80">
-       </line>
-       <text x="719.5652173913044" y="95">
-        108
-       </text>
-       <line x1="734.7826086956521" x2="734.7826086956521" y1="70" y2="80">
-       </line>
-       <line x1="750.0" x2="750.0" y1="70" y2="80">
-       </line>
-       <text x="750.0" y="95">
-        110
-       </text>
-       <circle cx="597.8260869565217" cy="75" fill="#4CAF50" r="8" stroke="#000" stroke-width="2">
-       </circle>
-       <text fill="#4CAF50" font-size="14" font-weight="bold" x="597.8260869565217" y="55">
-        100
-       </text>
-       <circle cx="80.43478260869566" cy="75" fill="#2196F3" r="8" stroke="#000" stroke-width="2">
-       </circle>
-       <text fill="#2196F3" font-size="14" font-weight="bold" x="80.43478260869566" y="120">
-        66
-       </text>
-      </g>
-     </svg>
-    </div>
-   </div>
-  </div>
- </body>
-</html>
+
+    <html>
+    <head>
+        <style>
+            .item {
+                position: relative;
+                display: inline-block;
+                width: 820px;
+                padding: 0 10px;
+            }
+            .line {
+                width: 800px;
+                height: 2px;
+                background-color: black;
+                position: relative;
+                margin: 40px 0;
+            }
+            .tick {
+                position: absolute;
+                width: 2px;
+                height: 20px;
+                background-color: black;
+                top: -9px;
+            }
+            .tick-label {
+                position: absolute;
+                top: 15px;
+                font-family: Arial, sans-serif;
+                font-size: 18px;
+                text-align: center;
+                width: 20px;
+                margin-left: -10px;
+            }
+            .arrow {
+                position: absolute;
+                top: -9px;
+                width: 0;
+                height: 0;
+            }
+            .arrow-left {
+                left: -10px;
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                border-right: 15px solid black;
+            }
+            .arrow-right {
+                right: -10px;
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                border-left: 15px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="item" label=Gr6_1_5_39>
+            <div class="line">
+                <div class="arrow arrow-left"></div>
+                <div class="arrow arrow-right"></div><div class="tick" style="left: 20.0px;"></div><div class="tick-label" style="left: 20.0px;">-35</div><div class="tick" style="left: 96.0px;"></div><div class="tick-label" style="left: 96.0px;">-33</div><div class="tick" style="left: 172.0px;"></div><div class="tick-label" style="left: 172.0px;">-31</div><div class="tick" style="left: 248.0px;"></div><div class="tick-label" style="left: 248.0px;">-29</div><div class="tick" style="left: 324.0px;"></div><div class="tick-label" style="left: 324.0px;">-27</div><div class="tick" style="left: 400.0px;"></div><div class="tick-label" style="left: 400.0px;">-25</div><div class="tick" style="left: 476.0px;"></div><div class="tick-label" style="left: 476.0px;">-23</div><div class="tick" style="left: 552.0px;"></div><div class="tick-label" style="left: 552.0px;">-21</div><div class="tick" style="left: 628.0px;"></div><div class="tick-label" style="left: 628.0px;">-19</div><div class="tick" style="left: 704.0px;"></div><div class="tick-label" style="left: 704.0px;">-17</div><div class="tick" style="left: 780.0px;"></div><div class="tick-label" style="left: 780.0px;">-15</div>
+            </div>
+        </div>
+    </body>
+    </html>
