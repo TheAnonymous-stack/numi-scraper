@@ -1,87 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Grade 6 - Week 16 - Exercise 1
-  </title>
-  <style>
-   body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f5f5f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            text-align: center;
-            max-width: 900px;
-        }
-        .visual-element {
-            margin: 20px auto;
-            display: inline-block;
-            padding: 10px;
-        }
-        .grid-container {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            flex-wrap: wrap;
-            align-items: center;
-        }
-  </style>
- </head>
- <body>
-  <div class="container">
-   <div class="grid-container">
-    <div class="visual-element item" label="Gr6_16_E1_1_25">
-    </div>
-    <div class="visual-element item" label="Gr6_16_E1_variations_image_tag">
-     <div style="margin-bottom: 10px; font-weight: bold; font-size: 18px;">
-      4/6
-     </div>
-     <svg height="200" viewbox="0 0 200 200" width="200">
-      <path d="M 100,100 L 100.0,10.0 A 90,90 0 0,1 177.94228634059948,55.00000000000001 Z" fill="#FF9800" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 177.94228634059948,55.00000000000001 A 90,90 0 0,1 177.94228634059948,145.0 Z" fill="#FF9800" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 177.94228634059948,145.0 A 90,90 0 0,1 100.0,190.0 Z" fill="#FF9800" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 100.0,190.0 A 90,90 0 0,1 22.05771365940052,145.0 Z" fill="#FF9800" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 22.05771365940052,145.0 A 90,90 0 0,1 22.05771365940052,54.99999999999999 Z" fill="white" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 22.05771365940052,54.99999999999999 A 90,90 0 0,1 99.99999999999999,10.0 Z" fill="white" stroke="black" stroke-width="2">
-      </path>
-     </svg>
-    </div>
-    <div class="visual-element item" label="Gr6_16_1_25_step_2">
-     <div style="margin-bottom: 10px; font-weight: bold; font-size: 18px;">
-      1/6
-     </div>
-     <svg height="200" viewbox="0 0 200 200" width="200">
-      <path d="M 100,100 L 100.0,10.0 A 90,90 0 0,1 177.94228634059948,55.00000000000001 Z" fill="#FF9800" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 177.94228634059948,55.00000000000001 A 90,90 0 0,1 177.94228634059948,145.0 Z" fill="white" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 177.94228634059948,145.0 A 90,90 0 0,1 100.0,190.0 Z" fill="white" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 100.0,190.0 A 90,90 0 0,1 22.05771365940052,145.0 Z" fill="white" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 22.05771365940052,145.0 A 90,90 0 0,1 22.05771365940052,54.99999999999999 Z" fill="white" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 22.05771365940052,54.99999999999999 A 90,90 0 0,1 99.99999999999999,10.0 Z" fill="white" stroke="black" stroke-width="2">
-      </path>
-     </svg>
-    </div>
-   </div>
-  </div>
- </body>
-</html>
+
+    <html>
+    <head>
+        <style>
+            .item {
+                position: relative;
+                display: inline-block;
+                width: 820px;
+                padding: 0 10px;
+            }
+            .line {
+                width: 800px;
+                height: 2px;
+                background-color: black;
+                position: relative;
+                margin: 40px 0;
+            }
+            .tick {
+                position: absolute;
+                width: 2px;
+                height: 20px;
+                background-color: black;
+                top: -9px;
+            }
+            .tick-label {
+                position: absolute;
+                top: 15px;
+                font-family: Arial, sans-serif;
+                font-size: 18px;
+                text-align: center;
+                width: 60px;
+                margin-left: -30px;
+            }
+            .arrow {
+                position: absolute;
+                top: -9px;
+                width: 0;
+                height: 0;
+            }
+            .arrow-left {
+                left: -10px;
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                border-right: 15px solid black;
+            }
+            .arrow-right {
+                right: -10px;
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                border-left: 15px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="item" label=Gr6_16_1_25>
+            <div class="line">
+                <div class="arrow arrow-left"></div>
+                <div class="arrow arrow-right"></div><div class="tick" style="left: 20.0px;"></div><div class="tick-label" style="left: 20.0px;">0</div><div class="tick" style="left: 210.0px;"></div><div class="tick-label" style="left: 210.0px;">1/4</div><div class="tick" style="left: 400.0px;"></div><div class="tick-label" style="left: 400.0px;">2/4</div><div class="tick" style="left: 590.0px;"></div><div class="tick-label" style="left: 590.0px;">3/4</div><div class="tick" style="left: 780.0px;"></div><div class="tick-label" style="left: 780.0px;">1</div>
+            </div>
+        </div>
+    </body>
+    </html>
