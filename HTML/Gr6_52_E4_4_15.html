@@ -24,7 +24,7 @@
             text-align: center;
             max-width: 900px;
         }
-        .visual-element {
+        .item {
             margin: 20px auto;
             display: inline-block;
             padding: 10px;
@@ -40,21 +40,36 @@
  </head>
  <body>
   <div class="container">
-   <div class="visual-element item" label="Gr6_52_4_16">
-    <svg height="200" viewbox="0 0 300 200" width="300">
-     <rect fill="#f0f8ff" height="180" rx="10" stroke="#4169e1" stroke-width="2" width="280" x="10" y="10">
-     </rect>
-     <text fill="#4169e1" font-size="24" font-weight="bold" text-anchor="middle" x="150" y="60">
-      Math
-     </text>
-     <line stroke="#4169e1" stroke-width="2" x1="50" x2="250" y1="100" y2="100">
-     </line>
-     <circle cx="100" cy="140" fill="#87ceeb" r="20" stroke="#4169e1" stroke-width="2">
-     </circle>
-     <rect fill="#87ceeb" height="40" stroke="#4169e1" stroke-width="2" width="40" x="140" y="120">
-     </rect>
-     <polygon fill="#87ceeb" points="220,160 200,120 240,120" stroke="#4169e1" stroke-width="2">
-     </polygon>
+   <div class="item" label="Gr6_52_4_15">
+    <svg width="363" height="302" viewBox="0 0 363 302">
+      <!-- Larger Rectangle (A) -->
+      <rect x="30" y="90.60606060606061" width="303.030303030303" height="181.8181818181818"
+            fill="#E3F2FD" stroke="#1976D2" stroke-width="3"/>
+
+      <!-- Smaller Rectangle (B) -->
+      <rect x="30" y="30" width="96.96969696969697" height="60.60606060606061"
+            fill="#FFEBEE" stroke="#C62828" stroke-width="3"/>
+
+      <!-- Labels -->
+      <text x="181.5151515151515" y="181.5151515151515"
+            text-anchor="middle" dominant-baseline="middle"
+            font-size="20" font-weight="bold" fill="#1976D2">A</text>
+
+      <text x="78.48484848484848" y="60.303030303030305"
+            text-anchor="middle" dominant-baseline="middle"
+            font-size="16" font-weight="bold" fill="#C62828">B</text>
+
+      <!-- Dimensions for larger rectangle -->
+      <text x="181.5151515151515" y="292.42424242424244"
+            text-anchor="middle" font-size="14" fill="#333">25</text>
+      <text x="15" y="181.5151515151515"
+            text-anchor="middle" font-size="14" fill="#333" transform="rotate(-90, 15, 181.5151515151515)">15</text>
+
+      <!-- Dimensions for smaller rectangle -->
+      <text x="78.48484848484848" y="20"
+            text-anchor="middle" font-size="14" fill="#333">8</text>
+      <text x="141.96969696969697" y="60.303030303030305"
+            text-anchor="middle" font-size="14" fill="#333" transform="rotate(-90, 141.96969696969697, 60.303030303030305)">5</text>
     </svg>
    </div>
   </div>
