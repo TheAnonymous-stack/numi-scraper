@@ -1,81 +1,57 @@
 <!DOCTYPE html>
 <html>
- <head>
+<head>
   <style>
-   body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .question {
-            font-size: 18px;
-            margin-bottom: 20px;
-            font-weight: bold;
-        }
-        .polygon-container {
-            margin: 20px 0;
-            text-align: center;
-        }
-        .given-angles {
-            font-size: 14px;
-            margin-top: 15px;
-            color: #333;
-        }
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .item {
+      margin: 20px 0;
+      text-align: center;
+    }
   </style>
- </head>
- <body>
-  <div class="question">
-   In this heptagon, the angles are 170, 108, 111, 128, 133° and one angle marked as y. Find y.
-y = °
-  </div>
-  <div class="polygon-container">
-   <div class="visual-element item" label="Gr6_51_1_2_step_1">
-    <svg height="300" viewbox="0 0 400 300" width="400">
-     <!-- Heptagon with 7 sides -->
-     <polygon fill="lightyellow" fill-opacity="0.3" points="200,50 278,88 297,172 243,240 157,240 103,172 122,88" stroke="black" stroke-width="2">
-     </polygon>
-     <!-- Angle labels and vertices -->
-     <circle cx="200" cy="50" fill="black" r="3">
-     </circle>
-     <text fill="black" font-size="14" text-anchor="middle" x="200" y="80">
-      170°
-     </text>
-     <circle cx="278" cy="88" fill="black" r="3">
-     </circle>
-     <text fill="black" font-size="14" text-anchor="middle" x="255" y="106">
-      108°
-     </text>
-     <circle cx="297" cy="172" fill="black" r="3">
-     </circle>
-     <text fill="black" font-size="14" text-anchor="middle" x="268" y="166">
-      111°
-     </text>
-     <circle cx="243" cy="240" fill="black" r="3">
-     </circle>
-     <text fill="black" font-size="14" text-anchor="middle" x="230" y="213">
-      128°
-     </text>
-     <circle cx="157" cy="240" fill="black" r="3">
-     </circle>
-     <text fill="black" font-size="14" text-anchor="middle" x="170" y="213">
-      133°
-     </text>
-     <circle cx="103" cy="172" fill="black" r="3">
-     </circle>
-     <text fill="black" font-size="14" text-anchor="middle" x="132" y="166">
-      134°
-     </text>
-     <circle cx="122" cy="88" fill="red" r="3">
-     </circle>
-     <text fill="red" font-size="16" font-weight="bold" text-anchor="middle" x="145" y="106">
-      y
-     </text>
+</head>
+<body>
+  <div class="item" label="Gr6_51_1_2">
+    <svg width="500" height="400" viewBox="0 0 500 400">
+      <polygon points="250.0,100.0 328.2,137.7 347.5,222.3 293.4,290.1 206.6,290.1 152.5,222.3 171.8,137.7"
+               fill="lightyellow" fill-opacity="0.3"
+               stroke="black" stroke-width="2"/>
+      
+      <text x="250.0" y="75.0" font-size="14" font-weight="bold"
+            text-anchor="middle" fill="black">170&deg;</text>
+      <text x="347.7" y="122.1" font-size="14" font-weight="bold"
+            text-anchor="middle" fill="black">108&deg;</text>
+      <text x="371.9" y="227.8" font-size="14" font-weight="bold"
+            text-anchor="middle" fill="black">111&deg;</text>
+      <text x="304.2" y="312.6" font-size="14" font-weight="bold"
+            text-anchor="middle" fill="black">128&deg;</text>
+      <text x="195.8" y="312.6" font-size="14" font-weight="bold"
+            text-anchor="middle" fill="black">133&deg;</text>
+      <text x="128.1" y="227.8" font-size="14" font-weight="bold"
+            text-anchor="middle" fill="black">134&deg;</text>
+      <text x="152.3" y="122.1" font-size="14" font-weight="bold"
+            text-anchor="middle" fill="red">y</text>
     </svg>
-   </div>
   </div>
-  <div class="given-angles">
-   Given angles: 170°, 108°, 111°, 128°, 133°, 134°
+  <div class="item" label="Gr6_51_1_2_step_1">
+    <svg width="500" height="400" viewBox="0 0 500 400">
+      <polygon points="250.0,100.0 328.2,137.7 347.5,222.3 293.4,290.1 206.6,290.1 152.5,222.3 171.8,137.7"
+               fill="lightyellow" fill-opacity="0.3"
+               stroke="black" stroke-width="2"/>
+      
+      <line x1="250.0" y1="100.0" x2="347.5" y2="222.3"
+            stroke="black" stroke-width="1" stroke-dasharray="3,3"/>
+      <line x1="250.0" y1="100.0" x2="293.4" y2="290.1"
+            stroke="black" stroke-width="1" stroke-dasharray="3,3"/>
+      <line x1="250.0" y1="100.0" x2="206.6" y2="290.1"
+            stroke="black" stroke-width="1" stroke-dasharray="3,3"/>
+      <line x1="250.0" y1="100.0" x2="152.5" y2="222.3"
+            stroke="black" stroke-width="1" stroke-dasharray="3,3"/>
+    </svg>
   </div>
- </body>
+</body>
 </html>

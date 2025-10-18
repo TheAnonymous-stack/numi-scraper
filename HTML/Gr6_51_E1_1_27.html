@@ -1,76 +1,53 @@
 <!DOCTYPE html>
 <html>
- <head>
+<head>
   <style>
-   body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .question {
-            font-size: 18px;
-            margin-bottom: 20px;
-            font-weight: bold;
-        }
-        .polygon-container {
-            margin: 20px 0;
-            text-align: center;
-        }
-        .given-angles {
-            font-size: 14px;
-            margin-top: 15px;
-            color: #333;
-        }
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .item {
+      margin: 20px 0;
+      text-align: center;
+    }
   </style>
- </head>
- <body>
-  <div class="question">
-   What is the sum of the angle measures in this shape?
-°
-  </div>
-  <div class="polygon-container">
-   <div class="visual-element item" label="Gr6_51_1_27_step_1">
-    <svg height="300" viewbox="0 0 400 300" width="400">
-     <!-- Hexagon with 6 sides -->
-     <polygon fill="lightyellow" fill-opacity="0.3" points="200,50 287,100 287,200 200,250 113,200 113,100" stroke="black" stroke-width="2">
-     </polygon>
-     <!-- Angle labels and vertices -->
-     <circle cx="200" cy="50" fill="red" r="3">
-     </circle>
-     <text fill="red" font-size="16" font-weight="bold" text-anchor="middle" x="200" y="80">
-      x
-     </text>
-     <circle cx="287" cy="100" fill="red" r="3">
-     </circle>
-     <text fill="red" font-size="16" font-weight="bold" text-anchor="middle" x="261" y="115">
-      x
-     </text>
-     <circle cx="287" cy="200" fill="red" r="3">
-     </circle>
-     <text fill="red" font-size="16" font-weight="bold" text-anchor="middle" x="261" y="185">
-      x
-     </text>
-     <circle cx="200" cy="250" fill="red" r="3">
-     </circle>
-     <text fill="red" font-size="16" font-weight="bold" text-anchor="middle" x="200" y="220">
-      x
-     </text>
-     <circle cx="113" cy="200" fill="red" r="3">
-     </circle>
-     <text fill="red" font-size="16" font-weight="bold" text-anchor="middle" x="139" y="185">
-      x
-     </text>
-     <circle cx="113" cy="100" fill="red" r="3">
-     </circle>
-     <text fill="red" font-size="16" font-weight="bold" text-anchor="middle" x="139" y="115">
-      x
-     </text>
+</head>
+<body>
+  <div class="item" label="Gr6_51_1_27">
+    <svg width="500" height="400" viewBox="0 0 500 400">
+      <polygon points="250.0,100.0 336.6,150.0 336.6,250.0 250.0,300.0 163.4,250.0 163.4,150.0"
+               fill="lightyellow" fill-opacity="0.3"
+               stroke="black" stroke-width="2"/>
+      
+      <text x="250.0" y="75.0" font-size="14" font-weight="bold"
+            text-anchor="middle" fill="red">n</text>
+      <text x="358.3" y="137.5" font-size="14" font-weight="bold"
+            text-anchor="middle" fill="red">n</text>
+      <text x="358.3" y="262.5" font-size="14" font-weight="bold"
+            text-anchor="middle" fill="red">n</text>
+      <text x="250.0" y="325.0" font-size="14" font-weight="bold"
+            text-anchor="middle" fill="red">n</text>
+      <text x="141.7" y="262.5" font-size="14" font-weight="bold"
+            text-anchor="middle" fill="red">n</text>
+      <text x="141.7" y="137.5" font-size="14" font-weight="bold"
+            text-anchor="middle" fill="red">n</text>
     </svg>
-   </div>
   </div>
-  <div class="given-angles">
-   Given angles:
+  <div class="item" label="Gr6_51_1_27_step_1">
+    <svg width="500" height="400" viewBox="0 0 500 400">
+      <polygon points="250.0,100.0 336.6,150.0 336.6,250.0 250.0,300.0 163.4,250.0 163.4,150.0"
+               fill="lightyellow" fill-opacity="0.3"
+               stroke="black" stroke-width="2"/>
+      
+      <line x1="250.0" y1="100.0" x2="336.6" y2="250.0"
+            stroke="black" stroke-width="1" stroke-dasharray="3,3"/>
+      <line x1="250.0" y1="100.0" x2="250.0" y2="300.0"
+            stroke="black" stroke-width="1" stroke-dasharray="3,3"/>
+      <line x1="250.0" y1="100.0" x2="163.4" y2="250.0"
+            stroke="black" stroke-width="1" stroke-dasharray="3,3"/>
+    </svg>
   </div>
- </body>
+</body>
 </html>
