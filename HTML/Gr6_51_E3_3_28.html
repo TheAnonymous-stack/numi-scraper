@@ -1,65 +1,81 @@
 <!DOCTYPE html>
 <html>
- <head>
+<head>
   <style>
-   body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .question {
-            font-size: 18px;
-            margin-bottom: 20px;
-            font-weight: bold;
-        }
-        .polygon-container {
-            margin: 20px 0;
-            text-align: center;
-        }
-        .given-angles {
-            font-size: 14px;
-            margin-top: 15px;
-            color: #333;
-        }
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .item {
+      margin: 20px 0;
+      text-align: center;
+    }
   </style>
- </head>
- <body>
-  <div class="question">
-   Which angle is complementary to $\angle DGE$?
-  </div>
-  <div class="polygon-container">
-   <div class="visual-element item" label="Gr6_51_3_28_step_1">
-    <svg height="300" viewbox="0 0 400 300" width="400">
-     <!-- Polygon with 4 sides -->
-     <polygon fill="lightyellow" fill-opacity="0.3" points="200,50 300,150 200,250 100,150" stroke="black" stroke-width="2">
-     </polygon>
-     <!-- Angle labels and vertices -->
-     <circle cx="200" cy="50" fill="red" r="3">
-     </circle>
-     <text fill="red" font-size="16" font-weight="bold" text-anchor="middle" x="200" y="80">
-      x
-     </text>
-     <circle cx="300" cy="150" fill="red" r="3">
-     </circle>
-     <text fill="red" font-size="16" font-weight="bold" text-anchor="middle" x="270" y="150">
-      x
-     </text>
-     <circle cx="200" cy="250" fill="red" r="3">
-     </circle>
-     <text fill="red" font-size="16" font-weight="bold" text-anchor="middle" x="200" y="220">
-      x
-     </text>
-     <circle cx="100" cy="150" fill="red" r="3">
-     </circle>
-     <text fill="red" font-size="16" font-weight="bold" text-anchor="middle" x="130" y="150">
-      x
-     </text>
+</head>
+<body>
+  <div class="item" label="Gr6_51_3_28">
+    <svg width="500" height="400" viewBox="0 0 500 400">
+      <!-- Rays -->
+      <line x1="250" y1="200" x2="50" y2="200" stroke="black" stroke-width="2"/>
+      <line x1="250" y1="200" x2="108.6" y2="58.6" stroke="black" stroke-width="2"/>
+      <line x1="250" y1="200" x2="391.4" y2="58.6" stroke="black" stroke-width="2"/>
+      <line x1="250" y1="200" x2="450" y2="200" stroke="black" stroke-width="2"/>
+      <line x1="250" y1="200" x2="391.4" y2="341.4" stroke="black" stroke-width="2"/>
+      <line x1="250" y1="200" x2="108.6" y2="341.4" stroke="black" stroke-width="2"/>
+
+      <!-- Angle EGF highlighted in red (right angle symbol - small square) -->
+      <path d="M 264.1,214.1 L 250.0,228.3 L 235.9,214.1"
+            fill="none" stroke="red" stroke-width="3"/>
+
+      <!-- Center point G -->
+      <circle cx="250" cy="200" r="3" fill="black"/>
+
+      <!-- Labels -->
+      <text x="40" y="205" font-size="16" font-weight="bold">A</text>
+      <text x="98.6" y="53.6" font-size="16" font-weight="bold">B</text>
+      <text x="396.4" y="53.6" font-size="16" font-weight="bold">C</text>
+      <text x="460" y="205" font-size="16" font-weight="bold">D</text>
+      <text x="401.4" y="356.4" font-size="16" font-weight="bold">E</text>
+      <text x="98.6" y="356.4" font-size="16" font-weight="bold">F</text>
+      <text x="255" y="195" font-size="16" font-weight="bold">G</text>
     </svg>
-   </div>
   </div>
-  <div class="given-angles">
-   Given angles:
+  <div class="item" label="Gr6_51_3_28_step_1">
+    <svg width="500" height="400" viewBox="0 0 500 400">
+      <!-- Angle AGB (brown) - arc from GA to GB -->
+      <path d="M 210.0,200.0 A 40,40 0 0 1 221.7,171.7"
+            fill="none" stroke="brown" stroke-width="3"/>
+
+      <!-- Angle CGD (green) - arc from GC to GD -->
+      <path d="M 278.3,171.7 A 40,40 0 0 1 290.0,200.0"
+            fill="none" stroke="green" stroke-width="3"/>
+
+      <!-- Rays -->
+      <line x1="250" y1="200" x2="50" y2="200" stroke="black" stroke-width="2"/>
+      <line x1="250" y1="200" x2="108.6" y2="58.6" stroke="black" stroke-width="2"/>
+      <line x1="250" y1="200" x2="391.4" y2="58.6" stroke="black" stroke-width="2"/>
+      <line x1="250" y1="200" x2="450" y2="200" stroke="black" stroke-width="2"/>
+      <line x1="250" y1="200" x2="391.4" y2="341.4" stroke="black" stroke-width="2"/>
+      <line x1="250" y1="200" x2="108.6" y2="341.4" stroke="black" stroke-width="2"/>
+
+      <!-- Angle EGF highlighted in red (right angle symbol - small square) -->
+      <path d="M 264.1,214.1 L 250.0,228.3 L 235.9,214.1"
+            fill="none" stroke="red" stroke-width="3"/>
+
+      <!-- Center point G -->
+      <circle cx="250" cy="200" r="3" fill="black"/>
+
+      <!-- Labels -->
+      <text x="40" y="205" font-size="16" font-weight="bold">A</text>
+      <text x="98.6" y="53.6" font-size="16" font-weight="bold">B</text>
+      <text x="396.4" y="53.6" font-size="16" font-weight="bold">C</text>
+      <text x="460" y="205" font-size="16" font-weight="bold">D</text>
+      <text x="401.4" y="356.4" font-size="16" font-weight="bold">E</text>
+      <text x="98.6" y="356.4" font-size="16" font-weight="bold">F</text>
+      <text x="255" y="195" font-size="16" font-weight="bold">G</text>
+    </svg>
   </div>
- </body>
+</body>
 </html>
