@@ -1,104 +1,153 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Grade 6 Math Exercise - Ratio Table</title>
-<style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f5f5f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            text-align: center;
-            max-width: 600px;
-        }
-        .question {
-            font-size: 18px;
-            margin-bottom: 20px;
-            font-weight: bold;
-            color: #333;
-        }
-        .ratio-table {
-            margin: 20px auto;
-            border-collapse: collapse;
-            font-size: 18px;
-        }
-        .ratio-table td {
-            border: 2px solid #333;
-            padding: 15px 30px;
-            text-align: center;
-            min-width: 60px;
-        }
-        .ratio-table tr:first-child td {
-            background-color: #e3f2fd;
-            font-weight: bold;
-        }
-        .blank-cell {
-            background-color: #fff3e0;
-            position: relative;
-        }
-        .answer {
-            color: #4CAF50;
-            font-weight: bold;
-        }
-        .blank-indicator {
-            display: inline-block;
-            width: 40px;
-            height: 25px;
-            border: 2px solid #666;
-            background-color: #f9f9f9;
-            vertical-align: middle;
-        }
-        .info-text {
-            font-size: 14px;
-            color: #666;
-            margin-top: 20px;
-        }
-    </style>
-</head>
-<body>
-<div class="container">
-<div class="question">Complete the ratio table.</div>
-<div class="visual-element item" label="Gr6_28_E3_3_47"><table class="ratio-table">
-<tr>
-<td>Column A</td>
-<td>Column B</td>
-</tr>
-<tr>
-<td>6</td>
-<td>1</td>
-</tr>
-<tr>
-<td>12</td>
-<td>2</td>
-</tr>
-<tr>
-<td>18</td>
-<td>3</td>
-</tr>
-<tr>
-<td>24</td>
-<td>4</td>
-</tr>
-<tr>
-<td class="blank-cell"><span class="blank-indicator"></span></td>
-<td>5</td>
-</tr>
-</table></div>
-<div class="info-text">
-            Find the missing value in the ratio table.
-        </div>
-<div class="visual-element item solution-step" label="Gr6_28_3_47_step_2" style="display: none;"></div></div>
-</body>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <style>
+   body { font-family: Arial, sans-serif; margin: 20px; }
+        .item { display: inline-block; margin: 10px; }
+        svg { display: block; }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="item" label="Gr6_28_3_47">
+    <svg height="350" viewbox="0 0 250 350" width="250" xmlns="http://www.w3.org/2000/svg">
+     <!-- Table background -->
+     <rect fill="white" height="300" stroke="none" width="200" x="25" y="25">
+     </rect>
+     <!-- Header row -->
+     <rect fill="#E3F2FD" height="50" stroke="#333" stroke-width="2" width="100" x="25" y="25">
+     </rect>
+     <text font-size="16" font-weight="bold" text-anchor="middle" x="75.0" y="55.0">
+      Column A
+     </text>
+     <rect fill="#E3F2FD" height="50" stroke="#333" stroke-width="2" width="100" x="125" y="25">
+     </rect>
+     <text font-size="16" font-weight="bold" text-anchor="middle" x="175.0" y="55.0">
+      Column B
+     </text>
+     <!-- Data rows -->
+     <rect fill="white" height="50" stroke="#333" stroke-width="2" width="100" x="25" y="75">
+     </rect>
+     <text font-size="18" text-anchor="middle" x="75.0" y="105.0">
+      6
+     </text>
+     <rect fill="white" height="50" stroke="#333" stroke-width="2" width="100" x="125" y="75">
+     </rect>
+     <text font-size="18" text-anchor="middle" x="175.0" y="105.0">
+      1
+     </text>
+     <rect fill="white" height="50" stroke="#333" stroke-width="2" width="100" x="25" y="125">
+     </rect>
+     <text font-size="18" text-anchor="middle" x="75.0" y="155.0">
+      12
+     </text>
+     <rect fill="white" height="50" stroke="#333" stroke-width="2" width="100" x="125" y="125">
+     </rect>
+     <text font-size="18" text-anchor="middle" x="175.0" y="155.0">
+      2
+     </text>
+     <rect fill="white" height="50" stroke="#333" stroke-width="2" width="100" x="25" y="175">
+     </rect>
+     <text font-size="18" text-anchor="middle" x="75.0" y="205.0">
+      18
+     </text>
+     <rect fill="white" height="50" stroke="#333" stroke-width="2" width="100" x="125" y="175">
+     </rect>
+     <text font-size="18" text-anchor="middle" x="175.0" y="205.0">
+      3
+     </text>
+     <rect fill="white" height="50" stroke="#333" stroke-width="2" width="100" x="25" y="225">
+     </rect>
+     <text font-size="18" text-anchor="middle" x="75.0" y="255.0">
+      24
+     </text>
+     <rect fill="white" height="50" stroke="#333" stroke-width="2" width="100" x="125" y="225">
+     </rect>
+     <text font-size="18" text-anchor="middle" x="175.0" y="255.0">
+      4
+     </text>
+     <rect fill="#FFF3E0" height="50" stroke="#333" stroke-width="2" width="100" x="25" y="275">
+     </rect>
+     <rect fill="#F9F9F9" height="25.0" stroke="#666" stroke-width="2" width="30" x="60.0" y="285.0">
+     </rect>
+     <rect fill="white" height="50" stroke="#333" stroke-width="2" width="100" x="125" y="275">
+     </rect>
+     <text font-size="18" text-anchor="middle" x="175.0" y="305.0">
+      5
+     </text>
+    </svg>
+   </div>
+   <div class="item" label="Gr6_28_3_47_step_2">
+    <svg height="350" viewbox="0 0 250 350" width="250" xmlns="http://www.w3.org/2000/svg">
+     <!-- Table background -->
+     <rect fill="white" height="300" stroke="none" width="200" x="25" y="25">
+     </rect>
+     <!-- Header row -->
+     <rect fill="#E3F2FD" height="50" stroke="#333" stroke-width="2" width="100" x="25" y="25">
+     </rect>
+     <text font-size="16" font-weight="bold" text-anchor="middle" x="75.0" y="55.0">
+      Column A
+     </text>
+     <rect fill="#E3F2FD" height="50" stroke="#333" stroke-width="2" width="100" x="125" y="25">
+     </rect>
+     <text font-size="16" font-weight="bold" text-anchor="middle" x="175.0" y="55.0">
+      Column B
+     </text>
+     <!-- Data rows -->
+     <rect fill="white" height="50" stroke="#333" stroke-width="2" width="100" x="25" y="75">
+     </rect>
+     <text font-size="18" text-anchor="middle" x="75.0" y="105.0">
+      6
+     </text>
+     <rect fill="white" height="50" stroke="#333" stroke-width="2" width="100" x="125" y="75">
+     </rect>
+     <text font-size="18" text-anchor="middle" x="175.0" y="105.0">
+      1
+     </text>
+     <rect fill="white" height="50" stroke="#333" stroke-width="2" width="100" x="25" y="125">
+     </rect>
+     <text font-size="18" text-anchor="middle" x="75.0" y="155.0">
+      12
+     </text>
+     <rect fill="white" height="50" stroke="#333" stroke-width="2" width="100" x="125" y="125">
+     </rect>
+     <text font-size="18" text-anchor="middle" x="175.0" y="155.0">
+      2
+     </text>
+     <rect fill="white" height="50" stroke="#333" stroke-width="2" width="100" x="25" y="175">
+     </rect>
+     <text font-size="18" text-anchor="middle" x="75.0" y="205.0">
+      18
+     </text>
+     <rect fill="white" height="50" stroke="#333" stroke-width="2" width="100" x="125" y="175">
+     </rect>
+     <text font-size="18" text-anchor="middle" x="175.0" y="205.0">
+      3
+     </text>
+     <rect fill="white" height="50" stroke="#333" stroke-width="2" width="100" x="25" y="225">
+     </rect>
+     <text font-size="18" text-anchor="middle" x="75.0" y="255.0">
+      24
+     </text>
+     <rect fill="white" height="50" stroke="#333" stroke-width="2" width="100" x="125" y="225">
+     </rect>
+     <text font-size="18" text-anchor="middle" x="175.0" y="255.0">
+      4
+     </text>
+     <rect fill="#90CAF9" height="50" stroke="#333" stroke-width="2" width="100" x="25" y="275">
+     </rect>
+     <text font-size="18" text-anchor="middle" x="75.0" y="305.0">
+      30
+     </text>
+     <rect fill="white" height="50" stroke="#333" stroke-width="2" width="100" x="125" y="275">
+     </rect>
+     <text font-size="18" text-anchor="middle" x="175.0" y="305.0">
+      5
+     </text>
+    </svg>
+   </div>
+  </div>
+ </body>
 </html>
