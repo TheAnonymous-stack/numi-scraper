@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Grade 6 - Week 24 - Exercise 2
-  </title>
-  <style>
-   body {
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Line: 2/3</title>
+    <style>
+        body {
             font-family: Arial, sans-serif;
             margin: 20px;
             background-color: #f5f5f5;
@@ -18,87 +16,136 @@
         }
         .container {
             background-color: white;
-            padding: 30px;
+            padding: 40px;
             border-radius: 10px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             text-align: center;
-            max-width: 900px;
+            min-width: 900px;
         }
-        .visual-element {
-            margin: 20px auto;
+        .item {
+            position: relative;
             display: inline-block;
-            padding: 10px;
+            width: 820px;
+            padding: 0 10px;
         }
-        .grid-container {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            flex-wrap: wrap;
-            align-items: center;
+        .line {
+            width: 800px;
+            height: 3px;
+            background-color: #333;
+            position: relative;
+            margin: 80px 0 60px 0;
         }
-  </style>
- </head>
- <body>
-  <div class="container">
-   <div class="grid-container">
-    <div class="visual-element item" label="Gr6_24_E2_2_10">
+        .tick {
+            position: absolute;
+            width: 2px;
+            height: 20px;
+            background-color: #333;
+            top: -8px;
+        }
+        .tick-major {
+            height: 25px;
+            top: -11px;
+            width: 3px;
+            background-color: #000;
+        }
+        .tick-label {
+            position: absolute;
+            top: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            text-align: center;
+            width: 60px;
+            margin-left: -30px;
+            color: #333;
+        }
+        .fraction-point {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background-color: #FF4444;
+            border-radius: 50%;
+            top: -4px;
+            margin-left: -6px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        .fraction-label {
+            position: absolute;
+            top: -45px;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            width: 60px;
+            margin-left: -30px;
+            color: #FF4444;
+            background-color: white;
+            padding: 2px 4px;
+            border-radius: 4px;
+            border: 2px solid #FF4444;
+        }
+        .arrow {
+            position: absolute;
+            top: -8px;
+            width: 0;
+            height: 0;
+        }
+        .arrow-left {
+            left: -10px;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-right: 8px solid #333;
+        }
+        .arrow-right {
+            right: -10px;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 8px solid #333;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Number Line: 2/3</div>
+        <div class="item" label="Gr6_24_2_10">
+            <div class="line">
+                <div class="arrow arrow-left"></div>
+                <div class="arrow arrow-right"></div>        <div class="tick" style="left: 20.0px;"></div>
+        <div class="tick-label" style="left: 20.0px;">0</div>
+        <div class="tick" style="left: 273.3333333333333px;"></div>
+        <div class="tick" style="left: 526.6666666666666px;"></div>
+        <div class="tick-label" style="left: 526.6666666666666px;">2/3</div>
+        <div class="tick" style="left: 780.0px;"></div>
+        <div class="tick-label" style="left: 780.0px;">1</div>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead0" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 20.0 40 Q 146.66666666666666 10 273.3333333333333 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead0)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead1" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 273.3333333333333 40 Q 400.0 10 526.6666666666666 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead1)" />
+        </svg>
+        <div class="fraction-point" style="left: 526.6666666666666px;"></div>
+        <div class="fraction-label" style="left: 526.6666666666666px;">2/3</div>
+            </div>
+        </div>
     </div>
-    <div class="visual-element item" label="Gr6_24_E2_variations_image_tag">
-     <div style="margin-bottom: 10px; font-weight: bold; font-size: 18px;">
-      4/7
-     </div>
-     <svg height="200" viewbox="0 0 200 200" width="200">
-      <path d="M 100,100 L 100.0,10.0 A 90,90 0 0,1 170.36483342212267,43.885917832713986 Z" fill="#FF9800" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 170.36483342212267,43.885917832713986 A 90,90 0 0,1 187.74351209636413,120.0268840560683 Z" fill="#FF9800" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 187.74351209636413,120.0268840560683 A 90,90 0 0,1 139.04953652058026,181.08719811121773 Z" fill="#FF9800" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 139.04953652058026,181.08719811121773 A 90,90 0 0,1 60.950463479419774,181.08719811121773 Z" fill="#FF9800" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 60.950463479419774,181.08719811121773 A 90,90 0 0,1 12.256487903635858,120.02688405606827 Z" fill="white" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 12.256487903635858,120.02688405606827 A 90,90 0 0,1 29.635166577877314,43.885917832714 Z" fill="white" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 29.635166577877314,43.885917832714 A 90,90 0 0,1 99.99999999999999,10.0 Z" fill="white" stroke="black" stroke-width="2">
-      </path>
-     </svg>
-    </div>
-    <div class="visual-element item" label="Gr6_24_2_10_step_1">
-     <div style="margin-bottom: 10px; font-weight: bold; font-size: 18px;">
-      7/5
-     </div>
-     <svg height="200" viewbox="0 0 200 200" width="200">
-      <path d="M 100,100 L 100.0,10.0 A 90,90 0 0,1 185.59508646656383,72.18847050625473 Z" fill="#FF9800" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 185.59508646656383,72.18847050625473 A 90,90 0 0,1 152.90067270632258,172.81152949374527 Z" fill="#FF9800" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 152.90067270632258,172.81152949374527 A 90,90 0 0,1 47.099327293677426,172.81152949374527 Z" fill="#FF9800" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 47.099327293677426,172.81152949374527 A 90,90 0 0,1 14.404913533436172,72.18847050625475 Z" fill="#FF9800" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 14.404913533436172,72.18847050625475 A 90,90 0 0,1 99.99999999999999,10.0 Z" fill="#FF9800" stroke="black" stroke-width="2">
-      </path>
-     </svg>
-    </div>
-    <div class="visual-element item" label="Gr6_24_E2_variations_image_tag">
-     <div style="margin-bottom: 10px; font-weight: bold; font-size: 18px;">
-      6/5
-     </div>
-     <svg height="200" viewbox="0 0 200 200" width="200">
-      <path d="M 100,100 L 100.0,10.0 A 90,90 0 0,1 185.59508646656383,72.18847050625473 Z" fill="#FF9800" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 185.59508646656383,72.18847050625473 A 90,90 0 0,1 152.90067270632258,172.81152949374527 Z" fill="#FF9800" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 152.90067270632258,172.81152949374527 A 90,90 0 0,1 47.099327293677426,172.81152949374527 Z" fill="#FF9800" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 47.099327293677426,172.81152949374527 A 90,90 0 0,1 14.404913533436172,72.18847050625475 Z" fill="#FF9800" stroke="black" stroke-width="2">
-      </path>
-      <path d="M 100,100 L 14.404913533436172,72.18847050625475 A 90,90 0 0,1 99.99999999999999,10.0 Z" fill="#FF9800" stroke="black" stroke-width="2">
-      </path>
-     </svg>
-    </div>
-   </div>
-  </div>
- </body>
+</body>
 </html>
