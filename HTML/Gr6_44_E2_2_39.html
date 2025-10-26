@@ -1,118 +1,122 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>
-   Grade 6 - Line Graph
-  </title>
-<style>
-   body {
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <style>
+        body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 0;
+            padding: 0;
             background-color: #f5f5f5;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
+            gap: 20px;
+            padding: 20px;
         }
-        .container {
+        .item {
             background-color: white;
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             text-align: center;
-            max-width: 600px;
         }
-        .question {
-            font-size: 18px;
-            margin-bottom: 25px;
-            color: #333;
-        }
-        .graph {
-            margin: 20px 0;
-            padding: 20px;
-            background: #f9f9f9;
-            border-radius: 8px;
-        }
-        .choices {
-            margin: 25px 0;
-            text-align: left;
-        }
-        .choice {
-            margin: 10px 0;
-            padding: 10px 15px;
-            background: #f9f9f9;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .choice:hover {
-            background: #e3f2fd;
-        }
-  </style>
+    </style>
 </head>
 <body>
-<div class="container">
-<div class="question">
-    On which day did they have the fewest?
-   </div>
-<div class="graph">
-<div class="visual-element item" label="Gr6_44_E2_2_39">
-<svg height="250" viewbox="0 0 400 250" width="400">
-<!-- Axes -->
-<line stroke="#333" stroke-width="2" x1="40" x2="360" y1="210" y2="210">
-</line>
-<line stroke="#333" stroke-width="2" x1="40" x2="40" y1="30" y2="210">
-</line>
-<!-- Line graph -->
-<polyline fill="none" points="80,100 140,60 200,90 260,80 320,170" stroke="#4CAF50" stroke-width="2">
-</polyline>
-<!-- Points -->
-<circle cx="80" cy="100" fill="#4CAF50" r="4">
-</circle>
-<circle cx="140" cy="60" fill="#4CAF50" r="4">
-</circle>
-<circle cx="200" cy="90" fill="#4CAF50" r="4">
-</circle>
-<circle cx="260" cy="80" fill="#4CAF50" r="4">
-</circle>
-<circle cx="320" cy="170" fill="#4CAF50" r="4">
-</circle>
-<!-- Labels -->
-<text font-size="12" text-anchor="middle" x="80" y="230">
-       Mon
-      </text>
-<text font-size="12" text-anchor="middle" x="140" y="230">
-       Tue
-      </text>
-<text font-size="12" text-anchor="middle" x="200" y="230">
-       Wed
-      </text>
-<text font-size="12" text-anchor="middle" x="260" y="230">
-       Thu
-      </text>
-<text font-size="12" text-anchor="middle" x="320" y="230">
-       Fri
-      </text>
-</svg>
-</div>
-</div>
-<div class="choices">
-<div class="choice">
-     A) Monday
+    <div class="item" label="Gr6_44_2_39">
+    <svg width="500" height="300" viewBox="0 0 500 300">
+        <!-- Title -->
+        <text x="250" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">Artwork sales.</text>
+
+        <!-- Y-axis label -->
+        <text x="15" y="150" text-anchor="middle" font-size="13" fill="#666" transform="rotate(-90, 15, 150)">Artwork sales</text>
+
+        <!-- Grid lines and Y-axis labels -->
+        <text x="70" y="225.0" text-anchor="end" font-size="11" fill="#666">0</text>
+        <line x1="80" y1="220.0" x2="460" y2="220.0" stroke="#ddd" stroke-width="1"/>
+        <text x="70" y="180.0" text-anchor="end" font-size="11" fill="#666">20</text>
+        <line x1="80" y1="175.0" x2="460" y2="175.0" stroke="#ddd" stroke-width="1"/>
+        <text x="70" y="135.0" text-anchor="end" font-size="11" fill="#666">41</text>
+        <line x1="80" y1="130.0" x2="460" y2="130.0" stroke="#ddd" stroke-width="1"/>
+        <text x="70" y="90.0" text-anchor="end" font-size="11" fill="#666">61</text>
+        <line x1="80" y1="85.0" x2="460" y2="85.0" stroke="#ddd" stroke-width="1"/>
+        <text x="70" y="45.0" text-anchor="end" font-size="11" fill="#666">82</text>
+        <line x1="80" y1="40.0" x2="460" y2="40.0" stroke="#ddd" stroke-width="1"/>
+
+        <!-- Axes -->
+        <line x1="80" y1="40" x2="80" y2="220" stroke="#333" stroke-width="2"/>
+        <line x1="80" y1="220" x2="460" y2="220" stroke="#333" stroke-width="2"/>
+
+        <!-- Line -->
+        <polyline points="80.0,81.70731707317074 175.0,127.80487804878048 270.0,173.90243902439025 365.0,140.97560975609755 460.0,61.95121951219511" fill="none" stroke="#4CAF50" stroke-width="3"/>
+
+        <!-- Points -->
+        <circle cx="80.0" cy="81.70731707317074" r="5" fill="#4CAF50"/>
+        <circle cx="175.0" cy="127.80487804878048" r="5" fill="#4CAF50"/>
+        <circle cx="270.0" cy="173.90243902439025" r="5" fill="#4CAF50"/>
+        <circle cx="365.0" cy="140.97560975609755" r="5" fill="#4CAF50"/>
+        <circle cx="460.0" cy="61.95121951219511" r="5" fill="#4CAF50"/>
+
+        <!-- X-axis labels -->
+        <text x="80.0" y="245" text-anchor="middle" font-size="12" fill="#333">Mon</text>
+        <text x="175.0" y="245" text-anchor="middle" font-size="12" fill="#333">Tue</text>
+        <text x="270.0" y="245" text-anchor="middle" font-size="12" fill="#333">Wed</text>
+        <text x="365.0" y="245" text-anchor="middle" font-size="12" fill="#333">Thu</text>
+        <text x="460.0" y="245" text-anchor="middle" font-size="12" fill="#333">Fri</text>
+
+        <!-- X-axis label -->
+        <text x="250" y="290" text-anchor="middle" font-size="13" fill="#666">Day</text>
+    </svg>
     </div>
-<div class="choice">
-     B) Thursday
+
+    <div class="item" label="Gr6_44_2_39_step_1">
+    <svg width="500" height="300" viewBox="0 0 500 300">
+        <!-- Title -->
+        <text x="250" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">Artwork sales.</text>
+
+        <!-- Y-axis label -->
+        <text x="15" y="150" text-anchor="middle" font-size="13" fill="#666" transform="rotate(-90, 15, 150)">Artwork sales</text>
+
+        <!-- Grid lines and Y-axis labels -->
+        <text x="70" y="225.0" text-anchor="end" font-size="11" fill="#666">0</text>
+        <line x1="80" y1="220.0" x2="460" y2="220.0" stroke="#ddd" stroke-width="1"/>
+        <text x="70" y="180.0" text-anchor="end" font-size="11" fill="#666">20</text>
+        <line x1="80" y1="175.0" x2="460" y2="175.0" stroke="#ddd" stroke-width="1"/>
+        <text x="70" y="135.0" text-anchor="end" font-size="11" fill="#666">41</text>
+        <line x1="80" y1="130.0" x2="460" y2="130.0" stroke="#ddd" stroke-width="1"/>
+        <text x="70" y="90.0" text-anchor="end" font-size="11" fill="#666">61</text>
+        <line x1="80" y1="85.0" x2="460" y2="85.0" stroke="#ddd" stroke-width="1"/>
+        <text x="70" y="45.0" text-anchor="end" font-size="11" fill="#666">82</text>
+        <line x1="80" y1="40.0" x2="460" y2="40.0" stroke="#ddd" stroke-width="1"/>
+
+        <!-- Axes -->
+        <line x1="80" y1="40" x2="80" y2="220" stroke="#333" stroke-width="2"/>
+        <line x1="80" y1="220" x2="460" y2="220" stroke="#333" stroke-width="2"/>
+
+        <!-- Line -->
+        <polyline points="80.0,81.70731707317074 175.0,127.80487804878048 270.0,173.90243902439025 365.0,140.97560975609755 460.0,61.95121951219511" fill="none" stroke="#4CAF50" stroke-width="3"/>
+
+        <!-- Points -->
+        <circle cx="80.0" cy="81.70731707317074" r="5" fill="#4CAF50"/>
+        <circle cx="175.0" cy="127.80487804878048" r="5" fill="#4CAF50"/>
+        <circle cx="270.0" cy="173.90243902439025" r="5" fill="#4CAF50"/>
+        <circle cx="365.0" cy="140.97560975609755" r="5" fill="#4CAF50"/>
+        <circle cx="460.0" cy="61.95121951219511" r="5" fill="#4CAF50"/>
+
+        <!-- X-axis labels -->
+        <text x="80.0" y="245" text-anchor="middle" font-size="12" fill="#333">Mon</text>
+        <text x="175.0" y="245" text-anchor="middle" font-size="12" fill="#333">Tue</text>
+        <text x="270.0" y="245" text-anchor="middle" font-size="12" fill="#333">Wed</text>
+        <text x="365.0" y="245" text-anchor="middle" font-size="12" fill="#333">Thu</text>
+        <text x="460.0" y="245" text-anchor="middle" font-size="12" fill="#333">Fri</text>
+
+        <!-- X-axis label -->
+        <text x="250" y="290" text-anchor="middle" font-size="13" fill="#666">Day</text>
+    </svg>
     </div>
-<div class="choice">
-     C) Wednesday
-    </div>
-<div class="choice">
-     D) Friday
-    </div>
-</div>
-<div class="visual-element item solution-step" label="Gr6_44_E2_39_step_1" style="display: none;"></div></div>
 </body>
 </html>
