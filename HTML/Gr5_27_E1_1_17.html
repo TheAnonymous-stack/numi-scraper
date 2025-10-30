@@ -3,80 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grade 5 Week 27 Exercise 1 Question 17</title>
+    <title>Number Line: 2/5</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            padding: 20px;
+            margin: 20px;
             background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            min-width: 900px;
         }
         .item {
+            position: relative;
             display: inline-block;
-            margin: 10px;
-            background: white;
-            padding: 5px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            width: 820px;
+            padding: 0 10px;
         }
-        svg {
-            display: block;
+        .line {
+            width: 800px;
+            height: 3px;
+            background-color: #333;
+            position: relative;
+            margin: 80px 0 60px 0;
         }
-        .fraction-model {
-            margin: 10px;
+        .tick {
+            position: absolute;
+            width: 2px;
+            height: 20px;
+            background-color: #333;
+            top: -8px;
         }
-        .number-line {
-            margin: 20px 0;
+        .tick-major {
+            height: 25px;
+            top: -11px;
+            width: 3px;
+            background-color: #000;
         }
-        .area-model {
-            margin: 10px;
+        .tick-label {
+            position: absolute;
+            top: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            text-align: center;
+            width: 60px;
+            margin-left: -30px;
+            color: #333;
         }
-        .shape {
-            margin: 10px;
+        .fraction-point {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background-color: #FF4444;
+            border-radius: 50%;
+            top: -4px;
+            margin-left: -6px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        .fraction-label {
+            position: absolute;
+            top: -45px;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            width: 60px;
+            margin-left: -30px;
+            color: #FF4444;
+            background-color: white;
+            padding: 2px 4px;
+            border-radius: 4px;
+            border: 2px solid #FF4444;
+        }
+        .arrow {
+            position: absolute;
+            top: -8px;
+            width: 0;
+            height: 0;
+        }
+        .arrow-left {
+            left: -10px;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-right: 8px solid #333;
+        }
+        .arrow-right {
+            right: -10px;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 8px solid #333;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #333;
         }
     </style>
 </head>
 <body>
-
-<div class="item number-line" label="Gr5_27_1_17">
-    <svg width="600" height="100" viewBox="0 0 600 100">
-        <!-- Main line -->
-        <line x1="50" y1="50" x2="550" y2="50" stroke="#333" stroke-width="2"/>
-        
-        <!-- Arrow heads -->
-        <polygon points="45,50 55,45 55,55" fill="#333"/>
-        <polygon points="555,50 545,45 545,55" fill="#333"/>
-        
-        <!-- Tick marks -->
-        <g id="ticks">
-            <line x1="50" y1="45" x2="50" y2="55" stroke="#333" stroke-width="1"/><line x1="100" y1="45" x2="100" y2="55" stroke="#333" stroke-width="1"/><line x1="150" y1="45" x2="150" y2="55" stroke="#333" stroke-width="1"/><line x1="200" y1="45" x2="200" y2="55" stroke="#333" stroke-width="1"/><line x1="250" y1="45" x2="250" y2="55" stroke="#333" stroke-width="1"/><line x1="300" y1="45" x2="300" y2="55" stroke="#333" stroke-width="1"/><line x1="350" y1="45" x2="350" y2="55" stroke="#333" stroke-width="1"/><line x1="400" y1="45" x2="400" y2="55" stroke="#333" stroke-width="1"/><line x1="450" y1="45" x2="450" y2="55" stroke="#333" stroke-width="1"/><line x1="500" y1="45" x2="500" y2="55" stroke="#333" stroke-width="1"/><line x1="550" y1="45" x2="550" y2="55" stroke="#333" stroke-width="1"/>
-        </g>
-        
-        <!-- Labels -->
-        <g id="labels">
-            <text x="50" y="70" text-anchor="middle" font-size="12">0</text><text x="100" y="70" text-anchor="middle" font-size="12">1</text><text x="150" y="70" text-anchor="middle" font-size="12">2</text><text x="200" y="70" text-anchor="middle" font-size="12">3</text><text x="250" y="70" text-anchor="middle" font-size="12">4</text><text x="300" y="70" text-anchor="middle" font-size="12">5</text><text x="350" y="70" text-anchor="middle" font-size="12">6</text><text x="400" y="70" text-anchor="middle" font-size="12">7</text><text x="450" y="70" text-anchor="middle" font-size="12">8</text><text x="500" y="70" text-anchor="middle" font-size="12">9</text><text x="550" y="70" text-anchor="middle" font-size="12">10</text>
-        </g>
-    </svg>
-</div>
-<div class="item number-line" label="Gr5_27_1_17_step_1">
-    <svg width="600" height="100" viewBox="0 0 600 100">
-        <!-- Main line -->
-        <line x1="50" y1="50" x2="550" y2="50" stroke="#333" stroke-width="2"/>
-        
-        <!-- Arrow heads -->
-        <polygon points="45,50 55,45 55,55" fill="#333"/>
-        <polygon points="555,50 545,45 545,55" fill="#333"/>
-        
-        <!-- Tick marks -->
-        <g id="ticks">
-            <line x1="50" y1="45" x2="50" y2="55" stroke="#333" stroke-width="1"/><line x1="100" y1="45" x2="100" y2="55" stroke="#333" stroke-width="1"/><line x1="150" y1="45" x2="150" y2="55" stroke="#333" stroke-width="1"/><line x1="200" y1="45" x2="200" y2="55" stroke="#333" stroke-width="1"/><line x1="250" y1="45" x2="250" y2="55" stroke="#333" stroke-width="1"/><line x1="300" y1="45" x2="300" y2="55" stroke="#333" stroke-width="1"/><line x1="350" y1="45" x2="350" y2="55" stroke="#333" stroke-width="1"/><line x1="400" y1="45" x2="400" y2="55" stroke="#333" stroke-width="1"/><line x1="450" y1="45" x2="450" y2="55" stroke="#333" stroke-width="1"/><line x1="500" y1="45" x2="500" y2="55" stroke="#333" stroke-width="1"/><line x1="550" y1="45" x2="550" y2="55" stroke="#333" stroke-width="1"/>
-        </g>
-        
-        <!-- Labels -->
-        <g id="labels">
-            <text x="50" y="70" text-anchor="middle" font-size="12">0</text><text x="100" y="70" text-anchor="middle" font-size="12">1</text><text x="150" y="70" text-anchor="middle" font-size="12">2</text><text x="200" y="70" text-anchor="middle" font-size="12">3</text><text x="250" y="70" text-anchor="middle" font-size="12">4</text><text x="300" y="70" text-anchor="middle" font-size="12">5</text><text x="350" y="70" text-anchor="middle" font-size="12">6</text><text x="400" y="70" text-anchor="middle" font-size="12">7</text><text x="450" y="70" text-anchor="middle" font-size="12">8</text><text x="500" y="70" text-anchor="middle" font-size="12">9</text><text x="550" y="70" text-anchor="middle" font-size="12">10</text>
-        </g>
-    </svg>
-</div>
-
+    <div class="container">
+        <div class="title">Number Line: 2/5</div>
+        <div class="item" label="Gr5_27_1_17">
+            <div class="line">
+                <div class="arrow arrow-left"></div>
+                <div class="arrow arrow-right"></div>        <div class="tick" style="left: 20.0px;"></div>
+        <div class="tick-label" style="left: 20.0px;">0</div>
+        <div class="tick" style="left: 172.0px;"></div>
+        <div class="tick" style="left: 324.0px;"></div>
+        <div class="tick-label" style="left: 324.0px;">2/5</div>
+        <div class="tick" style="left: 476.0px;"></div>
+        <div class="tick" style="left: 628.0px;"></div>
+        <div class="tick" style="left: 780.0px;"></div>
+        <div class="tick-label" style="left: 780.0px;">1</div>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead0" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 20.0 40 Q 96.0 10 172.0 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead0)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead1" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 172.0 40 Q 248.0 10 324.0 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead1)" />
+        </svg>
+        <div class="fraction-point" style="left: 324.0px;"></div>
+        <div class="fraction-label" style="left: 324.0px;">2/5</div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
