@@ -18,7 +18,8 @@ driver = webdriver.Chrome(options=chrome_options)
 
 # Get all HTML files in the HTML directory
 grade = 6
-tag = "Gr6_16_E1"
+# Gr6_45_E4 Gr6_46_E3 Gr6_48_E1 Gr6_50_E1
+tag = "Gr6_50_E1"
 exercise_number = tag.split("E")[-1]
 html_files = glob.glob(f"HTML/{tag}_{exercise_number}_*.html")
 html_files.sort()
