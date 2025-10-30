@@ -1,8 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Gr5_22_E2 Question 2_31</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,67 +13,63 @@
             align-items: center;
             min-height: 100vh;
             margin: 0;
-            background-color: #f0f0f0;
-        }
-        .container {
-            display: flex;
-            gap: 20px;
-            align-items: center;
+            background-color: #f5f5f5;
         }
         .item {
-            background: white;
-            border-radius: 8px;
-            padding: 10px;
-        }
-        .bar {
-            display: flex;
-            width: 350px;
-            height: 50px;
-            border: 2px solid #333;
-        }
-        .section {
-            flex: 1;
-            border-right: 1px solid #666;
             display: flex;
             align-items: center;
-            justify-content: center;
+            gap: 30px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
-        .section:last-child {
-            border-right: none;
+        .fraction-container {
+            text-align: center;
         }
-        .shaded {
-            background-color: #4a90e2;
+        .fraction-label {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
         }
-        .operator {
-            font-size: 36px;
+        .circle-svg {
+            border: 2px solid #333;
+            border-radius: 50%;
+        }
+        .minus-sign {
+            font-size: 48px;
             font-weight: bold;
             color: #333;
         }
     </style>
 </head>
 <body>
-    <div>
-        <div class="item" label="Gr5_22_2_31">
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+    <div class="item" label="Gr5_22_2_31">
+        <div class="fraction-container">
+            <svg width="200" height="200" viewBox="0 0 200 200">
+                <path d="M 100,100 L 180.0,100.0 A 80,80 0 0,0 149.87923156948528,37.45351921940244 Z" fill="#4CAF50" stroke="#333" stroke-width="1"/>
+<path d="M 100,100 L 149.87923156948528,37.45351921940244 A 80,80 0 0,0 82.19844354905848,22.005740032205296 Z" fill="#4CAF50" stroke="#333" stroke-width="1"/>
+<path d="M 100,100 L 82.19844354905848,22.005740032205296 A 80,80 0 0,0 27.922569517670283,65.28913692999082 Z" fill="#4CAF50" stroke="#333" stroke-width="1"/>
+<path d="M 100,100 L 27.922569517670283,65.28913692999082 A 80,80 0 0,0 27.922385301901443,134.71048054165263 Z" fill="#4CAF50" stroke="#333" stroke-width="1"/>
+<path d="M 100,100 L 27.922385301901443,134.71048054165263 A 80,80 0 0,0 82.19802961976482,177.9941654906393 Z" fill="#4CAF50" stroke="#333" stroke-width="1"/>
+<path d="M 100,100 L 82.19802961976482,177.9941654906393 A 80,80 0 0,0 149.8788996233768,162.54674549775632 Z" fill="#E0E0E0" stroke="#333" stroke-width="1"/>
+<path d="M 100,100 L 149.8788996233768,162.54674549775632 A 80,80 0 0,0 179.99999999887336,100.00042457436693 Z" fill="#E0E0E0" stroke="#333" stroke-width="1"/>
+            </svg>
         </div>
-        <div>−</div>
-        <div>
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+        
+        <div class="minus-sign">−</div>
+        
+        <div class="fraction-container">
+            <svg width="200" height="200" viewBox="0 0 200 200">
+                <path d="M 100,100 L 180.0,100.0 A 80,80 0 0,0 149.87923156948528,37.45351921940244 Z" fill="#4CAF50" stroke="#333" stroke-width="1"/>
+<path d="M 100,100 L 149.87923156948528,37.45351921940244 A 80,80 0 0,0 82.19844354905848,22.005740032205296 Z" fill="#E0E0E0" stroke="#333" stroke-width="1"/>
+<path d="M 100,100 L 82.19844354905848,22.005740032205296 A 80,80 0 0,0 27.922569517670283,65.28913692999082 Z" fill="#E0E0E0" stroke="#333" stroke-width="1"/>
+<path d="M 100,100 L 27.922569517670283,65.28913692999082 A 80,80 0 0,0 27.922385301901443,134.71048054165263 Z" fill="#E0E0E0" stroke="#333" stroke-width="1"/>
+<path d="M 100,100 L 27.922385301901443,134.71048054165263 A 80,80 0 0,0 82.19802961976482,177.9941654906393 Z" fill="#E0E0E0" stroke="#333" stroke-width="1"/>
+<path d="M 100,100 L 82.19802961976482,177.9941654906393 A 80,80 0 0,0 149.8788996233768,162.54674549775632 Z" fill="#E0E0E0" stroke="#333" stroke-width="1"/>
+<path d="M 100,100 L 149.8788996233768,162.54674549775632 A 80,80 0 0,0 179.99999999887336,100.00042457436693 Z" fill="#E0E0E0" stroke="#333" stroke-width="1"/>
+            </svg>
         </div>
-        <div>=</div>
-        <div>?</div>
     </div>
 </body>
 </html>
