@@ -1,7 +1,7 @@
 {
   "quizzes": [
     {
-      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c + 5$. Is Gordon's table correct?=_",
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c + 5$. Is Gordon's table correct?",
       "skills": "identify-mistakes-in-number-patterns",
       "image_tag": "Gr6_36_1_1",
       "backend_description": "This image shows a table with two rows with first row labeled 'Input (c)' and contains the numbers 3, 7, 11, 14. The second row is labeled 'Output (d)' and contains the numbers 13, 17, 18, 24, in the same order.",
@@ -34,24 +34,7 @@
           "Gordon made a calculation error. When the input is 2, the output should be 7 because $2 + 5 = 7$, not 4. Therefore, Gordon's table is incorrect."
         ]
       ],
-      "solution_image_tag": [
-        [
-          "1/4",
-          "Gr6_36_1_1_step_1",
-          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 3, 7, 11, 14. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
-        ],
-        [
-          "2/4",
-          "Gr6_36_1_1_step_2",
-          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 3, 7, 11, 14. The bottom row is labeled 'Output (d)' and shows the values 13, 17, 21, 24, in the same order, and are bolded."
-        ],
-        [
-          "3/4",
-          "Gr6_36_1_1_step_3",
-          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 3, 7, 11, 14. The bottom row is labeled 'Output (d)' and shows the values 13, 17, 18, 24, in the same order, and the number 18 is highlighted in red."
-        ]
-      ],
-      "has_alternate_answers": false
+      "solution_image_tag": []
     },
     {
       "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c \\cdot 8$. Is Gordon's table correct?=_",
