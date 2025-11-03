@@ -33,48 +33,56 @@
             <div class="chart-title">Books borrowed</div>
             <svg width="450" height="320" xmlns="http://www.w3.org/2000/svg">
                 <!-- Background -->
-                <rect x="50" y="30" width="380" height="250" fill="white" stroke="#ddd" stroke-width="1"/>
-                
+                <rect x="60" y="30" width="370" height="250" fill="white" stroke="#ddd" stroke-width="1"/>
+
                 <!-- Grid lines -->
                 <g stroke="#e0e0e0" stroke-width="0.5">
-                    <line x1="50" y1="30.0" x2="430" y2="30.0"/>
-                    <line x1="50" y1="80.0" x2="430" y2="80.0"/>
-                    <line x1="50" y1="130.0" x2="430" y2="130.0"/>
-                    <line x1="50" y1="180.0" x2="430" y2="180.0"/>
-                    <line x1="50" y1="230.0" x2="430" y2="230.0"/>
-                    <line x1="50" y1="280.0" x2="430" y2="280.0"/>
+                    <line x1="60" y1="280.0" x2="430" y2="280.0"/>
+                    <line x1="60" y1="230.0" x2="430" y2="230.0"/>
+                    <line x1="60" y1="180.0" x2="430" y2="180.0"/>
+                    <line x1="60" y1="130.0" x2="430" y2="130.0"/>
+                    <line x1="60" y1="80.0" x2="430" y2="80.0"/>
+                    <line x1="60" y1="30.0" x2="430" y2="30.0"/>
                 </g>
-                
+
                 <!-- Axes -->
-                <line x1="50" y1="30" x2="50" y2="280" stroke="#333" stroke-width="2"/>
-                <line x1="50" y1="280" x2="430" y2="280" stroke="#333" stroke-width="2"/>
-                
+                <line x1="60" y1="30" x2="60" y2="280" stroke="#333" stroke-width="2"/>
+                <line x1="60" y1="280" x2="430" y2="280" stroke="#333" stroke-width="2"/>
+
                 <!-- Y-axis labels -->
-                <text x="40" y="283.0" text-anchor="end" font-size="11">0</text>
-                <text x="40" y="233.0" text-anchor="end" font-size="11">121</text>
-                <text x="40" y="183.0" text-anchor="end" font-size="11">242</text>
-                <text x="40" y="133.0" text-anchor="end" font-size="11">363</text>
-                <text x="40" y="83.0" text-anchor="end" font-size="11">484</text>
-                <text x="40" y="33.0" text-anchor="end" font-size="11">606</text>
+                <text x="50" y="283.0" text-anchor="end" font-size="11">0</text>
+                <text x="50" y="233.0" text-anchor="end" font-size="11">121</text>
+                <text x="50" y="183.0" text-anchor="end" font-size="11">242</text>
+                <text x="50" y="133.0" text-anchor="end" font-size="11">363</text>
+                <text x="50" y="83.0" text-anchor="end" font-size="11">484</text>
+                <text x="50" y="33.0" text-anchor="end" font-size="11">606</text>
 
                 <!-- X-axis labels -->
-                <text x="145.0" y="300" text-anchor="middle" font-size="11">Downtown Library</text>
-                <text x="240.0" y="300" text-anchor="middle" font-size="11">South Branch</text>
-                <text x="335.0" y="300" text-anchor="middle" font-size="11">North Branch</text>
+                <text x="121.66666666666666" y="300" text-anchor="middle" font-size="11">Downtown Library</text>
+                <text x="245.0" y="300" text-anchor="middle" font-size="11">South Branch</text>
+                <text x="368.3333333333333" y="300" text-anchor="middle" font-size="11">North Branch</text>
 
                 <!-- Bars -->
-                <rect x="108.33333333333333" y="197.9042904290429" width="31.666666666666668" height="82.0957095709571" fill="#FF8C00" opacity="0.8"/>
-                <rect x="150.0" y="152.1122112211221" width="31.666666666666668" height="127.88778877887789" fill="#4169E1" opacity="0.8"/>
-                <rect x="203.33333333333334" y="75.37953795379539" width="31.666666666666668" height="204.6204620462046" fill="#FF8C00" opacity="0.8"/>
-                <rect x="245.0" y="34.12541254125412" width="31.666666666666668" height="245.87458745874588" fill="#4169E1" opacity="0.8"/>
-                <rect x="298.3333333333333" y="175.62706270627064" width="31.666666666666668" height="104.37293729372938" fill="#FF8C00" opacity="0.8"/>
-                <rect x="340.0" y="98.48184818481849" width="31.666666666666668" height="181.5181518151815" fill="#4169E1" opacity="0.8"/>
+                <rect x="80.55555555555554" y="197.90429042904293" width="41.11111111111111" height="82.09570957095708" fill="#FF8C00" opacity="0.8"/>
+                <rect x="121.66666666666666" y="152.11221122112212" width="41.11111111111111" height="127.88778877887788" fill="#4169E1" opacity="0.8"/>
+                <rect x="203.88888888888889" y="75.37953795379536" width="41.11111111111111" height="204.62046204620464" fill="#FF8C00" opacity="0.8"/>
+                <rect x="245.0" y="34.12541254125412" width="41.11111111111111" height="245.87458745874588" fill="#4169E1" opacity="0.8"/>
+                <rect x="327.22222222222223" y="175.62706270627064" width="41.11111111111111" height="104.37293729372938" fill="#FF8C00" opacity="0.8"/>
+                <rect x="368.3333333333333" y="98.48184818481849" width="41.11111111111111" height="181.5181518151815" fill="#4169E1" opacity="0.8"/>
+
+                <!-- Value labels above bars -->
+                <text x="101.1111111111111" y="192.90429042904293" text-anchor="middle" font-size="10" font-weight="bold">199</text>
+                <text x="142.2222222222222" y="147.11221122112212" text-anchor="middle" font-size="10" font-weight="bold">310</text>
+                <text x="224.44444444444443" y="70.37953795379536" text-anchor="middle" font-size="10" font-weight="bold">496</text>
+                <text x="265.55555555555554" y="29.12541254125412" text-anchor="middle" font-size="10" font-weight="bold">596</text>
+                <text x="347.77777777777777" y="170.62706270627064" text-anchor="middle" font-size="10" font-weight="bold">253</text>
+                <text x="388.88888888888886" y="93.48184818481849" text-anchor="middle" font-size="10" font-weight="bold">440</text>
 
                 <!-- Legend -->
-                <rect x="60" y="10" width="15" height="10" fill="#FF8C00" opacity="0.8"/>
-                <text x="80" y="19" font-size="11">January</text>
-                <rect x="150" y="10" width="15" height="10" fill="#4169E1" opacity="0.8"/>
-                <text x="170" y="19" font-size="11">June</text>
+                <rect x="70" y="10" width="15" height="10" fill="#FF8C00" opacity="0.8"/>
+                <text x="90" y="19" font-size="11">January</text>
+                <rect x="180" y="10" width="15" height="10" fill="#4169E1" opacity="0.8"/>
+                <text x="200" y="19" font-size="11">June</text>
             </svg>
         </div>
     </div>
