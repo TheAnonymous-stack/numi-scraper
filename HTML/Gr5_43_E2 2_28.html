@@ -5,85 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gr5_43_E2 2_28</title>
     <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
         .item {
             display: inline-block;
             margin: 10px;
-            padding: 0;
-            width: fit-content;
-            height: fit-content;
         }
-        
-        .triangle-container {
-            position: relative;
-            width: 190px;
-            height: 190px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .triangle {
-            width: 0;
-            height: 0;
-            border-style: solid;
-            position: relative;
-        }
-        
-        .triangle-equilateral {
-            border-left: 75px solid transparent;
-            border-right: 75px solid transparent;
-            border-bottom: 129px solid #FF0000;
-        }
-        
-        .side-label {
-            position: absolute;
-            font-size: 12px;
-            font-weight: bold;
-            background: white;
-            padding: 2px 4px;
-            border-radius: 3px;
-        }
-        
-        .label-left {
-            top: 50%;
-            left: -105px;
-            transform: translateY(-50%);
-        }
-        
-        .label-right {
-            top: 50%;
-            right: -105px;
-            transform: translateY(-50%);
-        }
-        
-        .label-bottom {
-            bottom: -25px;
-            left: 50%;
-            transform: translateX(-50%);
+        svg {
+            display: block;
         }
     </style>
 </head>
 <body>
-    <!-- Question image -->
+    <!-- Question Image: Gr5_43_2_28 -->
     <div class="item" label="Gr5_43_2_28">
-        <div class="triangle-container">
-            <div class="triangle triangle-equilateral">
-                <span class="side-label label-left">10</span>
-                <span class="side-label label-right">10</span>
-                <span class="side-label label-bottom">10</span>
-            </div>
-        </div>
+        <svg width="200" height="180" xmlns="http://www.w3.org/2000/svg">
+            <!-- Triangle -->
+            <polygon points="100,30 30,140 170,140" fill="#FF0000" stroke="black" stroke-width="2"/>
+            <!-- Side length labels -->
+            <text x="45" y="90" font-size="14" font-weight="bold">15</text>
+            <text x="155" y="90" font-size="14" font-weight="bold">15</text>
+            <text x="100" y="165" font-size="14" font-weight="bold">15</text>
+            <!-- Tick marks for equal sides -->
+            <line x1="62" y1="77" x2="68" y2="83" stroke="black" stroke-width="2"/>
+            <line x1="132" y1="77" x2="138" y2="83" stroke="black" stroke-width="2"/>
+            <line x1="97" y1="140" x2="103" y2="140" stroke="black" stroke-width="2"/>
+        </svg>
     </div>
-    
-    <!-- Solution image -->
+
+    <!-- Solution Image: Gr5_43_2_28_step_1 -->
     <div class="item" label="Gr5_43_2_28_step_1">
-        <div class="triangle-container">
-            <div class="triangle triangle-equilateral">
-                <span class="side-label label-left">10</span>
-                <span class="side-label label-right">10</span>
-                <span class="side-label label-bottom">10</span>
-            </div>
-        </div>
+        <svg width="200" height="180" xmlns="http://www.w3.org/2000/svg">
+            <!-- Triangle -->
+            <polygon points="100,30 30,140 170,140" fill="#FF0000" stroke="black" stroke-width="2"/>
+            <!-- Side length labels emphasized -->
+            <text x="45" y="90" font-size="14" font-weight="bold" fill="red">15</text>
+            <text x="155" y="90" font-size="14" font-weight="bold" fill="red">15</text>
+            <text x="100" y="165" font-size="14" font-weight="bold" fill="red">15</text>
+            <!-- Tick marks for equal sides emphasized -->
+            <line x1="62" y1="77" x2="68" y2="83" stroke="red" stroke-width="3"/>
+            <line x1="132" y1="77" x2="138" y2="83" stroke="red" stroke-width="3"/>
+            <line x1="97" y1="140" x2="103" y2="140" stroke="red" stroke-width="3"/>
+        </svg>
     </div>
 </body>
 </html>
