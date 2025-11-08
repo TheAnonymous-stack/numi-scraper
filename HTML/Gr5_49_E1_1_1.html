@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallelogram and Rectangles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        
+        .main-container {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+        
+        .shape-container {
+            position: relative;
+            width: 280px;
+            height: 200px;
+            display: inline-block;
+            margin: 10px;
+        }
+        
+        /* Parallelogram styles */
+        .parallelogram {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            width: 200px;
+            height: 120px;
+            background-color: #4CAF50;
+            opacity: 0.7;
+            transform: skew(-20deg);
+            border: 2px solid #2E7D32;
+        }
+        
+        /* Rectangle styles */
+        .rectangle {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            width: 200px;
+            height: 120px;
+            background-color: #4CAF50;
+            opacity: 0.7;
+            border: 2px solid #4CAF50;
+        }
+        
+        .rectangle.alt {
+            background-color: #4CAF50;
+            border-color: #4CAF50;
+        }
+        
+        .dimension-label {
+            position: absolute;
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+            background-color: white;
+            padding: 2px 6px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+        }
+        
+        /* Parallelogram labels */
+        .para-base-label {
+            bottom: 10px;
+            left: 90px;
+        }
+        .para-height-label {
+            top: 70px;
+            left: 180px;
+        }
+        .para-side-label {
+            top: 70px;
+            left: 60px;
+        }
+        
+        /* Rectangle labels */
+        .rect-base-label {
+            bottom: 10px;
+            left: 90px;
+        }
+        .rect-height-label {
+            top: 80px;
+            left: 5px;
+        }
+        .area-label {
+            top: 5px;
+            left: 130px;
+            transform: translateX(-50%);
+            background-color: #FFE082;
+            border-color: #FFA000;
+        }
+        
+        /* Lines */
+        .base-line {
+            position: absolute;
+            bottom: 40px;
+            left: 10px;
+            width: 200px;
+            height: 2px;
+            background-color: #333;
+            border-top: 2px dashed #333;
+            background-color: transparent;
+        }
+
+        .rect-base-line {
+            position: absolute;
+            bottom: 40px;
+            left: 30px;
+            width: 200px;
+            height: 2px;
+            background-color: #333;
+            border-top: 2px dashed #333;
+            background-color: transparent;
+        }
+        
+        .height-line {
+            position: absolute;
+            top: 30px;
+            left: 15px;
+            width: 2px;
+            height: 120px;
+            background-color: #333;
+            border-left: 2px dashed #333;
+            background-color: transparent;
+        }
+        
+        .para-height-line {
+            position: absolute;
+            top: 30px;
+            left: 210px;
+            width: 2px;
+            height: 120px;
+            background-color: #333;
+            border-left: 2px dashed #333;
+            background-color: transparent;
+        }
+        
+        .side-line {
+            position: absolute;
+            top: 150px;
+            left: 20px;
+            width: 128px;
+            height: 2px;
+            background-color: #333;
+            border-top: 2px dashed #333;
+            background-color: transparent;
+            transform: rotate(-70deg);
+            transform-origin: left center;
+        }
+        
+        .shape-title {
+            position: absolute;
+            top: 170px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    
+        <div class="main-container">
+            
+            <!-- Parallelogram -->
+            <div class="item" label="Gr5_49_1_1">
+            <div class="shape-container">
+            
+                <div class="parallelogram"></div>
+                
+                <!-- Base dimension -->
+                <div class="base-line"></div>
+                <div class="dimension-label para-base-label">7</div>
+                
+                <!-- Height dimension -->
+                <div class="para-height-line"></div>
+                <div class="dimension-label para-height-label">8</div>
+                
+                <!-- Side dimension -->
+                <div class="side-line"></div>
+                <div class="dimension-label para-side-label">9</div>
+                
+            </div>
+            </div>
+            
+            <!-- Rectangle 1 (Correct) -->
+            <div class="item" label="Gr5_49_1_1_A">
+            <div class="shape-container">
+                <div class="rectangle"></div>
+                
+                <!-- Base dimension -->
+                <div class="rect-base-line"></div>
+                <div class="dimension-label rect-base-label">7</div>
+                
+                <!-- Height dimension -->
+                <div class="height-line"></div>
+                <div class="dimension-label rect-height-label">8</div>
+                
+            </div>
+            </div>
+            
+            <!-- Rectangle 2 (Incorrect) -->
+            <div class="item" label="Gr5_49_1_1_B">
+            <div class="shape-container">
+                <div class="rectangle alt"></div>
+                
+                <!-- Base dimension -->
+                <div class="rect-base-line"></div>
+                <div class="dimension-label rect-base-label">7</div>
+                
+                <!-- Height dimension -->
+                <div class="height-line"></div>
+                <div class="dimension-label rect-height-label">9</div>
+                
+                
+            </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
