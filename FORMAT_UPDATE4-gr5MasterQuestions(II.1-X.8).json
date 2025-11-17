@@ -129,8 +129,12 @@
     "tag": "Gr5_47_E2",
     "has_alternate_answers": true,
     "correct_answers": [
-      ["7000"],
-      ["7,000"]
+      [
+        "7000"
+      ],
+      [
+        "7,000"
+      ]
     ],
     "solution": [
       [
@@ -234,9 +238,9 @@
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr5_48_E2",
     "choices": [
-      "180°",
-      "270°",
-      "90°"
+      "180\u00b0",
+      "270\u00b0",
+      "90\u00b0"
     ],
     "correct_answers": [
       "A"
@@ -244,7 +248,7 @@
     "solution": [
       [
         "1/1",
-        "This is a straight angle. It measures 180°."
+        "This is a straight angle. It measures 180\u00b0."
       ]
     ],
     "solution_image_tag": [],
@@ -252,7 +256,7 @@
     "backend_description": "A straight angle formed by two brown rays pointing in opposite directions, creating a straight line that measures 180 degrees."
   },
   {
-    "question_text": "What is the measurement of this angle?\n\n _°",
+    "question_text": "What is the measurement of this angle?\n\n _\u00b0",
     "skills": "measure-angles-with-a-protractor",
     "image_tag": "Gr5_48_3_1",
     "question_type": "Fill in the blank",
@@ -263,11 +267,11 @@
     "solution": [
       [
         "1/2",
-        "Find where both of the rays are pointing on the protractor. One ray is at 0°, and the other ray is at 165°."
+        "Find where both of the rays are pointing on the protractor. One ray is at 0\u00b0, and the other ray is at 165\u00b0."
       ],
       [
         "2/2",
-        "The difference between these numbers is the angle measure. This angle is 165°."
+        "The difference between these numbers is the angle measure. This angle is 165\u00b0."
       ]
     ],
     "solution_image_tag": [],
@@ -372,7 +376,7 @@
     "backend_description": "A light purple right triangle with base 7 mm and height 14 mm. The right angle is marked with a small square in the corner."
   },
   {
-    "question_text": "The rectangles below have the same area.\n\n\n\nIf the perimeter of the orange rectangle is 16 metres, what are its dimensions?\n\n\n​ _ metres by _ metres",
+    "question_text": "The rectangles below have the same area.\n\n\n\nIf the perimeter of the orange rectangle is 16 metres, what are its dimensions?\n\n\n\u200b _ metres by _ metres",
     "skills": "rectangles-relationship-between-perimeter-and-area",
     "image_tag": "Gr5_49_5_1",
     "question_type": "Multiple fill in the blank",
@@ -404,12 +408,12 @@
       [
         "2/4",
         "Gr5_49_5_1_step_2",
-        "A table showing dimensions and areas: Row 1: Dimensions '1 by 12', Area '1 × 12 = 12'; Row 2: Dimensions '2 by 6', Area '2 × 6 = 12'; Row 3: Dimensions '3 by 4', Area '3 × 4 = 12'"
+        "A table showing dimensions and areas: Row 1: Dimensions '1 by 12', Area '1 \u00d7 12 = 12'; Row 2: Dimensions '2 by 6', Area '2 \u00d7 6 = 12'; Row 3: Dimensions '3 by 4', Area '3 \u00d7 4 = 12'"
       ],
       [
         "3/4",
         "Gr5_49_5_1_step_3",
-        "A table showing dimensions, area, and perimeter calculations: Row 1: Dimensions '1 by 12', Area '1 × 12 = 12', Perimeter '1 + 12 + 1 + 12 = 26'; Row 2: Dimensions '2 by 6', Area '2 × 6 = 12', Perimeter '2 + 6 + 2 + 6 = 16'; Row 3: Dimensions '3 by 4', Area '3 × 4 = 12', Perimeter '3 + 4 + 3 + 4 = 14'"
+        "A table showing dimensions, area, and perimeter calculations: Row 1: Dimensions '1 by 12', Area '1 \u00d7 12 = 12', Perimeter '1 + 12 + 1 + 12 = 26'; Row 2: Dimensions '2 by 6', Area '2 \u00d7 6 = 12', Perimeter '2 + 6 + 2 + 6 = 16'; Row 3: Dimensions '3 by 4', Area '3 \u00d7 4 = 12', Perimeter '3 + 4 + 3 + 4 = 14'"
       ]
     ],
     "backend_description": "Two rectangles side by side. On the left is a green rectangle with dimensions 4 m by 3 m. On the right is an orange rectangle with unknown dimensions.",
@@ -452,8 +456,12 @@
     "tag": "Gr5_50_E2",
     "has_alternate_answers": true,
     "correct_answers": [
-      ["76.50"],
-      ["76.5"]
+      [
+        "76.50"
+      ],
+      [
+        "76.5"
+      ]
     ],
     "solution": [
       [
@@ -476,9 +484,15 @@
     "tag": "Gr5_20_E3",
     "has_alternate_answers": true,
     "correct_answers": [
-      ["18"],
-      ["18.0"],
-      ["18.00"]
+      [
+        "18"
+      ],
+      [
+        "18.0"
+      ],
+      [
+        "18.00"
+      ]
     ],
     "solution": [
       [
@@ -508,9 +522,15 @@
     "tag": "Gr5_20_E3",
     "has_alternate_answers": true,
     "correct_answers": [
-      ["5"],
-      ["5.0"],
-      ["5.00"]
+      [
+        "5"
+      ],
+      [
+        "5.0"
+      ],
+      [
+        "5.00"
+      ]
     ],
     "solution": [
       [
@@ -576,7 +596,7 @@
     "question_number": "3_2"
   },
   {
-    "question_text": "This table shows Sanjay's March budget. How much money does he need to earn at the gas station to balance his budget? Complete the table.\n _ \n _ \n _",
+    "question_text": "This table shows Sanjay's March budget. How much money does he need to earn at the gas station to balance his budget? Complete the table.\n _ \n _ \n ",
     "skills": "balance-a-budget",
     "image_tag": "Gr5_51_1_1",
     "question_type": "Multiple fill in the blank",
@@ -758,7 +778,7 @@
     "question_number": "3_1"
   },
   {
-    "question_text": "Felix keeps this financial record:\n\nOn June 21, Felix cleaned the stables at the Hills' farm and received 30.00 dollars. Complete that row in the record.\n _ \n _",
+    "question_text": "Felix keeps this financial record:\n\nOn June 21, Felix cleaned the stables at the Hills' farm and received 30.00 dollars. Complete that row in the record.\n _ \n ",
     "skills": "keeping-financial-records",
     "image_tag": "Gr5_51_4_1",
     "question_type": "Multiple fill in the blank",
@@ -801,7 +821,7 @@
       ],
       [
         "2/2",
-        "Divide:\n\n\n18 ÷ 3 = 6\n\n6 seats per row."
+        "Divide:\n\n\n18 \u00f7 3 = 6\n\n6 seats per row."
       ]
     ],
     "solution_image_tag": [],

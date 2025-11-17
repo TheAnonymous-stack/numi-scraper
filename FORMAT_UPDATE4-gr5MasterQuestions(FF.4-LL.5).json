@@ -219,7 +219,7 @@
       ],
       [
         "3/9",
-        "4÷2=2\nJulia used 2 rainbow stickers."
+        "4\u00f72=2\nJulia used 2 rainbow stickers."
       ],
       [
         "4/9",
@@ -231,7 +231,7 @@
       ],
       [
         "6/9",
-        "3×3=9\nJulia used 9 unicorn stickers."
+        "3\u00d73=9\nJulia used 9 unicorn stickers."
       ],
       [
         "7/9",
@@ -728,7 +728,7 @@
     "question_text": "What kind of triangle is this?",
     "skills": "classify-triangles",
     "image_tag": "Gr5_43_3_2",
-    "backend_description": "The image shows a purple-shaded triangle with three labeled interior angles. The top angle is labeled 46°, the bottom-left angle is labeled 77°, and the bottom-right angle is labeled 57°. The triangle is outlined in black.",
+    "backend_description": "The image shows a purple-shaded triangle with three labeled interior angles. The top angle is labeled 46\u00b0, the bottom-left angle is labeled 77\u00b0, and the bottom-right angle is labeled 57\u00b0. The triangle is outlined in black.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "3_2",
     "tag": "Gr5_43_E3",
@@ -743,7 +743,7 @@
     "solution": [
       [
         "1/1",
-        "This triangle is an acute triangle. All 3 angles are less than 90°."
+        "This triangle is an acute triangle. All 3 angles are less than 90\u00b0."
       ]
     ],
     "solution_image_tag": []
@@ -838,7 +838,7 @@
     ]
   },
   {
-    "question_text": "What is the x-coordinate of point R?\nx-coordinate: _",
+    "question_text": "What is the x-coordinate of point R?\nx-coordinate: ",
     "skills": "objects-on-a-coordinate-plane",
     "image_tag": "Gr5_44_3_1",
     "backend_description": "A coordinate plane with a white background and gray grid lines marked from 0 to 10 on both x and y axes. Point R is plotted as a blue dot at coordinates (5, 7), clearly visible against the grid background. Point S is plotted as a green dot at coordinates (9, 1). The contrasting colors (blue for R, green for S) help students distinguish between different points, while the clear grid lines facilitate accurate coordinate reading and reinforce the coordinate system concept.",
@@ -960,7 +960,7 @@
       "Gr5_45_1_1_C"
     ],
     "image_choice_tags_backend_description": [
-      "The same L-shaped figure rotated 90° counterclockwise from the original position, filled with light green color and outlined in black. The rotated orientation demonstrates what the shape looks like after a rotation transformation.",
+      "The same L-shaped figure rotated 90\u00b0 counterclockwise from the original position, filled with light green color and outlined in black. The rotated orientation demonstrates what the shape looks like after a rotation transformation.",
       "The same L-shaped figure reflected across a vertical line, creating a mirror image, filled with light green color and outlined in black. The reflected orientation shows what the shape looks like after a reflection transformation.",
       "The same L-shaped figure moved to a different position without rotation or reflection, filled with light green color and outlined in black. The translated position demonstrates what the shape looks like after a translation (sliding) transformation."
     ],
@@ -974,7 +974,7 @@
       ],
       [
         "2/5",
-        "Image A shows a rotation. Rotate the shape 90° counterclockwise."
+        "Image A shows a rotation. Rotate the shape 90\u00b0 counterclockwise."
       ],
       [
         "3/5",
@@ -998,7 +998,7 @@
       [
         "2/5",
         "Gr5_45_1_1_step_2",
-        "Shows the L-shaped figure after a 90° counterclockwise rotation, with curved arrows or rotation indicators demonstrating the rotational movement. This helps students visualize what a rotation transformation looks like."
+        "Shows the L-shaped figure after a 90\u00b0 counterclockwise rotation, with curved arrows or rotation indicators demonstrating the rotational movement. This helps students visualize what a rotation transformation looks like."
       ],
       [
         "3/5",
@@ -1036,7 +1036,7 @@
       ],
       [
         "2/3",
-        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90° clockwise."
+        "Use a rotation to turn Shape 2 into Shape 3. This image shows a rotation. Rotate the shape 90\u00b0 clockwise."
       ],
       [
         "3/3",
@@ -1052,15 +1052,15 @@
       [
         "2/3",
         "Gr5_45_2_1_step_2",
-        "Shows the transformation from Shape 2 to Shape 3 with curved arrows indicating a 90° clockwise rotation around a center point. This demonstrates the second transformation in the sequence, completing the combination."
+        "Shows the transformation from Shape 2 to Shape 3 with curved arrows indicating a 90\u00b0 clockwise rotation around a center point. This demonstrates the second transformation in the sequence, completing the combination."
       ]
     ]
   },
   {
-    "question_text": "Start with this triangle:\nRotate the triangle 180° around the point (4,3). Which is the resulting triangle?",
+    "question_text": "Start with this triangle:\nRotate the triangle 180\u00b0 around the point (4,3). Which is the resulting triangle?",
     "skills": "transformations-on-the-coordinate-plane",
     "image_tag": "Gr5_45_3_1",
-    "backend_description": "A coordinate plane with a white background and gray grid lines, showing a triangle positioned in the upper portion of the grid. The point (4,3) is marked as a distinct dot (likely in red or another contrasting color) to indicate the center of rotation. The triangle serves as the original shape that will be rotated 180° around the marked point. The clear grid lines and marked rotation center help students understand the rotation concept and visualize how shapes move around a fixed point.",
+    "backend_description": "A coordinate plane with a white background and gray grid lines, showing a triangle positioned in the upper portion of the grid. The point (4,3) is marked as a distinct dot (likely in red or another contrasting color) to indicate the center of rotation. The triangle serves as the original shape that will be rotated 180\u00b0 around the marked point. The clear grid lines and marked rotation center help students understand the rotation concept and visualize how shapes move around a fixed point.",
     "question_type": "Multiple Choice Question with Single Answer",
     "question_number": "3_1",
     "tag": "Gr5_45_E3",
@@ -1070,9 +1070,9 @@
       "Gr5_45_3_1_C"
     ],
     "image_choice_tags_backend_description": [
-      "A coordinate plane showing a triangle positioned after rotation, but not correctly positioned for a 180° rotation around point (4,3). This incorrect option helps students practice identifying proper rotational relationships.",
-      "A coordinate plane showing a triangle positioned after rotation, but not correctly positioned for a 180° rotation around point (4,3). This incorrect option provides another comparison for students to evaluate.",
-      "A coordinate plane showing the triangle correctly positioned after a 180° rotation around point (4,3), likely in the lower portion of the grid in the opposite orientation. This correct option demonstrates the proper result of the specified rotation."
+      "A coordinate plane showing a triangle positioned after rotation, but not correctly positioned for a 180\u00b0 rotation around point (4,3). This incorrect option helps students practice identifying proper rotational relationships.",
+      "A coordinate plane showing a triangle positioned after rotation, but not correctly positioned for a 180\u00b0 rotation around point (4,3). This incorrect option provides another comparison for students to evaluate.",
+      "A coordinate plane showing the triangle correctly positioned after a 180\u00b0 rotation around point (4,3), likely in the lower portion of the grid in the opposite orientation. This correct option demonstrates the proper result of the specified rotation."
     ],
     "correct_answers": [
       "C"
@@ -1080,7 +1080,7 @@
     "solution": [
       [
         "1/4",
-        "Start with this triangle:\nRotate the triangle 180° around the point (4,3)."
+        "Start with this triangle:\nRotate the triangle 180\u00b0 around the point (4,3)."
       ],
       [
         "2/4",
@@ -1109,12 +1109,12 @@
       [
         "3/4",
         "Gr5_45_3_1_step_3",
-        "Shows another incorrect rotation result for comparison, providing additional examples of what doesn't constitute a correct 180° rotation around the specified point."
+        "Shows another incorrect rotation result for comparison, providing additional examples of what doesn't constitute a correct 180\u00b0 rotation around the specified point."
       ],
       [
         "4/4",
         "Gr5_45_3_1_step_4",
-        "Shows the correct result of rotating the triangle 180° around point (4,3), with the triangle properly positioned and oriented. Visual indicators like rotation arrows or lines connecting corresponding points may help demonstrate the correct rotational relationship."
+        "Shows the correct result of rotating the triangle 180\u00b0 around point (4,3), with the triangle properly positioned and oriented. Visual indicators like rotation arrows or lines connecting corresponding points may help demonstrate the correct rotational relationship."
       ]
     ]
   }

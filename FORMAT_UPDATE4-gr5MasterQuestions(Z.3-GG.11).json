@@ -383,7 +383,7 @@
     "question_number": "1_1"
   },
   {
-    "question_text": "Complete the pattern:\n\n\n5 - 3 = _\n50 - 30 = _\n500 - 300 = _\n5000 - 3000 = _",
+    "question_text": "Complete the pattern:\n\n\n5 - 3 = _\n50 - 30 = _\n500 - 300 = _\n5000 - 3000 = ",
     "skills": "subtraction-patterns-over-increasing-place-values",
     "question_type": "Fill in the blank",
     "tag": "Gr5_32_E2",
@@ -428,7 +428,7 @@
     "question_number": "3_1"
   },
   {
-    "question_text": "Complete the pattern:\n\n\n_ ÷ 4 = 8\n_ ÷ 40000 = 8\n_ ÷ 400000 = 8",
+    "question_text": "Complete the pattern:\n\n\n_ \u00f7 4 = 8\n_ \u00f7 40000 = 8\n_ \u00f7 400000 = 8",
     "skills": "division-patterns-over-increasing-place-values",
     "question_type": "Multiple Fill in the blank",
     "tag": "Gr5_32_E4",
@@ -441,14 +441,14 @@
     "solution": [
       [
         "1/1",
-        "Find the first missing number:\n\n\n32 ones ÷ 4 ones = 8\n32 ÷ 4 = 8\n\n\nNow complete the pattern:\n\n\n32 ten thousands ÷ 4 ten thousands = 8\n320000 ÷ 40000 = 8\n\n32 hundred thousands ÷ 4 hundred thousands = 8\n3200000 ÷ 400000 = 8\n\n."
+        "Find the first missing number:\n\n\n32 ones \u00f7 4 ones = 8\n32 \u00f7 4 = 8\n\n\nNow complete the pattern:\n\n\n32 ten thousands \u00f7 4 ten thousands = 8\n320000 \u00f7 40000 = 8\n\n32 hundred thousands \u00f7 4 hundred thousands = 8\n3200000 \u00f7 400000 = 8\n\n."
       ]
     ],
     "solution_image_tag": [],
     "question_number": "4_1"
   },
   {
-    "question_text": "Complete the pattern:\n\n\n_ ÷ 1000 = 1.8165\n_ ÷ 1000 = 18.165\n_ ÷ 1000 = 181.65\n_ ÷ 1000 = 1816.5",
+    "question_text": "Complete the pattern:\n\n\n_ \u00f7 1000 = 1.8165\n_ \u00f7 1000 = 18.165\n_ \u00f7 1000 = 181.65\n_ \u00f7 1000 = 1816.5",
     "skills": "decimal-division-patterns-over-increasing-place-values",
     "question_type": "Multiple Fill in the blank",
     "tag": "Gr5_32_E5",
@@ -466,21 +466,21 @@
       ],
       [
         "2/3",
-        "1816.5→1.8165\n\n\n1816.5 ÷ 1000 = 1.8165\n\n\nNow find the other missing numbers. When you divide by 1000, the decimal point moves 3 places to the left."
+        "1816.5\u21921.8165\n\n\n1816.5 \u00f7 1000 = 1.8165\n\n\nNow find the other missing numbers. When you divide by 1000, the decimal point moves 3 places to the left."
       ],
       [
         "3/3",
-        "18165 ÷ 1000 = 18.165\n\n181650 ÷ 1000 = 181.65\n\n1816500 ÷ 1000 = 1816.5."
+        "18165 \u00f7 1000 = 18.165\n\n181650 \u00f7 1000 = 181.65\n\n1816500 \u00f7 1000 = 1816.5."
       ]
     ],
     "solution_image_tag": [],
     "question_number": "5_1"
   },
   {
-    "question_text": "Gina tried to find the missing number in this input/output table.\nRule: The output is n÷2.\n\nGina says the missing number is 6. Is Gina correct?",
+    "question_text": "Gina tried to find the missing number in this input/output table.\nRule: The output is n\u00f72.\n\nGina says the missing number is 6. Is Gina correct?",
     "skills": "identify-mistakes-in-number-patterns",
     "image_tag": "Gr5_31_5_1",
-    "backend_description": "A green input/output table with white text showing Input (n) values 2, 4, 6, 8 and corresponding Output (p) values 1, 2, 3, with a question mark for the missing output value when input is 8. The rule states 'The output is n÷2'.",
+    "backend_description": "A green input/output table with white text showing Input (n) values 2, 4, 6, 8 and corresponding Output (p) values 1, 2, 3, with a question mark for the missing output value when input is 8. The rule states 'The output is n\u00f72'.",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr5_31_E5",
     "choices": [
@@ -494,7 +494,7 @@
     "solution": [
       [
         "1/4",
-        "The rule says that the output is n÷2. In the table, n is the input. So, the rule says to divide the input by 2 to get the output."
+        "The rule says that the output is n\u00f72. In the table, n is the input. So, the rule says to divide the input by 2 to get the output."
       ],
       [
         "2/4",
@@ -502,7 +502,7 @@
       ],
       [
         "3/4",
-        "8÷2=4\nThe missing number is 4."
+        "8\u00f72=4\nThe missing number is 4."
       ],
       [
         "4/4",
@@ -701,7 +701,7 @@
     "tag": "Gr5_31_E5",
     "choices": [
       "No, Melissa should have noticed that each output is 9 more than each input. The output is g+9.",
-      "No, Melissa should have noticed that each input is 1 less than each output. The output is g–1.",
+      "No, Melissa should have noticed that each input is 1 less than each output. The output is g\u20131.",
       "Yes, Melissa's rule is correct."
     ],
     "correct_answers": [
@@ -738,7 +738,7 @@
       ],
       [
         "8/10",
-        "Finally, check whether the output is g–1 for every input and output in the table."
+        "Finally, check whether the output is g\u20131 for every input and output in the table."
       ],
       [
         "9/10",
@@ -746,7 +746,7 @@
       ],
       [
         "10/10",
-        "1–1=0\n11–1=10\n21–1=20\n31–1=30\nThese are not the same as the outputs in the table. The output is not g–1 for any input in the table. This is not the correct rule.."
+        "1\u20131=0\n11\u20131=10\n21\u20131=20\n31\u20131=30\nThese are not the same as the outputs in the table. The output is not g\u20131 for any input in the table. This is not the correct rule.."
       ]
     ],
     "solution_image_tag": [
@@ -862,7 +862,7 @@
     "question_number": "2_2"
   },
   {
-    "question_text": "Find the value of the expression\n\n\nk ÷ 2\n\nfor k = 8.\n\n",
+    "question_text": "Find the value of the expression\n\n\nk \u00f7 2\n\nfor k = 8.\n\n",
     "skills": "evaluate-variable-expressions",
     "question_type": "Fill in the blank",
     "tag": "Gr5_33_E3",
@@ -876,7 +876,7 @@
       ],
       [
         "2/2",
-        "k ÷ 2\n\n8 ÷ 2\n\n\nNow simplify:\n\n\n8 ÷ 2 = 4."
+        "k \u00f7 2\n\n8 \u00f7 2\n\n\nNow simplify:\n\n\n8 \u00f7 2 = 4."
       ]
     ],
     "solution_image_tag": [],
@@ -1088,7 +1088,7 @@
     "question_number": "1_1"
   },
   {
-    "question_text": "Solve for q. q/3 = 4\nq = _",
+    "question_text": "Solve for q. q/3 = 4\nq = ",
     "skills": "solve-multiplication-and-division-equations-with-whole-numbers",
     "question_type": "Fill in the blank",
     "tag": "Gr5_35_E2",
@@ -1292,7 +1292,7 @@
     "question_text": "Is v = 3 a solution to the inequality below?",
     "skills": "solutions-to-inequalities",
     "image_tag": "Gr5_36_3_1",
-    "backend_description": "An inequality showing '2 ≥ v' in mathematical notation, asking whether v = 3 is a solution to this inequality.",
+    "backend_description": "An inequality showing '2 \u2265 v' in mathematical notation, asking whether v = 3 is a solution to this inequality.",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr5_36_E3",
     "choices": [
@@ -1309,14 +1309,14 @@
       ],
       [
         "2/2",
-        "2≥\nv\n\n\n\n2≥\n3\nPlug in v=3\n\nIt is false that 2 ≥ 3. So, v = 3 is not a solution."
+        "2\u2265\nv\n\n\n\n2\u2265\n3\nPlug in v=3\n\nIt is false that 2 \u2265 3. So, v = 3 is not a solution."
       ]
     ],
     "solution_image_tag": [
       [
         "1/2",
         "Gr5_36_3_1_step_1",
-        "The solution shows substituting v = 3 into the inequality 2 ≥ v, resulting in 2 ≥ 3, which is false. Therefore, v = 3 is not a solution to the inequality."
+        "The solution shows substituting v = 3 into the inequality 2 \u2265 v, resulting in 2 \u2265 3, which is false. Therefore, v = 3 is not a solution to the inequality."
       ]
     ],
     "question_number": "3_1"
@@ -1325,7 +1325,7 @@
     "question_text": "Is y = 10 a solution to the inequality below?",
     "skills": "solutions-to-inequalities",
     "image_tag": "Gr5_36_3_2",
-    "backend_description": "An inequality showing '10 ≤ y' in mathematical notation, asking whether y = 10 is a solution to this inequality.",
+    "backend_description": "An inequality showing '10 \u2264 y' in mathematical notation, asking whether y = 10 is a solution to this inequality.",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr5_36_E3",
     "choices": [
@@ -1342,14 +1342,14 @@
       ],
       [
         "2/2",
-        "10≤\ny\n\n\n\n10≤\n10\nPlug in y=10\n\nIt is true that 10 ≤ 10. So, y = 10 is a solution.."
+        "10\u2264\ny\n\n\n\n10\u2264\n10\nPlug in y=10\n\nIt is true that 10 \u2264 10. So, y = 10 is a solution.."
       ]
     ],
     "solution_image_tag": [
       [
         "1/2",
         "Gr5_36_3_2_step_1",
-        "The solution shows substituting y = 10 into the inequality 10 ≤ y, resulting in 10 ≤ 10, which is true. Therefore, y = 10 is a solution to the inequality."
+        "The solution shows substituting y = 10 into the inequality 10 \u2264 y, resulting in 10 \u2264 10, which is true. Therefore, y = 10 is a solution to the inequality."
       ]
     ],
     "question_number": "3_2"
@@ -1358,7 +1358,7 @@
     "question_text": "Is  = 4 a solution to the inequality below?",
     "skills": "solutions-to-inequalities",
     "image_tag": "Gr5_36_3_3",
-    "backend_description": "An inequality showing 't ≤ 9' in mathematical notation, asking whether t = 4 is a solution to this inequality.",
+    "backend_description": "An inequality showing 't \u2264 9' in mathematical notation, asking whether t = 4 is a solution to this inequality.",
     "question_type": "Multiple Choice Question with Single Answer",
     "tag": "Gr5_36_E3",
     "choices": [
@@ -1375,14 +1375,14 @@
       ],
       [
         "2/2",
-        "t\n≤9\n\n\n\n4\n≤9Plug in t=4\n\nIt is true that 4 ≤ 9. So, t = 4 is a solution.."
+        "t\n\u22649\n\n\n\n4\n\u22649Plug in t=4\n\nIt is true that 4 \u2264 9. So, t = 4 is a solution.."
       ]
     ],
     "solution_image_tag": [
       [
         "1/2",
         "Gr5_36_3_3_step_1",
-        "The solution shows substituting t = 4 into the inequality t ≤ 9, resulting in 4 ≤ 9, which is true. Therefore, t = 4 is a solution to the inequality."
+        "The solution shows substituting t = 4 into the inequality t \u2264 9, resulting in 4 \u2264 9, which is true. Therefore, t = 4 is a solution to the inequality."
       ]
     ],
     "question_number": "3_3"
@@ -1756,7 +1756,7 @@
       ],
       [
         "3/3",
-        "Now add all the numbers together:\n\n\n7 +4 +14 +4 +14 +11 +9 +9 +27 =99\n\nNow divide the sum by the number of numbers:\n\n\n99 ÷ 9 = 11\n\nThe mean is 11.."
+        "Now add all the numbers together:\n\n\n7 +4 +14 +4 +14 +11 +9 +9 +27 =99\n\nNow divide the sum by the number of numbers:\n\n\n99 \u00f7 9 = 11\n\nThe mean is 11.."
       ]
     ],
     "solution_image_tag": [],
@@ -1793,7 +1793,7 @@
       ],
       [
         "5/10",
-        "65 ÷ 5 = 13\n\n\nWhen a = 10, the mean is 13."
+        "65 \u00f7 5 = 13\n\n\nWhen a = 10, the mean is 13."
       ],
       [
         "6/10",
@@ -1809,7 +1809,7 @@
       ],
       [
         "9/10",
-        "75 ÷ 5 = 15\n\n\nWhen a = 20, the mean is 15."
+        "75 \u00f7 5 = 15\n\n\nWhen a = 20, the mean is 15."
       ],
       [
         "10/10",
@@ -1850,7 +1850,7 @@
       ],
       [
         "5/10",
-        "90 ÷ 6 = 15\n\n\nWhen j = 25, the mean is 15."
+        "90 \u00f7 6 = 15\n\n\nWhen j = 25, the mean is 15."
       ],
       [
         "6/10",
@@ -1866,7 +1866,7 @@
       ],
       [
         "9/10",
-        "72 ÷ 6 = 12\n\n\nWhen j = 7, the mean is 12."
+        "72 \u00f7 6 = 12\n\n\nWhen j = 7, the mean is 12."
       ],
       [
         "10/10",
@@ -1907,7 +1907,7 @@
       ],
       [
         "5/10",
-        "32 ÷ 4 = 8\n\n\nWhen a = 11, the mean is 8."
+        "32 \u00f7 4 = 8\n\n\nWhen a = 11, the mean is 8."
       ],
       [
         "6/10",
@@ -1923,7 +1923,7 @@
       ],
       [
         "9/10",
-        "40 ÷ 4 = 10\n\n\nWhen a = 19, the mean is 10."
+        "40 \u00f7 4 = 10\n\n\nWhen a = 19, the mean is 10."
       ],
       [
         "10/10",
@@ -1964,7 +1964,7 @@
       ],
       [
         "5/10",
-        "90 ÷ 5 = 18\n\n\nWhen q = 19, the mean is 18."
+        "90 \u00f7 5 = 18\n\n\nWhen q = 19, the mean is 18."
       ],
       [
         "6/10",
@@ -1980,7 +1980,7 @@
       ],
       [
         "9/10",
-        "80 ÷ 5 = 16\n\n\nWhen q = 9, the mean is 16."
+        "80 \u00f7 5 = 16\n\n\nWhen q = 9, the mean is 16."
       ],
       [
         "10/10",
@@ -2021,7 +2021,7 @@
       ],
       [
         "5/10",
-        "48 ÷ 4 = 12\n\n\nWhen k = 14, the mean is 12."
+        "48 \u00f7 4 = 12\n\n\nWhen k = 14, the mean is 12."
       ],
       [
         "6/10",
@@ -2037,7 +2037,7 @@
       ],
       [
         "9/10",
-        "36 ÷ 4 = 9\n\n\nWhen k = 2, the mean is 9."
+        "36 \u00f7 4 = 9\n\n\nWhen k = 2, the mean is 9."
       ],
       [
         "10/10",
@@ -2078,7 +2078,7 @@
       ],
       [
         "5/10",
-        "80 ÷ 5 = 16\n\n\nWhen k = 19, the mean is 16."
+        "80 \u00f7 5 = 16\n\n\nWhen k = 19, the mean is 16."
       ],
       [
         "6/10",
@@ -2094,7 +2094,7 @@
       ],
       [
         "9/10",
-        "90 ÷ 5 = 18\n\n\nWhen k = 29, the mean is 18."
+        "90 \u00f7 5 = 18\n\n\nWhen k = 29, the mean is 18."
       ],
       [
         "10/10",
@@ -2129,7 +2129,7 @@
       ],
       [
         "4/4",
-        "Now add all the numbers together:\n\n\n3 +3 +6 +6 +10 +3 +5 +4 =40\n\nNow divide the sum by the number of numbers:\n\n\n40 ÷ 8 = 5\n\nThe mean is 5.."
+        "Now add all the numbers together:\n\n\n3 +3 +6 +6 +10 +3 +5 +4 =40\n\nNow divide the sum by the number of numbers:\n\n\n40 \u00f7 8 = 5\n\nThe mean is 5.."
       ]
     ],
     "solution_image_tag": [],
@@ -2160,7 +2160,7 @@
       ],
       [
         "4/4",
-        "Now add all the numbers together:\n\n\n11 +11 +12 +11 +19 +14 +13 =91\n\nNow divide the sum by the number of numbers:\n\n\n91 ÷ 7 = 13\n\nThe mean is 13.."
+        "Now add all the numbers together:\n\n\n11 +11 +12 +11 +19 +14 +13 =91\n\nNow divide the sum by the number of numbers:\n\n\n91 \u00f7 7 = 13\n\nThe mean is 13.."
       ]
     ],
     "solution_image_tag": [],
@@ -2191,7 +2191,7 @@
       ],
       [
         "4/4",
-        "Now add all the numbers together:\n\n\n2 +7 +3 +7 +1 =20\n\nNow divide the sum by the number of numbers:\n\n\n20 ÷ 5 = 4\n\nThe mean is 4.."
+        "Now add all the numbers together:\n\n\n2 +7 +3 +7 +1 =20\n\nNow divide the sum by the number of numbers:\n\n\n20 \u00f7 5 = 4\n\nThe mean is 4.."
       ]
     ],
     "solution_image_tag": [],
@@ -2222,7 +2222,7 @@
       ],
       [
         "4/4",
-        "Now add all the numbers together:\n\n\n12 +9 +8 +19 +14 +10 =72\n\nNow divide the sum by the number of numbers:\n\n\n72 ÷ 6 = 12\n\nThe mean is 12.."
+        "Now add all the numbers together:\n\n\n12 +9 +8 +19 +14 +10 =72\n\nNow divide the sum by the number of numbers:\n\n\n72 \u00f7 6 = 12\n\nThe mean is 12.."
       ]
     ],
     "solution_image_tag": [],
@@ -2253,7 +2253,7 @@
       ],
       [
         "4/4",
-        "Now add all the numbers together:\n\n\n15 +17 +13 +14 +18 +14 +11 +18 =120\n\nNow divide the sum by the number of numbers:\n\n\n120 ÷ 8 = 15\n\nThe mean is 15.."
+        "Now add all the numbers together:\n\n\n15 +17 +13 +14 +18 +14 +11 +18 =120\n\nNow divide the sum by the number of numbers:\n\n\n120 \u00f7 8 = 15\n\nThe mean is 15.."
       ]
     ],
     "solution_image_tag": [],
@@ -2284,7 +2284,7 @@
       ],
       [
         "4/4",
-        "Now add all the numbers together:\n\n\n21 +17 +17 +7 +23 =85\n\nNow divide the sum by the number of numbers:\n\n\n85 ÷ 5 = 17\n\nThe mean is 17.."
+        "Now add all the numbers together:\n\n\n21 +17 +17 +7 +23 =85\n\nNow divide the sum by the number of numbers:\n\n\n85 \u00f7 5 = 17\n\nThe mean is 17.."
       ]
     ],
     "solution_image_tag": [],
@@ -2315,7 +2315,7 @@
       ],
       [
         "4/4",
-        "Now add all the numbers together:\n\n\n18 +19 +13 +10 +15 =75\n\nNow divide the sum by the number of numbers:\n\n\n75 ÷ 5 = 15\n\nThe mean is 15.."
+        "Now add all the numbers together:\n\n\n18 +19 +13 +10 +15 =75\n\nNow divide the sum by the number of numbers:\n\n\n75 \u00f7 5 = 15\n\nThe mean is 15.."
       ]
     ],
     "solution_image_tag": [],
@@ -2346,7 +2346,7 @@
       ],
       [
         "4/4",
-        "Now add all the numbers together:\n\n\n7 +10 +20 +17 +14 +10 =78\n\nNow divide the sum by the number of numbers:\n\n\n78 ÷ 6 = 13\n\nThe mean is 13.."
+        "Now add all the numbers together:\n\n\n7 +10 +20 +17 +14 +10 =78\n\nNow divide the sum by the number of numbers:\n\n\n78 \u00f7 6 = 13\n\nThe mean is 13.."
       ]
     ],
     "solution_image_tag": [],
@@ -2377,7 +2377,7 @@
       ],
       [
         "4/4",
-        "Now add all the numbers together:\n\n\n10 +6 +8 +5 +6 =35\n\nNow divide the sum by the number of numbers:\n\n\n35 ÷ 5 = 7\n\nThe mean is 7.."
+        "Now add all the numbers together:\n\n\n10 +6 +8 +5 +6 =35\n\nNow divide the sum by the number of numbers:\n\n\n35 \u00f7 5 = 7\n\nThe mean is 7.."
       ]
     ],
     "solution_image_tag": [],
@@ -2408,7 +2408,7 @@
       ],
       [
         "4/4",
-        "Now add all the numbers together:\n\n\n9 +5 +4 +5 +7 =30\n\nNow divide the sum by the number of numbers:\n\n\n30 ÷ 5 = 6\n\nThe mean is 6.."
+        "Now add all the numbers together:\n\n\n9 +5 +4 +5 +7 =30\n\nNow divide the sum by the number of numbers:\n\n\n30 \u00f7 5 = 6\n\nThe mean is 6.."
       ]
     ],
     "solution_image_tag": [],
@@ -2478,7 +2478,7 @@
       ],
       [
         "5/10",
-        "60 ÷ 4 = 15\n\n\nWhen u = 8, the mean is 15."
+        "60 \u00f7 4 = 15\n\n\nWhen u = 8, the mean is 15."
       ],
       [
         "6/10",
@@ -2494,7 +2494,7 @@
       ],
       [
         "9/10",
-        "72 ÷ 4 = 18\n\n\nWhen u = 20, the mean is 18."
+        "72 \u00f7 4 = 18\n\n\nWhen u = 20, the mean is 18."
       ],
       [
         "10/10",
@@ -2625,7 +2625,7 @@
       ],
       [
         "5/10",
-        "48 ÷ 4 = 12\n\n\nWhen x = 3, the mean is 12."
+        "48 \u00f7 4 = 12\n\n\nWhen x = 3, the mean is 12."
       ],
       [
         "6/10",
@@ -2641,7 +2641,7 @@
       ],
       [
         "9/10",
-        "60 ÷ 4 = 15\n\n\nWhen x = 15, the mean is 15."
+        "60 \u00f7 4 = 15\n\n\nWhen x = 15, the mean is 15."
       ],
       [
         "10/10",
@@ -2682,7 +2682,7 @@
       ],
       [
         "5/10",
-        "48 ÷ 4 = 12\n\n\nWhen u = 26, the mean is 12."
+        "48 \u00f7 4 = 12\n\n\nWhen u = 26, the mean is 12."
       ],
       [
         "6/10",
@@ -2698,7 +2698,7 @@
       ],
       [
         "9/10",
-        "36 ÷ 4 = 9\n\n\nWhen u = 14, the mean is 9."
+        "36 \u00f7 4 = 9\n\n\nWhen u = 14, the mean is 9."
       ],
       [
         "10/10",
@@ -2784,7 +2784,7 @@
       ],
       [
         "5/10",
-        "102 ÷ 6 = 17\n\n\nWhen s = 15, the mean is 17."
+        "102 \u00f7 6 = 17\n\n\nWhen s = 15, the mean is 17."
       ],
       [
         "6/10",
@@ -2800,7 +2800,7 @@
       ],
       [
         "9/10",
-        "96 ÷ 6 = 16\n\n\nWhen s = 9, the mean is 16."
+        "96 \u00f7 6 = 16\n\n\nWhen s = 9, the mean is 16."
       ],
       [
         "10/10",
@@ -2841,7 +2841,7 @@
       ],
       [
         "5/10",
-        "100 ÷ 5 = 20\n\n\nWhen k = 28, the mean is 20."
+        "100 \u00f7 5 = 20\n\n\nWhen k = 28, the mean is 20."
       ],
       [
         "6/10",
@@ -2857,7 +2857,7 @@
       ],
       [
         "9/10",
-        "90 ÷ 5 = 18\n\n\nWhen k = 18, the mean is 18."
+        "90 \u00f7 5 = 18\n\n\nWhen k = 18, the mean is 18."
       ],
       [
         "10/10",
@@ -2898,7 +2898,7 @@
       ],
       [
         "5/10",
-        "84 ÷ 6 = 14\n\n\nWhen s = 14, the mean is 14."
+        "84 \u00f7 6 = 14\n\n\nWhen s = 14, the mean is 14."
       ],
       [
         "6/10",
@@ -2914,7 +2914,7 @@
       ],
       [
         "9/10",
-        "72 ÷ 6 = 12\n\n\nWhen s = 2, the mean is 12."
+        "72 \u00f7 6 = 12\n\n\nWhen s = 2, the mean is 12."
       ],
       [
         "10/10",
@@ -2994,7 +2994,7 @@
       ],
       [
         "4/4",
-        "Now add all the numbers together:\n\n\n50 +10 +50 +40 +40 +10 +10 +30 =240\n\nNow divide the sum by the number of numbers:\n\n\n240 ÷ 8 = 30\n\nThe mean is 30.."
+        "Now add all the numbers together:\n\n\n50 +10 +50 +40 +40 +10 +10 +30 =240\n\nNow divide the sum by the number of numbers:\n\n\n240 \u00f7 8 = 30\n\nThe mean is 30.."
       ]
     ],
     "solution_image_tag": [],
@@ -3072,7 +3072,7 @@
       ],
       [
         "4/4",
-        "Now add all the numbers together:\n\n\n18 +17 +14 +11 +15 +13 +16 +16 =120\n\nNow divide the sum by the number of numbers:\n\n\n120 ÷ 8 = 15\n\nThe mean is 15.."
+        "Now add all the numbers together:\n\n\n18 +17 +14 +11 +15 +13 +16 +16 =120\n\nNow divide the sum by the number of numbers:\n\n\n120 \u00f7 8 = 15\n\nThe mean is 15.."
       ]
     ],
     "solution_image_tag": [],
@@ -3150,7 +3150,7 @@
       ],
       [
         "4/4",
-        "Now add all the numbers together:\n\n\n40 +40 +10 +20 +0 +10 =120\n\nNow divide the sum by the number of numbers:\n\n\n120 ÷ 6 = 20\n\nThe mean is 20.."
+        "Now add all the numbers together:\n\n\n40 +40 +10 +20 +0 +10 =120\n\nNow divide the sum by the number of numbers:\n\n\n120 \u00f7 6 = 20\n\nThe mean is 20.."
       ]
     ],
     "solution_image_tag": [],
@@ -3302,7 +3302,7 @@
       ],
       [
         "4/4",
-        "Now add all the numbers together:\n\n\n8 +6 +7 +5 +9 +7 =42\n\nNow divide the sum by the number of numbers:\n\n\n42 ÷ 6 = 7\n\nThe mean is 7.."
+        "Now add all the numbers together:\n\n\n8 +6 +7 +5 +9 +7 =42\n\nNow divide the sum by the number of numbers:\n\n\n42 \u00f7 6 = 7\n\nThe mean is 7.."
       ]
     ],
     "solution_image_tag": [],
