@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr8_21_2_34 - Proportional Relationship Graph</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+        .item {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .title {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+        svg {
+            border: 2px solid #ddd;
+        }
+        .axis-label {
+            font-size: 14px;
+            font-weight: bold;
+            fill: #333;
+        }
+        .grid-line {
+            stroke: #ddd;
+            stroke-width: 1;
+        }
+        .axis {
+            stroke: #333;
+            stroke-width: 2;
+        }
+        .data-line {
+            stroke: #2196F3;
+            stroke-width: 3;
+            fill: none;
+        }
+        .data-point {
+            fill: #2196F3;
+            stroke: white;
+            stroke-width: 2;
+        }
+        .tick-label {
+            font-size: 20px;
+            fill: #666;
+            text-anchor: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr8_21_2_34">
+       
+        <svg width="340" height="340">
+            <!-- Grid lines -->
+            <line x1="50" y1="50" x2="50" y2="290" class="grid-line"/>
+            <line x1="50" y1="290" x2="290" y2="290" class="grid-line"/>
+            <line x1="90" y1="50" x2="90" y2="290" class="grid-line"/>
+            <line x1="50" y1="250" x2="290" y2="250" class="grid-line"/>
+            <line x1="130" y1="50" x2="130" y2="290" class="grid-line"/>
+            <line x1="50" y1="210" x2="290" y2="210" class="grid-line"/>
+            <line x1="170" y1="50" x2="170" y2="290" class="grid-line"/>
+            <line x1="50" y1="170" x2="290" y2="170" class="grid-line"/>
+            <line x1="210" y1="50" x2="210" y2="290" class="grid-line"/>
+            <line x1="50" y1="130" x2="290" y2="130" class="grid-line"/>
+            <line x1="250" y1="50" x2="250" y2="290" class="grid-line"/>
+            <line x1="50" y1="90" x2="290" y2="90" class="grid-line"/>
+            <line x1="290" y1="50" x2="290" y2="290" class="grid-line"/>
+            <line x1="50" y1="50" x2="290" y2="50" class="grid-line"/>
+            <!-- Axes -->
+            <line x1="50" y1="290" x2="290" y2="290" class="axis"/>
+            <line x1="50" y1="50" x2="50" y2="290" class="axis"/>
+            <text x="50" y="310" class="tick-label">0</text>
+            <text x="30" y="295" class="tick-label">0</text>
+            <text x="90" y="310" class="tick-label">1</text>
+            <text x="30" y="255" class="tick-label">1</text>
+            <text x="130" y="310" class="tick-label">2</text>
+            <text x="30" y="215" class="tick-label">2</text>
+            <text x="170" y="310" class="tick-label">3</text>
+            <text x="30" y="175" class="tick-label">3</text>
+            <text x="210" y="310" class="tick-label">4</text>
+            <text x="30" y="135" class="tick-label">4</text>
+            <text x="250" y="310" class="tick-label">5</text>
+            <text x="30" y="95" class="tick-label">5</text>
+            <text x="290" y="310" class="tick-label">6</text>
+            <text x="30" y="55" class="tick-label">6</text>
+            <!-- Axis labels -->
+            <text x="170" y="330" class="axis-label" text-anchor="middle">x (cupcakes)</text>
+            <text x="20" y="170" class="axis-label" text-anchor="middle" transform="rotate(-90, 20, 170)">y (dollars)</text>
+            <!-- Data line -->
+            <path d="M 50 290 L 130 250 L 210 210" class="data-line"/>
+            <circle cx="50" cy="290" r="5" class="data-point"/>
+            <circle cx="130" cy="250" r="5" class="data-point"/>
+            <circle cx="210" cy="210" r="5" class="data-point"/>
+        </svg>
+    </div>
+</body>
+</html>
