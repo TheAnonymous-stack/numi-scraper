@@ -23,7 +23,7 @@ driver = webdriver.Chrome(options=chrome_options)
 #         tag, skill = row
 #         if skill != "empty":
 #             tags.append(tag)
-tags = ["Gr4_33_E2", "Gr4_33_E3"]
+tags = ["Gr4_4_E1", "Gr4_4_E3", "Gr4_5_E3", "Gr4_6_E3", "Gr4_8_E2", "Gr4_8_E5", "Gr4_9_E2", "Gr4_13_E3"]
 # Get all HTML files matching the pattern
 for tag in tags:
     week_number = int(tag.split("_")[1])  # Extract week number (2 in this case)
