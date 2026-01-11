@@ -1,7 +1,7 @@
 import json
 
 # Load the English questions
-with open(r"c:\Users\kapil\Documents\numi-tester\scaled_questions.json", "r", encoding='utf-8') as f:
+with open("./scaled_questions.json", "r", encoding='utf-8') as f:
     data = json.load(f)
 
 # Translation dictionaries
@@ -184,7 +184,7 @@ for q in data["quizzes"]:
 
 # Save to new file
 output = {"quizzes": turkish_quizzes}
-with open(r"c:\Users\kapil\Documents\numi-tester\scaled_questions_turkish.json", "w", encoding='utf-8') as f:
+with open("/Users/hypebeast/clone/numi-scraper/numi-tester/scaled_questions_turkish_copy.json", "w", encoding='utf-8') as f:
     json.dump(output, f, indent=2, ensure_ascii=False)
 
 print(f"Created scaled_questions_turkish.json with {len(turkish_quizzes)} questions")
