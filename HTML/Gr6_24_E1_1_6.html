@@ -3,104 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Array Model: 3/5 × 40</title>
+    <title>Array Model</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f5f5f5;
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
         }
-        .container {
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        .title {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 20px;
-            color: #333;
-        }
-        .circle {
-            fill: #87CEEB;
-            stroke: #000;
-            stroke-width: 1;
-        }
-        .circle-shaded {
+        .shaded {
             fill: #4CAF50;
-            stroke: #000;
+            stroke: #2E7D32;
             stroke-width: 1;
         }
-        .group-border {
-            fill: none;
-            stroke: #FF0000;
-            stroke-width: 2;
-            stroke-dasharray: 5,5;
-        }
-        .group-label {
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-            font-weight: bold;
-            fill: #FF0000;
+        .unshaded {
+            fill: #E8F5E9;
+            stroke: #81C784;
+            stroke-width: 1;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="title">Model: 40 circles in 5 groups</div>
-        <div class="item" label="Gr6_24_1_6">
-            <svg width="130" height="400" viewBox="0 0 130 400">                <circle cx="50" cy="50" r="10" class="circle-shaded"/>
-                <circle cx="75" cy="50" r="10" class="circle-shaded"/>
-                <circle cx="100" cy="50" r="10" class="circle-shaded"/>
-                <circle cx="125" cy="50" r="10" class="circle-shaded"/>
-                <circle cx="50" cy="75" r="10" class="circle-shaded"/>
-                <circle cx="75" cy="75" r="10" class="circle-shaded"/>
-                <circle cx="100" cy="75" r="10" class="circle-shaded"/>
-                <circle cx="125" cy="75" r="10" class="circle-shaded"/>
-                <rect x="35" y="35" width="110" height="60" class="group-border"/>
-                <circle cx="50" cy="130" r="10" class="circle-shaded"/>
-                <circle cx="75" cy="130" r="10" class="circle-shaded"/>
-                <circle cx="100" cy="130" r="10" class="circle-shaded"/>
-                <circle cx="125" cy="130" r="10" class="circle-shaded"/>
-                <circle cx="50" cy="155" r="10" class="circle-shaded"/>
-                <circle cx="75" cy="155" r="10" class="circle-shaded"/>
-                <circle cx="100" cy="155" r="10" class="circle-shaded"/>
-                <circle cx="125" cy="155" r="10" class="circle-shaded"/>
-                <rect x="35" y="115" width="110" height="60" class="group-border"/>
-                <circle cx="50" cy="210" r="10" class="circle-shaded"/>
-                <circle cx="75" cy="210" r="10" class="circle-shaded"/>
-                <circle cx="100" cy="210" r="10" class="circle-shaded"/>
-                <circle cx="125" cy="210" r="10" class="circle-shaded"/>
-                <circle cx="50" cy="235" r="10" class="circle-shaded"/>
-                <circle cx="75" cy="235" r="10" class="circle-shaded"/>
-                <circle cx="100" cy="235" r="10" class="circle-shaded"/>
-                <circle cx="125" cy="235" r="10" class="circle-shaded"/>
-                <rect x="35" y="195" width="110" height="60" class="group-border"/>
-                <circle cx="50" cy="290" r="10" class="circle"/>
-                <circle cx="75" cy="290" r="10" class="circle"/>
-                <circle cx="100" cy="290" r="10" class="circle"/>
-                <circle cx="125" cy="290" r="10" class="circle"/>
-                <circle cx="50" cy="315" r="10" class="circle"/>
-                <circle cx="75" cy="315" r="10" class="circle"/>
-                <circle cx="100" cy="315" r="10" class="circle"/>
-                <circle cx="125" cy="315" r="10" class="circle"/>
-                <rect x="35" y="275" width="110" height="60" class="group-border"/>
-                <circle cx="50" cy="370" r="10" class="circle"/>
-                <circle cx="75" cy="370" r="10" class="circle"/>
-                <circle cx="100" cy="370" r="10" class="circle"/>
-                <circle cx="125" cy="370" r="10" class="circle"/>
-                <circle cx="50" cy="395" r="10" class="circle"/>
-                <circle cx="75" cy="395" r="10" class="circle"/>
-                <circle cx="100" cy="395" r="10" class="circle"/>
-                <circle cx="125" cy="395" r="10" class="circle"/>
-                <rect x="35" y="355" width="110" height="60" class="group-border"/>
-            </svg>
-        </div>
+    <div class="item" label="Gr6_24_1_6">
+        <svg width="260" height="230" viewBox="0 0 260 230">
+                <path d="M40,48 C28,36 28,28 40,36 C52,28 52,36 40,48" class="shaded"/>
+                <path d="M70,48 C58,36 58,28 70,36 C82,28 82,36 70,48" class="shaded"/>
+                <path d="M100,48 C88,36 88,28 100,36 C112,28 112,36 100,48" class="shaded"/>
+                <path d="M130,48 C118,36 118,28 130,36 C142,28 142,36 130,48" class="shaded"/>
+                <path d="M160,48 C148,36 148,28 160,36 C172,28 172,36 160,48" class="shaded"/>
+                <path d="M190,48 C178,36 178,28 190,36 C202,28 202,36 190,48" class="shaded"/>
+                <path d="M220,48 C208,36 208,28 220,36 C232,28 232,36 220,48" class="shaded"/>
+                <path d="M40,93 C28,81 28,73 40,81 C52,73 52,81 40,93" class="shaded"/>
+                <path d="M70,93 C58,81 58,73 70,81 C82,73 82,81 70,93" class="shaded"/>
+                <path d="M100,93 C88,81 88,73 100,81 C112,73 112,81 100,93" class="shaded"/>
+                <path d="M130,93 C118,81 118,73 130,81 C142,73 142,81 130,93" class="shaded"/>
+                <path d="M160,93 C148,81 148,73 160,81 C172,73 172,81 160,93" class="shaded"/>
+                <path d="M190,93 C178,81 178,73 190,81 C202,73 202,81 190,93" class="shaded"/>
+                <path d="M220,93 C208,81 208,73 220,81 C232,73 232,81 220,93" class="shaded"/>
+                <path d="M40,138 C28,126 28,118 40,126 C52,118 52,126 40,138" class="shaded"/>
+                <path d="M70,138 C58,126 58,118 70,126 C82,118 82,126 70,138" class="shaded"/>
+                <path d="M100,138 C88,126 88,118 100,126 C112,118 112,126 100,138" class="shaded"/>
+                <path d="M130,138 C118,126 118,118 130,126 C142,118 142,126 130,138" class="shaded"/>
+                <path d="M160,138 C148,126 148,118 160,126 C172,118 172,126 160,138" class="shaded"/>
+                <path d="M190,138 C178,126 178,118 190,126 C202,118 202,126 190,138" class="shaded"/>
+                <path d="M220,138 C208,126 208,118 220,126 C232,118 232,126 220,138" class="shaded"/>
+                <path d="M40,183 C28,171 28,163 40,171 C52,163 52,171 40,183" class="shaded"/>
+                <path d="M70,183 C58,171 58,163 70,171 C82,163 82,171 70,183" class="shaded"/>
+                <path d="M100,183 C88,171 88,163 100,171 C112,163 112,171 100,183" class="shaded"/>
+                <path d="M130,183 C118,171 118,163 130,171 C142,163 142,171 130,183" class="shaded"/>
+                <path d="M160,183 C148,171 148,163 160,171 C172,163 172,171 160,183" class="shaded"/>
+                <path d="M190,183 C178,171 178,163 190,171 C202,163 202,171 190,183" class="shaded"/>
+                <path d="M220,183 C208,171 208,163 220,171 C232,163 232,171 220,183" class="shaded"/>
+        </svg>
     </div>
 </body>
 </html>

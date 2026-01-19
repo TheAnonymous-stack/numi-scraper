@@ -3,91 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Array Model: 2/4 × 28</title>
+    <title>Array Model</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f5f5f5;
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
         }
-        .container {
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        .title {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 20px;
-            color: #333;
-        }
-        .circle {
-            fill: #87CEEB;
-            stroke: #000;
-            stroke-width: 1;
-        }
-        .circle-shaded {
+        .shaded {
             fill: #4CAF50;
-            stroke: #000;
+            stroke: #2E7D32;
             stroke-width: 1;
         }
-        .group-border {
-            fill: none;
-            stroke: #FF0000;
-            stroke-width: 2;
-            stroke-dasharray: 5,5;
-        }
-        .group-label {
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-            font-weight: bold;
-            fill: #FF0000;
+        .unshaded {
+            fill: #E8F5E9;
+            stroke: #81C784;
+            stroke-width: 1;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="title">Model: 28 circles in 4 groups</div>
-        <div class="item" label="Gr6_24_1_43">
-            <svg width="205" height="220" viewBox="0 0 205 220">                <circle cx="50" cy="50" r="10" class="circle-shaded"/>
-                <circle cx="75" cy="50" r="10" class="circle-shaded"/>
-                <circle cx="100" cy="50" r="10" class="circle-shaded"/>
-                <circle cx="125" cy="50" r="10" class="circle-shaded"/>
-                <circle cx="150" cy="50" r="10" class="circle-shaded"/>
-                <circle cx="175" cy="50" r="10" class="circle-shaded"/>
-                <circle cx="200" cy="50" r="10" class="circle-shaded"/>
-                <rect x="35" y="35" width="185" height="35" class="group-border"/>
-                <circle cx="50" cy="105" r="10" class="circle-shaded"/>
-                <circle cx="75" cy="105" r="10" class="circle-shaded"/>
-                <circle cx="100" cy="105" r="10" class="circle-shaded"/>
-                <circle cx="125" cy="105" r="10" class="circle-shaded"/>
-                <circle cx="150" cy="105" r="10" class="circle-shaded"/>
-                <circle cx="175" cy="105" r="10" class="circle-shaded"/>
-                <circle cx="200" cy="105" r="10" class="circle-shaded"/>
-                <rect x="35" y="90" width="185" height="35" class="group-border"/>
-                <circle cx="50" cy="160" r="10" class="circle"/>
-                <circle cx="75" cy="160" r="10" class="circle"/>
-                <circle cx="100" cy="160" r="10" class="circle"/>
-                <circle cx="125" cy="160" r="10" class="circle"/>
-                <circle cx="150" cy="160" r="10" class="circle"/>
-                <circle cx="175" cy="160" r="10" class="circle"/>
-                <circle cx="200" cy="160" r="10" class="circle"/>
-                <rect x="35" y="145" width="185" height="35" class="group-border"/>
-                <circle cx="50" cy="215" r="10" class="circle"/>
-                <circle cx="75" cy="215" r="10" class="circle"/>
-                <circle cx="100" cy="215" r="10" class="circle"/>
-                <circle cx="125" cy="215" r="10" class="circle"/>
-                <circle cx="150" cy="215" r="10" class="circle"/>
-                <circle cx="175" cy="215" r="10" class="circle"/>
-                <circle cx="200" cy="215" r="10" class="circle"/>
-                <rect x="35" y="200" width="185" height="35" class="group-border"/>
-            </svg>
-        </div>
+    <div class="item" label="Gr6_24_1_43">
+        <svg width="320" height="230" viewBox="0 0 320 230">
+                <polygon points="40,29 50,48 30,48" class="shaded"/>
+                <polygon points="70,29 80,48 60,48" class="shaded"/>
+                <polygon points="100,29 110,48 90,48" class="shaded"/>
+                <polygon points="130,29 140,48 120,48" class="shaded"/>
+                <polygon points="160,29 170,48 150,48" class="shaded"/>
+                <polygon points="190,29 200,48 180,48" class="shaded"/>
+                <polygon points="220,29 230,48 210,48" class="shaded"/>
+                <polygon points="250,29 260,48 240,48" class="shaded"/>
+                <polygon points="280,29 290,48 270,48" class="shaded"/>
+                <polygon points="40,74 50,93 30,93" class="shaded"/>
+                <polygon points="70,74 80,93 60,93" class="shaded"/>
+                <polygon points="100,74 110,93 90,93" class="shaded"/>
+                <polygon points="130,74 140,93 120,93" class="shaded"/>
+                <polygon points="160,74 170,93 150,93" class="shaded"/>
+                <polygon points="190,74 200,93 180,93" class="shaded"/>
+                <polygon points="220,74 230,93 210,93" class="shaded"/>
+                <polygon points="250,74 260,93 240,93" class="shaded"/>
+                <polygon points="280,74 290,93 270,93" class="shaded"/>
+                <polygon points="40,119 50,138 30,138" class="shaded"/>
+                <polygon points="70,119 80,138 60,138" class="shaded"/>
+                <polygon points="100,119 110,138 90,138" class="shaded"/>
+                <polygon points="130,119 140,138 120,138" class="shaded"/>
+                <polygon points="160,119 170,138 150,138" class="shaded"/>
+                <polygon points="190,119 200,138 180,138" class="shaded"/>
+                <polygon points="220,119 230,138 210,138" class="shaded"/>
+                <polygon points="250,119 260,138 240,138" class="shaded"/>
+                <polygon points="280,119 290,138 270,138" class="shaded"/>
+                <polygon points="40,164 50,183 30,183" class="shaded"/>
+                <polygon points="70,164 80,183 60,183" class="shaded"/>
+                <polygon points="100,164 110,183 90,183" class="shaded"/>
+                <polygon points="130,164 140,183 120,183" class="shaded"/>
+                <polygon points="160,164 170,183 150,183" class="shaded"/>
+                <polygon points="190,164 200,183 180,183" class="shaded"/>
+                <polygon points="220,164 230,183 210,183" class="shaded"/>
+                <polygon points="250,164 260,183 240,183" class="shaded"/>
+                <polygon points="280,164 290,183 270,183" class="shaded"/>
+        </svg>
     </div>
 </body>
 </html>

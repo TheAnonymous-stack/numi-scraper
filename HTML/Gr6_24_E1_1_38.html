@@ -3,83 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Array Model: 3/4 × 20</title>
+    <title>Array Model</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f5f5f5;
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
         }
-        .container {
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        .title {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 20px;
-            color: #333;
-        }
-        .circle {
-            fill: #87CEEB;
-            stroke: #000;
-            stroke-width: 1;
-        }
-        .circle-shaded {
+        .shaded {
             fill: #4CAF50;
-            stroke: #000;
+            stroke: #2E7D32;
             stroke-width: 1;
         }
-        .group-border {
-            fill: none;
-            stroke: #FF0000;
-            stroke-width: 2;
-            stroke-dasharray: 5,5;
-        }
-        .group-label {
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-            font-weight: bold;
-            fill: #FF0000;
+        .unshaded {
+            fill: #E8F5E9;
+            stroke: #81C784;
+            stroke-width: 1;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="title">Model: 20 circles in 4 groups</div>
-        <div class="item" label="Gr6_24_1_38">
-            <svg width="55" height="620" viewBox="0 0 55 620">                <circle cx="50" cy="50" r="10" class="circle-shaded"/>
-                <circle cx="50" cy="75" r="10" class="circle-shaded"/>
-                <circle cx="50" cy="100" r="10" class="circle-shaded"/>
-                <circle cx="50" cy="125" r="10" class="circle-shaded"/>
-                <circle cx="50" cy="150" r="10" class="circle-shaded"/>
-                <rect x="35" y="35" width="35" height="135" class="group-border"/>
-                <circle cx="50" cy="205" r="10" class="circle-shaded"/>
-                <circle cx="50" cy="230" r="10" class="circle-shaded"/>
-                <circle cx="50" cy="255" r="10" class="circle-shaded"/>
-                <circle cx="50" cy="280" r="10" class="circle-shaded"/>
-                <circle cx="50" cy="305" r="10" class="circle-shaded"/>
-                <rect x="35" y="190" width="35" height="135" class="group-border"/>
-                <circle cx="50" cy="360" r="10" class="circle-shaded"/>
-                <circle cx="50" cy="385" r="10" class="circle-shaded"/>
-                <circle cx="50" cy="410" r="10" class="circle-shaded"/>
-                <circle cx="50" cy="435" r="10" class="circle-shaded"/>
-                <circle cx="50" cy="460" r="10" class="circle-shaded"/>
-                <rect x="35" y="345" width="35" height="135" class="group-border"/>
-                <circle cx="50" cy="515" r="10" class="circle"/>
-                <circle cx="50" cy="540" r="10" class="circle"/>
-                <circle cx="50" cy="565" r="10" class="circle"/>
-                <circle cx="50" cy="590" r="10" class="circle"/>
-                <circle cx="50" cy="615" r="10" class="circle"/>
-                <rect x="35" y="500" width="35" height="135" class="group-border"/>
-            </svg>
-        </div>
+    <div class="item" label="Gr6_24_1_38">
+        <svg width="350" height="200" viewBox="0 0 350 200">
+                <polygon points="40,28 51,36 47,50 33,50 29,36" class="shaded"/>
+                <polygon points="70,28 81,36 77,50 63,50 59,36" class="shaded"/>
+                <polygon points="100,28 111,36 107,50 93,50 89,36" class="shaded"/>
+                <polygon points="130,28 141,36 137,50 123,50 119,36" class="shaded"/>
+                <polygon points="160,28 171,36 167,50 153,50 149,36" class="shaded"/>
+                <polygon points="190,28 201,36 197,50 183,50 179,36" class="shaded"/>
+                <polygon points="220,28 231,36 227,50 213,50 209,36" class="shaded"/>
+                <polygon points="250,28 261,36 257,50 243,50 239,36" class="shaded"/>
+                <polygon points="280,28 291,36 287,50 273,50 269,36" class="shaded"/>
+                <polygon points="310,28 321,36 317,50 303,50 299,36" class="shaded"/>
+                <polygon points="40,58 51,66 47,80 33,80 29,66" class="shaded"/>
+                <polygon points="70,58 81,66 77,80 63,80 59,66" class="shaded"/>
+                <polygon points="40,103 51,111 47,125 33,125 29,111" class="shaded"/>
+                <polygon points="70,103 81,111 77,125 63,125 59,111" class="shaded"/>
+                <polygon points="100,103 111,111 107,125 93,125 89,111" class="shaded"/>
+                <polygon points="130,103 141,111 137,125 123,125 119,111" class="shaded"/>
+                <polygon points="160,103 171,111 167,125 153,125 149,111" class="shaded"/>
+                <polygon points="190,103 201,111 197,125 183,125 179,111" class="shaded"/>
+                <polygon points="220,103 231,111 227,125 213,125 209,111" class="shaded"/>
+                <polygon points="250,103 261,111 257,125 243,125 239,111" class="shaded"/>
+                <polygon points="280,103 291,111 287,125 273,125 269,111" class="shaded"/>
+                <polygon points="310,103 321,111 317,125 303,125 299,111" class="shaded"/>
+                <polygon points="40,133 51,141 47,155 33,155 29,141" class="shaded"/>
+                <polygon points="70,133 81,141 77,155 63,155 59,141" class="shaded"/>
+        </svg>
     </div>
 </body>
 </html>
