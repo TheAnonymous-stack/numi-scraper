@@ -1,77 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Grade 6 - Week 52 - Exercise 4
-  </title>
-  <style>
-   body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f5f5f5;
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr6_52_4_11</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-        }
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            text-align: center;
-            max-width: 900px;
+            background-color: #ffffff;
         }
         .item {
-            margin: 20px auto;
             display: inline-block;
-            padding: 10px;
         }
-        .grid-container {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            flex-wrap: wrap;
-            align-items: center;
+        svg {
+            display: block;
         }
-  </style>
- </head>
- <body>
-  <div class="container">
-   <div class="item" label="Gr6_52_4_11">
-    <svg width="391" height="265" viewBox="0 0 391 265">
-      <!-- Larger Rectangle (A) -->
-      <rect x="30" y="110.0" width="331.42857142857144" height="125.71428571428572"
-            fill="#E3F2FD" stroke="#1976D2" stroke-width="3"/>
+        .label {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .dimension {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr6_52_4_11">
+        <svg width="390" height="280" viewBox="0 0 390 280">
+            <!-- Rectangle A (larger) - light blue -->
+            <rect x="50" y="120" width="290" height="110"
+                  fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
 
-      <!-- Smaller Rectangle (B) -->
-      <rect x="30" y="30" width="68.57142857142857" height="80.0"
-            fill="#FFEBEE" stroke="#C62828" stroke-width="3"/>
+            <!-- Rectangle B (smaller) - light red, on top-left -->
+            <rect x="50" y="50" width="60" height="70"
+                  fill="#FFEBEE" stroke="#C62828" stroke-width="2"/>
 
-      <!-- Labels -->
-      <text x="195.71428571428572" y="172.85714285714286"
-            text-anchor="middle" dominant-baseline="middle"
-            font-size="20" font-weight="bold" fill="#1976D2">A</text>
+            <!-- Label A -->
+            <text x="195.0" y="175.0"
+                  text-anchor="middle" dominant-baseline="middle"
+                  class="label" fill="#1976D2">A</text>
 
-      <text x="64.28571428571428" y="70.0"
-            text-anchor="middle" dominant-baseline="middle"
-            font-size="16" font-weight="bold" fill="#C62828">B</text>
+            <!-- Label B -->
+            <text x="80.0" y="85.0"
+                  text-anchor="middle" dominant-baseline="middle"
+                  class="label" fill="#C62828">B</text>
 
-      <!-- Dimensions for larger rectangle -->
-      <text x="195.71428571428572" y="255.71428571428572"
-            text-anchor="middle" font-size="14" fill="#333">29</text>
-      <text x="15" y="172.85714285714286"
-            text-anchor="middle" font-size="14" fill="#333" transform="rotate(-90, 15, 172.85714285714286)">11</text>
+            <!-- Dimension labels for Rectangle A -->
+            <!-- Width of A (bottom) -->
+            <text x="195.0" y="248"
+                  text-anchor="middle" class="dimension">29</text>
 
-      <!-- Dimensions for smaller rectangle -->
-      <text x="64.28571428571428" y="20"
-            text-anchor="middle" font-size="14" fill="#333">6</text>
-      <text x="113.57142857142857" y="70.0"
-            text-anchor="middle" font-size="14" fill="#333" transform="rotate(-90, 113.57142857142857, 70.0)">7</text>
-    </svg>
-   </div>
-  </div>
- </body>
+            <!-- Height of A (right side) -->
+            <text x="350" y="175.0"
+                  text-anchor="start" dominant-baseline="middle" class="dimension">11</text>
+
+            <!-- Dimension labels for Rectangle B -->
+            <!-- Width of B (top) -->
+            <text x="80.0" y="42"
+                  text-anchor="middle" class="dimension">6</text>
+
+            <!-- Height of B (left side) -->
+            <text x="40" y="85.0"
+                  text-anchor="end" dominant-baseline="middle" class="dimension">7</text>
+        </svg>
+    </div>
+</body>
 </html>

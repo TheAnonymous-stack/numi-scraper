@@ -1,93 +1,92 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Grade 6 - Frequency Table</title>
-<style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f5f5f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            text-align: center;
-            max-width: 600px;
-        }
-        .question {
-            font-size: 18px;
-            margin-bottom: 25px;
-            color: #333;
-        }
-        .dot-plot {
-            margin: 20px 0;
-            padding: 15px;
-            background: #f9f9f9;
-            border-radius: 8px;
-        }
-        .plot-title {
-            font-weight: bold;
-            margin-bottom: 15px;
-        }
-        .x-marks {
-            font-size: 20px;
-            color: #ff6b35;
-            letter-spacing: 2px;
-        }
-        .table {
-            margin: 20px auto;
-            border-collapse: collapse;
-        }
-        .table th, .table td {
-            border: 2px solid #333;
-            padding: 10px 20px;
-            text-align: center;
-        }
-        .table th {
-            background-color: #e3f2fd;
-        }
-        .blank {
-            display: inline-block;
-            width: 40px;
-            height: 25px;
-            border: 2px solid #666;
-            background: white;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <style>
+    .item {
+      display: inline-block;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    .dot-plot {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+    }
+    .dot-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-width: 40px;
+      margin: 0 5px;
+    }
+    .dots {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #FF6B00;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .x-val {
+      margin-top: 5px;
+      font-size: 14px;
+    }
+    .x-axis-label {
+      text-align: center;
+      font-size: 13px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+    table {
+      border-collapse: collapse;
+      margin: 0 auto;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 8px 20px;
+      text-align: center;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+    td.blank {
+      background-color: #ffffd0;
+      min-width: 40px;
+    }
+  </style>
 </head>
 <body>
-<div class="container">
-<div class="question">Use the data in the line plot to complete the frequency chart below.</div>
-<div class="dot-plot">
-<div class="plot-title">Data Collection</div>
-<div style="display: flex; justify-content: space-around; margin-top: 15px;">
-<div>0<br/><span class="x-marks">XX</span></div>
-<div>1<br/><span class="x-marks">XXXXX</span></div>
-<div>2<br/><span class="x-marks">X</span></div>
-<div>3<br/><span class="x-marks">XX</span></div>
-<div>4<br/><span class="x-marks">XXXX</span></div>
-</div>
-</div>
-<div class="visual-element item" label="Gr6_42_E4_4_12"><table class="table">
-<tr>
-<th>Value</th>
-<th>Count</th>
-</tr>
-<tr><td>0</td><td>2</td></tr>
-<tr><td>1</td><td>5</td></tr>
-<tr><td>2</td><td>1</td></tr>
-<tr><td>3</td><td>2</td></tr>
-<tr><td>4</td><td><span class="blank"></span></td></tr>
-</table></div>
-<div class="visual-element item solution-step" label="Gr6_42_4_12_step_1" style="display: none;"></div><div class="visual-element item solution-step" label="Gr6_42_4_12_step_2" style="display: none;"></div></div>
+  <div class="item" label="Gr6_42_4_12">
+    <div class="title">Homework assignments completed</div>
+    <div class="dot-plot">
+      <div class="dot-col"><div class="dots">✕</div><div class="x-val">0</div></div>
+<div class="dot-col"><div class="dots">✕</div><div class="x-val">1</div></div>
+<div class="dot-col"><div class="dots">✕ ✕ ✕ ✕</div><div class="x-val">2</div></div>
+<div class="dot-col"><div class="dots">✕</div><div class="x-val">3</div></div>
+<div class="dot-col"><div class="dots">✕ ✕ ✕ ✕ ✕ ✕ ✕ ✕</div><div class="x-val">4</div></div>
+
+    </div>
+    <div class="x-axis-label">Assignments</div>
+    <table>
+      <tr><th>Assignments</th><th>Number of students</th></tr>
+      <tr><td>0</td><td>1</td></tr>
+<tr><td>1</td><td>1</td></tr>
+<tr><td>2</td><td>4</td></tr>
+<tr><td>3</td><td>1</td></tr>
+<tr><td>4</td><td class="blank"></td></tr>
+
+    </table>
+  </div>
 </body>
 </html>
