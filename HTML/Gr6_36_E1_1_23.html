@@ -1,141 +1,46 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Grade 6 Math Exercise - Check Input/Output Table</title>
-<style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f5f5f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            text-align: center;
-            max-width: 700px;
-        }
-        .question {
-            font-size: 18px;
-            margin-bottom: 20px;
-            font-weight: bold;
-            color: #333;
-            line-height: 1.5;
-        }
-        .rule-box {
-            background-color: #e3f2fd;
-            padding: 15px;
-            border-radius: 8px;
-            margin: 20px 0;
-            font-size: 16px;
-        }
-        .rule-label {
-            font-weight: bold;
-            color: #1976d2;
-        }
-        .table-container {
-            margin: 25px auto;
-            display: inline-block;
-        }
-        .io-table {
-            border-collapse: collapse;
-            font-size: 16px;
-        }
-        .io-table th {
-            border: 2px solid #333;
-            padding: 12px 20px;
-            background-color: #f0f0f0;
-            font-weight: bold;
-        }
-        .io-table td {
-            border: 2px solid #333;
-            padding: 12px 20px;
-            text-align: center;
-            min-width: 50px;
-        }
-        .choices {
-            margin: 25px auto;
-            text-align: left;
-            max-width: 600px;
-        }
-        .choice {
-            margin: 15px 0;
-            padding: 12px 20px;
-            background-color: #f9f9f9;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-            text-align: left;
-            line-height: 1.5;
-        }
-        .choice:hover {
-            background-color: #e3f2fd;
-        }
-        .choice-label {
-            font-weight: bold;
-            margin-right: 10px;
-        }
-        .explanation {
-            font-size: 14px;
-            color: #666;
-            margin-top: 20px;
-            line-height: 1.5;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <style>
+    .item {
+      display: inline-block;
+      padding: 10px;
+    }
+    table {
+      border-collapse: collapse;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    th {
+      background-color: #f0f0f0;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-<div class="container">
-<div class="question">
-            Gordon tried to complete this input/output table using the rule.<br/>
-            Is Gordon's table correct?
-        </div>
-<div class="rule-box">
-<span class="rule-label">Rule:</span> The output is $c - 11$
-        </div>
-<div class="table-container">
-<div class="visual-element item" label="Gr6_36_E1_1_23"><table class="io-table">
-<tr>
-<th>Input (c)</th>
-<td>2</td>
-<td>10</td>
-<td>11</td>
-<td>12</td>
-</tr>
-<tr>
-<th>Output (d)</th>
-<td>24</td>
-<td>100</td>
-<td>132</td>
-<td>144</td>
-</tr>
-</table></div>
-</div>
-<div class="choices">
-<div class="choice">
-<span class="choice-label">A)</span>
-                No, Gordon subtracted wrong. When the input is 11, the output should be 0.
-            </div>
-<div class="choice">
-<span class="choice-label">B)</span>
-                No, Gordon didn't follow the rule correctly. The output should be 0 when the input is 11.
-            </div>
-<div class="choice">
-<span class="choice-label">C)</span>
-                Yes, Gordon's table is correct.
-            </div>
-</div>
-<div class="explanation">
-            Check if each output value follows the given rule when applied to its input value.
-        </div>
-<div class="visual-element item solution-step" label="Gr6_36_1_23_step_1" style="display: none;"></div><div class="visual-element item solution-step" label="Gr6_36_1_23_step_2" style="display: none;"></div><div class="visual-element item solution-step" label="Gr6_36_1_23_step_3" style="display: none;"></div></div>
+  <div class="item" label="Gr6_36_1_23">
+    <table>
+      <tr>
+        <th>Input (c)</th>
+        <td>6</td>
+        <td>7</td>
+        <td>9</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <th>Output (d)</th>
+        <td>-5</td>
+        <td>-4</td>
+        <td>-2</td>
+        <td>5</td>
+      </tr>
+    </table>
+  </div>
 </body>
 </html>

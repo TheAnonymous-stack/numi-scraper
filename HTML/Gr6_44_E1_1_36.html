@@ -1,105 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos uploaded per month.</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
         .item {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            text-align: center;
-            max-width: 700px;
-        }
-        .histogram-title {
-            font-size: 18px;
-            font-weight: bold;
-            margin-bottom: 20px;
-            color: #333;
+            display: inline-block;
+            padding: 10px;
+            background: #fff;
         }
         .histogram-container {
-            margin: 20px 0;
-            padding: 15px;
-            background: #f9f9f9;
-            border-radius: 8px;
-            position: relative;
+            font-family: Arial, sans-serif;
         }
-        .chart-wrapper {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 20px;
-        }
-        .y-axis-label {
+        .chart-title {
+            text-anchor: middle;
             font-size: 14px;
-            color: #666;
-            writing-mode: vertical-rl;
-            transform: rotate(180deg);
-            white-space: nowrap;
+            font-weight: bold;
+            fill: #333;
         }
-        .bars-wrapper {
-            flex: 1;
-        }
-        .bars-container {
-            height: 220px;
-            display: flex;
-            align-items: flex-end;
-            justify-content: center;
-            position: relative;
-        }
-        .bar {
-            display: inline-block;
-            width: 60px;
-            background: #4CAF50;
-            margin: 0 5px;
-            vertical-align: bottom;
-        }
-        .x-labels {
-            margin-top: 10px;
+        .axis-label {
             font-size: 12px;
-        }
-        .x-axis-label {
-            font-size: 14px;
-            margin-top: 10px;
-            color: #666;
+            fill: #333;
         }
     </style>
 </head>
 <body>
     <div class="item" label="Gr6_44_1_36">
-        <div class="histogram-title">Videos uploaded per month.</div>
         <div class="histogram-container">
-            <div class="chart-wrapper">
-                <div class="y-axis-label">Number of channels</div>
-                <div class="bars-wrapper">
-                    <div class="bars-container">
-                <div class="bar" style="height: 200px;"></div>
-                <div class="bar" style="height: 55px;"></div>
-                <div class="bar" style="height: 62px;"></div>
-                <div class="bar" style="height: 62px;"></div>
-                <div class="bar" style="height: 68px;"></div>
-                    </div>
-                    <div class="x-labels">
-                <span style="margin: 0 20px;">10-24</span>
-                <span style="margin: 0 20px;">25-39</span>
-                <span style="margin: 0 20px;">40-54</span>
-                <span style="margin: 0 20px;">55-69</span>
-                <span style="margin: 0 20px;">70-84</span>
-                    </div>
-                    <div class="x-axis-label">Videos</div>
-                </div>
-            </div>
+            <svg width="360" height="340" viewBox="0 0 360 340">
+                <!-- Title -->
+                <text x="180.0" y="20" class="chart-title">Videos uploaded per month.</text>
+
+                <!-- Y-axis label -->
+                <text x="15" y="150.0" class="axis-label" transform="rotate(-90, 15, 150.0)">Number of channels</text>
+
+                <!-- Y-axis ticks and grid lines -->
+                
+        <text x="50" y="264.0" text-anchor="end" font-size="10" fill="#333">0</text>
+        <line x1="55" y1="260.0" x2="350" y2="260.0" stroke="#ddd" stroke-width="1" />
+        
+        <text x="50" y="226.0689655172414" text-anchor="end" font-size="10" fill="#333">5</text>
+        <line x1="55" y1="222.0689655172414" x2="350" y2="222.0689655172414" stroke="#ddd" stroke-width="1" />
+        
+        <text x="50" y="180.55172413793105" text-anchor="end" font-size="10" fill="#333">11</text>
+        <line x1="55" y1="176.55172413793105" x2="350" y2="176.55172413793105" stroke="#ddd" stroke-width="1" />
+        
+        <text x="50" y="135.0344827586207" text-anchor="end" font-size="10" fill="#333">17</text>
+        <line x1="55" y1="131.0344827586207" x2="350" y2="131.0344827586207" stroke="#ddd" stroke-width="1" />
+        
+        <text x="50" y="89.51724137931035" text-anchor="end" font-size="10" fill="#333">23</text>
+        <line x1="55" y1="85.51724137931035" x2="350" y2="85.51724137931035" stroke="#ddd" stroke-width="1" />
+        
+        <text x="50" y="44.0" text-anchor="end" font-size="10" fill="#333">29</text>
+        <line x1="55" y1="40.0" x2="350" y2="40.0" stroke="#ddd" stroke-width="1" />
+        
+
+                <!-- Y-axis line -->
+                <line x1="55" y1="30" x2="55" y2="260" stroke="#333" stroke-width="2" />
+
+                <!-- X-axis line -->
+                <line x1="55" y1="260" x2="350" y2="260" stroke="#333" stroke-width="2" />
+
+                <!-- Bars -->
+                
+        <rect x="60" y="40.0" width="50" height="220.0" fill="#4CAF50" />
+        <text x="85.0" y="280" text-anchor="middle" font-size="11" fill="#333">10-24</text>
+        
+        <rect x="120" y="199.31034482758622" width="50" height="60.689655172413794" fill="#4CAF50" />
+        <text x="145.0" y="280" text-anchor="middle" font-size="11" fill="#333">25-39</text>
+        
+        <rect x="180" y="176.55172413793105" width="50" height="83.44827586206897" fill="#4CAF50" />
+        <text x="205.0" y="280" text-anchor="middle" font-size="11" fill="#333">40-54</text>
+        
+        <rect x="240" y="176.55172413793105" width="50" height="83.44827586206897" fill="#4CAF50" />
+        <text x="265.0" y="280" text-anchor="middle" font-size="11" fill="#333">55-69</text>
+        
+        <rect x="300" y="184.13793103448276" width="50" height="75.86206896551724" fill="#4CAF50" />
+        <text x="325.0" y="280" text-anchor="middle" font-size="11" fill="#333">70-84</text>
+        
+
+                <!-- X-axis label -->
+                <text x="180.0" y="320" class="axis-label" text-anchor="middle">Videos</text>
+            </svg>
         </div>
     </div>
 </body>
