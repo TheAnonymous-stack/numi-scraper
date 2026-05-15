@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    .item {
+      display: inline-block;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    table {
+      border-collapse: collapse;
+      margin: 0 auto;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 6px 15px;
+      text-align: left;
+    }
+    th {
+      background-color: #f0f0f0;
+      text-align: center;
+    }
+    td.tally {
+      font-family: monospace;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+    .tally-group {
+      position: relative;
+      margin-right: 8px;
+    }
+    .strike {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%) rotate(-20deg);
+      font-weight: bold;
+    }
+    .tally-marks {
+      margin-left: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="item" label="Gr6_43_2_36">
+    <div class="title">Gaming cafes in each neighborhood</div>
+    <table>
+      <tr><th>Location</th><th>Number of stores</th></tr>
+      <tr><td>Northville</td><td class="tally"><span class="tally-marks">|</span></td></tr>
+      <tr><td>Southtown</td><td class="tally"><span class="tally-group">||||<span class="strike">/</span></span> <span class="tally-marks">|||</span></td></tr>
+      <tr><td>Eastbridge</td><td class="tally"><span class="tally-group">||||<span class="strike">/</span></span> <span class="tally-group">||||<span class="strike">/</span></span> <span class="tally-marks">||||</span></td></tr>
+      <tr><td>Westfield</td><td class="tally"><span class="tally-marks">||</span></td></tr>
+      <tr><td>Central City</td><td class="tally"><span class="tally-marks">|</span></td></tr>
+      <tr><td>Riverside</td><td class="tally"><span class="tally-group">||||<span class="strike">/</span></span> <span class="tally-group">||||<span class="strike">/</span></span> <span class="tally-marks">||</span></td></tr>
+      <tr><td>Hillside</td><td class="tally"><span class="tally-marks">||||</span></td></tr>
+    </table>
+  </div>
+</body>
+</html>

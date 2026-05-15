@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .item {
+      margin: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="item" label="Gr6_50_2_9">
+    <svg width="450" height="450" viewBox="0 0 450 450">
+      <!-- Circle outline -->
+      <circle cx="200" cy="200" r="150" fill="#f9f9f9" stroke="black" stroke-width="2"/>
+
+      <!-- Shaded angle area (light green) -->
+      <path d="M 200,200 L 350,200 A 150,150 0 0 0 296.4,85.1 Z" fill="lightgreen" fill-opacity="0.4"/>
+
+      <!-- Tick marks and labels -->
+      <line x1="350.0" y1="200.0" x2="335.0" y2="200.0" stroke="black" stroke-width="2"/>
+      <text x="370.0" y="205.0" font-size="14" text-anchor="middle">0°</text>
+      <line x1="329.9" y1="125.0" x2="316.9" y2="132.5" stroke="black" stroke-width="2"/>
+      <line x1="275.0" y1="70.1" x2="267.5" y2="83.1" stroke="black" stroke-width="2"/>
+      <line x1="200.0" y1="50.0" x2="200.0" y2="65.0" stroke="black" stroke-width="2"/>
+      <text x="200.0" y="35.0" font-size="14" text-anchor="middle">90°</text>
+      <line x1="125.0" y1="70.1" x2="132.5" y2="83.1" stroke="black" stroke-width="2"/>
+      <line x1="70.1" y1="125.0" x2="83.1" y2="132.5" stroke="black" stroke-width="2"/>
+      <line x1="50.0" y1="200.0" x2="65.0" y2="200.0" stroke="black" stroke-width="2"/>
+      <text x="30.0" y="205.0" font-size="14" text-anchor="middle">180°</text>
+      <line x1="70.1" y1="275.0" x2="83.1" y2="267.5" stroke="black" stroke-width="2"/>
+      <line x1="125.0" y1="329.9" x2="132.5" y2="316.9" stroke="black" stroke-width="2"/>
+      <line x1="200.0" y1="350.0" x2="200.0" y2="335.0" stroke="black" stroke-width="2"/>
+      <text x="200.0" y="375.0" font-size="14" text-anchor="middle">270°</text>
+      <line x1="275.0" y1="329.9" x2="267.5" y2="316.9" stroke="black" stroke-width="2"/>
+      <line x1="329.9" y1="275.0" x2="316.9" y2="267.5" stroke="black" stroke-width="2"/>
+
+      <!-- Dark green arc highlighting the angle -->
+      <path d="M 330,200 A 130,130 0 0 0 283.6,100.4" fill="none" stroke="darkgreen" stroke-width="4"/>
+
+      <!-- Ray at 0° (horizontal right) -->
+      <line x1="200" y1="200" x2="350" y2="200" stroke="black" stroke-width="2"/>
+
+      <!-- Ray at the angle -->
+      <line x1="200" y1="200" x2="296.4" y2="85.1" stroke="black" stroke-width="2"/>
+
+      <!-- Center point -->
+      <circle cx="200" cy="200" r="4" fill="black"/>
+
+      <!-- Angle label -->
+      <text x="250" y="185" font-size="16" fill="darkgreen">50°</text>
+    </svg>
+  </div>
+</body>
+</html>

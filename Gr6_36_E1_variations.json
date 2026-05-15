@@ -1,0 +1,2165 @@
+{
+  "quizzes": [
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c + 5$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_1",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 2, 5, 6, 11. The second row is labeled 'Output (d)' and contains the numbers 4, 10, 11, 16.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_1",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, Gordon added wrong. When the input is 2, the output should be 7.",
+        "No, when the input is 5, the output should be 13.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c + 5$, where $c$ is the input. This means we add each input by 5 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by adding each input by 5: $2 + 5 = 7$, $5 + 5 = 10$, $6 + 5 = 11$, $11 + 5 = 16$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote 4, 10, 11, 16. Three of these match our calculations, but when the input is 2, Gordon wrote 4 instead of 7."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 2, the output should be 7 because $2 + 5 = 7$, not 4. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c \\cdot 8$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_2",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 4, 9, 12, 14. The second row is labeled 'Output (d)' and contains the numbers 32, 72, 84, 112.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_2",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, Gordon multiplied each input by 7. He should have multiplied each input by 8.",
+        "No, Gordon didn't multiply correctly. When the input is 12, the output should be 96 because 12 times 8 is 96.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c \\cdot 8$, where $c$ is the input. This means we multiply each input by 8 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by multiplying each input by 8: $4 \\cdot 8 = 32$, $9 \\cdot 8 = 72$, $12 \\cdot 8 = 96$, $14 \\cdot 8 = 112$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote 32, 72, 84, 112. Three of these match our calculations, but when the input is 12, Gordon wrote 84 instead of 96."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 12, the output should be 96 because $12 \\cdot 8 = 96$, not 84. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_2_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 9, 11, 14. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_2_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 9, 11, 14. The bottom row is labeled 'Output (d)' and shows the values -4, 3, 5, 8, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_2_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 9, 11, 14. The bottom row is labeled 'Output (d)' and shows the values -7, 3, 5, 8, in the same order, and the number -7 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Riley tried to find the next number in this pattern. The rule for the pattern is subtract 14. 97, 83, 69, Riley says the next number is 55. Is Riley correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_3",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 58 because 69 subtract 14 is 63.",
+        "No, the next number should be 51 because 69 subtract 14 is 47.",
+        "Yes, Riley is correct."
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 97, 83, 69, and the rule is subtract 14. To find the next number, we subtract 14 from the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Subtract 14 from 69: $69 - 14 = 55$"
+        ],
+        [
+          "3/3",
+          "Riley says the next number is 55, which matches our calculation. Therefore, Riley is correct."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_3",
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c \\cdot 5$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_4",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 2, 10, 11, 13. The second row is labeled 'Output (d)' and contains the numbers 10, 50, 66, 65.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_4",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, Gordon multiplied each input by 4. He should have multiplied each input by 5.",
+        "No, Gordon didn't multiply correctly. When the input is 11, the output should be 55 because 11 times 5 is 55.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c \\cdot 5$, where $c$ is the input. This means we multiply each input by 5 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by multiplying each input by 5: $2 \\cdot 5 = 10$, $10 \\cdot 5 = 50$, $11 \\cdot 5 = 55$, $13 \\cdot 5 = 65$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote 10, 50, 66, 65. Three of these match our calculations, but when the input is 11, Gordon wrote 66 instead of 55."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 11, the output should be 55 because $11 \\cdot 5 = 55$, not 66. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_4_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 3, 4, 8. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_4_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 3, 4, 8. The bottom row is labeled 'Output (d)' and shows the values 24, 36, 48, 96, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_4_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 3, 4, 8. The bottom row is labeled 'Output (d)' and shows the values 24, 36, 56, 96, in the same order, and the number 56 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c \\cdot 5$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_5",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 3, 8, 11, 12. The second row is labeled 'Output (d)' and contains the numbers 12, 40, 55, 60.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_5",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, Gordon multiplied each input by 4. He should have multiplied each input by 5.",
+        "No, Gordon didn't multiply correctly. When the input is 3, the output should be 15 because 3 times 5 is 15.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c \\cdot 5$, where $c$ is the input. This means we multiply each input by 5 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by multiplying each input by 5: $3 \\cdot 5 = 15$, $8 \\cdot 5 = 40$, $11 \\cdot 5 = 55$, $12 \\cdot 5 = 60$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote 12, 40, 55, 60. Three of these match our calculations, but when the input is 3, Gordon wrote 12 instead of 15."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 3, the output should be 15 because $3 \\cdot 5 = 15$, not 12. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_5_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 4, 7, 10, 11. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_5_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 4, 7, 10, 11. The bottom row is labeled 'Output (d)' and shows the values -6, -3, 0, 1, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_5_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 4, 7, 10, 11. The bottom row is labeled 'Output (d)' and shows the values -6, -3, 3, 1, in the same order, and the number 3 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Casey tried to find the next number in this pattern. The rule for the pattern is add 3. 12, 15, 18, Casey says the next number is 15. Is Casey correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_6",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 21 because 18 add 3 is 21.",
+        "No, the next number should be 18.",
+        "Yes, Casey is correct."
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 12, 15, 18, and the rule is add 3. To find the next number, we add 3 to the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Add 3 to 18: $18 + 3 = 21$"
+        ],
+        [
+          "3/3",
+          "Casey says the next number is 15, but our calculation shows it should be 21. Therefore, Casey is incorrect."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_6",
+      "solution_image_tag": []
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Jordan tried to find the next number in this pattern. The rule for the pattern is add 2. 18, 20, 22, Jordan says the next number is 22. Is Jordan correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_7",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 24 because 22 add 2 is 24.",
+        "No, the next number should be 26.",
+        "Yes, Jordan is correct."
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 18, 20, 22, and the rule is add 2. To find the next number, we add 2 to the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Add 2 to 22: $22 + 2 = 24$"
+        ],
+        [
+          "3/3",
+          "Jordan says the next number is 22, but our calculation shows it should be 24. Therefore, Jordan is incorrect."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_7",
+      "solution_image_tag": []
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Casey tried to find the next number in this pattern. The rule for the pattern is subtract 4. 29, 25, 21, Casey says the next number is 25. Is Casey correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_8",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 17 because 21 subtract 4 is 17.",
+        "No, the next number should be 19.",
+        "Yes, Casey is correct."
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 29, 25, 21, and the rule is subtract 4. To find the next number, we subtract 4 from the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Subtract 4 from 21: $21 - 4 = 17$"
+        ],
+        [
+          "3/3",
+          "Casey says the next number is 25, but our calculation shows it should be 17. Therefore, Casey is incorrect."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_8",
+      "solution_image_tag": []
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Morgan tried to find the next number in this pattern. The rule for the pattern is divide by 5. 250, 50, 10, Morgan says the next number is 2. Is Morgan correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_9",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 9 because 10 divide 5 is 6.",
+        "No, the next number should be -6 because 10 divide 5 is -3.",
+        "Yes, Morgan is correct."
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 250, 50, 10, and the rule is divide by 5. To find the next number, we divide 5 by the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Divide 5 by 10: $10 \u00f75 = 2$"
+        ],
+        [
+          "3/3",
+          "Morgan says the next number is 2, which matches our calculation. Therefore, Morgan is correct."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_9",
+      "solution_image_tag": []
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Morgan tried to find the next number in this pattern. The rule for the pattern is add 5. 6, 11, 16, Morgan says the next number is 16. Is Morgan correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_10",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 21 because 16 add 5 is 21.",
+        "No, the next number should be 18.",
+        "Yes, Morgan is correct."
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 6, 11, 16, and the rule is add 5. To find the next number, we add 5 to the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Add 5 to 16: $16 + 5 = 21$"
+        ],
+        [
+          "3/3",
+          "Morgan says the next number is 16, but our calculation shows it should be 21. Therefore, Morgan is incorrect."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_10",
+      "solution_image_tag": []
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Morgan tried to find the next number in this pattern. The rule for the pattern is divide by 3. 108, 36, 12, Morgan says the next number is 1. Is Morgan correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_11",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 8 because 12 divide 3 is 8.",
+        "No, the pattern is wrong. The next number should be 4.",
+        "Yes, Morgan is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 108, 36, 12, and the rule is divide by 3. To find the next number, we divide by 3 by the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Divide 3 by 12: $12 \u00f73 = 4$"
+        ],
+        [
+          "3/3",
+          "Morgan says the next number is 1, but our calculation shows it should be 4. Therefore, Morgan is incorrect."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_11",
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c + 6$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_12",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 2, 4, 6, 12. The second row is labeled 'Output (d)' and contains the numbers 3, 10, 12, 18.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_12",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, Gordon added wrong. When the input is 2, the output should be 8.",
+        "No, when the input is 4, the output should be 13.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c + 6$, where $c$ is the input. This means we add each input by 6 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by adding each input by 6: $2 + 6 = 8$, $4 + 6 = 10$, $6 + 6 = 12$, $12 + 6 = 18$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote 3, 10, 12, 18. Three of these match our calculations, but when the input is 2, Gordon wrote 3 instead of 8."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 2, the output should be 8 because $2 + 6 = 8$, not 3. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_12_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 3, 9, 14. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_12_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 3, 9, 14. The bottom row is labeled 'Output (d)' and shows the values 14, 15, 21, 26, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_12_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 3, 9, 14. The bottom row is labeled 'Output (d)' and shows the values 19, 15, 21, 26, in the same order, and the number 19 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Casey tried to find the next number in this pattern. The rule for the pattern is subtract 6. 45, 39, 33, Casey says the next number is 33. Is Casey correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_13",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 27 because 33 subtract 6 is 27.",
+        "No, the next number should be 30.",
+        "Yes, Casey is correct."
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 45, 39, 33, and the rule is subtract 6. To find the next number, we subtract 6 from the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Subtract 6 from 33: $33 - 6 = 27$"
+        ],
+        [
+          "3/3",
+          "Casey says the next number is 33, but our calculation shows it should be 27. Therefore, Casey is incorrect."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_13",
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c - 8$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_14",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 2, 6, 10, 14. The second row is labeled 'Output (d)' and contains the numbers -6, -2, 5, 6.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_14",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, when the input is 10, the output should be 5.",
+        "No, Gordon didn't follow the rule correctly. The output should be 2 when the input is 10.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c - 8$, where $c$ is the input. This means we subtract each input by 8 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by subtracting each input by 8: $2 - 8 = -6$, $6 - 8 = -2$, $10 - 8 = 2$, $14 - 8 = 6$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote -6, -2, 5, 6. Three of these match our calculations, but when the input is 10, Gordon wrote 5 instead of 2."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 10, the output should be 2 because $10 - 8 = 2$, not 5. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_14_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 3, 7, 10, 12. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_14_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 3, 7, 10, 12. The bottom row is labeled 'Output (d)' and shows the values 21, 49, 70, 84, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_14_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 3, 7, 10, 12. The bottom row is labeled 'Output (d)' and shows the values 21, 49, 60, 84, in the same order, and the number 60 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Morgan tried to find the next number in this pattern. The rule for the pattern is subtract 11. 64, 53, 42, Morgan says the next number is 31. Is Morgan correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_15",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 39 because 42 subtract 11 is 34.",
+        "No, the next number should be 28 because 42 subtract 11 is 24.",
+        "Yes, Morgan is correct."
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 64, 53, 42, and the rule is subtract 11. To find the next number, we subtract 11 from the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Subtract 11 from 42: $42 - 11 = 31$"
+        ],
+        [
+          "3/3",
+          "Morgan says the next number is 31, which matches our calculation. Therefore, Morgan is correct."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_15",
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c - 9$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_16",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 8, 10, 11, 13. The second row is labeled 'Output (d)' and contains the numbers 2, 1, 2, 4.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_16",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, Gordon subtracted wrong. When the input is 8, the output should be -1.",
+        "No, Gordon didn't follow the rule correctly. The output should be -1 when the input is 8.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c - 9$, where $c$ is the input. This means we subtract each input by 9 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by subtracting each input by 9: $8 - 9 = -1$, $10 - 9 = 1$, $11 - 9 = 2$, $13 - 9 = 4$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote 2, 1, 2, 4. Three of these match our calculations, but when the input is 8, Gordon wrote 2 instead of -1."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 8, the output should be -1 because $8 - 9 = -1$, not 2. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_16_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 4, 5, 7, 11. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_16_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 4, 5, 7, 11. The bottom row is labeled 'Output (d)' and shows the values 11, 12, 14, 18, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_16_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 4, 5, 7, 11. The bottom row is labeled 'Output (d)' and shows the values 11, 12, 19, 18, in the same order, and the number 19 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c \\cdot 11$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_17",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 6, 9, 10, 14. The second row is labeled 'Output (d)' and contains the numbers 66, 99, 110, 126.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_17",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, Gordon multiplied each input by 10. He should have multiplied each input by 11.",
+        "No, Gordon didn't multiply correctly. When the input is 14, the output should be 154 because 14 times 11 is 154.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c \\cdot 11$, where $c$ is the input. This means we multiply each input by 11 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by multiplying each input by 11: $6 \\cdot 11 = 66$, $9 \\cdot 11 = 99$, $10 \\cdot 11 = 110$, $14 \\cdot 11 = 154$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote 66, 99, 110, 126. Three of these match our calculations, but when the input is 14, Gordon wrote 126 instead of 154."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 14, the output should be 154 because $14 \\cdot 11 = 154$, not 126. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_17_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 6, 11, 12, 13. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_17_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 6, 11, 12, 13. The bottom row is labeled 'Output (d)' and shows the values 30, 55, 60, 65, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_17_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 6, 11, 12, 13. The bottom row is labeled 'Output (d)' and shows the values 30, 55, 60, 78, in the same order, and the number 78 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Quinn tried to find the next number in this pattern. The rule for the pattern is divide by 4. 384, 96, 24, Quinn says the next number is 6. Is Quinn correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_18",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 14 because 24 divide 4 is 9.",
+        "No, the next number should be -1 because 24 divide 4 is -2.",
+        "Yes, Quinn is correct."
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 384, 96, 24, and the rule is divide by 4. To find the next number, we divide 4 by the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Divide 4 by 24: $24 \u00f74 = 6$"
+        ],
+        [
+          "3/3",
+          "Quinn says the next number is 6, which matches our calculation. Therefore, Quinn is correct."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_18",
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c \\cdot 11$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_19",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 6, 8, 10, 11. The second row is labeled 'Output (d)' and contains the numbers 66, 88, 110, 110.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_19",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, Gordon multiplied each input by 10. He should have multiplied each input by 11.",
+        "No, Gordon didn't multiply correctly. When the input is 11, the output should be 121 because 11 times 11 is 121.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c \\cdot 11$, where $c$ is the input. This means we multiply each input by 11 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by multiplying each input by 11: $6 \\cdot 11 = 66$, $8 \\cdot 11 = 88$, $10 \\cdot 11 = 110$, $11 \\cdot 11 = 121$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote 66, 88, 110, 110. Three of these match our calculations, but when the input is 11, Gordon wrote 110 instead of 121."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 11, the output should be 121 because $11 \\cdot 11 = 121$, not 110. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_19_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 3, 9, 11, 14. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_19_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 3, 9, 11, 14. The bottom row is labeled 'Output (d)' and shows the values 21, 63, 77, 98, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_19_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 3, 9, 11, 14. The bottom row is labeled 'Output (d)' and shows the values 21, 54, 77, 98, in the same order, and the number 54 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c + 12$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_20",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 2, 6, 11, 13. The second row is labeled 'Output (d)' and contains the numbers 14, 18, 23, 20.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_20",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, Gordon added wrong. When the input is 13, the output should be 25.",
+        "No, when the input is 2, the output should be 17.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c + 12$, where $c$ is the input. This means we add each input by 12 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by adding each input by 12: $2 + 12 = 14$, $6 + 12 = 18$, $11 + 12 = 23$, $13 + 12 = 25$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote 14, 18, 23, 20. Three of these match our calculations, but when the input is 13, Gordon wrote 20 instead of 25."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 13, the output should be 25 because $13 + 12 = 25$, not 20. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_20_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 4, 6, 13. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_20_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 4, 6, 13. The bottom row is labeled 'Output (d)' and shows the values 24, 48, 72, 156, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_20_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 4, 6, 13. The bottom row is labeled 'Output (d)' and shows the values 24, 56, 72, 156, in the same order, and the number 56 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c + 11$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_21",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 3, 5, 8, 9. The second row is labeled 'Output (d)' and contains the numbers 14, 16, 24, 20.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_21",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, when the input is 3, the output should be 17.",
+        "No, Gordon didn't follow the rule correctly. The output should be 19 when the input is 8.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c + 11$, where $c$ is the input. This means we add each input by 11 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by adding each input by 11: $3 + 11 = 14$, $5 + 11 = 16$, $8 + 11 = 19$, $9 + 11 = 20$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote 14, 16, 24, 20. Three of these match our calculations, but when the input is 8, Gordon wrote 24 instead of 19."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 8, the output should be 19 because $8 + 11 = 19$, not 24. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_21_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 6, 7, 9, 10. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_21_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 6, 7, 9, 10. The bottom row is labeled 'Output (d)' and shows the values -1, 0, 2, 3, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_21_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 6, 7, 9, 10. The bottom row is labeled 'Output (d)' and shows the values -1, 0, -3, 3, in the same order, and the number -3 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c \\cdot 9$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_22",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 2, 4, 5, 6. The second row is labeled 'Output (d)' and contains the numbers 18, 44, 45, 54.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_22",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, Gordon multiplied each input by 8. He should have multiplied each input by 9.",
+        "No, Gordon didn't multiply correctly. When the input is 4, the output should be 36 because 4 times 9 is 36.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c \\cdot 9$, where $c$ is the input. This means we multiply each input by 9 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by multiplying each input by 9: $2 \\cdot 9 = 18$, $4 \\cdot 9 = 36$, $5 \\cdot 9 = 45$, $6 \\cdot 9 = 54$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote 18, 44, 45, 54. Three of these match our calculations, but when the input is 4, Gordon wrote 44 instead of 36."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 4, the output should be 36 because $4 \\cdot 9 = 36$, not 44. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_22_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 4, 6, 8, 10. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_22_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 4, 6, 8, 10. The bottom row is labeled 'Output (d)' and shows the values -5, -3, -1, 1, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_22_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 4, 6, 8, 10. The bottom row is labeled 'Output (d)' and shows the values -5, 2, -1, 1, in the same order, and the number 2 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c - 11$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_23",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 6, 7, 9, 11. The second row is labeled 'Output (d)' and contains the numbers -5, -4, -2, 5.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_23",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, when the input is 11, the output should be 3.",
+        "No, Gordon didn't follow the rule correctly. The output should be 0 when the input is 11.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c - 11$, where $c$ is the input. This means we subtract each input by 11 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by subtracting each input by 11: $6 - 11 = -5$, $7 - 11 = -4$, $9 - 11 = -2$, $11 - 11 = 0$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote -5, -4, -2, 5. Three of these match our calculations, but when the input is 11, Gordon wrote 5 instead of 0."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 11, the output should be 0 because $11 - 11 = 0$, not 5. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_23_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 10, 11, 12. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_23_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 10, 11, 12. The bottom row is labeled 'Output (d)' and shows the values 24, 120, 132, 144, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_23_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 10, 11, 12. The bottom row is labeled 'Output (d)' and shows the values 24, 100, 132, 144, in the same order, and the number 100 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c - 5$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_24",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 3, 4, 8, 12. The second row is labeled 'Output (d)' and contains the numbers -2, -6, 3, 7.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_24",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, Gordon subtracted wrong. When the input is 4, the output should be -1.",
+        "No, Gordon didn't follow the rule correctly. The output should be -1 when the input is 4.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c - 5$, where $c$ is the input. This means we subtract each input by 5 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by subtracting each input by 5: $3 - 5 = -2$, $4 - 5 = -1$, $8 - 5 = 3$, $12 - 5 = 7$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote -2, -6, 3, 7. Three of these match our calculations, but when the input is 4, Gordon wrote -6 instead of -1."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 4, the output should be -1 because $4 - 5 = -1$, not -6. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_24_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 3, 10, 12. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_24_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 3, 10, 12. The bottom row is labeled 'Output (d)' and shows the values 11, 12, 19, 21, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_24_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 3, 10, 12. The bottom row is labeled 'Output (d)' and shows the values 14, 12, 19, 21, in the same order, and the number 14 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c \\cdot 12$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_25",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 8, 10, 12, 14. The second row is labeled 'Output (d)' and contains the numbers 96, 120, 144, 154.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_25",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, Gordon multiplied each input by 11. He should have multiplied each input by 12.",
+        "No, Gordon didn't multiply correctly. When the input is 14, the output should be 168 because 14 times 12 is 168.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c \\cdot 12$, where $c$ is the input. This means we multiply each input by 12 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by multiplying each input by 12: $8 \\cdot 12 = 96$, $10 \\cdot 12 = 120$, $12 \\cdot 12 = 144$, $14 \\cdot 12 = 168$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote 96, 120, 144, 154. Three of these match our calculations, but when the input is 14, Gordon wrote 154 instead of 168."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 14, the output should be 168 because $14 \\cdot 12 = 168$, not 154. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_25_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 6, 8, 9, 11. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_25_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 6, 8, 9, 11. The bottom row is labeled 'Output (d)' and shows the values 1, 3, 4, 6, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_25_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 6, 8, 9, 11. The bottom row is labeled 'Output (d)' and shows the values 1, 3, 4, 11, in the same order, and the number 11 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Quinn tried to find the next number in this pattern. The rule for the pattern is add 11. 11, 22, 33, Quinn says the next number is 44. Is Quinn correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_26",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 51 because 33 add 11 is 48.",
+        "No, the next number should be 38 because 33 add 11 is 37.",
+        "Yes, Quinn is correct."
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 11, 22, 33, and the rule is add 11. To find the next number, we add 11 to the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Add 11 to 33: $33 + 11 = 44$"
+        ],
+        [
+          "3/3",
+          "Quinn says the next number is 44, which matches our calculation. Therefore, Quinn is correct."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_26",
+      "solution_image_tag": []
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Taylor tried to find the next number in this pattern. The rule for the pattern is add 7. 16, 23, 30, Taylor says the next number is 30. Is Taylor correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_27",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 34 because 30 add 7 is 34.",
+        "No, the pattern is wrong. The next number should be 37.",
+        "Yes, Taylor is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 16, 23, 30, and the rule is add 7. To find the next number, we add 7 to the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Add 7 to 30: $30 + 7 = 37$"
+        ],
+        [
+          "3/3",
+          "Taylor says the next number is 30, but our calculation shows it should be 37. Therefore, Taylor is incorrect."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_27",
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c \\cdot 11$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_28",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 5, 6, 7, 11. The second row is labeled 'Output (d)' and contains the numbers 50, 66, 77, 121.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_28",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, Gordon multiplied each input by 10. He should have multiplied each input by 11.",
+        "No, Gordon didn't multiply correctly. When the input is 5, the output should be 55 because 5 times 11 is 55.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c \\cdot 11$, where $c$ is the input. This means we multiply each input by 11 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by multiplying each input by 11: $5 \\cdot 11 = 55$, $6 \\cdot 11 = 66$, $7 \\cdot 11 = 77$, $11 \\cdot 11 = 121$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote 50, 66, 77, 121. Three of these match our calculations, but when the input is 5, Gordon wrote 50 instead of 55."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 5, the output should be 55 because $5 \\cdot 11 = 55$, not 50. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_28_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 5, 7, 12, 13. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_28_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 5, 7, 12, 13. The bottom row is labeled 'Output (d)' and shows the values 40, 56, 96, 104, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_28_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 5, 7, 12, 13. The bottom row is labeled 'Output (d)' and shows the values 40, 49, 96, 104, in the same order, and the number 49 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Riley tried to find the next number in this pattern. The rule for the pattern is multiply by 2. 3, 6, 12, Riley says the next number is 22. Is Riley correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_29",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 24 because 12 multiply 2 is 24.",
+        "No, the next number should be 26.",
+        "Yes, Riley is correct."
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 3, 6, 12, and the rule is multiply by 2. To find the next number, we multiply by 2 by the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Multiply 2 by 12: $12 \u00d72 = 24$"
+        ],
+        [
+          "3/3",
+          "Riley says the next number is 22, but our calculation shows it should be 24. Therefore, Riley is incorrect."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_29",
+      "solution_image_tag": []
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Riley tried to find the next number in this pattern. The rule for the pattern is subtract 15. 62, 47, 32, Riley says the next number is 2. Is Riley correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_30",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 17 because 32 subtract 15 is 17.",
+        "No, the next number should be 14.",
+        "Yes, Riley is correct."
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 62, 47, 32, and the rule is subtract 15. To find the next number, we subtract 15 from the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Subtract 15 from 32: $32 - 15 = 17$"
+        ],
+        [
+          "3/3",
+          "Riley says the next number is 2, but our calculation shows it should be 17. Therefore, Riley is incorrect."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_30",
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c \\cdot 11$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_31",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 3, 12, 13, 14. The second row is labeled 'Output (d)' and contains the numbers 33, 132, 130, 154.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_31",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, Gordon multiplied each input by 10. He should have multiplied each input by 11.",
+        "No, Gordon didn't multiply correctly. When the input is 13, the output should be 143 because 13 times 11 is 143.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c \\cdot 11$, where $c$ is the input. This means we multiply each input by 11 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by multiplying each input by 11: $3 \\cdot 11 = 33$, $12 \\cdot 11 = 132$, $13 \\cdot 11 = 143$, $14 \\cdot 11 = 154$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote 33, 132, 130, 154. Three of these match our calculations, but when the input is 13, Gordon wrote 130 instead of 143."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 13, the output should be 143 because $13 \\cdot 11 = 143$, not 130. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_31_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 3, 12, 13. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_31_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 3, 12, 13. The bottom row is labeled 'Output (d)' and shows the values 22, 33, 132, 143, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_31_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 3, 12, 13. The bottom row is labeled 'Output (d)' and shows the values 22, 36, 132, 143, in the same order, and the number 36 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c + 6$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_32",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 2, 5, 6, 11. The second row is labeled 'Output (d)' and contains the numbers 4, 10, 11, 16.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_32",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, Gordon added wrong. When the input is 2, the output should be 7.",
+        "No, when the input is 2, the output should be 4.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c + 5$, where $c$ is the input. This means we add each input by 5 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by adding each input by 5: $2 + 5 = 7$, $5 + 5 = 10$, $6 + 5 = 11$, $11 + 5 = 16$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote 4, 10, 11, 16. Three of these match our calculations, but when the input is 2, Gordon wrote 4 instead of 7."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 2, the output should be 7 because $2 + 5 = 7$, not 4. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_32_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 3, 7, 11, 14. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_32_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 3, 7, 11, 14. The bottom row is labeled 'Output (d)' and shows the values 13, 17, 21, 24, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_32_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 3, 7, 11, 14. The bottom row is labeled 'Output (d)' and shows the values 13, 17, 18, 24, in the same order, and the number 18 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Jordan tried to find the next number in this pattern. The rule for the pattern is divide by 5. 250, 50, 10, Jordan says the next number is 7. Is Jordan correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_33",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 0 because 10 divide 5 is 0.",
+        "No, the pattern is wrong. The next number should be 2.",
+        "Yes, Jordan is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 250, 50, 10, and the rule is divide by 5. To find the next number, we divide by 5 by the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Divide 5 by 10: $10 \u00f75 = 2$"
+        ],
+        [
+          "3/3",
+          "Jordan says the next number is 7, but our calculation shows it should be 2. Therefore, Jordan is incorrect."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_33",
+      "solution_image_tag": []
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Jordan tried to find the next number in this pattern. The rule for the pattern is subtract 7. 52, 45, 38, Jordan says the next number is 45. Is Jordan correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_34",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 31 because 38 subtract 7 is 31.",
+        "No, the next number should be 33.",
+        "Yes, Jordan is correct."
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 52, 45, 38, and the rule is subtract 7. To find the next number, we subtract 7 from the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Subtract 7 from 38: $38 - 7 = 31$"
+        ],
+        [
+          "3/3",
+          "Jordan says the next number is 45, but our calculation shows it should be 31. Therefore, Jordan is incorrect."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_34",
+      "solution_image_tag": []
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Casey tried to find the next number in this pattern. The rule for the pattern is subtract 15. 95, 80, 65, Casey says the next number is 50. Is Casey correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_35",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 53 because 65 subtract 15 is 58.",
+        "No, the next number should be 46 because 65 subtract 15 is 45.",
+        "Yes, Casey is correct."
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 95, 80, 65, and the rule is subtract 15. To find the next number, we subtract 15 from the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Subtract 15 from 65: $65 - 15 = 50$"
+        ],
+        [
+          "3/3",
+          "Casey says the next number is 50, which matches our calculation. Therefore, Casey is correct."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_35",
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c + 8$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_36",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 2, 4, 12, 14. The second row is labeled 'Output (d)' and contains the numbers 10, 12, 25, 22.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_36",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, when the input is 2, the output should be 13.",
+        "No, Gordon didn't follow the rule correctly. The output should be 20 when the input is 12.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c + 8$, where $c$ is the input. This means we add each input by 8 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by adding each input by 8: $2 + 8 = 10$, $4 + 8 = 12$, $12 + 8 = 20$, $14 + 8 = 22$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote 10, 12, 25, 22. Three of these match our calculations, but when the input is 12, Gordon wrote 25 instead of 20."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 12, the output should be 20 because $12 + 8 = 20$, not 25. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_36_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 3, 9, 11, 12. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_36_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 3, 9, 11, 12. The bottom row is labeled 'Output (d)' and shows the values 27, 81, 99, 108, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_36_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 3, 9, 11, 12. The bottom row is labeled 'Output (d)' and shows the values 27, 81, 99, 120, in the same order, and the number 120 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c \\cdot 7$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_37",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 3, 8, 9, 11. The second row is labeled 'Output (d)' and contains the numbers 21, 40, 63, 77.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_37",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, Gordon multiplied each input by 6. He should have multiplied each input by 7.",
+        "No, Gordon didn't multiply correctly. When the input is 8, the output should be 56 because 8 times 7 is 56.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c \\cdot 7$, where $c$ is the input. This means we multiply each input by 7 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by multiplying each input by 7: $3 \\cdot 7 = 21$, $8 \\cdot 7 = 56$, $9 \\cdot 7 = 63$, $11 \\cdot 7 = 77$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote 21, 40, 63, 77. Three of these match our calculations, but when the input is 8, Gordon wrote 40 instead of 56."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 8, the output should be 56 because $8 \\cdot 7 = 56$, not 40. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_37_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 5, 8, 10, 14. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_37_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 5, 8, 10, 14. The bottom row is labeled 'Output (d)' and shows the values 35, 56, 70, 98, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_37_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 5, 8, 10, 14. The bottom row is labeled 'Output (d)' and shows the values 35, 56, 50, 98, in the same order, and the number 50 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c \\cdot 6$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_38",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 3, 4, 8, 14. The second row is labeled 'Output (d)' and contains the numbers 18, 24, 48, 56.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_38",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, Gordon multiplied each input by 5. He should have multiplied each input by 6.",
+        "No, Gordon didn't multiply correctly. When the input is 14, the output should be 84 because 14 times 6 is 84.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c \\cdot 6$, where $c$ is the input. This means we multiply each input by 6 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by multiplying each input by 6: $3 \\cdot 6 = 18$, $4 \\cdot 6 = 24$, $8 \\cdot 6 = 48$, $14 \\cdot 6 = 84$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote 18, 24, 48, 56. Three of these match our calculations, but when the input is 14, Gordon wrote 56 instead of 84."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 14, the output should be 84 because $14 \\cdot 6 = 84$, not 56. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_38_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 3, 8, 10, 13. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_38_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 3, 8, 10, 13. The bottom row is labeled 'Output (d)' and shows the values 15, 20, 22, 25, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_38_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 3, 8, 10, 13. The bottom row is labeled 'Output (d)' and shows the values 15, 17, 22, 25, in the same order, and the number 17 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Riley tried to find the next number in this pattern. The rule for the pattern is add 8. 25, 33, 41, Riley says the next number is 49. Is Riley correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_39",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 56 because 41 add 8 is 54.",
+        "No, the next number should be 43 because 41 add 8 is 46.",
+        "Yes, Riley is correct."
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 25, 33, 41, and the rule is add 8. To find the next number, we add 8 to the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Add 8 to 41: $41 + 8 = 49$"
+        ],
+        [
+          "3/3",
+          "Riley says the next number is 49, which matches our calculation. Therefore, Riley is correct."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_39",
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c \\cdot 9$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_40",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 4, 10, 11, 13. The second row is labeled 'Output (d)' and contains the numbers 36, 70, 99, 117.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_40",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, Gordon multiplied each input by 8. He should have multiplied each input by 9.",
+        "No, Gordon didn't multiply correctly. When the input is 10, the output should be 90 because 10 times 9 is 90.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c \\cdot 9$, where $c$ is the input. This means we multiply each input by 9 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by multiplying each input by 9: $4 \\cdot 9 = 36$, $10 \\cdot 9 = 90$, $11 \\cdot 9 = 99$, $13 \\cdot 9 = 117$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote 36, 70, 99, 117. Three of these match our calculations, but when the input is 10, Gordon wrote 70 instead of 90."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 10, the output should be 90 because $10 \\cdot 9 = 90$, not 70. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_40_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 4, 5, 11, 12. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_40_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 4, 5, 11, 12. The bottom row is labeled 'Output (d)' and shows the values 48, 60, 132, 144, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_40_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 4, 5, 11, 12. The bottom row is labeled 'Output (d)' and shows the values 48, 60, 121, 144, in the same order, and the number 121 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c - 10$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_41",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 9, 10, 13, 14. The second row is labeled 'Output (d)' and contains the numbers -1, 0, 3, 1.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_41",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, Gordon subtracted wrong. When the input is 14, the output should be 4.",
+        "No, when the input is 14, the output should be 2.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c - 10$, where $c$ is the input. This means we subtract each input by 10 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by subtracting each input by 10: $9 - 10 = -1$, $10 - 10 = 0$, $13 - 10 = 3$, $14 - 10 = 4$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote -1, 0, 3, 1. Three of these match our calculations, but when the input is 14, Gordon wrote 1 instead of 4."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 14, the output should be 4 because $14 - 10 = 4$, not 1. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_41_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 4, 6, 7. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_41_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 4, 6, 7. The bottom row is labeled 'Output (d)' and shows the values 10, 20, 30, 35, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_41_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 4, 6, 7. The bottom row is labeled 'Output (d)' and shows the values 10, 20, 18, 35, in the same order, and the number 18 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c - 8$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_42",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 3, 9, 11, 14. The second row is labeled 'Output (d)' and contains the numbers -5, -4, 3, 6.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_42",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, when the input is 9, the output should be 6.",
+        "No, Gordon didn't follow the rule correctly. The output should be 1 when the input is 9.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c - 8$, where $c$ is the input. This means we subtract each input by 8 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by subtracting each input by 8: $3 - 8 = -5$, $9 - 8 = 1$, $11 - 8 = 3$, $14 - 8 = 6$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote -5, -4, 3, 6. Three of these match our calculations, but when the input is 9, Gordon wrote -4 instead of 1."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 9, the output should be 1 because $9 - 8 = 1$, not -4. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_42_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 5, 7, 10, 14. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_42_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 5, 7, 10, 14. The bottom row is labeled 'Output (d)' and shows the values -2, 0, 3, 7, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_42_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 5, 7, 10, 14. The bottom row is labeled 'Output (d)' and shows the values 1, 0, 3, 7, in the same order, and the number 1 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Jordan tried to find the next number in this pattern. The rule for the pattern is divide by 2. 48, 24, 12, Jordan says the next number is 4. Is Jordan correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_43",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 8 because 12 divide 2 is 8.",
+        "No, the pattern is wrong. The next number should be 6.",
+        "Yes, Jordan is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 48, 24, 12, and the rule is divide by 2. To find the next number, we divide by 2 by the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Divide 2 by 12: $12 \u00f72 = 6$"
+        ],
+        [
+          "3/3",
+          "Jordan says the next number is 4, but our calculation shows it should be 6. Therefore, Jordan is incorrect."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_43",
+      "solution_image_tag": []
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Alex tried to find the next number in this pattern. The rule for the pattern is multiply by 2. 4, 8, 16, Alex says the next number is 36. Is Alex correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_44",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 32 because 16 multiply 2 is 32.",
+        "No, the next number should be 34.",
+        "Yes, Alex is correct."
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 4, 8, 16, and the rule is multiply by 2. To find the next number, we multiply by 2 by the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Multiply 2 by 16: $16 \u00d72 = 32$"
+        ],
+        [
+          "3/3",
+          "Alex says the next number is 36, but our calculation shows it should be 32. Therefore, Alex is incorrect."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_44",
+      "solution_image_tag": []
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Alex tried to find the next number in this pattern. The rule for the pattern is add 4. 17, 21, 25, Alex says the next number is 21. Is Alex correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_45",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 31 because 25 add 4 is 31.",
+        "No, the pattern is wrong. The next number should be 29.",
+        "Yes, Alex is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 17, 21, 25, and the rule is add 4. To find the next number, we add 4 to the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Add 4 to 25: $25 + 4 = 29$"
+        ],
+        [
+          "3/3",
+          "Alex says the next number is 21, but our calculation shows it should be 29. Therefore, Alex is incorrect."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_45",
+      "solution_image_tag": []
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Quinn tried to find the next number in this pattern. The rule for the pattern is add 8. 12, 20, 28, Quinn says the next number is 20. Is Quinn correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_46",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 36 because 28 add 8 is 36.",
+        "No, the next number should be 39.",
+        "Yes, Quinn is correct."
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 12, 20, 28, and the rule is add 8. To find the next number, we add 8 to the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Add 8 to 28: $28 + 8 = 36$"
+        ],
+        [
+          "3/3",
+          "Quinn says the next number is 20, but our calculation shows it should be 36. Therefore, Quinn is incorrect."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_46",
+      "solution_image_tag": []
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Sam tried to find the next number in this pattern. The rule for the pattern is add 3. 6, 9, 12, Sam says the next number is 21. Is Sam correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_47",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 18 because 12 add 3 is 18.",
+        "No, the pattern is wrong. The next number should be 15.",
+        "Yes, Sam is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 6, 9, 12, and the rule is add 3. To find the next number, we add 3 to the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Add 3 to 12: $12 + 3 = 15$"
+        ],
+        [
+          "3/3",
+          "Sam says the next number is 21, but our calculation shows it should be 15. Therefore, Sam is incorrect."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_47",
+      "solution_image_tag": []
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Casey tried to find the next number in this pattern. The rule for the pattern is multiply by 3. 1, 3, 9, Casey says the next number is 27. Is Casey correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_48",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 30 because 9 multiply 3 is 30.",
+        "No, the next number should be 20 because 9 multiply 3 is 19.",
+        "Yes, Casey is correct."
+      ],
+      "correct_answers": [
+        "C"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 1, 3, 9, and the rule is multiply by 3. To find the next number, we multiply 3 by the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Multiply 3 by 9: $9 \u00d73 = 27$"
+        ],
+        [
+          "3/3",
+          "Casey says the next number is 27, which matches our calculation. Therefore, Casey is correct."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_48",
+      "solution_image_tag": []
+    },
+    {
+      "skills": "identify-mistakes-in-number-patterns",
+      "question_text": "Riley tried to find the next number in this pattern. The rule for the pattern is divide by 4. 192, 48, 12, Riley says the next number is -1. Is Riley correct?",
+      "tag": "Gr6_36_E1",
+      "question_number": "1_49",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "choices": [
+        "No, the next number should be 3 because 12 divide 4 is 3.",
+        "No, the next number should be 1.",
+        "Yes, Riley is correct."
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/3",
+          "The pattern is 192, 48, 12, and the rule is divide by 4. To find the next number, we divide by 4 by the last number in the pattern."
+        ],
+        [
+          "2/3",
+          "Divide 4 by 12: $12 \u00f74 = 3$"
+        ],
+        [
+          "3/3",
+          "Riley says the next number is -1, but our calculation shows it should be 3. Therefore, Riley is incorrect."
+        ]
+      ],
+      "has_alternate_answers": false,
+      "image_tag": "Gr6_36_1_49",
+      "solution_image_tag": []
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c - 9$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_50",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 2, 3, 7, 11. The second row is labeled 'Output (d)' and contains the numbers -7, -6, -5, 2.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_50",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, Gordon subtracted wrong. When the input is 7, the output should be -2.",
+        "No, Gordon didn't follow the rule correctly. The output should be -2 when the input is 7.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "B"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c - 9$, where $c$ is the input. This means we subtract each input by 9 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by subtracting each input by 9: $2 - 9 = -7$, $3 - 9 = -6$, $7 - 9 = -2$, $11 - 9 = 2$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote -7, -6, -5, 2. Three of these match our calculations, but when the input is 7, Gordon wrote -5 instead of -2."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 7, the output should be -2 because $7 - 9 = -2$, not -5. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_50_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 4, 9, 13. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_50_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 4, 9, 13. The bottom row is labeled 'Output (d)' and shows the values -9, -7, -2, 2, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_50_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 2, 4, 9, 13. The bottom row is labeled 'Output (d)' and shows the values -9, -7, -2, 7, in the same order, and the number 7 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    },
+    {
+      "question_text": "Gordon tried to complete this input/output table using the rule. Rule: The output is $c + 7$. Is Gordon's table correct?",
+      "skills": "identify-mistakes-in-number-patterns",
+      "image_tag": "Gr6_36_1_51",
+      "backend_description": "This image shows a table with two rows. The first row is labeled 'Input (c)' and contains the numbers 2, 5, 6, 11. The second row is labeled 'Output (d)' and contains the numbers 4, 10, 11, 16.",
+      "question_type": "Multiple Choice Question with Single Answer",
+      "question_number": "1_51",
+      "tag": "Gr6_36_E1",
+      "choices": [
+        "No, Gordon added wrong. When the input is 2, the output should be 7.",
+        "No, when the input is 2, the output should be 5.",
+        "Yes, Gordon's table is correct."
+      ],
+      "correct_answers": [
+        "A"
+      ],
+      "solution": [
+        [
+          "1/4",
+          "The rule says the output is $c + 5$, where $c$ is the input. This means we add each input by 5 to get the output."
+        ],
+        [
+          "2/4",
+          "Let's check Gordon's work by adding each input by 5: $2 + 5 = 7$, $5 + 5 = 10$, $6 + 5 = 11$, $11 + 5 = 16$."
+        ],
+        [
+          "3/4",
+          "Comparing our answers with Gordon's table, Gordon wrote 4, 10, 11, 16. Three of these match our calculations, but when the input is 2, Gordon wrote 4 instead of 7."
+        ],
+        [
+          "4/4",
+          "Gordon made a calculation error. When the input is 2, the output should be 7 because $2 + 5 = 7$, not 4. Therefore, Gordon's table is incorrect."
+        ]
+      ],
+      "solution_image_tag": [
+        [
+          "1/4",
+          "Gr6_36_1_51_step_1",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 3, 7, 11, 14. The bottom row is labeled 'Output (d)' and shows question marks under each input, indicating that the output values are missing and need to be determined."
+        ],
+        [
+          "2/4",
+          "Gr6_36_1_51_step_2",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 3, 7, 11, 14. The bottom row is labeled 'Output (d)' and shows the values 13, 17, 21, 24, in the same order, and are bolded."
+        ],
+        [
+          "3/4",
+          "Gr6_36_1_51_step_3",
+          "This image shows a two-row input-output table. The top row is labeled 'Input (c)' and contains the values 3, 7, 11, 14. The bottom row is labeled 'Output (d)' and shows the values 13, 17, 18, 24, in the same order, and the number 18 is highlighted in red."
+        ]
+      ],
+      "has_alternate_answers": false
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Line: 6/4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            min-width: 900px;
+        }
+        .item {
+            position: relative;
+            display: inline-block;
+            width: 820px;
+            padding: 0 10px;
+        }
+        .line {
+            width: 800px;
+            height: 3px;
+            background-color: #333;
+            position: relative;
+            margin: 80px 0 60px 0;
+        }
+        .tick {
+            position: absolute;
+            width: 2px;
+            height: 20px;
+            background-color: #333;
+            top: -8px;
+        }
+        .tick-major {
+            height: 25px;
+            top: -11px;
+            width: 3px;
+            background-color: #000;
+        }
+        .tick-label {
+            position: absolute;
+            top: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            text-align: center;
+            width: 60px;
+            margin-left: -30px;
+            color: #333;
+        }
+        .fraction-point {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background-color: #FF4444;
+            border-radius: 50%;
+            top: -4px;
+            margin-left: -6px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        .fraction-label {
+            position: absolute;
+            top: -45px;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            width: 60px;
+            margin-left: -30px;
+            color: #FF4444;
+            background-color: white;
+            padding: 2px 4px;
+            border-radius: 4px;
+            border: 2px solid #FF4444;
+        }
+        .arrow {
+            position: absolute;
+            top: -8px;
+            width: 0;
+            height: 0;
+        }
+        .arrow-left {
+            left: -10px;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-right: 8px solid #333;
+        }
+        .arrow-right {
+            right: -10px;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 8px solid #333;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Number Line: 6/4</div>
+        <div class="item" label="Gr6_24_2_51">
+            <div class="line">
+                <div class="arrow arrow-left"></div>
+                <div class="arrow arrow-right"></div>        <div class="tick" style="left: 20.0px;"></div>
+        <div class="tick-label" style="left: 20.0px;">0</div>
+        <div class="tick" style="left: 115.0px;"></div>
+        <div class="tick" style="left: 210.0px;"></div>
+        <div class="tick" style="left: 305.0px;"></div>
+        <div class="tick" style="left: 400.0px;"></div>
+        <div class="tick-label" style="left: 400.0px;">1</div>
+        <div class="tick" style="left: 495.0px;"></div>
+        <div class="tick" style="left: 590.0px;"></div>
+        <div class="tick-label" style="left: 590.0px;">3/2</div>
+        <div class="tick" style="left: 685.0px;"></div>
+        <div class="tick" style="left: 780.0px;"></div>
+        <div class="tick-label" style="left: 780.0px;">2</div>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead0" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 20.0 40 Q 67.5 10 115.0 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead0)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead1" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 115.0 40 Q 162.5 10 210.0 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead1)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead2" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 210.0 40 Q 257.5 10 305.0 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead2)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead3" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 305.0 40 Q 352.5 10 400.0 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead3)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead4" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 400.0 40 Q 447.5 10 495.0 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead4)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead5" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 495.0 40 Q 542.5 10 590.0 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead5)" />
+        </svg>
+        <div class="fraction-point" style="left: 590.0px;"></div>
+        <div class="fraction-label" style="left: 590.0px;">6/4</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,321 @@
+[
+  {
+    "question_text": "You roll a 6-sided die.\nWhat is P(not even)?",
+    "skills": "probability-of-opposite-mutually-exclusive-and-overlapping-events",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "2_3",
+    "tag": "Gr6_45_E2",
+    "choices": [
+      "40%",
+      "60%",
+      "50%",
+      "20%"
+    ],
+    "correct_answers": [
+      "C"
+    ],
+    "solution": [
+      [
+        "1/5",
+        "Remember, P(not A) = 1 - P(A)"
+      ],
+      [
+        "2/5",
+        "Find P(even). The die has 6 sides, numbered 1, 2, 3, 4, 5 and 6. The even numbers are 2, 4 and 6. There are 3 even numbers.\n$P(even) = \\frac{3}{6}$"
+      ],
+      [
+        "3/5",
+        "Now find P(not even)."
+      ],
+      [
+        "4/5",
+        "P(not even)\n=1 - P(even)\n=1 - $\\frac{3}{6}$\n=$\\frac{3}{6}$"
+      ],
+      [
+        "5/5",
+        "Write your answer as a decimal. Then convert your answer to a percentage.\n$\\frac{3}{6} = 0.5 = 50\\%$\nP(not even) = 50%."
+      ]
+    ]
+  },
+  {
+    "question_text": "You pick a card at random.\nWhat is P(not even)?\nWrite your answer as a decimal.\n __",
+    "skills": "probability-of-opposite-mutually-exclusive-and-overlapping-events",
+    "image_tag": "Gr6_45_2_4",
+    "backend_description": "This image shows 8 green cards arranged in two rows of 4 cards each. The top row shows the numbers 2, 3, 4, and 5, while the bottom row shows the numbers 6, 7, 8, and 9.",
+    "question_type": "Fill in the blank",
+    "question_number": "2_4",
+    "tag": "Gr6_45_E2",
+    "correct_answers": [
+      "0.5"
+    ],
+    "solution": [
+      [
+        "1/5",
+        "Remember, P(not A) = 1 - P(A)"
+      ],
+      [
+        "2/5",
+        "Find P(even). There are 8 cards, numbered 2, 3, 4, 5, 6, 7, 8 and 9. The even numbers are 2, 4, 6 and 8. There are 4 even numbers.\n$P(even) = \\frac{4}{8}$"
+      ],
+      [
+        "3/5",
+        "Now find P(not even)."
+      ],
+      [
+        "4/5",
+        "P(not even)\n=1 - P(even)\n=1 - $\\frac{4}{8}$\n=$\\frac{4}{8}$"
+      ],
+      [
+        "5/5",
+        "Write your answer as a decimal.\n$\\frac{4}{8} = 0.5$\nP(not even) = 0.5."
+      ]
+    ]
+  },
+  {
+    "skills": "make-predictions-using-theoretical-probability",
+    "question_text": "If you roll a 6-sided die 6 times, what is the best prediction possible for the number of times you will roll a three?",
+    "tag": "Gr6_45_E3",
+    "question_number": "3_1",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "1",
+      "3",
+      "2",
+      "0"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/6",
+        "Remember, the probability is the number of favourable outcomes out of the number of possible outcomes."
+      ],
+      [
+        "2/6",
+        "There are 6 possible outcomes: 1, 2, 3, 4, 5, 6."
+      ],
+      [
+        "3/6",
+        "There is 1 favourable outcome: 3."
+      ],
+      [
+        "4/6",
+        "The probability is 1 out of 6, or $\\frac{1}{6}$."
+      ],
+      [
+        "5/6",
+        "Now find $\\frac{1}{6}$ of 6.\n$\\frac{1}{6} \\cdot 6 = 1$"
+      ],
+      [
+        "6/6",
+        "The best prediction possible is 1 out of 6 times."
+      ]
+    ]
+  },
+  {
+    "question_text": "If you flip a coin 8 times, what is the best prediction possible for the number of times it will land on heads?\n___",
+    "skills": "make-predictions-using-theoretical-probability",
+    "question_type": "Fill in the blank",
+    "question_number": "3_2",
+    "tag": "Gr6_45_E3",
+    "correct_answers": [
+      "4"
+    ],
+    "solution": [
+      [
+        "1/6",
+        "Remember, the probability is the number of favourable outcomes out of the number of possible outcomes."
+      ],
+      [
+        "2/6",
+        "There are 2 possible outcomes: heads or tails."
+      ],
+      [
+        "3/6",
+        "There is 1 favourable outcome: heads."
+      ],
+      [
+        "4/6",
+        "The probability is 1 out of 2, or $\\frac{1}{2}$."
+      ],
+      [
+        "5/6",
+        "Now find $\\frac{1}{2}$ of 8. $\\frac{1}{2} \\times 8 = 4$"
+      ],
+      [
+        "6/6",
+        "The best prediction possible is 4 out of 8 times."
+      ]
+    ]
+  },
+  {
+    "skills": "make-predictions-using-experimental-probability",
+    "question_text": "At Burger Haven, 9 of the last 18 customers wanted cheese on their burgers. Considering this data, how many of the next 14 customers would you expect to want cheese?\n___ customers",
+    "tag": "Gr6_45_E4",
+    "question_number": "4_1",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "7"
+    ],
+    "solution": [
+      [
+        "1/6",
+        "Remember, the experimental probability is the number of times an event occurs out of the total number of trials."
+      ],
+      [
+        "2/6",
+        "First write the experimental probability as a fraction in simplest form.\nP(cheese) \n= $\\frac{\\text{cheese}}{\\text{total}}$\n= $\\frac{9}{18}$\n= $\\frac{1}{2}$.\nThe experimental probability is $\\frac{1}{2}$"
+      ],
+      [
+        "3/6",
+        "We can predict the outcome of the second set of trials by assuming that the ratio will be the same as in the first set of trials. Write a proportion by setting the two ratios equal to each other, then solve."
+      ],
+      [
+        "4/6",
+        "$\\frac{1}{2} = \\frac{n}{14}$"
+      ],
+      [
+        "5/6",
+        "$\\frac{1}{2}(2 \\cdot 14) = \\frac{n}{14}(2 \\cdot 14)  \\quad \\text{Multiply both sides by } (2 \\cdot 14)$\n$1 \\times 14 = 2n \\quad \\text{Simplify}$\n$14 = 2n \\quad \\text{Simplify}$\n$7 = n \\quad \\text{Divide both sides by 2}$"
+      ],
+      [
+        "6/6",
+        "You would expect 7 of the next 14 customers to want cheese."
+      ]
+    ]
+  },
+  {
+    "skills": "experimental-probability",
+    "question_text": "Of the last 10 contestants on a game show, 4 won a prize. What is the experimental probability that the next contestant will win a prize?\nWrite your answer as a fraction or whole number.\nP(win) = ___",
+    "tag": "Gr6_45_E5",
+    "question_number": "5_1",
+    "question_type": "Fill in the blank",
+    "correct_answers": [
+      "2/5"
+    ],
+    "solution": [
+      [
+        "1/4",
+        "Remember, the experimental probability is the number of times an event occurs out of the the total number of trials."
+      ],
+      [
+        "2/4",
+        "Write the experimental probability as a fraction in simplest form."
+      ],
+      [
+        "3/4",
+        "P(win) = $\\frac{\\text{wins}}{\\text{total}}$ = $\\frac{4}{10}$=$\\frac{2}{5}$"
+      ],
+      [
+        "4/4",
+        "So, P(win) = $\\frac{2}{5}$"
+      ]
+    ]
+  },
+  {
+    "question_text": "Which words describe this shape? Choose all that apply.",
+    "skills": "classify-quadrilaterals",
+    "image_tag": "Gr6_46_1_1",
+    "backend_description": "This image shows a green shape with 4 sides. The sides are not all the same length, and the angles are not all right angles, and there are no parallel sides.",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_1",
+    "tag": "Gr6_46_E1",
+    "choices": [
+      "quadrilateral",
+      "square",
+      "rectangle",
+      "trapezoid"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/5",
+        "Yes, this shape is a quadrilateral, because it has 4 sides."
+      ],
+      [
+        "2/5",
+        "No, this shape is not a trapezoid, because it does not have 1 pair of parallel sides."
+      ],
+      [
+        "3/5",
+        "No, this shape is not a rectangle, because it does not have 4 right angles."
+      ],
+      [
+        "4/5",
+        "No, this shape is not a square, because it does not have 4 right angles, nor does it have 4 sides of the same length."
+      ],
+      [
+        "5/5",
+        "Therefore, this shape is a quadrilateral."
+      ]
+    ]
+  },
+  {
+    "skills": "classify-quadrilaterals",
+    "question_text": "Is a rectangle always a rhombus?",
+    "tag": "Gr6_46_E1",
+    "question_number": "1_2",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "choices": [
+      "yes",
+      "no"
+    ],
+    "correct_answers": [
+      "B"
+    ],
+    "solution_image_tag": [
+      [
+        "2/3",
+        "Gr6_46_1_2_step_2",
+        "This image shows a green square."
+      ],
+      [
+        "3/3",
+        "Gr6_46_1_2_step_3",
+        "This image shows a pink rectangle."
+      ]
+    ],
+    "solution": [
+      [
+        "1/3",
+        "A rectangle is not always a rhombus."
+      ],
+      [
+        "2/3",
+        "Here is an example of a rectangle that is a rhombus:"
+      ],
+      [
+        "3/3",
+        "Here is an example of a rectangle that is not a rhombus:"
+      ]
+    ]
+  },
+  {
+    "question_text": "Choose the word that makes this sentence true.\nA trapezoid is ____ a quadrilateral.",
+    "skills": "classify-quadrilaterals",
+    "question_type": "Multiple Choice Question with Single Answer",
+    "question_number": "1_3",
+    "tag": "Gr6_46_E1",
+    "choices": [
+      "always",
+      "sometimes",
+      "never"
+    ],
+    "correct_answers": [
+      "A"
+    ],
+    "solution": [
+      [
+        "1/2",
+        "A trapezoid has 4 sides."
+      ],
+      [
+        "2/2",
+        "This means a trapezoid is always a quadrilateral because it has 4 sides."
+      ]
+    ]
+  }
+]

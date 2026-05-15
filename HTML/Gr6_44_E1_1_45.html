@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Points scored per game.</title>
+    <style>
+        .item {
+            display: inline-block;
+            padding: 10px;
+            background: #fff;
+        }
+        .histogram-container {
+            font-family: Arial, sans-serif;
+        }
+        .chart-title {
+            text-anchor: middle;
+            font-size: 14px;
+            font-weight: bold;
+            fill: #333;
+        }
+        .axis-label {
+            font-size: 12px;
+            fill: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr6_44_1_45">
+        <div class="histogram-container">
+            <svg width="360" height="340" viewBox="0 0 360 340">
+                <!-- Title -->
+                <text x="180.0" y="20" class="chart-title">Points scored per game.</text>
+
+                <!-- Y-axis label -->
+                <text x="15" y="150.0" class="axis-label" transform="rotate(-90, 15, 150.0)">Number of players</text>
+
+                <!-- Y-axis ticks and grid lines -->
+                
+        <text x="50" y="264.0" text-anchor="end" font-size="10" fill="#333">0</text>
+        <line x1="55" y1="260.0" x2="350" y2="260.0" stroke="#ddd" stroke-width="1" />
+        
+        <text x="50" y="223.25925925925924" text-anchor="end" font-size="10" fill="#333">5</text>
+        <line x1="55" y1="219.25925925925924" x2="350" y2="219.25925925925924" stroke="#ddd" stroke-width="1" />
+        
+        <text x="50" y="182.5185185185185" text-anchor="end" font-size="10" fill="#333">10</text>
+        <line x1="55" y1="178.5185185185185" x2="350" y2="178.5185185185185" stroke="#ddd" stroke-width="1" />
+        
+        <text x="50" y="133.62962962962962" text-anchor="end" font-size="10" fill="#333">16</text>
+        <line x1="55" y1="129.62962962962962" x2="350" y2="129.62962962962962" stroke="#ddd" stroke-width="1" />
+        
+        <text x="50" y="92.88888888888889" text-anchor="end" font-size="10" fill="#333">21</text>
+        <line x1="55" y1="88.88888888888889" x2="350" y2="88.88888888888889" stroke="#ddd" stroke-width="1" />
+        
+        <text x="50" y="43.99999999999997" text-anchor="end" font-size="10" fill="#333">27</text>
+        <line x1="55" y1="39.99999999999997" x2="350" y2="39.99999999999997" stroke="#ddd" stroke-width="1" />
+        
+
+                <!-- Y-axis line -->
+                <line x1="55" y1="30" x2="55" y2="260" stroke="#333" stroke-width="2" />
+
+                <!-- X-axis line -->
+                <line x1="55" y1="260" x2="350" y2="260" stroke="#333" stroke-width="2" />
+
+                <!-- Bars -->
+                
+        <rect x="60" y="219.25925925925924" width="50" height="40.74074074074075" fill="#4CAF50" />
+        <text x="85.0" y="280" text-anchor="middle" font-size="11" fill="#333">10-29</text>
+        
+        <rect x="120" y="202.96296296296296" width="50" height="57.03703703703704" fill="#4CAF50" />
+        <text x="145.0" y="280" text-anchor="middle" font-size="11" fill="#333">30-49</text>
+        
+        <rect x="180" y="178.5185185185185" width="50" height="81.4814814814815" fill="#4CAF50" />
+        <text x="205.0" y="280" text-anchor="middle" font-size="11" fill="#333">50-69</text>
+        
+        <rect x="240" y="178.5185185185185" width="50" height="81.4814814814815" fill="#4CAF50" />
+        <text x="265.0" y="280" text-anchor="middle" font-size="11" fill="#333">70-89</text>
+        
+        <rect x="300" y="39.99999999999997" width="50" height="220.00000000000003" fill="#4CAF50" />
+        <text x="325.0" y="280" text-anchor="middle" font-size="11" fill="#333">90-109</text>
+        
+
+                <!-- X-axis label -->
+                <text x="180.0" y="320" class="axis-label" text-anchor="middle">Score</text>
+            </svg>
+        </div>
+    </div>
+</body>
+</html>

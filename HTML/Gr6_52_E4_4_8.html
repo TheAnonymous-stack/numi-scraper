@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gr6_52_4_8</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #ffffff;
+        }
+        .item {
+            display: inline-block;
+        }
+        svg {
+            display: block;
+        }
+        .label {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .dimension {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr6_52_4_8">
+        <svg width="250" height="300" viewBox="0 0 250 300">
+            <!-- Rectangle A (larger) - light blue -->
+            <rect x="50" y="80" width="150" height="170"
+                  fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
+
+            <!-- Rectangle B (smaller) - light red, on top-left -->
+            <rect x="50" y="50" width="50" height="30"
+                  fill="#FFEBEE" stroke="#C62828" stroke-width="2"/>
+
+            <!-- Label A -->
+            <text x="125.0" y="165.0"
+                  text-anchor="middle" dominant-baseline="middle"
+                  class="label" fill="#1976D2">A</text>
+
+            <!-- Label B -->
+            <text x="75.0" y="65.0"
+                  text-anchor="middle" dominant-baseline="middle"
+                  class="label" fill="#C62828">B</text>
+
+            <!-- Dimension labels for Rectangle A -->
+            <!-- Width of A (bottom) -->
+            <text x="125.0" y="268"
+                  text-anchor="middle" class="dimension">15</text>
+
+            <!-- Height of A (right side) -->
+            <text x="210" y="165.0"
+                  text-anchor="start" dominant-baseline="middle" class="dimension">17</text>
+
+            <!-- Dimension labels for Rectangle B -->
+            <!-- Width of B (top) -->
+            <text x="75.0" y="42"
+                  text-anchor="middle" class="dimension">5</text>
+
+            <!-- Height of B (left side) -->
+            <text x="40" y="65.0"
+                  text-anchor="end" dominant-baseline="middle" class="dimension">3</text>
+        </svg>
+    </div>
+</body>
+</html>

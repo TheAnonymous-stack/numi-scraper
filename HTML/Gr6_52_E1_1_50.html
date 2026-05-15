@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<style>
+   body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .question {
+            font-size: 18px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .trapezoid-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+        .options {
+            margin: 30px 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .option {
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .option:hover {
+            background-color: #f0f8ff;
+            border-color: #4CAF50;
+            transform: scale(1.02);
+        }
+        .option-label {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+  </style>
+</head>
+<body><div class="item" label="Gr6_52_1_50">
+<svg height="250" viewbox="0 0 500 250" width="500">
+<!-- Trapezoid -->
+<polygon fill="lightblue" points="150,70 350,70 380,180 120,180" stroke="black" stroke-width="2">
+</polygon>
+<!-- Vertical cutting line -->
+<line stroke="red" stroke-dasharray="5,5" stroke-width="2" x1="250" x2="250" y1="70" y2="180">
+</line>
+<!-- Dimensions -->
+<text font-size="12" text-anchor="middle" x="250" y="60">
+      Top: 200
+     </text>
+<text font-size="12" text-anchor="middle" x="250" y="200">
+      Bottom: 260
+     </text>
+<text font-size="12" text-anchor="middle" x="100" y="125">
+      H: 110
+     </text>
+<!-- Cut label -->
+<text fill="red" font-size="11" x="260" y="125">
+      cut line
+     </text>
+<!-- Arrows showing the cut -->
+<path d="M 235 100 L 245 100 M 240 95 L 240 105" stroke="red" stroke-width="1.5">
+</path>
+<path d="M 255 100 L 265 100 M 260 95 L 260 105" stroke="red" stroke-width="1.5">
+</path>
+</svg>
+</div></body>
+</html>

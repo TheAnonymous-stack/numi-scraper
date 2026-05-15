@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 800px;
+        }
+        .item {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .fraction-model {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .fraction-label {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .model1 .fraction-label {
+            color: #4CAF50;
+        }
+        .model2 .fraction-label {
+            color: #2196F3;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" label="Gr6_3_2_30">
+            <div class="fraction-model model1">
+                <svg width="200" height="200" viewBox="0 0 200 200">
+                    <circle cx="100" cy="100" r="80" fill="white" stroke="#000" stroke-width="2"/>
+<path d="M 100 100 L 100.0 20.0 A 80 80 0 0 1 176.0845213036123 75.2786404500042 Z" fill="#4CAF50" stroke="#000" stroke-width="1"/>
+<path d="M 100 100 L 176.0845213036123 75.2786404500042 A 80 80 0 0 1 147.02282018339787 164.72135954999578 Z" fill="#4CAF50" stroke="#000" stroke-width="1"/>
+<path d="M 100 100 L 147.02282018339787 164.72135954999578 A 80 80 0 0 1 52.97717981660216 164.72135954999578 Z" fill="#4CAF50" stroke="#000" stroke-width="1"/>
+<path d="M 100 100 L 52.97717981660216 164.72135954999578 A 80 80 0 0 1 23.91547869638771 75.27864045000422 Z" fill="#4CAF50" stroke="#000" stroke-width="1"/>
+<line x1="100" y1="100" x2="100.0" y2="20.0" stroke="#000" stroke-width="1"/>
+<line x1="100" y1="100" x2="176.0845213036123" y2="75.2786404500042" stroke="#000" stroke-width="1"/>
+<line x1="100" y1="100" x2="147.02282018339787" y2="164.72135954999578" stroke="#000" stroke-width="1"/>
+<line x1="100" y1="100" x2="52.97717981660216" y2="164.72135954999578" stroke="#000" stroke-width="1"/>
+<line x1="100" y1="100" x2="23.91547869638771" y2="75.27864045000422" stroke="#000" stroke-width="1"/>
+                </svg>
+            </div>
+            <div class="fraction-model model2">
+                <svg width="200" height="200" viewBox="0 0 200 200">
+                    <circle cx="100" cy="100" r="80" fill="white" stroke="#000" stroke-width="2"/>
+<path d="M 100 100 L 100.0 20.0 A 80 80 0 0 1 180.0 100.0 Z" fill="#2196F3" stroke="#000" stroke-width="1"/>
+<line x1="100" y1="100" x2="100.0" y2="20.0" stroke="#000" stroke-width="1"/>
+<line x1="100" y1="100" x2="180.0" y2="100.0" stroke="#000" stroke-width="1"/>
+<line x1="100" y1="100" x2="100.0" y2="180.0" stroke="#000" stroke-width="1"/>
+<line x1="100" y1="100" x2="20.0" y2="100.00000000000001" stroke="#000" stroke-width="1"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

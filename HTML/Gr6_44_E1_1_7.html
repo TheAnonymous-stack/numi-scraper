@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songs in playlist.</title>
+    <style>
+        .item {
+            display: inline-block;
+            padding: 10px;
+            background: #fff;
+        }
+        .histogram-container {
+            font-family: Arial, sans-serif;
+        }
+        .chart-title {
+            text-anchor: middle;
+            font-size: 14px;
+            font-weight: bold;
+            fill: #333;
+        }
+        .axis-label {
+            font-size: 12px;
+            fill: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="item" label="Gr6_44_1_7">
+        <div class="histogram-container">
+            <svg width="360" height="340" viewBox="0 0 360 340">
+                <!-- Title -->
+                <text x="180.0" y="20" class="chart-title">Songs in playlist.</text>
+
+                <!-- Y-axis label -->
+                <text x="15" y="150.0" class="axis-label" transform="rotate(-90, 15, 150.0)">Number of fans</text>
+
+                <!-- Y-axis ticks and grid lines -->
+                
+        <text x="50" y="264.0" text-anchor="end" font-size="10" fill="#333">0</text>
+        <line x1="55" y1="260.0" x2="350" y2="260.0" stroke="#ddd" stroke-width="1" />
+        
+        <text x="50" y="224.71428571428572" text-anchor="end" font-size="10" fill="#333">5</text>
+        <line x1="55" y1="220.71428571428572" x2="350" y2="220.71428571428572" stroke="#ddd" stroke-width="1" />
+        
+        <text x="50" y="177.57142857142856" text-anchor="end" font-size="10" fill="#333">11</text>
+        <line x1="55" y1="173.57142857142856" x2="350" y2="173.57142857142856" stroke="#ddd" stroke-width="1" />
+        
+        <text x="50" y="138.28571428571428" text-anchor="end" font-size="10" fill="#333">16</text>
+        <line x1="55" y1="134.28571428571428" x2="350" y2="134.28571428571428" stroke="#ddd" stroke-width="1" />
+        
+        <text x="50" y="91.14285714285714" text-anchor="end" font-size="10" fill="#333">22</text>
+        <line x1="55" y1="87.14285714285714" x2="350" y2="87.14285714285714" stroke="#ddd" stroke-width="1" />
+        
+        <text x="50" y="44.0" text-anchor="end" font-size="10" fill="#333">28</text>
+        <line x1="55" y1="40.0" x2="350" y2="40.0" stroke="#ddd" stroke-width="1" />
+        
+
+                <!-- Y-axis line -->
+                <line x1="55" y1="30" x2="55" y2="260" stroke="#333" stroke-width="2" />
+
+                <!-- X-axis line -->
+                <line x1="55" y1="260" x2="350" y2="260" stroke="#333" stroke-width="2" />
+
+                <!-- Bars -->
+                
+        <rect x="60" y="142.14285714285717" width="50" height="117.85714285714285" fill="#4CAF50" />
+        <text x="85.0" y="280" text-anchor="middle" font-size="11" fill="#333">20-34</text>
+        
+        <rect x="120" y="40.0" width="50" height="220.0" fill="#4CAF50" />
+        <text x="145.0" y="280" text-anchor="middle" font-size="11" fill="#333">35-49</text>
+        
+        <rect x="180" y="173.57142857142856" width="50" height="86.42857142857143" fill="#4CAF50" />
+        <text x="205.0" y="280" text-anchor="middle" font-size="11" fill="#333">50-64</text>
+        
+        <rect x="240" y="173.57142857142856" width="50" height="86.42857142857143" fill="#4CAF50" />
+        <text x="265.0" y="280" text-anchor="middle" font-size="11" fill="#333">65-79</text>
+        
+        <rect x="300" y="150.0" width="50" height="110.0" fill="#4CAF50" />
+        <text x="325.0" y="280" text-anchor="middle" font-size="11" fill="#333">80-94</text>
+        
+
+                <!-- X-axis label -->
+                <text x="180.0" y="320" class="axis-label" text-anchor="middle">Songs</text>
+            </svg>
+        </div>
+    </div>
+</body>
+</html>

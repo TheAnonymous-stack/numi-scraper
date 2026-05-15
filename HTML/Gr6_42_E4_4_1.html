@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    .item {
+      display: inline-block;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    .dot-plot {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+    }
+    .dot-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-width: 40px;
+      margin: 0 5px;
+    }
+    .dots {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #FF6B00;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .x-val {
+      margin-top: 5px;
+      font-size: 14px;
+    }
+    .x-axis-label {
+      text-align: center;
+      font-size: 13px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+    table {
+      border-collapse: collapse;
+      margin: 0 auto;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 8px 20px;
+      text-align: center;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+    td.blank {
+      background-color: #ffffd0;
+      min-width: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="item" label="Gr6_42_4_1">
+    <div class="title">Homework assignments completed</div>
+    <div class="dot-plot">
+      <div class="dot-col"><div class="dots">✕ ✕ ✕ ✕ ✕ ✕</div><div class="x-val">0</div></div>
+<div class="dot-col"><div class="dots">✕</div><div class="x-val">1</div></div>
+<div class="dot-col"><div class="dots">✕</div><div class="x-val">2</div></div>
+<div class="dot-col"><div class="dots">✕ ✕ ✕ ✕ ✕ ✕</div><div class="x-val">3</div></div>
+<div class="dot-col"><div class="dots">✕ ✕ ✕ ✕ ✕</div><div class="x-val">4</div></div>
+
+    </div>
+    <div class="x-axis-label">Assignments</div>
+    <table>
+      <tr><th>Assignments</th><th>Number of students</th></tr>
+      <tr><td>0</td><td>6</td></tr>
+<tr><td>1</td><td>1</td></tr>
+<tr><td>2</td><td>1</td></tr>
+<tr><td>3</td><td>6</td></tr>
+<tr><td>4</td><td class="blank"></td></tr>
+
+    </table>
+  </div>
+</body>
+</html>

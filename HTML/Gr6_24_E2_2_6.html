@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Line: 27/4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            min-width: 900px;
+        }
+        .item {
+            position: relative;
+            display: inline-block;
+            width: 820px;
+            padding: 0 10px;
+        }
+        .line {
+            width: 800px;
+            height: 3px;
+            background-color: #333;
+            position: relative;
+            margin: 80px 0 60px 0;
+        }
+        .tick {
+            position: absolute;
+            width: 2px;
+            height: 20px;
+            background-color: #333;
+            top: -8px;
+        }
+        .tick-major {
+            height: 25px;
+            top: -11px;
+            width: 3px;
+            background-color: #000;
+        }
+        .tick-label {
+            position: absolute;
+            top: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            text-align: center;
+            width: 60px;
+            margin-left: -30px;
+            color: #333;
+        }
+        .fraction-point {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background-color: #FF4444;
+            border-radius: 50%;
+            top: -4px;
+            margin-left: -6px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        .fraction-label {
+            position: absolute;
+            top: -45px;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            width: 60px;
+            margin-left: -30px;
+            color: #FF4444;
+            background-color: white;
+            padding: 2px 4px;
+            border-radius: 4px;
+            border: 2px solid #FF4444;
+        }
+        .arrow {
+            position: absolute;
+            top: -8px;
+            width: 0;
+            height: 0;
+        }
+        .arrow-left {
+            left: -10px;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-right: 8px solid #333;
+        }
+        .arrow-right {
+            right: -10px;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 8px solid #333;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Number Line: 27/4</div>
+        <div class="item" label="Gr6_24_2_6">
+            <div class="line">
+                <div class="arrow arrow-left"></div>
+                <div class="arrow arrow-right"></div>        <div class="tick" style="left: 20.0px;"></div>
+        <div class="tick-label" style="left: 20.0px;">0</div>
+        <div class="tick" style="left: 47.14285714285714px;"></div>
+        <div class="tick" style="left: 74.28571428571428px;"></div>
+        <div class="tick" style="left: 101.42857142857143px;"></div>
+        <div class="tick" style="left: 128.57142857142856px;"></div>
+        <div class="tick-label" style="left: 128.57142857142856px;">1</div>
+        <div class="tick" style="left: 155.71428571428572px;"></div>
+        <div class="tick" style="left: 182.85714285714286px;"></div>
+        <div class="tick" style="left: 210.0px;"></div>
+        <div class="tick" style="left: 237.14285714285714px;"></div>
+        <div class="tick-label" style="left: 237.14285714285714px;">2</div>
+        <div class="tick" style="left: 264.28571428571433px;"></div>
+        <div class="tick" style="left: 291.42857142857144px;"></div>
+        <div class="tick" style="left: 318.57142857142856px;"></div>
+        <div class="tick" style="left: 345.7142857142857px;"></div>
+        <div class="tick-label" style="left: 345.7142857142857px;">3</div>
+        <div class="tick" style="left: 372.8571428571429px;"></div>
+        <div class="tick" style="left: 400.0px;"></div>
+        <div class="tick" style="left: 427.1428571428571px;"></div>
+        <div class="tick" style="left: 454.2857142857143px;"></div>
+        <div class="tick-label" style="left: 454.2857142857143px;">4</div>
+        <div class="tick" style="left: 481.4285714285714px;"></div>
+        <div class="tick" style="left: 508.5714285714286px;"></div>
+        <div class="tick" style="left: 535.7142857142858px;"></div>
+        <div class="tick" style="left: 562.8571428571429px;"></div>
+        <div class="tick-label" style="left: 562.8571428571429px;">5</div>
+        <div class="tick" style="left: 590.0px;"></div>
+        <div class="tick" style="left: 617.1428571428571px;"></div>
+        <div class="tick" style="left: 644.2857142857142px;"></div>
+        <div class="tick" style="left: 671.4285714285714px;"></div>
+        <div class="tick-label" style="left: 671.4285714285714px;">6</div>
+        <div class="tick" style="left: 698.5714285714286px;"></div>
+        <div class="tick" style="left: 725.7142857142858px;"></div>
+        <div class="tick" style="left: 752.8571428571429px;"></div>
+        <div class="tick-label" style="left: 752.8571428571429px;">27/4</div>
+        <div class="tick" style="left: 780.0px;"></div>
+        <div class="tick-label" style="left: 780.0px;">7</div>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead0" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 20.0 40 Q 33.57142857142857 10 47.14285714285714 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead0)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead1" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 47.14285714285714 40 Q 60.71428571428571 10 74.28571428571428 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead1)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead2" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 74.28571428571428 40 Q 87.85714285714286 10 101.42857142857143 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead2)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead3" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 101.42857142857143 40 Q 115.0 10 128.57142857142856 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead3)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead4" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 128.57142857142856 40 Q 142.14285714285714 10 155.71428571428572 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead4)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead5" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 155.71428571428572 40 Q 169.28571428571428 10 182.85714285714286 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead5)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead6" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 182.85714285714286 40 Q 196.42857142857144 10 210.0 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead6)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead7" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 210.0 40 Q 223.57142857142856 10 237.14285714285714 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead7)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead8" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 237.14285714285714 40 Q 250.71428571428572 10 264.28571428571433 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead8)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead9" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 264.28571428571433 40 Q 277.8571428571429 10 291.42857142857144 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead9)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead10" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 291.42857142857144 40 Q 305.0 10 318.57142857142856 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead10)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead11" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 318.57142857142856 40 Q 332.1428571428571 10 345.7142857142857 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead11)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead12" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 345.7142857142857 40 Q 359.28571428571433 10 372.8571428571429 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead12)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead13" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 372.8571428571429 40 Q 386.42857142857144 10 400.0 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead13)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead14" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 400.0 40 Q 413.57142857142856 10 427.1428571428571 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead14)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead15" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 427.1428571428571 40 Q 440.71428571428567 10 454.2857142857143 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead15)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead16" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 454.2857142857143 40 Q 467.85714285714283 10 481.4285714285714 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead16)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead17" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 481.4285714285714 40 Q 495.0 10 508.5714285714286 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead17)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead18" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 508.5714285714286 40 Q 522.1428571428572 10 535.7142857142858 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead18)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead19" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 535.7142857142858 40 Q 549.2857142857143 10 562.8571428571429 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead19)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead20" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 562.8571428571429 40 Q 576.4285714285714 10 590.0 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead20)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead21" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 590.0 40 Q 603.5714285714286 10 617.1428571428571 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead21)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead22" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 617.1428571428571 40 Q 630.7142857142857 10 644.2857142857142 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead22)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead23" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 644.2857142857142 40 Q 657.8571428571429 10 671.4285714285714 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead23)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead24" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 671.4285714285714 40 Q 685.0 10 698.5714285714286 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead24)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead25" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 698.5714285714286 40 Q 712.1428571428571 10 725.7142857142858 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead25)" />
+        </svg>
+        <svg style="position: absolute; left: 0; top: -40px; width: 800px; height: 100px; pointer-events: none;">
+            <defs>
+                <marker id="arrowhead26" markerWidth="10" markerHeight="7" 
+                 refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3" />
+                </marker>
+            </defs>
+            <path d="M 725.7142857142858 40 Q 739.2857142857143 10 752.8571428571429 40" stroke="#2196F3" stroke-width="2" fill="none" 
+                  marker-end="url(#arrowhead26)" />
+        </svg>
+        <div class="fraction-point" style="left: 752.8571428571429px;"></div>
+        <div class="fraction-label" style="left: 752.8571428571429px;">27/4</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
